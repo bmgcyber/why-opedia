@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Why-opedia — Cause &amp; Effect Graph Encyclopedia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Toolbar -->
+  <div id="toolbar">
+    <div id="wordmark">Why<span>-opedia</span></div>
+
+    <button id="fit-btn" title="Reset view">⊡</button>
+
+    <div id="search-wrap">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input id="search" type="text" placeholder="Search nodes, tags…" autocomplete="off" spellcheck="false" />
+    </div>
+
+    <div id="filters">
+      <!-- Populated by app.js -->
+    </div>
+
+    <a id="contribute-link" href="https://github.com/bmgcyber/why-opedia/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">
+      + Contribute
+    </a>
+  </div>
+
+  <!-- Graph canvas -->
+  <div id="cy"></div>
+
+  <!-- Info panel -->
+  <div id="info-panel" role="complementary" aria-label="Node detail">
+    <button id="panel-close" aria-label="Close panel">✕</button>
+    <div id="panel-inner">
+      <!-- Populated by app.js -->
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div id="stats"></div>
+
+  <!-- Edge legend -->
+  <div id="legend">
+    <div id="legend-title">Edge types</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#e05252"></div>CAUSED</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#e09752"></div>ENABLED</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#5b8dee"></div>SHARES_MECHANISM_WITH</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#a96ce6"></div>SELF_REINFORCES</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#4a4f6a"></div>other</div>
+    <div class="legend-row"><div class="legend-swatch dashed"></div>speculative</div>
+  </div>
+
+  <!-- Cytoscape.js from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.28.1/cytoscape.min.js"></script>
+
+  <!-- App -->
+  <script src="app.js"></script>
+</body>
+</html>

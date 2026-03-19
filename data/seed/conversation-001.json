@@ -1,0 +1,498 @@
+{
+  "conversation": "001",
+  "description": "Seed dataset derived from the conversation that conceived Why-opedia. Covers identity capture, broken epistemology, antisemitism, and the mechanisms connecting them.",
+  "nodes": [
+    {
+      "id": "fat_acceptance_movement",
+      "label": "Fat Acceptance Movement",
+      "node_type": "reference",
+      "category": "movement",
+      "wikipedia": "https://en.wikipedia.org/wiki/Fat_acceptance_movement",
+      "summary": "Social movement advocating for dignity and reduced discrimination toward people of larger body size. Contains legitimate advocacy and ideological capture in tension.",
+      "decade": "1960s–Ongoing",
+      "tags": ["identity", "health", "psychology", "social"]
+    },
+    {
+      "id": "healthy_at_every_size",
+      "label": "Health At Every Size",
+      "node_type": "reference",
+      "category": "ideology",
+      "wikipedia": "https://en.wikipedia.org/wiki/Health_at_every_size",
+      "summary": "Framework claiming body size is not a reliable indicator of health. Strong form conflicts with documented epidemiological evidence.",
+      "decade": "2000s–Ongoing",
+      "tags": ["health", "ideology", "medical"]
+    },
+    {
+      "id": "identity_capture",
+      "label": "Identity Capture",
+      "node_type": "mechanism",
+      "category": "mechanism",
+      "summary": "The process by which a condition, struggle, or interest becomes so central to self-concept that improvement or exit threatens identity and community belonging.",
+      "decade": "Ongoing",
+      "tags": ["psychology", "mechanism", "community"]
+    },
+    {
+      "id": "incel_community",
+      "label": "Incel Community",
+      "node_type": "reference",
+      "category": "community",
+      "wikipedia": "https://en.wikipedia.org/wiki/Incel",
+      "summary": "Online community of self-identified involuntary celibates. Characterized by external attribution of failure, misogyny, and ideological frameworks that prevent self-examination.",
+      "decade": "2010s–Ongoing",
+      "tags": ["community", "psychology", "identity", "misogyny"]
+    },
+    {
+      "id": "brony_fandom",
+      "label": "Brony Fandom",
+      "node_type": "reference",
+      "category": "community",
+      "wikipedia": "https://en.wikipedia.org/wiki/Brony",
+      "summary": "Adult male fanbase of My Little Pony: Friendship is Magic. Characterized by intense identity attachment to children's media, often associated with social alienation and identity displacement.",
+      "decade": "2010s–Ongoing",
+      "tags": ["community", "fandom", "psychology", "identity"]
+    },
+    {
+      "id": "furry_fandom",
+      "label": "Furry Fandom",
+      "node_type": "reference",
+      "category": "community",
+      "wikipedia": "https://en.wikipedia.org/wiki/Furry_fandom",
+      "summary": "Subculture centered on anthropomorphic animal characters. Notable for fursona identity displacement, high rate of sexual content, and documented community predation issues.",
+      "decade": "1980s–Ongoing",
+      "tags": ["community", "fandom", "psychology", "identity"]
+    },
+    {
+      "id": "chronic_illness_online_communities",
+      "label": "Chronic Illness Online Communities",
+      "node_type": "reference",
+      "category": "community",
+      "wikipedia": "https://en.wikipedia.org/wiki/Online_patient_community",
+      "summary": "Online forums organized around shared medical conditions. Can provide genuine support but frequently develop identity reward structures that discourage recovery and amplify worst-case narratives.",
+      "decade": "2000s–Ongoing",
+      "tags": ["community", "medical", "psychology", "identity"]
+    },
+    {
+      "id": "medical_weight_bias",
+      "label": "Medical Weight Bias",
+      "node_type": "reference",
+      "category": "phenomenon",
+      "wikipedia": "https://en.wikipedia.org/wiki/Weight_discrimination",
+      "summary": "Documented tendency of healthcare providers to attribute symptoms to weight first, leading to missed diagnoses and reduced care quality for patients with obesity.",
+      "decade": "Ongoing",
+      "tags": ["medical", "bias", "health"]
+    },
+    {
+      "id": "mk_ultra",
+      "label": "MK Ultra",
+      "node_type": "reference",
+      "category": "event",
+      "wikipedia": "https://en.wikipedia.org/wiki/Project_MKUltra",
+      "summary": "CIA program running from the 1950s–1970s conducting non-consensual human experimentation including LSD dosing, psychological torture, and collaboration with former Nazi scientists. Partially exposed by the Church Committee in 1975.",
+      "decade": "1950s–1970s",
+      "tags": ["government", "CIA", "conspiracy", "history", "documented_atrocity"]
+    },
+    {
+      "id": "church_committee",
+      "label": "Church Committee",
+      "node_type": "reference",
+      "category": "event",
+      "wikipedia": "https://en.wikipedia.org/wiki/Church_Committee",
+      "summary": "1975 U.S. Senate select committee that investigated and exposed abuses by the CIA, FBI, and NSA including MK Ultra, COINTELPRO, and illegal domestic surveillance.",
+      "decade": "1970s",
+      "tags": ["government", "history", "accountability"]
+    },
+    {
+      "id": "broken_epistemology",
+      "label": "Broken Epistemology",
+      "node_type": "mechanism",
+      "category": "mechanism",
+      "summary": "Condition in which a person or group loses reliable tools to distinguish credible evidence from false claims. Often produced when legitimate institutional betrayal removes trust without replacing it with better reasoning frameworks.",
+      "decade": "Ongoing",
+      "tags": ["psychology", "mechanism", "epistemology"]
+    },
+    {
+      "id": "conspiracy_theory_grifters",
+      "label": "Conspiracy Theory Grifters",
+      "node_type": "reference",
+      "category": "phenomenon",
+      "wikipedia": "https://en.wikipedia.org/wiki/Conspiracy_theory",
+      "summary": "Actors who monetize unfalsifiable conspiracy frameworks, targeting populations with broken epistemology by supplying villain narratives that validate distrust of institutions.",
+      "decade": "Ongoing",
+      "tags": ["grift", "conspiracy", "psychology", "economics"]
+    },
+    {
+      "id": "corporate_regulatory_capture",
+      "label": "Corporate Regulatory Capture",
+      "node_type": "reference",
+      "category": "phenomenon",
+      "wikipedia": "https://en.wikipedia.org/wiki/Regulatory_capture",
+      "summary": "Process by which regulatory agencies meant to act in public interest come to serve the industries they regulate. Documented extensively in FDA, EPA, and financial regulation contexts.",
+      "decade": "Ongoing",
+      "tags": ["economics", "government", "corporate", "documented"]
+    },
+    {
+      "id": "pfas_microplastics",
+      "label": "PFAS and Microplastic Contamination",
+      "node_type": "reference",
+      "category": "phenomenon",
+      "wikipedia": "https://en.wikipedia.org/wiki/Microplastics",
+      "summary": "Widespread environmental and biological contamination from synthetic chemicals and plastics. Understudied relative to exposure, with regulatory response shaped by corporate influence.",
+      "decade": "1950s–Ongoing",
+      "tags": ["environment", "health", "corporate", "chemical"]
+    },
+    {
+      "id": "medieval_christian_antisemitism",
+      "label": "Medieval Christian Antisemitism",
+      "node_type": "reference",
+      "category": "ideology",
+      "wikipedia": "https://en.wikipedia.org/wiki/Antisemitism_in_the_Middle_Ages",
+      "summary": "Theological and social framework developed in medieval Europe attributing collective guilt to Jewish people for the death of Christ, used to justify persecution, expulsion, forced conversion, and pogrom.",
+      "decade": "Medieval",
+      "tags": ["religion", "antisemitism", "history", "ideology"]
+    },
+    {
+      "id": "jewish_moneylending",
+      "label": "Jewish Forced Association with Moneylending",
+      "node_type": "reference",
+      "category": "phenomenon",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jewish_moneylenders",
+      "summary": "Medieval European Jews were barred from most professions but permitted moneylending, which Christians considered sinful. This enforced economic role was later used as justification for antisemitic stereotypes about Jewish financial control.",
+      "decade": "Medieval",
+      "tags": ["economics", "antisemitism", "history", "forced_role"]
+    },
+    {
+      "id": "protocols_of_elders_of_zion",
+      "label": "Protocols of the Elders of Zion",
+      "node_type": "reference",
+      "category": "ideology",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Protocols_of_the_Elders_of_Zion",
+      "summary": "Fabricated antisemitic text produced by Tsarist secret police in 1903 purporting to describe a Jewish plan for world domination. Proven forgery, still actively cited in conspiracy communities.",
+      "decade": "1900s",
+      "tags": ["antisemitism", "conspiracy", "propaganda", "forgery"]
+    },
+    {
+      "id": "nazi_propaganda",
+      "label": "Nazi Propaganda",
+      "node_type": "reference",
+      "category": "phenomenon",
+      "wikipedia": "https://en.wikipedia.org/wiki/Nazi_propaganda",
+      "summary": "Systematic state-run campaign to dehumanize Jewish people and other groups, drawing directly on existing Christian antisemitic frameworks and fabricated texts including Luther's writings and the Protocols.",
+      "decade": "1930s–1940s",
+      "tags": ["antisemitism", "nazism", "history", "propaganda"]
+    },
+    {
+      "id": "martin_luther_antisemitism",
+      "label": "Martin Luther's Antisemitic Writings",
+      "node_type": "reference",
+      "category": "event",
+      "wikipedia": "https://en.wikipedia.org/wiki/Martin_Luther_and_antisemitism",
+      "summary": "Late-career texts by Protestant Reformation founder Martin Luther calling for persecution of Jewish people. Directly reprinted by Nazi propagandists as ideological justification.",
+      "decade": "1540s",
+      "tags": ["antisemitism", "religion", "history", "protestantism"]
+    },
+    {
+      "id": "the_holocaust",
+      "label": "The Holocaust",
+      "node_type": "reference",
+      "category": "event",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Holocaust",
+      "summary": "Systematic state-sponsored genocide of six million Jewish people and millions of others by Nazi Germany between 1941 and 1945. The terminus of two thousand years of accumulated antisemitic infrastructure.",
+      "decade": "1940s",
+      "tags": ["genocide", "antisemitism", "history", "nazism"]
+    },
+    {
+      "id": "watergate",
+      "label": "Watergate",
+      "node_type": "reference",
+      "category": "event",
+      "wikipedia": "https://en.wikipedia.org/wiki/Watergate_scandal",
+      "summary": "1972–1974 political scandal in which the Nixon administration orchestrated a break-in and coverup. Involved approximately 30 people and collapsed under investigation, demonstrating the limits of government secrecy.",
+      "decade": "1970s",
+      "tags": ["government", "scandal", "history", "accountability"]
+    },
+    {
+      "id": "apollo_moon_landing",
+      "label": "Apollo Moon Landing",
+      "node_type": "reference",
+      "category": "event",
+      "wikipedia": "https://en.wikipedia.org/wiki/Apollo_11",
+      "summary": "1969 U.S. mission landing humans on the Moon for the first time. Confirmed by independent international observers including the Soviet Union, with physical evidence including 842 lbs of lunar samples and retroreflectors still pingable today.",
+      "decade": "1960s",
+      "tags": ["history", "science", "technology", "space"]
+    },
+    {
+      "id": "moon_landing_conspiracy",
+      "label": "Moon Landing Conspiracy Theory",
+      "node_type": "reference",
+      "category": "ideology",
+      "wikipedia": "https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories",
+      "summary": "Claim that Apollo missions were faked. Contradicted by independent international confirmation, Soviet acknowledgment, physical evidence, and the impossibility of coordinating silence among 400,000 workers.",
+      "decade": "1970s–Ongoing",
+      "tags": ["conspiracy", "pseudoscience", "epistemology"]
+    },
+    {
+      "id": "scapegoating_mechanism",
+      "label": "Scapegoating",
+      "node_type": "mechanism",
+      "category": "mechanism",
+      "summary": "Psychological and social mechanism in which a group experiencing diffuse anxiety or systemic problems displaces blame onto a specific identifiable out-group.",
+      "decade": "Ongoing",
+      "tags": ["psychology", "mechanism", "sociology"]
+    },
+    {
+      "id": "legitimate_grievance_capture",
+      "label": "Legitimate Grievance Capture",
+      "node_type": "mechanism",
+      "category": "mechanism",
+      "summary": "Pattern in which a real and documented injustice or systemic failure becomes the entry point for bad-faith actors supplying false or extreme explanations. The legitimacy of the grievance provides cover for the false explanation.",
+      "decade": "Ongoing",
+      "tags": ["mechanism", "psychology", "epistemology", "politics"]
+    },
+    {
+      "id": "political_radicalization",
+      "label": "Political Radicalization",
+      "node_type": "reference",
+      "category": "phenomenon",
+      "wikipedia": "https://en.wikipedia.org/wiki/Radicalization",
+      "summary": "Process by which individuals or groups adopt increasingly extreme political or ideological positions. A documented real-world outcome that legitimate grievance capture frequently produces.",
+      "decade": "Ongoing",
+      "tags": ["politics", "psychology", "radicalization", "extremism"]
+    }
+  ],
+  "edges": [
+    {
+      "id": "fat_acceptance__healthy_at_every_size",
+      "source": "fat_acceptance_movement",
+      "target": "healthy_at_every_size",
+      "type": "PRODUCED",
+      "label": "produced strong-form health claim",
+      "note": "Fat acceptance movement generated HAES as its medical framework, extending dignity advocacy into contested health claims.",
+      "confidence": "high"
+    },
+    {
+      "id": "fat_acceptance__identity_capture",
+      "source": "fat_acceptance_movement",
+      "target": "identity_capture",
+      "type": "NORMALIZED",
+      "label": "normalized weight as core identity",
+      "note": "Community reward structures make losing weight feel like betrayal of in-group, converting a health condition into load-bearing identity.",
+      "confidence": "high"
+    },
+    {
+      "id": "fat_acceptance__medical_weight_bias",
+      "source": "medical_weight_bias",
+      "target": "fat_acceptance_movement",
+      "type": "ENABLED",
+      "label": "legitimate bias fueled movement",
+      "note": "Documented poor medical care for larger patients provided the real grievance that grew the movement.",
+      "confidence": "high"
+    },
+    {
+      "id": "identity_capture__incel",
+      "source": "identity_capture",
+      "target": "incel_community",
+      "type": "SHARES_MECHANISM_WITH",
+      "label": "same identity lock-in pattern",
+      "note": "Both fat acceptance and incel communities use identity capture to insulate members from self-examination. Leaving = betrayal.",
+      "confidence": "high"
+    },
+    {
+      "id": "identity_capture__brony",
+      "source": "identity_capture",
+      "target": "brony_fandom",
+      "type": "SHARES_MECHANISM_WITH",
+      "label": "fandom becomes identity not interest",
+      "note": "For a subset, MLP fandom becomes a surrogate social world rather than an entertainment preference.",
+      "confidence": "medium"
+    },
+    {
+      "id": "identity_capture__furry",
+      "source": "identity_capture",
+      "target": "furry_fandom",
+      "type": "SHARES_MECHANISM_WITH",
+      "label": "fursona as identity displacement",
+      "note": "Fursona construction suggests the appeal is not anthropomorphic animals but an alternate self that opts out of uncomfortable human identity.",
+      "confidence": "medium"
+    },
+    {
+      "id": "identity_capture__chronic_illness",
+      "source": "identity_capture",
+      "target": "chronic_illness_online_communities",
+      "type": "SHARES_MECHANISM_WITH",
+      "label": "illness becomes personality",
+      "note": "Communities develop reward structures where being sicker generates more engagement, and recovery threatens belonging.",
+      "confidence": "high"
+    },
+    {
+      "id": "incel__self_reinforces",
+      "source": "incel_community",
+      "target": "incel_community",
+      "type": "SELF_REINFORCES",
+      "label": "anger makes rejection more likely",
+      "note": "Ideology produces entitlement and anger which function as social repellents, confirming the ideology's predictions and deepening commitment.",
+      "confidence": "high"
+    },
+    {
+      "id": "mk_ultra__broken_epistemology",
+      "source": "mk_ultra",
+      "target": "broken_epistemology",
+      "type": "CAUSED",
+      "label": "proved government capable of atrocity",
+      "note": "Declassified confirmation that the U.S. government ran non-consensual human experimentation created a permanent legitimate basis for institutional distrust.",
+      "confidence": "high"
+    },
+    {
+      "id": "church_committee__mk_ultra",
+      "source": "church_committee",
+      "target": "mk_ultra",
+      "type": "DISCREDITED",
+      "label": "exposed program publicly",
+      "note": "1975 Senate investigation brought MK Ultra into public record, converting a hidden atrocity into documented history.",
+      "confidence": "high"
+    },
+    {
+      "id": "watergate__broken_epistemology",
+      "source": "watergate",
+      "target": "broken_epistemology",
+      "type": "CAUSED",
+      "label": "demonstrated government lies at highest level",
+      "note": "Nixon's coverup confirmed that presidential-level deception was real, contributing to collapse of institutional trust.",
+      "confidence": "high"
+    },
+    {
+      "id": "broken_epistemology__conspiracy_grifters",
+      "source": "broken_epistemology",
+      "target": "conspiracy_theory_grifters",
+      "type": "ENABLED",
+      "label": "created exploitable audience",
+      "note": "Populations without reliable epistemic tools cannot distinguish documented institutional failure from unfalsifiable conspiracy claims.",
+      "confidence": "high"
+    },
+    {
+      "id": "grifters__legitimate_grievance",
+      "source": "conspiracy_theory_grifters",
+      "target": "legitimate_grievance_capture",
+      "type": "EXPLOITED",
+      "label": "weaponized real grievances",
+      "note": "MK Ultra, regulatory capture, and corporate chemical harm are all real. Grifters use them as entry points to supply false villain narratives.",
+      "confidence": "high"
+    },
+    {
+      "id": "corporate_capture__broken_epistemology",
+      "source": "corporate_regulatory_capture",
+      "target": "broken_epistemology",
+      "type": "CAUSED",
+      "label": "eroded trust in scientific consensus",
+      "note": "Documented cases of corporations suppressing research (tobacco, PFAS, lead) make it rational to distrust scientific claims that touch corporate interests.",
+      "confidence": "high"
+    },
+    {
+      "id": "pfas__corporate_capture",
+      "source": "pfas_microplastics",
+      "target": "corporate_regulatory_capture",
+      "type": "PRODUCED",
+      "label": "textbook regulatory failure",
+      "note": "PFAS contamination persisted for decades with industry knowledge due to regulatory agency capture by chemical manufacturers.",
+      "confidence": "high"
+    },
+    {
+      "id": "legitimate_grievance__moon_conspiracy",
+      "source": "legitimate_grievance_capture",
+      "target": "moon_landing_conspiracy",
+      "type": "PROVIDED_COVER_FOR",
+      "label": "real lies enable false ones",
+      "note": "'They lied about X therefore they could lie about Y' is logically invalid but emotionally coherent when X is genuinely true.",
+      "confidence": "high"
+    },
+    {
+      "id": "medieval_antisemitism__jewish_moneylending",
+      "source": "medieval_christian_antisemitism",
+      "target": "jewish_moneylending",
+      "type": "FORCED_INTO",
+      "label": "exclusion created the stereotype",
+      "note": "Jews were barred from guilds and most professions. Moneylending was permitted. The stereotype of Jewish financial control was created by the exclusion, then blamed on the excluded.",
+      "confidence": "high"
+    },
+    {
+      "id": "medieval_antisemitism__luther",
+      "source": "medieval_christian_antisemitism",
+      "target": "martin_luther_antisemitism",
+      "type": "ENABLED",
+      "label": "theological infrastructure already existed",
+      "note": "Luther's late antisemitic writings drew on 1000 years of accumulated Christian theological antisemitism.",
+      "confidence": "high"
+    },
+    {
+      "id": "luther__nazi_propaganda",
+      "source": "martin_luther_antisemitism",
+      "target": "nazi_propaganda",
+      "type": "ENABLED",
+      "label": "texts directly reprinted by Nazis",
+      "note": "Nazi propagandists literally reprinted Luther's antisemitic texts as ideological material. Not metaphorical — actual publication.",
+      "confidence": "high"
+    },
+    {
+      "id": "protocols__nazi_propaganda",
+      "source": "protocols_of_elders_of_zion",
+      "target": "nazi_propaganda",
+      "type": "ENABLED",
+      "label": "fabricated evidence of conspiracy",
+      "note": "Proven forgery from 1903 was treated as documentary evidence of Jewish conspiracy by Nazi propagandists despite its exposed status.",
+      "confidence": "high"
+    },
+    {
+      "id": "scapegoating__medieval_antisemitism",
+      "source": "scapegoating_mechanism",
+      "target": "medieval_christian_antisemitism",
+      "type": "ENABLED",
+      "label": "psychological mechanism was the vehicle",
+      "note": "Medieval antisemitism was not only theological — it also served as a scapegoating mechanism for plague, economic anxiety, and social instability.",
+      "confidence": "high"
+    },
+    {
+      "id": "nazi_propaganda__holocaust",
+      "source": "nazi_propaganda",
+      "target": "the_holocaust",
+      "type": "ENABLED",
+      "label": "dehumanization preceded genocide",
+      "note": "Propaganda created the psychological infrastructure for genocide by dehumanizing target populations before the machinery of extermination was operational.",
+      "confidence": "high"
+    },
+    {
+      "id": "medieval_antisemitism__holocaust",
+      "source": "medieval_christian_antisemitism",
+      "target": "the_holocaust",
+      "type": "ENABLED",
+      "label": "2000 years of infrastructure",
+      "note": "The Holocaust required no new ideology. It executed on antisemitic frameworks that had been built and maintained for two thousand years.",
+      "confidence": "high"
+    },
+    {
+      "id": "scapegoating__conspiracy_grifters",
+      "source": "scapegoating_mechanism",
+      "target": "conspiracy_theory_grifters",
+      "type": "ENABLED",
+      "label": "villain slot is always available",
+      "note": "Grifters supply pre-made villains into a psychological slot that humans reliably create when experiencing diffuse systemic anxiety.",
+      "confidence": "high"
+    },
+    {
+      "id": "identity_capture__fat_acceptance",
+      "source": "identity_capture",
+      "target": "fat_acceptance_movement",
+      "type": "COLONIZED",
+      "label": "dignity advocacy captured by identity framework",
+      "note": "The legitimate core of fat acceptance (medical bias, dignity, anti-stigma) was colonized by an identity framework that makes improvement feel like betrayal.",
+      "confidence": "medium"
+    },
+    {
+      "id": "legitimate_grievance_capture__political_radicalization",
+      "source": "legitimate_grievance_capture",
+      "target": "political_radicalization",
+      "type": "ENABLED",
+      "label": "mechanism produces documented outcome",
+      "note": "Legitimate Grievance Capture is the mechanism. Political radicalization is the real-world outcome it frequently produces. The mechanism node explains the why; the reference node is the what.",
+      "confidence": "high"
+    }
+  ]
+}
