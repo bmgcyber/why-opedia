@@ -482,5 +482,164 @@
     "summary": "The two-century process of Ottoman territorial and military retreat from Europe following the 1683 defeat at Vienna — encompassing the Great Turkish War, the Treaty of Karlowitz (1699), and the long 19th-century Eastern Question that defined European diplomacy until the empire's dissolution after World War I.",
     "decade": "1680s–1910s",
     "tags": ["ottoman", "history", "europe", "empire", "decline"]
+  },
+  {
+    "id": "american_eugenics_movement",
+    "label": "American Eugenics Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eugenics_in_the_United_States",
+    "summary": "State-backed program of forced sterilization and racial hygiene laws that sterilized approximately 60,000 Americans deemed 'unfit.' Explicitly cited by Nazi racial scientists as legal and scientific precedent; Nuremberg Laws were modeled partly on American miscegenation and sterilization statutes.",
+    "decade": "1900s–1940s",
+    "tags": ["racism", "pseudoscience", "policy", "history", "documented_atrocity"]
+  },
+  {
+    "id": "buck_v_bell",
+    "label": "Buck v. Bell",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Buck_v._Bell",
+    "summary": "1927 U.S. Supreme Court ruling that state-mandated sterilization of the 'unfit' was constitutional. Justice Oliver Wendell Holmes wrote: 'Three generations of imbeciles are enough.' The ruling was never overturned and provided legal cover for eugenics programs across the United States.",
+    "decade": "1920s",
+    "tags": ["law", "eugenics", "racism", "history", "policy"]
+  },
+  {
+    "id": "social_media_algorithms",
+    "label": "Social Media Algorithmic Feeds",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Social_media",
+    "summary": "Engagement-maximizing recommendation systems deployed by platforms including Facebook, YouTube, and Twitter that prioritize content predicted to generate emotional reactions and extended session time. Documented by internal and academic research to systematically favor divisive, outrage-generating, and extreme content.",
+    "decade": "2010s–Ongoing",
+    "tags": ["technology", "media", "social", "algorithms", "epistemology"]
+  },
+  {
+    "id": "filter_bubble",
+    "label": "Filter Bubble",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Filter_bubble",
+    "summary": "Algorithmic curation environment in which a user's prior engagement history determines what content they see, progressively narrowing their information exposure. Coined by Eli Pariser in 2011; documented by research to reduce exposure to counter-attitudinal information and amplify existing beliefs.",
+    "decade": "2010s–Ongoing",
+    "tags": ["technology", "media", "epistemology", "social", "algorithms"]
+  },
+  {
+    "id": "outrage_optimization",
+    "label": "Outrage Optimization",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Emergent algorithmic pattern in which engagement-maximizing systems discover that outrage, fear, and moral violation reliably generate more clicks, shares, and session time than neutral or positive content — and therefore amplify such content regardless of its accuracy or social cost.",
+    "decade": "2010s–Ongoing",
+    "tags": ["mechanism", "technology", "media", "epistemology", "psychology"]
+  },
+  {
+    "id": "atlantic_slave_trade",
+    "label": "Atlantic Slave Trade",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Atlantic_slave_trade",
+    "summary": "The forced transportation of approximately 12.5 million Africans to the Americas between the 16th and 19th centuries. Constructed a racial hierarchy and dehumanizing ideology that survived the trade's legal abolition and provided the foundational structure for subsequent American racial apartheid.",
+    "decade": "1500s–1800s",
+    "tags": ["slavery", "racism", "history", "colonialism", "documented_atrocity"]
+  },
+  {
+    "id": "jim_crow_laws",
+    "label": "Jim Crow Laws",
+    "node_type": "reference",
+    "category": "policy",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jim_Crow_laws",
+    "summary": "System of racial apartheid laws enforced in the American South from Reconstruction through 1965, segregating public facilities, restricting voting, and institutionalizing racial subordination after the Civil War. Maintained through law enforcement terror and lynching.",
+    "decade": "1870s–1960s",
+    "tags": ["racism", "policy", "history", "civil_rights", "documented_atrocity"]
+  },
+  {
+    "id": "war_on_drugs",
+    "label": "War on Drugs",
+    "node_type": "reference",
+    "category": "policy",
+    "wikipedia": "https://en.wikipedia.org/wiki/War_on_drugs",
+    "summary": "Nixon-era federal policy of mandatory minimum sentences and militarized drug enforcement. Nixon's domestic policy adviser John Ehrlichman stated on record the War on Drugs was designed to criminalize Black and antiwar communities by associating them with heroin and marijuana respectively.",
+    "decade": "1970s–Ongoing",
+    "tags": ["policy", "racism", "government", "criminal_justice", "history"]
+  },
+  {
+    "id": "mass_incarceration",
+    "label": "Mass Incarceration",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mass_incarceration_in_the_United_States",
+    "summary": "The United States' imprisonment of over 2 million people — the highest incarceration rate in the world — disproportionately affecting Black Americans at a ratio of approximately 5:1. Produced by mandatory minimum sentencing, the War on Drugs, and policing policies whose racial targeting was in several cases explicitly documented.",
+    "decade": "1980s–Ongoing",
+    "tags": ["criminal_justice", "racism", "policy", "phenomenon", "social"]
+  },
+  {
+    "id": "gulf_of_tonkin_incident",
+    "label": "Gulf of Tonkin Incident",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident",
+    "summary": "Manufactured or exaggerated naval incidents in 1964 used by the Johnson administration to obtain the Gulf of Tonkin Resolution, providing congressional authorization for full-scale U.S. involvement in Vietnam. Declassified NSA documents confirmed the second alleged attack did not occur.",
+    "decade": "1960s",
+    "tags": ["government", "history", "deception", "war", "vietnam"]
+  },
+  {
+    "id": "vietnam_war",
+    "label": "Vietnam War",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vietnam_War",
+    "summary": "U.S. military conflict in Southeast Asia from 1955–1975, escalated through manufactured provocation and sustained by decades of government deception about its progress and prospects. Ended with 58,000 American and over a million Vietnamese dead; the most consequential collapse of American institutional trust in the 20th century.",
+    "decade": "1950s–1970s",
+    "tags": ["war", "history", "government", "deception", "documented_atrocity"]
+  },
+  {
+    "id": "pentagon_papers",
+    "label": "Pentagon Papers",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pentagon_Papers",
+    "summary": "Classified Defense Department history of U.S. involvement in Vietnam leaked by Daniel Ellsberg in 1971. Revealed that multiple administrations had systematically deceived Congress and the public about the war's progress and prospects — converting public suspicion of government deception into documented confirmation.",
+    "decade": "1970s",
+    "tags": ["government", "history", "deception", "accountability", "vietnam"]
+  },
+  {
+    "id": "mccarthy_red_scare",
+    "label": "McCarthyism / Second Red Scare",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/McCarthyism",
+    "summary": "The 1950s political climate of anti-communist paranoia driven by Senator Joseph McCarthy and HUAC, which destroyed careers through accusation, demanded loyalty oaths, and prosecuted dissent as treason — creating an environment where skepticism of U.S. foreign policy became politically lethal.",
+    "decade": "1940s–1950s",
+    "tags": ["politics", "history", "anti-communism", "government", "paranoia"]
+  },
+  {
+    "id": "fossil_fuel_industry",
+    "label": "Fossil Fuel Industry",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fossil_fuel_industry",
+    "summary": "The global extraction, refining, and distribution industry for coal, oil, and natural gas. Internal documents from Exxon show the company's own scientists confirmed human-caused climate change by 1977 — the same decade the company began funding campaigns to manufacture public doubt about that consensus.",
+    "decade": "1850s–Ongoing",
+    "tags": ["corporate", "energy", "climate", "industry", "economics"]
+  },
+  {
+    "id": "armenian_genocide",
+    "label": "Armenian Genocide",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Armenian_genocide",
+    "summary": "The systematic extermination of 600,000–1.5 million Armenians by the Ottoman Empire between 1914–1923, conducted through mass shootings, death marches, and starvation. Often described as the first genocide of the 20th century; Hitler reportedly invoked Armenian impunity as precedent when planning the Holocaust.",
+    "decade": "1910s–1920s",
+    "tags": ["genocide", "history", "ottoman", "documented_atrocity", "middle_east"]
+  },
+  {
+    "id": "berlin_conference_1884",
+    "label": "Berlin Conference",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Berlin_Conference_(1884%E2%80%931885)",
+    "summary": "The 1884–1885 conference at which European powers partitioned the African continent among themselves without African representation. Formalized the colonial project at continental scale, creating the administrative infrastructure through which racial ideologies like the Hamitic Hypothesis were systematically applied to justify subjugation.",
+    "decade": "1880s",
+    "tags": ["colonialism", "africa", "history", "europe", "racism"]
   }
 ]

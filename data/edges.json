@@ -619,5 +619,410 @@
     "label": "religious division weakened unified resistance",
     "note": "Protestant princes frequently preferred Ottoman pressure on the Catholic Habsburgs to Habsburg dominance — France under Francis I maintained a documented alliance with Suleiman the Magnificent. At Vienna in 1683, Sobieski's relief force was smaller than it might have been partly because Protestant states were reluctant to reinforce the Habsburgs.",
     "confidence": "speculative"
+  },
+  {
+    "id": "apollo_moon_landing__moon_landing_conspiracy",
+    "source": "apollo_moon_landing",
+    "target": "moon_landing_conspiracy",
+    "type": "DISCREDITED",
+    "label": "physical evidence refutes the conspiracy",
+    "note": "The Moon landing is directly verified by: independent Soviet confirmation, 842 lbs of lunar samples analyzed by labs worldwide, retroreflectors still pingable by laser today, and 400,000 workers — an impossibly large number to maintain a secret.",
+    "confidence": "high"
+  },
+  {
+    "id": "american_eugenics_movement__buck_v_bell",
+    "source": "american_eugenics_movement",
+    "target": "buck_v_bell",
+    "type": "PRODUCED",
+    "label": "movement secured Supreme Court legitimacy",
+    "note": "The eugenics movement's legal and scientific lobbying produced the Buck v. Bell ruling as its formal judicial endorsement — converting a pseudoscientific ideology into constitutional law.",
+    "confidence": "high"
+  },
+  {
+    "id": "american_eugenics_movement__dehumanization",
+    "source": "american_eugenics_movement",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "declared the 'unfit' subhuman",
+    "note": "Eugenics required and deployed the dehumanization of disabled people, the poor, immigrants, and racial minorities as 'defectives' whose reproduction threatened civilization — providing scientific cover for the psychological process.",
+    "confidence": "high"
+  },
+  {
+    "id": "hamitic_hypothesis__american_eugenics_movement",
+    "source": "hamitic_hypothesis",
+    "target": "american_eugenics_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "shared racial hierarchy pseudoscience",
+    "note": "Both the Hamitic Hypothesis and American eugenics used scientific-appearing racial taxonomies to establish heritable hierarchies — pseudoscience dressed as anthropology or biology to justify state-sanctioned targeting of populations by race.",
+    "confidence": "medium"
+  },
+  {
+    "id": "american_eugenics_movement__cointelpro",
+    "source": "american_eugenics_movement",
+    "target": "cointelpro",
+    "type": "ENABLED",
+    "label": "normalized state targeting by biology",
+    "note": "The eugenics movement normalized the idea that the state could identify and neutralize threats based on hereditary characteristics — a template for state programs that targeted populations by race and political identity. J. Edgar Hoover's language about 'contamination' echoes eugenic framing.",
+    "confidence": "speculative"
+  },
+  {
+    "id": "social_media_algorithms__filter_bubble",
+    "source": "social_media_algorithms",
+    "target": "filter_bubble",
+    "type": "PRODUCED",
+    "label": "personalization produces information silos",
+    "note": "Engagement optimization algorithms produce filter bubbles as a side effect: showing users more of what they engage with progressively narrows their information environment, even when no silo was the explicit design goal.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_media_algorithms__outrage_optimization",
+    "source": "social_media_algorithms",
+    "target": "outrage_optimization",
+    "type": "PRODUCED",
+    "label": "engagement reward discovered outrage works",
+    "note": "Engagement-maximizing algorithms learn through reinforcement that outrage, fear, and moral indignation generate more user interaction than neutral content — producing outrage optimization as an emergent behavioral property without explicit design.",
+    "confidence": "high"
+  },
+  {
+    "id": "filter_bubble__outrage_optimization",
+    "source": "filter_bubble",
+    "target": "outrage_optimization",
+    "type": "ENABLED",
+    "label": "siloed users are primed for outrage",
+    "note": "Users inside information silos, seeing only content that confirms their beliefs, are more receptive to outrage-generating content about the out-group — making filter bubbles the fertile environment in which outrage optimization operates most effectively.",
+    "confidence": "high"
+  },
+  {
+    "id": "filter_bubble__filter_bubble",
+    "source": "filter_bubble",
+    "target": "filter_bubble",
+    "type": "SELF_REINFORCES",
+    "label": "engagement narrows future information exposure",
+    "note": "Each interaction with filtered content trains the algorithm to narrow the filter further — the filter bubble tightens itself with every use, making escape progressively harder without deliberate intervention.",
+    "confidence": "high"
+  },
+  {
+    "id": "outrage_optimization__moon_landing_conspiracy",
+    "source": "outrage_optimization",
+    "target": "moon_landing_conspiracy",
+    "type": "ENABLED",
+    "label": "conspiracy content maximizes outrage engagement",
+    "note": "Conspiracy theories about government deception generate high engagement through outrage and tribal signaling — algorithmic systems therefore amplify them regardless of their truth value, inserting moon landing conspiracy content into feeds of users who never sought it.",
+    "confidence": "medium"
+  },
+  {
+    "id": "outrage_optimization__political_radicalization",
+    "source": "outrage_optimization",
+    "target": "political_radicalization",
+    "type": "CAUSED",
+    "label": "extreme content drives extremist adoption",
+    "note": "Internal Facebook research leaked by Frances Haugen in 2021 found the platform's own algorithms radicalized users toward extremism by serving increasingly extreme content to sustain engagement — confirming outrage optimization as a direct cause of radicalization.",
+    "confidence": "high"
+  },
+  {
+    "id": "filter_bubble__broken_epistemology",
+    "source": "filter_bubble",
+    "target": "broken_epistemology",
+    "type": "ENABLED",
+    "label": "siloed information undermines truth-finding",
+    "note": "Filter bubbles eliminate the exposure to counter-evidence that epistemically healthy reasoning requires — users inside them lose the ability to distinguish well-supported from poorly-supported claims because the information environment never provides a test.",
+    "confidence": "medium"
+  },
+  {
+    "id": "atlantic_slave_trade__jim_crow_laws",
+    "source": "atlantic_slave_trade",
+    "target": "jim_crow_laws",
+    "type": "CAUSED",
+    "label": "racial hierarchy survived emancipation",
+    "note": "Emancipation destroyed the legal institution of slavery but not the racial hierarchy it required. Jim Crow laws were the immediate Reconstruction-era mechanism by which that hierarchy was re-encoded in law — the same ideology in new legal form.",
+    "confidence": "high"
+  },
+  {
+    "id": "atlantic_slave_trade__dehumanization",
+    "source": "atlantic_slave_trade",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "required enslaved people to be subhuman",
+    "note": "Chattel slavery required the active dehumanization of enslaved people as ideological justification — the economic system could not sustain itself without a moral framework declaring its victims non-persons. American slavery produced one of history's most systematically elaborated dehumanization ideologies.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__jim_crow_laws",
+    "source": "dehumanization",
+    "target": "jim_crow_laws",
+    "type": "ENABLED",
+    "label": "ideology outlasted slavery's legal end",
+    "note": "The dehumanizing racial ideology slavery required did not dissolve at emancipation — it provided the moral scaffolding that made Jim Crow laws politically possible and socially acceptable to white majorities.",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow_laws__war_on_drugs",
+    "source": "jim_crow_laws",
+    "target": "war_on_drugs",
+    "type": "ENABLED",
+    "label": "racialized enforcement infrastructure inherited",
+    "note": "Jim Crow's racialized policing patterns, prosecutorial discretion, and community surveillance infrastructure were not dismantled at the Civil Rights Acts — they were inherited by the War on Drugs, which applied them through nominally race-neutral drug enforcement with documented racial targeting.",
+    "confidence": "medium"
+  },
+  {
+    "id": "war_on_drugs__mass_incarceration",
+    "source": "war_on_drugs",
+    "target": "mass_incarceration",
+    "type": "CAUSED",
+    "label": "mandatory minimums drove incarceration rates",
+    "note": "The War on Drugs produced mass incarceration through mandatory minimum sentencing, three-strikes laws, and militarized policing — tripling the U.S. prison population between 1980 and 2000 with documented racial disparities in enforcement and sentencing at every stage.",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow_laws__mass_incarceration",
+    "source": "jim_crow_laws",
+    "target": "mass_incarceration",
+    "type": "ENABLED",
+    "label": "racial caste system changed its form",
+    "note": "Michelle Alexander's The New Jim Crow documents the structural continuity: both systems used legal mechanisms to maintain racial hierarchy — the formal apartheid of Jim Crow replaced by the carceral system as the primary mechanism of racial control after 1965.",
+    "confidence": "medium"
+  },
+  {
+    "id": "atlantic_slave_trade__berlin_conference_1884",
+    "source": "atlantic_slave_trade",
+    "target": "berlin_conference_1884",
+    "type": "ENABLED",
+    "label": "dehumanization framework enabled African partition",
+    "note": "Centuries of Atlantic slave trade built and normalized the racial ideology declaring Africans subhuman — the moral infrastructure that made the Berlin Conference's casual partition of a continent among European powers politically conceivable and publicly acceptable.",
+    "confidence": "medium"
+  },
+  {
+    "id": "gulf_of_tonkin_incident__vietnam_war",
+    "source": "gulf_of_tonkin_incident",
+    "target": "vietnam_war",
+    "type": "CAUSED",
+    "label": "manufactured provocation authorized escalation",
+    "note": "The Gulf of Tonkin Resolution, passed on the basis of incidents that NSA documents later confirmed were fabricated or exaggerated, gave the Johnson administration legal authorization for the full-scale military escalation that turned a limited advisory mission into a land war.",
+    "confidence": "high"
+  },
+  {
+    "id": "vietnam_war__pentagon_papers",
+    "source": "vietnam_war",
+    "target": "pentagon_papers",
+    "type": "PRODUCED",
+    "label": "systematic deception produced its own exposure",
+    "note": "The scale of government deception about Vietnam required a classified internal history; that document, commissioned by McNamara himself, became the Pentagon Papers. The war's deceptions produced the documentation that proved them.",
+    "confidence": "high"
+  },
+  {
+    "id": "pentagon_papers__broken_epistemology",
+    "source": "pentagon_papers",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "proved government systematically deceived the public",
+    "note": "The Pentagon Papers confirmed what MK Ultra and COINTELPRO showed from different angles: the U.S. government systematically deceived the public on matters of war and peace. Together these revelations constituted a foundational collapse of institutional trust.",
+    "confidence": "high"
+  },
+  {
+    "id": "mccarthy_red_scare__gulf_of_tonkin_incident",
+    "source": "mccarthy_red_scare",
+    "target": "gulf_of_tonkin_incident",
+    "type": "ENABLED",
+    "label": "anti-communist hysteria made deception credible",
+    "note": "The anti-communist consensus McCarthyism entrenched made the Tonkin fabrication politically effective — the public and Congress accepted the provocation without scrutiny because questioning military action against communists had been made politically lethal.",
+    "confidence": "medium"
+  },
+  {
+    "id": "mccarthy_red_scare__cointelpro",
+    "source": "mccarthy_red_scare",
+    "target": "cointelpro",
+    "type": "ENABLED",
+    "label": "communist framing normalized domestic surveillance",
+    "note": "McCarthy normalized FBI targeting of political dissidents as national security work — creating the political environment in which COINTELPRO could operate without congressional scrutiny because its targets had been successfully labeled communist-adjacent threats.",
+    "confidence": "high"
+  },
+  {
+    "id": "mccarthy_red_scare__dehumanization",
+    "source": "mccarthy_red_scare",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "communist label stripped political opponents' humanity",
+    "note": "McCarthyism used 'communist' as a dehumanizing category — denying targets the standing of legitimate political actors and reframing dissent as subversion. The label functioned identically to other dehumanizing categories: removing the target from the community of those deserving protection.",
+    "confidence": "high"
+  },
+  {
+    "id": "scapegoating_mechanism__mccarthy_red_scare",
+    "source": "scapegoating_mechanism",
+    "target": "mccarthy_red_scare",
+    "type": "ENABLED",
+    "label": "Cold War anxiety needed a target",
+    "note": "Post-WWII anxiety about Soviet power, nuclear threat, and domestic uncertainty channeled through scapegoating into the communist-in-our-midst narrative — diffuse civilizational anxiety converted into specific, identifiable domestic enemies.",
+    "confidence": "high"
+  },
+  {
+    "id": "mccarthy_red_scare__vietnam_war",
+    "source": "mccarthy_red_scare",
+    "target": "vietnam_war",
+    "type": "ENABLED",
+    "label": "anti-communism made skepticism politically lethal",
+    "note": "The anti-communist consensus McCarthyism hardened made questioning U.S. involvement in Vietnam politically dangerous — politicians and journalists who doubted escalation risked being labeled soft on communism. This consensus enabled both the deception and the escalation to continue far longer than they otherwise would have.",
+    "confidence": "medium"
+  },
+  {
+    "id": "fossil_fuel_industry__climate_change_denial",
+    "source": "fossil_fuel_industry",
+    "target": "climate_change_denial",
+    "type": "PRODUCED",
+    "label": "industry directly funded denial campaigns",
+    "note": "Documented by DeSmog, Union of Concerned Scientists, and Congressional investigations: Exxon, Chevron, and API funded think tanks, front groups, and political campaigns specifically to produce and sustain climate denial as a coherent organized movement.",
+    "confidence": "high"
+  },
+  {
+    "id": "fossil_fuel_industry__manufactured_scientific_doubt",
+    "source": "fossil_fuel_industry",
+    "target": "manufactured_scientific_doubt",
+    "type": "CAUSED",
+    "label": "Exxon funded doubt while knowing the science",
+    "note": "Internal Exxon documents from the late 1970s show company scientists accurately modeling climate change — while the company simultaneously funded doubt-manufacturing campaigns. This is the most documented instance of an industry deploying manufactured scientific doubt after confirming internally what it was denying publicly.",
+    "confidence": "high"
+  },
+  {
+    "id": "fossil_fuel_industry__tobacco_industry_research_suppression",
+    "source": "fossil_fuel_industry",
+    "target": "tobacco_industry_research_suppression",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "same PR firms, same scientists, same playbook",
+    "note": "Naomi Oreskes documented in Merchants of Doubt that the fossil fuel doubt campaign was executed in part by the same individuals — including Frederick Seitz — and the same PR firms that had run the tobacco doubt campaign. The playbook was literally copied.",
+    "confidence": "high"
+  },
+  {
+    "id": "fossil_fuel_industry__corporate_regulatory_capture",
+    "source": "fossil_fuel_industry",
+    "target": "corporate_regulatory_capture",
+    "type": "PRODUCED",
+    "label": "captured EPA and energy regulators",
+    "note": "The fossil fuel industry's regulatory capture of the EPA, Department of Energy, and Congressional energy committees is among the most extensively documented cases of regulatory capture — with revolving-door personnel, direct funding of oversight committee members, and documented agency decisions favoring industry over science.",
+    "confidence": "high"
+  },
+  {
+    "id": "armenian_genocide__dehumanization",
+    "source": "armenian_genocide",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "Armenians portrayed as subversive foreign agents",
+    "note": "Ottoman propaganda portrayed Armenians as a fifth column collaborating with Russia — a dehumanizing reframe that transformed a civilian population into a military threat, providing psychological cover for mass killing by ordinary soldiers and neighbors.",
+    "confidence": "high"
+  },
+  {
+    "id": "ottoman_decline_europe__armenian_genocide",
+    "source": "ottoman_decline_europe",
+    "target": "armenian_genocide",
+    "type": "ENABLED",
+    "label": "imperial collapse produced minority scapegoating",
+    "note": "Two centuries of Ottoman territorial losses, culminating in the Balkan Wars (1912–1913) which cost the empire almost all its European territory, produced the crisis conditions under which the Committee of Union and Progress turned the Armenian population into a scapegoat for imperial failure.",
+    "confidence": "high"
+  },
+  {
+    "id": "armenian_genocide__rwandan_genocide",
+    "source": "armenian_genocide",
+    "target": "rwandan_genocide",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "same state-directed killing structure",
+    "note": "Both genocides followed the same causal architecture: state propaganda dehumanizing a minority → organized paramilitary killing forces → mass civilian participation enabled by dehumanization. Gregory Stanton's Ten Stages of Genocide framework identifies both as paradigm cases.",
+    "confidence": "medium"
+  },
+  {
+    "id": "scapegoating_mechanism__armenian_genocide",
+    "source": "scapegoating_mechanism",
+    "target": "armenian_genocide",
+    "type": "ENABLED",
+    "label": "Armenian community scapegoated for Ottoman losses",
+    "note": "The Ottoman state channeled military defeat, economic collapse, and existential imperial anxiety into Armenian scapegoating — the pattern is identical to the Rwandan case where crisis was converted into a specific ethnic target.",
+    "confidence": "high"
+  },
+  {
+    "id": "armenian_genocide__the_holocaust",
+    "source": "armenian_genocide",
+    "target": "the_holocaust",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "provided precedent genocide could be executed",
+    "note": "Hitler reportedly said 'Who today remembers the Armenians?' before ordering the invasion of Poland, explicitly citing Armenian impunity as evidence that genocide could be executed without lasting international consequence. Whether the quote is authentic or apocryphal, Nazi planners were documented as aware of the Armenian case.",
+    "confidence": "medium"
+  },
+  {
+    "id": "berlin_conference_1884__hamitic_hypothesis",
+    "source": "berlin_conference_1884",
+    "target": "hamitic_hypothesis",
+    "type": "ENABLED",
+    "label": "colonialism required racial science justification",
+    "note": "The Berlin Conference's colonial project required racial ideology to justify administration of 'inferior' peoples — the Hamitic Hypothesis was the specific racial science deployed in East and Central Africa, providing a taxonomic framework that colonial administrations, particularly Belgium in Rwanda, institutionalized.",
+    "confidence": "high"
+  },
+  {
+    "id": "berlin_conference_1884__dehumanization",
+    "source": "berlin_conference_1884",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "African partition required subhuman framing",
+    "note": "The casual partition of an inhabited continent among European powers required that its inhabitants be framed as incapable of self-governance — deploying existing racial dehumanization ideology at continental administrative scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "mass_incarceration__mass_incarceration",
+    "source": "mass_incarceration",
+    "target": "mass_incarceration",
+    "type": "SELF_REINFORCES",
+    "label": "incarceration creates conditions for reoffense",
+    "note": "Incarceration destroys employment prospects, housing stability, and family structure — conditions that predictably increase reoffense rates. The system produces the recidivism that justifies continued incarceration, self-sustaining through the harms it generates.",
+    "confidence": "high"
+  },
+  {
+    "id": "war_on_drugs__tuskegee_syphilis_study",
+    "source": "war_on_drugs",
+    "target": "tuskegee_syphilis_study",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both targeted Black Americans for state harm",
+    "note": "Both Tuskegee and the War on Drugs represent documented federal programs that inflicted disproportionate harm on Black Americans under nominally neutral justifications — one as medical research, one as law enforcement. Both produced rational distrust of state institutions.",
+    "confidence": "medium"
+  },
+  {
+    "id": "pentagon_papers__moon_landing_conspiracy",
+    "source": "pentagon_papers",
+    "target": "moon_landing_conspiracy",
+    "type": "ENABLED",
+    "label": "proven government lies fueled broader distrust",
+    "note": "The Pentagon Papers confirmed that the government had systematically deceived the public on a matter of national importance. This confirmation made 'they're lying about everything' a more emotionally coherent position — providing exactly the broken epistemology that moon landing conspiracy theories exploit.",
+    "confidence": "speculative"
+  },
+  {
+    "id": "opioid_epidemic__mass_incarceration",
+    "source": "opioid_epidemic",
+    "target": "mass_incarceration",
+    "type": "ENABLED",
+    "label": "users criminalized rather than treated",
+    "note": "In the early decades of the epidemic, opioid users — particularly in communities of color — were prosecuted rather than referred to treatment, adding a drug-offense incarceration wave to an already mass-incarceration system.",
+    "confidence": "medium"
+  },
+  {
+    "id": "american_eugenics_movement__the_holocaust",
+    "source": "american_eugenics_movement",
+    "target": "the_holocaust",
+    "type": "ENABLED",
+    "label": "Nazi scientists cited U.S. laws as precedent",
+    "note": "American eugenics laws, particularly Virginia's Racial Integrity Act and sterilization statutes, were explicitly cited by Nazi jurists at Nuremberg as legal models. The Nazi racial state did not invent its framework from scratch — it adapted and escalated an American template.",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow_laws__tuskegee_syphilis_study",
+    "source": "jim_crow_laws",
+    "target": "tuskegee_syphilis_study",
+    "type": "ENABLED",
+    "label": "racial hierarchy made study possible",
+    "note": "The Tuskegee study could only persist for 40 years because Jim Crow's racial hierarchy rendered Black Alabamans sufficiently powerless that their withheld consent, absent advocacy, and denied treatment generated no institutional consequences. The study is an artifact of that power structure.",
+    "confidence": "high"
+  },
+  {
+    "id": "outrage_optimization__climate_change_denial",
+    "source": "outrage_optimization",
+    "target": "climate_change_denial",
+    "type": "ENABLED",
+    "label": "denial content maximizes engagement",
+    "note": "Climate denial content generates high outrage engagement from both believers and critics — algorithmic systems therefore amplify it regardless of scientific accuracy, giving well-funded denial campaigns a free distribution channel through engagement optimization.",
+    "confidence": "medium"
   }
 ]
