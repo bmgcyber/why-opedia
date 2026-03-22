@@ -233,6 +233,16 @@ function buildStylesheet() {
         'text-background-opacity': 0.75,
         'text-background-padding': '2px',
         'text-background-shape': 'round-rectangle',
+        'text-max-width': ele => {
+          if (ele.source().id() === ele.target().id()) return '60px';
+          const src = ele.source().position();
+          const tgt = ele.target().position();
+          const dx = tgt.x - src.x;
+          const dy = tgt.y - src.y;
+          const len = Math.sqrt(dx * dx + dy * dy);
+          return Math.max(20, len - 50) + 'px';
+        },
+        'text-wrap': 'ellipsis',
         'width': 2.5,
       }
     },
