@@ -232,5 +232,392 @@
     "label": "mechanism produces documented outcome",
     "note": "Legitimate Grievance Capture is the mechanism. Political radicalization is the real-world outcome it frequently produces. The mechanism node explains the why; the reference node is the what.",
     "confidence": "high"
+  },
+  {
+    "id": "tobacco_suppression__manufactured_doubt",
+    "source": "tobacco_industry_research_suppression",
+    "target": "manufactured_scientific_doubt",
+    "type": "PRODUCED",
+    "label": "tobacco industry created the playbook",
+    "note": "Internal tobacco company documents show a coordinated strategy to fund contrarian scientists and manufacture 'doubt' as a deliberate product — a template explicitly adopted by climate and chemical industries.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_doubt__climate_denial",
+    "source": "manufactured_scientific_doubt",
+    "target": "climate_change_denial",
+    "type": "ENABLED",
+    "label": "same firms, same scientists, same strategy",
+    "note": "Naomi Oreskes' research documented identical personnel — including Frederick Seitz and the George C. Marshall Institute — moving directly from tobacco doubt campaigns into climate denial efforts.",
+    "confidence": "high"
+  },
+  {
+    "id": "tobacco_settlement__tobacco_suppression",
+    "source": "tobacco_master_settlement",
+    "target": "tobacco_industry_research_suppression",
+    "type": "DISCREDITED",
+    "label": "internal documents proved corporate knowledge",
+    "note": "Release of over 35 million internal pages made the suppression historically undeniable, converting decades of plausible deniability into confirmed, documented corporate fraud.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_doubt__corporate_capture",
+    "source": "manufactured_scientific_doubt",
+    "target": "corporate_regulatory_capture",
+    "type": "ENABLED",
+    "label": "scientific cover enabled regulatory inaction",
+    "note": "Industry-sponsored uncertainty transforms regulatory capture from crude corruption into something epistemically defensible — agencies can claim scientific ambiguity justifies inaction rather than having to admit industry influence.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_doubt__broken_epistemology",
+    "source": "manufactured_scientific_doubt",
+    "target": "broken_epistemology",
+    "type": "ENABLED",
+    "label": "false controversy eroded epistemic tools",
+    "note": "By successfully making genuine scientific consensus appear contested, the strategy permanently damaged the public's ability to use 'scientific consensus' as a reliable heuristic — even where the consensus is sound.",
+    "confidence": "high"
+  },
+  {
+    "id": "legitimate_grievance__climate_denial",
+    "source": "legitimate_grievance_capture",
+    "target": "climate_change_denial",
+    "type": "ENABLED",
+    "label": "economic anxiety provided a foothold",
+    "note": "Real concerns about energy cost and fossil fuel community job losses gave climate denial a legitimate entry point — converting genuine economic grievance into wholesale rejection of climate science.",
+    "confidence": "medium"
+  },
+  {
+    "id": "church_committee__cointelpro",
+    "source": "church_committee",
+    "target": "cointelpro",
+    "type": "DISCREDITED",
+    "label": "exposed FBI domestic targeting program",
+    "note": "The Church Committee confirmed COINTELPRO's full scope, including FBI facilitation of violence against Black Panther members and a sustained harassment campaign against Martin Luther King Jr. targeting his marriage and public standing.",
+    "confidence": "high"
+  },
+  {
+    "id": "cointelpro__broken_epistemology",
+    "source": "cointelpro",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "confirmed government targets its own citizens",
+    "note": "Like MK Ultra, COINTELPRO's confirmed existence established that federal agencies would systematically target, surveil, and harm American citizens — providing a permanent legitimate basis for institutional suspicion.",
+    "confidence": "high"
+  },
+  {
+    "id": "scapegoating__cointelpro",
+    "source": "scapegoating_mechanism",
+    "target": "cointelpro",
+    "type": "ENABLED",
+    "label": "communist threat framing justified targeting",
+    "note": "J. Edgar Hoover used Cold War communist-threat scapegoating to frame civil rights leaders, labor organizers, and antiwar activists as subversive agents, providing political cover for a program of domestic suppression.",
+    "confidence": "high"
+  },
+  {
+    "id": "cointelpro__mk_ultra",
+    "source": "cointelpro",
+    "target": "mk_ultra",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both programs: government targeting citizens",
+    "note": "Both represent the same institutional pattern — federal agencies treating American citizens as threats to be managed rather than served, both running covertly for decades, and both exposed by the same 1975 Senate investigation.",
+    "confidence": "high"
+  },
+  {
+    "id": "hamitic_hypothesis__hutu_power",
+    "source": "hamitic_hypothesis",
+    "target": "hutu_power",
+    "type": "ENABLED",
+    "label": "colonial racial taxonomy inverted into weapon",
+    "note": "Belgian application of the Hamitic hypothesis created the racial consciousness Hutu Power required — fixed categories, ID documentation, and a hierarchy that could be inverted when the political moment arrived.",
+    "confidence": "high"
+  },
+  {
+    "id": "hutu_power__radio_milles_collines",
+    "source": "hutu_power",
+    "target": "radio_milles_collines",
+    "type": "PRODUCED",
+    "label": "ideology created its media arm",
+    "note": "RTLM was explicitly created by Hutu Power organizers including Ferdinand Nahimana, who was later convicted of genocide by the International Criminal Tribunal for Rwanda specifically for his role in RTLM's broadcasts.",
+    "confidence": "high"
+  },
+  {
+    "id": "radio_milles_collines__rwandan_genocide",
+    "source": "radio_milles_collines",
+    "target": "rwandan_genocide",
+    "type": "ENABLED",
+    "label": "broadcast names, locations, orders to kill",
+    "note": "RTLM provided both psychological infrastructure (sustained dehumanization) and operational logistics (broadcasting identities and locations of individuals marked for killing) — the ICTR found this constituted direct and public incitement to genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "hutu_power__rwandan_genocide",
+    "source": "hutu_power",
+    "target": "rwandan_genocide",
+    "type": "PRODUCED",
+    "label": "organized and executed the genocide",
+    "note": "Hutu Power organized the Interahamwe militia, stockpiled machetes, distributed lists of Tutsi individuals, and coordinated the killing campaign — it was not spontaneous mob violence but planned political violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "scapegoating__hutu_power",
+    "source": "scapegoating_mechanism",
+    "target": "hutu_power",
+    "type": "ENABLED",
+    "label": "Tutsis scapegoated for war and hardship",
+    "note": "Rwanda's economic collapse, the RPF military invasion from Uganda, and the assassination of President Habyarimana were all channeled into Tutsi scapegoating — diffuse crisis converted into a specific identifiable enemy.",
+    "confidence": "high"
+  },
+  {
+    "id": "legitimate_grievance__hutu_power",
+    "source": "legitimate_grievance_capture",
+    "target": "hutu_power",
+    "type": "ENABLED",
+    "label": "real colonial hierarchy gave extremism footing",
+    "note": "Belgian colonizers had genuinely privileged Tutsis administratively for decades, creating real historical grievances about power distribution. Hutu Power exploited these real grievances as the entry point for a genocidal ideology.",
+    "confidence": "high"
+  },
+  {
+    "id": "rwandan_genocide__the_holocaust",
+    "source": "rwandan_genocide",
+    "target": "the_holocaust",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "same causal infrastructure, different continent",
+    "note": "Both followed the same causal chain: externally-imposed racial classification → pseudoscientific ideology → propaganda dehumanization → organized mass killing. Gregory Stanton developed his Ten Stages of Genocide framework specifically by comparing these two cases.",
+    "confidence": "high"
+  },
+  {
+    "id": "nazi_propaganda__radio_milles_collines",
+    "source": "nazi_propaganda",
+    "target": "radio_milles_collines",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both used media to dehumanize and coordinate",
+    "note": "Both used mass broadcast media to systematically strip target populations of human status and coordinate killers. Der Stürmer's vermin/parasite language and RTLM's 'inyenzi' (cockroach) language serve the same psychological function.",
+    "confidence": "high"
+  },
+  {
+    "id": "nazi_propaganda__dehumanization",
+    "source": "nazi_propaganda",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "made dehumanizing language publicly acceptable",
+    "note": "Nazi propaganda normalized the dehumanization of Jews and others across German society for a decade before the genocide machinery became operational — a necessary precondition for ordinary German participation in the Holocaust.",
+    "confidence": "high"
+  },
+  {
+    "id": "radio_milles_collines__dehumanization",
+    "source": "radio_milles_collines",
+    "target": "dehumanization",
+    "type": "PRODUCED",
+    "label": "cockroach language stripped human status",
+    "note": "RTLM didn't just report events — it actively produced dehumanization as a functional output, broadcasting 'cockroach' language continuously to prepare killers psychologically and lower the moral threshold for participating.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__rwandan_genocide",
+    "source": "dehumanization",
+    "target": "rwandan_genocide",
+    "type": "ENABLED",
+    "label": "stripped inhibitions against mass killing",
+    "note": "The ICTR's findings document that sustained dehumanization was a prerequisite — ordinary civilians participated in killings of neighbors they had lived alongside for decades because those neighbors had been successfully reframed as subhuman threats.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__the_holocaust",
+    "source": "dehumanization",
+    "target": "the_holocaust",
+    "type": "ENABLED",
+    "label": "required before ordinary people would participate",
+    "note": "Stanley Milgram and Christopher Browning's research on ordinary men as perpetrators both document that sustained dehumanization, not exceptional sadism, is what enables mass civilian participation in genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "pain_management__purdue_pharma_oxycontin",
+    "source": "pain_management_movement",
+    "target": "purdue_pharma_oxycontin",
+    "type": "ENABLED",
+    "label": "legitimate suffering created receptive environment",
+    "note": "The genuine medical problem of undertreated chronic pain gave Purdue's aggressive prescribing campaign the appearance of responding to a clinical need — providing moral cover and a motivated physician audience.",
+    "confidence": "high"
+  },
+  {
+    "id": "purdue_pharma_oxycontin__institutional_credibility_laundering",
+    "source": "purdue_pharma_oxycontin",
+    "target": "institutional_credibility_laundering",
+    "type": "PRODUCED",
+    "label": "pharmaceutical infiltration refined the mechanism",
+    "note": "Purdue's strategy — funding CME, placing speakers in medical schools, influencing Joint Commission standards, publishing in JAMA — is the most systematically documented instance of this mechanism and the template later industries referenced.",
+    "confidence": "high"
+  },
+  {
+    "id": "purdue_pharma_oxycontin__opioid_epidemic",
+    "source": "purdue_pharma_oxycontin",
+    "target": "opioid_epidemic",
+    "type": "PRODUCED",
+    "label": "deceptive marketing caused mass addiction",
+    "note": "States' attorneys general and multiple federal investigations established direct causation: Purdue's marketing of OxyContin as having minimal addiction risk when they knew otherwise drove prescription rates that directly caused the epidemic's first and second waves.",
+    "confidence": "high"
+  },
+  {
+    "id": "legitimate_grievance__purdue_pharma",
+    "source": "legitimate_grievance_capture",
+    "target": "purdue_pharma_oxycontin",
+    "type": "ENABLED",
+    "label": "real pain was the entry point",
+    "note": "Millions of Americans with genuine chronic pain conditions were underserved by a medical system that undertreated pain. This real clinical problem was the legitimate grievance that gave Purdue's marketing campaign moral and clinical cover.",
+    "confidence": "high"
+  },
+  {
+    "id": "corporate_capture__purdue_pharma",
+    "source": "corporate_regulatory_capture",
+    "target": "purdue_pharma_oxycontin",
+    "type": "ENABLED",
+    "label": "FDA failed to scrutinize approval or labeling",
+    "note": "The FDA approved OxyContin with a label claiming lower addiction risk based on a single letter in a medical journal — and declined to require a black-box warning for years. Congressional investigations found regulatory failures consistent with capture.",
+    "confidence": "high"
+  },
+  {
+    "id": "institutional_laundering__corporate_capture",
+    "source": "institutional_credibility_laundering",
+    "target": "corporate_regulatory_capture",
+    "type": "ENABLED",
+    "label": "professional endorsement shields regulators",
+    "note": "When a drug or product carries endorsement from medical societies, journal publications, and professional guidelines, regulatory agencies can cite scientific consensus as justification for approval — even when that consensus was manufactured.",
+    "confidence": "high"
+  },
+  {
+    "id": "identity_capture__opioid_epidemic",
+    "source": "identity_capture",
+    "target": "opioid_epidemic",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "recovery threatens community belonging",
+    "note": "Online addiction communities frequently develop reward structures where sustained illness generates more engagement than recovery, and where getting clean risks social rejection from the community that has become the primary belonging structure.",
+    "confidence": "medium"
+  },
+  {
+    "id": "manufactured_doubt__institutional_laundering",
+    "source": "manufactured_scientific_doubt",
+    "target": "institutional_credibility_laundering",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both weaponize scientific institutions",
+    "note": "Complementary attack vectors: manufactured doubt converts scientific consensus into apparent controversy; institutional credibility laundering converts corporate claims into apparent consensus. Together they cover the full space of how industries neutralize scientific accountability.",
+    "confidence": "high"
+  },
+  {
+    "id": "tuskegee_syphilis_study__broken_epistemology",
+    "source": "tuskegee_syphilis_study",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "produced documented medical distrust",
+    "note": "The most directly traceable instance of government atrocity producing community-specific broken epistemology: studies on COVID vaccine hesitancy in Black Americans consistently identify Tuskegee as a primary cited reason for medical distrust.",
+    "confidence": "high"
+  },
+  {
+    "id": "tuskegee__mk_ultra",
+    "source": "tuskegee_syphilis_study",
+    "target": "mk_ultra",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both: government non-consensual experimentation",
+    "note": "Both were U.S. government programs of non-consensual medical experimentation on citizens, running simultaneously for decades, and both hidden from public record. Tuskegee ran 1932–1972; MK Ultra ran 1953–1973.",
+    "confidence": "high"
+  },
+  {
+    "id": "tuskegee__cointelpro",
+    "source": "tuskegee_syphilis_study",
+    "target": "cointelpro",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both targeted Black Americans as subjects of harm",
+    "note": "Both are documented federal programs that specifically targeted Black Americans — Tuskegee using them as medical subjects without consent, COINTELPRO surveilling, disrupting, and facilitating violence against their leaders.",
+    "confidence": "high"
+  },
+  {
+    "id": "sack_of_rome_1527__papal_swiss_guard",
+    "source": "sack_of_rome_1527",
+    "target": "papal_swiss_guard",
+    "type": "PRODUCED",
+    "label": "sacrifice became the founding oath",
+    "note": "The 1527 sacrifice produced the institution as it exists today — the Papal Swiss Guard's oath of fidelity unto death, its identity, and its continued existence 500 years later all trace directly to the 147 guards who died holding the line at St. Peter's Square.",
+    "confidence": "high"
+  },
+  {
+    "id": "sack_of_rome_1527__protestant_reformation",
+    "source": "sack_of_rome_1527",
+    "target": "protestant_reformation",
+    "type": "ENABLED",
+    "label": "broke papal power at critical moment",
+    "note": "Pope Clement VII's political captivity to Charles V after 1527 prevented the papacy from acting decisively against Lutheranism in German lands during the Reformation's most formative decade. The Council of Trent — the Church's formal response — did not convene until 1545, 18 years after the Sack.",
+    "confidence": "high"
+  },
+  {
+    "id": "protestant_reformation__english_reformation",
+    "source": "protestant_reformation",
+    "target": "english_reformation",
+    "type": "ENABLED",
+    "label": "theological precedent for break from Rome",
+    "note": "Continental Protestant theology provided Henry VIII and Thomas Cranmer with the intellectual framework to justify royal supremacy over the church — the idea that papal authority was not divinely mandated had already been extensively argued by Lutheran and Reformed theologians.",
+    "confidence": "high"
+  },
+  {
+    "id": "sack_of_rome_1527__english_reformation",
+    "source": "sack_of_rome_1527",
+    "target": "english_reformation",
+    "type": "ENABLED",
+    "label": "Pope's captivity blocked the annulment",
+    "note": "Pope Clement VII could not grant Henry VIII's annulment of his marriage to Catherine of Aragon because Catherine was the niece of Charles V — the same emperor who had sacked Rome and held the Pope as a political captive. The English Reformation is a direct downstream consequence of the Sack.",
+    "confidence": "high"
+  },
+  {
+    "id": "protestant_reformation__martin_luther_antisemitism",
+    "source": "protestant_reformation",
+    "target": "martin_luther_antisemitism",
+    "type": "ENABLED",
+    "label": "Reformation gave antisemitism new reach",
+    "note": "Luther's antisemitic writings of 1543 emerged from the Reformation's specific theological preoccupation with Jewish conversion — his rage that Jews would not convert to his reformed Christianity. The Reformation distributed these texts through the printing press to a far wider audience than Catholic theological antisemitism had previously reached.",
+    "confidence": "high"
+  },
+  {
+    "id": "ottoman_expansion_europe__battle_of_vienna_1683",
+    "source": "ottoman_expansion_europe",
+    "target": "battle_of_vienna_1683",
+    "type": "PRODUCED",
+    "label": "expansion reached its furthest point",
+    "note": "The 1683 siege of Vienna was the culmination of 250 years of westward Ottoman military momentum — the expansion produced this confrontation as its natural terminus when it met an organized, well-led coalition that would not yield.",
+    "confidence": "high"
+  },
+  {
+    "id": "winged_hussars__battle_of_vienna_1683",
+    "source": "winged_hussars",
+    "target": "battle_of_vienna_1683",
+    "type": "ENABLED",
+    "label": "largest cavalry charge decided the battle",
+    "note": "The September 12 charge of approximately 3,000 Winged Hussars downhill into the Ottoman camp was the decisive tactical moment — breaking Ottoman lines that had held for two months of siege. Contemporary accounts and subsequent military analysis agree the battle turned on this intervention.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_vienna_1683__ottoman_expansion_europe",
+    "source": "battle_of_vienna_1683",
+    "target": "ottoman_expansion_europe",
+    "type": "DISCREDITED",
+    "label": "shattered myth of Ottoman invincibility",
+    "note": "The defeat — including the complete rout of Grand Vizier Kara Mustafa's army and the abandonment of the entire Ottoman camp — demonstrated that the expansion was reversible. Kara Mustafa was subsequently executed by Mehmed IV for the failure, signaling the empire's own recognition of the reversal.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_vienna_1683__ottoman_decline_europe",
+    "source": "battle_of_vienna_1683",
+    "target": "ottoman_decline_europe",
+    "type": "CAUSED",
+    "label": "began two centuries of Ottoman retreat",
+    "note": "Vienna is the documented inflection point: the Great Turkish War (1683–1699) immediately followed, ending in the Treaty of Karlowitz and massive Ottoman territorial losses. Every subsequent Ottoman-European engagement accelerated the retreat until the empire's dissolution after World War I.",
+    "confidence": "high"
+  },
+  {
+    "id": "protestant_reformation__ottoman_expansion_europe",
+    "source": "protestant_reformation",
+    "target": "ottoman_expansion_europe",
+    "type": "ENABLED",
+    "label": "religious division weakened unified resistance",
+    "note": "Protestant princes frequently preferred Ottoman pressure on the Catholic Habsburgs to Habsburg dominance — France under Francis I maintained a documented alliance with Suleiman the Magnificent. At Vienna in 1683, Sobieski's relief force was smaller than it might have been partly because Protestant states were reluctant to reinforce the Habsburgs.",
+    "confidence": "speculative"
   }
 ]

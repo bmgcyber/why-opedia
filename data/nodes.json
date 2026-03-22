@@ -254,5 +254,233 @@
     "summary": "Process by which individuals or groups adopt increasingly extreme political or ideological positions. A documented real-world outcome that legitimate grievance capture frequently produces.",
     "decade": "Ongoing",
     "tags": ["politics", "psychology", "radicalization", "extremism"]
+  },
+  {
+    "id": "tobacco_industry_research_suppression",
+    "label": "Tobacco Industry Research Suppression",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tobacco_industry_research",
+    "summary": "Decades-long campaign by tobacco companies to suppress and manufacture alternatives to internal research confirming nicotine addiction and cancer causation. Internal documents establishing corporate knowledge from the 1950s were concealed until forced into public record by the 1998 Master Settlement Agreement.",
+    "decade": "1950s–1990s",
+    "tags": ["corporate", "health", "science", "tobacco", "deception"]
+  },
+  {
+    "id": "manufactured_scientific_doubt",
+    "label": "Manufactured Scientific Doubt",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Strategic production of apparent scientific controversy on settled questions, achieved by funding fringe researchers, creating front organizations, and flooding regulatory and public discourse with industry-sponsored uncertainty. Converts scientific confidence into apparent debate without changing the underlying evidence.",
+    "decade": "1950s–Ongoing",
+    "tags": ["mechanism", "science", "corporate", "epistemology", "deception"]
+  },
+  {
+    "id": "tobacco_master_settlement",
+    "label": "Tobacco Master Settlement Agreement",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tobacco_Master_Settlement_Agreement",
+    "summary": "1998 agreement between 46 U.S. states and major tobacco companies, requiring the release of millions of internal documents. Those documents proved companies had internal knowledge of addiction and carcinogenicity decades before public admission, converting plausible deniability into confirmed corporate fraud.",
+    "decade": "1990s",
+    "tags": ["corporate", "law", "tobacco", "accountability", "history"]
+  },
+  {
+    "id": "climate_change_denial",
+    "label": "Climate Change Denial",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Climate_change_denial",
+    "summary": "Organized campaign disputing scientific consensus on anthropogenic climate change. Adopted the tobacco industry's manufactured-doubt playbook, with documented overlap in personnel — including PR firms and individual scientists who worked both denial campaigns.",
+    "decade": "1990s–Ongoing",
+    "tags": ["climate", "ideology", "corporate", "science", "denial"]
+  },
+  {
+    "id": "cointelpro",
+    "label": "COINTELPRO",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/COINTELPRO",
+    "summary": "FBI counterintelligence program running 1956–1971, targeting civil rights, antiwar, feminist, and socialist movements through infiltration, forged documents, blackmail, and facilitation of violence. Confirmed by the 1971 Media, Pennsylvania FBI office break-in and fully exposed by the 1975 Church Committee.",
+    "decade": "1950s–1970s",
+    "tags": ["government", "FBI", "civil_rights", "history", "documented_atrocity"]
+  },
+  {
+    "id": "hamitic_hypothesis",
+    "label": "Hamitic Hypothesis",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hamitic_hypothesis",
+    "summary": "19th-century European pseudoscientific racial theory classifying certain African peoples as racially closer to Europeans and therefore naturally suited to rule. Belgian colonizers applied it in Rwanda to reclassify fluid social distinctions between Hutu and Tutsi as fixed, heritable racial categories, issuing identity cards in 1933 that made ethnicity administratively permanent.",
+    "decade": "1800s–1900s",
+    "tags": ["racism", "colonialism", "pseudoscience", "ideology", "africa"]
+  },
+  {
+    "id": "hutu_power",
+    "label": "Hutu Power",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hutu_Power",
+    "summary": "Extremist Hutu nationalist ideology that emerged in Rwanda in the early 1990s, reactivating colonial racial classification and inverting it — framing Tutsis as foreign occupiers deserving elimination. The organizing ideology behind the 1994 genocide.",
+    "decade": "1990s",
+    "tags": ["genocide", "nationalism", "ideology", "rwanda", "africa"]
+  },
+  {
+    "id": "radio_milles_collines",
+    "label": "Radio Mille Collines (RTLM)",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Radio_T%C3%A9l%C3%A9vision_Libre_des_Mille_Collines",
+    "summary": "Hutu Power radio station that broadcast dehumanizing language (\"inyenzi\" — cockroaches), names and locations of Tutsi individuals, and operational instructions to killers during the 1994 genocide. Functioned as both ideological infrastructure and operational logistics.",
+    "decade": "1990s",
+    "tags": ["genocide", "propaganda", "media", "rwanda", "africa"]
+  },
+  {
+    "id": "rwandan_genocide",
+    "label": "Rwandan Genocide",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rwandan_genocide",
+    "summary": "1994 genocide of approximately 800,000 Tutsi and moderate Hutu in roughly 100 days — the terminus of a causal chain running from Belgian colonial racial classification through extremist ideology and media dehumanization. The fastest mass killing in recorded history.",
+    "decade": "1990s",
+    "tags": ["genocide", "africa", "rwanda", "history", "documented_atrocity"]
+  },
+  {
+    "id": "dehumanization",
+    "label": "Dehumanization",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dehumanization",
+    "summary": "The psychological and social process by which a target population is stripped of human status in the perception of perpetrators and bystanders. Documented as a consistent prerequisite for mass violence and genocide — reducing the moral inhibition that would otherwise prevent ordinary people from participating in atrocity.",
+    "decade": "Ongoing",
+    "tags": ["psychology", "genocide", "mechanism", "sociology", "violence"]
+  },
+  {
+    "id": "pain_management_movement",
+    "label": "Pain Management Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pain_management",
+    "summary": "Medical consensus that emerged in the 1980s–90s around the undertreatment of chronic pain — 'opiophobia' was causing patient suffering, and physicians needed to prescribe opioids more willingly. A legitimate clinical problem and the entry point Purdue Pharma systematically exploited.",
+    "decade": "1980s–1990s",
+    "tags": ["medical", "health", "opioids", "history"]
+  },
+  {
+    "id": "purdue_pharma_oxycontin",
+    "label": "Purdue Pharma / OxyContin",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Purdue_Pharma",
+    "summary": "Purdue Pharma's systematic deceptive marketing of OxyContin as non-addictive: funding medical education, placing representatives in physician offices, influencing the Joint Commission's 'pain as fifth vital sign' initiative, and publishing journal-backed claims of minimal addiction risk. The most documented instance of institutional credibility laundering in modern medicine.",
+    "decade": "1990s–2010s",
+    "tags": ["corporate", "opioids", "health", "deception", "medical"]
+  },
+  {
+    "id": "institutional_credibility_laundering",
+    "label": "Institutional Credibility Laundering",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The process by which corporate-interest claims acquire the epistemic authority of independent science: funding research, publishing through peer-reviewed journals, influencing professional body guidelines, and using those guidelines to claim scientific consensus. The complement to manufactured scientific doubt — where that mechanism converts confidence into controversy, this converts corporate claims into apparent consensus.",
+    "decade": "Ongoing",
+    "tags": ["mechanism", "science", "corporate", "epistemology", "medical"]
+  },
+  {
+    "id": "opioid_epidemic",
+    "label": "Opioid Epidemic",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Opioid_epidemic_in_the_United_States",
+    "summary": "Mass addiction crisis produced by opioid over-prescription, killing over 500,000 Americans by the 2020s. The downstream terminus of Purdue's deceptive marketing and the FDA's regulatory failure to adequately scrutinize OxyContin's approval and labeling.",
+    "decade": "1990s–Ongoing",
+    "tags": ["health", "addiction", "corporate", "opioids", "crisis"]
+  },
+  {
+    "id": "tuskegee_syphilis_study",
+    "label": "Tuskegee Syphilis Study",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+    "summary": "U.S. Public Health Service study that deliberately withheld syphilis treatment from 399 Black men for 40 years after penicillin became available, observing disease progression rather than providing care. Exposed in 1972, it produced documented, lasting medical distrust in Black American communities — one of the most traceable causal links between a government atrocity and a downstream epistemic condition.",
+    "decade": "1930s–1970s",
+    "tags": ["government", "medical", "racism", "history", "documented_atrocity"]
+  },
+  {
+    "id": "sack_of_rome_1527",
+    "label": "Sack of Rome",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sack_of_Rome_(1527)",
+    "summary": "The brutal occupation of Rome in May 1527 by mutinous Landsknecht and Spanish troops of Holy Roman Emperor Charles V, killing thousands and devastating the city. Left Pope Clement VII politically captive to Charles V, with cascading consequences for the Protestant Reformation and the English break from Rome.",
+    "decade": "1520s",
+    "tags": ["history", "religion", "papacy", "renaissance", "europe"]
+  },
+  {
+    "id": "papal_swiss_guard",
+    "label": "Papal Swiss Guard",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Papal_Swiss_Guard",
+    "summary": "Military corps established to protect the Pope, defined by the sacrifice of approximately 147 of the 189 Guards who held their position at St. Peter's Square during the 1527 Sack of Rome, buying time for Pope Clement VII to escape through the Passetto di Borgo. Their oath of fidelity unto death became the founding legend of an institution still active 500 years later.",
+    "decade": "1500s–Ongoing",
+    "tags": ["military", "papacy", "loyalty", "history", "institution"]
+  },
+  {
+    "id": "protestant_reformation",
+    "label": "Protestant Reformation",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Protestant_Reformation",
+    "summary": "The 16th-century theological and political rupture initiated by Martin Luther in 1517 that permanently fragmented Western Christendom. Enabled by the Sack of Rome's damage to papal political authority, it produced both the English Reformation and the theological context within which Luther's later antisemitic writings were produced and distributed.",
+    "decade": "1510s–1600s",
+    "tags": ["religion", "history", "europe", "theology", "reformation"]
+  },
+  {
+    "id": "english_reformation",
+    "label": "English Reformation",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/English_Reformation",
+    "summary": "Henry VIII's break from papal authority and creation of the Church of England, triggered by Pope Clement VII's politically enforced inability to grant an annulment of Henry's marriage to Catherine of Aragon — whose nephew, Charles V, had made the Pope his political captive after the 1527 Sack of Rome. Permanently altered British religious, political, and imperial identity.",
+    "decade": "1530s–1550s",
+    "tags": ["religion", "history", "england", "papacy", "reformation"]
+  },
+  {
+    "id": "ottoman_expansion_europe",
+    "label": "Ottoman Expansion into Europe",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ottoman_wars_in_Europe",
+    "summary": "The 350-year westward push of Ottoman military power from the Balkans through Hungary to the walls of Vienna — the furthest point of expansion in 1683. Constituted a sustained civilizational pressure on Central Europe that shaped its political and military development throughout the early modern period.",
+    "decade": "1300s–1680s",
+    "tags": ["military", "ottoman", "europe", "history", "empire"]
+  },
+  {
+    "id": "winged_hussars",
+    "label": "Winged Hussars",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Winged_hussars",
+    "summary": "Elite Polish-Lithuanian heavy cavalry distinguished by their dramatic winged armor and 5-meter lances. On September 12, 1683, approximately 3,000 Winged Hussars charged downhill into the Ottoman siege camp at Vienna in the largest cavalry charge in recorded history, breaking Ottoman lines and ending the siege. Their intervention was the decisive tactical element of the battle.",
+    "decade": "1570s–1770s",
+    "tags": ["military", "poland", "cavalry", "history", "europe"]
+  },
+  {
+    "id": "battle_of_vienna_1683",
+    "label": "Battle of Vienna",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Vienna",
+    "summary": "The engagement of September 11–12, 1683 in which the Polish-Lithuanian and Holy Roman Empire relief force under King John III Sobieski routed the Ottoman army besieging Vienna, ending the Ottoman threat to Central Europe. The last credible Ottoman bid for European expansion and the inflection point of two centuries of subsequent Ottoman decline.",
+    "decade": "1680s",
+    "tags": ["military", "ottoman", "europe", "history", "poland"]
+  },
+  {
+    "id": "ottoman_decline_europe",
+    "label": "Ottoman Decline in Europe",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Decline_of_the_Ottoman_Empire",
+    "summary": "The two-century process of Ottoman territorial and military retreat from Europe following the 1683 defeat at Vienna — encompassing the Great Turkish War, the Treaty of Karlowitz (1699), and the long 19th-century Eastern Question that defined European diplomacy until the empire's dissolution after World War I.",
+    "decade": "1680s–1910s",
+    "tags": ["ottoman", "history", "europe", "empire", "decline"]
   }
 ]
