@@ -220,6 +220,7 @@ function initCytoscape(nodes, edges) {
   });
 
   cy.on('mouseover', 'node', e => {
+    if (selectedNodeId) return;
     const node = e.target;
     if (node.hasClass('cluster-node')) return;
     const connected = node.connectedEdges();
@@ -234,11 +235,13 @@ function initCytoscape(nodes, edges) {
   });
 
   cy.on('mouseout', 'node', () => {
+    if (selectedNodeId) return;
     cy.elements().removeClass('highlighted');
     restoreNeighborhoodDimming();
   });
 
   cy.on('mouseover', 'edge', e => {
+    if (selectedNodeId) return;
     const edge = e.target;
     const connected = edge.connectedNodes();
     cy.elements()
@@ -250,6 +253,7 @@ function initCytoscape(nodes, edges) {
   });
 
   cy.on('mouseout', 'edge', () => {
+    if (selectedNodeId) return;
     cy.elements().removeClass('highlighted');
     restoreNeighborhoodDimming();
   });
