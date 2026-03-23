@@ -3517,5 +3517,149 @@
     "label": "Rabbinic Judaism made diaspora theologically viable rather than catastrophic",
     "note": "By replacing Temple sacrifice with prayer, Torah study, and ethical observance, rabbinic Judaism created a portable religious identity. Jews could maintain collective identity, practice, and community structure anywhere in the world. This innovation allowed the Jewish diaspora to persist as a coherent religious civilization rather than assimilating.",
     "confidence": "high"
+  },
+  {
+    "id": "papal_authority__first_crusade",
+    "source": "papal_authority",
+    "target": "first_crusade",
+    "type": "ENABLED",
+    "label": "Papal authority gave Pope Urban II the power to call a military crusade",
+    "note": "Pope Urban II call at the Council of Clermont (1095) mobilized tens of thousands of soldiers across Europe. This level of cross-national military coordination was only possible because papal authority was recognized as supreme — no secular ruler could have achieved it alone. The Crusade is the most dramatic demonstration of what papal authority could mobilize.",
+    "confidence": "high"
+  },
+  {
+    "id": "papal_authority__spanish_inquisition",
+    "source": "papal_authority",
+    "target": "spanish_inquisition",
+    "type": "ENABLED",
+    "label": "Papal sanction gave the Inquisition theological and legal legitimacy",
+    "note": "The Spanish Inquisition operated with papal authorization — the bull Exigit Sinceras Devotionis (1478) granted the Spanish Crown the right to appoint inquisitors under papal authority. Without the claim to papal supremacy and the theological apparatus of heresy prosecution, the Inquisition had no legitimacy to compel confession or adjudicate belief.",
+    "confidence": "high"
+  },
+  {
+    "id": "papal_authority__catholic_clergy_abuse",
+    "source": "papal_authority",
+    "target": "catholic_clergy_abuse",
+    "type": "ENABLED",
+    "label": "Hierarchical authority structure enabled systematic cover-up of abuse",
+    "note": "The same hierarchical obedience structure that made the Church effective also made it capable of systematic cover-up. Bishops answered to the Vatican; Vatican culture prioritized institutional reputation over victim welfare. The authority structure that centralized power also centralized the capacity to suppress disclosure.",
+    "confidence": "high"
+  },
+  {
+    "id": "papal_authority__democratic_backsliding",
+    "source": "papal_authority",
+    "target": "democratic_backsliding",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both use claimed supreme authority to override accountability structures",
+    "note": "Papal supremacy doctrine and democratic backsliding share a structural mechanism: both use claims of ultimate authority (divine mandate / popular sovereignty / emergency) to override the accountability structures that would constrain them. The inquisitorial court, like the autocrat court, answers to no external check.",
+    "confidence": "medium"
+  },
+  {
+    "id": "monasticism__scholasticism",
+    "source": "monasticism",
+    "target": "scholasticism",
+    "type": "ENABLED",
+    "label": "Monastic scriptoria and learning culture preserved the texts scholasticism required",
+    "note": "Scholasticism required access to Aristotle, Augustine, and the Church Fathers — texts that survived the early medieval period almost exclusively because monastic scriptoria copied and preserved them. Without the monastic preservation of classical learning, there would have been nothing for scholastic thinkers to synthesize.",
+    "confidence": "high"
+  },
+  {
+    "id": "monasticism__christian_sacred_art",
+    "source": "monasticism",
+    "target": "christian_sacred_art",
+    "type": "ENABLED",
+    "label": "Monastic workshops produced illuminated manuscripts and early sacred art",
+    "note": "The great illuminated manuscripts (Book of Kells, Lindisfarne Gospels) were produced in monastic scriptoria. Monastic workshops were the primary context for early Christian visual art — from Byzantine mosaic programs in monastic churches to the sculpted reliefs of Romanesque monasteries.",
+    "confidence": "high"
+  },
+  {
+    "id": "thomas_aquinas__scholasticism",
+    "source": "thomas_aquinas",
+    "target": "scholasticism",
+    "type": "PRODUCED",
+    "label": "Aquinas Summa Theologica was the culmination and definitive achievement of scholasticism",
+    "note": "The Summa Theologica is scholasticism fully realized: systematic, exhaustive, organized as objection-response-reply, and integrating Aristotelian metaphysics with Christian theology. Aquinas did not merely participate in scholasticism — his work is its summit, the text against which all subsequent Catholic philosophy and theology is measured.",
+    "confidence": "high"
+  },
+  {
+    "id": "thomas_aquinas__aristotelian_logic",
+    "source": "thomas_aquinas",
+    "target": "aristotelian_logic",
+    "type": "ENABLED",
+    "label": "Aquinas made Aristotle safe for Catholic theology and embedded logic in the curriculum",
+    "note": "When Aristotle re-entered Europe via Arabic translations, his naturalistic metaphysics threatened Christian doctrine. Aquinas response — finding Aristotle compatible with and illuminating of Christian truth — saved Aristotle for the Western tradition and made Aristotelian logic the official method of Catholic intellectual culture.",
+    "confidence": "high"
+  },
+  {
+    "id": "augustine_of_hippo__thomas_aquinas",
+    "source": "augustine_of_hippo",
+    "target": "thomas_aquinas",
+    "type": "ENABLED",
+    "label": "Augustine defined the theological questions Aquinas would systematize",
+    "note": "Augustine doctrine of original sin, the relationship of grace and free will, the nature of evil, and the authority of scripture were the central questions of medieval theology. Aquinas addressed all of them, in many cases completing what Augustine had begun. Augustine Neoplatonic theology provided the framework that Aquinas then rebuilt with Aristotelian tools.",
+    "confidence": "high"
+  },
+  {
+    "id": "christian_sacred_art__gothic_architecture",
+    "source": "christian_sacred_art",
+    "target": "gothic_architecture",
+    "type": "PRODUCED",
+    "label": "Sacred art program reached its fullest architectural expression in the Gothic cathedral",
+    "note": "The Gothic cathedral was the total work of sacred art: its stained glass windows were narrative theology, its sculpted portals were the Last Judgment in stone, its choir was acoustic theology. Gothic architecture is Christian sacred art raised to architectural scale — it could not exist without the full visual theology that sacred art had developed.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther__protestant_reformation",
+    "source": "martin_luther",
+    "target": "protestant_reformation",
+    "type": "PRODUCED",
+    "label": "Luther 95 Theses and theology launched the Protestant Reformation",
+    "note": "Luther nailing (or mailing) the 95 Theses in 1517 is the conventional starting point of the Reformation, but it was his subsequent theological works — The Freedom of a Christian, On the Babylonian Captivity, To the Christian Nobility — that provided the theological framework. His refusal to recant at the Diet of Worms (1521) made him a symbol of conscience against authority.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther__martin_luther_antisemitism",
+    "source": "martin_luther",
+    "target": "martin_luther_antisemitism",
+    "type": "PRODUCED",
+    "label": "Luther wrote the virulently antisemitic treatises that bear his name",
+    "note": "On the Jews and Their Lies (1543) called for burning synagogues, destroying Jewish homes, confiscating prayer books, and enslaving Jews. Luther early writings had been relatively friendly toward Jews (he expected them to convert once Christianity was purified of corruption); after they did not, he turned viciously hostile. His antisemitic works were cited by Nazi propagandists and read aloud at the Nuremberg rallies.",
+    "confidence": "high"
+  },
+  {
+    "id": "protestant_reformation__council_of_trent",
+    "source": "protestant_reformation",
+    "target": "council_of_trent",
+    "type": "PRODUCED",
+    "label": "The Protestant Reformation forced the Catholic Counter-Reformation response at Trent",
+    "note": "The Council of Trent was explicitly convened to respond to the Protestant challenge. Without Luther, Calvin, and Zwingli, there is no compelling reason for the papacy to undertake the painful institutional reforms and doctrinal clarifications Trent produced. The Reformation forced the Church to define what it actually believed on questions Luther had raised.",
+    "confidence": "high"
+  },
+  {
+    "id": "jesuit_order__council_of_trent",
+    "source": "jesuit_order",
+    "target": "council_of_trent",
+    "type": "ENABLED",
+    "label": "Jesuit theologians provided the intellectual leadership at Trent",
+    "note": "Jesuit theologians, particularly Diego Lainez and Alfonso Salmeron, played decisive roles at the Council of Trent in drafting the decrees on justification, scripture, and tradition. The Jesuits were the Counter-Reformation intellectual elite, and Trent was where that elite shaped Catholic doctrine for four centuries.",
+    "confidence": "high"
+  },
+  {
+    "id": "second_vatican_council__medieval_christian_antisemitism",
+    "source": "second_vatican_council",
+    "target": "medieval_christian_antisemitism",
+    "type": "DISCREDITED",
+    "label": "Nostra Aetate formally repudiated the deicide charge and collective Jewish guilt",
+    "note": "The Vatican II declaration Nostra Aetate (1965) explicitly repudiated the claim that Jews as a people are guilty of Jesus death — the theological root of centuries of Christian antisemitism. It marked the official end of the Church teaching of Jewish guilt and called for dialogue rather than missionary pressure. This was a direct repudiation of the theological engine of medieval antisemitism.",
+    "confidence": "high"
+  },
+  {
+    "id": "catholic_clergy_abuse__institutional_credibility_laundering",
+    "source": "catholic_clergy_abuse",
+    "target": "institutional_credibility_laundering",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Church used institutional prestige to suppress disclosure and protect perpetrators",
+    "note": "The Church cover-up used institutional credibility laundering: the moral authority of the Catholic Church was invoked to persuade police not to prosecute, families not to go public, and diocesan officials to transfer rather than remove abusers. The same prestige that made priests trusted with children was weaponized to silence their victims.",
+    "confidence": "high"
   }
 ]

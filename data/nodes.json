@@ -3606,5 +3606,183 @@
       "mechanism",
       "structural"
     ]
+  },
+  {
+    "id": "papal_authority",
+    "label": "Papal Authority and Petrine Supremacy",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The doctrine that the Bishop of Rome (the Pope) holds supreme authority over all Christians, derived from the claim that Peter was the first bishop of Rome and that Jesus granted Peter unique leadership (Matthew 16:18). This mechanism produced a hierarchical church structure capable of coordinating action across a continent, but also capable of coercion, crusades, inquisitions, and political domination over secular rulers. The tension between papal authority claims and the authority of councils, secular rulers, and local bishops is the structural driver of most major Christian schisms and reform movements, from the Great Schism of 1054 to the Protestant Reformation.",
+    "decade": "800s",
+    "tags": [
+      "christianity",
+      "papacy",
+      "authority",
+      "hierarchy",
+      "church",
+      "rome",
+      "mechanism"
+    ]
+  },
+  {
+    "id": "monasticism",
+    "label": "Christian Monasticism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christian_monasticism",
+    "summary": "The tradition of religious withdrawal from ordinary society into disciplined communal or solitary life, originating in the Egyptian desert (Anthony of Egypt, c.270 CE) and systematized by Benedict of Nursia (Rule of Benedict, c.516 CE). Monasteries became the intellectual, agricultural, and social service institutions of medieval Europe — preserving classical learning, developing brewing and farming techniques, running hospitals and schools, and providing the institutional backbone of the Church before universities existed. Monks and nuns produced the illuminated manuscripts, scriptoria, and theological commentaries that carried knowledge across the Dark Ages. Monasticism also generated the reform movements (Cluniac, Cistercian, Franciscan, Dominican) that repeatedly renewed the Church from within.",
+    "decade": "300s",
+    "tags": [
+      "christianity",
+      "monks",
+      "benedict",
+      "medieval",
+      "learning",
+      "preservation",
+      "community"
+    ]
+  },
+  {
+    "id": "christian_sacred_art",
+    "label": "Christian Sacred Art",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christian_art",
+    "summary": "The visual art tradition produced by and for Christianity, spanning Byzantine mosaics, Romanesque sculpture, Gothic stained glass, Renaissance painting, and Baroque expression. Sacred art was theology made visible for populations who could not read: images of the Crucifixion, the Virgin, and the saints taught doctrine, inspired devotion, and communicated the narrative of salvation. The iconoclasm controversies (726–843 CE) were theological wars over whether images were instruments of devotion or idolatry. The Renaissance explosion of sacred art — Giotto, Fra Angelico, Leonardo, Michelangelo, Raphael — was funded by the Church as an assertion of power and prestige, producing the Western artistic tradition as a byproduct of theological patronage.",
+    "decade": "300s",
+    "tags": [
+      "christianity",
+      "art",
+      "icons",
+      "renaissance",
+      "painting",
+      "theology",
+      "patronage"
+    ]
+  },
+  {
+    "id": "gothic_architecture",
+    "label": "Gothic Architecture",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gothic_architecture",
+    "summary": "The medieval architectural style (c.1140–1500 CE) originating in France that transformed the cathedral from a heavy Romanesque fortress into a soaring structure of light and height. The technical innovations — pointed arch, flying buttress, ribbed vault — solved the engineering problem of directing load outward, allowing walls to be filled with stained glass instead of stone. The Gothic cathedral was a cosmological argument in stone: its verticality pointed toward heaven, its light symbolized divine illumination, its program of sculpture and glass was a theological encyclopedia. Notre-Dame de Paris, Chartres, and Canterbury are surviving examples. Gothic architecture was a theology of ascent made tangible.",
+    "decade": "1100s",
+    "tags": [
+      "architecture",
+      "christianity",
+      "medieval",
+      "cathedrals",
+      "france",
+      "engineering",
+      "theology"
+    ]
+  },
+  {
+    "id": "thomas_aquinas",
+    "label": "Thomas Aquinas",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Aquinas",
+    "summary": "Dominican friar and theologian (1225–1274) whose Summa Theologica synthesized Aristotelian philosophy with Christian theology, becoming the intellectual summit of medieval scholasticism. Aquinas argued that faith and reason are complementary rather than contradictory: reason can demonstrate the existence of God (his Five Ways), while revelation supplements what reason cannot reach. His natural law theory became the foundation of Catholic moral theology and political philosophy. Aquinas was condemned by the Bishop of Paris in 1277 but canonized in 1323 — his rehabilitation marks the official triumph of scholastic synthesis. His method defined Catholic intellectual culture from the Counter-Reformation through the twentieth century.",
+    "decade": "1260s",
+    "tags": [
+      "theology",
+      "philosophy",
+      "scholasticism",
+      "aristotle",
+      "catholicism",
+      "natural-law",
+      "person"
+    ]
+  },
+  {
+    "id": "council_of_trent",
+    "label": "Council of Trent",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Council_of_Trent",
+    "summary": "The Catholic Church council convened in three sessions (1545–1563) in response to the Protestant Reformation, producing the definitive statement of Catholic doctrine and discipline that would govern the Church until the Second Vatican Council (1962). Trent rejected key Protestant positions (sola scriptura, sola fide), reaffirmed transubstantiation, clerical celibacy, and the seven sacraments, and initiated comprehensive institutional reforms of clergy education and behavior. The Tridentine reforms produced the modern Catholic Church: its catechism, its standardized Latin Mass, its seminary system. Trent also hardened confessional lines, making coexistence with Protestantism more difficult and contributing to the Wars of Religion.",
+    "decade": "1540s",
+    "tags": [
+      "catholicism",
+      "counter-reformation",
+      "council",
+      "doctrine",
+      "reform",
+      "protestantism"
+    ]
+  },
+  {
+    "id": "jesuit_order",
+    "label": "Society of Jesus (Jesuits)",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Society_of_Jesus",
+    "summary": "Religious order founded by Ignatius of Loyola in 1540 as the intellectual spearhead of the Catholic Counter-Reformation. The Jesuits distinguished themselves through rigorous intellectual training, flexibility in mission contexts, and a special fourth vow of obedience to the Pope. They became the Church dominant force in education (founding universities across Europe, Asia, and the Americas), foreign missions (entering Japan, China, India, and the Americas), and theological disputation against Protestantism. Their probabilist moral theology and accommodation to local cultures made them controversial — they were suppressed by Pope Clement XIV in 1773 under pressure from European monarchs, then restored in 1814.",
+    "decade": "1540s",
+    "tags": [
+      "catholicism",
+      "jesuits",
+      "education",
+      "missions",
+      "counter-reformation",
+      "philosophy",
+      "institution"
+    ]
+  },
+  {
+    "id": "martin_luther",
+    "label": "Martin Luther",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Martin_Luther",
+    "summary": "German Augustinian friar (1483–1546) whose theological protest against indulgence sales (95 Theses, 1517) triggered the Protestant Reformation. Luther core theological innovations — justification by faith alone (sola fide), scripture as the sole religious authority (sola scriptura), and the priesthood of all believers — directly challenged papal authority and the sacramental system. His translation of the Bible into German democratized scripture and standardized the German language. Luther later produced virulently antisemitic treatises (On the Jews and Their Lies, 1543) that would be cited by Nazi propagandists four centuries later, making him both a liberating and a deeply destructive historical force.",
+    "decade": "1510s",
+    "tags": [
+      "reformation",
+      "theology",
+      "protestantism",
+      "germany",
+      "bible",
+      "antisemitism",
+      "person"
+    ]
+  },
+  {
+    "id": "catholic_clergy_abuse",
+    "label": "Catholic Clergy Sexual Abuse Scandal",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases",
+    "summary": "The systematic sexual abuse of minors by Catholic priests, and the institutional cover-up by bishops and Vatican officials, exposed globally from the 1980s onward and reaching crisis point with the Boston Globe investigative series (2002, dramatized in the film Spotlight). The scandal revealed not merely individual predators but a systemic pattern: abusive priests transferred to new parishes rather than removed, victims silenced, police not notified, and diocesan assets protected over victim welfare. The abuse affected tens of thousands of children across decades; the cover-up extended to the highest levels of the Church. The scandal severely damaged institutional credibility and accelerated secularization in historically Catholic countries.",
+    "decade": "1990s",
+    "tags": [
+      "catholicism",
+      "abuse",
+      "cover-up",
+      "institution",
+      "credibility",
+      "scandal",
+      "harm"
+    ]
+  },
+  {
+    "id": "second_vatican_council",
+    "label": "Second Vatican Council (Vatican II)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Second_Vatican_Council",
+    "summary": "The Catholic Church council convened by Pope John XXIII (1962–1965) that produced the most significant reform of Catholic doctrine and practice since Trent. Vatican II declared the Church open to dialogue with modernity and other religions, permitted Mass in vernacular languages (replacing the Latin Tridentine Mass), affirmed religious freedom, repudiated antisemitism through the declaration Nostra Aetate (stating that Jews as a people are not collectively responsible for Jesus death), and initiated ecumenical dialogue. The Council was a rupture with the fortress-Church model of the Counter-Reformation — embracing rather than condemning the modern world. It generated both a progressive wing eager for further reform and a traditionalist reaction that persists to the present.",
+    "decade": "1960s",
+    "tags": [
+      "catholicism",
+      "reform",
+      "ecumenism",
+      "antisemitism",
+      "modernism",
+      "council",
+      "nostra-aetate"
+    ]
   }
 ]
