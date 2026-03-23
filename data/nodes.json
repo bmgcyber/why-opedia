@@ -1966,7 +1966,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism",
     "summary": "The 1054 formal split between the Roman Catholic and Eastern Orthodox churches over papal authority, the filioque clause, and accumulated liturgical differences. The schism meant that when Byzantium appealed to Rome for help, Pope Urban II's response carried the additional political logic of reasserting Latin Christian leadership over Orthodox Christianity.",
     "decade": "1050s",
-    "tags": ["religion", "history", "christianity", "schism", "medieval"]
+    "tags": [
+      "religion",
+      "history",
+      "christianity",
+      "schism",
+      "medieval"
+    ]
   },
   {
     "id": "council_of_clermont_1095",
@@ -1976,7 +1982,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Council_of_Clermont",
     "summary": "The November 1095 church council at which Pope Urban II called for a holy war to reclaim Jerusalem from the Seljuk Turks and aid the Byzantine Empire. The speech — promising remission of sins and spiritual reward for those who died — directly caused the First Crusade and initiated two centuries of religiously motivated warfare.",
     "decade": "1090s",
-    "tags": ["religion", "history", "crusades", "medieval", "papacy"]
+    "tags": [
+      "religion",
+      "history",
+      "crusades",
+      "medieval",
+      "papacy"
+    ]
   },
   {
     "id": "crusader_states",
@@ -1986,7 +1998,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Crusader_states",
     "summary": "The four Latin Christian states established in the Levant after the First Crusade: the Kingdom of Jerusalem, County of Edessa, Principality of Antioch, and County of Tripoli. They maintained a fragile European colonial presence in the Middle East from 1098 to 1291, when the fall of Acre ended the last Crusader territory.",
     "decade": "1090s–1290s",
-    "tags": ["history", "crusades", "middle_east", "colonialism", "medieval"]
+    "tags": [
+      "history",
+      "crusades",
+      "middle_east",
+      "colonialism",
+      "medieval"
+    ]
   },
   {
     "id": "saladin_reconquest",
@@ -1996,7 +2014,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Saladin",
     "summary": "Saladin (Salah ad-Din Yusuf ibn Ayyub) unified Egypt and Syria, then crushed the Crusader army at the Battle of Hattin (1187) and recaptured Jerusalem — reversing the First Crusade's conquest after 88 years. His relatively merciful treatment of Christian inhabitants contrasted with the Crusaders' 1099 massacre and became a founding narrative of Islamic resistance.",
     "decade": "1180s",
-    "tags": ["history", "islam", "middle_east", "crusades", "military"]
+    "tags": [
+      "history",
+      "islam",
+      "middle_east",
+      "crusades",
+      "military"
+    ]
   },
   {
     "id": "ottoman_empire",
@@ -2006,7 +2030,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Ottoman_Empire",
     "summary": "The Turkish Islamic empire (1299–1922) that at its height controlled Southeast Europe, Anatolia, the Middle East, and North Africa. The longest-lived major empire of the post-classical era, its collapse after WWI directly produced the modern Middle East's borders, conflicts, and state structure.",
     "decade": "1290s–1920s",
-    "tags": ["history", "ottoman", "empire", "middle_east", "turkey"]
+    "tags": [
+      "history",
+      "ottoman",
+      "empire",
+      "middle_east",
+      "turkey"
+    ]
   },
   {
     "id": "ottoman_conquest_arab_lands",
@@ -2016,7 +2046,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Mamluk_War_(1516%E2%80%9317)",
     "summary": "Sultan Selim I's 1516–1517 conquest of the Mamluk Sultanate, adding Syria, Egypt, and the Hejaz (including Mecca and Medina) to the Ottoman Empire. Made the Ottoman Sultan Caliph of Islam; brought the Arab world under Ottoman administration for four centuries until WWI, creating the political geography that Sykes-Picot would divide.",
     "decade": "1510s",
-    "tags": ["history", "ottoman", "middle_east", "conquest", "arab"]
+    "tags": [
+      "history",
+      "ottoman",
+      "middle_east",
+      "conquest",
+      "arab"
+    ]
   },
   {
     "id": "sykes_picot_agreement",
@@ -2026,7 +2062,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Sykes%E2%80%93Picot_Agreement",
     "summary": "The secret 1916 Anglo-French agreement dividing the Arab territories of the Ottoman Empire into British and French spheres of influence. Drew borders ignoring ethnic, religious, and tribal realities, creating Iraq, Syria, Lebanon, and Palestine as colonial constructs — the foundational document of modern Middle Eastern dysfunction.",
     "decade": "1910s",
-    "tags": ["history", "colonialism", "middle_east", "britain", "france"]
+    "tags": [
+      "history",
+      "colonialism",
+      "middle_east",
+      "britain",
+      "france"
+    ]
   },
   {
     "id": "balfour_declaration",
@@ -2036,7 +2078,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Balfour_Declaration",
     "summary": "The November 1917 letter from British Foreign Secretary Arthur Balfour to Zionist leader Lord Rothschild, declaring that 'His Majesty's Government view with favour the establishment in Palestine of a national home for the Jewish people.' Made without consulting the Arab majority population of Palestine; set the Israeli-Palestinian conflict in motion.",
     "decade": "1910s",
-    "tags": ["history", "britain", "middle_east", "zionism", "palestine"]
+    "tags": [
+      "history",
+      "britain",
+      "middle_east",
+      "zionism",
+      "palestine"
+    ]
   },
   {
     "id": "zionism",
@@ -2046,7 +2094,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Zionism",
     "summary": "The 19th-century Jewish nationalist movement founded by Theodor Herzl, advocating for the establishment of a Jewish homeland in response to European antisemitism. The Holocaust transformed Zionism from an ideological project into an urgent mass political reality, producing the political pressure that created Israel.",
     "decade": "1880s–Ongoing",
-    "tags": ["history", "judaism", "nationalism", "middle_east", "movement"]
+    "tags": [
+      "history",
+      "judaism",
+      "nationalism",
+      "middle_east",
+      "movement"
+    ]
   },
   {
     "id": "mandate_system",
@@ -2056,7 +2110,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/League_of_Nations_mandate",
     "summary": "The post-WWI League of Nations framework granting Britain and France administrative authority over former Ottoman Arab territories as 'mandates' — in theory preparing them for independence, in practice extending colonial rule. The British Mandate for Palestine simultaneously promised a Jewish homeland and Arab self-determination, making conflict structurally inevitable.",
     "decade": "1920s–1940s",
-    "tags": ["history", "colonialism", "middle_east", "britain", "france"]
+    "tags": [
+      "history",
+      "colonialism",
+      "middle_east",
+      "britain",
+      "france"
+    ]
   },
   {
     "id": "nakba",
@@ -2066,7 +2126,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight",
     "summary": "The mass displacement of approximately 700,000 Palestinian Arabs during the 1948 Arab-Israeli War, through a combination of military expulsion, flight from fighting, and psychological warfare. Palestinians call this 'the Catastrophe' (Nakba). Their exile and the refusal to allow return created the Palestinian refugee crisis that persists to the present day.",
     "decade": "1940s",
-    "tags": ["history", "middle_east", "palestine", "refugees", "war"]
+    "tags": [
+      "history",
+      "middle_east",
+      "palestine",
+      "refugees",
+      "war"
+    ]
   },
   {
     "id": "founding_of_israel",
@@ -2076,7 +2142,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Declaration_of_the_Establishment_of_the_State_of_Israel",
     "summary": "David Ben-Gurion's declaration of the State of Israel on May 14, 1948, one day before the British Mandate for Palestine expired. Recognized immediately by the United States and the Soviet Union, the declaration triggered the first Arab-Israeli War as neighboring Arab states invaded. Israel's founding simultaneously fulfilled the Zionist project and dispossessed the Palestinian Arab majority.",
     "decade": "1940s",
-    "tags": ["history", "middle_east", "israel", "zionism", "independence"]
+    "tags": [
+      "history",
+      "middle_east",
+      "israel",
+      "zionism",
+      "independence"
+    ]
   },
   {
     "id": "arab_israeli_war_1948",
@@ -2086,7 +2158,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War",
     "summary": "The first Arab-Israeli War, fought between the newly declared State of Israel and a coalition of Arab states (Egypt, Jordan, Syria, Iraq, Lebanon). Israel expanded beyond the UN partition plan borders, expelled or drove out most Palestinian Arabs, and secured its existence. The armistice lines became Israel's de facto borders until 1967.",
     "decade": "1940s",
-    "tags": ["history", "middle_east", "war", "israel", "arab_states"]
+    "tags": [
+      "history",
+      "middle_east",
+      "war",
+      "israel",
+      "arab_states"
+    ]
   },
   {
     "id": "suez_crisis_1956",
@@ -2096,7 +2174,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Suez_Crisis",
     "summary": "Egypt's President Nasser nationalized the Suez Canal, triggering a secret invasion by Britain, France, and Israel. US and Soviet pressure forced a humiliating Anglo-French withdrawal, marking the definitive end of British imperial power in the Middle East and elevating both Nasser's pan-Arab nationalism and superpower influence in the region.",
     "decade": "1950s",
-    "tags": ["history", "middle_east", "imperialism", "cold_war", "egypt"]
+    "tags": [
+      "history",
+      "middle_east",
+      "imperialism",
+      "cold_war",
+      "egypt"
+    ]
   },
   {
     "id": "six_day_war_1967",
@@ -2106,7 +2190,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Six-Day_War",
     "summary": "Israel's preemptive war against Egypt, Jordan, and Syria in June 1967, in which Israel captured the West Bank, Gaza Strip, Sinai Peninsula, and Golan Heights in six days. The occupation of the West Bank and Gaza placed over a million Palestinians under Israeli military control and created the territorial framework for all subsequent Israeli-Palestinian conflict.",
     "decade": "1960s",
-    "tags": ["history", "middle_east", "war", "israel", "occupation"]
+    "tags": [
+      "history",
+      "middle_east",
+      "war",
+      "israel",
+      "occupation"
+    ]
   },
   {
     "id": "yom_kippur_war_1973",
@@ -2116,7 +2206,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Yom_Kippur_War",
     "summary": "Egypt and Syria's surprise attack on Israel on Yom Kippur, initially achieving major gains before Israel reversed the momentum. The war led to the 1973 oil embargo, triggered the Camp David peace process, and shattered Israeli assumptions of invincibility. It was the last major Arab-Israeli conventional war.",
     "decade": "1970s",
-    "tags": ["history", "middle_east", "war", "israel", "oil"]
+    "tags": [
+      "history",
+      "middle_east",
+      "war",
+      "israel",
+      "oil"
+    ]
   },
   {
     "id": "cold_war",
@@ -2126,7 +2222,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Cold_War",
     "summary": "The geopolitical rivalry between the United States and the Soviet Union from 1947 to 1991, conducted through proxy wars, arms races, ideological competition, covert operations, and client state relationships rather than direct military conflict. The Cold War structured international politics globally and drove dozens of regional conflicts by transforming local disputes into superpower proxy contests.",
     "decade": "1947–1991",
-    "tags": ["history", "geopolitics", "usa", "ussr", "imperialism"]
+    "tags": [
+      "history",
+      "geopolitics",
+      "usa",
+      "ussr",
+      "imperialism"
+    ]
   },
   {
     "id": "us_iran_1953_coup",
@@ -2136,7 +2238,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat",
     "summary": "The CIA and MI6-orchestrated overthrow of Iran's democratically elected Prime Minister Mohammad Mosaddegh in August 1953, restoring Shah Mohammad Reza Pahlavi to absolute power. Mosaddegh had nationalized British oil interests; the coup reinstalled a pro-Western autocrat. The event became the defining grievance of Iranian nationalism and the ideological foundation for the 1979 Islamic Revolution.",
     "decade": "1950s",
-    "tags": ["history", "cold_war", "iran", "cia", "imperialism"]
+    "tags": [
+      "history",
+      "cold_war",
+      "iran",
+      "cia",
+      "imperialism"
+    ]
   },
   {
     "id": "iranian_revolution_1979",
@@ -2146,7 +2254,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Iranian_Revolution",
     "summary": "The popular uprising that overthrew Shah Mohammad Reza Pahlavi and established the Islamic Republic of Iran under Ayatollah Khomeini's doctrine of velayat-e faqih (guardianship of the jurist). The revolution replaced a secular pro-Western monarchy with a theocratic government hostile to both the US and the Soviet Union, transforming Middle Eastern geopolitics.",
     "decade": "1970s",
-    "tags": ["history", "iran", "revolution", "islamism", "theocracy"]
+    "tags": [
+      "history",
+      "iran",
+      "revolution",
+      "islamism",
+      "theocracy"
+    ]
   },
   {
     "id": "oil_geopolitics",
@@ -2155,7 +2269,13 @@
     "category": "mechanism",
     "summary": "The structural dynamic by which Middle Eastern oil reserves — controlling the majority of global proven reserves — make the region of existential strategic interest to industrial economies. Oil revenue funds authoritarian regimes, funds religious movements, distorts political development, and makes Western powers willing to support dictators, overthrow democrats, and fight wars to maintain access and friendly governments.",
     "decade": "1950s–present",
-    "tags": ["mechanism", "oil", "imperialism", "middle_east", "geopolitics"]
+    "tags": [
+      "mechanism",
+      "oil",
+      "imperialism",
+      "middle_east",
+      "geopolitics"
+    ]
   },
   {
     "id": "wahhabism_salafism",
@@ -2165,7 +2285,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Wahhabism",
     "summary": "The ultraconservative Sunni Islamic reform movements originating with Muhammad ibn Abd al-Wahhab in 18th-century Arabia, adopted as the state ideology of Saudi Arabia. Saudi oil revenues funded the global export of Wahhabism from the 1970s onward, financing mosques, madrassas, and religious institutions worldwide and displacing local Islamic traditions with a more literalist, exclusivist theology that provided ideological infrastructure for jihadist movements.",
     "decade": "1740s–present",
-    "tags": ["religion", "ideology", "islamism", "saudi_arabia", "radicalization"]
+    "tags": [
+      "religion",
+      "ideology",
+      "islamism",
+      "saudi_arabia",
+      "radicalization"
+    ]
   },
   {
     "id": "soviet_afghan_war",
@@ -2175,7 +2301,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War",
     "summary": "The decade-long conflict following the Soviet invasion of Afghanistan in December 1979, in which CIA-backed, Saudi-financed Afghan mujahideen fighters — supplemented by foreign volunteers including Osama bin Laden — fought Soviet forces to a strategic stalemate. The US saw it as a successful proxy war against the USSR; the aftermath created the conditions for the Taliban and al-Qaeda.",
     "decade": "1979–1989",
-    "tags": ["history", "cold_war", "afghanistan", "cia", "islamism"]
+    "tags": [
+      "history",
+      "cold_war",
+      "afghanistan",
+      "cia",
+      "islamism"
+    ]
   },
   {
     "id": "rise_of_al_qaeda",
@@ -2185,7 +2317,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Al-Qaeda",
     "summary": "The formation and growth of al-Qaeda as a transnational jihadist organization, founded by Osama bin Laden in 1988 from the network of Arab volunteers assembled in Afghanistan during the Soviet war. Al-Qaeda applied the infrastructure, veterans, and ideology of the Afghan jihad to a global campaign against the United States and Western presence in Muslim countries.",
     "decade": "1980s–2000s",
-    "tags": ["terrorism", "islamism", "al_qaeda", "afghanistan", "radicalization"]
+    "tags": [
+      "terrorism",
+      "islamism",
+      "al_qaeda",
+      "afghanistan",
+      "radicalization"
+    ]
   },
   {
     "id": "september_11_attacks",
@@ -2195,7 +2333,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/September_11_attacks",
     "summary": "Al-Qaeda's coordinated suicide attacks using hijacked commercial aircraft against the World Trade Center and Pentagon, killing nearly 3,000 people. The attacks triggered the US invasion of Afghanistan, the War on Terror, the invasion of Iraq, the Patriot Act's surveillance expansion, and a generational restructuring of US foreign policy and domestic security — producing consequences that dwarfed the original attacks in scale.",
     "decade": "2000s",
-    "tags": ["history", "terrorism", "usa", "al_qaeda", "war_on_terror"]
+    "tags": [
+      "history",
+      "terrorism",
+      "usa",
+      "al_qaeda",
+      "war_on_terror"
+    ]
   },
   {
     "id": "gulf_war_1990",
@@ -2205,7 +2349,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Gulf_War",
     "summary": "Iraq's invasion of Kuwait in August 1990 and the US-led coalition's military expulsion of Iraqi forces, resulting in Kuwait's liberation but Saddam Hussein remaining in power. The stationing of US troops in Saudi Arabia after the war became bin Laden's central grievance against the US, and Saddam's survival set the stage for the 2003 Iraq War.",
     "decade": "1990s",
-    "tags": ["history", "middle_east", "war", "iraq", "usa"]
+    "tags": [
+      "history",
+      "middle_east",
+      "war",
+      "iraq",
+      "usa"
+    ]
   },
   {
     "id": "oslo_accords",
@@ -2215,7 +2365,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Oslo_Accords",
     "summary": "Secret negotiations between Israel and the PLO that produced mutual recognition and a framework for Palestinian self-governance through the Palestinian Authority. The accords created the two-state solution framework but without resolving final-status issues: borders, Jerusalem, refugees, or settlements. The peace process stalled and collapsed, and the Palestinian Authority became associated with corruption and ineffectiveness.",
     "decade": "1990s",
-    "tags": ["history", "middle_east", "peace_process", "israel", "palestine"]
+    "tags": [
+      "history",
+      "middle_east",
+      "peace_process",
+      "israel",
+      "palestine"
+    ]
   },
   {
     "id": "arab_spring",
@@ -2225,7 +2381,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Arab_Spring",
     "summary": "The wave of pro-democracy uprisings across the Arab world beginning with Tunisia's Jasmine Revolution in late 2010, spreading to Egypt, Libya, Bahrain, Yemen, and Syria. Most transitions either failed (Egypt returning to military dictatorship after 2013) or collapsed into civil war (Libya, Yemen, Syria). The Arab Spring demonstrated both the aspirations for democratic governance and the fragility of Arab state structures.",
     "decade": "2010s",
-    "tags": ["history", "middle_east", "democracy", "revolution", "arab_world"]
+    "tags": [
+      "history",
+      "middle_east",
+      "democracy",
+      "revolution",
+      "arab_world"
+    ]
   },
   {
     "id": "syrian_civil_war",
@@ -2235,7 +2397,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Syrian_civil_war",
     "summary": "The multi-sided civil war that erupted when Assad's government violently suppressed Arab Spring protests, producing the world's largest refugee crisis (over 6 million external refugees, 6 million internally displaced), over 300,000 deaths, the near-destruction of major cities, Russian and Iranian military intervention, US proxy warfare, and the rise and partial defeat of ISIS.",
     "decade": "2010s–present",
-    "tags": ["history", "middle_east", "war", "syria", "refugees"]
+    "tags": [
+      "history",
+      "middle_east",
+      "war",
+      "syria",
+      "refugees"
+    ]
   },
   {
     "id": "isis_rise",
@@ -2245,7 +2413,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Islamic_State",
     "summary": "The emergence of the Islamic State in Iraq and Syria (ISIS) from the remnants of al-Qaeda in Iraq, growing from a weakened insurgency to the capture of Mosul and vast territories in Iraq and Syria in 2014. ISIS combined jihadist ideology with state-building, executing mass atrocities, genociding the Yazidis, and inspiring attacks worldwide before its territorial defeat in 2019.",
     "decade": "2010s",
-    "tags": ["history", "terrorism", "islamism", "iraq", "syria"]
+    "tags": [
+      "history",
+      "terrorism",
+      "islamism",
+      "iraq",
+      "syria"
+    ]
   },
   {
     "id": "israel_palestine_conflict",
@@ -2255,7 +2429,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_conflict",
     "summary": "The ongoing conflict between Israelis and Palestinians over territory, sovereignty, security, and the rights of Palestinian refugees and residents under occupation. Rooted in the Nakba and the founding of Israel, the conflict has produced multiple wars, intifadas, occupation, siege, and sustained violence, with no resolution in sight as two peoples claim the same land.",
     "decade": "1948–present",
-    "tags": ["history", "middle_east", "israel", "palestine", "occupation"]
+    "tags": [
+      "history",
+      "middle_east",
+      "israel",
+      "palestine",
+      "occupation"
+    ]
   },
   {
     "id": "in_group_out_group_dynamics",
@@ -2264,7 +2444,13 @@
     "category": "mechanism",
     "summary": "The evolved human tendency to favor members of one's own group and distrust or devalue members of other groups. This cognitive and social mechanism — hardwired through evolutionary psychology and amplified by culture, language, religion, and political manipulation — is the foundational engine beneath ethnic conflict, nationalism, religious war, and genocide. It transforms difference into threat and turns neighbors into enemies.",
     "decade": "universal",
-    "tags": ["mechanism", "psychology", "tribalism", "conflict", "cognition"]
+    "tags": [
+      "mechanism",
+      "psychology",
+      "tribalism",
+      "conflict",
+      "cognition"
+    ]
   },
   {
     "id": "moral_disengagement",
@@ -2273,7 +2459,13 @@
     "category": "mechanism",
     "summary": "Albert Bandura's framework for how ordinary people commit atrocities while maintaining a positive self-image: through euphemistic labeling ('enhanced interrogation,' 'resettlement'), displacement of responsibility onto authority, diffusion of responsibility across bureaucratic chains, dehumanization of victims, and moral justification through ideological ends. Explains why genocide, torture, and corporate harm are perpetrated by people who consider themselves decent.",
     "decade": "universal",
-    "tags": ["mechanism", "psychology", "atrocity", "ethics", "bandura"]
+    "tags": [
+      "mechanism",
+      "psychology",
+      "atrocity",
+      "ethics",
+      "bandura"
+    ]
   },
   {
     "id": "manufactured_consent",
@@ -2282,7 +2474,13 @@
     "category": "mechanism",
     "summary": "Herman and Chomsky's propaganda model: in nominally free societies, elite interests shape the range of 'thinkable' public opinion through media ownership concentration, advertising dependency, sourcing from official institutions, flak against dissidents, and ideological anti-communism (or equivalent). Media filters produce news that systematically serves power without requiring direct censorship, manufacturing the appearance of consent for policies that benefit elites.",
     "decade": "universal",
-    "tags": ["mechanism", "propaganda", "media", "democracy", "chomsky"]
+    "tags": [
+      "mechanism",
+      "propaganda",
+      "media",
+      "democracy",
+      "chomsky"
+    ]
   },
   {
     "id": "democratic_backsliding",
@@ -2291,7 +2489,13 @@
     "category": "mechanism",
     "summary": "The repeating pattern by which democracies erode toward authoritarianism, typically through: emergency powers that outlast emergencies, press freedom restrictions framed as national security, judiciary capture through court-packing or removal, electoral manipulation through gerrymandering and voter suppression, and the delegitimization of political opposition as treasonous. Distinguished from coup by its gradualism — each step is individually defensible.",
     "decade": "universal",
-    "tags": ["mechanism", "democracy", "authoritarianism", "institutions", "political_science"]
+    "tags": [
+      "mechanism",
+      "democracy",
+      "authoritarianism",
+      "institutions",
+      "political_science"
+    ]
   },
   {
     "id": "structural_violence",
@@ -2300,7 +2504,13 @@
     "category": "mechanism",
     "summary": "Johan Galtung's concept: violence embedded in social structures — poverty, racism, patriarchy, caste — that harms and kills people as surely as direct physical violence, but through differential access to resources, healthcare, education, and legal protection rather than through direct assault. Structural violence is invisible precisely because it is normal: when people die from preventable poverty in a wealthy society, no single person is blamed.",
     "decade": "universal",
-    "tags": ["mechanism", "violence", "inequality", "sociology", "galtung"]
+    "tags": [
+      "mechanism",
+      "violence",
+      "inequality",
+      "sociology",
+      "galtung"
+    ]
   },
   {
     "id": "resource_curse",
@@ -2309,7 +2519,13 @@
     "category": "mechanism",
     "summary": "The observed pattern by which countries with abundant natural resource wealth — oil, diamonds, minerals — tend toward authoritarian governance, weak institutions, corruption, and conflict rather than development. The causal mechanism: resource-dependent governments derive revenue from the resource, not from taxing citizens, so they need not be accountable to citizens. Wealth funds security forces rather than public goods.",
     "decade": "universal",
-    "tags": ["mechanism", "economics", "authoritarianism", "development", "natural_resources"]
+    "tags": [
+      "mechanism",
+      "economics",
+      "authoritarianism",
+      "development",
+      "natural_resources"
+    ]
   },
   {
     "id": "preference_falsification",
@@ -2318,7 +2534,13 @@
     "category": "mechanism",
     "summary": "Timur Kuran's theory: in authoritarian or socially coercive contexts, people routinely misrepresent their private preferences to avoid punishment or social ostracism, publicly supporting regimes they privately oppose. This creates a false appearance of consensus that makes the regime seem stable until — at an unpredictable threshold — enough people see others defecting and the cascade of public preference-revealing produces a sudden, unexpected collapse. Explains why revolutions look impossible until they are inevitable.",
     "decade": "universal",
-    "tags": ["mechanism", "political_science", "revolution", "social_norms", "kuran"]
+    "tags": [
+      "mechanism",
+      "political_science",
+      "revolution",
+      "social_norms",
+      "kuran"
+    ]
   },
   {
     "id": "radicalization_pipeline",
@@ -2327,7 +2549,13 @@
     "category": "mechanism",
     "summary": "The staged psychological process by which individuals transition from mainstream belief to extremist violence: personal grievance or identity crisis → connection with a radicalizing group that provides belonging and meaning → adoption of an ideological framework that identifies an enemy and justifies action → progressive isolation from moderating relationships → desensitization to violence → crossing into action. Each stage narrows the path back and increases group pressure.",
     "decade": "universal",
-    "tags": ["mechanism", "radicalization", "terrorism", "psychology", "extremism"]
+    "tags": [
+      "mechanism",
+      "radicalization",
+      "terrorism",
+      "psychology",
+      "extremism"
+    ]
   },
   {
     "id": "historical_revisionism",
@@ -2336,7 +2564,13 @@
     "category": "mechanism",
     "summary": "The systematic rewriting of history by dominant groups to serve present power: glorifying colonial conquest as civilization, mythologizing military defeats as noble causes, denying or minimizing atrocities, erasing the contributions of marginalized groups. Historical revisionism is a power mechanism because it shapes which grievances are considered legitimate, which injustices deserve redress, and who counts as a full member of the national story.",
     "decade": "universal",
-    "tags": ["mechanism", "history", "power", "memory", "propaganda"]
+    "tags": [
+      "mechanism",
+      "history",
+      "power",
+      "memory",
+      "propaganda"
+    ]
   },
   {
     "id": "collective_trauma",
@@ -2345,6 +2579,156 @@
     "category": "mechanism",
     "summary": "The process by which historical trauma experienced by a group is transmitted across generations through cultural memory, communal practices, narrative, altered parenting shaped by traumatic experience, and institutional memory. Collective trauma shapes present political behavior in ways that can appear irrational to outsiders: threat perception, distrust of institutions, the perceived necessity of extreme self-protection. It explains why past atrocities continue to drive current politics.",
     "decade": "universal",
-    "tags": ["mechanism", "trauma", "psychology", "intergenerational", "memory"]
+    "tags": [
+      "mechanism",
+      "trauma",
+      "psychology",
+      "intergenerational",
+      "memory"
+    ]
+  },
+  {
+    "id": "lost_cause_mythology",
+    "label": "Lost Cause Mythology",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lost_Cause_of_the_Confederacy",
+    "summary": "The post-Civil War ideological project — developed primarily in the 1880s–1920s by Confederate veterans' organizations, Southern writers, and politicians — that recast the Confederacy as a noble cause defending states' rights rather than slavery, valorized Confederate generals as heroic, and portrayed Reconstruction as tyrannical oppression. Lost Cause mythology provided the ideological justification for Jim Crow, shaped American popular culture through films like Birth of a Nation, and was encoded in hundreds of Confederate monuments built during the Jim Crow era.",
+    "decade": "1870s–present",
+    "tags": [
+      "history",
+      "usa",
+      "confederacy",
+      "racism",
+      "revisionism"
+    ]
+  },
+  {
+    "id": "fall_of_soviet_union",
+    "label": "Fall of the Soviet Union (1991)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union",
+    "summary": "The dissolution of the USSR on December 25, 1991, following a cascade of independence movements in Soviet republics, the failed August coup against Gorbachev, and the economic collapse driven by the arms race and oil revenue dependence. The Soviet Union's fall appeared sudden despite decades of structural decay — a classic preference falsification cascade where publicly performed loyalty to the system masked private alienation until the threshold for mass defection was crossed.",
+    "decade": "1991",
+    "tags": [
+      "history",
+      "cold_war",
+      "soviet_union",
+      "communism",
+      "geopolitics"
+    ]
+  },
+  {
+    "id": "nuremberg_trials",
+    "label": "Nuremberg Trials (1945–1946)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nuremberg_trials",
+    "summary": "The International Military Tribunal's prosecution of 24 major Nazi war criminals for crimes against peace, war crimes, and crimes against humanity. The trials established that 'following orders' is not a defense for atrocity, created the legal precedent for international criminal justice, and defined crimes against humanity as a legal category. They were also the first formal accounting of what had happened in the Holocaust, creating the evidentiary record on which later denial could be prosecuted.",
+    "decade": "1940s",
+    "tags": [
+      "history",
+      "wwii",
+      "law",
+      "justice",
+      "holocaust"
+    ]
+  },
+  {
+    "id": "apartheid_south_africa",
+    "label": "Apartheid South Africa (1948–1994)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Apartheid",
+    "summary": "The system of institutionalized racial segregation and discrimination enforced by South Africa's National Party government from 1948 to 1994, classifying all South Africans by race, separating them into distinct areas, denying Black South Africans citizenship and political rights, and enforcing this system through police violence and imprisonment. Apartheid was the most legally elaborate racial hierarchy since Nazism, and its end through negotiated transition became a model for post-conflict reconciliation.",
+    "decade": "1948–1994",
+    "tags": [
+      "history",
+      "africa",
+      "racism",
+      "colonialism",
+      "segregation"
+    ]
+  },
+  {
+    "id": "decolonization_movement",
+    "label": "Global Decolonization Movement (1945–1975)",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Decolonization",
+    "summary": "The wave of independence movements that dissolved European colonial empires between 1945 and 1975, producing over 50 new nation-states across Africa, Asia, the Middle East, and the Caribbean. Decolonization was driven by anti-colonial nationalist movements, the economic exhaustion of colonial powers after WWII, superpower pressure (the US and USSR both opposed formal colonialism), and the internal contradictions of maintaining empire after having fought against fascism.",
+    "decade": "1945–1975",
+    "tags": [
+      "history",
+      "colonialism",
+      "independence",
+      "africa",
+      "asia"
+    ]
+  },
+  {
+    "id": "tiananmen_square_massacre",
+    "label": "Tiananmen Square Massacre (1989)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre",
+    "summary": "The Chinese government's violent suppression of pro-democracy protests centered in Beijing's Tiananmen Square in June 1989, killing hundreds to potentially thousands of protesters and bystanders in a military crackdown ordered by Deng Xiaoping. The massacre ended China's brief political liberalization, consolidated the CCP's determination that economic reform could proceed without political reform, and was subsequently subjected to comprehensive domestic censorship that remains nearly total.",
+    "decade": "1980s",
+    "tags": [
+      "history",
+      "china",
+      "democracy",
+      "authoritarianism",
+      "repression"
+    ]
+  },
+  {
+    "id": "latin_american_dirty_wars",
+    "label": "Latin American Dirty Wars (1960s–1980s)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dirty_War",
+    "summary": "The systematic state terrorism conducted by US-backed military dictatorships across Latin America — Argentina, Chile, Brazil, Uruguay, Guatemala, El Salvador, and others — involving the kidnapping, torture, and disappearance of tens of thousands of suspected leftists, labor organizers, students, and journalists. Coordinated through Operation Condor, these campaigns were enabled by CIA training, intelligence sharing, and political support as Cold War anti-communist policy.",
+    "decade": "1960s–1980s",
+    "tags": [
+      "history",
+      "cold_war",
+      "latin_america",
+      "torture",
+      "cia"
+    ]
+  },
+  {
+    "id": "milgram_obedience_experiments",
+    "label": "Milgram Obedience Experiments (1961)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Milgram_experiment",
+    "summary": "Stanley Milgram's Yale experiments in which ordinary American participants were instructed by an authority figure to administer increasingly powerful electric shocks to a stranger — with 65% willing to administer the maximum 450-volt shock despite the victim's apparent agony, as long as the authority figure said 'please continue.' Milgram designed the experiments to understand how ordinary Germans could have participated in the Holocaust. The results demonstrated empirically that ordinary people will commit apparent atrocities under authority pressure.",
+    "decade": "1960s",
+    "tags": [
+      "psychology",
+      "experiments",
+      "obedience",
+      "atrocity",
+      "authority"
+    ]
+  },
+  {
+    "id": "stanford_prison_experiment",
+    "label": "Stanford Prison Experiment (1971)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
+    "summary": "Philip Zimbardo's simulated prison experiment at Stanford in which student volunteers were randomly assigned as 'guards' or 'prisoners' — producing sadistic guard behavior and prisoner psychological breakdown within six days, forcing the experiment's early termination. The experiment demonstrated that arbitrary role assignments and institutional contexts can rapidly produce cruelty in ordinary people, providing experimental support for situational explanations of atrocity over dispositional ones.",
+    "decade": "1970s",
+    "tags": [
+      "psychology",
+      "experiments",
+      "authority",
+      "cruelty",
+      "situationism"
+    ]
   }
 ]

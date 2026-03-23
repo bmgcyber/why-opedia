@@ -2563,5 +2563,203 @@
     "label": "Centuries of persecution transmitted as existential threat memory",
     "note": "The Jewish diaspora experience — pogroms, forced conversions, expulsions, and the Holocaust — was transmitted across generations as collective trauma, producing persistent threat-hypervigilance that shapes Israeli and diaspora political behavior. Israeli security doctrine is shaped by traumatic collective memory of what happens when Jewish communities trust in the protection of non-Jewish states.",
     "confidence": "high"
+  },
+  {
+    "id": "hamitic_hypothesis__rwandan_genocide",
+    "source": "hamitic_hypothesis",
+    "target": "rwandan_genocide",
+    "type": "CAUSED",
+    "label": "Colonial racial taxonomy provided genocide's categories",
+    "note": "The Hamitic Hypothesis — classifying Tutsi as a racially superior 'Hamitic' people closer to Europeans — was institutionalized by Belgian colonial administrators who issued identity cards marking everyone as Hutu, Tutsi, or Twa. These cards made the genocide's targeting possible: Interahamwe could identify Tutsi at roadblocks. Belgian racial science created the administrative infrastructure for mass murder.",
+    "confidence": "high"
+  },
+  {
+    "id": "berlin_conference_1884__rwandan_genocide",
+    "source": "berlin_conference_1884",
+    "target": "rwandan_genocide",
+    "type": "ENABLED",
+    "label": "Colonial partition hardened ethnic categories",
+    "note": "The Berlin Conference's partition of Africa placed Rwanda under Belgian control. Belgian administrators systematically hardened the fluid Hutu/Tutsi distinction into a rigid racial caste system backed by identity cards — transforming a social and economic distinction into the ethnic categories that would become the basis for genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "historical_revisionism__lost_cause_mythology",
+    "source": "historical_revisionism",
+    "target": "lost_cause_mythology",
+    "type": "PRODUCED",
+    "label": "Revisionism recast slavery as states' rights",
+    "note": "Lost Cause mythology is historical revisionism's most successful American product: the systematic rewriting of the Civil War from a war to preserve slavery into a war of honorable resistance against Northern aggression. Confederate monuments built during the Jim Crow era inscribed this revisionism in public space, normalizing the Confederate cause for generations of Southern white children.",
+    "confidence": "high"
+  },
+  {
+    "id": "american_civil_war__lost_cause_mythology",
+    "source": "american_civil_war",
+    "target": "lost_cause_mythology",
+    "type": "PRODUCED",
+    "label": "Defeat required ideological rehabilitation",
+    "note": "Lost Cause mythology emerged specifically as a response to Confederate defeat: the cultural need to make the loss meaningful, honor the dead without acknowledging the cause, and rehabilitate Confederate political actors. Defeat created the political demand; Lost Cause ideology supplied the product.",
+    "confidence": "high"
+  },
+  {
+    "id": "lost_cause_mythology__jim_crow_laws",
+    "source": "lost_cause_mythology",
+    "target": "jim_crow_laws",
+    "type": "ENABLED",
+    "label": "Mythology provided ideological cover for segregation",
+    "note": "Jim Crow laws were implemented within the Lost Cause ideological framework: if the Confederacy had been right, then its racial order had been legitimate, and reimposing racial hierarchy through law was restoration rather than oppression. Lost Cause mythology made white Southerners morally comfortable enforcing racial hierarchy while believing themselves honorable people.",
+    "confidence": "high"
+  },
+  {
+    "id": "preference_falsification__fall_of_soviet_union",
+    "source": "preference_falsification",
+    "target": "fall_of_soviet_union",
+    "type": "CAUSED",
+    "label": "Preference cascade made collapse sudden and total",
+    "note": "The Soviet Union's dissolution fit preference falsification's cascade model precisely: decades of publicly performed Soviet loyalty masked widespread private alienation. When Gorbachev's glasnost made dissent less costly, the cascade began. What appeared to be a stable superpower collapsed within two years — exactly the pattern Kuran's model predicts for preference falsification systems.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war__fall_of_soviet_union",
+    "source": "cold_war",
+    "target": "fall_of_soviet_union",
+    "type": "PRODUCED",
+    "label": "Cold War arms race exhausted the Soviet economy",
+    "note": "The Cold War's arms race consumed approximately 25% of Soviet GDP in the 1980s, while oil revenue — the USSR's primary hard currency earner — collapsed after 1985. The economic strain of matching US military spending, combined with the Afghan War's costs, produced the crisis that made Gorbachev's reforms necessary and created the conditions for collapse.",
+    "confidence": "high"
+  },
+  {
+    "id": "the_holocaust__nuremberg_trials",
+    "source": "the_holocaust",
+    "target": "nuremberg_trials",
+    "type": "PRODUCED",
+    "label": "Holocaust produced the demand for international justice",
+    "note": "The scale and systematic nature of the Holocaust — industrial murder of six million Jews and millions of others — created the political and moral demand for a new legal framework that could hold state actors accountable for mass atrocity. Without the Holocaust, the concept of crimes against humanity would not have existed. The trials were the Holocaust's first formal legal reckoning.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__nuremberg_trials",
+    "source": "moral_disengagement",
+    "target": "nuremberg_trials",
+    "type": "ENABLED",
+    "label": "Trials established that following orders is no defense",
+    "note": "The Nuremberg Trials explicitly rejected moral disengagement's most common articulation: 'I was following orders.' The tribunal ruled that individuals retain moral and legal responsibility for atrocities regardless of the chain of command. This precedent directly challenged moral disengagement's displacement-of-responsibility mechanism and attempted to make it legally non-viable.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__apartheid_south_africa",
+    "source": "structural_violence",
+    "target": "apartheid_south_africa",
+    "type": "ENABLED",
+    "label": "Structural inequality codified into law",
+    "note": "Apartheid was structural violence codified: differential access to education, employment, land, healthcare, and political rights was not incidental but engineered. Colonial land dispossession and labor exploitation preceded apartheid, and apartheid systematized this inequality into explicit legal categories, making the violence visible but politically protected.",
+    "confidence": "high"
+  },
+  {
+    "id": "berlin_conference_1884__apartheid_south_africa",
+    "source": "berlin_conference_1884",
+    "target": "apartheid_south_africa",
+    "type": "ENABLED",
+    "label": "Colonial racial hierarchy provided apartheid's framework",
+    "note": "European colonialism in southern Africa — legitimized by the Berlin Conference's partition — established the racial hierarchies, land seizures, and labor exploitation systems that apartheid institutionalized after 1948. The National Party that implemented apartheid was heir to Afrikaner nationalism shaped directly by British colonial dispossession.",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow_laws__apartheid_south_africa",
+    "source": "jim_crow_laws",
+    "target": "apartheid_south_africa",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Parallel legal racial hierarchies in settler societies",
+    "note": "Jim Crow and apartheid were developed in parallel and cross-referenced each other: South African architects of apartheid studied American segregation; American white supremacists cited apartheid as a working model. Both used the same structural mechanisms — legal racial classification, separate facilities, disenfranchisement, and economic exclusion — enforced by state violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "mandate_system__decolonization_movement",
+    "source": "mandate_system",
+    "target": "decolonization_movement",
+    "type": "ENABLED",
+    "label": "Mandate framework legitimized independence as the goal",
+    "note": "The League of Nations Mandate system nominally framed colonial administration as temporary — preparing territories for eventual self-governance. This framing provided anti-colonial nationalists with the imperial powers' own stated logic to demand independence. The mandates did not cause decolonization, but they legitimized it within international law.",
+    "confidence": "medium"
+  },
+  {
+    "id": "berlin_conference_1884__decolonization_movement",
+    "source": "berlin_conference_1884",
+    "target": "decolonization_movement",
+    "type": "ENABLED",
+    "label": "Colonial partition created the territories that sought independence",
+    "note": "The Berlin Conference's partition of Africa drew borders without regard to ethnic, linguistic, or political boundaries, creating the administrative territories whose liberation became the decolonization movement's goal. Newly independent states inherited colonial administrative structures and the ethnic conflicts those structures had created or exacerbated.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_backsliding__tiananmen_square_massacre",
+    "source": "democratic_backsliding",
+    "target": "tiananmen_square_massacre",
+    "type": "CAUSED",
+    "label": "CCP chose repression over reform",
+    "note": "Tiananmen was the culmination of a democratic backsliding decision: faced with pro-democracy protests threatening CCP control, Deng Xiaoping chose military suppression over the political reforms Zhao Ziyang had been willing to negotiate. The massacre established that the CCP would use any violence necessary to prevent democratic accountability — and then erase the event from public memory.",
+    "confidence": "high"
+  },
+  {
+    "id": "historical_revisionism__tiananmen_square_massacre",
+    "source": "historical_revisionism",
+    "target": "tiananmen_square_massacre",
+    "type": "ENABLED",
+    "label": "State censorship erased the massacre from Chinese memory",
+    "note": "The Chinese government's comprehensive censorship of Tiananmen is historical revisionism at its most total: a generation of Chinese citizens under 40 has minimal knowledge of the event. The 'Tank Man' photograph is among the most recognized images globally; inside China it barely exists. Revisionism here is not reinterpretation but near-complete erasure.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war__latin_american_dirty_wars",
+    "source": "cold_war",
+    "target": "latin_american_dirty_wars",
+    "type": "ENABLED",
+    "label": "Cold War logic justified backing torture regimes",
+    "note": "The Cold War's anti-communist framework justified US support for Latin American military dictatorships that disappeared tens of thousands of leftists, labor organizers, and journalists. Nixon backed Pinochet's coup; Reagan supported Salvadoran death squads; the CIA trained torturers at the School of the Americas. Cold War ideology made these atrocities strategically rational.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__latin_american_dirty_wars",
+    "source": "collective_trauma",
+    "target": "latin_american_dirty_wars",
+    "type": "PRODUCED",
+    "label": "Dirty war atrocities transmitted across generations",
+    "note": "The Dirty Wars produced collective trauma that persists in Latin American political cultures: Argentina's Madres de Plaza de Mayo, Chile's ongoing reckoning with Pinochet's crimes, Guatemala's unresolved massacres. Deliberate disappearance — denying families even a body to mourn — was designed to maximize intergenerational traumatic impact and prevent political memory from organizing.",
+    "confidence": "high"
+  },
+  {
+    "id": "the_holocaust__milgram_obedience_experiments",
+    "source": "the_holocaust",
+    "target": "milgram_obedience_experiments",
+    "type": "CAUSED",
+    "label": "Holocaust prompted the obedience question",
+    "note": "Stanley Milgram designed his obedience experiments explicitly to investigate the Holocaust's central puzzle: how could ordinary Germans participate in systematic mass murder? He began his research immediately after the Eichmann trial in 1961 and stated directly that the experiments were designed to understand Nazi atrocity. The Holocaust was the question; the Milgram experiments were the scientific attempt to answer it.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__milgram_obedience_experiments",
+    "source": "moral_disengagement",
+    "target": "milgram_obedience_experiments",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Experiments operationalized moral disengagement in lab conditions",
+    "note": "The Milgram experiments demonstrated moral disengagement's core mechanisms under controlled conditions: participants displaced responsibility to the authority figure, used euphemistic framing, diffused responsibility through the experimental setup, and continued despite evidence of harm. The results were empirical confirmation of Bandura's theoretical framework.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__stanford_prison_experiment",
+    "source": "in_group_out_group_dynamics",
+    "target": "stanford_prison_experiment",
+    "type": "ENABLED",
+    "label": "Role assignment activated in-group guard solidarity",
+    "note": "The Stanford Prison Experiment demonstrated that in-group/out-group dynamics operate through arbitrary role assignment alone: students randomly designated as 'guards' within hours formed a guard in-group and treated 'prisoners' as an out-group deserving degradation. No pre-existing prejudice was required — the role assignment itself activated tribal psychology.",
+    "confidence": "high"
+  },
+  {
+    "id": "milgram_obedience_experiments__stanford_prison_experiment",
+    "source": "milgram_obedience_experiments",
+    "target": "stanford_prison_experiment",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both show situational factors produce cruelty in ordinary people",
+    "note": "Together, the Milgram and Stanford Prison experiments established the situationist case: ordinary people will commit cruelty when placed in contexts that legitimize it — regardless of individual character. Both were designed to understand how ordinary people commit atrocity; both produced results that disturbed their designers. They form the empirical foundation for moral disengagement and in-group/out-group dynamics as mechanisms.",
+    "confidence": "high"
   }
 ]
