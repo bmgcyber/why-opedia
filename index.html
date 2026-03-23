@@ -33,76 +33,7 @@
       </div>
       <!-- Autocomplete is position:fixed, appended to body by JS -->
 
-      <!-- 2. Path Finder (Feature A) -->
-      <div id="sb-pathfinder" class="sb-section">
-        <div class="sb-section-header">
-          <span>Path Finder</span>
-          <button class="sb-collapse-btn" id="pf-collapse" title="Collapse">▴</button>
-        </div>
-        <div id="pf-body">
-          <div class="pf-row">
-            <span class="pf-row-label">From</span>
-            <input id="pf-from" class="pf-input" type="text" placeholder="Start node name…" autocomplete="off" spellcheck="false" />
-          </div>
-          <div class="pf-row">
-            <span class="pf-row-label">To</span>
-            <input id="pf-to" class="pf-input" type="text" placeholder="End node name…" autocomplete="off" spellcheck="false" />
-          </div>
-          <div class="pf-btn-row">
-            <button id="pf-find-btn" class="pf-btn primary">Find Path</button>
-            <button id="pf-clear-btn" class="pf-btn">Clear</button>
-          </div>
-          <div id="pf-result" class="pf-result"></div>
-        </div>
-      </div>
-
-      <!-- 3. Neighborhood Explorer (hidden until node selected) -->
-      <div id="sb-neighborhood" class="sb-section" hidden>
-        <div class="sb-section-header">
-          <span>Neighborhood</span>
-        </div>
-        <div id="sb-nb-title" class="sb-nb-title"></div>
-        <div class="sb-nb-depth-row">
-          <span class="sb-label">Depth</span>
-          <div class="sb-depth-buttons">
-            <button class="sb-depth-btn active" data-depth="1">1</button>
-            <button class="sb-depth-btn" data-depth="2">2</button>
-            <button class="sb-depth-btn" data-depth="3">3</button>
-          </div>
-        </div>
-        <button id="sb-export-subgraph" class="sb-export-btn">⬇ Export neighborhood JSON</button>
-        <button id="sb-nb-clear" class="sb-clear-btn">✕ Clear selection</button>
-      </div>
-
-      <!-- 4. Node Type Filters -->
-      <div class="sb-section">
-        <div class="sb-section-header">Node Types</div>
-        <div id="sb-node-types" class="sb-checklist"></div>
-      </div>
-
-      <!-- 5. Edge Type Filters -->
-      <div class="sb-section">
-        <div class="sb-section-header">Edge Types</div>
-        <div id="sb-edge-types" class="sb-checklist"></div>
-      </div>
-
-      <!-- 6. Region Filter (Feature F — shown only when region data exists) -->
-      <div id="sb-region-section" class="sb-section" hidden>
-        <div class="sb-section-header">Region</div>
-        <div id="sb-regions" class="sb-checklist"></div>
-      </div>
-
-      <!-- 7. Connectivity Filter -->
-      <div class="sb-section">
-        <div class="sb-section-header">
-          <span>Connectivity</span>
-          <span id="sb-conn-display" class="sb-conn-display">≥ 0</span>
-        </div>
-        <div class="sb-slider-label">Min connections</div>
-        <input id="sb-conn-slider" type="range" min="0" max="50" value="0" class="sb-slider" />
-      </div>
-
-      <!-- 8. Layout & View toggles (Features N, J, K) -->
+      <!-- 2. Layout & View toggles (Features N, J, K) -->
       <div class="sb-section">
         <div class="sb-section-header">Layout &amp; View</div>
         <div class="sb-tool-grid">
@@ -124,7 +55,7 @@
         </div>
       </div>
 
-      <!-- 9. Actions (Features P, T, U) -->
+      <!-- 3. Actions (Features P, T, U) -->
       <div class="sb-section">
         <div class="sb-section-header">Actions</div>
         <div class="sb-tool-grid">
@@ -138,6 +69,75 @@
             Quiz
           </button>
         </div>
+      </div>
+
+      <!-- 4. Path Finder (Feature A — collapsed by default) -->
+      <div id="sb-pathfinder" class="sb-section">
+        <div class="sb-section-header">
+          <span>Path Finder</span>
+          <button class="sb-collapse-btn" id="pf-collapse" title="Expand">▾</button>
+        </div>
+        <div id="pf-body">
+          <div class="pf-row">
+            <span class="pf-row-label">From</span>
+            <input id="pf-from" class="pf-input" type="text" placeholder="Start node name…" autocomplete="off" spellcheck="false" />
+          </div>
+          <div class="pf-row">
+            <span class="pf-row-label">To</span>
+            <input id="pf-to" class="pf-input" type="text" placeholder="End node name…" autocomplete="off" spellcheck="false" />
+          </div>
+          <div class="pf-btn-row">
+            <button id="pf-find-btn" class="pf-btn primary">Find Path</button>
+            <button id="pf-clear-btn" class="pf-btn">Clear</button>
+          </div>
+          <div id="pf-result" class="pf-result"></div>
+        </div>
+      </div>
+
+      <!-- 5. Neighborhood Explorer (hidden until node selected) -->
+      <div id="sb-neighborhood" class="sb-section" hidden>
+        <div class="sb-section-header">
+          <span>Neighborhood</span>
+        </div>
+        <div id="sb-nb-title" class="sb-nb-title"></div>
+        <div class="sb-nb-depth-row">
+          <span class="sb-label">Depth</span>
+          <div class="sb-depth-buttons">
+            <button class="sb-depth-btn active" data-depth="1">1</button>
+            <button class="sb-depth-btn" data-depth="2">2</button>
+            <button class="sb-depth-btn" data-depth="3">3</button>
+          </div>
+        </div>
+        <button id="sb-export-subgraph" class="sb-export-btn">⬇ Export neighborhood JSON</button>
+        <button id="sb-nb-clear" class="sb-clear-btn">✕ Clear selection</button>
+      </div>
+
+      <!-- 6. Node Type Filters -->
+      <div class="sb-section">
+        <div class="sb-section-header">Node Types</div>
+        <div id="sb-node-types" class="sb-checklist"></div>
+      </div>
+
+      <!-- 7. Edge Type Filters -->
+      <div class="sb-section">
+        <div class="sb-section-header">Edge Types</div>
+        <div id="sb-edge-types" class="sb-checklist"></div>
+      </div>
+
+      <!-- 8. Region Filter (Feature F — shown only when region data exists) -->
+      <div id="sb-region-section" class="sb-section" hidden>
+        <div class="sb-section-header">Region</div>
+        <div id="sb-regions" class="sb-checklist"></div>
+      </div>
+
+      <!-- 9. Connectivity Filter -->
+      <div class="sb-section">
+        <div class="sb-section-header">
+          <span>Connectivity</span>
+          <span id="sb-conn-display" class="sb-conn-display">≥ 0</span>
+        </div>
+        <div class="sb-slider-label">Min connections</div>
+        <input id="sb-conn-slider" type="range" min="0" max="50" value="0" class="sb-slider" />
       </div>
 
       <!-- 10. Reset All -->
@@ -202,6 +202,6 @@
   <script src="https://cdn.jsdelivr.net/npm/cytoscape-fcose@2.2.0/cytoscape-fcose.min.js"></script>
 
   <!-- App -->
-  <script src="app.js"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>

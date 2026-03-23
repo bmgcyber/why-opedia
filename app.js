@@ -162,9 +162,10 @@ function initCytoscape(nodes, edges) {
   cy.one('layoutstop', () => {
     computeSemanticZoomTiers();
 
-    // Feature I: compute max degree and apply per-node size bypass
+    // Feature I: compute max degree then rebuild stylesheet so function-based
+    // width/height values re-evaluate with the correct maxNodeDegree.
     maxNodeDegree = cy.nodes().reduce((m, n) => Math.max(m, n.connectedEdges().length), 0) || 1;
-    applyDegreeSizes(); // explicit per-node style bypass
+    cy.style(buildStylesheet()); // triggers full re-evaluation of function-based sizes
 
     const slider = document.getElementById('sb-conn-slider');
     if (slider) slider.max = Math.max(1, Math.min(maxNodeDegree, 60));
@@ -254,19 +255,6 @@ function initCytoscape(nodes, edges) {
   });
 }
 
-// ── Feature I: apply degree-based node sizes via style bypass ─────────────────
-// Called once after layout and again if cluster nodes are removed.
-function applyDegreeSizes() {
-  if (!cy) return;
-  cy.batch(() => {
-    cy.nodes().not('.cluster-node').forEach(node => {
-      const deg = node.connectedEdges().length;
-      const size = Math.max(16, Math.min(72, 16 + (deg / maxNodeDegree) * 56));
-      node.style({ width: size, height: size });
-    });
-  });
-}
-
 // ── Neighborhood dimming ──────────────────────────────────────────────────────
 function restoreNeighborhoodDimming() {
   if (!cy) return;
@@ -326,9 +314,8 @@ function setFocus(element) {
 }
 
 // ── Cytoscape stylesheet ──────────────────────────────────────────────────────
-// Note: width/height are set via per-node style bypass (applyDegreeSizes).
-// Heat map colors are applied via per-node style bypass (applyHeatMapStyles).
-// The stylesheet only defines base/default styles.
+// Width/height use function values — cy.style(buildStylesheet()) re-evaluates them
+// after maxNodeDegree is computed. Heat map colors use per-node bypasses.
 function buildStylesheet() {
   return [
     {
@@ -340,8 +327,14 @@ function buildStylesheet() {
         'border-color': ele => CATEGORY_COLOR[ele.data('category')] || '#8c8fa8',
         'background-opacity': ele => ele.data('node_type') === 'mechanism' ? 0.25 : 0.9,
         'shape': ele => ele.data('node_type') === 'mechanism' ? 'diamond' : 'ellipse',
-        'width': 42,
-        'height': 42,
+        'width': ele => {
+          if (!maxNodeDegree) return 42;
+          return Math.max(16, Math.min(80, 16 + (ele.connectedEdges().length / maxNodeDegree) * 64));
+        },
+        'height': ele => {
+          if (!maxNodeDegree) return 42;
+          return Math.max(16, Math.min(80, 16 + (ele.connectedEdges().length / maxNodeDegree) * 64));
+        },
         'label': 'data(label)',
         'text-valign': 'bottom',
         'text-halign': 'center',
@@ -1003,12 +996,15 @@ function initPathFinder() {
 
 function initPathFinderCollapse() {
   const btn = document.getElementById('pf-collapse');
-  if (!btn) return;
+  const body = document.getElementById('pf-body');
+  if (!btn || !body) return;
+  // Start collapsed
+  body.style.display = 'none';
+  btn.textContent = '▾';
   btn.addEventListener('click', () => {
-    const body = document.getElementById('pf-body');
-    const collapsed = body.style.display === 'none';
-    body.style.display = collapsed ? '' : 'none';
-    btn.textContent = collapsed ? '▴' : '▾';
+    const isCollapsed = body.style.display === 'none';
+    body.style.display = isCollapsed ? '' : 'none';
+    btn.textContent = isCollapsed ? '▴' : '▾';
   });
 }
 
@@ -1216,17 +1212,14 @@ function toggleHeatMap() {
   document.getElementById('heatmap-btn').classList.toggle('active', heatMapMode);
   document.getElementById('heatmap-legend-inline').hidden = !heatMapMode;
 
-  // Apply per-node style bypasses (more reliable than function-based stylesheet)
   cy.batch(() => {
     cy.nodes().not('.cluster-node').forEach(node => {
       if (heatMapMode) {
         const color = degreeToHeatColor(node);
         node.style({ 'background-color': color, 'border-color': color });
       } else {
-        // Restore: empty string removes bypass, falls back to stylesheet
-        const cat = node.data('category');
-        const color = CATEGORY_COLOR[cat] || '#8c8fa8';
-        node.style({ 'background-color': color, 'border-color': color });
+        // Remove bypass — falls back to function-based stylesheet colors
+        node.removeStyle('background-color border-color');
       }
     });
   });
@@ -1424,8 +1417,8 @@ function removeClusterLayout() {
     }).run();
     savedPositions = null;
   }
-  // Re-apply degree sizes after removing cluster nodes
-  applyDegreeSizes();
+  // Refresh stylesheet so function-based widths re-evaluate without cluster nodes
+  cy.style(buildStylesheet());
 }
 
 // ── Feature P: Export PNG ─────────────────────────────────────────────────────
