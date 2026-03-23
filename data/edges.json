@@ -1467,15 +1467,6 @@
     "confidence": "high"
   },
   {
-    "id": "spanish_inquisition__expulsion_of_jews_1492",
-    "source": "spanish_inquisition",
-    "target": "expulsion_of_jews_1492",
-    "type": "CAUSED",
-    "label": "Inquisition pressure produced the expulsion",
-    "note": "The Alhambra Decree was partly motivated by Inquisitors' difficulty distinguishing sincere conversos from secret Jews — expulsion was the proposed solution to the 'problem' the Inquisition had created by its own standards. The decree removed the ambiguity by removing the people.",
-    "confidence": "high"
-  },
-  {
     "id": "black_death__medieval_christian_antisemitism",
     "source": "black_death",
     "target": "medieval_christian_antisemitism",
@@ -3841,5 +3832,221 @@
     "label": "Both exploit emotional reward systems to extract resources from participants",
     "note": "Prosperity gospel and outrage optimization share the mechanism of exploiting emotional reward systems: prosperity gospel uses the emotional high of faith and expectation to extract donations (tithing as investment in divine favor); outrage optimization uses anger and moral indignation to drive engagement and revenue. Both monetize emotional states that bypass rational evaluation.",
     "confidence": "medium"
+  },
+  {
+    "id": "thomas_hobbes__social_contract_theory",
+    "source": "thomas_hobbes",
+    "target": "social_contract_theory",
+    "type": "PRODUCED",
+    "label": "Hobbes Leviathan founded the social contract tradition in Western political theory",
+    "note": "Hobbes argument that political authority derives from a contract between individuals — not from divine right or tradition — was the founding move of social contract theory. His version (absolute sovereignty) was more authoritarian than Locke or Rousseau, but he established the contractarian framework all subsequent theorists would work within.",
+    "confidence": "high"
+  },
+  {
+    "id": "thomas_hobbes__john_locke",
+    "source": "thomas_hobbes",
+    "target": "john_locke",
+    "type": "ENABLED",
+    "label": "Locke directly responded to and modified Hobbes contractarian framework",
+    "note": "Locke Two Treatises explicitly engaged Hobbesian premises while reaching opposite conclusions: sharing the social contract framework but arguing for limited government and the right of revolution rather than absolute sovereignty. Hobbes provided the problem; Locke provided the liberal answer.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_locke__enlightenment_philosophy",
+    "source": "john_locke",
+    "target": "enlightenment_philosophy",
+    "type": "PRODUCED",
+    "label": "Locke natural rights philosophy was the foundational political theory of the Enlightenment",
+    "note": "Locke arguments for natural rights, consent-based government, and religious toleration defined the political content of the Enlightenment. Jefferson borrowed almost verbatim from Locke in the Declaration of Independence; Montesquieu built his separation of powers on Lockean premises.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_locke__social_contract_theory",
+    "source": "john_locke",
+    "target": "social_contract_theory",
+    "type": "PRODUCED",
+    "label": "Locke developed the liberal version of social contract theory",
+    "note": "Where Hobbes social contract produced absolute sovereignty, Locke version produced limited constitutional government with the right to revolution. His account of property rights (labor theory of value) and the right to overthrow tyrants became the standard liberal position.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_locke__jean_jacques_rousseau",
+    "source": "john_locke",
+    "target": "jean_jacques_rousseau",
+    "type": "ENABLED",
+    "label": "Rousseau Social Contract directly engaged and radicalized Locke framework",
+    "note": "Rousseau worked within the natural rights tradition Locke established but radicalized it: where Locke accepted property inequality as natural, Rousseau declared it the root of social corruption; where Locke saw government as protecting natural rights, Rousseau saw it as potentially expressing the general will of all citizens equally.",
+    "confidence": "high"
+  },
+  {
+    "id": "voltaire__enlightenment_philosophy",
+    "source": "voltaire",
+    "target": "enlightenment_philosophy",
+    "type": "PRODUCED",
+    "label": "Voltaire was the Enlightenment most influential popularizer and polemicist",
+    "note": "Voltaire wrote in every genre — philosophy, history, drama, fiction, letters — always in service of Enlightenment values: reason, tolerance, freedom of conscience, opposition to superstition. Candide alone reached every literate person in Europe. His polemics against clerical power did more than any academic treatise to shift public opinion.",
+    "confidence": "high"
+  },
+  {
+    "id": "voltaire__church_state_entanglement",
+    "source": "voltaire",
+    "target": "church_state_entanglement",
+    "type": "DISCREDITED",
+    "label": "Voltaire campaigns against clerical power challenged the church-state entanglement model",
+    "note": "Voltaire crusade — Ecrasez l'infame — specifically targeted the union of religious and state authority that made heresy legally prosecutable and clerical institutions immune from civic accountability. His campaign for the Calas family showed that religious authority used as state power was capable of judicial murder.",
+    "confidence": "high"
+  },
+  {
+    "id": "jean_jacques_rousseau__enlightenment_philosophy",
+    "source": "jean_jacques_rousseau",
+    "target": "enlightenment_philosophy",
+    "type": "PRODUCED",
+    "label": "Rousseau was the Enlightenment most influential theorist of democracy and popular sovereignty",
+    "note": "Rousseau The Social Contract and Discourse on Inequality were the most politically consequential Enlightenment texts. His concept of the general will became the theoretical basis for democratic governance; his critique of inequality became the template for political populism from the French Revolution through modern social democracy.",
+    "confidence": "high"
+  },
+  {
+    "id": "jean_jacques_rousseau__social_contract_theory",
+    "source": "jean_jacques_rousseau",
+    "target": "social_contract_theory",
+    "type": "PRODUCED",
+    "label": "Rousseau developed the democratic-popular version of social contract theory",
+    "note": "Rousseau version of the social contract was the most radical: sovereignty belongs to the people collectively and is inalienable — it cannot be transferred to a representative. The general will is not the sum of individual preferences but what the people collectively will as citizens. This democratic absolutism influenced both democratic theory and revolutionary terror.",
+    "confidence": "high"
+  },
+  {
+    "id": "immanuel_kant__kantian_ethics",
+    "source": "immanuel_kant",
+    "target": "kantian_ethics",
+    "type": "PRODUCED",
+    "label": "Kant derived a complete moral philosophy from reason alone through the categorical imperative",
+    "note": "The categorical imperative — act only on maxims you can universalize, treat persons never merely as means but always as ends — was Kant attempt to ground morality in reason rather than God, tradition, or consequences. It became the foundational text of deontological ethics and the philosophical basis for universal human rights.",
+    "confidence": "high"
+  },
+  {
+    "id": "immanuel_kant__enlightenment_philosophy",
+    "source": "immanuel_kant",
+    "target": "enlightenment_philosophy",
+    "type": "PRODUCED",
+    "label": "Kant Sapere aude defined the Enlightenment project and synthesized its philosophical strands",
+    "note": "Kant essay What Is Enlightenment? (1784) defined the movement: \"dare to know\" — have the courage to use your own reason without direction from another. His critical philosophy synthesized British empiricism (Hume) and Continental rationalism (Leibniz, Wolff), providing the definitive philosophical architecture of the Enlightenment.",
+    "confidence": "high"
+  },
+  {
+    "id": "immanuel_kant__georg_hegel",
+    "source": "immanuel_kant",
+    "target": "georg_hegel",
+    "type": "ENABLED",
+    "label": "Hegel philosophical project was a response to and development of Kantian philosophy",
+    "note": "Hegel described his project as overcoming the dualisms Kant left unresolved: between the phenomenal and noumenal, between subject and object, between individual moral autonomy and social ethical life. Every major category of Hegelian philosophy is shaped by engagement with Kant — even when overturned.",
+    "confidence": "high"
+  },
+  {
+    "id": "adam_smith__enlightenment_philosophy",
+    "source": "adam_smith",
+    "target": "enlightenment_philosophy",
+    "type": "PRODUCED",
+    "label": "Smith Wealth of Nations was a founding text of Enlightenment political economy",
+    "note": "Smith was a member of the Scottish Enlightenment (Hume was his friend). Wealth of Nations applied Enlightenment principles — empirical analysis, natural law, rational self-interest — to economic life. Its argument that free exchange produces social benefit without conscious direction was the Enlightenment faith in natural harmony applied to economics.",
+    "confidence": "high"
+  },
+  {
+    "id": "adam_smith__manufactured_scientific_doubt",
+    "source": "adam_smith",
+    "target": "manufactured_scientific_doubt",
+    "type": "ENABLED",
+    "label": "Laissez-faire interpretations of Smith were used to manufacture doubt about regulation",
+    "note": "Selective readings of Smith that emphasized market self-regulation and minimized his warnings about monopoly and conspiracy provided the ideological framework within which later industries manufactured scientific doubt: if markets self-correct, regulation is unnecessary, and therefore industry-friendly science findings (tobacco is safe, CO2 is harmless) must be given equal weight.",
+    "confidence": "medium"
+  },
+  {
+    "id": "niccolo_machiavelli__democratic_backsliding",
+    "source": "niccolo_machiavelli",
+    "target": "democratic_backsliding",
+    "type": "ENABLED",
+    "label": "Machiavellian statecraft provided the intellectual framework for rulers who manipulate institutions",
+    "note": "Machiavelli argument that effective rulers must act outside conventional morality — using deception, fear, and force when necessary — was adopted by successive authoritarian leaders as justification for breaking constitutional norms. The \"Machiavellian\" ruler who consolidates power by manufacturing crises and eliminating rivals is a recurring figure in democratic backsliding.",
+    "confidence": "medium"
+  },
+  {
+    "id": "niccolo_machiavelli__enlightenment_philosophy",
+    "source": "niccolo_machiavelli",
+    "target": "enlightenment_philosophy",
+    "type": "ENABLED",
+    "label": "Machiavelli secular political analysis made possible Enlightenment political theory",
+    "note": "By separating politics from theology — analyzing power as it works rather than as God commands it to work — Machiavelli made possible the secular political science that Hobbes, Locke, and Montesquieu would develop. The Enlightenment political tradition required first that politics be understood on its own terms, not divine ones.",
+    "confidence": "high"
+  },
+  {
+    "id": "georg_hegel__hegelian_dialectic",
+    "source": "georg_hegel",
+    "target": "hegelian_dialectic",
+    "type": "PRODUCED",
+    "label": "Hegel developed the dialectical method as the logic of historical development",
+    "note": "Hegel dialectical method — thesis, antithesis, synthesis — was not a mechanical formula but an account of how concepts and history develop through contradiction. The Phenomenology of Spirit traced this development through shapes of consciousness; the Philosophy of History applied it to world history. Marx later described his own method as Hegel turned upside down.",
+    "confidence": "high"
+  },
+  {
+    "id": "georg_hegel__karl_marx",
+    "source": "georg_hegel",
+    "target": "karl_marx",
+    "type": "ENABLED",
+    "label": "Marx explicitly built his historical materialism on an inverted Hegelian dialectic",
+    "note": "Marx described himself as turning Hegel right-side up: Hegel had dialectical development occur in the realm of ideas; Marx relocated it in material economic relations. Historical materialism — the claim that economic base determines ideological superstructure — is Hegelian dialectics applied to class struggle rather than the self-development of Spirit.",
+    "confidence": "high"
+  },
+  {
+    "id": "karl_marx__frankfurt_school",
+    "source": "karl_marx",
+    "target": "frankfurt_school",
+    "type": "ENABLED",
+    "label": "The Frankfurt School applied Marxist critical theory to culture, media, and authoritarianism",
+    "note": "The Frankfurt School (Adorno, Horkheimer, Marcuse, Fromm) built on Marx analysis of capitalism and ideology, combining it with Freudian psychology and Weberian sociology to produce Critical Theory — an analysis of how capitalism reproduces itself through culture, media, and family structures rather than only through economic coercion.",
+    "confidence": "high"
+  },
+  {
+    "id": "karl_marx__stalinist_purges",
+    "source": "karl_marx",
+    "target": "stalinist_purges",
+    "type": "ENABLED",
+    "label": "Marxist-Leninist ideology was the stated basis of the system that produced the Stalinist purges",
+    "note": "Marx wrote no blueprint for Stalinist terror — his vision was of democratic worker control, not party dictatorship. But the vanguard party theory derived from his work (via Lenin) produced the institutional structure that Stalin turned into an instrument of purge. Marxism provided the teleological framework (historical necessity) that made mass killing seem justifiable as acceleration of the inevitable.",
+    "confidence": "medium"
+  },
+  {
+    "id": "karl_marx__great_leap_forward",
+    "source": "karl_marx",
+    "target": "great_leap_forward",
+    "type": "ENABLED",
+    "label": "Marxist ideology provided the framework for Mao collectivization and industrial targets",
+    "note": "Mao Zedong Thought drew on Marx analysis of capitalism and alienation and the Leninist vanguard party model to justify the Great Leap Forward collectivization and industrialization program. While Marx himself argued for workers democracy, his framework of historical stages provided the ideological basis for forcing rapid transition by party decree.",
+    "confidence": "medium"
+  },
+  {
+    "id": "friedrich_nietzsche__nietzschean_philosophy",
+    "source": "friedrich_nietzsche",
+    "target": "nietzschean_philosophy",
+    "type": "PRODUCED",
+    "label": "Nietzsche produced the will-to-power, Ubermensch, and master-slave morality critiques",
+    "note": "Nietzsche philosophical innovations — the will to power as fundamental drive, the eternal recurrence as existential test, the Ubermensch as ideal of self-overcoming, and master-slave morality as the genealogy of Judeo-Christian ethics — constituted a complete critique of Western philosophy and religion that shaped every subsequent philosophical tradition.",
+    "confidence": "high"
+  },
+  {
+    "id": "friedrich_nietzsche__existentialism",
+    "source": "friedrich_nietzsche",
+    "target": "existentialism",
+    "type": "ENABLED",
+    "label": "Nietzsche death of God and critique of absolute values cleared the ground for existentialism",
+    "note": "The existentialist tradition — Sartre, Camus, Heidegger, de Beauvoir — began from the Nietzschean premise that God is dead and therefore values must be created rather than discovered. Sartre existence precedes essence is the Nietzschean insight applied systematically: humans have no given nature or purpose and must create themselves through choices.",
+    "confidence": "high"
+  },
+  {
+    "id": "friedrich_nietzsche__nazi_propaganda",
+    "source": "friedrich_nietzsche",
+    "target": "nazi_propaganda",
+    "type": "ENABLED",
+    "label": "Nietzsche work was systematically distorted by his sister and appropriated by Nazi ideology",
+    "note": "Elisabeth Forster-Nietzsche, who controlled the Nietzsche Archive, produced falsified editions that removed his anti-nationalism and anti-antisemitism while amplifying passages about will, strength, and the Ubermensch. Nazi propaganda cited these bowdlerized texts to give the movement philosophical respectability. Nietzsche himself called antisemitism despicable and broke with Wagner partly over it.",
+    "confidence": "high"
   }
 ]

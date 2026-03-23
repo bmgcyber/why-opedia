@@ -1383,22 +1383,6 @@
     ]
   },
   {
-    "id": "expulsion_of_jews_1492",
-    "label": "Alhambra Decree / Expulsion of Jews from Spain",
-    "node_type": "reference",
-    "category": "event",
-    "wikipedia": "https://en.wikipedia.org/wiki/Alhambra_Decree",
-    "summary": "The 1492 royal decree expelling approximately 100,000–200,000 Jews from Spain who refused forced conversion. The largest forced migration of Jews before the 20th century, scattering Sephardic communities across the Ottoman Empire, North Africa, and the Netherlands — demonstrating that state-level ethnic cleansing was politically viable.",
-    "decade": "1490s",
-    "tags": [
-      "antisemitism",
-      "history",
-      "medieval",
-      "spain",
-      "ethnic_cleansing"
-    ]
-  },
-  {
     "id": "black_death",
     "label": "Black Death",
     "node_type": "reference",
@@ -3960,6 +3944,185 @@
       "mechanism",
       "coercion",
       "entanglement"
+    ]
+  },
+  {
+    "id": "thomas_hobbes",
+    "label": "Thomas Hobbes",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Hobbes",
+    "summary": "English philosopher (1588–1679) whose Leviathan (1651) founded modern political theory by arguing that human life without government is \"solitary, poor, nasty, brutish, and short\" — a state of perpetual war of all against all. Hobbes derived the social contract from this premise: rational individuals surrender their natural freedom to an absolute sovereign in exchange for security. Written during the English Civil War, Leviathan provided the first systematic philosophical argument for why strong centralized authority is necessary rather than merely traditional. His materialist account of human psychology — humans as self-interested machines seeking power — became the baseline assumption of liberal political economy and realist international relations theory, even among thinkers who rejected his conclusions.",
+    "decade": "1650s",
+    "tags": [
+      "philosophy",
+      "political-theory",
+      "social-contract",
+      "sovereignty",
+      "realism",
+      "person"
+    ]
+  },
+  {
+    "id": "john_locke",
+    "label": "John Locke",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Locke",
+    "summary": "English philosopher (1632–1704) whose Two Treatises of Government (1689) established the Enlightenment framework of natural rights, limited government, and the right of revolution that directly shaped the American Declaration of Independence and the French Revolution. Against Hobbes, Locke argued that humans possess natural rights to life, liberty, and property that precede and constrain government; that political authority is legitimate only with the consent of the governed; and that a government that violates natural rights may be overthrown. His Letter Concerning Toleration (1689) argued for religious freedom as a political principle. Locke is the theoretical father of classical liberalism — the tradition that government exists to protect individual rights rather than impose collective purpose.",
+    "decade": "1680s",
+    "tags": [
+      "philosophy",
+      "liberalism",
+      "social-contract",
+      "natural-rights",
+      "enlightenment",
+      "person"
+    ]
+  },
+  {
+    "id": "voltaire",
+    "label": "Voltaire",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Voltaire",
+    "summary": "French Enlightenment writer and philosopher (1694–1778), born François-Marie Arouet, who became the era most powerful polemicist against religious intolerance, censorship, and clerical abuse of power. His novella Candide (1759) is a sustained satire of Leibnizian optimism; his Letters Concerning the English Nation (1733) praised English religious tolerance as a model for France. His campaign to rehabilitate Jean Calas — a Protestant wrongly tortured and executed by Catholic authorities — established his reputation as a fighter for civil liberties. Voltaire signature phrase \"Écrasez l'infâme\" (crush the infamous thing — meaning clerical tyranny) defined the Enlightenment posture toward institutional religion. He was antisemitic in his own writings, a contradiction that illustrates that Enlightenment universalism was selectively applied.",
+    "decade": "1750s",
+    "tags": [
+      "philosophy",
+      "enlightenment",
+      "satire",
+      "toleration",
+      "anti-clericalism",
+      "france",
+      "person"
+    ]
+  },
+  {
+    "id": "jean_jacques_rousseau",
+    "label": "Jean-Jacques Rousseau",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau",
+    "summary": "Genevan philosopher (1712–1778) whose Social Contract (1762) — opening with \"Man is born free, and everywhere he is in chains\" — became the theoretical bible of the French Revolution. Rousseau distinguished his version of the social contract from Hobbes and Locke: for Rousseau, the general will of the people is the only legitimate source of sovereignty, and property and social inequality are not natural but politically constructed corruptions of an originally free state. His educational philosophy (Emile) emphasized natural development over rote instruction. Rousseau is the ancestor of democratic populism, romantic nationalism, and the idea that inequality is not inevitable but political — a claim that inspired both the French Revolution and every subsequent populist movement that appeals to \"the people\" against \"the elite.\"",
+    "decade": "1760s",
+    "tags": [
+      "philosophy",
+      "social-contract",
+      "democracy",
+      "revolution",
+      "enlightenment",
+      "france",
+      "person"
+    ]
+  },
+  {
+    "id": "immanuel_kant",
+    "label": "Immanuel Kant",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Immanuel_kant",
+    "summary": "Prussian philosopher (1724–1804) whose Critique of Pure Reason (1781) restructured philosophy by arguing that the mind actively shapes experience rather than passively receiving it — a \"Copernican revolution\" in epistemology. His moral philosophy (Groundwork for the Metaphysics of Morals, 1785) derived ethics from reason alone through the categorical imperative: \"Act only according to that maxim by which you can at the same time will that it should become a universal law.\" His essay Perpetual Peace (1795) outlined a theory of international law and democratic peace that anticipated the League of Nations and the United Nations. Kant synthesized rationalism and empiricism, founded modern moral philosophy independent of religion, and established the terms for virtually all subsequent philosophy in the Western tradition.",
+    "decade": "1780s",
+    "tags": [
+      "philosophy",
+      "ethics",
+      "epistemology",
+      "enlightenment",
+      "germany",
+      "categorical-imperative",
+      "person"
+    ]
+  },
+  {
+    "id": "adam_smith",
+    "label": "Adam Smith",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adam_Smith",
+    "summary": "Scottish moral philosopher and economist (1723–1790) whose Wealth of Nations (1776) founded modern economics by arguing that market exchange, guided by the \"invisible hand\" of price signals, could coordinate economic activity more efficiently than state direction. Smith argued that the division of labor, private property, and free trade produced national wealth — a framework that became the intellectual foundation of capitalist political economy. He was more complex than his disciples: he recognized that merchants systematically conspire against the public interest, warned against monopoly power and the mercantile system, and in Theory of Moral Sentiments argued that sympathy rather than self-interest is the basis of social life. His work has been selectively invoked — the laissez-faire readings became the dominant interpretation, used to resist labor regulations and environmental protections.",
+    "decade": "1770s",
+    "tags": [
+      "economics",
+      "capitalism",
+      "enlightenment",
+      "scotland",
+      "free-market",
+      "philosophy",
+      "person"
+    ]
+  },
+  {
+    "id": "niccolo_machiavelli",
+    "label": "Niccolò Machiavelli",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli",
+    "summary": "Florentine diplomat and political theorist (1469–1527) whose The Prince (1513) became the founding text of modern political realism by arguing that effective rule requires a prince to act outside conventional morality when necessary — \"it is better to be feared than loved, if you cannot be both.\" Written after the Medici overthrow of the Florentine republic, The Prince analyzed power as it actually operates rather than as it ought to operate, separating politics from ethics and Christian morality for the first time in Western political theory. Machiavelli also wrote the Discourses on Livy, praising republican government, but it is The Prince that defined his legacy. His name became synonymous with cynical manipulation (Machiavellianism), though his actual argument was more nuanced: the ruler who fails to secure the state fails everyone.",
+    "decade": "1510s",
+    "tags": [
+      "philosophy",
+      "politics",
+      "realism",
+      "renaissance",
+      "florence",
+      "statecraft",
+      "person"
+    ]
+  },
+  {
+    "id": "georg_hegel",
+    "label": "Georg Wilhelm Friedrich Hegel",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
+    "summary": "German philosopher (1770–1831) whose Phenomenology of Spirit (1807) and Philosophy of History elaborated the dialectical method — the idea that historical development proceeds through contradiction: a thesis generates its antithesis, and their resolution produces a synthesis at a higher level of understanding. Hegel argued that history has a direction, moving toward the self-realization of Spirit (Geist) in freedom. His philosophy of right defended the modern state as the culmination of ethical life; his account of master-slave dialectic anticipated modern theories of recognition and identity politics. Karl Marx inverted Hegel materialist-dialectically to produce historical materialism; Francis Fukuyama used Hegelian teleology to declare liberal democracy the \"end of history.\" Hegel is perhaps the most consequential philosopher of the 19th century in terms of the movements that emerged from or against his system.",
+    "decade": "1800s",
+    "tags": [
+      "philosophy",
+      "dialectic",
+      "germany",
+      "history",
+      "idealism",
+      "enlightenment",
+      "person"
+    ]
+  },
+  {
+    "id": "karl_marx",
+    "label": "Karl Marx",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karl_Marx",
+    "summary": "German philosopher, economist, and revolutionary socialist (1818–1883) whose Capital (1867) and The Communist Manifesto (1848, with Friedrich Engels) argued that history is driven by class struggle over the means of production, that capitalism contains internal contradictions that will lead to its overthrow, and that a communist society without class exploitation is both possible and historically inevitable. Marx combined Hegelian dialectics with materialist analysis of economic relations to produce historical materialism — the most influential secular theory of history ever written. His work inspired communist revolutions in Russia, China, Cuba, and Vietnam; welfare state reforms in Western democracies; liberation theology; anti-colonial movements; and the Frankfurt School. The regimes that claimed his name committed atrocities he never advocated; the movements that engaged his analysis produced the most significant reductions in economic inequality in the 20th century.",
+    "decade": "1860s",
+    "tags": [
+      "philosophy",
+      "economics",
+      "socialism",
+      "communism",
+      "germany",
+      "class",
+      "revolution",
+      "person"
+    ]
+  },
+  {
+    "id": "friedrich_nietzsche",
+    "label": "Friedrich Nietzsche",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+    "summary": "German philosopher (1844–1900) who attacked the foundations of Western morality, declaring \"God is dead\" and arguing that Judeo-Christian ethics is a \"slave morality\" invented by the weak to constrain the strong. His concept of the Ubermensch (superman or overman) — a self-creating individual who imposes values on the world rather than inheriting them — and his \"will to power\" as the fundamental drive of life became the most misread philosophical ideas of the 20th century. Nietzsche was adamantly opposed to German nationalism, antisemitism, and statism — yet his sister Elisabeth Forster-Nietzsche, who controlled his archive after his mental collapse, produced falsified editions that made him appear to endorse all three, providing the Nazis with a philosopher. His actual work influenced existentialism (Sartre, Camus), post-structuralism (Foucault, Derrida), and the critique of morality as power.",
+    "decade": "1880s",
+    "tags": [
+      "philosophy",
+      "germany",
+      "existentialism",
+      "nihilism",
+      "will-to-power",
+      "morality",
+      "person"
     ]
   }
 ]
