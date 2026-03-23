@@ -1957,5 +1957,204 @@
       "christianity",
       "crusades"
     ]
+  },
+  {
+    "id": "great_schism_1054",
+    "label": "Great Schism",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism",
+    "summary": "The 1054 formal split between the Roman Catholic and Eastern Orthodox churches over papal authority, the filioque clause, and accumulated liturgical differences. The schism meant that when Byzantium appealed to Rome for help, Pope Urban II's response carried the additional political logic of reasserting Latin Christian leadership over Orthodox Christianity.",
+    "decade": "1050s",
+    "tags": ["religion", "history", "christianity", "schism", "medieval"]
+  },
+  {
+    "id": "council_of_clermont_1095",
+    "label": "Council of Clermont",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Council_of_Clermont",
+    "summary": "The November 1095 church council at which Pope Urban II called for a holy war to reclaim Jerusalem from the Seljuk Turks and aid the Byzantine Empire. The speech — promising remission of sins and spiritual reward for those who died — directly caused the First Crusade and initiated two centuries of religiously motivated warfare.",
+    "decade": "1090s",
+    "tags": ["religion", "history", "crusades", "medieval", "papacy"]
+  },
+  {
+    "id": "crusader_states",
+    "label": "Crusader States",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Crusader_states",
+    "summary": "The four Latin Christian states established in the Levant after the First Crusade: the Kingdom of Jerusalem, County of Edessa, Principality of Antioch, and County of Tripoli. They maintained a fragile European colonial presence in the Middle East from 1098 to 1291, when the fall of Acre ended the last Crusader territory.",
+    "decade": "1090s–1290s",
+    "tags": ["history", "crusades", "middle_east", "colonialism", "medieval"]
+  },
+  {
+    "id": "saladin_reconquest",
+    "label": "Saladin's Reconquest of Jerusalem",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saladin",
+    "summary": "Saladin (Salah ad-Din Yusuf ibn Ayyub) unified Egypt and Syria, then crushed the Crusader army at the Battle of Hattin (1187) and recaptured Jerusalem — reversing the First Crusade's conquest after 88 years. His relatively merciful treatment of Christian inhabitants contrasted with the Crusaders' 1099 massacre and became a founding narrative of Islamic resistance.",
+    "decade": "1180s",
+    "tags": ["history", "islam", "middle_east", "crusades", "military"]
+  },
+  {
+    "id": "ottoman_empire",
+    "label": "Ottoman Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ottoman_Empire",
+    "summary": "The Turkish Islamic empire (1299–1922) that at its height controlled Southeast Europe, Anatolia, the Middle East, and North Africa. The longest-lived major empire of the post-classical era, its collapse after WWI directly produced the modern Middle East's borders, conflicts, and state structure.",
+    "decade": "1290s–1920s",
+    "tags": ["history", "ottoman", "empire", "middle_east", "turkey"]
+  },
+  {
+    "id": "ottoman_conquest_arab_lands",
+    "label": "Ottoman Conquest of Arab Lands",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Mamluk_War_(1516%E2%80%9317)",
+    "summary": "Sultan Selim I's 1516–1517 conquest of the Mamluk Sultanate, adding Syria, Egypt, and the Hejaz (including Mecca and Medina) to the Ottoman Empire. Made the Ottoman Sultan Caliph of Islam; brought the Arab world under Ottoman administration for four centuries until WWI, creating the political geography that Sykes-Picot would divide.",
+    "decade": "1510s",
+    "tags": ["history", "ottoman", "middle_east", "conquest", "arab"]
+  },
+  {
+    "id": "sykes_picot_agreement",
+    "label": "Sykes-Picot Agreement",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sykes%E2%80%93Picot_Agreement",
+    "summary": "The secret 1916 Anglo-French agreement dividing the Arab territories of the Ottoman Empire into British and French spheres of influence. Drew borders ignoring ethnic, religious, and tribal realities, creating Iraq, Syria, Lebanon, and Palestine as colonial constructs — the foundational document of modern Middle Eastern dysfunction.",
+    "decade": "1910s",
+    "tags": ["history", "colonialism", "middle_east", "britain", "france"]
+  },
+  {
+    "id": "balfour_declaration",
+    "label": "Balfour Declaration",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Balfour_Declaration",
+    "summary": "The November 1917 letter from British Foreign Secretary Arthur Balfour to Zionist leader Lord Rothschild, declaring that 'His Majesty's Government view with favour the establishment in Palestine of a national home for the Jewish people.' Made without consulting the Arab majority population of Palestine; set the Israeli-Palestinian conflict in motion.",
+    "decade": "1910s",
+    "tags": ["history", "britain", "middle_east", "zionism", "palestine"]
+  },
+  {
+    "id": "zionism",
+    "label": "Zionism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zionism",
+    "summary": "The 19th-century Jewish nationalist movement founded by Theodor Herzl, advocating for the establishment of a Jewish homeland in response to European antisemitism. The Holocaust transformed Zionism from an ideological project into an urgent mass political reality, producing the political pressure that created Israel.",
+    "decade": "1880s–Ongoing",
+    "tags": ["history", "judaism", "nationalism", "middle_east", "movement"]
+  },
+  {
+    "id": "mandate_system",
+    "label": "League of Nations Mandate System",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/League_of_Nations_mandate",
+    "summary": "The post-WWI League of Nations framework granting Britain and France administrative authority over former Ottoman Arab territories as 'mandates' — in theory preparing them for independence, in practice extending colonial rule. The British Mandate for Palestine simultaneously promised a Jewish homeland and Arab self-determination, making conflict structurally inevitable.",
+    "decade": "1920s–1940s",
+    "tags": ["history", "colonialism", "middle_east", "britain", "france"]
+  },
+  {
+    "id": "nakba",
+    "label": "The Nakba (1948 Palestinian Exodus)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight",
+    "summary": "The mass displacement of approximately 700,000 Palestinian Arabs during the 1948 Arab-Israeli War, through a combination of military expulsion, flight from fighting, and psychological warfare. Palestinians call this 'the Catastrophe' (Nakba). Their exile and the refusal to allow return created the Palestinian refugee crisis that persists to the present day.",
+    "decade": "1940s",
+    "tags": ["history", "middle_east", "palestine", "refugees", "war"]
+  },
+  {
+    "id": "founding_of_israel",
+    "label": "Founding of the State of Israel (1948)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Declaration_of_the_Establishment_of_the_State_of_Israel",
+    "summary": "David Ben-Gurion's declaration of the State of Israel on May 14, 1948, one day before the British Mandate for Palestine expired. Recognized immediately by the United States and the Soviet Union, the declaration triggered the first Arab-Israeli War as neighboring Arab states invaded. Israel's founding simultaneously fulfilled the Zionist project and dispossessed the Palestinian Arab majority.",
+    "decade": "1940s",
+    "tags": ["history", "middle_east", "israel", "zionism", "independence"]
+  },
+  {
+    "id": "arab_israeli_war_1948",
+    "label": "1948 Arab-Israeli War",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War",
+    "summary": "The first Arab-Israeli War, fought between the newly declared State of Israel and a coalition of Arab states (Egypt, Jordan, Syria, Iraq, Lebanon). Israel expanded beyond the UN partition plan borders, expelled or drove out most Palestinian Arabs, and secured its existence. The armistice lines became Israel's de facto borders until 1967.",
+    "decade": "1940s",
+    "tags": ["history", "middle_east", "war", "israel", "arab_states"]
+  },
+  {
+    "id": "suez_crisis_1956",
+    "label": "Suez Crisis (1956)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Suez_Crisis",
+    "summary": "Egypt's President Nasser nationalized the Suez Canal, triggering a secret invasion by Britain, France, and Israel. US and Soviet pressure forced a humiliating Anglo-French withdrawal, marking the definitive end of British imperial power in the Middle East and elevating both Nasser's pan-Arab nationalism and superpower influence in the region.",
+    "decade": "1950s",
+    "tags": ["history", "middle_east", "imperialism", "cold_war", "egypt"]
+  },
+  {
+    "id": "six_day_war_1967",
+    "label": "Six-Day War (1967)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Six-Day_War",
+    "summary": "Israel's preemptive war against Egypt, Jordan, and Syria in June 1967, in which Israel captured the West Bank, Gaza Strip, Sinai Peninsula, and Golan Heights in six days. The occupation of the West Bank and Gaza placed over a million Palestinians under Israeli military control and created the territorial framework for all subsequent Israeli-Palestinian conflict.",
+    "decade": "1960s",
+    "tags": ["history", "middle_east", "war", "israel", "occupation"]
+  },
+  {
+    "id": "yom_kippur_war_1973",
+    "label": "Yom Kippur War (1973)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yom_Kippur_War",
+    "summary": "Egypt and Syria's surprise attack on Israel on Yom Kippur, initially achieving major gains before Israel reversed the momentum. The war led to the 1973 oil embargo, triggered the Camp David peace process, and shattered Israeli assumptions of invincibility. It was the last major Arab-Israeli conventional war.",
+    "decade": "1970s",
+    "tags": ["history", "middle_east", "war", "israel", "oil"]
+  },
+  {
+    "id": "cold_war",
+    "label": "Cold War",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cold_War",
+    "summary": "The geopolitical rivalry between the United States and the Soviet Union from 1947 to 1991, conducted through proxy wars, arms races, ideological competition, covert operations, and client state relationships rather than direct military conflict. The Cold War structured international politics globally and drove dozens of regional conflicts by transforming local disputes into superpower proxy contests.",
+    "decade": "1947–1991",
+    "tags": ["history", "geopolitics", "usa", "ussr", "imperialism"]
+  },
+  {
+    "id": "us_iran_1953_coup",
+    "label": "1953 Iranian Coup (Operation Ajax)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat",
+    "summary": "The CIA and MI6-orchestrated overthrow of Iran's democratically elected Prime Minister Mohammad Mosaddegh in August 1953, restoring Shah Mohammad Reza Pahlavi to absolute power. Mosaddegh had nationalized British oil interests; the coup reinstalled a pro-Western autocrat. The event became the defining grievance of Iranian nationalism and the ideological foundation for the 1979 Islamic Revolution.",
+    "decade": "1950s",
+    "tags": ["history", "cold_war", "iran", "cia", "imperialism"]
+  },
+  {
+    "id": "iranian_revolution_1979",
+    "label": "Iranian Islamic Revolution (1979)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Iranian_Revolution",
+    "summary": "The popular uprising that overthrew Shah Mohammad Reza Pahlavi and established the Islamic Republic of Iran under Ayatollah Khomeini's doctrine of velayat-e faqih (guardianship of the jurist). The revolution replaced a secular pro-Western monarchy with a theocratic government hostile to both the US and the Soviet Union, transforming Middle Eastern geopolitics.",
+    "decade": "1970s",
+    "tags": ["history", "iran", "revolution", "islamism", "theocracy"]
+  },
+  {
+    "id": "oil_geopolitics",
+    "label": "Middle East Oil Geopolitics",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The structural dynamic by which Middle Eastern oil reserves — controlling the majority of global proven reserves — make the region of existential strategic interest to industrial economies. Oil revenue funds authoritarian regimes, funds religious movements, distorts political development, and makes Western powers willing to support dictators, overthrow democrats, and fight wars to maintain access and friendly governments.",
+    "decade": "1950s–present",
+    "tags": ["mechanism", "oil", "imperialism", "middle_east", "geopolitics"]
   }
 ]

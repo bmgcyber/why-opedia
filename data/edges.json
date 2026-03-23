@@ -2122,5 +2122,131 @@
     "label": "Zionist lobbying produced the British commitment",
     "note": "The Zionist Federation of Great Britain's diplomatic campaign — led by Chaim Weizmann and Nahum Sokolow, with Weizmann's personal relationship with Lloyd George and Arthur Balfour — was the proximate cause of the Balfour Declaration. Without organized Zionist lobbying, there would have been no declaration.",
     "confidence": "high"
+  },
+  {
+    "id": "mandate_system__nakba",
+    "source": "mandate_system",
+    "target": "nakba",
+    "type": "ENABLED",
+    "label": "Mandate's contradictions made conflict inevitable",
+    "note": "The British Mandate's structural contradiction — simultaneously committed to a Jewish national home and to protecting Arab rights — made the 1948 war and Palestinian displacement a predictable outcome. Britain's failure to resolve these obligations before departing left the two communities in armed conflict with no legal framework for coexistence.",
+    "confidence": "high"
+  },
+  {
+    "id": "mandate_system__founding_of_israel",
+    "source": "mandate_system",
+    "target": "founding_of_israel",
+    "type": "PRODUCED",
+    "label": "British withdrawal produced the declaration",
+    "note": "Israel's founding declaration was made on May 14, 1948, timed precisely to precede the end of the British Mandate at midnight. The mandate's termination without a successor authority created the legal vacuum that Ben-Gurion filled with the declaration of statehood.",
+    "confidence": "high"
+  },
+  {
+    "id": "founding_of_israel__arab_israeli_war_1948",
+    "source": "founding_of_israel",
+    "target": "arab_israeli_war_1948",
+    "type": "CAUSED",
+    "label": "Declaration triggered Arab state invasion",
+    "note": "Israel's declaration of independence on May 14, 1948 triggered the immediate military intervention of Egypt, Jordan, Syria, Iraq, and Lebanon. Arab League states had publicly declared they would resist partition by force; the declaration activated that commitment, beginning the first Arab-Israeli war.",
+    "confidence": "high"
+  },
+  {
+    "id": "arab_israeli_war_1948__nakba",
+    "source": "arab_israeli_war_1948",
+    "target": "nakba",
+    "type": "CAUSED",
+    "label": "War produced mass Palestinian displacement",
+    "note": "During the 1948 war, approximately 700,000 Palestinians fled or were expelled from their homes — through a combination of military attack, psychological warfare operations (like Plan Dalet), and mass flight from advancing Israeli forces. This displacement created the Palestinian refugee crisis that has remained unresolved for over 75 years.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war__us_iran_1953_coup",
+    "source": "cold_war",
+    "target": "us_iran_1953_coup",
+    "type": "ENABLED",
+    "label": "Cold War logic justified overthrowing democracy",
+    "note": "The CIA framed Operation Ajax in Cold War terms: Mosaddegh's openness to the Tudeh (Communist) Party made Iran a potential Soviet satellite. Cold War doctrine that democratic nations could be sacrificed to prevent Soviet expansion provided the justification for overthrowing Iran's elected government — a pattern repeated across the developing world.",
+    "confidence": "high"
+  },
+  {
+    "id": "us_iran_1953_coup__iranian_revolution_1979",
+    "source": "us_iran_1953_coup",
+    "target": "iranian_revolution_1979",
+    "type": "CAUSED",
+    "label": "Coup discredited secular politics, fueled Islamism",
+    "note": "The 1953 coup demonstrated to Iranians that democratic politics was impossible while the US was willing to overthrow elected governments to protect oil interests. The Shah's US-backed SAVAK repression of secular opposition eliminated the political left, leaving Islamic networks as the only organized opposition — directly enabling Khomeini's revolutionary mobilization.",
+    "confidence": "high"
+  },
+  {
+    "id": "oil_geopolitics__us_iran_1953_coup",
+    "source": "oil_geopolitics",
+    "target": "us_iran_1953_coup",
+    "type": "CAUSED",
+    "label": "Oil interests drove the intervention",
+    "note": "The Anglo-Iranian Oil Company's loss of its Iranian concessions to Mosaddegh's nationalization was the immediate trigger for the coup. British and US oil interests — and the principle that Western nations could not permit the nationalization of their oil assets — was the explicit motivation that MI6 brought to the CIA when requesting US involvement.",
+    "confidence": "high"
+  },
+  {
+    "id": "oil_geopolitics__six_day_war_1967",
+    "source": "oil_geopolitics",
+    "target": "six_day_war_1967",
+    "type": "ENABLED",
+    "label": "Oil states funded Arab military buildup",
+    "note": "Arab oil revenues — particularly from Saudi Arabia and Kuwait — funded Egyptian and Syrian military modernization in the years preceding 1967. Oil wealth gave Arab states the capacity to purchase Soviet weaponry and maintain large standing armies, making the military confrontation with Israel more credible and the miscalculation of war more likely.",
+    "confidence": "medium"
+  },
+  {
+    "id": "six_day_war_1967__yom_kippur_war_1973",
+    "source": "six_day_war_1967",
+    "target": "yom_kippur_war_1973",
+    "type": "CAUSED",
+    "label": "Occupation created the motive for 1973 attack",
+    "note": "Egypt and Syria launched the 1973 war explicitly to recover the territories lost in 1967: Egypt's Sinai and Syria's Golan Heights. Sadat calculated that recovering lost land through military action would restore Egyptian honor and force a diplomatic settlement. The 1967 occupation was the direct cause of the 1973 war.",
+    "confidence": "high"
+  },
+  {
+    "id": "yom_kippur_war_1973__oil_geopolitics",
+    "source": "yom_kippur_war_1973",
+    "target": "oil_geopolitics",
+    "type": "ENABLED",
+    "label": "War triggered OPEC oil embargo",
+    "note": "Arab OPEC members imposed an oil embargo on the US and Western Europe in response to their support for Israel during the 1973 war. The embargo caused a fourfold increase in oil prices, demonstrating that Middle Eastern oil was a strategic weapon — permanently establishing oil geopolitics as central to US Middle East policy.",
+    "confidence": "high"
+  },
+  {
+    "id": "arab_israeli_war_1948__suez_crisis_1956",
+    "source": "arab_israeli_war_1948",
+    "target": "suez_crisis_1956",
+    "type": "ENABLED",
+    "label": "1948 humiliation energized Nasserism",
+    "note": "Egypt's military humiliation in the 1948 war discredited the old Egyptian monarchy and contributed to the 1952 Free Officers Revolution that brought Nasser to power. Nasser's pan-Arab nationalism — of which the Suez nationalization was the defining act — grew directly from the shame of 1948.",
+    "confidence": "high"
+  },
+  {
+    "id": "suez_crisis_1956__six_day_war_1967",
+    "source": "suez_crisis_1956",
+    "target": "six_day_war_1967",
+    "type": "ENABLED",
+    "label": "Suez victory inflated Nasser's overconfidence",
+    "note": "Nasser's political victory in the Suez Crisis — forcing Anglo-French-Israeli withdrawal through superpower pressure — created a dangerous illusion of Egyptian military strength that it had not demonstrated on the battlefield. This contributed to the strategic miscalculations of 1967: Nasser's provocative closure of the Straits of Tiran and dismissal of UN peacekeepers that triggered Israel's preemptive strike.",
+    "confidence": "medium"
+  },
+  {
+    "id": "cold_war__suez_crisis_1956",
+    "source": "cold_war",
+    "target": "suez_crisis_1956",
+    "type": "ENABLED",
+    "label": "Superpower rivalry shaped the crisis outcome",
+    "note": "The Suez Crisis was resolved by Cold War pressures, not military facts: the US threatened economic sanctions against Britain to force withdrawal, fearing that continued Anglo-French imperialism would push Egypt and Arab states toward the Soviet Union. The USSR simultaneously threatened Britain with rocket attacks. Cold War dynamics ended the crisis and determined its outcome.",
+    "confidence": "high"
+  },
+  {
+    "id": "zionism__founding_of_israel",
+    "source": "zionism",
+    "target": "founding_of_israel",
+    "type": "PRODUCED",
+    "label": "Zionist movement achieved its state-building goal",
+    "note": "Israel's founding was the direct political achievement of the Zionist movement's fifty-year program of aliyah (immigration), institution-building, international lobbying, and armed resistance. The state was the movement's declared objective from Herzl's Der Judenstaat (1896) onward.",
+    "confidence": "high"
   }
 ]
