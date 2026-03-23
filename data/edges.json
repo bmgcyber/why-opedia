@@ -4246,5 +4246,203 @@
     "label": "Leopold personally designed and profited from the Congo Free State atrocity system",
     "note": "Leopold did not merely benefit from the Congo system — he designed it. He personally negotiated the Berlin Conference recognition of his personal sovereignty, created the Force Publique military with its hand-amputation enforcement mechanism, set the rubber extraction quotas, used profit to build Brussels and fund his personal wealth, and systematically suppressed reporting about conditions until journalists and humanitarians exposed the regime.",
     "confidence": "high"
+  },
+  {
+    "id": "winston_churchill__cold_war",
+    "source": "winston_churchill",
+    "target": "cold_war",
+    "type": "ENABLED",
+    "label": "Churchill Iron Curtain speech (1946) named and framed the Cold War division of Europe",
+    "note": "Churchill speech at Westminster College in Fulton, Missouri on March 5, 1946 — \"From Stettin in the Baltic to Trieste in the Adriatic, an iron curtain has descended across the Continent\" — gave the Cold War its defining metaphor and made the Soviet-Western division the organizing framework of postwar politics. He delivered it as a private citizen but it shaped American policy.",
+    "confidence": "high"
+  },
+  {
+    "id": "winston_churchill__nuremberg_trials",
+    "source": "winston_churchill",
+    "target": "nuremberg_trials",
+    "type": "ENABLED",
+    "label": "Churchill initially advocated summary execution but ultimately supported war crimes trials",
+    "note": "Churchill initial position was summary execution of Nazi leaders without trial. He was persuaded by the Americans and eventually supported the Nuremberg process. His early advocacy for accountability — even in the summary form — helped establish that Nazi leaders would face some form of justice rather than simply escape.",
+    "confidence": "medium"
+  },
+  {
+    "id": "winston_churchill__decolonization_movement",
+    "source": "winston_churchill",
+    "target": "decolonization_movement",
+    "type": "ENABLED",
+    "label": "Churchill opposition to Indian independence forced the issue and contributed to partition violence",
+    "note": "Churchill vehement opposition to Indian independence (\"I have not become the King's First Minister in order to preside over the liquidation of the British Empire\") prolonged the independence struggle. His management of the 1943 Bengal Famine — in which 2-3 million died while food exports continued — demonstrated the human cost of imperial ideology. His intransigence forced Attlee to rush independence, contributing to partition violence.",
+    "confidence": "medium"
+  },
+  {
+    "id": "franklin_roosevelt__d_day_normandy",
+    "source": "franklin_roosevelt",
+    "target": "d_day_normandy",
+    "type": "ENABLED",
+    "label": "Roosevelt sustained Allied coalition and insisted on cross-channel invasion over Churchill Mediterranean strategy",
+    "note": "Roosevelt management of the Grand Alliance — managing Churchill preference for Mediterranean strategy, Stalin demand for a second front, and American military preference for direct cross-channel attack — eventually produced the Normandy decision. The Anglo-American alliance he built with Churchill was the institutional foundation that made D-Day possible.",
+    "confidence": "high"
+  },
+  {
+    "id": "franklin_roosevelt__atomic_bombing_hiroshima",
+    "source": "franklin_roosevelt",
+    "target": "atomic_bombing_hiroshima",
+    "type": "ENABLED",
+    "label": "Roosevelt authorized the Manhattan Project that produced the bomb Truman ultimately used",
+    "note": "Roosevelt approved the Manhattan Project in 1942 and sustained the massive investment ($2 billion, 130,000 workers) that produced the first nuclear weapons. He died in April 1945 before they were completed; Truman was not fully briefed on the program until after Roosevelt death. The bomb was Roosevelt project; Truman decision was whether to use it.",
+    "confidence": "high"
+  },
+  {
+    "id": "harry_truman__atomic_bombing_hiroshima",
+    "source": "harry_truman",
+    "target": "atomic_bombing_hiroshima",
+    "type": "CAUSED",
+    "label": "Truman authorized the atomic bombings of Hiroshima and Nagasaki",
+    "note": "Truman personally authorized the use of atomic bombs against Japan. He was briefed on the bomb only after Roosevelt death, had 12 weeks to decide its use, considered a demonstration but concluded only direct use would force surrender, and was not fully informed by the Target Committee that Japan was in advanced collapse or that alternatives existed. The decision remains the most debated act in modern military history.",
+    "confidence": "high"
+  },
+  {
+    "id": "harry_truman__cold_war",
+    "source": "harry_truman",
+    "target": "cold_war",
+    "type": "ENABLED",
+    "label": "Truman Doctrine (1947) and Marshall Plan established the US containment strategy that defined the Cold War",
+    "note": "Truman 1947 address to Congress — requesting aid for Greece and Turkey against Soviet pressure — articulated the Truman Doctrine: the US would support free peoples resisting Soviet expansion anywhere in the world. This was the foundational statement of containment policy; combined with the Marshall Plan for European reconstruction, it defined the Western Cold War strategy for four decades.",
+    "confidence": "high"
+  },
+  {
+    "id": "harry_truman__us_iran_1953_coup",
+    "source": "harry_truman",
+    "target": "us_iran_1953_coup",
+    "type": "ENABLED",
+    "label": "Truman administration began planning the Iran coup that Eisenhower completed",
+    "note": "The CIA Operation Ajax that overthrew Mosaddegh was initiated under Truman but not completed. British intelligence approached the CIA about removing Mosaddegh after his nationalization of the Anglo-Iranian Oil Company; the Truman administration initially declined (fearing it looked like imperialism) but began preliminary planning that Eisenhower administration then completed in August 1953.",
+    "confidence": "medium"
+  },
+  {
+    "id": "dwight_eisenhower__d_day_normandy",
+    "source": "dwight_eisenhower",
+    "target": "d_day_normandy",
+    "type": "PRODUCED",
+    "label": "Eisenhower commanded Operation Overlord as Supreme Allied Commander Europe",
+    "note": "Eisenhower command of D-Day — coordinating the largest amphibious invasion in history, managing the competing egos of Montgomery, Patton, and de Gaulle, and making the final go decision on June 5 despite marginal weather — was the operational achievement that ended the war in Western Europe. His letter accepting personal responsibility if the invasion failed was written the night before.",
+    "confidence": "high"
+  },
+  {
+    "id": "dwight_eisenhower__us_iran_1953_coup",
+    "source": "dwight_eisenhower",
+    "target": "us_iran_1953_coup",
+    "type": "CAUSED",
+    "label": "Eisenhower authorized the CIA coup that overthrew Iranian democracy",
+    "note": "Eisenhower approved Operation Ajax in 1953, which used CIA funding and operatives to bribe Iranian military officers, organize street mobs, and overthrow the democratically elected Prime Minister Mosaddegh. The shah was restored to power; the resulting anti-American resentment contributed to the 1979 Iranian Revolution. Eisenhower regarded it as a Cold War necessity; later historians see it as the foundational act of American Middle East intervention.",
+    "confidence": "high"
+  },
+  {
+    "id": "nikita_khrushchev__cuban_missile_crisis",
+    "source": "nikita_khrushchev",
+    "target": "cuban_missile_crisis",
+    "type": "CAUSED",
+    "label": "Khrushchev decision to place missiles in Cuba triggered the crisis",
+    "note": "Khrushchev decision to secretly deploy nuclear missiles in Cuba was driven by the US missile superiority, the presence of Jupiter missiles in Turkey, and the desire to protect Cuba after the Bay of Pigs. When Kennedy demanded their removal, Khrushchev faced a choice between war and humiliation; his decision to accept a face-saving compromise (while keeping the Turkey deal secret) resolved the crisis without nuclear war.",
+    "confidence": "high"
+  },
+  {
+    "id": "nikita_khrushchev__stalinist_purges",
+    "source": "nikita_khrushchev",
+    "target": "stalinist_purges",
+    "type": "DISCREDITED",
+    "label": "Khrushchev Secret Speech began the official Soviet repudiation of Stalinist terror",
+    "note": "The Secret Speech to the 20th Party Congress (February 25, 1956) — leaked to the West within months — was the first official acknowledgment that Stalin cult of personality had produced crimes against the party. It was a carefully bounded disclosure (not mentioning the full death toll, not questioning Leninism), but it shattered the Stalin myth, triggered the Hungarian Revolution, and made the Cold War incompatible with Stalinist ideological rigidity.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_kennedy__cuban_missile_crisis",
+    "source": "john_kennedy",
+    "target": "cuban_missile_crisis",
+    "type": "CAUSED",
+    "label": "Kennedy management of the crisis produced the resolution that avoided nuclear war",
+    "note": "Kennedy management of ExComm during the Cuban Missile Crisis — rejecting air strike options, choosing naval blockade, using back channels for the Turkey compromise, and giving Khrushchev time and face-saving room — is widely studied as a model of crisis management under existential pressure. The near-miss elements (submarine B-59, the U-2 shootdown) show how close the world came to accidental nuclear war.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_kennedy__vietnam_war",
+    "source": "john_kennedy",
+    "target": "vietnam_war",
+    "type": "ENABLED",
+    "label": "Kennedy escalated US military presence in Vietnam from 900 to 16,000 advisors",
+    "note": "Kennedy inherited 900 US military advisors in Vietnam from Eisenhower and increased them to 16,000 by his death. He was committed to not losing Vietnam to communism but had unresolved doubts about escalation; historians debate whether he would have approved the massive Johnsonian escalation. His authorization of the coup against Diem (November 1963) destabilized the South Vietnamese government days before Kennedy own assassination.",
+    "confidence": "medium"
+  },
+  {
+    "id": "richard_nixon__watergate",
+    "source": "richard_nixon",
+    "target": "watergate",
+    "type": "PRODUCED",
+    "label": "Nixon directed the Watergate cover-up and obstruction of justice that produced his resignation",
+    "note": "Nixon was not involved in planning the Watergate break-in but became deeply involved in the cover-up: directing payments of hush money, obstructing FBI investigation, using the CIA to impede the Justice Department, and lying publicly about his knowledge. The Saturday Night Massacre (firing special prosecutor Cox) and the 18.5-minute tape gap showed his personal direction of obstruction. His resignation on August 9, 1974 was the only presidential resignation in American history.",
+    "confidence": "high"
+  },
+  {
+    "id": "richard_nixon__vietnam_war",
+    "source": "richard_nixon",
+    "target": "vietnam_war",
+    "type": "ENABLED",
+    "label": "Nixon expanded the Vietnam War into Cambodia and Laos while pursuing peace negotiations",
+    "note": "Nixon secret bombing of Cambodia (1969–1973, Operation Menu — not disclosed to Congress), the invasion of Cambodia (1970, triggering the Kent State protests), and the mining of Haiphong Harbor were expansions of the war undertaken while publicly pursuing Vietnamization and peace. The Paris Peace Accords (1973) ended US involvement; South Vietnam fell in 1975.",
+    "confidence": "high"
+  },
+  {
+    "id": "henry_kissinger__latin_american_dirty_wars",
+    "source": "henry_kissinger",
+    "target": "latin_american_dirty_wars",
+    "type": "ENABLED",
+    "label": "Kissinger realpolitik supported Latin American military dictatorships that conducted dirty wars",
+    "note": "Kissinger authorization of Operation Condor — the coordinated South American military dictatorship program of assassination, torture, and disappearance across borders — and his personal assurance to Argentina military junta that human rights concerns would not impede US support, enabled the dirty war apparatus. His famous line to the Argentine junta: \"If there are things that have to be done, you should do them quickly.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "henry_kissinger__vietnam_war",
+    "source": "henry_kissinger",
+    "target": "vietnam_war",
+    "type": "ENABLED",
+    "label": "Kissinger designed the Vietnam peace strategy that prolonged the war by four years",
+    "note": "As National Security Advisor and then Secretary of State, Kissinger was the chief architect of US Vietnam policy under Nixon: the secret bombing campaigns, the Cambodia invasion, and the Paris Peace Accords. His realpolitik framework produced \"peace with honor\" — a negotiated withdrawal that preserved American prestige while leaving South Vietnam to its fate.",
+    "confidence": "high"
+  },
+  {
+    "id": "ronald_reagan__iran_contra",
+    "source": "ronald_reagan",
+    "target": "iran_contra",
+    "type": "PRODUCED",
+    "label": "Reagan authorized or permitted the Iran-Contra arms-for-hostages scheme",
+    "note": "The Iran-Contra affair occurred within Reagan administration: NSC staff sold weapons to Iran (hoping for hostage release) and diverted profits to fund Contra rebels in Nicaragua (prohibited by Boland Amendment). Whether Reagan personally authorized the diversion is disputed; he publicly denied knowing. Independent counsel Lawrence Walsh found evidence of direct Reagan knowledge but could not charge him. His plausible deniability became a model for subsequent executive branch circumvention of congressional oversight.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ronald_reagan__cold_war",
+    "source": "ronald_reagan",
+    "target": "cold_war",
+    "type": "ENABLED",
+    "label": "Reagan military buildup and ideological confrontation accelerated Soviet collapse",
+    "note": "Reagan Reagan Doctrine (supporting anti-communist movements globally), Strategic Defense Initiative, and military spending that reached $456 billion annually strained the Soviet economy and discredited the Soviet model. His Evil Empire rhetoric rejected detente in favor of ideological confrontation. Historians debate whether his pressure was decisive in ending the Cold War or whether Gorbachev reforms would have produced the same result.",
+    "confidence": "medium"
+  },
+  {
+    "id": "mikhail_gorbachev__fall_of_soviet_union",
+    "source": "mikhail_gorbachev",
+    "target": "fall_of_soviet_union",
+    "type": "PRODUCED",
+    "label": "Gorbachev reforms released the forces that dissolved the Soviet Union",
+    "note": "Gorbachev glasnost and perestroika were intended to revitalize Soviet socialism, not end it. But liberalized media revealed Soviet crimes and failures; competitive elections activated political opposition; and his refusal to use military force (unlike Hungary 1956 or Czechoslovakia 1968) allowed Eastern European revolutions to proceed peacefully. By 1991, the institutions he led had dissolved from within.",
+    "confidence": "high"
+  },
+  {
+    "id": "mikhail_gorbachev__preference_falsification",
+    "source": "mikhail_gorbachev",
+    "target": "preference_falsification",
+    "type": "ENABLED",
+    "label": "Glasnost demonstrated Kuran preference falsification thesis: private opposition had been vast",
+    "note": "The speed of Soviet collapse after Gorbachev permitted freer expression was the most dramatic historical demonstration of preference falsification: within months, populations that had appeared to support the Soviet system were openly anti-communist. The private preferences had been there; glasnost simply allowed them to be expressed, triggering the cascade dynamic Kuran describes.",
+    "confidence": "high"
   }
 ]

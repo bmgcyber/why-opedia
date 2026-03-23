@@ -4304,5 +4304,185 @@
       "imperialism",
       "person"
     ]
+  },
+  {
+    "id": "winston_churchill",
+    "label": "Winston Churchill",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Winston_Churchill",
+    "summary": "British Prime Minister (1874–1965) whose refusal to negotiate with Hitler after Dunkirk (June 1940) was arguably the single most consequential individual decision of the 20th century. Churchill \"finest hour\" speeches mobilized British resistance at the moment when Germany controlled most of continental Europe and the United States was still neutral. His wartime coalition management, his relationship with Roosevelt (Atlantic Charter, Lend-Lease), and his coordination of Allied strategy (including the decision for the North African and Italian campaigns before D-Day) shaped the outcome of the war. His Iron Curtain speech at Fulton, Missouri (1946) coined the phrase and framed the Cold War. Churchill was also an ardent imperialist who resisted Indian independence and whose policies contributed to the 1943 Bengal Famine; he is simultaneously a symbol of resistance to fascism and of the violence of British Empire.",
+    "decade": "1940s",
+    "tags": [
+      "britain",
+      "wwii",
+      "cold-war",
+      "empire",
+      "leadership",
+      "speech",
+      "person"
+    ]
+  },
+  {
+    "id": "franklin_roosevelt",
+    "label": "Franklin D. Roosevelt",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+    "summary": "US President (1882–1945) who led the United States through both the Great Depression and most of World War II. His New Deal (1933–1939) used federal intervention to stabilize the economy, establish Social Security, regulate banks, and create employment — redefining the relationship between government and citizen in America. His decision to support Britain before Pearl Harbor (Lend-Lease Act, 1941) and his management of the wartime coalition were essential to Allied victory. Roosevelt also authorized the internment of Japanese Americans (Executive Order 9066, 1942) — one of the most significant civil liberties violations in American history. He died in April 1945 before Germany surrendered; Truman inherited the war, the bomb decision, and the postwar order.",
+    "decade": "1930s",
+    "tags": [
+      "usa",
+      "wwii",
+      "new-deal",
+      "presidency",
+      "depression",
+      "democracy",
+      "person"
+    ]
+  },
+  {
+    "id": "harry_truman",
+    "label": "Harry S. Truman",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Harry_S._Truman",
+    "summary": "US President (1884–1972) who made two of the most consequential decisions in modern history: to use atomic bombs on Hiroshima and Nagasaki (August 1945), and to implement the Truman Doctrine of containing Soviet expansion (1947) that defined Cold War American foreign policy. Truman also desegregated the US military (1948), supported the founding of Israel, and approved the Marshall Plan for European reconstruction. His authorization of the CIA coup that overthrew Iranian Prime Minister Mosaddegh (1953) — completed under Eisenhower — began the US covert intervention pattern in the Middle East. The debate over whether the atomic bombings were militarily necessary or constituted the targeting of civilians has never been resolved to consensus.",
+    "decade": "1940s",
+    "tags": [
+      "usa",
+      "wwii",
+      "atomic-bomb",
+      "cold-war",
+      "presidency",
+      "containment",
+      "person"
+    ]
+  },
+  {
+    "id": "dwight_eisenhower",
+    "label": "Dwight D. Eisenhower",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower",
+    "summary": "American general and 34th US President (1890–1969) who commanded the D-Day invasion as Supreme Allied Commander Europe and later presided over the early Cold War. Eisenhower farewell address (1961) warned of the \"military-industrial complex\" — the dangerous entanglement of defense contractors and government that could distort policy toward permanent war. He authorized the 1953 CIA coup in Iran (with Truman initial approval), the 1954 CIA coup in Guatemala (Operation PBSUCCESS), and approved covert operations in Cuba that became the Bay of Pigs. His administration built the interstate highway system, authorized Brown v. Board of Education enforcement, and managed the Suez Crisis. His warning about the military-industrial complex remains one of the most prescient political speeches in American history.",
+    "decade": "1950s",
+    "tags": [
+      "usa",
+      "wwii",
+      "cold-war",
+      "presidency",
+      "military-industrial",
+      "covert-ops",
+      "person"
+    ]
+  },
+  {
+    "id": "nikita_khrushchev",
+    "label": "Nikita Khrushchev",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nikita_Khrushchev",
+    "summary": "Soviet leader (1894–1971) whose \"Secret Speech\" to the 20th Party Congress (1956) denounced Stalin cult of personality and some of his crimes, beginning de-Stalinization and unleashing a crisis of legitimacy across the communist world. He presided over the most dangerous moment of the Cold War — the Cuban Missile Crisis (1962) — and the compromise he reached with Kennedy (Soviet missiles removed from Cuba in exchange for US pledge not to invade Cuba and quiet removal of US missiles from Turkey) was the closest humanity has come to nuclear war. His confrontational style at the UN (allegedly banging his shoe on the desk), his announcement that the Soviet Union would \"bury\" capitalism, and his support for Soviet space achievements (Sputnik, Gagarin) defined an era. He was deposed in a party coup in 1964 for policy failures.",
+    "decade": "1950s",
+    "tags": [
+      "soviet",
+      "cold-war",
+      "de-stalinization",
+      "nuclear",
+      "khrushchev",
+      "cuba",
+      "person"
+    ]
+  },
+  {
+    "id": "john_kennedy",
+    "label": "John F. Kennedy",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+    "summary": "US President (1917–1963) whose 1,000-day presidency included the Cuban Missile Crisis, the Berlin Crisis, and the early escalation of Vietnam, but who is remembered primarily for his assassination in Dallas (November 22, 1963) and the cultural mythology of Camelot. Kennedy negotiation during the Cuban Missile Crisis — resisting military advisors who urged air strikes — avoided nuclear war; his back-channel communication with Khrushchev through intermediaries and his willingness to offer a face-saving compromise (the secret Turkey deal) demonstrated diplomatic flexibility that Kennedy public posture concealed. His presidency also authorized the Bay of Pigs invasion (a CIA operation inherited from Eisenhower that he reluctantly approved and then refused air support for), escalated US advisors in Vietnam from 900 to 16,000, and signed the Limited Nuclear Test Ban Treaty (1963).",
+    "decade": "1960s",
+    "tags": [
+      "usa",
+      "cold-war",
+      "cuba",
+      "vietnam",
+      "assassination",
+      "nuclear",
+      "person"
+    ]
+  },
+  {
+    "id": "richard_nixon",
+    "label": "Richard Nixon",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Richard_Nixon",
+    "summary": "US President (1913–1994) whose presidency combined significant foreign policy achievements with the Watergate scandal that produced the only presidential resignation in American history. Nixon opening to China (1972) and detente with the Soviet Union were genuine diplomatic accomplishments that reordered global politics. He also expanded the Vietnam War into Cambodia and Laos, prolonged US involvement (the peace with honor that ended in 1975 South Vietnamese collapse), and his National Security Advisor Henry Kissinger supported the overthrow of Salvador Allende in Chile (1973) and backed the Argentine dirty war. His obstruction of justice in the Watergate cover-up — including the Saturday Night Massacre — became the defining case study of presidential abuse of power and the institutional resistance (a free press, congressional oversight, an independent judiciary) that stopped it.",
+    "decade": "1970s",
+    "tags": [
+      "usa",
+      "vietnam",
+      "watergate",
+      "china",
+      "cold-war",
+      "presidency",
+      "person"
+    ]
+  },
+  {
+    "id": "henry_kissinger",
+    "label": "Henry Kissinger",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Henry_Kissinger",
+    "summary": "German-born American statesman (1923–2023) who served as National Security Advisor and Secretary of State under Nixon and Ford, becoming the most consequential American foreign policy official of the Cold War era. A practitioner of realpolitik — power-based international relations divorced from moral considerations — Kissinger negotiated the Paris Peace Accords (Vietnam), opened China, managed detente with the Soviet Union, and engineered the Egypt-Israel disengagement after the Yom Kippur War. His record also includes authorizing the secret bombing of Cambodia, supporting the 1973 Chilean coup (the Pinochet regime that followed killed thousands), providing intelligence and support to Indonesian General Suharto during the East Timor occupation (200,000+ dead), supporting the Pakistani military during the 1971 Bangladesh genocide, and backing the Argentine dirty war. He received the Nobel Peace Prize in 1973, shared with Le Duc Tho (who declined it); the award has been called the most controversial in Nobel history.",
+    "decade": "1970s",
+    "tags": [
+      "usa",
+      "foreign-policy",
+      "realpolitik",
+      "vietnam",
+      "cold-war",
+      "coups",
+      "person"
+    ]
+  },
+  {
+    "id": "ronald_reagan",
+    "label": "Ronald Reagan",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ronald_Reagan",
+    "summary": "US President (1981–1989) whose presidency accelerated the end of the Cold War through military buildup and ideological confrontation with the Soviet Union, while simultaneously introducing supply-side economics (\"Reaganomics\") that restructured American political economy. Reagan Strategic Defense Initiative (Star Wars), sustained defense spending that strained the Soviet economy, and support for anti-communist movements (Reagan Doctrine) contributed to Soviet collapse. The Iran-Contra affair revealed that his administration secretly sold weapons to Iran (to fund Nicaraguan Contra rebels in violation of congressional prohibition) — the most significant constitutional violation of his presidency. His \"war on government\" rhetoric, tax cuts for the wealthy, weakening of labor unions (firing PATCO air traffic controllers, 1981), and deregulation launched the neoliberal economic order that restructured inequality in the United States.",
+    "decade": "1980s",
+    "tags": [
+      "usa",
+      "cold-war",
+      "reagan",
+      "neoliberalism",
+      "iran-contra",
+      "presidency",
+      "person"
+    ]
+  },
+  {
+    "id": "mikhail_gorbachev",
+    "label": "Mikhail Gorbachev",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev",
+    "summary": "Last leader of the Soviet Union (1931–2022) whose reform programs glasnost (openness) and perestroika (restructuring) unleashed forces that dissolved the empire he was trying to save. Gorbachev intended to revitalize Soviet socialism, not end it: he allowed greater press freedom, released political prisoners, and permitted competitive elections within the Communist Party — all of which activated preference falsification (decades of private anti-regime sentiment becoming publicly expressible) and accelerated Soviet collapse. His decision not to use military force to suppress Eastern European revolutions (1989) — breaking with Soviet precedent — was the decisive act that allowed the Berlin Wall to fall peacefully. He negotiated the START and INF arms treaties with Reagan. He is celebrated in the West as the man who ended the Cold War; in Russia he is blamed for the humiliations that followed.",
+    "decade": "1980s",
+    "tags": [
+      "soviet",
+      "cold-war",
+      "reform",
+      "glasnost",
+      "collapse",
+      "perestroika",
+      "person"
+    ]
   }
 ]
