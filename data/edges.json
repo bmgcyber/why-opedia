@@ -1987,5 +1987,140 @@
     "label": "Jerusalem's Night Journey made it Islam's third holy city",
     "note": "The Prophet Muhammad's Night Journey (Isra and Mi'raj) to Jerusalem and his ascension to heaven from the Temple Mount made Jerusalem (Al-Quds) Islam's third holiest city after Mecca and Medina — giving Islamic civilization a direct stake in the city's political control.",
     "confidence": "high"
+  },
+  {
+    "id": "byzantine_empire__great_schism_1054",
+    "source": "byzantine_empire",
+    "target": "great_schism_1054",
+    "type": "PRODUCED",
+    "label": "Theological rivalry split Christendom",
+    "note": "Centuries of divergence between Roman and Byzantine Christianity — over papal authority, liturgical language, filioque doctrine, and political rivalry — culminated in the mutual excommunications of 1054 that formally split the church into Catholic and Orthodox branches.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_schism_1054__first_crusade",
+    "source": "great_schism_1054",
+    "target": "first_crusade",
+    "type": "ENABLED",
+    "label": "Schism gave Urban II political motive",
+    "note": "The East–West schism gave Pope Urban II a political incentive beyond piety: a crusade that rescued Byzantine Christians from the Seljuks could reunite the churches under Roman authority. The schism made the Crusade simultaneously a military, religious, and geopolitical project.",
+    "confidence": "medium"
+  },
+  {
+    "id": "council_of_clermont_1095__first_crusade",
+    "source": "council_of_clermont_1095",
+    "target": "first_crusade",
+    "type": "CAUSED",
+    "label": "Urban II's speech launched the Crusade",
+    "note": "Pope Urban II's speech at Clermont in November 1095 — promising absolution of sins for those who took the cross — directly launched the First Crusade. The speech triggered immediate mass mobilization across Western Europe, producing both the People's Crusade and the organized military expedition that captured Jerusalem.",
+    "confidence": "high"
+  },
+  {
+    "id": "first_crusade__crusader_states",
+    "source": "first_crusade",
+    "target": "crusader_states",
+    "type": "PRODUCED",
+    "label": "Conquest produced four colonial states",
+    "note": "The First Crusade's military success produced four Latin Christian states in the Levant: the Kingdom of Jerusalem, County of Tripoli, Principality of Antioch, and County of Edessa. These states were colonial enterprises requiring perpetual military reinforcement from Europe, creating the structural dependency that made them fragile.",
+    "confidence": "high"
+  },
+  {
+    "id": "saladin_reconquest__crusader_states",
+    "source": "saladin_reconquest",
+    "target": "crusader_states",
+    "type": "DISCREDITED",
+    "label": "Hattin and Jerusalem ended Crusader dominance",
+    "note": "Saladin's victory at the Battle of Hattin (1187) destroyed the Kingdom of Jerusalem's field army, and his subsequent recapture of Jerusalem ended the First Kingdom's existence. The reconquest exposed the fundamental fragility of the Crusader states and triggered the failed Third Crusade.",
+    "confidence": "high"
+  },
+  {
+    "id": "ottoman_empire__ottoman_conquest_arab_lands",
+    "source": "ottoman_empire",
+    "target": "ottoman_conquest_arab_lands",
+    "type": "PRODUCED",
+    "label": "Empire expanded south under Selim I",
+    "note": "Sultan Selim I's campaigns of 1516–1517 destroyed the Mamluk Sultanate, incorporating Syria, Egypt, and the Hejaz (including Mecca and Medina) into the Ottoman Empire. This gave the Ottomans custodianship of the holy cities and dominion over the Arab world for four centuries.",
+    "confidence": "high"
+  },
+  {
+    "id": "ottoman_empire__armenian_genocide",
+    "source": "ottoman_empire",
+    "target": "armenian_genocide",
+    "type": "ENABLED",
+    "label": "Dying empire's infrastructure enabled genocide",
+    "note": "The Ottoman state's bureaucratic and military apparatus — combined with wartime emergency powers, the Committee of Union and Progress's centralized control, and the cover of WWI — enabled the systematic deportation and massacre of Armenians. The genocide was a state project of the late Ottoman regime.",
+    "confidence": "high"
+  },
+  {
+    "id": "ottoman_conquest_arab_lands__sykes_picot_agreement",
+    "source": "ottoman_conquest_arab_lands",
+    "target": "sykes_picot_agreement",
+    "type": "ENABLED",
+    "label": "Four centuries of Ottoman Arab rule created the prize",
+    "note": "Four hundred years of Ottoman administration over Arab lands — which had integrated them as provinces rather than independent states — meant that when the Ottoman Empire entered WWI on the losing side, the Allied powers could plan to partition these territories. Ottoman rule had erased pre-existing state structures, making Sykes-Picot possible.",
+    "confidence": "high"
+  },
+  {
+    "id": "world_war_i__sykes_picot_agreement",
+    "source": "world_war_i",
+    "target": "sykes_picot_agreement",
+    "type": "PRODUCED",
+    "label": "War produced secret colonial division of Middle East",
+    "note": "The First World War's collapse of the Ottoman Empire gave Britain and France the opportunity to fulfill their pre-existing colonial ambitions in the Middle East. The Sykes-Picot Agreement of 1916 secretly divided the Arab provinces of the Ottoman Empire into British and French spheres of influence, drawing the borders that still define the region.",
+    "confidence": "high"
+  },
+  {
+    "id": "world_war_i__balfour_declaration",
+    "source": "world_war_i",
+    "target": "balfour_declaration",
+    "type": "PRODUCED",
+    "label": "War created political opportunity for Zionist lobby",
+    "note": "The First World War gave Zionist leaders Chaim Weizmann and Nahum Sokolow leverage with the British government: Britain needed Jewish support in America and Russia to continue the war, and Zionists offered political mobilization in exchange for a commitment to a Jewish homeland. The war made the Balfour Declaration politically calculable.",
+    "confidence": "high"
+  },
+  {
+    "id": "sykes_picot_agreement__mandate_system",
+    "source": "sykes_picot_agreement",
+    "target": "mandate_system",
+    "type": "PRODUCED",
+    "label": "Secret partition became the mandate borders",
+    "note": "The 1916 Sykes-Picot Agreement's division of the Middle East into British and French spheres was formalized after WWI as the League of Nations Mandate system. The mandates' borders followed the Sykes-Picot lines, institutionalizing the colonial partition under the legal fiction of 'preparing' Arab populations for self-governance.",
+    "confidence": "high"
+  },
+  {
+    "id": "balfour_declaration__mandate_system",
+    "source": "balfour_declaration",
+    "target": "mandate_system",
+    "type": "ENABLED",
+    "label": "Declaration made Palestine's mandate politically loaded",
+    "note": "The Balfour Declaration's promise of a Jewish homeland in Palestine became embedded in the British Mandate for Palestine's founding document, creating a structurally contradictory obligation: Britain was simultaneously committed to a Jewish national home and to protecting Arab civil and political rights. The declaration guaranteed that the mandate would produce irresolvable conflict.",
+    "confidence": "high"
+  },
+  {
+    "id": "jewish_diaspora__zionism",
+    "source": "jewish_diaspora",
+    "target": "zionism",
+    "type": "CAUSED",
+    "label": "Diaspora persecution produced nationalist response",
+    "note": "Two millennia of Jewish life in diaspora — marked by pogroms, legal discrimination, forced conversions, expulsions, and endemic antisemitism — produced Zionism as a nationalist response. Theodor Herzl formalized this response after witnessing the Dreyfus Affair, arguing that Jewish safety could only be achieved through a sovereign Jewish state.",
+    "confidence": "high"
+  },
+  {
+    "id": "the_holocaust__zionism",
+    "source": "the_holocaust",
+    "target": "zionism",
+    "type": "ENABLED",
+    "label": "Genocide transformed Zionism from ideology to urgency",
+    "note": "The Holocaust destroyed the argument that Jews could achieve safety through assimilation or political accommodation in European societies. It produced 250,000 Jewish displaced persons in European camps with nowhere to return to, transforming international support for a Jewish state from a minority political position into a humanitarian consensus that enabled the 1947 UN partition plan.",
+    "confidence": "high"
+  },
+  {
+    "id": "zionism__balfour_declaration",
+    "source": "zionism",
+    "target": "balfour_declaration",
+    "type": "ENABLED",
+    "label": "Zionist lobbying produced the British commitment",
+    "note": "The Zionist Federation of Great Britain's diplomatic campaign — led by Chaim Weizmann and Nahum Sokolow, with Weizmann's personal relationship with Lloyd George and Arthur Balfour — was the proximate cause of the Balfour Declaration. Without organized Zionist lobbying, there would have been no declaration.",
+    "confidence": "high"
   }
 ]
