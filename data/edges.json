@@ -1555,5 +1555,185 @@
     "label": "permanently legitimized religious division",
     "note": "The Peace of Westphalia's recognition of Calvinism as a legitimate Christian denomination permanently foreclosed the Catholic Habsburgs' project of religious reunification — confirming the Reformation's permanent fragmentation of Western Christendom as the new European baseline.",
     "confidence": "high"
+  },
+  {
+    "id": "scapegoating_mechanism__partition_of_india",
+    "source": "scapegoating_mechanism",
+    "target": "partition_of_india",
+    "type": "ENABLED",
+    "label": "colonial resentments channeled into communal violence",
+    "note": "British partition activated scapegoating on both sides: Hindu-Muslim communal tensions, intensified by British divide-and-rule policies, produced mass violence in which ordinary people massacred neighbors they had lived alongside for generations once administrative partition provided the dehumanizing frame.",
+    "confidence": "medium"
+  },
+  {
+    "id": "dehumanization__partition_of_india",
+    "source": "dehumanization",
+    "target": "partition_of_india",
+    "type": "ENABLED",
+    "label": "communal violence required dehumanizing neighbors",
+    "note": "The partition massacres required participants to frame religious neighbors as existential threats — the same dehumanization mechanism documented in the Holocaust and Rwanda. The speed with which neighbors killed neighbors demonstrates how pre-existing community ties dissolve when dehumanization is successfully activated.",
+    "confidence": "high"
+  },
+  {
+    "id": "srebrenica_massacre__rwandan_genocide",
+    "source": "srebrenica_massacre",
+    "target": "rwandan_genocide",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both state-enabled genocides of defined ethnic groups",
+    "note": "Both Srebrenica (1995) and Rwanda (1994) occurred within a year of each other, both involved state or state-backed forces systematically killing a defined ethnic/religious group, and both occurred despite international presence that failed to intervene — demonstrating the international community's consistent failure to stop genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "srebrenica_massacre__dehumanization",
+    "source": "srebrenica_massacre",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "Bosniaks framed as existential demographic threat",
+    "note": "Serbian nationalist ideology framed Bosniak Muslims as a demographic threat to the Serbian nation — dehumanizing them as agents of Islamization rather than citizens. This framing enabled ordinary Bosnian Serb soldiers to execute men and boys they had previously lived alongside.",
+    "confidence": "high"
+  },
+  {
+    "id": "srebrenica_massacre__the_holocaust",
+    "source": "srebrenica_massacre",
+    "target": "the_holocaust",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "first European genocide since Holocaust",
+    "note": "The ICTY's genocide ruling on Srebrenica established it as the only European event since the Holocaust to meet the legal standard of genocide — with parallel mechanisms of systematic identification, concentration, and execution of a defined population.",
+    "confidence": "high"
+  },
+  {
+    "id": "vietnam_war__my_lai_massacre",
+    "source": "vietnam_war",
+    "target": "my_lai_massacre",
+    "type": "PRODUCED",
+    "label": "war's logic produced civilian massacres",
+    "note": "My Lai was produced by the Vietnam War's tactical logic: 'free fire zones,' body count metrics, and the inability to distinguish combatants from civilians in a guerrilla war created the conditions in which massacring civilians became operationally normalized.",
+    "confidence": "high"
+  },
+  {
+    "id": "my_lai_massacre__dehumanization",
+    "source": "my_lai_massacre",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "gooks: dehumanization enabled civilian massacre",
+    "note": "My Lai's massacre required participants to frame Vietnamese civilians as enemy combatants or subhuman threats — the 'gook' dehumanization that U.S. military training systematically deployed. Without this dehumanization, ordinary soldiers would not have participated in killing women, children, and elderly.",
+    "confidence": "high"
+  },
+  {
+    "id": "my_lai_massacre__pentagon_papers",
+    "source": "my_lai_massacre",
+    "target": "pentagon_papers",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both exposed systematic government cover-up",
+    "note": "Both My Lai and the Pentagon Papers were covered up for years by military and political officials before being forced into public record — demonstrating the same pattern of systematic institutional deception about Vietnam War conduct.",
+    "confidence": "high"
+  },
+  {
+    "id": "atlantic_slave_trade__american_civil_war",
+    "source": "atlantic_slave_trade",
+    "target": "american_civil_war",
+    "type": "CAUSED",
+    "label": "slavery's contradictions produced the rupture",
+    "note": "The American Civil War was caused by the political, economic, and moral contradictions of chattel slavery — the institution the Atlantic slave trade had built. Confederate states seceded explicitly to preserve slavery; the war was the forced resolution of an irreconcilable political conflict over its existence.",
+    "confidence": "high"
+  },
+  {
+    "id": "american_civil_war__atlantic_slave_trade",
+    "source": "american_civil_war",
+    "target": "atlantic_slave_trade",
+    "type": "DISCREDITED",
+    "label": "Union victory formally abolished chattel slavery",
+    "note": "The 13th Amendment, ratified in 1865, formally abolished the legal institution of chattel slavery in the United States — ending the slave trade's American terminus. The legal institution was destroyed; the racial hierarchy and ideology it had built persisted.",
+    "confidence": "high"
+  },
+  {
+    "id": "american_civil_war__reconstruction_era",
+    "source": "american_civil_war",
+    "target": "reconstruction_era",
+    "type": "PRODUCED",
+    "label": "Union victory produced the Reconstruction project",
+    "note": "Reconstruction was the post-Civil War project to rebuild the South and integrate 4 million formerly enslaved people as citizens — produced directly by the Union victory and the political necessity of determining what emancipation would mean in practice.",
+    "confidence": "high"
+  },
+  {
+    "id": "reconstruction_era__jim_crow_laws",
+    "source": "reconstruction_era",
+    "target": "jim_crow_laws",
+    "type": "CAUSED",
+    "label": "Reconstruction's failure produced Jim Crow",
+    "note": "Reconstruction's 1877 abandonment — Federal troops withdrawn as part of the Compromise of 1877 — allowed white supremacist violence to destroy Black political participation. Jim Crow laws were the legal consolidation of the racial control that white supremacist terror had already established through violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_marathon__battle_of_thermopylae",
+    "source": "battle_of_marathon",
+    "target": "battle_of_thermopylae",
+    "type": "CAUSED",
+    "label": "Marathon's humiliation produced Xerxes' invasion",
+    "note": "Darius I's defeat at Marathon permanently humiliated Persia and made a retaliatory campaign politically mandatory for his successor Xerxes — who spent a decade preparing the massive invasion that produced Thermopylae. Marathon was the direct cause of the Greek-Persian confrontation that made Thermopylae necessary.",
+    "confidence": "medium"
+  },
+  {
+    "id": "battle_of_thermopylae__battle_of_vienna_1683",
+    "source": "battle_of_thermopylae",
+    "target": "battle_of_vienna_1683",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are outnumbered defenders at civilizational crossroads",
+    "note": "Both Thermopylae and Vienna are the defining Western 'last stand' narratives — small forces holding against massive invading armies at points framed as existential civilizational confrontations. Both became foundational stories that shaped European military and cultural identity for centuries.",
+    "confidence": "medium"
+  },
+  {
+    "id": "battle_of_agincourt__battle_of_thermopylae",
+    "source": "battle_of_agincourt",
+    "target": "battle_of_thermopylae",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both: tactical innovation defeats numerical superiority",
+    "note": "Both Agincourt and Thermopylae involve smaller forces defeating or holding against much larger ones through tactical superiority — Thermopylae through terrain and discipline, Agincourt through the longbow's technological advantage over cavalry. Both became templates for military tactical thinking.",
+    "confidence": "medium"
+  },
+  {
+    "id": "american_civil_war__battle_of_gettysburg",
+    "source": "american_civil_war",
+    "target": "battle_of_gettysburg",
+    "type": "PRODUCED",
+    "label": "war produced its decisive turning point",
+    "note": "The Civil War's strategic dynamics — Lee's attempt to win European recognition by demonstrating Confederate viability in Northern territory — produced the Gettysburg campaign as its logical expression. The battle was the product of the war's political and strategic logic.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_gettysburg__reconstruction_era",
+    "source": "battle_of_gettysburg",
+    "target": "reconstruction_era",
+    "type": "ENABLED",
+    "label": "Confederate defeat enabled Union's reconstruction project",
+    "note": "Gettysburg ended any realistic Confederate hope of Northern capitulation or European recognition — making Union victory and Reconstruction inevitable. Without the Gettysburg defeat, the political conditions for Reconstruction would not have existed.",
+    "confidence": "medium"
+  },
+  {
+    "id": "battle_of_waterloo__treaty_of_versailles",
+    "source": "battle_of_waterloo",
+    "target": "treaty_of_versailles",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both attempted to restore order after European war",
+    "note": "Both Waterloo and Versailles produced major European settlement conferences attempting to restore order after devastating wars — the Congress of Vienna (1815) and the Paris Peace Conference (1919). Both produced settlements whose internal contradictions fueled the next catastrophe.",
+    "confidence": "medium"
+  },
+  {
+    "id": "battle_of_waterloo__battle_of_stalingrad",
+    "source": "battle_of_waterloo",
+    "target": "battle_of_stalingrad",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both decisive defeats of invincible military powers",
+    "note": "Both battles represent the decisive military defeat of a previously dominant land power in a catastrophic reversal — Napoleon's Grande Armée at Waterloo, Germany's 6th Army at Stalingrad — each marking the inflection point from which no recovery was possible.",
+    "confidence": "medium"
+  },
+  {
+    "id": "partition_of_india__srebrenica_massacre",
+    "source": "partition_of_india",
+    "target": "srebrenica_massacre",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both: partition logic produces communal massacre",
+    "note": "Both the Partition of India and Srebrenica demonstrate how enforced ethnic/religious partition activates existing communal tensions into mass violence — the administrative act of separation producing the killing it was supposed to prevent.",
+    "confidence": "medium"
   }
 ]

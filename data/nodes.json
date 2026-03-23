@@ -941,5 +941,105 @@
     "summary": "The 13th-century military campaigns of the Mongol Empire under Genghis Khan and his successors, creating the largest contiguous land empire in history. The destruction of the Abbasid Caliphate (1258) and the Seljuk Sultanate created the power vacuum into which the Ottoman state expanded.",
     "decade": "1200s–1300s",
     "tags": ["military", "history", "mongols", "empire", "asia"]
+  },
+  {
+    "id": "partition_of_india",
+    "label": "Partition of India",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Partition_of_India",
+    "summary": "The 1947 British-administered division of the Indian subcontinent into Hindu-majority India and Muslim-majority Pakistan, producing one of history's largest forced migrations (10–20 million people) and communal massacres killing 200,000–2 million. A textbook case of dehumanization and scapegoating producing mass atrocity under the cover of administrative partition.",
+    "decade": "1940s",
+    "tags": ["colonialism", "history", "india", "partition", "documented_atrocity"]
+  },
+  {
+    "id": "srebrenica_massacre",
+    "label": "Srebrenica Massacre",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Srebrenica_massacre",
+    "summary": "The July 1995 genocide in which Bosnian Serb forces under Ratko Mladić systematically executed approximately 8,000 Bosniak Muslim men and boys from the UN-declared 'safe area' of Srebrenica. The only event legally designated genocide in Europe since the Holocaust.",
+    "decade": "1990s",
+    "tags": ["genocide", "history", "europe", "balkans", "documented_atrocity"]
+  },
+  {
+    "id": "my_lai_massacre",
+    "label": "My Lai Massacre",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/My_Lai_massacre",
+    "summary": "The March 1968 mass killing of 347–504 unarmed South Vietnamese civilians — including women, children, and elderly — by U.S. Army soldiers. Covered up for 18 months until journalist Seymour Hersh exposed it in 1969; contributed to the collapse of domestic support for the Vietnam War.",
+    "decade": "1960s",
+    "tags": ["war", "history", "vietnam", "atrocity", "documented_atrocity"]
+  },
+  {
+    "id": "american_civil_war",
+    "label": "American Civil War",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Civil_War",
+    "summary": "The 1861–1865 war between the United States and the Confederate States of America, caused by Southern states' determination to preserve chattel slavery. The bloodiest conflict in American history, killing approximately 620,000 soldiers; ended with the Union's victory and the formal abolition of slavery.",
+    "decade": "1860s",
+    "tags": ["war", "history", "slavery", "america", "civil_rights"]
+  },
+  {
+    "id": "reconstruction_era",
+    "label": "Reconstruction Era",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Reconstruction_era",
+    "summary": "The 1865–1877 period of federal effort to rebuild the South and integrate formerly enslaved Black Americans as citizens. Ended by a political compromise that withdrew federal troops, allowing white supremacist violence to systematically dismantle Black political participation — directly producing Jim Crow.",
+    "decade": "1860s–1870s",
+    "tags": ["history", "america", "civil_rights", "racism", "politics"]
+  },
+  {
+    "id": "battle_of_marathon",
+    "label": "Battle of Marathon",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Marathon",
+    "summary": "The 490 BC Athenian victory over the invading Persian army of Darius I, demonstrating that a Greek city-state could defeat the Persian Empire in open battle. The victory preserved Athenian democracy at its most formative period and permanently humiliated Persia — directly producing Xerxes' massive retaliatory invasion a decade later.",
+    "decade": "490s BC",
+    "tags": ["military", "history", "ancient", "greece", "persia"]
+  },
+  {
+    "id": "battle_of_thermopylae",
+    "label": "Battle of Thermopylae",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae",
+    "summary": "The 480 BC three-day defense of the Thermopylae pass by approximately 7,000 Greeks — including 300 Spartans under King Leonidas — against Xerxes' invading Persian army. Though the Greeks were ultimately outflanked, the battle's delaying action enabled the Greek naval victory at Salamis and became the defining Western narrative of heroic sacrifice against overwhelming odds.",
+    "decade": "480s BC",
+    "tags": ["military", "history", "ancient", "greece", "persia"]
+  },
+  {
+    "id": "battle_of_agincourt",
+    "label": "Battle of Agincourt",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Agincourt",
+    "summary": "The October 1415 English victory over a larger French army during the Hundred Years' War, in which Henry V's longbowmen destroyed the French cavalry. One of history's most studied examples of tactical innovation defeating numerical superiority; immortalized by Shakespeare's Henry V.",
+    "decade": "1410s",
+    "tags": ["military", "history", "medieval", "england", "france"]
+  },
+  {
+    "id": "battle_of_gettysburg",
+    "label": "Battle of Gettysburg",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Gettysburg",
+    "summary": "The July 1–3, 1863 engagement in which Union forces repulsed Lee's second invasion of the North, killing or wounding approximately 50,000 soldiers in three days. The decisive turning point of the American Civil War, ending any realistic Confederate hope of European recognition or Northern capitulation.",
+    "decade": "1860s",
+    "tags": ["military", "history", "america", "civil_war", "turning_point"]
+  },
+  {
+    "id": "battle_of_waterloo",
+    "label": "Battle of Waterloo",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+    "summary": "The June 18, 1815 defeat of Napoleon Bonaparte by the Duke of Wellington and Prussian forces, ending the Napoleonic Wars and Napoleon's rule. Produced the Congress of Vienna's conservative order that attempted to restore pre-Revolutionary Europe — an order whose instability would produce the 20th century's catastrophes.",
+    "decade": "1810s",
+    "tags": ["military", "history", "europe", "napoleon", "turning_point"]
   }
 ]
