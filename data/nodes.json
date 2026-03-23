@@ -641,5 +641,105 @@
     "summary": "The 1884–1885 conference at which European powers partitioned the African continent among themselves without African representation. Formalized the colonial project at continental scale, creating the administrative infrastructure through which racial ideologies like the Hamitic Hypothesis were systematically applied to justify subjugation.",
     "decade": "1880s",
     "tags": ["colonialism", "africa", "history", "europe", "racism"]
+  },
+  {
+    "id": "world_war_i",
+    "label": "World War I",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/World_War_I",
+    "summary": "The first industrialized total war, 1914–1918, killing approximately 20 million people. Triggered by the assassination of Archduke Franz Ferdinand but driven by imperial competition and alliance systems; ended with the Versailles settlement whose punitive terms structured the subsequent European catastrophes.",
+    "decade": "1910s",
+    "tags": ["war", "history", "europe", "imperialism"]
+  },
+  {
+    "id": "treaty_of_versailles",
+    "label": "Treaty of Versailles",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Treaty_of_Versailles",
+    "summary": "The 1919 peace settlement ending WWI, imposing reparations, territorial losses, and the 'war guilt' clause on Germany. The combination of punitive terms and genuine economic ruin provided the legitimate grievance infrastructure that Nazi propaganda transformed into genocidal ideology.",
+    "decade": "1910s",
+    "tags": ["diplomacy", "history", "europe", "war", "consequences"]
+  },
+  {
+    "id": "weimar_republic",
+    "label": "Weimar Republic",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Weimar_Republic",
+    "summary": "Germany's democratic republic from 1919–1933, established in military defeat and destroyed by hyperinflation, the Great Depression, and political extremism. The paradigm case of how genuine crisis combined with scapegoating and legitimate grievance capture to destroy democratic governance.",
+    "decade": "1920s–1930s",
+    "tags": ["democracy", "history", "germany", "politics", "collapse"]
+  },
+  {
+    "id": "nuremberg_laws_1935",
+    "label": "Nuremberg Laws",
+    "node_type": "reference",
+    "category": "policy",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nuremberg_Laws",
+    "summary": "German racial laws passed in September 1935 stripping Jews of citizenship and prohibiting marriage between Jews and non-Jews. Explicitly modeled in part on American racial statutes; constituted the legal infrastructure of dehumanization that preceded extermination.",
+    "decade": "1930s",
+    "tags": ["nazism", "racism", "policy", "history", "antisemitism"]
+  },
+  {
+    "id": "kristallnacht",
+    "label": "Kristallnacht",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kristallnacht",
+    "summary": "The November 9–10, 1938 pogrom in which Nazi SA forces destroyed over 7,500 Jewish businesses, burned 1,400 synagogues, killed approximately 100 Jews, and sent 30,000 to concentration camps. The state-organized violence that signaled genocide was politically viable.",
+    "decade": "1930s",
+    "tags": ["nazism", "antisemitism", "history", "pogrom", "documented_atrocity"]
+  },
+  {
+    "id": "battle_of_stalingrad",
+    "label": "Battle of Stalingrad",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad",
+    "summary": "The August 1942–February 1943 engagement in which Soviet forces encircled and destroyed Germany's 6th Army, killing or capturing approximately 750,000 Axis troops. The decisive turning point of the Eastern Front and the largest single battle in recorded history.",
+    "decade": "1940s",
+    "tags": ["war", "history", "wwii", "soviet", "turning_point"]
+  },
+  {
+    "id": "d_day_normandy",
+    "label": "D-Day / Normandy Landings",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Normandy_landings",
+    "summary": "The June 6, 1944 Allied amphibious assault on Normandy, France — the largest seaborne invasion in history. Opened the Western Front, began the liberation of Nazi-occupied Europe, and ultimately brought Nazi concentration camps into global public record.",
+    "decade": "1940s",
+    "tags": ["war", "history", "wwii", "military", "liberation"]
+  },
+  {
+    "id": "atomic_bombing_hiroshima",
+    "label": "Atomic Bombing of Hiroshima & Nagasaki",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
+    "summary": "The August 1945 U.S. atomic bombings of Hiroshima and Nagasaki, killing 70,000–140,000 people. Inaugurated the nuclear age, permanently establishing that governments possessed weapons capable of city-scale civilian annihilation.",
+    "decade": "1940s",
+    "tags": ["war", "history", "nuclear", "wwii", "technology"]
+  },
+  {
+    "id": "cuban_missile_crisis",
+    "label": "Cuban Missile Crisis",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis",
+    "summary": "The October 1962 standoff between the U.S. and USSR over Soviet nuclear missiles in Cuba — the closest the Cold War came to nuclear exchange. A crisis in which the same anti-communist ideology that produced McCarthyism brought civilization within hours of nuclear war.",
+    "decade": "1960s",
+    "tags": ["cold_war", "history", "nuclear", "politics", "crisis"]
+  },
+  {
+    "id": "battle_of_somme",
+    "label": "Battle of the Somme",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Somme",
+    "summary": "The July–November 1916 engagement on the Western Front in which the British Army suffered 57,471 casualties — including 19,240 dead — on the first day alone, with total casualties exceeding one million. The defining demonstration of industrial warfare consuming soldiers as mechanical material.",
+    "decade": "1910s",
+    "tags": ["war", "history", "wwi", "military", "atrocity"]
   }
 ]

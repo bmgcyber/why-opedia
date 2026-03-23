@@ -1024,5 +1024,194 @@
     "label": "denial content maximizes engagement",
     "note": "Climate denial content generates high outrage engagement from both believers and critics — algorithmic systems therefore amplify it regardless of scientific accuracy, giving well-funded denial campaigns a free distribution channel through engagement optimization.",
     "confidence": "medium"
+  },
+  {
+    "id": "ottoman_decline_europe__world_war_i",
+    "source": "ottoman_decline_europe",
+    "target": "world_war_i",
+    "type": "CAUSED",
+    "label": "Ottoman collapse triggered the Eastern Question",
+    "note": "The dying Ottoman Empire's territorial implosion in the Balkans — triggering the First and Second Balkan Wars and creating a power vacuum that Austria-Hungary, Russia, Germany, and Britain all competed to fill — was the immediate structural cause of the July Crisis that ignited WWI.",
+    "confidence": "medium"
+  },
+  {
+    "id": "world_war_i__armenian_genocide",
+    "source": "world_war_i",
+    "target": "armenian_genocide",
+    "type": "ENABLED",
+    "label": "war provided cover and operational opportunity",
+    "note": "WWI gave the Ottoman Committee of Union and Progress both the military emergency justification and the operational infrastructure to execute the genocide: wartime censorship suppressed international response, and the military apparatus was already mobilized.",
+    "confidence": "high"
+  },
+  {
+    "id": "world_war_i__treaty_of_versailles",
+    "source": "world_war_i",
+    "target": "treaty_of_versailles",
+    "type": "PRODUCED",
+    "label": "war produced punitive peace settlement",
+    "note": "WWI's Allied victory produced Versailles as the settlement mechanism — but the exhaustion, bitterness, and domestic political pressures of the victorious powers produced a treaty that prioritized punishment over stability.",
+    "confidence": "high"
+  },
+  {
+    "id": "world_war_i__battle_of_somme",
+    "source": "world_war_i",
+    "target": "battle_of_somme",
+    "type": "PRODUCED",
+    "label": "industrial war produced industrial slaughter",
+    "note": "The Somme was a product of WWI's strategic logic: attritional warfare on a static front required throwing mass infantry at fortified positions, producing casualties at a scale previously unimaginable.",
+    "confidence": "high"
+  },
+  {
+    "id": "treaty_of_versailles__weimar_republic",
+    "source": "treaty_of_versailles",
+    "target": "weimar_republic",
+    "type": "CAUSED",
+    "label": "punitive terms doomed democratic legitimacy",
+    "note": "Versailles saddled the new Weimar democracy with the 'war guilt' clause, reparations, and territorial losses it had no role in causing — permanently delegitimizing democratic governance in German public opinion by associating it with national humiliation.",
+    "confidence": "high"
+  },
+  {
+    "id": "scapegoating_mechanism__weimar_republic",
+    "source": "scapegoating_mechanism",
+    "target": "weimar_republic",
+    "type": "ENABLED",
+    "label": "stab-in-the-back myth blamed the Jews",
+    "note": "The Dolchstosslegende — 'stab-in-the-back' myth blaming Germany's WWI defeat on Jewish socialists and war-resisters — was the primary scapegoating mechanism that channeled Weimar's genuine economic ruin into antisemitic political violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "legitimate_grievance_capture__nazi_propaganda",
+    "source": "legitimate_grievance_capture",
+    "target": "nazi_propaganda",
+    "type": "ENABLED",
+    "label": "genuine suffering became genocidal entry point",
+    "note": "Nazi propaganda entered through genuine Weimar suffering: hyperinflation, mass unemployment, national humiliation. Real economic catastrophe was the legitimate grievance that Nazi ideology captured and redirected into genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "weimar_republic__nazi_propaganda",
+    "source": "weimar_republic",
+    "target": "nazi_propaganda",
+    "type": "ENABLED",
+    "label": "democratic collapse provided extremism's environment",
+    "note": "Weimar's political dysfunction — street violence, ineffective coalitions, economic catastrophe — gave Nazi propaganda an environment where democratic failure was visibly evident and alternatives seemed viable.",
+    "confidence": "high"
+  },
+  {
+    "id": "nazi_propaganda__nuremberg_laws_1935",
+    "source": "nazi_propaganda",
+    "target": "nuremberg_laws_1935",
+    "type": "PRODUCED",
+    "label": "decade of propaganda produced racial law",
+    "note": "The Nuremberg Laws codified what Nazi propaganda had spent a decade establishing as social fact — that Jews were a separate, threatening race. The laws translated propaganda into administrative infrastructure.",
+    "confidence": "high"
+  },
+  {
+    "id": "american_eugenics_movement__nuremberg_laws_1935",
+    "source": "american_eugenics_movement",
+    "target": "nuremberg_laws_1935",
+    "type": "ENABLED",
+    "label": "American racial laws cited as legal precedent",
+    "note": "Nazi jurists explicitly cited U.S. racial statutes — Virginia's Racial Integrity Act, miscegenation laws, and compulsory sterilization laws — as models during the drafting of the Nuremberg Laws. James Q. Whitman's Hitler's American Model documents this in detail.",
+    "confidence": "high"
+  },
+  {
+    "id": "nuremberg_laws_1935__the_holocaust",
+    "source": "nuremberg_laws_1935",
+    "target": "the_holocaust",
+    "type": "ENABLED",
+    "label": "legal dehumanization preceded extermination",
+    "note": "The Nuremberg Laws created the legal infrastructure of genocide: by stripping Jews of citizenship and humanity in administrative law, they normalized exclusion and enabled the bureaucratic machinery of the Holocaust to operate through ordinary civil servants executing ordinary legal orders.",
+    "confidence": "high"
+  },
+  {
+    "id": "nazi_propaganda__kristallnacht",
+    "source": "nazi_propaganda",
+    "target": "kristallnacht",
+    "type": "CAUSED",
+    "label": "propaganda directly incited organized pogrom",
+    "note": "Kristallnacht was not spontaneous — it was organized by Goebbels and the SA following the assassination of a German diplomat by a Jewish teenager, using the propaganda infrastructure that had spent years preparing German society to accept mass anti-Jewish violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "kristallnacht__the_holocaust",
+    "source": "kristallnacht",
+    "target": "the_holocaust",
+    "type": "ENABLED",
+    "label": "pogrom demonstrated genocide was viable",
+    "note": "Kristallnacht served as both a proof of concept and a psychological threshold — the lack of effective domestic or international response confirmed to Nazi planners that mass anti-Jewish violence would not generate consequences sufficient to stop escalation.",
+    "confidence": "high"
+  },
+  {
+    "id": "treaty_of_versailles__battle_of_stalingrad",
+    "source": "treaty_of_versailles",
+    "target": "battle_of_stalingrad",
+    "type": "ENABLED",
+    "label": "Versailles enabled the regime that fought it",
+    "note": "Stalingrad was fought by a Nazi Germany whose existence Versailles enabled — the punitive settlement produced the legitimate grievance conditions that Nazi ideology exploited to seize power and launch WWII.",
+    "confidence": "medium"
+  },
+  {
+    "id": "d_day_normandy__the_holocaust",
+    "source": "d_day_normandy",
+    "target": "the_holocaust",
+    "type": "DISCREDITED",
+    "label": "liberation exposed and ended the genocide",
+    "note": "Allied forces liberating Western Europe beginning June 1944 uncovered and documented Nazi concentration camps, bringing the Holocaust's industrial machinery into global public record — converting the genocide from ongoing atrocity into documented history.",
+    "confidence": "high"
+  },
+  {
+    "id": "atomic_bombing_hiroshima__cuban_missile_crisis",
+    "source": "atomic_bombing_hiroshima",
+    "target": "cuban_missile_crisis",
+    "type": "ENABLED",
+    "label": "nuclear weapons existence created the crisis",
+    "note": "The Cuban Missile Crisis was only possible because Hiroshima established that nuclear weapons were real, deployable, and city-destroying — the entire logic of nuclear deterrence and brinksmanship depended on the Hiroshima precedent.",
+    "confidence": "high"
+  },
+  {
+    "id": "mccarthy_red_scare__cuban_missile_crisis",
+    "source": "mccarthy_red_scare",
+    "target": "cuban_missile_crisis",
+    "type": "ENABLED",
+    "label": "anti-communist ideology drove brinksmanship",
+    "note": "The anti-communist political environment McCarthyism hardened made nuclear brinksmanship politically mandatory — Kennedy could not accept Soviet missiles in Cuba without domestic political destruction, regardless of the rational case for negotiation.",
+    "confidence": "medium"
+  },
+  {
+    "id": "battle_of_somme__dehumanization",
+    "source": "battle_of_somme",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "industrial war required soldiers as material",
+    "note": "The Somme's strategic logic required commanding officers to treat soldiers as interchangeable expendable units — a dehumanization of their own troops that produced the 'lions led by donkeys' dynamic and the permanent collapse of officer class authority in British culture.",
+    "confidence": "medium"
+  },
+  {
+    "id": "cuban_missile_crisis__broken_epistemology",
+    "source": "cuban_missile_crisis",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "nuclear near-miss eroded institutional trust",
+    "note": "The revelation that humanity came within hours of nuclear war — in a crisis driven by ideological posturing rather than genuine military necessity — contributed to a permanent collapse of trust that governments made rational decisions with existential stakes.",
+    "confidence": "medium"
+  },
+  {
+    "id": "atomic_bombing_hiroshima__broken_epistemology",
+    "source": "atomic_bombing_hiroshima",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "nuclear age revealed government's annihilation power",
+    "note": "The bombing demonstrated that governments possessed weapons capable of annihilating entire cities — permanently establishing that institutional actors held power whose consequences exceeded any democratic check, contributing to a permanent epistemological shift in how citizens understood government capability.",
+    "confidence": "medium"
+  },
+  {
+    "id": "battle_of_stalingrad__battle_of_somme",
+    "source": "battle_of_stalingrad",
+    "target": "battle_of_somme",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are defining industrial mass-casualty battles",
+    "note": "Both engagements demonstrate the defining feature of 20th-century industrialized warfare: the subordination of individual human life to strategic attrition logic, producing casualties at scales that required treating soldiers as material to be consumed rather than people to be preserved.",
+    "confidence": "medium"
   }
 ]
