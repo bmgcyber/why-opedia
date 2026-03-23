@@ -4444,5 +4444,221 @@
     "label": "Glasnost demonstrated Kuran preference falsification thesis: private opposition had been vast",
     "note": "The speed of Soviet collapse after Gorbachev permitted freer expression was the most dramatic historical demonstration of preference falsification: within months, populations that had appeared to support the Soviet system were openly anti-communist. The private preferences had been there; glasnost simply allowed them to be expressed, triggering the cascade dynamic Kuran describes.",
     "confidence": "high"
+  },
+  {
+    "id": "harriet_tubman__atlantic_slave_trade",
+    "source": "harriet_tubman",
+    "target": "atlantic_slave_trade",
+    "type": "DISCREDITED",
+    "label": "Tubman resistance was direct refutation of the slave system claim that enslaved people accepted their condition",
+    "note": "Tubman willingness to return repeatedly to slave states at risk of death or re-enslavement demonstrated that the enslaved valued freedom as much as any free person — refuting the ideological claim, central to the slaveholder justification, that Black people were suited to or content with servitude.",
+    "confidence": "high"
+  },
+  {
+    "id": "harriet_tubman__american_civil_war",
+    "source": "harriet_tubman",
+    "target": "american_civil_war",
+    "type": "ENABLED",
+    "label": "Tubman served as Union intelligence officer and raid commander during the Civil War",
+    "note": "Tubman used her knowledge of Southern geography and her network of Black informants to provide Union forces with intelligence. She commanded the Combahee River Raid (June 2, 1863), which disrupted Confederate supply lines and liberated 700+ enslaved people — the first woman to lead armed forces in combat in US history.",
+    "confidence": "high"
+  },
+  {
+    "id": "frederick_douglass__atlantic_slave_trade",
+    "source": "frederick_douglass",
+    "target": "atlantic_slave_trade",
+    "type": "DISCREDITED",
+    "label": "Douglass Narrative and speeches demolished the intellectual foundations of pro-slavery argument",
+    "note": "Douglass combination of personal testimony and intellectual argument made the pro-slavery position intellectually indefensible to anyone who engaged with it. His 1852 speech What to the Slave Is the Fourth of July remains the definitive statement of the contradiction between American founding ideals and the institution of slavery.",
+    "confidence": "high"
+  },
+  {
+    "id": "frederick_douglass__reconstruction_era",
+    "source": "frederick_douglass",
+    "target": "reconstruction_era",
+    "type": "ENABLED",
+    "label": "Douglass advocacy for Black civil and political rights shaped Reconstruction policy",
+    "note": "Douglass advocacy for Black suffrage, land redistribution, and equal protection shaped the Radical Reconstruction program. His close relationship with Lincoln and subsequent administrations gave Black Americans a voice in the legislative and executive decisions that produced the 13th, 14th, and 15th Amendments.",
+    "confidence": "high"
+  },
+  {
+    "id": "web_du_bois__reconstruction_era",
+    "source": "web_du_bois",
+    "target": "reconstruction_era",
+    "type": "PRODUCED",
+    "label": "Du Bois Black Reconstruction transformed historical understanding of the Reconstruction period",
+    "note": "Du Bois Black Reconstruction in America (1935) demolished the \"Dunning School\" interpretation that had portrayed Reconstruction as a failure caused by corrupt Black politicians, replacing it with an account centered on Black political agency and the class dynamics of white backlash. It took 30 years for mainstream historiography to catch up with him.",
+    "confidence": "high"
+  },
+  {
+    "id": "web_du_bois__jim_crow_laws",
+    "source": "web_du_bois",
+    "target": "jim_crow_laws",
+    "type": "DISCREDITED",
+    "label": "Du Bois founded the NAACP and led legal and political challenges to Jim Crow",
+    "note": "Du Bois co-founded the NAACP (1909) and edited its journal The Crisis specifically to challenge Jim Crow through legal advocacy, political pressure, and public documentation of racial violence. His combination of empirical sociology and moral argument established the intellectual framework for the long civil rights struggle.",
+    "confidence": "high"
+  },
+  {
+    "id": "web_du_bois__mccarthy_red_scare",
+    "source": "web_du_bois",
+    "target": "mccarthy_red_scare",
+    "type": "PRODUCED",
+    "label": "McCarthyism targeted Du Bois for his pan-African and socialist sympathies",
+    "note": "Du Bois was indicted under the Foreign Agents Registration Act (1951) for his work with the Peace Information Center; the case was dismissed but his passport was revoked until 1958, preventing him from traveling internationally. His treatment demonstrated how McCarthyism targeted Black civil rights leaders by labeling them communist agents, conflating racial equality advocacy with Soviet subversion.",
+    "confidence": "high"
+  },
+  {
+    "id": "mahatma_gandhi__decolonization_movement",
+    "source": "mahatma_gandhi",
+    "target": "decolonization_movement",
+    "type": "PRODUCED",
+    "label": "Gandhi satyagraha campaign against British rule was the model for anti-colonial nonviolent resistance globally",
+    "note": "Gandhi Indian independence campaigns demonstrated that nonviolent mass civil disobedience could extract political concessions from a colonial power — providing the template for decolonization movements worldwide. His Salt March (1930) specifically targeted an economic injustice (British salt monopoly) in a way that dramatized the moral illegitimacy of colonial rule.",
+    "confidence": "high"
+  },
+  {
+    "id": "mahatma_gandhi__partition_of_india",
+    "source": "mahatma_gandhi",
+    "target": "partition_of_india",
+    "type": "ENABLED",
+    "label": "Gandhi inability to prevent partition and his assassination reflected the limits of nonviolence in communal violence",
+    "note": "Gandhi campaigned vigorously against partition and Hindu-Muslim communal violence. His failure to prevent it — despite fasting unto near-death — and his assassination by a Hindu nationalist who opposed his pluralism both reflect the limits of nonviolent persuasion against deeply entrenched communal identities. He died trying to stop the violence his movement had inadvertently accelerated.",
+    "confidence": "medium"
+  },
+  {
+    "id": "mahatma_gandhi__martin_luther_king_jr",
+    "source": "mahatma_gandhi",
+    "target": "martin_luther_king_jr",
+    "type": "ENABLED",
+    "label": "King explicitly modeled his civil rights strategy on Gandhian satyagraha",
+    "note": "King studied Gandhi philosophy and visited India in 1959. He adapted satyagraha — nonviolent resistance through moral confrontation — to the American context, specifically the power of willing suffering by the oppressed to reveal the moral bankruptcy of the oppressor. Gandhi became the theoretical and practical model for the entire Montgomery-Birmingham-Selma strategy.",
+    "confidence": "high"
+  },
+  {
+    "id": "jawaharlal_nehru__decolonization_movement",
+    "source": "jawaharlal_nehru",
+    "target": "decolonization_movement",
+    "type": "PRODUCED",
+    "label": "Nehru co-founded the Non-Aligned Movement and gave decolonization its international political framework",
+    "note": "Nehru Bandung Conference (1955) and subsequent Non-Aligned Movement co-founded with Nasser and Sukarno created the political infrastructure for the decolonizing world to act collectively rather than align with either Cold War superpower. This was the post-colonial political order asserting independence from the Cold War binary.",
+    "confidence": "high"
+  },
+  {
+    "id": "jawaharlal_nehru__partition_of_india",
+    "source": "jawaharlal_nehru",
+    "target": "partition_of_india",
+    "type": "PRODUCED",
+    "label": "Nehru agreement to partition India made the catastrophe politically inevitable",
+    "note": "Nehru ultimate acceptance of partition — despite his strong preference for a unified India — came from his calculation that Congress government of an undivided India with a Jinnah-led Muslim League was not workable. His decision, taken with Mountbatten and Jinnah, produced the fastest and most violent partition of a subcontinent in modern history.",
+    "confidence": "medium"
+  },
+  {
+    "id": "nelson_mandela__apartheid_south_africa",
+    "source": "nelson_mandela",
+    "target": "apartheid_south_africa",
+    "type": "DISCREDITED",
+    "label": "Mandela led the political and moral resistance that ended apartheid",
+    "note": "Mandela transformation from prisoner to President — and the negotiated transition he led from prison and then at the table — was the decisive political act that ended apartheid. His decision for reconciliation over retaliation, and his personal embodiment of the policy, made possible a democratic transition that most observers expected to produce racial civil war.",
+    "confidence": "high"
+  },
+  {
+    "id": "nelson_mandela__structural_violence",
+    "source": "nelson_mandela",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "Mandela Rivonia Trial statement named apartheid as structural violence requiring political response",
+    "note": "Mandela Rivonia Trial statement (I am prepared to die) named the structural violence of apartheid — the laws, economic exclusions, pass systems, and police violence that enforced racial hierarchy — as political violence requiring political resistance. He argued that when all legal means of resistance are closed, people are not morally obligated to be passive.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther_king_jr__jim_crow_laws",
+    "source": "martin_luther_king_jr",
+    "target": "jim_crow_laws",
+    "type": "DISCREDITED",
+    "label": "King campaigns produced the Civil Rights Act and Voting Rights Act that dismantled formal Jim Crow",
+    "note": "The Montgomery Bus Boycott (1955-56), Birmingham campaign (1963), and Selma marches (1965) were specifically designed to expose the violence underlying Jim Crow and produce political pressure for federal legislation. The Civil Rights Act (1964) and Voting Rights Act (1965) were the direct legislative results.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther_king_jr__cointelpro",
+    "source": "martin_luther_king_jr",
+    "target": "cointelpro",
+    "type": "PRODUCED",
+    "label": "FBI COINTELPRO program specifically targeted King as the most dangerous Black leader in America",
+    "note": "The FBI under J. Edgar Hoover designated King \"the most dangerous Negro in America\" and conducted extensive surveillance (including wiretapping his home and hotel rooms), attempted to blackmail him into suicide with a letter containing recordings of his extramarital affairs, and worked to \"neutralize\" him as a political leader. King assassination in 1968 came while the COINTELPRO harassment was ongoing.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther_king_jr__mass_incarceration",
+    "source": "martin_luther_king_jr",
+    "target": "mass_incarceration",
+    "type": "DISCREDITED",
+    "label": "King articulated the economic and racial injustice that would become mass incarceration before his death",
+    "note": "King Poor People's Campaign (1968) explicitly connected racial injustice to economic injustice and named poverty as a structural violence. His later speeches, less remembered than I Have a Dream, warned of the emerging linkage between race, criminalization, and poverty that scholars like Michelle Alexander would document as mass incarceration four decades later.",
+    "confidence": "medium"
+  },
+  {
+    "id": "malcolm_x__political_radicalization",
+    "source": "malcolm_x",
+    "target": "political_radicalization",
+    "type": "ENABLED",
+    "label": "Malcolm X trajectory from criminal to Black nationalist to universal humanist demonstrated radicalization and deradicalization",
+    "note": "Malcolm X personal trajectory — from petty criminal to Nation of Islam minister to independent Muslim leader — is a case study in radicalization and subsequent moderation. His break with the Nation of Islam after his Mecca pilgrimage showed that the radicalization pathway can reverse when experiences challenge the in-group/out-group framework. His assassination prevented the full development of his post-NOI thinking.",
+    "confidence": "medium"
+  },
+  {
+    "id": "malcolm_x__in_group_out_group_dynamics",
+    "source": "malcolm_x",
+    "target": "in_group_out_group_dynamics",
+    "type": "DISCREDITED",
+    "label": "Malcolm X Mecca pilgrimage led him to reject racial in-group/out-group as the fundamental division",
+    "note": "Malcolm X letter from Mecca (1964) described seeing Muslims of all races worshipping together and concluded that his NOI framework of white devil / Black victim was incorrect. His willingness to revise his worldview after empirical experience that contradicted it was the intellectual act that led to his assassination by those who depended on the old framework.",
+    "confidence": "high"
+  },
+  {
+    "id": "frantz_fanon__decolonization_movement",
+    "source": "frantz_fanon",
+    "target": "decolonization_movement",
+    "type": "PRODUCED",
+    "label": "Fanon Wretched of the Earth was the philosophical manifesto of the global decolonization movement",
+    "note": "The Wretched of the Earth (1961) synthesized political strategy, psychological analysis, and moral philosophy into the definitive account of what anti-colonial struggle requires and what it does to those who fight it. It was read by anti-colonial movements across Africa, Asia, and Latin America as their foundational text.",
+    "confidence": "high"
+  },
+  {
+    "id": "frantz_fanon__collective_trauma",
+    "source": "frantz_fanon",
+    "target": "collective_trauma",
+    "type": "ENABLED",
+    "label": "Fanon psychiatric work documented collective trauma as a product of colonial violence",
+    "note": "As a psychiatrist in Algeria treating both colonial subjects and French soldiers, Fanon documented the specific psychological damage colonialism inflicted: the internalization of racial inferiority, the splitting of identity, and the post-independence trauma that continued after formal liberation. His clinical observations produced some of the earliest systematic accounts of what would later be called collective trauma.",
+    "confidence": "high"
+  },
+  {
+    "id": "hannah_arendt__the_holocaust",
+    "source": "hannah_arendt",
+    "target": "the_holocaust",
+    "type": "ENABLED",
+    "label": "Arendt Origins of Totalitarianism and Eichmann in Jerusalem are the definitive philosophical analyses of the Holocaust",
+    "note": "Arendt two major works on the Holocaust changed how it is understood: Origins traced the historical and ideological preconditions (antisemitism + imperialism + totalitarianism); Eichmann analyzed the mechanism by which ordinary bureaucrats implemented genocide through moral abdication rather than murderous desire. The banality of evil concept is her contribution to understanding perpetration.",
+    "confidence": "high"
+  },
+  {
+    "id": "hannah_arendt__democratic_backsliding",
+    "source": "hannah_arendt",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "Arendt Origins of Totalitarianism analyzed how modern democracies collapse into totalitarianism",
+    "note": "Arendt analyzed the mechanisms by which mass societies become susceptible to totalitarianism: atomization (loss of community ties), propaganda that replaces truth with loyalty to a movement, the replacement of traditional institutions with party structures, and the use of bureaucratic normality to administer extraordinary evil. This remains the most sophisticated political analysis of democratic collapse.",
+    "confidence": "high"
+  },
+  {
+    "id": "hannah_arendt__moral_disengagement",
+    "source": "hannah_arendt",
+    "target": "moral_disengagement",
+    "type": "ENABLED",
+    "label": "Arendt banality of evil analyzed moral disengagement as the mechanism of ordinary perpetration",
+    "note": "Eichmann in Jerusalem demonstrated that the Holocaust most efficient administrator was not a psychopath but someone who had ceased to think morally — who had suspended judgment in favor of career, following orders, and identifying with a movement. This was not Bandura mechanical framework but Arendt philosophical analysis of the same phenomenon: ordinary people committing atrocity through thoughtlessness.",
+    "confidence": "high"
   }
 ]

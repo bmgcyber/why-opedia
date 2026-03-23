@@ -4484,5 +4484,185 @@
       "perestroika",
       "person"
     ]
+  },
+  {
+    "id": "harriet_tubman",
+    "label": "Harriet Tubman",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Harriet_Tubman",
+    "summary": "American abolitionist (c.1822–1913) born into slavery who escaped bondage and then made approximately 13 missions back into slave states to guide approximately 70 enslaved people to freedom through the Underground Railroad. During the Civil War she served as a spy, scout, and nurse for the Union Army, including commanding the Combahee River Raid (1863) that liberated 700 enslaved people — the first woman to lead an armed assault in US history. Tubman represents the fullest possible form of resistance: not only personal escape but sustained return to danger to free others, at enormous personal risk. Her later advocacy for women's suffrage connected the abolitionist and feminist movements. She was denied a federal pension for her Civil War service for three decades because of her gender.",
+    "decade": "1850s",
+    "tags": [
+      "slavery",
+      "abolition",
+      "civil-rights",
+      "resistance",
+      "underground-railroad",
+      "usa",
+      "person"
+    ]
+  },
+  {
+    "id": "frederick_douglass",
+    "label": "Frederick Douglass",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frederick_Douglass",
+    "summary": "American abolitionist and writer (c.1818–1895) who escaped slavery and became the most influential Black American intellectual of the 19th century. His Narrative of the Life of Frederick Douglass (1845) proved that the enslaved were fully human — educated, thoughtful, morally clear — by simply being undeniably one of them and writing it down. His 1852 speech \"What to the Slave Is the Fourth of July?\" is the most powerful oration in American history on the contradiction between the Declaration of Independence and the institution of slavery: \"This Fourth July is yours, not mine. You may rejoice, I must mourn.\" He advised Lincoln during the Civil War, advocated for the 13th, 14th, and 15th Amendments, and continued fighting racial terror during Reconstruction and Jim Crow until his death.",
+    "decade": "1850s",
+    "tags": [
+      "slavery",
+      "abolition",
+      "civil-rights",
+      "oratory",
+      "literature",
+      "usa",
+      "person"
+    ]
+  },
+  {
+    "id": "web_du_bois",
+    "label": "W.E.B. Du Bois",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/W._E._B._Du_Bois",
+    "summary": "American sociologist, civil rights activist, and writer (1868–1963) whose The Souls of Black Folk (1903) introduced the concepts of \"double consciousness\" (the sense of always looking at oneself through the eyes of others) and \"the veil\" (the invisible barrier between Black and white American life) that remain central to African American studies. He co-founded the NAACP (1909) and edited its magazine The Crisis for 24 years. His sociological study The Philadelphia Negro (1899) pioneered empirical urban sociology. Du Bois believed in pan-Africanism and the global solidarity of colonized peoples. He was hounded by McCarthyism, had his passport revoked, and eventually renounced American citizenship at age 93, dying in Ghana the night before the March on Washington. His intellectual breadth — sociology, history, fiction, autobiography — makes him one of the most significant American thinkers of the 20th century.",
+    "decade": "1900s",
+    "tags": [
+      "civil-rights",
+      "sociology",
+      "pan-africanism",
+      "race",
+      "usa",
+      "double-consciousness",
+      "person"
+    ]
+  },
+  {
+    "id": "mahatma_gandhi",
+    "label": "Mahatma Gandhi",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+    "summary": "Indian lawyer and political leader (1869–1948) who developed satyagraha (truth-force or soul-force) — nonviolent resistance as a complete political strategy — first in South Africa (1893–1914) and then in the Indian independence movement. Gandhi campaigns of civil disobedience (Salt March, 1930; Quit India, 1942) demonstrated that a colonized people could build mass political power through deliberate, strategic noncooperation rather than armed revolt. His method influenced Martin Luther King Jr., Nelson Mandela, and the global nonviolent resistance tradition. He was assassinated by a Hindu nationalist on January 30, 1948, having failed to prevent partition. His legacy is complicated by his complex views on caste, his experiment with celibacy involving young women, and his earlier writings on South African Black people that were racist by any measure — the full person, not the icon, belongs in history.",
+    "decade": "1920s",
+    "tags": [
+      "india",
+      "nonviolence",
+      "decolonization",
+      "satyagraha",
+      "independence",
+      "resistance",
+      "person"
+    ]
+  },
+  {
+    "id": "jawaharlal_nehru",
+    "label": "Jawaharlal Nehru",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru",
+    "summary": "Indian statesman (1889–1964) who was Gandhi closest political collaborator and became independent India's first Prime Minister (1947–1964). Nehru shaped modern India along secular, democratic, and socialist lines: non-alignment in the Cold War (founding the Non-Aligned Movement with Nasser and Sukarno), state-directed economic planning (five-year plans), commitment to democratic governance, and a secular constitution that protected minority rights. His \"Tryst with Destiny\" speech at Indian independence (August 15, 1947) is one of the great statements of post-colonial aspiration. He was central to the decision-making around partition and bears some responsibility for its violence: his commitment to a unified India and his rivalry with Jinnah made compromise harder. His daughter Indira Gandhi and grandson Rajiv Gandhi continued the Nehru-Gandhi dynasty that dominated Indian politics for decades.",
+    "decade": "1940s",
+    "tags": [
+      "india",
+      "decolonization",
+      "non-alignment",
+      "democracy",
+      "partition",
+      "leadership",
+      "person"
+    ]
+  },
+  {
+    "id": "nelson_mandela",
+    "label": "Nelson Mandela",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+    "summary": "South African anti-apartheid leader (1918–2013) who spent 27 years in prison (1964–1990) and emerged to lead South Africa through a negotiated transition to democracy rather than a racial civil war. Mandela transformation from the courtroom statement of the Rivonia Trial (\"I am prepared to die\") to the presidency of a democratic South Africa is the 20th century most powerful story of justice deferred but not destroyed. His embrace of reconciliation — choosing a Truth and Reconciliation Commission over revolution or revenge — prevented the ethnic violence that most observers feared and produced an imperfect but functional democracy. He was kept on the US terrorism watch list until 2008. His ANC Youth League years saw him advocate armed resistance (founding uMkhonto we Sizwe), complicating the pure nonviolence narrative.",
+    "decade": "1950s",
+    "tags": [
+      "south-africa",
+      "apartheid",
+      "civil-rights",
+      "imprisonment",
+      "reconciliation",
+      "democracy",
+      "person"
+    ]
+  },
+  {
+    "id": "martin_luther_king_jr",
+    "label": "Martin Luther King Jr.",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.",
+    "summary": "American Baptist minister and civil rights leader (1929–1968) who adapted Gandhian nonviolent resistance to the American context, leading the Montgomery Bus Boycott (1955), the Birmingham campaign (1963), the March on Washington (\"I Have a Dream\" speech, 1963), and the Selma to Montgomery marches (1965). His activism produced the Civil Rights Act (1964) and Voting Rights Act (1965). King was also a critic of US militarism and economic inequality — his \"Beyond Vietnam\" speech (1967) cost him mainstream support — and was organizing the Poor People's Campaign when he was assassinated in Memphis on April 4, 1968. The FBI under J. Edgar Hoover conducted an extensive harassment and surveillance campaign against him (COINTELPRO), including a letter urging him to commit suicide. His reputation has been partially domesticated into a comforting icon; the radical King who opposed the Vietnam War and demanded economic redistribution is less comfortable.",
+    "decade": "1950s",
+    "tags": [
+      "civil-rights",
+      "usa",
+      "nonviolence",
+      "race",
+      "baptist",
+      "assassination",
+      "person"
+    ]
+  },
+  {
+    "id": "malcolm_x",
+    "label": "Malcolm X",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Malcolm_X",
+    "summary": "American Black Muslim minister and civil rights activist (1925–1965) who articulated Black self-determination, Black pride, and the legitimacy of self-defense against racial violence as a counterpoint to mainstream civil rights nonviolence. As the Nation of Islam's most prominent speaker, he indicted white America with devastating clarity: \"You've been hoodwinked. You've been had. You've been took. You've been led astray. You've been bamboozled.\" After his break with the Nation of Islam and pilgrimage to Mecca (1964), he began moving toward a more universal human rights framework before his assassination in 1965, likely by Nation of Islam members. Malcolm X represents the voice that white America found most threatening about the civil rights movement: Black people insisting on dignity without asking for approval, and asserting the right to defend it.",
+    "decade": "1960s",
+    "tags": [
+      "civil-rights",
+      "usa",
+      "black-nationalism",
+      "islam",
+      "self-determination",
+      "assassination",
+      "person"
+    ]
+  },
+  {
+    "id": "frantz_fanon",
+    "label": "Frantz Fanon",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frantz_Fanon",
+    "summary": "Martinican-Algerian psychiatrist and philosopher (1925–1961) whose Black Skin, White Masks (1952) analyzed the psychological damage colonialism inflicts on both colonized and colonizer, and whose The Wretched of the Earth (1961) became the manifesto of the global decolonization movement. Fanon argued that colonialism was not merely an economic arrangement but a total psychological system that required the colonized to internalize their own inferiority; liberation required not just political independence but psychological decolonization. His argument for the cathartic necessity of anti-colonial violence — which Jean-Paul Sartre endorsed in the Wretched of the Earth preface — remains his most controversial contribution. He served as a psychiatrist in Algeria treating both colonial subjects and French soldiers who had tortured them. He died of leukemia at 36, too young to see Algerian independence.",
+    "decade": "1950s",
+    "tags": [
+      "decolonization",
+      "psychiatry",
+      "Algeria",
+      "philosophy",
+      "anti-colonialism",
+      "violence",
+      "person"
+    ]
+  },
+  {
+    "id": "hannah_arendt",
+    "label": "Hannah Arendt",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hannah_Arendt",
+    "summary": "German-American political philosopher (1906–1975) who produced the two most important works of political theory in the 20th century: The Origins of Totalitarianism (1951), which traced the connections between 19th-century antisemitism, imperialism, and 20th-century Nazi and Stalinist totalitarianism, and Eichmann in Jerusalem (1963), which reported on the trial of Adolf Eichmann and introduced the concept of the \"banality of evil\" — the observation that Eichmann was not a monster but a bureaucrat who had suspended his capacity for independent moral judgment. Her claim that ordinary people commit extraordinary evil through thoughtlessness rather than malice remains the most important single insight in Holocaust studies. She was attacked from all sides: Jews accused her of blaming the victims; others of exonerating Eichmann. She is the philosopher most needed for understanding how democracies collapse.",
+    "decade": "1950s",
+    "tags": [
+      "philosophy",
+      "totalitarianism",
+      "holocaust",
+      "politics",
+      "evil",
+      "germany",
+      "person"
+    ]
   }
 ]
