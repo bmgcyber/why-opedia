@@ -3220,5 +3220,131 @@
     "label": "Axial Age traditions independently addressed suffering and equanimity",
     "note": "Buddhism and Hellenistic philosophy (especially Stoicism and Epicureanism) developed in rough contemporaneity (5th–3rd centuries BCE) without direct contact, yet converged on similar problems and partially similar solutions: both diagnosed ordinary human suffering as arising from false beliefs and disordered desires, both prescribed philosophical discipline as the path to equanimity, both emphasized the importance of distinguishing what is within our control from what is not. The Greco-Buddhist kingdom of Gandhara later produced direct cultural synthesis.",
     "confidence": "medium"
+  },
+  {
+    "id": "laozi__taoism",
+    "source": "laozi",
+    "target": "taoism",
+    "type": "PRODUCED",
+    "label": "Laozi's Tao Te Ching founded the Taoist tradition",
+    "note": "The Tao Te Ching attributed to Laozi is the founding text of Taoist philosophy, containing its core insights about the Tao as the ineffable ground of reality, the power of yielding, the limits of conceptual knowledge, and the dangers of aggressive governance. Whether Laozi was a single historical individual or a composite tradition, the text he represents is the source from which both philosophical Taoism (Zhuangzi's elaboration) and religious Taoism (which made Laozi a deity) developed.",
+    "confidence": "high"
+  },
+  {
+    "id": "taoism__wu_wei",
+    "source": "taoism",
+    "target": "wu_wei",
+    "type": "PRODUCED",
+    "label": "Wu wei is Taoism's central operational principle",
+    "note": "Wu wei — non-forced, effortless action in harmony with the Tao — is the central practical teaching of Taoist philosophy. While the Tao itself is beyond conceptual formulation, wu wei is its expression in action: the sage ruler governs so lightly that subjects barely notice; the craftsman follows the grain of the wood; the warrior yields to overcome. Wu wei represents Taoism's systematic alternative to both Confucian ritual effort and Legalist coercion.",
+    "confidence": "high"
+  },
+  {
+    "id": "confucius__confucianism",
+    "source": "confucius",
+    "target": "confucianism",
+    "type": "PRODUCED",
+    "label": "Confucius' teachings became the foundation of Chinese civilization",
+    "note": "Confucius produced no systematic philosophical text — his teachings survive primarily in the Analects, recorded by his students. But the tradition derived from these teachings shaped Chinese governance, education, family structure, and moral culture for over two thousand years. Through the Han Dynasty's adoption of Confucianism as state ideology (136 BCE), Confucius' ethical framework became the official basis for Chinese civilization — the examination system, bureaucratic governance, and family ethics were all organized around Confucian principles.",
+    "confidence": "high"
+  },
+  {
+    "id": "confucianism__confucian_social_order",
+    "source": "confucianism",
+    "target": "confucian_social_order",
+    "type": "PRODUCED",
+    "label": "Confucianism formalized hierarchical social order as moral framework",
+    "note": "The Confucian framework of the five relationships — ruler-minister, parent-child, husband-wife, elder-younger, friend-friend — is not merely a social description but a moral prescription: each relationship entails specific obligations that define what it means to be virtuous. Confucianism produced social order not through law (Legalism) or force, but through internalized moral obligation — making hierarchy feel like duty rather than submission.",
+    "confidence": "high"
+  },
+  {
+    "id": "confucianism__mohism",
+    "source": "confucianism",
+    "target": "mohism",
+    "type": "ENABLED",
+    "label": "Confucianism was the context that Mohism explicitly critiqued",
+    "note": "Mozi developed Mohist philosophy explicitly as a critique of Confucian doctrine: Confucian differential love (loving relatives more than strangers) was, for Mozi, the source of social conflict rather than its solution. The Mohist doctrine of jian ai (universal, impartial love) was a direct philosophical alternative. Without Confucianism as the dominant framework to challenge, Mohism's distinctive positions cannot be understood — it is a systematic response to what Mozi saw as Confucian ethics' fundamental flaw.",
+    "confidence": "high"
+  },
+  {
+    "id": "confucianism__legalism_chinese",
+    "source": "confucianism",
+    "target": "legalism_chinese",
+    "type": "ENABLED",
+    "label": "Legalism emerged as anti-Confucian theory of state power",
+    "note": "Legalism developed explicitly in opposition to Confucian governance: where Confucius taught that virtuous rulers produce harmonious subjects, Han Feizi and Shang Yang argued that this was naive — human nature is self-interested and requires incentive structures of reward and punishment rather than moral example. Legalism was a pragmatic political science in explicit reaction to what its founders saw as Confucian idealism, and the Qin Dynasty's brutal success seemed to validate the Legalist alternative.",
+    "confidence": "high"
+  },
+  {
+    "id": "buddhist_philosophy__buddhist_spread_east_asia",
+    "source": "buddhist_philosophy",
+    "target": "buddhist_spread_east_asia",
+    "type": "PRODUCED",
+    "label": "Buddhist philosophical tradition spread along the Silk Road into East Asia",
+    "note": "The spread of Buddhism to East Asia was not just a religious but an intellectual transmission: Buddhist philosophical texts — on logic, epistemology, ethics, metaphysics, and meditation — traveled with monks and traders from India through Central Asia to China. The transmission produced one of history's great philosophical encounters: Buddhist concepts of emptiness, no-self, and dependent origination met and were transformed by Confucian social ethics, Taoist naturalism, and Chinese modes of thought.",
+    "confidence": "high"
+  },
+  {
+    "id": "buddhist_spread_east_asia__chan_zen_buddhism",
+    "source": "buddhist_spread_east_asia",
+    "target": "chan_zen_buddhism",
+    "type": "PRODUCED",
+    "label": "Buddhism's encounter with Chinese thought produced Chan",
+    "note": "Chan Buddhism was the most distinctive product of Buddhism's encounter with Chinese civilization. As Indian Buddhist meditation practices were transmitted to China, they were reinterpreted through the lens of Taoist naturalism (direct experience over conceptual mediation) and Confucian pragmatism (concrete practice over elaborate theory), producing a radically new tradition. The Chan emphasis on sudden awakening, wordless transmission, and direct pointing to mind was a Chinese transformation of Indian Buddhism.",
+    "confidence": "high"
+  },
+  {
+    "id": "taoism__chan_zen_buddhism",
+    "source": "taoism",
+    "target": "chan_zen_buddhism",
+    "type": "ENABLED",
+    "label": "Taoist concepts shaped the Chinese reception and transformation of Buddhism",
+    "note": "When Buddhism arrived in China, early translators used Taoist vocabulary to render Buddhist concepts: the Tao was used for Dharma, wu wei for nirvana, ziran (naturalness) for the Buddha's spontaneous activity. This initial interpretive synthesis went deeper than vocabulary: the Taoist emphasis on direct experience beyond words, distrust of elaborate conceptual systems, and reverence for natural spontaneity became permanent features of the Chan tradition, distinguishing it from Indian Buddhism.",
+    "confidence": "high"
+  },
+  {
+    "id": "legalism_chinese__chinese_cultural_revolution",
+    "source": "legalism_chinese",
+    "target": "chinese_cultural_revolution",
+    "type": "ENABLED",
+    "label": "Mao's governance drew on Legalist state power traditions",
+    "note": "Mao Zedong explicitly invoked and defended Qin Shi Huang — the emperor whose Legalist governance unified China through ruthless centralization and destruction of dissident thought — as a predecessor. Mao's approach to governance shares Legalist structural features: supremacy of the leader's will over law, use of fear and reward to enforce compliance, periodic campaigns to destroy intellectual opposition, and the subordination of all social institutions to state control. The Legalist tradition provided the Chinese intellectual precedent for totalitarian party-state governance.",
+    "confidence": "high"
+  },
+  {
+    "id": "confucian_social_order__structural_violence",
+    "source": "confucian_social_order",
+    "target": "structural_violence",
+    "type": "ENABLED",
+    "label": "Hierarchical obligation structure can naturalize inequality as duty",
+    "note": "The Confucian framework of hierarchical relationships, by making deference to superiors a virtue rather than a submission, converts structural inequality into moral order: the subordination of women to husbands, children to parents, subjects to rulers is not oppression but the fulfillment of one's proper role. This naturalization of hierarchy through moral framing is a mechanism of structural violence: those at the bottom of the hierarchy are taught to understand their position as both their duty and their virtue.",
+    "confidence": "high"
+  },
+  {
+    "id": "confucian_social_order__democratic_backsliding",
+    "source": "confucian_social_order",
+    "target": "democratic_backsliding",
+    "type": "ENABLED",
+    "label": "Confucian deference to authority legitimizes authoritarian governance",
+    "note": "The Confucian emphasis on loyalty to rulers as a moral virtue — and the corresponding framing of individual rights assertion as selfish — has been invoked across East Asian political contexts to justify authoritarian governance over democratic accountability. Singapore's Lee Kuan Yew and China's Communist Party have both explicitly invoked 'Asian values' (Confucian hierarchy, collective duty, deference to authority) to delegitimize Western liberal democracy as culturally inappropriate — a modern application of Confucian social order as political legitimation.",
+    "confidence": "medium"
+  },
+  {
+    "id": "chinese_cultural_revolution__buddhist_spread_east_asia",
+    "source": "chinese_cultural_revolution",
+    "target": "buddhist_spread_east_asia",
+    "type": "DISCREDITED",
+    "label": "Cultural Revolution systematically destroyed Buddhist and religious institutions",
+    "note": "Mao's Cultural Revolution (1966–1976) treated Buddhism (along with Confucianism and other 'feudal' traditions) as targets of revolutionary destruction: temples were razed, monks forced to disrobe, scriptures burned, and practitioners persecuted. The Red Guards destroyed thousands of Buddhist sites in China and Tibet as part of the campaign to eliminate the 'Four Olds.' This systematic assault on two thousand years of Buddhist institutional development was one of the most comprehensive cultural destructions in the tradition's history.",
+    "confidence": "high"
+  },
+  {
+    "id": "mohism__utilitarianism",
+    "source": "mohism",
+    "target": "utilitarianism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both independently developed impartial welfare maximization ethics",
+    "note": "Mohism (5th century BCE China) and Utilitarianism (18th century Britain) independently converged on strikingly similar ethical structures: both rejected differential love/duty in favor of impartial concern, both evaluated actions by their social consequences (welfare produced), both criticized ritual and tradition that wasted resources, and both supported egalitarian social reform. The parallel is one of the most striking convergences in world philosophy — two traditions separated by two thousand years and half a world arriving at the same basic ethical framework.",
+    "confidence": "high"
   }
 ]

@@ -3023,5 +3023,103 @@
     "summary": "The principle of ahimsa (non-harm) — the commitment to not causing suffering to any living being — codified as a central ethical and political tool in Jain, Buddhist, and Hindu traditions. As a mechanism, ahimsa is not passive: in Gandhi's formulation (satyagraha — truth-force), it is an active political strategy in which voluntary suffering exposes the violence of the oppressor and generates moral pressure for change. The mechanism has three dimensions: ethical (non-violence as intrinsically right), tactical (non-violence as effective), and philosophical (violence corrupts the practitioner as much as the target).",
     "decade": "500s BCE",
     "tags": ["philosophy", "india", "nonviolence", "ethics", "gandhi", "resistance", "strategy"]
+  },
+  {
+    "id": "laozi",
+    "label": "Laozi (c. 6th century BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Laozi",
+    "summary": "The legendary or semi-historical figure credited with founding Taoism and authoring the Tao Te Ching, one of the most translated and read texts in world history. Whether or not Laozi was a single historical individual, the Tao Te Ching he is attributed to represents a systematic philosophy of effortless action, the limits of conceptual knowledge, the dangers of aggressive governance, and the power of yielding. Its paradoxical style (the Tao that can be spoken is not the eternal Tao) deliberately resists systematic formulation, pointing to a reality beyond rational categories.",
+    "decade": "500s BCE",
+    "tags": ["philosophy", "china", "taoism", "ancient", "tao", "wisdom", "paradox"]
+  },
+  {
+    "id": "taoism",
+    "label": "Taoism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Taoism",
+    "summary": "The Chinese philosophical and religious tradition centered on the Tao (Way) — the ineffable principle underlying reality that cannot be fully captured in language or concept. Associated with Laozi and Zhuangzi (philosophical Taoism) and later with religious Taoism (ritual, alchemy, immortality). Taoism's central insights — that forced action creates resistance, that yielding often overpowers force, that the universe maintains itself through natural order rather than human control — provide a systematic counterpoint to Confucian social activism and Legalist state power.",
+    "decade": "400s BCE",
+    "tags": ["philosophy", "china", "tao", "nature", "non-action", "paradox", "spirituality"]
+  },
+  {
+    "id": "confucius",
+    "label": "Confucius (551–479 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Confucius",
+    "summary": "Kong Qiu (Confucius), the Chinese philosopher whose teachings shaped East Asian civilization for two thousand years. Confucius taught that social harmony arises not from law or force but from the cultivation of virtue (ren — humaneness), the performance of ritual propriety (li), and the rectification of names (zhengming — calling things by their proper terms). He emphasized education, self-cultivation, and the obligations of each person within a web of hierarchical relationships. His model of the junzi (superior person) whose ethical example transforms society became the template for Chinese governance and education.",
+    "decade": "500s BCE",
+    "tags": ["philosophy", "china", "ancient", "ethics", "ritual", "governance", "education"]
+  },
+  {
+    "id": "confucianism",
+    "label": "Confucianism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Confucianism",
+    "summary": "The philosophical and ethical tradition derived from Confucius' teachings, developed over centuries by Mencius (human nature is inherently good), Xunzi (human nature requires ritual to be shaped), Dong Zhongshu (who made Confucianism China's official state ideology in the Han dynasty), and Zhu Xi (Neo-Confucian synthesis with Buddhist and Taoist elements). Confucianism shaped Chinese governance, education, family structure, and social ethics for two millennia — and through China's cultural influence, much of Korea, Japan, and Vietnam as well.",
+    "decade": "400s BCE",
+    "tags": ["philosophy", "china", "ethics", "governance", "family", "education", "ritual"]
+  },
+  {
+    "id": "legalism_chinese",
+    "label": "Chinese Legalism",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Legalism_(Chinese_philosophy)",
+    "summary": "The Chinese philosophical school (Shang Yang, Han Fei, Li Si; 3rd century BCE) that rejected both Confucian virtue and Taoist non-action as inadequate bases for political order. Legalism argued that human nature is self-interested and that order requires clear laws, strict rewards and punishments, and concentrated state power. It was the philosophy that unified China under Qin Shi Huang (221 BCE) — with devastating efficiency and oppressive thoroughness. Legalism's legacy is double: it produced the Chinese state, and it has been the recurring template for authoritarian governance in East Asia.",
+    "decade": "300s BCE",
+    "tags": ["philosophy", "china", "law", "state", "authoritarianism", "qin", "power"]
+  },
+  {
+    "id": "wu_wei",
+    "label": "Wu Wei (Non-Action Principle)",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The Taoist principle of wu wei — literally 'non-action' or 'effortless action' — which holds that the most effective way to achieve results is often to act in alignment with the natural flow of things rather than forcing outcomes through willpower. As a mechanism, wu wei describes how systems maintain themselves when not over-controlled: rigid intervention creates resistance; yielding adapts. The principle has applications in governance (the best ruler is barely noticed), ecology (working with natural systems rather than against them), and systems thinking (allowing emergent order rather than imposing top-down control).",
+    "decade": "400s BCE",
+    "tags": ["philosophy", "china", "taoism", "mechanism", "governance", "nature", "systems"]
+  },
+  {
+    "id": "mohism",
+    "label": "Mohism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mohism",
+    "summary": "The Chinese philosophical school founded by Mozi (c. 470–391 BCE), which taught jian ai — universal, impartial love for all people equally, regardless of family relationship. Mohism was explicitly anti-war, anti-ritualism, and egalitarian: offensive wars are unjust, elaborate rituals waste resources that could feed the hungry, and social position should reflect merit rather than birth. It developed a utilitarian ethics, a logic of argumentation, and a proto-scientific approach to mechanics and optics. Mohism was the strongest early Chinese challenge to Confucian differential love and aristocratic hierarchy, but declined after the Qin unification.",
+    "decade": "400s BCE",
+    "tags": ["philosophy", "china", "ethics", "equality", "antiwar", "logic", "universal-love"]
+  },
+  {
+    "id": "chan_zen_buddhism",
+    "label": "Chan/Zen Buddhism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chan_Buddhism",
+    "summary": "The East Asian Buddhist tradition (Chan in Chinese, Zen in Japanese) that synthesized Indian Buddhist meditation with Chinese Taoist sensibility, emerging in Tang Dynasty China (6th–8th century CE). Chan Buddhism emphasized direct experiential awakening over scriptural study, transmission of insight from teacher to student outside texts, and the use of paradoxical questions (koan) to break through conceptual thinking. As a synthesis of Buddhist emptiness doctrine with Taoist non-action, Chan/Zen produced a distinctive approach to mind, art, aesthetics, and daily life practice that profoundly shaped East Asian culture.",
+    "decade": "600s",
+    "tags": ["philosophy", "buddhism", "china", "japan", "meditation", "taoism", "awakening"]
+  },
+  {
+    "id": "confucian_social_order",
+    "label": "Confucian Social Order",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The Confucian framework of hierarchical social relationships (the wu lun — five relationships: ruler-minister, parent-child, husband-wife, elder-younger, friend-friend) as the mechanism for social harmony. Each relationship entails specific reciprocal obligations: rulers must be benevolent, ministers loyal; parents nurturing, children filial. As a mechanism, Confucian social order operates by making hierarchy morally obligatory rather than merely imposed — each person fulfills their role out of genuine virtue. This structure has been both a framework for benevolent governance and an extraordinarily durable tool for legitimizing authoritarian political control and patriarchal family structures.",
+    "decade": "400s BCE",
+    "tags": ["philosophy", "china", "hierarchy", "family", "governance", "ritual", "deference"]
+  },
+  {
+    "id": "buddhist_spread_east_asia",
+    "label": "Spread of Buddhism to East Asia",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spread_of_Buddhism",
+    "summary": "The transmission of Buddhism along the Silk Road into China (1st–2nd century CE), then Korea (4th century), Japan (6th century), and Vietnam — one of the most consequential cultural transformations in Asian history. Buddhism arrived in China not as a foreign imposition but through traders and missionaries, where it underwent a profound synthesis with existing Chinese thought: Taoist concepts provided the vocabulary for translating Buddhist terms, while Confucian ethics shaped how Buddhist monasticism was adapted to Chinese social structures, producing the distinctly Chinese tradition of Chan Buddhism.",
+    "decade": "100s",
+    "tags": ["buddhism", "china", "japan", "silk-road", "cultural-transmission", "synthesis"]
   }
 ]
