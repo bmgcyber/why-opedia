@@ -4048,5 +4048,203 @@
     "label": "Nietzsche work was systematically distorted by his sister and appropriated by Nazi ideology",
     "note": "Elisabeth Forster-Nietzsche, who controlled the Nietzsche Archive, produced falsified editions that removed his anti-nationalism and anti-antisemitism while amplifying passages about will, strength, and the Ubermensch. Nazi propaganda cited these bowdlerized texts to give the movement philosophical respectability. Nietzsche himself called antisemitism despicable and broke with Wagner partly over it.",
     "confidence": "high"
+  },
+  {
+    "id": "vladimir_lenin__stalinist_purges",
+    "source": "vladimir_lenin",
+    "target": "stalinist_purges",
+    "type": "ENABLED",
+    "label": "Lenin built the institutional structure of vanguard-party terror that Stalin weaponized",
+    "note": "Lenin created the Cheka (secret police), the one-party state, the gulag prototype (labor camps for class enemies), and the ideology of class enemies as existential threats requiring elimination. Stalin took each of these institutions and scaled them enormously. The question of whether Stalin was a betrayal of Lenin or his logical extension has divided historians and the left ever since.",
+    "confidence": "high"
+  },
+  {
+    "id": "vladimir_lenin__gulag_system",
+    "source": "vladimir_lenin",
+    "target": "gulag_system",
+    "type": "PRODUCED",
+    "label": "Lenin established the first Soviet labor camps that Stalin expanded into the gulag system",
+    "note": "Lenin established the first Soviet labor camps (concentration camps, as they were called in official documents) in 1918 to hold class enemies, political opponents, and \"speculators.\" By 1920, 84 camps held 50,000 prisoners. Stalin inherited and scaled this system into the gulag archipelago that eventually held millions simultaneously.",
+    "confidence": "high"
+  },
+  {
+    "id": "vladimir_lenin__joseph_stalin",
+    "source": "vladimir_lenin",
+    "target": "joseph_stalin",
+    "type": "ENABLED",
+    "label": "Lenin institutional design enabled Stalin consolidation of total power",
+    "note": "Though Lenin later expressed alarm at Stalin character and recommended he be removed as General Secretary, the party-state structure Lenin built had no mechanism for removing a leader who controlled the apparatus. Lenin \"testament\" was suppressed. The vanguard party model concentrated power in whoever controlled the central committee, making Stalin rise structurally possible.",
+    "confidence": "high"
+  },
+  {
+    "id": "joseph_stalin__stalinist_purges",
+    "source": "joseph_stalin",
+    "target": "stalinist_purges",
+    "type": "PRODUCED",
+    "label": "Stalin personally directed the Great Purge, signing tens of thousands of death warrants",
+    "note": "Stalin was not merely a figurehead for the purges — he reviewed and signed execution lists (NKVD albums), personally intervened in interrogations, set regional quotas for arrests and executions, and used the Terror as an instrument of political consolidation. The show trials of Zinoviev, Kamenev, Bukharin, and the military leadership were orchestrated by Stalin to eliminate every potential rival.",
+    "confidence": "high"
+  },
+  {
+    "id": "joseph_stalin__holodomor",
+    "source": "joseph_stalin",
+    "target": "holodomor",
+    "type": "CAUSED",
+    "label": "Stalin forced collectivization and grain requisition policies caused the Ukrainian famine",
+    "note": "The Holodomor resulted from the intersection of Stalin forced collectivization, unrealistic grain quotas maintained despite known famine conditions, restrictions on peasant movement (internal passports denied to Ukrainian villagers), blacklisting of villages that failed quotas, and confiscation of all food including seed grain. Whether this constitutes deliberate genocide against Ukrainians or criminal recklessness toward all Soviet peasants is still debated; the death toll is not.",
+    "confidence": "high"
+  },
+  {
+    "id": "joseph_stalin__gulag_system",
+    "source": "joseph_stalin",
+    "target": "gulag_system",
+    "type": "PRODUCED",
+    "label": "Stalin massively expanded the gulag into the vast slave labor network that defined Soviet repression",
+    "note": "Under Stalin, the gulag expanded from a relatively small prison camp system to an archipelago of over 400 camps holding 1.5–1.8 million prisoners at its peak (1950–1951), with millions more having passed through. Gulag labor built canals, railroads, mines, and cities. Arrest quotas, not evidence of guilt, drove the population; mortality rates peaked at over 20% annually during the worst periods.",
+    "confidence": "high"
+  },
+  {
+    "id": "weimar_republic__adolf_hitler",
+    "source": "weimar_republic",
+    "target": "adolf_hitler",
+    "type": "ENABLED",
+    "label": "Weimar Republic economic collapse, political polarization, and constitutional weaknesses enabled Hitler rise",
+    "note": "Hitler was appointed Chancellor legally by President Hindenburg in January 1933, following the NSDAP electoral surge driven by the Great Depression, hyperinflation memory, and the perceived communist threat. The Weimar constitution Article 48 (emergency powers), proportional representation that fragmented the center, and elite conservative miscalculation that Hitler could be controlled all contributed to his legal path to power.",
+    "confidence": "high"
+  },
+  {
+    "id": "adolf_hitler__the_holocaust",
+    "source": "adolf_hitler",
+    "target": "the_holocaust",
+    "type": "CAUSED",
+    "label": "Hitler ideology and orders were the necessary condition for the Holocaust",
+    "note": "While the Holocaust required thousands of willing perpetrators at every level, Hitler central role is not in question: Mein Kampf announced the program in 1925; his speeches escalated the eliminationist language through the 1930s; the Wannsee Conference (1942) coordinated the administrative machinery he ordered. The \"functionalist\" debate about whether the decision was made early or evolved in response to circumstances does not change the causal primacy of Hitler directive.",
+    "confidence": "high"
+  },
+  {
+    "id": "adolf_hitler__nazi_propaganda",
+    "source": "adolf_hitler",
+    "target": "nazi_propaganda",
+    "type": "ENABLED",
+    "label": "Hitler rhetoric and performative techniques defined Nazi propaganda methods",
+    "note": "Hitler role in propaganda was not only to set the content but to demonstrate the method: the rally as total sensory environment, repetition as truth-production, the scapegoat as political tool, the Big Lie as technique. Goebbels was the administrator; Hitler was the living proof that the methods worked.",
+    "confidence": "high"
+  },
+  {
+    "id": "adolf_hitler__nuremberg_laws_1935",
+    "source": "adolf_hitler",
+    "target": "nuremberg_laws_1935",
+    "type": "PRODUCED",
+    "label": "Hitler personally announced and advocated the Nuremberg racial laws",
+    "note": "The Laws for the Protection of German Blood and German Honor (1935) — which stripped Jews of citizenship, banned marriage between Jews and non-Jews, and defined Jewishness by bloodline — were personally announced by Hitler at the Nuremberg rally. They were the legal foundation of the Holocaust machinery.",
+    "confidence": "high"
+  },
+  {
+    "id": "adolf_hitler__joseph_goebbels",
+    "source": "adolf_hitler",
+    "target": "joseph_goebbels",
+    "type": "ENABLED",
+    "label": "Hitler gave Goebbels total control over German media and cultural production",
+    "note": "Goebbels relationship to Hitler was that of a virtuoso to a patron: Hitler provided the political authority and personal trust that gave Goebbels his extraordinary power. Goebbels was appointed Reich Minister of Propaganda in 1933 at Hitler insistence. Their relationship was symbiotic: Goebbels made Hitler seem divine; Hitler made Goebbels omnipotent.",
+    "confidence": "high"
+  },
+  {
+    "id": "adolf_hitler__heinrich_himmler",
+    "source": "adolf_hitler",
+    "target": "heinrich_himmler",
+    "type": "ENABLED",
+    "label": "Hitler delegated implementation of the Final Solution to Himmler and the SS",
+    "note": "The division of labor between Hitler and Himmler was: Hitler set the ideological goal (racial extermination) and authorized the program; Himmler built and ran the apparatus (SS, Gestapo, death camps, Einsatzgruppen). Himmler loyalty to Hitler was absolute, and Hitler gave him virtually unlimited authority to achieve racial goals.",
+    "confidence": "high"
+  },
+  {
+    "id": "joseph_goebbels__nazi_propaganda",
+    "source": "joseph_goebbels",
+    "target": "nazi_propaganda",
+    "type": "PRODUCED",
+    "label": "Goebbels created and administered the Nazi propaganda machine as Minister",
+    "note": "As Reich Minister of Public Enlightenment and Propaganda, Goebbels controlled all German newspapers, radio stations, films, theater, music, and the arts through the Reich Chamber of Culture. No one could work in German cultural life without Goebbels approval. He developed the most sophisticated state propaganda apparatus in history to that point.",
+    "confidence": "high"
+  },
+  {
+    "id": "joseph_goebbels__kristallnacht",
+    "source": "joseph_goebbels",
+    "target": "kristallnacht",
+    "type": "PRODUCED",
+    "label": "Goebbels orchestrated Kristallnacht as a propaganda operation disguised as spontaneous outrage",
+    "note": "Goebbels used the assassination of a German diplomat in Paris by a Jewish teenager as a pretext to call a \"spontaneous\" pogrom. He delivered the inflammatory speech that triggered SA and SS units to attack Jewish businesses, homes, and synagogues across Germany and Austria. He then managed the international messaging to minimize the diplomatic damage.",
+    "confidence": "high"
+  },
+  {
+    "id": "heinrich_himmler__the_holocaust",
+    "source": "heinrich_himmler",
+    "target": "the_holocaust",
+    "type": "PRODUCED",
+    "label": "Himmler designed and administered the Holocaust machinery as head of the SS",
+    "note": "Himmler presided over the Wannsee Conference bureaucratic follow-up, commanded the Einsatzgruppen that killed 1.5 million Jews in mass shootings before the death camps were built, oversaw the construction and operation of the extermination camps (Auschwitz-Birkenau, Treblinka, Sobibor, Belzec, Chelmno, Majdanek), and commanded the SS that provided guards for all camps. He was the operational architect of industrialized genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "benito_mussolini__world_war_i",
+    "source": "benito_mussolini",
+    "target": "world_war_i",
+    "type": "ENABLED",
+    "label": "Mussolini experience in WWI radicalized him and provided the emotional core of fascism",
+    "note": "Mussolini served in WWI and was wounded; his experience of trench warfare, mass death, and post-war humiliation (Italy was promised territorial gains that were denied at Versailles) became the founding emotional experience of fascism: betrayal, sacrifice, violence as purification, and the nation as the supreme value. Fasci di combattimento (combat leagues) were originally WWI veteran organizations.",
+    "confidence": "high"
+  },
+  {
+    "id": "benito_mussolini__democratic_backsliding",
+    "source": "benito_mussolini",
+    "target": "democratic_backsliding",
+    "type": "ENABLED",
+    "label": "Mussolini March on Rome model demonstrated how democracies can be legally captured",
+    "note": "Mussolini path to power — threatening violence while maneuvering legally, being appointed by the king within constitutional norms, then gradually abolishing those norms from inside — became the template that Hitler, and many subsequent authoritarians, studied and replicated. The \"legal coup\" was the 20th-century innovation in democratic destruction.",
+    "confidence": "high"
+  },
+  {
+    "id": "hirohito__atomic_bombing_hiroshima",
+    "source": "hirohito",
+    "target": "atomic_bombing_hiroshima",
+    "type": "ENABLED",
+    "label": "Japan continued resistance under Hirohito imperial framework required the atomic bomb decision",
+    "note": "The Hiroshima and Nagasaki bombings were partly conditioned on Japan military and political culture, in which the emperor sacred status made unconditional surrender — and therefore any negotiated end to the war — politically impossible without a catastrophic shock. Whether the bombings were necessary given available alternatives remains the most debated moral question of the 20th century.",
+    "confidence": "medium"
+  },
+  {
+    "id": "mao_zedong__great_leap_forward",
+    "source": "mao_zedong",
+    "target": "great_leap_forward",
+    "type": "CAUSED",
+    "label": "Mao personally initiated and refused to reverse the Great Leap Forward despite evidence of mass death",
+    "note": "Mao launched the Great Leap Forward over the objections of other party leaders, rejected accurate agricultural reporting in favor of inflated figures, silenced officials who reported famine conditions (Peng Dehuai was purged for a private memo to Mao reporting the death toll), and continued grain exports during the famine. His personal decision to maintain the program despite evidence of mass starvation is the most damning aspect of the catastrophe.",
+    "confidence": "high"
+  },
+  {
+    "id": "mao_zedong__chinese_cultural_revolution",
+    "source": "mao_zedong",
+    "target": "chinese_cultural_revolution",
+    "type": "CAUSED",
+    "label": "Mao launched the Cultural Revolution to purge political rivals using radicalized youth",
+    "note": "Mao launched the Cultural Revolution in 1966 explicitly to purge rival factions who had accumulated power after the Great Leap Forward disaster. By mobilizing the Red Guards against \"counter-revolutionaries\" and \"capitalist roaders\" within the party, he bypassed party structures and institutional constraints, creating a period of anarchy that he could only partially control.",
+    "confidence": "high"
+  },
+  {
+    "id": "pol_pot__khmer_rouge_genocide",
+    "source": "pol_pot",
+    "target": "khmer_rouge_genocide",
+    "type": "PRODUCED",
+    "label": "Pol Pot designed and implemented the Year Zero genocide as Khmer Rouge leader",
+    "note": "Pol Pot (Brother Number One) was the ideological architect and operational commander of the Cambodian genocide. His Year Zero ideology — erasing history, evacuating cities, abolishing money, targeting all educated people — was implemented with his knowledge and approval. The Khmer Rouge security apparatus (S-21/Tuol Sleng) tortured confessions and killed entire families on his orders.",
+    "confidence": "high"
+  },
+  {
+    "id": "leopold_ii_belgium__king_leopold_congo",
+    "source": "leopold_ii_belgium",
+    "target": "king_leopold_congo",
+    "type": "PRODUCED",
+    "label": "Leopold personally designed and profited from the Congo Free State atrocity system",
+    "note": "Leopold did not merely benefit from the Congo system — he designed it. He personally negotiated the Berlin Conference recognition of his personal sovereignty, created the Force Publique military with its hand-amputation enforcement mechanism, set the rubber extraction quotas, used profit to build Brussels and fund his personal wealth, and systematically suppressed reporting about conditions until journalists and humanitarians exposed the regime.",
+    "confidence": "high"
   }
 ]

@@ -4124,5 +4124,185 @@
       "morality",
       "person"
     ]
+  },
+  {
+    "id": "vladimir_lenin",
+    "label": "Vladimir Lenin",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vladimir_Lenin",
+    "summary": "Russian revolutionary and founder of the Soviet state (1870–1924) who led the Bolshevik seizure of power in October 1917 and established the first communist government in history. Lenin modified Marxist theory with his concept of the vanguard party — a disciplined professional revolutionary organization that would lead the working class rather than wait for spontaneous revolution — and justified the Red Terror and Cheka secret police as necessary instruments of class war. The Leninist party-state model he created: single-party rule, democratic centralism, state ownership of the means of production, and systematic repression of opposition became the template that Stalin, Mao, Castro, Ho Chi Minh, and Kim Il-sung would all replicate. Lenin died before Stalinist terror began, but the institutional structure he built made it possible.",
+    "decade": "1910s",
+    "tags": [
+      "revolution",
+      "russia",
+      "communism",
+      "soviet",
+      "bolshevik",
+      "vanguard",
+      "person"
+    ]
+  },
+  {
+    "id": "joseph_stalin",
+    "label": "Joseph Stalin",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Joseph_Stalin",
+    "summary": "Soviet dictator (1878–1953) who transformed the Soviet Union through collectivization, industrialization, and political terror on a scale that killed an estimated 6–20 million people through executions, the gulag system, and deliberately engineered famine. Stalin consolidated power after Lenin death through systematic elimination of rivals (Trotsky, Zinoviev, Bukharin) in show trials that demonstrated his mastery of political theater. His forced collectivization of Soviet agriculture (1929–1933) produced the Holodomor famine in Ukraine. The Great Purge (1936–1938) killed approximately 750,000 and imprisoned millions. His wartime leadership — including the defense of Stalingrad — also arguably saved the world from Nazi domination, making him one of the most contradictory figures in history: a mass murderer whose military victory was indispensable to defeating Hitler.",
+    "decade": "1930s",
+    "tags": [
+      "soviet",
+      "dictatorship",
+      "communism",
+      "terror",
+      "gulag",
+      "purges",
+      "person"
+    ]
+  },
+  {
+    "id": "adolf_hitler",
+    "label": "Adolf Hitler",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+    "summary": "Austrian-born German politician (1889–1945) who rose from political obscurity to Chancellor of Germany in 1933, then established a totalitarian dictatorship and launched the most destructive war in human history. Hitler worldview combined radical antisemitism (Jews as a parasitic race destroying Aryan civilization), Social Darwinism (racial struggle as the engine of history), and revanchist German nationalism (avenging the humiliation of Versailles). His Final Solution — the systematic genocide of European Jews — killed approximately 6 million people and defined the 20th century concept of genocide. His path to power demonstrates the catastrophic potential of democratic fragility: the Weimar Republic legally handed power to a party committed to destroying it. His defeat in 1945 required the combined military effort of the United States, Soviet Union, and Great Britain, at a cost of approximately 70 million lives.",
+    "decade": "1930s",
+    "tags": [
+      "nazism",
+      "holocaust",
+      "antisemitism",
+      "germany",
+      "genocide",
+      "wwii",
+      "person"
+    ]
+  },
+  {
+    "id": "joseph_goebbels",
+    "label": "Joseph Goebbels",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Joseph_Goebbels",
+    "summary": "German Nazi politician (1897–1945) who served as Reich Minister of Propaganda from 1933 until his death, making him history most consequential propagandist. Goebbels understood that modern mass media — film, radio, newspapers, rallies — could be coordinated to produce a totalizing emotional experience that bypassed rational evaluation. He orchestrated Kristallnacht (November 1938), produced the film Triumph of the Will (Riefenstahl, under his supervision), controlled all German cultural production, and deployed \"Big Lie\" technique — repeating false claims so confidently and persistently that audiences doubt their own memory. His diary reveals that he was fully aware of the Holocaust and supported it. He and his wife killed their six children before taking their own lives in the Berlin bunker in 1945.",
+    "decade": "1930s",
+    "tags": [
+      "nazism",
+      "propaganda",
+      "media",
+      "germany",
+      "holocaust",
+      "manipulation",
+      "person"
+    ]
+  },
+  {
+    "id": "heinrich_himmler",
+    "label": "Heinrich Himmler",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Heinrich_Himmler",
+    "summary": "German Nazi politician (1900–1945) who, as head of the SS and Gestapo, was the principal architect and administrator of the Holocaust. While Hitler provided the ideological direction and Goebbels the propaganda, Himmler ran the apparatus: the concentration camps, the Einsatzgruppen mobile killing units, the death camps, and the SS empire that controlled security across occupied Europe. He oversaw the murder of approximately 6 million Jews and millions of others (Roma, Soviet POWs, disabled people, political prisoners). His SS was simultaneously a military force, an economic enterprise (using slave labor), and an ideological vanguard — a state within the state that reported only to Hitler. Himmler capture in 1945 and suicide before trial deprived the Nuremberg proceedings of their most culpable defendant.",
+    "decade": "1940s",
+    "tags": [
+      "nazism",
+      "holocaust",
+      "ss",
+      "germany",
+      "genocide",
+      "bureaucracy",
+      "person"
+    ]
+  },
+  {
+    "id": "benito_mussolini",
+    "label": "Benito Mussolini",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Benito_Mussolini",
+    "summary": "Italian politician (1883–1945) who founded fascism and ruled Italy as Il Duce (the Leader) from 1922 to 1943, becoming the template for 20th-century authoritarian populism. A former socialist newspaper editor radicalized by World War I, Mussolini developed fascism as a \"third way\" between capitalism and communism: ultranationalism, corporatist economics, glorification of violence, and the fusion of party and state under a charismatic leader. His March on Rome (1922) — in which he threatened revolution while maneuvering legally into power — became the model Hitler studied and replicated. His invasion of Ethiopia (1935), anti-Jewish racial laws (1938), and alliance with Hitler (Pact of Steel, 1939) aligned Italy with Nazism. He was executed by Italian partisans in 1945 and hung upside down in a Milan square.",
+    "decade": "1930s",
+    "tags": [
+      "fascism",
+      "italy",
+      "nationalism",
+      "dictatorship",
+      "wwii",
+      "authoritarianism",
+      "person"
+    ]
+  },
+  {
+    "id": "hirohito",
+    "label": "Emperor Hirohito (Showa)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hirohito",
+    "summary": "Emperor of Japan (1901–1989, reigned 1926–1989) during whose name World War II was fought in Asia, including the Nanjing Massacre, the attack on Pearl Harbor, and the use of biological and chemical weapons by Unit 731. His actual role in war decisions remains debated by historians: some argue he was a constitutional monarch who lacked real power; others present evidence that he was actively involved in military planning and approved expansionist operations. He was not prosecuted at the Tokyo War Crimes Tribunal — the United States decided to preserve him as a stabilizing symbol for the occupation. His radio address of August 15, 1945, announcing surrender — the first time the Japanese public had heard his voice — used such archaic court language that many listeners could not understand it was a surrender.",
+    "decade": "1930s",
+    "tags": [
+      "japan",
+      "wwii",
+      "emperor",
+      "imperialism",
+      "asia",
+      "surrender",
+      "person"
+    ]
+  },
+  {
+    "id": "mao_zedong",
+    "label": "Mao Zedong",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mao_Zedong",
+    "summary": "Chinese communist revolutionary and founding leader of the People's Republic of China (1893–1976) whose rule produced two of the deadliest man-made disasters in history. The Great Leap Forward (1958–1962) — his collectivization and rapid industrialization campaign — caused a famine that killed an estimated 15–55 million people through policy failures, cover-up of crop failures by local officials, and continued grain exports during the famine. The Cultural Revolution (1966–1976) — his effort to purge political rivals by mobilizing youth against \"counterrevolutionary\" elements — killed hundreds of thousands to over a million people, destroyed Chinese cultural heritage, and sent millions of intellectuals and professionals to labor camps. Mao military victory in the civil war (1949) and his anti-imperialist nationalism gave him genuine popular legitimacy; the mass death of his governance made him one of history most catastrophic rulers.",
+    "decade": "1950s",
+    "tags": [
+      "china",
+      "communism",
+      "revolution",
+      "famine",
+      "cultural-revolution",
+      "mass-death",
+      "person"
+    ]
+  },
+  {
+    "id": "pol_pot",
+    "label": "Pol Pot",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pol_Pot",
+    "summary": "Cambodian communist leader (1925–1998) who, as head of the Khmer Rouge, oversaw one of the most extreme genocides in history. Between 1975 and 1979, his regime killed an estimated 1.5–2 million people — roughly 25% of the Cambodian population — through execution, starvation, overwork, and disease. Year Zero ideology attempted to erase all prior history and rebuild society from scratch: urban populations were forcibly evacuated to the countryside, money was abolished, all educated people were marked for death (glasses were sufficient evidence of counter-revolutionary status), and temples and institutions were destroyed. The regime targeted ethnic Vietnamese, Chinese, and Muslim Cham minorities for extermination. Vietnam invaded Cambodia in 1979 and ended the genocide; Pol Pot spent the subsequent decades sheltered by the jungle with residual Khmer Rouge forces, protected partly by tacit Western support because his regime opposed Vietnam.",
+    "decade": "1970s",
+    "tags": [
+      "cambodia",
+      "genocide",
+      "communism",
+      "khmer-rouge",
+      "year-zero",
+      "cambodia",
+      "person"
+    ]
+  },
+  {
+    "id": "leopold_ii_belgium",
+    "label": "King Leopold II of Belgium",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Leopold_II_of_Belgium",
+    "summary": "King of Belgium (1835–1909) who, through a humanitarian fraud of extraordinary cynicism, obtained personal ownership of the Congo Free State (modern DRC) — an area 76 times the size of Belgium — and ran it as a private commercial enterprise that killed an estimated 10 million people through violence, forced labor, starvation, and disease. Leopold presented his Congo venture to the international community as a philanthropic mission to end Arab slave trading and bring civilization to central Africa; the reality was a system of rubber extraction enforced through mutilation (workers who failed rubber quotas had their hands cut off — baskets of severed hands were submitted as proof of enforcement), hostage-taking, and mass killing. Photographs of mutilated Congolese and the journalism of E.D. Morel eventually exposed the regime; international pressure forced Leopold to transfer sovereignty to Belgium in 1908. Leopold died one of the richest men in Europe.",
+    "decade": "1880s",
+    "tags": [
+      "colonialism",
+      "congo",
+      "genocide",
+      "belgium",
+      "rubber",
+      "imperialism",
+      "person"
+    ]
   }
 ]
