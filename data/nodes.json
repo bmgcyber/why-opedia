@@ -1041,5 +1041,105 @@
     "summary": "The June 18, 1815 defeat of Napoleon Bonaparte by the Duke of Wellington and Prussian forces, ending the Napoleonic Wars and Napoleon's rule. Produced the Congress of Vienna's conservative order that attempted to restore pre-Revolutionary Europe — an order whose instability would produce the 20th century's catastrophes.",
     "decade": "1810s",
     "tags": ["military", "history", "europe", "napoleon", "turning_point"]
+  },
+  {
+    "id": "ancient_jerusalem",
+    "label": "Ancient Jerusalem",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/History_of_Jerusalem",
+    "summary": "Jerusalem's 3,000-year history as the sacred center of Judaism — site of the Temple of Solomon, the City of David, and later the location of the Crucifixion and the Prophet's Night Journey. The city's unique sanctity to three Abrahamic religions made control of it the organizing motive for millennia of conquest, massacre, and war.",
+    "decade": "1000s BC–Ongoing",
+    "tags": ["religion", "history", "middle_east", "judaism", "sacred"]
+  },
+  {
+    "id": "babylonian_captivity",
+    "label": "Babylonian Captivity",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Babylonian_captivity",
+    "summary": "The 586 BC Babylonian destruction of the First Temple and forced exile of the Jewish people to Babylon. During this period Jewish identity, monotheism, and messianic theology were consolidated — the intellectual foundations of both Christianity and Islam.",
+    "decade": "580s BC",
+    "tags": ["history", "judaism", "middle_east", "exile", "ancient"]
+  },
+  {
+    "id": "persian_achaemenid_empire",
+    "label": "Persian Achaemenid Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Achaemenid_Empire",
+    "summary": "The first Persian Empire (550–330 BC), the largest empire the world had seen — stretching from the Aegean to India. Cyrus the Great allowed the Jewish exiles to return to Judea; Persian administrative systems and Zoroastrian ideas influenced Jewish theology, early Christianity, and Islam.",
+    "decade": "550s–330s BC",
+    "tags": ["history", "ancient", "persia", "empire", "middle_east"]
+  },
+  {
+    "id": "alexander_the_great",
+    "label": "Alexander the Great",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+    "summary": "Alexander III of Macedon (356–323 BC), who conquered the Persian Empire and spread Greek culture from Egypt to India. His conquests created the Hellenistic world that Rome inherited; his successors' forced Hellenization of Judea directly triggered the Maccabean revolt.",
+    "decade": "330s–320s BC",
+    "tags": ["history", "ancient", "greece", "empire", "military"]
+  },
+  {
+    "id": "maccabean_revolt",
+    "label": "Maccabean Revolt",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maccabean_Revolt",
+    "summary": "The 167–160 BC Jewish uprising against Seleucid Greek ruler Antiochus IV, who banned Torah observance, installed a Greek altar in the Temple, and forced Hellenization. The first religious freedom war in recorded history; intensified Jewish messianic expectations that directly shaped the milieu from which Christianity emerged.",
+    "decade": "160s BC",
+    "tags": ["history", "judaism", "ancient", "religion", "revolt"]
+  },
+  {
+    "id": "roman_empire",
+    "label": "Roman Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Roman_Empire",
+    "summary": "The Roman state at its imperial height (27 BC – 476 AD), governing the Mediterranean world including Judea. Roman roads, common language, and administrative unity created the infrastructure through which Christianity spread; Roman colonial rule of Judea produced the revolts that ended Jewish statehood.",
+    "decade": "1st century BC–5th century AD",
+    "tags": ["history", "ancient", "rome", "empire", "mediterranean"]
+  },
+  {
+    "id": "jewish_roman_wars",
+    "label": "Jewish–Roman Wars",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jewish%E2%80%93Roman_wars",
+    "summary": "The three major Jewish revolts against Roman rule: the Great Revolt (66–73 AD) ending with the destruction of the Second Temple, the Kitos War (115–117 AD), and the Bar Kokhba revolt (132–135 AD) after which Rome renamed Judea 'Syria Palaestina' and expelled Jews from Jerusalem. The wars produced the Jewish Diaspora.",
+    "decade": "1st–2nd century AD",
+    "tags": ["history", "ancient", "rome", "judaism", "revolt"]
+  },
+  {
+    "id": "jewish_diaspora",
+    "label": "Jewish Diaspora",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jewish_diaspora",
+    "summary": "The permanent dispersion of Jewish communities throughout the world following the Roman destruction of Jerusalem, with major populations in Babylon, Egypt, and eventually throughout Europe and the Mediterranean. The Diaspora placed Jewish communities within European societies where they became the primary targets of medieval Christian antisemitism.",
+    "decade": "2nd century AD–Ongoing",
+    "tags": ["history", "judaism", "diaspora", "ancient", "identity"]
+  },
+  {
+    "id": "rise_of_christianity",
+    "label": "Rise of Christianity",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/History_of_early_Christianity",
+    "summary": "The growth of Christianity from a Jewish sect in Roman-occupied Judea to the official state religion of the Roman Empire under Constantine (312 AD) — a transformation enabled by Roman administrative infrastructure and completed by Theodosius I's 380 AD decree making it the empire's sole legal religion.",
+    "decade": "1st–4th century AD",
+    "tags": ["religion", "history", "christianity", "rome", "ancient"]
+  },
+  {
+    "id": "byzantine_empire",
+    "label": "Byzantine Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+    "summary": "The Eastern Roman Empire (330–1453 AD), centered on Constantinople, that preserved Roman administrative institutions and Christian Orthodox theology for over a millennium. Its Emperor Alexios I Komnenos's appeal to Pope Urban II for military assistance against the Seljuk Turks in 1095 was the direct trigger for the First Crusade.",
+    "decade": "4th–15th century",
+    "tags": ["history", "byzantine", "christianity", "empire", "middle_east"]
   }
 ]

@@ -1735,5 +1735,131 @@
     "label": "both: partition logic produces communal massacre",
     "note": "Both the Partition of India and Srebrenica demonstrate how enforced ethnic/religious partition activates existing communal tensions into mass violence — the administrative act of separation producing the killing it was supposed to prevent.",
     "confidence": "medium"
+  },
+  {
+    "id": "ancient_jerusalem__rise_of_christianity",
+    "source": "ancient_jerusalem",
+    "target": "rise_of_christianity",
+    "type": "ENABLED",
+    "label": "Crucifixion site made Jerusalem theologically necessary",
+    "note": "Jesus's ministry, crucifixion, and resurrection all occurred in Jerusalem — making the city not merely symbolically important but theologically constitutive of the Christian narrative. Without Jerusalem, Christianity has no story.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_jerusalem__jewish_roman_wars",
+    "source": "ancient_jerusalem",
+    "target": "jewish_roman_wars",
+    "type": "CAUSED",
+    "label": "Temple's holiness made Roman control intolerable",
+    "note": "The Second Temple was the center of Jewish religious and political life — Roman taxation of the Temple treasury and installation of Roman standards were experienced as sacrilege, making resistance a religious obligation. The wars were fought over the city's sacred status.",
+    "confidence": "high"
+  },
+  {
+    "id": "babylonian_captivity__jewish_diaspora",
+    "source": "babylonian_captivity",
+    "target": "jewish_diaspora",
+    "type": "ENABLED",
+    "label": "first exile established the diaspora pattern",
+    "note": "The Babylonian captivity established the pattern of Jewish communal survival without a homeland — the theological and institutional frameworks developed in Babylon (synagogue, portable Torah-centered religion) made the later Roman-era diaspora survivable rather than lethal to Jewish identity.",
+    "confidence": "high"
+  },
+  {
+    "id": "babylonian_captivity__rise_of_christianity",
+    "source": "babylonian_captivity",
+    "target": "rise_of_christianity",
+    "type": "ENABLED",
+    "label": "exile consolidated the theology Christianity built on",
+    "note": "The Babylonian captivity consolidated Jewish monotheism, messianic theology, and apocalyptic literature — the Second Temple Judaism that Jesus's movement emerged from. Without the captivity's theological development, the specific form of Christianity that emerged is not possible.",
+    "confidence": "medium"
+  },
+  {
+    "id": "persian_achaemenid_empire__alexander_the_great",
+    "source": "persian_achaemenid_empire",
+    "target": "alexander_the_great",
+    "type": "CAUSED",
+    "label": "Persian wealth and power motivated the conquest",
+    "note": "The Persian Empire's vast territory and wealth were precisely what made Alexander's campaign politically motivating. Philip II and Alexander framed the conquest as revenge for Persian invasions of Greece — the Achaemenid Empire's existence was both cause and target.",
+    "confidence": "high"
+  },
+  {
+    "id": "alexander_the_great__maccabean_revolt",
+    "source": "alexander_the_great",
+    "target": "maccabean_revolt",
+    "type": "CAUSED",
+    "label": "Hellenization of Judea triggered religious revolt",
+    "note": "Alexander's conquest put Judea under Hellenistic rule; his successor Antiochus IV Epiphanes imposed Hellenization so aggressively — banning Torah observance, desecrating the Temple, requiring sacrifice to Greek gods — that armed resistance became religiously mandatory.",
+    "confidence": "high"
+  },
+  {
+    "id": "alexander_the_great__roman_empire",
+    "source": "alexander_the_great",
+    "target": "roman_empire",
+    "type": "ENABLED",
+    "label": "Hellenistic world Rome inherited and built upon",
+    "note": "Alexander's spread of Greek language and culture created the Hellenistic world that Rome conquered and inherited — Greek as common Mediterranean language, Greek administrative and legal concepts, and Greek philosophy all became foundational Roman infrastructure.",
+    "confidence": "high"
+  },
+  {
+    "id": "maccabean_revolt__rise_of_christianity",
+    "source": "maccabean_revolt",
+    "target": "rise_of_christianity",
+    "type": "ENABLED",
+    "label": "revolt intensified messianic expectations",
+    "note": "The Maccabean period's experience of foreign oppression and miraculous deliverance intensified Jewish messianic expectation — the theological and cultural soil from which Christianity emerged. The Pharisee tradition and apocalyptic literature that shaped Jesus's movement crystallized in the post-Maccabean period.",
+    "confidence": "medium"
+  },
+  {
+    "id": "roman_empire__jewish_roman_wars",
+    "source": "roman_empire",
+    "target": "jewish_roman_wars",
+    "type": "CAUSED",
+    "label": "colonial occupation and Temple taxation caused revolts",
+    "note": "Roman colonial rule of Judea — taxation, treatment of religious sites as administrative problems, and the impossibility of reconciling Roman imperial religion with Jewish monotheism — made armed conflict structurally inevitable. Multiple provocations produced a series of escalating revolts.",
+    "confidence": "high"
+  },
+  {
+    "id": "roman_empire__rise_of_christianity",
+    "source": "roman_empire",
+    "target": "rise_of_christianity",
+    "type": "ENABLED",
+    "label": "Roman roads spread the new religion rapidly",
+    "note": "Rome's road network, common language (Greek), administrative unity, and relative Pax Romana created the infrastructure through which a small Jewish sect in Judea spread to every corner of the Mediterranean in three centuries. Without Roman infrastructure, Christianity's rapid spread is not possible.",
+    "confidence": "high"
+  },
+  {
+    "id": "jewish_roman_wars__jewish_diaspora",
+    "source": "jewish_roman_wars",
+    "target": "jewish_diaspora",
+    "type": "CAUSED",
+    "label": "Temple destroyed, Jews expelled from Jerusalem",
+    "note": "The Great Revolt (66–73 AD) destroyed the Second Temple; the Bar Kokhba revolt (132–135 AD) ended with Rome expelling Jews from Jerusalem and renaming the province Syria Palaestina. The mass expulsion created the permanent European Jewish diaspora.",
+    "confidence": "high"
+  },
+  {
+    "id": "jewish_diaspora__medieval_christian_antisemitism",
+    "source": "jewish_diaspora",
+    "target": "medieval_christian_antisemitism",
+    "type": "ENABLED",
+    "label": "diaspora placed Jews inside Christian societies",
+    "note": "The Jewish diaspora distributed Jewish communities throughout Europe as a permanent minority within Christian societies — creating the social geography that medieval Christian antisemitism required. Without Jewish communities living among Christian majorities, the centuries of persecution have no target.",
+    "confidence": "high"
+  },
+  {
+    "id": "rise_of_christianity__byzantine_empire",
+    "source": "rise_of_christianity",
+    "target": "byzantine_empire",
+    "type": "PRODUCED",
+    "label": "Christian Roman state became Byzantine Empire",
+    "note": "Constantine's adoption of Christianity (312 AD) and subsequent Christianization of the Roman state produced the Byzantine Empire — a specifically Christian political entity whose identity was inseparable from its Orthodox Christian faith, making control of holy places a state interest.",
+    "confidence": "high"
+  },
+  {
+    "id": "byzantine_empire__first_crusade",
+    "source": "byzantine_empire",
+    "target": "first_crusade",
+    "type": "ENABLED",
+    "label": "Emperor Alexios's appeal triggered Urban's call",
+    "note": "Byzantine Emperor Alexios I Komnenos sent envoys to Pope Urban II in 1095 requesting military aid against the Seljuk Turks who had conquered most of Anatolia after Manzikert. Urban II's response — a holy war far exceeding what Alexios requested — produced the Crusade.",
+    "confidence": "high"
   }
 ]
