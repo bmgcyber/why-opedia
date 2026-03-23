@@ -33,13 +33,25 @@ const EDGE_COLOR = {
 };
 const EDGE_DEFAULT_COLOR = '#4a4f6a';
 
+// Edge filter groups — the 4 main types + "other" + "speculative" (confidence)
+const EDGE_FILTER_GROUPS = [
+  'CAUSED', 'ENABLED', 'SHARES_MECHANISM_WITH', 'SELF_REINFORCES', 'other', 'speculative',
+];
+const EDGE_FILTER_MAIN = new Set(['CAUSED', 'ENABLED', 'SHARES_MECHANISM_WITH', 'SELF_REINFORCES']);
+
 // ── State ─────────────────────────────────────────────────────────────────────
 let cy = null;
 let allNodes = [];
 let allEdges = [];
 let nodeMap = {};
-let activeCategories = new Set();  // multi-select
-let searchQuery = '';
+
+// Sidebar / filter state
+let sidebarCollapsed = false;
+let selectedNodeId = null;
+let neighborhoodDepth = 1;
+let enabledNodeCategories = new Set();
+let enabledEdgeFilters = new Set(EDGE_FILTER_GROUPS);
+let minConnectivity = 0;
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 document.getElementById('stats').textContent = 'Loading…';
@@ -53,8 +65,7 @@ Promise.all([
   nodes.forEach(n => { nodeMap[n.id] = n; });
 
   initCytoscape(nodes, edges);
-  buildFilterButtons(nodes);
-  initSearch();
+  buildSidebar(nodes);
   updateStats(nodes.length, edges.length);
 }).catch(err => {
   console.error('Failed to load data:', err);
@@ -116,11 +127,20 @@ function initCytoscape(nodes, edges) {
     wheelSensitivity: 0.3,
   });
 
+  // Set slider max after layout finishes
+  cy.one('layoutstop', () => {
+    const maxDeg = cy.nodes().reduce((m, n) => Math.max(m, n.connectedEdges().length), 0);
+    const slider = document.getElementById('sb-conn-slider');
+    if (slider) slider.max = Math.max(1, Math.min(maxDeg, 60));
+  });
+
   // ── Interaction ─────────────────────────────────────────────────────────────
   cy.on('tap', 'node', e => {
-    setFocus(e.target);
-    cy.animate({ center: { eles: e.target } }, { duration: 250 });
-    showNodePanel(e.target.data());
+    const node = e.target;
+    setFocus(node);
+    cy.animate({ center: { eles: node } }, { duration: 250 });
+    showNodePanel(node.data());
+    activateNeighborhood(node.id());
   });
 
   cy.on('tap', 'edge', e => {
@@ -132,6 +152,7 @@ function initCytoscape(nodes, edges) {
     if (e.target === cy) {
       setFocus(null);
       closePanel();
+      clearNeighborhood();
     }
   });
 
@@ -149,7 +170,8 @@ function initCytoscape(nodes, edges) {
   });
 
   cy.on('mouseout', 'node', () => {
-    cy.elements().removeClass('dimmed highlighted');
+    cy.elements().removeClass('highlighted');
+    restoreNeighborhoodDimming();
   });
 
   cy.on('mouseover', 'edge', e => {
@@ -164,8 +186,59 @@ function initCytoscape(nodes, edges) {
   });
 
   cy.on('mouseout', 'edge', () => {
-    cy.elements().removeClass('dimmed highlighted');
+    cy.elements().removeClass('highlighted');
+    restoreNeighborhoodDimming();
   });
+}
+
+// ── Neighborhood dimming ──────────────────────────────────────────────────────
+// Re-applies neighborhood dimming after hover clears it
+function restoreNeighborhoodDimming() {
+  if (!cy) return;
+  cy.elements().removeClass('dimmed');
+  if (!selectedNodeId) return;
+  cy.batch(() => {
+    const nbNodes = getNeighborhoodNodes(selectedNodeId, neighborhoodDepth);
+    cy.nodes().not(nbNodes).not('.hidden').addClass('dimmed');
+    cy.edges().forEach(edge => {
+      if (edge.hasClass('hidden')) return;
+      const src = cy.getElementById(edge.data('source'));
+      const tgt = cy.getElementById(edge.data('target'));
+      if (src.hasClass('dimmed') || tgt.hasClass('dimmed')) {
+        edge.addClass('dimmed');
+      }
+    });
+  });
+}
+
+function activateNeighborhood(nodeId) {
+  selectedNodeId = nodeId;
+  const node = cy.getElementById(nodeId);
+  if (!node.length) return;
+
+  const section = document.getElementById('sb-neighborhood');
+  section.hidden = false;
+  document.getElementById('sb-nb-title').textContent = node.data('label');
+
+  applyFilters();
+}
+
+function clearNeighborhood() {
+  selectedNodeId = null;
+  const section = document.getElementById('sb-neighborhood');
+  if (section) section.hidden = true;
+  if (cy) cy.elements().removeClass('dimmed');
+  applyFilters();
+}
+
+function getNeighborhoodNodes(rootId, depth) {
+  const root = cy.getElementById(rootId);
+  if (!root.length) return cy.collection();
+  let current = root.closedNeighborhood().nodes();
+  for (let d = 1; d < depth; d++) {
+    current = current.union(current.closedNeighborhood().nodes());
+  }
+  return current;
 }
 
 // ── Focus management (persists across hover) ──────────────────────────────────
@@ -221,7 +294,6 @@ function buildStylesheet() {
         'line-style': ele => ele.data('confidence') === 'speculative' ? 'dashed' : 'solid',
         'line-dash-pattern': [6, 4],
         'width': 1.5,
-        // No label by default — reduces clutter; shown via .focused and .highlighted below
         'curve-style': 'bezier',
         'loop-direction': '-45deg',
         'loop-sweep': '-90deg',
@@ -394,6 +466,7 @@ document.getElementById('panel-inner').addEventListener('click', e => {
   setFocus(nodeEl);
   cy.animate({ center: { eles: nodeEl } }, { duration: 250 });
   showNodePanel(nodeEl.data());
+  activateNeighborhood(nodeId);
 });
 
 function openPanel() {
@@ -408,7 +481,10 @@ function closePanel() {
 document.getElementById('panel-close').addEventListener('click', closePanel);
 
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closePanel();
+  if (e.key === 'Escape') {
+    closePanel();
+    clearNeighborhood();
+  }
 });
 
 // ── Fit / reset view ──────────────────────────────────────────────────────────
@@ -416,40 +492,278 @@ document.getElementById('fit-btn').addEventListener('click', () => {
   if (cy) cy.animate({ fit: { padding: 60 } }, { duration: 300 });
 });
 
-// ── Category filter buttons ───────────────────────────────────────────────────
-function buildFilterButtons(nodes) {
-  const categories = [...new Set(nodes.map(n => n.category))].sort();
-  const container = document.getElementById('filters');
+// ── Sidebar toggle ────────────────────────────────────────────────────────────
+document.getElementById('sidebar-toggle').addEventListener('click', toggleSidebar);
 
+function toggleSidebar() {
+  sidebarCollapsed = !sidebarCollapsed;
+  document.body.classList.toggle('sidebar-collapsed', sidebarCollapsed);
+  const btn = document.getElementById('sidebar-toggle');
+  btn.setAttribute('aria-expanded', String(!sidebarCollapsed));
+  btn.title = sidebarCollapsed ? 'Open filters panel' : 'Close filters panel';
+  // Resize cy after CSS transition completes (0.25s)
+  if (cy) setTimeout(() => cy.resize(), 270);
+}
+
+// ── Build sidebar (called after data loads) ───────────────────────────────────
+function buildSidebar(nodes) {
+  buildNodeTypeFilters(nodes);
+  buildEdgeTypeFilters();
+  initConnectivitySlider();
+  initSidebarSearch();
+  initNeighborhoodControls();
+
+  document.getElementById('sb-reset').addEventListener('click', resetAll);
+}
+
+// ── Node Type Filters ─────────────────────────────────────────────────────────
+function buildNodeTypeFilters(nodes) {
+  const categories = [...new Set(nodes.map(n => n.category))].sort();
+  enabledNodeCategories = new Set(categories);
+
+  const container = document.getElementById('sb-node-types');
   categories.forEach(cat => {
-    const btn = document.createElement('button');
-    btn.className = 'filter-btn';
-    btn.textContent = cat;
-    btn.dataset.category = cat;
-    btn.style.setProperty('--cat-color', CATEGORY_COLOR[cat] || '#8c8fa8');
-    btn.addEventListener('click', () => toggleCategoryFilter(cat, btn));
-    container.appendChild(btn);
+    const label = cat.charAt(0).toUpperCase() + cat.slice(1);
+    const color = CATEGORY_COLOR[cat] || '#8c8fa8';
+    const total = nodes.filter(n => n.category === cat).length;
+
+    const row = document.createElement('label');
+    row.className = 'sb-check-row';
+    row.innerHTML = `
+      <input type="checkbox" class="sb-checkbox" data-category="${escHtml(cat)}" checked>
+      <span class="sb-dot" style="background:${color}"></span>
+      <span class="sb-check-label">${escHtml(label)}</span>
+      <span class="sb-check-count" id="sb-cat-count-${escHtml(cat)}">${total}/${total}</span>
+    `;
+    row.querySelector('input').addEventListener('change', e => {
+      if (e.target.checked) enabledNodeCategories.add(cat);
+      else enabledNodeCategories.delete(cat);
+      applyFilters();
+    });
+    container.appendChild(row);
   });
 }
 
-function toggleCategoryFilter(cat, btn) {
-  if (activeCategories.has(cat)) {
-    activeCategories.delete(cat);
-    btn.classList.remove('active');
-  } else {
-    activeCategories.add(cat);
-    btn.classList.add('active');
-  }
-  applyFilters();
+// ── Edge Type Filters ─────────────────────────────────────────────────────────
+function buildEdgeTypeFilters() {
+  const labels = {
+    'CAUSED':               'CAUSED',
+    'ENABLED':              'ENABLED',
+    'SHARES_MECHANISM_WITH':'SHARES MECHANISM WITH',
+    'SELF_REINFORCES':      'SELF REINFORCES',
+    'other':                'Other types',
+    'speculative':          'Speculative edges',
+  };
+
+  const container = document.getElementById('sb-edge-types');
+  EDGE_FILTER_GROUPS.forEach(group => {
+    const isSpeculative = group === 'speculative';
+    const isOther = group === 'other';
+    const color = EDGE_COLOR[group] || EDGE_DEFAULT_COLOR;
+
+    const row = document.createElement('label');
+    row.className = 'sb-check-row';
+
+    const dotClass = isSpeculative ? 'sb-dot dashed-line' : 'sb-dot line';
+    const dotStyle = isSpeculative ? '' : `style="background:${color}"`;
+
+    row.innerHTML = `
+      <input type="checkbox" class="sb-checkbox" data-edge-filter="${escHtml(group)}" checked>
+      <span class="${dotClass}" ${dotStyle}></span>
+      <span class="sb-check-label">${escHtml(labels[group])}</span>
+    `;
+    row.querySelector('input').addEventListener('change', e => {
+      if (e.target.checked) enabledEdgeFilters.add(group);
+      else enabledEdgeFilters.delete(group);
+      applyFilters();
+    });
+    container.appendChild(row);
+  });
 }
 
-// ── Search ────────────────────────────────────────────────────────────────────
-function initSearch() {
-  const input = document.getElementById('search');
-  input.addEventListener('input', e => {
-    searchQuery = e.target.value.trim().toLowerCase();
+// ── Connectivity Slider ───────────────────────────────────────────────────────
+function initConnectivitySlider() {
+  const slider = document.getElementById('sb-conn-slider');
+  const display = document.getElementById('sb-conn-display');
+  slider.addEventListener('input', () => {
+    minConnectivity = parseInt(slider.value, 10);
+    display.textContent = `≥ ${minConnectivity}`;
     applyFilters();
   });
+}
+
+// ── Neighborhood Controls ─────────────────────────────────────────────────────
+function initNeighborhoodControls() {
+  document.querySelectorAll('.sb-depth-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.sb-depth-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      neighborhoodDepth = parseInt(btn.dataset.depth, 10);
+      if (selectedNodeId) applyFilters();
+    });
+  });
+
+  document.getElementById('sb-nb-clear').addEventListener('click', () => {
+    setFocus(null);
+    closePanel();
+    clearNeighborhood();
+  });
+}
+
+// ── Sidebar Search with Autocomplete ─────────────────────────────────────────
+function initSidebarSearch() {
+  // Create autocomplete dropdown — fixed positioned, appended to body
+  const dropdown = document.createElement('div');
+  dropdown.id = 'sb-autocomplete';
+  document.body.appendChild(dropdown);
+
+  const input = document.getElementById('sb-search');
+  let currentResults = [];
+  let kbHighlighted = -1;
+
+  function positionDropdown() {
+    const rect = input.getBoundingClientRect();
+    dropdown.style.top  = (rect.bottom + 4) + 'px';
+    dropdown.style.left = rect.left + 'px';
+    dropdown.style.width = rect.width + 'px';
+  }
+
+  function showDropdown(results) {
+    currentResults = results;
+    kbHighlighted = -1;
+    if (!results.length) { dropdown.style.display = 'none'; return; }
+
+    dropdown.innerHTML = '';
+    results.forEach((node, i) => {
+      const cat   = node.data('category');
+      const color = CATEGORY_COLOR[cat] || '#8c8fa8';
+      const item  = document.createElement('div');
+      item.className = 'sb-ac-item';
+      item.dataset.index = i;
+      item.innerHTML = `
+        <span class="sb-ac-dot" style="background:${color}"></span>
+        <span class="sb-ac-label">${escHtml(node.data('label'))}</span>
+        <span class="sb-ac-cat">${escHtml(cat)}</span>
+      `;
+      // mousedown to fire before blur
+      item.addEventListener('mousedown', ev => {
+        ev.preventDefault();
+        selectSearchResult(node);
+        input.value = '';
+        dropdown.style.display = 'none';
+      });
+      dropdown.appendChild(item);
+    });
+
+    positionDropdown();
+    dropdown.style.display = 'block';
+  }
+
+  function updateKbHighlight() {
+    dropdown.querySelectorAll('.sb-ac-item').forEach((el, i) => {
+      el.classList.toggle('kb-active', i === kbHighlighted);
+    });
+  }
+
+  input.addEventListener('input', () => {
+    const q = input.value.trim();
+    if (!q || !cy) { dropdown.style.display = 'none'; return; }
+    showDropdown(searchNodes(q, 5));
+  });
+
+  input.addEventListener('keydown', e => {
+    if (!currentResults.length) return;
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      kbHighlighted = Math.min(kbHighlighted + 1, currentResults.length - 1);
+      updateKbHighlight();
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      kbHighlighted = Math.max(kbHighlighted - 1, -1);
+      updateKbHighlight();
+    } else if (e.key === 'Enter') {
+      if (kbHighlighted >= 0) {
+        selectSearchResult(currentResults[kbHighlighted]);
+        input.value = '';
+        dropdown.style.display = 'none';
+      }
+    } else if (e.key === 'Escape') {
+      dropdown.style.display = 'none';
+      input.blur();
+    }
+  });
+
+  input.addEventListener('blur', () => {
+    setTimeout(() => { dropdown.style.display = 'none'; }, 160);
+  });
+
+  // Reposition if window resizes or sidebar toggles
+  window.addEventListener('resize', () => {
+    if (dropdown.style.display !== 'none') positionDropdown();
+  });
+}
+
+function searchNodes(query, limit) {
+  if (!cy) return [];
+  const q = query.toLowerCase();
+  const scored = [];
+  cy.nodes().forEach(node => {
+    const label = node.data('label').toLowerCase();
+    let score = 0;
+    if (label.startsWith(q))                                  score = 3;
+    else if (label.includes(q))                               score = 2;
+    else if (label.split(/\s+/).some(w => w.startsWith(q)))   score = 1.5;
+    if (score > 0) scored.push({ node, score });
+  });
+  scored.sort((a, b) => b.score - a.score || a.node.data('label').localeCompare(b.node.data('label')));
+  return scored.slice(0, limit).map(r => r.node);
+}
+
+function selectSearchResult(node) {
+  setFocus(node);
+  const zoom = Math.max(cy.zoom(), 1.5);
+  cy.animate({ center: { eles: node }, zoom }, { duration: 400 });
+  showNodePanel(node.data());
+  activateNeighborhood(node.id());
+}
+
+// ── Reset All ─────────────────────────────────────────────────────────────────
+function resetAll() {
+  // Clear search input
+  const input = document.getElementById('sb-search');
+  if (input) input.value = '';
+  const dropdown = document.getElementById('sb-autocomplete');
+  if (dropdown) dropdown.style.display = 'none';
+
+  // Clear neighborhood / focus / panel
+  setFocus(null);
+  closePanel();
+  clearNeighborhood();
+
+  // Reset node type checkboxes
+  document.querySelectorAll('[data-category]').forEach(cb => {
+    cb.checked = true;
+    enabledNodeCategories.add(cb.dataset.category);
+  });
+
+  // Reset edge type checkboxes
+  enabledEdgeFilters = new Set(EDGE_FILTER_GROUPS);
+  document.querySelectorAll('[data-edge-filter]').forEach(cb => { cb.checked = true; });
+
+  // Reset connectivity
+  minConnectivity = 0;
+  const slider = document.getElementById('sb-conn-slider');
+  const display = document.getElementById('sb-conn-display');
+  if (slider) slider.value = 0;
+  if (display) display.textContent = '≥ 0';
+
+  // Reset depth buttons to 1
+  neighborhoodDepth = 1;
+  document.querySelectorAll('.sb-depth-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.depth === '1');
+  });
+
+  applyFilters();
 }
 
 // ── Apply combined filters ────────────────────────────────────────────────────
@@ -457,33 +771,109 @@ function applyFilters() {
   if (!cy) return;
 
   cy.batch(() => {
-    cy.elements().removeClass('hidden');
+    // Clear previous filter state
+    cy.elements().removeClass('hidden dimmed');
 
+    // 1. Neighborhood dimming (opacity, not hidden)
+    if (selectedNodeId) {
+      const nbNodes = getNeighborhoodNodes(selectedNodeId, neighborhoodDepth);
+      cy.nodes().not(nbNodes).addClass('dimmed');
+      cy.edges().forEach(edge => {
+        const src = cy.getElementById(edge.data('source'));
+        const tgt = cy.getElementById(edge.data('target'));
+        if (src.hasClass('dimmed') || tgt.hasClass('dimmed')) {
+          edge.addClass('dimmed');
+        }
+      });
+    }
+
+    // 2. Node type filter → hide
     cy.nodes().forEach(node => {
-      const d = node.data();
-      const matchesCategory = activeCategories.size === 0 || activeCategories.has(d.category);
-      const matchesSearch = !searchQuery ||
-        d.label.toLowerCase().includes(searchQuery) ||
-        (d.tags || []).some(t => t.toLowerCase().includes(searchQuery)) ||
-        (d.summary || '').toLowerCase().includes(searchQuery);
-
-      if (!matchesCategory || !matchesSearch) {
+      if (!enabledNodeCategories.has(node.data('category'))) {
         node.addClass('hidden');
       }
     });
 
+    // 3. Edge type filter → hide edges that fail the filter
     cy.edges().forEach(edge => {
+      if (!edgePassesFilter(edge)) edge.addClass('hidden');
+    });
+
+    // 4. Orphan pruning from edge type filter:
+    //    visible nodes whose ALL connected edges failed the type filter → hide
+    const edgeFilterActive = enabledEdgeFilters.size < EDGE_FILTER_GROUPS.length;
+    if (edgeFilterActive) {
+      cy.nodes().not('.hidden').forEach(node => {
+        const total = node.connectedEdges().length;
+        if (total > 0) {
+          // Check if any edge passes the type filter for this node (ignoring node visibility)
+          const anyPassingEdge = node.connectedEdges().some(e => edgePassesFilter(e));
+          if (!anyPassingEdge) node.addClass('hidden');
+        }
+      });
+    }
+
+    // 5. Hide edges where either endpoint is hidden
+    cy.edges().not('.hidden').forEach(edge => {
       const src = cy.getElementById(edge.data('source'));
       const tgt = cy.getElementById(edge.data('target'));
       if (src.hasClass('hidden') || tgt.hasClass('hidden')) {
         edge.addClass('hidden');
       }
     });
+
+    // 6. Connectivity filter: hide nodes with fewer than N visible edges
+    if (minConnectivity > 0) {
+      cy.nodes().not('.hidden').forEach(node => {
+        const visEdges = node.connectedEdges().not('.hidden').length;
+        if (visEdges < minConnectivity) node.addClass('hidden');
+      });
+      // Re-hide edges from newly hidden nodes
+      cy.edges().not('.hidden').forEach(edge => {
+        const src = cy.getElementById(edge.data('source'));
+        const tgt = cy.getElementById(edge.data('target'));
+        if (src.hasClass('hidden') || tgt.hasClass('hidden')) {
+          edge.addClass('hidden');
+        }
+      });
+    }
   });
 
+  // Update stats and counts
   const visNodes = cy.nodes().not('.hidden').length;
   const visEdges = cy.edges().not('.hidden').length;
   updateStats(visNodes, visEdges, allNodes.length, allEdges.length);
+  updateNodeTypeCounts();
+}
+
+function edgePassesFilter(edge) {
+  const type       = edge.data('type');
+  const confidence = edge.data('confidence');
+
+  // Speculative filter — orthogonal to type
+  if (!enabledEdgeFilters.has('speculative') && confidence === 'speculative') return false;
+
+  // Main type filters
+  if (EDGE_FILTER_MAIN.has(type)) return enabledEdgeFilters.has(type);
+
+  // Everything else = "other"
+  return enabledEdgeFilters.has('other');
+}
+
+// ── Node Type Count Updates ───────────────────────────────────────────────────
+function updateNodeTypeCounts() {
+  if (!cy) return;
+  const totals  = {};
+  const visible = {};
+  cy.nodes().forEach(n => {
+    const cat = n.data('category');
+    totals[cat]  = (totals[cat]  || 0) + 1;
+    if (!n.hasClass('hidden')) visible[cat] = (visible[cat] || 0) + 1;
+  });
+  Object.keys(totals).forEach(cat => {
+    const el = document.getElementById(`sb-cat-count-${cat}`);
+    if (el) el.textContent = `${visible[cat] || 0}/${totals[cat]}`;
+  });
 }
 
 // ── Stats ─────────────────────────────────────────────────────────────────────

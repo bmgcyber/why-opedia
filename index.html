@@ -10,24 +10,74 @@
 
   <!-- Toolbar -->
   <div id="toolbar">
+    <button id="sidebar-toggle" title="Toggle filters panel" aria-expanded="true">☰</button>
     <div id="wordmark">Why<span>-opedia</span></div>
-
     <button id="fit-btn" title="Reset view">⊡</button>
-
-    <div id="search-wrap">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-      </svg>
-      <input id="search" type="text" placeholder="Search nodes, tags…" autocomplete="off" spellcheck="false" />
-    </div>
-
-    <div id="filters">
-      <!-- Populated by app.js -->
-    </div>
-
     <a id="contribute-link" href="https://github.com/bmgcyber/why-opedia/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">
       + Contribute
     </a>
+  </div>
+
+  <!-- Left sidebar -->
+  <div id="sidebar">
+    <div id="sidebar-inner">
+
+      <!-- 1. Search -->
+      <div class="sb-section sb-search-section">
+        <div class="sb-search-wrap">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input id="sb-search" type="text" placeholder="Search nodes…" autocomplete="off" spellcheck="false" />
+        </div>
+      </div>
+      <!-- Autocomplete is position:fixed, appended to body by JS -->
+
+      <!-- 2. Neighborhood Explorer (hidden until node selected) -->
+      <div id="sb-neighborhood" class="sb-section" hidden>
+        <div class="sb-section-header">
+          <span>Neighborhood</span>
+        </div>
+        <div id="sb-nb-title" class="sb-nb-title"></div>
+        <div class="sb-nb-depth-row">
+          <span class="sb-label">Depth</span>
+          <div class="sb-depth-buttons">
+            <button class="sb-depth-btn active" data-depth="1">1</button>
+            <button class="sb-depth-btn" data-depth="2">2</button>
+            <button class="sb-depth-btn" data-depth="3">3</button>
+          </div>
+        </div>
+        <button id="sb-nb-clear" class="sb-clear-btn">✕ Clear selection</button>
+      </div>
+
+      <!-- 3. Node Type Filters -->
+      <div class="sb-section">
+        <div class="sb-section-header">Node Types</div>
+        <div id="sb-node-types" class="sb-checklist"></div>
+      </div>
+
+      <!-- 4. Edge Type Filters -->
+      <div class="sb-section">
+        <div class="sb-section-header">Edge Types</div>
+        <div id="sb-edge-types" class="sb-checklist"></div>
+      </div>
+
+      <!-- 5. Connectivity Filter -->
+      <div class="sb-section">
+        <div class="sb-section-header">
+          <span>Connectivity</span>
+          <span id="sb-conn-display" class="sb-conn-display">≥ 0</span>
+        </div>
+        <div class="sb-slider-label">Min connections</div>
+        <input id="sb-conn-slider" type="range" min="0" max="50" value="0" class="sb-slider" />
+      </div>
+
+      <!-- 6. Reset All -->
+      <div class="sb-reset-section">
+        <button id="sb-reset" class="sb-reset-btn">Reset All Filters</button>
+      </div>
+
+    </div>
   </div>
 
   <!-- Graph canvas -->
