@@ -2761,5 +2761,122 @@
     "label": "Both show situational factors produce cruelty in ordinary people",
     "note": "Together, the Milgram and Stanford Prison experiments established the situationist case: ordinary people will commit cruelty when placed in contexts that legitimize it — regardless of individual character. Both were designed to understand how ordinary people commit atrocity; both produced results that disturbed their designers. They form the empirical foundation for moral disengagement and in-group/out-group dynamics as mechanisms.",
     "confidence": "high"
+  },
+  {
+    "id": "pre_socratic_philosophy__socrates",
+    "source": "pre_socratic_philosophy",
+    "target": "socrates",
+    "type": "ENABLED",
+    "label": "Pre-Socratics established rational inquiry Socrates inherited",
+    "note": "Socrates emerged from the pre-Socratic tradition: Anaxagoras' influence on Athenian intellectual life directly shaped young Socrates. But Socrates redirected philosophy from cosmology (what is the universe made of?) to ethics (how should we live?) — a pivot made possible only because the pre-Socratics had already established that the world could be interrogated through reason rather than myth.",
+    "confidence": "high"
+  },
+  {
+    "id": "socrates__socratic_method",
+    "source": "socrates",
+    "target": "socratic_method",
+    "type": "PRODUCED",
+    "label": "Socrates invented and embodied the questioning method",
+    "note": "The Socratic method was not theorized by Socrates but practiced. Plato's dialogues record Socrates questioning interlocutors — politicians, poets, craftsmen — until they reach aporia, the productive bewilderment of realizing their ignorance. The method was inseparable from the man: his entire philosophical mission was the conviction that an unexamined life is not worth living.",
+    "confidence": "high"
+  },
+  {
+    "id": "socrates__plato",
+    "source": "socrates",
+    "target": "plato",
+    "type": "ENABLED",
+    "label": "Plato built his entire philosophical system on Socrates",
+    "note": "Plato's philosophical project was largely a response to and elaboration of Socratic inquiry: systematizing the search for universal definitions, developing the Theory of Forms as an answer to Socratic questions about universals, and constructing in the Republic a political philosophy grounded in Socratic ethics. Socrates' execution turned Plato away from political life toward philosophy — the founding trauma of Western thought.",
+    "confidence": "high"
+  },
+  {
+    "id": "plato__platonic_idealism",
+    "source": "plato",
+    "target": "platonic_idealism",
+    "type": "PRODUCED",
+    "label": "Plato systematized idealism in his Theory of Forms",
+    "note": "Platonic Idealism is Plato's central metaphysical doctrine, developed across the middle and late dialogues. Plato produced it not as abstract theory but as an answer to Socratic problems: what are beauty, justice, and virtue if not the imperfect material instances we encounter? The Forms answered this by positing that perfect universals exist beyond the material world — a move with consequences for theology and politics for two thousand years.",
+    "confidence": "high"
+  },
+  {
+    "id": "plato__aristotle",
+    "source": "plato",
+    "target": "aristotle",
+    "type": "ENABLED",
+    "label": "Aristotle studied 20 years at Plato's Academy",
+    "note": "Aristotle studied at Plato's Academy from age 17 until Plato's death — 20 years. Much of Aristotle's philosophical program is a systematic critique and revision of Platonism: rejecting transcendent Forms in favor of immanent form, privileging empirical observation over pure reason, and grounding ethics in practical wisdom rather than contemplation of ideal Forms. The two great pillars of Western philosophy define themselves against each other.",
+    "confidence": "high"
+  },
+  {
+    "id": "aristotle__aristotelian_logic",
+    "source": "aristotle",
+    "target": "aristotelian_logic",
+    "type": "PRODUCED",
+    "label": "Aristotle invented formal logic with no predecessors",
+    "note": "Aristotle's Prior Analytics and Organon represented the first formal theory of valid deductive inference in recorded history. He invented the syllogism and established rules for valid argument forms from scratch — work so complete that Kant noted two thousand years later that logic had made no essential advance since Aristotle. It became the foundational intellectual technology of Western philosophy, theology, and law.",
+    "confidence": "high"
+  },
+  {
+    "id": "aristotle__hellenistic_philosophy",
+    "source": "aristotle",
+    "target": "hellenistic_philosophy",
+    "type": "ENABLED",
+    "label": "Aristotle's student Alexander created the Hellenistic world",
+    "note": "Aristotle tutored Alexander the Great from 343–340 BCE. Alexander's conquests (334–323 BCE) spread Greek language, culture, and philosophy across Egypt, Persia, and Central Asia — creating the cosmopolitan Hellenistic world in which Stoicism, Epicureanism, and the synthesis of Greek with Eastern thought became possible. Aristotle's student thus physically created the conditions for the next phase of Greek philosophy.",
+    "confidence": "high"
+  },
+  {
+    "id": "hellenistic_philosophy__stoicism",
+    "source": "hellenistic_philosophy",
+    "target": "stoicism",
+    "type": "ENABLED",
+    "label": "Hellenistic dissolution of the polis produced Stoic ethics",
+    "note": "Stoicism emerged from the specific conditions of the Hellenistic period: Alexander's conquests had dissolved the polis as the primary unit of Greek identity, creating a cosmopolitan world in which the individual faced fate without city-state community. Stoicism offered a philosophical response — finding security in what was within one's own control (virtue, reason) rather than external fortune. The philosophy was structurally adapted to political powerlessness.",
+    "confidence": "high"
+  },
+  {
+    "id": "hellenistic_philosophy__epicureanism",
+    "source": "hellenistic_philosophy",
+    "target": "epicureanism",
+    "type": "ENABLED",
+    "label": "Hellenistic uncertainty produced Epicurean withdrawal",
+    "note": "Epicureanism was the other major Hellenistic response to the dissolution of the polis: if the political community cannot guarantee wellbeing, cultivate private happiness through friendship, simple pleasures, and philosophical understanding. Both Stoicism and Epicureanism were responses to the same historical question — how to live well in a world beyond one's political control — and they represent opposite strategies: rational acceptance vs. strategic withdrawal.",
+    "confidence": "high"
+  },
+  {
+    "id": "stoicism__roman_empire",
+    "source": "stoicism",
+    "target": "roman_empire",
+    "type": "ENABLED",
+    "label": "Stoicism was the governing philosophy of Rome's ruling class",
+    "note": "Stoicism became the dominant philosophy of Rome's educated governing class. Cicero's natural law theory — grounding universal law in reason and nature — derived from Stoic sources and became the foundation of Roman law. Marcus Aurelius (emperor 161–180 CE) practiced Stoicism as governing philosophy. Stoic concepts of logos, natural law, and cosmopolitan citizenship were absorbed into both Roman governance and early Christian theology, shaping the empire's self-understanding.",
+    "confidence": "high"
+  },
+  {
+    "id": "platonic_idealism__rise_of_christianity",
+    "source": "platonic_idealism",
+    "target": "rise_of_christianity",
+    "type": "ENABLED",
+    "label": "Augustine synthesized Platonism with Christian theology",
+    "note": "Augustine of Hippo (354–430 CE) used Neoplatonic philosophy — Plotinus' elaboration of Plato — as the framework for systematizing Christian theology. He identified Plato's Good with the Christian God, the Forms with divine ideas, and Plato's critique of the material world with Christian suspicion of the flesh. Augustine's synthesis was so complete that medieval Christianity is impossible to understand without Platonic Idealism — it provided the metaphysical language for God, soul, sin, and salvation.",
+    "confidence": "high"
+  },
+  {
+    "id": "hellenistic_philosophy__rise_of_christianity",
+    "source": "hellenistic_philosophy",
+    "target": "rise_of_christianity",
+    "type": "ENABLED",
+    "label": "Greek philosophy provided intellectual architecture of Christianity",
+    "note": "Christianity emerged in a thoroughly Hellenized world: the logos concept (John 1:1) was Stoic; Paul preached in Greek to Greek-speaking audiences; the Gospel of John directly engaged Platonic concepts. The Neoplatonist synthesis provided the philosophical framework Augustine used to construct Catholic theology. Without Hellenistic philosophy, Christianity as a developed theological system — with Trinity doctrine, natural law ethics, and soul-body dualism — is inconceivable.",
+    "confidence": "high"
+  },
+  {
+    "id": "socratic_method__broken_epistemology",
+    "source": "socratic_method",
+    "target": "broken_epistemology",
+    "type": "DISCREDITED",
+    "label": "Socratic questioning is the systematic antidote to bad epistemics",
+    "note": "Broken epistemology describes the condition in which communities lose the ability to distinguish true from false claims. The Socratic method is the original formal tool for diagnosing this condition: by exposing the unexamined premises and internal contradictions within any belief system, Socratic dialogue forces epistemic humility. Every modern tradition of critical thinking — scientific peer review, adversarial legal systems, Socratic law school pedagogy — is a structural descendant of this mechanism.",
+    "confidence": "high"
   }
 ]

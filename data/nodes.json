@@ -2730,5 +2730,103 @@
       "cruelty",
       "situationism"
     ]
+  },
+  {
+    "id": "pre_socratic_philosophy",
+    "label": "Pre-Socratic Philosophy",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pre-Socratic_philosophy",
+    "summary": "The earliest Greek philosophical tradition (c. 600–400 BCE), in which thinkers like Thales, Anaximander, Heraclitus, and Parmenides attempted to explain nature through rational principles rather than mythological narrative. For the first time in the Western tradition, systematic reasoning rather than divine authority was offered as the basis for understanding reality — establishing the foundational premise that the world can be understood by the human mind, independent of revelation.",
+    "decade": "600s BCE",
+    "tags": ["philosophy", "greece", "ancient", "reason", "cosmology", "rationalism"]
+  },
+  {
+    "id": "socrates",
+    "label": "Socrates (c. 470–399 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Socrates",
+    "summary": "Athenian philosopher regarded as the founder of Western moral philosophy. Socrates left no written works; his ideas survive through Plato's dialogues. He invented philosophical inquiry through relentless questioning — exposing contradictions in interlocutors' beliefs and claiming to be wise only in knowing that he knew nothing. He was tried and executed in 399 BCE for impiety and corrupting the youth of Athens, becoming the first martyr of philosophy and demonstrating that honest inquiry is a political threat to any society built on unexamined belief.",
+    "decade": "400s BCE",
+    "tags": ["philosophy", "athens", "greece", "ancient", "ethics", "inquiry"]
+  },
+  {
+    "id": "socratic_method",
+    "label": "Socratic Method",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "A form of cooperative argumentative dialogue in which a questioner systematically dismantles an interlocutor's claimed knowledge by exposing its internal contradictions — producing aporia (the recognition of one's own ignorance) as the first step toward genuine understanding. As a mechanism, it formalizes epistemic humility: the idea that holding beliefs up to rigorous questioning is both the foundation of honest inquiry and a social threat to any system whose authority rests on unexamined premises. Every modern tradition of critical thinking — scientific peer review, adversarial legal systems, Socratic pedagogy — derives from this structure.",
+    "decade": "400s BCE",
+    "tags": ["philosophy", "epistemology", "method", "dialogue", "inquiry", "critical-thinking"]
+  },
+  {
+    "id": "plato",
+    "label": "Plato (c. 428–348 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Plato",
+    "summary": "Athenian philosopher, student of Socrates and teacher of Aristotle, whose dialogues established the central problems of Western philosophy. Plato founded the Academy in Athens (c. 387 BCE), the first institution of higher learning in the Western world. His Theory of Forms — that material objects are imperfect copies of ideal, eternal, perfect Forms — shaped theology, mathematics, and political theory for two millennia. His Republic outlined a model of justice and the ideal state governed by philosopher-kings, launching the tradition of utopian political philosophy.",
+    "decade": "400s BCE",
+    "tags": ["philosophy", "athens", "greece", "ancient", "idealism", "politics", "education"]
+  },
+  {
+    "id": "platonic_idealism",
+    "label": "Platonic Idealism",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Platonic_idealism",
+    "summary": "Plato's metaphysical doctrine that the material world is a shadow or imperfect reflection of a higher realm of eternal, perfect, unchanging Forms. As an ideology, Platonic Idealism provided the philosophical infrastructure for Christian theology (Augustine identified the Forms with ideas in the mind of God), justified hierarchical governance by those with access to higher truth, and established the template for every idealist political project that subordinates material reality to a transcendent ideal — from medieval Christendom to modern totalitarianisms that claim to embody History or the Nation.",
+    "decade": "300s BCE",
+    "tags": ["philosophy", "metaphysics", "idealism", "forms", "theology", "politics"]
+  },
+  {
+    "id": "aristotle",
+    "label": "Aristotle (384–322 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aristotle",
+    "summary": "Greek philosopher and polymath, student of Plato and tutor of Alexander the Great. Aristotle's systematic writings on logic, biology, physics, metaphysics, ethics, politics, rhetoric, and poetics defined the boundaries of Western knowledge for nearly two thousand years. Where Plato sought the ideal, Aristotle studied the actual: he developed empirical methods of inquiry, taxonomic classification, and formal logic. His concept of the good life as eudaimonia — flourishing through virtuous activity — became the foundation of virtue ethics.",
+    "decade": "300s BCE",
+    "tags": ["philosophy", "greece", "ancient", "logic", "ethics", "science", "empiricism"]
+  },
+  {
+    "id": "aristotelian_logic",
+    "label": "Aristotelian Logic",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Aristotle's system of formal deductive reasoning, centered on the syllogism: a three-part argument in which a conclusion follows necessarily from two premises. For over two thousand years, Aristotelian logic was the sole formal theory of valid inference in the West. As a mechanism, it represents the foundational technology of structured argument — codifying the rules by which claims can be shown to follow necessarily from other claims, and providing the framework within which virtually all subsequent Western philosophy, theology, law, and science was conducted.",
+    "decade": "300s BCE",
+    "tags": ["philosophy", "logic", "reasoning", "deduction", "argument", "formalism"]
+  },
+  {
+    "id": "stoicism",
+    "label": "Stoicism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stoicism",
+    "summary": "Greek philosophical school founded by Zeno of Citium c. 300 BCE, which taught that virtue alone constitutes the good life, that external events are indifferent, and that emotional suffering arises from false judgments about what is within our control. In its Roman form (Epictetus, Seneca, Marcus Aurelius), Stoicism became the dominant philosophy of the Roman ruling class. Its influence shaped Christian ethics, the concept of natural law that grounded Roman and international law, and contemporary cognitive-behavioral therapy.",
+    "decade": "300s BCE",
+    "tags": ["philosophy", "greece", "rome", "ethics", "virtue", "self-control", "natural-law"]
+  },
+  {
+    "id": "epicureanism",
+    "label": "Epicureanism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Epicureanism",
+    "summary": "Greek philosophical school founded by Epicurus c. 307 BCE, which taught that the highest good is pleasure — specifically the absence of pain and anxiety, not sensory indulgence. Epicurus advocated withdrawal from public life into communities of friendship, atomic materialism (the soul dissolves at death, no divine providence), and living simply. Epicurean ethics provided an alternative to both Platonic idealism and Stoic duty, prioritizing individual flourishing, and influenced Enlightenment materialism, liberalism, and secular humanism.",
+    "decade": "300s BCE",
+    "tags": ["philosophy", "greece", "ethics", "materialism", "pleasure", "secularism", "friendship"]
+  },
+  {
+    "id": "hellenistic_philosophy",
+    "label": "Hellenistic Philosophy",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hellenistic_philosophy",
+    "summary": "The diverse philosophical movements of the Hellenistic period (c. 323–31 BCE) following Alexander the Great's conquests, including Stoicism, Epicureanism, Skepticism, and Cynicism. Hellenistic philosophy shifted the focus from cosmology and politics to individual ethics — how to live well in a world of uncertainty. The period also saw the first synthesis of Greek philosophy with Persian, Egyptian, and Jewish traditions, preparing the intellectual ground for Neoplatonism, rabbinic Judaism, and the emergence of Christianity.",
+    "decade": "300s BCE",
+    "tags": ["philosophy", "greece", "hellenism", "ethics", "syncretism", "cosmopolitanism"]
   }
 ]
