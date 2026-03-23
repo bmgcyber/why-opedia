@@ -2156,5 +2156,105 @@
     "summary": "The structural dynamic by which Middle Eastern oil reserves — controlling the majority of global proven reserves — make the region of existential strategic interest to industrial economies. Oil revenue funds authoritarian regimes, funds religious movements, distorts political development, and makes Western powers willing to support dictators, overthrow democrats, and fight wars to maintain access and friendly governments.",
     "decade": "1950s–present",
     "tags": ["mechanism", "oil", "imperialism", "middle_east", "geopolitics"]
+  },
+  {
+    "id": "wahhabism_salafism",
+    "label": "Wahhabism and Salafism",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wahhabism",
+    "summary": "The ultraconservative Sunni Islamic reform movements originating with Muhammad ibn Abd al-Wahhab in 18th-century Arabia, adopted as the state ideology of Saudi Arabia. Saudi oil revenues funded the global export of Wahhabism from the 1970s onward, financing mosques, madrassas, and religious institutions worldwide and displacing local Islamic traditions with a more literalist, exclusivist theology that provided ideological infrastructure for jihadist movements.",
+    "decade": "1740s–present",
+    "tags": ["religion", "ideology", "islamism", "saudi_arabia", "radicalization"]
+  },
+  {
+    "id": "soviet_afghan_war",
+    "label": "Soviet-Afghan War (1979–1989)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War",
+    "summary": "The decade-long conflict following the Soviet invasion of Afghanistan in December 1979, in which CIA-backed, Saudi-financed Afghan mujahideen fighters — supplemented by foreign volunteers including Osama bin Laden — fought Soviet forces to a strategic stalemate. The US saw it as a successful proxy war against the USSR; the aftermath created the conditions for the Taliban and al-Qaeda.",
+    "decade": "1979–1989",
+    "tags": ["history", "cold_war", "afghanistan", "cia", "islamism"]
+  },
+  {
+    "id": "rise_of_al_qaeda",
+    "label": "Rise of Al-Qaeda",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Al-Qaeda",
+    "summary": "The formation and growth of al-Qaeda as a transnational jihadist organization, founded by Osama bin Laden in 1988 from the network of Arab volunteers assembled in Afghanistan during the Soviet war. Al-Qaeda applied the infrastructure, veterans, and ideology of the Afghan jihad to a global campaign against the United States and Western presence in Muslim countries.",
+    "decade": "1980s–2000s",
+    "tags": ["terrorism", "islamism", "al_qaeda", "afghanistan", "radicalization"]
+  },
+  {
+    "id": "september_11_attacks",
+    "label": "September 11 Attacks (2001)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/September_11_attacks",
+    "summary": "Al-Qaeda's coordinated suicide attacks using hijacked commercial aircraft against the World Trade Center and Pentagon, killing nearly 3,000 people. The attacks triggered the US invasion of Afghanistan, the War on Terror, the invasion of Iraq, the Patriot Act's surveillance expansion, and a generational restructuring of US foreign policy and domestic security — producing consequences that dwarfed the original attacks in scale.",
+    "decade": "2000s",
+    "tags": ["history", "terrorism", "usa", "al_qaeda", "war_on_terror"]
+  },
+  {
+    "id": "gulf_war_1990",
+    "label": "Gulf War (1990–1991)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gulf_War",
+    "summary": "Iraq's invasion of Kuwait in August 1990 and the US-led coalition's military expulsion of Iraqi forces, resulting in Kuwait's liberation but Saddam Hussein remaining in power. The stationing of US troops in Saudi Arabia after the war became bin Laden's central grievance against the US, and Saddam's survival set the stage for the 2003 Iraq War.",
+    "decade": "1990s",
+    "tags": ["history", "middle_east", "war", "iraq", "usa"]
+  },
+  {
+    "id": "oslo_accords",
+    "label": "Oslo Accords (1993)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oslo_Accords",
+    "summary": "Secret negotiations between Israel and the PLO that produced mutual recognition and a framework for Palestinian self-governance through the Palestinian Authority. The accords created the two-state solution framework but without resolving final-status issues: borders, Jerusalem, refugees, or settlements. The peace process stalled and collapsed, and the Palestinian Authority became associated with corruption and ineffectiveness.",
+    "decade": "1990s",
+    "tags": ["history", "middle_east", "peace_process", "israel", "palestine"]
+  },
+  {
+    "id": "arab_spring",
+    "label": "Arab Spring (2010–2012)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arab_Spring",
+    "summary": "The wave of pro-democracy uprisings across the Arab world beginning with Tunisia's Jasmine Revolution in late 2010, spreading to Egypt, Libya, Bahrain, Yemen, and Syria. Most transitions either failed (Egypt returning to military dictatorship after 2013) or collapsed into civil war (Libya, Yemen, Syria). The Arab Spring demonstrated both the aspirations for democratic governance and the fragility of Arab state structures.",
+    "decade": "2010s",
+    "tags": ["history", "middle_east", "democracy", "revolution", "arab_world"]
+  },
+  {
+    "id": "syrian_civil_war",
+    "label": "Syrian Civil War (2011–present)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Syrian_civil_war",
+    "summary": "The multi-sided civil war that erupted when Assad's government violently suppressed Arab Spring protests, producing the world's largest refugee crisis (over 6 million external refugees, 6 million internally displaced), over 300,000 deaths, the near-destruction of major cities, Russian and Iranian military intervention, US proxy warfare, and the rise and partial defeat of ISIS.",
+    "decade": "2010s–present",
+    "tags": ["history", "middle_east", "war", "syria", "refugees"]
+  },
+  {
+    "id": "isis_rise",
+    "label": "Rise of ISIS (Islamic State)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Islamic_State",
+    "summary": "The emergence of the Islamic State in Iraq and Syria (ISIS) from the remnants of al-Qaeda in Iraq, growing from a weakened insurgency to the capture of Mosul and vast territories in Iraq and Syria in 2014. ISIS combined jihadist ideology with state-building, executing mass atrocities, genociding the Yazidis, and inspiring attacks worldwide before its territorial defeat in 2019.",
+    "decade": "2010s",
+    "tags": ["history", "terrorism", "islamism", "iraq", "syria"]
+  },
+  {
+    "id": "israel_palestine_conflict",
+    "label": "Israeli-Palestinian Conflict (ongoing)",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_conflict",
+    "summary": "The ongoing conflict between Israelis and Palestinians over territory, sovereignty, security, and the rights of Palestinian refugees and residents under occupation. Rooted in the Nakba and the founding of Israel, the conflict has produced multiple wars, intifadas, occupation, siege, and sustained violence, with no resolution in sight as two peoples claim the same land.",
+    "decade": "1948–present",
+    "tags": ["history", "middle_east", "israel", "palestine", "occupation"]
   }
 ]

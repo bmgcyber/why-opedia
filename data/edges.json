@@ -2248,5 +2248,140 @@
     "label": "Zionist movement achieved its state-building goal",
     "note": "Israel's founding was the direct political achievement of the Zionist movement's fifty-year program of aliyah (immigration), institution-building, international lobbying, and armed resistance. The state was the movement's declared objective from Herzl's Der Judenstaat (1896) onward.",
     "confidence": "high"
+  },
+  {
+    "id": "nakba__israel_palestine_conflict",
+    "source": "nakba",
+    "target": "israel_palestine_conflict",
+    "type": "CAUSED",
+    "label": "Displacement became the irresolvable core",
+    "note": "The Nakba's creation of 700,000 refugees — and Israel's refusal to permit their return — became the foundational, irresolvable grievance of Palestinian nationalism. The right of return has been the insurmountable obstacle in every peace negotiation, making the Nakba not merely a historical event but an ongoing structural condition of the conflict.",
+    "confidence": "high"
+  },
+  {
+    "id": "founding_of_israel__israel_palestine_conflict",
+    "source": "founding_of_israel",
+    "target": "israel_palestine_conflict",
+    "type": "PRODUCED",
+    "label": "Founding produced the structural conflict",
+    "note": "The founding of Israel on territory inhabited by a Palestinian Arab majority — with no agreement on how the two peoples would coexist — structurally produced the ongoing conflict. The question of Palestinian political rights, refugees, and territorial sovereignty has been unresolved since 1948.",
+    "confidence": "high"
+  },
+  {
+    "id": "oil_geopolitics__wahhabism_salafism",
+    "source": "oil_geopolitics",
+    "target": "wahhabism_salafism",
+    "type": "ENABLED",
+    "label": "Saudi oil revenue exported Wahhabism globally",
+    "note": "The 1973 oil embargo's fourfold price increase gave Saudi Arabia vast petroleum revenues, which it spent from the late 1970s onward funding the global propagation of Wahhabi Islam: building mosques, funding madrassas, training imams, and distributing religious literature worldwide. Oil money transformed a fringe Arabian theology into a global force.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war__soviet_afghan_war",
+    "source": "cold_war",
+    "target": "soviet_afghan_war",
+    "type": "CAUSED",
+    "label": "Cold War rivalry drove the Soviet invasion",
+    "note": "The Soviet invasion of Afghanistan in December 1979 was driven by Cold War logic: the USSR feared losing a client state on its southern border to Islamist insurgency. The US response — funding and arming the mujahideen through the CIA's Operation Cyclone — was equally Cold War-driven, treating Afghanistan as a proxy battlefield to bleed the Soviet military.",
+    "confidence": "high"
+  },
+  {
+    "id": "wahhabism_salafism__soviet_afghan_war",
+    "source": "wahhabism_salafism",
+    "target": "soviet_afghan_war",
+    "type": "ENABLED",
+    "label": "Wahhabi ideology recruited foreign fighters",
+    "note": "Saudi Arabia used Wahhabi religious framing to recruit Arab volunteer fighters (Arab Afghans) for the jihad against the Soviet Union, channeling both ideology and money through Pakistani ISI and Afghan mujahideen networks. The war was explicitly framed as a religious obligation under Wahhabi doctrine, legitimizing international jihadist mobilization.",
+    "confidence": "high"
+  },
+  {
+    "id": "soviet_afghan_war__rise_of_al_qaeda",
+    "source": "soviet_afghan_war",
+    "target": "rise_of_al_qaeda",
+    "type": "PRODUCED",
+    "label": "Afghan war built al-Qaeda's network and ideology",
+    "note": "The Soviet-Afghan War assembled the personnel (Arab Afghan veterans), infrastructure (training camps, smuggling networks, recruitment channels), financial systems, and combat experience that Osama bin Laden organized into al-Qaeda in 1988. The war also produced the theological conviction that small groups of devoted Muslims could defeat superpowers, which became al-Qaeda's founding doctrine.",
+    "confidence": "high"
+  },
+  {
+    "id": "iranian_revolution_1979__rise_of_al_qaeda",
+    "source": "iranian_revolution_1979",
+    "target": "rise_of_al_qaeda",
+    "type": "ENABLED",
+    "label": "Revolution proved Islamism could seize state power",
+    "note": "Though al-Qaeda was Sunni and hostile to Shia Iran, the Iranian Revolution's demonstration that an Islamist movement could overthrow a US-backed government and establish a theocratic state was a proof of concept that inspired Sunni Islamists. It demonstrated that political Islam could be a vehicle for state power, not just personal piety.",
+    "confidence": "medium"
+  },
+  {
+    "id": "gulf_war_1990__rise_of_al_qaeda",
+    "source": "gulf_war_1990",
+    "target": "rise_of_al_qaeda",
+    "type": "CAUSED",
+    "label": "US bases in Saudi Arabia became bin Laden's casus belli",
+    "note": "When Saudi Arabia invited US troops to base on Saudi soil for the Gulf War — and those troops remained after the war — Osama bin Laden declared it a desecration of holy land and redirected al-Qaeda from regional to global jihad against the United States. The Gulf War converted al-Qaeda from a regional Afghan-focused organization to a transnational anti-American terrorist group.",
+    "confidence": "high"
+  },
+  {
+    "id": "rise_of_al_qaeda__september_11_attacks",
+    "source": "rise_of_al_qaeda",
+    "target": "september_11_attacks",
+    "type": "CAUSED",
+    "label": "Al-Qaeda planned and executed the attacks",
+    "note": "The September 11 attacks were planned, funded, and executed by al-Qaeda's operational infrastructure. The Hamburg cell, the Afghan training camps, the financial network, and bin Laden's strategic direction were all al-Qaeda assets assembled over the preceding decade.",
+    "confidence": "high"
+  },
+  {
+    "id": "september_11_attacks__syrian_civil_war",
+    "source": "september_11_attacks",
+    "target": "syrian_civil_war",
+    "type": "ENABLED",
+    "label": "War on Terror destabilized the region enabling Syria",
+    "note": "The 2003 US invasion of Iraq — directly triggered by 9/11 — destroyed the Iraqi state, produced a Sunni insurgency, and created the conditions for al-Qaeda in Iraq, which became ISIS. US weapons and trained fighters flooded the region. The power vacuum and sectarian conflict exported by the Iraq War were structural preconditions for the Syrian Civil War's jihadist dimension.",
+    "confidence": "medium"
+  },
+  {
+    "id": "arab_spring__syrian_civil_war",
+    "source": "arab_spring",
+    "target": "syrian_civil_war",
+    "type": "CAUSED",
+    "label": "Arab Spring protests triggered Assad's violent crackdown",
+    "note": "Syrian pro-democracy protests beginning in March 2011 — directly inspired by the Arab Spring's Tunisian and Egyptian successes — were met by Assad's security forces with live ammunition, mass arrests, and torture. This violent suppression of peaceful protest militarized the opposition and triggered civil war within months.",
+    "confidence": "high"
+  },
+  {
+    "id": "syrian_civil_war__isis_rise",
+    "source": "syrian_civil_war",
+    "target": "isis_rise",
+    "type": "ENABLED",
+    "label": "Syrian power vacuum gave ISIS territory",
+    "note": "The Syrian Civil War's fragmentation of state authority created the ungoverned spaces in eastern Syria that ISIS needed to establish its self-declared caliphate. By 2013, ISIS was exploiting Syria's chaos to expand its territorial control from Iraq into Syria, using Syrian oil fields, weapons stocks, and foreign fighter recruitment to build its state.",
+    "confidence": "high"
+  },
+  {
+    "id": "isis_rise__israel_palestine_conflict",
+    "source": "isis_rise",
+    "target": "israel_palestine_conflict",
+    "type": "ENABLED",
+    "label": "ISIS reframed Palestinian cause as global jihad",
+    "note": "ISIS's rise and its explicit claim to speak for global Sunni Islam complicated the Palestinian cause internationally — Western governments increasingly conflated Palestinian resistance with jihadist terrorism, and ISIS's explicit statements about Israel provided justification for Israeli security arguments. ISIS's rise shifted the regional security framework in ways that disadvantaged Palestinian political claims.",
+    "confidence": "speculative"
+  },
+  {
+    "id": "oslo_accords__israel_palestine_conflict",
+    "source": "oslo_accords",
+    "target": "israel_palestine_conflict",
+    "type": "ENABLED",
+    "label": "Failed peace process deepened the conflict",
+    "note": "The Oslo Accords created the two-state framework but deferred every substantive issue. As the peace process stalled through the 1990s, continued Israeli settlement expansion made a viable Palestinian state increasingly impossible. Oslo's failure — particularly after Camp David 2000 — discredited moderate Palestinian leadership, strengthened Hamas, and produced the Second Intifada, deepening the conflict it was meant to resolve.",
+    "confidence": "high"
+  },
+  {
+    "id": "six_day_war_1967__israel_palestine_conflict",
+    "source": "six_day_war_1967",
+    "target": "israel_palestine_conflict",
+    "type": "CAUSED",
+    "label": "Occupation created the defining modern conflict",
+    "note": "Israel's capture of the West Bank and Gaza Strip in 1967 placed the entire Palestinian population under Israeli military control, creating the occupation that defines the modern conflict. Every subsequent Israeli-Palestinian confrontation — the intifadas, settlements, blockade of Gaza, military operations — flows from the occupation that began in June 1967.",
+    "confidence": "high"
   }
 ]
