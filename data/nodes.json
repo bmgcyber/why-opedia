@@ -7,7 +7,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Fat_acceptance_movement",
     "summary": "Social movement advocating for dignity and reduced discrimination toward people of larger body size. Contains legitimate advocacy and ideological capture in tension.",
     "decade": "1960s–Ongoing",
-    "tags": ["identity", "health", "psychology", "social"]
+    "tags": [
+      "identity",
+      "health",
+      "psychology",
+      "social"
+    ]
   },
   {
     "id": "healthy_at_every_size",
@@ -17,7 +22,11 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Health_at_every_size",
     "summary": "Framework claiming body size is not a reliable indicator of health. Strong form conflicts with documented epidemiological evidence.",
     "decade": "2000s–Ongoing",
-    "tags": ["health", "ideology", "medical"]
+    "tags": [
+      "health",
+      "ideology",
+      "medical"
+    ]
   },
   {
     "id": "identity_capture",
@@ -26,7 +35,11 @@
     "category": "mechanism",
     "summary": "The process by which a condition, struggle, or interest becomes so central to self-concept that improvement or exit threatens identity and community belonging.",
     "decade": "Ongoing",
-    "tags": ["psychology", "mechanism", "community"]
+    "tags": [
+      "psychology",
+      "mechanism",
+      "community"
+    ]
   },
   {
     "id": "incel_community",
@@ -36,7 +49,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Incel",
     "summary": "Online community of self-identified involuntary celibates. Characterized by external attribution of failure, misogyny, and ideological frameworks that prevent self-examination.",
     "decade": "2010s–Ongoing",
-    "tags": ["community", "psychology", "identity", "misogyny"]
+    "tags": [
+      "community",
+      "psychology",
+      "identity",
+      "misogyny"
+    ]
   },
   {
     "id": "brony_fandom",
@@ -46,7 +64,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Brony",
     "summary": "Adult male fanbase of My Little Pony: Friendship is Magic. Characterized by intense identity attachment to children's media, often associated with social alienation and identity displacement.",
     "decade": "2010s–Ongoing",
-    "tags": ["community", "fandom", "psychology", "identity"]
+    "tags": [
+      "community",
+      "fandom",
+      "psychology",
+      "identity"
+    ]
   },
   {
     "id": "furry_fandom",
@@ -56,7 +79,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Furry_fandom",
     "summary": "Subculture centered on anthropomorphic animal characters. Notable for fursona identity displacement, high rate of sexual content, and documented community predation issues.",
     "decade": "1980s–Ongoing",
-    "tags": ["community", "fandom", "psychology", "identity"]
+    "tags": [
+      "community",
+      "fandom",
+      "psychology",
+      "identity"
+    ]
   },
   {
     "id": "chronic_illness_online_communities",
@@ -66,7 +94,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Online_patient_community",
     "summary": "Online forums organized around shared medical conditions. Can provide genuine support but frequently develop identity reward structures that discourage recovery and amplify worst-case narratives.",
     "decade": "2000s–Ongoing",
-    "tags": ["community", "medical", "psychology", "identity"]
+    "tags": [
+      "community",
+      "medical",
+      "psychology",
+      "identity"
+    ]
   },
   {
     "id": "medical_weight_bias",
@@ -76,7 +109,11 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Weight_discrimination",
     "summary": "Documented tendency of healthcare providers to attribute symptoms to weight first, leading to missed diagnoses and reduced care quality for patients with obesity.",
     "decade": "Ongoing",
-    "tags": ["medical", "bias", "health"]
+    "tags": [
+      "medical",
+      "bias",
+      "health"
+    ]
   },
   {
     "id": "mk_ultra",
@@ -86,7 +123,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Project_MKUltra",
     "summary": "CIA program running from the 1950s–1970s conducting non-consensual human experimentation including LSD dosing, psychological torture, and collaboration with former Nazi scientists. Partially exposed by the Church Committee in 1975.",
     "decade": "1950s–1970s",
-    "tags": ["government", "CIA", "conspiracy", "history", "documented_atrocity"]
+    "tags": [
+      "government",
+      "CIA",
+      "conspiracy",
+      "history",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "church_committee",
@@ -96,7 +139,11 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Church_Committee",
     "summary": "1975 U.S. Senate select committee that investigated and exposed abuses by the CIA, FBI, and NSA including MK Ultra, COINTELPRO, and illegal domestic surveillance.",
     "decade": "1970s",
-    "tags": ["government", "history", "accountability"]
+    "tags": [
+      "government",
+      "history",
+      "accountability"
+    ]
   },
   {
     "id": "broken_epistemology",
@@ -105,7 +152,11 @@
     "category": "mechanism",
     "summary": "Condition in which a person or group loses reliable tools to distinguish credible evidence from false claims. Often produced when legitimate institutional betrayal removes trust without replacing it with better reasoning frameworks.",
     "decade": "Ongoing",
-    "tags": ["psychology", "mechanism", "epistemology"]
+    "tags": [
+      "psychology",
+      "mechanism",
+      "epistemology"
+    ]
   },
   {
     "id": "conspiracy_theory_grifters",
@@ -115,7 +166,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Conspiracy_theory",
     "summary": "Actors who monetize unfalsifiable conspiracy frameworks, targeting populations with broken epistemology by supplying villain narratives that validate distrust of institutions.",
     "decade": "Ongoing",
-    "tags": ["grift", "conspiracy", "psychology", "economics"]
+    "tags": [
+      "grift",
+      "conspiracy",
+      "psychology",
+      "economics"
+    ]
   },
   {
     "id": "corporate_regulatory_capture",
@@ -125,7 +181,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Regulatory_capture",
     "summary": "Process by which regulatory agencies meant to act in public interest come to serve the industries they regulate. Documented extensively in FDA, EPA, and financial regulation contexts.",
     "decade": "Ongoing",
-    "tags": ["economics", "government", "corporate", "documented"]
+    "tags": [
+      "economics",
+      "government",
+      "corporate",
+      "documented"
+    ]
   },
   {
     "id": "pfas_microplastics",
@@ -135,7 +196,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Microplastics",
     "summary": "Widespread environmental and biological contamination from synthetic chemicals and plastics. Understudied relative to exposure, with regulatory response shaped by corporate influence.",
     "decade": "1950s–Ongoing",
-    "tags": ["environment", "health", "corporate", "chemical"]
+    "tags": [
+      "environment",
+      "health",
+      "corporate",
+      "chemical"
+    ]
   },
   {
     "id": "medieval_christian_antisemitism",
@@ -145,7 +211,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Antisemitism_in_the_Middle_Ages",
     "summary": "Theological and social framework developed in medieval Europe attributing collective guilt to Jewish people for the death of Christ, used to justify persecution, expulsion, forced conversion, and pogrom.",
     "decade": "Medieval",
-    "tags": ["religion", "antisemitism", "history", "ideology"]
+    "tags": [
+      "religion",
+      "antisemitism",
+      "history",
+      "ideology"
+    ]
   },
   {
     "id": "jewish_moneylending",
@@ -155,7 +226,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Jewish_moneylenders",
     "summary": "Medieval European Jews were barred from most professions but permitted moneylending, which Christians considered sinful. This enforced economic role was later used as justification for antisemitic stereotypes about Jewish financial control.",
     "decade": "Medieval",
-    "tags": ["economics", "antisemitism", "history", "forced_role"]
+    "tags": [
+      "economics",
+      "antisemitism",
+      "history",
+      "forced_role"
+    ]
   },
   {
     "id": "protocols_of_elders_of_zion",
@@ -165,7 +241,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/The_Protocols_of_the_Elders_of_Zion",
     "summary": "Fabricated antisemitic text produced by Tsarist secret police in 1903 purporting to describe a Jewish plan for world domination. Proven forgery, still actively cited in conspiracy communities.",
     "decade": "1900s",
-    "tags": ["antisemitism", "conspiracy", "propaganda", "forgery"]
+    "tags": [
+      "antisemitism",
+      "conspiracy",
+      "propaganda",
+      "forgery"
+    ]
   },
   {
     "id": "nazi_propaganda",
@@ -175,7 +256,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Nazi_propaganda",
     "summary": "Systematic state-run campaign to dehumanize Jewish people and other groups, drawing directly on existing Christian antisemitic frameworks and fabricated texts including Luther's writings and the Protocols.",
     "decade": "1930s–1940s",
-    "tags": ["antisemitism", "nazism", "history", "propaganda"]
+    "tags": [
+      "antisemitism",
+      "nazism",
+      "history",
+      "propaganda"
+    ]
   },
   {
     "id": "martin_luther_antisemitism",
@@ -185,7 +271,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Martin_Luther_and_antisemitism",
     "summary": "Late-career texts by Protestant Reformation founder Martin Luther calling for persecution of Jewish people. Directly reprinted by Nazi propagandists as ideological justification.",
     "decade": "1540s",
-    "tags": ["antisemitism", "religion", "history", "protestantism"]
+    "tags": [
+      "antisemitism",
+      "religion",
+      "history",
+      "protestantism"
+    ]
   },
   {
     "id": "the_holocaust",
@@ -195,7 +286,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/The_Holocaust",
     "summary": "Systematic state-sponsored genocide of six million Jewish people and millions of others by Nazi Germany between 1941 and 1945. The terminus of two thousand years of accumulated antisemitic infrastructure.",
     "decade": "1940s",
-    "tags": ["genocide", "antisemitism", "history", "nazism"]
+    "tags": [
+      "genocide",
+      "antisemitism",
+      "history",
+      "nazism"
+    ]
   },
   {
     "id": "watergate",
@@ -205,7 +301,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Watergate_scandal",
     "summary": "1972–1974 political scandal in which the Nixon administration orchestrated a break-in and coverup. Involved approximately 30 people and collapsed under investigation, demonstrating the limits of government secrecy.",
     "decade": "1970s",
-    "tags": ["government", "scandal", "history", "accountability"]
+    "tags": [
+      "government",
+      "scandal",
+      "history",
+      "accountability"
+    ]
   },
   {
     "id": "apollo_moon_landing",
@@ -215,7 +316,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Apollo_11",
     "summary": "1969 U.S. mission landing humans on the Moon for the first time. Confirmed by independent international observers including the Soviet Union, with physical evidence including 842 lbs of lunar samples and retroreflectors still pingable today.",
     "decade": "1960s",
-    "tags": ["history", "science", "technology", "space"]
+    "tags": [
+      "history",
+      "science",
+      "technology",
+      "space"
+    ]
   },
   {
     "id": "moon_landing_conspiracy",
@@ -225,7 +331,11 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories",
     "summary": "Claim that Apollo missions were faked. Contradicted by independent international confirmation, Soviet acknowledgment, physical evidence, and the impossibility of coordinating silence among 400,000 workers.",
     "decade": "1970s–Ongoing",
-    "tags": ["conspiracy", "pseudoscience", "epistemology"]
+    "tags": [
+      "conspiracy",
+      "pseudoscience",
+      "epistemology"
+    ]
   },
   {
     "id": "scapegoating_mechanism",
@@ -234,7 +344,11 @@
     "category": "mechanism",
     "summary": "Psychological and social mechanism in which a group experiencing diffuse anxiety or systemic problems displaces blame onto a specific identifiable out-group.",
     "decade": "Ongoing",
-    "tags": ["psychology", "mechanism", "sociology"]
+    "tags": [
+      "psychology",
+      "mechanism",
+      "sociology"
+    ]
   },
   {
     "id": "legitimate_grievance_capture",
@@ -243,7 +357,12 @@
     "category": "mechanism",
     "summary": "Pattern in which a real and documented injustice or systemic failure becomes the entry point for bad-faith actors supplying false or extreme explanations. The legitimacy of the grievance provides cover for the false explanation.",
     "decade": "Ongoing",
-    "tags": ["mechanism", "psychology", "epistemology", "politics"]
+    "tags": [
+      "mechanism",
+      "psychology",
+      "epistemology",
+      "politics"
+    ]
   },
   {
     "id": "political_radicalization",
@@ -253,7 +372,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Radicalization",
     "summary": "Process by which individuals or groups adopt increasingly extreme political or ideological positions. A documented real-world outcome that legitimate grievance capture frequently produces.",
     "decade": "Ongoing",
-    "tags": ["politics", "psychology", "radicalization", "extremism"]
+    "tags": [
+      "politics",
+      "psychology",
+      "radicalization",
+      "extremism"
+    ]
   },
   {
     "id": "tobacco_industry_research_suppression",
@@ -263,7 +387,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Tobacco_industry_research",
     "summary": "Decades-long campaign by tobacco companies to suppress and manufacture alternatives to internal research confirming nicotine addiction and cancer causation. Internal documents establishing corporate knowledge from the 1950s were concealed until forced into public record by the 1998 Master Settlement Agreement.",
     "decade": "1950s–1990s",
-    "tags": ["corporate", "health", "science", "tobacco", "deception"]
+    "tags": [
+      "corporate",
+      "health",
+      "science",
+      "tobacco",
+      "deception"
+    ]
   },
   {
     "id": "manufactured_scientific_doubt",
@@ -272,7 +402,13 @@
     "category": "mechanism",
     "summary": "Strategic production of apparent scientific controversy on settled questions, achieved by funding fringe researchers, creating front organizations, and flooding regulatory and public discourse with industry-sponsored uncertainty. Converts scientific confidence into apparent debate without changing the underlying evidence.",
     "decade": "1950s–Ongoing",
-    "tags": ["mechanism", "science", "corporate", "epistemology", "deception"]
+    "tags": [
+      "mechanism",
+      "science",
+      "corporate",
+      "epistemology",
+      "deception"
+    ]
   },
   {
     "id": "tobacco_master_settlement",
@@ -282,7 +418,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Tobacco_Master_Settlement_Agreement",
     "summary": "1998 agreement between 46 U.S. states and major tobacco companies, requiring the release of millions of internal documents. Those documents proved companies had internal knowledge of addiction and carcinogenicity decades before public admission, converting plausible deniability into confirmed corporate fraud.",
     "decade": "1990s",
-    "tags": ["corporate", "law", "tobacco", "accountability", "history"]
+    "tags": [
+      "corporate",
+      "law",
+      "tobacco",
+      "accountability",
+      "history"
+    ]
   },
   {
     "id": "climate_change_denial",
@@ -292,7 +434,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Climate_change_denial",
     "summary": "Organized campaign disputing scientific consensus on anthropogenic climate change. Adopted the tobacco industry's manufactured-doubt playbook, with documented overlap in personnel — including PR firms and individual scientists who worked both denial campaigns.",
     "decade": "1990s–Ongoing",
-    "tags": ["climate", "ideology", "corporate", "science", "denial"]
+    "tags": [
+      "climate",
+      "ideology",
+      "corporate",
+      "science",
+      "denial"
+    ]
   },
   {
     "id": "cointelpro",
@@ -302,7 +450,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/COINTELPRO",
     "summary": "FBI counterintelligence program running 1956–1971, targeting civil rights, antiwar, feminist, and socialist movements through infiltration, forged documents, blackmail, and facilitation of violence. Confirmed by the 1971 Media, Pennsylvania FBI office break-in and fully exposed by the 1975 Church Committee.",
     "decade": "1950s–1970s",
-    "tags": ["government", "FBI", "civil_rights", "history", "documented_atrocity"]
+    "tags": [
+      "government",
+      "FBI",
+      "civil_rights",
+      "history",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "hamitic_hypothesis",
@@ -312,7 +466,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Hamitic_hypothesis",
     "summary": "19th-century European pseudoscientific racial theory classifying certain African peoples as racially closer to Europeans and therefore naturally suited to rule. Belgian colonizers applied it in Rwanda to reclassify fluid social distinctions between Hutu and Tutsi as fixed, heritable racial categories, issuing identity cards in 1933 that made ethnicity administratively permanent.",
     "decade": "1800s–1900s",
-    "tags": ["racism", "colonialism", "pseudoscience", "ideology", "africa"]
+    "tags": [
+      "racism",
+      "colonialism",
+      "pseudoscience",
+      "ideology",
+      "africa"
+    ]
   },
   {
     "id": "hutu_power",
@@ -322,7 +482,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Hutu_Power",
     "summary": "Extremist Hutu nationalist ideology that emerged in Rwanda in the early 1990s, reactivating colonial racial classification and inverting it — framing Tutsis as foreign occupiers deserving elimination. The organizing ideology behind the 1994 genocide.",
     "decade": "1990s",
-    "tags": ["genocide", "nationalism", "ideology", "rwanda", "africa"]
+    "tags": [
+      "genocide",
+      "nationalism",
+      "ideology",
+      "rwanda",
+      "africa"
+    ]
   },
   {
     "id": "radio_milles_collines",
@@ -332,7 +498,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Radio_T%C3%A9l%C3%A9vision_Libre_des_Mille_Collines",
     "summary": "Hutu Power radio station that broadcast dehumanizing language (\"inyenzi\" — cockroaches), names and locations of Tutsi individuals, and operational instructions to killers during the 1994 genocide. Functioned as both ideological infrastructure and operational logistics.",
     "decade": "1990s",
-    "tags": ["genocide", "propaganda", "media", "rwanda", "africa"]
+    "tags": [
+      "genocide",
+      "propaganda",
+      "media",
+      "rwanda",
+      "africa"
+    ]
   },
   {
     "id": "rwandan_genocide",
@@ -342,7 +514,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Rwandan_genocide",
     "summary": "1994 genocide of approximately 800,000 Tutsi and moderate Hutu in roughly 100 days — the terminus of a causal chain running from Belgian colonial racial classification through extremist ideology and media dehumanization. The fastest mass killing in recorded history.",
     "decade": "1990s",
-    "tags": ["genocide", "africa", "rwanda", "history", "documented_atrocity"]
+    "tags": [
+      "genocide",
+      "africa",
+      "rwanda",
+      "history",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "dehumanization",
@@ -352,7 +530,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Dehumanization",
     "summary": "The psychological and social process by which a target population is stripped of human status in the perception of perpetrators and bystanders. Documented as a consistent prerequisite for mass violence and genocide — reducing the moral inhibition that would otherwise prevent ordinary people from participating in atrocity.",
     "decade": "Ongoing",
-    "tags": ["psychology", "genocide", "mechanism", "sociology", "violence"]
+    "tags": [
+      "psychology",
+      "genocide",
+      "mechanism",
+      "sociology",
+      "violence"
+    ]
   },
   {
     "id": "pain_management_movement",
@@ -362,7 +546,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Pain_management",
     "summary": "Medical consensus that emerged in the 1980s–90s around the undertreatment of chronic pain — 'opiophobia' was causing patient suffering, and physicians needed to prescribe opioids more willingly. A legitimate clinical problem and the entry point Purdue Pharma systematically exploited.",
     "decade": "1980s–1990s",
-    "tags": ["medical", "health", "opioids", "history"]
+    "tags": [
+      "medical",
+      "health",
+      "opioids",
+      "history"
+    ]
   },
   {
     "id": "purdue_pharma_oxycontin",
@@ -372,7 +561,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Purdue_Pharma",
     "summary": "Purdue Pharma's systematic deceptive marketing of OxyContin as non-addictive: funding medical education, placing representatives in physician offices, influencing the Joint Commission's 'pain as fifth vital sign' initiative, and publishing journal-backed claims of minimal addiction risk. The most documented instance of institutional credibility laundering in modern medicine.",
     "decade": "1990s–2010s",
-    "tags": ["corporate", "opioids", "health", "deception", "medical"]
+    "tags": [
+      "corporate",
+      "opioids",
+      "health",
+      "deception",
+      "medical"
+    ]
   },
   {
     "id": "institutional_credibility_laundering",
@@ -381,7 +576,13 @@
     "category": "mechanism",
     "summary": "The process by which corporate-interest claims acquire the epistemic authority of independent science: funding research, publishing through peer-reviewed journals, influencing professional body guidelines, and using those guidelines to claim scientific consensus. The complement to manufactured scientific doubt — where that mechanism converts confidence into controversy, this converts corporate claims into apparent consensus.",
     "decade": "Ongoing",
-    "tags": ["mechanism", "science", "corporate", "epistemology", "medical"]
+    "tags": [
+      "mechanism",
+      "science",
+      "corporate",
+      "epistemology",
+      "medical"
+    ]
   },
   {
     "id": "opioid_epidemic",
@@ -391,7 +592,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Opioid_epidemic_in_the_United_States",
     "summary": "Mass addiction crisis produced by opioid over-prescription, killing over 500,000 Americans by the 2020s. The downstream terminus of Purdue's deceptive marketing and the FDA's regulatory failure to adequately scrutinize OxyContin's approval and labeling.",
     "decade": "1990s–Ongoing",
-    "tags": ["health", "addiction", "corporate", "opioids", "crisis"]
+    "tags": [
+      "health",
+      "addiction",
+      "corporate",
+      "opioids",
+      "crisis"
+    ]
   },
   {
     "id": "tuskegee_syphilis_study",
@@ -401,7 +608,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
     "summary": "U.S. Public Health Service study that deliberately withheld syphilis treatment from 399 Black men for 40 years after penicillin became available, observing disease progression rather than providing care. Exposed in 1972, it produced documented, lasting medical distrust in Black American communities — one of the most traceable causal links between a government atrocity and a downstream epistemic condition.",
     "decade": "1930s–1970s",
-    "tags": ["government", "medical", "racism", "history", "documented_atrocity"]
+    "tags": [
+      "government",
+      "medical",
+      "racism",
+      "history",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "sack_of_rome_1527",
@@ -411,7 +624,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Sack_of_Rome_(1527)",
     "summary": "The brutal occupation of Rome in May 1527 by mutinous Landsknecht and Spanish troops of Holy Roman Emperor Charles V, killing thousands and devastating the city. Left Pope Clement VII politically captive to Charles V, with cascading consequences for the Protestant Reformation and the English break from Rome.",
     "decade": "1520s",
-    "tags": ["history", "religion", "papacy", "renaissance", "europe"]
+    "tags": [
+      "history",
+      "religion",
+      "papacy",
+      "renaissance",
+      "europe"
+    ]
   },
   {
     "id": "papal_swiss_guard",
@@ -421,7 +640,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Papal_Swiss_Guard",
     "summary": "Military corps established to protect the Pope, defined by the sacrifice of approximately 147 of the 189 Guards who held their position at St. Peter's Square during the 1527 Sack of Rome, buying time for Pope Clement VII to escape through the Passetto di Borgo. Their oath of fidelity unto death became the founding legend of an institution still active 500 years later.",
     "decade": "1500s–Ongoing",
-    "tags": ["military", "papacy", "loyalty", "history", "institution"]
+    "tags": [
+      "military",
+      "papacy",
+      "loyalty",
+      "history",
+      "institution"
+    ]
   },
   {
     "id": "protestant_reformation",
@@ -431,7 +656,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Protestant_Reformation",
     "summary": "The 16th-century theological and political rupture initiated by Martin Luther in 1517 that permanently fragmented Western Christendom. Enabled by the Sack of Rome's damage to papal political authority, it produced both the English Reformation and the theological context within which Luther's later antisemitic writings were produced and distributed.",
     "decade": "1510s–1600s",
-    "tags": ["religion", "history", "europe", "theology", "reformation"]
+    "tags": [
+      "religion",
+      "history",
+      "europe",
+      "theology",
+      "reformation"
+    ]
   },
   {
     "id": "english_reformation",
@@ -441,7 +672,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/English_Reformation",
     "summary": "Henry VIII's break from papal authority and creation of the Church of England, triggered by Pope Clement VII's politically enforced inability to grant an annulment of Henry's marriage to Catherine of Aragon — whose nephew, Charles V, had made the Pope his political captive after the 1527 Sack of Rome. Permanently altered British religious, political, and imperial identity.",
     "decade": "1530s–1550s",
-    "tags": ["religion", "history", "england", "papacy", "reformation"]
+    "tags": [
+      "religion",
+      "history",
+      "england",
+      "papacy",
+      "reformation"
+    ]
   },
   {
     "id": "ottoman_expansion_europe",
@@ -451,7 +688,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Ottoman_wars_in_Europe",
     "summary": "The 350-year westward push of Ottoman military power from the Balkans through Hungary to the walls of Vienna — the furthest point of expansion in 1683. Constituted a sustained civilizational pressure on Central Europe that shaped its political and military development throughout the early modern period.",
     "decade": "1300s–1680s",
-    "tags": ["military", "ottoman", "europe", "history", "empire"]
+    "tags": [
+      "military",
+      "ottoman",
+      "europe",
+      "history",
+      "empire"
+    ]
   },
   {
     "id": "winged_hussars",
@@ -461,7 +704,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Winged_hussars",
     "summary": "Elite Polish-Lithuanian heavy cavalry distinguished by their dramatic winged armor and 5-meter lances. On September 12, 1683, approximately 3,000 Winged Hussars charged downhill into the Ottoman siege camp at Vienna in the largest cavalry charge in recorded history, breaking Ottoman lines and ending the siege. Their intervention was the decisive tactical element of the battle.",
     "decade": "1570s–1770s",
-    "tags": ["military", "poland", "cavalry", "history", "europe"]
+    "tags": [
+      "military",
+      "poland",
+      "cavalry",
+      "history",
+      "europe"
+    ]
   },
   {
     "id": "battle_of_vienna_1683",
@@ -471,7 +720,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Vienna",
     "summary": "The engagement of September 11–12, 1683 in which the Polish-Lithuanian and Holy Roman Empire relief force under King John III Sobieski routed the Ottoman army besieging Vienna, ending the Ottoman threat to Central Europe. The last credible Ottoman bid for European expansion and the inflection point of two centuries of subsequent Ottoman decline.",
     "decade": "1680s",
-    "tags": ["military", "ottoman", "europe", "history", "poland"]
+    "tags": [
+      "military",
+      "ottoman",
+      "europe",
+      "history",
+      "poland"
+    ]
   },
   {
     "id": "ottoman_decline_europe",
@@ -481,7 +736,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Decline_of_the_Ottoman_Empire",
     "summary": "The two-century process of Ottoman territorial and military retreat from Europe following the 1683 defeat at Vienna — encompassing the Great Turkish War, the Treaty of Karlowitz (1699), and the long 19th-century Eastern Question that defined European diplomacy until the empire's dissolution after World War I.",
     "decade": "1680s–1910s",
-    "tags": ["ottoman", "history", "europe", "empire", "decline"]
+    "tags": [
+      "ottoman",
+      "history",
+      "europe",
+      "empire",
+      "decline"
+    ]
   },
   {
     "id": "american_eugenics_movement",
@@ -491,7 +752,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Eugenics_in_the_United_States",
     "summary": "State-backed program of forced sterilization and racial hygiene laws that sterilized approximately 60,000 Americans deemed 'unfit.' Explicitly cited by Nazi racial scientists as legal and scientific precedent; Nuremberg Laws were modeled partly on American miscegenation and sterilization statutes.",
     "decade": "1900s–1940s",
-    "tags": ["racism", "pseudoscience", "policy", "history", "documented_atrocity"]
+    "tags": [
+      "racism",
+      "pseudoscience",
+      "policy",
+      "history",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "buck_v_bell",
@@ -501,7 +768,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Buck_v._Bell",
     "summary": "1927 U.S. Supreme Court ruling that state-mandated sterilization of the 'unfit' was constitutional. Justice Oliver Wendell Holmes wrote: 'Three generations of imbeciles are enough.' The ruling was never overturned and provided legal cover for eugenics programs across the United States.",
     "decade": "1920s",
-    "tags": ["law", "eugenics", "racism", "history", "policy"]
+    "tags": [
+      "law",
+      "eugenics",
+      "racism",
+      "history",
+      "policy"
+    ]
   },
   {
     "id": "social_media_algorithms",
@@ -511,7 +784,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Social_media",
     "summary": "Engagement-maximizing recommendation systems deployed by platforms including Facebook, YouTube, and Twitter that prioritize content predicted to generate emotional reactions and extended session time. Documented by internal and academic research to systematically favor divisive, outrage-generating, and extreme content.",
     "decade": "2010s–Ongoing",
-    "tags": ["technology", "media", "social", "algorithms", "epistemology"]
+    "tags": [
+      "technology",
+      "media",
+      "social",
+      "algorithms",
+      "epistemology"
+    ]
   },
   {
     "id": "filter_bubble",
@@ -521,7 +800,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Filter_bubble",
     "summary": "Algorithmic curation environment in which a user's prior engagement history determines what content they see, progressively narrowing their information exposure. Coined by Eli Pariser in 2011; documented by research to reduce exposure to counter-attitudinal information and amplify existing beliefs.",
     "decade": "2010s–Ongoing",
-    "tags": ["technology", "media", "epistemology", "social", "algorithms"]
+    "tags": [
+      "technology",
+      "media",
+      "epistemology",
+      "social",
+      "algorithms"
+    ]
   },
   {
     "id": "outrage_optimization",
@@ -530,7 +815,13 @@
     "category": "mechanism",
     "summary": "Emergent algorithmic pattern in which engagement-maximizing systems discover that outrage, fear, and moral violation reliably generate more clicks, shares, and session time than neutral or positive content — and therefore amplify such content regardless of its accuracy or social cost.",
     "decade": "2010s–Ongoing",
-    "tags": ["mechanism", "technology", "media", "epistemology", "psychology"]
+    "tags": [
+      "mechanism",
+      "technology",
+      "media",
+      "epistemology",
+      "psychology"
+    ]
   },
   {
     "id": "atlantic_slave_trade",
@@ -540,7 +831,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Atlantic_slave_trade",
     "summary": "The forced transportation of approximately 12.5 million Africans to the Americas between the 16th and 19th centuries. Constructed a racial hierarchy and dehumanizing ideology that survived the trade's legal abolition and provided the foundational structure for subsequent American racial apartheid.",
     "decade": "1500s–1800s",
-    "tags": ["slavery", "racism", "history", "colonialism", "documented_atrocity"]
+    "tags": [
+      "slavery",
+      "racism",
+      "history",
+      "colonialism",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "jim_crow_laws",
@@ -550,7 +847,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Jim_Crow_laws",
     "summary": "System of racial apartheid laws enforced in the American South from Reconstruction through 1965, segregating public facilities, restricting voting, and institutionalizing racial subordination after the Civil War. Maintained through law enforcement terror and lynching.",
     "decade": "1870s–1960s",
-    "tags": ["racism", "policy", "history", "civil_rights", "documented_atrocity"]
+    "tags": [
+      "racism",
+      "policy",
+      "history",
+      "civil_rights",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "war_on_drugs",
@@ -560,7 +863,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/War_on_drugs",
     "summary": "Nixon-era federal policy of mandatory minimum sentences and militarized drug enforcement. Nixon's domestic policy adviser John Ehrlichman stated on record the War on Drugs was designed to criminalize Black and antiwar communities by associating them with heroin and marijuana respectively.",
     "decade": "1970s–Ongoing",
-    "tags": ["policy", "racism", "government", "criminal_justice", "history"]
+    "tags": [
+      "policy",
+      "racism",
+      "government",
+      "criminal_justice",
+      "history"
+    ]
   },
   {
     "id": "mass_incarceration",
@@ -570,7 +879,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Mass_incarceration_in_the_United_States",
     "summary": "The United States' imprisonment of over 2 million people — the highest incarceration rate in the world — disproportionately affecting Black Americans at a ratio of approximately 5:1. Produced by mandatory minimum sentencing, the War on Drugs, and policing policies whose racial targeting was in several cases explicitly documented.",
     "decade": "1980s–Ongoing",
-    "tags": ["criminal_justice", "racism", "policy", "phenomenon", "social"]
+    "tags": [
+      "criminal_justice",
+      "racism",
+      "policy",
+      "phenomenon",
+      "social"
+    ]
   },
   {
     "id": "gulf_of_tonkin_incident",
@@ -580,7 +895,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident",
     "summary": "Manufactured or exaggerated naval incidents in 1964 used by the Johnson administration to obtain the Gulf of Tonkin Resolution, providing congressional authorization for full-scale U.S. involvement in Vietnam. Declassified NSA documents confirmed the second alleged attack did not occur.",
     "decade": "1960s",
-    "tags": ["government", "history", "deception", "war", "vietnam"]
+    "tags": [
+      "government",
+      "history",
+      "deception",
+      "war",
+      "vietnam"
+    ]
   },
   {
     "id": "vietnam_war",
@@ -590,7 +911,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Vietnam_War",
     "summary": "U.S. military conflict in Southeast Asia from 1955–1975, escalated through manufactured provocation and sustained by decades of government deception about its progress and prospects. Ended with 58,000 American and over a million Vietnamese dead; the most consequential collapse of American institutional trust in the 20th century.",
     "decade": "1950s–1970s",
-    "tags": ["war", "history", "government", "deception", "documented_atrocity"]
+    "tags": [
+      "war",
+      "history",
+      "government",
+      "deception",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "pentagon_papers",
@@ -600,7 +927,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Pentagon_Papers",
     "summary": "Classified Defense Department history of U.S. involvement in Vietnam leaked by Daniel Ellsberg in 1971. Revealed that multiple administrations had systematically deceived Congress and the public about the war's progress and prospects — converting public suspicion of government deception into documented confirmation.",
     "decade": "1970s",
-    "tags": ["government", "history", "deception", "accountability", "vietnam"]
+    "tags": [
+      "government",
+      "history",
+      "deception",
+      "accountability",
+      "vietnam"
+    ]
   },
   {
     "id": "mccarthy_red_scare",
@@ -610,7 +943,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/McCarthyism",
     "summary": "The 1950s political climate of anti-communist paranoia driven by Senator Joseph McCarthy and HUAC, which destroyed careers through accusation, demanded loyalty oaths, and prosecuted dissent as treason — creating an environment where skepticism of U.S. foreign policy became politically lethal.",
     "decade": "1940s–1950s",
-    "tags": ["politics", "history", "anti-communism", "government", "paranoia"]
+    "tags": [
+      "politics",
+      "history",
+      "anti-communism",
+      "government",
+      "paranoia"
+    ]
   },
   {
     "id": "fossil_fuel_industry",
@@ -620,7 +959,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Fossil_fuel_industry",
     "summary": "The global extraction, refining, and distribution industry for coal, oil, and natural gas. Internal documents from Exxon show the company's own scientists confirmed human-caused climate change by 1977 — the same decade the company began funding campaigns to manufacture public doubt about that consensus.",
     "decade": "1850s–Ongoing",
-    "tags": ["corporate", "energy", "climate", "industry", "economics"]
+    "tags": [
+      "corporate",
+      "energy",
+      "climate",
+      "industry",
+      "economics"
+    ]
   },
   {
     "id": "armenian_genocide",
@@ -630,7 +975,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Armenian_genocide",
     "summary": "The systematic extermination of 600,000–1.5 million Armenians by the Ottoman Empire between 1914–1923, conducted through mass shootings, death marches, and starvation. Often described as the first genocide of the 20th century; Hitler reportedly invoked Armenian impunity as precedent when planning the Holocaust.",
     "decade": "1910s–1920s",
-    "tags": ["genocide", "history", "ottoman", "documented_atrocity", "middle_east"]
+    "tags": [
+      "genocide",
+      "history",
+      "ottoman",
+      "documented_atrocity",
+      "middle_east"
+    ]
   },
   {
     "id": "berlin_conference_1884",
@@ -640,7 +991,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Berlin_Conference_(1884%E2%80%931885)",
     "summary": "The 1884–1885 conference at which European powers partitioned the African continent among themselves without African representation. Formalized the colonial project at continental scale, creating the administrative infrastructure through which racial ideologies like the Hamitic Hypothesis were systematically applied to justify subjugation.",
     "decade": "1880s",
-    "tags": ["colonialism", "africa", "history", "europe", "racism"]
+    "tags": [
+      "colonialism",
+      "africa",
+      "history",
+      "europe",
+      "racism"
+    ]
   },
   {
     "id": "world_war_i",
@@ -650,7 +1007,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/World_War_I",
     "summary": "The first industrialized total war, 1914–1918, killing approximately 20 million people. Triggered by the assassination of Archduke Franz Ferdinand but driven by imperial competition and alliance systems; ended with the Versailles settlement whose punitive terms structured the subsequent European catastrophes.",
     "decade": "1910s",
-    "tags": ["war", "history", "europe", "imperialism"]
+    "tags": [
+      "war",
+      "history",
+      "europe",
+      "imperialism"
+    ]
   },
   {
     "id": "treaty_of_versailles",
@@ -660,7 +1022,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Treaty_of_Versailles",
     "summary": "The 1919 peace settlement ending WWI, imposing reparations, territorial losses, and the 'war guilt' clause on Germany. The combination of punitive terms and genuine economic ruin provided the legitimate grievance infrastructure that Nazi propaganda transformed into genocidal ideology.",
     "decade": "1910s",
-    "tags": ["diplomacy", "history", "europe", "war", "consequences"]
+    "tags": [
+      "diplomacy",
+      "history",
+      "europe",
+      "war",
+      "consequences"
+    ]
   },
   {
     "id": "weimar_republic",
@@ -670,7 +1038,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Weimar_Republic",
     "summary": "Germany's democratic republic from 1919–1933, established in military defeat and destroyed by hyperinflation, the Great Depression, and political extremism. The paradigm case of how genuine crisis combined with scapegoating and legitimate grievance capture to destroy democratic governance.",
     "decade": "1920s–1930s",
-    "tags": ["democracy", "history", "germany", "politics", "collapse"]
+    "tags": [
+      "democracy",
+      "history",
+      "germany",
+      "politics",
+      "collapse"
+    ]
   },
   {
     "id": "nuremberg_laws_1935",
@@ -680,7 +1054,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Nuremberg_Laws",
     "summary": "German racial laws passed in September 1935 stripping Jews of citizenship and prohibiting marriage between Jews and non-Jews. Explicitly modeled in part on American racial statutes; constituted the legal infrastructure of dehumanization that preceded extermination.",
     "decade": "1930s",
-    "tags": ["nazism", "racism", "policy", "history", "antisemitism"]
+    "tags": [
+      "nazism",
+      "racism",
+      "policy",
+      "history",
+      "antisemitism"
+    ]
   },
   {
     "id": "kristallnacht",
@@ -690,7 +1070,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Kristallnacht",
     "summary": "The November 9–10, 1938 pogrom in which Nazi SA forces destroyed over 7,500 Jewish businesses, burned 1,400 synagogues, killed approximately 100 Jews, and sent 30,000 to concentration camps. The state-organized violence that signaled genocide was politically viable.",
     "decade": "1930s",
-    "tags": ["nazism", "antisemitism", "history", "pogrom", "documented_atrocity"]
+    "tags": [
+      "nazism",
+      "antisemitism",
+      "history",
+      "pogrom",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "battle_of_stalingrad",
@@ -700,7 +1086,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad",
     "summary": "The August 1942–February 1943 engagement in which Soviet forces encircled and destroyed Germany's 6th Army, killing or capturing approximately 750,000 Axis troops. The decisive turning point of the Eastern Front and the largest single battle in recorded history.",
     "decade": "1940s",
-    "tags": ["war", "history", "wwii", "soviet", "turning_point"]
+    "tags": [
+      "war",
+      "history",
+      "wwii",
+      "soviet",
+      "turning_point"
+    ]
   },
   {
     "id": "d_day_normandy",
@@ -710,7 +1102,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Normandy_landings",
     "summary": "The June 6, 1944 Allied amphibious assault on Normandy, France — the largest seaborne invasion in history. Opened the Western Front, began the liberation of Nazi-occupied Europe, and ultimately brought Nazi concentration camps into global public record.",
     "decade": "1940s",
-    "tags": ["war", "history", "wwii", "military", "liberation"]
+    "tags": [
+      "war",
+      "history",
+      "wwii",
+      "military",
+      "liberation"
+    ]
   },
   {
     "id": "atomic_bombing_hiroshima",
@@ -720,7 +1118,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
     "summary": "The August 1945 U.S. atomic bombings of Hiroshima and Nagasaki, killing 70,000–140,000 people. Inaugurated the nuclear age, permanently establishing that governments possessed weapons capable of city-scale civilian annihilation.",
     "decade": "1940s",
-    "tags": ["war", "history", "nuclear", "wwii", "technology"]
+    "tags": [
+      "war",
+      "history",
+      "nuclear",
+      "wwii",
+      "technology"
+    ]
   },
   {
     "id": "cuban_missile_crisis",
@@ -730,7 +1134,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis",
     "summary": "The October 1962 standoff between the U.S. and USSR over Soviet nuclear missiles in Cuba — the closest the Cold War came to nuclear exchange. A crisis in which the same anti-communist ideology that produced McCarthyism brought civilization within hours of nuclear war.",
     "decade": "1960s",
-    "tags": ["cold_war", "history", "nuclear", "politics", "crisis"]
+    "tags": [
+      "cold_war",
+      "history",
+      "nuclear",
+      "politics",
+      "crisis"
+    ]
   },
   {
     "id": "battle_of_somme",
@@ -740,7 +1150,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Somme",
     "summary": "The July–November 1916 engagement on the Western Front in which the British Army suffered 57,471 casualties — including 19,240 dead — on the first day alone, with total casualties exceeding one million. The defining demonstration of industrial warfare consuming soldiers as mechanical material.",
     "decade": "1910s",
-    "tags": ["war", "history", "wwi", "military", "atrocity"]
+    "tags": [
+      "war",
+      "history",
+      "wwi",
+      "military",
+      "atrocity"
+    ]
   },
   {
     "id": "holodomor",
@@ -750,7 +1166,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Holodomor",
     "summary": "The 1932–1933 Soviet engineered famine that killed 3.5–7.5 million Ukrainians. Produced by forced collectivization and grain requisition quotas enforced even as people starved, with Soviet authorities blocking emigration and concealing the famine from international observers.",
     "decade": "1930s",
-    "tags": ["genocide", "soviet", "ukraine", "history", "documented_atrocity"]
+    "tags": [
+      "genocide",
+      "soviet",
+      "ukraine",
+      "history",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "stalinist_purges",
@@ -760,7 +1182,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Great_Purge",
     "summary": "The 1936–1938 Soviet campaign of political repression that executed approximately 750,000 people and sent millions to the Gulag. Operated through show trials requiring victims to confess to fabricated crimes, destroying the Red Army officer corps and eliminating all potential political rivals.",
     "decade": "1930s",
-    "tags": ["soviet", "history", "repression", "documented_atrocity", "politics"]
+    "tags": [
+      "soviet",
+      "history",
+      "repression",
+      "documented_atrocity",
+      "politics"
+    ]
   },
   {
     "id": "gulag_system",
@@ -770,7 +1198,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Gulag",
     "summary": "The Soviet network of forced labor camps operating from the 1920s through the 1950s, incarcerating an estimated 18 million people under conditions of deliberate brutality. Functioned simultaneously as political suppression, slave labor, and population control.",
     "decade": "1920s–1950s",
-    "tags": ["soviet", "history", "incarceration", "repression", "documented_atrocity"]
+    "tags": [
+      "soviet",
+      "history",
+      "incarceration",
+      "repression",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "great_leap_forward",
@@ -780,7 +1214,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Great_Leap_Forward",
     "summary": "Mao Zedong's 1958–1962 campaign to rapidly industrialize China through collective farming and backyard steel production. Ideological rejection of agricultural science produced a famine killing 15–55 million people — the deadliest famine in history, caused by ideology overriding empirical reality.",
     "decade": "1950s–1960s",
-    "tags": ["china", "history", "famine", "ideology", "documented_atrocity"]
+    "tags": [
+      "china",
+      "history",
+      "famine",
+      "ideology",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "chinese_cultural_revolution",
@@ -790,7 +1230,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Cultural_Revolution",
     "summary": "Mao Zedong's 1966–1976 campaign to purge capitalism and traditional elements from Chinese society by mobilizing youth Red Guards to destroy cultural institutions, persecute intellectuals, and enforce ideological conformity. Killed 500,000–2 million and destroyed a generation of institutional knowledge.",
     "decade": "1960s–1970s",
-    "tags": ["china", "history", "ideology", "repression", "documented_atrocity"]
+    "tags": [
+      "china",
+      "history",
+      "ideology",
+      "repression",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "khmer_rouge_genocide",
@@ -800,7 +1246,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Cambodian_genocide",
     "summary": "The 1975–1979 Cambodian genocide in which the Khmer Rouge under Pol Pot killed approximately 1.5–2 million people — 25% of Cambodia's population. Driven by radical agrarian ideology that dehumanized urban residents, intellectuals, and ethnic minorities as class enemies requiring elimination.",
     "decade": "1970s",
-    "tags": ["genocide", "cambodia", "history", "ideology", "documented_atrocity"]
+    "tags": [
+      "genocide",
+      "cambodia",
+      "history",
+      "ideology",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "iran_contra",
@@ -810,7 +1262,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
     "summary": "The 1986–1987 revelation that the Reagan administration had secretly sold arms to Iran (under an arms embargo) and used proceeds to fund Nicaraguan Contras in defiance of Congressional prohibition. Confirmed that presidential administrations would conduct illegal covert foreign policy operations and lie to Congress about them.",
     "decade": "1980s",
-    "tags": ["government", "history", "deception", "politics", "accountability"]
+    "tags": [
+      "government",
+      "history",
+      "deception",
+      "politics",
+      "accountability"
+    ]
   },
   {
     "id": "iraq_war_wmd",
@@ -820,7 +1278,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Iraq_and_weapons_of_mass_destruction",
     "summary": "The 2002–2003 U.S. government presentation of fabricated and exaggerated intelligence about Iraqi weapons of mass destruction as justification for the Iraq War. Colin Powell's UN presentation used institutional credibility to launder cherry-picked and fabricated intelligence, producing a war that killed hundreds of thousands.",
     "decade": "2000s",
-    "tags": ["government", "history", "deception", "war", "iraq"]
+    "tags": [
+      "government",
+      "history",
+      "deception",
+      "war",
+      "iraq"
+    ]
   },
   {
     "id": "abu_ghraib",
@@ -830,7 +1294,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse",
     "summary": "The documented torture and abuse of Iraqi prisoners by U.S. military personnel at Abu Ghraib prison in 2003–2004. Photographs forced the program into public record; investigations confirmed systematic abuse authorized by command decisions that deliberately dehumanized detainees as enemy combatants outside legal protection.",
     "decade": "2000s",
-    "tags": ["government", "torture", "history", "dehumanization", "documented_atrocity"]
+    "tags": [
+      "government",
+      "torture",
+      "history",
+      "dehumanization",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "patriot_act_surveillance",
@@ -840,7 +1310,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Patriot_Act",
     "summary": "Post-9/11 U.S. surveillance expansion, including the PATRIOT Act and NSA bulk collection programs revealed by Edward Snowden in 2013. Demonstrated that COINTELPRO's mass domestic surveillance of political dissidents had been rebuilt at digital scale, targeting populations based on religion, political activity, and association.",
     "decade": "2000s–2010s",
-    "tags": ["government", "surveillance", "policy", "civil_rights", "history"]
+    "tags": [
+      "government",
+      "surveillance",
+      "policy",
+      "civil_rights",
+      "history"
+    ]
   },
   {
     "id": "king_leopold_congo",
@@ -850,7 +1326,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Congo_Free_State",
     "summary": "Leopold II of Belgium's personal colonial possession in the Congo from 1885–1908, in which a system of forced labor, hostage-taking, and mutilation extracted rubber from an enslaved population, killing an estimated 10 million people. The first modern atrocity exposed by an international human rights campaign.",
     "decade": "1880s–1900s",
-    "tags": ["colonialism", "africa", "genocide", "history", "documented_atrocity"]
+    "tags": [
+      "colonialism",
+      "africa",
+      "genocide",
+      "history",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "herero_nama_genocide",
@@ -860,7 +1342,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Herero_and_Nama_genocide",
     "summary": "The 1904–1908 German Imperial extermination of the Herero and Nama peoples of South West Africa (modern Namibia), killing 65–80% of the Herero population. Often described as the first genocide of the 20th century; German officers who commanded it later held senior positions in WWI, and historians document direct institutional continuity with Holocaust methods.",
     "decade": "1900s",
-    "tags": ["genocide", "colonialism", "africa", "history", "documented_atrocity"]
+    "tags": [
+      "genocide",
+      "colonialism",
+      "africa",
+      "history",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "first_crusade",
@@ -870,7 +1358,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/First_Crusade",
     "summary": "The 1096–1099 military campaign called by Pope Urban II that captured Jerusalem in 1099. En route through the Rhineland, Crusaders massacred Jewish communities in the Rhineland Massacres of 1096 — the first large-scale organized anti-Jewish violence in European history, establishing a template for subsequent pogroms.",
     "decade": "1090s",
-    "tags": ["religion", "history", "medieval", "antisemitism", "violence"]
+    "tags": [
+      "religion",
+      "history",
+      "medieval",
+      "antisemitism",
+      "violence"
+    ]
   },
   {
     "id": "spanish_inquisition",
@@ -880,7 +1374,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Spanish_Inquisition",
     "summary": "The Catholic tribunal established in 1478 by Ferdinand and Isabella to enforce religious orthodoxy, targeting conversos (Jewish converts to Christianity) suspected of secretly practicing Judaism. Operated for 356 years, formalizing the apparatus of forced confession, torture, and execution as instruments of ideological enforcement.",
     "decade": "1470s–1830s",
-    "tags": ["religion", "history", "medieval", "antisemitism", "persecution"]
+    "tags": [
+      "religion",
+      "history",
+      "medieval",
+      "antisemitism",
+      "persecution"
+    ]
   },
   {
     "id": "expulsion_of_jews_1492",
@@ -890,7 +1390,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Alhambra_Decree",
     "summary": "The 1492 royal decree expelling approximately 100,000–200,000 Jews from Spain who refused forced conversion. The largest forced migration of Jews before the 20th century, scattering Sephardic communities across the Ottoman Empire, North Africa, and the Netherlands — demonstrating that state-level ethnic cleansing was politically viable.",
     "decade": "1490s",
-    "tags": ["antisemitism", "history", "medieval", "spain", "ethnic_cleansing"]
+    "tags": [
+      "antisemitism",
+      "history",
+      "medieval",
+      "spain",
+      "ethnic_cleansing"
+    ]
   },
   {
     "id": "black_death",
@@ -900,7 +1406,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Black_Death",
     "summary": "The 1346–1353 bubonic plague pandemic killing 30–50% of Europe's population. The catastrophic death toll produced intense social anxiety that the scapegoating mechanism channeled into unprecedented anti-Jewish persecution — the Rhineland Massacres of 1349 killed tens of thousands of Jews accused of well-poisoning.",
     "decade": "1340s–1350s",
-    "tags": ["pandemic", "history", "medieval", "europe", "antisemitism"]
+    "tags": [
+      "pandemic",
+      "history",
+      "medieval",
+      "europe",
+      "antisemitism"
+    ]
   },
   {
     "id": "thirty_years_war",
@@ -910,7 +1422,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Thirty_Years%27_War",
     "summary": "The 1618–1648 conflict fought primarily in Central Europe between Catholic and Protestant powers that killed approximately 8 million people — up to a third of the German population — through combat, famine, and disease. The most destructive European war before the 20th century, ended by the Peace of Westphalia.",
     "decade": "1610s–1640s",
-    "tags": ["war", "history", "europe", "religion", "reformation"]
+    "tags": [
+      "war",
+      "history",
+      "europe",
+      "religion",
+      "reformation"
+    ]
   },
   {
     "id": "peace_of_westphalia",
@@ -920,7 +1438,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Peace_of_Westphalia",
     "summary": "The 1648 treaty ending the Thirty Years War, establishing the principle of state sovereignty and the right of rulers to determine their territories' religion. Permanently legitimized the religious division of Europe that the Reformation had produced and established the modern international state system.",
     "decade": "1640s",
-    "tags": ["diplomacy", "history", "europe", "religion", "sovereignty"]
+    "tags": [
+      "diplomacy",
+      "history",
+      "europe",
+      "religion",
+      "sovereignty"
+    ]
   },
   {
     "id": "fall_of_constantinople",
@@ -930,7 +1454,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
     "summary": "The May 29, 1453 Ottoman conquest of Constantinople under Mehmed II, ending the Byzantine Empire after 1,123 years. Removed the last major buffer between Ottoman expansion and Central Europe, enabling the westward push that would reach Vienna in 1683.",
     "decade": "1450s",
-    "tags": ["military", "history", "ottoman", "byzantine", "europe"]
+    "tags": [
+      "military",
+      "history",
+      "ottoman",
+      "byzantine",
+      "europe"
+    ]
   },
   {
     "id": "mongol_conquests",
@@ -940,7 +1470,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Mongol_conquests",
     "summary": "The 13th-century military campaigns of the Mongol Empire under Genghis Khan and his successors, creating the largest contiguous land empire in history. The destruction of the Abbasid Caliphate (1258) and the Seljuk Sultanate created the power vacuum into which the Ottoman state expanded.",
     "decade": "1200s–1300s",
-    "tags": ["military", "history", "mongols", "empire", "asia"]
+    "tags": [
+      "military",
+      "history",
+      "mongols",
+      "empire",
+      "asia"
+    ]
   },
   {
     "id": "partition_of_india",
@@ -950,7 +1486,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Partition_of_India",
     "summary": "The 1947 British-administered division of the Indian subcontinent into Hindu-majority India and Muslim-majority Pakistan, producing one of history's largest forced migrations (10–20 million people) and communal massacres killing 200,000–2 million. A textbook case of dehumanization and scapegoating producing mass atrocity under the cover of administrative partition.",
     "decade": "1940s",
-    "tags": ["colonialism", "history", "india", "partition", "documented_atrocity"]
+    "tags": [
+      "colonialism",
+      "history",
+      "india",
+      "partition",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "srebrenica_massacre",
@@ -960,7 +1502,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Srebrenica_massacre",
     "summary": "The July 1995 genocide in which Bosnian Serb forces under Ratko Mladić systematically executed approximately 8,000 Bosniak Muslim men and boys from the UN-declared 'safe area' of Srebrenica. The only event legally designated genocide in Europe since the Holocaust.",
     "decade": "1990s",
-    "tags": ["genocide", "history", "europe", "balkans", "documented_atrocity"]
+    "tags": [
+      "genocide",
+      "history",
+      "europe",
+      "balkans",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "my_lai_massacre",
@@ -970,7 +1518,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/My_Lai_massacre",
     "summary": "The March 1968 mass killing of 347–504 unarmed South Vietnamese civilians — including women, children, and elderly — by U.S. Army soldiers. Covered up for 18 months until journalist Seymour Hersh exposed it in 1969; contributed to the collapse of domestic support for the Vietnam War.",
     "decade": "1960s",
-    "tags": ["war", "history", "vietnam", "atrocity", "documented_atrocity"]
+    "tags": [
+      "war",
+      "history",
+      "vietnam",
+      "atrocity",
+      "documented_atrocity"
+    ]
   },
   {
     "id": "american_civil_war",
@@ -980,7 +1534,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/American_Civil_War",
     "summary": "The 1861–1865 war between the United States and the Confederate States of America, caused by Southern states' determination to preserve chattel slavery. The bloodiest conflict in American history, killing approximately 620,000 soldiers; ended with the Union's victory and the formal abolition of slavery.",
     "decade": "1860s",
-    "tags": ["war", "history", "slavery", "america", "civil_rights"]
+    "tags": [
+      "war",
+      "history",
+      "slavery",
+      "america",
+      "civil_rights"
+    ]
   },
   {
     "id": "reconstruction_era",
@@ -990,7 +1550,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Reconstruction_era",
     "summary": "The 1865–1877 period of federal effort to rebuild the South and integrate formerly enslaved Black Americans as citizens. Ended by a political compromise that withdrew federal troops, allowing white supremacist violence to systematically dismantle Black political participation — directly producing Jim Crow.",
     "decade": "1860s–1870s",
-    "tags": ["history", "america", "civil_rights", "racism", "politics"]
+    "tags": [
+      "history",
+      "america",
+      "civil_rights",
+      "racism",
+      "politics"
+    ]
   },
   {
     "id": "battle_of_marathon",
@@ -1000,7 +1566,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Marathon",
     "summary": "The 490 BC Athenian victory over the invading Persian army of Darius I, demonstrating that a Greek city-state could defeat the Persian Empire in open battle. The victory preserved Athenian democracy at its most formative period and permanently humiliated Persia — directly producing Xerxes' massive retaliatory invasion a decade later.",
     "decade": "490s BC",
-    "tags": ["military", "history", "ancient", "greece", "persia"]
+    "tags": [
+      "military",
+      "history",
+      "ancient",
+      "greece",
+      "persia"
+    ]
   },
   {
     "id": "battle_of_thermopylae",
@@ -1010,7 +1582,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae",
     "summary": "The 480 BC three-day defense of the Thermopylae pass by approximately 7,000 Greeks — including 300 Spartans under King Leonidas — against Xerxes' invading Persian army. Though the Greeks were ultimately outflanked, the battle's delaying action enabled the Greek naval victory at Salamis and became the defining Western narrative of heroic sacrifice against overwhelming odds.",
     "decade": "480s BC",
-    "tags": ["military", "history", "ancient", "greece", "persia"]
+    "tags": [
+      "military",
+      "history",
+      "ancient",
+      "greece",
+      "persia"
+    ]
   },
   {
     "id": "battle_of_agincourt",
@@ -1020,7 +1598,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Agincourt",
     "summary": "The October 1415 English victory over a larger French army during the Hundred Years' War, in which Henry V's longbowmen destroyed the French cavalry. One of history's most studied examples of tactical innovation defeating numerical superiority; immortalized by Shakespeare's Henry V.",
     "decade": "1410s",
-    "tags": ["military", "history", "medieval", "england", "france"]
+    "tags": [
+      "military",
+      "history",
+      "medieval",
+      "england",
+      "france"
+    ]
   },
   {
     "id": "battle_of_gettysburg",
@@ -1030,7 +1614,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Gettysburg",
     "summary": "The July 1–3, 1863 engagement in which Union forces repulsed Lee's second invasion of the North, killing or wounding approximately 50,000 soldiers in three days. The decisive turning point of the American Civil War, ending any realistic Confederate hope of European recognition or Northern capitulation.",
     "decade": "1860s",
-    "tags": ["military", "history", "america", "civil_war", "turning_point"]
+    "tags": [
+      "military",
+      "history",
+      "america",
+      "civil_war",
+      "turning_point"
+    ]
   },
   {
     "id": "battle_of_waterloo",
@@ -1040,7 +1630,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
     "summary": "The June 18, 1815 defeat of Napoleon Bonaparte by the Duke of Wellington and Prussian forces, ending the Napoleonic Wars and Napoleon's rule. Produced the Congress of Vienna's conservative order that attempted to restore pre-Revolutionary Europe — an order whose instability would produce the 20th century's catastrophes.",
     "decade": "1810s",
-    "tags": ["military", "history", "europe", "napoleon", "turning_point"]
+    "tags": [
+      "military",
+      "history",
+      "europe",
+      "napoleon",
+      "turning_point"
+    ]
   },
   {
     "id": "ancient_jerusalem",
@@ -1050,7 +1646,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/History_of_Jerusalem",
     "summary": "Jerusalem's 3,000-year history as the sacred center of Judaism — site of the Temple of Solomon, the City of David, and later the location of the Crucifixion and the Prophet's Night Journey. The city's unique sanctity to three Abrahamic religions made control of it the organizing motive for millennia of conquest, massacre, and war.",
     "decade": "1000s BC–Ongoing",
-    "tags": ["religion", "history", "middle_east", "judaism", "sacred"]
+    "tags": [
+      "religion",
+      "history",
+      "middle_east",
+      "judaism",
+      "sacred"
+    ]
   },
   {
     "id": "babylonian_captivity",
@@ -1060,7 +1662,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Babylonian_captivity",
     "summary": "The 586 BC Babylonian destruction of the First Temple and forced exile of the Jewish people to Babylon. During this period Jewish identity, monotheism, and messianic theology were consolidated — the intellectual foundations of both Christianity and Islam.",
     "decade": "580s BC",
-    "tags": ["history", "judaism", "middle_east", "exile", "ancient"]
+    "tags": [
+      "history",
+      "judaism",
+      "middle_east",
+      "exile",
+      "ancient"
+    ]
   },
   {
     "id": "persian_achaemenid_empire",
@@ -1070,7 +1678,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Achaemenid_Empire",
     "summary": "The first Persian Empire (550–330 BC), the largest empire the world had seen — stretching from the Aegean to India. Cyrus the Great allowed the Jewish exiles to return to Judea; Persian administrative systems and Zoroastrian ideas influenced Jewish theology, early Christianity, and Islam.",
     "decade": "550s–330s BC",
-    "tags": ["history", "ancient", "persia", "empire", "middle_east"]
+    "tags": [
+      "history",
+      "ancient",
+      "persia",
+      "empire",
+      "middle_east"
+    ]
   },
   {
     "id": "alexander_the_great",
@@ -1080,7 +1694,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Alexander_the_Great",
     "summary": "Alexander III of Macedon (356–323 BC), who conquered the Persian Empire and spread Greek culture from Egypt to India. His conquests created the Hellenistic world that Rome inherited; his successors' forced Hellenization of Judea directly triggered the Maccabean revolt.",
     "decade": "330s–320s BC",
-    "tags": ["history", "ancient", "greece", "empire", "military"]
+    "tags": [
+      "history",
+      "ancient",
+      "greece",
+      "empire",
+      "military"
+    ]
   },
   {
     "id": "maccabean_revolt",
@@ -1090,7 +1710,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Maccabean_Revolt",
     "summary": "The 167–160 BC Jewish uprising against Seleucid Greek ruler Antiochus IV, who banned Torah observance, installed a Greek altar in the Temple, and forced Hellenization. The first religious freedom war in recorded history; intensified Jewish messianic expectations that directly shaped the milieu from which Christianity emerged.",
     "decade": "160s BC",
-    "tags": ["history", "judaism", "ancient", "religion", "revolt"]
+    "tags": [
+      "history",
+      "judaism",
+      "ancient",
+      "religion",
+      "revolt"
+    ]
   },
   {
     "id": "roman_empire",
@@ -1100,7 +1726,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Roman_Empire",
     "summary": "The Roman state at its imperial height (27 BC – 476 AD), governing the Mediterranean world including Judea. Roman roads, common language, and administrative unity created the infrastructure through which Christianity spread; Roman colonial rule of Judea produced the revolts that ended Jewish statehood.",
     "decade": "1st century BC–5th century AD",
-    "tags": ["history", "ancient", "rome", "empire", "mediterranean"]
+    "tags": [
+      "history",
+      "ancient",
+      "rome",
+      "empire",
+      "mediterranean"
+    ]
   },
   {
     "id": "jewish_roman_wars",
@@ -1110,7 +1742,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Jewish%E2%80%93Roman_wars",
     "summary": "The three major Jewish revolts against Roman rule: the Great Revolt (66–73 AD) ending with the destruction of the Second Temple, the Kitos War (115–117 AD), and the Bar Kokhba revolt (132–135 AD) after which Rome renamed Judea 'Syria Palaestina' and expelled Jews from Jerusalem. The wars produced the Jewish Diaspora.",
     "decade": "1st–2nd century AD",
-    "tags": ["history", "ancient", "rome", "judaism", "revolt"]
+    "tags": [
+      "history",
+      "ancient",
+      "rome",
+      "judaism",
+      "revolt"
+    ]
   },
   {
     "id": "jewish_diaspora",
@@ -1120,7 +1758,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Jewish_diaspora",
     "summary": "The permanent dispersion of Jewish communities throughout the world following the Roman destruction of Jerusalem, with major populations in Babylon, Egypt, and eventually throughout Europe and the Mediterranean. The Diaspora placed Jewish communities within European societies where they became the primary targets of medieval Christian antisemitism.",
     "decade": "2nd century AD–Ongoing",
-    "tags": ["history", "judaism", "diaspora", "ancient", "identity"]
+    "tags": [
+      "history",
+      "judaism",
+      "diaspora",
+      "ancient",
+      "identity"
+    ]
   },
   {
     "id": "rise_of_christianity",
@@ -1130,7 +1774,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/History_of_early_Christianity",
     "summary": "The growth of Christianity from a Jewish sect in Roman-occupied Judea to the official state religion of the Roman Empire under Constantine (312 AD) — a transformation enabled by Roman administrative infrastructure and completed by Theodosius I's 380 AD decree making it the empire's sole legal religion.",
     "decade": "1st–4th century AD",
-    "tags": ["religion", "history", "christianity", "rome", "ancient"]
+    "tags": [
+      "religion",
+      "history",
+      "christianity",
+      "rome",
+      "ancient"
+    ]
   },
   {
     "id": "byzantine_empire",
@@ -1140,6 +1790,172 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Byzantine_Empire",
     "summary": "The Eastern Roman Empire (330–1453 AD), centered on Constantinople, that preserved Roman administrative institutions and Christian Orthodox theology for over a millennium. Its Emperor Alexios I Komnenos's appeal to Pope Urban II for military assistance against the Seljuk Turks in 1095 was the direct trigger for the First Crusade.",
     "decade": "4th–15th century",
-    "tags": ["history", "byzantine", "christianity", "empire", "middle_east"]
+    "tags": [
+      "history",
+      "byzantine",
+      "christianity",
+      "empire",
+      "middle_east"
+    ]
+  },
+  {
+    "id": "sassanid_persian_empire",
+    "label": "Sassanid Persian Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sasanian_Empire",
+    "summary": "The last great pre-Islamic Persian Empire (224–651 AD), the dominant power in the Middle East alongside Byzantium for four centuries. Its wars with Byzantium and subsequent conquest by Arab armies transformed the Middle East from a Zoroastrian/Christian dual-power system to an Islamic civilization.",
+    "decade": "3rd–7th century",
+    "tags": [
+      "history",
+      "ancient",
+      "persia",
+      "empire",
+      "middle_east"
+    ]
+  },
+  {
+    "id": "byzantine_sassanid_wars",
+    "label": "Byzantine–Sassanid Wars",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Byzantine%E2%80%93Sasanian_War_of_602%E2%80%93628",
+    "summary": "The final and most devastating Byzantine-Sassanid war (602–628 AD), in which both empires exhausted themselves in over two decades of total war crossing the entire Middle East. The mutual destruction left both powers unable to resist the Arab armies that emerged from Arabia within a decade of the war's end.",
+    "decade": "7th century",
+    "tags": [
+      "history",
+      "ancient",
+      "war",
+      "middle_east",
+      "persia"
+    ]
+  },
+  {
+    "id": "rise_of_islam",
+    "label": "Rise of Islam",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Early_Muslim_conquests",
+    "summary": "Muhammad's founding of the Islamic community in Medina (622 AD / Year 1 AH) and the rapid political and military expansion that unified Arabia within a decade. Provided the ideological unity and political structure for the Arab conquests that transformed the Middle East, North Africa, and Iberia within a century.",
+    "decade": "7th century",
+    "tags": [
+      "religion",
+      "history",
+      "islam",
+      "middle_east",
+      "expansion"
+    ]
+  },
+  {
+    "id": "arab_conquests",
+    "label": "Arab Conquests",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Early_Muslim_conquests",
+    "summary": "The 632–750 AD expansion of Arab-Muslim armies from Arabia across the entire Sassanid Empire, Egypt, North Africa, and Iberia. The fastest territorial expansion in history, made possible by the exhaustion of Byzantine and Sassanid empires — transformed the Middle East, North Africa, and Iberia into Islamic civilization.",
+    "decade": "7th–8th century",
+    "tags": [
+      "history",
+      "islam",
+      "military",
+      "middle_east",
+      "expansion"
+    ]
+  },
+  {
+    "id": "sunni_shia_split",
+    "label": "Sunni–Shia Split",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sunni%E2%80%93Shia_relations",
+    "summary": "The founding schism of Islam, originating in the 632 AD dispute over succession to Muhammad. Ali ibn Abi Talib's followers (Shia) believed leadership belonged to Muhammad's family; the Sunni majority accepted Abu Bakr's elected succession. The schism hardened through the Battle of Karbala (680 AD) into a permanent theological and political fracture still defining Middle Eastern politics today.",
+    "decade": "7th century–Ongoing",
+    "tags": [
+      "religion",
+      "islam",
+      "history",
+      "middle_east",
+      "schism"
+    ]
+  },
+  {
+    "id": "abbasid_caliphate",
+    "label": "Abbasid Caliphate",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Abbasid_Caliphate",
+    "summary": "The second great Islamic caliphate (750–1258 AD), centered on Baghdad, representing the Islamic Golden Age of science, philosophy, and culture. The caliphate's gradual weakening allowed Seljuk Turks to dominate militarily while Abbasid caliphs remained nominal spiritual rulers; ended by the Mongol sack of Baghdad in 1258.",
+    "decade": "8th–13th century",
+    "tags": [
+      "history",
+      "islam",
+      "empire",
+      "middle_east",
+      "culture"
+    ]
+  },
+  {
+    "id": "fatimid_caliphate",
+    "label": "Fatimid Caliphate",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fatimid_Caliphate",
+    "summary": "The Shia Ismaili caliphate based in Cairo (909–1171 AD), which controlled Egypt, North Africa, and the Levant including Jerusalem. The Fatimid Caliph al-Hakim bi-Amr Allah ordered the destruction of the Church of the Holy Sepulchre in 1009 — one of the most important events in the causal chain leading to the First Crusade.",
+    "decade": "10th–12th century",
+    "tags": [
+      "history",
+      "islam",
+      "shia",
+      "middle_east",
+      "egypt"
+    ]
+  },
+  {
+    "id": "seljuk_empire",
+    "label": "Seljuk Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seljuk_Empire",
+    "summary": "The Sunni Turkish empire (1037–1194 AD) that displaced the Fatimids from the Levant, conquered most of Anatolia from Byzantium after Manzikert, and disrupted the relatively tolerant Christian pilgrim access to Jerusalem that had existed under Abbasid and Fatimid rule. Their expansion directly produced both the Byzantine appeal for help and the Crusade.",
+    "decade": "11th–12th century",
+    "tags": [
+      "history",
+      "islam",
+      "turkey",
+      "middle_east",
+      "empire"
+    ]
+  },
+  {
+    "id": "battle_of_manzikert",
+    "label": "Battle of Manzikert",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Manzikert",
+    "summary": "The 1071 AD defeat of the Byzantine army by Seljuk forces under Alp Arslan, in which Byzantine Emperor Romanos IV was captured. The battle opened Anatolia to Seljuk settlement, permanently weakening Byzantium and triggering the sequence that produced Emperor Alexios I's desperate appeal to Pope Urban II and ultimately the First Crusade.",
+    "decade": "1070s",
+    "tags": [
+      "military",
+      "history",
+      "byzantine",
+      "seljuk",
+      "middle_east"
+    ]
+  },
+  {
+    "id": "destruction_of_holy_sepulchre",
+    "label": "Destruction of Church of the Holy Sepulchre",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Church_of_the_Holy_Sepulchre",
+    "summary": "The 1009 AD order by Fatimid Caliph al-Hakim bi-Amr Allah to demolish the Church of the Holy Sepulchre in Jerusalem — the most sacred site in Christianity. The destruction shocked Western Europe and triggered calls for military intervention; it is a key node in the causal chain leading to Urban II's 1095 Crusade call.",
+    "decade": "1000s",
+    "tags": [
+      "religion",
+      "history",
+      "middle_east",
+      "christianity",
+      "crusades"
+    ]
   }
 ]

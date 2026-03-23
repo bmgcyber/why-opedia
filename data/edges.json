@@ -1861,5 +1861,131 @@
     "label": "Emperor Alexios's appeal triggered Urban's call",
     "note": "Byzantine Emperor Alexios I Komnenos sent envoys to Pope Urban II in 1095 requesting military aid against the Seljuk Turks who had conquered most of Anatolia after Manzikert. Urban II's response — a holy war far exceeding what Alexios requested — produced the Crusade.",
     "confidence": "high"
+  },
+  {
+    "id": "byzantine_empire__byzantine_sassanid_wars",
+    "source": "byzantine_empire",
+    "target": "byzantine_sassanid_wars",
+    "type": "PRODUCED",
+    "label": "competing empires produced total war",
+    "note": "The Byzantine Empire and the Sassanid Persian Empire were locked in a structural rivalry for dominance of the Middle East — the 602–628 war was the catastrophic culmination of centuries of conflict that left both exhausted.",
+    "confidence": "high"
+  },
+  {
+    "id": "sassanid_persian_empire__byzantine_sassanid_wars",
+    "source": "sassanid_persian_empire",
+    "target": "byzantine_sassanid_wars",
+    "type": "PRODUCED",
+    "label": "Sassanids launched the devastating final war",
+    "note": "The Sassanid Emperor Khosrow II used the Byzantine usurpation of Emperor Maurice as pretext for launching the final war, initially conquering Syria, Palestine, and Egypt before Byzantine Emperor Heraclius reversed the losses — both empires destroying themselves.",
+    "confidence": "high"
+  },
+  {
+    "id": "byzantine_sassanid_wars__arab_conquests",
+    "source": "byzantine_sassanid_wars",
+    "target": "arab_conquests",
+    "type": "ENABLED",
+    "label": "mutual exhaustion left both empires defenseless",
+    "note": "The wars left the Sassanid Empire collapsed entirely and the Byzantine Empire severely diminished in territory, treasury, and manpower. When Arab armies emerged from Arabia within a decade of the war's end, neither empire had the capacity to resist.",
+    "confidence": "high"
+  },
+  {
+    "id": "rise_of_islam__arab_conquests",
+    "source": "rise_of_islam",
+    "target": "arab_conquests",
+    "type": "PRODUCED",
+    "label": "Islam provided unity and motivation for expansion",
+    "note": "The Islamic community Muhammad founded unified the previously fragmented and warring Arabian tribes under a single ideology and political structure — the ideological and organizational precondition for the Arab conquests' unprecedented speed and scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "arab_conquests__abbasid_caliphate",
+    "source": "arab_conquests",
+    "target": "abbasid_caliphate",
+    "type": "PRODUCED",
+    "label": "conquests built the empire the Abbasids inherited",
+    "note": "The Arab conquests built the vast Islamic empire that the Abbasid revolution of 750 AD inherited — the Abbasids overthrew the Umayyad dynasty but governed the territory the conquests had created.",
+    "confidence": "high"
+  },
+  {
+    "id": "rise_of_islam__sunni_shia_split",
+    "source": "rise_of_islam",
+    "target": "sunni_shia_split",
+    "type": "CAUSED",
+    "label": "succession dispute split Islam immediately",
+    "note": "Muhammad's death in 632 AD without designating a successor produced an immediate dispute between those who accepted Abu Bakr's elected leadership (Sunni) and those who believed Ali ibn Abi Talib, Muhammad's cousin and son-in-law, was the rightful heir (Shia). The schism was present from the first moment.",
+    "confidence": "high"
+  },
+  {
+    "id": "sunni_shia_split__fatimid_caliphate",
+    "source": "sunni_shia_split",
+    "target": "fatimid_caliphate",
+    "type": "PRODUCED",
+    "label": "Shia politics produced the Fatimid state",
+    "note": "The Fatimid Caliphate was explicitly founded as a Shia counter-caliphate to the Sunni Abbasid dynasty — its existence was a direct political expression of the Sunni-Shia split. The Ismaili Shia missionaries who founded it built their movement on Shia theological grievances against Sunni rule.",
+    "confidence": "high"
+  },
+  {
+    "id": "mongol_conquests__abbasid_caliphate",
+    "source": "mongol_conquests",
+    "target": "abbasid_caliphate",
+    "type": "DISCREDITED",
+    "label": "Mongol sack of Baghdad ended the caliphate",
+    "note": "Hulagu Khan's 1258 sack of Baghdad killed the last Abbasid Caliph, burned the House of Wisdom (the Islamic world's greatest library), and destroyed the Abbasid Caliphate — ending the institution that had been the nominal center of Sunni Islamic civilization for five centuries.",
+    "confidence": "high"
+  },
+  {
+    "id": "seljuk_empire__battle_of_manzikert",
+    "source": "seljuk_empire",
+    "target": "battle_of_manzikert",
+    "type": "PRODUCED",
+    "label": "Seljuk expansion into Anatolia produced the battle",
+    "note": "The Seljuk push into Byzantine Anatolia — raiding and settling previously Byzantine territory — produced the confrontation at Manzikert as the Byzantine Emperor's response. The battle was the direct product of the Seljuk imperial expansion into Christian territory.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_manzikert__first_crusade",
+    "source": "battle_of_manzikert",
+    "target": "first_crusade",
+    "type": "ENABLED",
+    "label": "Byzantine defeat triggered the appeal to Rome",
+    "note": "Manzikert's devastation of Byzantine military capacity and the subsequent Seljuk occupation of most of Anatolia produced Emperor Alexios I's desperate appeal to Pope Urban II — the direct trigger of the First Crusade. Without Manzikert, there is no Crusade.",
+    "confidence": "high"
+  },
+  {
+    "id": "fatimid_caliphate__destruction_of_holy_sepulchre",
+    "source": "fatimid_caliphate",
+    "target": "destruction_of_holy_sepulchre",
+    "type": "PRODUCED",
+    "label": "al-Hakim ordered destruction of Christianity's holiest site",
+    "note": "Fatimid Caliph al-Hakim bi-Amr Allah ordered the Church of the Holy Sepulchre demolished to its foundations in 1009 — an act of deliberate provocation whose shock in Western Europe contributed to the religious urgency that Urban II's Crusade call activated.",
+    "confidence": "high"
+  },
+  {
+    "id": "destruction_of_holy_sepulchre__first_crusade",
+    "source": "destruction_of_holy_sepulchre",
+    "target": "first_crusade",
+    "type": "ENABLED",
+    "label": "desecration of holiest site intensified Crusade urgency",
+    "note": "The 1009 destruction entered European consciousness as a grievance that marinated for 86 years before Urban II's 1095 call — providing the emotional and theological urgency for a military response that pure political calculation might not have produced.",
+    "confidence": "medium"
+  },
+  {
+    "id": "abbasid_caliphate__seljuk_empire",
+    "source": "abbasid_caliphate",
+    "target": "seljuk_empire",
+    "type": "ENABLED",
+    "label": "Abbasid decline created the military vacuum",
+    "note": "The Abbasid Caliphate's weakening from the 9th century onward — as it became dependent on Turkish mercenary slave-soldiers — created the vacuum that Seljuk Turks filled as the de facto military power, eventually dominating the Abbasid caliphs while leaving them as nominal spiritual figureheads.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_jerusalem__rise_of_islam",
+    "source": "ancient_jerusalem",
+    "target": "rise_of_islam",
+    "type": "ENABLED",
+    "label": "Jerusalem's Night Journey made it Islam's third holy city",
+    "note": "The Prophet Muhammad's Night Journey (Isra and Mi'raj) to Jerusalem and his ascension to heaven from the Temple Mount made Jerusalem (Al-Quds) Islam's third holiest city after Mecca and Medina — giving Islamic civilization a direct stake in the city's political control.",
+    "confidence": "high"
   }
 ]
