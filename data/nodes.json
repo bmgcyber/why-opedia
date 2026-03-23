@@ -2926,5 +2926,102 @@
     "summary": "A late 20th-century philosophical movement (Foucault, Derrida, Lyotard, Baudrillard) characterized by skepticism toward grand narratives, rejection of objective foundations, deconstruction of texts and power structures, and the claim that knowledge and truth are always situated in power relations. Postmodern philosophy produced invaluable tools for exposing how institutions naturalize power — but its relativist epistemology has also been weaponized by authoritarian movements to delegitimize empirical consensus, making it simultaneously a critique of domination and a vector for manufactured doubt.",
     "decade": "1960s",
     "tags": ["philosophy", "deconstruction", "power", "relativism", "postmodernism", "epistemology"]
+  },
+  {
+    "id": "vedic_tradition",
+    "label": "Vedic Tradition",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vedic_period",
+    "summary": "The foundational religious and philosophical tradition of the Indian subcontinent (c. 1500–500 BCE), centered on the Vedas — collections of hymns, ritual instructions, and philosophical speculation composed in Sanskrit. The Vedic tradition established the conceptual vocabulary of Indian thought: dharma (cosmic order and duty), rita (natural law), karma (action and consequence), Brahman (ultimate reality), and the Atman (individual self). The later Vedic period produced the Upanishads, the Bhagavad Gita, and the systematic philosophical schools that defined all subsequent South Asian thought.",
+    "decade": "1500s BCE",
+    "tags": ["philosophy", "india", "religion", "vedas", "dharma", "ancient", "hinduism"]
+  },
+  {
+    "id": "upanishadic_philosophy",
+    "label": "Upanishadic Philosophy",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Upanishads",
+    "summary": "The philosophical texts (c. 800–200 BCE) that form the concluding layer of the Vedas, investigating the ultimate nature of reality: Brahman (the absolute, impersonal ground of all being) and Atman (the individual self). The Upanishads' central claim — tat tvam asi, 'that art thou,' identifying individual self with ultimate reality — became the foundation of Indian idealism. They also developed the doctrines of karma and rebirth in their mature philosophical forms, and established the concepts that the Buddha would both inherit and critique.",
+    "decade": "700s BCE",
+    "tags": ["philosophy", "india", "vedanta", "brahman", "atman", "consciousness", "meditation"]
+  },
+  {
+    "id": "jainism",
+    "label": "Jainism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jainism",
+    "summary": "An ancient Indian religious and philosophical tradition, its classical form systematized by Mahavira (c. 599–527 BCE), contemporaneous with the Buddha. Jainism's central doctrines are ahimsa (non-violence toward all living beings), anekantavada (the many-sidedness of truth — no single perspective captures reality fully), and ascetic self-discipline. Jainism made non-violence its absolute ethical principle, influencing Gandhi and providing one of the most rigorous philosophical analyses of how violence operates within systems of thought.",
+    "decade": "500s BCE",
+    "tags": ["philosophy", "india", "nonviolence", "asceticism", "ethics", "ancient", "jain"]
+  },
+  {
+    "id": "gautama_buddha",
+    "label": "Gautama Buddha (c. 563–483 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gautama_Buddha",
+    "summary": "Siddhartha Gautama, the founder of Buddhism, born into an aristocratic family in what is now Nepal. His awakening (c. 528 BCE) under the Bodhi tree produced the Four Noble Truths and the Eightfold Path — the diagnosis that suffering arises from craving and ignorance, and the prescription of disciplined ethical and meditative practice as the path to liberation. The Buddha rejected both extreme asceticism and sensory indulgence, offered liberation to all regardless of caste, and created a monastic community (Sangha) that became one of the most globally influential institutions in history.",
+    "decade": "500s BCE",
+    "tags": ["philosophy", "india", "buddhism", "meditation", "liberation", "ancient", "ethics"]
+  },
+  {
+    "id": "buddhist_philosophy",
+    "label": "Buddhist Philosophy",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Buddhist_philosophy",
+    "summary": "The broad philosophical tradition emerging from the Buddha's teachings, developing over two thousand years across India, Southeast Asia, China, Japan, and Tibet. Its foundational claims — the Four Noble Truths, Eightfold Path, dependent origination, impermanence (anicca), no-self (anatta), and emptiness (sunyata) — constitute a systematic critique of the assumptions underlying ordinary human suffering. Buddhist philosophy contains one of history's most sustained traditions of analysis of mind, ethics, and epistemology, and its spread shaped the entire intellectual history of Asia.",
+    "decade": "500s BCE",
+    "tags": ["philosophy", "buddhism", "india", "asia", "mind", "ethics", "liberation", "impermanence"]
+  },
+  {
+    "id": "dependent_origination",
+    "label": "Dependent Origination",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The Buddhist doctrine of pratītyasamutpāda: all phenomena arise in dependence upon conditions — nothing exists independently, permanently, or with inherent essence. Every event, state, or entity is the product of a web of prior causes and conditions; remove those conditions and it ceases. As a mechanism, dependent origination represents one of the most radical accounts of causation in philosophical history: not linear cause-effect chains but mutual co-arising, where causes and conditions are themselves conditioned by their effects. It undermines both the idea of a first uncaused cause and any fixed, essential identity.",
+    "decade": "500s BCE",
+    "tags": ["philosophy", "buddhism", "causation", "interdependence", "mechanism", "emptiness"]
+  },
+  {
+    "id": "karma_doctrine",
+    "label": "Karma Doctrine",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The principle of moral causation: intentional actions (karma) produce consequences that shape future experience, either in this life or future lives. Originating in the Vedas, karma was systematically developed in the Upanishads and then transformed by Buddhism (which de-emphasized rebirth in favor of moment-to-moment causation) and Jainism (which emphasized the weight of accumulated past actions). As a mechanism, karma functions as a system for distributing moral responsibility — but has also functioned historically as a legitimizing ideology: framing social hierarchy as the deserved result of past-life merit, thereby naturalizing structural inequality.",
+    "decade": "1500s BCE",
+    "tags": ["philosophy", "india", "causation", "ethics", "rebirth", "caste", "consequence"]
+  },
+  {
+    "id": "advaita_vedanta",
+    "label": "Advaita Vedanta",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Advaita_Vedanta",
+    "summary": "The non-dualist school of Hindu philosophy, systematized by Adi Shankara (8th century CE), which holds that Brahman (ultimate reality) alone is real, that individual Atman is identical to Brahman, and that the apparent world of multiplicity is maya (illusion or appearance). Advaita Vedanta is one of the most rigorous philosophical defenses of monism in world philosophy: its argument that the appearance of separateness is a cognitive error, and that liberation consists in recognizing one's identity with the absolute, has parallels with both Platonic idealism and Buddhist emptiness doctrine.",
+    "decade": "700s",
+    "tags": ["philosophy", "india", "hinduism", "non-dualism", "brahman", "liberation", "idealism"]
+  },
+  {
+    "id": "bhagavad_gita",
+    "label": "Bhagavad Gita",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bhagavad_Gita",
+    "summary": "A Sanskrit philosophical poem (c. 200 BCE – 200 CE) embedded in the Mahabharata, in which the god Krishna counsels the warrior Arjuna on the eve of battle. The Gita synthesizes three philosophical paths: karma yoga (action without attachment to results), bhakti yoga (devotional surrender), and jnana yoga (knowledge of one's true nature). It became the central philosophical text of Hinduism, Gandhi's most important spiritual guide (he carried it everywhere), and the locus of ongoing debate about whether it endorses or undermines the caste system, violence in duty, and spiritual detachment from social consequences.",
+    "decade": "200s BCE",
+    "tags": ["philosophy", "india", "hinduism", "dharma", "karma", "devotion", "sacred-text"]
+  },
+  {
+    "id": "ahimsa_principle",
+    "label": "Ahimsa (Non-Violence Principle)",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The principle of ahimsa (non-harm) — the commitment to not causing suffering to any living being — codified as a central ethical and political tool in Jain, Buddhist, and Hindu traditions. As a mechanism, ahimsa is not passive: in Gandhi's formulation (satyagraha — truth-force), it is an active political strategy in which voluntary suffering exposes the violence of the oppressor and generates moral pressure for change. The mechanism has three dimensions: ethical (non-violence as intrinsically right), tactical (non-violence as effective), and philosophical (violence corrupts the practitioner as much as the target).",
+    "decade": "500s BCE",
+    "tags": ["philosophy", "india", "nonviolence", "ethics", "gandhi", "resistance", "strategy"]
   }
 ]

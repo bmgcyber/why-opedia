@@ -3058,5 +3058,167 @@
     "label": "Weaponized relativism normalizes epistemic nihilism",
     "note": "Postmodern philosophy's legitimately powerful insight — that all knowledge is situated, that truth claims reflect power relations — has been selectively appropriated by authoritarian movements to delegitimize empirical consensus: climate science, vaccine safety, election results. The structure is the same: 'who decides what's true?' Post-modern philosophy did not cause this weaponization, but its relativist epistemology provided the intellectual tools that manufactured doubt and authoritarian propaganda require.",
     "confidence": "medium"
+  },
+  {
+    "id": "vedic_tradition__upanishadic_philosophy",
+    "source": "vedic_tradition",
+    "target": "upanishadic_philosophy",
+    "type": "PRODUCED",
+    "label": "Upanishads are the philosophical culmination of the Vedic tradition",
+    "note": "The Upanishads emerged as the philosophical layer at the end of the Vedic period — the Vedanta (end of the Vedas). They took the Vedic ritual universe and radicalized it inward: instead of external sacrifice to gods, what is the nature of the consciousness performing the sacrifice? The answer — Atman is Brahman, individual self is ultimate reality — transformed Vedic religion into one of the world's most sophisticated philosophical traditions.",
+    "confidence": "high"
+  },
+  {
+    "id": "vedic_tradition__karma_doctrine",
+    "source": "vedic_tradition",
+    "target": "karma_doctrine",
+    "type": "ENABLED",
+    "label": "Vedic ritual action (karma) evolved into moral causation doctrine",
+    "note": "The word karma originally meant ritual action in the Vedas — the correct performance of sacrifice that maintains cosmic order. The Upanishads transformed this into a moral causation doctrine: all intentional actions produce karmic consequences that bind the actor to the cycle of rebirth. The concept evolved from ritual mechanics to universal moral law, one of the most consequential conceptual developments in intellectual history.",
+    "confidence": "high"
+  },
+  {
+    "id": "vedic_tradition__bhagavad_gita",
+    "source": "vedic_tradition",
+    "target": "bhagavad_gita",
+    "type": "PRODUCED",
+    "label": "The Gita synthesized and systematized Vedic philosophical traditions",
+    "note": "The Bhagavad Gita emerged from the Vedic and Upanishadic traditions, synthesizing their diverse strands (karma, dharma, liberation, devotion) into a unified philosophical framework. It is embedded in the Mahabharata, itself a product of the Vedic epic tradition. The Gita became the central popular statement of what the Upanishads had explored esoterically — making the philosophical core of Vedic thought accessible to warriors, householders, and later the world.",
+    "confidence": "high"
+  },
+  {
+    "id": "upanishadic_philosophy__gautama_buddha",
+    "source": "upanishadic_philosophy",
+    "target": "gautama_buddha",
+    "type": "ENABLED",
+    "label": "Buddha emerged from and critiqued the Upanishadic tradition",
+    "note": "The Buddha was born into the intellectual world of the late Upanishadic period. He inherited its central concerns — how to escape the suffering of rebirth, what the self truly is, how karma operates — but gave radically different answers: no permanent self (anatta), no Brahman, liberation through insight rather than ritual or metaphysical speculation. Buddhism is both the inheritor and the most systematic philosophical challenger of Upanishadic thought.",
+    "confidence": "high"
+  },
+  {
+    "id": "upanishadic_philosophy__karma_doctrine",
+    "source": "upanishadic_philosophy",
+    "target": "karma_doctrine",
+    "type": "PRODUCED",
+    "label": "Upanishads formalized karma as a moral causation doctrine",
+    "note": "The Upanishads transformed karma from Vedic ritual action into the philosophical doctrine of universal moral causation: all intentional actions produce consequences that bind the actor to the cycle of rebirth (samsara). The Brihadaranyaka and Chandogya Upanishads contain the earliest systematic philosophical treatments of karma as moral law — the framework that both Buddhism and Jainism would inherit and transform.",
+    "confidence": "high"
+  },
+  {
+    "id": "upanishadic_philosophy__advaita_vedanta",
+    "source": "upanishadic_philosophy",
+    "target": "advaita_vedanta",
+    "type": "ENABLED",
+    "label": "Advaita Vedanta systematized the Upanishadic non-dualist insights",
+    "note": "Adi Shankara's Advaita Vedanta (8th century CE) was explicitly a commentary tradition on the Upanishads — systematizing their central non-dualist statements (Atman = Brahman; tat tvam asi) into a comprehensive philosophical system. Shankara's genius was to show that the Upanishads, when read carefully, teach a strict non-dualism, and to build a rigorous logical defense of this position against Buddhist and other critiques.",
+    "confidence": "high"
+  },
+  {
+    "id": "jainism__ahimsa_principle",
+    "source": "jainism",
+    "target": "ahimsa_principle",
+    "type": "PRODUCED",
+    "label": "Jainism made non-violence its absolute foundational principle",
+    "note": "Jainism's most distinctive and consequential contribution to world thought was making ahimsa (non-harm) the supreme ethical principle — not merely a virtue among others but an absolute commitment that defines the entire moral framework. Mahavira formalized what had been an emerging principle in the ascetic traditions of India into a systematic ethical doctrine: even microscopic organisms must not be harmed. This radicalization of non-violence was the direct philosophical source for Gandhi's political strategy.",
+    "confidence": "high"
+  },
+  {
+    "id": "jainism__gautama_buddha",
+    "source": "jainism",
+    "target": "gautama_buddha",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Contemporaneous Indian reform movements from the same ascetic tradition",
+    "note": "Jainism and Buddhism were contemporaneous (5th century BCE), emerging from the same ferment of the Shramana (renunciant) movement in northeastern India. Both rejected Vedic ritual authority and caste hierarchy as the basis of liberation, both emphasized individual practice over external sacrifice, both developed systematic ethics around non-violence and mental discipline. They represent parallel philosophical responses to the same historical conditions, and the Buddha was familiar with Jain ascetic practice.",
+    "confidence": "high"
+  },
+  {
+    "id": "gautama_buddha__buddhist_philosophy",
+    "source": "gautama_buddha",
+    "target": "buddhist_philosophy",
+    "type": "PRODUCED",
+    "label": "Buddha's teachings founded the entire Buddhist philosophical tradition",
+    "note": "The entire Buddhist philosophical tradition — Theravada, Mahayana, Vajrayana; Madhyamaka, Yogacara, Chan/Zen; Tibetan, Japanese, Southeast Asian — traces itself back to Gautama Buddha's awakening and teachings. Though later traditions developed his insights in directions he may not have anticipated, the foundational doctrines (Four Noble Truths, dependent origination, no-self, the Eightfold Path) remained the shared reference point for two thousand years of philosophical elaboration.",
+    "confidence": "high"
+  },
+  {
+    "id": "gautama_buddha__dependent_origination",
+    "source": "gautama_buddha",
+    "target": "dependent_origination",
+    "type": "PRODUCED",
+    "label": "Dependent origination was the Buddha's central philosophical insight",
+    "note": "Dependent origination (pratītyasamutpāda) is considered the Buddha's most distinctive philosophical contribution — described in texts as what he discovered upon awakening. By teaching that all phenomena arise only in dependence upon conditions and have no independent, permanent self-nature, the Buddha provided a radical alternative to both Vedic eternalism (the Atman is real and permanent) and materialist annihilationism (there is nothing after death). It is the philosophical foundation for Buddhist emptiness doctrine and ethics.",
+    "confidence": "high"
+  },
+  {
+    "id": "gautama_buddha__ahimsa_principle",
+    "source": "gautama_buddha",
+    "target": "ahimsa_principle",
+    "type": "ENABLED",
+    "label": "Buddhism embedded non-violence in its ethical and philosophical framework",
+    "note": "The Buddha placed ahimsa at the center of his ethical teaching: the first precept for all practitioners is not to take life, and compassion (karuna) for all sentient beings is the emotional foundation of Buddhist ethics. Buddhism extended the principle of non-violence from practice into philosophical justification — dependent origination means that harming others is harming an interdependent aspect of reality that is not fundamentally separate from oneself.",
+    "confidence": "high"
+  },
+  {
+    "id": "buddhist_philosophy__karma_doctrine",
+    "source": "buddhist_philosophy",
+    "target": "karma_doctrine",
+    "type": "ENABLED",
+    "label": "Buddhism transformed karma by removing the permanent self that karma accrues to",
+    "note": "Buddhism adopted the karma doctrine but transformed it philosophically: if there is no permanent self (anatta), what is it that karma accrues to and what is reborn? The Buddhist answer — a causal stream of mental states rather than a soul — produced the most sophisticated philosophical analysis of moral causation in any tradition. Buddhist karma theory emphasizes intention (cetana) as the morally relevant factor, not the action itself.",
+    "confidence": "high"
+  },
+  {
+    "id": "bhagavad_gita__karma_doctrine",
+    "source": "bhagavad_gita",
+    "target": "karma_doctrine",
+    "type": "ENABLED",
+    "label": "The Gita's karma yoga is non-attached action within moral causation",
+    "note": "The Bhagavad Gita's central philosophical teaching on action (karma yoga) builds directly on karma doctrine: Krishna counsels Arjuna to perform his duty (dharma) without attachment to results, surrendering the fruits of action to God. This teaching simultaneously affirms karma as the universal law of action-consequence and offers a way to act within it without accumulating binding karma — through detachment from outcomes while fulfilling one's role.",
+    "confidence": "high"
+  },
+  {
+    "id": "advaita_vedanta__platonic_idealism",
+    "source": "advaita_vedanta",
+    "target": "platonic_idealism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both posit transcendent reality and material world as imperfect reflection",
+    "note": "Advaita Vedanta and Platonic Idealism are the two most sophisticated philosophical defenses of the claim that material reality is not ultimately real — that a transcendent absolute (Brahman / the Good / the Forms) is the true reality, and the material world is a secondary manifestation or imperfect copy. Both use this metaphysics to justify hierarchical access to truth (those who can perceive the absolute vs. those trapped in the material), and both were synthesized with major world religions (Hinduism, Christianity) to provide their metaphysical foundation.",
+    "confidence": "high"
+  },
+  {
+    "id": "ahimsa_principle__decolonization_movement",
+    "source": "ahimsa_principle",
+    "target": "decolonization_movement",
+    "type": "ENABLED",
+    "label": "Gandhi's satyagraha made ahimsa the method of anti-colonial resistance",
+    "note": "Gandhi's application of ahimsa to political struggle against British colonialism — as satyagraha (truth-force) — transformed a philosophical and religious principle into a political technology. The Indian independence movement (1919–1947) demonstrated that non-violent mass resistance could defeat colonial power, directly influencing the African National Congress, Martin Luther King Jr.'s civil rights movement, and anti-colonial movements across Asia and Africa. Decolonization's most powerful moral weapon was derived from ancient Indian philosophy.",
+    "confidence": "high"
+  },
+  {
+    "id": "bhagavad_gita__decolonization_movement",
+    "source": "bhagavad_gita",
+    "target": "decolonization_movement",
+    "type": "ENABLED",
+    "label": "Gandhi used the Gita as his central philosophical text",
+    "note": "Gandhi described the Bhagavad Gita as his 'spiritual reference book' and 'mother' — he carried it everywhere and wrote an extensive commentary. He read the Gita's teaching on nishkama karma (action without attachment to results) as the philosophical foundation for non-violent political action: act with complete commitment to duty (truth, justice, independence) while remaining unattached to personal outcomes, including imprisonment or death. The Gita provided the philosophical framework for enduring suffering without despair or retaliation.",
+    "confidence": "high"
+  },
+  {
+    "id": "karma_doctrine__structural_violence",
+    "source": "karma_doctrine",
+    "target": "structural_violence",
+    "type": "ENABLED",
+    "label": "Karma doctrine can legitimize hierarchy as deserved past-life consequence",
+    "note": "The karma doctrine's most politically consequential function has been the legitimization of existing social hierarchies as the deserved result of past-life moral conduct: those born into lower castes, poverty, or subjugation are where they are because of actions in past lives. This framing converts structural violence — socially produced harm embedded in institutions — into natural justice. The caste system's religious legitimization was substantially maintained through this interpretation of karma, making structural reform appear as interference with cosmic justice.",
+    "confidence": "high"
+  },
+  {
+    "id": "buddhist_philosophy__hellenistic_philosophy",
+    "source": "buddhist_philosophy",
+    "target": "hellenistic_philosophy",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Axial Age traditions independently addressed suffering and equanimity",
+    "note": "Buddhism and Hellenistic philosophy (especially Stoicism and Epicureanism) developed in rough contemporaneity (5th–3rd centuries BCE) without direct contact, yet converged on similar problems and partially similar solutions: both diagnosed ordinary human suffering as arising from false beliefs and disordered desires, both prescribed philosophical discipline as the path to equanimity, both emphasized the importance of distinguishing what is within our control from what is not. The Greco-Buddhist kingdom of Gandhara later produced direct cultural synthesis.",
+    "confidence": "medium"
   }
 ]
