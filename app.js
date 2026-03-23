@@ -1047,9 +1047,15 @@ function runPathFinder() {
     }
   });
 
+  // Build node data and chronological analysis
+  const nodeData = path.map(id => cy.getElementById(id).data());
+  const years = nodeData.map(nd => parseDecadeYear(nd.decade));
+  const backwards = years.map((y, i) => i < years.length - 1 && years[i + 1] < y - 50);
+  const hasBackwards = backwards.some(Boolean);
+
   // Build sidebar chain
   const steps = path.map((id, i) => {
-    const nd = cy.getElementById(id).data();
+    const nd = nodeData[i];
     const color = CATEGORY_COLOR[nd.category] || '#8c8fa8';
     let edgeLabel = '';
     if (i < path.length - 1) {
@@ -1059,16 +1065,27 @@ function runPathFinder() {
         }
       });
     }
+    // Mechanism nodes with "Ongoing" decade show as "Recurring" mid-path
+    let decadeDisplay = nd.decade || '';
+    if (nd.category === 'mechanism' && /^ongoing$/i.test(nd.decade)) {
+      decadeDisplay = 'Recurring';
+    }
+    const warnClass = backwards[i] ? ' pf-path-warn' : '';
+    const warnAttr  = backwards[i] ? ' title="This jump goes back in time"' : '';
     return `
-      <div class="pf-path-step" data-node-id="${escHtml(id)}">
+      <div class="pf-path-step${warnClass}" data-node-id="${escHtml(id)}"${warnAttr}>
         <span style="color:${color}; font-size:10px;">●</span>
         <span class="pf-path-node">${escHtml(nd.label)}</span>
+        ${decadeDisplay ? `<span class="pf-path-decade">${escHtml(decadeDisplay)}</span>` : ''}
       </div>
       ${edgeLabel ? `<div style="padding:0 6px 2px 18px"><span class="pf-path-arrow">${escHtml(edgeLabel)}</span></div>` : ''}
     `;
   }).join('');
 
-  result.innerHTML = `<div style="margin-bottom:6px;font-size:11px;color:var(--text-muted)">Path (${path.length} nodes):</div><div class="pf-path-chain">${steps}</div>`;
+  const banner = hasBackwards
+    ? `<div class="pf-chrono-warning">⚠ This path contains non-chronological steps</div>`
+    : '';
+  result.innerHTML = `${banner}<div style="margin-bottom:6px;font-size:11px;color:var(--text-muted)">Path (${path.length} nodes):</div><div class="pf-path-chain">${steps}</div>`;
 
   result.querySelectorAll('.pf-path-step').forEach(step => {
     step.addEventListener('click', () => {
@@ -1262,8 +1279,12 @@ function toggleTimeline() {
 
 function parseDecadeYear(decade) {
   if (!decade) return 2000;
-  const m = decade.match(/(\d{4})/);
-  if (m) return parseInt(m[1], 10);
+  const bce = /bce/i.test(decade);
+  const m = decade.match(/(\d+)/);
+  if (m) {
+    const year = parseInt(m[1], 10);
+    return bce ? -year : year;
+  }
   if (/ancient|classical/i.test(decade)) return 400;
   if (/medieval/i.test(decade)) return 1200;
   if (/modern/i.test(decade)) return 1600;

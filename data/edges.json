@@ -4853,5 +4853,536 @@
     "label": "Milgram results provided the empirical proof that authority pressure produces moral disengagement in ordinary people",
     "note": "Milgram findings empirically confirmed the mechanism of moral disengagement Bandura would later theorize: in his experiments, participants progressively disengaged from moral agency by diffusing responsibility (\"I was just following orders\"), using euphemistic language (\"administering shocks\" not \"hurting someone\"), and incrementally committing to the authority relationship through small initial compliance.",
     "confidence": "high"
+  },
+  {
+    "id": "ancient_sumer__cuneiform",
+    "source": "ancient_sumer",
+    "target": "cuneiform",
+    "type": "PRODUCED",
+    "label": "Sumerian administrative needs produced the world's first writing system",
+    "note": "Cuneiform originated as a Sumerian accounting tool — tracking agricultural surplus, temple goods, and labor allocation. The pressure of managing complex urban economies drove the innovation from pictographic tokens to abstract script.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_sumer__gilgamesh",
+    "source": "ancient_sumer",
+    "target": "gilgamesh",
+    "type": "PRODUCED",
+    "label": "Sumerian oral tradition produced the Epic of Gilgamesh",
+    "note": "The earliest Gilgamesh stories originated in Sumerian oral tradition and short written poems before being compiled into the Akkadian epic. Gilgamesh himself may have been a historical king of Uruk.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_sumer__code_of_hammurabi",
+    "source": "ancient_sumer",
+    "target": "code_of_hammurabi",
+    "type": "ENABLED",
+    "label": "Sumerian legal tradition and cuneiform writing enabled codified law",
+    "note": "Hammurabi's Code built on earlier Sumerian law codes (Ur-Nammu, Lipit-Ishtar) and used the cuneiform script developed by Sumerians. The Babylonian empire inherited Sumerian administrative and legal traditions.",
+    "confidence": "high"
+  },
+  {
+    "id": "cuneiform__code_of_hammurabi",
+    "source": "cuneiform",
+    "target": "code_of_hammurabi",
+    "type": "ENABLED",
+    "label": "Written script enabled public, inscribed, permanent legal codes",
+    "note": "The Code of Hammurabi's public display and permanence depended entirely on cuneiform writing. Without script, law remains oral, local, and subject to selective memory. Cuneiform made law visible, reproducible, and authoritative.",
+    "confidence": "high"
+  },
+  {
+    "id": "assyrian_empire__babylonian_captivity",
+    "source": "assyrian_empire",
+    "target": "babylonian_captivity",
+    "type": "CAUSED",
+    "label": "Assyrian deportation of northern Israel was the first phase of Israelite exile",
+    "note": "The Assyrian Empire under Tiglath-Pileser III and Sargon II conquered and deported the population of the northern Kingdom of Israel (722 BCE) — the \"Ten Lost Tribes.\" This was a precursor to the Babylonian deportation of Judah, and part of the same Assyrian policy of mass population displacement to prevent revolts.",
+    "confidence": "high"
+  },
+  {
+    "id": "neo_babylonian_empire__babylonian_captivity",
+    "source": "neo_babylonian_empire",
+    "target": "babylonian_captivity",
+    "type": "CAUSED",
+    "label": "Nebuchadnezzar's destruction of Jerusalem and deportation of Judeans was the Babylonian Captivity",
+    "note": "Nebuchadnezzar II destroyed the First Temple and deported the Judean elite to Babylon in 586 BCE. This exile — the Babylonian Captivity — was a defining trauma for Jewish identity, producing Psalms like \"By the rivers of Babylon\" and reshaping Jewish theology around diaspora and covenant.",
+    "confidence": "high"
+  },
+  {
+    "id": "mesopotamian_agriculture__ancient_sumer",
+    "source": "mesopotamian_agriculture",
+    "target": "ancient_sumer",
+    "type": "ENABLED",
+    "label": "Agricultural surplus in Mesopotamia enabled the emergence of Sumerian city-states",
+    "note": "Sumerian cities could not have existed without reliable agricultural surplus. Irrigation agriculture in the Tigris-Euphrates delta produced enough food to support non-farming specialists — priests, scribes, merchants, soldiers — creating the social complexity of urban civilization.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_sumer__assyrian_empire",
+    "source": "ancient_sumer",
+    "target": "assyrian_empire",
+    "type": "ENABLED",
+    "label": "Sumerian civilization provided the cultural and administrative template for later Assyrian empire",
+    "note": "The Assyrians inherited Sumerian cuneiform, religious traditions, astronomical knowledge, and administrative practices. Sumerian cultural dominance outlasted Sumerian political power — the empire-builders of the ancient Near East built on Sumerian foundations.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ancient_sumer__neo_babylonian_empire",
+    "source": "ancient_sumer",
+    "target": "neo_babylonian_empire",
+    "type": "ENABLED",
+    "label": "Sumer's urban and legal traditions provided the cultural substrate of Neo-Babylonian civilization",
+    "note": "Neo-Babylonian culture drew heavily on the Sumerian heritage: cuneiform script, religious mythology, astronomical tradition, and legal frameworks. The Babylonians consciously revived ancient Sumerian cultural forms as markers of legitimacy.",
+    "confidence": "medium"
+  },
+  {
+    "id": "assyrian_empire__neo_babylonian_empire",
+    "source": "assyrian_empire",
+    "target": "neo_babylonian_empire",
+    "type": "ENABLED",
+    "label": "The collapse of Assyria created the geopolitical vacuum filled by Neo-Babylonian dominance",
+    "note": "The Neo-Babylonian Empire arose through a coalition that destroyed Assyria. Babylon inherited Assyrian administrative infrastructure, diplomatic networks, and tributary relationships — the Neo-Babylonian empire was in part the successor state of the Assyrian empire.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_egypt__pyramid_construction",
+    "source": "ancient_egypt",
+    "target": "pyramid_construction",
+    "type": "PRODUCED",
+    "label": "Egyptian state capacity and pharaonic religion produced monumental pyramid construction",
+    "note": "The pyramids were produced by the unique convergence of Egyptian factors: pharaonic divine authority, administrative organization, agricultural surplus, and religious belief in royal afterlife.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_egypt__egyptian_hieroglyphics",
+    "source": "ancient_egypt",
+    "target": "egyptian_hieroglyphics",
+    "type": "PRODUCED",
+    "label": "Egyptian state administration produced a unique hieroglyphic writing system",
+    "note": "Hieroglyphics emerged from Egyptian administrative and religious needs, developing independently from Mesopotamian cuneiform into a distinct system used across 3,000 years of Egyptian history.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_egypt__egyptian_slavery",
+    "source": "ancient_egypt",
+    "target": "egyptian_slavery",
+    "type": "ENABLED",
+    "label": "Egyptian imperial expansion enabled the institution of slavery through war captives and tribute",
+    "note": "Egyptian military campaigns against Nubia, the Levant, and Libya produced war captives who became enslaved. Egypt's agricultural and monumental economy relied on forms of coerced labor.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_egypt__egyptian_mythology",
+    "source": "ancient_egypt",
+    "target": "egyptian_mythology",
+    "type": "PRODUCED",
+    "label": "Egyptian civilization produced one of antiquity's richest mythological systems",
+    "note": "Egyptian mythology was embedded in every aspect of Egyptian life — from the agricultural calendar to royal succession to funerary practice. The state's investment in temples, priesthoods, and ritual maintained this mythological system for three millennia.",
+    "confidence": "high"
+  },
+  {
+    "id": "akhenaten__egyptian_monotheism",
+    "source": "akhenaten",
+    "target": "egyptian_monotheism",
+    "type": "CAUSED",
+    "label": "Akhenaten's personal theological revolution caused the suppression of Egyptian polytheism",
+    "note": "Akhenaten's monotheistic revolution was radical and top-down — driven by the pharaoh's own apparent religious conviction. He closed temples, erased divine names from monuments, and built an entirely new capital.",
+    "confidence": "high"
+  },
+  {
+    "id": "cleopatra__roman_empire",
+    "source": "cleopatra",
+    "target": "roman_empire",
+    "type": "ENABLED",
+    "label": "Cleopatra's alliances with Caesar and Antony shaped the political formation of the Roman Empire",
+    "note": "Cleopatra's relationship with Julius Caesar stabilized his position in Egypt and provided resources that fueled Roman civil wars. Her alliance with Mark Antony challenged Octavian's supremacy. The defeat of Antony and Cleopatra made Egypt a Roman province and enabled Octavian to become Augustus — the first emperor. Egypt's grain wealth financed the Roman Empire.",
+    "confidence": "high"
+  },
+  {
+    "id": "egyptian_slavery__atlantic_slave_trade",
+    "source": "egyptian_slavery",
+    "target": "atlantic_slave_trade",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both ancient Egyptian slavery and Atlantic slavery share mechanisms of conquest-based forced labor",
+    "note": "Both institutions relied on military conquest to produce enslaved populations, used enslaved labor for monumental and agricultural production, and operated within systems that naturalized the enslavement of ethnic others. However, ancient Egyptian slavery was less systematically racialized and less chattel-based than Atlantic slavery.",
+    "confidence": "speculative"
+  },
+  {
+    "id": "ancient_egypt__babylonian_captivity",
+    "source": "ancient_egypt",
+    "target": "babylonian_captivity",
+    "type": "ENABLED",
+    "label": "Egypt's regional dominance shaped the geopolitical context that led to Judean exile",
+    "note": "Egypt's weakening power in the Levant opened space for Assyrian and Babylonian imperial expansion. Judah's failed pro-Egyptian alliances against Babylon (including King Jehoiakim's revolt) contributed to Nebuchadnezzar's decision to destroy Jerusalem and deport the Judean elite.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ancient_egypt__book_of_the_dead",
+    "source": "ancient_egypt",
+    "target": "book_of_the_dead",
+    "type": "PRODUCED",
+    "label": "Egyptian funerary culture produced the Book of the Dead as its canonical guide to the afterlife",
+    "note": "The Book of the Dead emerged from centuries of Egyptian funerary text development, from the Pyramid Texts and Coffin Texts, reaching its final canonical form in the New Kingdom.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_egypt__egyptian_pharaoh",
+    "source": "ancient_egypt",
+    "target": "egyptian_pharaoh",
+    "type": "ENABLED",
+    "label": "Egypt's unified state structure enabled the institution of divine pharaonic rule",
+    "note": "The pharaonic institution emerged from the unification of Upper and Lower Egypt and was sustained by Egypt's administrative, religious, and military infrastructure.",
+    "confidence": "high"
+  },
+  {
+    "id": "egyptian_pharaoh__pyramid_construction",
+    "source": "egyptian_pharaoh",
+    "target": "pyramid_construction",
+    "type": "PRODUCED",
+    "label": "Pharaonic ideology of divine kingship and afterlife belief produced monumental tomb construction",
+    "note": "Pyramids served as the pharaoh's vehicle for divine transformation after death. The pharaoh's divine status made pyramid construction a religious duty for the state.",
+    "confidence": "high"
+  },
+  {
+    "id": "egyptian_slavery__pyramid_construction",
+    "source": "egyptian_slavery",
+    "target": "pyramid_construction",
+    "type": "ENABLED",
+    "label": "Coerced and organized labor enabled the scale of pyramid construction",
+    "note": "While pyramid builders were not exclusively enslaved (evidence shows skilled workers received pay and rations), large-scale coerced labor — including enslaved war captives — was part of the workforce that enabled monumental construction.",
+    "confidence": "medium"
+  },
+  {
+    "id": "egyptian_hieroglyphics__book_of_the_dead",
+    "source": "egyptian_hieroglyphics",
+    "target": "book_of_the_dead",
+    "type": "ENABLED",
+    "label": "Hieroglyphic writing enabled the recording and transmission of funerary texts",
+    "note": "The Book of the Dead existed only because of hieroglyphic writing. The spells and instructions required written form to be placed in tombs; the hieroglyphic tradition preserved and transmitted this text over 1,500 years.",
+    "confidence": "high"
+  },
+  {
+    "id": "egyptian_pharaoh__akhenaten",
+    "source": "egyptian_pharaoh",
+    "target": "akhenaten",
+    "type": "PRODUCED",
+    "label": "The pharaonic institution concentrated sufficient authority to attempt radical religious reform",
+    "note": "Only the pharaoh's divine authority made Akhenaten's revolution possible — and only the pharaoh's death made its reversal possible. The institution of absolute divine kingship created both the conditions for radical reform and for its total reversal.",
+    "confidence": "high"
+  },
+  {
+    "id": "kingdom_of_kush__nubian_pharaohs",
+    "source": "kingdom_of_kush",
+    "target": "nubian_pharaohs",
+    "type": "PRODUCED",
+    "label": "The Kingdom of Kush produced the Nubian pharaohs who conquered and ruled Egypt",
+    "note": "The 25th Dynasty Nubian pharaohs emerged from the Kushite state centered at Napata. Kush's political and military capacity — built over centuries — enabled the conquest of Egypt.",
+    "confidence": "high"
+  },
+  {
+    "id": "kingdom_of_kush__meroe",
+    "source": "kingdom_of_kush",
+    "target": "meroe",
+    "type": "FRAGMENTED_INTO",
+    "label": "The Kingdom of Kush fragmented into the successor state of Meroe after Assyrian pressure",
+    "note": "After Assyrian forces expelled the Nubian pharaohs from Egypt and pushed into Kush, the Kushite state gradually shifted its capital south from Napata to Meroe, developing into a distinct Meroitic civilization.",
+    "confidence": "high"
+  },
+  {
+    "id": "kerma__kingdom_of_kush",
+    "source": "kerma",
+    "target": "kingdom_of_kush",
+    "type": "CAUSED",
+    "label": "Kerma culture was the direct cultural and political precursor of the Kingdom of Kush",
+    "note": "The Kingdom of Kush developed on the cultural foundation of Kerma — same geographic area, similar burial traditions, and continuity of population. Egyptian conquest of Kerma around 1500 BCE created the conditions for the later Kushite state at Napata.",
+    "confidence": "high"
+  },
+  {
+    "id": "nubian_pharaohs__ancient_egypt",
+    "source": "nubian_pharaohs",
+    "target": "ancient_egypt",
+    "type": "ENABLED",
+    "label": "Nubian pharaohs' rule of Egypt demonstrates that Egyptian civilization was shaped by sub-Saharan African rulers",
+    "note": "The 25th Dynasty Nubian pharaohs did not merely conquer Egypt — they presented themselves as restorers of authentic Egyptian tradition, reviving ancient religious practices and building programs. Their rule demonstrates the African character of Egyptian civilization.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_egypt__kingdom_of_kush",
+    "source": "ancient_egypt",
+    "target": "kingdom_of_kush",
+    "type": "COLONIZED",
+    "label": "Egypt colonized and periodically dominated Nubia over three millennia",
+    "note": "Egyptian imperial expansion southward — especially during the New Kingdom — subjected Nubia to Egyptian colonial administration, cultural impositions, and extraction of gold and enslaved people. The Egyptian term \"wretched Kush\" appears in imperial propaganda. Periods of Egyptian domination alternated with Nubian independence and eventual Nubian domination of Egypt.",
+    "confidence": "high"
+  },
+  {
+    "id": "nubian_trade__ancient_egypt",
+    "source": "nubian_trade",
+    "target": "ancient_egypt",
+    "type": "ENABLED",
+    "label": "Nubian trade networks in gold and ivory enabled Egyptian economic and imperial power",
+    "note": "Egyptian access to Nubian gold was central to Egyptian wealth, diplomacy, and military capacity. Egypt funded alliances, paid armies, and built temples with Nubian gold. The desire to control Nubian trade was a primary driver of Egyptian military campaigns southward.",
+    "confidence": "high"
+  },
+  {
+    "id": "meroe__nubian_trade",
+    "source": "meroe",
+    "target": "nubian_trade",
+    "type": "PRODUCED",
+    "label": "Meroe's iron production and position between the African interior and the Roman world produced extensive trade",
+    "note": "Meroe became a major iron-producing center, trading manufactured goods across sub-Saharan Africa. Its position on the Nile gave it access to both Mediterranean Roman trade and African interior trade routes.",
+    "confidence": "high"
+  },
+  {
+    "id": "kingdom_of_kush__nubian_trade",
+    "source": "kingdom_of_kush",
+    "target": "nubian_trade",
+    "type": "ENABLED",
+    "label": "The Kingdom of Kush maintained and extended Nubian trade networks across sub-Saharan Africa",
+    "note": "Kush's political stability and military capacity enabled the trade networks that connected the African interior to Mediterranean markets. The kingdom's wealth derived substantially from controlling these trade routes.",
+    "confidence": "high"
+  },
+  {
+    "id": "athenian_democracy__socrates",
+    "source": "athenian_democracy",
+    "target": "socrates",
+    "type": "ENABLED",
+    "label": "Athenian democratic culture created the intellectual freedom that enabled Socratic philosophy",
+    "note": "Democracy's culture of open debate and citizen equality created the conditions for Socratic dialectic — public questioning of received wisdom. Socrates operated in the agora, engaging citizens across social classes. Democratic Athens also eventually executed Socrates, revealing the paradox of democracy's relationship to free thought.",
+    "confidence": "high"
+  },
+  {
+    "id": "athenian_democracy__peloponnesian_war",
+    "source": "athenian_democracy",
+    "target": "peloponnesian_war",
+    "type": "CAUSED",
+    "label": "Athenian democratic imperial expansion made Sparta feel threatened and precipitated the war",
+    "note": "Thucydides identifies the growth of Athenian power and the fear it caused in Sparta as the underlying cause of the Peloponnesian War. Democratic Athens' aggressive imperial expansion (the Delian League) provoked the Spartan-led response.",
+    "confidence": "high"
+  },
+  {
+    "id": "pericles__athenian_democracy",
+    "source": "pericles",
+    "target": "athenian_democracy",
+    "type": "ENABLED",
+    "label": "Pericles extended democratic participation and built the institutions of Athenian democracy's golden age",
+    "note": "Pericles introduced payment for jury service (enabling poorer citizens to participate), expanded the Assembly, and oversaw the democratic reforms that made Athens' golden age possible. His funeral oration remains the canonical defense of democratic governance.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_marathon__athenian_democracy",
+    "source": "battle_of_marathon",
+    "target": "athenian_democracy",
+    "type": "ENABLED",
+    "label": "The Athenian victory at Marathon preserved the democratic city-state from Persian conquest",
+    "note": "Had Athens lost at Marathon (490 BCE), Persian conquest would have ended the nascent democratic experiment. The victory validated Athenian military capacity and democratic morale, providing the confidence for Pericles' golden age two generations later.",
+    "confidence": "high"
+  },
+  {
+    "id": "alexander_the_great__hellenistic_philosophy",
+    "source": "alexander_the_great",
+    "target": "hellenistic_philosophy",
+    "type": "PRODUCED",
+    "label": "Alexander's conquests spread Greek ideas across the Near East and created the Hellenistic synthesis",
+    "note": "Alexander's conquests created a vast Greek-influenced cultural zone from Greece to India. Greek philosophy, science, and culture merged with Egyptian, Persian, and Babylonian traditions — producing Hellenistic philosophy's distinctive cosmopolitan and syncretic character.",
+    "confidence": "high"
+  },
+  {
+    "id": "alexander_the_great__persian_achaemenid_empire",
+    "source": "alexander_the_great",
+    "target": "persian_achaemenid_empire",
+    "type": "COLONIZED",
+    "label": "Alexander's conquest destroyed the Persian Achaemenid Empire and colonized its territories",
+    "note": "Alexander's campaigns (334–323 BCE) dismantled the Persian Achaemenid Empire — the world's largest empire — replacing it with Greek-ruled successor kingdoms (Seleucid, Ptolemaic, etc.) that imposed Greek culture on non-Greek populations.",
+    "confidence": "high"
+  },
+  {
+    "id": "peloponnesian_war__athenian_democracy",
+    "source": "peloponnesian_war",
+    "target": "athenian_democracy",
+    "type": "DISCREDITED",
+    "label": "Athens' catastrophic defeat in the Peloponnesian War discredited Athenian democratic leadership",
+    "note": "The Peloponnesian War ended with Athens' surrender, the installation of the oligarchic Thirty Tyrants, and the execution of democratic leaders. The disaster discredited democratic decision-making — the Assembly had voted for the Sicilian Expedition, the war's turning point disaster. Plato's anti-democratic philosophy was shaped by witnessing this defeat.",
+    "confidence": "high"
+  },
+  {
+    "id": "greek_mythology__platonic_idealism",
+    "source": "greek_mythology",
+    "target": "platonic_idealism",
+    "type": "ENABLED",
+    "label": "Greek mythology's tradition of transcendent divine forms provided the cultural substrate for Platonic idealism",
+    "note": "Plato's theory of Forms drew on and transformed the mythological tradition of divine transcendent realities. His allegory of the Cave echoes the mythological structure of a higher divine world vs. the shadow world of appearances. Plato simultaneously critiqued and incorporated mythological thinking.",
+    "confidence": "medium"
+  },
+  {
+    "id": "homeric_epics__greek_mythology",
+    "source": "homeric_epics",
+    "target": "greek_mythology",
+    "type": "ENABLED",
+    "label": "The Homeric epics standardized and transmitted Greek mythology across the Hellenic world",
+    "note": "Before Homer, Greek mythology was regional and diverse. The Iliad and Odyssey provided a shared canonical account of the gods and heroes that became the common cultural currency of all Greek-speaking peoples. Homer was the \"Bible of the Greeks.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "egyptian_mythology__greek_mythology",
+    "source": "egyptian_mythology",
+    "target": "greek_mythology",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Egyptian and Greek mythology share structural mechanisms of divine pantheon, death and resurrection, and cosmic order",
+    "note": "Egyptian mythology influenced Greek mythology through millennia of contact: Osiris and Dionysus share resurrection mythology; Isis became a major Greco-Roman goddess; Egyptian religious ideas shaped Orphic and mystery traditions that influenced Greek thought. The shared mechanisms of polytheistic pantheon, divine justice, and afterlife judgment reflect both direct influence and convergent development.",
+    "confidence": "medium"
+  },
+  {
+    "id": "olympic_games_ancient__athenian_democracy",
+    "source": "olympic_games_ancient",
+    "target": "athenian_democracy",
+    "type": "ENABLED",
+    "label": "Pan-Hellenic games created a shared Greek identity that enabled Athenian democratic leadership",
+    "note": "The Olympic games and other pan-Hellenic festivals created a cultural framework within which Athenian democratic ideology could spread as a Greek ideal. Athens' role as a cultural center (philosophy, theater, art) was inseparable from the pan-Hellenic prestige the games helped establish.",
+    "confidence": "medium"
+  },
+  {
+    "id": "pericles__peloponnesian_war",
+    "source": "pericles",
+    "target": "peloponnesian_war",
+    "type": "CAUSED",
+    "label": "Pericles' aggressive imperial strategy contributed to Spartan fear that triggered the war",
+    "note": "Pericles' expansive Athenian imperial policy — using the Delian League treasury for Athenian public works, extending Athenian power — directly provoked Spartan-led opposition. Thucydides records Spartan leaders identifying Pericles' strategy as the proximate cause of the war.",
+    "confidence": "high"
+  },
+  {
+    "id": "tea_party_movement__trump_maga",
+    "source": "tea_party_movement",
+    "target": "trump_maga",
+    "type": "ENABLED",
+    "label": "The Tea Party cultivated anti-establishment populist energy that Trump absorbed and radicalized",
+    "note": "The Tea Party normalized primary challenges to Republican moderates, built an anti-establishment organizational infrastructure, and cultivated the voter base that Trump mobilized in 2016. Trump absorbed Tea Party voters while replacing its libertarian economic framework with nationalist populism.",
+    "confidence": "high"
+  },
+  {
+    "id": "citizens_united__trump_maga",
+    "source": "citizens_united",
+    "target": "trump_maga",
+    "type": "ENABLED",
+    "label": "Citizens United's dark money flows funded the institutional infrastructure of the MAGA movement",
+    "note": "Citizens United enabled unlimited spending by SuperPACs and dark money organizations that funded MAGA-aligned candidates, media, and legal operations. Trump's movement was both self-funded (his personal brand) and backed by dark money infrastructure Citizens United made possible.",
+    "confidence": "medium"
+  },
+  {
+    "id": "social_media_polarization__political_polarization",
+    "source": "social_media_polarization",
+    "target": "political_polarization",
+    "type": "CAUSED",
+    "label": "Social media algorithmic amplification significantly increased affective political polarization",
+    "note": "Research documents that social media platforms' algorithmic recommendation systems amplify outrage, drive users toward increasingly extreme content, and create feedback loops that increase hostility toward political opponents. This particularly affects affective polarization (emotional hostility) more than ideological position.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_media_polarization__qanon",
+    "source": "social_media_polarization",
+    "target": "qanon",
+    "type": "ENABLED",
+    "label": "Social media algorithms amplified QAnon content and enabled its rapid spread",
+    "note": "QAnon content spread primarily through Facebook, YouTube, and Twitter algorithmic amplification. The platforms' engagement optimization rewarded the emotionally compelling, community-building content QAnon produced. Without algorithmic distribution, QAnon would have remained a fringe phenomenon.",
+    "confidence": "high"
+  },
+  {
+    "id": "qanon__january_6_attack",
+    "source": "qanon",
+    "target": "january_6_attack",
+    "type": "ENABLED",
+    "label": "QAnon belief radicalized participants in the January 6th attack",
+    "note": "Many January 6th participants and organizers held QAnon beliefs. QAnon's framing of the 2020 election as a Satanic cabal's theft of the election provided the ideological framework that made violent resistance feel morally required rather than merely politically motivated.",
+    "confidence": "high"
+  },
+  {
+    "id": "trump_maga__january_6_attack",
+    "source": "trump_maga",
+    "target": "january_6_attack",
+    "type": "CAUSED",
+    "label": "Trump's Big Lie campaign and direct incitement caused the January 6th Capitol attack",
+    "note": "The January 6th Select Committee documented that Trump's months-long \"Stop the Steal\" campaign, his pressure on state officials and Vice President Pence, and his speech on January 6th directly caused the attack. Without Trump's active incitement and the MAGA movement's organizational infrastructure, the attack would not have occurred.",
+    "confidence": "high"
+  },
+  {
+    "id": "culture_wars__trump_maga",
+    "source": "culture_wars",
+    "target": "trump_maga",
+    "type": "ENABLED",
+    "label": "Decades of culture war framing created the identity-threat politics that MAGA mobilized",
+    "note": "Trump's MAGA movement mobilized the accumulated emotional energy of three decades of culture war: white Christian identity threat, anti-immigration anxiety, and the framing of Democratic opponents as existential threats to American civilization. Culture war politics trained Republican voters to see politics as warfare.",
+    "confidence": "high"
+  },
+  {
+    "id": "political_polarization__culture_wars",
+    "source": "political_polarization",
+    "target": "culture_wars",
+    "type": "ENABLED",
+    "label": "Political polarization made culture war issues the primary terrain of partisan conflict",
+    "note": "As economic policy differences between parties narrowed in the 1990s, cultural identity issues became the primary markers of partisan difference. Polarization and culture wars co-evolved: polarization made cultural issues more salient; culture wars deepened polarization.",
+    "confidence": "high"
+  },
+  {
+    "id": "political_polarization__political_polarization",
+    "source": "political_polarization",
+    "target": "political_polarization",
+    "type": "SELF_REINFORCES",
+    "label": "Political polarization self-reinforces through negative partisanship, media incentives, and geographic sorting",
+    "note": "Polarization creates conditions that deepen polarization: negative partisanship (voting against the other party) strengthens as hostility increases; media organizations profit from partisan content; geographic sorting concentrates like-minded voters; institutional hardball escalates as norms erode.",
+    "confidence": "high"
+  },
+  {
+    "id": "info_ecosystem_collapse__qanon",
+    "source": "info_ecosystem_collapse",
+    "target": "qanon",
+    "type": "ENABLED",
+    "label": "The collapse of shared trusted information infrastructure enabled QAnon to fill the vacuum with conspiracy",
+    "note": "QAnon spread most effectively in communities where trusted local news had collapsed and where Facebook was the primary information source. Without shared factual infrastructure, conspiracy theories compete on emotional resonance rather than truth.",
+    "confidence": "high"
+  },
+  {
+    "id": "info_ecosystem_collapse__political_polarization",
+    "source": "info_ecosystem_collapse",
+    "target": "political_polarization",
+    "type": "ENABLED",
+    "label": "Fragmented media ecosystems enabled partisan information silos that accelerate polarization",
+    "note": "When Republicans and Democrats consume entirely different information ecosystems with different factual premises, the shared reality necessary for democratic deliberation collapses. Disagreement about facts (about crime rates, immigration, climate) becomes impossible to resolve through evidence.",
+    "confidence": "high"
+  },
+  {
+    "id": "voter_suppression_modern__trump_maga",
+    "source": "voter_suppression_modern",
+    "target": "trump_maga",
+    "type": "ENABLED",
+    "label": "Voter suppression efforts were pursued by MAGA-aligned legislators as an electoral strategy",
+    "note": "Post-2020 election legislation in Republican-controlled states extended voter suppression policies in ways aligned with MAGA electoral strategy: limiting mail-in voting, reducing polling locations, expanding poll watcher access, and enabling partisan interference in election certification.",
+    "confidence": "speculative"
+  },
+  {
+    "id": "jim_crow_laws__voter_suppression_modern",
+    "source": "jim_crow_laws",
+    "target": "voter_suppression_modern",
+    "type": "ENABLED",
+    "label": "Jim Crow voter suppression established the legal templates and political logic of modern voter restrictions",
+    "note": "Modern voter suppression draws on the Jim Crow playbook: procedural mechanisms (ID requirements, registration purges, polling place reduction) that are nominally race-neutral but have racially disparate effects. The Voting Rights Act of 1965 was designed to end Jim Crow voter suppression; its gutting in Shelby County (2013) enabled its revival.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_media_polarization__info_ecosystem_collapse",
+    "source": "social_media_polarization",
+    "target": "info_ecosystem_collapse",
+    "type": "CAUSED",
+    "label": "Social media advertising destroyed local news business models and fragmented the shared information ecosystem",
+    "note": "Social media platforms captured the advertising revenue that previously funded local newspapers and broadcast news, accelerating the collapse of local journalism. Simultaneously, social media's algorithmic content distribution replaced editorial curation, enabling partisan content to outcompete accurate journalism for attention.",
+    "confidence": "high"
+  },
+  {
+    "id": "culture_wars__political_polarization",
+    "source": "culture_wars",
+    "target": "political_polarization",
+    "type": "CAUSED",
+    "label": "Culture war conflicts deepened partisan identity and affective polarization",
+    "note": "Culture war issues (abortion, guns, LGBTQ, immigration) generate strong emotional identity responses that increase affective polarization — the sense that political opponents are not merely wrong but evil or dangerous. This emotional dimension of cultural conflict drives polarization beyond what policy disagreements alone produce.",
+    "confidence": "high"
   }
 ]

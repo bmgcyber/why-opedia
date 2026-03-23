@@ -1070,6 +1070,28 @@ body.sidebar-collapsed #stats {
   font-size: 12px;
 }
 
+.pf-path-decade {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.pf-path-warn {
+  background: rgba(224, 151, 82, 0.12);
+  border-left: 2px solid var(--edge-enabled);
+}
+
+.pf-chrono-warning {
+  background: rgba(224, 151, 82, 0.15);
+  border: 1px solid rgba(224, 151, 82, 0.4);
+  border-radius: 5px;
+  padding: 6px 10px;
+  font-size: 11px;
+  color: #e09752;
+  margin-bottom: 8px;
+}
+
 /* ── Export subgraph button (Feature Q) ──────────────────────────────────── */
 
 .sb-export-btn {
