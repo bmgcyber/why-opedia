@@ -2256,5 +2256,95 @@
     "summary": "The ongoing conflict between Israelis and Palestinians over territory, sovereignty, security, and the rights of Palestinian refugees and residents under occupation. Rooted in the Nakba and the founding of Israel, the conflict has produced multiple wars, intifadas, occupation, siege, and sustained violence, with no resolution in sight as two peoples claim the same land.",
     "decade": "1948–present",
     "tags": ["history", "middle_east", "israel", "palestine", "occupation"]
+  },
+  {
+    "id": "in_group_out_group_dynamics",
+    "label": "In-Group/Out-Group Dynamics",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The evolved human tendency to favor members of one's own group and distrust or devalue members of other groups. This cognitive and social mechanism — hardwired through evolutionary psychology and amplified by culture, language, religion, and political manipulation — is the foundational engine beneath ethnic conflict, nationalism, religious war, and genocide. It transforms difference into threat and turns neighbors into enemies.",
+    "decade": "universal",
+    "tags": ["mechanism", "psychology", "tribalism", "conflict", "cognition"]
+  },
+  {
+    "id": "moral_disengagement",
+    "label": "Moral Disengagement",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Albert Bandura's framework for how ordinary people commit atrocities while maintaining a positive self-image: through euphemistic labeling ('enhanced interrogation,' 'resettlement'), displacement of responsibility onto authority, diffusion of responsibility across bureaucratic chains, dehumanization of victims, and moral justification through ideological ends. Explains why genocide, torture, and corporate harm are perpetrated by people who consider themselves decent.",
+    "decade": "universal",
+    "tags": ["mechanism", "psychology", "atrocity", "ethics", "bandura"]
+  },
+  {
+    "id": "manufactured_consent",
+    "label": "Manufactured Consent",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Herman and Chomsky's propaganda model: in nominally free societies, elite interests shape the range of 'thinkable' public opinion through media ownership concentration, advertising dependency, sourcing from official institutions, flak against dissidents, and ideological anti-communism (or equivalent). Media filters produce news that systematically serves power without requiring direct censorship, manufacturing the appearance of consent for policies that benefit elites.",
+    "decade": "universal",
+    "tags": ["mechanism", "propaganda", "media", "democracy", "chomsky"]
+  },
+  {
+    "id": "democratic_backsliding",
+    "label": "Democratic Backsliding",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The repeating pattern by which democracies erode toward authoritarianism, typically through: emergency powers that outlast emergencies, press freedom restrictions framed as national security, judiciary capture through court-packing or removal, electoral manipulation through gerrymandering and voter suppression, and the delegitimization of political opposition as treasonous. Distinguished from coup by its gradualism — each step is individually defensible.",
+    "decade": "universal",
+    "tags": ["mechanism", "democracy", "authoritarianism", "institutions", "political_science"]
+  },
+  {
+    "id": "structural_violence",
+    "label": "Structural Violence",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Johan Galtung's concept: violence embedded in social structures — poverty, racism, patriarchy, caste — that harms and kills people as surely as direct physical violence, but through differential access to resources, healthcare, education, and legal protection rather than through direct assault. Structural violence is invisible precisely because it is normal: when people die from preventable poverty in a wealthy society, no single person is blamed.",
+    "decade": "universal",
+    "tags": ["mechanism", "violence", "inequality", "sociology", "galtung"]
+  },
+  {
+    "id": "resource_curse",
+    "label": "Resource Curse",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The observed pattern by which countries with abundant natural resource wealth — oil, diamonds, minerals — tend toward authoritarian governance, weak institutions, corruption, and conflict rather than development. The causal mechanism: resource-dependent governments derive revenue from the resource, not from taxing citizens, so they need not be accountable to citizens. Wealth funds security forces rather than public goods.",
+    "decade": "universal",
+    "tags": ["mechanism", "economics", "authoritarianism", "development", "natural_resources"]
+  },
+  {
+    "id": "preference_falsification",
+    "label": "Preference Falsification",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Timur Kuran's theory: in authoritarian or socially coercive contexts, people routinely misrepresent their private preferences to avoid punishment or social ostracism, publicly supporting regimes they privately oppose. This creates a false appearance of consensus that makes the regime seem stable until — at an unpredictable threshold — enough people see others defecting and the cascade of public preference-revealing produces a sudden, unexpected collapse. Explains why revolutions look impossible until they are inevitable.",
+    "decade": "universal",
+    "tags": ["mechanism", "political_science", "revolution", "social_norms", "kuran"]
+  },
+  {
+    "id": "radicalization_pipeline",
+    "label": "Radicalization Pipeline",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The staged psychological process by which individuals transition from mainstream belief to extremist violence: personal grievance or identity crisis → connection with a radicalizing group that provides belonging and meaning → adoption of an ideological framework that identifies an enemy and justifies action → progressive isolation from moderating relationships → desensitization to violence → crossing into action. Each stage narrows the path back and increases group pressure.",
+    "decade": "universal",
+    "tags": ["mechanism", "radicalization", "terrorism", "psychology", "extremism"]
+  },
+  {
+    "id": "historical_revisionism",
+    "label": "Historical Revisionism",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The systematic rewriting of history by dominant groups to serve present power: glorifying colonial conquest as civilization, mythologizing military defeats as noble causes, denying or minimizing atrocities, erasing the contributions of marginalized groups. Historical revisionism is a power mechanism because it shapes which grievances are considered legitimate, which injustices deserve redress, and who counts as a full member of the national story.",
+    "decade": "universal",
+    "tags": ["mechanism", "history", "power", "memory", "propaganda"]
+  },
+  {
+    "id": "collective_trauma",
+    "label": "Collective Trauma Transmission",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The process by which historical trauma experienced by a group is transmitted across generations through cultural memory, communal practices, narrative, altered parenting shaped by traumatic experience, and institutional memory. Collective trauma shapes present political behavior in ways that can appear irrational to outsiders: threat perception, distrust of institutions, the perceived necessity of extreme self-protection. It explains why past atrocities continue to drive current politics.",
+    "decade": "universal",
+    "tags": ["mechanism", "trauma", "psychology", "intergenerational", "memory"]
   }
 ]

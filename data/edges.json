@@ -2383,5 +2383,185 @@
     "label": "Occupation created the defining modern conflict",
     "note": "Israel's capture of the West Bank and Gaza Strip in 1967 placed the entire Palestinian population under Israeli military control, creating the occupation that defines the modern conflict. Every subsequent Israeli-Palestinian confrontation — the intifadas, settlements, blockade of Gaza, military operations — flows from the occupation that began in June 1967.",
     "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__scapegoating_mechanism",
+    "source": "in_group_out_group_dynamics",
+    "target": "scapegoating_mechanism",
+    "type": "ENABLED",
+    "label": "Out-group perception enables scapegoating",
+    "note": "Scapegoating requires a prior cognitive framework that marks certain groups as fundamentally different. In-group/out-group dynamics provide that framework — once an out-group is psychologically categorized as alien or threatening, attributing society's problems to their presence becomes cognitively available. Scapegoating is in-group/out-group dynamics weaponized by political actors.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__dehumanization",
+    "source": "in_group_out_group_dynamics",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "Out-group distinction enables dehumanization",
+    "note": "The categorical separation of 'us' from 'them' is the prerequisite for dehumanization. Before a group can be described as vermin or subhuman, they must first be mentally segregated from full membership in the human community. In-group/out-group dynamics create the categorical distinction that genocide propagandists then exploit.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__hutu_power",
+    "source": "in_group_out_group_dynamics",
+    "target": "hutu_power",
+    "type": "ENABLED",
+    "label": "Tribal psychology weaponized into ethnic extremism",
+    "note": "Hutu Power ideology exploited in-group/out-group dynamics by transforming the colonial Hutu/Tutsi categorization into an existential identity conflict. Political entrepreneurs mobilized primordial tribal psychology — the sense that survival requires defeating the out-group — to build a mass movement capable of genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__dehumanization",
+    "source": "moral_disengagement",
+    "target": "dehumanization",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both disable the moral response to harm",
+    "note": "Moral disengagement and dehumanization are complementary mechanisms for silencing conscience. Dehumanization removes the victim from moral consideration; moral disengagement removes the perpetrator's sense of personal responsibility. Both are required for sustained atrocity.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__gulag_system",
+    "source": "moral_disengagement",
+    "target": "gulag_system",
+    "type": "ENABLED",
+    "label": "Bureaucratic diffusion enabled mass imprisonment",
+    "note": "The Gulag's vast scale was made possible by moral disengagement through bureaucratic diffusion: guards transferred prisoners, administrators processed paperwork, NKVD officers followed quotas. No single actor felt personally responsible for the fate of individuals. The system committed atrocities that none of its parts would own.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__abu_ghraib",
+    "source": "moral_disengagement",
+    "target": "abu_ghraib",
+    "type": "ENABLED",
+    "label": "Authority displacement enabled torture by ordinary soldiers",
+    "note": "Abu Ghraib's abuses were committed by ordinary Army Reserve soldiers who displaced moral responsibility upward ('we were told this was approved'), used euphemistic language, and were isolated from civilian moral constraints. Moral disengagement theory predicted this: put ordinary people in a context where authority legitimizes harm and accountability is diffuse, and atrocity follows.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__iraq_war_wmd",
+    "source": "manufactured_consent",
+    "target": "iraq_war_wmd",
+    "type": "ENABLED",
+    "label": "Media deference to official sources enabled deception",
+    "note": "The Iraq WMD deception succeeded in part because major US media treated official government claims as presumptively true, gave minimal coverage to dissenting experts, and framed opposition as fringe. Manufactured consent's prediction — that access journalism and source dependence would amplify official claims — was confirmed in real time.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__tobacco_industry_research_suppression",
+    "source": "manufactured_consent",
+    "target": "tobacco_industry_research_suppression",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both manufacture apparent expert consensus via media",
+    "note": "Tobacco industry research suppression and manufactured consent operate through the same logic: use media access, advertising revenue, and the appearance of legitimate debate to prevent the public from perceiving consensus against elite interests. The tobacco industry's doubt-science was manufactured consent applied to public health.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__fossil_fuel_industry",
+    "source": "manufactured_consent",
+    "target": "fossil_fuel_industry",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Climate denial used the same playbook",
+    "note": "The fossil fuel industry's climate denial campaign explicitly modeled itself on tobacco's manufactured doubt strategy: fund contrarian scientists, sponsor think tanks, flood media with 'both sides' framing. Both are instances of manufactured consent's core mechanism: powerful interests shaping the range of 'acceptable' public opinion through media management.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_backsliding__weimar_republic",
+    "source": "democratic_backsliding",
+    "target": "weimar_republic",
+    "type": "ENABLED",
+    "label": "Emergency powers enabled legal Nazi seizure",
+    "note": "Weimar's Article 48 emergency powers — used by multiple chancellors before Hitler — normalized the suspension of constitutional rights by decree. Hitler's path to dictatorship ran through the Enabling Act of 1933, which was formally constitutional. Democratic backsliding's defining feature — using democratic mechanisms to end democracy — was fully realized in Weimar's destruction.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_backsliding__mccarthy_red_scare",
+    "source": "democratic_backsliding",
+    "target": "mccarthy_red_scare",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Opposition delegitimized as traitors, not citizens",
+    "note": "McCarthyism employed democratic backsliding's delegitimization mechanism: political opponents are reframed not as citizens with different views but as enemies of the nation who forfeit the right to political participation. The mechanism is shared: emergency discourse normalizes persecution of dissent while maintaining the formal structures of democracy.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__mass_incarceration",
+    "source": "structural_violence",
+    "target": "mass_incarceration",
+    "type": "CAUSED",
+    "label": "Structural inequity produces incarceration disparities",
+    "note": "Mass incarceration is produced by structural violence: concentrated poverty produces higher crime rates; racially biased policing, prosecution, and sentencing convert those rates into catastrophic racial incarceration disparities; and the resulting criminal records perpetuate poverty. The violence is structural — embedded in systems, not in individual actors.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__war_on_drugs",
+    "source": "structural_violence",
+    "target": "war_on_drugs",
+    "type": "ENABLED",
+    "label": "Structural racism enabled racially targeted enforcement",
+    "note": "The War on Drugs was politically viable because structural racism had already removed Black communities from full political citizenship. It imposed harsh penalties on crack cocaine (associated with Black communities) while treating powder cocaine leniently. The structural violence came first; the War on Drugs operationalized it.",
+    "confidence": "high"
+  },
+  {
+    "id": "resource_curse__oil_geopolitics",
+    "source": "resource_curse",
+    "target": "oil_geopolitics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Oil wealth enables unaccountable governance",
+    "note": "Middle East oil geopolitics and the resource curse are expressions of the same mechanism: oil revenue allows states to fund patronage networks and security forces without taxing citizens, removing the accountability link between government and governed. Gulf state autocracy and the region's resistance to democratization are resource curse phenomena.",
+    "confidence": "high"
+  },
+  {
+    "id": "resource_curse__king_leopold_congo",
+    "source": "resource_curse",
+    "target": "king_leopold_congo",
+    "type": "ENABLED",
+    "label": "Congo's resources made extraction-without-accountability possible",
+    "note": "The Congo Free State was a resource curse operating through direct colonial extraction: Congo's rubber and ivory wealth was so vast that it justified the administrative terror required to enforce extraction quotas. The resource curse predicts that natural wealth without accountability produces exploitation; the Congo Free State is its most extreme historical case.",
+    "confidence": "high"
+  },
+  {
+    "id": "preference_falsification__arab_spring",
+    "source": "preference_falsification",
+    "target": "arab_spring",
+    "type": "CAUSED",
+    "label": "Sudden cascade of revealed preferences produced revolution",
+    "note": "The Arab Spring was a textbook preference falsification cascade: populations that had publicly accepted their governments for decades rapidly revealed their true preferences once a threshold of public protest was crossed. Bouazizi's self-immolation provided the signal that made public dissent safe enough to join, and what had seemed like stable authoritarian consensus collapsed in weeks.",
+    "confidence": "high"
+  },
+  {
+    "id": "radicalization_pipeline__rise_of_al_qaeda",
+    "source": "radicalization_pipeline",
+    "target": "rise_of_al_qaeda",
+    "type": "ENABLED",
+    "label": "Afghan war operationalized radicalization at scale",
+    "note": "Al-Qaeda assembled through radicalization pipeline stages operating at scale: the Afghan-Arab network provided the radicalizing group and identity; Wahhabi ideology provided the ideological framework naming the enemy; shared combat and camp training isolation cut ties to moderating contexts; bin Laden's direction provided the organizational context for crossing into mass violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "radicalization_pipeline__wahhabism_salafism",
+    "source": "radicalization_pipeline",
+    "target": "wahhabism_salafism",
+    "type": "ENABLED",
+    "label": "Wahhabi theology provided the ideological stage",
+    "note": "Wahhabism served the ideological framework stage of the radicalization pipeline: it provided a totalizing worldview that named the enemy, defined violent resistance as religious obligation, and delegitimized moderating interpretations of Islam. Not all Wahhabis radicalize to violence — but Wahhabism reliably provided the ideological infrastructure jihadist radicalization required.",
+    "confidence": "medium"
+  },
+  {
+    "id": "collective_trauma__nakba",
+    "source": "collective_trauma",
+    "target": "nakba",
+    "type": "ENABLED",
+    "label": "Nakba's unresolved trauma drives Palestinian politics",
+    "note": "The Nakba's displaced people and their descendants have transmitted the trauma of dispossession across generations through family memory, preserved village names, and political identity. Collective trauma explains why the right of return — technically 'impractical' — remains non-negotiable: the trauma persists because the injustice has not been acknowledged.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__jewish_diaspora",
+    "source": "collective_trauma",
+    "target": "jewish_diaspora",
+    "type": "ENABLED",
+    "label": "Centuries of persecution transmitted as existential threat memory",
+    "note": "The Jewish diaspora experience — pogroms, forced conversions, expulsions, and the Holocaust — was transmitted across generations as collective trauma, producing persistent threat-hypervigilance that shapes Israeli and diaspora political behavior. Israeli security doctrine is shaped by traumatic collective memory of what happens when Jewish communities trust in the protection of non-Jewish states.",
+    "confidence": "high"
   }
 ]
