@@ -3784,5 +3784,182 @@
       "council",
       "nostra-aetate"
     ]
+  },
+  {
+    "id": "blood_libel_myth",
+    "label": "Blood Libel Myth",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blood_libel",
+    "summary": "The false accusation that Jews murder Christian children to use their blood in religious rituals, first recorded in Norwich, England (1144 CE) and repeated across Europe for centuries. Blood libel accusations triggered massacres, expulsions, and judicial murders. They were officially condemned by several popes (Innocent IV, Gregory X) as fabrications, yet continued to circulate and be believed. The myth exemplifies how a factually false, officially refuted accusation can survive for centuries because it serves the psychological function of demonization — transforming ordinary neighbors into secret monsters. Blood libel accusations resurfaced in the Tsarist Empire and were used to justify pogroms in the 19th and early 20th centuries.",
+    "decade": "1140s",
+    "tags": [
+      "antisemitism",
+      "myth",
+      "medieval",
+      "persecution",
+      "false-accusation",
+      "demonization"
+    ]
+  },
+  {
+    "id": "jewish_expulsion_spain_1492",
+    "label": "Expulsion of Jews from Spain (1492)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alhambra_Decree",
+    "summary": "The Alhambra Decree of March 31, 1492, issued by Ferdinand and Isabella, ordered the expulsion of all Jews from Spain who refused baptism — ending approximately 1,500 years of Jewish presence on the Iberian Peninsula. Approximately 100,000-200,000 Jews left Spain (estimates vary); many went to the Ottoman Empire, which actively welcomed them, while others went to North Africa and the Netherlands. The expulsion followed decades of forced conversions, anti-Jewish riots (1391), and the Spanish Inquisition targeting conversos (Jewish converts to Christianity suspected of secret Jewish practice). The same year Columbus sailed, Spain expelled its Jewish population — a coincidence that condensed the ambitions and contradictions of the Catholic Monarchs.",
+    "decade": "1490s",
+    "tags": [
+      "antisemitism",
+      "spain",
+      "expulsion",
+      "inquisition",
+      "diaspora",
+      "sephardic",
+      "ferdinand-isabella"
+    ]
+  },
+  {
+    "id": "pogroms",
+    "label": "Pogroms",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pogrom",
+    "summary": "Organized massacres of Jewish communities, most prominently in the Russian Empire (1880s–1921), carried out by mobs often with tacit or active government encouragement. The word pogrom is Russian for devastation. The first major wave followed the assassination of Tsar Alexander II (1881), when Jews were falsely blamed; the Kishinev pogrom (1903) and subsequent waves killed thousands and displaced hundreds of thousands. Pogroms were a key driver of the massive Jewish emigration from Eastern Europe to the United States (1880–1924, approximately 2 million Jews) and a major catalyst for Zionism. The Dreyfus Affair (1894) and the pogroms convinced Theodor Herzl that Jews could never be safe in Europe without a homeland.",
+    "decade": "1880s",
+    "tags": [
+      "antisemitism",
+      "russia",
+      "massacre",
+      "violence",
+      "diaspora",
+      "zionism",
+      "emigration"
+    ]
+  },
+  {
+    "id": "christian_nationalism",
+    "label": "Christian Nationalism",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christian_nationalism",
+    "summary": "The ideology that a nation is defined by and ought to be governed according to Christian identity and values, typically merging national and Christian identity so that a threat to one is a threat to the other. Christian nationalism differs from mere religious patriotism in claiming that the nation was founded as a Christian nation, that Christian values should be legally enforced, and that non-Christians are at best guests and at worst threats. In the United States, Christian nationalism became politically prominent in the 1970s through the Moral Majority and reached a new peak in the 2010s–2020s. It shares structural features with other forms of ethno-religious nationalism worldwide — from Hindu nationalism to political Islam — in using religious identity as a mobilizing framework for political power.",
+    "decade": "1970s",
+    "tags": [
+      "christianity",
+      "nationalism",
+      "politics",
+      "usa",
+      "ideology",
+      "theocracy",
+      "identity"
+    ]
+  },
+  {
+    "id": "evangelical_christianity",
+    "label": "Evangelical Christianity",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Evangelicalism",
+    "summary": "A Protestant Christian movement emphasizing personal conversion experience (being born again), the authority of the Bible, the centrality of Christ cross and resurrection, and active sharing of faith (evangelism). Evangelicalism emerged from 18th-century revivals (Whitefield, Wesley) and became a dominant form of American Protestantism after the mid-20th century. Its defining institutional expressions include megachurches, radio and television ministry, Christian universities, and political mobilization. Evangelical Christianity is extraordinarily diverse — ranging from Black liberation-theology-influenced congregations to white nationalist-adjacent movements — but its political expression in the United States became closely aligned with the Republican Party from the 1980s onward, making it a major force in American politics and culture wars.",
+    "decade": "1940s",
+    "tags": [
+      "christianity",
+      "protestantism",
+      "revival",
+      "america",
+      "politics",
+      "bible",
+      "conversion"
+    ]
+  },
+  {
+    "id": "prosperity_gospel",
+    "label": "Prosperity Gospel",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Prosperity_theology",
+    "summary": "A theological movement within Evangelical and Pentecostal Christianity teaching that financial blessing and physical health are God will for believers, and that faith, positive confession, and tithing will reliably produce material prosperity. Originating in the mid-20th century American context (Oral Roberts, Kenneth Hagin, Kenneth Copeland), it became globally influential through television ministry and spread to sub-Saharan Africa, Latin America, and East Asia. Critics — including mainstream Evangelical theologians — argue it misrepresents scripture, exploits the poor, and provides false hope that ultimately extracts wealth from vulnerable believers toward wealthy pastors. Its theology of deserved prosperity also inverts the traditional Christian understanding of suffering and humility.",
+    "decade": "1980s",
+    "tags": [
+      "christianity",
+      "theology",
+      "wealth",
+      "televangelism",
+      "exploitation",
+      "faith",
+      "pentecostal"
+    ]
+  },
+  {
+    "id": "gnostic_christianity",
+    "label": "Gnostic Christianity",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gnosticism",
+    "summary": "A diverse family of early Christian movements (2nd–3rd century CE) sharing the belief that the material world is the creation of an inferior or evil divine being (the Demiurge), not the supreme God, and that salvation comes through secret knowledge (gnosis) of the true divine nature. Gnostic texts (the Gospel of Thomas, Gospel of Philip, the Nag Hammadi library) offer a radically different Christianity from the one that became orthodoxy: more mystical, less institutional, often more gender-egalitarian, and deeply suspicious of the body and matter. The proto-orthodox church (Irenaeus, Tertullian) attacked Gnosticism as heresy throughout the 2nd century; the Council of Nicaea and subsequent councils made these texts officially excluded from the biblical canon.",
+    "decade": "100s",
+    "tags": [
+      "christianity",
+      "heresy",
+      "gnosis",
+      "nag-hammadi",
+      "alternative",
+      "mysticism",
+      "early-church"
+    ]
+  },
+  {
+    "id": "liberation_theology",
+    "label": "Liberation Theology",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Liberation_theology",
+    "summary": "A theological movement originating in Latin America in the late 1960s, most influentially in Gustavo Gutierrez A Theology of Liberation (1971), arguing that Christian salvation is inseparable from liberation of the poor from systemic oppression. Liberation theology reads the Bible from the perspective of the poor (the preferential option for the poor), interprets exodus as a paradigm of divine liberation from political oppression, and uses social science alongside scripture to analyze structural injustice. It inspired Catholic base communities across Latin America, influenced liberation movements in Africa (Black theology) and Asia, and was simultaneously celebrated by progressives and condemned by the Vatican under John Paul II and Cardinal Ratzinger, who accused it of Marxist contamination.",
+    "decade": "1960s",
+    "tags": [
+      "theology",
+      "latin-america",
+      "poverty",
+      "justice",
+      "marxism",
+      "catholicism",
+      "reform"
+    ]
+  },
+  {
+    "id": "religious_trauma",
+    "label": "Religious Trauma",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The psychological harm caused by harmful religious experiences, including: using fear of hell and divine punishment for behavioral control; demanding suppression of doubt as a moral failing; enforcing conformity through shunning, excommunication, or social exclusion; pathologizing normal human experiences (sexuality, doubt, grief) as sinful; and teaching that outside relationships and institutions are corrupted or dangerous. Religious trauma syndrome (coined by Marlene Winell) describes the cluster of PTSD-like symptoms in survivors: difficulty making decisions, distorted thinking, black-and-white cognition, sexual shame, and loss of community upon leaving. The mechanism operates through institutions, families, and communities, and its effects can persist long after formal religious participation has ended.",
+    "decade": "1990s",
+    "tags": [
+      "psychology",
+      "religion",
+      "trauma",
+      "abuse",
+      "control",
+      "harm",
+      "mechanism"
+    ]
+  },
+  {
+    "id": "church_state_entanglement",
+    "label": "Church-State Entanglement",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The structural fusion of religious and political authority, where each legitimates the other: the state claims divine sanction for its power, and the church claims state enforcement for its religious requirements. This mechanism enables both institutions to claim greater authority than either would have alone, while eliminating the accountability structures that each would otherwise provide. Church-state entanglement has historically produced: forced conversions (you must accept the religion of the ruler), inquisitions (state enforcement of theological compliance), religious wars (wars of succession become wars of religion), and the weaponization of religious identity for political mobilization. The Enlightenment separation of church and state was a deliberate response to the destruction caused by this mechanism in the Wars of Religion.",
+    "decade": "300s",
+    "tags": [
+      "religion",
+      "politics",
+      "power",
+      "authority",
+      "mechanism",
+      "coercion",
+      "entanglement"
+    ]
   }
 ]
