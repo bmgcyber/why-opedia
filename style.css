@@ -870,3 +870,655 @@ body.sidebar-collapsed #stats {
     box-shadow: 4px 0 24px rgba(0, 0, 0, 0.5);
   }
 }
+
+/* ── Sidebar tool grid (Features N, J, K, P, T, U) ────────────────────── */
+
+.sb-tool-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.sb-tool-btn {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 7px 6px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sb-tool-btn:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.sb-tool-btn.active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
+
+/* Collapse button in section headers */
+.sb-collapse-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 10px;
+  padding: 0 2px;
+  line-height: 1;
+  transition: opacity 0.15s;
+}
+
+.sb-collapse-btn:hover {
+  opacity: 0.7;
+}
+
+/* Backward compat: old toolbar extras no longer used */
+.toolbar-divider, .tb-toggle-btn, .tb-btn { display: none; }
+
+/* ── Heat Map Legend inline in sidebar (Feature N) ───────────────────────── */
+
+.heatmap-legend-inline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 4px 0;
+}
+
+/* old fixed legend kept for compat */
+.heatmap-legend {
+  display: none;
+}
+.heatmap-legend.visible {
+  display: none;
+}
+
+.heatmap-gradient {
+  width: 80px;
+  height: 6px;
+  border-radius: 3px;
+  background: linear-gradient(to right, rgb(0,0,220), rgb(255,200,0), rgb(255,0,0));
+}
+
+.heatmap-label {
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+/* ── Path Finder sidebar section (Feature A) ─────────────────────────────── */
+
+.pf-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.pf-row-label {
+  font-size: 10px;
+  color: var(--text-muted);
+  min-width: 28px;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.pf-input {
+  flex: 1;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 12px;
+  padding: 6px 8px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.pf-input:focus {
+  border-color: var(--accent);
+}
+
+.pf-input::placeholder {
+  color: var(--text-muted);
+}
+
+.pf-btn-row {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.pf-btn {
+  flex: 1;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.pf-btn.primary {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.pf-btn:hover:not(.primary) {
+  border-color: var(--text-muted);
+  color: var(--text);
+}
+
+.pf-result {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.pf-path-chain {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.pf-path-step {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.pf-path-step:hover {
+  background: var(--surface2);
+}
+
+.pf-path-node {
+  font-size: 12px;
+  color: var(--text);
+  flex: 1;
+}
+
+.pf-path-arrow {
+  color: var(--text-muted);
+  font-size: 10px;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  flex-shrink: 0;
+  background: var(--surface2);
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.pf-no-path {
+  color: var(--edge-caused);
+  font-size: 12px;
+}
+
+/* ── Export subgraph button (Feature Q) ──────────────────────────────────── */
+
+.sb-export-btn {
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.sb-export-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ── Contemporary Relevance callout (Feature R) ──────────────────────────── */
+
+.contemporary-relevance {
+  padding: 10px 12px;
+  background: rgba(91, 141, 238, 0.07);
+  border: 1px solid rgba(91, 141, 238, 0.22);
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.contemporary-relevance-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.contemporary-relevance-text {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+/* ── Mechanism filter button (Feature D) ─────────────────────────────────── */
+
+.mechanism-filter-btn {
+  display: block;
+  width: 100%;
+  padding: 7px 12px;
+  margin-top: 10px;
+  border: 1px solid rgba(169, 108, 230, 0.3);
+  border-radius: 6px;
+  background: rgba(169, 108, 230, 0.08);
+  color: #a96ce6;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-align: left;
+}
+
+.mechanism-filter-btn:hover {
+  background: rgba(169, 108, 230, 0.18);
+  border-color: #a96ce6;
+}
+
+/* ── Sources / Citations (Feature V) ─────────────────────────────────────── */
+
+.sources-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.source-item {
+  font-size: 11px;
+  color: var(--text-muted);
+  padding: 3px 0;
+}
+
+.source-link {
+  color: var(--accent);
+  text-decoration: none;
+  word-break: break-all;
+  transition: opacity 0.1s;
+}
+
+.source-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* ── Suggested Connections (Feature S) ───────────────────────────────────── */
+
+.suggested-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 16px;
+}
+
+.suggested-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.suggested-item:hover {
+  background: var(--surface2);
+}
+
+.suggested-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.suggested-label {
+  font-size: 12px;
+  color: var(--text);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.suggested-reason {
+  font-size: 10px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+/* ── Aliases display (Feature X) ─────────────────────────────────────────── */
+
+.panel-aliases {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+/* ── Modals (Features T, U) ──────────────────────────────────────────────── */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72);
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-overlay[hidden] {
+  display: none;
+}
+
+.modal-content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 24px;
+  max-width: 640px;
+  width: 92vw;
+  max-height: 82vh;
+  overflow-y: auto;
+  position: relative;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.modal-content-quiz {
+  max-width: 480px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 16px;
+  line-height: 1;
+  transition: color 0.15s;
+}
+
+.modal-close:hover {
+  color: var(--text);
+}
+
+.modal-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 20px;
+  padding-right: 40px;
+}
+
+/* Analytics (Feature T) */
+
+.analytics-overview {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.analytics-stat {
+  flex: 1;
+  min-width: 80px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  text-align: center;
+}
+
+.analytics-stat-val {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+  font-family: 'SF Mono', 'Fira Code', monospace;
+}
+
+.analytics-stat-label {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 2px;
+}
+
+.analytics-section {
+  margin-bottom: 24px;
+}
+
+.analytics-section-title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.analytics-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.analytics-bar-label {
+  min-width: 140px;
+  max-width: 140px;
+  font-size: 11px;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 0;
+}
+
+.analytics-bar-wrap {
+  flex: 1;
+  height: 8px;
+  background: var(--surface2);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.analytics-bar {
+  height: 100%;
+  border-radius: 4px;
+  background: var(--accent);
+}
+
+.analytics-bar-val {
+  color: var(--text-muted);
+  font-size: 11px;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  min-width: 28px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* Quiz (Feature U) */
+
+.quiz-score {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+}
+
+.quiz-edge-type {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--surface2);
+  margin-bottom: 10px;
+}
+
+.quiz-question {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.quiz-option {
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface2);
+  color: var(--text);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-align: left;
+  width: 100%;
+}
+
+.quiz-option:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
+
+.quiz-option:disabled {
+  cursor: default;
+}
+
+.quiz-option.correct {
+  border-color: #48bb78;
+  background: rgba(72, 187, 120, 0.15);
+  color: #48bb78;
+}
+
+.quiz-option.wrong {
+  border-color: #e05252;
+  background: rgba(224, 82, 82, 0.15);
+  color: #e05252;
+}
+
+.quiz-feedback {
+  font-size: 13px;
+  min-height: 20px;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.quiz-feedback.correct {
+  color: #48bb78;
+}
+
+.quiz-feedback.wrong {
+  color: #e05252;
+}
+
+.quiz-next-btn {
+  padding: 8px 20px;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  background: var(--accent-dim);
+  color: var(--accent);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.quiz-next-btn:hover {
+  background: rgba(91, 141, 238, 0.25);
+}
+
+.quiz-end {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.quiz-end-score {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+}
+
+.quiz-end-label {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+/* ── Timeline mode indicator ──────────────────────────────────────────────── */
+
+.layout-mode-badge {
+  position: fixed;
+  top: calc(var(--toolbar-height) + 12px);
+  left: calc(var(--sidebar-width) + 12px);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 11px;
+  color: var(--accent);
+  z-index: 20;
+  pointer-events: none;
+  transition: left 0.25s ease;
+  display: none;
+}
+
+body.sidebar-collapsed .layout-mode-badge {
+  left: 12px;
+}
+
+.layout-mode-badge.visible {
+  display: block;
+}
+
+/* ── Cluster compound node style ──────────────────────────────────────────── */
+
+.cluster-label {
+  font-size: 9px;
+  color: var(--text-muted);
+  font-style: italic;
+}

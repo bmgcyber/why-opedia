@@ -6,7 +6,11 @@
     "type": "PRODUCED",
     "label": "produced strong-form health claim",
     "note": "Fat acceptance movement generated HAES as its medical framework, extending dignity advocacy into contested health claims.",
-    "confidence": "high"
+    "confidence": "high",
+    "sources": [
+      "Bacon, L. (2010). Health at Every Size. BenBella Books.",
+      "https://en.wikipedia.org/wiki/Health_at_every_size"
+    ]
   },
   {
     "id": "fat_acceptance__identity_capture",

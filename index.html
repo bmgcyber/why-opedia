@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <!-- Toolbar -->
+  <!-- Toolbar (minimal: just nav controls) -->
   <div id="toolbar">
     <button id="sidebar-toggle" title="Toggle filters panel" aria-expanded="true">☰</button>
     <div id="wordmark">Why<span>-opedia</span></div>
@@ -22,18 +22,41 @@
   <div id="sidebar">
     <div id="sidebar-inner">
 
-      <!-- 1. Search -->
+      <!-- 1. Search (full-text: label, aliases, summary, tags) -->
       <div class="sb-section sb-search-section">
         <div class="sb-search-wrap">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
           </svg>
-          <input id="sb-search" type="text" placeholder="Search nodes…" autocomplete="off" spellcheck="false" />
+          <input id="sb-search" type="text" placeholder="Search nodes, summaries, tags…" autocomplete="off" spellcheck="false" />
         </div>
       </div>
       <!-- Autocomplete is position:fixed, appended to body by JS -->
 
-      <!-- 2. Neighborhood Explorer (hidden until node selected) -->
+      <!-- 2. Path Finder (Feature A) -->
+      <div id="sb-pathfinder" class="sb-section">
+        <div class="sb-section-header">
+          <span>Path Finder</span>
+          <button class="sb-collapse-btn" id="pf-collapse" title="Collapse">▴</button>
+        </div>
+        <div id="pf-body">
+          <div class="pf-row">
+            <span class="pf-row-label">From</span>
+            <input id="pf-from" class="pf-input" type="text" placeholder="Start node name…" autocomplete="off" spellcheck="false" />
+          </div>
+          <div class="pf-row">
+            <span class="pf-row-label">To</span>
+            <input id="pf-to" class="pf-input" type="text" placeholder="End node name…" autocomplete="off" spellcheck="false" />
+          </div>
+          <div class="pf-btn-row">
+            <button id="pf-find-btn" class="pf-btn primary">Find Path</button>
+            <button id="pf-clear-btn" class="pf-btn">Clear</button>
+          </div>
+          <div id="pf-result" class="pf-result"></div>
+        </div>
+      </div>
+
+      <!-- 3. Neighborhood Explorer (hidden until node selected) -->
       <div id="sb-neighborhood" class="sb-section" hidden>
         <div class="sb-section-header">
           <span>Neighborhood</span>
@@ -47,22 +70,29 @@
             <button class="sb-depth-btn" data-depth="3">3</button>
           </div>
         </div>
+        <button id="sb-export-subgraph" class="sb-export-btn">⬇ Export neighborhood JSON</button>
         <button id="sb-nb-clear" class="sb-clear-btn">✕ Clear selection</button>
       </div>
 
-      <!-- 3. Node Type Filters -->
+      <!-- 4. Node Type Filters -->
       <div class="sb-section">
         <div class="sb-section-header">Node Types</div>
         <div id="sb-node-types" class="sb-checklist"></div>
       </div>
 
-      <!-- 4. Edge Type Filters -->
+      <!-- 5. Edge Type Filters -->
       <div class="sb-section">
         <div class="sb-section-header">Edge Types</div>
         <div id="sb-edge-types" class="sb-checklist"></div>
       </div>
 
-      <!-- 5. Connectivity Filter -->
+      <!-- 6. Region Filter (Feature F — shown only when region data exists) -->
+      <div id="sb-region-section" class="sb-section" hidden>
+        <div class="sb-section-header">Region</div>
+        <div id="sb-regions" class="sb-checklist"></div>
+      </div>
+
+      <!-- 7. Connectivity Filter -->
       <div class="sb-section">
         <div class="sb-section-header">
           <span>Connectivity</span>
@@ -72,7 +102,45 @@
         <input id="sb-conn-slider" type="range" min="0" max="50" value="0" class="sb-slider" />
       </div>
 
-      <!-- 6. Reset All -->
+      <!-- 8. Layout & View toggles (Features N, J, K) -->
+      <div class="sb-section">
+        <div class="sb-section-header">Layout &amp; View</div>
+        <div class="sb-tool-grid">
+          <button id="heatmap-btn" class="sb-tool-btn" title="Color nodes by connection count">
+            Heat Map
+          </button>
+          <button id="timeline-btn" class="sb-tool-btn" title="Arrange nodes left-to-right by decade">
+            Timeline
+          </button>
+          <button id="cluster-btn" class="sb-tool-btn" title="Group nodes by category into clusters">
+            Cluster
+          </button>
+        </div>
+        <!-- Heat map legend (appears when heat map is on) -->
+        <div id="heatmap-legend-inline" class="heatmap-legend-inline" hidden>
+          <span class="heatmap-label">Low</span>
+          <div class="heatmap-gradient"></div>
+          <span class="heatmap-label">High degree</span>
+        </div>
+      </div>
+
+      <!-- 9. Actions (Features P, T, U) -->
+      <div class="sb-section">
+        <div class="sb-section-header">Actions</div>
+        <div class="sb-tool-grid">
+          <button id="export-png-btn" class="sb-tool-btn" title="Download the current graph view as a PNG">
+            Export PNG
+          </button>
+          <button id="analytics-btn" class="sb-tool-btn" title="View graph statistics and charts">
+            Analytics
+          </button>
+          <button id="quiz-btn" class="sb-tool-btn" title="Test your knowledge of the graph">
+            Quiz
+          </button>
+        </div>
+      </div>
+
+      <!-- 10. Reset All -->
       <div class="sb-reset-section">
         <button id="sb-reset" class="sb-reset-btn">Reset All Filters</button>
       </div>
@@ -94,6 +162,9 @@
   <!-- Stats -->
   <div id="stats"></div>
 
+  <!-- Layout mode badge (shown when timeline/cluster is active) -->
+  <div id="layout-mode-badge" class="layout-mode-badge"></div>
+
   <!-- Edge legend -->
   <div id="legend">
     <div id="legend-title">Edge types</div>
@@ -103,6 +174,24 @@
     <div class="legend-row"><div class="legend-swatch" style="background:#a96ce6"></div>SELF_REINFORCES</div>
     <div class="legend-row"><div class="legend-swatch" style="background:#4a4f6a"></div>other</div>
     <div class="legend-row"><div class="legend-swatch dashed"></div>speculative</div>
+  </div>
+
+  <!-- Analytics Modal (Feature T) -->
+  <div id="analytics-modal" class="modal-overlay" hidden>
+    <div class="modal-content">
+      <button class="modal-close" id="analytics-close">✕</button>
+      <div class="modal-title">Analytics Dashboard</div>
+      <div id="analytics-body"></div>
+    </div>
+  </div>
+
+  <!-- Quiz Modal (Feature U) -->
+  <div id="quiz-modal" class="modal-overlay" hidden>
+    <div class="modal-content modal-content-quiz">
+      <button class="modal-close" id="quiz-close">✕</button>
+      <div class="modal-title">Quiz Mode</div>
+      <div id="quiz-body"></div>
+    </div>
   </div>
 
   <!-- Cytoscape.js from CDN -->

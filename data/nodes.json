@@ -12,7 +12,13 @@
       "health",
       "psychology",
       "social"
-    ]
+    ],
+    "region": "Americas",
+    "aliases": [
+      "Body Positivity Movement",
+      "Fat Pride Movement"
+    ],
+    "contemporary_relevance": "Continues to shape healthcare policy debates and body image discourse. Tension between anti-discrimination advocacy and medical guidance remains unresolved in clinical practice."
   },
   {
     "id": "healthy_at_every_size",
@@ -26,6 +32,10 @@
       "health",
       "ideology",
       "medical"
+    ],
+    "region": "Americas",
+    "aliases": [
+      "HAES"
     ]
   },
   {
@@ -54,7 +64,12 @@
       "psychology",
       "identity",
       "misogyny"
-    ]
+    ],
+    "region": "Global",
+    "aliases": [
+      "Involuntary Celibates"
+    ],
+    "contemporary_relevance": "Has radicalized into a terrorism-linked subculture. Multiple mass casualty events have been attributed to incel ideology since 2014, with ongoing recruitment through social media platforms."
   },
   {
     "id": "brony_fandom",
@@ -69,7 +84,8 @@
       "fandom",
       "psychology",
       "identity"
-    ]
+    ],
+    "region": "Americas"
   },
   {
     "id": "furry_fandom",
@@ -84,7 +100,8 @@
       "fandom",
       "psychology",
       "identity"
-    ]
+    ],
+    "region": "Americas"
   },
   {
     "id": "chronic_illness_online_communities",
@@ -99,7 +116,8 @@
       "medical",
       "psychology",
       "identity"
-    ]
+    ],
+    "region": "Global"
   },
   {
     "id": "medical_weight_bias",
@@ -129,7 +147,13 @@
       "conspiracy",
       "history",
       "documented_atrocity"
-    ]
+    ],
+    "region": "Americas",
+    "aliases": [
+      "MKULTRA",
+      "Project MKULTRA"
+    ],
+    "contemporary_relevance": "Declassified documents revealed in 1977 confirmed systematic human experimentation. The program established that government institutions can conceal illegal covert operations for decades."
   },
   {
     "id": "church_committee",
@@ -143,7 +167,8 @@
       "government",
       "history",
       "accountability"
-    ]
+    ],
+    "region": "Americas"
   },
   {
     "id": "broken_epistemology",
@@ -186,7 +211,9 @@
       "government",
       "corporate",
       "documented"
-    ]
+    ],
+    "region": "Americas",
+    "contemporary_relevance": "Central to understanding why food safety, financial regulation, and pharmaceutical oversight repeatedly fail. The revolving door between agencies and industries they regulate remains a structural feature of US governance."
   },
   {
     "id": "pfas_microplastics",
@@ -201,7 +228,9 @@
       "health",
       "corporate",
       "chemical"
-    ]
+    ],
+    "region": "Global",
+    "contemporary_relevance": "Found in virtually all human blood samples worldwide. Long-term health consequences are still emerging; regulatory response lags years behind scientific understanding."
   },
   {
     "id": "medieval_christian_antisemitism",
@@ -216,7 +245,8 @@
       "antisemitism",
       "history",
       "ideology"
-    ]
+    ],
+    "region": "Europe"
   },
   {
     "id": "jewish_moneylending",
@@ -231,7 +261,8 @@
       "antisemitism",
       "history",
       "forced_role"
-    ]
+    ],
+    "region": "Europe"
   },
   {
     "id": "protocols_of_elders_of_zion",
@@ -246,6 +277,10 @@
       "conspiracy",
       "propaganda",
       "forgery"
+    ],
+    "region": "Europe",
+    "aliases": [
+      "Protocols of Zion"
     ]
   },
   {
@@ -261,7 +296,8 @@
       "nazism",
       "history",
       "propaganda"
-    ]
+    ],
+    "region": "Europe"
   },
   {
     "id": "martin_luther_antisemitism",
@@ -276,7 +312,8 @@
       "religion",
       "history",
       "protestantism"
-    ]
+    ],
+    "region": "Europe"
   },
   {
     "id": "the_holocaust",
@@ -291,7 +328,13 @@
       "antisemitism",
       "history",
       "nazism"
-    ]
+    ],
+    "region": "Europe",
+    "aliases": [
+      "Shoah",
+      "Nazi Genocide"
+    ],
+    "contemporary_relevance": "Established international humanitarian law and the Genocide Convention. Denial and minimization of the Holocaust remains a live political strategy in multiple countries."
   },
   {
     "id": "watergate",
@@ -306,6 +349,10 @@
       "scandal",
       "history",
       "accountability"
+    ],
+    "region": "Americas",
+    "aliases": [
+      "Watergate Scandal"
     ]
   },
   {
@@ -321,6 +368,11 @@
       "science",
       "technology",
       "space"
+    ],
+    "region": "Americas",
+    "aliases": [
+      "Moon Landing",
+      "Apollo 11"
     ]
   },
   {
@@ -335,7 +387,8 @@
       "conspiracy",
       "pseudoscience",
       "epistemology"
-    ]
+    ],
+    "region": "Global"
   },
   {
     "id": "scapegoating_mechanism",
@@ -377,7 +430,9 @@
       "psychology",
       "radicalization",
       "extremism"
-    ]
+    ],
+    "region": "Global",
+    "contemporary_relevance": "Algorithmic recommendation systems on social media have dramatically accelerated radicalization pathways that previously required years of in-person contact."
   },
   {
     "id": "tobacco_industry_research_suppression",
@@ -393,7 +448,8 @@
       "science",
       "tobacco",
       "deception"
-    ]
+    ],
+    "region": "Americas"
   },
   {
     "id": "manufactured_scientific_doubt",
@@ -408,7 +464,12 @@
       "corporate",
       "epistemology",
       "deception"
-    ]
+    ],
+    "aliases": [
+      "Doubt Manufacturing",
+      "Tobacco Strategy"
+    ],
+    "contemporary_relevance": "The same strategy pioneered by tobacco is now deployed for climate, PFAS, opioids, and social media harms. Understanding this mechanism is essential for evaluating contested scientific claims today."
   },
   {
     "id": "tobacco_master_settlement",
@@ -424,7 +485,8 @@
       "tobacco",
       "accountability",
       "history"
-    ]
+    ],
+    "region": "Americas"
   },
   {
     "id": "climate_change_denial",
@@ -440,7 +502,13 @@
       "corporate",
       "science",
       "denial"
-    ]
+    ],
+    "region": "Global",
+    "aliases": [
+      "Global Warming Denial",
+      "Climate Skepticism"
+    ],
+    "contemporary_relevance": "Actively funded by fossil fuel interests, still delays emissions legislation decades after scientific consensus. The same doubt-manufacturing playbook now appears in debates over other environmental regulations."
   },
   {
     "id": "cointelpro",
