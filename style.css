@@ -740,6 +740,14 @@ body.sidebar-collapsed #stats {
   left: 14px;
 }
 
+.sz-status {
+  margin-top: 3px;
+  font-size: 10px;
+  color: var(--accent);
+  opacity: 0.65;
+  letter-spacing: 0.01em;
+}
+
 /* ── Legend ───────────────────────────────────────────────────────────────── */
 
 #legend {

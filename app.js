@@ -52,6 +52,11 @@ let neighborhoodDepth = 1;
 let enabledNodeCategories = new Set();
 let enabledEdgeFilters = new Set(EDGE_FILTER_GROUPS);
 let minConnectivity = 0;
+let allCategories = new Set(); // all categories in the dataset (set at sidebar build time)
+
+// Semantic zoom state
+let semanticZoomTiers = null;   // { tier1: Set<id>, tier2: Set<id>, tier3: Set<id> }
+let lastSemanticZoomLevel = 0;  // 0=uninit, 1=tier1 only, 2=tier1+2, 3=all
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 document.getElementById('stats').textContent = 'Loading…';
@@ -112,8 +117,8 @@ function initCytoscape(nodes, edges) {
       fit: true,
       padding: 80,
       packComponents: true,
-      nodeRepulsion: 9500,
-      idealEdgeLength: 220,
+      nodeRepulsion: 14000,
+      idealEdgeLength: 280,
       edgeElasticity: 0.35,
       nestingFactor: 0.1,
       gravity: 0.18,
@@ -127,11 +132,37 @@ function initCytoscape(nodes, edges) {
     wheelSensitivity: 0.3,
   });
 
-  // Set slider max after layout finishes
+  // Compute tiers + set slider max after layout finishes
   cy.one('layoutstop', () => {
+    computeSemanticZoomTiers();
+
     const maxDeg = cy.nodes().reduce((m, n) => Math.max(m, n.connectedEdges().length), 0);
     const slider = document.getElementById('sb-conn-slider');
     if (slider) slider.max = Math.max(1, Math.min(maxDeg, 60));
+
+    // Land in Tier 1 (hub overview) on initial load
+    if (cy.zoom() > 0.55) {
+      cy.zoom({ level: 0.48, renderedPosition: { x: cy.width() / 2, y: cy.height() / 2 } });
+    }
+
+    lastSemanticZoomLevel = -1; // force first apply
+    applySemanticZoomVisibility();
+    const visNodes = cy.nodes().not('.hidden').length;
+    const visEdges = cy.edges().not('.hidden').length;
+    updateStats(visNodes, visEdges, allNodes.length, allEdges.length);
+  });
+
+  // Semantic zoom: re-evaluate only when crossing a tier boundary
+  cy.on('zoom', () => {
+    if (!semanticZoomTiers || isSemanticZoomSuppressed()) return;
+    const zoom = cy.zoom();
+    const newLevel = zoom < 0.6 ? 1 : zoom < 1.0 ? 2 : 3;
+    if (newLevel !== lastSemanticZoomLevel) {
+      applySemanticZoomVisibility();
+      const visNodes = cy.nodes().not('.hidden').length;
+      const visEdges = cy.edges().not('.hidden').length;
+      updateStats(visNodes, visEdges, allNodes.length, allEdges.length);
+    }
   });
 
   // ── Interaction ─────────────────────────────────────────────────────────────
@@ -340,6 +371,11 @@ function buildStylesheet() {
       selector: '.dimmed',
       style: { 'opacity': 0.08 }
     },
+    // Semantic zoom — tier 2/3 nodes at current zoom level
+    {
+      selector: '.sz-dim',
+      style: { 'opacity': 0.06 }
+    },
     {
       selector: '.highlighted',
       style: { 'opacity': 1 }
@@ -520,6 +556,7 @@ function buildSidebar(nodes) {
 function buildNodeTypeFilters(nodes) {
   const categories = [...new Set(nodes.map(n => n.category))].sort();
   enabledNodeCategories = new Set(categories);
+  allCategories = new Set(categories); // snapshot for suppression check
 
   const container = document.getElementById('sb-node-types');
   categories.forEach(cat => {
@@ -839,6 +876,9 @@ function applyFilters() {
     }
   });
 
+  // Re-evaluate semantic zoom (suppressed when any filter/neighborhood is active)
+  applySemanticZoomVisibility();
+
   // Update stats and counts
   const visNodes = cy.nodes().not('.hidden').length;
   const visEdges = cy.edges().not('.hidden').length;
@@ -879,11 +919,119 @@ function updateNodeTypeCounts() {
 // ── Stats ─────────────────────────────────────────────────────────────────────
 function updateStats(nodes, edges, totalNodes, totalEdges) {
   const el = document.getElementById('stats');
+  let main;
   if (totalNodes !== undefined && (nodes !== totalNodes || edges !== totalEdges)) {
-    el.textContent = `${nodes}/${totalNodes} nodes · ${edges}/${totalEdges} edges`;
+    main = `${nodes}/${totalNodes} nodes · ${edges}/${totalEdges} edges`;
   } else {
-    el.textContent = `${nodes} nodes · ${edges} edges`;
+    main = `${nodes} nodes · ${edges} edges`;
   }
+
+  // Semantic zoom hint line (only when active and not fully revealed)
+  let szLine = '';
+  if (cy && semanticZoomTiers && !isSemanticZoomSuppressed()) {
+    const zoom = cy.zoom();
+    const level = zoom < 0.6 ? 1 : zoom < 1.0 ? 2 : 3;
+    if (level < 3) {
+      const dimCount = cy.nodes().filter(n => n.hasClass('sz-dim')).length;
+      const shown = cy.nodes().length - dimCount;
+      szLine = `<div class="sz-status">Showing ${shown} of ${cy.nodes().length} nodes — zoom in to reveal more</div>`;
+    }
+  }
+
+  el.innerHTML = `<div>${main}</div>${szLine}`;
+}
+
+// ── Semantic Zoom ─────────────────────────────────────────────────────────────
+
+// Compute tier membership from actual degree distribution (percentile-based).
+// Tier 1 (top ~20% by degree) → always visible.
+// Tier 2 (next ~30%) → visible at mid zoom.
+// Tier 3 (bottom ~50%) → visible only when zoomed in.
+function computeSemanticZoomTiers() {
+  if (!cy) return;
+  const nodes = cy.nodes();
+  const n = nodes.length;
+  if (n === 0) return;
+
+  // Build sorted degree array (ascending) for percentile thresholds
+  const degrees = nodes.map(node => node.connectedEdges().length).sort((a, b) => a - b);
+
+  // p80 = 80th-percentile degree → nodes with degree ≥ p80 are top 20%
+  // p50 = 50th-percentile degree → nodes with degree ≥ p50 are top 50%
+  const p80 = degrees[Math.floor(n * 0.80)] ?? 0;
+  const p50 = degrees[Math.floor(n * 0.50)] ?? 0;
+
+  const tier1 = new Set();
+  const tier2 = new Set();
+  const tier3 = new Set();
+
+  nodes.forEach(node => {
+    const deg = node.connectedEdges().length;
+    const id = node.id();
+    if (deg >= p80)       tier1.add(id);
+    else if (deg >= p50)  tier2.add(id);
+    else                  tier3.add(id);
+  });
+
+  semanticZoomTiers = { tier1, tier2, tier3 };
+}
+
+// Semantic zoom is disabled when any filter or neighborhood narrows the view.
+function isSemanticZoomSuppressed() {
+  if (selectedNodeId !== null) return true;
+  if (enabledNodeCategories.size < allCategories.size) return true;
+  if (enabledEdgeFilters.size < EDGE_FILTER_GROUPS.length) return true;
+  if (minConnectivity > 0) return true;
+  return false;
+}
+
+// Apply or remove .sz-dim based on current zoom tier.
+// This is called on zoom tier changes and after every filter change.
+function applySemanticZoomVisibility() {
+  if (!cy || !semanticZoomTiers) return;
+
+  const suppressed = isSemanticZoomSuppressed();
+
+  cy.batch(() => {
+    if (suppressed) {
+      // Filters/neighborhood are in control — remove any semantic dimming
+      cy.elements().removeClass('sz-dim');
+      lastSemanticZoomLevel = 0;
+      return;
+    }
+
+    const zoom = cy.zoom();
+    const level = zoom < 0.6 ? 1 : zoom < 1.0 ? 2 : 3;
+    lastSemanticZoomLevel = level;
+
+    if (level === 3) {
+      // Fully zoomed in — everything visible
+      cy.elements().removeClass('sz-dim');
+      return;
+    }
+
+    // Dim nodes outside the current visible tier set
+    cy.nodes().forEach(node => {
+      const id = node.id();
+      const visible =
+        semanticZoomTiers.tier1.has(id) ||
+        (level >= 2 && semanticZoomTiers.tier2.has(id));
+
+      if (visible) node.removeClass('sz-dim');
+      else         node.addClass('sz-dim');
+    });
+
+    // Dim edges only when BOTH endpoints are sz-dim
+    cy.edges().forEach(edge => {
+      const src = cy.getElementById(edge.data('source'));
+      const tgt = cy.getElementById(edge.data('target'));
+      if (src.hasClass('sz-dim') && tgt.hasClass('sz-dim')) {
+        edge.addClass('sz-dim');
+      } else {
+        edge.removeClass('sz-dim');
+      }
+    });
+  });
 }
 
 // ── Util ──────────────────────────────────────────────────────────────────────
