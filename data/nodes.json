@@ -2828,5 +2828,103 @@
     "summary": "The diverse philosophical movements of the Hellenistic period (c. 323–31 BCE) following Alexander the Great's conquests, including Stoicism, Epicureanism, Skepticism, and Cynicism. Hellenistic philosophy shifted the focus from cosmology and politics to individual ethics — how to live well in a world of uncertainty. The period also saw the first synthesis of Greek philosophy with Persian, Egyptian, and Jewish traditions, preparing the intellectual ground for Neoplatonism, rabbinic Judaism, and the emergence of Christianity.",
     "decade": "300s BCE",
     "tags": ["philosophy", "greece", "hellenism", "ethics", "syncretism", "cosmopolitanism"]
+  },
+  {
+    "id": "scholasticism",
+    "label": "Scholasticism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scholasticism",
+    "summary": "The dominant intellectual tradition of medieval Europe (11th–15th century), which applied Aristotelian logic and method to Christian theology. Thomas Aquinas, its greatest practitioner, synthesized Aristotle with Christianity to produce a comprehensive philosophical theology (Summa Theologica). Scholasticism built the great medieval universities, invented rigorous academic disputation, and made systematic rational argument the standard of theological truth — while insisting that reason and revelation ultimately harmonize.",
+    "decade": "1100s",
+    "tags": ["philosophy", "medieval", "theology", "christianity", "aristotle", "university"]
+  },
+  {
+    "id": "enlightenment_philosophy",
+    "label": "Enlightenment Philosophy",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Age_of_Enlightenment",
+    "summary": "The 17th–18th century intellectual movement that applied human reason to politics, society, religion, and nature — displacing divine authority as the primary justification for social arrangements. Locke's natural rights, Hume's empiricism, Voltaire's anticlerical skepticism, Rousseau's general will, and Kant's critical philosophy collectively established the philosophical foundation for liberal democracy, human rights, the scientific method as arbiter of truth, and the idea that individuals are ends in themselves rather than instruments of church or state.",
+    "decade": "1700s",
+    "tags": ["philosophy", "reason", "rights", "liberalism", "secularism", "democracy", "science"]
+  },
+  {
+    "id": "social_contract_theory",
+    "label": "Social Contract Theory",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The foundational mechanism of modern political legitimacy: the idea that government derives its just powers from the consent of the governed, who surrender certain natural freedoms in exchange for the protection of a civil order. Hobbes, Locke, and Rousseau produced different versions with radically different implications — absolute sovereignty vs. limited government vs. popular democracy. As a mechanism, social contract theory is both the standard by which democratic legitimacy is judged and the framework within which democratic backsliding, authoritarianism, and revolution are understood.",
+    "decade": "1600s",
+    "tags": ["philosophy", "politics", "legitimacy", "consent", "democracy", "liberalism"]
+  },
+  {
+    "id": "kantian_ethics",
+    "label": "Kantian Ethics",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kantian_ethics",
+    "summary": "Immanuel Kant's system of deontological ethics, centered on the Categorical Imperative: act only according to maxims you could will to be universal laws, and always treat persons as ends in themselves, never merely as means. Kant grounded morality entirely in reason rather than consequences or sentiment — producing an account of moral duty that is absolute, universal, and independent of inclination. Kantian ethics became the philosophical foundation of human rights law, humanitarian ethics, and the concept of human dignity.",
+    "decade": "1700s",
+    "tags": ["philosophy", "ethics", "deontology", "rights", "duty", "dignity", "reason"]
+  },
+  {
+    "id": "utilitarianism",
+    "label": "Utilitarianism",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Utilitarianism",
+    "summary": "The ethical doctrine that the right action is the one that produces the greatest happiness for the greatest number, developed by Jeremy Bentham and John Stuart Mill. Utilitarianism was the first systematic attempt to derive morality from measurable outcomes rather than divine command or rational duty. It drove Victorian social reform, shaped modern welfare economics and cost-benefit analysis, and provided the philosophical framework for both progressive policy and its critique — that utilitarian calculations can justify harming minorities for majority benefit.",
+    "decade": "1800s",
+    "tags": ["philosophy", "ethics", "consequentialism", "welfare", "reform", "policy"]
+  },
+  {
+    "id": "hegelian_dialectic",
+    "label": "Hegelian Dialectic",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Hegel's account of how thought, history, and reality develop through contradiction: every idea (thesis) generates its opposite (antithesis), and the tension between them resolves into a higher synthesis that preserves elements of both while transcending their opposition. As a mechanism, the dialectic provides a framework for understanding historical change as internally driven contradiction rather than external accident — a framework Marx inverted into material dialectics, producing the most consequential political philosophy of the 20th century.",
+    "decade": "1800s",
+    "tags": ["philosophy", "dialectic", "history", "contradiction", "synthesis", "idealism", "marxism"]
+  },
+  {
+    "id": "existentialism",
+    "label": "Existentialism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Existentialism",
+    "summary": "The 20th-century philosophical movement (Sartre, Heidegger, Camus, de Beauvoir) that placed individual existence, freedom, and authenticity at the center of philosophy. Confronting a world without inherent meaning after the death of God, existentialism insisted that humans are condemned to create their own meaning and are fully responsible for their choices. Existentialism shaped post-war literature, psychotherapy, and the 1960s cultural revolution — and directly preceded postmodernism through its critique of essential human nature and master narratives.",
+    "decade": "1940s",
+    "tags": ["philosophy", "freedom", "authenticity", "meaning", "absurdism", "responsibility"]
+  },
+  {
+    "id": "nietzschean_philosophy",
+    "label": "Nietzschean Philosophy",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Philosophy_of_Friedrich_Nietzsche",
+    "summary": "Friedrich Nietzsche's body of thought (1870s–1880s): the critique of slave morality, the will to power, the Übermensch as an ideal of self-overcoming, and the declaration that God is dead — the collapse of the transcendent framework that gave Western civilization its values. Nietzsche's genealogical method (tracing ideas back to the psychological drives producing them) directly influenced existentialism, postmodernism, and Foucault. His thought was grotesquely distorted by Nazi appropriation, which he anticipated and despised.",
+    "decade": "1880s",
+    "tags": ["philosophy", "power", "morality", "nihilism", "individualism", "genealogy", "critique"]
+  },
+  {
+    "id": "frankfurt_school",
+    "label": "Frankfurt School",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frankfurt_School",
+    "summary": "The Institute for Social Research at Frankfurt (1923–), associated with Adorno, Horkheimer, Marcuse, and Habermas. Its critical theory program applied Hegelian-Marxist analysis to culture, media, and fascism — producing landmark works: Dialectic of Enlightenment (how Enlightenment reason generates its own barbarism), Authoritarian Personality (psychological roots of fascism), and One-Dimensional Man (how consumer culture forecloses radical thought). Forced into exile by Nazism, the School's analysis of how culture and reason serve domination shaped media studies, sociology, and political philosophy.",
+    "decade": "1930s",
+    "tags": ["philosophy", "critical-theory", "marxism", "media", "fascism", "culture", "domination"]
+  },
+  {
+    "id": "postmodernism_philosophy",
+    "label": "Postmodern Philosophy",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Postmodern_philosophy",
+    "summary": "A late 20th-century philosophical movement (Foucault, Derrida, Lyotard, Baudrillard) characterized by skepticism toward grand narratives, rejection of objective foundations, deconstruction of texts and power structures, and the claim that knowledge and truth are always situated in power relations. Postmodern philosophy produced invaluable tools for exposing how institutions naturalize power — but its relativist epistemology has also been weaponized by authoritarian movements to delegitimize empirical consensus, making it simultaneously a critique of domination and a vector for manufactured doubt.",
+    "decade": "1960s",
+    "tags": ["philosophy", "deconstruction", "power", "relativism", "postmodernism", "epistemology"]
   }
 ]

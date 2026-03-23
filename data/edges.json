@@ -2878,5 +2878,185 @@
     "label": "Socratic questioning is the systematic antidote to bad epistemics",
     "note": "Broken epistemology describes the condition in which communities lose the ability to distinguish true from false claims. The Socratic method is the original formal tool for diagnosing this condition: by exposing the unexamined premises and internal contradictions within any belief system, Socratic dialogue forces epistemic humility. Every modern tradition of critical thinking — scientific peer review, adversarial legal systems, Socratic law school pedagogy — is a structural descendant of this mechanism.",
     "confidence": "high"
+  },
+  {
+    "id": "aristotelian_logic__scholasticism",
+    "source": "aristotelian_logic",
+    "target": "scholasticism",
+    "type": "ENABLED",
+    "label": "Aristotle's logic became the tool of medieval theology",
+    "note": "The recovery of Aristotle's logical and philosophical works in Western Europe (via Arabic translations, 12th century) provided scholastic theology with its core analytical toolkit. Thomas Aquinas explicitly built his synthesis on Aristotelian method, treating Aristotle's logical framework as compatible with and useful for Christian doctrine. Without Aristotelian logic, scholasticism's project of rationally systematizing theology would have been impossible.",
+    "confidence": "high"
+  },
+  {
+    "id": "platonic_idealism__scholasticism",
+    "source": "platonic_idealism",
+    "target": "scholasticism",
+    "type": "ENABLED",
+    "label": "Neoplatonic thought shaped early medieval theology",
+    "note": "Early scholasticism was deeply Neoplatonic, mediated through Augustine: the emanationist metaphysics of Plotinus, the identification of Forms with divine ideas, and the hierarchical cosmos descending from the One all permeated medieval Christian thought before Aristotle's full corpus was recovered. The scholastic synthesis integrated both Platonic (through Augustine) and Aristotelian (through Aquinas) traditions.",
+    "confidence": "high"
+  },
+  {
+    "id": "scholasticism__protestant_reformation",
+    "source": "scholasticism",
+    "target": "protestant_reformation",
+    "type": "ENABLED",
+    "label": "Scholastic Church authority provoked Reformation critique",
+    "note": "Scholasticism had built an elaborate rational defense of Church authority, institutional hierarchy, and Papal supremacy — and by the 15th century this structure felt to reformers like a human edifice obscuring direct access to scripture. Luther's sola scriptura was explicitly anti-scholastic: the rejection of philosophical theology in favor of the plain text of the Bible. Scholasticism created the intellectual edifice the Reformation had to demolish.",
+    "confidence": "high"
+  },
+  {
+    "id": "scholasticism__enlightenment_philosophy",
+    "source": "scholasticism",
+    "target": "enlightenment_philosophy",
+    "type": "ENABLED",
+    "label": "Scholasticism's rational method prepared Enlightenment tools",
+    "note": "Scholasticism inadvertently prepared the tools the Enlightenment would turn against Church authority: rigorous disputation, systematic argument, the habit of demanding rational justification for every claim. The Enlightenment didn't emerge from nothing — it inherited and secularized scholasticism's methodological commitment to rational argument, then applied it to political and religious institutions rather than theological problems.",
+    "confidence": "medium"
+  },
+  {
+    "id": "protestant_reformation__enlightenment_philosophy",
+    "source": "protestant_reformation",
+    "target": "enlightenment_philosophy",
+    "type": "ENABLED",
+    "label": "Reformation shattered religious authority, enabling secular reason",
+    "note": "By fracturing Christian unity, the Reformation made it impossible to appeal to Church authority as the final arbiter of truth — creating an intellectual vacuum that rational philosophy stepped into. The religious wars that followed (Thirty Years' War) taught European thinkers that theological authority generates catastrophic conflict; Enlightenment thinkers responded by seeking a secular, rational basis for truth and political authority.",
+    "confidence": "high"
+  },
+  {
+    "id": "enlightenment_philosophy__social_contract_theory",
+    "source": "enlightenment_philosophy",
+    "target": "social_contract_theory",
+    "type": "PRODUCED",
+    "label": "Enlightenment reason produced social contract as political foundation",
+    "note": "The Enlightenment's commitment to reason as the basis of authority made social contract theory its central political framework: if divine right cannot legitimate government, what can? Hobbes, Locke, and Rousseau each answered this question by grounding political authority in rational consent. Locke's version — consent of the governed, natural rights, right of revolution — directly informed the American and French Revolutions.",
+    "confidence": "high"
+  },
+  {
+    "id": "enlightenment_philosophy__kantian_ethics",
+    "source": "enlightenment_philosophy",
+    "target": "kantian_ethics",
+    "type": "ENABLED",
+    "label": "Kant synthesized and completed the Enlightenment moral project",
+    "note": "Kant described himself as answering Hume's skepticism and completing the Enlightenment's project of grounding morality in reason alone — without reference to God, tradition, or sentiment. His critical philosophy — asking what reason can know, what it must do, and what it may hope — was the philosophical summit of Enlightenment rationalism, and simultaneously its self-critique, establishing the limits of pure reason.",
+    "confidence": "high"
+  },
+  {
+    "id": "enlightenment_philosophy__utilitarianism",
+    "source": "enlightenment_philosophy",
+    "target": "utilitarianism",
+    "type": "ENABLED",
+    "label": "Enlightenment empiricism and reform produced utilitarianism",
+    "note": "Utilitarianism was the Enlightenment's attempt to derive ethics from observable facts about human happiness rather than abstract metaphysics. Bentham's hedonic calculus applied Enlightenment empiricism directly to moral questions: what actions actually produce more pleasure than pain? The Enlightenment's reformist spirit — critique existing institutions rationally — gave utilitarianism its practical program of social reform.",
+    "confidence": "high"
+  },
+  {
+    "id": "enlightenment_philosophy__hegelian_dialectic",
+    "source": "enlightenment_philosophy",
+    "target": "hegelian_dialectic",
+    "type": "ENABLED",
+    "label": "Hegel emerged from and criticized the Enlightenment project",
+    "note": "Hegel was shaped by and responded to the Enlightenment: the French Revolution — Enlightenment reason applied to politics — produced the Terror, destabilizing Enlightenment optimism. Hegel's dialectical philosophy was an attempt to think through how rational history progresses not through smooth development but through catastrophic contradiction and reconciliation. He both inherited Enlightenment rationalism and transformed it into historical dialectics.",
+    "confidence": "high"
+  },
+  {
+    "id": "hegelian_dialectic__nietzschean_philosophy",
+    "source": "hegelian_dialectic",
+    "target": "nietzschean_philosophy",
+    "type": "ENABLED",
+    "label": "Nietzsche responded to and rejected Hegelian historical optimism",
+    "note": "Nietzsche was deeply aware of Hegel's philosophical dominance in 19th-century Germany and explicitly rejected the idea that history progresses dialectically toward rational freedom. His genealogical method (tracing ideas to the power drives producing them) inverted Hegel's idealist dialectic: instead of Spirit realizing itself through history, history is the record of competing drives to power. This inversion directly influenced 20th-century critical theory and postmodern philosophy.",
+    "confidence": "high"
+  },
+  {
+    "id": "hegelian_dialectic__frankfurt_school",
+    "source": "hegelian_dialectic",
+    "target": "frankfurt_school",
+    "type": "ENABLED",
+    "label": "Critical theory applied the Hegelian dialectic to culture and capitalism",
+    "note": "The Frankfurt School's critical theory program was explicitly Hegelian-Marxist: it used Hegel's dialectical method (immanent critique — measuring a system against its own ideals) to analyze how Enlightenment reason had inverted into domination, how capitalism produced false consciousness, and how mass culture foreclosed emancipatory possibilities. The School's signature move — dialectical reversal — was Hegelian in structure.",
+    "confidence": "high"
+  },
+  {
+    "id": "nietzschean_philosophy__existentialism",
+    "source": "nietzschean_philosophy",
+    "target": "existentialism",
+    "type": "ENABLED",
+    "label": "Nietzsche's death of God set the problem existentialism answered",
+    "note": "Nietzsche's declaration that God is dead — that the transcendent framework giving Western civilization its values had collapsed — set the central problem existentialism addressed: how do humans create meaning in a world without inherent purpose? Heidegger, Sartre, and Camus all began from this Nietzschean premise, developing different accounts of how authentic existence in the face of absurdity is possible.",
+    "confidence": "high"
+  },
+  {
+    "id": "nietzschean_philosophy__postmodernism_philosophy",
+    "source": "nietzschean_philosophy",
+    "target": "postmodernism_philosophy",
+    "type": "ENABLED",
+    "label": "Nietzsche's genealogical method directly influenced Foucault and Derrida",
+    "note": "Nietzsche was the single most important philosophical predecessor of French postmodernism. Foucault explicitly adopted Nietzsche's genealogical method, extending it to analyze how power produces knowledge. Derrida's deconstruction drew on Nietzsche's critique of Western metaphysics. Lyotard's skepticism toward grand narratives echoed Nietzsche's attack on systematic philosophy. Postmodernism was in many respects the French academic appropriation of Nietzschean critique.",
+    "confidence": "high"
+  },
+  {
+    "id": "nietzschean_philosophy__nazi_propaganda",
+    "source": "nietzschean_philosophy",
+    "target": "nazi_propaganda",
+    "type": "EXPLOITED",
+    "label": "Nazis grotesquely distorted Nietzsche to legitimize racial ideology",
+    "note": "After Nietzsche's death, his sister Elisabeth Förster-Nietzsche — an anti-Semite Nietzsche had explicitly denounced — controlled his archive and selectively edited his work to align it with German nationalism and later Nazism. The Nazis appropriated the Übermensch as Aryan racial superiority, the will to power as justification for conquest, and the master/slave morality distinction as validation of domination. This was a profound distortion of a thinker who was explicitly anti-nationalist and anti-anti-Semitic.",
+    "confidence": "high"
+  },
+  {
+    "id": "existentialism__postmodernism_philosophy",
+    "source": "existentialism",
+    "target": "postmodernism_philosophy",
+    "type": "ENABLED",
+    "label": "French existentialism directly preceded French postmodernism",
+    "note": "Sartre's existentialism — dominant in French intellectual life in the 1940s–50s — was the immediate philosophical predecessor of postmodernism. The same generation that had read Sartre turned to structuralism (Lévi-Strauss, Lacan) and then post-structuralism (Foucault, Derrida, Deleuze). Postmodernism inherited existentialism's rejection of essential human nature and master narratives while abandoning its commitment to individual freedom and responsibility as foundational.",
+    "confidence": "high"
+  },
+  {
+    "id": "frankfurt_school__postmodernism_philosophy",
+    "source": "frankfurt_school",
+    "target": "postmodernism_philosophy",
+    "type": "ENABLED",
+    "label": "Critical theory's critique of reason influenced postmodern thought",
+    "note": "The Frankfurt School's Dialectic of Enlightenment — the argument that Enlightenment rationality generates its own barbarism — was a key precursor to postmodern skepticism of Enlightenment grand narratives. Habermas (second generation Frankfurt School) directly engaged with and critiqued postmodernism, while Marcuse's analysis of how consumer capitalism produces one-dimensional thought influenced 1960s radicalism that fed into postmodern politics.",
+    "confidence": "medium"
+  },
+  {
+    "id": "frankfurt_school__manufactured_consent",
+    "source": "frankfurt_school",
+    "target": "manufactured_consent",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both analyze elite-controlled discourse limiting thinkable politics",
+    "note": "The Frankfurt School's analysis of the culture industry (Adorno and Horkheimer) and Herman and Chomsky's propaganda model (manufactured consent) converge on the same mechanism: mass media produced by concentrated corporate/state interests systematically limits the range of ideas and critiques available to citizens, producing a public that consents to its own domination while believing it is freely informed. The Frankfurt School produced the theoretical framework; manufactured consent identified the institutional structure.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_contract_theory__democratic_backsliding",
+    "source": "social_contract_theory",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "Social contract norms are what democratic backsliding violates",
+    "note": "Democratic backsliding — the gradual erosion of democratic institutions through emergency powers, press capture, and electoral manipulation — is, in social contract terms, a progressive violation of the founding compact: rulers acting against the consent of the governed while maintaining the forms of consent. Social contract theory provides the normative vocabulary (legitimacy, consent, right of revolution) through which democratic backsliding is recognized as illegitimate, not merely inconvenient.",
+    "confidence": "high"
+  },
+  {
+    "id": "kantian_ethics__moral_disengagement",
+    "source": "kantian_ethics",
+    "target": "moral_disengagement",
+    "type": "DISCREDITED",
+    "label": "Categorical imperative directly contradicts moral disengagement",
+    "note": "Moral disengagement operates by suspending the normal moral standards that would prohibit harming others — through dehumanization, diffusion of responsibility, euphemistic labeling. Kantian ethics provides the direct philosophical counter: the categorical imperative demands that we treat all persons as ends in themselves, never merely as means, regardless of authority, circumstances, or consequences. Every mechanism of moral disengagement is a violation of Kant's second formulation of the Categorical Imperative.",
+    "confidence": "high"
+  },
+  {
+    "id": "postmodernism_philosophy__broken_epistemology",
+    "source": "postmodernism_philosophy",
+    "target": "broken_epistemology",
+    "type": "ENABLED",
+    "label": "Weaponized relativism normalizes epistemic nihilism",
+    "note": "Postmodern philosophy's legitimately powerful insight — that all knowledge is situated, that truth claims reflect power relations — has been selectively appropriated by authoritarian movements to delegitimize empirical consensus: climate science, vaccine safety, election results. The structure is the same: 'who decides what's true?' Post-modern philosophy did not cause this weaponization, but its relativist epistemology provided the intellectual tools that manufactured doubt and authoritarian propaganda require.",
+    "confidence": "medium"
   }
 ]
