@@ -1384,5 +1384,176 @@
     "label": "Snowden confirmed mass surveillance was real",
     "note": "Government officials had publicly denied mass surveillance programs that Snowden's documents confirmed were real — adding another confirmed government lie to the accumulating record that produced broken epistemology in American public discourse.",
     "confidence": "medium"
+  },
+  {
+    "id": "berlin_conference_1884__king_leopold_congo",
+    "source": "berlin_conference_1884",
+    "target": "king_leopold_congo",
+    "type": "PRODUCED",
+    "label": "conference gave Leopold the Congo as property",
+    "note": "The Berlin Conference recognized Leopold II's International Association of the Congo as a legitimate sovereign entity, granting him personal ownership of the Congo Free State — a direct product of the colonial partition process that treated inhabited territory as property to be distributed.",
+    "confidence": "high"
+  },
+  {
+    "id": "king_leopold_congo__dehumanization",
+    "source": "king_leopold_congo",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "Congolese treated as labor machinery",
+    "note": "The Congo Free State's rubber quota system required treating Congolese people as interchangeable labor units — enforced through hostage-taking, severing hands as proof of bullet expenditure, and collective punishment. The system required and systematically deployed dehumanization.",
+    "confidence": "high"
+  },
+  {
+    "id": "king_leopold_congo__herero_nama_genocide",
+    "source": "king_leopold_congo",
+    "target": "herero_nama_genocide",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are colonial African atrocities with death camps",
+    "note": "Both the Congo Free State and German South West Africa used concentration camps, forced labor, systematic starvation, and mass killing against African populations — representing the same Berlin Conference colonial structure applied by different European powers.",
+    "confidence": "high"
+  },
+  {
+    "id": "berlin_conference_1884__herero_nama_genocide",
+    "source": "berlin_conference_1884",
+    "target": "herero_nama_genocide",
+    "type": "ENABLED",
+    "label": "conference gave Germany South West Africa",
+    "note": "The Berlin Conference's partition assigned South West Africa to Germany, creating the colonial administration that Lothar von Trotha commanded when he issued the Vernichtungsbefehl (extermination order) in 1904. The genocide was a direct product of Berlin Conference colonial authority.",
+    "confidence": "high"
+  },
+  {
+    "id": "herero_nama_genocide__armenian_genocide",
+    "source": "herero_nama_genocide",
+    "target": "armenian_genocide",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both use concentration camps and death marches",
+    "note": "Both the Herero/Nama genocide and the Armenian genocide used concentration camps, forced marches into desert conditions, deliberate starvation, and systematic killing — representing the first and second large-scale genocides of the 20th century with parallel structural features.",
+    "confidence": "medium"
+  },
+  {
+    "id": "herero_nama_genocide__the_holocaust",
+    "source": "herero_nama_genocide",
+    "target": "the_holocaust",
+    "type": "ENABLED",
+    "label": "colonial extermination created institutional precedent",
+    "note": "German officers who served in South West Africa brought concentration camp methodology back to Europe; some historians document direct institutional continuity. The Vernichtungsbefehl (extermination order) is often cited as the first modern instance of explicit state-ordered genocide.",
+    "confidence": "medium"
+  },
+  {
+    "id": "medieval_christian_antisemitism__first_crusade",
+    "source": "medieval_christian_antisemitism",
+    "target": "first_crusade",
+    "type": "ENABLED",
+    "label": "crusade preaching activated anti-Jewish violence",
+    "note": "The First Crusade's mobilization activated the dehumanizing 'enemies of Christ' logic of medieval Christian antisemitism — Crusaders reasoning that if they were marching to fight Christ's enemies in the Holy Land, why not kill them in the Rhineland first. The 1096 Rhineland Massacres killed thousands of Jews.",
+    "confidence": "high"
+  },
+  {
+    "id": "first_crusade__medieval_christian_antisemitism",
+    "source": "first_crusade",
+    "target": "medieval_christian_antisemitism",
+    "type": "NORMALIZED",
+    "label": "massacres normalized large-scale anti-Jewish violence",
+    "note": "The Rhineland Massacres of 1096 normalized organized mass killing of Jewish communities as a religious activity — establishing that Crusaders who killed Jews would face limited ecclesiastical consequence, deepening the violent potential of medieval antisemitism.",
+    "confidence": "high"
+  },
+  {
+    "id": "medieval_christian_antisemitism__spanish_inquisition",
+    "source": "medieval_christian_antisemitism",
+    "target": "spanish_inquisition",
+    "type": "PRODUCED",
+    "label": "theological infrastructure produced the Inquisition",
+    "note": "The Spanish Inquisition was produced by the same theological framework of collective Jewish guilt — focused specifically on conversos suspected of secretly continuing Jewish practice, requiring 1,000 years of accumulated antisemitic theological infrastructure to function.",
+    "confidence": "high"
+  },
+  {
+    "id": "spanish_inquisition__expulsion_of_jews_1492",
+    "source": "spanish_inquisition",
+    "target": "expulsion_of_jews_1492",
+    "type": "CAUSED",
+    "label": "Inquisition pressure produced the expulsion",
+    "note": "The Alhambra Decree was partly motivated by Inquisitors' difficulty distinguishing sincere conversos from secret Jews — expulsion was the proposed solution to the 'problem' the Inquisition had created by its own standards. The decree removed the ambiguity by removing the people.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_death__medieval_christian_antisemitism",
+    "source": "black_death",
+    "target": "medieval_christian_antisemitism",
+    "type": "ENABLED",
+    "label": "plague panic intensified Jewish scapegoating",
+    "note": "The Black Death's catastrophic death toll — killing 30–50% of Europe's population — produced the social panic that activated scapegoating through the existing antisemitic framework. Accusations of well-poisoning spread across Europe leading to mass burnings of Jewish communities.",
+    "confidence": "high"
+  },
+  {
+    "id": "protestant_reformation__thirty_years_war",
+    "source": "protestant_reformation",
+    "target": "thirty_years_war",
+    "type": "CAUSED",
+    "label": "religious division produced 30-year conflict",
+    "note": "The Thirty Years War began as a conflict between Catholic and Protestant forces in the Holy Roman Empire directly resulting from the Reformation's fragmentation of Christendom — specifically the Defenestration of Prague, in which Protestant nobles rejected Catholic Habsburg authority.",
+    "confidence": "high"
+  },
+  {
+    "id": "thirty_years_war__peace_of_westphalia",
+    "source": "thirty_years_war",
+    "target": "peace_of_westphalia",
+    "type": "PRODUCED",
+    "label": "war's devastation produced new order",
+    "note": "The Thirty Years War's catastrophic destruction — killing a third of the German population — produced Westphalia as the settlement mechanism. Exhaustion from religious warfare was the precondition for the treaty's revolutionary innovation: mutual recognition of sovereign religious authority.",
+    "confidence": "high"
+  },
+  {
+    "id": "thirty_years_war__dehumanization",
+    "source": "thirty_years_war",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "religious war required viewing opponents as damned",
+    "note": "The Thirty Years War's confessional logic required treating the opposing religious community as not merely wrong but spiritually contaminated — the theological dehumanization of the other confession enabled atrocities against civilian populations that ordinary warfare rules would have prevented.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ottoman_expansion_europe__fall_of_constantinople",
+    "source": "ottoman_expansion_europe",
+    "target": "fall_of_constantinople",
+    "type": "PRODUCED",
+    "label": "expansion produced the fall as its milestone",
+    "note": "The fall of Constantinople was not a random event but the logical product of two centuries of Ottoman westward expansion — Mehmed II's campaign was the culmination of a sustained strategic project that his predecessors had been pursuing since the early 1300s.",
+    "confidence": "high"
+  },
+  {
+    "id": "fall_of_constantinople__ottoman_expansion_europe",
+    "source": "fall_of_constantinople",
+    "target": "ottoman_expansion_europe",
+    "type": "ENABLED",
+    "label": "removing Byzantine buffer enabled further expansion",
+    "note": "Constantinople had functioned as the last major barrier to Ottoman expansion into Central Europe. Its fall removed the Byzantine Empire as a buffer state, enabling Ottoman expansion into Serbia, Bosnia, Albania, and Hungary — the path that would eventually reach Vienna.",
+    "confidence": "high"
+  },
+  {
+    "id": "mongol_conquests__fall_of_constantinople",
+    "source": "mongol_conquests",
+    "target": "fall_of_constantinople",
+    "type": "ENABLED",
+    "label": "Mongol destruction created Ottoman power vacuum",
+    "note": "Mongol destruction of the Seljuk Sultanate (1243) and the Abbasid Caliphate (1258) eliminated the major Islamic powers that might have checked Ottoman expansion. The Ottomans rose into the power vacuum Mongol destruction created, ultimately enabling their siege of Constantinople.",
+    "confidence": "medium"
+  },
+  {
+    "id": "mongol_conquests__ottoman_expansion_europe",
+    "source": "mongol_conquests",
+    "target": "ottoman_expansion_europe",
+    "type": "ENABLED",
+    "label": "Mongol vacuum enabled Ottoman state's rise",
+    "note": "The Ottoman state emerged from the Anatolian fragments of the Mongol-destroyed Seljuk Sultanate — the Mongol destruction of existing Islamic powers was the precondition that allowed a small Turkish principality to rise into the dominant regional power that would expand into Europe.",
+    "confidence": "medium"
+  },
+  {
+    "id": "peace_of_westphalia__protestant_reformation",
+    "source": "peace_of_westphalia",
+    "target": "protestant_reformation",
+    "type": "NORMALIZED",
+    "label": "permanently legitimized religious division",
+    "note": "The Peace of Westphalia's recognition of Calvinism as a legitimate Christian denomination permanently foreclosed the Catholic Habsburgs' project of religious reunification — confirming the Reformation's permanent fragmentation of Western Christendom as the new European baseline.",
+    "confidence": "high"
   }
 ]

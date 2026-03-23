@@ -841,5 +841,105 @@
     "summary": "Post-9/11 U.S. surveillance expansion, including the PATRIOT Act and NSA bulk collection programs revealed by Edward Snowden in 2013. Demonstrated that COINTELPRO's mass domestic surveillance of political dissidents had been rebuilt at digital scale, targeting populations based on religion, political activity, and association.",
     "decade": "2000s–2010s",
     "tags": ["government", "surveillance", "policy", "civil_rights", "history"]
+  },
+  {
+    "id": "king_leopold_congo",
+    "label": "King Leopold's Congo Free State",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Congo_Free_State",
+    "summary": "Leopold II of Belgium's personal colonial possession in the Congo from 1885–1908, in which a system of forced labor, hostage-taking, and mutilation extracted rubber from an enslaved population, killing an estimated 10 million people. The first modern atrocity exposed by an international human rights campaign.",
+    "decade": "1880s–1900s",
+    "tags": ["colonialism", "africa", "genocide", "history", "documented_atrocity"]
+  },
+  {
+    "id": "herero_nama_genocide",
+    "label": "Herero and Nama Genocide",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Herero_and_Nama_genocide",
+    "summary": "The 1904–1908 German Imperial extermination of the Herero and Nama peoples of South West Africa (modern Namibia), killing 65–80% of the Herero population. Often described as the first genocide of the 20th century; German officers who commanded it later held senior positions in WWI, and historians document direct institutional continuity with Holocaust methods.",
+    "decade": "1900s",
+    "tags": ["genocide", "colonialism", "africa", "history", "documented_atrocity"]
+  },
+  {
+    "id": "first_crusade",
+    "label": "First Crusade",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/First_Crusade",
+    "summary": "The 1096–1099 military campaign called by Pope Urban II that captured Jerusalem in 1099. En route through the Rhineland, Crusaders massacred Jewish communities in the Rhineland Massacres of 1096 — the first large-scale organized anti-Jewish violence in European history, establishing a template for subsequent pogroms.",
+    "decade": "1090s",
+    "tags": ["religion", "history", "medieval", "antisemitism", "violence"]
+  },
+  {
+    "id": "spanish_inquisition",
+    "label": "Spanish Inquisition",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spanish_Inquisition",
+    "summary": "The Catholic tribunal established in 1478 by Ferdinand and Isabella to enforce religious orthodoxy, targeting conversos (Jewish converts to Christianity) suspected of secretly practicing Judaism. Operated for 356 years, formalizing the apparatus of forced confession, torture, and execution as instruments of ideological enforcement.",
+    "decade": "1470s–1830s",
+    "tags": ["religion", "history", "medieval", "antisemitism", "persecution"]
+  },
+  {
+    "id": "expulsion_of_jews_1492",
+    "label": "Alhambra Decree / Expulsion of Jews from Spain",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alhambra_Decree",
+    "summary": "The 1492 royal decree expelling approximately 100,000–200,000 Jews from Spain who refused forced conversion. The largest forced migration of Jews before the 20th century, scattering Sephardic communities across the Ottoman Empire, North Africa, and the Netherlands — demonstrating that state-level ethnic cleansing was politically viable.",
+    "decade": "1490s",
+    "tags": ["antisemitism", "history", "medieval", "spain", "ethnic_cleansing"]
+  },
+  {
+    "id": "black_death",
+    "label": "Black Death",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Death",
+    "summary": "The 1346–1353 bubonic plague pandemic killing 30–50% of Europe's population. The catastrophic death toll produced intense social anxiety that the scapegoating mechanism channeled into unprecedented anti-Jewish persecution — the Rhineland Massacres of 1349 killed tens of thousands of Jews accused of well-poisoning.",
+    "decade": "1340s–1350s",
+    "tags": ["pandemic", "history", "medieval", "europe", "antisemitism"]
+  },
+  {
+    "id": "thirty_years_war",
+    "label": "Thirty Years War",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thirty_Years%27_War",
+    "summary": "The 1618–1648 conflict fought primarily in Central Europe between Catholic and Protestant powers that killed approximately 8 million people — up to a third of the German population — through combat, famine, and disease. The most destructive European war before the 20th century, ended by the Peace of Westphalia.",
+    "decade": "1610s–1640s",
+    "tags": ["war", "history", "europe", "religion", "reformation"]
+  },
+  {
+    "id": "peace_of_westphalia",
+    "label": "Peace of Westphalia",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peace_of_Westphalia",
+    "summary": "The 1648 treaty ending the Thirty Years War, establishing the principle of state sovereignty and the right of rulers to determine their territories' religion. Permanently legitimized the religious division of Europe that the Reformation had produced and established the modern international state system.",
+    "decade": "1640s",
+    "tags": ["diplomacy", "history", "europe", "religion", "sovereignty"]
+  },
+  {
+    "id": "fall_of_constantinople",
+    "label": "Fall of Constantinople",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+    "summary": "The May 29, 1453 Ottoman conquest of Constantinople under Mehmed II, ending the Byzantine Empire after 1,123 years. Removed the last major buffer between Ottoman expansion and Central Europe, enabling the westward push that would reach Vienna in 1683.",
+    "decade": "1450s",
+    "tags": ["military", "history", "ottoman", "byzantine", "europe"]
+  },
+  {
+    "id": "mongol_conquests",
+    "label": "Mongol Conquests",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mongol_conquests",
+    "summary": "The 13th-century military campaigns of the Mongol Empire under Genghis Khan and his successors, creating the largest contiguous land empire in history. The destruction of the Abbasid Caliphate (1258) and the Seljuk Sultanate created the power vacuum into which the Ottoman state expanded.",
+    "decade": "1200s–1300s",
+    "tags": ["military", "history", "mongols", "empire", "asia"]
   }
 ]
