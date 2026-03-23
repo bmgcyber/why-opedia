@@ -741,5 +741,105 @@
     "summary": "The July–November 1916 engagement on the Western Front in which the British Army suffered 57,471 casualties — including 19,240 dead — on the first day alone, with total casualties exceeding one million. The defining demonstration of industrial warfare consuming soldiers as mechanical material.",
     "decade": "1910s",
     "tags": ["war", "history", "wwi", "military", "atrocity"]
+  },
+  {
+    "id": "holodomor",
+    "label": "Holodomor",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Holodomor",
+    "summary": "The 1932–1933 Soviet engineered famine that killed 3.5–7.5 million Ukrainians. Produced by forced collectivization and grain requisition quotas enforced even as people starved, with Soviet authorities blocking emigration and concealing the famine from international observers.",
+    "decade": "1930s",
+    "tags": ["genocide", "soviet", "ukraine", "history", "documented_atrocity"]
+  },
+  {
+    "id": "stalinist_purges",
+    "label": "Stalinist Purges / Great Terror",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Purge",
+    "summary": "The 1936–1938 Soviet campaign of political repression that executed approximately 750,000 people and sent millions to the Gulag. Operated through show trials requiring victims to confess to fabricated crimes, destroying the Red Army officer corps and eliminating all potential political rivals.",
+    "decade": "1930s",
+    "tags": ["soviet", "history", "repression", "documented_atrocity", "politics"]
+  },
+  {
+    "id": "gulag_system",
+    "label": "Gulag System",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gulag",
+    "summary": "The Soviet network of forced labor camps operating from the 1920s through the 1950s, incarcerating an estimated 18 million people under conditions of deliberate brutality. Functioned simultaneously as political suppression, slave labor, and population control.",
+    "decade": "1920s–1950s",
+    "tags": ["soviet", "history", "incarceration", "repression", "documented_atrocity"]
+  },
+  {
+    "id": "great_leap_forward",
+    "label": "Great Leap Forward",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Leap_Forward",
+    "summary": "Mao Zedong's 1958–1962 campaign to rapidly industrialize China through collective farming and backyard steel production. Ideological rejection of agricultural science produced a famine killing 15–55 million people — the deadliest famine in history, caused by ideology overriding empirical reality.",
+    "decade": "1950s–1960s",
+    "tags": ["china", "history", "famine", "ideology", "documented_atrocity"]
+  },
+  {
+    "id": "chinese_cultural_revolution",
+    "label": "Chinese Cultural Revolution",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cultural_Revolution",
+    "summary": "Mao Zedong's 1966–1976 campaign to purge capitalism and traditional elements from Chinese society by mobilizing youth Red Guards to destroy cultural institutions, persecute intellectuals, and enforce ideological conformity. Killed 500,000–2 million and destroyed a generation of institutional knowledge.",
+    "decade": "1960s–1970s",
+    "tags": ["china", "history", "ideology", "repression", "documented_atrocity"]
+  },
+  {
+    "id": "khmer_rouge_genocide",
+    "label": "Khmer Rouge Genocide",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cambodian_genocide",
+    "summary": "The 1975–1979 Cambodian genocide in which the Khmer Rouge under Pol Pot killed approximately 1.5–2 million people — 25% of Cambodia's population. Driven by radical agrarian ideology that dehumanized urban residents, intellectuals, and ethnic minorities as class enemies requiring elimination.",
+    "decade": "1970s",
+    "tags": ["genocide", "cambodia", "history", "ideology", "documented_atrocity"]
+  },
+  {
+    "id": "iran_contra",
+    "label": "Iran-Contra Affair",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+    "summary": "The 1986–1987 revelation that the Reagan administration had secretly sold arms to Iran (under an arms embargo) and used proceeds to fund Nicaraguan Contras in defiance of Congressional prohibition. Confirmed that presidential administrations would conduct illegal covert foreign policy operations and lie to Congress about them.",
+    "decade": "1980s",
+    "tags": ["government", "history", "deception", "politics", "accountability"]
+  },
+  {
+    "id": "iraq_war_wmd",
+    "label": "Iraq War WMD Deception",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Iraq_and_weapons_of_mass_destruction",
+    "summary": "The 2002–2003 U.S. government presentation of fabricated and exaggerated intelligence about Iraqi weapons of mass destruction as justification for the Iraq War. Colin Powell's UN presentation used institutional credibility to launder cherry-picked and fabricated intelligence, producing a war that killed hundreds of thousands.",
+    "decade": "2000s",
+    "tags": ["government", "history", "deception", "war", "iraq"]
+  },
+  {
+    "id": "abu_ghraib",
+    "label": "Abu Ghraib",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse",
+    "summary": "The documented torture and abuse of Iraqi prisoners by U.S. military personnel at Abu Ghraib prison in 2003–2004. Photographs forced the program into public record; investigations confirmed systematic abuse authorized by command decisions that deliberately dehumanized detainees as enemy combatants outside legal protection.",
+    "decade": "2000s",
+    "tags": ["government", "torture", "history", "dehumanization", "documented_atrocity"]
+  },
+  {
+    "id": "patriot_act_surveillance",
+    "label": "PATRIOT Act / Mass Surveillance",
+    "node_type": "reference",
+    "category": "policy",
+    "wikipedia": "https://en.wikipedia.org/wiki/Patriot_Act",
+    "summary": "Post-9/11 U.S. surveillance expansion, including the PATRIOT Act and NSA bulk collection programs revealed by Edward Snowden in 2013. Demonstrated that COINTELPRO's mass domestic surveillance of political dissidents had been rebuilt at digital scale, targeting populations based on religion, political activity, and association.",
+    "decade": "2000s–2010s",
+    "tags": ["government", "surveillance", "policy", "civil_rights", "history"]
   }
 ]

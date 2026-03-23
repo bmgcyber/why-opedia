@@ -1213,5 +1213,176 @@
     "label": "both are defining industrial mass-casualty battles",
     "note": "Both engagements demonstrate the defining feature of 20th-century industrialized warfare: the subordination of individual human life to strategic attrition logic, producing casualties at scales that required treating soldiers as material to be consumed rather than people to be preserved.",
     "confidence": "medium"
+  },
+  {
+    "id": "scapegoating_mechanism__stalinist_purges",
+    "source": "scapegoating_mechanism",
+    "target": "stalinist_purges",
+    "type": "ENABLED",
+    "label": "enemies of the people framing enabled purges",
+    "note": "Stalin's purges operated entirely through scapegoating — 'wreckers,' 'saboteurs,' and 'enemies of the people' were the named villain categories into which Soviet anxieties about industrial failure and political instability were channeled, providing show trial justifications for eliminating rivals.",
+    "confidence": "high"
+  },
+  {
+    "id": "stalinist_purges__holodomor",
+    "source": "stalinist_purges",
+    "target": "holodomor",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both use state violence against Soviet populations",
+    "note": "Both the purges and the Holodomor are expressions of the same Stalinist pattern: using state machinery against Soviet civilian populations to advance ideological goals, concealing the scale from both domestic and international audiences.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__holodomor",
+    "source": "dehumanization",
+    "target": "holodomor",
+    "type": "ENABLED",
+    "label": "kulaks dehumanized as class enemies",
+    "note": "Soviet propaganda dehumanized Ukrainian farmers as 'kulaks' — exploitative class enemies sabotaging collectivization — a framing that allowed Soviet officials to enforce grain quotas on starving people as ideologically necessary class struggle rather than mass murder.",
+    "confidence": "high"
+  },
+  {
+    "id": "stalinist_purges__gulag_system",
+    "source": "stalinist_purges",
+    "target": "gulag_system",
+    "type": "PRODUCED",
+    "label": "purges filled the camps",
+    "note": "The Great Terror's mass arrests — over 1.5 million in 1937–1938 alone — dramatically expanded the Gulag population, integrating political repression and forced labor as a single system rather than parallel programs.",
+    "confidence": "high"
+  },
+  {
+    "id": "gulag_system__mass_incarceration",
+    "source": "gulag_system",
+    "target": "mass_incarceration",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are carceral systems built on racial targeting",
+    "note": "Both the Gulag and U.S. mass incarceration use nominally neutral legal processes to incarcerate populations targeted by political and racial criteria — producing economic benefit for the state while maintaining social control over politically inconvenient groups.",
+    "confidence": "medium"
+  },
+  {
+    "id": "great_leap_forward__manufactured_scientific_doubt",
+    "source": "great_leap_forward",
+    "target": "manufactured_scientific_doubt",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both suppress science for ideological goals",
+    "note": "Mao's Great Leap Forward enforced Lysenkoism — rejecting Mendelian genetics as bourgeois — while manufactured scientific doubt deploys industry-sponsored contrarians to suppress unwanted scientific consensus. Both represent the weaponization of institutional authority to override empirical reality.",
+    "confidence": "medium"
+  },
+  {
+    "id": "chinese_cultural_revolution__great_leap_forward",
+    "source": "chinese_cultural_revolution",
+    "target": "great_leap_forward",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both enforce ideology over empirical reality",
+    "note": "Both Maoist campaigns subordinated empirical reality to ideological requirements — the Great Leap forced agricultural pseudoscience, the Cultural Revolution destroyed the intellectual infrastructure needed to correct it. Both demonstrate how ideology-as-epistemology produces catastrophe.",
+    "confidence": "high"
+  },
+  {
+    "id": "khmer_rouge_genocide__dehumanization",
+    "source": "khmer_rouge_genocide",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "city dwellers labeled class enemies",
+    "note": "Khmer Rouge ideology required dehumanizing the 'new people' — urban residents, professionals, and intellectuals — as contaminated class enemies who must be 'cleansed' through forced agricultural labor or execution, using dehumanization to enable mass killing by ordinary cadres.",
+    "confidence": "high"
+  },
+  {
+    "id": "khmer_rouge_genocide__rwandan_genocide",
+    "source": "khmer_rouge_genocide",
+    "target": "rwandan_genocide",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both use ideology to produce mass killing",
+    "note": "Both genocides followed the same architecture: radical ideology identifying a contaminated population → dehumanizing propaganda → organized mass killing by ordinary people mobilized through ideology. Both are paradigm cases in genocide studies.",
+    "confidence": "medium"
+  },
+  {
+    "id": "iran_contra__broken_epistemology",
+    "source": "iran_contra",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "confirmed illegal presidential covert operations",
+    "note": "Iran-Contra confirmed the Pentagon Papers/Watergate/COINTELPRO pattern: a presidential administration had conducted illegal covert foreign policy operations and lied to Congress about them. Each successive confirmation deepened the rational basis for institutional distrust.",
+    "confidence": "high"
+  },
+  {
+    "id": "iran_contra__watergate",
+    "source": "iran_contra",
+    "target": "watergate",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both illegal presidential operations covered up",
+    "note": "Both Watergate and Iran-Contra involved presidential administrations conducting illegal operations, creating internal cover-up structures, and being exposed through investigative reporting and Congressional investigation — demonstrating the pattern's recurrence across administrations.",
+    "confidence": "high"
+  },
+  {
+    "id": "iraq_war_wmd__gulf_of_tonkin_incident",
+    "source": "iraq_war_wmd",
+    "target": "gulf_of_tonkin_incident",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both manufactured casus belli for war",
+    "note": "Both represent presidential administrations presenting fabricated or exaggerated intelligence to Congress and the public to obtain authorization for war — Gulf of Tonkin used false naval attacks, Iraq used fabricated WMD evidence. The structural deception pattern is identical.",
+    "confidence": "high"
+  },
+  {
+    "id": "iraq_war_wmd__institutional_credibility_laundering",
+    "source": "iraq_war_wmd",
+    "target": "institutional_credibility_laundering",
+    "type": "EXPLOITED",
+    "label": "Powell's UN speech laundered false intelligence",
+    "note": "Colin Powell's February 2003 UN Security Council presentation used his personal credibility, the UN's institutional authority, and carefully staged satellite imagery to present cherry-picked and fabricated intelligence as definitive proof — the most documented instance of institutional credibility laundering for military authorization.",
+    "confidence": "high"
+  },
+  {
+    "id": "iraq_war_wmd__broken_epistemology",
+    "source": "iraq_war_wmd",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "confirmed WMD case was fabricated",
+    "note": "The subsequent failure to find WMDs and the Chilcot and Senate Intelligence Committee reports confirming the intelligence was manipulated produced another layer of confirmed government deception — extending the broken epistemology produced by Watergate, Vietnam, and Iran-Contra.",
+    "confidence": "high"
+  },
+  {
+    "id": "iraq_war_wmd__pentagon_papers",
+    "source": "iraq_war_wmd",
+    "target": "pentagon_papers",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are documented government war deceptions",
+    "note": "Both represent presidentially authorized manipulation of intelligence and public information to justify wars that could not survive public scrutiny — Pentagon Papers documented Vietnam, Chilcot documented Iraq, both confirming systematic deception about military necessity.",
+    "confidence": "high"
+  },
+  {
+    "id": "iraq_war_wmd__abu_ghraib",
+    "source": "iraq_war_wmd",
+    "target": "abu_ghraib",
+    "type": "ENABLED",
+    "label": "war conditions and legal gray zone enabled torture",
+    "note": "The Iraq War's legal framework — including the 'enemy combatant' designation, enhanced interrogation memos, and outsourcing to private contractors — created the operational and legal environment in which Abu Ghraib's systematic abuse became possible.",
+    "confidence": "high"
+  },
+  {
+    "id": "abu_ghraib__dehumanization",
+    "source": "abu_ghraib",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "detainees classified as non-persons",
+    "note": "Abu Ghraib's torture program required classifying Iraqi detainees as outside legal and moral protection — 'enemy combatants' rather than prisoners of war, terrorist suspects rather than civilians. The dehumanization was explicit in the legal memos and operational framing.",
+    "confidence": "high"
+  },
+  {
+    "id": "patriot_act_surveillance__cointelpro",
+    "source": "patriot_act_surveillance",
+    "target": "cointelpro",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "mass domestic surveillance rebuilt at digital scale",
+    "note": "Snowden's 2013 disclosures confirmed that NSA bulk collection programs surveilled the communications of millions of Americans — reconstructing COINTELPRO's mass domestic surveillance program using digital infrastructure, with the same targeting of political and religious groups.",
+    "confidence": "high"
+  },
+  {
+    "id": "patriot_act_surveillance__broken_epistemology",
+    "source": "patriot_act_surveillance",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "Snowden confirmed mass surveillance was real",
+    "note": "Government officials had publicly denied mass surveillance programs that Snowden's documents confirmed were real — adding another confirmed government lie to the accumulating record that produced broken epistemology in American public discourse.",
+    "confidence": "medium"
   }
 ]
