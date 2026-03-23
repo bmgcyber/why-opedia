@@ -3346,5 +3346,176 @@
     "label": "Both independently developed impartial welfare maximization ethics",
     "note": "Mohism (5th century BCE China) and Utilitarianism (18th century Britain) independently converged on strikingly similar ethical structures: both rejected differential love/duty in favor of impartial concern, both evaluated actions by their social consequences (welfare produced), both criticized ritual and tradition that wasted resources, and both supported egalitarian social reform. The parallel is one of the most striking convergences in world philosophy — two traditions separated by two thousand years and half a world arriving at the same basic ethical framework.",
     "confidence": "high"
+  },
+  {
+    "id": "mosaic_covenant__davidic_monarchy",
+    "source": "mosaic_covenant",
+    "target": "davidic_monarchy",
+    "type": "ENABLED",
+    "label": "Covenantal identity made centralized monarchy theologically legible",
+    "note": "The Mosaic covenant framework of collective identity and divine obligation provided the theological basis for the Davidic monarchy: the king ruled as YHWH representative, his success or failure a covenant matter. Without the covenantal identity, the Temple-centered monarchy would lack its religious logic.",
+    "confidence": "high"
+  },
+  {
+    "id": "mosaic_covenant__jewish_diaspora",
+    "source": "mosaic_covenant",
+    "target": "jewish_diaspora",
+    "type": "ENABLED",
+    "label": "Portable covenantal identity made diaspora survival possible",
+    "note": "The covenant portable, text-based structure meant that Jewish identity could survive without land, Temple, or state — the covenant traveled with the community. Without this covenantal framework, diaspora would mean assimilation.",
+    "confidence": "high"
+  },
+  {
+    "id": "davidic_monarchy__babylonian_captivity",
+    "source": "davidic_monarchy",
+    "target": "babylonian_captivity",
+    "type": "ENABLED",
+    "label": "Temple-centralized monarchy created the target that Babylon destroyed",
+    "note": "The Davidic monarchy centralization of Israelite religion and politics in Jerusalem made the city the symbolic and strategic target of Babylonian conquest. The destruction of the First Temple (586 BCE) was both a political defeat and a theological crisis precisely because the monarchy had made the Temple the locus of divine presence.",
+    "confidence": "high"
+  },
+  {
+    "id": "babylonian_captivity__second_temple_period",
+    "source": "babylonian_captivity",
+    "target": "second_temple_period",
+    "type": "PRODUCED",
+    "label": "Return from exile produced the Second Temple as rebuilt center",
+    "note": "The Babylonian captivity ended with the Persian conquest of Babylon (539 BCE) and Cyrus edict permitting return. The returning exiles rebuilt the Temple, inaugurating the Second Temple period. The exile had also transformed Israelite religion — monotheism hardened, the Torah was compiled and canonized, and the synagogue emerged as a diaspora institution.",
+    "confidence": "high"
+  },
+  {
+    "id": "second_temple_period__jesus_of_nazareth",
+    "source": "second_temple_period",
+    "target": "jesus_of_nazareth",
+    "type": "ENABLED",
+    "label": "Sectarian ferment and messianic expectation produced the conditions for Jesus",
+    "note": "Jesus operated within the specific religious landscape of late Second Temple Judaism: messianic expectation intensified by Roman occupation, apocalyptic literature imagining imminent divine intervention, and competing Pharisaic, Essene, Zealot, and Sadducean movements. His movement is unintelligible outside this context.",
+    "confidence": "high"
+  },
+  {
+    "id": "second_temple_period__rabbinic_judaism",
+    "source": "second_temple_period",
+    "target": "rabbinic_judaism",
+    "type": "PRODUCED",
+    "label": "Destruction of Second Temple forced rabbinical reinvention of Judaism",
+    "note": "The Roman destruction of the Temple (70 CE) eliminated the sacrificial center of Second Temple Judaism. The Pharisaic movement, which had already developed synagogue worship and oral Torah, survived and reconstituted Judaism as a rabbinic, text-based religion. The catastrophe produced the Talmudic tradition.",
+    "confidence": "high"
+  },
+  {
+    "id": "jesus_of_nazareth__paul_of_tarsus",
+    "source": "jesus_of_nazareth",
+    "target": "paul_of_tarsus",
+    "type": "CAUSED",
+    "label": "Paul conversion experience was a direct response to the Jesus movement",
+    "note": "Paul (then Saul of Tarsus) was an active persecutor of early Christians before his reported road-to-Damascus conversion experience, which he understood as an encounter with the risen Jesus. His entire theological project was an attempt to interpret the significance of Jesus death and resurrection.",
+    "confidence": "high"
+  },
+  {
+    "id": "jesus_of_nazareth__rise_of_christianity",
+    "source": "jesus_of_nazareth",
+    "target": "rise_of_christianity",
+    "type": "PRODUCED",
+    "label": "Jesus teachings and reported resurrection founded the Christian movement",
+    "note": "The beliefs about Jesus — his divine identity, his death as atonement, his resurrection — are the defining content of Christian faith. His movement began within Judaism but the claim of his resurrection and divine status generated a new religious community.",
+    "confidence": "high"
+  },
+  {
+    "id": "paul_of_tarsus__rise_of_christianity",
+    "source": "paul_of_tarsus",
+    "target": "rise_of_christianity",
+    "type": "PRODUCED",
+    "label": "Paul theology and missions created Gentile Christianity",
+    "note": "Paul decision that Gentiles did not need to observe Jewish law to become Christians opened Christianity to the entire Roman world. His letters defined Christian theology before any gospel was written. He founded communities in Greece, Asia Minor, and Rome.",
+    "confidence": "high"
+  },
+  {
+    "id": "constantine_conversion__nicene_creed",
+    "source": "constantine_conversion",
+    "target": "nicene_creed",
+    "type": "PRODUCED",
+    "label": "Constantine convened the Council of Nicaea that produced the Creed",
+    "note": "Constantine called and presided over the Council of Nicaea (325 CE) as a political act: theological division threatened imperial unity. The Nicene Creed was the council output, enforced by imperial authority — the first time state power was used to mandate theological orthodoxy in Christianity.",
+    "confidence": "high"
+  },
+  {
+    "id": "constantine_conversion__rise_of_christianity",
+    "source": "constantine_conversion",
+    "target": "rise_of_christianity",
+    "type": "ENABLED",
+    "label": "Imperial patronage transformed Christianity from sect to state religion",
+    "note": "Constantine conversion gave Christianity access to state resources, ended persecution, and made imperial favor a driver of conversion. Within 70 years of Nicaea, Christianity was the official religion of Rome (Edict of Thessalonica, 380 CE).",
+    "confidence": "high"
+  },
+  {
+    "id": "nicene_creed__great_schism_1054",
+    "source": "nicene_creed",
+    "target": "great_schism_1054",
+    "type": "ENABLED",
+    "label": "Nicene authority disputes planted seeds of East-West schism",
+    "note": "The Nicene Creed and subsequent councils created competing claims to authoritative interpretation — claims that Rome and Constantinople would contest differently. The Filioque controversy (whether the Spirit proceeds from Father and Son, added by Western councils) was the immediate theological trigger of the 1054 schism.",
+    "confidence": "medium"
+  },
+  {
+    "id": "nicene_creed__rise_of_christianity",
+    "source": "nicene_creed",
+    "target": "rise_of_christianity",
+    "type": "PRODUCED",
+    "label": "Nicene orthodoxy defined what Christianity was and who was in or out",
+    "note": "The Creed produced a clear doctrinal boundary: Trinitarian Christianity vs heresy. This definition was essential for Christianity institutional growth — you cannot build a unified church without a defined doctrine.",
+    "confidence": "high"
+  },
+  {
+    "id": "augustine_of_hippo__rise_of_christianity",
+    "source": "augustine_of_hippo",
+    "target": "rise_of_christianity",
+    "type": "PRODUCED",
+    "label": "Augustine theology gave Western Christianity its definitive intellectual framework",
+    "note": "Augustine synthesis of Pauline theology with Neoplatonism produced the theological system that dominated Western Christianity for a millennium. His doctrines of original sin, grace, and predestination defined the theological questions that would drive every major subsequent controversy, including the Reformation.",
+    "confidence": "high"
+  },
+  {
+    "id": "augustine_of_hippo__scholasticism",
+    "source": "augustine_of_hippo",
+    "target": "scholasticism",
+    "type": "ENABLED",
+    "label": "Augustine established the faith-seeks-understanding method that scholasticism developed",
+    "note": "Augustine formula credo ut intelligam (I believe in order to understand) established the foundational method of medieval scholasticism: reason in service of faith. His use of Platonic philosophy to illuminate Christian doctrine modeled the integration of philosophy and theology that scholastic thinkers would systematize.",
+    "confidence": "high"
+  },
+  {
+    "id": "augustine_of_hippo__platonic_idealism",
+    "source": "augustine_of_hippo",
+    "target": "platonic_idealism",
+    "type": "ENABLED",
+    "label": "Augustine used Neoplatonism as the philosophical architecture of Christian theology",
+    "note": "Augustine Confessions describes his encounter with books of the Platonists as the philosophical breakthrough that made Christianity intellectually coherent to him. He read Plotinus and Porphyry, then Paul — and found that Neoplatonism account of the soul, evil as privation, and transcendent truth mapped onto Christian doctrine.",
+    "confidence": "high"
+  },
+  {
+    "id": "usury_prohibition__jewish_moneylending",
+    "source": "usury_prohibition",
+    "target": "jewish_moneylending",
+    "type": "CAUSED",
+    "label": "Church ban on Christian lending structurally assigned banking to Jews",
+    "note": "The Church prohibition on usury (systematized by the Third Lateran Council, 1179) barred Christians from the moneylending function. Jews, already excluded from guilds, land ownership, and most professions, filled the structural gap. Jewish moneylending was not a cultural preference but an economic niche created by Christian prohibition.",
+    "confidence": "high"
+  },
+  {
+    "id": "usury_prohibition__medieval_christian_antisemitism",
+    "source": "usury_prohibition",
+    "target": "medieval_christian_antisemitism",
+    "type": "ENABLED",
+    "label": "Christian usury prohibition created debtor resentment that fed antisemitism",
+    "note": "By structurally assigning Jews to the creditor role while excluding them from other economic roles, the usury prohibition created the conditions for economic antisemitism. Debtors resented Jewish creditors without understanding the structural logic; the Church simultaneous theological anti-Judaism amplified this into comprehensive hostility.",
+    "confidence": "high"
+  },
+  {
+    "id": "rabbinic_judaism__jewish_diaspora",
+    "source": "rabbinic_judaism",
+    "target": "jewish_diaspora",
+    "type": "ENABLED",
+    "label": "Rabbinic Judaism made diaspora theologically viable rather than catastrophic",
+    "note": "By replacing Temple sacrifice with prayer, Torah study, and ethical observance, rabbinic Judaism created a portable religious identity. Jews could maintain collective identity, practice, and community structure anywhere in the world. This innovation allowed the Jewish diaspora to persist as a coherent religious civilization rather than assimilating.",
+    "confidence": "high"
   }
 ]

@@ -2739,7 +2739,14 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Pre-Socratic_philosophy",
     "summary": "The earliest Greek philosophical tradition (c. 600–400 BCE), in which thinkers like Thales, Anaximander, Heraclitus, and Parmenides attempted to explain nature through rational principles rather than mythological narrative. For the first time in the Western tradition, systematic reasoning rather than divine authority was offered as the basis for understanding reality — establishing the foundational premise that the world can be understood by the human mind, independent of revelation.",
     "decade": "600s BCE",
-    "tags": ["philosophy", "greece", "ancient", "reason", "cosmology", "rationalism"]
+    "tags": [
+      "philosophy",
+      "greece",
+      "ancient",
+      "reason",
+      "cosmology",
+      "rationalism"
+    ]
   },
   {
     "id": "socrates",
@@ -2749,7 +2756,14 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Socrates",
     "summary": "Athenian philosopher regarded as the founder of Western moral philosophy. Socrates left no written works; his ideas survive through Plato's dialogues. He invented philosophical inquiry through relentless questioning — exposing contradictions in interlocutors' beliefs and claiming to be wise only in knowing that he knew nothing. He was tried and executed in 399 BCE for impiety and corrupting the youth of Athens, becoming the first martyr of philosophy and demonstrating that honest inquiry is a political threat to any society built on unexamined belief.",
     "decade": "400s BCE",
-    "tags": ["philosophy", "athens", "greece", "ancient", "ethics", "inquiry"]
+    "tags": [
+      "philosophy",
+      "athens",
+      "greece",
+      "ancient",
+      "ethics",
+      "inquiry"
+    ]
   },
   {
     "id": "socratic_method",
@@ -2758,7 +2772,14 @@
     "category": "mechanism",
     "summary": "A form of cooperative argumentative dialogue in which a questioner systematically dismantles an interlocutor's claimed knowledge by exposing its internal contradictions — producing aporia (the recognition of one's own ignorance) as the first step toward genuine understanding. As a mechanism, it formalizes epistemic humility: the idea that holding beliefs up to rigorous questioning is both the foundation of honest inquiry and a social threat to any system whose authority rests on unexamined premises. Every modern tradition of critical thinking — scientific peer review, adversarial legal systems, Socratic pedagogy — derives from this structure.",
     "decade": "400s BCE",
-    "tags": ["philosophy", "epistemology", "method", "dialogue", "inquiry", "critical-thinking"]
+    "tags": [
+      "philosophy",
+      "epistemology",
+      "method",
+      "dialogue",
+      "inquiry",
+      "critical-thinking"
+    ]
   },
   {
     "id": "plato",
@@ -2768,7 +2789,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Plato",
     "summary": "Athenian philosopher, student of Socrates and teacher of Aristotle, whose dialogues established the central problems of Western philosophy. Plato founded the Academy in Athens (c. 387 BCE), the first institution of higher learning in the Western world. His Theory of Forms — that material objects are imperfect copies of ideal, eternal, perfect Forms — shaped theology, mathematics, and political theory for two millennia. His Republic outlined a model of justice and the ideal state governed by philosopher-kings, launching the tradition of utopian political philosophy.",
     "decade": "400s BCE",
-    "tags": ["philosophy", "athens", "greece", "ancient", "idealism", "politics", "education"]
+    "tags": [
+      "philosophy",
+      "athens",
+      "greece",
+      "ancient",
+      "idealism",
+      "politics",
+      "education"
+    ]
   },
   {
     "id": "platonic_idealism",
@@ -2778,7 +2807,14 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Platonic_idealism",
     "summary": "Plato's metaphysical doctrine that the material world is a shadow or imperfect reflection of a higher realm of eternal, perfect, unchanging Forms. As an ideology, Platonic Idealism provided the philosophical infrastructure for Christian theology (Augustine identified the Forms with ideas in the mind of God), justified hierarchical governance by those with access to higher truth, and established the template for every idealist political project that subordinates material reality to a transcendent ideal — from medieval Christendom to modern totalitarianisms that claim to embody History or the Nation.",
     "decade": "300s BCE",
-    "tags": ["philosophy", "metaphysics", "idealism", "forms", "theology", "politics"]
+    "tags": [
+      "philosophy",
+      "metaphysics",
+      "idealism",
+      "forms",
+      "theology",
+      "politics"
+    ]
   },
   {
     "id": "aristotle",
@@ -2788,7 +2824,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Aristotle",
     "summary": "Greek philosopher and polymath, student of Plato and tutor of Alexander the Great. Aristotle's systematic writings on logic, biology, physics, metaphysics, ethics, politics, rhetoric, and poetics defined the boundaries of Western knowledge for nearly two thousand years. Where Plato sought the ideal, Aristotle studied the actual: he developed empirical methods of inquiry, taxonomic classification, and formal logic. His concept of the good life as eudaimonia — flourishing through virtuous activity — became the foundation of virtue ethics.",
     "decade": "300s BCE",
-    "tags": ["philosophy", "greece", "ancient", "logic", "ethics", "science", "empiricism"]
+    "tags": [
+      "philosophy",
+      "greece",
+      "ancient",
+      "logic",
+      "ethics",
+      "science",
+      "empiricism"
+    ]
   },
   {
     "id": "aristotelian_logic",
@@ -2797,7 +2841,14 @@
     "category": "mechanism",
     "summary": "Aristotle's system of formal deductive reasoning, centered on the syllogism: a three-part argument in which a conclusion follows necessarily from two premises. For over two thousand years, Aristotelian logic was the sole formal theory of valid inference in the West. As a mechanism, it represents the foundational technology of structured argument — codifying the rules by which claims can be shown to follow necessarily from other claims, and providing the framework within which virtually all subsequent Western philosophy, theology, law, and science was conducted.",
     "decade": "300s BCE",
-    "tags": ["philosophy", "logic", "reasoning", "deduction", "argument", "formalism"]
+    "tags": [
+      "philosophy",
+      "logic",
+      "reasoning",
+      "deduction",
+      "argument",
+      "formalism"
+    ]
   },
   {
     "id": "stoicism",
@@ -2807,7 +2858,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Stoicism",
     "summary": "Greek philosophical school founded by Zeno of Citium c. 300 BCE, which taught that virtue alone constitutes the good life, that external events are indifferent, and that emotional suffering arises from false judgments about what is within our control. In its Roman form (Epictetus, Seneca, Marcus Aurelius), Stoicism became the dominant philosophy of the Roman ruling class. Its influence shaped Christian ethics, the concept of natural law that grounded Roman and international law, and contemporary cognitive-behavioral therapy.",
     "decade": "300s BCE",
-    "tags": ["philosophy", "greece", "rome", "ethics", "virtue", "self-control", "natural-law"]
+    "tags": [
+      "philosophy",
+      "greece",
+      "rome",
+      "ethics",
+      "virtue",
+      "self-control",
+      "natural-law"
+    ]
   },
   {
     "id": "epicureanism",
@@ -2817,7 +2876,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Epicureanism",
     "summary": "Greek philosophical school founded by Epicurus c. 307 BCE, which taught that the highest good is pleasure — specifically the absence of pain and anxiety, not sensory indulgence. Epicurus advocated withdrawal from public life into communities of friendship, atomic materialism (the soul dissolves at death, no divine providence), and living simply. Epicurean ethics provided an alternative to both Platonic idealism and Stoic duty, prioritizing individual flourishing, and influenced Enlightenment materialism, liberalism, and secular humanism.",
     "decade": "300s BCE",
-    "tags": ["philosophy", "greece", "ethics", "materialism", "pleasure", "secularism", "friendship"]
+    "tags": [
+      "philosophy",
+      "greece",
+      "ethics",
+      "materialism",
+      "pleasure",
+      "secularism",
+      "friendship"
+    ]
   },
   {
     "id": "hellenistic_philosophy",
@@ -2827,7 +2894,14 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Hellenistic_philosophy",
     "summary": "The diverse philosophical movements of the Hellenistic period (c. 323–31 BCE) following Alexander the Great's conquests, including Stoicism, Epicureanism, Skepticism, and Cynicism. Hellenistic philosophy shifted the focus from cosmology and politics to individual ethics — how to live well in a world of uncertainty. The period also saw the first synthesis of Greek philosophy with Persian, Egyptian, and Jewish traditions, preparing the intellectual ground for Neoplatonism, rabbinic Judaism, and the emergence of Christianity.",
     "decade": "300s BCE",
-    "tags": ["philosophy", "greece", "hellenism", "ethics", "syncretism", "cosmopolitanism"]
+    "tags": [
+      "philosophy",
+      "greece",
+      "hellenism",
+      "ethics",
+      "syncretism",
+      "cosmopolitanism"
+    ]
   },
   {
     "id": "scholasticism",
@@ -2837,7 +2911,14 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Scholasticism",
     "summary": "The dominant intellectual tradition of medieval Europe (11th–15th century), which applied Aristotelian logic and method to Christian theology. Thomas Aquinas, its greatest practitioner, synthesized Aristotle with Christianity to produce a comprehensive philosophical theology (Summa Theologica). Scholasticism built the great medieval universities, invented rigorous academic disputation, and made systematic rational argument the standard of theological truth — while insisting that reason and revelation ultimately harmonize.",
     "decade": "1100s",
-    "tags": ["philosophy", "medieval", "theology", "christianity", "aristotle", "university"]
+    "tags": [
+      "philosophy",
+      "medieval",
+      "theology",
+      "christianity",
+      "aristotle",
+      "university"
+    ]
   },
   {
     "id": "enlightenment_philosophy",
@@ -2847,7 +2928,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Age_of_Enlightenment",
     "summary": "The 17th–18th century intellectual movement that applied human reason to politics, society, religion, and nature — displacing divine authority as the primary justification for social arrangements. Locke's natural rights, Hume's empiricism, Voltaire's anticlerical skepticism, Rousseau's general will, and Kant's critical philosophy collectively established the philosophical foundation for liberal democracy, human rights, the scientific method as arbiter of truth, and the idea that individuals are ends in themselves rather than instruments of church or state.",
     "decade": "1700s",
-    "tags": ["philosophy", "reason", "rights", "liberalism", "secularism", "democracy", "science"]
+    "tags": [
+      "philosophy",
+      "reason",
+      "rights",
+      "liberalism",
+      "secularism",
+      "democracy",
+      "science"
+    ]
   },
   {
     "id": "social_contract_theory",
@@ -2856,7 +2945,14 @@
     "category": "mechanism",
     "summary": "The foundational mechanism of modern political legitimacy: the idea that government derives its just powers from the consent of the governed, who surrender certain natural freedoms in exchange for the protection of a civil order. Hobbes, Locke, and Rousseau produced different versions with radically different implications — absolute sovereignty vs. limited government vs. popular democracy. As a mechanism, social contract theory is both the standard by which democratic legitimacy is judged and the framework within which democratic backsliding, authoritarianism, and revolution are understood.",
     "decade": "1600s",
-    "tags": ["philosophy", "politics", "legitimacy", "consent", "democracy", "liberalism"]
+    "tags": [
+      "philosophy",
+      "politics",
+      "legitimacy",
+      "consent",
+      "democracy",
+      "liberalism"
+    ]
   },
   {
     "id": "kantian_ethics",
@@ -2866,7 +2962,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Kantian_ethics",
     "summary": "Immanuel Kant's system of deontological ethics, centered on the Categorical Imperative: act only according to maxims you could will to be universal laws, and always treat persons as ends in themselves, never merely as means. Kant grounded morality entirely in reason rather than consequences or sentiment — producing an account of moral duty that is absolute, universal, and independent of inclination. Kantian ethics became the philosophical foundation of human rights law, humanitarian ethics, and the concept of human dignity.",
     "decade": "1700s",
-    "tags": ["philosophy", "ethics", "deontology", "rights", "duty", "dignity", "reason"]
+    "tags": [
+      "philosophy",
+      "ethics",
+      "deontology",
+      "rights",
+      "duty",
+      "dignity",
+      "reason"
+    ]
   },
   {
     "id": "utilitarianism",
@@ -2876,7 +2980,14 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Utilitarianism",
     "summary": "The ethical doctrine that the right action is the one that produces the greatest happiness for the greatest number, developed by Jeremy Bentham and John Stuart Mill. Utilitarianism was the first systematic attempt to derive morality from measurable outcomes rather than divine command or rational duty. It drove Victorian social reform, shaped modern welfare economics and cost-benefit analysis, and provided the philosophical framework for both progressive policy and its critique — that utilitarian calculations can justify harming minorities for majority benefit.",
     "decade": "1800s",
-    "tags": ["philosophy", "ethics", "consequentialism", "welfare", "reform", "policy"]
+    "tags": [
+      "philosophy",
+      "ethics",
+      "consequentialism",
+      "welfare",
+      "reform",
+      "policy"
+    ]
   },
   {
     "id": "hegelian_dialectic",
@@ -2885,7 +2996,15 @@
     "category": "mechanism",
     "summary": "Hegel's account of how thought, history, and reality develop through contradiction: every idea (thesis) generates its opposite (antithesis), and the tension between them resolves into a higher synthesis that preserves elements of both while transcending their opposition. As a mechanism, the dialectic provides a framework for understanding historical change as internally driven contradiction rather than external accident — a framework Marx inverted into material dialectics, producing the most consequential political philosophy of the 20th century.",
     "decade": "1800s",
-    "tags": ["philosophy", "dialectic", "history", "contradiction", "synthesis", "idealism", "marxism"]
+    "tags": [
+      "philosophy",
+      "dialectic",
+      "history",
+      "contradiction",
+      "synthesis",
+      "idealism",
+      "marxism"
+    ]
   },
   {
     "id": "existentialism",
@@ -2895,7 +3014,14 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Existentialism",
     "summary": "The 20th-century philosophical movement (Sartre, Heidegger, Camus, de Beauvoir) that placed individual existence, freedom, and authenticity at the center of philosophy. Confronting a world without inherent meaning after the death of God, existentialism insisted that humans are condemned to create their own meaning and are fully responsible for their choices. Existentialism shaped post-war literature, psychotherapy, and the 1960s cultural revolution — and directly preceded postmodernism through its critique of essential human nature and master narratives.",
     "decade": "1940s",
-    "tags": ["philosophy", "freedom", "authenticity", "meaning", "absurdism", "responsibility"]
+    "tags": [
+      "philosophy",
+      "freedom",
+      "authenticity",
+      "meaning",
+      "absurdism",
+      "responsibility"
+    ]
   },
   {
     "id": "nietzschean_philosophy",
@@ -2905,7 +3031,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Philosophy_of_Friedrich_Nietzsche",
     "summary": "Friedrich Nietzsche's body of thought (1870s–1880s): the critique of slave morality, the will to power, the Übermensch as an ideal of self-overcoming, and the declaration that God is dead — the collapse of the transcendent framework that gave Western civilization its values. Nietzsche's genealogical method (tracing ideas back to the psychological drives producing them) directly influenced existentialism, postmodernism, and Foucault. His thought was grotesquely distorted by Nazi appropriation, which he anticipated and despised.",
     "decade": "1880s",
-    "tags": ["philosophy", "power", "morality", "nihilism", "individualism", "genealogy", "critique"]
+    "tags": [
+      "philosophy",
+      "power",
+      "morality",
+      "nihilism",
+      "individualism",
+      "genealogy",
+      "critique"
+    ]
   },
   {
     "id": "frankfurt_school",
@@ -2915,7 +3049,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Frankfurt_School",
     "summary": "The Institute for Social Research at Frankfurt (1923–), associated with Adorno, Horkheimer, Marcuse, and Habermas. Its critical theory program applied Hegelian-Marxist analysis to culture, media, and fascism — producing landmark works: Dialectic of Enlightenment (how Enlightenment reason generates its own barbarism), Authoritarian Personality (psychological roots of fascism), and One-Dimensional Man (how consumer culture forecloses radical thought). Forced into exile by Nazism, the School's analysis of how culture and reason serve domination shaped media studies, sociology, and political philosophy.",
     "decade": "1930s",
-    "tags": ["philosophy", "critical-theory", "marxism", "media", "fascism", "culture", "domination"]
+    "tags": [
+      "philosophy",
+      "critical-theory",
+      "marxism",
+      "media",
+      "fascism",
+      "culture",
+      "domination"
+    ]
   },
   {
     "id": "postmodernism_philosophy",
@@ -2925,7 +3067,14 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Postmodern_philosophy",
     "summary": "A late 20th-century philosophical movement (Foucault, Derrida, Lyotard, Baudrillard) characterized by skepticism toward grand narratives, rejection of objective foundations, deconstruction of texts and power structures, and the claim that knowledge and truth are always situated in power relations. Postmodern philosophy produced invaluable tools for exposing how institutions naturalize power — but its relativist epistemology has also been weaponized by authoritarian movements to delegitimize empirical consensus, making it simultaneously a critique of domination and a vector for manufactured doubt.",
     "decade": "1960s",
-    "tags": ["philosophy", "deconstruction", "power", "relativism", "postmodernism", "epistemology"]
+    "tags": [
+      "philosophy",
+      "deconstruction",
+      "power",
+      "relativism",
+      "postmodernism",
+      "epistemology"
+    ]
   },
   {
     "id": "vedic_tradition",
@@ -2935,7 +3084,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Vedic_period",
     "summary": "The foundational religious and philosophical tradition of the Indian subcontinent (c. 1500–500 BCE), centered on the Vedas — collections of hymns, ritual instructions, and philosophical speculation composed in Sanskrit. The Vedic tradition established the conceptual vocabulary of Indian thought: dharma (cosmic order and duty), rita (natural law), karma (action and consequence), Brahman (ultimate reality), and the Atman (individual self). The later Vedic period produced the Upanishads, the Bhagavad Gita, and the systematic philosophical schools that defined all subsequent South Asian thought.",
     "decade": "1500s BCE",
-    "tags": ["philosophy", "india", "religion", "vedas", "dharma", "ancient", "hinduism"]
+    "tags": [
+      "philosophy",
+      "india",
+      "religion",
+      "vedas",
+      "dharma",
+      "ancient",
+      "hinduism"
+    ]
   },
   {
     "id": "upanishadic_philosophy",
@@ -2945,7 +3102,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Upanishads",
     "summary": "The philosophical texts (c. 800–200 BCE) that form the concluding layer of the Vedas, investigating the ultimate nature of reality: Brahman (the absolute, impersonal ground of all being) and Atman (the individual self). The Upanishads' central claim — tat tvam asi, 'that art thou,' identifying individual self with ultimate reality — became the foundation of Indian idealism. They also developed the doctrines of karma and rebirth in their mature philosophical forms, and established the concepts that the Buddha would both inherit and critique.",
     "decade": "700s BCE",
-    "tags": ["philosophy", "india", "vedanta", "brahman", "atman", "consciousness", "meditation"]
+    "tags": [
+      "philosophy",
+      "india",
+      "vedanta",
+      "brahman",
+      "atman",
+      "consciousness",
+      "meditation"
+    ]
   },
   {
     "id": "jainism",
@@ -2955,7 +3120,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Jainism",
     "summary": "An ancient Indian religious and philosophical tradition, its classical form systematized by Mahavira (c. 599–527 BCE), contemporaneous with the Buddha. Jainism's central doctrines are ahimsa (non-violence toward all living beings), anekantavada (the many-sidedness of truth — no single perspective captures reality fully), and ascetic self-discipline. Jainism made non-violence its absolute ethical principle, influencing Gandhi and providing one of the most rigorous philosophical analyses of how violence operates within systems of thought.",
     "decade": "500s BCE",
-    "tags": ["philosophy", "india", "nonviolence", "asceticism", "ethics", "ancient", "jain"]
+    "tags": [
+      "philosophy",
+      "india",
+      "nonviolence",
+      "asceticism",
+      "ethics",
+      "ancient",
+      "jain"
+    ]
   },
   {
     "id": "gautama_buddha",
@@ -2965,7 +3138,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Gautama_Buddha",
     "summary": "Siddhartha Gautama, the founder of Buddhism, born into an aristocratic family in what is now Nepal. His awakening (c. 528 BCE) under the Bodhi tree produced the Four Noble Truths and the Eightfold Path — the diagnosis that suffering arises from craving and ignorance, and the prescription of disciplined ethical and meditative practice as the path to liberation. The Buddha rejected both extreme asceticism and sensory indulgence, offered liberation to all regardless of caste, and created a monastic community (Sangha) that became one of the most globally influential institutions in history.",
     "decade": "500s BCE",
-    "tags": ["philosophy", "india", "buddhism", "meditation", "liberation", "ancient", "ethics"]
+    "tags": [
+      "philosophy",
+      "india",
+      "buddhism",
+      "meditation",
+      "liberation",
+      "ancient",
+      "ethics"
+    ]
   },
   {
     "id": "buddhist_philosophy",
@@ -2975,7 +3156,16 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Buddhist_philosophy",
     "summary": "The broad philosophical tradition emerging from the Buddha's teachings, developing over two thousand years across India, Southeast Asia, China, Japan, and Tibet. Its foundational claims — the Four Noble Truths, Eightfold Path, dependent origination, impermanence (anicca), no-self (anatta), and emptiness (sunyata) — constitute a systematic critique of the assumptions underlying ordinary human suffering. Buddhist philosophy contains one of history's most sustained traditions of analysis of mind, ethics, and epistemology, and its spread shaped the entire intellectual history of Asia.",
     "decade": "500s BCE",
-    "tags": ["philosophy", "buddhism", "india", "asia", "mind", "ethics", "liberation", "impermanence"]
+    "tags": [
+      "philosophy",
+      "buddhism",
+      "india",
+      "asia",
+      "mind",
+      "ethics",
+      "liberation",
+      "impermanence"
+    ]
   },
   {
     "id": "dependent_origination",
@@ -2984,7 +3174,14 @@
     "category": "mechanism",
     "summary": "The Buddhist doctrine of pratītyasamutpāda: all phenomena arise in dependence upon conditions — nothing exists independently, permanently, or with inherent essence. Every event, state, or entity is the product of a web of prior causes and conditions; remove those conditions and it ceases. As a mechanism, dependent origination represents one of the most radical accounts of causation in philosophical history: not linear cause-effect chains but mutual co-arising, where causes and conditions are themselves conditioned by their effects. It undermines both the idea of a first uncaused cause and any fixed, essential identity.",
     "decade": "500s BCE",
-    "tags": ["philosophy", "buddhism", "causation", "interdependence", "mechanism", "emptiness"]
+    "tags": [
+      "philosophy",
+      "buddhism",
+      "causation",
+      "interdependence",
+      "mechanism",
+      "emptiness"
+    ]
   },
   {
     "id": "karma_doctrine",
@@ -2993,7 +3190,15 @@
     "category": "mechanism",
     "summary": "The principle of moral causation: intentional actions (karma) produce consequences that shape future experience, either in this life or future lives. Originating in the Vedas, karma was systematically developed in the Upanishads and then transformed by Buddhism (which de-emphasized rebirth in favor of moment-to-moment causation) and Jainism (which emphasized the weight of accumulated past actions). As a mechanism, karma functions as a system for distributing moral responsibility — but has also functioned historically as a legitimizing ideology: framing social hierarchy as the deserved result of past-life merit, thereby naturalizing structural inequality.",
     "decade": "1500s BCE",
-    "tags": ["philosophy", "india", "causation", "ethics", "rebirth", "caste", "consequence"]
+    "tags": [
+      "philosophy",
+      "india",
+      "causation",
+      "ethics",
+      "rebirth",
+      "caste",
+      "consequence"
+    ]
   },
   {
     "id": "advaita_vedanta",
@@ -3003,7 +3208,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Advaita_Vedanta",
     "summary": "The non-dualist school of Hindu philosophy, systematized by Adi Shankara (8th century CE), which holds that Brahman (ultimate reality) alone is real, that individual Atman is identical to Brahman, and that the apparent world of multiplicity is maya (illusion or appearance). Advaita Vedanta is one of the most rigorous philosophical defenses of monism in world philosophy: its argument that the appearance of separateness is a cognitive error, and that liberation consists in recognizing one's identity with the absolute, has parallels with both Platonic idealism and Buddhist emptiness doctrine.",
     "decade": "700s",
-    "tags": ["philosophy", "india", "hinduism", "non-dualism", "brahman", "liberation", "idealism"]
+    "tags": [
+      "philosophy",
+      "india",
+      "hinduism",
+      "non-dualism",
+      "brahman",
+      "liberation",
+      "idealism"
+    ]
   },
   {
     "id": "bhagavad_gita",
@@ -3013,7 +3226,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Bhagavad_Gita",
     "summary": "A Sanskrit philosophical poem (c. 200 BCE – 200 CE) embedded in the Mahabharata, in which the god Krishna counsels the warrior Arjuna on the eve of battle. The Gita synthesizes three philosophical paths: karma yoga (action without attachment to results), bhakti yoga (devotional surrender), and jnana yoga (knowledge of one's true nature). It became the central philosophical text of Hinduism, Gandhi's most important spiritual guide (he carried it everywhere), and the locus of ongoing debate about whether it endorses or undermines the caste system, violence in duty, and spiritual detachment from social consequences.",
     "decade": "200s BCE",
-    "tags": ["philosophy", "india", "hinduism", "dharma", "karma", "devotion", "sacred-text"]
+    "tags": [
+      "philosophy",
+      "india",
+      "hinduism",
+      "dharma",
+      "karma",
+      "devotion",
+      "sacred-text"
+    ]
   },
   {
     "id": "ahimsa_principle",
@@ -3022,7 +3243,15 @@
     "category": "mechanism",
     "summary": "The principle of ahimsa (non-harm) — the commitment to not causing suffering to any living being — codified as a central ethical and political tool in Jain, Buddhist, and Hindu traditions. As a mechanism, ahimsa is not passive: in Gandhi's formulation (satyagraha — truth-force), it is an active political strategy in which voluntary suffering exposes the violence of the oppressor and generates moral pressure for change. The mechanism has three dimensions: ethical (non-violence as intrinsically right), tactical (non-violence as effective), and philosophical (violence corrupts the practitioner as much as the target).",
     "decade": "500s BCE",
-    "tags": ["philosophy", "india", "nonviolence", "ethics", "gandhi", "resistance", "strategy"]
+    "tags": [
+      "philosophy",
+      "india",
+      "nonviolence",
+      "ethics",
+      "gandhi",
+      "resistance",
+      "strategy"
+    ]
   },
   {
     "id": "laozi",
@@ -3032,7 +3261,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Laozi",
     "summary": "The legendary or semi-historical figure credited with founding Taoism and authoring the Tao Te Ching, one of the most translated and read texts in world history. Whether or not Laozi was a single historical individual, the Tao Te Ching he is attributed to represents a systematic philosophy of effortless action, the limits of conceptual knowledge, the dangers of aggressive governance, and the power of yielding. Its paradoxical style (the Tao that can be spoken is not the eternal Tao) deliberately resists systematic formulation, pointing to a reality beyond rational categories.",
     "decade": "500s BCE",
-    "tags": ["philosophy", "china", "taoism", "ancient", "tao", "wisdom", "paradox"]
+    "tags": [
+      "philosophy",
+      "china",
+      "taoism",
+      "ancient",
+      "tao",
+      "wisdom",
+      "paradox"
+    ]
   },
   {
     "id": "taoism",
@@ -3042,7 +3279,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Taoism",
     "summary": "The Chinese philosophical and religious tradition centered on the Tao (Way) — the ineffable principle underlying reality that cannot be fully captured in language or concept. Associated with Laozi and Zhuangzi (philosophical Taoism) and later with religious Taoism (ritual, alchemy, immortality). Taoism's central insights — that forced action creates resistance, that yielding often overpowers force, that the universe maintains itself through natural order rather than human control — provide a systematic counterpoint to Confucian social activism and Legalist state power.",
     "decade": "400s BCE",
-    "tags": ["philosophy", "china", "tao", "nature", "non-action", "paradox", "spirituality"]
+    "tags": [
+      "philosophy",
+      "china",
+      "tao",
+      "nature",
+      "non-action",
+      "paradox",
+      "spirituality"
+    ]
   },
   {
     "id": "confucius",
@@ -3052,7 +3297,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Confucius",
     "summary": "Kong Qiu (Confucius), the Chinese philosopher whose teachings shaped East Asian civilization for two thousand years. Confucius taught that social harmony arises not from law or force but from the cultivation of virtue (ren — humaneness), the performance of ritual propriety (li), and the rectification of names (zhengming — calling things by their proper terms). He emphasized education, self-cultivation, and the obligations of each person within a web of hierarchical relationships. His model of the junzi (superior person) whose ethical example transforms society became the template for Chinese governance and education.",
     "decade": "500s BCE",
-    "tags": ["philosophy", "china", "ancient", "ethics", "ritual", "governance", "education"]
+    "tags": [
+      "philosophy",
+      "china",
+      "ancient",
+      "ethics",
+      "ritual",
+      "governance",
+      "education"
+    ]
   },
   {
     "id": "confucianism",
@@ -3062,7 +3315,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Confucianism",
     "summary": "The philosophical and ethical tradition derived from Confucius' teachings, developed over centuries by Mencius (human nature is inherently good), Xunzi (human nature requires ritual to be shaped), Dong Zhongshu (who made Confucianism China's official state ideology in the Han dynasty), and Zhu Xi (Neo-Confucian synthesis with Buddhist and Taoist elements). Confucianism shaped Chinese governance, education, family structure, and social ethics for two millennia — and through China's cultural influence, much of Korea, Japan, and Vietnam as well.",
     "decade": "400s BCE",
-    "tags": ["philosophy", "china", "ethics", "governance", "family", "education", "ritual"]
+    "tags": [
+      "philosophy",
+      "china",
+      "ethics",
+      "governance",
+      "family",
+      "education",
+      "ritual"
+    ]
   },
   {
     "id": "legalism_chinese",
@@ -3072,7 +3333,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Legalism_(Chinese_philosophy)",
     "summary": "The Chinese philosophical school (Shang Yang, Han Fei, Li Si; 3rd century BCE) that rejected both Confucian virtue and Taoist non-action as inadequate bases for political order. Legalism argued that human nature is self-interested and that order requires clear laws, strict rewards and punishments, and concentrated state power. It was the philosophy that unified China under Qin Shi Huang (221 BCE) — with devastating efficiency and oppressive thoroughness. Legalism's legacy is double: it produced the Chinese state, and it has been the recurring template for authoritarian governance in East Asia.",
     "decade": "300s BCE",
-    "tags": ["philosophy", "china", "law", "state", "authoritarianism", "qin", "power"]
+    "tags": [
+      "philosophy",
+      "china",
+      "law",
+      "state",
+      "authoritarianism",
+      "qin",
+      "power"
+    ]
   },
   {
     "id": "wu_wei",
@@ -3081,7 +3350,15 @@
     "category": "mechanism",
     "summary": "The Taoist principle of wu wei — literally 'non-action' or 'effortless action' — which holds that the most effective way to achieve results is often to act in alignment with the natural flow of things rather than forcing outcomes through willpower. As a mechanism, wu wei describes how systems maintain themselves when not over-controlled: rigid intervention creates resistance; yielding adapts. The principle has applications in governance (the best ruler is barely noticed), ecology (working with natural systems rather than against them), and systems thinking (allowing emergent order rather than imposing top-down control).",
     "decade": "400s BCE",
-    "tags": ["philosophy", "china", "taoism", "mechanism", "governance", "nature", "systems"]
+    "tags": [
+      "philosophy",
+      "china",
+      "taoism",
+      "mechanism",
+      "governance",
+      "nature",
+      "systems"
+    ]
   },
   {
     "id": "mohism",
@@ -3091,7 +3368,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Mohism",
     "summary": "The Chinese philosophical school founded by Mozi (c. 470–391 BCE), which taught jian ai — universal, impartial love for all people equally, regardless of family relationship. Mohism was explicitly anti-war, anti-ritualism, and egalitarian: offensive wars are unjust, elaborate rituals waste resources that could feed the hungry, and social position should reflect merit rather than birth. It developed a utilitarian ethics, a logic of argumentation, and a proto-scientific approach to mechanics and optics. Mohism was the strongest early Chinese challenge to Confucian differential love and aristocratic hierarchy, but declined after the Qin unification.",
     "decade": "400s BCE",
-    "tags": ["philosophy", "china", "ethics", "equality", "antiwar", "logic", "universal-love"]
+    "tags": [
+      "philosophy",
+      "china",
+      "ethics",
+      "equality",
+      "antiwar",
+      "logic",
+      "universal-love"
+    ]
   },
   {
     "id": "chan_zen_buddhism",
@@ -3101,7 +3386,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Chan_Buddhism",
     "summary": "The East Asian Buddhist tradition (Chan in Chinese, Zen in Japanese) that synthesized Indian Buddhist meditation with Chinese Taoist sensibility, emerging in Tang Dynasty China (6th–8th century CE). Chan Buddhism emphasized direct experiential awakening over scriptural study, transmission of insight from teacher to student outside texts, and the use of paradoxical questions (koan) to break through conceptual thinking. As a synthesis of Buddhist emptiness doctrine with Taoist non-action, Chan/Zen produced a distinctive approach to mind, art, aesthetics, and daily life practice that profoundly shaped East Asian culture.",
     "decade": "600s",
-    "tags": ["philosophy", "buddhism", "china", "japan", "meditation", "taoism", "awakening"]
+    "tags": [
+      "philosophy",
+      "buddhism",
+      "china",
+      "japan",
+      "meditation",
+      "taoism",
+      "awakening"
+    ]
   },
   {
     "id": "confucian_social_order",
@@ -3110,7 +3403,15 @@
     "category": "mechanism",
     "summary": "The Confucian framework of hierarchical social relationships (the wu lun — five relationships: ruler-minister, parent-child, husband-wife, elder-younger, friend-friend) as the mechanism for social harmony. Each relationship entails specific reciprocal obligations: rulers must be benevolent, ministers loyal; parents nurturing, children filial. As a mechanism, Confucian social order operates by making hierarchy morally obligatory rather than merely imposed — each person fulfills their role out of genuine virtue. This structure has been both a framework for benevolent governance and an extraordinarily durable tool for legitimizing authoritarian political control and patriarchal family structures.",
     "decade": "400s BCE",
-    "tags": ["philosophy", "china", "hierarchy", "family", "governance", "ritual", "deference"]
+    "tags": [
+      "philosophy",
+      "china",
+      "hierarchy",
+      "family",
+      "governance",
+      "ritual",
+      "deference"
+    ]
   },
   {
     "id": "buddhist_spread_east_asia",
@@ -3120,6 +3421,190 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Spread_of_Buddhism",
     "summary": "The transmission of Buddhism along the Silk Road into China (1st–2nd century CE), then Korea (4th century), Japan (6th century), and Vietnam — one of the most consequential cultural transformations in Asian history. Buddhism arrived in China not as a foreign imposition but through traders and missionaries, where it underwent a profound synthesis with existing Chinese thought: Taoist concepts provided the vocabulary for translating Buddhist terms, while Confucian ethics shaped how Buddhist monasticism was adapted to Chinese social structures, producing the distinctly Chinese tradition of Chan Buddhism.",
     "decade": "100s",
-    "tags": ["buddhism", "china", "japan", "silk-road", "cultural-transmission", "synthesis"]
+    "tags": [
+      "buddhism",
+      "china",
+      "japan",
+      "silk-road",
+      "cultural-transmission",
+      "synthesis"
+    ]
+  },
+  {
+    "id": "mosaic_covenant",
+    "label": "Mosaic Covenant",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The covenantal framework established at Sinai: a binding agreement between YHWH and Israel that conferred collective identity, legal obligation, and a theological account of history in which national success and catastrophe are consequences of fidelity or betrayal. The covenant structure — obedience in exchange for protection and land — became the interpretive lens through which the Hebrew Bible reads every subsequent event, from conquest to exile. It is the foundational mechanism by which a set of Semitic tribes was transformed into a self-understanding as a covenanted people, making collective identity inseparable from religious obligation.",
+    "decade": "1200s BCE",
+    "tags": [
+      "judaism",
+      "covenant",
+      "torah",
+      "identity",
+      "monotheism",
+      "mechanism"
+    ]
+  },
+  {
+    "id": "davidic_monarchy",
+    "label": "Davidic Monarchy and United Kingdom of Israel",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(united_monarchy)",
+    "summary": "The united monarchy under Saul, David (c.1000 BCE), and Solomon, culminating in the construction of the First Temple in Jerusalem. David's reign established Jerusalem as the political and religious capital; Solomon's Temple became the centralizing institution of Israelite religion, replacing distributed local shrines with a single sacrificial center. The political unity was short-lived — the kingdom split after Solomon into Israel (north) and Judah (south) — but the memory of Davidic unity and the Temple became permanent theological reference points, and the promise of a future Davidic king (messiah) shaped Jewish and Christian eschatology for millennia.",
+    "decade": "1000s BCE",
+    "tags": [
+      "judaism",
+      "israel",
+      "temple",
+      "jerusalem",
+      "david",
+      "solomon",
+      "monarchy"
+    ]
+  },
+  {
+    "id": "second_temple_period",
+    "label": "Second Temple Period",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Second_Temple_period",
+    "summary": "The 600-year period (516 BCE–70 CE) following the return from Babylonian exile, during which the Second Temple stood in Jerusalem. This era saw explosive religious diversification: Pharisees, Sadducees, Essenes, and Zealots each offered competing answers to what Judaism required under foreign domination — first Persian, then Greek (Hellenistic), then Roman. The Maccabean revolt against Hellenization, the emergence of apocalyptic literature, and the ministry of Jesus of Nazareth all occur within this period. Its violent end — the Roman destruction of Jerusalem in 70 CE and again in 135 CE — forced Judaism to reinvent itself without a Temple.",
+    "decade": "500s BCE",
+    "tags": [
+      "judaism",
+      "temple",
+      "pharisees",
+      "sadducees",
+      "rome",
+      "sectarianism",
+      "apocalyptic"
+    ]
+  },
+  {
+    "id": "rabbinic_judaism",
+    "label": "Rabbinic Judaism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rabbinic_Judaism",
+    "summary": "The form of Judaism that emerged after the destruction of the Second Temple (70 CE), developed by the Pharisaic movement under the leadership of rabbis. With sacrifice impossible, rabbinic Judaism substituted prayer, Torah study, and ethical observance as the primary religious acts. The rabbis compiled the Mishnah (c.200 CE) and Talmud (c.500 CE), creating a portable, text-based religion that could survive and maintain coherent identity without a homeland. Rabbinic Judaism is the ancestor of all modern forms of Judaism — Orthodox, Conservative, Reform — and its invention of diaspora religion as normative rather than catastrophic was one of the most consequential acts of religious reconstitution in history.",
+    "decade": "100s",
+    "tags": [
+      "judaism",
+      "talmud",
+      "mishnah",
+      "diaspora",
+      "rabbis",
+      "torah",
+      "reconstruction"
+    ]
+  },
+  {
+    "id": "jesus_of_nazareth",
+    "label": "Jesus of Nazareth",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jesus",
+    "summary": "Jewish preacher and healer from Galilee (c.4 BCE–30 CE) whose teachings, execution by Roman crucifixion, and the subsequent belief in his resurrection became the founding events of Christianity. Jesus operated within the Jewish sectarian landscape of the Second Temple period, preaching the imminent Kingdom of God, critiquing religious hypocrisy, and emphasizing radical ethics of love and forgiveness. His followers' claim that he was the long-awaited Messiah (Christ) and had risen from the dead produced the first Christian communities within Judaism; his deification and the subsequent Gentile mission transformed a Jewish renewal movement into a distinct world religion.",
+    "decade": "1s",
+    "tags": [
+      "christianity",
+      "judaism",
+      "messiah",
+      "crucifixion",
+      "resurrection",
+      "galileo",
+      "person"
+    ]
+  },
+  {
+    "id": "paul_of_tarsus",
+    "label": "Paul of Tarsus",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paul_the_Apostle",
+    "summary": "Jewish-Roman citizen (c.5–67 CE) who, after a dramatic conversion experience, became Christianity's most consequential theologian and missionary. Paul's letters (c.50–60 CE) — the earliest Christian writings — developed the theological framework that defined Christianity: justification by faith rather than works, the universality of salvation beyond Jewish law, and the cosmic significance of Christ's death and resurrection. His three missionary journeys established Christian communities throughout the Roman Mediterranean. More than any other figure, Paul transformed Jesus' Jewish renewal movement into a universal religion aimed at Gentiles, deciding crucial early disputes about whether non-Jews needed to observe Mosaic law (his answer: no).",
+    "decade": "50s",
+    "tags": [
+      "christianity",
+      "theology",
+      "missions",
+      "epistles",
+      "faith",
+      "gentiles",
+      "person"
+    ]
+  },
+  {
+    "id": "constantine_conversion",
+    "label": "Constantine's Conversion and the Edict of Milan",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Edict_of_Milan",
+    "summary": "Emperor Constantine I's reported conversion to Christianity (c.312 CE) and the subsequent Edict of Milan (313 CE), which granted religious tolerance throughout the Roman Empire and ended the persecution of Christians. Constantine's patronage transformed Christianity from a persecuted minority religion into an imperially favored faith within a generation. He convened the Council of Nicaea (325 CE), built the Church of the Holy Sepulchre, and relocated the imperial capital to Constantinople (modern Istanbul). His reign marks the pivot from Christianity as counter-cultural sect to Christianity as state religion — a transformation with profound consequences for church authority, religious coercion, and the entanglement of political and spiritual power.",
+    "decade": "310s",
+    "tags": [
+      "christianity",
+      "rome",
+      "empire",
+      "toleration",
+      "state-religion",
+      "constantine",
+      "edict"
+    ]
+  },
+  {
+    "id": "nicene_creed",
+    "label": "Council of Nicaea and Nicene Creed",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/First_Council_of_Nicaea",
+    "summary": "The first ecumenical council of Christianity, convened by Emperor Constantine in 325 CE to resolve the Arian controversy — the dispute over whether Christ was co-eternal with God or a created being (as Arius argued). The council produced the Nicene Creed, establishing Trinitarian orthodoxy and declaring Arianism heretical. The Council of Nicaea established the precedent of imperial involvement in theological disputes, created the machinery of orthodoxy enforcement, and generated a model of authoritative creedal Christianity that defined who was in and who was out. It also set the pattern for subsequent church councils and the eventual codification of the biblical canon.",
+    "decade": "320s",
+    "tags": [
+      "christianity",
+      "orthodoxy",
+      "trinity",
+      "arianism",
+      "creed",
+      "heresy",
+      "council"
+    ]
+  },
+  {
+    "id": "augustine_of_hippo",
+    "label": "Augustine of Hippo",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Augustine_of_Hippo",
+    "summary": "Bishop and theologian (354–430 CE) whose synthesis of Christian doctrine with Neoplatonic philosophy made him the single most influential thinker in Western Christianity. His Confessions pioneered introspective autobiography and psychological self-analysis; his City of God reframed the fall of Rome as theologically irrelevant to the eternal city. Augustine's doctrines — original sin, predestination, just war theory, and the necessity of divine grace — shaped both Catholic and Protestant theology for over a millennium. His interpretation of Paul's letters defined what faith and sin meant for Western Christianity, and his polemic against Pelagius established that human moral effort is insufficient without divine grace — a debate that would explode again in the Reformation.",
+    "decade": "390s",
+    "tags": [
+      "christianity",
+      "theology",
+      "philosophy",
+      "neoplatonism",
+      "sin",
+      "grace",
+      "person"
+    ]
+  },
+  {
+    "id": "usury_prohibition",
+    "label": "Christian Usury Prohibition",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The medieval Catholic Church's prohibition on Christians charging interest on loans (usury), derived from biblical passages and systematized in canon law from the Third Lateran Council (1179) onward. Because Christians were barred from moneylending and banking functions, Jewish communities — who were simultaneously excluded from land ownership, guilds, and most professions — could fill the structural gap. This created the economic niche of the Jewish moneylender: not a choice but a structural assignment. The prohibition then made Jews visible as creditors in a debtor-resentment culture, fueling economic antisemitism that portrayed Jewish moneylending as predatory rather than structurally assigned. The prohibition is the overlooked mechanism behind one of history's most persistent antisemitic stereotypes.",
+    "decade": "1100s",
+    "tags": [
+      "antisemitism",
+      "economics",
+      "usury",
+      "banking",
+      "canon-law",
+      "mechanism",
+      "structural"
+    ]
   }
 ]
