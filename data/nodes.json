@@ -4664,5 +4664,185 @@
       "germany",
       "person"
     ]
+  },
+  {
+    "id": "muhammad_ibn_abdallah",
+    "label": "Muhammad ibn Abdallah (the Prophet)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Muhammad",
+    "summary": "Arabian merchant and religious leader (c.570–632 CE) whose reported revelations, compiled as the Quran, and whose life (Sunnah) founded Islam — the world's second-largest religion and one of its fastest-growing. Muhammad began receiving revelations in the cave of Hira around 610 CE; his preaching of monotheism in polytheistic Mecca led to persecution, the Hijra (migration to Medina, 622 CE — Year 1 of the Islamic calendar), and ultimately the unification of the Arabian Peninsula under Islam. His political and military leadership at Medina established the first Islamic state, integrating religious law (sharia) with governance. After his death in 632 CE, disagreement over succession produced the Sunni-Shia split that has structured Islamic history ever since. The Quran's status as the direct word of God (not merely inspired by God) gives Islamic theology a different relationship to scripture than Christianity or Judaism.",
+    "decade": "610s",
+    "tags": [
+      "islam",
+      "religion",
+      "arabia",
+      "prophet",
+      "quran",
+      "monotheism",
+      "person"
+    ]
+  },
+  {
+    "id": "saladin",
+    "label": "Saladin (Salah ad-Din)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saladin",
+    "summary": "Kurdish Muslim military leader (c.1137–1193) who unified the Ayyubid dynasty across Egypt and Syria and recaptured Jerusalem from the Crusaders in 1187 CE — ending 88 years of Christian control. His victory at the Battle of Hattin destroyed the Crusader army; Jerusalem fell without a massacre, in deliberate contrast to the First Crusade's slaughter of 1099. Saladin became a figure of admiration in both Muslim and Christian traditions for his chivalry — releasing prisoners, allowing safe passage, and treating the defeated Richard I with courtesy. He is the symbol of Islamic resistance to Crusader colonialism and the model of the warrior who combines military effectiveness with personal honor. He remains one of the most significant figures in Arab and Islamic political memory, invoked by successive generations of Arab leaders.",
+    "decade": "1180s",
+    "tags": [
+      "islam",
+      "crusades",
+      "arab",
+      "jerusalem",
+      "kurdish",
+      "military",
+      "person"
+    ]
+  },
+  {
+    "id": "genghis_khan",
+    "label": "Genghis Khan",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Genghis_Khan",
+    "summary": "Mongolian conqueror (c.1162–1227) who unified the Mongol tribes and built the largest contiguous land empire in history, stretching from the Pacific to Eastern Europe. His military innovations — disciplined cavalry, sophisticated siege warfare, psychological terror, and meritocratic command structure — made the Mongol army the most effective military force of the 13th century. The Mongol conquests killed an estimated 40 million people (perhaps 10% of the world's population), destroyed cities that had existed for centuries (including Baghdad in 1258, ending the Abbasid Caliphate), and caused demographic collapses in Iran, Central Asia, and China. The Pax Mongolica — the enforced peace within the empire after conquest — facilitated the Silk Road trade that connected East and West, accelerating cultural and commercial exchange. His legacy is genuinely dual: unprecedented destruction and unprecedented connectivity.",
+    "decade": "1200s",
+    "tags": [
+      "mongolia",
+      "conquest",
+      "empire",
+      "silk-road",
+      "destruction",
+      "cavalry",
+      "person"
+    ]
+  },
+  {
+    "id": "theodor_herzl",
+    "label": "Theodor Herzl",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Theodor_Herzl",
+    "summary": "Austro-Hungarian journalist (1860–1904) who founded modern political Zionism and is considered the father of the State of Israel. Herzl covered the Dreyfus Affair (1894) for a Viennese newspaper and was radicalized by the antisemitism he witnessed in France — supposedly the most enlightened country in Europe. His pamphlet Der Judenstaat (The Jewish State, 1896) argued that antisemitism is permanent wherever Jews are a minority, and that the only solution is a Jewish homeland. He organized the First Zionist Congress (1897) in Basel, establishing the World Zionist Organization and declaring its aim as a publicly recognized, legally secured homeland for the Jewish people in Palestine. He died at 44 without seeing the state he conceptualized; it was established 44 years after his death. His vision was secular and political, not religious — a fact often lost in contemporary debates.",
+    "decade": "1890s",
+    "tags": [
+      "zionism",
+      "israel",
+      "judaism",
+      "antisemitism",
+      "nationalism",
+      "austria",
+      "person"
+    ]
+  },
+  {
+    "id": "gamal_nasser",
+    "label": "Gamal Abdel Nasser",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gamal_Abdel_Nasser",
+    "summary": "Egyptian military officer and President (1918–1970) who led the 1952 revolution that ended the Egyptian monarchy and became the most charismatic Arab nationalist leader of the 20th century. His nationalization of the Suez Canal (1956) — which triggered the failed British-French-Israeli military response — made him a symbol of Arab self-determination against Western colonialism. His pan-Arabism briefly united Egypt and Syria (United Arab Republic, 1958–1961). He was the dominant figure in the Arab world until the catastrophic defeat of the Six-Day War (1967), in which Israel destroyed the Egyptian air force in three hours and occupied Sinai, Gaza, the West Bank, and the Golan Heights. The defeat destroyed Nasserism as an ideology. His death in 1970 produced one of the largest public mourning events in history: millions attended his funeral or lined the streets in Arab countries.",
+    "decade": "1950s",
+    "tags": [
+      "egypt",
+      "arab-nationalism",
+      "pan-arabism",
+      "suez",
+      "colonialism",
+      "middle-east",
+      "person"
+    ]
+  },
+  {
+    "id": "ayatollah_khomeini",
+    "label": "Ayatollah Ruhollah Khomeini",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ruhollah_Khomeini",
+    "summary": "Iranian Shia cleric and revolutionary leader (1902–1989) who developed the doctrine of velayat-e faqih (guardianship of the Islamic jurist) — the theological argument that Islamic jurisprudence gives clerics the right and duty to govern directly — and led the 1979 Iranian Revolution that overthrew the Shah and established the Islamic Republic of Iran. Khomeini spent 15 years in exile (in Iraq, then Paris) broadcasting his revolutionary theology via cassette tapes smuggled into Iran — an early demonstration that decentralized media can defeat state control of information. His revolution was not exclusively Islamist at its start: secular nationalists and leftists joined the uprising against the Shah, but Khomeini outmaneuvered them after the Shah fell. The Islamic Republic he founded has governed Iran for over four decades, making him the most consequential religious-political leader of the 20th century.",
+    "decade": "1970s",
+    "tags": [
+      "iran",
+      "islam",
+      "revolution",
+      "shia",
+      "clerical-rule",
+      "khomeini",
+      "person"
+    ]
+  },
+  {
+    "id": "osama_bin_laden",
+    "label": "Osama bin Laden",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Osama_bin_Laden",
+    "summary": "Saudi Arabian militant (1957–2011) who founded al-Qaeda and directed the September 11, 2001 attacks on the United States — the most consequential act of political violence of the 21st century. Bin Laden came from a wealthy Saudi construction family, was radicalized by the Soviet invasion of Afghanistan (1979), and built his jihadist network from the Arab Afghans recruited by the CIA-backed mujahedeen. His ideology combined Wahhabist theology, anti-colonial resentment of US military presence in Saudi Arabia (after Gulf War I), and the strategic calculation that striking the \"far enemy\" (US) was more effective than attacking corrupt Muslim regimes. The September 11 attacks killed approximately 3,000 people and triggered the US invasions of Afghanistan and Iraq, the War on Terror, and the surveillance state — consequences that exceeded bin Laden stated strategic goals but that he correctly anticipated would overextend American power.",
+    "decade": "1990s",
+    "tags": [
+      "al-qaeda",
+      "terrorism",
+      "september-11",
+      "islamism",
+      "saudi-arabia",
+      "jihad",
+      "person"
+    ]
+  },
+  {
+    "id": "charles_darwin",
+    "label": "Charles Darwin",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Charles_Darwin",
+    "summary": "English naturalist (1809–1882) whose On the Origin of Species (1859) established the theory of evolution by natural selection — the scientific framework that explains the diversity of life on Earth without reference to divine creation. Darwin five-year voyage on HMS Beagle (1831–1836) and subsequent decades of careful observation produced the evidence; his delayed publication (he sat on the theory for 20 years) reflects both his meticulous standards and his awareness that the implications would be culturally explosive. Natural selection — that heritable variation combined with differential reproduction over time produces adaptation — was the missing mechanism for the evolution that others had suspected. Darwin himself never applied natural selection to social policy; Social Darwinists did, misusing his framework to justify racial hierarchy, imperialism, and eugenics. The scientific theory is one of the most robust in the history of science; its social misapplication is one of the most consequential misreadings.",
+    "decade": "1850s",
+    "tags": [
+      "science",
+      "evolution",
+      "biology",
+      "natural-selection",
+      "britain",
+      "enlightenment",
+      "person"
+    ]
+  },
+  {
+    "id": "sigmund_freud",
+    "label": "Sigmund Freud",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sigmund_Freud",
+    "summary": "Austrian neurologist (1856–1939) who founded psychoanalysis — the theory that unconscious mental processes drive behavior, that early childhood experiences shape adult psychology, and that psychological symptoms are meaningful expressions of repressed conflict rather than random neural events. Freud concepts — the unconscious, repression, the Oedipus complex, id/ego/superego, defense mechanisms — entered the general culture so thoroughly that they shape how educated people in the West think about themselves. His scientific status is contested: many specific Freudian claims are not falsifiable by empirical evidence, and his case studies (Dora, Wolf Man, Little Hans) are now read as more revealing about Freud than about his patients. His influence on art, literature, and cultural analysis was enormous; the Frankfurt School combined Marx and Freud to analyze the psychological dimensions of capitalist ideology.",
+    "decade": "1900s",
+    "tags": [
+      "psychology",
+      "psychoanalysis",
+      "unconscious",
+      "vienna",
+      "mind",
+      "science",
+      "person"
+    ]
+  },
+  {
+    "id": "stanley_milgram",
+    "label": "Stanley Milgram",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stanley_Milgram",
+    "summary": "American social psychologist (1933–1984) whose obedience experiments (1961–1963) produced the most important empirical finding in the history of social psychology: that ordinary Americans would administer what they believed were potentially lethal electric shocks to innocent strangers when instructed by an authority figure. Approximately 65% of participants in Milgram original study delivered the maximum 450-volt shock despite the victim's apparent agony. Milgram designed the experiments specifically to understand how ordinary Germans had participated in the Holocaust, asking whether something cultural or situational explained Nazi perpetration. His answer — that situational authority, not character, is the primary determinant — was deeply disturbing and has been confirmed by replications in multiple countries. The experiments raised major ethical questions about psychological research methodology and have not been replicated at full intensity since.",
+    "decade": "1960s",
+    "tags": [
+      "psychology",
+      "obedience",
+      "authority",
+      "experiment",
+      "holocaust",
+      "social-science",
+      "person"
+    ]
   }
 ]

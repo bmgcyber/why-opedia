@@ -4660,5 +4660,194 @@
     "label": "Arendt banality of evil analyzed moral disengagement as the mechanism of ordinary perpetration",
     "note": "Eichmann in Jerusalem demonstrated that the Holocaust most efficient administrator was not a psychopath but someone who had ceased to think morally — who had suspended judgment in favor of career, following orders, and identifying with a movement. This was not Bandura mechanical framework but Arendt philosophical analysis of the same phenomenon: ordinary people committing atrocity through thoughtlessness.",
     "confidence": "high"
+  },
+  {
+    "id": "muhammad_ibn_abdallah__rise_of_islam",
+    "source": "muhammad_ibn_abdallah",
+    "target": "rise_of_islam",
+    "type": "PRODUCED",
+    "label": "Muhammad founded Islam through his revelations, community-building, and political leadership",
+    "note": "Muhammad role in founding Islam was complete: he received and transmitted the revelations that became the Quran, built the first Muslim community at Medina, established the political and legal framework of the Islamic state, and unified the Arabian Peninsula under Islam before his death. Without Muhammad there is no Islam; his is the most consequential individual founding of a religious tradition in history.",
+    "confidence": "high"
+  },
+  {
+    "id": "muhammad_ibn_abdallah__sunni_shia_split",
+    "source": "muhammad_ibn_abdallah",
+    "target": "sunni_shia_split",
+    "type": "ENABLED",
+    "label": "Muhammad death without designating a clear successor created the succession crisis that produced the Sunni-Shia split",
+    "note": "Muhammad died without leaving unambiguous instructions for succession. Those who became Sunnis accepted Abu Bakr as the first Caliph; those who became Shia believed Ali ibn Abi Talib (Muhammad cousin and son-in-law) had been designated successor. The dispute over legitimate authority produced the major schism in Islam that persists after 1,400 years.",
+    "confidence": "high"
+  },
+  {
+    "id": "muhammad_ibn_abdallah__arab_conquests",
+    "source": "muhammad_ibn_abdallah",
+    "target": "arab_conquests",
+    "type": "PRODUCED",
+    "label": "Muhammad unified Arabia and established the military-religious framework of early Islamic expansion",
+    "note": "The Arab conquests that followed Muhammad death were made possible by his unification of the Arabian Peninsula under Islam and the military, theological, and administrative framework he established. The early caliphs were applying a model of statecraft Muhammad had created; the conquests were powered by the ideology and organization of the community he had built.",
+    "confidence": "high"
+  },
+  {
+    "id": "saladin__saladin_reconquest",
+    "source": "saladin",
+    "target": "saladin_reconquest",
+    "type": "PRODUCED",
+    "label": "Saladin unified Muslim forces and recaptured Jerusalem in 1187 CE",
+    "note": "Saladin strategic genius was to unify the fragmented Muslim principalities of Egypt and Syria into a coherent military force through the Ayyubid dynasty, then use that unified force to defeat the Crusader states at Hattin (1187) and recapture Jerusalem — ending 88 years of Christian control. His decision to spare the population was deliberate and historically anomalous.",
+    "confidence": "high"
+  },
+  {
+    "id": "saladin__first_crusade",
+    "source": "saladin",
+    "target": "first_crusade",
+    "type": "ENABLED",
+    "label": "Saladin response to the Crusades triggered the Third Crusade",
+    "note": "Saladin recapture of Jerusalem provoked the Third Crusade (1189-1192), led by Richard I of England (Richard the Lionheart). The resulting military stalemate and negotiated settlement — Christians allowed access to Jerusalem, Saladin retaining sovereignty — established the model of coexistence that subsequent crusades attempted to overturn. Saladin shaped the Crusade dynamics as much as any Crusader.",
+    "confidence": "high"
+  },
+  {
+    "id": "genghis_khan__mongol_conquests",
+    "source": "genghis_khan",
+    "target": "mongol_conquests",
+    "type": "PRODUCED",
+    "label": "Genghis Khan initiated and commanded the Mongol conquests that created history largest land empire",
+    "note": "Genghis Khan personally led or directed the campaigns that conquered northern China, Central Asia, Persia, and reached Eastern Europe. His military innovations — decimal unit structure, the tumen system, coordinated cavalry tactics — were the operational foundation of Mongol conquest. After his death (1227) his successors continued on the framework he had built.",
+    "confidence": "high"
+  },
+  {
+    "id": "genghis_khan__fall_of_constantinople",
+    "source": "genghis_khan",
+    "target": "fall_of_constantinople",
+    "type": "ENABLED",
+    "label": "Mongol destruction of the Seljuk Sultanate of Rum drove Turkish migration that eventually produced the Ottoman Empire",
+    "note": "The Mongol destruction of the Seljuk Sultanate of Rum (Battle of Kose Dag, 1243) eliminated the dominant power in Anatolia and created the political vacuum that allowed small Turkish principalities — including the Ottoman beylik founded by Osman I — to grow and eventually produce the Ottoman Empire that conquered Constantinople in 1453.",
+    "confidence": "medium"
+  },
+  {
+    "id": "theodor_herzl__zionism",
+    "source": "theodor_herzl",
+    "target": "zionism",
+    "type": "PRODUCED",
+    "label": "Herzl founded political Zionism as an organized international movement",
+    "note": "Herzl transformed Zionism from a cultural aspiration (return to Zion) into a political program: Der Judenstaat provided the argument; the First Zionist Congress (Basel, 1897) provided the organizational infrastructure. His declaration at Basel — \"At Basel I founded the Jewish State. If I said this out loud today I would be greeted by universal laughter. In five years perhaps, and certainly in fifty years, everyone will perceive it.\" — proved almost exactly correct.",
+    "confidence": "high"
+  },
+  {
+    "id": "pogroms__theodor_herzl",
+    "source": "pogroms",
+    "target": "theodor_herzl",
+    "type": "CAUSED",
+    "label": "The Dreyfus Affair and pogroms convinced Herzl that European safety for Jews was impossible",
+    "note": "Herzl was a thoroughly assimilated Austro-Hungarian Jew who covered the Dreyfus trial and witnessed the French crowds chanting \"death to Jews.\" Combined with his awareness of Russian pogroms, this convinced him that liberal assimilation was not a solution to antisemitism — that Jews needed a state. The pogroms were the empirical foundation of his political program.",
+    "confidence": "high"
+  },
+  {
+    "id": "gamal_nasser__suez_crisis_1956",
+    "source": "gamal_nasser",
+    "target": "suez_crisis_1956",
+    "type": "PRODUCED",
+    "label": "Nasser nationalization of the Suez Canal triggered the military crisis",
+    "note": "Nasser nationalization of the Suez Canal on July 26, 1956 — announced the same day the World Bank withdrew funding for the Aswan Dam — was the direct trigger of the Suez Crisis. Britain, France, and Israel secretly coordinated a military response; US pressure (Eisenhower threatened to collapse the pound) forced their withdrawal, marking the decisive moment when Britain and France ceased to be independent great powers.",
+    "confidence": "high"
+  },
+  {
+    "id": "gamal_nasser__six_day_war_1967",
+    "source": "gamal_nasser",
+    "target": "six_day_war_1967",
+    "type": "ENABLED",
+    "label": "Nasser blockade of Tiran Strait and expulsion of UN forces precipitated the Six-Day War",
+    "note": "Nasser closure of the Strait of Tiran to Israeli shipping (May 1967) and his expulsion of UN peacekeeping forces from Sinai — combined with inflammatory rhetoric about destroying Israel — were the immediate precipitating acts of the Six-Day War. Whether he intended war or was bluffing remains debated; Israel preemptive strike on June 5 destroyed the Egyptian air force in three hours.",
+    "confidence": "high"
+  },
+  {
+    "id": "ayatollah_khomeini__iranian_revolution_1979",
+    "source": "ayatollah_khomeini",
+    "target": "iranian_revolution_1979",
+    "type": "PRODUCED",
+    "label": "Khomeini led the revolution that overthrew the Shah and established the Islamic Republic",
+    "note": "Khomeini return to Iran on February 1, 1979 — after 15 years of exile — was the culminating act of the revolution. His velayat-e faqih doctrine provided the theological framework for clerical governance; his political skill in outmaneuvering secular and leftist coalition partners after the Shah fell established the Islamic Republic as a clerical state. He served as Supreme Leader until his death in 1989.",
+    "confidence": "high"
+  },
+  {
+    "id": "ayatollah_khomeini__wahhabism_salafism",
+    "source": "ayatollah_khomeini",
+    "target": "wahhabism_salafism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both Khomeini Islamism and Wahhabism-Salafism use Islamic revival to challenge Western-aligned regimes",
+    "note": "Despite representing Shia and Sunni strands of political Islam respectively, Khomeini Islamism and Saudi Wahhabism share the same fundamental mechanism: using Islamic identity and authority as the basis for political mobilization against both Western secular influence and traditional Muslim governance deemed insufficiently Islamic. Their rivalry after 1979 produced the Sunni-Shia proxy wars across the Middle East.",
+    "confidence": "medium"
+  },
+  {
+    "id": "osama_bin_laden__rise_of_al_qaeda",
+    "source": "osama_bin_laden",
+    "target": "rise_of_al_qaeda",
+    "type": "PRODUCED",
+    "label": "Bin Laden founded and led al-Qaeda from its origins in the Afghan jihad",
+    "note": "Bin Laden founded Maktab al-Khidamat (Services Bureau) in Peshawar during the Soviet-Afghan War to channel funding and fighters to the mujahedeen; this organization evolved into al-Qaeda (The Base) after Soviet withdrawal. His strategic decision to turn al-Qaeda toward attacking the US — rather than near-enemy Muslim regimes — was the organizational choice that produced September 11.",
+    "confidence": "high"
+  },
+  {
+    "id": "osama_bin_laden__september_11_attacks",
+    "source": "osama_bin_laden",
+    "target": "september_11_attacks",
+    "type": "CAUSED",
+    "label": "Bin Laden directed the September 11 attacks as the culmination of al-Qaeda global jihad strategy",
+    "note": "The September 11 attacks were conceived, planned, and directed by bin Laden with al-Qaeda operational commander Khalid Sheikh Mohammed. Bin Laden strategic calculation — that the attacks would draw the US into unwinnable wars in Muslim countries, drain American power, and mobilize Muslim populations against American imperialism — proved partially correct in predicting US overreach, though not in producing the Islamic awakening he anticipated.",
+    "confidence": "high"
+  },
+  {
+    "id": "charles_darwin__american_eugenics_movement",
+    "source": "charles_darwin",
+    "target": "american_eugenics_movement",
+    "type": "ENABLED",
+    "label": "Darwin theory of natural selection was systematically misapplied to justify eugenics programs",
+    "note": "Darwin himself never advocated eugenics; his cousin Francis Galton coined the term and misapplied natural selection to human breeding. Social Darwinists and eugenicists took Darwin framework — variation, inheritance, selection — and applied it to social policy in ways Darwin methodology did not support. Darwin is the intellectual ancestor of eugenics the way Marx is of Stalinism: both had their work systematically perverted by successors.",
+    "confidence": "high"
+  },
+  {
+    "id": "charles_darwin__enlightenment_philosophy",
+    "source": "charles_darwin",
+    "target": "enlightenment_philosophy",
+    "type": "PRODUCED",
+    "label": "Darwin naturalized humanity within the Enlightenment empirical tradition, completing the secular worldview",
+    "note": "The Enlightenment had naturalized politics (social contract), economics (invisible hand), and astronomy (heliocentrism) — but biology had remained the domain of divine creation. Darwin natural selection provided a complete naturalistic explanation for biological complexity, including human minds, completing the Enlightenment project of explaining the world without recourse to the supernatural.",
+    "confidence": "high"
+  },
+  {
+    "id": "sigmund_freud__frankfurt_school",
+    "source": "sigmund_freud",
+    "target": "frankfurt_school",
+    "type": "ENABLED",
+    "label": "Freudian psychoanalysis provided the psychological dimension that the Frankfurt School combined with Marxist analysis",
+    "note": "The Frankfurt School — especially Wilhelm Reich, Erich Fromm, Herbert Marcuse, and Theodor Adorno — synthesized Freud with Marx to produce a theory of how capitalism reproduces itself psychologically: through repression, authoritarianism, and the sublimation of radical desire into conformity. The Authoritarian Personality (Adorno et al.) applied Freudian methods to understand fascism.",
+    "confidence": "high"
+  },
+  {
+    "id": "sigmund_freud__broken_epistemology",
+    "source": "sigmund_freud",
+    "target": "broken_epistemology",
+    "type": "ENABLED",
+    "label": "Freud unfalsifiable framework contributed to the epistemological problems of psychoanalysis as science",
+    "note": "Freud theories were constructed to be unfalsifiable: if a patient agreed with the analyst interpretation it confirmed the theory; if they disagreed, the resistance itself was interpreted as confirmation (repression). This self-sealing quality became a central example in Karl Popper demarcation criterion between science and pseudoscience, and contributed to the epistemological problems of psychological science.",
+    "confidence": "medium"
+  },
+  {
+    "id": "stanley_milgram__milgram_obedience_experiments",
+    "source": "stanley_milgram",
+    "target": "milgram_obedience_experiments",
+    "type": "PRODUCED",
+    "label": "Milgram designed and conducted the obedience experiments to empirically test Holocaust perpetration",
+    "note": "Milgram explicitly designed the experiments in response to Hannah Arendt banality of evil and to test the claim that situational authority rather than character determines whether people commit atrocities. The experiments are the most important empirical finding in social psychology — and also the most ethically controversial, since participants were deceived into believing they were harming others.",
+    "confidence": "high"
+  },
+  {
+    "id": "stanley_milgram__moral_disengagement",
+    "source": "stanley_milgram",
+    "target": "moral_disengagement",
+    "type": "ENABLED",
+    "label": "Milgram results provided the empirical proof that authority pressure produces moral disengagement in ordinary people",
+    "note": "Milgram findings empirically confirmed the mechanism of moral disengagement Bandura would later theorize: in his experiments, participants progressively disengaged from moral agency by diffusing responsibility (\"I was just following orders\"), using euphemistic language (\"administering shocks\" not \"hurting someone\"), and incrementally committing to the authority relationship through small initial compliance.",
+    "confidence": "high"
   }
 ]
