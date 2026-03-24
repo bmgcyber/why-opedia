@@ -364,5 +364,41 @@
     "label": "Mental health stigma prevents people from disclosing loneliness and seeking social connection, reinforcing the epidemic",
     "note": "Mental health stigma compounds the loneliness epidemic: loneliness itself carries social stigma (admitting loneliness signals social failure); the stigma prevents people from disclosing the condition, which would be the first step toward addressing it; mental health treatment stigma prevents therapeutic interventions for the depression and anxiety that both cause and result from loneliness; workplace cultures that reward isolation (long hours, geographic mobility) attach success status to behaviors that produce loneliness. The loneliness epidemic is partly self-concealing because of the stigma attached to admitting it.",
     "confidence": "high"
+  },
+  {
+    "id": "ptsd__collective_trauma",
+    "source": "ptsd",
+    "target": "collective_trauma",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "PTSD and collective trauma share neurobiological mechanisms; what distinguishes them is scale and whether the trauma is shared",
+    "note": "PTSD and collective trauma share the fundamental neurobiological mechanism (HPA axis dysregulation, altered memory consolidation, hypervigilance) while differing in scale: PTSD is the clinical individual diagnosis; collective trauma is the community-level equivalent when entire populations share traumatic experience. Veterans with PTSD and communities with collective trauma show similar neurobiological signatures. The clinical PTSD literature (developed primarily from veteran and sexual assault survivor research) has been extended to collective trauma contexts (Judith Herman's \"Trauma and Recovery\"; Bessel van der Kolk's \"The Body Keeps the Score\"). Collective trauma research uses PTSD's neurobiological framework to understand community-level health impacts of mass traumatic events.",
+    "confidence": "high"
+  },
+  {
+    "id": "ptsd__adverse_childhood_experiences",
+    "source": "ptsd",
+    "target": "adverse_childhood_experiences",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Childhood trauma (ACEs) produces PTSD-like symptomatology but through developmental disruption rather than single-event response",
+    "note": "PTSD and ACE effects share mechanisms while differing in trauma structure: PTSD (classically) is triggered by discrete traumatic events; ACE effects result from chronic, developmental-period exposure to stress and adversity. Both produce HPA axis dysregulation, altered cortisol response, hypervigilance, and dissociation. Complex PTSD (C-PTSD) bridges this distinction — it captures the psychological effects of chronic, repeated trauma (childhood abuse, domestic violence, captivity) that produce more pervasive personality and relational disturbances than single-event PTSD. The trauma-informed care framework explicitly recognizes ACEs as producing PTSD-spectrum effects, connecting the two research traditions.",
+    "confidence": "high"
+  },
+  {
+    "id": "single_payer_healthcare__neoliberalism",
+    "source": "single_payer_healthcare",
+    "target": "neoliberalism",
+    "type": "DISCREDITED",
+    "label": "Comparative healthcare system analysis consistently shows that single-payer universal systems produce better outcomes at lower cost than neoliberal insurance markets",
+    "note": "Healthcare system comparison is the clearest empirical refutation of neoliberal claims: every wealthy democracy with universal single-payer or regulated multi-payer system achieves better health outcomes (life expectancy, infant mortality, preventable death) at lower cost per capita than the US privatized insurance system; the US spends 17% of GDP on healthcare vs 10-12% in comparable countries while achieving worse outcomes; administrative overhead (10-12% of US healthcare spending) is the direct cost of the insurance market that single-payer eliminates. The healthcare comparison is ideologically inconvenient for neoliberalism because the government-run systems clearly outperform the market alternative on both efficiency and equity.",
+    "confidence": "high"
+  },
+  {
+    "id": "opioid_crisis__single_payer_healthcare",
+    "source": "opioid_crisis",
+    "target": "single_payer_healthcare",
+    "type": "ENABLED",
+    "label": "The opioid crisis was exacerbated by the US healthcare system's fragmented mental health and addiction treatment coverage",
+    "note": "The opioid crisis was shaped by healthcare system failures: mental health parity laws were inconsistently enforced, leaving addiction treatment under-covered; the insurance market's preference for cheaper interventions (prescriptions) over more expensive ones (addiction treatment, therapy) incentivized opioid prescribing; fragmented coverage (job-linked insurance) meant people losing jobs during addiction lost healthcare when they needed it most; rural healthcare deserts (products of market failure) had no treatment alternatives to opioid prescriptions. Countries with universal healthcare systems and integrated addiction treatment had significantly lower pharmaceutical opioid death rates even with similar prescribing patterns — access to treatment is the key variable.",
+    "confidence": "high"
   }
 ]

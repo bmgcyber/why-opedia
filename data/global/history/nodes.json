@@ -4147,5 +4147,70 @@
       "counterculture",
       "draft"
     ]
+  },
+  {
+    "id": "gandhi",
+    "label": "Mahatma Gandhi",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1920s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+    "summary": "Leader of Indian independence movement using nonviolent civil disobedience; developed satyagraha (truth-force) as political strategy; led Salt March (1930) and Quit India Movement (1942); assassinated 1948; inspired MLK and global nonviolent movements.",
+    "tags": [
+      "india",
+      "independence",
+      "nonviolence",
+      "satyagraha",
+      "salt march",
+      "british empire",
+      "civil disobedience",
+      "assassination"
+    ]
+  },
+  {
+    "id": "enlightenment",
+    "label": "The Enlightenment",
+    "node_type": "era",
+    "category": "era",
+    "decade": "1680s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Age_of_Enlightenment",
+    "summary": "European intellectual movement (17th-18th c.) emphasizing reason, science, individual rights, and secular governance; produced the philosophical foundations for democracy, human rights, and the scientific method; foundational to American and French Revolutions.",
+    "tags": [
+      "reason",
+      "Locke",
+      "Voltaire",
+      "Rousseau",
+      "Hume",
+      "Kant",
+      "revolution",
+      "human rights",
+      "secularism",
+      "democracy"
+    ]
+  },
+  {
+    "id": "greek_democracy",
+    "label": "Athenian Democracy",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "-500s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Athenian_democracy",
+    "summary": "World's first documented democratic system (508-322 BCE); direct democracy with Assembly open to adult male citizens; excluded women, enslaved people, foreigners; produced Socrates, Plato, Aristotle; fell to Macedon.",
+    "tags": [
+      "democracy",
+      "athens",
+      "pericles",
+      "direct democracy",
+      "ancient greece",
+      "agora",
+      "citizenship",
+      "exclusion"
+    ]
   }
 ]

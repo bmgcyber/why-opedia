@@ -2039,5 +2039,47 @@
       "Brown v Board",
       "cause lawyering"
     ]
+  },
+  {
+    "id": "austerity",
+    "label": "Austerity Economics",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1980s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Austerity",
+    "summary": "Economic policy of reducing government spending and raising taxes during recessions to reduce public debt; empirically associated with prolonged recessions and increased inequality; standard IMF/World Bank prescription for developing countries.",
+    "tags": [
+      "austerity",
+      "deficit",
+      "public spending",
+      "IMF",
+      "Greece",
+      "neoliberalism",
+      "recession",
+      "inequality"
+    ]
+  },
+  {
+    "id": "wealth_inequality",
+    "label": "Wealth Inequality",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1980s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Wealth_inequality",
+    "summary": "Extreme concentration of wealth at the top; the top 1% hold more wealth than the bottom 50% globally; accelerated since 1980 through neoliberal policy, offshore tax avoidance, and capital gains dominance over labor income.",
+    "tags": [
+      "inequality",
+      "Gini coefficient",
+      "Piketty",
+      "top 1%",
+      "wealth concentration",
+      "tax",
+      "capital",
+      "plutocracy"
+    ]
   }
 ]

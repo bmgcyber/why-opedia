@@ -4318,5 +4318,77 @@
     "label": "The February 2003 Iraq War protests were the largest antiwar demonstrations in history, yet failed to prevent the war — a contrast with Vietnam's eventual success",
     "note": "The Iraq War protests (February 15, 2003 — 15 million people in 600 cities worldwide, the largest coordinated protest in history) and Vietnam protests share mechanism while demonstrating a key difference: both were massive democratic expressions against military action; the Iraq protest was preemptive (before the war began) while Vietnam protests were reactive (after casualties mounted); the Iraq protest failed to prevent the war despite unprecedented scale, partly because the Bush administration had committed before public opinion could respond, partly because the Iraq War initially appeared to be a quick victory. The contrast suggests that preemptive protests face higher political barriers than reactive ones.",
     "confidence": "high"
+  },
+  {
+    "id": "gandhi__nonviolent_resistance",
+    "source": "gandhi",
+    "target": "nonviolent_resistance",
+    "type": "PRODUCED",
+    "label": "Gandhi developed satyagraha (truth-force) as the theoretical and practical foundation of modern nonviolent resistance",
+    "note": "Gandhi did not merely practice nonviolent resistance — he developed it as a coherent political philosophy: satyagraha (truth-force) held that nonviolent action could transform opponents by appealing to their conscience; the Salt March (1930) demonstrated nonviolent civil disobedience at mass scale against British rule; Gandhi's articulation of the oppressor's dependence on the oppressed's cooperation (the system only works if you participate in it) was the theoretical insight that enabled mass nonviolent resistance. The British inability to respond to satyagraha effectively without appearing tyrannical demonstrated the strategy's insight about the colonial dynamic — the colonizer needed the colonized's cooperation more than the reverse.",
+    "confidence": "high"
+  },
+  {
+    "id": "gandhi__partition_of_india",
+    "source": "gandhi",
+    "target": "partition_of_india",
+    "type": "ENABLED",
+    "label": "Gandhi opposed Partition to his death; his assassination by a Hindu nationalist was a direct result of his opposition to anti-Muslim violence",
+    "note": "Gandhi's relationship to Partition is complex: he had supported Muslim-Hindu unity throughout the independence movement; he strongly opposed Partition but ultimately accepted the Congress-Muslim League agreement rather than allow further delay of independence; during Partition violence, he fasted against Hindu attacks on Muslims in both Bengal and Delhi; his assassination by Nathuram Godse (January 1948) was explicitly because of his perceived pro-Muslim positions during Partition violence. Gandhi was killed for opposing the communal violence that Partition unleashed — his death demonstrated that the nonviolent unity he had sought to build had failed to prevent ethnic hatred.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war__cuban_missile_crisis",
+    "source": "cold_war",
+    "target": "cuban_missile_crisis",
+    "type": "PRODUCED",
+    "label": "The Cuban Missile Crisis was the Cold War's most dangerous moment, produced by the logic of nuclear deterrence and revolutionary politics",
+    "note": "The Cuban Missile Crisis emerged from the intersection of Cold War dynamics: the Cuban Revolution (1959) converted Cuba into a Soviet ally 90 miles from Florida; the Bay of Pigs failure (1961) demonstrated US willingness to use force; Khrushchev's nuclear deployment to Cuba was partly defensive (protecting Cuba from invasion), partly offensive (offsetting US nuclear advantage). Kennedy's quarantine response, the back-channel negotiations (including US pledge not to invade Cuba and secret removal of Jupiter missiles from Turkey), and Khrushchev's withdrawal demonstrated that nuclear brinkmanship could be managed without war — but barely. The crisis produced the Moscow-Washington hotline and accelerated test ban negotiations.",
+    "confidence": "high"
+  },
+  {
+    "id": "cuban_missile_crisis__cuban_revolution",
+    "source": "cuban_missile_crisis",
+    "target": "cuban_revolution",
+    "type": "ENABLED",
+    "label": "The Missile Crisis paradoxically secured the Cuban Revolution by producing the US non-invasion pledge",
+    "note": "The Cuban Missile Crisis's resolution secured the Cuban Revolution: the deal that ended the crisis included a US pledge not to invade Cuba; this guarantee removed the primary military threat that had driven Soviet missile deployment; Cuba's revolution survived not because Soviet missiles deterred invasion but because the Missile Crisis produced a diplomatic settlement that removed the invasion option. Castro's revolution subsequently survived 60+ years of US embargo and regime change operations — a survival that required the Missile Crisis settlement as its foundation. The Crisis thus simultaneously brought the world closest to nuclear war while removing the condition (US invasion threat) most likely to lead to conventional war in Cuba.",
+    "confidence": "high"
+  },
+  {
+    "id": "enlightenment__american_revolution",
+    "source": "enlightenment",
+    "target": "american_revolution",
+    "type": "PRODUCED",
+    "label": "The American Revolution was the first practical implementation of Enlightenment political philosophy",
+    "note": "The American Revolution translated Enlightenment theory directly into political practice: Locke's social contract theory appeared in the Declaration of Independence (\"life, liberty, and the pursuit of happiness\" is Locke's \"life, liberty, and property\"); Montesquieu's separation of powers structured the Constitution; Rousseau's general will informed democratic theory; Franklin, Jefferson, and Madison were all deeply engaged with Enlightenment thought. The American founding was simultaneously a political revolution and an intellectual experiment — the first large-scale test of whether Enlightenment political principles could be implemented as a functioning government. The contradiction between the Declaration's \"all men are created equal\" and slavery was the Enlightenment's defining hypocrisy made structural.",
+    "confidence": "high"
+  },
+  {
+    "id": "enlightenment__french_revolution",
+    "source": "enlightenment",
+    "target": "french_revolution",
+    "type": "PRODUCED",
+    "label": "The French Revolution was the radical implementation of Enlightenment principles against a more entrenched aristocratic order",
+    "note": "The French Revolution applied Enlightenment principles more radically than the American: \"Liberté, Egalité, Fraternité\" distilled Enlightenment ideals; the Declaration of the Rights of Man and of the Citizen (1789) applied natural rights theory to citizenship; Voltaire and Rousseau's critiques of church and monarchy provided the philosophical framework for dechristianization and regicide. But the Revolution also demonstrated Enlightenment's dangers: the Terror showed how reason detached from tradition and institutional constraint could produce systematic mass murder; Burke's \"Reflections on the Revolution in France\" made the conservative case that Enlightenment rationalism was dangerously utopian. The French Revolution produced both democracy and totalitarianism as its legacy.",
+    "confidence": "high"
+  },
+  {
+    "id": "greek_democracy__roman_republic",
+    "source": "greek_democracy",
+    "target": "roman_republic",
+    "type": "ENABLED",
+    "label": "Athenian democratic theory and institutions were the intellectual and institutional ancestors of the Roman Republic",
+    "note": "Athenian democracy influenced the Roman Republic directly and indirectly: Roman political thinkers (Cicero, Polybius) explicitly analyzed Greek political systems; the Roman constitution mixed democratic elements (popular assemblies) with aristocratic (Senate) and monarchical (consuls) in the \"mixed constitution\" theory Polybius identified as Rome's strength; Roman legal concepts drew on Greek philosophical foundations. The transmission path was: Athens → Hellenistic world → Rome → Renaissance Florentine political thought → American founders. When American founders designed a republic rather than a democracy, they were consciously drawing on the Roman critique of Athenian direct democracy as vulnerable to demagogy.",
+    "confidence": "high"
+  },
+  {
+    "id": "greek_democracy__hellenistic_philosophy",
+    "source": "greek_democracy",
+    "target": "hellenistic_philosophy",
+    "type": "PRODUCED",
+    "label": "Athenian democratic culture created the conditions for philosophical inquiry that produced Socrates, Plato, and Aristotle",
+    "note": "Athenian democracy produced the philosophical tradition through specific institutional conditions: the Athenian agora was a space for public debate and intellectual exchange; democratic culture valued rhetoric and argumentation; Athenian citizens had sufficient leisure (supported by slave labor and empire) to engage in philosophical inquiry; the Assembly's tradition of public debate made persuasion a valuable skill, driving demand for philosophical education. Socrates's death by democratic vote (399 BCE) also demonstrates democracy's limits and the tension between democratic majority and intellectual freedom. The trial of Socrates became the foundation for liberal arguments about free speech and the rights of philosophical inquiry against majoritarian censorship.",
+    "confidence": "high"
   }
 ]

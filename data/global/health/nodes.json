@@ -398,5 +398,47 @@
       "community",
       "public health"
     ]
+  },
+  {
+    "id": "ptsd",
+    "label": "PTSD & Trauma Disorders",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1980s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Post-traumatic_stress_disorder",
+    "summary": "Post-traumatic stress disorder diagnosed after DSM-III (1980); recognition of trauma's lasting neurological and psychological effects; originally called \"shell shock\" (WWI) or \"combat fatigue\" (WWII); now recognized across military, sexual assault, and civilian trauma populations.",
+    "tags": [
+      "PTSD",
+      "trauma",
+      "veterans",
+      "shell shock",
+      "therapy",
+      "neuroscience",
+      "sexual assault",
+      "mental health"
+    ]
+  },
+  {
+    "id": "single_payer_healthcare",
+    "label": "Healthcare Systems & Access",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1940s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Universal_health_care",
+    "summary": "Healthcare financing and delivery models ranging from single-payer universal systems to privatized insurance markets; the US is the only wealthy democracy without universal coverage; outcomes and cost comparisons consistently favor universal systems.",
+    "tags": [
+      "universal healthcare",
+      "single-payer",
+      "insurance",
+      "NHS",
+      "medicare for all",
+      "healthcare access",
+      "inequality",
+      "ACA"
+    ]
   }
 ]

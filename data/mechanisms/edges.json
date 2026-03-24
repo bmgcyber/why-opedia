@@ -6504,5 +6504,68 @@
     "label": "Cold War ideology required rigid in-group/out-group thinking that made any leftist political position automatically \"communist\" and therefore treasonous",
     "note": "Cold War in-group/out-group dynamics operated through binary ideological categorization: \"free world\" vs. communist world; any political position (labor rights, civil rights, antiwar activism) could be delegitimized by labeling it communist-aligned; this made the in-group/out-group boundary ideologically policed rather than just national — an American advocating socialized medicine was potentially \"Soviet-aligned.\" Red Scare and COINTELPRO were institutional implementations of this logic. The Cold War produced the specific pathology of treating domestic political opponents as enemy agents, which is the core of authoritarian political culture — making loyal opposition impossible.",
     "confidence": "high"
+  },
+  {
+    "id": "austerity__neoliberalism",
+    "source": "austerity",
+    "target": "neoliberalism",
+    "type": "ENABLED",
+    "label": "Austerity is the macroeconomic policy instrument through which neoliberalism is imposed on indebted governments",
+    "note": "Austerity and neoliberalism are operationally linked: IMF and World Bank structural adjustment programs imposed austerity conditions on developing country debtors (1980s-2000s) as the price of debt restructuring — privatization, fiscal austerity, trade liberalization, deregulation; these were the practical implementation of neoliberal doctrine through debt leverage. European austerity (Greece, Ireland, Spain, Portugal after 2010) demonstrated the same dynamic in developed countries: ECB/IMF/EC \"troika\" demanded spending cuts and privatization as conditions for bailout. Austerity converts the political agenda of neoliberalism into economic coercion — you can refuse the ideology but not the debt conditions.",
+    "confidence": "high"
+  },
+  {
+    "id": "austerity__right_wing_populism",
+    "source": "austerity",
+    "target": "right_wing_populism",
+    "type": "PRODUCED",
+    "label": "Post-2008 austerity policies produced the economic conditions that drove right-wing populist backlash across Europe and the US",
+    "note": "Post-2008 financial crisis austerity directly enabled right-wing populism: UK austerity (2010-2019) cut public services, produced stagnant wages, and concentrated economic pain in regions that subsequently voted heavily for Brexit; European peripheral austerity (Greece especially) produced political systems hostile to EU technocratic governance; US austerity (2011 sequestration, state-level cuts) contributed to the economic stagnation in Midwestern manufacturing regions that drove Trump's 2016 victory. Thomas Piketty's analysis identifies austerity's regressive distributional effects as the economic foundation of populist backlash — the winners and losers of post-2008 austerity map almost exactly onto the winners and losers of anti-establishment populism.",
+    "confidence": "high"
+  },
+  {
+    "id": "wealth_inequality__neoliberalism",
+    "source": "wealth_inequality",
+    "target": "neoliberalism",
+    "type": "PRODUCED",
+    "label": "Neoliberal policy produced the extreme wealth inequality of the early 21st century through tax cuts, deregulation, and labor market deregulation",
+    "note": "Extreme wealth inequality is substantially the product of neoliberal policy choices: top marginal tax rate cuts (US 91% to 37%) transferred income from government to wealthy; capital gains preference over ordinary income shifted taxation from labor to capital; union decline reduced the institutional mechanism that had distributed productivity gains to workers; privatization transferred public assets to private ownership; financial deregulation enabled rent extraction through financial engineering. Thomas Piketty's \"Capital in the 21st Century\" (2014) documented the return to 19th-century inequality levels and attributed it to policy choices rather than natural market forces. The Gini coefficient tracks almost exactly with neoliberal policy intensity across countries.",
+    "confidence": "high"
+  },
+  {
+    "id": "wealth_inequality__right_wing_populism",
+    "source": "wealth_inequality",
+    "target": "right_wing_populism",
+    "type": "PRODUCED",
+    "label": "Economic anxiety produced by wealth inequality is the material foundation of right-wing populist backlash, redirected from class politics to identity politics",
+    "note": "Right-wing populism's electoral base is substantially workers and the lower middle class experiencing economic precarity — the same people losing from extreme wealth inequality. The puzzle is why this economic anxiety produces right-wing populism (targeting immigrants, minorities, elites) rather than left-wing class politics (targeting capital and wealthy). The redirection mechanism: right-wing populist entrepreneurs offer cultural, racial, and national identity as substitute for economic security; \"they are taking your jobs\" (immigrants) replaces \"capital is taking your wages\" (ownership class); racial and ethnic hierarchy provides psychological compensation for economic loss. The economic material and the political form are connected but not identical.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__armenian_genocide",
+    "source": "dehumanization",
+    "target": "armenian_genocide",
+    "type": "ENABLED",
+    "label": "Ottoman dehumanization of Armenians as internal enemies and collaborators enabled mass participation in organized killing",
+    "note": "The Armenian Genocide followed the dehumanization pattern: Armenian communities were framed as a fifth column supporting Russian enemies; Young Turk propaganda depicted Armenians as collectively treasonous; the collective guilt narrative made individual Armenians responsible for others' alleged collaboration. The Ottoman government used state media and religious authorities to promote anti-Armenian sentiment before the deportations began. The Armenian Genocide is documented in the historical record through German diplomatic dispatches (Germany was the Ottoman ally), survivor testimonies, and American ambassador Henry Morgenthau Sr.'s reports. The dehumanization framework helps explain how the genocide could be organized quickly across the empire — prior preparation of the ideological environment.",
+    "confidence": "high"
+  },
+  {
+    "id": "supply_side_economics__wealth_inequality",
+    "source": "supply_side_economics",
+    "target": "wealth_inequality",
+    "type": "PRODUCED",
+    "label": "Supply-side tax policy systematically redistributed income upward, producing the extreme wealth inequality documented after 1980",
+    "note": "Supply-side economics' actual (as opposed to claimed) effect was upward redistribution: the Reagan tax cuts (1981) cut the top marginal rate from 70% to 50% (and eventually 28%); subsequent supply-side tax cuts (Bush 2001, 2003; Trump 2017) further concentrated the benefits at the top; the claimed growth effects (\"trickle down\") did not materialize in the data; what did materialize was extreme wealth concentration. The Congressional Budget Office consistently projects supply-side tax cuts as increasing deficits and inequality. Supply-side economics functions as the ideological justification for fiscal policies that primarily benefit wealthy political donors — it is manufactured consent at the macroeconomic level.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__enlightenment",
+    "source": "manufactured_consent",
+    "target": "enlightenment",
+    "type": "ENABLED",
+    "label": "Enlightenment faith in reason created the vulnerability that manufactured consent exploits: rational publics can be managed through management of the information they receive",
+    "note": "The Enlightenment's confidence in rational public opinion as the basis for democratic governance created a specific vulnerability: if rational people form opinions based on information, then controlling information controls rational opinion. This is the insight Bernays applied in \"Propaganda\" (1928) and Lippmann in \"Public Opinion\" (1922) — modern democracy's complexity makes citizens necessarily dependent on media intermediaries for political information; those intermediaries can shape rational opinion by shaping what information is available. Manufactured consent is not anti-Enlightenment (it uses rational persuasion rather than force) but the perversion of Enlightenment democratic theory: the \"marketplace of ideas\" becomes a managed market.",
+    "confidence": "high"
   }
 ]

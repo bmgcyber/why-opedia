@@ -1690,5 +1690,77 @@
     "label": "Latin America's dirty wars were the Cold War proxy war system applied to the Western Hemisphere",
     "note": "Latin American dirty wars were Cold War proxy wars: US-backed military regimes conducted state terrorism against left-wing movements framed as Soviet proxies; Operation Condor was coordinated CIA-backed cross-border political repression; the dirty war in Argentina (1976-83) killed 30,000; Chile (1973-1989), Uruguay, Paraguay, Brazil operated similar systems under US training and political support. The proxy war framing was essential — it provided US political cover for supporting mass murder as Cold War necessity. When the Soviet threat evaporated (1989), US support for these regimes quickly became politically problematic, leading to transitions that were partly enabled by the end of the Cold War framing.",
     "confidence": "high"
+  },
+  {
+    "id": "climate_change_policy__climate_change_denial",
+    "source": "climate_change_policy",
+    "target": "climate_change_denial",
+    "type": "ENABLED",
+    "label": "Climate denial campaigns were specifically designed to prevent climate policy action, not to disprove climate science",
+    "note": "Climate denial was instrumentally designed to prevent climate policy rather than to engage scientifically with climate evidence: internal fossil fuel industry documents (ExxonMobil 1977-1982 research) show companies understood climate science accurately; the subsequent denial campaign was explicitly about protecting business models from carbon pricing and regulation, not about scientific inquiry. The Global Climate Coalition's explicit goal (documented in internal memos) was to prevent international climate agreements (Kyoto 1997) and domestic carbon pricing. Climate denial succeeded in delaying US climate policy for 30+ years — every decade of delay adds significantly to eventual mitigation costs and locked-in warming.",
+    "confidence": "high"
+  },
+  {
+    "id": "climate_change_policy__right_wing_populism",
+    "source": "climate_change_policy",
+    "target": "right_wing_populism",
+    "type": "ENABLED",
+    "label": "Climate change became a right-wing populist culture war issue, transforming scientific consensus into partisan political identity",
+    "note": "Climate change became a right-wing populist identity issue through deliberate political construction: fossil fuel industry funding of denial organizations converted business interest into cultural politics; the \"job-killing regulations\" frame made climate policy an economic class issue (working class jobs vs. elite environmental concerns); Donald Trump's Paris Agreement withdrawal was a right-wing populist culture war act rather than economic calculation. The transformation of climate science from apolitical fact to tribal identity marker demonstrates how political entrepreneurs can make any factual question partisan. In the US, belief in climate change now predicts partisan affiliation better than vice versa.",
+    "confidence": "high"
+  },
+  {
+    "id": "climate_change_policy__decolonization_movement",
+    "source": "climate_change_policy",
+    "target": "decolonization_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Climate justice and decolonization share the structure: wealthy Global North nations caused the problem but Global South nations bear the worst effects",
+    "note": "Climate change and colonial inequality are structurally linked: industrialized Western countries produced most historical carbon emissions; developing countries (former colonies) and island nations will experience the most severe impacts (sea level rise, drought, heat stress); the same colonial extraction that produced Western wealth also produced the fossil fuel economy that causes climate change. Climate justice movements argue that this creates a moral obligation: wealthy nations should finance adaptation in vulnerable countries and accelerate their own decarbonization more rapidly. The Paris Agreement's climate finance provisions are an imperfect acknowledgment of this colonial climate debt.",
+    "confidence": "high"
+  },
+  {
+    "id": "gerrymandering__voter_suppression_modern",
+    "source": "gerrymandering",
+    "target": "voter_suppression_modern",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Gerrymandering and voter suppression are the dual tools of electoral manipulation: gerrymandering shapes who wins, voter suppression shapes who votes",
+    "note": "Gerrymandering and voter suppression are complementary tools of electoral manipulation: gerrymandering manipulates district boundaries to make most votes count for nothing (a 30% party can win 60% of seats); voter suppression reduces the number of opposition voters. After the Shelby County v. Holder decision (2013), states that had previously required DOJ preclearance of electoral changes immediately began implementing both gerrymandering and voter suppression measures. The Republican REDMAP strategy (2010) explicitly targeted state legislative elections to control redistricting post-2010 census — gerrymandering as the foundation of a political minority maintaining legislative power.",
+    "confidence": "high"
+  },
+  {
+    "id": "gerrymandering__political_polarization",
+    "source": "gerrymandering",
+    "target": "political_polarization",
+    "type": "CAUSED",
+    "label": "Partisan gerrymandering produces safe seats that are only contested in primaries, incentivizing candidates toward extremes",
+    "note": "Gerrymandering contributes to political polarization through safe seat dynamics: heavily gerrymandered districts produce one-party seats where the only competitive election is the primary; primary electorates are more ideologically extreme than general electorates; candidates in safe seats face challenges from the extreme flank, not the center; this creates structural incentives for representatives to move away from the median voter toward their base. The House Freedom Caucus emerged from safe Republican seats where the only threat was a primary challenger — gerrymandering had eliminated the general election incentive for moderate positioning.",
+    "confidence": "high"
+  },
+  {
+    "id": "citizens_united__political_polarization",
+    "source": "citizens_united",
+    "target": "political_polarization",
+    "type": "ENABLED",
+    "label": "Unlimited dark money enabled extremist donors to fund primary challenges against moderates, accelerating polarization",
+    "note": "Citizens United enabled polarization through primary challenge dynamics: unlimited anonymous spending allowed ideological extremists (Koch network on the right, George Soros on the left) to fund primary challenges against moderates; Republicans who voted for compromise legislation became vulnerable to Tea Party or MAGA primary challenges funded by dark money; the threat of well-funded primary challenges creates incentives for incumbents to pre-emptively move toward their base. The Koch network explicitly used this strategy — funding primary challenges against Republicans who voted for any form of carbon pricing or moderate immigration reform.",
+    "confidence": "high"
+  },
+  {
+    "id": "citizens_united__wealth_inequality",
+    "source": "citizens_united",
+    "target": "wealth_inequality",
+    "type": "ENABLED",
+    "label": "Citizens United converted wealth inequality into political inequality — the wealthy can spend unlimited amounts to shape policy that benefits them",
+    "note": "Citizens United operationalized the political implications of wealth inequality: extreme wealth concentration creates extreme political spending capacity; unlimited political spending allows wealthy donors to shape electoral outcomes and policy; the resulting policy favors wealthy donors (tax cuts, reduced regulation, weakened labor protections) that increase wealth concentration. The feedback loop is self-reinforcing: wealth inequality enables political spending; political spending enables policy that increases wealth inequality. Martin Gilens's research (2014) showed that US policy outcomes correlate with the preferences of the wealthy and business interests, and near-zero with the preferences of ordinary citizens.",
+    "confidence": "high"
+  },
+  {
+    "id": "immigration_crisis__right_wing_populism",
+    "source": "immigration_crisis",
+    "target": "right_wing_populism",
+    "type": "ENABLED",
+    "label": "Immigration is the central mobilizing issue of right-wing populism in both Europe and the US, providing the ethnic threat narrative",
+    "note": "Immigration is the primary mobilizing issue for right-wing populism in developed democracies: Trump's 2015 campaign launch centered on Mexican immigration; Brexit was primarily about immigration from Eastern Europe and concern about Muslim immigration from the Middle East; Marine Le Pen's National Rally made immigration its central issue; Viktor Orban built his authoritarian state around anti-immigration politics. The right-wing populist immigration frame converts economic anxiety, cultural change anxiety, and racial anxiety into a single target — the immigrant — enabling a coalition that would otherwise have conflicting interests. The Great Replacement conspiracy theory is the ideological distillation of this frame.",
+    "confidence": "high"
   }
 ]

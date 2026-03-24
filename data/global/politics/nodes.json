@@ -1460,5 +1460,68 @@
       "nicaragua",
       "superpower competition"
     ]
+  },
+  {
+    "id": "climate_change_policy",
+    "label": "Climate Change & Policy",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1980s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Climate_change_policy",
+    "summary": "Human-caused warming of Earth's climate through greenhouse gas emissions; the central policy challenge of the 21st century, requiring transformation of energy, agriculture, and transportation systems; deeply contested politically despite scientific consensus.",
+    "tags": [
+      "climate",
+      "global warming",
+      "carbon emissions",
+      "paris agreement",
+      "fossil fuels",
+      "IPCC",
+      "green new deal",
+      "energy transition"
+    ]
+  },
+  {
+    "id": "gerrymandering",
+    "label": "Gerrymandering",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1810s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Gerrymandering",
+    "summary": "Manipulation of electoral district boundaries to give one party a systematic electoral advantage; modern partisan gerrymandering uses algorithmic precision to lock in supermajorities in state legislatures regardless of vote share.",
+    "tags": [
+      "elections",
+      "redistricting",
+      "voter suppression",
+      "democracy",
+      "partisan",
+      "racial gerrymandering",
+      "REDMAP",
+      "mapping"
+    ]
+  },
+  {
+    "id": "immigration_crisis",
+    "label": "Immigration & Refugee Crisis",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Immigration",
+    "summary": "Mass displacement driven by climate change, economic inequality, conflict, and political persecution; cynically exploited by right-wing populists as a cultural threat narrative; central to European and American political polarization.",
+    "tags": [
+      "immigration",
+      "refugees",
+      "asylum",
+      "border",
+      "xenophobia",
+      "displacement",
+      "climate refugees",
+      "right-wing populism"
+    ]
   }
 ]
