@@ -368,6 +368,30 @@ body.sidebar-collapsed #sidebar {
   background: var(--surface2);
 }
 
+.sb-scope-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 6px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.1s;
+  border: 1px solid var(--border);
+  margin-bottom: 4px;
+}
+
+.sb-scope-item:hover {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+}
+
+.sb-scope-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+}
+
 .sb-checkbox {
   accent-color: var(--accent);
   cursor: pointer;
@@ -482,20 +506,142 @@ body.sidebar-collapsed #sidebar {
   background: var(--accent-dim);
 }
 
-/* ── Graph canvas ─────────────────────────────────────────────────────────── */
+/* ── 3D Graph canvas ──────────────────────────────────────────────────────── */
 
-#cy {
+#graph-container {
   position: fixed;
-  top: var(--toolbar-height);
-  left: var(--sidebar-width);
+  top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
-  background: var(--bg);
+  background: #0d1117;
+  z-index: 0;
+}
+
+/* Breadcrumb trail (scope navigation) */
+
+#breadcrumb {
+  position: fixed;
+  top: calc(var(--toolbar-height) + 10px);
+  left: calc(var(--sidebar-width) + 14px);
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  background: rgba(26, 29, 39, 0.85);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 5px 12px;
+  backdrop-filter: blur(8px);
   transition: left 0.25s ease;
 }
 
-body.sidebar-collapsed #cy {
-  left: 0;
+body.sidebar-collapsed #breadcrumb {
+  left: 14px;
+}
+
+.bc-link {
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+.bc-link:hover { opacity: 0.75; }
+
+.bc-current {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.bc-sep {
+  color: var(--text-muted);
+  font-size: 10px;
+}
+
+/* Hover tooltip */
+
+.graph-tooltip {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  background: rgba(26, 29, 39, 0.9);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  z-index: 60;
+  pointer-events: none;
+  backdrop-filter: blur(8px);
+  max-width: 280px;
+}
+
+.graph-tooltip[hidden] { display: none; }
+
+.tt-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.tt-label {
+  color: var(--text);
+  font-weight: 500;
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tt-cat {
+  color: var(--text-muted);
+  font-size: 10px;
+  text-transform: capitalize;
+  flex-shrink: 0;
+}
+
+/* Autocomplete scope label */
+
+.sb-ac-scope {
+  color: var(--text-muted);
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+/* Mechanism explorer */
+
+.modal-content-mech {
+  max-width: 560px;
+}
+
+.mech-conn-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mech-conn-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.1s;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  font-size: 13px;
+  color: var(--text);
+}
+
+.mech-conn-item:hover {
+  border-color: var(--accent);
 }
 
 /* ── Info panel ───────────────────────────────────────────────────────────── */
@@ -734,6 +880,9 @@ body.sidebar-collapsed #cy {
   pointer-events: none;
   z-index: 10;
   transition: left 0.25s ease;
+  background: rgba(13, 17, 23, 0.6);
+  padding: 4px 10px;
+  border-radius: 6px;
 }
 
 body.sidebar-collapsed #stats {
@@ -754,13 +903,14 @@ body.sidebar-collapsed #stats {
   position: fixed;
   bottom: 14px;
   right: 14px;
-  background: var(--surface);
+  background: rgba(26, 29, 39, 0.85);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 10px 14px;
   font-size: 11px;
   z-index: 10;
   min-width: 160px;
+  backdrop-filter: blur(8px);
 }
 
 #legend-title {
@@ -854,12 +1004,12 @@ body.sidebar-collapsed #stats {
 /* ── Mobile: sidebar overlays graph ──────────────────────────────────────── */
 
 @media (max-width: 767px) {
-  #cy {
-    left: 0 !important;
+  #stats {
+    left: 14px !important;
     transition: none;
   }
 
-  #stats {
+  #breadcrumb {
     left: 14px !important;
     transition: none;
   }
@@ -1511,36 +1661,4 @@ body.sidebar-collapsed #stats {
   margin-bottom: 20px;
 }
 
-/* ── Timeline mode indicator ──────────────────────────────────────────────── */
-
-.layout-mode-badge {
-  position: fixed;
-  top: calc(var(--toolbar-height) + 12px);
-  left: calc(var(--sidebar-width) + 12px);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 4px 10px;
-  font-size: 11px;
-  color: var(--accent);
-  z-index: 20;
-  pointer-events: none;
-  transition: left 0.25s ease;
-  display: none;
-}
-
-body.sidebar-collapsed .layout-mode-badge {
-  left: 12px;
-}
-
-.layout-mode-badge.visible {
-  display: block;
-}
-
-/* ── Cluster compound node style ──────────────────────────────────────────── */
-
-.cluster-label {
-  font-size: 9px;
-  color: var(--text-muted);
-  font-style: italic;
-}
+/* (2D layout mode badge and cluster compound styles removed in 3D refactor) */
