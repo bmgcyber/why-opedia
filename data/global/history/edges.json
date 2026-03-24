@@ -3652,5 +3652,77 @@
     "label": "Pericles' aggressive imperial strategy contributed to Spartan fear that triggered the war",
     "note": "Pericles' expansive Athenian imperial policy — using the Delian League treasury for Athenian public works, extending Athenian power — directly provoked Spartan-led opposition. Thucydides records Spartan leaders identifying Pericles' strategy as the proximate cause of the war.",
     "confidence": "high"
+  },
+  {
+    "id": "gulf_war_1990__sept_11_attacks",
+    "source": "gulf_war_1990",
+    "target": "sept_11_attacks",
+    "type": "ENABLED",
+    "label": "Gulf War US military presence in Saudi Arabia became bin Laden's primary grievance",
+    "note": "Osama bin Laden's primary stated justification for the 9/11 attacks was the presence of US military bases in Saudi Arabia following the Gulf War — violation of the sacred Arabian peninsula. The Gulf War thus directly produced the operational grievance that motivated Al-Qaeda's attack.",
+    "confidence": "high"
+  },
+  {
+    "id": "soviet_afghan_war__sept_11_attacks",
+    "source": "soviet_afghan_war",
+    "target": "sept_11_attacks",
+    "type": "ENABLED",
+    "label": "CIA mujahideen support created the organizational and ideological network that became Al-Qaeda",
+    "note": "The CIA's Operation Cyclone funded and trained the Afghan mujahideen against the Soviet occupation, creating the organizational infrastructure, transnational jihadist network, and veteran fighters that became Al-Qaeda. Osama bin Laden himself was funded and connected through Pakistani ISI and Saudi channels tied to US support. The 9/11 attackers operated through networks with direct lineage to this CIA program.",
+    "confidence": "high"
+  },
+  {
+    "id": "sept_11_attacks__iraq_war_wmd",
+    "source": "sept_11_attacks",
+    "target": "iraq_war_wmd",
+    "type": "ENABLED",
+    "label": "9/11 provided the political context that made WMD claims for the Iraq War credible",
+    "note": "The Bush administration's Iraq WMD case succeeded partly because 9/11 had established a cognitive availability bias: in the post-9/11 environment, existential threats felt omnipresent and the threshold for preventive action was lowered. Without 9/11's psychological context, the Iraq WMD case would have faced much higher skepticism. The attacks created the political space for the war.",
+    "confidence": "high"
+  },
+  {
+    "id": "reconstruction_era__civil_rights_movement",
+    "source": "reconstruction_era",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "label": "Reconstruction's failure created the Jim Crow system the Civil Rights Movement dismantled",
+    "note": "The Civil Rights Movement was completing Reconstruction's unfinished project: the 13th-15th Amendments (1865–1870) had created the constitutional framework for Black citizenship, but Reconstruction's violent overthrow produced 80 years of Jim Crow. The Civil Rights Act (1964) and Voting Rights Act (1965) finally enforced what the Reconstruction amendments had promised — making the movement the second Reconstruction.",
+    "confidence": "high"
+  },
+  {
+    "id": "civil_rights_movement__vietnam_war",
+    "source": "civil_rights_movement",
+    "target": "vietnam_war",
+    "type": "ENABLED",
+    "label": "Civil rights rhetoric expanded to anti-Vietnam War movement as MLK connected racist violence at home and abroad",
+    "note": "MLK's 1967 \"Beyond Vietnam\" speech explicitly connected the Civil Rights Movement to anti-war activism: the same government committing violence against Black Americans was sending disproportionate numbers of Black soldiers to die in Vietnam. The civil rights frame expanded to critique structural violence in US foreign policy, producing the broader New Left coalition that defined late 1960s protest.",
+    "confidence": "high"
+  },
+  {
+    "id": "manifest_destiny__american_civil_war",
+    "source": "manifest_destiny",
+    "target": "american_civil_war",
+    "type": "ENABLED",
+    "label": "Manifest Destiny's territorial expansion made slavery's extension the central sectional crisis",
+    "note": "Every territory acquired through Manifest Destiny expansion (Texas, Mexican Cession, Oregon) required Congress to decide whether to permit or prohibit slavery — creating the succession of crises (Missouri Compromise, Compromise of 1850, Kansas-Nebraska Act) that made civil war inevitable. Expansion resolved nothing; it deferred and then intensified the slavery question until Fort Sumter.",
+    "confidence": "high"
+  },
+  {
+    "id": "manifest_destiny__latin_american_dirty_wars",
+    "source": "manifest_destiny",
+    "target": "latin_american_dirty_wars",
+    "type": "ENABLED",
+    "label": "Manifest Destiny evolved into Monroe Doctrine imperialism that justified Cold War intervention",
+    "note": "Manifest Destiny's theological logic — American Protestant civilization's divine right to expand — evolved into Monroe Doctrine imperialism and then Cold War \"backyard\" interventionism. The Latin American dirty wars (Chile 1973, Argentina 1976, Guatemala 1954, Nicaragua throughout) reflected the same assumption: the US's providential mission authorized intervention against perceived threats to its continental order.",
+    "confidence": "high"
+  },
+  {
+    "id": "confucius__qin_dynasty",
+    "source": "confucius",
+    "target": "qin_dynasty",
+    "type": "ENABLED",
+    "label": "Qin's book-burning and scholar-execution was a direct assault on Confucian intellectual tradition",
+    "note": "Qin Shi Huang's 213 BCE book-burning — destruction of Confucian texts and execution of 460 Confucian scholars — was the defining confrontation between Legalist state authority and Confucian scholarly culture. The persecution established the enduring Chinese tension between state power and intellectual tradition, and made Confucianism a site of resistance against authoritarian centralization for two millennia.",
+    "confidence": "high"
   }
 ]

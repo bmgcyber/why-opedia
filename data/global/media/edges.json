@@ -198,5 +198,23 @@
     "type": "ENABLED",
     "label": "PR industry provided corporate capture its persuasion infrastructure",
     "confidence": "high"
+  },
+  {
+    "id": "televangelism__fox_news",
+    "source": "televangelism",
+    "target": "fox_news",
+    "type": "ENABLED",
+    "label": "Televangelism pioneered the emotional manipulation and donor cultivation techniques Fox News professionalized",
+    "note": "The techniques Fox News and political talk radio use — charismatic authority figures, manufactured outrage, emotional appeals over factual argument, audience identity capture, and continuous monetization of fear — were pioneered in industrial scale by televangelism. Pat Robertson's 700 Club, Jerry Falwell's Moral Majority, and Jim Bakker's PTL Club trained the conservative media audience in the format Fox News inherited.",
+    "confidence": "medium"
+  },
+  {
+    "id": "televangelism__edward_bernays",
+    "source": "televangelism",
+    "target": "edward_bernays",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Televangelism independently developed and operationalized Bernays's manufactured consent techniques",
+    "note": "Oral Roberts and later televangelists independently discovered the manufactured consent toolkit: appeals to unconscious desire (spiritual transformation, physical healing), crowd psychology, testimonial advertising, and manufactured scarcity (the closing window of salvation). Whether or not they read Bernays, televangelism operationalized the same techniques for religious and political mobilization.",
+    "confidence": "medium"
   }
 ]

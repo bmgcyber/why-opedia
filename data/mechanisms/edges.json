@@ -4544,9 +4544,9 @@
     "confidence": "high"
   },
   {
-    "id": "christian_nationalism__january_6_capitol",
+    "id": "christian_nationalism__january_6_attack",
     "source": "christian_nationalism",
-    "target": "january_6_capitol",
+    "target": "january_6_attack",
     "type": "ENABLED",
     "label": "Christian nationalist theology was visibly present at the January 6 attack",
     "note": "The January 6 Capitol attack featured visible Christian nationalist iconography: wooden crosses, \"Jesus Saves\" signs, \"God, Guns, Trump\" flags, and prayers in the Senate chamber. Christian nationalist leaders had been arguing for months that the 2020 election was a spiritual war against godless communism. January 6 represents Christian nationalism as political violence.",

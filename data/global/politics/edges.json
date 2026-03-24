@@ -1393,5 +1393,14 @@
     "label": "Jim Crow voter suppression established the legal templates and political logic of modern voter restrictions",
     "note": "Modern voter suppression draws on the Jim Crow playbook: procedural mechanisms (ID requirements, registration purges, polling place reduction) that are nominally race-neutral but have racially disparate effects. The Voting Rights Act of 1965 was designed to end Jim Crow voter suppression; its gutting in Shelby County (2013) enabled its revival.",
     "confidence": "high"
+  },
+  {
+    "id": "january_6_attack__democratic_backsliding",
+    "source": "january_6_attack",
+    "target": "democratic_backsliding",
+    "type": "ENABLED",
+    "label": "January 6 normalized the idea that election outcomes could be rejected by force",
+    "note": "January 6's normalization consequence: 147 Republican members of Congress voted to reject certified electoral votes after the attack. The \"Big Lie\" became Republican Party orthodoxy. Election deniers ran for and won positions as secretaries of state. The attack demonstrated that democratic backsliding could proceed without serious legal consequence — an invitation to future attempts.",
+    "confidence": "high"
   }
 ]
