@@ -1855,5 +1855,65 @@
       "trauma",
       "power"
     ]
+  },
+  {
+    "id": "supply_side_economics",
+    "label": "Supply-Side Economics",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1970s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Supply-side_economics",
+    "summary": "Economic theory holding that cutting taxes on high earners and corporations produces growth that benefits all through \"trickle-down\" effects; the intellectual foundation of Reaganomics.",
+    "tags": [
+      "reaganomics",
+      "trickle down",
+      "tax cuts",
+      "deregulation",
+      "neoliberalism",
+      "laffer curve",
+      "inequality"
+    ]
+  },
+  {
+    "id": "resource_extraction",
+    "label": "Resource Extraction",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1500s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Extractivism",
+    "summary": "Economic model based on large-scale removal of natural resources for export, typically benefiting external powers while leaving environmental damage and economic dependency in source regions.",
+    "tags": [
+      "extractivism",
+      "colonialism",
+      "resource curse",
+      "oil",
+      "mining",
+      "environmental degradation",
+      "dependency"
+    ]
+  },
+  {
+    "id": "environmental_degradation",
+    "label": "Environmental Degradation",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1800s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Environmental_degradation",
+    "summary": "Deterioration of the environment through depletion of natural resources, destruction of ecosystems, and pollution; accelerated by industrial capitalism and colonial resource extraction.",
+    "tags": [
+      "environment",
+      "pollution",
+      "ecosystem",
+      "climate",
+      "extraction",
+      "industrial",
+      "deforestation"
+    ]
   }
 ]

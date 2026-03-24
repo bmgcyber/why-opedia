@@ -3817,5 +3817,86 @@
       "appeasement",
       "sovereignty"
     ]
+  },
+  {
+    "id": "trail_of_tears",
+    "label": "Trail of Tears",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1830s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Trail_of_Tears",
+    "summary": "Forced relocation of five Native American nations from southeastern United States to Indian Territory (Oklahoma) under the Indian Removal Act of 1830, resulting in thousands of deaths.",
+    "tags": [
+      "native american",
+      "forced relocation",
+      "genocide",
+      "andrew jackson",
+      "indian removal",
+      "cherokee",
+      "ethnic cleansing"
+    ]
+  },
+  {
+    "id": "che_guevara",
+    "label": "Che Guevara",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Che_Guevara",
+    "summary": "Argentine revolutionary and Marxist guerrilla leader who played a key role in the Cuban Revolution and attempted to spread revolution across Latin America and Africa; executed in Bolivia 1967.",
+    "tags": [
+      "revolutionary",
+      "marxist",
+      "cuba",
+      "guerrilla warfare",
+      "latin america",
+      "cold war",
+      "icon"
+    ]
+  },
+  {
+    "id": "theodore_roosevelt",
+    "label": "Theodore Roosevelt",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1900s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Theodore_Roosevelt",
+    "summary": "US President 1901-1909; trust-busting Progressive reformer, conservationist, architect of American imperial expansion in the Caribbean and Pacific, Nobel Peace Prize 1906.",
+    "tags": [
+      "progressive era",
+      "trust busting",
+      "conservation",
+      "imperialism",
+      "panama canal",
+      "big stick",
+      "monopoly"
+    ]
+  },
+  {
+    "id": "colonial_era",
+    "label": "Colonial Era",
+    "node_type": "era",
+    "category": "era",
+    "decade": "1500s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Colonialism",
+    "summary": "Period of European territorial expansion and direct control of non-European territories from the 15th through mid-20th century, reshaping global economics, politics, and culture through extraction and domination.",
+    "tags": [
+      "colonialism",
+      "empire",
+      "extraction",
+      "subjugation",
+      "africa",
+      "asia",
+      "americas",
+      "european expansion"
+    ]
   }
 ]

@@ -1438,5 +1438,95 @@
     "label": "LBJ's Civil Rights Acts drove white Southern Democrats to the Republican Party, creating the right-wing populist coalition",
     "note": "LBJ's signing of the Civil Rights Act reportedly led him to say \"We have lost the South for a generation\" — it turned out to be longer. The Democratic Party's association with Black civil rights triggered the partisan realignment that produced modern right-wing populism: the Solid Democratic South began voting Republican in presidential elections (Goldwater, 1964) and eventually state and local elections (1990s-2000s). Nixon's Southern Strategy explicitly exploited this realignment. Reagan's welfare queen and \"states' rights\" rhetoric continued it. The white working-class populist base of today's Republican Party was substantially produced by the political fallout from LBJ's civil rights achievements.",
     "confidence": "high"
+  },
+  {
+    "id": "cold_war__central_intelligence_agency",
+    "source": "cold_war",
+    "target": "central_intelligence_agency",
+    "type": "PRODUCED",
+    "label": "The Cold War created the CIA as America's primary covert operations and intelligence institution",
+    "note": "The CIA was created by the National Security Act of 1947 as a direct institutional response to the Cold War. It replaced the wartime OSS and was given broader peacetime authority for intelligence collection, covert action, and clandestine operations. The Cold War structure — permanent ideological confrontation without direct military engagement — required a permanent covert apparatus for third-country proxy operations. The CIA's creation institutionalized peacetime covert action as a normal tool of US foreign policy.",
+    "confidence": "high"
+  },
+  {
+    "id": "central_intelligence_agency__latin_american_dirty_wars",
+    "source": "central_intelligence_agency",
+    "target": "latin_american_dirty_wars",
+    "type": "ENABLED",
+    "label": "The CIA trained, funded, and organized the military juntas that ran Latin America's dirty wars",
+    "note": "CIA involvement in Latin American dirty wars was systematic and documented: Operation Condor (coordinated repression across Argentina, Chile, Uruguay, Paraguay, Bolivia, Brazil) was CIA-facilitated; the CIA trained Latin American security forces at the School of the Americas including torture techniques; CIA operations overthrew democratic governments (Guatemala 1954, Chile 1973) and installed or supported the military dictatorships that subsequently conducted mass killings. The CIA's counterinsurgency doctrine — framing any left-wing movement as Soviet-directed — provided the ideological justification for state terrorism across the region.",
+    "confidence": "high"
+  },
+  {
+    "id": "central_intelligence_agency__iran_contra",
+    "source": "central_intelligence_agency",
+    "target": "iran_contra",
+    "type": "ENABLED",
+    "label": "The CIA's covert operations infrastructure was the institutional base for Iran-Contra's arms networks",
+    "note": "Iran-Contra used the CIA's existing infrastructure of covert arms suppliers, foreign bank accounts, and operational networks — though the operation was technically run through the NSC to circumvent CIA oversight requirements after the Boland Amendment. CIA Director William Casey was a key architect; CIA operatives were directly involved in the weapons shipments and Contra supply networks. The operation represented the CIA's covert operations culture operating outside even its own institutional constraints.",
+    "confidence": "high"
+  },
+  {
+    "id": "central_intelligence_agency__us_iran_1953_coup",
+    "source": "central_intelligence_agency",
+    "target": "us_iran_1953_coup",
+    "type": "ENABLED",
+    "label": "Operation AJAX (CIA) and Operation Boot (MI6) organized and executed the 1953 Iranian coup",
+    "note": "The 1953 Iranian coup (Operation AJAX/TPAJAX) was the CIA's first major regime change operation. CIA officer Kermit Roosevelt Jr. coordinated the operation that overthrew elected Prime Minister Mohammad Mosaddegh after he nationalized Iran's oil (British Petroleum's predecessor). The CIA paid Iranian military officers, organized street mobs, and ran a disinformation campaign attributing the coup to communists. The 1953 coup is the ur-example of CIA covert regime change — it established the operational template used in Guatemala (1954), Chile (1973), and dozens of other operations.",
+    "confidence": "high"
+  },
+  {
+    "id": "central_intelligence_agency__mk_ultra",
+    "source": "central_intelligence_agency",
+    "target": "mk_ultra",
+    "type": "PRODUCED",
+    "label": "MK-Ultra was a CIA mind control research program conducted without congressional oversight",
+    "note": "MK-Ultra (1953-1973) was a CIA program of experiments on mind control using LSD, hypnosis, torture, and other techniques on unwitting subjects including US citizens. The program was authorized by CIA Director Allen Dulles and conducted through 150 research projects at universities, hospitals, and prisons using front organizations. Most MK-Ultra files were destroyed in 1973 before Senate investigation; the Church Committee documented what survived. MK-Ultra represents the CIA operating outside legal and ethical constraints — the same institutional pattern as its regime change operations.",
+    "confidence": "high"
+  },
+  {
+    "id": "neoconservatism__iraq_war_wmd",
+    "source": "neoconservatism",
+    "target": "iraq_war_wmd",
+    "type": "ENABLED",
+    "label": "Neoconservative ideology was the intellectual driver of the Iraq War decision",
+    "note": "The Iraq War was a neoconservative project: PNAC (Project for the New American Century) had called for Saddam's removal since 1998; key neoconservatives (Wolfowitz, Perle, Feith, Cheney) dominated Bush administration foreign policy after 9/11; neoconservative doctrine of \"democratic domino theory\" — that removing Saddam would spark democratic transformation across the Middle East — was the strategic rationale beyond WMDs. The WMD case was the public justification; the neoconservative goal was regional transformation. The Iraq War's failure delegitimized neoconservatism but its institutional base (think tanks, academic networks) survived.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war__neoconservatism",
+    "source": "cold_war",
+    "target": "neoconservatism",
+    "type": "PRODUCED",
+    "label": "Neoconservatism emerged from Cold War liberal anti-communism transformed into aggressive democracy promotion",
+    "note": "Neoconservatism originated with former leftists (Norman Podhoretz, Irving Kristol) who moved right in response to 1960s counterculture and New Left. Their Cold War anti-communism was more muscular than conservative realism — they opposed detente, supported human rights as a weapon against the Soviet Union, and believed the US should use its power to spread democracy. After the Cold War removed the Soviet threat, neoconservatives redirected this framework toward \"rogue states\" and the Middle East. The intellectual continuity: Cold War anti-communism → democracy promotion as foreign policy → regime change as strategy.",
+    "confidence": "high"
+  },
+  {
+    "id": "neoconservatism__george_w_bush",
+    "source": "neoconservatism",
+    "target": "george_w_bush",
+    "type": "ENABLED",
+    "label": "Neoconservative advisors in the Bush administration shaped the post-9/11 response toward Iraq",
+    "note": "George W. Bush came into office with limited foreign policy experience; neoconservative officials (Cheney as VP, Wolfowitz as Deputy Defense, Feith as Under Secretary of Defense) shaped the post-9/11 response. The decision to invade Iraq was primarily neoconservative: Wolfowitz began pushing for Iraq action on September 12, 2001; the CIA's WMD intelligence was interpreted through a neoconservative lens that assumed the worst. Bush adopted neoconservative \"freedom agenda\" rhetoric that was intellectually alien to his 2000 campaign's \"humble foreign policy.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "peace_of_westphalia__european_union",
+    "source": "peace_of_westphalia",
+    "target": "european_union",
+    "type": "ENABLED",
+    "label": "The EU represents the partial transcendence of the Westphalian nation-state sovereignty model it was built to overcome",
+    "note": "The Peace of Westphalia (1648) established the sovereign nation-state as the fundamental unit of international order. The European Union (1993) represents the most ambitious attempt to transcend that order — member states pooled sovereignty over currency, trade, borders, and significant areas of law. The EU was explicitly created to make European war impossible by creating shared institutions and economic interdependence. It is simultaneously the inheritor of the Westphalian state system (composed of sovereign states) and its most radical challenge (they voluntarily cede sovereignty to supranational institutions).",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war__european_union",
+    "source": "cold_war",
+    "target": "european_union",
+    "type": "ENABLED",
+    "label": "The Cold War provided the security context that made European integration politically feasible",
+    "note": "European integration was enabled by Cold War conditions: the Soviet threat provided the security motivation for Western European cooperation; US support (Marshall Plan, NATO) created the economic and security foundations for integration; the division of Europe at the Iron Curtain made Western European states prioritize unity over competition. Without the Cold War's security umbrella, French-German reconciliation and pooled sovereignty would have been politically impossible. The EU's expansion after 1989 demonstrated this: without Soviet threat, integration became contested rather than consensus.",
+    "confidence": "high"
   }
 ]

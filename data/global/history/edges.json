@@ -3985,5 +3985,122 @@
     "label": "The League's failure to stop Japanese and Italian aggression (1931-36) taught Hitler that collective security was a paper tiger",
     "note": "The League of Nations' failures in the 1930s enabled WWII by demonstrating that aggression faced no effective response: Japan invaded Manchuria (1931), the League condemned it but imposed no sanctions — Japan left the League and kept Manchuria; Italy invaded Ethiopia (1935-36), the League imposed limited sanctions that didn't include oil — Mussolini completed the conquest. These failures taught Hitler that collective security was rhetoric without enforcement: German remilitarization (1936), annexation of Austria (1938), and seizure of Czechoslovakia (1938-39) each faced only League protests. The League's failure of nerve made WWII aggression rational.",
     "confidence": "high"
+  },
+  {
+    "id": "trail_of_tears__american_civil_war",
+    "source": "trail_of_tears",
+    "target": "american_civil_war",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both represent federal government violence to resolve contested territorial claims, displacing human communities for economic expansion",
+    "note": "The Trail of Tears (1830s) and the Civil War (1861-65) both involved federal government use of military force to resolve conflicts over who controls American territory and labor. The Indian Removal Act was driven by Southern states wanting Native American land for cotton; the Civil War was driven by Southern states wanting to keep enslaved labor. Both required the federal government to choose between economic interests of white settlers/planters and the rights of non-white populations. The Trail of Tears set the precedent that economic and territorial interests outweigh treaty obligations — a precedent the Civil War partially overturned.",
+    "confidence": "medium"
+  },
+  {
+    "id": "trail_of_tears__atlantic_slave_trade",
+    "source": "trail_of_tears",
+    "target": "atlantic_slave_trade",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both represent the foundational mechanisms of American racial capitalism: dispossessing indigenous peoples for the land, enslaving Africans for the labor",
+    "note": "The Trail of Tears and Atlantic Slave Trade represent the twin foundations of American economic development: Native American dispossession provided the land; African slavery provided the labor. The cotton economy of the antebellum South required both: the Trail of Tears opened Georgia, Alabama, and Mississippi to cotton cultivation; enslaved African labor worked that land. Cherokee removal was explicitly motivated by the desire for Native American land to expand the cotton plantation economy. The connection is structural: American capitalism was built on stolen land worked by stolen labor.",
+    "confidence": "high"
+  },
+  {
+    "id": "colonial_era__trail_of_tears",
+    "source": "colonial_era",
+    "target": "trail_of_tears",
+    "type": "PRODUCED",
+    "label": "The Trail of Tears was a continuation of the colonial project of indigenous dispossession under a new national government",
+    "note": "The Trail of Tears was colonial dispossession continued by the independent US government. European colonialism had established the pattern: indigenous peoples had no property rights against European settlers; treaties were tools to formalize already-decided territorial transfers. The Indian Removal Act (1830) applied this colonial logic within the US legal framework. Andrew Jackson, who had spent his career fighting Native Americans, institutionalized removal as policy. The Trail of Tears demonstrates that American independence from Britain did not change the fundamental colonial relationship between the new state and indigenous peoples.",
+    "confidence": "high"
+  },
+  {
+    "id": "cuban_revolution__che_guevara",
+    "source": "cuban_revolution",
+    "target": "che_guevara",
+    "type": "PRODUCED",
+    "label": "The Cuban Revolution was the formative experience that transformed Che Guevara from doctor to revolutionary icon",
+    "note": "The Cuban Revolution (1959) was the crucible of Che Guevara's revolutionary theory and practice. Guevara joined Fidel Castro's 26th of July Movement in Mexico (1955) and fought in the Sierra Maestra; his battlefield experiences produced \"Guerrilla Warfare\" (1961), the theoretical manual for revolution through rural insurgency. After Cuba, Guevara became the face of Third World revolution — his subsequent failures in Congo (1965) and Bolivia (1967, where he was captured and executed) demonstrated both the limits and the symbolic power of revolutionary romanticism. Guevara's death made him a more powerful revolutionary icon than his life had.",
+    "confidence": "high"
+  },
+  {
+    "id": "che_guevara__latin_american_dirty_wars",
+    "source": "che_guevara",
+    "target": "latin_american_dirty_wars",
+    "type": "ENABLED",
+    "label": "Che's guerrilla theory inspired the left-wing insurgencies that Latin American military dictatorships used to justify state terrorism",
+    "note": "Che Guevara's \"foco theory\" (guerrilla vanguard can create revolutionary conditions through action) inspired the armed left-wing movements that Latin American military dictatorships used to justify dirty war operations. The Tupamaros (Uruguay), Montoneros (Argentina), MIR (Chile), Shining Path (Peru) — all drew on Guevara's theory. The dirty wars were partly a response to this actual armed left (not just imagined communist threat). The US-backed military response — Operation Condor, systematic torture and disappearance — was disproportionate and targeted civilians, but Guevara's exported guerrilla theory did catalyze the cycle.",
+    "confidence": "high"
+  },
+  {
+    "id": "che_guevara__ho_chi_minh",
+    "source": "che_guevara",
+    "target": "ho_chi_minh",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Guevara and Ho Chi Minh were the defining revolutionary figures of the 1960s Third World liberation wave",
+    "note": "Che Guevara and Ho Chi Minh were the two most globally influential Third World revolutionary figures of the 1960s: both rejected Cold War superpower alignment to pursue independent revolutionary paths; both influenced movements worldwide; both became cultural icons. Their differences illuminate contrasting approaches: Ho built a mass nationalist movement embedded in Vietnamese peasant society over decades; Guevara pursued rapid guerrilla action as a universal revolutionary catalyst. Ho's approach succeeded (Vietnam 1975); Guevara's failed (Bolivia 1967). The contrast shaped the left's debate about revolution: patient mass organizing vs. vanguard guerrilla action.",
+    "confidence": "high"
+  },
+  {
+    "id": "theodore_roosevelt__imperialism",
+    "source": "theodore_roosevelt",
+    "target": "imperialism",
+    "type": "ENABLED",
+    "label": "Theodore Roosevelt was the political architect of American imperial expansion at the turn of the 20th century",
+    "note": "Theodore Roosevelt was the most important figure in constructing American empire: as Assistant Secretary of the Navy he positioned the US for the Spanish-American War (1898); as President he claimed the right to intervene in Latin American affairs via the Roosevelt Corollary to the Monroe Doctrine (1904) — the US would intervene to \"stabilize\" Latin American countries to prevent European interference; he built the Panama Canal by fomenting Panamanian secession from Colombia. Roosevelt articulated the ideology of American empire — \"civilizing\" mission, Anglo-Saxon superiority, social Darwinism — that provided moral justification for economic and military domination.",
+    "confidence": "high"
+  },
+  {
+    "id": "theodore_roosevelt__new_deal",
+    "source": "theodore_roosevelt",
+    "target": "new_deal",
+    "type": "ENABLED",
+    "label": "Roosevelt's Progressive Era antitrust and regulatory precedents created the institutional foundations the New Deal built on",
+    "note": "Theodore Roosevelt's Progressive Era reforms established the precedent that the federal government could regulate corporations and break up monopolies in the public interest — a radical claim in 1900. His trust-busting (Standard Oil, Northern Securities), food safety regulation (Pure Food and Drug Act), and conservation programs established federal regulatory authority over private economic activity. FDR's New Deal (1933-39) built directly on these precedents, expanding regulatory authority to banking, securities, labor relations, and agricultural markets. Without TR's establishment of the regulatory principle, FDR's extension of it would have been legally and politically more difficult.",
+    "confidence": "high"
+  },
+  {
+    "id": "theodore_roosevelt__civil_rights_movement",
+    "source": "theodore_roosevelt",
+    "target": "civil_rights_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Roosevelt invited Booker T. Washington to the White House — the first Black presidential guest — then spent years distancing himself from racial equality",
+    "note": "Theodore Roosevelt's racial record illustrates the contradictions of Progressive Era liberalism: he invited Booker T. Washington to the White House (1901), the first African American presidential guest, which provoked violent Southern backlash; he promoted Black officers during Spanish-American War service; then he dishonorably discharged 167 Black soldiers in the Brownsville affair (1906) based on flimsy evidence and racial assumption. Roosevelt held typical Progressive Era racist views (Anglo-Saxon hierarchy, \"race suicide\" fears) alongside genuine if limited racial reform impulses. His record became a touchstone for arguments about the limits of white liberal racial politics.",
+    "confidence": "medium"
+  },
+  {
+    "id": "age_of_exploration__colonial_era",
+    "source": "age_of_exploration",
+    "target": "colonial_era",
+    "type": "PRODUCED",
+    "label": "The Age of Exploration established the territorial claims and extractive relationships that the Colonial Era institutionalized",
+    "note": "The Age of Exploration (15th-17th c.) produced the Colonial Era through the institutionalization of European territorial control: initial voyages of exploration became permanent settlements; trading posts became colonies with European administrators; indigenous peoples became subject populations under colonial law. The transition from exploration to colonization was driven by economic logic: the discovery of extractable resources (gold, silver, spices, fertile land) required permanent European presence to control extraction. The Colonial Era represents the bureaucratization and systematization of the extractive relationships that exploration had discovered.",
+    "confidence": "high"
+  },
+  {
+    "id": "colonial_era__atlantic_slave_trade",
+    "source": "colonial_era",
+    "target": "atlantic_slave_trade",
+    "type": "PRODUCED",
+    "label": "The Colonial Era's plantation economy created the demand for enslaved labor that drove the Atlantic slave trade",
+    "note": "The Atlantic Slave Trade was a colonial institution: European colonies in the Americas discovered that plantation agriculture (sugar, tobacco, cotton) was enormously profitable but required massive labor in disease environments that killed European indentured servants rapidly. Indigenous peoples had been decimated by disease. The \"solution\" was the forced importation of African enslaved people. The slave trade's scale (12.5 million Africans transported) was determined by colonial plantation economics. Without European colonial plantation agriculture, there was no economic engine for slave trade at this scale. Colonialism created the demand; the slave trade supplied it.",
+    "confidence": "high"
+  },
+  {
+    "id": "colonial_era__decolonization_movement",
+    "source": "colonial_era",
+    "target": "decolonization_movement",
+    "type": "PRODUCED",
+    "label": "Decolonization was the direct response to colonial rule — the colonized applying the colonizers' own Enlightenment values to demand independence",
+    "note": "Decolonization movements directly inverted colonial ideological claims: European colonialism justified itself through Enlightenment principles (civilization, progress, rights) while denying those rights to colonized peoples. Decolonization movements used the colonizers' own arguments — self-determination, human rights, democratic governance — to demand independence. The Haitian Revolution (1791) was the first; the post-WWII wave (1945-1975) decolonized most of Africa and Asia. WWII accelerated decolonization by weakening European colonial powers militarily and morally (it was difficult to fight Nazi racial hierarchy while maintaining colonial racial hierarchy).",
+    "confidence": "high"
+  },
+  {
+    "id": "colonial_era__resource_curse",
+    "source": "colonial_era",
+    "target": "resource_curse",
+    "type": "PRODUCED",
+    "label": "Colonial resource extraction created the economic structures and governance patterns that produce the resource curse in post-colonial states",
+    "note": "The resource curse in post-colonial states is substantially a legacy of colonial economic design: colonial economies were structured for extraction (primary commodity export) rather than diversification; colonial infrastructure (railways, ports) connected resource areas to export points, not internal markets; colonial governance concentrated power in extractive institutions; European companies maintained extraction relationships through independence via neocolonial arrangements. The post-independence states that inherited these structures — dependent on single commodity exports, with governance designed for extraction rather than development — were structurally predisposed to resource curse dynamics.",
+    "confidence": "high"
   }
 ]

@@ -6261,5 +6261,68 @@
     "label": "Historical revisionism is collective gaslighting — making societies doubt their documented collective experiences",
     "note": "Historical revisionism operates at the collective level using the same mechanism as individual gaslighting: replacing documented experience with a preferred narrative that serves the reviser's interests. The Lost Cause mythology denied the Confederacy was about slavery (contradicted by Confederate declarations explicitly stating it); Holocaust denial denies the best-documented genocide; Japanese textbook revisionism minimized the Nanjing Massacre and \"comfort women\" system. These are collective gaslighting — making societies doubt what their collective historical record documents. The mechanism works the same way: enough authoritative repetition erodes confidence in documented experience, especially when direct witnesses die.",
     "confidence": "high"
+  },
+  {
+    "id": "supply_side_economics__neoliberalism",
+    "source": "supply_side_economics",
+    "target": "neoliberalism",
+    "type": "ENABLED",
+    "label": "Supply-side economics provided the economic theory that Reaganomics implemented as the practical expression of neoliberal doctrine",
+    "note": "Supply-side economics is the macroeconomic theory within the broader neoliberal ideological framework. Neoliberalism (free markets, privatization, deregulation) needed supply-side theory to justify its fiscal policy: the argument that tax cuts pay for themselves through increased growth (Laffer Curve) provided the economic rationale for reducing the state without appearing fiscally irresponsible. Reagan's 1981 tax cuts (Economic Recovery Tax Act) implemented supply-side theory at scale — the experiment produced a brief recovery followed by the largest peacetime deficit expansion in US history to that point. Supply-side economics' persistence despite repeated empirical disconfirmation demonstrates its ideological rather than empirical function.",
+    "confidence": "high"
+  },
+  {
+    "id": "supply_side_economics__new_deal",
+    "source": "supply_side_economics",
+    "target": "new_deal",
+    "type": "DISCREDITED",
+    "label": "Supply-side economics was intellectually designed as a rejection of New Deal demand-side Keynesian economics",
+    "note": "Supply-side economics was explicitly constructed as the counter-theory to New Deal Keynesianism. Where Keynes argued demand (consumer spending, government investment) drives economic growth, supply-siders argued supply (business investment, capital formation) does. The intellectual project — Jude Wanniski, Arthur Laffer, Robert Mundell — was to provide an economic theory that justified reducing the New Deal state rather than expanding it. Reagan's implementation represented supply-side theory displacing Keynesian consensus in government economic policy — a shift that had been building since stagflation (1970s) made Keynesian demand management appear inadequate.",
+    "confidence": "high"
+  },
+  {
+    "id": "supply_side_economics__political_polarization",
+    "source": "supply_side_economics",
+    "target": "political_polarization",
+    "type": "ENABLED",
+    "label": "The supply-side vs. demand-side debate became a proxy for broader ideological conflict over the size and role of government",
+    "note": "The economic policy debate between supply-side and Keynesian economics became a primary axis of American political polarization after Reagan. Republicans unified around supply-side tax cuts as both economic theory and political strategy (starving the beast); Democrats defended Keynesian demand management and New Deal institutions. This economic division mapped onto cultural and social divisions (small government vs. activist state) to produce the partisan alignment that characterizes post-1980 American politics. The inability to reach bipartisan consensus on even basic fiscal policy — reflected in repeated government shutdown crises — is partly a legacy of supply-side's hardening into Republican dogma.",
+    "confidence": "high"
+  },
+  {
+    "id": "resource_extraction__resource_curse",
+    "source": "resource_extraction",
+    "target": "resource_curse",
+    "type": "PRODUCED",
+    "label": "Resource extraction economies create the specific institutional conditions that produce the resource curse",
+    "note": "The resource curse (paradox of plenty — resource-rich countries often have worse development outcomes) is produced by resource extraction's institutional effects: revenue from resource extraction flows to the state without taxing citizens, reducing accountability pressure; resource booms attract labor and capital away from manufacturing and agriculture (Dutch disease); resource wealth creates incentives for elite capture and corruption; commodity price volatility makes fiscal planning impossible. These mechanisms operate regardless of colonial legacy — Norway avoided the resource curse through specific institutional design (sovereign wealth fund, transparent management) that most resource-extracting countries have lacked.",
+    "confidence": "high"
+  },
+  {
+    "id": "imperialism__resource_extraction",
+    "source": "imperialism",
+    "target": "resource_extraction",
+    "type": "ENABLED",
+    "label": "Imperialism created the legal, political, and military structures that enabled extraction of colonial resources at scale",
+    "note": "Imperialism and resource extraction are structurally linked: imperial conquest provided political control; colonial law denied indigenous property rights; colonial military force suppressed resistance to extraction; colonial legal systems treated natural resources as belonging to the colonial power rather than indigenous peoples. The scale of extraction required political control — no market mechanism alone could have organized the transfer of value from colonies to metropoles that occurred under imperialism. After formal decolonization, neocolonial relationships (trade agreements, investment treaties, military bases) continued enabling resource extraction through economic rather than political control.",
+    "confidence": "high"
+  },
+  {
+    "id": "resource_extraction__environmental_degradation",
+    "source": "resource_extraction",
+    "target": "environmental_degradation",
+    "type": "CAUSED",
+    "label": "Large-scale resource extraction is the primary driver of environmental degradation in extractive economies",
+    "note": "Resource extraction causes environmental degradation through multiple pathways: mining contaminates water and soil with heavy metals and acid drainage; oil extraction produces spills, flaring, and subsidence; deforestation for agriculture and logging destroys biodiversity and carbon sinks; industrial fishing depletes marine ecosystems. The environmental costs are typically externalized — paid by local communities and future generations rather than extraction companies. In colonial and post-colonial contexts, the most severe extraction-driven environmental degradation typically occurs in regions with the least political power to resist it.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__central_intelligence_agency",
+    "source": "manufactured_consent",
+    "target": "central_intelligence_agency",
+    "type": "ENABLED",
+    "label": "The CIA ran propaganda and media manipulation programs as standard tools of covert operations",
+    "note": "The CIA institutionalized manufactured consent as a covert tool: Operation Mockingbird (documented by the Church Committee) paid journalists and placed assets in major American and international news organizations; Radio Free Europe and Radio Liberty were CIA fronts; the Congress for Cultural Freedom (backed by CIA) funded intellectual magazines and cultural events to promote liberal anti-communism. The CIA's media operations operated on the understanding that controlling the information environment is as important as military operations — manufactured consent as a form of bloodless regime change at home and abroad.",
+    "confidence": "high"
   }
 ]

@@ -1238,5 +1238,64 @@
       "voting-rights",
       "gulf-of-tonkin"
     ]
+  },
+  {
+    "id": "central_intelligence_agency",
+    "label": "CIA",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1940s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Central_Intelligence_Agency",
+    "summary": "US intelligence agency created in 1947, responsible for covert operations, foreign assassinations, regime change operations, and mass surveillance programs globally.",
+    "tags": [
+      "intelligence",
+      "covert operations",
+      "cold war",
+      "regime change",
+      "surveillance",
+      "us foreign policy"
+    ]
+  },
+  {
+    "id": "neoconservatism",
+    "label": "Neoconservatism",
+    "node_type": "ideology",
+    "category": "ideology",
+    "decade": "1970s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Neoconservatism",
+    "summary": "Political movement advocating American global dominance through military intervention, democracy promotion, and rejection of realism in foreign policy; dominated US policy under George W. Bush.",
+    "tags": [
+      "neocon",
+      "foreign policy",
+      "military intervention",
+      "iraq war",
+      "PNAC",
+      "hawkish",
+      "democracy promotion"
+    ]
+  },
+  {
+    "id": "european_union",
+    "label": "European Union",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1990s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/European_Union",
+    "summary": "Political and economic union of European states formed in 1993, representing the most ambitious supranational project in history — shared currency, open borders, common law.",
+    "tags": [
+      "europe",
+      "supranational",
+      "integration",
+      "eurozone",
+      "sovereignty",
+      "brexit",
+      "trade"
+    ]
   }
 ]

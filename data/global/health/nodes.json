@@ -315,5 +315,47 @@
       "fda",
       "evidence-based-medicine"
     ]
+  },
+  {
+    "id": "adverse_childhood_experiences",
+    "label": "Adverse Childhood Experiences (ACEs)",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1990s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Adverse_childhood_experiences",
+    "summary": "Traumatic events in childhood (abuse, neglect, household dysfunction) that correlate strongly with adult physical and mental health outcomes; landmark 1998 CDC-Kaiser study established dose-response relationship.",
+    "tags": [
+      "trauma",
+      "childhood",
+      "health outcomes",
+      "mental health",
+      "abuse",
+      "neglect",
+      "epidemiology",
+      "ACE score"
+    ]
+  },
+  {
+    "id": "conversion_therapy",
+    "label": "Conversion Therapy",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1960s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Conversion_therapy",
+    "summary": "Pseudoscientific practices attempting to change sexual orientation or gender identity; discredited by all major medical and psychiatric organizations, causes lasting psychological harm especially in minors.",
+    "tags": [
+      "lgbtq",
+      "pseudoscience",
+      "harm",
+      "religion",
+      "psychology",
+      "ban",
+      "human rights",
+      "torture"
+    ]
   }
 ]

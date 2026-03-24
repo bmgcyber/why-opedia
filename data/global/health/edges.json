@@ -283,5 +283,41 @@
     "label": "COVID vaccine development showed pharmaceutical lobbying's success in protecting IP over global access",
     "note": "The COVID vaccine IP controversy demonstrated pharma lobbying's sustained power: pharmaceutical companies lobbied successfully against TRIPS waiver provisions that would have allowed Generic manufacturing in developing countries. Pfizer, Moderna, and J&J lobbied against IP waivers, patent sharing, and technology transfer — maintaining monopoly pricing while millions in low-income countries went without vaccines. The COVID response showed both the triumph of pharmaceutical innovation and the lobbying infrastructure that protected profits over lives.",
     "confidence": "high"
+  },
+  {
+    "id": "adverse_childhood_experiences__collective_trauma",
+    "source": "adverse_childhood_experiences",
+    "target": "collective_trauma",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "ACEs and collective trauma both demonstrate how early traumatic experience reshapes neurological and psychological development",
+    "note": "ACEs and collective trauma share the fundamental mechanism: early traumatic experience (before coping systems are developed) produces lasting neurological, psychological, and physical changes. ACE research (CDC-Kaiser 1998) established dose-response: higher ACE scores predict higher rates of heart disease, cancer, mental illness, addiction, and early death. Collective trauma research shows similar intergenerational transmission: communities with high collective trauma (war, displacement, persistent discrimination) show elevated ACE rates in subsequent generations. The shared mechanism is trauma's neurobiological effect — HPA axis dysregulation, cortisol response changes — regardless of whether trauma is individual or collective.",
+    "confidence": "high"
+  },
+  {
+    "id": "adverse_childhood_experiences__narcissistic_abuse",
+    "source": "adverse_childhood_experiences",
+    "target": "narcissistic_abuse",
+    "type": "ENABLED",
+    "label": "High ACE scores are strongly associated with vulnerability to narcissistic abuse in adult relationships",
+    "note": "ACEs create psychological vulnerabilities that increase risk of becoming targets of narcissistic abuse in adulthood: disrupted attachment (ACE-related) reduces the secure base that enables recognition and escape from abusive relationships; trauma bonding mechanisms (intermittent reinforcement creating strong attachment to abusers) are easier to establish in people with early attachment disruption; people with high ACEs often have underdeveloped boundaries and over-responsibility for others' emotions that narcissistic abusers exploit. ACE research provides the developmental pathway explaining why early trauma increases adult relationship victimization risk.",
+    "confidence": "high"
+  },
+  {
+    "id": "conversion_therapy__evangelical_christianity",
+    "source": "conversion_therapy",
+    "target": "evangelical_christianity",
+    "type": "ENABLED",
+    "label": "Evangelical Christianity provided the theological motivation and institutional infrastructure for conversion therapy practices",
+    "note": "Conversion therapy was primarily organized and promoted by evangelical Christian organizations: Exodus International (largest conversion therapy network, shut down in 2013 with apology); Focus on the Family; American Family Association; various \"ex-gay\" ministries. The theological motivation is the belief that homosexuality is sinful and therefore changeable through prayer and behavioral modification. The institutional infrastructure is the evangelical church network. When Exodus International shut down with a public apology, its president acknowledged that conversion therapy caused lasting harm without producing the orientation change it promised — a remarkable institutional admission of harm.",
+    "confidence": "high"
+  },
+  {
+    "id": "conversion_therapy__anti_psychiatry_movement",
+    "source": "conversion_therapy",
+    "target": "anti_psychiatry_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both conversion therapy and anti-psychiatry reject psychiatric establishment authority, though for opposite ideological reasons",
+    "note": "Conversion therapy and the anti-psychiatry movement both challenge psychiatric establishment authority, representing different failures of the therapeutic relation. Anti-psychiatry (Szasz, Laing, Foucault) critiques psychiatry as social control dressed as medicine — pathologizing normal variation and deviance. Conversion therapy inverts this: it treats non-pathological variation (homosexuality, which APA removed from DSM in 1973) as pathology requiring treatment. Both challenge psychiatric authority but in opposite directions: anti-psychiatry expands what counts as normal; conversion therapy contracts it. Both demonstrate that psychiatric diagnosis is politically contested rather than purely scientific.",
+    "confidence": "medium"
   }
 ]
