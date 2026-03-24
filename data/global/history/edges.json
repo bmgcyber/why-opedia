@@ -3654,26 +3654,26 @@
     "confidence": "high"
   },
   {
-    "id": "gulf_war_1990__sept_11_attacks",
+    "id": "gulf_war_1990__september_11_attacks",
     "source": "gulf_war_1990",
-    "target": "sept_11_attacks",
+    "target": "september_11_attacks",
     "type": "ENABLED",
     "label": "Gulf War US military presence in Saudi Arabia became bin Laden's primary grievance",
     "note": "Osama bin Laden's primary stated justification for the 9/11 attacks was the presence of US military bases in Saudi Arabia following the Gulf War — violation of the sacred Arabian peninsula. The Gulf War thus directly produced the operational grievance that motivated Al-Qaeda's attack.",
     "confidence": "high"
   },
   {
-    "id": "soviet_afghan_war__sept_11_attacks",
+    "id": "soviet_afghan_war__september_11_attacks",
     "source": "soviet_afghan_war",
-    "target": "sept_11_attacks",
+    "target": "september_11_attacks",
     "type": "ENABLED",
     "label": "CIA mujahideen support created the organizational and ideological network that became Al-Qaeda",
     "note": "The CIA's Operation Cyclone funded and trained the Afghan mujahideen against the Soviet occupation, creating the organizational infrastructure, transnational jihadist network, and veteran fighters that became Al-Qaeda. Osama bin Laden himself was funded and connected through Pakistani ISI and Saudi channels tied to US support. The 9/11 attackers operated through networks with direct lineage to this CIA program.",
     "confidence": "high"
   },
   {
-    "id": "sept_11_attacks__iraq_war_wmd",
-    "source": "sept_11_attacks",
+    "id": "september_11_attacks__iraq_war_wmd",
+    "source": "september_11_attacks",
     "target": "iraq_war_wmd",
     "type": "ENABLED",
     "label": "9/11 provided the political context that made WMD claims for the Iraq War credible",
@@ -3723,6 +3723,69 @@
     "type": "ENABLED",
     "label": "Qin's book-burning and scholar-execution was a direct assault on Confucian intellectual tradition",
     "note": "Qin Shi Huang's 213 BCE book-burning — destruction of Confucian texts and execution of 460 Confucian scholars — was the defining confrontation between Legalist state authority and Confucian scholarly culture. The persecution established the enduring Chinese tension between state power and intellectual tradition, and made Confucianism a site of resistance against authoritarian centralization for two millennia.",
+    "confidence": "high"
+  },
+  {
+    "id": "stoicism__epicureanism",
+    "source": "stoicism",
+    "target": "epicureanism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Stoicism and Epicureanism are parallel Hellenistic responses to the same existential questions",
+    "note": "Stoicism (founded by Zeno, c. 300 BCE) and Epicureanism (Epicurus, c. 307 BCE) are parallel Hellenistic philosophical schools addressing the same questions (How do we achieve well-being in an uncertain world?) with contrasting answers: Stoics locate good in virtue and rational control; Epicureans locate it in pleasure (ataraxia — freedom from disturbance). Both reject Platonic metaphysics and Aristotelian teleology, focusing on practical ethics for non-philosophical citizens.",
+    "confidence": "high"
+  },
+  {
+    "id": "scholasticism__existentialism",
+    "source": "scholasticism",
+    "target": "existentialism",
+    "type": "ENABLED",
+    "label": "Existentialism emerged as a revolt against scholasticism's rationalist theological system",
+    "note": "Existentialism (Kierkegaard, Nietzsche, then Heidegger, Sartre) emerged partly as a revolt against the Scholastic rationalist system: the attempt to comprehend existence through logical categories (God, essence, universal) and deduce particular existence from universal principles. Kierkegaard's \"leap of faith\" and Nietzsche's rejection of Christian morality are direct responses to the Hegelian synthesis of Scholastic and Enlightenment rationalism.",
+    "confidence": "medium"
+  },
+  {
+    "id": "pol_pot__mao_zedong",
+    "source": "pol_pot",
+    "target": "mao_zedong",
+    "type": "ENABLED",
+    "label": "Pol Pot modeled Khmer Rouge ideology explicitly on Maoist peasant revolution",
+    "note": "Pol Pot explicitly modeled the Khmer Rouge on Maoist principles: peasant revolution against urban elites, the mass line, agrarian collectivization, and continuous revolution against class enemies. The Khmer Rouge's radical agrarianism (Year Zero, abolition of cities) can be read as Maoism taken to its logical extreme — a peasant revolution that categorically rejected urban modernity. The Chinese Cultural Revolution provided direct inspiration.",
+    "confidence": "high"
+  },
+  {
+    "id": "theodor_herzl__founding_of_israel",
+    "source": "theodor_herzl",
+    "target": "founding_of_israel",
+    "type": "ENABLED",
+    "label": "Herzl's Der Judenstaat (1896) established the Zionist program that produced the State of Israel",
+    "note": "Theodor Herzl's \"The Jewish State\" (1896) and the subsequent Zionist Congress (1897) established the political program that produced the State of Israel 51 years later: a Jewish national homeland in Palestine, established through legal immigration and negotiation with great powers. Herzl died before the state existed, but his organizational infrastructure (World Zionist Organization), political lobbying (Balfour Declaration), and ideological framing (nation = homeland = solution to antisemitism) directly produced the state.",
+    "confidence": "high"
+  },
+  {
+    "id": "pre_socratic_philosophy__stoicism",
+    "source": "pre_socratic_philosophy",
+    "target": "stoicism",
+    "type": "ENABLED",
+    "label": "Stoic physics was directly built on Pre-Socratic natural philosophy (Heraclitus especially)",
+    "note": "Stoic physics is built on Heraclitean foundations: the Stoic logos (rational principle immanent in all matter) is a direct development of Heraclitus's fire-logos. Stoic cosmology (pneuma, the rational fiery breath pervading the cosmos) derives from pre-Socratic natural philosophy. The Stoics are thus the heirs of pre-Socratic physics who combined it with Socratic ethics — a synthesis that made Stoicism the dominant philosophy of the Greek-Roman world.",
+    "confidence": "high"
+  },
+  {
+    "id": "epicureanism__liberation_theology",
+    "source": "epicureanism",
+    "target": "liberation_theology",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Epicureanism and Liberation Theology share the critique of suffering as spiritually valuable",
+    "note": "Epicurus and liberation theologians share a fundamental claim: unnecessary suffering is not spiritually valuable and should be reduced. Epicurus argued that the gods were not interested in human suffering and that eliminating fear (of death, of gods, of poverty) was the path to happiness. Liberation theology argues that God's \"preferential option for the poor\" means that material poverty is not God's will but injustice to be fought. Both traditions resist the sacralization of avoidable suffering.",
+    "confidence": "medium"
+  },
+  {
+    "id": "gothic_architecture__christian_sacred_art",
+    "source": "gothic_architecture",
+    "target": "christian_sacred_art",
+    "type": "ENABLED",
+    "label": "Gothic architecture was the spatial integration of all Christian sacred art forms",
+    "note": "Gothic cathedrals are the total integration of Christian sacred art: sculpture, stained glass, goldsmithing, illuminated manuscripts, and music (liturgy, polyphony) all found their context and greatest expression in the Gothic cathedral program. Gothic architecture is not simply a building style but a comprehensive aesthetic theology — the cathedral as a model of the New Jerusalem, where all sacred arts converged.",
     "confidence": "high"
   }
 ]

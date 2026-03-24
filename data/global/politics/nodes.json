@@ -1014,5 +1014,104 @@
     ],
     "scope": "global/politics",
     "cross_scope": false
+  },
+  {
+    "id": "neoliberalism",
+    "label": "Neoliberalism",
+    "node_type": "reference",
+    "category": "ideology",
+    "decade": "1970s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Neoliberalism",
+    "summary": "Neoliberalism — the ideological program of market liberalization, deregulation, privatization, and reduced state expenditure — emerged from Chicago School economics (Friedman, Hayek) and was implemented by Thatcher (UK, 1979), Reagan (US, 1981), and the Washington Consensus (IMF/World Bank structural adjustment). The program restructured global capitalism: rising inequality, financialization, labor precarity, corporate consolidation, and the hollowing of social democracy. Whether \"neoliberalism\" names a coherent project or a retrospective critique remains contested.",
+    "tags": [
+      "economics",
+      "chicago-school",
+      "thatcher",
+      "reagan",
+      "privatization",
+      "inequality",
+      "imf"
+    ]
+  },
+  {
+    "id": "black_lives_matter",
+    "label": "Black Lives Matter Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "2010s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Lives_Matter",
+    "summary": "Black Lives Matter (founded 2013 by Alicia Garza, Patrisse Cullors, Opal Tometi after Trayvon Martin's killing) became the largest civil rights movement in American history following the 2020 murder of George Floyd. The movement contested police violence, mass incarceration, and systemic racism, generating the largest single-day protest in US history. BLM also became the central target of conservative counter-mobilization (\"All Lives Matter,\" \"Blue Lives Matter\"), demonstrating how social movements generate counter-movements.",
+    "tags": [
+      "racial-justice",
+      "police-violence",
+      "protest",
+      "george-floyd",
+      "civil-rights",
+      "systemic-racism"
+    ]
+  },
+  {
+    "id": "brexit",
+    "label": "Brexit",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "2010s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Brexit",
+    "summary": "Brexit — the United Kingdom's 2016 referendum vote to leave the European Union (52% Leave, 48% Remain) and subsequent 2020 departure — represents the first major reversal of post-war European integration. The Leave campaign operationalized the Overton window technique of outrageous claims (\"£350m/week to NHS\"), social media micro-targeting (Cambridge Analytica), immigration anxiety, and \"take back control\" sovereignty narrative. Brexit's economic consequences (reduced trade, labor shortages, Scotland/Northern Ireland tensions) have been significantly negative by most measures.",
+    "tags": [
+      "eu",
+      "uk",
+      "sovereignty",
+      "populism",
+      "immigration",
+      "referendum",
+      "cambridge-analytica"
+    ]
+  },
+  {
+    "id": "military_industrial_complex",
+    "label": "Military-Industrial Complex",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1950s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Military%E2%80%93industrial_complex",
+    "summary": "Dwight Eisenhower's 1961 farewell address coined \"military-industrial complex\" to warn against the permanent war economy's threat to democratic governance: the structural alignment of military, defense industry, and congressional interests that creates institutional pressure for continuous military spending regardless of strategic necessity. The complex has grown from Cold War concerns to the post-9/11 security state, encompassing defense contractors (Lockheed, Raytheon, Boeing), the intelligence community, think tanks, and the revolving door between Pentagon and industry.",
+    "tags": [
+      "war",
+      "defense-industry",
+      "eisenhower",
+      "pentagon",
+      "lobbying",
+      "surveillance",
+      "imperialism"
+    ]
+  },
+  {
+    "id": "right_wing_populism",
+    "label": "Right-Wing Populism (Global)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "2010s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Right-wing_populism",
+    "summary": "The 2010s-2020s global wave of right-wing populism — Trump (US), Bolsonaro (Brazil), Orbán (Hungary), Modi (India), Erdoğan (Turkey), Duterte (Philippines), Le Pen (France), Meloni (Italy), Milei (Argentina) — shares structural features: anti-elite rhetoric combined with oligarchic governance, ethnic/religious nationalism, media capture, democratic backsliding, and scapegoating of minority outgroups. The wave represents the most significant threat to liberal democratic order since the 1930s fascist wave, with which it shares mechanisms despite differing in degree.",
+    "tags": [
+      "populism",
+      "nationalism",
+      "trump",
+      "bolsonaro",
+      "modi",
+      "democratic-backsliding",
+      "authoritarianism"
+    ]
   }
 ]

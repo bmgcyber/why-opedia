@@ -1402,5 +1402,68 @@
     "label": "January 6 normalized the idea that election outcomes could be rejected by force",
     "note": "January 6's normalization consequence: 147 Republican members of Congress voted to reject certified electoral votes after the attack. The \"Big Lie\" became Republican Party orthodoxy. Election deniers ran for and won positions as secretaries of state. The attack demonstrated that democratic backsliding could proceed without serious legal consequence — an invitation to future attempts.",
     "confidence": "high"
+  },
+  {
+    "id": "ronald_reagan__neoliberalism",
+    "source": "ronald_reagan",
+    "target": "neoliberalism",
+    "type": "ENABLED",
+    "label": "Reagan implemented neoliberalism as US domestic policy through Reaganomics",
+    "note": "Reagan's \"Reaganomics\" (tax cuts, deregulation, anti-union policy starting with PATCO, social spending cuts) was the US implementation of neoliberal ideology. Combined with Thatcher's UK implementation, Reagan established neoliberalism as the dominant policy framework for the following four decades. Supply-side economics was the political vehicle for neoliberal wealth redistribution upward.",
+    "confidence": "high"
+  },
+  {
+    "id": "neoliberalism__citizens_united",
+    "source": "neoliberalism",
+    "target": "citizens_united",
+    "type": "ENABLED",
+    "label": "Neoliberal corporate personhood doctrine culminated in Citizens United",
+    "note": "Citizens United v. FEC (2010) is the constitutional expression of neoliberal ideology: corporations as persons with First Amendment rights, money as speech, and therefore unlimited corporate political spending as protected expression. The legal framework (developed through a series of cases from Buckley v. Valeo 1976 onward) reflects the neoliberal project of treating corporations as the primary units of civil society.",
+    "confidence": "high"
+  },
+  {
+    "id": "civil_rights_movement__black_lives_matter",
+    "source": "civil_rights_movement",
+    "target": "black_lives_matter",
+    "type": "ENABLED",
+    "label": "BLM built on Civil Rights Movement infrastructure while responding to its incomplete project",
+    "note": "BLM explicitly positions itself as continuing the Civil Rights Movement's unfinished project: the movement adopted nonviolent direct action tactics, drew on SNCC organizing models, and invoked MLK's \"fierce urgency of now\" while also critiquing the respectability politics and integrationist focus that limited earlier movements. The incomplete project: legal equality achieved in 1960s has not produced material equality or ended police violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "cambridge_analytica__brexit",
+    "source": "cambridge_analytica",
+    "target": "brexit",
+    "type": "ENABLED",
+    "label": "Cambridge Analytica provided micro-targeted voter influence operation for the Leave campaign",
+    "note": "The Leave.EU campaign used Cambridge Analytica-adjacent services for psychographic micro-targeting, while Vote Leave used AggregateIQ (connected to SCL/Cambridge Analytica). The ICO investigation found illegal data use by both Leave campaigns. Brexit was the first major election where social media micro-targeting and psychographic profiling were central to the campaign strategy.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war__military_industrial_complex",
+    "source": "cold_war",
+    "target": "military_industrial_complex",
+    "type": "ENABLED",
+    "label": "The Cold War created the permanent war economy Eisenhower warned against",
+    "note": "The Cold War institutionalized what Eisenhower warned against: a permanent state of military mobilization requiring continuous defense spending, creating constituencies (industry, labor, military, congressional districts) whose economic interests required maintaining threat levels regardless of strategic reality. The complex Eisenhower identified in 1961 never demobilized after the Cold War ended; it transformed into the post-9/11 security state.",
+    "confidence": "high"
+  },
+  {
+    "id": "right_wing_populism__trump_maga",
+    "source": "right_wing_populism",
+    "target": "trump_maga",
+    "type": "ENABLED",
+    "label": "Trump/MAGA is the US expression of the global right-wing populist wave",
+    "note": "Trump/MAGA shares ideological and tactical features with the global populist wave: anti-elite rhetoric masking oligarchic policy, ethnic nationalism, media capture attempts, democratic norm erosion, and scapegoating of minorities (immigrants, Muslims, BLM protesters). The global wave preceded Trump (Hungary's Orbán, India's Modi) and continued after him (Bolsonaro, Milei), situating MAGA as a national expression of a structural global phenomenon.",
+    "confidence": "high"
+  },
+  {
+    "id": "right_wing_populism__brexit",
+    "source": "right_wing_populism",
+    "target": "brexit",
+    "type": "PRODUCED",
+    "label": "Brexit was the UK expression of the right-wing populist wave",
+    "note": "Brexit deployed the same playbook as global right-wing populism: nationalist sovereignty framing (\"Take Back Control\"), elite-bashing (Brussels technocrats), immigration fear, and media capture (Murdoch papers). Nigel Farage's UKIP/Brexit Party mobilized the same demographic (older, working-class, non-metropolitan, educational resentment) that Trump mobilized in the US. The results — promised economic benefits did not materialize — also match the global populist pattern.",
+    "confidence": "high"
   }
 ]

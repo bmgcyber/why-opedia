@@ -4508,9 +4508,9 @@
     "confidence": "high"
   },
   {
-    "id": "availability_heuristic__sept_11_attacks",
+    "id": "availability_heuristic__september_11_attacks",
     "source": "availability_heuristic",
-    "target": "sept_11_attacks",
+    "target": "september_11_attacks",
     "type": "ENABLED",
     "label": "9/11's vivid imagery made terrorism risk availability-heuristic-distorted for decades",
     "note": "9/11's vivid, repeatedly broadcast imagery made terrorism one of the most availability-heuristic-inflated risks in American history: post-9/11 Americans were more afraid of terrorism (which killed ~3,000/year at peak) than car accidents (43,000/year), medical errors (250,000/year), or domestic violence. The availability heuristic distortion justified the Iraq War, the Patriot Act, and mass surveillance by making the threat feel constant.",
@@ -4793,6 +4793,105 @@
     "type": "CAUSED",
     "label": "Local news collapse is the structural driver of the broader information ecosystem collapse",
     "note": "The information ecosystem collapse begins with local news: local journalism provided the factual substrate (verified events, public records, source relationships) on which regional and national journalism built. When local papers close, the fact-production infrastructure disappears, creating \"information voids\" that social media and partisan media fill with unverified content. The national polarization crisis is downstream of the local news funding crisis.",
+    "confidence": "high"
+  },
+  {
+    "id": "resource_curse__military_industrial_complex",
+    "source": "resource_curse",
+    "target": "military_industrial_complex",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Military-industrial complex and resource curse share the captured-state mechanism",
+    "note": "The resource curse (oil wealth distorting political economy) and the military-industrial complex share the same mechanism: concentrated industry captures the state apparatus that should regulate it, orienting government policy toward resource/defense extraction rather than public welfare. Both involve what economists call \"rent-seeking\" — using political power to extract wealth rather than create it. The petro-state and the national security state are variants of the same captured-state pattern.",
+    "confidence": "medium"
+  },
+  {
+    "id": "democratic_backsliding__right_wing_populism",
+    "source": "democratic_backsliding",
+    "target": "right_wing_populism",
+    "type": "ENABLED",
+    "label": "Right-wing populism is the contemporary mechanism of democratic backsliding",
+    "note": "Levitsky and Ziblatt's \"How Democracies Die\" (2018) documented how contemporary democratic backsliding differs from 20th-century coups: it occurs through elected leaders who gradually subvert democratic institutions while maintaining electoral legitimacy. Right-wing populism is the political vehicle: anti-elite rhetoric, polarization, and norm erosion create the political space for executive aggrandizement, judicial capture, and media monopolization.",
+    "confidence": "high"
+  },
+  {
+    "id": "overton_window__neoliberalism",
+    "source": "overton_window",
+    "target": "neoliberalism",
+    "type": "ENABLED",
+    "label": "Neoliberalism's Mont Pelerin Society systematically moved the Overton window over 40 years",
+    "note": "The neoliberal Overton window shift is the most documented long-term ideological project in modern political history: the Mont Pelerin Society (Hayek, Friedman, 1947) was explicitly designed to make government intervention \"unthinkable\" and market solutions \"obvious.\" Through think tanks (Heritage Foundation, Cato, IEA), university chairs, and media relationships, neoliberalism moved from fringe economics to unquestioned policy orthodoxy between 1947 and 1980.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__neoliberalism",
+    "source": "structural_violence",
+    "target": "neoliberalism",
+    "type": "PRODUCED",
+    "label": "Neoliberal structural adjustment programs institutionalized structural violence in Global South economies",
+    "note": "IMF/World Bank structural adjustment programs — neoliberalism applied to indebted Global South countries — produced structural violence through conditionality: privatization of water, healthcare, and education; elimination of food subsidies; currency devaluation; and public sector wage cuts. These programs, imposed as conditions for debt restructuring, produced poverty, malnutrition, and preventable death at scale. Klein's \"The Shock Doctrine\" documents the pattern.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__black_lives_matter",
+    "source": "in_group_out_group_dynamics",
+    "target": "black_lives_matter",
+    "type": "CAUSED",
+    "label": "BLM/All Lives Matter conflict exemplifies asymmetric in-group/out-group grievance contestation",
+    "note": "The BLM/\"All Lives Matter\" conflict is a textbook in-group/out-group dynamics case: \"Black Lives Matter\" is a specific claim about disproportionate state violence against one group; \"All Lives Matter\" reframes it as an inclusive statement that erases the specific grievance. The counter-slogan (\"Blue Lives Matter,\" \"All Lives Matter\") refuses to acknowledge out-group-specific harm by insisting on in-group universalism — a classic in-group defensive move.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__brexit",
+    "source": "manufactured_consent",
+    "target": "brexit",
+    "type": "ENABLED",
+    "label": "Brexit's Leave campaign was manufactured consent operationalized through social media micro-targeting",
+    "note": "The Brexit Leave campaign represents manufactured consent at scale: the \"£350m/week to the NHS\" lie was deployed knowing it was false (Boris Johnson knew before the campaign); immigration threat was amplified through emotional imagery; and Cambridge Analytica-adjacent operations micro-targeted psychographic profiles. The manufactured consent operated not through mass media but through personalized algorithmic delivery — an update to Bernays's mass persuasion for the digital era.",
+    "confidence": "high"
+  },
+  {
+    "id": "hegelian_dialectic__existentialism",
+    "source": "hegelian_dialectic",
+    "target": "existentialism",
+    "type": "ENABLED",
+    "label": "Existentialism emerged as the post-Hegelian revolt against rational systematization",
+    "note": "Kierkegaard (the \"father of existentialism\") explicitly argued against Hegel's dialectical system: the existing individual — with concrete suffering, anxiety, and choice — is irreducible to any rational system. Nietzsche's critique of Enlightenment rationality continued the anti-Hegelian trajectory. Heidegger's Being and Time can be read as the attempt to ask the existential question Hegel's system overlooked: what is it to exist at all?",
+    "confidence": "high"
+  },
+  {
+    "id": "hegelian_dialectic__postmodernism_philosophy",
+    "source": "hegelian_dialectic",
+    "target": "postmodernism_philosophy",
+    "type": "ENABLED",
+    "label": "Postmodernism's critique of grand narratives is a radicalization of Hegelian historical consciousness",
+    "note": "Hegel's historical consciousness — all truth is historically situated, all thought reflects its era's contradictions — was radicalized by postmodernism into the claim that no historical consciousness can escape its own situatedness to reach universal truth. The Frankfurt School (Horkheimer, Adorno) was the mediating figure: they applied Hegelian dialectic to Enlightenment itself, finding that enlightenment produces its opposite (mythology, domination). Postmodernism generalized this to all grand narratives.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_contract_theory__enlightenment_philosophy",
+    "source": "social_contract_theory",
+    "target": "enlightenment_philosophy",
+    "type": "ENABLED",
+    "label": "Social contract theory is the political application of Enlightenment individual rationality",
+    "note": "Enlightenment political philosophy (Locke, Rousseau, Kant) applied the core Enlightenment claim — rational individuals as the primary moral and political unit — to the question of legitimate authority: governments derive legitimacy from the rational consent of individuals (Locke), the general will of citizens (Rousseau), or universal rational law (Kant). Social contract theory is Enlightenment epistemology applied to politics.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__khmer_rouge_genocide",
+    "source": "dehumanization",
+    "target": "khmer_rouge_genocide",
+    "type": "CAUSED",
+    "label": "Khmer Rouge dehumanization of \"old people\" and \"enemies\" enabled the genocide",
+    "note": "The Khmer Rouge genocide required systematic dehumanization: \"old people\" (pre-revolutionary society) were corrupted, intellectuals were tainted (the \"four-eyes\" purge of anyone wearing glasses), ethnic Vietnamese and Chinese were racial enemies, and \"new people\" (urban evacuees) were suspect by definition. The Year Zero ideology made everyone outside the peasant revolutionary vanguard effectively subhuman — eliminating their moral standing and making killing morally acceptable.",
+    "confidence": "high"
+  },
+  {
+    "id": "cultural_hegemony__enlightenment_philosophy",
+    "source": "cultural_hegemony",
+    "target": "enlightenment_philosophy",
+    "type": "ENABLED",
+    "label": "European Enlightenment philosophy became the cultural hegemony of Western colonialism",
+    "note": "Enlightenment philosophy functioned as cultural hegemony for European colonialism: the claim that reason, individual rights, and progress were universal values — not specifically European — made Western colonial domination appear as liberation or civilization. Kant's universalism, Locke's liberal rights, and Mill's utilitarianism were all compatible with slavery, colonialism, and indigenous dispossession through convenient exceptions (Locke's \"waste lands,\" Mill's \"barbarians\"). Postcolonial theory (Fanon, Said) is primarily the critique of Enlightenment as hegemony.",
     "confidence": "high"
   }
 ]
