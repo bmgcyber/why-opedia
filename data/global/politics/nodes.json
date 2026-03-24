@@ -1523,5 +1523,88 @@
       "climate refugees",
       "right-wing populism"
     ]
+  },
+  {
+    "id": "human_rights_declaration",
+    "label": "Universal Declaration of Human Rights",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1940s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights",
+    "summary": "UN document (1948) establishing universal human rights as international norm; drafted in response to Holocaust; foundation of international human rights law though not legally binding; Eleanor Roosevelt chaired drafting committee.",
+    "tags": [
+      "human rights",
+      "UN",
+      "eleanor roosevelt",
+      "1948",
+      "post-WWII",
+      "international law",
+      "genocide prevention"
+    ]
+  },
+  {
+    "id": "financial_crisis_2008",
+    "label": "2008 Financial Crisis",
+    "node_type": "event",
+    "category": "event",
+    "decade": "2000s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008",
+    "summary": "Global financial collapse triggered by US subprime mortgage market failure; produced the Great Recession (2008-2012); $13 trillion in household wealth destroyed in the US; banks bailed out, homeowners foreclosed; produced Occupy, Tea Party, and eventual populist backlash.",
+    "tags": [
+      "financial crisis",
+      "recession",
+      "subprime",
+      "mortgage",
+      "derivatives",
+      "bank bailout",
+      "foreclosure",
+      "inequality"
+    ]
+  },
+  {
+    "id": "police_brutality",
+    "label": "Police Brutality & Accountability",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1960s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Police_brutality_in_the_United_States",
+    "summary": "Excessive use of force by law enforcement, disproportionately affecting Black, Indigenous, and Latino communities; documented by citizen video since Rodney King (1991); central issue of the Black Lives Matter movement; connected to qualified immunity doctrine.",
+    "tags": [
+      "police",
+      "accountability",
+      "use of force",
+      "BLM",
+      "qualified immunity",
+      "racial disparities",
+      "reform",
+      "abolition"
+    ]
+  },
+  {
+    "id": "surveillance_state",
+    "label": "Mass Surveillance State",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2000s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Mass_surveillance",
+    "summary": "Government programs of bulk data collection and mass surveillance of citizens without individualized suspicion; NSA PRISM program (revealed by Snowden 2013) collected data on millions; China's social credit system; facial recognition.",
+    "tags": [
+      "surveillance",
+      "NSA",
+      "PRISM",
+      "Snowden",
+      "facial recognition",
+      "social credit",
+      "privacy",
+      "civil liberties"
+    ]
   }
 ]

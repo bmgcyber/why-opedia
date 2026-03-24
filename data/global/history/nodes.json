@@ -4212,5 +4212,69 @@
       "citizenship",
       "exclusion"
     ]
+  },
+  {
+    "id": "chile_coup_1973",
+    "label": "Chile 1973 Coup (Pinochet)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1970s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat",
+    "summary": "CIA-backed military coup against democratically elected socialist President Salvador Allende; General Pinochet's 17-year military dictatorship killed 3,000+, tortured 40,000+; implemented neoliberal \"Chicago Boys\" economic policies; became Cold War proxy war archetype.",
+    "tags": [
+      "chile",
+      "pinochet",
+      "allende",
+      "coup",
+      "CIA",
+      "neoliberalism",
+      "dirty war",
+      "chicago boys",
+      "cold war"
+    ]
+  },
+  {
+    "id": "bay_of_pigs",
+    "label": "Bay of Pigs Invasion",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion",
+    "summary": "CIA-trained Cuban exile invasion of Cuba (April 1961), authorized by Kennedy; catastrophically failed; strengthened Castro's government and drove Cuba into Soviet alliance; contributed to Soviet perception of Kennedy weakness that enabled Cuban Missile Crisis.",
+    "tags": [
+      "Cuba",
+      "CIA",
+      "Kennedy",
+      "cold war",
+      "covert operation",
+      "exile",
+      "failure",
+      "1961"
+    ]
+  },
+  {
+    "id": "george_orwell",
+    "label": "George Orwell",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1940s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/George_Orwell",
+    "summary": "British author whose \"1984\" (totalitarian surveillance state) and \"Animal Farm\" (revolution betrayed by authoritarianism) became defining texts for understanding propaganda, surveillance, and authoritarian language; coined \"doublethink,\" \"newspeak,\" \"memory hole.\"",
+    "tags": [
+      "1984",
+      "animal farm",
+      "surveillance",
+      "totalitarianism",
+      "doublethink",
+      "newspeak",
+      "propaganda",
+      "literature"
+    ]
   }
 ]

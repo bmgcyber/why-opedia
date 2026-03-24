@@ -1762,5 +1762,77 @@
     "label": "Immigration is the central mobilizing issue of right-wing populism in both Europe and the US, providing the ethnic threat narrative",
     "note": "Immigration is the primary mobilizing issue for right-wing populism in developed democracies: Trump's 2015 campaign launch centered on Mexican immigration; Brexit was primarily about immigration from Eastern Europe and concern about Muslim immigration from the Middle East; Marine Le Pen's National Rally made immigration its central issue; Viktor Orban built his authoritarian state around anti-immigration politics. The right-wing populist immigration frame converts economic anxiety, cultural change anxiety, and racial anxiety into a single target — the immigrant — enabling a coalition that would otherwise have conflicting interests. The Great Replacement conspiracy theory is the ideological distillation of this frame.",
     "confidence": "high"
+  },
+  {
+    "id": "brexit__european_union",
+    "source": "brexit",
+    "target": "european_union",
+    "type": "ENABLED",
+    "label": "Brexit challenged the EU project and triggered existential debates about European integration",
+    "note": "Brexit was the most serious challenge to European integration since the EU's formation: a founding member state leaving demonstrated that EU membership was reversible; the referendum result drove EU reform debates about democratic deficit; subsequent near-Brexit votes in France (Le Pen) and Italy (Salvini) demonstrated Brexit's potential as right-wing populist model. Brexit also demonstrated the EU's negotiating leverage: the UK's economic damage from leaving was substantially larger than had been claimed during the campaign, partly because the EU proved more cohesive than Brexiteers expected. Brexit's economic damage (UK the only G7 economy smaller than pre-Brexit projected trajectory by 2023) became an argument for EU membership in other countries.",
+    "confidence": "high"
+  },
+  {
+    "id": "brexit__immigration_crisis",
+    "source": "brexit",
+    "target": "immigration_crisis",
+    "type": "ENABLED",
+    "label": "Immigration anxiety — particularly Eastern European EU freedom of movement and anti-Muslim sentiment — was the primary emotional driver of Brexit",
+    "note": "Brexit was primarily an immigration vote: the \"Take Back Control\" slogan was explicitly about controlling immigration (EU freedom of movement had brought 3 million EU citizens to the UK); UKIP's \"Breaking Point\" poster showing refugees queued at a border deliberately conflated EU freedom of movement (primarily white Eastern Europeans) with refugee crisis (primarily Middle Eastern and African refugees); Farage acknowledged the poster was disgraceful even by his standards but it captured the emotional truth of the Leave campaign's demographic. The economic case for Brexit was always weak; the immigration case was strong among those who felt demographic change threatened their communities.",
+    "confidence": "high"
+  },
+  {
+    "id": "brexit__right_wing_populism",
+    "source": "brexit",
+    "target": "right_wing_populism",
+    "type": "ENABLED",
+    "label": "Brexit was both an expression of and accelerant for European right-wing populism",
+    "note": "Brexit and European right-wing populism are mutually reinforcing: the Leave campaign used right-wing populist framing (people vs. elite/EU bureaucracy); the referendum result validated the populist political strategy across Europe; Marine Le Pen, Matteo Salvini, and Viktor Orban explicitly cited Brexit as inspiration; Trump called Brexit \"your independence day.\" The Brexit result demonstrated that a right-wing populist political coalition (working-class economic anxiety + elderly cultural anxiety + business euroscepticism) could produce majority referendum outcomes. Brexit accelerated European right-wing populism by proving the formula worked.",
+    "confidence": "high"
+  },
+  {
+    "id": "nuremberg_trials__human_rights_declaration",
+    "source": "nuremberg_trials",
+    "target": "human_rights_declaration",
+    "type": "PRODUCED",
+    "label": "Nuremberg established the principle that individual human rights transcend state sovereignty; the UDHR institutionalized this principle",
+    "note": "The Nuremberg trials and UDHR are the twin institutional responses to the Holocaust: Nuremberg established that states cannot violate individual rights by claiming sovereign authority (crimes against humanity transcend state jurisdiction); the UDHR (1948) codified universal rights that all humans possess regardless of citizenship. Both were drafted simultaneously by overlapping teams; both drew on the specific horror of the Holocaust as the motivating case; both were products of the immediate post-war political moment when establishing international human rights norms was possible. Together they represent the post-WWII attempt to prevent future Holocausts through international law — with partial success.",
+    "confidence": "high"
+  },
+  {
+    "id": "human_rights_declaration__decolonization_movement",
+    "source": "human_rights_declaration",
+    "target": "decolonization_movement",
+    "type": "ENABLED",
+    "label": "The UDHR's universal rights principle was weaponized by colonized peoples against European powers who had drafted it with colonialism exempted",
+    "note": "The UDHR was drafted with a fundamental hypocrisy: the European powers who championed universal rights maintained colonial empires that systematically violated those rights; the drafting excluded colonies from the rights framework. But colonized peoples used the UDHR's own language to demand independence: Ho Chi Minh quoted the Declaration of Independence and UDHR in Vietnamese independence declarations; African decolonization leaders invoked self-determination as a universal right; the UN framework the UDHR established created the institutional space for decolonization debates. The UDHR's gap between principle and colonial practice became an intellectual weapon that undermined colonialism's legitimacy.",
+    "confidence": "high"
+  },
+  {
+    "id": "financial_crisis_2008__neoliberalism",
+    "source": "financial_crisis_2008",
+    "target": "neoliberalism",
+    "type": "ENABLED",
+    "label": "The 2008 crisis was produced by three decades of neoliberal financial deregulation and the resulting shadow banking system",
+    "note": "The 2008 financial crisis was a neoliberal policy failure: financial deregulation (Gramm-Leach-Bliley 1999 repealing Glass-Steagall; Commodity Futures Modernization Act 2000 exempting derivatives from regulation) enabled the shadow banking system; the \"efficient market hypothesis\" (prices always reflect true value, so bubbles are impossible) prevented regulators from seeing the housing bubble; regulatory capture of the SEC and federal bank regulators prevented enforcement of existing rules; the \"too big to fail\" problem was the direct result of allowing megabank consolidation. The crisis demonstrated that unregulated financial markets are inherently unstable — the Keynesian insight that neoliberalism had abandoned.",
+    "confidence": "high"
+  },
+  {
+    "id": "financial_crisis_2008__austerity",
+    "source": "financial_crisis_2008",
+    "target": "austerity",
+    "type": "PRODUCED",
+    "label": "The 2008 crisis and bank bailouts produced the debt conditions that austerity policy then imposed, punishing public services for private sector failure",
+    "note": "The 2008 financial crisis produced austerity through a specific political mechanism: bank bailouts (TARP in the US, bank recapitalizations in Europe) converted private financial sector debt into public debt; governments then faced pressure to reduce the deficits created by bailouts and automatic stabilizers; neoliberal orthodoxy (austerity as the response to deficit) drove policy in Europe (EU/IMF/ECB troika) and the US (2010 Tea Party, 2011 deficit ceiling crisis); the result was that the financial sector that caused the crisis was protected while public services were cut. Austerity was the wrong policy response (as Keynesian economists argued throughout) — it prolonged recessions rather than enabling recovery.",
+    "confidence": "high"
+  },
+  {
+    "id": "financial_crisis_2008__right_wing_populism",
+    "source": "financial_crisis_2008",
+    "target": "right_wing_populism",
+    "type": "PRODUCED",
+    "label": "The 2008 financial crisis and bank bailouts while homeowners were foreclosed was the economic shock that produced Tea Party, MAGA, and Brexiteers",
+    "note": "The 2008 financial crisis produced the populist backlash of the 2010s: the optics of $700 billion bank bailouts (TARP) while 10 million families were foreclosed produced legitimate rage at elite impunity; both Tea Party (right-wing populist, anti-government) and Occupy Wall Street (left-wing populist, anti-corporate) were immediate 2008-2010 responses; the Tea Party ultimately won the institutional battle (2010 midterms, 2016 Trump); MAGA's \"drain the swamp\" rhetoric is directly descended from 2008 bank bailout rage. The crisis delegitimized economic elites (banks, regulators, economists) — the same delegitimization that enables right-wing populism.",
+    "confidence": "high"
   }
 ]

@@ -4390,5 +4390,68 @@
     "label": "Athenian democratic culture created the conditions for philosophical inquiry that produced Socrates, Plato, and Aristotle",
     "note": "Athenian democracy produced the philosophical tradition through specific institutional conditions: the Athenian agora was a space for public debate and intellectual exchange; democratic culture valued rhetoric and argumentation; Athenian citizens had sufficient leisure (supported by slave labor and empire) to engage in philosophical inquiry; the Assembly's tradition of public debate made persuasion a valuable skill, driving demand for philosophical education. Socrates's death by democratic vote (399 BCE) also demonstrates democracy's limits and the tension between democratic majority and intellectual freedom. The trial of Socrates became the foundation for liberal arguments about free speech and the rights of philosophical inquiry against majoritarian censorship.",
     "confidence": "high"
+  },
+  {
+    "id": "central_intelligence_agency__chile_coup_1973",
+    "source": "central_intelligence_agency",
+    "target": "chile_coup_1973",
+    "type": "ENABLED",
+    "label": "The CIA organized and executed the 1973 Chilean coup against Allende through years of economic destabilization and military promotion",
+    "note": "The CIA's role in the 1973 Chilean coup was systematic and documented (Church Committee, declassified State Department documents): Project FUBELT (approved by Nixon/Kissinger) authorized CIA operations to prevent Allende's inauguration (1970) and then destabilize his government (1971-73); the CIA funded opposition media (El Mercurio), supported strike organizers, promoted anti-Allende sentiment in the military; the 1973 coup was carried out by Pinochet with CIA support. Chile 1973 became the definitive case study in US Cold War covert regime change against a democratic socialist government. The \"economic disruption\" that preceded the coup (making the economy \"scream\" per Kissinger) was deliberately organized to create the conditions for military intervention.",
+    "confidence": "high"
+  },
+  {
+    "id": "chile_coup_1973__neoliberalism",
+    "source": "chile_coup_1973",
+    "target": "neoliberalism",
+    "type": "PRODUCED",
+    "label": "Pinochet's Chile was the first real-world experiment in neoliberal economic policy, implemented through military dictatorship",
+    "note": "The Pinochet regime's economic policy was a planned neoliberal experiment: Milton Friedman and the \"Chicago Boys\" (Chilean economists trained at University of Chicago) implemented comprehensive neoliberal reforms — privatization, deregulation, free trade, pension privatization — in Chile before they were adopted elsewhere. Chile under Pinochet became the neoliberal template: the economic reforms that Reagan and Thatcher later implemented in democracies were first tested under military dictatorship. The experiment's requirement for authoritarian enforcement is revealing — implementing neoliberal reforms comprehensively required eliminating the democratic opposition that would otherwise have prevented them. Pinochet's Chile demonstrated that neoliberalism, in its full form, was not compatible with democracy.",
+    "confidence": "high"
+  },
+  {
+    "id": "central_intelligence_agency__bay_of_pigs",
+    "source": "central_intelligence_agency",
+    "target": "bay_of_pigs",
+    "type": "PRODUCED",
+    "label": "The CIA trained, organized, and led the Bay of Pigs invasion, then failed to provide the air support that might have made it succeed",
+    "note": "The Bay of Pigs was a CIA operation from inception: Eisenhower authorized CIA training of Cuban exiles (1960); Kennedy inherited and approved the plan reluctantly; the CIA's operational plan assumed either air superiority (which Kennedy refused to provide to maintain deniability) or a popular uprising against Castro (which did not occur). The failure combined CIA operational incompetence (tactical planning failures), Kennedy's political caution (withdrawing air support), and the plan's fundamental misreading of Cuban politics (overestimating anti-Castro sentiment). The Bay of Pigs failure was significant for multiple reasons: it strengthened Castro; it damaged Kennedy's credibility with Khrushchev; it convinced Kennedy to rely less on CIA advice, contributing to his management of the subsequent Missile Crisis.",
+    "confidence": "high"
+  },
+  {
+    "id": "bay_of_pigs__cuban_missile_crisis",
+    "source": "bay_of_pigs",
+    "target": "cuban_missile_crisis",
+    "type": "PRODUCED",
+    "label": "Bay of Pigs failure drove Cuba into Soviet military alliance, directly enabling the Soviet missile deployment that caused the Missile Crisis",
+    "note": "The causal chain from Bay of Pigs to Cuban Missile Crisis is direct: the US invasion attempt confirmed Cuba's need for Soviet military protection; Soviet missile deployment to Cuba was explicitly justified as deterring a second US invasion; Khrushchev's perception of Kennedy's weakness (demonstrated by Bay of Pigs failure and subsequent Vienna summit) made him willing to risk the deployment. Without the Bay of Pigs, Cuba might not have sought Soviet missiles; without Cuba having sought Soviet missiles, the Missile Crisis might not have occurred. The Missile Crisis was partly produced by CIA operational failure.",
+    "confidence": "high"
+  },
+  {
+    "id": "george_orwell__propaganda",
+    "source": "george_orwell",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "Orwell's \"1984\" and \"Animal Farm\" provided the conceptual vocabulary for understanding propaganda and totalitarian language",
+    "note": "\"1984\" (1949) and \"Animal Farm\" (1945) gave political culture concepts that have become essential for propaganda analysis: \"newspeak\" (language designed to prevent thought rather than enable it); \"doublethink\" (holding contradictory beliefs simultaneously); \"memory hole\" (systematic destruction of historical records); \"two minutes hate\" (ritualized emotional manipulation); \"Oceania has always been at war with Eurasia\" (constant historical revision). These concepts function as diagnostic tools — when political discourse exhibits these patterns, Orwell's framework enables recognition. Orwell himself was a Spanish Civil War veteran who had experienced both fascist and Stalinist propaganda; his concepts were inductively derived from observation.",
+    "confidence": "high"
+  },
+  {
+    "id": "george_orwell__surveillance_state",
+    "source": "george_orwell",
+    "target": "surveillance_state",
+    "type": "ENABLED",
+    "label": "\"1984\"'s \"Big Brother is watching you\" made surveillance the defining metaphor of the authoritarian state",
+    "note": "\"1984\"'s telescreens, Thought Police, and pervasive surveillance became the reference framework for every subsequent discussion of state surveillance: Snowden's NSA revelations (2013) were immediately discussed in \"1984\" terms; China's social credit system and CCTV network are analyzed as \"Orwellian\"; Cambridge Analytica's data harvesting prompted \"Big Brother\" comparisons. The power of the \"1984\" framework is its specificity — Orwell anticipated that surveillance would be not merely physical but psychological, not merely punitive but preventive, not merely recording behavior but shaping it through the expectation of being watched (the panopticon effect). Foucault's \"Discipline and Punish\" extends \"1984\"'s insight philosophically.",
+    "confidence": "high"
+  },
+  {
+    "id": "george_orwell__manufactured_consent",
+    "source": "george_orwell",
+    "target": "manufactured_consent",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Orwell's \"1984\" propaganda analysis and Chomsky/Herman's manufactured consent theory are complementary critiques: totalitarian vs. liberal media manipulation",
+    "note": "Orwell and Chomsky/Herman analyze different but related information manipulation systems: Orwell analyzed totalitarian propaganda (explicit state control, active censorship, enforced conformity); manufactured consent analyzes liberal democratic propaganda (structural filters, incentive alignment, subtle distortion without visible censorship). Orwell's insight was that explicit propaganda was inefficient and ultimately fragile — it required constant enforcement. Chomsky's insight was that liberal media systems achieve similar results without visible censorship, through ownership concentration, advertiser influence, and source dependence. Orwell's \"1984\" and manufactured consent theory are complementary critiques: one explains authoritarian systems, the other explains systems that allow criticism while systematically limiting its reach.",
+    "confidence": "high"
   }
 ]
