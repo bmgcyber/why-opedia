@@ -1,0 +1,128 @@
+[
+  {
+    "id": "hutu_power__radio_milles_collines",
+    "source": "hutu_power",
+    "target": "radio_milles_collines",
+    "type": "PRODUCED",
+    "label": "ideology created its media arm",
+    "note": "RTLM was explicitly created by Hutu Power organizers including Ferdinand Nahimana, who was later convicted of genocide by the International Criminal Tribunal for Rwanda specifically for his role in RTLM's broadcasts.",
+    "confidence": "high"
+  },
+  {
+    "id": "radio_milles_collines__rwandan_genocide",
+    "source": "radio_milles_collines",
+    "target": "rwandan_genocide",
+    "type": "ENABLED",
+    "label": "broadcast names, locations, orders to kill",
+    "note": "RTLM provided both psychological infrastructure (sustained dehumanization) and operational logistics (broadcasting identities and locations of individuals marked for killing) — the ICTR found this constituted direct and public incitement to genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "nazi_propaganda__radio_milles_collines",
+    "source": "nazi_propaganda",
+    "target": "radio_milles_collines",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both used media to dehumanize and coordinate",
+    "note": "Both used mass broadcast media to systematically strip target populations of human status and coordinate killers. Der Stürmer's vermin/parasite language and RTLM's 'inyenzi' (cockroach) language serve the same psychological function.",
+    "confidence": "high"
+  },
+  {
+    "id": "radio_milles_collines__dehumanization",
+    "source": "radio_milles_collines",
+    "target": "dehumanization",
+    "type": "PRODUCED",
+    "label": "cockroach language stripped human status",
+    "note": "RTLM didn't just report events — it actively produced dehumanization as a functional output, broadcasting 'cockroach' language continuously to prepare killers psychologically and lower the moral threshold for participating.",
+    "confidence": "high"
+  },
+  {
+    "id": "adolf_hitler__joseph_goebbels",
+    "source": "adolf_hitler",
+    "target": "joseph_goebbels",
+    "type": "ENABLED",
+    "label": "Hitler gave Goebbels total control over German media and cultural production",
+    "note": "Goebbels relationship to Hitler was that of a virtuoso to a patron: Hitler provided the political authority and personal trust that gave Goebbels his extraordinary power. Goebbels was appointed Reich Minister of Propaganda in 1933 at Hitler insistence. Their relationship was symbiotic: Goebbels made Hitler seem divine; Hitler made Goebbels omnipotent.",
+    "confidence": "high"
+  },
+  {
+    "id": "joseph_goebbels__nazi_propaganda",
+    "source": "joseph_goebbels",
+    "target": "nazi_propaganda",
+    "type": "PRODUCED",
+    "label": "Goebbels created and administered the Nazi propaganda machine as Minister",
+    "note": "As Reich Minister of Public Enlightenment and Propaganda, Goebbels controlled all German newspapers, radio stations, films, theater, music, and the arts through the Reich Chamber of Culture. No one could work in German cultural life without Goebbels approval. He developed the most sophisticated state propaganda apparatus in history to that point.",
+    "confidence": "high"
+  },
+  {
+    "id": "joseph_goebbels__kristallnacht",
+    "source": "joseph_goebbels",
+    "target": "kristallnacht",
+    "type": "PRODUCED",
+    "label": "Goebbels orchestrated Kristallnacht as a propaganda operation disguised as spontaneous outrage",
+    "note": "Goebbels used the assassination of a German diplomat in Paris by a Jewish teenager as a pretext to call a \"spontaneous\" pogrom. He delivered the inflammatory speech that triggered SA and SS units to attack Jewish businesses, homes, and synagogues across Germany and Austria. He then managed the international messaging to minimize the diplomatic damage.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_sumer__cuneiform",
+    "source": "ancient_sumer",
+    "target": "cuneiform",
+    "type": "PRODUCED",
+    "label": "Sumerian administrative needs produced the world's first writing system",
+    "note": "Cuneiform originated as a Sumerian accounting tool — tracking agricultural surplus, temple goods, and labor allocation. The pressure of managing complex urban economies drove the innovation from pictographic tokens to abstract script.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_sumer__gilgamesh",
+    "source": "ancient_sumer",
+    "target": "gilgamesh",
+    "type": "PRODUCED",
+    "label": "Sumerian oral tradition produced the Epic of Gilgamesh",
+    "note": "The earliest Gilgamesh stories originated in Sumerian oral tradition and short written poems before being compiled into the Akkadian epic. Gilgamesh himself may have been a historical king of Uruk.",
+    "confidence": "high"
+  },
+  {
+    "id": "cuneiform__code_of_hammurabi",
+    "source": "cuneiform",
+    "target": "code_of_hammurabi",
+    "type": "ENABLED",
+    "label": "Written script enabled public, inscribed, permanent legal codes",
+    "note": "The Code of Hammurabi's public display and permanence depended entirely on cuneiform writing. Without script, law remains oral, local, and subject to selective memory. Cuneiform made law visible, reproducible, and authoritative.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_egypt__egyptian_hieroglyphics",
+    "source": "ancient_egypt",
+    "target": "egyptian_hieroglyphics",
+    "type": "PRODUCED",
+    "label": "Egyptian state administration produced a unique hieroglyphic writing system",
+    "note": "Hieroglyphics emerged from Egyptian administrative and religious needs, developing independently from Mesopotamian cuneiform into a distinct system used across 3,000 years of Egyptian history.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_egypt__book_of_the_dead",
+    "source": "ancient_egypt",
+    "target": "book_of_the_dead",
+    "type": "PRODUCED",
+    "label": "Egyptian funerary culture produced the Book of the Dead as its canonical guide to the afterlife",
+    "note": "The Book of the Dead emerged from centuries of Egyptian funerary text development, from the Pyramid Texts and Coffin Texts, reaching its final canonical form in the New Kingdom.",
+    "confidence": "high"
+  },
+  {
+    "id": "egyptian_hieroglyphics__book_of_the_dead",
+    "source": "egyptian_hieroglyphics",
+    "target": "book_of_the_dead",
+    "type": "ENABLED",
+    "label": "Hieroglyphic writing enabled the recording and transmission of funerary texts",
+    "note": "The Book of the Dead existed only because of hieroglyphic writing. The spells and instructions required written form to be placed in tombs; the hieroglyphic tradition preserved and transmitted this text over 1,500 years.",
+    "confidence": "high"
+  },
+  {
+    "id": "homeric_epics__greek_mythology",
+    "source": "homeric_epics",
+    "target": "greek_mythology",
+    "type": "ENABLED",
+    "label": "The Homeric epics standardized and transmitted Greek mythology across the Hellenic world",
+    "note": "Before Homer, Greek mythology was regional and diverse. The Iliad and Odyssey provided a shared canonical account of the gods and heroes that became the common cultural currency of all Greek-speaking peoples. Homer was the \"Bible of the Greeks.\"",
+    "confidence": "high"
+  }
+]

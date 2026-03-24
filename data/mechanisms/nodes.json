@@ -1,0 +1,1593 @@
+[
+  {
+    "id": "healthy_at_every_size",
+    "label": "Health At Every Size",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Health_at_every_size",
+    "summary": "Framework claiming body size is not a reliable indicator of health. Strong form conflicts with documented epidemiological evidence.",
+    "decade": "2000s–Ongoing",
+    "tags": [
+      "health",
+      "ideology",
+      "medical"
+    ],
+    "region": "Americas",
+    "aliases": [
+      "HAES"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "identity_capture",
+    "label": "Identity Capture",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The process by which a condition, struggle, or interest becomes so central to self-concept that improvement or exit threatens identity and community belonging.",
+    "decade": "Ongoing",
+    "tags": [
+      "psychology",
+      "mechanism",
+      "community"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "medical_weight_bias",
+    "label": "Medical Weight Bias",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Weight_discrimination",
+    "summary": "Documented tendency of healthcare providers to attribute symptoms to weight first, leading to missed diagnoses and reduced care quality for patients with obesity.",
+    "decade": "Ongoing",
+    "tags": [
+      "medical",
+      "bias",
+      "health"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "broken_epistemology",
+    "label": "Broken Epistemology",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Condition in which a person or group loses reliable tools to distinguish credible evidence from false claims. Often produced when legitimate institutional betrayal removes trust without replacing it with better reasoning frameworks.",
+    "decade": "Ongoing",
+    "tags": [
+      "psychology",
+      "mechanism",
+      "epistemology"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "conspiracy_theory_grifters",
+    "label": "Conspiracy Theory Grifters",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Conspiracy_theory",
+    "summary": "Actors who monetize unfalsifiable conspiracy frameworks, targeting populations with broken epistemology by supplying villain narratives that validate distrust of institutions.",
+    "decade": "Ongoing",
+    "tags": [
+      "grift",
+      "conspiracy",
+      "psychology",
+      "economics"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "corporate_regulatory_capture",
+    "label": "Corporate Regulatory Capture",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Regulatory_capture",
+    "summary": "Process by which regulatory agencies meant to act in public interest come to serve the industries they regulate. Documented extensively in FDA, EPA, and financial regulation contexts.",
+    "decade": "Ongoing",
+    "tags": [
+      "economics",
+      "government",
+      "corporate",
+      "documented"
+    ],
+    "region": "Americas",
+    "contemporary_relevance": "Central to understanding why food safety, financial regulation, and pharmaceutical oversight repeatedly fail. The revolving door between agencies and industries they regulate remains a structural feature of US governance.",
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "pfas_microplastics",
+    "label": "PFAS and Microplastic Contamination",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Microplastics",
+    "summary": "Widespread environmental and biological contamination from synthetic chemicals and plastics. Understudied relative to exposure, with regulatory response shaped by corporate influence.",
+    "decade": "1950s–Ongoing",
+    "tags": [
+      "environment",
+      "health",
+      "corporate",
+      "chemical"
+    ],
+    "region": "Global",
+    "contemporary_relevance": "Found in virtually all human blood samples worldwide. Long-term health consequences are still emerging; regulatory response lags years behind scientific understanding.",
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "medieval_christian_antisemitism",
+    "label": "Medieval Christian Antisemitism",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antisemitism_in_the_Middle_Ages",
+    "summary": "Theological and social framework developed in medieval Europe attributing collective guilt to Jewish people for the death of Christ, used to justify persecution, expulsion, forced conversion, and pogrom.",
+    "decade": "Medieval",
+    "tags": [
+      "religion",
+      "antisemitism",
+      "history",
+      "ideology"
+    ],
+    "region": "Europe",
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "jewish_moneylending",
+    "label": "Jewish Forced Association with Moneylending",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jewish_moneylenders",
+    "summary": "Medieval European Jews were barred from most professions but permitted moneylending, which Christians considered sinful. This enforced economic role was later used as justification for antisemitic stereotypes about Jewish financial control.",
+    "decade": "Medieval",
+    "tags": [
+      "economics",
+      "antisemitism",
+      "history",
+      "forced_role"
+    ],
+    "region": "Europe",
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "protocols_of_elders_of_zion",
+    "label": "Protocols of the Elders of Zion",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Protocols_of_the_Elders_of_Zion",
+    "summary": "Fabricated antisemitic text produced by Tsarist secret police in 1903 purporting to describe a Jewish plan for world domination. Proven forgery, still actively cited in conspiracy communities.",
+    "decade": "1900s",
+    "tags": [
+      "antisemitism",
+      "conspiracy",
+      "propaganda",
+      "forgery"
+    ],
+    "region": "Europe",
+    "aliases": [
+      "Protocols of Zion"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "nazi_propaganda",
+    "label": "Nazi Propaganda",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nazi_propaganda",
+    "summary": "Systematic state-run campaign to dehumanize Jewish people and other groups, drawing directly on existing Christian antisemitic frameworks and fabricated texts including Luther's writings and the Protocols.",
+    "decade": "1930s–1940s",
+    "tags": [
+      "antisemitism",
+      "nazism",
+      "history",
+      "propaganda"
+    ],
+    "region": "Europe",
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "moon_landing_conspiracy",
+    "label": "Moon Landing Conspiracy Theory",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories",
+    "summary": "Claim that Apollo missions were faked. Contradicted by independent international confirmation, Soviet acknowledgment, physical evidence, and the impossibility of coordinating silence among 400,000 workers.",
+    "decade": "1970s–Ongoing",
+    "tags": [
+      "conspiracy",
+      "pseudoscience",
+      "epistemology"
+    ],
+    "region": "Global",
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "scapegoating_mechanism",
+    "label": "Scapegoating",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Psychological and social mechanism in which a group experiencing diffuse anxiety or systemic problems displaces blame onto a specific identifiable out-group.",
+    "decade": "Ongoing",
+    "tags": [
+      "psychology",
+      "mechanism",
+      "sociology"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "legitimate_grievance_capture",
+    "label": "Legitimate Grievance Capture",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Pattern in which a real and documented injustice or systemic failure becomes the entry point for bad-faith actors supplying false or extreme explanations. The legitimacy of the grievance provides cover for the false explanation.",
+    "decade": "Ongoing",
+    "tags": [
+      "mechanism",
+      "psychology",
+      "epistemology",
+      "politics"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "political_radicalization",
+    "label": "Political Radicalization",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Radicalization",
+    "summary": "Process by which individuals or groups adopt increasingly extreme political or ideological positions. A documented real-world outcome that legitimate grievance capture frequently produces.",
+    "decade": "Ongoing",
+    "tags": [
+      "politics",
+      "psychology",
+      "radicalization",
+      "extremism"
+    ],
+    "region": "Global",
+    "contemporary_relevance": "Algorithmic recommendation systems on social media have dramatically accelerated radicalization pathways that previously required years of in-person contact.",
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "tobacco_industry_research_suppression",
+    "label": "Tobacco Industry Research Suppression",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tobacco_industry_research",
+    "summary": "Decades-long campaign by tobacco companies to suppress and manufacture alternatives to internal research confirming nicotine addiction and cancer causation. Internal documents establishing corporate knowledge from the 1950s were concealed until forced into public record by the 1998 Master Settlement Agreement.",
+    "decade": "1950s–1990s",
+    "tags": [
+      "corporate",
+      "health",
+      "science",
+      "tobacco",
+      "deception"
+    ],
+    "region": "Americas",
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "manufactured_scientific_doubt",
+    "label": "Manufactured Scientific Doubt",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Strategic production of apparent scientific controversy on settled questions, achieved by funding fringe researchers, creating front organizations, and flooding regulatory and public discourse with industry-sponsored uncertainty. Converts scientific confidence into apparent debate without changing the underlying evidence.",
+    "decade": "1950s–Ongoing",
+    "tags": [
+      "mechanism",
+      "science",
+      "corporate",
+      "epistemology",
+      "deception"
+    ],
+    "aliases": [
+      "Doubt Manufacturing",
+      "Tobacco Strategy"
+    ],
+    "contemporary_relevance": "The same strategy pioneered by tobacco is now deployed for climate, PFAS, opioids, and social media harms. Understanding this mechanism is essential for evaluating contested scientific claims today.",
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "climate_change_denial",
+    "label": "Climate Change Denial",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Climate_change_denial",
+    "summary": "Organized campaign disputing scientific consensus on anthropogenic climate change. Adopted the tobacco industry's manufactured-doubt playbook, with documented overlap in personnel — including PR firms and individual scientists who worked both denial campaigns.",
+    "decade": "1990s–Ongoing",
+    "tags": [
+      "climate",
+      "ideology",
+      "corporate",
+      "science",
+      "denial"
+    ],
+    "region": "Global",
+    "aliases": [
+      "Global Warming Denial",
+      "Climate Skepticism"
+    ],
+    "contemporary_relevance": "Actively funded by fossil fuel interests, still delays emissions legislation decades after scientific consensus. The same doubt-manufacturing playbook now appears in debates over other environmental regulations.",
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "hamitic_hypothesis",
+    "label": "Hamitic Hypothesis",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hamitic_hypothesis",
+    "summary": "19th-century European pseudoscientific racial theory classifying certain African peoples as racially closer to Europeans and therefore naturally suited to rule. Belgian colonizers applied it in Rwanda to reclassify fluid social distinctions between Hutu and Tutsi as fixed, heritable racial categories, issuing identity cards in 1933 that made ethnicity administratively permanent.",
+    "decade": "1800s–1900s",
+    "tags": [
+      "racism",
+      "colonialism",
+      "pseudoscience",
+      "ideology",
+      "africa"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "hutu_power",
+    "label": "Hutu Power",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hutu_Power",
+    "summary": "Extremist Hutu nationalist ideology that emerged in Rwanda in the early 1990s, reactivating colonial racial classification and inverting it — framing Tutsis as foreign occupiers deserving elimination. The organizing ideology behind the 1994 genocide.",
+    "decade": "1990s",
+    "tags": [
+      "genocide",
+      "nationalism",
+      "ideology",
+      "rwanda",
+      "africa"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "dehumanization",
+    "label": "Dehumanization",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dehumanization",
+    "summary": "The psychological and social process by which a target population is stripped of human status in the perception of perpetrators and bystanders. Documented as a consistent prerequisite for mass violence and genocide — reducing the moral inhibition that would otherwise prevent ordinary people from participating in atrocity.",
+    "decade": "Ongoing",
+    "tags": [
+      "psychology",
+      "genocide",
+      "mechanism",
+      "sociology",
+      "violence"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "purdue_pharma_oxycontin",
+    "label": "Purdue Pharma / OxyContin",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Purdue_Pharma",
+    "summary": "Purdue Pharma's systematic deceptive marketing of OxyContin as non-addictive: funding medical education, placing representatives in physician offices, influencing the Joint Commission's 'pain as fifth vital sign' initiative, and publishing journal-backed claims of minimal addiction risk. The most documented instance of institutional credibility laundering in modern medicine.",
+    "decade": "1990s–2010s",
+    "tags": [
+      "corporate",
+      "opioids",
+      "health",
+      "deception",
+      "medical"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "institutional_credibility_laundering",
+    "label": "Institutional Credibility Laundering",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The process by which corporate-interest claims acquire the epistemic authority of independent science: funding research, publishing through peer-reviewed journals, influencing professional body guidelines, and using those guidelines to claim scientific consensus. The complement to manufactured scientific doubt — where that mechanism converts confidence into controversy, this converts corporate claims into apparent consensus.",
+    "decade": "Ongoing",
+    "tags": [
+      "mechanism",
+      "science",
+      "corporate",
+      "epistemology",
+      "medical"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "opioid_epidemic",
+    "label": "Opioid Epidemic",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Opioid_epidemic_in_the_United_States",
+    "summary": "Mass addiction crisis produced by opioid over-prescription, killing over 500,000 Americans by the 2020s. The downstream terminus of Purdue's deceptive marketing and the FDA's regulatory failure to adequately scrutinize OxyContin's approval and labeling.",
+    "decade": "1990s–Ongoing",
+    "tags": [
+      "health",
+      "addiction",
+      "corporate",
+      "opioids",
+      "crisis"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "ottoman_expansion_europe",
+    "label": "Ottoman Expansion into Europe",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ottoman_wars_in_Europe",
+    "summary": "The 350-year westward push of Ottoman military power from the Balkans through Hungary to the walls of Vienna — the furthest point of expansion in 1683. Constituted a sustained civilizational pressure on Central Europe that shaped its political and military development throughout the early modern period.",
+    "decade": "1300s–1680s",
+    "tags": [
+      "military",
+      "ottoman",
+      "europe",
+      "history",
+      "empire"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "ottoman_decline_europe",
+    "label": "Ottoman Decline in Europe",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Decline_of_the_Ottoman_Empire",
+    "summary": "The two-century process of Ottoman territorial and military retreat from Europe following the 1683 defeat at Vienna — encompassing the Great Turkish War, the Treaty of Karlowitz (1699), and the long 19th-century Eastern Question that defined European diplomacy until the empire's dissolution after World War I.",
+    "decade": "1680s–1910s",
+    "tags": [
+      "ottoman",
+      "history",
+      "europe",
+      "empire",
+      "decline"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "social_media_algorithms",
+    "label": "Social Media Algorithmic Feeds",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Social_media",
+    "summary": "Engagement-maximizing recommendation systems deployed by platforms including Facebook, YouTube, and Twitter that prioritize content predicted to generate emotional reactions and extended session time. Documented by internal and academic research to systematically favor divisive, outrage-generating, and extreme content.",
+    "decade": "2010s–Ongoing",
+    "tags": [
+      "technology",
+      "media",
+      "social",
+      "algorithms",
+      "epistemology"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "filter_bubble",
+    "label": "Filter Bubble",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Filter_bubble",
+    "summary": "Algorithmic curation environment in which a user's prior engagement history determines what content they see, progressively narrowing their information exposure. Coined by Eli Pariser in 2011; documented by research to reduce exposure to counter-attitudinal information and amplify existing beliefs.",
+    "decade": "2010s–Ongoing",
+    "tags": [
+      "technology",
+      "media",
+      "epistemology",
+      "social",
+      "algorithms"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "outrage_optimization",
+    "label": "Outrage Optimization",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Emergent algorithmic pattern in which engagement-maximizing systems discover that outrage, fear, and moral violation reliably generate more clicks, shares, and session time than neutral or positive content — and therefore amplify such content regardless of its accuracy or social cost.",
+    "decade": "2010s–Ongoing",
+    "tags": [
+      "mechanism",
+      "technology",
+      "media",
+      "epistemology",
+      "psychology"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "mass_incarceration",
+    "label": "Mass Incarceration",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mass_incarceration_in_the_United_States",
+    "summary": "The United States' imprisonment of over 2 million people — the highest incarceration rate in the world — disproportionately affecting Black Americans at a ratio of approximately 5:1. Produced by mandatory minimum sentencing, the War on Drugs, and policing policies whose racial targeting was in several cases explicitly documented.",
+    "decade": "1980s–Ongoing",
+    "tags": [
+      "criminal_justice",
+      "racism",
+      "policy",
+      "phenomenon",
+      "social"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "mccarthy_red_scare",
+    "label": "McCarthyism / Second Red Scare",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/McCarthyism",
+    "summary": "The 1950s political climate of anti-communist paranoia driven by Senator Joseph McCarthy and HUAC, which destroyed careers through accusation, demanded loyalty oaths, and prosecuted dissent as treason — creating an environment where skepticism of U.S. foreign policy became politically lethal.",
+    "decade": "1940s–1950s",
+    "tags": [
+      "politics",
+      "history",
+      "anti-communism",
+      "government",
+      "paranoia"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "weimar_republic",
+    "label": "Weimar Republic",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Weimar_Republic",
+    "summary": "Germany's democratic republic from 1919–1933, established in military defeat and destroyed by hyperinflation, the Great Depression, and political extremism. The paradigm case of how genuine crisis combined with scapegoating and legitimate grievance capture to destroy democratic governance.",
+    "decade": "1920s–1930s",
+    "tags": [
+      "democracy",
+      "history",
+      "germany",
+      "politics",
+      "collapse"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "reconstruction_era",
+    "label": "Reconstruction Era",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Reconstruction_era",
+    "summary": "The 1865–1877 period of federal effort to rebuild the South and integrate formerly enslaved Black Americans as citizens. Ended by a political compromise that withdrew federal troops, allowing white supremacist violence to systematically dismantle Black political participation — directly producing Jim Crow.",
+    "decade": "1860s–1870s",
+    "tags": [
+      "history",
+      "america",
+      "civil_rights",
+      "racism",
+      "politics"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "ancient_jerusalem",
+    "label": "Ancient Jerusalem",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/History_of_Jerusalem",
+    "summary": "Jerusalem's 3,000-year history as the sacred center of Judaism — site of the Temple of Solomon, the City of David, and later the location of the Crucifixion and the Prophet's Night Journey. The city's unique sanctity to three Abrahamic religions made control of it the organizing motive for millennia of conquest, massacre, and war.",
+    "decade": "1000s BC–Ongoing",
+    "tags": [
+      "religion",
+      "history",
+      "middle_east",
+      "judaism",
+      "sacred"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "jewish_diaspora",
+    "label": "Jewish Diaspora",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jewish_diaspora",
+    "summary": "The permanent dispersion of Jewish communities throughout the world following the Roman destruction of Jerusalem, with major populations in Babylon, Egypt, and eventually throughout Europe and the Mediterranean. The Diaspora placed Jewish communities within European societies where they became the primary targets of medieval Christian antisemitism.",
+    "decade": "2nd century AD–Ongoing",
+    "tags": [
+      "history",
+      "judaism",
+      "diaspora",
+      "ancient",
+      "identity"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "oil_geopolitics",
+    "label": "Middle East Oil Geopolitics",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The structural dynamic by which Middle Eastern oil reserves — controlling the majority of global proven reserves — make the region of existential strategic interest to industrial economies. Oil revenue funds authoritarian regimes, funds religious movements, distorts political development, and makes Western powers willing to support dictators, overthrow democrats, and fight wars to maintain access and friendly governments.",
+    "decade": "1950s–present",
+    "tags": [
+      "mechanism",
+      "oil",
+      "imperialism",
+      "middle_east",
+      "geopolitics"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "wahhabism_salafism",
+    "label": "Wahhabism and Salafism",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wahhabism",
+    "summary": "The ultraconservative Sunni Islamic reform movements originating with Muhammad ibn Abd al-Wahhab in 18th-century Arabia, adopted as the state ideology of Saudi Arabia. Saudi oil revenues funded the global export of Wahhabism from the 1970s onward, financing mosques, madrassas, and religious institutions worldwide and displacing local Islamic traditions with a more literalist, exclusivist theology that provided ideological infrastructure for jihadist movements.",
+    "decade": "1740s–present",
+    "tags": [
+      "religion",
+      "ideology",
+      "islamism",
+      "saudi_arabia",
+      "radicalization"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "israel_palestine_conflict",
+    "label": "Israeli-Palestinian Conflict (ongoing)",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_conflict",
+    "summary": "The ongoing conflict between Israelis and Palestinians over territory, sovereignty, security, and the rights of Palestinian refugees and residents under occupation. Rooted in the Nakba and the founding of Israel, the conflict has produced multiple wars, intifadas, occupation, siege, and sustained violence, with no resolution in sight as two peoples claim the same land.",
+    "decade": "1948–present",
+    "tags": [
+      "history",
+      "middle_east",
+      "israel",
+      "palestine",
+      "occupation"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "in_group_out_group_dynamics",
+    "label": "In-Group/Out-Group Dynamics",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The evolved human tendency to favor members of one's own group and distrust or devalue members of other groups. This cognitive and social mechanism — hardwired through evolutionary psychology and amplified by culture, language, religion, and political manipulation — is the foundational engine beneath ethnic conflict, nationalism, religious war, and genocide. It transforms difference into threat and turns neighbors into enemies.",
+    "decade": "universal",
+    "tags": [
+      "mechanism",
+      "psychology",
+      "tribalism",
+      "conflict",
+      "cognition"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "moral_disengagement",
+    "label": "Moral Disengagement",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Albert Bandura's framework for how ordinary people commit atrocities while maintaining a positive self-image: through euphemistic labeling ('enhanced interrogation,' 'resettlement'), displacement of responsibility onto authority, diffusion of responsibility across bureaucratic chains, dehumanization of victims, and moral justification through ideological ends. Explains why genocide, torture, and corporate harm are perpetrated by people who consider themselves decent.",
+    "decade": "universal",
+    "tags": [
+      "mechanism",
+      "psychology",
+      "atrocity",
+      "ethics",
+      "bandura"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "manufactured_consent",
+    "label": "Manufactured Consent",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Herman and Chomsky's propaganda model: in nominally free societies, elite interests shape the range of 'thinkable' public opinion through media ownership concentration, advertising dependency, sourcing from official institutions, flak against dissidents, and ideological anti-communism (or equivalent). Media filters produce news that systematically serves power without requiring direct censorship, manufacturing the appearance of consent for policies that benefit elites.",
+    "decade": "universal",
+    "tags": [
+      "mechanism",
+      "propaganda",
+      "media",
+      "democracy",
+      "chomsky"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "democratic_backsliding",
+    "label": "Democratic Backsliding",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The repeating pattern by which democracies erode toward authoritarianism, typically through: emergency powers that outlast emergencies, press freedom restrictions framed as national security, judiciary capture through court-packing or removal, electoral manipulation through gerrymandering and voter suppression, and the delegitimization of political opposition as treasonous. Distinguished from coup by its gradualism — each step is individually defensible.",
+    "decade": "universal",
+    "tags": [
+      "mechanism",
+      "democracy",
+      "authoritarianism",
+      "institutions",
+      "political_science"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "structural_violence",
+    "label": "Structural Violence",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Johan Galtung's concept: violence embedded in social structures — poverty, racism, patriarchy, caste — that harms and kills people as surely as direct physical violence, but through differential access to resources, healthcare, education, and legal protection rather than through direct assault. Structural violence is invisible precisely because it is normal: when people die from preventable poverty in a wealthy society, no single person is blamed.",
+    "decade": "universal",
+    "tags": [
+      "mechanism",
+      "violence",
+      "inequality",
+      "sociology",
+      "galtung"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "resource_curse",
+    "label": "Resource Curse",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The observed pattern by which countries with abundant natural resource wealth — oil, diamonds, minerals — tend toward authoritarian governance, weak institutions, corruption, and conflict rather than development. The causal mechanism: resource-dependent governments derive revenue from the resource, not from taxing citizens, so they need not be accountable to citizens. Wealth funds security forces rather than public goods.",
+    "decade": "universal",
+    "tags": [
+      "mechanism",
+      "economics",
+      "authoritarianism",
+      "development",
+      "natural_resources"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "preference_falsification",
+    "label": "Preference Falsification",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Timur Kuran's theory: in authoritarian or socially coercive contexts, people routinely misrepresent their private preferences to avoid punishment or social ostracism, publicly supporting regimes they privately oppose. This creates a false appearance of consensus that makes the regime seem stable until — at an unpredictable threshold — enough people see others defecting and the cascade of public preference-revealing produces a sudden, unexpected collapse. Explains why revolutions look impossible until they are inevitable.",
+    "decade": "universal",
+    "tags": [
+      "mechanism",
+      "political_science",
+      "revolution",
+      "social_norms",
+      "kuran"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "radicalization_pipeline",
+    "label": "Radicalization Pipeline",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The staged psychological process by which individuals transition from mainstream belief to extremist violence: personal grievance or identity crisis → connection with a radicalizing group that provides belonging and meaning → adoption of an ideological framework that identifies an enemy and justifies action → progressive isolation from moderating relationships → desensitization to violence → crossing into action. Each stage narrows the path back and increases group pressure.",
+    "decade": "universal",
+    "tags": [
+      "mechanism",
+      "radicalization",
+      "terrorism",
+      "psychology",
+      "extremism"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "historical_revisionism",
+    "label": "Historical Revisionism",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The systematic rewriting of history by dominant groups to serve present power: glorifying colonial conquest as civilization, mythologizing military defeats as noble causes, denying or minimizing atrocities, erasing the contributions of marginalized groups. Historical revisionism is a power mechanism because it shapes which grievances are considered legitimate, which injustices deserve redress, and who counts as a full member of the national story.",
+    "decade": "universal",
+    "tags": [
+      "mechanism",
+      "history",
+      "power",
+      "memory",
+      "propaganda"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "collective_trauma",
+    "label": "Collective Trauma Transmission",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The process by which historical trauma experienced by a group is transmitted across generations through cultural memory, communal practices, narrative, altered parenting shaped by traumatic experience, and institutional memory. Collective trauma shapes present political behavior in ways that can appear irrational to outsiders: threat perception, distrust of institutions, the perceived necessity of extreme self-protection. It explains why past atrocities continue to drive current politics.",
+    "decade": "universal",
+    "tags": [
+      "mechanism",
+      "trauma",
+      "psychology",
+      "intergenerational",
+      "memory"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "lost_cause_mythology",
+    "label": "Lost Cause Mythology",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lost_Cause_of_the_Confederacy",
+    "summary": "The post-Civil War ideological project — developed primarily in the 1880s–1920s by Confederate veterans' organizations, Southern writers, and politicians — that recast the Confederacy as a noble cause defending states' rights rather than slavery, valorized Confederate generals as heroic, and portrayed Reconstruction as tyrannical oppression. Lost Cause mythology provided the ideological justification for Jim Crow, shaped American popular culture through films like Birth of a Nation, and was encoded in hundreds of Confederate monuments built during the Jim Crow era.",
+    "decade": "1870s–present",
+    "tags": [
+      "history",
+      "usa",
+      "confederacy",
+      "racism",
+      "revisionism"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "socratic_method",
+    "label": "Socratic Method",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "A form of cooperative argumentative dialogue in which a questioner systematically dismantles an interlocutor's claimed knowledge by exposing its internal contradictions — producing aporia (the recognition of one's own ignorance) as the first step toward genuine understanding. As a mechanism, it formalizes epistemic humility: the idea that holding beliefs up to rigorous questioning is both the foundation of honest inquiry and a social threat to any system whose authority rests on unexamined premises. Every modern tradition of critical thinking — scientific peer review, adversarial legal systems, Socratic pedagogy — derives from this structure.",
+    "decade": "400s BCE",
+    "tags": [
+      "philosophy",
+      "epistemology",
+      "method",
+      "dialogue",
+      "inquiry",
+      "critical-thinking"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "platonic_idealism",
+    "label": "Platonic Idealism",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Platonic_idealism",
+    "summary": "Plato's metaphysical doctrine that the material world is a shadow or imperfect reflection of a higher realm of eternal, perfect, unchanging Forms. As an ideology, Platonic Idealism provided the philosophical infrastructure for Christian theology (Augustine identified the Forms with ideas in the mind of God), justified hierarchical governance by those with access to higher truth, and established the template for every idealist political project that subordinates material reality to a transcendent ideal — from medieval Christendom to modern totalitarianisms that claim to embody History or the Nation.",
+    "decade": "300s BCE",
+    "tags": [
+      "philosophy",
+      "metaphysics",
+      "idealism",
+      "forms",
+      "theology",
+      "politics"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "aristotelian_logic",
+    "label": "Aristotelian Logic",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Aristotle's system of formal deductive reasoning, centered on the syllogism: a three-part argument in which a conclusion follows necessarily from two premises. For over two thousand years, Aristotelian logic was the sole formal theory of valid inference in the West. As a mechanism, it represents the foundational technology of structured argument — codifying the rules by which claims can be shown to follow necessarily from other claims, and providing the framework within which virtually all subsequent Western philosophy, theology, law, and science was conducted.",
+    "decade": "300s BCE",
+    "tags": [
+      "philosophy",
+      "logic",
+      "reasoning",
+      "deduction",
+      "argument",
+      "formalism"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "social_contract_theory",
+    "label": "Social Contract Theory",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The foundational mechanism of modern political legitimacy: the idea that government derives its just powers from the consent of the governed, who surrender certain natural freedoms in exchange for the protection of a civil order. Hobbes, Locke, and Rousseau produced different versions with radically different implications — absolute sovereignty vs. limited government vs. popular democracy. As a mechanism, social contract theory is both the standard by which democratic legitimacy is judged and the framework within which democratic backsliding, authoritarianism, and revolution are understood.",
+    "decade": "1600s",
+    "tags": [
+      "philosophy",
+      "politics",
+      "legitimacy",
+      "consent",
+      "democracy",
+      "liberalism"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "kantian_ethics",
+    "label": "Kantian Ethics",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kantian_ethics",
+    "summary": "Immanuel Kant's system of deontological ethics, centered on the Categorical Imperative: act only according to maxims you could will to be universal laws, and always treat persons as ends in themselves, never merely as means. Kant grounded morality entirely in reason rather than consequences or sentiment — producing an account of moral duty that is absolute, universal, and independent of inclination. Kantian ethics became the philosophical foundation of human rights law, humanitarian ethics, and the concept of human dignity.",
+    "decade": "1700s",
+    "tags": [
+      "philosophy",
+      "ethics",
+      "deontology",
+      "rights",
+      "duty",
+      "dignity",
+      "reason"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "utilitarianism",
+    "label": "Utilitarianism",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Utilitarianism",
+    "summary": "The ethical doctrine that the right action is the one that produces the greatest happiness for the greatest number, developed by Jeremy Bentham and John Stuart Mill. Utilitarianism was the first systematic attempt to derive morality from measurable outcomes rather than divine command or rational duty. It drove Victorian social reform, shaped modern welfare economics and cost-benefit analysis, and provided the philosophical framework for both progressive policy and its critique — that utilitarian calculations can justify harming minorities for majority benefit.",
+    "decade": "1800s",
+    "tags": [
+      "philosophy",
+      "ethics",
+      "consequentialism",
+      "welfare",
+      "reform",
+      "policy"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "hegelian_dialectic",
+    "label": "Hegelian Dialectic",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Hegel's account of how thought, history, and reality develop through contradiction: every idea (thesis) generates its opposite (antithesis), and the tension between them resolves into a higher synthesis that preserves elements of both while transcending their opposition. As a mechanism, the dialectic provides a framework for understanding historical change as internally driven contradiction rather than external accident — a framework Marx inverted into material dialectics, producing the most consequential political philosophy of the 20th century.",
+    "decade": "1800s",
+    "tags": [
+      "philosophy",
+      "dialectic",
+      "history",
+      "contradiction",
+      "synthesis",
+      "idealism",
+      "marxism"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "nietzschean_philosophy",
+    "label": "Nietzschean Philosophy",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Philosophy_of_Friedrich_Nietzsche",
+    "summary": "Friedrich Nietzsche's body of thought (1870s–1880s): the critique of slave morality, the will to power, the Übermensch as an ideal of self-overcoming, and the declaration that God is dead — the collapse of the transcendent framework that gave Western civilization its values. Nietzsche's genealogical method (tracing ideas back to the psychological drives producing them) directly influenced existentialism, postmodernism, and Foucault. His thought was grotesquely distorted by Nazi appropriation, which he anticipated and despised.",
+    "decade": "1880s",
+    "tags": [
+      "philosophy",
+      "power",
+      "morality",
+      "nihilism",
+      "individualism",
+      "genealogy",
+      "critique"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "dependent_origination",
+    "label": "Dependent Origination",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The Buddhist doctrine of pratītyasamutpāda: all phenomena arise in dependence upon conditions — nothing exists independently, permanently, or with inherent essence. Every event, state, or entity is the product of a web of prior causes and conditions; remove those conditions and it ceases. As a mechanism, dependent origination represents one of the most radical accounts of causation in philosophical history: not linear cause-effect chains but mutual co-arising, where causes and conditions are themselves conditioned by their effects. It undermines both the idea of a first uncaused cause and any fixed, essential identity.",
+    "decade": "500s BCE",
+    "tags": [
+      "philosophy",
+      "buddhism",
+      "causation",
+      "interdependence",
+      "mechanism",
+      "emptiness"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "karma_doctrine",
+    "label": "Karma Doctrine",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The principle of moral causation: intentional actions (karma) produce consequences that shape future experience, either in this life or future lives. Originating in the Vedas, karma was systematically developed in the Upanishads and then transformed by Buddhism (which de-emphasized rebirth in favor of moment-to-moment causation) and Jainism (which emphasized the weight of accumulated past actions). As a mechanism, karma functions as a system for distributing moral responsibility — but has also functioned historically as a legitimizing ideology: framing social hierarchy as the deserved result of past-life merit, thereby naturalizing structural inequality.",
+    "decade": "1500s BCE",
+    "tags": [
+      "philosophy",
+      "india",
+      "causation",
+      "ethics",
+      "rebirth",
+      "caste",
+      "consequence"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "advaita_vedanta",
+    "label": "Advaita Vedanta",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Advaita_Vedanta",
+    "summary": "The non-dualist school of Hindu philosophy, systematized by Adi Shankara (8th century CE), which holds that Brahman (ultimate reality) alone is real, that individual Atman is identical to Brahman, and that the apparent world of multiplicity is maya (illusion or appearance). Advaita Vedanta is one of the most rigorous philosophical defenses of monism in world philosophy: its argument that the appearance of separateness is a cognitive error, and that liberation consists in recognizing one's identity with the absolute, has parallels with both Platonic idealism and Buddhist emptiness doctrine.",
+    "decade": "700s",
+    "tags": [
+      "philosophy",
+      "india",
+      "hinduism",
+      "non-dualism",
+      "brahman",
+      "liberation",
+      "idealism"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "bhagavad_gita",
+    "label": "Bhagavad Gita",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bhagavad_Gita",
+    "summary": "A Sanskrit philosophical poem (c. 200 BCE – 200 CE) embedded in the Mahabharata, in which the god Krishna counsels the warrior Arjuna on the eve of battle. The Gita synthesizes three philosophical paths: karma yoga (action without attachment to results), bhakti yoga (devotional surrender), and jnana yoga (knowledge of one's true nature). It became the central philosophical text of Hinduism, Gandhi's most important spiritual guide (he carried it everywhere), and the locus of ongoing debate about whether it endorses or undermines the caste system, violence in duty, and spiritual detachment from social consequences.",
+    "decade": "200s BCE",
+    "tags": [
+      "philosophy",
+      "india",
+      "hinduism",
+      "dharma",
+      "karma",
+      "devotion",
+      "sacred-text"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "ahimsa_principle",
+    "label": "Ahimsa (Non-Violence Principle)",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The principle of ahimsa (non-harm) — the commitment to not causing suffering to any living being — codified as a central ethical and political tool in Jain, Buddhist, and Hindu traditions. As a mechanism, ahimsa is not passive: in Gandhi's formulation (satyagraha — truth-force), it is an active political strategy in which voluntary suffering exposes the violence of the oppressor and generates moral pressure for change. The mechanism has three dimensions: ethical (non-violence as intrinsically right), tactical (non-violence as effective), and philosophical (violence corrupts the practitioner as much as the target).",
+    "decade": "500s BCE",
+    "tags": [
+      "philosophy",
+      "india",
+      "nonviolence",
+      "ethics",
+      "gandhi",
+      "resistance",
+      "strategy"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "legalism_chinese",
+    "label": "Chinese Legalism",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Legalism_(Chinese_philosophy)",
+    "summary": "The Chinese philosophical school (Shang Yang, Han Fei, Li Si; 3rd century BCE) that rejected both Confucian virtue and Taoist non-action as inadequate bases for political order. Legalism argued that human nature is self-interested and that order requires clear laws, strict rewards and punishments, and concentrated state power. It was the philosophy that unified China under Qin Shi Huang (221 BCE) — with devastating efficiency and oppressive thoroughness. Legalism's legacy is double: it produced the Chinese state, and it has been the recurring template for authoritarian governance in East Asia.",
+    "decade": "300s BCE",
+    "tags": [
+      "philosophy",
+      "china",
+      "law",
+      "state",
+      "authoritarianism",
+      "qin",
+      "power"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "wu_wei",
+    "label": "Wu Wei (Non-Action Principle)",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The Taoist principle of wu wei — literally 'non-action' or 'effortless action' — which holds that the most effective way to achieve results is often to act in alignment with the natural flow of things rather than forcing outcomes through willpower. As a mechanism, wu wei describes how systems maintain themselves when not over-controlled: rigid intervention creates resistance; yielding adapts. The principle has applications in governance (the best ruler is barely noticed), ecology (working with natural systems rather than against them), and systems thinking (allowing emergent order rather than imposing top-down control).",
+    "decade": "400s BCE",
+    "tags": [
+      "philosophy",
+      "china",
+      "taoism",
+      "mechanism",
+      "governance",
+      "nature",
+      "systems"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "confucian_social_order",
+    "label": "Confucian Social Order",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The Confucian framework of hierarchical social relationships (the wu lun — five relationships: ruler-minister, parent-child, husband-wife, elder-younger, friend-friend) as the mechanism for social harmony. Each relationship entails specific reciprocal obligations: rulers must be benevolent, ministers loyal; parents nurturing, children filial. As a mechanism, Confucian social order operates by making hierarchy morally obligatory rather than merely imposed — each person fulfills their role out of genuine virtue. This structure has been both a framework for benevolent governance and an extraordinarily durable tool for legitimizing authoritarian political control and patriarchal family structures.",
+    "decade": "400s BCE",
+    "tags": [
+      "philosophy",
+      "china",
+      "hierarchy",
+      "family",
+      "governance",
+      "ritual",
+      "deference"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "mosaic_covenant",
+    "label": "Mosaic Covenant",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The covenantal framework established at Sinai: a binding agreement between YHWH and Israel that conferred collective identity, legal obligation, and a theological account of history in which national success and catastrophe are consequences of fidelity or betrayal. The covenant structure — obedience in exchange for protection and land — became the interpretive lens through which the Hebrew Bible reads every subsequent event, from conquest to exile. It is the foundational mechanism by which a set of Semitic tribes was transformed into a self-understanding as a covenanted people, making collective identity inseparable from religious obligation.",
+    "decade": "1200s BCE",
+    "tags": [
+      "judaism",
+      "covenant",
+      "torah",
+      "identity",
+      "monotheism",
+      "mechanism"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "usury_prohibition",
+    "label": "Christian Usury Prohibition",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The medieval Catholic Church's prohibition on Christians charging interest on loans (usury), derived from biblical passages and systematized in canon law from the Third Lateran Council (1179) onward. Because Christians were barred from moneylending and banking functions, Jewish communities — who were simultaneously excluded from land ownership, guilds, and most professions — could fill the structural gap. This created the economic niche of the Jewish moneylender: not a choice but a structural assignment. The prohibition then made Jews visible as creditors in a debtor-resentment culture, fueling economic antisemitism that portrayed Jewish moneylending as predatory rather than structurally assigned. The prohibition is the overlooked mechanism behind one of history's most persistent antisemitic stereotypes.",
+    "decade": "1100s",
+    "tags": [
+      "antisemitism",
+      "economics",
+      "usury",
+      "banking",
+      "canon-law",
+      "mechanism",
+      "structural"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "papal_authority",
+    "label": "Papal Authority and Petrine Supremacy",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The doctrine that the Bishop of Rome (the Pope) holds supreme authority over all Christians, derived from the claim that Peter was the first bishop of Rome and that Jesus granted Peter unique leadership (Matthew 16:18). This mechanism produced a hierarchical church structure capable of coordinating action across a continent, but also capable of coercion, crusades, inquisitions, and political domination over secular rulers. The tension between papal authority claims and the authority of councils, secular rulers, and local bishops is the structural driver of most major Christian schisms and reform movements, from the Great Schism of 1054 to the Protestant Reformation.",
+    "decade": "800s",
+    "tags": [
+      "christianity",
+      "papacy",
+      "authority",
+      "hierarchy",
+      "church",
+      "rome",
+      "mechanism"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "catholic_clergy_abuse",
+    "label": "Catholic Clergy Sexual Abuse Scandal",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases",
+    "summary": "The systematic sexual abuse of minors by Catholic priests, and the institutional cover-up by bishops and Vatican officials, exposed globally from the 1980s onward and reaching crisis point with the Boston Globe investigative series (2002, dramatized in the film Spotlight). The scandal revealed not merely individual predators but a systemic pattern: abusive priests transferred to new parishes rather than removed, victims silenced, police not notified, and diocesan assets protected over victim welfare. The abuse affected tens of thousands of children across decades; the cover-up extended to the highest levels of the Church. The scandal severely damaged institutional credibility and accelerated secularization in historically Catholic countries.",
+    "decade": "1990s",
+    "tags": [
+      "catholicism",
+      "abuse",
+      "cover-up",
+      "institution",
+      "credibility",
+      "scandal",
+      "harm"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "blood_libel_myth",
+    "label": "Blood Libel Myth",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blood_libel",
+    "summary": "The false accusation that Jews murder Christian children to use their blood in religious rituals, first recorded in Norwich, England (1144 CE) and repeated across Europe for centuries. Blood libel accusations triggered massacres, expulsions, and judicial murders. They were officially condemned by several popes (Innocent IV, Gregory X) as fabrications, yet continued to circulate and be believed. The myth exemplifies how a factually false, officially refuted accusation can survive for centuries because it serves the psychological function of demonization — transforming ordinary neighbors into secret monsters. Blood libel accusations resurfaced in the Tsarist Empire and were used to justify pogroms in the 19th and early 20th centuries.",
+    "decade": "1140s",
+    "tags": [
+      "antisemitism",
+      "myth",
+      "medieval",
+      "persecution",
+      "false-accusation",
+      "demonization"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "pogroms",
+    "label": "Pogroms",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pogrom",
+    "summary": "Organized massacres of Jewish communities, most prominently in the Russian Empire (1880s–1921), carried out by mobs often with tacit or active government encouragement. The word pogrom is Russian for devastation. The first major wave followed the assassination of Tsar Alexander II (1881), when Jews were falsely blamed; the Kishinev pogrom (1903) and subsequent waves killed thousands and displaced hundreds of thousands. Pogroms were a key driver of the massive Jewish emigration from Eastern Europe to the United States (1880–1924, approximately 2 million Jews) and a major catalyst for Zionism. The Dreyfus Affair (1894) and the pogroms convinced Theodor Herzl that Jews could never be safe in Europe without a homeland.",
+    "decade": "1880s",
+    "tags": [
+      "antisemitism",
+      "russia",
+      "massacre",
+      "violence",
+      "diaspora",
+      "zionism",
+      "emigration"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "christian_nationalism",
+    "label": "Christian Nationalism",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christian_nationalism",
+    "summary": "The ideology that a nation is defined by and ought to be governed according to Christian identity and values, typically merging national and Christian identity so that a threat to one is a threat to the other. Christian nationalism differs from mere religious patriotism in claiming that the nation was founded as a Christian nation, that Christian values should be legally enforced, and that non-Christians are at best guests and at worst threats. In the United States, Christian nationalism became politically prominent in the 1970s through the Moral Majority and reached a new peak in the 2010s–2020s. It shares structural features with other forms of ethno-religious nationalism worldwide — from Hindu nationalism to political Islam — in using religious identity as a mobilizing framework for political power.",
+    "decade": "1970s",
+    "tags": [
+      "christianity",
+      "nationalism",
+      "politics",
+      "usa",
+      "ideology",
+      "theocracy",
+      "identity"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "prosperity_gospel",
+    "label": "Prosperity Gospel",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Prosperity_theology",
+    "summary": "A theological movement within Evangelical and Pentecostal Christianity teaching that financial blessing and physical health are God will for believers, and that faith, positive confession, and tithing will reliably produce material prosperity. Originating in the mid-20th century American context (Oral Roberts, Kenneth Hagin, Kenneth Copeland), it became globally influential through television ministry and spread to sub-Saharan Africa, Latin America, and East Asia. Critics — including mainstream Evangelical theologians — argue it misrepresents scripture, exploits the poor, and provides false hope that ultimately extracts wealth from vulnerable believers toward wealthy pastors. Its theology of deserved prosperity also inverts the traditional Christian understanding of suffering and humility.",
+    "decade": "1980s",
+    "tags": [
+      "christianity",
+      "theology",
+      "wealth",
+      "televangelism",
+      "exploitation",
+      "faith",
+      "pentecostal"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "religious_trauma",
+    "label": "Religious Trauma",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The psychological harm caused by harmful religious experiences, including: using fear of hell and divine punishment for behavioral control; demanding suppression of doubt as a moral failing; enforcing conformity through shunning, excommunication, or social exclusion; pathologizing normal human experiences (sexuality, doubt, grief) as sinful; and teaching that outside relationships and institutions are corrupted or dangerous. Religious trauma syndrome (coined by Marlene Winell) describes the cluster of PTSD-like symptoms in survivors: difficulty making decisions, distorted thinking, black-and-white cognition, sexual shame, and loss of community upon leaving. The mechanism operates through institutions, families, and communities, and its effects can persist long after formal religious participation has ended.",
+    "decade": "1990s",
+    "tags": [
+      "psychology",
+      "religion",
+      "trauma",
+      "abuse",
+      "control",
+      "harm",
+      "mechanism"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "church_state_entanglement",
+    "label": "Church-State Entanglement",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The structural fusion of religious and political authority, where each legitimates the other: the state claims divine sanction for its power, and the church claims state enforcement for its religious requirements. This mechanism enables both institutions to claim greater authority than either would have alone, while eliminating the accountability structures that each would otherwise provide. Church-state entanglement has historically produced: forced conversions (you must accept the religion of the ruler), inquisitions (state enforcement of theological compliance), religious wars (wars of succession become wars of religion), and the weaponization of religious identity for political mobilization. The Enlightenment separation of church and state was a deliberate response to the destruction caused by this mechanism in the Wars of Religion.",
+    "decade": "300s",
+    "tags": [
+      "religion",
+      "politics",
+      "power",
+      "authority",
+      "mechanism",
+      "coercion",
+      "entanglement"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "mesopotamian_agriculture",
+    "label": "Mesopotamian Agriculture",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Agriculture_in_Mesopotamia",
+    "summary": "The development of organized farming and irrigation in the Fertile Crescent (modern Iraq/Syria/Turkey) beginning around 9000 BCE, representing one of the earliest transitions from hunter-gatherer to agricultural society. Mesopotamian farmers developed irrigation canals to manage the unpredictable flooding of the Tigris and Euphrates rivers, enabling surplus production of barley, wheat, and flax. Agricultural surplus generated the economic foundation for cities, social stratification, full-time specialization, and eventually writing (for record-keeping). The Neolithic agricultural revolution in Mesopotamia is considered one of the most consequential transitions in human history.",
+    "decade": "9000s BCE",
+    "tags": [
+      "agriculture",
+      "mesopotamia",
+      "neolithic",
+      "irrigation",
+      "civilization",
+      "origins",
+      "farming"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "egyptian_mythology",
+    "label": "Egyptian Mythology",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ancient_Egyptian_religion",
+    "summary": "The complex religious and mythological system of ancient Egypt, centered on a polytheistic pantheon of gods (Ra, Osiris, Isis, Horus, Anubis, Thoth, and many others) who governed natural phenomena, the afterlife, and social order. Egyptian mythology provided the ideological foundation for pharaonic authority, temple ritual, funerary practice, and understanding of death and resurrection. The myths of Osiris (death and resurrection), Ra (the solar journey), and Ma'at (cosmic truth and justice) structured Egyptian society. Egyptian religious ideas influenced Greek mythology (Isis became prominent across the Mediterranean), early Christianity (the resurrection motif), and modern esoteric traditions.",
+    "decade": "3000s BCE–Ongoing",
+    "tags": [
+      "egypt",
+      "religion",
+      "mythology",
+      "gods",
+      "afterlife",
+      "ancient",
+      "osiris"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "egyptian_slavery",
+    "label": "Egyptian Slavery",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Slavery_in_ancient_Egypt",
+    "summary": "The institution of forced labor in ancient Egypt, which included war captives, debt bondage, and hereditary servitude, though its scale and nature differed from later chattel slavery systems. While Egyptian slavery existed, it was less systematically racialized than later Atlantic slavery. Enslaved people came from various ethnic backgrounds (Nubians, Syrians, Libyans, Canaanites) depending on the period and which peoples Egypt conquered. Some enslaved people could own property, marry, and were legally protected against extreme abuse. The pyramids were not primarily built by slaves — the workforce included skilled laborers, administrators, and seasonal workers — but monumental temples and agricultural estates did rely on enslaved and coerced labor.",
+    "decade": "3000s BCE–30s BCE",
+    "tags": [
+      "egypt",
+      "slavery",
+      "labor",
+      "coercion",
+      "ancient",
+      "africa",
+      "social-structure"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "egyptian_monotheism",
+    "label": "Akhenaten's Monotheism",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Atenism",
+    "summary": "The theological revolution initiated by Pharaoh Akhenaten (c. 1353–1336 BCE), replacing Egypt's polytheistic pantheon with exclusive worship of the Aten — the visible disk of the sun. Atenism is considered the earliest documented monotheism or monolatry. Akhenaten closed traditional temples, suppressed other gods' cults (especially Amun), and declared the Aten the sole creator god accessible only through the pharaoh. The revolution was reversed after Akhenaten's death — successors restored polytheism and erased his legacy. Some scholars (Sigmund Freud in \"Moses and Monotheism\", Jan Assmann) have argued that Atenism influenced later Israelite monotheism, though the direct connection remains debated.",
+    "decade": "1350s BCE",
+    "tags": [
+      "egypt",
+      "religion",
+      "monotheism",
+      "theology",
+      "aten",
+      "ancient",
+      "akhenaten"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "nubian_trade",
+    "label": "Nubian Trade Networks",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ancient_Nubia",
+    "summary": "The extensive trade networks maintained by Nubian kingdoms connecting sub-Saharan Africa with Egypt and the Mediterranean world. Nubia (the \"land of gold\") was Egypt's primary source of gold, ivory, ebony, ostrich feathers, and enslaved people throughout antiquity. In return, Nubia received Egyptian manufactured goods, prestige items, and cultural influence. Nubian trade routes extended south into the African interior and north to the Mediterranean. The control of these trade routes was a central motivation for Egyptian military campaigns into Nubia and for Nubian expansion into Egypt. Nubian commerce helped integrate African interior economies into the ancient Mediterranean world's trade system.",
+    "decade": "2500s BCE–350s CE",
+    "tags": [
+      "nubia",
+      "trade",
+      "africa",
+      "gold",
+      "ivory",
+      "ancient",
+      "commerce"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "greek_mythology",
+    "label": "Greek Mythology",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Greek_mythology",
+    "summary": "The body of myths, stories, and religious beliefs of ancient Greece, centered on the Olympian gods (Zeus, Hera, Athena, Apollo, Aphrodite, etc.), heroes (Heracles, Achilles, Odysseus), and cosmogonic narratives. Greek mythology was not a single unified system but a diverse collection of regional traditions that Greek literature, particularly Homer's epics and Hesiod's Theogony, helped standardize. It served simultaneously as religious belief, cultural identity, artistic inspiration, and philosophical springboard — pre-Socratic philosophers critiqued anthropomorphic mythology even as it saturated Greek culture. Greek mythology had enormous influence on Roman religion (which absorbed and renamed the Greek pantheon), Renaissance art and literature, Enlightenment thought, and modern Western culture.",
+    "decade": "800s BCE–Ongoing",
+    "tags": [
+      "greece",
+      "mythology",
+      "religion",
+      "gods",
+      "ancient",
+      "homer",
+      "culture"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "social_media_polarization",
+    "label": "Social Media Political Polarization",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Social_media_and_political_polarization",
+    "summary": "The process by which social media platforms — particularly Facebook, Twitter/X, and YouTube — accelerate political polarization through algorithmic amplification of emotionally engaging (often outrage-inducing) content, filter bubbles that reinforce existing beliefs, and network effects that cluster users with like-minded others. Algorithmic recommendation systems optimize for engagement, which correlates with emotional activation and outrage rather than accuracy or nuance. This creates incentive structures that reward extreme content, punish moderation, and systematically distort both parties' perceptions of the opposing side. Research documents that social media significantly increases affective polarization (emotional hostility toward the other party) even if its effect on ideological position change is more contested.",
+    "decade": "2010s–Ongoing",
+    "tags": [
+      "usa",
+      "social-media",
+      "polarization",
+      "algorithm",
+      "facebook",
+      "technology",
+      "politics"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "qanon",
+    "label": "QAnon",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/QAnon",
+    "summary": "A wide-ranging American conspiracy theory and cult of political belief originating in 2017, based on anonymous posts from \"Q\" claiming insider government knowledge of a secret cabal of Satanic pedophile elites (including Democratic politicians and Hollywood celebrities) who kidnap and abuse children, and that Donald Trump is secretly fighting to expose and destroy this cabal. QAnon synthesized older antisemitic conspiracy tropes (Protocols of the Elders of Zion, blood libel) with contemporary online culture and partisan politics. It spread rapidly through social media platforms, gained millions of believers in the US and internationally, and radicalized participants to real-world violence (including the Capitol attack). QAnon demonstrates how conspiracy theories can be weaponized politically and how digital media enables the rapid spread of delusional belief systems.",
+    "decade": "2017s–Ongoing",
+    "tags": [
+      "usa",
+      "conspiracy",
+      "politics",
+      "trump",
+      "radicalization",
+      "social-media",
+      "cult"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "culture_wars",
+    "label": "Culture Wars",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Culture_war",
+    "summary": "The political and social conflict over values, identity, and cultural norms that has shaped American politics since the 1980s, intensifying in the 1990s and 2010s. Culture war issues — abortion, gun rights, LGBTQ rights, immigration, race in education, religious expression in public life — involve deep conflicts over identity and worldview rather than material interests, making compromise structurally difficult. Pat Buchanan's 1992 RNC speech declaring a \"cultural war\" named the phenomenon; sociologist James Davison Hunter theorized its structure in \"Culture Wars\" (1991). The culture war dynamic has been deliberately cultivated by political operatives who find that cultural conflict drives mobilization and fundraising more effectively than economic policy debates.",
+    "decade": "1990s–Ongoing",
+    "tags": [
+      "usa",
+      "politics",
+      "culture",
+      "identity",
+      "polarization",
+      "values",
+      "conflict"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "political_polarization",
+    "label": "Political Polarization",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Political_polarization",
+    "summary": "The divergence of political attitudes toward ideological extremes, particularly the growing divide between Republican and Democratic voters in the United States. Political scientists distinguish \"ideological polarization\" (movement away from the center on policy) from \"affective polarization\" (growing emotional hostility toward the other party). Research documents that affective polarization has grown dramatically since the 1990s — Americans increasingly dislike, fear, and dehumanize political opponents rather than merely disagreeing with them. Drivers of polarization include: media fragmentation and partisan media ecosystems, geographic sorting, negative partisanship (voting against rather than for), social media dynamics, and deliberate radicalization by political actors who benefit from conflict.",
+    "decade": "1990s–Ongoing",
+    "tags": [
+      "usa",
+      "politics",
+      "polarization",
+      "partisan",
+      "democracy",
+      "social",
+      "division"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "info_ecosystem_collapse",
+    "label": "Information Ecosystem Collapse",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Media_fragmentation",
+    "summary": "The fragmentation and degradation of shared information infrastructure that enables democratic deliberation: the collapse of local newspapers and trusted broadcast news, the rise of siloed partisan media ecosystems (Fox News, MSNBC, online partisan sites), algorithmic social media that optimizes for engagement over accuracy, and the proliferation of disinformation at scale. When a society lacks shared factual premises — agreed-upon basic facts about events and empirical reality — democratic deliberation becomes impossible because debate cannot resolve disagreements about what is happening. The information ecosystem collapse enables the spread of conspiracy theories (QAnon), makes coordinated disinformation campaigns highly effective (Russian interference, domestic disinformation), and creates conditions where authoritarian leaders can define reality for their followers.",
+    "decade": "2010s–Ongoing",
+    "tags": [
+      "usa",
+      "media",
+      "democracy",
+      "disinformation",
+      "polarization",
+      "information",
+      "journalism"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  }
+]

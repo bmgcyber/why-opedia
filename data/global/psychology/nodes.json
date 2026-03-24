@@ -1,0 +1,217 @@
+[
+  {
+    "id": "fat_acceptance_movement",
+    "label": "Fat Acceptance Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fat_acceptance_movement",
+    "summary": "Social movement advocating for dignity and reduced discrimination toward people of larger body size. Contains legitimate advocacy and ideological capture in tension.",
+    "decade": "1960s–Ongoing",
+    "tags": [
+      "identity",
+      "health",
+      "psychology",
+      "social"
+    ],
+    "region": "Americas",
+    "aliases": [
+      "Body Positivity Movement",
+      "Fat Pride Movement"
+    ],
+    "contemporary_relevance": "Continues to shape healthcare policy debates and body image discourse. Tension between anti-discrimination advocacy and medical guidance remains unresolved in clinical practice.",
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "incel_community",
+    "label": "Incel Community",
+    "node_type": "reference",
+    "category": "community",
+    "wikipedia": "https://en.wikipedia.org/wiki/Incel",
+    "summary": "Online community of self-identified involuntary celibates. Characterized by external attribution of failure, misogyny, and ideological frameworks that prevent self-examination.",
+    "decade": "2010s–Ongoing",
+    "tags": [
+      "community",
+      "psychology",
+      "identity",
+      "misogyny"
+    ],
+    "region": "Global",
+    "aliases": [
+      "Involuntary Celibates"
+    ],
+    "contemporary_relevance": "Has radicalized into a terrorism-linked subculture. Multiple mass casualty events have been attributed to incel ideology since 2014, with ongoing recruitment through social media platforms.",
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "brony_fandom",
+    "label": "Brony Fandom",
+    "node_type": "reference",
+    "category": "community",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brony",
+    "summary": "Adult male fanbase of My Little Pony: Friendship is Magic. Characterized by intense identity attachment to children's media, often associated with social alienation and identity displacement.",
+    "decade": "2010s–Ongoing",
+    "tags": [
+      "community",
+      "fandom",
+      "psychology",
+      "identity"
+    ],
+    "region": "Americas",
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "furry_fandom",
+    "label": "Furry Fandom",
+    "node_type": "reference",
+    "category": "community",
+    "wikipedia": "https://en.wikipedia.org/wiki/Furry_fandom",
+    "summary": "Subculture centered on anthropomorphic animal characters. Notable for fursona identity displacement, high rate of sexual content, and documented community predation issues.",
+    "decade": "1980s–Ongoing",
+    "tags": [
+      "community",
+      "fandom",
+      "psychology",
+      "identity"
+    ],
+    "region": "Americas",
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "chronic_illness_online_communities",
+    "label": "Chronic Illness Online Communities",
+    "node_type": "reference",
+    "category": "community",
+    "wikipedia": "https://en.wikipedia.org/wiki/Online_patient_community",
+    "summary": "Online forums organized around shared medical conditions. Can provide genuine support but frequently develop identity reward structures that discourage recovery and amplify worst-case narratives.",
+    "decade": "2000s–Ongoing",
+    "tags": [
+      "community",
+      "medical",
+      "psychology",
+      "identity"
+    ],
+    "region": "Global",
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "milgram_obedience_experiments",
+    "label": "Milgram Obedience Experiments (1961)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Milgram_experiment",
+    "summary": "Stanley Milgram's Yale experiments in which ordinary American participants were instructed by an authority figure to administer increasingly powerful electric shocks to a stranger — with 65% willing to administer the maximum 450-volt shock despite the victim's apparent agony, as long as the authority figure said 'please continue.' Milgram designed the experiments to understand how ordinary Germans could have participated in the Holocaust. The results demonstrated empirically that ordinary people will commit apparent atrocities under authority pressure.",
+    "decade": "1960s",
+    "tags": [
+      "psychology",
+      "experiments",
+      "obedience",
+      "atrocity",
+      "authority"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "stanford_prison_experiment",
+    "label": "Stanford Prison Experiment (1971)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
+    "summary": "Philip Zimbardo's simulated prison experiment at Stanford in which student volunteers were randomly assigned as 'guards' or 'prisoners' — producing sadistic guard behavior and prisoner psychological breakdown within six days, forcing the experiment's early termination. The experiment demonstrated that arbitrary role assignments and institutional contexts can rapidly produce cruelty in ordinary people, providing experimental support for situational explanations of atrocity over dispositional ones.",
+    "decade": "1970s",
+    "tags": [
+      "psychology",
+      "experiments",
+      "authority",
+      "cruelty",
+      "situationism"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "confucianism",
+    "label": "Confucianism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Confucianism",
+    "summary": "The philosophical and ethical tradition derived from Confucius' teachings, developed over centuries by Mencius (human nature is inherently good), Xunzi (human nature requires ritual to be shaped), Dong Zhongshu (who made Confucianism China's official state ideology in the Han dynasty), and Zhu Xi (Neo-Confucian synthesis with Buddhist and Taoist elements). Confucianism shaped Chinese governance, education, family structure, and social ethics for two millennia — and through China's cultural influence, much of Korea, Japan, and Vietnam as well.",
+    "decade": "400s BCE",
+    "tags": [
+      "philosophy",
+      "china",
+      "ethics",
+      "governance",
+      "family",
+      "education",
+      "ritual"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "rabbinic_judaism",
+    "label": "Rabbinic Judaism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rabbinic_Judaism",
+    "summary": "The form of Judaism that emerged after the destruction of the Second Temple (70 CE), developed by the Pharisaic movement under the leadership of rabbis. With sacrifice impossible, rabbinic Judaism substituted prayer, Torah study, and ethical observance as the primary religious acts. The rabbis compiled the Mishnah (c.200 CE) and Talmud (c.500 CE), creating a portable, text-based religion that could survive and maintain coherent identity without a homeland. Rabbinic Judaism is the ancestor of all modern forms of Judaism — Orthodox, Conservative, Reform — and its invention of diaspora religion as normative rather than catastrophic was one of the most consequential acts of religious reconstitution in history.",
+    "decade": "100s",
+    "tags": [
+      "judaism",
+      "talmud",
+      "mishnah",
+      "diaspora",
+      "rabbis",
+      "torah",
+      "reconstruction"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "sigmund_freud",
+    "label": "Sigmund Freud",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sigmund_Freud",
+    "summary": "Austrian neurologist (1856–1939) who founded psychoanalysis — the theory that unconscious mental processes drive behavior, that early childhood experiences shape adult psychology, and that psychological symptoms are meaningful expressions of repressed conflict rather than random neural events. Freud concepts — the unconscious, repression, the Oedipus complex, id/ego/superego, defense mechanisms — entered the general culture so thoroughly that they shape how educated people in the West think about themselves. His scientific status is contested: many specific Freudian claims are not falsifiable by empirical evidence, and his case studies (Dora, Wolf Man, Little Hans) are now read as more revealing about Freud than about his patients. His influence on art, literature, and cultural analysis was enormous; the Frankfurt School combined Marx and Freud to analyze the psychological dimensions of capitalist ideology.",
+    "decade": "1900s",
+    "tags": [
+      "psychology",
+      "psychoanalysis",
+      "unconscious",
+      "vienna",
+      "mind",
+      "science",
+      "person"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "stanley_milgram",
+    "label": "Stanley Milgram",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stanley_Milgram",
+    "summary": "American social psychologist (1933–1984) whose obedience experiments (1961–1963) produced the most important empirical finding in the history of social psychology: that ordinary Americans would administer what they believed were potentially lethal electric shocks to innocent strangers when instructed by an authority figure. Approximately 65% of participants in Milgram original study delivered the maximum 450-volt shock despite the victim's apparent agony. Milgram designed the experiments specifically to understand how ordinary Germans had participated in the Holocaust, asking whether something cultural or situational explained Nazi perpetration. His answer — that situational authority, not character, is the primary determinant — was deeply disturbing and has been confirmed by replications in multiple countries. The experiments raised major ethical questions about psychological research methodology and have not been replicated at full intensity since.",
+    "decade": "1960s",
+    "tags": [
+      "psychology",
+      "obedience",
+      "authority",
+      "experiment",
+      "holocaust",
+      "social-science",
+      "person"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  }
+]

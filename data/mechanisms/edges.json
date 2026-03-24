@@ -1,0 +1,2652 @@
+[
+  {
+    "id": "fat_acceptance__healthy_at_every_size",
+    "source": "fat_acceptance_movement",
+    "target": "healthy_at_every_size",
+    "type": "PRODUCED",
+    "label": "produced strong-form health claim",
+    "note": "Fat acceptance movement generated HAES as its medical framework, extending dignity advocacy into contested health claims.",
+    "confidence": "high",
+    "sources": [
+      "Bacon, L. (2010). Health at Every Size. BenBella Books.",
+      "https://en.wikipedia.org/wiki/Health_at_every_size"
+    ]
+  },
+  {
+    "id": "fat_acceptance__identity_capture",
+    "source": "fat_acceptance_movement",
+    "target": "identity_capture",
+    "type": "NORMALIZED",
+    "label": "normalized weight as core identity",
+    "note": "Community reward structures make losing weight feel like betrayal of in-group, converting a health condition into load-bearing identity.",
+    "confidence": "high"
+  },
+  {
+    "id": "fat_acceptance__medical_weight_bias",
+    "source": "medical_weight_bias",
+    "target": "fat_acceptance_movement",
+    "type": "ENABLED",
+    "label": "legitimate bias fueled movement",
+    "note": "Documented poor medical care for larger patients provided the real grievance that grew the movement.",
+    "confidence": "high"
+  },
+  {
+    "id": "identity_capture__incel",
+    "source": "identity_capture",
+    "target": "incel_community",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "same identity lock-in pattern",
+    "note": "Both fat acceptance and incel communities use identity capture to insulate members from self-examination. Leaving = betrayal.",
+    "confidence": "high"
+  },
+  {
+    "id": "identity_capture__brony",
+    "source": "identity_capture",
+    "target": "brony_fandom",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "fandom becomes identity not interest",
+    "note": "For a subset, MLP fandom becomes a surrogate social world rather than an entertainment preference.",
+    "confidence": "medium"
+  },
+  {
+    "id": "identity_capture__furry",
+    "source": "identity_capture",
+    "target": "furry_fandom",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "fursona as identity displacement",
+    "note": "Fursona construction suggests the appeal is not anthropomorphic animals but an alternate self that opts out of uncomfortable human identity.",
+    "confidence": "medium"
+  },
+  {
+    "id": "identity_capture__chronic_illness",
+    "source": "identity_capture",
+    "target": "chronic_illness_online_communities",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "illness becomes personality",
+    "note": "Communities develop reward structures where being sicker generates more engagement, and recovery threatens belonging.",
+    "confidence": "high"
+  },
+  {
+    "id": "mk_ultra__broken_epistemology",
+    "source": "mk_ultra",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "proved government capable of atrocity",
+    "note": "Declassified confirmation that the U.S. government ran non-consensual human experimentation created a permanent legitimate basis for institutional distrust.",
+    "confidence": "high"
+  },
+  {
+    "id": "watergate__broken_epistemology",
+    "source": "watergate",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "demonstrated government lies at highest level",
+    "note": "Nixon's coverup confirmed that presidential-level deception was real, contributing to collapse of institutional trust.",
+    "confidence": "high"
+  },
+  {
+    "id": "broken_epistemology__conspiracy_grifters",
+    "source": "broken_epistemology",
+    "target": "conspiracy_theory_grifters",
+    "type": "ENABLED",
+    "label": "created exploitable audience",
+    "note": "Populations without reliable epistemic tools cannot distinguish documented institutional failure from unfalsifiable conspiracy claims.",
+    "confidence": "high"
+  },
+  {
+    "id": "grifters__legitimate_grievance",
+    "source": "conspiracy_theory_grifters",
+    "target": "legitimate_grievance_capture",
+    "type": "EXPLOITED",
+    "label": "weaponized real grievances",
+    "note": "MK Ultra, regulatory capture, and corporate chemical harm are all real. Grifters use them as entry points to supply false villain narratives.",
+    "confidence": "high"
+  },
+  {
+    "id": "corporate_capture__broken_epistemology",
+    "source": "corporate_regulatory_capture",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "eroded trust in scientific consensus",
+    "note": "Documented cases of corporations suppressing research (tobacco, PFAS, lead) make it rational to distrust scientific claims that touch corporate interests.",
+    "confidence": "high"
+  },
+  {
+    "id": "pfas__corporate_capture",
+    "source": "pfas_microplastics",
+    "target": "corporate_regulatory_capture",
+    "type": "PRODUCED",
+    "label": "textbook regulatory failure",
+    "note": "PFAS contamination persisted for decades with industry knowledge due to regulatory agency capture by chemical manufacturers.",
+    "confidence": "high"
+  },
+  {
+    "id": "legitimate_grievance__moon_conspiracy",
+    "source": "legitimate_grievance_capture",
+    "target": "moon_landing_conspiracy",
+    "type": "PROVIDED_COVER_FOR",
+    "label": "real lies enable false ones",
+    "note": "'They lied about X therefore they could lie about Y' is logically invalid but emotionally coherent when X is genuinely true.",
+    "confidence": "high"
+  },
+  {
+    "id": "medieval_antisemitism__jewish_moneylending",
+    "source": "medieval_christian_antisemitism",
+    "target": "jewish_moneylending",
+    "type": "FORCED_INTO",
+    "label": "exclusion created the stereotype",
+    "note": "Jews were barred from guilds and most professions. Moneylending was permitted. The stereotype of Jewish financial control was created by the exclusion, then blamed on the excluded.",
+    "confidence": "high"
+  },
+  {
+    "id": "medieval_antisemitism__luther",
+    "source": "medieval_christian_antisemitism",
+    "target": "martin_luther_antisemitism",
+    "type": "ENABLED",
+    "label": "theological infrastructure already existed",
+    "note": "Luther's late antisemitic writings drew on 1000 years of accumulated Christian theological antisemitism.",
+    "confidence": "high"
+  },
+  {
+    "id": "luther__nazi_propaganda",
+    "source": "martin_luther_antisemitism",
+    "target": "nazi_propaganda",
+    "type": "ENABLED",
+    "label": "texts directly reprinted by Nazis",
+    "note": "Nazi propagandists literally reprinted Luther's antisemitic texts as ideological material. Not metaphorical — actual publication.",
+    "confidence": "high"
+  },
+  {
+    "id": "protocols__nazi_propaganda",
+    "source": "protocols_of_elders_of_zion",
+    "target": "nazi_propaganda",
+    "type": "ENABLED",
+    "label": "fabricated evidence of conspiracy",
+    "note": "Proven forgery from 1903 was treated as documentary evidence of Jewish conspiracy by Nazi propagandists despite its exposed status.",
+    "confidence": "high"
+  },
+  {
+    "id": "scapegoating__medieval_antisemitism",
+    "source": "scapegoating_mechanism",
+    "target": "medieval_christian_antisemitism",
+    "type": "ENABLED",
+    "label": "psychological mechanism was the vehicle",
+    "note": "Medieval antisemitism was not only theological — it also served as a scapegoating mechanism for plague, economic anxiety, and social instability.",
+    "confidence": "high"
+  },
+  {
+    "id": "nazi_propaganda__holocaust",
+    "source": "nazi_propaganda",
+    "target": "the_holocaust",
+    "type": "ENABLED",
+    "label": "dehumanization preceded genocide",
+    "note": "Propaganda created the psychological infrastructure for genocide by dehumanizing target populations before the machinery of extermination was operational.",
+    "confidence": "high"
+  },
+  {
+    "id": "medieval_antisemitism__holocaust",
+    "source": "medieval_christian_antisemitism",
+    "target": "the_holocaust",
+    "type": "ENABLED",
+    "label": "2000 years of infrastructure",
+    "note": "The Holocaust required no new ideology. It executed on antisemitic frameworks that had been built and maintained for two thousand years.",
+    "confidence": "high"
+  },
+  {
+    "id": "scapegoating__conspiracy_grifters",
+    "source": "scapegoating_mechanism",
+    "target": "conspiracy_theory_grifters",
+    "type": "ENABLED",
+    "label": "villain slot is always available",
+    "note": "Grifters supply pre-made villains into a psychological slot that humans reliably create when experiencing diffuse systemic anxiety.",
+    "confidence": "high"
+  },
+  {
+    "id": "identity_capture__fat_acceptance",
+    "source": "identity_capture",
+    "target": "fat_acceptance_movement",
+    "type": "COLONIZED",
+    "label": "dignity advocacy captured by identity framework",
+    "note": "The legitimate core of fat acceptance (medical bias, dignity, anti-stigma) was colonized by an identity framework that makes improvement feel like betrayal.",
+    "confidence": "medium"
+  },
+  {
+    "id": "legitimate_grievance_capture__political_radicalization",
+    "source": "legitimate_grievance_capture",
+    "target": "political_radicalization",
+    "type": "ENABLED",
+    "label": "mechanism produces documented outcome",
+    "note": "Legitimate Grievance Capture is the mechanism. Political radicalization is the real-world outcome it frequently produces. The mechanism node explains the why; the reference node is the what.",
+    "confidence": "high"
+  },
+  {
+    "id": "tobacco_suppression__manufactured_doubt",
+    "source": "tobacco_industry_research_suppression",
+    "target": "manufactured_scientific_doubt",
+    "type": "PRODUCED",
+    "label": "tobacco industry created the playbook",
+    "note": "Internal tobacco company documents show a coordinated strategy to fund contrarian scientists and manufacture 'doubt' as a deliberate product — a template explicitly adopted by climate and chemical industries.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_doubt__climate_denial",
+    "source": "manufactured_scientific_doubt",
+    "target": "climate_change_denial",
+    "type": "ENABLED",
+    "label": "same firms, same scientists, same strategy",
+    "note": "Naomi Oreskes' research documented identical personnel — including Frederick Seitz and the George C. Marshall Institute — moving directly from tobacco doubt campaigns into climate denial efforts.",
+    "confidence": "high"
+  },
+  {
+    "id": "tobacco_settlement__tobacco_suppression",
+    "source": "tobacco_master_settlement",
+    "target": "tobacco_industry_research_suppression",
+    "type": "DISCREDITED",
+    "label": "internal documents proved corporate knowledge",
+    "note": "Release of over 35 million internal pages made the suppression historically undeniable, converting decades of plausible deniability into confirmed, documented corporate fraud.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_doubt__corporate_capture",
+    "source": "manufactured_scientific_doubt",
+    "target": "corporate_regulatory_capture",
+    "type": "ENABLED",
+    "label": "scientific cover enabled regulatory inaction",
+    "note": "Industry-sponsored uncertainty transforms regulatory capture from crude corruption into something epistemically defensible — agencies can claim scientific ambiguity justifies inaction rather than having to admit industry influence.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_doubt__broken_epistemology",
+    "source": "manufactured_scientific_doubt",
+    "target": "broken_epistemology",
+    "type": "ENABLED",
+    "label": "false controversy eroded epistemic tools",
+    "note": "By successfully making genuine scientific consensus appear contested, the strategy permanently damaged the public's ability to use 'scientific consensus' as a reliable heuristic — even where the consensus is sound.",
+    "confidence": "high"
+  },
+  {
+    "id": "legitimate_grievance__climate_denial",
+    "source": "legitimate_grievance_capture",
+    "target": "climate_change_denial",
+    "type": "ENABLED",
+    "label": "economic anxiety provided a foothold",
+    "note": "Real concerns about energy cost and fossil fuel community job losses gave climate denial a legitimate entry point — converting genuine economic grievance into wholesale rejection of climate science.",
+    "confidence": "medium"
+  },
+  {
+    "id": "cointelpro__broken_epistemology",
+    "source": "cointelpro",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "confirmed government targets its own citizens",
+    "note": "Like MK Ultra, COINTELPRO's confirmed existence established that federal agencies would systematically target, surveil, and harm American citizens — providing a permanent legitimate basis for institutional suspicion.",
+    "confidence": "high"
+  },
+  {
+    "id": "scapegoating__cointelpro",
+    "source": "scapegoating_mechanism",
+    "target": "cointelpro",
+    "type": "ENABLED",
+    "label": "communist threat framing justified targeting",
+    "note": "J. Edgar Hoover used Cold War communist-threat scapegoating to frame civil rights leaders, labor organizers, and antiwar activists as subversive agents, providing political cover for a program of domestic suppression.",
+    "confidence": "high"
+  },
+  {
+    "id": "hamitic_hypothesis__hutu_power",
+    "source": "hamitic_hypothesis",
+    "target": "hutu_power",
+    "type": "ENABLED",
+    "label": "colonial racial taxonomy inverted into weapon",
+    "note": "Belgian application of the Hamitic hypothesis created the racial consciousness Hutu Power required — fixed categories, ID documentation, and a hierarchy that could be inverted when the political moment arrived.",
+    "confidence": "high"
+  },
+  {
+    "id": "hutu_power__radio_milles_collines",
+    "source": "hutu_power",
+    "target": "radio_milles_collines",
+    "type": "PRODUCED",
+    "label": "ideology created its media arm",
+    "note": "RTLM was explicitly created by Hutu Power organizers including Ferdinand Nahimana, who was later convicted of genocide by the International Criminal Tribunal for Rwanda specifically for his role in RTLM's broadcasts.",
+    "confidence": "high"
+  },
+  {
+    "id": "hutu_power__rwandan_genocide",
+    "source": "hutu_power",
+    "target": "rwandan_genocide",
+    "type": "PRODUCED",
+    "label": "organized and executed the genocide",
+    "note": "Hutu Power organized the Interahamwe militia, stockpiled machetes, distributed lists of Tutsi individuals, and coordinated the killing campaign — it was not spontaneous mob violence but planned political violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "scapegoating__hutu_power",
+    "source": "scapegoating_mechanism",
+    "target": "hutu_power",
+    "type": "ENABLED",
+    "label": "Tutsis scapegoated for war and hardship",
+    "note": "Rwanda's economic collapse, the RPF military invasion from Uganda, and the assassination of President Habyarimana were all channeled into Tutsi scapegoating — diffuse crisis converted into a specific identifiable enemy.",
+    "confidence": "high"
+  },
+  {
+    "id": "legitimate_grievance__hutu_power",
+    "source": "legitimate_grievance_capture",
+    "target": "hutu_power",
+    "type": "ENABLED",
+    "label": "real colonial hierarchy gave extremism footing",
+    "note": "Belgian colonizers had genuinely privileged Tutsis administratively for decades, creating real historical grievances about power distribution. Hutu Power exploited these real grievances as the entry point for a genocidal ideology.",
+    "confidence": "high"
+  },
+  {
+    "id": "nazi_propaganda__radio_milles_collines",
+    "source": "nazi_propaganda",
+    "target": "radio_milles_collines",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both used media to dehumanize and coordinate",
+    "note": "Both used mass broadcast media to systematically strip target populations of human status and coordinate killers. Der Stürmer's vermin/parasite language and RTLM's 'inyenzi' (cockroach) language serve the same psychological function.",
+    "confidence": "high"
+  },
+  {
+    "id": "nazi_propaganda__dehumanization",
+    "source": "nazi_propaganda",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "made dehumanizing language publicly acceptable",
+    "note": "Nazi propaganda normalized the dehumanization of Jews and others across German society for a decade before the genocide machinery became operational — a necessary precondition for ordinary German participation in the Holocaust.",
+    "confidence": "high"
+  },
+  {
+    "id": "radio_milles_collines__dehumanization",
+    "source": "radio_milles_collines",
+    "target": "dehumanization",
+    "type": "PRODUCED",
+    "label": "cockroach language stripped human status",
+    "note": "RTLM didn't just report events — it actively produced dehumanization as a functional output, broadcasting 'cockroach' language continuously to prepare killers psychologically and lower the moral threshold for participating.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__rwandan_genocide",
+    "source": "dehumanization",
+    "target": "rwandan_genocide",
+    "type": "ENABLED",
+    "label": "stripped inhibitions against mass killing",
+    "note": "The ICTR's findings document that sustained dehumanization was a prerequisite — ordinary civilians participated in killings of neighbors they had lived alongside for decades because those neighbors had been successfully reframed as subhuman threats.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__the_holocaust",
+    "source": "dehumanization",
+    "target": "the_holocaust",
+    "type": "ENABLED",
+    "label": "required before ordinary people would participate",
+    "note": "Stanley Milgram and Christopher Browning's research on ordinary men as perpetrators both document that sustained dehumanization, not exceptional sadism, is what enables mass civilian participation in genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "pain_management__purdue_pharma_oxycontin",
+    "source": "pain_management_movement",
+    "target": "purdue_pharma_oxycontin",
+    "type": "ENABLED",
+    "label": "legitimate suffering created receptive environment",
+    "note": "The genuine medical problem of undertreated chronic pain gave Purdue's aggressive prescribing campaign the appearance of responding to a clinical need — providing moral cover and a motivated physician audience.",
+    "confidence": "high"
+  },
+  {
+    "id": "purdue_pharma_oxycontin__institutional_credibility_laundering",
+    "source": "purdue_pharma_oxycontin",
+    "target": "institutional_credibility_laundering",
+    "type": "PRODUCED",
+    "label": "pharmaceutical infiltration refined the mechanism",
+    "note": "Purdue's strategy — funding CME, placing speakers in medical schools, influencing Joint Commission standards, publishing in JAMA — is the most systematically documented instance of this mechanism and the template later industries referenced.",
+    "confidence": "high"
+  },
+  {
+    "id": "purdue_pharma_oxycontin__opioid_epidemic",
+    "source": "purdue_pharma_oxycontin",
+    "target": "opioid_epidemic",
+    "type": "PRODUCED",
+    "label": "deceptive marketing caused mass addiction",
+    "note": "States' attorneys general and multiple federal investigations established direct causation: Purdue's marketing of OxyContin as having minimal addiction risk when they knew otherwise drove prescription rates that directly caused the epidemic's first and second waves.",
+    "confidence": "high"
+  },
+  {
+    "id": "legitimate_grievance__purdue_pharma",
+    "source": "legitimate_grievance_capture",
+    "target": "purdue_pharma_oxycontin",
+    "type": "ENABLED",
+    "label": "real pain was the entry point",
+    "note": "Millions of Americans with genuine chronic pain conditions were underserved by a medical system that undertreated pain. This real clinical problem was the legitimate grievance that gave Purdue's marketing campaign moral and clinical cover.",
+    "confidence": "high"
+  },
+  {
+    "id": "corporate_capture__purdue_pharma",
+    "source": "corporate_regulatory_capture",
+    "target": "purdue_pharma_oxycontin",
+    "type": "ENABLED",
+    "label": "FDA failed to scrutinize approval or labeling",
+    "note": "The FDA approved OxyContin with a label claiming lower addiction risk based on a single letter in a medical journal — and declined to require a black-box warning for years. Congressional investigations found regulatory failures consistent with capture.",
+    "confidence": "high"
+  },
+  {
+    "id": "institutional_laundering__corporate_capture",
+    "source": "institutional_credibility_laundering",
+    "target": "corporate_regulatory_capture",
+    "type": "ENABLED",
+    "label": "professional endorsement shields regulators",
+    "note": "When a drug or product carries endorsement from medical societies, journal publications, and professional guidelines, regulatory agencies can cite scientific consensus as justification for approval — even when that consensus was manufactured.",
+    "confidence": "high"
+  },
+  {
+    "id": "identity_capture__opioid_epidemic",
+    "source": "identity_capture",
+    "target": "opioid_epidemic",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "recovery threatens community belonging",
+    "note": "Online addiction communities frequently develop reward structures where sustained illness generates more engagement than recovery, and where getting clean risks social rejection from the community that has become the primary belonging structure.",
+    "confidence": "medium"
+  },
+  {
+    "id": "manufactured_doubt__institutional_laundering",
+    "source": "manufactured_scientific_doubt",
+    "target": "institutional_credibility_laundering",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both weaponize scientific institutions",
+    "note": "Complementary attack vectors: manufactured doubt converts scientific consensus into apparent controversy; institutional credibility laundering converts corporate claims into apparent consensus. Together they cover the full space of how industries neutralize scientific accountability.",
+    "confidence": "high"
+  },
+  {
+    "id": "tuskegee_syphilis_study__broken_epistemology",
+    "source": "tuskegee_syphilis_study",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "produced documented medical distrust",
+    "note": "The most directly traceable instance of government atrocity producing community-specific broken epistemology: studies on COVID vaccine hesitancy in Black Americans consistently identify Tuskegee as a primary cited reason for medical distrust.",
+    "confidence": "high"
+  },
+  {
+    "id": "ottoman_expansion_europe__battle_of_vienna_1683",
+    "source": "ottoman_expansion_europe",
+    "target": "battle_of_vienna_1683",
+    "type": "PRODUCED",
+    "label": "expansion reached its furthest point",
+    "note": "The 1683 siege of Vienna was the culmination of 250 years of westward Ottoman military momentum — the expansion produced this confrontation as its natural terminus when it met an organized, well-led coalition that would not yield.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_vienna_1683__ottoman_expansion_europe",
+    "source": "battle_of_vienna_1683",
+    "target": "ottoman_expansion_europe",
+    "type": "DISCREDITED",
+    "label": "shattered myth of Ottoman invincibility",
+    "note": "The defeat — including the complete rout of Grand Vizier Kara Mustafa's army and the abandonment of the entire Ottoman camp — demonstrated that the expansion was reversible. Kara Mustafa was subsequently executed by Mehmed IV for the failure, signaling the empire's own recognition of the reversal.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_vienna_1683__ottoman_decline_europe",
+    "source": "battle_of_vienna_1683",
+    "target": "ottoman_decline_europe",
+    "type": "CAUSED",
+    "label": "began two centuries of Ottoman retreat",
+    "note": "Vienna is the documented inflection point: the Great Turkish War (1683–1699) immediately followed, ending in the Treaty of Karlowitz and massive Ottoman territorial losses. Every subsequent Ottoman-European engagement accelerated the retreat until the empire's dissolution after World War I.",
+    "confidence": "high"
+  },
+  {
+    "id": "protestant_reformation__ottoman_expansion_europe",
+    "source": "protestant_reformation",
+    "target": "ottoman_expansion_europe",
+    "type": "ENABLED",
+    "label": "religious division weakened unified resistance",
+    "note": "Protestant princes frequently preferred Ottoman pressure on the Catholic Habsburgs to Habsburg dominance — France under Francis I maintained a documented alliance with Suleiman the Magnificent. At Vienna in 1683, Sobieski's relief force was smaller than it might have been partly because Protestant states were reluctant to reinforce the Habsburgs.",
+    "confidence": "speculative"
+  },
+  {
+    "id": "apollo_moon_landing__moon_landing_conspiracy",
+    "source": "apollo_moon_landing",
+    "target": "moon_landing_conspiracy",
+    "type": "DISCREDITED",
+    "label": "physical evidence refutes the conspiracy",
+    "note": "The Moon landing is directly verified by: independent Soviet confirmation, 842 lbs of lunar samples analyzed by labs worldwide, retroreflectors still pingable by laser today, and 400,000 workers — an impossibly large number to maintain a secret.",
+    "confidence": "high"
+  },
+  {
+    "id": "american_eugenics_movement__dehumanization",
+    "source": "american_eugenics_movement",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "declared the 'unfit' subhuman",
+    "note": "Eugenics required and deployed the dehumanization of disabled people, the poor, immigrants, and racial minorities as 'defectives' whose reproduction threatened civilization — providing scientific cover for the psychological process.",
+    "confidence": "high"
+  },
+  {
+    "id": "hamitic_hypothesis__american_eugenics_movement",
+    "source": "hamitic_hypothesis",
+    "target": "american_eugenics_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "shared racial hierarchy pseudoscience",
+    "note": "Both the Hamitic Hypothesis and American eugenics used scientific-appearing racial taxonomies to establish heritable hierarchies — pseudoscience dressed as anthropology or biology to justify state-sanctioned targeting of populations by race.",
+    "confidence": "medium"
+  },
+  {
+    "id": "social_media_algorithms__filter_bubble",
+    "source": "social_media_algorithms",
+    "target": "filter_bubble",
+    "type": "PRODUCED",
+    "label": "personalization produces information silos",
+    "note": "Engagement optimization algorithms produce filter bubbles as a side effect: showing users more of what they engage with progressively narrows their information environment, even when no silo was the explicit design goal.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_media_algorithms__outrage_optimization",
+    "source": "social_media_algorithms",
+    "target": "outrage_optimization",
+    "type": "PRODUCED",
+    "label": "engagement reward discovered outrage works",
+    "note": "Engagement-maximizing algorithms learn through reinforcement that outrage, fear, and moral indignation generate more user interaction than neutral content — producing outrage optimization as an emergent behavioral property without explicit design.",
+    "confidence": "high"
+  },
+  {
+    "id": "filter_bubble__outrage_optimization",
+    "source": "filter_bubble",
+    "target": "outrage_optimization",
+    "type": "ENABLED",
+    "label": "siloed users are primed for outrage",
+    "note": "Users inside information silos, seeing only content that confirms their beliefs, are more receptive to outrage-generating content about the out-group — making filter bubbles the fertile environment in which outrage optimization operates most effectively.",
+    "confidence": "high"
+  },
+  {
+    "id": "filter_bubble__filter_bubble",
+    "source": "filter_bubble",
+    "target": "filter_bubble",
+    "type": "SELF_REINFORCES",
+    "label": "engagement narrows future information exposure",
+    "note": "Each interaction with filtered content trains the algorithm to narrow the filter further — the filter bubble tightens itself with every use, making escape progressively harder without deliberate intervention.",
+    "confidence": "high"
+  },
+  {
+    "id": "outrage_optimization__moon_landing_conspiracy",
+    "source": "outrage_optimization",
+    "target": "moon_landing_conspiracy",
+    "type": "ENABLED",
+    "label": "conspiracy content maximizes outrage engagement",
+    "note": "Conspiracy theories about government deception generate high engagement through outrage and tribal signaling — algorithmic systems therefore amplify them regardless of their truth value, inserting moon landing conspiracy content into feeds of users who never sought it.",
+    "confidence": "medium"
+  },
+  {
+    "id": "outrage_optimization__political_radicalization",
+    "source": "outrage_optimization",
+    "target": "political_radicalization",
+    "type": "CAUSED",
+    "label": "extreme content drives extremist adoption",
+    "note": "Internal Facebook research leaked by Frances Haugen in 2021 found the platform's own algorithms radicalized users toward extremism by serving increasingly extreme content to sustain engagement — confirming outrage optimization as a direct cause of radicalization.",
+    "confidence": "high"
+  },
+  {
+    "id": "filter_bubble__broken_epistemology",
+    "source": "filter_bubble",
+    "target": "broken_epistemology",
+    "type": "ENABLED",
+    "label": "siloed information undermines truth-finding",
+    "note": "Filter bubbles eliminate the exposure to counter-evidence that epistemically healthy reasoning requires — users inside them lose the ability to distinguish well-supported from poorly-supported claims because the information environment never provides a test.",
+    "confidence": "medium"
+  },
+  {
+    "id": "atlantic_slave_trade__dehumanization",
+    "source": "atlantic_slave_trade",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "required enslaved people to be subhuman",
+    "note": "Chattel slavery required the active dehumanization of enslaved people as ideological justification — the economic system could not sustain itself without a moral framework declaring its victims non-persons. American slavery produced one of history's most systematically elaborated dehumanization ideologies.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__jim_crow_laws",
+    "source": "dehumanization",
+    "target": "jim_crow_laws",
+    "type": "ENABLED",
+    "label": "ideology outlasted slavery's legal end",
+    "note": "The dehumanizing racial ideology slavery required did not dissolve at emancipation — it provided the moral scaffolding that made Jim Crow laws politically possible and socially acceptable to white majorities.",
+    "confidence": "high"
+  },
+  {
+    "id": "war_on_drugs__mass_incarceration",
+    "source": "war_on_drugs",
+    "target": "mass_incarceration",
+    "type": "CAUSED",
+    "label": "mandatory minimums drove incarceration rates",
+    "note": "The War on Drugs produced mass incarceration through mandatory minimum sentencing, three-strikes laws, and militarized policing — tripling the U.S. prison population between 1980 and 2000 with documented racial disparities in enforcement and sentencing at every stage.",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow_laws__mass_incarceration",
+    "source": "jim_crow_laws",
+    "target": "mass_incarceration",
+    "type": "ENABLED",
+    "label": "racial caste system changed its form",
+    "note": "Michelle Alexander's The New Jim Crow documents the structural continuity: both systems used legal mechanisms to maintain racial hierarchy — the formal apartheid of Jim Crow replaced by the carceral system as the primary mechanism of racial control after 1965.",
+    "confidence": "medium"
+  },
+  {
+    "id": "pentagon_papers__broken_epistemology",
+    "source": "pentagon_papers",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "proved government systematically deceived the public",
+    "note": "The Pentagon Papers confirmed what MK Ultra and COINTELPRO showed from different angles: the U.S. government systematically deceived the public on matters of war and peace. Together these revelations constituted a foundational collapse of institutional trust.",
+    "confidence": "high"
+  },
+  {
+    "id": "mccarthy_red_scare__gulf_of_tonkin_incident",
+    "source": "mccarthy_red_scare",
+    "target": "gulf_of_tonkin_incident",
+    "type": "ENABLED",
+    "label": "anti-communist hysteria made deception credible",
+    "note": "The anti-communist consensus McCarthyism entrenched made the Tonkin fabrication politically effective — the public and Congress accepted the provocation without scrutiny because questioning military action against communists had been made politically lethal.",
+    "confidence": "medium"
+  },
+  {
+    "id": "mccarthy_red_scare__cointelpro",
+    "source": "mccarthy_red_scare",
+    "target": "cointelpro",
+    "type": "ENABLED",
+    "label": "communist framing normalized domestic surveillance",
+    "note": "McCarthy normalized FBI targeting of political dissidents as national security work — creating the political environment in which COINTELPRO could operate without congressional scrutiny because its targets had been successfully labeled communist-adjacent threats.",
+    "confidence": "high"
+  },
+  {
+    "id": "mccarthy_red_scare__dehumanization",
+    "source": "mccarthy_red_scare",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "communist label stripped political opponents' humanity",
+    "note": "McCarthyism used 'communist' as a dehumanizing category — denying targets the standing of legitimate political actors and reframing dissent as subversion. The label functioned identically to other dehumanizing categories: removing the target from the community of those deserving protection.",
+    "confidence": "high"
+  },
+  {
+    "id": "scapegoating_mechanism__mccarthy_red_scare",
+    "source": "scapegoating_mechanism",
+    "target": "mccarthy_red_scare",
+    "type": "ENABLED",
+    "label": "Cold War anxiety needed a target",
+    "note": "Post-WWII anxiety about Soviet power, nuclear threat, and domestic uncertainty channeled through scapegoating into the communist-in-our-midst narrative — diffuse civilizational anxiety converted into specific, identifiable domestic enemies.",
+    "confidence": "high"
+  },
+  {
+    "id": "mccarthy_red_scare__vietnam_war",
+    "source": "mccarthy_red_scare",
+    "target": "vietnam_war",
+    "type": "ENABLED",
+    "label": "anti-communism made skepticism politically lethal",
+    "note": "The anti-communist consensus McCarthyism hardened made questioning U.S. involvement in Vietnam politically dangerous — politicians and journalists who doubted escalation risked being labeled soft on communism. This consensus enabled both the deception and the escalation to continue far longer than they otherwise would have.",
+    "confidence": "medium"
+  },
+  {
+    "id": "fossil_fuel_industry__climate_change_denial",
+    "source": "fossil_fuel_industry",
+    "target": "climate_change_denial",
+    "type": "PRODUCED",
+    "label": "industry directly funded denial campaigns",
+    "note": "Documented by DeSmog, Union of Concerned Scientists, and Congressional investigations: Exxon, Chevron, and API funded think tanks, front groups, and political campaigns specifically to produce and sustain climate denial as a coherent organized movement.",
+    "confidence": "high"
+  },
+  {
+    "id": "fossil_fuel_industry__manufactured_scientific_doubt",
+    "source": "fossil_fuel_industry",
+    "target": "manufactured_scientific_doubt",
+    "type": "CAUSED",
+    "label": "Exxon funded doubt while knowing the science",
+    "note": "Internal Exxon documents from the late 1970s show company scientists accurately modeling climate change — while the company simultaneously funded doubt-manufacturing campaigns. This is the most documented instance of an industry deploying manufactured scientific doubt after confirming internally what it was denying publicly.",
+    "confidence": "high"
+  },
+  {
+    "id": "fossil_fuel_industry__tobacco_industry_research_suppression",
+    "source": "fossil_fuel_industry",
+    "target": "tobacco_industry_research_suppression",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "same PR firms, same scientists, same playbook",
+    "note": "Naomi Oreskes documented in Merchants of Doubt that the fossil fuel doubt campaign was executed in part by the same individuals — including Frederick Seitz — and the same PR firms that had run the tobacco doubt campaign. The playbook was literally copied.",
+    "confidence": "high"
+  },
+  {
+    "id": "fossil_fuel_industry__corporate_regulatory_capture",
+    "source": "fossil_fuel_industry",
+    "target": "corporate_regulatory_capture",
+    "type": "PRODUCED",
+    "label": "captured EPA and energy regulators",
+    "note": "The fossil fuel industry's regulatory capture of the EPA, Department of Energy, and Congressional energy committees is among the most extensively documented cases of regulatory capture — with revolving-door personnel, direct funding of oversight committee members, and documented agency decisions favoring industry over science.",
+    "confidence": "high"
+  },
+  {
+    "id": "armenian_genocide__dehumanization",
+    "source": "armenian_genocide",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "Armenians portrayed as subversive foreign agents",
+    "note": "Ottoman propaganda portrayed Armenians as a fifth column collaborating with Russia — a dehumanizing reframe that transformed a civilian population into a military threat, providing psychological cover for mass killing by ordinary soldiers and neighbors.",
+    "confidence": "high"
+  },
+  {
+    "id": "ottoman_decline_europe__armenian_genocide",
+    "source": "ottoman_decline_europe",
+    "target": "armenian_genocide",
+    "type": "ENABLED",
+    "label": "imperial collapse produced minority scapegoating",
+    "note": "Two centuries of Ottoman territorial losses, culminating in the Balkan Wars (1912–1913) which cost the empire almost all its European territory, produced the crisis conditions under which the Committee of Union and Progress turned the Armenian population into a scapegoat for imperial failure.",
+    "confidence": "high"
+  },
+  {
+    "id": "scapegoating_mechanism__armenian_genocide",
+    "source": "scapegoating_mechanism",
+    "target": "armenian_genocide",
+    "type": "ENABLED",
+    "label": "Armenian community scapegoated for Ottoman losses",
+    "note": "The Ottoman state channeled military defeat, economic collapse, and existential imperial anxiety into Armenian scapegoating — the pattern is identical to the Rwandan case where crisis was converted into a specific ethnic target.",
+    "confidence": "high"
+  },
+  {
+    "id": "berlin_conference_1884__hamitic_hypothesis",
+    "source": "berlin_conference_1884",
+    "target": "hamitic_hypothesis",
+    "type": "ENABLED",
+    "label": "colonialism required racial science justification",
+    "note": "The Berlin Conference's colonial project required racial ideology to justify administration of 'inferior' peoples — the Hamitic Hypothesis was the specific racial science deployed in East and Central Africa, providing a taxonomic framework that colonial administrations, particularly Belgium in Rwanda, institutionalized.",
+    "confidence": "high"
+  },
+  {
+    "id": "berlin_conference_1884__dehumanization",
+    "source": "berlin_conference_1884",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "African partition required subhuman framing",
+    "note": "The casual partition of an inhabited continent among European powers required that its inhabitants be framed as incapable of self-governance — deploying existing racial dehumanization ideology at continental administrative scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "mass_incarceration__mass_incarceration",
+    "source": "mass_incarceration",
+    "target": "mass_incarceration",
+    "type": "SELF_REINFORCES",
+    "label": "incarceration creates conditions for reoffense",
+    "note": "Incarceration destroys employment prospects, housing stability, and family structure — conditions that predictably increase reoffense rates. The system produces the recidivism that justifies continued incarceration, self-sustaining through the harms it generates.",
+    "confidence": "high"
+  },
+  {
+    "id": "pentagon_papers__moon_landing_conspiracy",
+    "source": "pentagon_papers",
+    "target": "moon_landing_conspiracy",
+    "type": "ENABLED",
+    "label": "proven government lies fueled broader distrust",
+    "note": "The Pentagon Papers confirmed that the government had systematically deceived the public on a matter of national importance. This confirmation made 'they're lying about everything' a more emotionally coherent position — providing exactly the broken epistemology that moon landing conspiracy theories exploit.",
+    "confidence": "speculative"
+  },
+  {
+    "id": "opioid_epidemic__mass_incarceration",
+    "source": "opioid_epidemic",
+    "target": "mass_incarceration",
+    "type": "ENABLED",
+    "label": "users criminalized rather than treated",
+    "note": "In the early decades of the epidemic, opioid users — particularly in communities of color — were prosecuted rather than referred to treatment, adding a drug-offense incarceration wave to an already mass-incarceration system.",
+    "confidence": "medium"
+  },
+  {
+    "id": "outrage_optimization__climate_change_denial",
+    "source": "outrage_optimization",
+    "target": "climate_change_denial",
+    "type": "ENABLED",
+    "label": "denial content maximizes engagement",
+    "note": "Climate denial content generates high outrage engagement from both believers and critics — algorithmic systems therefore amplify it regardless of scientific accuracy, giving well-funded denial campaigns a free distribution channel through engagement optimization.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ottoman_decline_europe__world_war_i",
+    "source": "ottoman_decline_europe",
+    "target": "world_war_i",
+    "type": "CAUSED",
+    "label": "Ottoman collapse triggered the Eastern Question",
+    "note": "The dying Ottoman Empire's territorial implosion in the Balkans — triggering the First and Second Balkan Wars and creating a power vacuum that Austria-Hungary, Russia, Germany, and Britain all competed to fill — was the immediate structural cause of the July Crisis that ignited WWI.",
+    "confidence": "medium"
+  },
+  {
+    "id": "treaty_of_versailles__weimar_republic",
+    "source": "treaty_of_versailles",
+    "target": "weimar_republic",
+    "type": "CAUSED",
+    "label": "punitive terms doomed democratic legitimacy",
+    "note": "Versailles saddled the new Weimar democracy with the 'war guilt' clause, reparations, and territorial losses it had no role in causing — permanently delegitimizing democratic governance in German public opinion by associating it with national humiliation.",
+    "confidence": "high"
+  },
+  {
+    "id": "scapegoating_mechanism__weimar_republic",
+    "source": "scapegoating_mechanism",
+    "target": "weimar_republic",
+    "type": "ENABLED",
+    "label": "stab-in-the-back myth blamed the Jews",
+    "note": "The Dolchstosslegende — 'stab-in-the-back' myth blaming Germany's WWI defeat on Jewish socialists and war-resisters — was the primary scapegoating mechanism that channeled Weimar's genuine economic ruin into antisemitic political violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "legitimate_grievance_capture__nazi_propaganda",
+    "source": "legitimate_grievance_capture",
+    "target": "nazi_propaganda",
+    "type": "ENABLED",
+    "label": "genuine suffering became genocidal entry point",
+    "note": "Nazi propaganda entered through genuine Weimar suffering: hyperinflation, mass unemployment, national humiliation. Real economic catastrophe was the legitimate grievance that Nazi ideology captured and redirected into genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "weimar_republic__nazi_propaganda",
+    "source": "weimar_republic",
+    "target": "nazi_propaganda",
+    "type": "ENABLED",
+    "label": "democratic collapse provided extremism's environment",
+    "note": "Weimar's political dysfunction — street violence, ineffective coalitions, economic catastrophe — gave Nazi propaganda an environment where democratic failure was visibly evident and alternatives seemed viable.",
+    "confidence": "high"
+  },
+  {
+    "id": "nazi_propaganda__nuremberg_laws_1935",
+    "source": "nazi_propaganda",
+    "target": "nuremberg_laws_1935",
+    "type": "PRODUCED",
+    "label": "decade of propaganda produced racial law",
+    "note": "The Nuremberg Laws codified what Nazi propaganda had spent a decade establishing as social fact — that Jews were a separate, threatening race. The laws translated propaganda into administrative infrastructure.",
+    "confidence": "high"
+  },
+  {
+    "id": "nazi_propaganda__kristallnacht",
+    "source": "nazi_propaganda",
+    "target": "kristallnacht",
+    "type": "CAUSED",
+    "label": "propaganda directly incited organized pogrom",
+    "note": "Kristallnacht was not spontaneous — it was organized by Goebbels and the SA following the assassination of a German diplomat by a Jewish teenager, using the propaganda infrastructure that had spent years preparing German society to accept mass anti-Jewish violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "mccarthy_red_scare__cuban_missile_crisis",
+    "source": "mccarthy_red_scare",
+    "target": "cuban_missile_crisis",
+    "type": "ENABLED",
+    "label": "anti-communist ideology drove brinksmanship",
+    "note": "The anti-communist political environment McCarthyism hardened made nuclear brinksmanship politically mandatory — Kennedy could not accept Soviet missiles in Cuba without domestic political destruction, regardless of the rational case for negotiation.",
+    "confidence": "medium"
+  },
+  {
+    "id": "battle_of_somme__dehumanization",
+    "source": "battle_of_somme",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "industrial war required soldiers as material",
+    "note": "The Somme's strategic logic required commanding officers to treat soldiers as interchangeable expendable units — a dehumanization of their own troops that produced the 'lions led by donkeys' dynamic and the permanent collapse of officer class authority in British culture.",
+    "confidence": "medium"
+  },
+  {
+    "id": "cuban_missile_crisis__broken_epistemology",
+    "source": "cuban_missile_crisis",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "nuclear near-miss eroded institutional trust",
+    "note": "The revelation that humanity came within hours of nuclear war — in a crisis driven by ideological posturing rather than genuine military necessity — contributed to a permanent collapse of trust that governments made rational decisions with existential stakes.",
+    "confidence": "medium"
+  },
+  {
+    "id": "atomic_bombing_hiroshima__broken_epistemology",
+    "source": "atomic_bombing_hiroshima",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "nuclear age revealed government's annihilation power",
+    "note": "The bombing demonstrated that governments possessed weapons capable of annihilating entire cities — permanently establishing that institutional actors held power whose consequences exceeded any democratic check, contributing to a permanent epistemological shift in how citizens understood government capability.",
+    "confidence": "medium"
+  },
+  {
+    "id": "scapegoating_mechanism__stalinist_purges",
+    "source": "scapegoating_mechanism",
+    "target": "stalinist_purges",
+    "type": "ENABLED",
+    "label": "enemies of the people framing enabled purges",
+    "note": "Stalin's purges operated entirely through scapegoating — 'wreckers,' 'saboteurs,' and 'enemies of the people' were the named villain categories into which Soviet anxieties about industrial failure and political instability were channeled, providing show trial justifications for eliminating rivals.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__holodomor",
+    "source": "dehumanization",
+    "target": "holodomor",
+    "type": "ENABLED",
+    "label": "kulaks dehumanized as class enemies",
+    "note": "Soviet propaganda dehumanized Ukrainian farmers as 'kulaks' — exploitative class enemies sabotaging collectivization — a framing that allowed Soviet officials to enforce grain quotas on starving people as ideologically necessary class struggle rather than mass murder.",
+    "confidence": "high"
+  },
+  {
+    "id": "gulag_system__mass_incarceration",
+    "source": "gulag_system",
+    "target": "mass_incarceration",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are carceral systems built on racial targeting",
+    "note": "Both the Gulag and U.S. mass incarceration use nominally neutral legal processes to incarcerate populations targeted by political and racial criteria — producing economic benefit for the state while maintaining social control over politically inconvenient groups.",
+    "confidence": "medium"
+  },
+  {
+    "id": "great_leap_forward__manufactured_scientific_doubt",
+    "source": "great_leap_forward",
+    "target": "manufactured_scientific_doubt",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both suppress science for ideological goals",
+    "note": "Mao's Great Leap Forward enforced Lysenkoism — rejecting Mendelian genetics as bourgeois — while manufactured scientific doubt deploys industry-sponsored contrarians to suppress unwanted scientific consensus. Both represent the weaponization of institutional authority to override empirical reality.",
+    "confidence": "medium"
+  },
+  {
+    "id": "khmer_rouge_genocide__dehumanization",
+    "source": "khmer_rouge_genocide",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "city dwellers labeled class enemies",
+    "note": "Khmer Rouge ideology required dehumanizing the 'new people' — urban residents, professionals, and intellectuals — as contaminated class enemies who must be 'cleansed' through forced agricultural labor or execution, using dehumanization to enable mass killing by ordinary cadres.",
+    "confidence": "high"
+  },
+  {
+    "id": "iran_contra__broken_epistemology",
+    "source": "iran_contra",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "confirmed illegal presidential covert operations",
+    "note": "Iran-Contra confirmed the Pentagon Papers/Watergate/COINTELPRO pattern: a presidential administration had conducted illegal covert foreign policy operations and lied to Congress about them. Each successive confirmation deepened the rational basis for institutional distrust.",
+    "confidence": "high"
+  },
+  {
+    "id": "iraq_war_wmd__institutional_credibility_laundering",
+    "source": "iraq_war_wmd",
+    "target": "institutional_credibility_laundering",
+    "type": "EXPLOITED",
+    "label": "Powell's UN speech laundered false intelligence",
+    "note": "Colin Powell's February 2003 UN Security Council presentation used his personal credibility, the UN's institutional authority, and carefully staged satellite imagery to present cherry-picked and fabricated intelligence as definitive proof — the most documented instance of institutional credibility laundering for military authorization.",
+    "confidence": "high"
+  },
+  {
+    "id": "iraq_war_wmd__broken_epistemology",
+    "source": "iraq_war_wmd",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "confirmed WMD case was fabricated",
+    "note": "The subsequent failure to find WMDs and the Chilcot and Senate Intelligence Committee reports confirming the intelligence was manipulated produced another layer of confirmed government deception — extending the broken epistemology produced by Watergate, Vietnam, and Iran-Contra.",
+    "confidence": "high"
+  },
+  {
+    "id": "abu_ghraib__dehumanization",
+    "source": "abu_ghraib",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "detainees classified as non-persons",
+    "note": "Abu Ghraib's torture program required classifying Iraqi detainees as outside legal and moral protection — 'enemy combatants' rather than prisoners of war, terrorist suspects rather than civilians. The dehumanization was explicit in the legal memos and operational framing.",
+    "confidence": "high"
+  },
+  {
+    "id": "patriot_act_surveillance__broken_epistemology",
+    "source": "patriot_act_surveillance",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "Snowden confirmed mass surveillance was real",
+    "note": "Government officials had publicly denied mass surveillance programs that Snowden's documents confirmed were real — adding another confirmed government lie to the accumulating record that produced broken epistemology in American public discourse.",
+    "confidence": "medium"
+  },
+  {
+    "id": "king_leopold_congo__dehumanization",
+    "source": "king_leopold_congo",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "Congolese treated as labor machinery",
+    "note": "The Congo Free State's rubber quota system required treating Congolese people as interchangeable labor units — enforced through hostage-taking, severing hands as proof of bullet expenditure, and collective punishment. The system required and systematically deployed dehumanization.",
+    "confidence": "high"
+  },
+  {
+    "id": "medieval_christian_antisemitism__first_crusade",
+    "source": "medieval_christian_antisemitism",
+    "target": "first_crusade",
+    "type": "ENABLED",
+    "label": "crusade preaching activated anti-Jewish violence",
+    "note": "The First Crusade's mobilization activated the dehumanizing 'enemies of Christ' logic of medieval Christian antisemitism — Crusaders reasoning that if they were marching to fight Christ's enemies in the Holy Land, why not kill them in the Rhineland first. The 1096 Rhineland Massacres killed thousands of Jews.",
+    "confidence": "high"
+  },
+  {
+    "id": "first_crusade__medieval_christian_antisemitism",
+    "source": "first_crusade",
+    "target": "medieval_christian_antisemitism",
+    "type": "NORMALIZED",
+    "label": "massacres normalized large-scale anti-Jewish violence",
+    "note": "The Rhineland Massacres of 1096 normalized organized mass killing of Jewish communities as a religious activity — establishing that Crusaders who killed Jews would face limited ecclesiastical consequence, deepening the violent potential of medieval antisemitism.",
+    "confidence": "high"
+  },
+  {
+    "id": "medieval_christian_antisemitism__spanish_inquisition",
+    "source": "medieval_christian_antisemitism",
+    "target": "spanish_inquisition",
+    "type": "PRODUCED",
+    "label": "theological infrastructure produced the Inquisition",
+    "note": "The Spanish Inquisition was produced by the same theological framework of collective Jewish guilt — focused specifically on conversos suspected of secretly continuing Jewish practice, requiring 1,000 years of accumulated antisemitic theological infrastructure to function.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_death__medieval_christian_antisemitism",
+    "source": "black_death",
+    "target": "medieval_christian_antisemitism",
+    "type": "ENABLED",
+    "label": "plague panic intensified Jewish scapegoating",
+    "note": "The Black Death's catastrophic death toll — killing 30–50% of Europe's population — produced the social panic that activated scapegoating through the existing antisemitic framework. Accusations of well-poisoning spread across Europe leading to mass burnings of Jewish communities.",
+    "confidence": "high"
+  },
+  {
+    "id": "thirty_years_war__dehumanization",
+    "source": "thirty_years_war",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "religious war required viewing opponents as damned",
+    "note": "The Thirty Years War's confessional logic required treating the opposing religious community as not merely wrong but spiritually contaminated — the theological dehumanization of the other confession enabled atrocities against civilian populations that ordinary warfare rules would have prevented.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ottoman_expansion_europe__fall_of_constantinople",
+    "source": "ottoman_expansion_europe",
+    "target": "fall_of_constantinople",
+    "type": "PRODUCED",
+    "label": "expansion produced the fall as its milestone",
+    "note": "The fall of Constantinople was not a random event but the logical product of two centuries of Ottoman westward expansion — Mehmed II's campaign was the culmination of a sustained strategic project that his predecessors had been pursuing since the early 1300s.",
+    "confidence": "high"
+  },
+  {
+    "id": "fall_of_constantinople__ottoman_expansion_europe",
+    "source": "fall_of_constantinople",
+    "target": "ottoman_expansion_europe",
+    "type": "ENABLED",
+    "label": "removing Byzantine buffer enabled further expansion",
+    "note": "Constantinople had functioned as the last major barrier to Ottoman expansion into Central Europe. Its fall removed the Byzantine Empire as a buffer state, enabling Ottoman expansion into Serbia, Bosnia, Albania, and Hungary — the path that would eventually reach Vienna.",
+    "confidence": "high"
+  },
+  {
+    "id": "mongol_conquests__ottoman_expansion_europe",
+    "source": "mongol_conquests",
+    "target": "ottoman_expansion_europe",
+    "type": "ENABLED",
+    "label": "Mongol vacuum enabled Ottoman state's rise",
+    "note": "The Ottoman state emerged from the Anatolian fragments of the Mongol-destroyed Seljuk Sultanate — the Mongol destruction of existing Islamic powers was the precondition that allowed a small Turkish principality to rise into the dominant regional power that would expand into Europe.",
+    "confidence": "medium"
+  },
+  {
+    "id": "scapegoating_mechanism__partition_of_india",
+    "source": "scapegoating_mechanism",
+    "target": "partition_of_india",
+    "type": "ENABLED",
+    "label": "colonial resentments channeled into communal violence",
+    "note": "British partition activated scapegoating on both sides: Hindu-Muslim communal tensions, intensified by British divide-and-rule policies, produced mass violence in which ordinary people massacred neighbors they had lived alongside for generations once administrative partition provided the dehumanizing frame.",
+    "confidence": "medium"
+  },
+  {
+    "id": "dehumanization__partition_of_india",
+    "source": "dehumanization",
+    "target": "partition_of_india",
+    "type": "ENABLED",
+    "label": "communal violence required dehumanizing neighbors",
+    "note": "The partition massacres required participants to frame religious neighbors as existential threats — the same dehumanization mechanism documented in the Holocaust and Rwanda. The speed with which neighbors killed neighbors demonstrates how pre-existing community ties dissolve when dehumanization is successfully activated.",
+    "confidence": "high"
+  },
+  {
+    "id": "srebrenica_massacre__dehumanization",
+    "source": "srebrenica_massacre",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "Bosniaks framed as existential demographic threat",
+    "note": "Serbian nationalist ideology framed Bosniak Muslims as a demographic threat to the Serbian nation — dehumanizing them as agents of Islamization rather than citizens. This framing enabled ordinary Bosnian Serb soldiers to execute men and boys they had previously lived alongside.",
+    "confidence": "high"
+  },
+  {
+    "id": "my_lai_massacre__dehumanization",
+    "source": "my_lai_massacre",
+    "target": "dehumanization",
+    "type": "EXPLOITED",
+    "label": "gooks: dehumanization enabled civilian massacre",
+    "note": "My Lai's massacre required participants to frame Vietnamese civilians as enemy combatants or subhuman threats — the 'gook' dehumanization that U.S. military training systematically deployed. Without this dehumanization, ordinary soldiers would not have participated in killing women, children, and elderly.",
+    "confidence": "high"
+  },
+  {
+    "id": "american_civil_war__reconstruction_era",
+    "source": "american_civil_war",
+    "target": "reconstruction_era",
+    "type": "PRODUCED",
+    "label": "Union victory produced the Reconstruction project",
+    "note": "Reconstruction was the post-Civil War project to rebuild the South and integrate 4 million formerly enslaved people as citizens — produced directly by the Union victory and the political necessity of determining what emancipation would mean in practice.",
+    "confidence": "high"
+  },
+  {
+    "id": "reconstruction_era__jim_crow_laws",
+    "source": "reconstruction_era",
+    "target": "jim_crow_laws",
+    "type": "CAUSED",
+    "label": "Reconstruction's failure produced Jim Crow",
+    "note": "Reconstruction's 1877 abandonment — Federal troops withdrawn as part of the Compromise of 1877 — allowed white supremacist violence to destroy Black political participation. Jim Crow laws were the legal consolidation of the racial control that white supremacist terror had already established through violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_gettysburg__reconstruction_era",
+    "source": "battle_of_gettysburg",
+    "target": "reconstruction_era",
+    "type": "ENABLED",
+    "label": "Confederate defeat enabled Union's reconstruction project",
+    "note": "Gettysburg ended any realistic Confederate hope of Northern capitulation or European recognition — making Union victory and Reconstruction inevitable. Without the Gettysburg defeat, the political conditions for Reconstruction would not have existed.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ancient_jerusalem__rise_of_christianity",
+    "source": "ancient_jerusalem",
+    "target": "rise_of_christianity",
+    "type": "ENABLED",
+    "label": "Crucifixion site made Jerusalem theologically necessary",
+    "note": "Jesus's ministry, crucifixion, and resurrection all occurred in Jerusalem — making the city not merely symbolically important but theologically constitutive of the Christian narrative. Without Jerusalem, Christianity has no story.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_jerusalem__jewish_roman_wars",
+    "source": "ancient_jerusalem",
+    "target": "jewish_roman_wars",
+    "type": "CAUSED",
+    "label": "Temple's holiness made Roman control intolerable",
+    "note": "The Second Temple was the center of Jewish religious and political life — Roman taxation of the Temple treasury and installation of Roman standards were experienced as sacrilege, making resistance a religious obligation. The wars were fought over the city's sacred status.",
+    "confidence": "high"
+  },
+  {
+    "id": "babylonian_captivity__jewish_diaspora",
+    "source": "babylonian_captivity",
+    "target": "jewish_diaspora",
+    "type": "ENABLED",
+    "label": "first exile established the diaspora pattern",
+    "note": "The Babylonian captivity established the pattern of Jewish communal survival without a homeland — the theological and institutional frameworks developed in Babylon (synagogue, portable Torah-centered religion) made the later Roman-era diaspora survivable rather than lethal to Jewish identity.",
+    "confidence": "high"
+  },
+  {
+    "id": "jewish_roman_wars__jewish_diaspora",
+    "source": "jewish_roman_wars",
+    "target": "jewish_diaspora",
+    "type": "CAUSED",
+    "label": "Temple destroyed, Jews expelled from Jerusalem",
+    "note": "The Great Revolt (66–73 AD) destroyed the Second Temple; the Bar Kokhba revolt (132–135 AD) ended with Rome expelling Jews from Jerusalem and renaming the province Syria Palaestina. The mass expulsion created the permanent European Jewish diaspora.",
+    "confidence": "high"
+  },
+  {
+    "id": "jewish_diaspora__medieval_christian_antisemitism",
+    "source": "jewish_diaspora",
+    "target": "medieval_christian_antisemitism",
+    "type": "ENABLED",
+    "label": "diaspora placed Jews inside Christian societies",
+    "note": "The Jewish diaspora distributed Jewish communities throughout Europe as a permanent minority within Christian societies — creating the social geography that medieval Christian antisemitism required. Without Jewish communities living among Christian majorities, the centuries of persecution have no target.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_jerusalem__rise_of_islam",
+    "source": "ancient_jerusalem",
+    "target": "rise_of_islam",
+    "type": "ENABLED",
+    "label": "Jerusalem's Night Journey made it Islam's third holy city",
+    "note": "The Prophet Muhammad's Night Journey (Isra and Mi'raj) to Jerusalem and his ascension to heaven from the Temple Mount made Jerusalem (Al-Quds) Islam's third holiest city after Mecca and Medina — giving Islamic civilization a direct stake in the city's political control.",
+    "confidence": "high"
+  },
+  {
+    "id": "jewish_diaspora__zionism",
+    "source": "jewish_diaspora",
+    "target": "zionism",
+    "type": "CAUSED",
+    "label": "Diaspora persecution produced nationalist response",
+    "note": "Two millennia of Jewish life in diaspora — marked by pogroms, legal discrimination, forced conversions, expulsions, and endemic antisemitism — produced Zionism as a nationalist response. Theodor Herzl formalized this response after witnessing the Dreyfus Affair, arguing that Jewish safety could only be achieved through a sovereign Jewish state.",
+    "confidence": "high"
+  },
+  {
+    "id": "oil_geopolitics__us_iran_1953_coup",
+    "source": "oil_geopolitics",
+    "target": "us_iran_1953_coup",
+    "type": "CAUSED",
+    "label": "Oil interests drove the intervention",
+    "note": "The Anglo-Iranian Oil Company's loss of its Iranian concessions to Mosaddegh's nationalization was the immediate trigger for the coup. British and US oil interests — and the principle that Western nations could not permit the nationalization of their oil assets — was the explicit motivation that MI6 brought to the CIA when requesting US involvement.",
+    "confidence": "high"
+  },
+  {
+    "id": "oil_geopolitics__six_day_war_1967",
+    "source": "oil_geopolitics",
+    "target": "six_day_war_1967",
+    "type": "ENABLED",
+    "label": "Oil states funded Arab military buildup",
+    "note": "Arab oil revenues — particularly from Saudi Arabia and Kuwait — funded Egyptian and Syrian military modernization in the years preceding 1967. Oil wealth gave Arab states the capacity to purchase Soviet weaponry and maintain large standing armies, making the military confrontation with Israel more credible and the miscalculation of war more likely.",
+    "confidence": "medium"
+  },
+  {
+    "id": "yom_kippur_war_1973__oil_geopolitics",
+    "source": "yom_kippur_war_1973",
+    "target": "oil_geopolitics",
+    "type": "ENABLED",
+    "label": "War triggered OPEC oil embargo",
+    "note": "Arab OPEC members imposed an oil embargo on the US and Western Europe in response to their support for Israel during the 1973 war. The embargo caused a fourfold increase in oil prices, demonstrating that Middle Eastern oil was a strategic weapon — permanently establishing oil geopolitics as central to US Middle East policy.",
+    "confidence": "high"
+  },
+  {
+    "id": "nakba__israel_palestine_conflict",
+    "source": "nakba",
+    "target": "israel_palestine_conflict",
+    "type": "CAUSED",
+    "label": "Displacement became the irresolvable core",
+    "note": "The Nakba's creation of 700,000 refugees — and Israel's refusal to permit their return — became the foundational, irresolvable grievance of Palestinian nationalism. The right of return has been the insurmountable obstacle in every peace negotiation, making the Nakba not merely a historical event but an ongoing structural condition of the conflict.",
+    "confidence": "high"
+  },
+  {
+    "id": "founding_of_israel__israel_palestine_conflict",
+    "source": "founding_of_israel",
+    "target": "israel_palestine_conflict",
+    "type": "PRODUCED",
+    "label": "Founding produced the structural conflict",
+    "note": "The founding of Israel on territory inhabited by a Palestinian Arab majority — with no agreement on how the two peoples would coexist — structurally produced the ongoing conflict. The question of Palestinian political rights, refugees, and territorial sovereignty has been unresolved since 1948.",
+    "confidence": "high"
+  },
+  {
+    "id": "oil_geopolitics__wahhabism_salafism",
+    "source": "oil_geopolitics",
+    "target": "wahhabism_salafism",
+    "type": "ENABLED",
+    "label": "Saudi oil revenue exported Wahhabism globally",
+    "note": "The 1973 oil embargo's fourfold price increase gave Saudi Arabia vast petroleum revenues, which it spent from the late 1970s onward funding the global propagation of Wahhabi Islam: building mosques, funding madrassas, training imams, and distributing religious literature worldwide. Oil money transformed a fringe Arabian theology into a global force.",
+    "confidence": "high"
+  },
+  {
+    "id": "wahhabism_salafism__soviet_afghan_war",
+    "source": "wahhabism_salafism",
+    "target": "soviet_afghan_war",
+    "type": "ENABLED",
+    "label": "Wahhabi ideology recruited foreign fighters",
+    "note": "Saudi Arabia used Wahhabi religious framing to recruit Arab volunteer fighters (Arab Afghans) for the jihad against the Soviet Union, channeling both ideology and money through Pakistani ISI and Afghan mujahideen networks. The war was explicitly framed as a religious obligation under Wahhabi doctrine, legitimizing international jihadist mobilization.",
+    "confidence": "high"
+  },
+  {
+    "id": "isis_rise__israel_palestine_conflict",
+    "source": "isis_rise",
+    "target": "israel_palestine_conflict",
+    "type": "ENABLED",
+    "label": "ISIS reframed Palestinian cause as global jihad",
+    "note": "ISIS's rise and its explicit claim to speak for global Sunni Islam complicated the Palestinian cause internationally — Western governments increasingly conflated Palestinian resistance with jihadist terrorism, and ISIS's explicit statements about Israel provided justification for Israeli security arguments. ISIS's rise shifted the regional security framework in ways that disadvantaged Palestinian political claims.",
+    "confidence": "speculative"
+  },
+  {
+    "id": "oslo_accords__israel_palestine_conflict",
+    "source": "oslo_accords",
+    "target": "israel_palestine_conflict",
+    "type": "ENABLED",
+    "label": "Failed peace process deepened the conflict",
+    "note": "The Oslo Accords created the two-state framework but deferred every substantive issue. As the peace process stalled through the 1990s, continued Israeli settlement expansion made a viable Palestinian state increasingly impossible. Oslo's failure — particularly after Camp David 2000 — discredited moderate Palestinian leadership, strengthened Hamas, and produced the Second Intifada, deepening the conflict it was meant to resolve.",
+    "confidence": "high"
+  },
+  {
+    "id": "six_day_war_1967__israel_palestine_conflict",
+    "source": "six_day_war_1967",
+    "target": "israel_palestine_conflict",
+    "type": "CAUSED",
+    "label": "Occupation created the defining modern conflict",
+    "note": "Israel's capture of the West Bank and Gaza Strip in 1967 placed the entire Palestinian population under Israeli military control, creating the occupation that defines the modern conflict. Every subsequent Israeli-Palestinian confrontation — the intifadas, settlements, blockade of Gaza, military operations — flows from the occupation that began in June 1967.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__scapegoating_mechanism",
+    "source": "in_group_out_group_dynamics",
+    "target": "scapegoating_mechanism",
+    "type": "ENABLED",
+    "label": "Out-group perception enables scapegoating",
+    "note": "Scapegoating requires a prior cognitive framework that marks certain groups as fundamentally different. In-group/out-group dynamics provide that framework — once an out-group is psychologically categorized as alien or threatening, attributing society's problems to their presence becomes cognitively available. Scapegoating is in-group/out-group dynamics weaponized by political actors.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__dehumanization",
+    "source": "in_group_out_group_dynamics",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "Out-group distinction enables dehumanization",
+    "note": "The categorical separation of 'us' from 'them' is the prerequisite for dehumanization. Before a group can be described as vermin or subhuman, they must first be mentally segregated from full membership in the human community. In-group/out-group dynamics create the categorical distinction that genocide propagandists then exploit.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__hutu_power",
+    "source": "in_group_out_group_dynamics",
+    "target": "hutu_power",
+    "type": "ENABLED",
+    "label": "Tribal psychology weaponized into ethnic extremism",
+    "note": "Hutu Power ideology exploited in-group/out-group dynamics by transforming the colonial Hutu/Tutsi categorization into an existential identity conflict. Political entrepreneurs mobilized primordial tribal psychology — the sense that survival requires defeating the out-group — to build a mass movement capable of genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__dehumanization",
+    "source": "moral_disengagement",
+    "target": "dehumanization",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both disable the moral response to harm",
+    "note": "Moral disengagement and dehumanization are complementary mechanisms for silencing conscience. Dehumanization removes the victim from moral consideration; moral disengagement removes the perpetrator's sense of personal responsibility. Both are required for sustained atrocity.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__gulag_system",
+    "source": "moral_disengagement",
+    "target": "gulag_system",
+    "type": "ENABLED",
+    "label": "Bureaucratic diffusion enabled mass imprisonment",
+    "note": "The Gulag's vast scale was made possible by moral disengagement through bureaucratic diffusion: guards transferred prisoners, administrators processed paperwork, NKVD officers followed quotas. No single actor felt personally responsible for the fate of individuals. The system committed atrocities that none of its parts would own.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__abu_ghraib",
+    "source": "moral_disengagement",
+    "target": "abu_ghraib",
+    "type": "ENABLED",
+    "label": "Authority displacement enabled torture by ordinary soldiers",
+    "note": "Abu Ghraib's abuses were committed by ordinary Army Reserve soldiers who displaced moral responsibility upward ('we were told this was approved'), used euphemistic language, and were isolated from civilian moral constraints. Moral disengagement theory predicted this: put ordinary people in a context where authority legitimizes harm and accountability is diffuse, and atrocity follows.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__iraq_war_wmd",
+    "source": "manufactured_consent",
+    "target": "iraq_war_wmd",
+    "type": "ENABLED",
+    "label": "Media deference to official sources enabled deception",
+    "note": "The Iraq WMD deception succeeded in part because major US media treated official government claims as presumptively true, gave minimal coverage to dissenting experts, and framed opposition as fringe. Manufactured consent's prediction — that access journalism and source dependence would amplify official claims — was confirmed in real time.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__tobacco_industry_research_suppression",
+    "source": "manufactured_consent",
+    "target": "tobacco_industry_research_suppression",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both manufacture apparent expert consensus via media",
+    "note": "Tobacco industry research suppression and manufactured consent operate through the same logic: use media access, advertising revenue, and the appearance of legitimate debate to prevent the public from perceiving consensus against elite interests. The tobacco industry's doubt-science was manufactured consent applied to public health.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__fossil_fuel_industry",
+    "source": "manufactured_consent",
+    "target": "fossil_fuel_industry",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Climate denial used the same playbook",
+    "note": "The fossil fuel industry's climate denial campaign explicitly modeled itself on tobacco's manufactured doubt strategy: fund contrarian scientists, sponsor think tanks, flood media with 'both sides' framing. Both are instances of manufactured consent's core mechanism: powerful interests shaping the range of 'acceptable' public opinion through media management.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_backsliding__weimar_republic",
+    "source": "democratic_backsliding",
+    "target": "weimar_republic",
+    "type": "ENABLED",
+    "label": "Emergency powers enabled legal Nazi seizure",
+    "note": "Weimar's Article 48 emergency powers — used by multiple chancellors before Hitler — normalized the suspension of constitutional rights by decree. Hitler's path to dictatorship ran through the Enabling Act of 1933, which was formally constitutional. Democratic backsliding's defining feature — using democratic mechanisms to end democracy — was fully realized in Weimar's destruction.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_backsliding__mccarthy_red_scare",
+    "source": "democratic_backsliding",
+    "target": "mccarthy_red_scare",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Opposition delegitimized as traitors, not citizens",
+    "note": "McCarthyism employed democratic backsliding's delegitimization mechanism: political opponents are reframed not as citizens with different views but as enemies of the nation who forfeit the right to political participation. The mechanism is shared: emergency discourse normalizes persecution of dissent while maintaining the formal structures of democracy.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__mass_incarceration",
+    "source": "structural_violence",
+    "target": "mass_incarceration",
+    "type": "CAUSED",
+    "label": "Structural inequity produces incarceration disparities",
+    "note": "Mass incarceration is produced by structural violence: concentrated poverty produces higher crime rates; racially biased policing, prosecution, and sentencing convert those rates into catastrophic racial incarceration disparities; and the resulting criminal records perpetuate poverty. The violence is structural — embedded in systems, not in individual actors.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__war_on_drugs",
+    "source": "structural_violence",
+    "target": "war_on_drugs",
+    "type": "ENABLED",
+    "label": "Structural racism enabled racially targeted enforcement",
+    "note": "The War on Drugs was politically viable because structural racism had already removed Black communities from full political citizenship. It imposed harsh penalties on crack cocaine (associated with Black communities) while treating powder cocaine leniently. The structural violence came first; the War on Drugs operationalized it.",
+    "confidence": "high"
+  },
+  {
+    "id": "resource_curse__oil_geopolitics",
+    "source": "resource_curse",
+    "target": "oil_geopolitics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Oil wealth enables unaccountable governance",
+    "note": "Middle East oil geopolitics and the resource curse are expressions of the same mechanism: oil revenue allows states to fund patronage networks and security forces without taxing citizens, removing the accountability link between government and governed. Gulf state autocracy and the region's resistance to democratization are resource curse phenomena.",
+    "confidence": "high"
+  },
+  {
+    "id": "resource_curse__king_leopold_congo",
+    "source": "resource_curse",
+    "target": "king_leopold_congo",
+    "type": "ENABLED",
+    "label": "Congo's resources made extraction-without-accountability possible",
+    "note": "The Congo Free State was a resource curse operating through direct colonial extraction: Congo's rubber and ivory wealth was so vast that it justified the administrative terror required to enforce extraction quotas. The resource curse predicts that natural wealth without accountability produces exploitation; the Congo Free State is its most extreme historical case.",
+    "confidence": "high"
+  },
+  {
+    "id": "preference_falsification__arab_spring",
+    "source": "preference_falsification",
+    "target": "arab_spring",
+    "type": "CAUSED",
+    "label": "Sudden cascade of revealed preferences produced revolution",
+    "note": "The Arab Spring was a textbook preference falsification cascade: populations that had publicly accepted their governments for decades rapidly revealed their true preferences once a threshold of public protest was crossed. Bouazizi's self-immolation provided the signal that made public dissent safe enough to join, and what had seemed like stable authoritarian consensus collapsed in weeks.",
+    "confidence": "high"
+  },
+  {
+    "id": "radicalization_pipeline__rise_of_al_qaeda",
+    "source": "radicalization_pipeline",
+    "target": "rise_of_al_qaeda",
+    "type": "ENABLED",
+    "label": "Afghan war operationalized radicalization at scale",
+    "note": "Al-Qaeda assembled through radicalization pipeline stages operating at scale: the Afghan-Arab network provided the radicalizing group and identity; Wahhabi ideology provided the ideological framework naming the enemy; shared combat and camp training isolation cut ties to moderating contexts; bin Laden's direction provided the organizational context for crossing into mass violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "radicalization_pipeline__wahhabism_salafism",
+    "source": "radicalization_pipeline",
+    "target": "wahhabism_salafism",
+    "type": "ENABLED",
+    "label": "Wahhabi theology provided the ideological stage",
+    "note": "Wahhabism served the ideological framework stage of the radicalization pipeline: it provided a totalizing worldview that named the enemy, defined violent resistance as religious obligation, and delegitimized moderating interpretations of Islam. Not all Wahhabis radicalize to violence — but Wahhabism reliably provided the ideological infrastructure jihadist radicalization required.",
+    "confidence": "medium"
+  },
+  {
+    "id": "collective_trauma__nakba",
+    "source": "collective_trauma",
+    "target": "nakba",
+    "type": "ENABLED",
+    "label": "Nakba's unresolved trauma drives Palestinian politics",
+    "note": "The Nakba's displaced people and their descendants have transmitted the trauma of dispossession across generations through family memory, preserved village names, and political identity. Collective trauma explains why the right of return — technically 'impractical' — remains non-negotiable: the trauma persists because the injustice has not been acknowledged.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__jewish_diaspora",
+    "source": "collective_trauma",
+    "target": "jewish_diaspora",
+    "type": "ENABLED",
+    "label": "Centuries of persecution transmitted as existential threat memory",
+    "note": "The Jewish diaspora experience — pogroms, forced conversions, expulsions, and the Holocaust — was transmitted across generations as collective trauma, producing persistent threat-hypervigilance that shapes Israeli and diaspora political behavior. Israeli security doctrine is shaped by traumatic collective memory of what happens when Jewish communities trust in the protection of non-Jewish states.",
+    "confidence": "high"
+  },
+  {
+    "id": "hamitic_hypothesis__rwandan_genocide",
+    "source": "hamitic_hypothesis",
+    "target": "rwandan_genocide",
+    "type": "CAUSED",
+    "label": "Colonial racial taxonomy provided genocide's categories",
+    "note": "The Hamitic Hypothesis — classifying Tutsi as a racially superior 'Hamitic' people closer to Europeans — was institutionalized by Belgian colonial administrators who issued identity cards marking everyone as Hutu, Tutsi, or Twa. These cards made the genocide's targeting possible: Interahamwe could identify Tutsi at roadblocks. Belgian racial science created the administrative infrastructure for mass murder.",
+    "confidence": "high"
+  },
+  {
+    "id": "historical_revisionism__lost_cause_mythology",
+    "source": "historical_revisionism",
+    "target": "lost_cause_mythology",
+    "type": "PRODUCED",
+    "label": "Revisionism recast slavery as states' rights",
+    "note": "Lost Cause mythology is historical revisionism's most successful American product: the systematic rewriting of the Civil War from a war to preserve slavery into a war of honorable resistance against Northern aggression. Confederate monuments built during the Jim Crow era inscribed this revisionism in public space, normalizing the Confederate cause for generations of Southern white children.",
+    "confidence": "high"
+  },
+  {
+    "id": "american_civil_war__lost_cause_mythology",
+    "source": "american_civil_war",
+    "target": "lost_cause_mythology",
+    "type": "PRODUCED",
+    "label": "Defeat required ideological rehabilitation",
+    "note": "Lost Cause mythology emerged specifically as a response to Confederate defeat: the cultural need to make the loss meaningful, honor the dead without acknowledging the cause, and rehabilitate Confederate political actors. Defeat created the political demand; Lost Cause ideology supplied the product.",
+    "confidence": "high"
+  },
+  {
+    "id": "lost_cause_mythology__jim_crow_laws",
+    "source": "lost_cause_mythology",
+    "target": "jim_crow_laws",
+    "type": "ENABLED",
+    "label": "Mythology provided ideological cover for segregation",
+    "note": "Jim Crow laws were implemented within the Lost Cause ideological framework: if the Confederacy had been right, then its racial order had been legitimate, and reimposing racial hierarchy through law was restoration rather than oppression. Lost Cause mythology made white Southerners morally comfortable enforcing racial hierarchy while believing themselves honorable people.",
+    "confidence": "high"
+  },
+  {
+    "id": "preference_falsification__fall_of_soviet_union",
+    "source": "preference_falsification",
+    "target": "fall_of_soviet_union",
+    "type": "CAUSED",
+    "label": "Preference cascade made collapse sudden and total",
+    "note": "The Soviet Union's dissolution fit preference falsification's cascade model precisely: decades of publicly performed Soviet loyalty masked widespread private alienation. When Gorbachev's glasnost made dissent less costly, the cascade began. What appeared to be a stable superpower collapsed within two years — exactly the pattern Kuran's model predicts for preference falsification systems.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__nuremberg_trials",
+    "source": "moral_disengagement",
+    "target": "nuremberg_trials",
+    "type": "ENABLED",
+    "label": "Trials established that following orders is no defense",
+    "note": "The Nuremberg Trials explicitly rejected moral disengagement's most common articulation: 'I was following orders.' The tribunal ruled that individuals retain moral and legal responsibility for atrocities regardless of the chain of command. This precedent directly challenged moral disengagement's displacement-of-responsibility mechanism and attempted to make it legally non-viable.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__apartheid_south_africa",
+    "source": "structural_violence",
+    "target": "apartheid_south_africa",
+    "type": "ENABLED",
+    "label": "Structural inequality codified into law",
+    "note": "Apartheid was structural violence codified: differential access to education, employment, land, healthcare, and political rights was not incidental but engineered. Colonial land dispossession and labor exploitation preceded apartheid, and apartheid systematized this inequality into explicit legal categories, making the violence visible but politically protected.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_backsliding__tiananmen_square_massacre",
+    "source": "democratic_backsliding",
+    "target": "tiananmen_square_massacre",
+    "type": "CAUSED",
+    "label": "CCP chose repression over reform",
+    "note": "Tiananmen was the culmination of a democratic backsliding decision: faced with pro-democracy protests threatening CCP control, Deng Xiaoping chose military suppression over the political reforms Zhao Ziyang had been willing to negotiate. The massacre established that the CCP would use any violence necessary to prevent democratic accountability — and then erase the event from public memory.",
+    "confidence": "high"
+  },
+  {
+    "id": "historical_revisionism__tiananmen_square_massacre",
+    "source": "historical_revisionism",
+    "target": "tiananmen_square_massacre",
+    "type": "ENABLED",
+    "label": "State censorship erased the massacre from Chinese memory",
+    "note": "The Chinese government's comprehensive censorship of Tiananmen is historical revisionism at its most total: a generation of Chinese citizens under 40 has minimal knowledge of the event. The 'Tank Man' photograph is among the most recognized images globally; inside China it barely exists. Revisionism here is not reinterpretation but near-complete erasure.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__latin_american_dirty_wars",
+    "source": "collective_trauma",
+    "target": "latin_american_dirty_wars",
+    "type": "PRODUCED",
+    "label": "Dirty war atrocities transmitted across generations",
+    "note": "The Dirty Wars produced collective trauma that persists in Latin American political cultures: Argentina's Madres de Plaza de Mayo, Chile's ongoing reckoning with Pinochet's crimes, Guatemala's unresolved massacres. Deliberate disappearance — denying families even a body to mourn — was designed to maximize intergenerational traumatic impact and prevent political memory from organizing.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__milgram_obedience_experiments",
+    "source": "moral_disengagement",
+    "target": "milgram_obedience_experiments",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Experiments operationalized moral disengagement in lab conditions",
+    "note": "The Milgram experiments demonstrated moral disengagement's core mechanisms under controlled conditions: participants displaced responsibility to the authority figure, used euphemistic framing, diffused responsibility through the experimental setup, and continued despite evidence of harm. The results were empirical confirmation of Bandura's theoretical framework.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__stanford_prison_experiment",
+    "source": "in_group_out_group_dynamics",
+    "target": "stanford_prison_experiment",
+    "type": "ENABLED",
+    "label": "Role assignment activated in-group guard solidarity",
+    "note": "The Stanford Prison Experiment demonstrated that in-group/out-group dynamics operate through arbitrary role assignment alone: students randomly designated as 'guards' within hours formed a guard in-group and treated 'prisoners' as an out-group deserving degradation. No pre-existing prejudice was required — the role assignment itself activated tribal psychology.",
+    "confidence": "high"
+  },
+  {
+    "id": "socrates__socratic_method",
+    "source": "socrates",
+    "target": "socratic_method",
+    "type": "PRODUCED",
+    "label": "Socrates invented and embodied the questioning method",
+    "note": "The Socratic method was not theorized by Socrates but practiced. Plato's dialogues record Socrates questioning interlocutors — politicians, poets, craftsmen — until they reach aporia, the productive bewilderment of realizing their ignorance. The method was inseparable from the man: his entire philosophical mission was the conviction that an unexamined life is not worth living.",
+    "confidence": "high"
+  },
+  {
+    "id": "plato__platonic_idealism",
+    "source": "plato",
+    "target": "platonic_idealism",
+    "type": "PRODUCED",
+    "label": "Plato systematized idealism in his Theory of Forms",
+    "note": "Platonic Idealism is Plato's central metaphysical doctrine, developed across the middle and late dialogues. Plato produced it not as abstract theory but as an answer to Socratic problems: what are beauty, justice, and virtue if not the imperfect material instances we encounter? The Forms answered this by positing that perfect universals exist beyond the material world — a move with consequences for theology and politics for two thousand years.",
+    "confidence": "high"
+  },
+  {
+    "id": "aristotle__aristotelian_logic",
+    "source": "aristotle",
+    "target": "aristotelian_logic",
+    "type": "PRODUCED",
+    "label": "Aristotle invented formal logic with no predecessors",
+    "note": "Aristotle's Prior Analytics and Organon represented the first formal theory of valid deductive inference in recorded history. He invented the syllogism and established rules for valid argument forms from scratch — work so complete that Kant noted two thousand years later that logic had made no essential advance since Aristotle. It became the foundational intellectual technology of Western philosophy, theology, and law.",
+    "confidence": "high"
+  },
+  {
+    "id": "platonic_idealism__rise_of_christianity",
+    "source": "platonic_idealism",
+    "target": "rise_of_christianity",
+    "type": "ENABLED",
+    "label": "Augustine synthesized Platonism with Christian theology",
+    "note": "Augustine of Hippo (354–430 CE) used Neoplatonic philosophy — Plotinus' elaboration of Plato — as the framework for systematizing Christian theology. He identified Plato's Good with the Christian God, the Forms with divine ideas, and Plato's critique of the material world with Christian suspicion of the flesh. Augustine's synthesis was so complete that medieval Christianity is impossible to understand without Platonic Idealism — it provided the metaphysical language for God, soul, sin, and salvation.",
+    "confidence": "high"
+  },
+  {
+    "id": "socratic_method__broken_epistemology",
+    "source": "socratic_method",
+    "target": "broken_epistemology",
+    "type": "DISCREDITED",
+    "label": "Socratic questioning is the systematic antidote to bad epistemics",
+    "note": "Broken epistemology describes the condition in which communities lose the ability to distinguish true from false claims. The Socratic method is the original formal tool for diagnosing this condition: by exposing the unexamined premises and internal contradictions within any belief system, Socratic dialogue forces epistemic humility. Every modern tradition of critical thinking — scientific peer review, adversarial legal systems, Socratic law school pedagogy — is a structural descendant of this mechanism.",
+    "confidence": "high"
+  },
+  {
+    "id": "aristotelian_logic__scholasticism",
+    "source": "aristotelian_logic",
+    "target": "scholasticism",
+    "type": "ENABLED",
+    "label": "Aristotle's logic became the tool of medieval theology",
+    "note": "The recovery of Aristotle's logical and philosophical works in Western Europe (via Arabic translations, 12th century) provided scholastic theology with its core analytical toolkit. Thomas Aquinas explicitly built his synthesis on Aristotelian method, treating Aristotle's logical framework as compatible with and useful for Christian doctrine. Without Aristotelian logic, scholasticism's project of rationally systematizing theology would have been impossible.",
+    "confidence": "high"
+  },
+  {
+    "id": "platonic_idealism__scholasticism",
+    "source": "platonic_idealism",
+    "target": "scholasticism",
+    "type": "ENABLED",
+    "label": "Neoplatonic thought shaped early medieval theology",
+    "note": "Early scholasticism was deeply Neoplatonic, mediated through Augustine: the emanationist metaphysics of Plotinus, the identification of Forms with divine ideas, and the hierarchical cosmos descending from the One all permeated medieval Christian thought before Aristotle's full corpus was recovered. The scholastic synthesis integrated both Platonic (through Augustine) and Aristotelian (through Aquinas) traditions.",
+    "confidence": "high"
+  },
+  {
+    "id": "enlightenment_philosophy__social_contract_theory",
+    "source": "enlightenment_philosophy",
+    "target": "social_contract_theory",
+    "type": "PRODUCED",
+    "label": "Enlightenment reason produced social contract as political foundation",
+    "note": "The Enlightenment's commitment to reason as the basis of authority made social contract theory its central political framework: if divine right cannot legitimate government, what can? Hobbes, Locke, and Rousseau each answered this question by grounding political authority in rational consent. Locke's version — consent of the governed, natural rights, right of revolution — directly informed the American and French Revolutions.",
+    "confidence": "high"
+  },
+  {
+    "id": "enlightenment_philosophy__kantian_ethics",
+    "source": "enlightenment_philosophy",
+    "target": "kantian_ethics",
+    "type": "ENABLED",
+    "label": "Kant synthesized and completed the Enlightenment moral project",
+    "note": "Kant described himself as answering Hume's skepticism and completing the Enlightenment's project of grounding morality in reason alone — without reference to God, tradition, or sentiment. His critical philosophy — asking what reason can know, what it must do, and what it may hope — was the philosophical summit of Enlightenment rationalism, and simultaneously its self-critique, establishing the limits of pure reason.",
+    "confidence": "high"
+  },
+  {
+    "id": "enlightenment_philosophy__utilitarianism",
+    "source": "enlightenment_philosophy",
+    "target": "utilitarianism",
+    "type": "ENABLED",
+    "label": "Enlightenment empiricism and reform produced utilitarianism",
+    "note": "Utilitarianism was the Enlightenment's attempt to derive ethics from observable facts about human happiness rather than abstract metaphysics. Bentham's hedonic calculus applied Enlightenment empiricism directly to moral questions: what actions actually produce more pleasure than pain? The Enlightenment's reformist spirit — critique existing institutions rationally — gave utilitarianism its practical program of social reform.",
+    "confidence": "high"
+  },
+  {
+    "id": "enlightenment_philosophy__hegelian_dialectic",
+    "source": "enlightenment_philosophy",
+    "target": "hegelian_dialectic",
+    "type": "ENABLED",
+    "label": "Hegel emerged from and criticized the Enlightenment project",
+    "note": "Hegel was shaped by and responded to the Enlightenment: the French Revolution — Enlightenment reason applied to politics — produced the Terror, destabilizing Enlightenment optimism. Hegel's dialectical philosophy was an attempt to think through how rational history progresses not through smooth development but through catastrophic contradiction and reconciliation. He both inherited Enlightenment rationalism and transformed it into historical dialectics.",
+    "confidence": "high"
+  },
+  {
+    "id": "hegelian_dialectic__nietzschean_philosophy",
+    "source": "hegelian_dialectic",
+    "target": "nietzschean_philosophy",
+    "type": "ENABLED",
+    "label": "Nietzsche responded to and rejected Hegelian historical optimism",
+    "note": "Nietzsche was deeply aware of Hegel's philosophical dominance in 19th-century Germany and explicitly rejected the idea that history progresses dialectically toward rational freedom. His genealogical method (tracing ideas to the power drives producing them) inverted Hegel's idealist dialectic: instead of Spirit realizing itself through history, history is the record of competing drives to power. This inversion directly influenced 20th-century critical theory and postmodern philosophy.",
+    "confidence": "high"
+  },
+  {
+    "id": "hegelian_dialectic__frankfurt_school",
+    "source": "hegelian_dialectic",
+    "target": "frankfurt_school",
+    "type": "ENABLED",
+    "label": "Critical theory applied the Hegelian dialectic to culture and capitalism",
+    "note": "The Frankfurt School's critical theory program was explicitly Hegelian-Marxist: it used Hegel's dialectical method (immanent critique — measuring a system against its own ideals) to analyze how Enlightenment reason had inverted into domination, how capitalism produced false consciousness, and how mass culture foreclosed emancipatory possibilities. The School's signature move — dialectical reversal — was Hegelian in structure.",
+    "confidence": "high"
+  },
+  {
+    "id": "nietzschean_philosophy__existentialism",
+    "source": "nietzschean_philosophy",
+    "target": "existentialism",
+    "type": "ENABLED",
+    "label": "Nietzsche's death of God set the problem existentialism answered",
+    "note": "Nietzsche's declaration that God is dead — that the transcendent framework giving Western civilization its values had collapsed — set the central problem existentialism addressed: how do humans create meaning in a world without inherent purpose? Heidegger, Sartre, and Camus all began from this Nietzschean premise, developing different accounts of how authentic existence in the face of absurdity is possible.",
+    "confidence": "high"
+  },
+  {
+    "id": "nietzschean_philosophy__postmodernism_philosophy",
+    "source": "nietzschean_philosophy",
+    "target": "postmodernism_philosophy",
+    "type": "ENABLED",
+    "label": "Nietzsche's genealogical method directly influenced Foucault and Derrida",
+    "note": "Nietzsche was the single most important philosophical predecessor of French postmodernism. Foucault explicitly adopted Nietzsche's genealogical method, extending it to analyze how power produces knowledge. Derrida's deconstruction drew on Nietzsche's critique of Western metaphysics. Lyotard's skepticism toward grand narratives echoed Nietzsche's attack on systematic philosophy. Postmodernism was in many respects the French academic appropriation of Nietzschean critique.",
+    "confidence": "high"
+  },
+  {
+    "id": "nietzschean_philosophy__nazi_propaganda",
+    "source": "nietzschean_philosophy",
+    "target": "nazi_propaganda",
+    "type": "EXPLOITED",
+    "label": "Nazis grotesquely distorted Nietzsche to legitimize racial ideology",
+    "note": "After Nietzsche's death, his sister Elisabeth Förster-Nietzsche — an anti-Semite Nietzsche had explicitly denounced — controlled his archive and selectively edited his work to align it with German nationalism and later Nazism. The Nazis appropriated the Übermensch as Aryan racial superiority, the will to power as justification for conquest, and the master/slave morality distinction as validation of domination. This was a profound distortion of a thinker who was explicitly anti-nationalist and anti-anti-Semitic.",
+    "confidence": "high"
+  },
+  {
+    "id": "frankfurt_school__manufactured_consent",
+    "source": "frankfurt_school",
+    "target": "manufactured_consent",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both analyze elite-controlled discourse limiting thinkable politics",
+    "note": "The Frankfurt School's analysis of the culture industry (Adorno and Horkheimer) and Herman and Chomsky's propaganda model (manufactured consent) converge on the same mechanism: mass media produced by concentrated corporate/state interests systematically limits the range of ideas and critiques available to citizens, producing a public that consents to its own domination while believing it is freely informed. The Frankfurt School produced the theoretical framework; manufactured consent identified the institutional structure.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_contract_theory__democratic_backsliding",
+    "source": "social_contract_theory",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "Social contract norms are what democratic backsliding violates",
+    "note": "Democratic backsliding — the gradual erosion of democratic institutions through emergency powers, press capture, and electoral manipulation — is, in social contract terms, a progressive violation of the founding compact: rulers acting against the consent of the governed while maintaining the forms of consent. Social contract theory provides the normative vocabulary (legitimacy, consent, right of revolution) through which democratic backsliding is recognized as illegitimate, not merely inconvenient.",
+    "confidence": "high"
+  },
+  {
+    "id": "kantian_ethics__moral_disengagement",
+    "source": "kantian_ethics",
+    "target": "moral_disengagement",
+    "type": "DISCREDITED",
+    "label": "Categorical imperative directly contradicts moral disengagement",
+    "note": "Moral disengagement operates by suspending the normal moral standards that would prohibit harming others — through dehumanization, diffusion of responsibility, euphemistic labeling. Kantian ethics provides the direct philosophical counter: the categorical imperative demands that we treat all persons as ends in themselves, never merely as means, regardless of authority, circumstances, or consequences. Every mechanism of moral disengagement is a violation of Kant's second formulation of the Categorical Imperative.",
+    "confidence": "high"
+  },
+  {
+    "id": "postmodernism_philosophy__broken_epistemology",
+    "source": "postmodernism_philosophy",
+    "target": "broken_epistemology",
+    "type": "ENABLED",
+    "label": "Weaponized relativism normalizes epistemic nihilism",
+    "note": "Postmodern philosophy's legitimately powerful insight — that all knowledge is situated, that truth claims reflect power relations — has been selectively appropriated by authoritarian movements to delegitimize empirical consensus: climate science, vaccine safety, election results. The structure is the same: 'who decides what's true?' Post-modern philosophy did not cause this weaponization, but its relativist epistemology provided the intellectual tools that manufactured doubt and authoritarian propaganda require.",
+    "confidence": "medium"
+  },
+  {
+    "id": "vedic_tradition__karma_doctrine",
+    "source": "vedic_tradition",
+    "target": "karma_doctrine",
+    "type": "ENABLED",
+    "label": "Vedic ritual action (karma) evolved into moral causation doctrine",
+    "note": "The word karma originally meant ritual action in the Vedas — the correct performance of sacrifice that maintains cosmic order. The Upanishads transformed this into a moral causation doctrine: all intentional actions produce karmic consequences that bind the actor to the cycle of rebirth. The concept evolved from ritual mechanics to universal moral law, one of the most consequential conceptual developments in intellectual history.",
+    "confidence": "high"
+  },
+  {
+    "id": "vedic_tradition__bhagavad_gita",
+    "source": "vedic_tradition",
+    "target": "bhagavad_gita",
+    "type": "PRODUCED",
+    "label": "The Gita synthesized and systematized Vedic philosophical traditions",
+    "note": "The Bhagavad Gita emerged from the Vedic and Upanishadic traditions, synthesizing their diverse strands (karma, dharma, liberation, devotion) into a unified philosophical framework. It is embedded in the Mahabharata, itself a product of the Vedic epic tradition. The Gita became the central popular statement of what the Upanishads had explored esoterically — making the philosophical core of Vedic thought accessible to warriors, householders, and later the world.",
+    "confidence": "high"
+  },
+  {
+    "id": "upanishadic_philosophy__karma_doctrine",
+    "source": "upanishadic_philosophy",
+    "target": "karma_doctrine",
+    "type": "PRODUCED",
+    "label": "Upanishads formalized karma as a moral causation doctrine",
+    "note": "The Upanishads transformed karma from Vedic ritual action into the philosophical doctrine of universal moral causation: all intentional actions produce consequences that bind the actor to the cycle of rebirth (samsara). The Brihadaranyaka and Chandogya Upanishads contain the earliest systematic philosophical treatments of karma as moral law — the framework that both Buddhism and Jainism would inherit and transform.",
+    "confidence": "high"
+  },
+  {
+    "id": "upanishadic_philosophy__advaita_vedanta",
+    "source": "upanishadic_philosophy",
+    "target": "advaita_vedanta",
+    "type": "ENABLED",
+    "label": "Advaita Vedanta systematized the Upanishadic non-dualist insights",
+    "note": "Adi Shankara's Advaita Vedanta (8th century CE) was explicitly a commentary tradition on the Upanishads — systematizing their central non-dualist statements (Atman = Brahman; tat tvam asi) into a comprehensive philosophical system. Shankara's genius was to show that the Upanishads, when read carefully, teach a strict non-dualism, and to build a rigorous logical defense of this position against Buddhist and other critiques.",
+    "confidence": "high"
+  },
+  {
+    "id": "jainism__ahimsa_principle",
+    "source": "jainism",
+    "target": "ahimsa_principle",
+    "type": "PRODUCED",
+    "label": "Jainism made non-violence its absolute foundational principle",
+    "note": "Jainism's most distinctive and consequential contribution to world thought was making ahimsa (non-harm) the supreme ethical principle — not merely a virtue among others but an absolute commitment that defines the entire moral framework. Mahavira formalized what had been an emerging principle in the ascetic traditions of India into a systematic ethical doctrine: even microscopic organisms must not be harmed. This radicalization of non-violence was the direct philosophical source for Gandhi's political strategy.",
+    "confidence": "high"
+  },
+  {
+    "id": "gautama_buddha__dependent_origination",
+    "source": "gautama_buddha",
+    "target": "dependent_origination",
+    "type": "PRODUCED",
+    "label": "Dependent origination was the Buddha's central philosophical insight",
+    "note": "Dependent origination (pratītyasamutpāda) is considered the Buddha's most distinctive philosophical contribution — described in texts as what he discovered upon awakening. By teaching that all phenomena arise only in dependence upon conditions and have no independent, permanent self-nature, the Buddha provided a radical alternative to both Vedic eternalism (the Atman is real and permanent) and materialist annihilationism (there is nothing after death). It is the philosophical foundation for Buddhist emptiness doctrine and ethics.",
+    "confidence": "high"
+  },
+  {
+    "id": "gautama_buddha__ahimsa_principle",
+    "source": "gautama_buddha",
+    "target": "ahimsa_principle",
+    "type": "ENABLED",
+    "label": "Buddhism embedded non-violence in its ethical and philosophical framework",
+    "note": "The Buddha placed ahimsa at the center of his ethical teaching: the first precept for all practitioners is not to take life, and compassion (karuna) for all sentient beings is the emotional foundation of Buddhist ethics. Buddhism extended the principle of non-violence from practice into philosophical justification — dependent origination means that harming others is harming an interdependent aspect of reality that is not fundamentally separate from oneself.",
+    "confidence": "high"
+  },
+  {
+    "id": "buddhist_philosophy__karma_doctrine",
+    "source": "buddhist_philosophy",
+    "target": "karma_doctrine",
+    "type": "ENABLED",
+    "label": "Buddhism transformed karma by removing the permanent self that karma accrues to",
+    "note": "Buddhism adopted the karma doctrine but transformed it philosophically: if there is no permanent self (anatta), what is it that karma accrues to and what is reborn? The Buddhist answer — a causal stream of mental states rather than a soul — produced the most sophisticated philosophical analysis of moral causation in any tradition. Buddhist karma theory emphasizes intention (cetana) as the morally relevant factor, not the action itself.",
+    "confidence": "high"
+  },
+  {
+    "id": "bhagavad_gita__karma_doctrine",
+    "source": "bhagavad_gita",
+    "target": "karma_doctrine",
+    "type": "ENABLED",
+    "label": "The Gita's karma yoga is non-attached action within moral causation",
+    "note": "The Bhagavad Gita's central philosophical teaching on action (karma yoga) builds directly on karma doctrine: Krishna counsels Arjuna to perform his duty (dharma) without attachment to results, surrendering the fruits of action to God. This teaching simultaneously affirms karma as the universal law of action-consequence and offers a way to act within it without accumulating binding karma — through detachment from outcomes while fulfilling one's role.",
+    "confidence": "high"
+  },
+  {
+    "id": "advaita_vedanta__platonic_idealism",
+    "source": "advaita_vedanta",
+    "target": "platonic_idealism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both posit transcendent reality and material world as imperfect reflection",
+    "note": "Advaita Vedanta and Platonic Idealism are the two most sophisticated philosophical defenses of the claim that material reality is not ultimately real — that a transcendent absolute (Brahman / the Good / the Forms) is the true reality, and the material world is a secondary manifestation or imperfect copy. Both use this metaphysics to justify hierarchical access to truth (those who can perceive the absolute vs. those trapped in the material), and both were synthesized with major world religions (Hinduism, Christianity) to provide their metaphysical foundation.",
+    "confidence": "high"
+  },
+  {
+    "id": "ahimsa_principle__decolonization_movement",
+    "source": "ahimsa_principle",
+    "target": "decolonization_movement",
+    "type": "ENABLED",
+    "label": "Gandhi's satyagraha made ahimsa the method of anti-colonial resistance",
+    "note": "Gandhi's application of ahimsa to political struggle against British colonialism — as satyagraha (truth-force) — transformed a philosophical and religious principle into a political technology. The Indian independence movement (1919–1947) demonstrated that non-violent mass resistance could defeat colonial power, directly influencing the African National Congress, Martin Luther King Jr.'s civil rights movement, and anti-colonial movements across Asia and Africa. Decolonization's most powerful moral weapon was derived from ancient Indian philosophy.",
+    "confidence": "high"
+  },
+  {
+    "id": "bhagavad_gita__decolonization_movement",
+    "source": "bhagavad_gita",
+    "target": "decolonization_movement",
+    "type": "ENABLED",
+    "label": "Gandhi used the Gita as his central philosophical text",
+    "note": "Gandhi described the Bhagavad Gita as his 'spiritual reference book' and 'mother' — he carried it everywhere and wrote an extensive commentary. He read the Gita's teaching on nishkama karma (action without attachment to results) as the philosophical foundation for non-violent political action: act with complete commitment to duty (truth, justice, independence) while remaining unattached to personal outcomes, including imprisonment or death. The Gita provided the philosophical framework for enduring suffering without despair or retaliation.",
+    "confidence": "high"
+  },
+  {
+    "id": "karma_doctrine__structural_violence",
+    "source": "karma_doctrine",
+    "target": "structural_violence",
+    "type": "ENABLED",
+    "label": "Karma doctrine can legitimize hierarchy as deserved past-life consequence",
+    "note": "The karma doctrine's most politically consequential function has been the legitimization of existing social hierarchies as the deserved result of past-life moral conduct: those born into lower castes, poverty, or subjugation are where they are because of actions in past lives. This framing converts structural violence — socially produced harm embedded in institutions — into natural justice. The caste system's religious legitimization was substantially maintained through this interpretation of karma, making structural reform appear as interference with cosmic justice.",
+    "confidence": "high"
+  },
+  {
+    "id": "taoism__wu_wei",
+    "source": "taoism",
+    "target": "wu_wei",
+    "type": "PRODUCED",
+    "label": "Wu wei is Taoism's central operational principle",
+    "note": "Wu wei — non-forced, effortless action in harmony with the Tao — is the central practical teaching of Taoist philosophy. While the Tao itself is beyond conceptual formulation, wu wei is its expression in action: the sage ruler governs so lightly that subjects barely notice; the craftsman follows the grain of the wood; the warrior yields to overcome. Wu wei represents Taoism's systematic alternative to both Confucian ritual effort and Legalist coercion.",
+    "confidence": "high"
+  },
+  {
+    "id": "confucianism__confucian_social_order",
+    "source": "confucianism",
+    "target": "confucian_social_order",
+    "type": "PRODUCED",
+    "label": "Confucianism formalized hierarchical social order as moral framework",
+    "note": "The Confucian framework of the five relationships — ruler-minister, parent-child, husband-wife, elder-younger, friend-friend — is not merely a social description but a moral prescription: each relationship entails specific obligations that define what it means to be virtuous. Confucianism produced social order not through law (Legalism) or force, but through internalized moral obligation — making hierarchy feel like duty rather than submission.",
+    "confidence": "high"
+  },
+  {
+    "id": "confucianism__legalism_chinese",
+    "source": "confucianism",
+    "target": "legalism_chinese",
+    "type": "ENABLED",
+    "label": "Legalism emerged as anti-Confucian theory of state power",
+    "note": "Legalism developed explicitly in opposition to Confucian governance: where Confucius taught that virtuous rulers produce harmonious subjects, Han Feizi and Shang Yang argued that this was naive — human nature is self-interested and requires incentive structures of reward and punishment rather than moral example. Legalism was a pragmatic political science in explicit reaction to what its founders saw as Confucian idealism, and the Qin Dynasty's brutal success seemed to validate the Legalist alternative.",
+    "confidence": "high"
+  },
+  {
+    "id": "legalism_chinese__chinese_cultural_revolution",
+    "source": "legalism_chinese",
+    "target": "chinese_cultural_revolution",
+    "type": "ENABLED",
+    "label": "Mao's governance drew on Legalist state power traditions",
+    "note": "Mao Zedong explicitly invoked and defended Qin Shi Huang — the emperor whose Legalist governance unified China through ruthless centralization and destruction of dissident thought — as a predecessor. Mao's approach to governance shares Legalist structural features: supremacy of the leader's will over law, use of fear and reward to enforce compliance, periodic campaigns to destroy intellectual opposition, and the subordination of all social institutions to state control. The Legalist tradition provided the Chinese intellectual precedent for totalitarian party-state governance.",
+    "confidence": "high"
+  },
+  {
+    "id": "confucian_social_order__structural_violence",
+    "source": "confucian_social_order",
+    "target": "structural_violence",
+    "type": "ENABLED",
+    "label": "Hierarchical obligation structure can naturalize inequality as duty",
+    "note": "The Confucian framework of hierarchical relationships, by making deference to superiors a virtue rather than a submission, converts structural inequality into moral order: the subordination of women to husbands, children to parents, subjects to rulers is not oppression but the fulfillment of one's proper role. This naturalization of hierarchy through moral framing is a mechanism of structural violence: those at the bottom of the hierarchy are taught to understand their position as both their duty and their virtue.",
+    "confidence": "high"
+  },
+  {
+    "id": "confucian_social_order__democratic_backsliding",
+    "source": "confucian_social_order",
+    "target": "democratic_backsliding",
+    "type": "ENABLED",
+    "label": "Confucian deference to authority legitimizes authoritarian governance",
+    "note": "The Confucian emphasis on loyalty to rulers as a moral virtue — and the corresponding framing of individual rights assertion as selfish — has been invoked across East Asian political contexts to justify authoritarian governance over democratic accountability. Singapore's Lee Kuan Yew and China's Communist Party have both explicitly invoked 'Asian values' (Confucian hierarchy, collective duty, deference to authority) to delegitimize Western liberal democracy as culturally inappropriate — a modern application of Confucian social order as political legitimation.",
+    "confidence": "medium"
+  },
+  {
+    "id": "mohism__utilitarianism",
+    "source": "mohism",
+    "target": "utilitarianism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both independently developed impartial welfare maximization ethics",
+    "note": "Mohism (5th century BCE China) and Utilitarianism (18th century Britain) independently converged on strikingly similar ethical structures: both rejected differential love/duty in favor of impartial concern, both evaluated actions by their social consequences (welfare produced), both criticized ritual and tradition that wasted resources, and both supported egalitarian social reform. The parallel is one of the most striking convergences in world philosophy — two traditions separated by two thousand years and half a world arriving at the same basic ethical framework.",
+    "confidence": "high"
+  },
+  {
+    "id": "mosaic_covenant__davidic_monarchy",
+    "source": "mosaic_covenant",
+    "target": "davidic_monarchy",
+    "type": "ENABLED",
+    "label": "Covenantal identity made centralized monarchy theologically legible",
+    "note": "The Mosaic covenant framework of collective identity and divine obligation provided the theological basis for the Davidic monarchy: the king ruled as YHWH representative, his success or failure a covenant matter. Without the covenantal identity, the Temple-centered monarchy would lack its religious logic.",
+    "confidence": "high"
+  },
+  {
+    "id": "mosaic_covenant__jewish_diaspora",
+    "source": "mosaic_covenant",
+    "target": "jewish_diaspora",
+    "type": "ENABLED",
+    "label": "Portable covenantal identity made diaspora survival possible",
+    "note": "The covenant portable, text-based structure meant that Jewish identity could survive without land, Temple, or state — the covenant traveled with the community. Without this covenantal framework, diaspora would mean assimilation.",
+    "confidence": "high"
+  },
+  {
+    "id": "augustine_of_hippo__platonic_idealism",
+    "source": "augustine_of_hippo",
+    "target": "platonic_idealism",
+    "type": "ENABLED",
+    "label": "Augustine used Neoplatonism as the philosophical architecture of Christian theology",
+    "note": "Augustine Confessions describes his encounter with books of the Platonists as the philosophical breakthrough that made Christianity intellectually coherent to him. He read Plotinus and Porphyry, then Paul — and found that Neoplatonism account of the soul, evil as privation, and transcendent truth mapped onto Christian doctrine.",
+    "confidence": "high"
+  },
+  {
+    "id": "usury_prohibition__jewish_moneylending",
+    "source": "usury_prohibition",
+    "target": "jewish_moneylending",
+    "type": "CAUSED",
+    "label": "Church ban on Christian lending structurally assigned banking to Jews",
+    "note": "The Church prohibition on usury (systematized by the Third Lateran Council, 1179) barred Christians from the moneylending function. Jews, already excluded from guilds, land ownership, and most professions, filled the structural gap. Jewish moneylending was not a cultural preference but an economic niche created by Christian prohibition.",
+    "confidence": "high"
+  },
+  {
+    "id": "usury_prohibition__medieval_christian_antisemitism",
+    "source": "usury_prohibition",
+    "target": "medieval_christian_antisemitism",
+    "type": "ENABLED",
+    "label": "Christian usury prohibition created debtor resentment that fed antisemitism",
+    "note": "By structurally assigning Jews to the creditor role while excluding them from other economic roles, the usury prohibition created the conditions for economic antisemitism. Debtors resented Jewish creditors without understanding the structural logic; the Church simultaneous theological anti-Judaism amplified this into comprehensive hostility.",
+    "confidence": "high"
+  },
+  {
+    "id": "rabbinic_judaism__jewish_diaspora",
+    "source": "rabbinic_judaism",
+    "target": "jewish_diaspora",
+    "type": "ENABLED",
+    "label": "Rabbinic Judaism made diaspora theologically viable rather than catastrophic",
+    "note": "By replacing Temple sacrifice with prayer, Torah study, and ethical observance, rabbinic Judaism created a portable religious identity. Jews could maintain collective identity, practice, and community structure anywhere in the world. This innovation allowed the Jewish diaspora to persist as a coherent religious civilization rather than assimilating.",
+    "confidence": "high"
+  },
+  {
+    "id": "papal_authority__first_crusade",
+    "source": "papal_authority",
+    "target": "first_crusade",
+    "type": "ENABLED",
+    "label": "Papal authority gave Pope Urban II the power to call a military crusade",
+    "note": "Pope Urban II call at the Council of Clermont (1095) mobilized tens of thousands of soldiers across Europe. This level of cross-national military coordination was only possible because papal authority was recognized as supreme — no secular ruler could have achieved it alone. The Crusade is the most dramatic demonstration of what papal authority could mobilize.",
+    "confidence": "high"
+  },
+  {
+    "id": "papal_authority__spanish_inquisition",
+    "source": "papal_authority",
+    "target": "spanish_inquisition",
+    "type": "ENABLED",
+    "label": "Papal sanction gave the Inquisition theological and legal legitimacy",
+    "note": "The Spanish Inquisition operated with papal authorization — the bull Exigit Sinceras Devotionis (1478) granted the Spanish Crown the right to appoint inquisitors under papal authority. Without the claim to papal supremacy and the theological apparatus of heresy prosecution, the Inquisition had no legitimacy to compel confession or adjudicate belief.",
+    "confidence": "high"
+  },
+  {
+    "id": "papal_authority__catholic_clergy_abuse",
+    "source": "papal_authority",
+    "target": "catholic_clergy_abuse",
+    "type": "ENABLED",
+    "label": "Hierarchical authority structure enabled systematic cover-up of abuse",
+    "note": "The same hierarchical obedience structure that made the Church effective also made it capable of systematic cover-up. Bishops answered to the Vatican; Vatican culture prioritized institutional reputation over victim welfare. The authority structure that centralized power also centralized the capacity to suppress disclosure.",
+    "confidence": "high"
+  },
+  {
+    "id": "papal_authority__democratic_backsliding",
+    "source": "papal_authority",
+    "target": "democratic_backsliding",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both use claimed supreme authority to override accountability structures",
+    "note": "Papal supremacy doctrine and democratic backsliding share a structural mechanism: both use claims of ultimate authority (divine mandate / popular sovereignty / emergency) to override the accountability structures that would constrain them. The inquisitorial court, like the autocrat court, answers to no external check.",
+    "confidence": "medium"
+  },
+  {
+    "id": "thomas_aquinas__aristotelian_logic",
+    "source": "thomas_aquinas",
+    "target": "aristotelian_logic",
+    "type": "ENABLED",
+    "label": "Aquinas made Aristotle safe for Catholic theology and embedded logic in the curriculum",
+    "note": "When Aristotle re-entered Europe via Arabic translations, his naturalistic metaphysics threatened Christian doctrine. Aquinas response — finding Aristotle compatible with and illuminating of Christian truth — saved Aristotle for the Western tradition and made Aristotelian logic the official method of Catholic intellectual culture.",
+    "confidence": "high"
+  },
+  {
+    "id": "second_vatican_council__medieval_christian_antisemitism",
+    "source": "second_vatican_council",
+    "target": "medieval_christian_antisemitism",
+    "type": "DISCREDITED",
+    "label": "Nostra Aetate formally repudiated the deicide charge and collective Jewish guilt",
+    "note": "The Vatican II declaration Nostra Aetate (1965) explicitly repudiated the claim that Jews as a people are guilty of Jesus death — the theological root of centuries of Christian antisemitism. It marked the official end of the Church teaching of Jewish guilt and called for dialogue rather than missionary pressure. This was a direct repudiation of the theological engine of medieval antisemitism.",
+    "confidence": "high"
+  },
+  {
+    "id": "catholic_clergy_abuse__institutional_credibility_laundering",
+    "source": "catholic_clergy_abuse",
+    "target": "institutional_credibility_laundering",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Church used institutional prestige to suppress disclosure and protect perpetrators",
+    "note": "The Church cover-up used institutional credibility laundering: the moral authority of the Catholic Church was invoked to persuade police not to prosecute, families not to go public, and diocesan officials to transfer rather than remove abusers. The same prestige that made priests trusted with children was weaponized to silence their victims.",
+    "confidence": "high"
+  },
+  {
+    "id": "medieval_christian_antisemitism__blood_libel_myth",
+    "source": "medieval_christian_antisemitism",
+    "target": "blood_libel_myth",
+    "type": "PRODUCED",
+    "label": "Medieval antisemitic theology produced the conditions for blood libel accusations",
+    "note": "The blood libel myth emerged from the existing framework of medieval Christian antisemitism: the deicide charge (Jews killed Christ), the theological demonization of Jews as agents of Satan, and the social segregation that made Jews mysterious outsiders. Without the theological infrastructure of Jewish demonization, the blood libel accusation would have been unbelievable.",
+    "confidence": "high"
+  },
+  {
+    "id": "blood_libel_myth__pogroms",
+    "source": "blood_libel_myth",
+    "target": "pogroms",
+    "type": "CAUSED",
+    "label": "Blood libel accusations directly triggered massacres and pogroms",
+    "note": "Many of the deadliest pogroms in Russian history were triggered by blood libel accusations. The Kishinev pogrom (1903) was preceded by accusations that Jews had murdered a Christian child for blood — a claim spread by a local antisemitic newspaper. The accusation served as the immediate trigger that turned latent hostility into organized violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "blood_libel_myth__protocols_of_elders_of_zion",
+    "source": "blood_libel_myth",
+    "target": "protocols_of_elders_of_zion",
+    "type": "ENABLED",
+    "label": "Blood libel established the audience for conspiratorial antisemitic fabrications",
+    "note": "The blood libel myth cultivated the cognitive infrastructure that made the Protocols of the Elders of Zion credible: an audience that believed Jews were capable of secret organized evil, and that Jewish claims of innocence were themselves evidence of conspiracy. Both myths belong to the same psychological ecology of demonization.",
+    "confidence": "high"
+  },
+  {
+    "id": "jewish_expulsion_spain_1492__jewish_diaspora",
+    "source": "jewish_expulsion_spain_1492",
+    "target": "jewish_diaspora",
+    "type": "ENABLED",
+    "label": "Mass expulsion of Sephardic Jews created a new wave of the diaspora",
+    "note": "The expulsion sent 100,000-200,000 Jews into the wider Mediterranean diaspora, creating the Sephardic communities of the Ottoman Empire, North Africa, and the Netherlands. Sephardic culture, including the Ladino language, survived in these diaspora communities for centuries.",
+    "confidence": "high"
+  },
+  {
+    "id": "pogroms__zionism",
+    "source": "pogroms",
+    "target": "zionism",
+    "type": "ENABLED",
+    "label": "Pogroms convinced Jewish intellectuals that European safety was impossible without a homeland",
+    "note": "Theodor Herzl was radicalized toward Zionism partly by the Dreyfus Affair and partly by the awareness of Russian pogroms. The argument of Der Judenstaat (1896) rests on the premise that antisemitism is permanent and that Jews require a state of their own to be safe. The pogroms were empirical evidence for the Zionist argument.",
+    "confidence": "high"
+  },
+  {
+    "id": "pogroms__the_holocaust",
+    "source": "pogroms",
+    "target": "the_holocaust",
+    "type": "ENABLED",
+    "label": "Pogroms normalized organized anti-Jewish violence and established perpetrator culture",
+    "note": "The Holocaust required perpetrators who believed anti-Jewish violence was legitimate and organizationally possible. The century of pogroms — with their organizational patterns, their government tolerance, and their community participation — normalized anti-Jewish mass violence and established the psychological and logistical precedents the Nazi genocide would scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "constantine_conversion__church_state_entanglement",
+    "source": "constantine_conversion",
+    "target": "church_state_entanglement",
+    "type": "PRODUCED",
+    "label": "Constantine fusion of imperial and church authority produced the church-state template",
+    "note": "Constantine conversion was the founding act of European church-state entanglement: the emperor who called councils, enforced creeds, built churches, and made Christianity the imperial religion established the template of mutual legitimation that would define European political theology for a millennium.",
+    "confidence": "high"
+  },
+  {
+    "id": "church_state_entanglement__democratic_backsliding",
+    "source": "church_state_entanglement",
+    "target": "democratic_backsliding",
+    "type": "ENABLED",
+    "label": "Church-state fusion provides divine legitimation that makes accountability impossible",
+    "note": "When religious authority legitimates political power and political power enforces religious compliance, both become immune to accountability: challenging the ruler becomes heresy, challenging the church becomes treason. This double legitimation is the mechanism by which church-state entanglement enables autocracy.",
+    "confidence": "high"
+  },
+  {
+    "id": "church_state_entanglement__papal_authority",
+    "source": "church_state_entanglement",
+    "target": "papal_authority",
+    "type": "ENABLED",
+    "label": "The entanglement of church and empire gave the papacy political leverage to assert supremacy",
+    "note": "Papal authority claims were not merely theological — they depended on the entanglement of church and state. The investiture controversy (which ruler appoints bishops?) only matters if church positions carry political power. The papacy used its spiritual authority to constrain secular rulers only because secular rulers needed papal legitimation.",
+    "confidence": "high"
+  },
+  {
+    "id": "evangelical_christianity__christian_nationalism",
+    "source": "evangelical_christianity",
+    "target": "christian_nationalism",
+    "type": "ENABLED",
+    "label": "Evangelical political mobilization provided the organizational base for Christian nationalism",
+    "note": "Christian nationalism required a pre-existing organizational infrastructure of churches, schools, media, and donor networks — which Evangelical Christianity provided. The Moral Majority (1979) was explicitly an Evangelical political mobilization. Christian nationalism is partly an intensification of Evangelical political theology.",
+    "confidence": "high"
+  },
+  {
+    "id": "evangelical_christianity__prosperity_gospel",
+    "source": "evangelical_christianity",
+    "target": "prosperity_gospel",
+    "type": "ENABLED",
+    "label": "Evangelical emphasis on personal blessing and Scripture interpretation enabled prosperity theology",
+    "note": "Prosperity gospel grew within Evangelical and Pentecostal soil: the emphasis on personal relationship with God, the possibility of direct divine blessing, and the right of individuals to interpret Scripture all enabled the prosperity gospel claim that financial blessing follows faithful giving. It is an Evangelical form of theology, not an external imposition.",
+    "confidence": "high"
+  },
+  {
+    "id": "liberation_theology__structural_violence",
+    "source": "liberation_theology",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "Liberation theology challenged the framing of poverty as natural rather than structural violence",
+    "note": "Liberation theology explicitly argued that poverty is not a natural condition but the result of unjust social structures — which is the Galtungian concept of structural violence applied theologically. By naming structural sin as the cause of poverty, liberation theology discredited the conservative theological framing of inequality as divinely ordained or morally deserved.",
+    "confidence": "medium"
+  },
+  {
+    "id": "christian_nationalism__democratic_backsliding",
+    "source": "christian_nationalism",
+    "target": "democratic_backsliding",
+    "type": "ENABLED",
+    "label": "Christian nationalism provides divine legitimation for anti-democratic political action",
+    "note": "When political actors frame their authority as divinely mandated and their opponents as agents of evil or anti-Christian forces, democratic accountability becomes blasphemy. Christian nationalist rhetoric — framing elections as spiritual warfare, courts as illegitimate if they rule against Christian interests — provides the legitimating framework for democratic backsliding.",
+    "confidence": "high"
+  },
+  {
+    "id": "catholic_clergy_abuse__religious_trauma",
+    "source": "catholic_clergy_abuse",
+    "target": "religious_trauma",
+    "type": "PRODUCED",
+    "label": "Clergy sexual abuse produced severe religious trauma in survivors compounded by spiritual violation",
+    "note": "Clergy abuse produces a specific form of religious trauma: the perpetrator held divine authority, the institution claimed to represent God, and the violation was therefore both sexual and spiritual. Survivors often lose not only trust in institutions but in God, prayer, and the spiritual framework that had been central to their identity. The betrayal is compounded by years of institutional cover-up.",
+    "confidence": "high"
+  },
+  {
+    "id": "religious_trauma__in_group_out_group_dynamics",
+    "source": "religious_trauma",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Religious groups use trauma of belonging and expulsion to enforce in-group loyalty",
+    "note": "Religious trauma often operates through in-group/out-group dynamics: belonging to the community provides identity and safety; questioning or leaving triggers expulsion, shunning, and social death. This mechanism makes religious compliance psychologically coercive even without physical force — the threat of losing community is often sufficient.",
+    "confidence": "high"
+  },
+  {
+    "id": "prosperity_gospel__outrage_optimization",
+    "source": "prosperity_gospel",
+    "target": "outrage_optimization",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both exploit emotional reward systems to extract resources from participants",
+    "note": "Prosperity gospel and outrage optimization share the mechanism of exploiting emotional reward systems: prosperity gospel uses the emotional high of faith and expectation to extract donations (tithing as investment in divine favor); outrage optimization uses anger and moral indignation to drive engagement and revenue. Both monetize emotional states that bypass rational evaluation.",
+    "confidence": "medium"
+  },
+  {
+    "id": "thomas_hobbes__social_contract_theory",
+    "source": "thomas_hobbes",
+    "target": "social_contract_theory",
+    "type": "PRODUCED",
+    "label": "Hobbes Leviathan founded the social contract tradition in Western political theory",
+    "note": "Hobbes argument that political authority derives from a contract between individuals — not from divine right or tradition — was the founding move of social contract theory. His version (absolute sovereignty) was more authoritarian than Locke or Rousseau, but he established the contractarian framework all subsequent theorists would work within.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_locke__social_contract_theory",
+    "source": "john_locke",
+    "target": "social_contract_theory",
+    "type": "PRODUCED",
+    "label": "Locke developed the liberal version of social contract theory",
+    "note": "Where Hobbes social contract produced absolute sovereignty, Locke version produced limited constitutional government with the right to revolution. His account of property rights (labor theory of value) and the right to overthrow tyrants became the standard liberal position.",
+    "confidence": "high"
+  },
+  {
+    "id": "voltaire__church_state_entanglement",
+    "source": "voltaire",
+    "target": "church_state_entanglement",
+    "type": "DISCREDITED",
+    "label": "Voltaire campaigns against clerical power challenged the church-state entanglement model",
+    "note": "Voltaire crusade — Ecrasez l'infame — specifically targeted the union of religious and state authority that made heresy legally prosecutable and clerical institutions immune from civic accountability. His campaign for the Calas family showed that religious authority used as state power was capable of judicial murder.",
+    "confidence": "high"
+  },
+  {
+    "id": "jean_jacques_rousseau__social_contract_theory",
+    "source": "jean_jacques_rousseau",
+    "target": "social_contract_theory",
+    "type": "PRODUCED",
+    "label": "Rousseau developed the democratic-popular version of social contract theory",
+    "note": "Rousseau version of the social contract was the most radical: sovereignty belongs to the people collectively and is inalienable — it cannot be transferred to a representative. The general will is not the sum of individual preferences but what the people collectively will as citizens. This democratic absolutism influenced both democratic theory and revolutionary terror.",
+    "confidence": "high"
+  },
+  {
+    "id": "immanuel_kant__kantian_ethics",
+    "source": "immanuel_kant",
+    "target": "kantian_ethics",
+    "type": "PRODUCED",
+    "label": "Kant derived a complete moral philosophy from reason alone through the categorical imperative",
+    "note": "The categorical imperative — act only on maxims you can universalize, treat persons never merely as means but always as ends — was Kant attempt to ground morality in reason rather than God, tradition, or consequences. It became the foundational text of deontological ethics and the philosophical basis for universal human rights.",
+    "confidence": "high"
+  },
+  {
+    "id": "adam_smith__manufactured_scientific_doubt",
+    "source": "adam_smith",
+    "target": "manufactured_scientific_doubt",
+    "type": "ENABLED",
+    "label": "Laissez-faire interpretations of Smith were used to manufacture doubt about regulation",
+    "note": "Selective readings of Smith that emphasized market self-regulation and minimized his warnings about monopoly and conspiracy provided the ideological framework within which later industries manufactured scientific doubt: if markets self-correct, regulation is unnecessary, and therefore industry-friendly science findings (tobacco is safe, CO2 is harmless) must be given equal weight.",
+    "confidence": "medium"
+  },
+  {
+    "id": "niccolo_machiavelli__democratic_backsliding",
+    "source": "niccolo_machiavelli",
+    "target": "democratic_backsliding",
+    "type": "ENABLED",
+    "label": "Machiavellian statecraft provided the intellectual framework for rulers who manipulate institutions",
+    "note": "Machiavelli argument that effective rulers must act outside conventional morality — using deception, fear, and force when necessary — was adopted by successive authoritarian leaders as justification for breaking constitutional norms. The \"Machiavellian\" ruler who consolidates power by manufacturing crises and eliminating rivals is a recurring figure in democratic backsliding.",
+    "confidence": "medium"
+  },
+  {
+    "id": "georg_hegel__hegelian_dialectic",
+    "source": "georg_hegel",
+    "target": "hegelian_dialectic",
+    "type": "PRODUCED",
+    "label": "Hegel developed the dialectical method as the logic of historical development",
+    "note": "Hegel dialectical method — thesis, antithesis, synthesis — was not a mechanical formula but an account of how concepts and history develop through contradiction. The Phenomenology of Spirit traced this development through shapes of consciousness; the Philosophy of History applied it to world history. Marx later described his own method as Hegel turned upside down.",
+    "confidence": "high"
+  },
+  {
+    "id": "friedrich_nietzsche__nietzschean_philosophy",
+    "source": "friedrich_nietzsche",
+    "target": "nietzschean_philosophy",
+    "type": "PRODUCED",
+    "label": "Nietzsche produced the will-to-power, Ubermensch, and master-slave morality critiques",
+    "note": "Nietzsche philosophical innovations — the will to power as fundamental drive, the eternal recurrence as existential test, the Ubermensch as ideal of self-overcoming, and master-slave morality as the genealogy of Judeo-Christian ethics — constituted a complete critique of Western philosophy and religion that shaped every subsequent philosophical tradition.",
+    "confidence": "high"
+  },
+  {
+    "id": "friedrich_nietzsche__nazi_propaganda",
+    "source": "friedrich_nietzsche",
+    "target": "nazi_propaganda",
+    "type": "ENABLED",
+    "label": "Nietzsche work was systematically distorted by his sister and appropriated by Nazi ideology",
+    "note": "Elisabeth Forster-Nietzsche, who controlled the Nietzsche Archive, produced falsified editions that removed his anti-nationalism and anti-antisemitism while amplifying passages about will, strength, and the Ubermensch. Nazi propaganda cited these bowdlerized texts to give the movement philosophical respectability. Nietzsche himself called antisemitism despicable and broke with Wagner partly over it.",
+    "confidence": "high"
+  },
+  {
+    "id": "weimar_republic__adolf_hitler",
+    "source": "weimar_republic",
+    "target": "adolf_hitler",
+    "type": "ENABLED",
+    "label": "Weimar Republic economic collapse, political polarization, and constitutional weaknesses enabled Hitler rise",
+    "note": "Hitler was appointed Chancellor legally by President Hindenburg in January 1933, following the NSDAP electoral surge driven by the Great Depression, hyperinflation memory, and the perceived communist threat. The Weimar constitution Article 48 (emergency powers), proportional representation that fragmented the center, and elite conservative miscalculation that Hitler could be controlled all contributed to his legal path to power.",
+    "confidence": "high"
+  },
+  {
+    "id": "adolf_hitler__nazi_propaganda",
+    "source": "adolf_hitler",
+    "target": "nazi_propaganda",
+    "type": "ENABLED",
+    "label": "Hitler rhetoric and performative techniques defined Nazi propaganda methods",
+    "note": "Hitler role in propaganda was not only to set the content but to demonstrate the method: the rally as total sensory environment, repetition as truth-production, the scapegoat as political tool, the Big Lie as technique. Goebbels was the administrator; Hitler was the living proof that the methods worked.",
+    "confidence": "high"
+  },
+  {
+    "id": "joseph_goebbels__nazi_propaganda",
+    "source": "joseph_goebbels",
+    "target": "nazi_propaganda",
+    "type": "PRODUCED",
+    "label": "Goebbels created and administered the Nazi propaganda machine as Minister",
+    "note": "As Reich Minister of Public Enlightenment and Propaganda, Goebbels controlled all German newspapers, radio stations, films, theater, music, and the arts through the Reich Chamber of Culture. No one could work in German cultural life without Goebbels approval. He developed the most sophisticated state propaganda apparatus in history to that point.",
+    "confidence": "high"
+  },
+  {
+    "id": "benito_mussolini__democratic_backsliding",
+    "source": "benito_mussolini",
+    "target": "democratic_backsliding",
+    "type": "ENABLED",
+    "label": "Mussolini March on Rome model demonstrated how democracies can be legally captured",
+    "note": "Mussolini path to power — threatening violence while maneuvering legally, being appointed by the king within constitutional norms, then gradually abolishing those norms from inside — became the template that Hitler, and many subsequent authoritarians, studied and replicated. The \"legal coup\" was the 20th-century innovation in democratic destruction.",
+    "confidence": "high"
+  },
+  {
+    "id": "mikhail_gorbachev__preference_falsification",
+    "source": "mikhail_gorbachev",
+    "target": "preference_falsification",
+    "type": "ENABLED",
+    "label": "Glasnost demonstrated Kuran preference falsification thesis: private opposition had been vast",
+    "note": "The speed of Soviet collapse after Gorbachev permitted freer expression was the most dramatic historical demonstration of preference falsification: within months, populations that had appeared to support the Soviet system were openly anti-communist. The private preferences had been there; glasnost simply allowed them to be expressed, triggering the cascade dynamic Kuran describes.",
+    "confidence": "high"
+  },
+  {
+    "id": "frederick_douglass__reconstruction_era",
+    "source": "frederick_douglass",
+    "target": "reconstruction_era",
+    "type": "ENABLED",
+    "label": "Douglass advocacy for Black civil and political rights shaped Reconstruction policy",
+    "note": "Douglass advocacy for Black suffrage, land redistribution, and equal protection shaped the Radical Reconstruction program. His close relationship with Lincoln and subsequent administrations gave Black Americans a voice in the legislative and executive decisions that produced the 13th, 14th, and 15th Amendments.",
+    "confidence": "high"
+  },
+  {
+    "id": "web_du_bois__reconstruction_era",
+    "source": "web_du_bois",
+    "target": "reconstruction_era",
+    "type": "PRODUCED",
+    "label": "Du Bois Black Reconstruction transformed historical understanding of the Reconstruction period",
+    "note": "Du Bois Black Reconstruction in America (1935) demolished the \"Dunning School\" interpretation that had portrayed Reconstruction as a failure caused by corrupt Black politicians, replacing it with an account centered on Black political agency and the class dynamics of white backlash. It took 30 years for mainstream historiography to catch up with him.",
+    "confidence": "high"
+  },
+  {
+    "id": "web_du_bois__mccarthy_red_scare",
+    "source": "web_du_bois",
+    "target": "mccarthy_red_scare",
+    "type": "PRODUCED",
+    "label": "McCarthyism targeted Du Bois for his pan-African and socialist sympathies",
+    "note": "Du Bois was indicted under the Foreign Agents Registration Act (1951) for his work with the Peace Information Center; the case was dismissed but his passport was revoked until 1958, preventing him from traveling internationally. His treatment demonstrated how McCarthyism targeted Black civil rights leaders by labeling them communist agents, conflating racial equality advocacy with Soviet subversion.",
+    "confidence": "high"
+  },
+  {
+    "id": "nelson_mandela__structural_violence",
+    "source": "nelson_mandela",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "Mandela Rivonia Trial statement named apartheid as structural violence requiring political response",
+    "note": "Mandela Rivonia Trial statement (I am prepared to die) named the structural violence of apartheid — the laws, economic exclusions, pass systems, and police violence that enforced racial hierarchy — as political violence requiring political resistance. He argued that when all legal means of resistance are closed, people are not morally obligated to be passive.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther_king_jr__mass_incarceration",
+    "source": "martin_luther_king_jr",
+    "target": "mass_incarceration",
+    "type": "DISCREDITED",
+    "label": "King articulated the economic and racial injustice that would become mass incarceration before his death",
+    "note": "King Poor People's Campaign (1968) explicitly connected racial injustice to economic injustice and named poverty as a structural violence. His later speeches, less remembered than I Have a Dream, warned of the emerging linkage between race, criminalization, and poverty that scholars like Michelle Alexander would document as mass incarceration four decades later.",
+    "confidence": "medium"
+  },
+  {
+    "id": "malcolm_x__political_radicalization",
+    "source": "malcolm_x",
+    "target": "political_radicalization",
+    "type": "ENABLED",
+    "label": "Malcolm X trajectory from criminal to Black nationalist to universal humanist demonstrated radicalization and deradicalization",
+    "note": "Malcolm X personal trajectory — from petty criminal to Nation of Islam minister to independent Muslim leader — is a case study in radicalization and subsequent moderation. His break with the Nation of Islam after his Mecca pilgrimage showed that the radicalization pathway can reverse when experiences challenge the in-group/out-group framework. His assassination prevented the full development of his post-NOI thinking.",
+    "confidence": "medium"
+  },
+  {
+    "id": "malcolm_x__in_group_out_group_dynamics",
+    "source": "malcolm_x",
+    "target": "in_group_out_group_dynamics",
+    "type": "DISCREDITED",
+    "label": "Malcolm X Mecca pilgrimage led him to reject racial in-group/out-group as the fundamental division",
+    "note": "Malcolm X letter from Mecca (1964) described seeing Muslims of all races worshipping together and concluded that his NOI framework of white devil / Black victim was incorrect. His willingness to revise his worldview after empirical experience that contradicted it was the intellectual act that led to his assassination by those who depended on the old framework.",
+    "confidence": "high"
+  },
+  {
+    "id": "frantz_fanon__collective_trauma",
+    "source": "frantz_fanon",
+    "target": "collective_trauma",
+    "type": "ENABLED",
+    "label": "Fanon psychiatric work documented collective trauma as a product of colonial violence",
+    "note": "As a psychiatrist in Algeria treating both colonial subjects and French soldiers, Fanon documented the specific psychological damage colonialism inflicted: the internalization of racial inferiority, the splitting of identity, and the post-independence trauma that continued after formal liberation. His clinical observations produced some of the earliest systematic accounts of what would later be called collective trauma.",
+    "confidence": "high"
+  },
+  {
+    "id": "hannah_arendt__democratic_backsliding",
+    "source": "hannah_arendt",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "Arendt Origins of Totalitarianism analyzed how modern democracies collapse into totalitarianism",
+    "note": "Arendt analyzed the mechanisms by which mass societies become susceptible to totalitarianism: atomization (loss of community ties), propaganda that replaces truth with loyalty to a movement, the replacement of traditional institutions with party structures, and the use of bureaucratic normality to administer extraordinary evil. This remains the most sophisticated political analysis of democratic collapse.",
+    "confidence": "high"
+  },
+  {
+    "id": "hannah_arendt__moral_disengagement",
+    "source": "hannah_arendt",
+    "target": "moral_disengagement",
+    "type": "ENABLED",
+    "label": "Arendt banality of evil analyzed moral disengagement as the mechanism of ordinary perpetration",
+    "note": "Eichmann in Jerusalem demonstrated that the Holocaust most efficient administrator was not a psychopath but someone who had ceased to think morally — who had suspended judgment in favor of career, following orders, and identifying with a movement. This was not Bandura mechanical framework but Arendt philosophical analysis of the same phenomenon: ordinary people committing atrocity through thoughtlessness.",
+    "confidence": "high"
+  },
+  {
+    "id": "pogroms__theodor_herzl",
+    "source": "pogroms",
+    "target": "theodor_herzl",
+    "type": "CAUSED",
+    "label": "The Dreyfus Affair and pogroms convinced Herzl that European safety for Jews was impossible",
+    "note": "Herzl was a thoroughly assimilated Austro-Hungarian Jew who covered the Dreyfus trial and witnessed the French crowds chanting \"death to Jews.\" Combined with his awareness of Russian pogroms, this convinced him that liberal assimilation was not a solution to antisemitism — that Jews needed a state. The pogroms were the empirical foundation of his political program.",
+    "confidence": "high"
+  },
+  {
+    "id": "ayatollah_khomeini__wahhabism_salafism",
+    "source": "ayatollah_khomeini",
+    "target": "wahhabism_salafism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both Khomeini Islamism and Wahhabism-Salafism use Islamic revival to challenge Western-aligned regimes",
+    "note": "Despite representing Shia and Sunni strands of political Islam respectively, Khomeini Islamism and Saudi Wahhabism share the same fundamental mechanism: using Islamic identity and authority as the basis for political mobilization against both Western secular influence and traditional Muslim governance deemed insufficiently Islamic. Their rivalry after 1979 produced the Sunni-Shia proxy wars across the Middle East.",
+    "confidence": "medium"
+  },
+  {
+    "id": "sigmund_freud__broken_epistemology",
+    "source": "sigmund_freud",
+    "target": "broken_epistemology",
+    "type": "ENABLED",
+    "label": "Freud unfalsifiable framework contributed to the epistemological problems of psychoanalysis as science",
+    "note": "Freud theories were constructed to be unfalsifiable: if a patient agreed with the analyst interpretation it confirmed the theory; if they disagreed, the resistance itself was interpreted as confirmation (repression). This self-sealing quality became a central example in Karl Popper demarcation criterion between science and pseudoscience, and contributed to the epistemological problems of psychological science.",
+    "confidence": "medium"
+  },
+  {
+    "id": "stanley_milgram__moral_disengagement",
+    "source": "stanley_milgram",
+    "target": "moral_disengagement",
+    "type": "ENABLED",
+    "label": "Milgram results provided the empirical proof that authority pressure produces moral disengagement in ordinary people",
+    "note": "Milgram findings empirically confirmed the mechanism of moral disengagement Bandura would later theorize: in his experiments, participants progressively disengaged from moral agency by diffusing responsibility (\"I was just following orders\"), using euphemistic language (\"administering shocks\" not \"hurting someone\"), and incrementally committing to the authority relationship through small initial compliance.",
+    "confidence": "high"
+  },
+  {
+    "id": "mesopotamian_agriculture__ancient_sumer",
+    "source": "mesopotamian_agriculture",
+    "target": "ancient_sumer",
+    "type": "ENABLED",
+    "label": "Agricultural surplus in Mesopotamia enabled the emergence of Sumerian city-states",
+    "note": "Sumerian cities could not have existed without reliable agricultural surplus. Irrigation agriculture in the Tigris-Euphrates delta produced enough food to support non-farming specialists — priests, scribes, merchants, soldiers — creating the social complexity of urban civilization.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_egypt__egyptian_slavery",
+    "source": "ancient_egypt",
+    "target": "egyptian_slavery",
+    "type": "ENABLED",
+    "label": "Egyptian imperial expansion enabled the institution of slavery through war captives and tribute",
+    "note": "Egyptian military campaigns against Nubia, the Levant, and Libya produced war captives who became enslaved. Egypt's agricultural and monumental economy relied on forms of coerced labor.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_egypt__egyptian_mythology",
+    "source": "ancient_egypt",
+    "target": "egyptian_mythology",
+    "type": "PRODUCED",
+    "label": "Egyptian civilization produced one of antiquity's richest mythological systems",
+    "note": "Egyptian mythology was embedded in every aspect of Egyptian life — from the agricultural calendar to royal succession to funerary practice. The state's investment in temples, priesthoods, and ritual maintained this mythological system for three millennia.",
+    "confidence": "high"
+  },
+  {
+    "id": "akhenaten__egyptian_monotheism",
+    "source": "akhenaten",
+    "target": "egyptian_monotheism",
+    "type": "CAUSED",
+    "label": "Akhenaten's personal theological revolution caused the suppression of Egyptian polytheism",
+    "note": "Akhenaten's monotheistic revolution was radical and top-down — driven by the pharaoh's own apparent religious conviction. He closed temples, erased divine names from monuments, and built an entirely new capital.",
+    "confidence": "high"
+  },
+  {
+    "id": "egyptian_slavery__atlantic_slave_trade",
+    "source": "egyptian_slavery",
+    "target": "atlantic_slave_trade",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both ancient Egyptian slavery and Atlantic slavery share mechanisms of conquest-based forced labor",
+    "note": "Both institutions relied on military conquest to produce enslaved populations, used enslaved labor for monumental and agricultural production, and operated within systems that naturalized the enslavement of ethnic others. However, ancient Egyptian slavery was less systematically racialized and less chattel-based than Atlantic slavery.",
+    "confidence": "speculative"
+  },
+  {
+    "id": "egyptian_slavery__pyramid_construction",
+    "source": "egyptian_slavery",
+    "target": "pyramid_construction",
+    "type": "ENABLED",
+    "label": "Coerced and organized labor enabled the scale of pyramid construction",
+    "note": "While pyramid builders were not exclusively enslaved (evidence shows skilled workers received pay and rations), large-scale coerced labor — including enslaved war captives — was part of the workforce that enabled monumental construction.",
+    "confidence": "medium"
+  },
+  {
+    "id": "nubian_trade__ancient_egypt",
+    "source": "nubian_trade",
+    "target": "ancient_egypt",
+    "type": "ENABLED",
+    "label": "Nubian trade networks in gold and ivory enabled Egyptian economic and imperial power",
+    "note": "Egyptian access to Nubian gold was central to Egyptian wealth, diplomacy, and military capacity. Egypt funded alliances, paid armies, and built temples with Nubian gold. The desire to control Nubian trade was a primary driver of Egyptian military campaigns southward.",
+    "confidence": "high"
+  },
+  {
+    "id": "meroe__nubian_trade",
+    "source": "meroe",
+    "target": "nubian_trade",
+    "type": "PRODUCED",
+    "label": "Meroe's iron production and position between the African interior and the Roman world produced extensive trade",
+    "note": "Meroe became a major iron-producing center, trading manufactured goods across sub-Saharan Africa. Its position on the Nile gave it access to both Mediterranean Roman trade and African interior trade routes.",
+    "confidence": "high"
+  },
+  {
+    "id": "kingdom_of_kush__nubian_trade",
+    "source": "kingdom_of_kush",
+    "target": "nubian_trade",
+    "type": "ENABLED",
+    "label": "The Kingdom of Kush maintained and extended Nubian trade networks across sub-Saharan Africa",
+    "note": "Kush's political stability and military capacity enabled the trade networks that connected the African interior to Mediterranean markets. The kingdom's wealth derived substantially from controlling these trade routes.",
+    "confidence": "high"
+  },
+  {
+    "id": "greek_mythology__platonic_idealism",
+    "source": "greek_mythology",
+    "target": "platonic_idealism",
+    "type": "ENABLED",
+    "label": "Greek mythology's tradition of transcendent divine forms provided the cultural substrate for Platonic idealism",
+    "note": "Plato's theory of Forms drew on and transformed the mythological tradition of divine transcendent realities. His allegory of the Cave echoes the mythological structure of a higher divine world vs. the shadow world of appearances. Plato simultaneously critiqued and incorporated mythological thinking.",
+    "confidence": "medium"
+  },
+  {
+    "id": "homeric_epics__greek_mythology",
+    "source": "homeric_epics",
+    "target": "greek_mythology",
+    "type": "ENABLED",
+    "label": "The Homeric epics standardized and transmitted Greek mythology across the Hellenic world",
+    "note": "Before Homer, Greek mythology was regional and diverse. The Iliad and Odyssey provided a shared canonical account of the gods and heroes that became the common cultural currency of all Greek-speaking peoples. Homer was the \"Bible of the Greeks.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "egyptian_mythology__greek_mythology",
+    "source": "egyptian_mythology",
+    "target": "greek_mythology",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Egyptian and Greek mythology share structural mechanisms of divine pantheon, death and resurrection, and cosmic order",
+    "note": "Egyptian mythology influenced Greek mythology through millennia of contact: Osiris and Dionysus share resurrection mythology; Isis became a major Greco-Roman goddess; Egyptian religious ideas shaped Orphic and mystery traditions that influenced Greek thought. The shared mechanisms of polytheistic pantheon, divine justice, and afterlife judgment reflect both direct influence and convergent development.",
+    "confidence": "medium"
+  },
+  {
+    "id": "social_media_polarization__political_polarization",
+    "source": "social_media_polarization",
+    "target": "political_polarization",
+    "type": "CAUSED",
+    "label": "Social media algorithmic amplification significantly increased affective political polarization",
+    "note": "Research documents that social media platforms' algorithmic recommendation systems amplify outrage, drive users toward increasingly extreme content, and create feedback loops that increase hostility toward political opponents. This particularly affects affective polarization (emotional hostility) more than ideological position.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_media_polarization__qanon",
+    "source": "social_media_polarization",
+    "target": "qanon",
+    "type": "ENABLED",
+    "label": "Social media algorithms amplified QAnon content and enabled its rapid spread",
+    "note": "QAnon content spread primarily through Facebook, YouTube, and Twitter algorithmic amplification. The platforms' engagement optimization rewarded the emotionally compelling, community-building content QAnon produced. Without algorithmic distribution, QAnon would have remained a fringe phenomenon.",
+    "confidence": "high"
+  },
+  {
+    "id": "qanon__january_6_attack",
+    "source": "qanon",
+    "target": "january_6_attack",
+    "type": "ENABLED",
+    "label": "QAnon belief radicalized participants in the January 6th attack",
+    "note": "Many January 6th participants and organizers held QAnon beliefs. QAnon's framing of the 2020 election as a Satanic cabal's theft of the election provided the ideological framework that made violent resistance feel morally required rather than merely politically motivated.",
+    "confidence": "high"
+  },
+  {
+    "id": "culture_wars__trump_maga",
+    "source": "culture_wars",
+    "target": "trump_maga",
+    "type": "ENABLED",
+    "label": "Decades of culture war framing created the identity-threat politics that MAGA mobilized",
+    "note": "Trump's MAGA movement mobilized the accumulated emotional energy of three decades of culture war: white Christian identity threat, anti-immigration anxiety, and the framing of Democratic opponents as existential threats to American civilization. Culture war politics trained Republican voters to see politics as warfare.",
+    "confidence": "high"
+  },
+  {
+    "id": "political_polarization__culture_wars",
+    "source": "political_polarization",
+    "target": "culture_wars",
+    "type": "ENABLED",
+    "label": "Political polarization made culture war issues the primary terrain of partisan conflict",
+    "note": "As economic policy differences between parties narrowed in the 1990s, cultural identity issues became the primary markers of partisan difference. Polarization and culture wars co-evolved: polarization made cultural issues more salient; culture wars deepened polarization.",
+    "confidence": "high"
+  },
+  {
+    "id": "political_polarization__political_polarization",
+    "source": "political_polarization",
+    "target": "political_polarization",
+    "type": "SELF_REINFORCES",
+    "label": "Political polarization self-reinforces through negative partisanship, media incentives, and geographic sorting",
+    "note": "Polarization creates conditions that deepen polarization: negative partisanship (voting against the other party) strengthens as hostility increases; media organizations profit from partisan content; geographic sorting concentrates like-minded voters; institutional hardball escalates as norms erode.",
+    "confidence": "high"
+  },
+  {
+    "id": "info_ecosystem_collapse__qanon",
+    "source": "info_ecosystem_collapse",
+    "target": "qanon",
+    "type": "ENABLED",
+    "label": "The collapse of shared trusted information infrastructure enabled QAnon to fill the vacuum with conspiracy",
+    "note": "QAnon spread most effectively in communities where trusted local news had collapsed and where Facebook was the primary information source. Without shared factual infrastructure, conspiracy theories compete on emotional resonance rather than truth.",
+    "confidence": "high"
+  },
+  {
+    "id": "info_ecosystem_collapse__political_polarization",
+    "source": "info_ecosystem_collapse",
+    "target": "political_polarization",
+    "type": "ENABLED",
+    "label": "Fragmented media ecosystems enabled partisan information silos that accelerate polarization",
+    "note": "When Republicans and Democrats consume entirely different information ecosystems with different factual premises, the shared reality necessary for democratic deliberation collapses. Disagreement about facts (about crime rates, immigration, climate) becomes impossible to resolve through evidence.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_media_polarization__info_ecosystem_collapse",
+    "source": "social_media_polarization",
+    "target": "info_ecosystem_collapse",
+    "type": "CAUSED",
+    "label": "Social media advertising destroyed local news business models and fragmented the shared information ecosystem",
+    "note": "Social media platforms captured the advertising revenue that previously funded local newspapers and broadcast news, accelerating the collapse of local journalism. Simultaneously, social media's algorithmic content distribution replaced editorial curation, enabling partisan content to outcompete accurate journalism for attention.",
+    "confidence": "high"
+  },
+  {
+    "id": "culture_wars__political_polarization",
+    "source": "culture_wars",
+    "target": "political_polarization",
+    "type": "CAUSED",
+    "label": "Culture war conflicts deepened partisan identity and affective polarization",
+    "note": "Culture war issues (abortion, guns, LGBTQ, immigration) generate strong emotional identity responses that increase affective polarization — the sense that political opponents are not merely wrong but evil or dangerous. This emotional dimension of cultural conflict drives polarization beyond what policy disagreements alone produce.",
+    "confidence": "high"
+  }
+]

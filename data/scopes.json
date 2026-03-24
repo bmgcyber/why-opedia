@@ -1,0 +1,27 @@
+{
+  "global": {
+    "label": "World",
+    "children": {
+      "media": {
+        "label": "Media & Information",
+        "children": {}
+      },
+      "politics": {
+        "label": "Politics & Power",
+        "children": {}
+      },
+      "psychology": {
+        "label": "Psychology & Identity",
+        "children": {}
+      },
+      "health": {
+        "label": "Health & Medicine",
+        "children": {}
+      },
+      "history": {
+        "label": "History & Events",
+        "children": {}
+      }
+    }
+  }
+}

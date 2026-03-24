@@ -1,0 +1,3189 @@
+[
+  {
+    "id": "mk_ultra",
+    "label": "MK Ultra",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Project_MKUltra",
+    "summary": "CIA program running from the 1950s–1970s conducting non-consensual human experimentation including LSD dosing, psychological torture, and collaboration with former Nazi scientists. Partially exposed by the Church Committee in 1975.",
+    "decade": "1950s–1970s",
+    "tags": [
+      "government",
+      "CIA",
+      "conspiracy",
+      "history",
+      "documented_atrocity"
+    ],
+    "region": "Americas",
+    "aliases": [
+      "MKULTRA",
+      "Project MKULTRA"
+    ],
+    "contemporary_relevance": "Declassified documents revealed in 1977 confirmed systematic human experimentation. The program established that government institutions can conceal illegal covert operations for decades.",
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "martin_luther_antisemitism",
+    "label": "Martin Luther's Antisemitic Writings",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Martin_Luther_and_antisemitism",
+    "summary": "Late-career texts by Protestant Reformation founder Martin Luther calling for persecution of Jewish people. Directly reprinted by Nazi propagandists as ideological justification.",
+    "decade": "1540s",
+    "tags": [
+      "antisemitism",
+      "religion",
+      "history",
+      "protestantism"
+    ],
+    "region": "Europe",
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "the_holocaust",
+    "label": "The Holocaust",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Holocaust",
+    "summary": "Systematic state-sponsored genocide of six million Jewish people and millions of others by Nazi Germany between 1941 and 1945. The terminus of two thousand years of accumulated antisemitic infrastructure.",
+    "decade": "1940s",
+    "tags": [
+      "genocide",
+      "antisemitism",
+      "history",
+      "nazism"
+    ],
+    "region": "Europe",
+    "aliases": [
+      "Shoah",
+      "Nazi Genocide"
+    ],
+    "contemporary_relevance": "Established international humanitarian law and the Genocide Convention. Denial and minimization of the Holocaust remains a live political strategy in multiple countries.",
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "apollo_moon_landing",
+    "label": "Apollo Moon Landing",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Apollo_11",
+    "summary": "1969 U.S. mission landing humans on the Moon for the first time. Confirmed by independent international observers including the Soviet Union, with physical evidence including 842 lbs of lunar samples and retroreflectors still pingable today.",
+    "decade": "1960s",
+    "tags": [
+      "history",
+      "science",
+      "technology",
+      "space"
+    ],
+    "region": "Americas",
+    "aliases": [
+      "Moon Landing",
+      "Apollo 11"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "cointelpro",
+    "label": "COINTELPRO",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/COINTELPRO",
+    "summary": "FBI counterintelligence program running 1956–1971, targeting civil rights, antiwar, feminist, and socialist movements through infiltration, forged documents, blackmail, and facilitation of violence. Confirmed by the 1971 Media, Pennsylvania FBI office break-in and fully exposed by the 1975 Church Committee.",
+    "decade": "1950s–1970s",
+    "tags": [
+      "government",
+      "FBI",
+      "civil_rights",
+      "history",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "rwandan_genocide",
+    "label": "Rwandan Genocide",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rwandan_genocide",
+    "summary": "1994 genocide of approximately 800,000 Tutsi and moderate Hutu in roughly 100 days — the terminus of a causal chain running from Belgian colonial racial classification through extremist ideology and media dehumanization. The fastest mass killing in recorded history.",
+    "decade": "1990s",
+    "tags": [
+      "genocide",
+      "africa",
+      "rwanda",
+      "history",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "sack_of_rome_1527",
+    "label": "Sack of Rome",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sack_of_Rome_(1527)",
+    "summary": "The brutal occupation of Rome in May 1527 by mutinous Landsknecht and Spanish troops of Holy Roman Emperor Charles V, killing thousands and devastating the city. Left Pope Clement VII politically captive to Charles V, with cascading consequences for the Protestant Reformation and the English break from Rome.",
+    "decade": "1520s",
+    "tags": [
+      "history",
+      "religion",
+      "papacy",
+      "renaissance",
+      "europe"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "protestant_reformation",
+    "label": "Protestant Reformation",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Protestant_Reformation",
+    "summary": "The 16th-century theological and political rupture initiated by Martin Luther in 1517 that permanently fragmented Western Christendom. Enabled by the Sack of Rome's damage to papal political authority, it produced both the English Reformation and the theological context within which Luther's later antisemitic writings were produced and distributed.",
+    "decade": "1510s–1600s",
+    "tags": [
+      "religion",
+      "history",
+      "europe",
+      "theology",
+      "reformation"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "english_reformation",
+    "label": "English Reformation",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/English_Reformation",
+    "summary": "Henry VIII's break from papal authority and creation of the Church of England, triggered by Pope Clement VII's politically enforced inability to grant an annulment of Henry's marriage to Catherine of Aragon — whose nephew, Charles V, had made the Pope his political captive after the 1527 Sack of Rome. Permanently altered British religious, political, and imperial identity.",
+    "decade": "1530s–1550s",
+    "tags": [
+      "religion",
+      "history",
+      "england",
+      "papacy",
+      "reformation"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "battle_of_vienna_1683",
+    "label": "Battle of Vienna",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Vienna",
+    "summary": "The engagement of September 11–12, 1683 in which the Polish-Lithuanian and Holy Roman Empire relief force under King John III Sobieski routed the Ottoman army besieging Vienna, ending the Ottoman threat to Central Europe. The last credible Ottoman bid for European expansion and the inflection point of two centuries of subsequent Ottoman decline.",
+    "decade": "1680s",
+    "tags": [
+      "military",
+      "ottoman",
+      "europe",
+      "history",
+      "poland"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "buck_v_bell",
+    "label": "Buck v. Bell",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Buck_v._Bell",
+    "summary": "1927 U.S. Supreme Court ruling that state-mandated sterilization of the 'unfit' was constitutional. Justice Oliver Wendell Holmes wrote: 'Three generations of imbeciles are enough.' The ruling was never overturned and provided legal cover for eugenics programs across the United States.",
+    "decade": "1920s",
+    "tags": [
+      "law",
+      "eugenics",
+      "racism",
+      "history",
+      "policy"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "atlantic_slave_trade",
+    "label": "Atlantic Slave Trade",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Atlantic_slave_trade",
+    "summary": "The forced transportation of approximately 12.5 million Africans to the Americas between the 16th and 19th centuries. Constructed a racial hierarchy and dehumanizing ideology that survived the trade's legal abolition and provided the foundational structure for subsequent American racial apartheid.",
+    "decade": "1500s–1800s",
+    "tags": [
+      "slavery",
+      "racism",
+      "history",
+      "colonialism",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "gulf_of_tonkin_incident",
+    "label": "Gulf of Tonkin Incident",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident",
+    "summary": "Manufactured or exaggerated naval incidents in 1964 used by the Johnson administration to obtain the Gulf of Tonkin Resolution, providing congressional authorization for full-scale U.S. involvement in Vietnam. Declassified NSA documents confirmed the second alleged attack did not occur.",
+    "decade": "1960s",
+    "tags": [
+      "government",
+      "history",
+      "deception",
+      "war",
+      "vietnam"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "vietnam_war",
+    "label": "Vietnam War",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vietnam_War",
+    "summary": "U.S. military conflict in Southeast Asia from 1955–1975, escalated through manufactured provocation and sustained by decades of government deception about its progress and prospects. Ended with 58,000 American and over a million Vietnamese dead; the most consequential collapse of American institutional trust in the 20th century.",
+    "decade": "1950s–1970s",
+    "tags": [
+      "war",
+      "history",
+      "government",
+      "deception",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "armenian_genocide",
+    "label": "Armenian Genocide",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Armenian_genocide",
+    "summary": "The systematic extermination of 600,000–1.5 million Armenians by the Ottoman Empire between 1914–1923, conducted through mass shootings, death marches, and starvation. Often described as the first genocide of the 20th century; Hitler reportedly invoked Armenian impunity as precedent when planning the Holocaust.",
+    "decade": "1910s–1920s",
+    "tags": [
+      "genocide",
+      "history",
+      "ottoman",
+      "documented_atrocity",
+      "middle_east"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "berlin_conference_1884",
+    "label": "Berlin Conference",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Berlin_Conference_(1884%E2%80%931885)",
+    "summary": "The 1884–1885 conference at which European powers partitioned the African continent among themselves without African representation. Formalized the colonial project at continental scale, creating the administrative infrastructure through which racial ideologies like the Hamitic Hypothesis were systematically applied to justify subjugation.",
+    "decade": "1880s",
+    "tags": [
+      "colonialism",
+      "africa",
+      "history",
+      "europe",
+      "racism"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "world_war_i",
+    "label": "World War I",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/World_War_I",
+    "summary": "The first industrialized total war, 1914–1918, killing approximately 20 million people. Triggered by the assassination of Archduke Franz Ferdinand but driven by imperial competition and alliance systems; ended with the Versailles settlement whose punitive terms structured the subsequent European catastrophes.",
+    "decade": "1910s",
+    "tags": [
+      "war",
+      "history",
+      "europe",
+      "imperialism"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "treaty_of_versailles",
+    "label": "Treaty of Versailles",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Treaty_of_Versailles",
+    "summary": "The 1919 peace settlement ending WWI, imposing reparations, territorial losses, and the 'war guilt' clause on Germany. The combination of punitive terms and genuine economic ruin provided the legitimate grievance infrastructure that Nazi propaganda transformed into genocidal ideology.",
+    "decade": "1910s",
+    "tags": [
+      "diplomacy",
+      "history",
+      "europe",
+      "war",
+      "consequences"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "kristallnacht",
+    "label": "Kristallnacht",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kristallnacht",
+    "summary": "The November 9–10, 1938 pogrom in which Nazi SA forces destroyed over 7,500 Jewish businesses, burned 1,400 synagogues, killed approximately 100 Jews, and sent 30,000 to concentration camps. The state-organized violence that signaled genocide was politically viable.",
+    "decade": "1930s",
+    "tags": [
+      "nazism",
+      "antisemitism",
+      "history",
+      "pogrom",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "battle_of_stalingrad",
+    "label": "Battle of Stalingrad",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad",
+    "summary": "The August 1942–February 1943 engagement in which Soviet forces encircled and destroyed Germany's 6th Army, killing or capturing approximately 750,000 Axis troops. The decisive turning point of the Eastern Front and the largest single battle in recorded history.",
+    "decade": "1940s",
+    "tags": [
+      "war",
+      "history",
+      "wwii",
+      "soviet",
+      "turning_point"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "d_day_normandy",
+    "label": "D-Day / Normandy Landings",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Normandy_landings",
+    "summary": "The June 6, 1944 Allied amphibious assault on Normandy, France — the largest seaborne invasion in history. Opened the Western Front, began the liberation of Nazi-occupied Europe, and ultimately brought Nazi concentration camps into global public record.",
+    "decade": "1940s",
+    "tags": [
+      "war",
+      "history",
+      "wwii",
+      "military",
+      "liberation"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "atomic_bombing_hiroshima",
+    "label": "Atomic Bombing of Hiroshima & Nagasaki",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
+    "summary": "The August 1945 U.S. atomic bombings of Hiroshima and Nagasaki, killing 70,000–140,000 people. Inaugurated the nuclear age, permanently establishing that governments possessed weapons capable of city-scale civilian annihilation.",
+    "decade": "1940s",
+    "tags": [
+      "war",
+      "history",
+      "nuclear",
+      "wwii",
+      "technology"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "cuban_missile_crisis",
+    "label": "Cuban Missile Crisis",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis",
+    "summary": "The October 1962 standoff between the U.S. and USSR over Soviet nuclear missiles in Cuba — the closest the Cold War came to nuclear exchange. A crisis in which the same anti-communist ideology that produced McCarthyism brought civilization within hours of nuclear war.",
+    "decade": "1960s",
+    "tags": [
+      "cold_war",
+      "history",
+      "nuclear",
+      "politics",
+      "crisis"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "battle_of_somme",
+    "label": "Battle of the Somme",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Somme",
+    "summary": "The July–November 1916 engagement on the Western Front in which the British Army suffered 57,471 casualties — including 19,240 dead — on the first day alone, with total casualties exceeding one million. The defining demonstration of industrial warfare consuming soldiers as mechanical material.",
+    "decade": "1910s",
+    "tags": [
+      "war",
+      "history",
+      "wwi",
+      "military",
+      "atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "holodomor",
+    "label": "Holodomor",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Holodomor",
+    "summary": "The 1932–1933 Soviet engineered famine that killed 3.5–7.5 million Ukrainians. Produced by forced collectivization and grain requisition quotas enforced even as people starved, with Soviet authorities blocking emigration and concealing the famine from international observers.",
+    "decade": "1930s",
+    "tags": [
+      "genocide",
+      "soviet",
+      "ukraine",
+      "history",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "stalinist_purges",
+    "label": "Stalinist Purges / Great Terror",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Purge",
+    "summary": "The 1936–1938 Soviet campaign of political repression that executed approximately 750,000 people and sent millions to the Gulag. Operated through show trials requiring victims to confess to fabricated crimes, destroying the Red Army officer corps and eliminating all potential political rivals.",
+    "decade": "1930s",
+    "tags": [
+      "soviet",
+      "history",
+      "repression",
+      "documented_atrocity",
+      "politics"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "great_leap_forward",
+    "label": "Great Leap Forward",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Leap_Forward",
+    "summary": "Mao Zedong's 1958–1962 campaign to rapidly industrialize China through collective farming and backyard steel production. Ideological rejection of agricultural science produced a famine killing 15–55 million people — the deadliest famine in history, caused by ideology overriding empirical reality.",
+    "decade": "1950s–1960s",
+    "tags": [
+      "china",
+      "history",
+      "famine",
+      "ideology",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "chinese_cultural_revolution",
+    "label": "Chinese Cultural Revolution",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cultural_Revolution",
+    "summary": "Mao Zedong's 1966–1976 campaign to purge capitalism and traditional elements from Chinese society by mobilizing youth Red Guards to destroy cultural institutions, persecute intellectuals, and enforce ideological conformity. Killed 500,000–2 million and destroyed a generation of institutional knowledge.",
+    "decade": "1960s–1970s",
+    "tags": [
+      "china",
+      "history",
+      "ideology",
+      "repression",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "khmer_rouge_genocide",
+    "label": "Khmer Rouge Genocide",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cambodian_genocide",
+    "summary": "The 1975–1979 Cambodian genocide in which the Khmer Rouge under Pol Pot killed approximately 1.5–2 million people — 25% of Cambodia's population. Driven by radical agrarian ideology that dehumanized urban residents, intellectuals, and ethnic minorities as class enemies requiring elimination.",
+    "decade": "1970s",
+    "tags": [
+      "genocide",
+      "cambodia",
+      "history",
+      "ideology",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "iraq_war_wmd",
+    "label": "Iraq War WMD Deception",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Iraq_and_weapons_of_mass_destruction",
+    "summary": "The 2002–2003 U.S. government presentation of fabricated and exaggerated intelligence about Iraqi weapons of mass destruction as justification for the Iraq War. Colin Powell's UN presentation used institutional credibility to launder cherry-picked and fabricated intelligence, producing a war that killed hundreds of thousands.",
+    "decade": "2000s",
+    "tags": [
+      "government",
+      "history",
+      "deception",
+      "war",
+      "iraq"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "abu_ghraib",
+    "label": "Abu Ghraib",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse",
+    "summary": "The documented torture and abuse of Iraqi prisoners by U.S. military personnel at Abu Ghraib prison in 2003–2004. Photographs forced the program into public record; investigations confirmed systematic abuse authorized by command decisions that deliberately dehumanized detainees as enemy combatants outside legal protection.",
+    "decade": "2000s",
+    "tags": [
+      "government",
+      "torture",
+      "history",
+      "dehumanization",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "king_leopold_congo",
+    "label": "King Leopold's Congo Free State",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Congo_Free_State",
+    "summary": "Leopold II of Belgium's personal colonial possession in the Congo from 1885–1908, in which a system of forced labor, hostage-taking, and mutilation extracted rubber from an enslaved population, killing an estimated 10 million people. The first modern atrocity exposed by an international human rights campaign.",
+    "decade": "1880s–1900s",
+    "tags": [
+      "colonialism",
+      "africa",
+      "genocide",
+      "history",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "herero_nama_genocide",
+    "label": "Herero and Nama Genocide",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Herero_and_Nama_genocide",
+    "summary": "The 1904–1908 German Imperial extermination of the Herero and Nama peoples of South West Africa (modern Namibia), killing 65–80% of the Herero population. Often described as the first genocide of the 20th century; German officers who commanded it later held senior positions in WWI, and historians document direct institutional continuity with Holocaust methods.",
+    "decade": "1900s",
+    "tags": [
+      "genocide",
+      "colonialism",
+      "africa",
+      "history",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "first_crusade",
+    "label": "First Crusade",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/First_Crusade",
+    "summary": "The 1096–1099 military campaign called by Pope Urban II that captured Jerusalem in 1099. En route through the Rhineland, Crusaders massacred Jewish communities in the Rhineland Massacres of 1096 — the first large-scale organized anti-Jewish violence in European history, establishing a template for subsequent pogroms.",
+    "decade": "1090s",
+    "tags": [
+      "religion",
+      "history",
+      "medieval",
+      "antisemitism",
+      "violence"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "black_death",
+    "label": "Black Death",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Death",
+    "summary": "The 1346–1353 bubonic plague pandemic killing 30–50% of Europe's population. The catastrophic death toll produced intense social anxiety that the scapegoating mechanism channeled into unprecedented anti-Jewish persecution — the Rhineland Massacres of 1349 killed tens of thousands of Jews accused of well-poisoning.",
+    "decade": "1340s–1350s",
+    "tags": [
+      "pandemic",
+      "history",
+      "medieval",
+      "europe",
+      "antisemitism"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "thirty_years_war",
+    "label": "Thirty Years War",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thirty_Years%27_War",
+    "summary": "The 1618–1648 conflict fought primarily in Central Europe between Catholic and Protestant powers that killed approximately 8 million people — up to a third of the German population — through combat, famine, and disease. The most destructive European war before the 20th century, ended by the Peace of Westphalia.",
+    "decade": "1610s–1640s",
+    "tags": [
+      "war",
+      "history",
+      "europe",
+      "religion",
+      "reformation"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "fall_of_constantinople",
+    "label": "Fall of Constantinople",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+    "summary": "The May 29, 1453 Ottoman conquest of Constantinople under Mehmed II, ending the Byzantine Empire after 1,123 years. Removed the last major buffer between Ottoman expansion and Central Europe, enabling the westward push that would reach Vienna in 1683.",
+    "decade": "1450s",
+    "tags": [
+      "military",
+      "history",
+      "ottoman",
+      "byzantine",
+      "europe"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "mongol_conquests",
+    "label": "Mongol Conquests",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mongol_conquests",
+    "summary": "The 13th-century military campaigns of the Mongol Empire under Genghis Khan and his successors, creating the largest contiguous land empire in history. The destruction of the Abbasid Caliphate (1258) and the Seljuk Sultanate created the power vacuum into which the Ottoman state expanded.",
+    "decade": "1200s–1300s",
+    "tags": [
+      "military",
+      "history",
+      "mongols",
+      "empire",
+      "asia"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "partition_of_india",
+    "label": "Partition of India",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Partition_of_India",
+    "summary": "The 1947 British-administered division of the Indian subcontinent into Hindu-majority India and Muslim-majority Pakistan, producing one of history's largest forced migrations (10–20 million people) and communal massacres killing 200,000–2 million. A textbook case of dehumanization and scapegoating producing mass atrocity under the cover of administrative partition.",
+    "decade": "1940s",
+    "tags": [
+      "colonialism",
+      "history",
+      "india",
+      "partition",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "srebrenica_massacre",
+    "label": "Srebrenica Massacre",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Srebrenica_massacre",
+    "summary": "The July 1995 genocide in which Bosnian Serb forces under Ratko Mladić systematically executed approximately 8,000 Bosniak Muslim men and boys from the UN-declared 'safe area' of Srebrenica. The only event legally designated genocide in Europe since the Holocaust.",
+    "decade": "1990s",
+    "tags": [
+      "genocide",
+      "history",
+      "europe",
+      "balkans",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "my_lai_massacre",
+    "label": "My Lai Massacre",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/My_Lai_massacre",
+    "summary": "The March 1968 mass killing of 347–504 unarmed South Vietnamese civilians — including women, children, and elderly — by U.S. Army soldiers. Covered up for 18 months until journalist Seymour Hersh exposed it in 1969; contributed to the collapse of domestic support for the Vietnam War.",
+    "decade": "1960s",
+    "tags": [
+      "war",
+      "history",
+      "vietnam",
+      "atrocity",
+      "documented_atrocity"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "american_civil_war",
+    "label": "American Civil War",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Civil_War",
+    "summary": "The 1861–1865 war between the United States and the Confederate States of America, caused by Southern states' determination to preserve chattel slavery. The bloodiest conflict in American history, killing approximately 620,000 soldiers; ended with the Union's victory and the formal abolition of slavery.",
+    "decade": "1860s",
+    "tags": [
+      "war",
+      "history",
+      "slavery",
+      "america",
+      "civil_rights"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "battle_of_marathon",
+    "label": "Battle of Marathon",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Marathon",
+    "summary": "The 490 BC Athenian victory over the invading Persian army of Darius I, demonstrating that a Greek city-state could defeat the Persian Empire in open battle. The victory preserved Athenian democracy at its most formative period and permanently humiliated Persia — directly producing Xerxes' massive retaliatory invasion a decade later.",
+    "decade": "490s BC",
+    "tags": [
+      "military",
+      "history",
+      "ancient",
+      "greece",
+      "persia"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "battle_of_thermopylae",
+    "label": "Battle of Thermopylae",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae",
+    "summary": "The 480 BC three-day defense of the Thermopylae pass by approximately 7,000 Greeks — including 300 Spartans under King Leonidas — against Xerxes' invading Persian army. Though the Greeks were ultimately outflanked, the battle's delaying action enabled the Greek naval victory at Salamis and became the defining Western narrative of heroic sacrifice against overwhelming odds.",
+    "decade": "480s BC",
+    "tags": [
+      "military",
+      "history",
+      "ancient",
+      "greece",
+      "persia"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "battle_of_agincourt",
+    "label": "Battle of Agincourt",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Agincourt",
+    "summary": "The October 1415 English victory over a larger French army during the Hundred Years' War, in which Henry V's longbowmen destroyed the French cavalry. One of history's most studied examples of tactical innovation defeating numerical superiority; immortalized by Shakespeare's Henry V.",
+    "decade": "1410s",
+    "tags": [
+      "military",
+      "history",
+      "medieval",
+      "england",
+      "france"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "battle_of_gettysburg",
+    "label": "Battle of Gettysburg",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Gettysburg",
+    "summary": "The July 1–3, 1863 engagement in which Union forces repulsed Lee's second invasion of the North, killing or wounding approximately 50,000 soldiers in three days. The decisive turning point of the American Civil War, ending any realistic Confederate hope of European recognition or Northern capitulation.",
+    "decade": "1860s",
+    "tags": [
+      "military",
+      "history",
+      "america",
+      "civil_war",
+      "turning_point"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "battle_of_waterloo",
+    "label": "Battle of Waterloo",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+    "summary": "The June 18, 1815 defeat of Napoleon Bonaparte by the Duke of Wellington and Prussian forces, ending the Napoleonic Wars and Napoleon's rule. Produced the Congress of Vienna's conservative order that attempted to restore pre-Revolutionary Europe — an order whose instability would produce the 20th century's catastrophes.",
+    "decade": "1810s",
+    "tags": [
+      "military",
+      "history",
+      "europe",
+      "napoleon",
+      "turning_point"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "babylonian_captivity",
+    "label": "Babylonian Captivity",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Babylonian_captivity",
+    "summary": "The 586 BC Babylonian destruction of the First Temple and forced exile of the Jewish people to Babylon. During this period Jewish identity, monotheism, and messianic theology were consolidated — the intellectual foundations of both Christianity and Islam.",
+    "decade": "580s BC",
+    "tags": [
+      "history",
+      "judaism",
+      "middle_east",
+      "exile",
+      "ancient"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "persian_achaemenid_empire",
+    "label": "Persian Achaemenid Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Achaemenid_Empire",
+    "summary": "The first Persian Empire (550–330 BC), the largest empire the world had seen — stretching from the Aegean to India. Cyrus the Great allowed the Jewish exiles to return to Judea; Persian administrative systems and Zoroastrian ideas influenced Jewish theology, early Christianity, and Islam.",
+    "decade": "550s–330s BC",
+    "tags": [
+      "history",
+      "ancient",
+      "persia",
+      "empire",
+      "middle_east"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "alexander_the_great",
+    "label": "Alexander the Great",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+    "summary": "Alexander III of Macedon (356–323 BC), who conquered the Persian Empire and spread Greek culture from Egypt to India. His conquests created the Hellenistic world that Rome inherited; his successors' forced Hellenization of Judea directly triggered the Maccabean revolt.",
+    "decade": "330s–320s BC",
+    "tags": [
+      "history",
+      "ancient",
+      "greece",
+      "empire",
+      "military"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "maccabean_revolt",
+    "label": "Maccabean Revolt",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maccabean_Revolt",
+    "summary": "The 167–160 BC Jewish uprising against Seleucid Greek ruler Antiochus IV, who banned Torah observance, installed a Greek altar in the Temple, and forced Hellenization. The first religious freedom war in recorded history; intensified Jewish messianic expectations that directly shaped the milieu from which Christianity emerged.",
+    "decade": "160s BC",
+    "tags": [
+      "history",
+      "judaism",
+      "ancient",
+      "religion",
+      "revolt"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "roman_empire",
+    "label": "Roman Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Roman_Empire",
+    "summary": "The Roman state at its imperial height (27 BC – 476 AD), governing the Mediterranean world including Judea. Roman roads, common language, and administrative unity created the infrastructure through which Christianity spread; Roman colonial rule of Judea produced the revolts that ended Jewish statehood.",
+    "decade": "1st century BC–5th century AD",
+    "tags": [
+      "history",
+      "ancient",
+      "rome",
+      "empire",
+      "mediterranean"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "jewish_roman_wars",
+    "label": "Jewish–Roman Wars",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jewish%E2%80%93Roman_wars",
+    "summary": "The three major Jewish revolts against Roman rule: the Great Revolt (66–73 AD) ending with the destruction of the Second Temple, the Kitos War (115–117 AD), and the Bar Kokhba revolt (132–135 AD) after which Rome renamed Judea 'Syria Palaestina' and expelled Jews from Jerusalem. The wars produced the Jewish Diaspora.",
+    "decade": "1st–2nd century AD",
+    "tags": [
+      "history",
+      "ancient",
+      "rome",
+      "judaism",
+      "revolt"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "rise_of_christianity",
+    "label": "Rise of Christianity",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/History_of_early_Christianity",
+    "summary": "The growth of Christianity from a Jewish sect in Roman-occupied Judea to the official state religion of the Roman Empire under Constantine (312 AD) — a transformation enabled by Roman administrative infrastructure and completed by Theodosius I's 380 AD decree making it the empire's sole legal religion.",
+    "decade": "1st–4th century AD",
+    "tags": [
+      "religion",
+      "history",
+      "christianity",
+      "rome",
+      "ancient"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "byzantine_empire",
+    "label": "Byzantine Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+    "summary": "The Eastern Roman Empire (330–1453 AD), centered on Constantinople, that preserved Roman administrative institutions and Christian Orthodox theology for over a millennium. Its Emperor Alexios I Komnenos's appeal to Pope Urban II for military assistance against the Seljuk Turks in 1095 was the direct trigger for the First Crusade.",
+    "decade": "4th–15th century",
+    "tags": [
+      "history",
+      "byzantine",
+      "christianity",
+      "empire",
+      "middle_east"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "sassanid_persian_empire",
+    "label": "Sassanid Persian Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sasanian_Empire",
+    "summary": "The last great pre-Islamic Persian Empire (224–651 AD), the dominant power in the Middle East alongside Byzantium for four centuries. Its wars with Byzantium and subsequent conquest by Arab armies transformed the Middle East from a Zoroastrian/Christian dual-power system to an Islamic civilization.",
+    "decade": "3rd–7th century",
+    "tags": [
+      "history",
+      "ancient",
+      "persia",
+      "empire",
+      "middle_east"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "byzantine_sassanid_wars",
+    "label": "Byzantine–Sassanid Wars",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Byzantine%E2%80%93Sasanian_War_of_602%E2%80%93628",
+    "summary": "The final and most devastating Byzantine-Sassanid war (602–628 AD), in which both empires exhausted themselves in over two decades of total war crossing the entire Middle East. The mutual destruction left both powers unable to resist the Arab armies that emerged from Arabia within a decade of the war's end.",
+    "decade": "7th century",
+    "tags": [
+      "history",
+      "ancient",
+      "war",
+      "middle_east",
+      "persia"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "rise_of_islam",
+    "label": "Rise of Islam",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Early_Muslim_conquests",
+    "summary": "Muhammad's founding of the Islamic community in Medina (622 AD / Year 1 AH) and the rapid political and military expansion that unified Arabia within a decade. Provided the ideological unity and political structure for the Arab conquests that transformed the Middle East, North Africa, and Iberia within a century.",
+    "decade": "7th century",
+    "tags": [
+      "religion",
+      "history",
+      "islam",
+      "middle_east",
+      "expansion"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "arab_conquests",
+    "label": "Arab Conquests",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Early_Muslim_conquests",
+    "summary": "The 632–750 AD expansion of Arab-Muslim armies from Arabia across the entire Sassanid Empire, Egypt, North Africa, and Iberia. The fastest territorial expansion in history, made possible by the exhaustion of Byzantine and Sassanid empires — transformed the Middle East, North Africa, and Iberia into Islamic civilization.",
+    "decade": "7th–8th century",
+    "tags": [
+      "history",
+      "islam",
+      "military",
+      "middle_east",
+      "expansion"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "sunni_shia_split",
+    "label": "Sunni–Shia Split",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sunni%E2%80%93Shia_relations",
+    "summary": "The founding schism of Islam, originating in the 632 AD dispute over succession to Muhammad. Ali ibn Abi Talib's followers (Shia) believed leadership belonged to Muhammad's family; the Sunni majority accepted Abu Bakr's elected succession. The schism hardened through the Battle of Karbala (680 AD) into a permanent theological and political fracture still defining Middle Eastern politics today.",
+    "decade": "7th century–Ongoing",
+    "tags": [
+      "religion",
+      "islam",
+      "history",
+      "middle_east",
+      "schism"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "seljuk_empire",
+    "label": "Seljuk Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seljuk_Empire",
+    "summary": "The Sunni Turkish empire (1037–1194 AD) that displaced the Fatimids from the Levant, conquered most of Anatolia from Byzantium after Manzikert, and disrupted the relatively tolerant Christian pilgrim access to Jerusalem that had existed under Abbasid and Fatimid rule. Their expansion directly produced both the Byzantine appeal for help and the Crusade.",
+    "decade": "11th–12th century",
+    "tags": [
+      "history",
+      "islam",
+      "turkey",
+      "middle_east",
+      "empire"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "battle_of_manzikert",
+    "label": "Battle of Manzikert",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Manzikert",
+    "summary": "The 1071 AD defeat of the Byzantine army by Seljuk forces under Alp Arslan, in which Byzantine Emperor Romanos IV was captured. The battle opened Anatolia to Seljuk settlement, permanently weakening Byzantium and triggering the sequence that produced Emperor Alexios I's desperate appeal to Pope Urban II and ultimately the First Crusade.",
+    "decade": "1070s",
+    "tags": [
+      "military",
+      "history",
+      "byzantine",
+      "seljuk",
+      "middle_east"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "destruction_of_holy_sepulchre",
+    "label": "Destruction of Church of the Holy Sepulchre",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Church_of_the_Holy_Sepulchre",
+    "summary": "The 1009 AD order by Fatimid Caliph al-Hakim bi-Amr Allah to demolish the Church of the Holy Sepulchre in Jerusalem — the most sacred site in Christianity. The destruction shocked Western Europe and triggered calls for military intervention; it is a key node in the causal chain leading to Urban II's 1095 Crusade call.",
+    "decade": "1000s",
+    "tags": [
+      "religion",
+      "history",
+      "middle_east",
+      "christianity",
+      "crusades"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "great_schism_1054",
+    "label": "Great Schism",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism",
+    "summary": "The 1054 formal split between the Roman Catholic and Eastern Orthodox churches over papal authority, the filioque clause, and accumulated liturgical differences. The schism meant that when Byzantium appealed to Rome for help, Pope Urban II's response carried the additional political logic of reasserting Latin Christian leadership over Orthodox Christianity.",
+    "decade": "1050s",
+    "tags": [
+      "religion",
+      "history",
+      "christianity",
+      "schism",
+      "medieval"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "council_of_clermont_1095",
+    "label": "Council of Clermont",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Council_of_Clermont",
+    "summary": "The November 1095 church council at which Pope Urban II called for a holy war to reclaim Jerusalem from the Seljuk Turks and aid the Byzantine Empire. The speech — promising remission of sins and spiritual reward for those who died — directly caused the First Crusade and initiated two centuries of religiously motivated warfare.",
+    "decade": "1090s",
+    "tags": [
+      "religion",
+      "history",
+      "crusades",
+      "medieval",
+      "papacy"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "crusader_states",
+    "label": "Crusader States",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Crusader_states",
+    "summary": "The four Latin Christian states established in the Levant after the First Crusade: the Kingdom of Jerusalem, County of Edessa, Principality of Antioch, and County of Tripoli. They maintained a fragile European colonial presence in the Middle East from 1098 to 1291, when the fall of Acre ended the last Crusader territory.",
+    "decade": "1090s–1290s",
+    "tags": [
+      "history",
+      "crusades",
+      "middle_east",
+      "colonialism",
+      "medieval"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "saladin_reconquest",
+    "label": "Saladin's Reconquest of Jerusalem",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saladin",
+    "summary": "Saladin (Salah ad-Din Yusuf ibn Ayyub) unified Egypt and Syria, then crushed the Crusader army at the Battle of Hattin (1187) and recaptured Jerusalem — reversing the First Crusade's conquest after 88 years. His relatively merciful treatment of Christian inhabitants contrasted with the Crusaders' 1099 massacre and became a founding narrative of Islamic resistance.",
+    "decade": "1180s",
+    "tags": [
+      "history",
+      "islam",
+      "middle_east",
+      "crusades",
+      "military"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "ottoman_empire",
+    "label": "Ottoman Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ottoman_Empire",
+    "summary": "The Turkish Islamic empire (1299–1922) that at its height controlled Southeast Europe, Anatolia, the Middle East, and North Africa. The longest-lived major empire of the post-classical era, its collapse after WWI directly produced the modern Middle East's borders, conflicts, and state structure.",
+    "decade": "1290s–1920s",
+    "tags": [
+      "history",
+      "ottoman",
+      "empire",
+      "middle_east",
+      "turkey"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "ottoman_conquest_arab_lands",
+    "label": "Ottoman Conquest of Arab Lands",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Mamluk_War_(1516%E2%80%9317)",
+    "summary": "Sultan Selim I's 1516–1517 conquest of the Mamluk Sultanate, adding Syria, Egypt, and the Hejaz (including Mecca and Medina) to the Ottoman Empire. Made the Ottoman Sultan Caliph of Islam; brought the Arab world under Ottoman administration for four centuries until WWI, creating the political geography that Sykes-Picot would divide.",
+    "decade": "1510s",
+    "tags": [
+      "history",
+      "ottoman",
+      "middle_east",
+      "conquest",
+      "arab"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "sykes_picot_agreement",
+    "label": "Sykes-Picot Agreement",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sykes%E2%80%93Picot_Agreement",
+    "summary": "The secret 1916 Anglo-French agreement dividing the Arab territories of the Ottoman Empire into British and French spheres of influence. Drew borders ignoring ethnic, religious, and tribal realities, creating Iraq, Syria, Lebanon, and Palestine as colonial constructs — the foundational document of modern Middle Eastern dysfunction.",
+    "decade": "1910s",
+    "tags": [
+      "history",
+      "colonialism",
+      "middle_east",
+      "britain",
+      "france"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "balfour_declaration",
+    "label": "Balfour Declaration",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Balfour_Declaration",
+    "summary": "The November 1917 letter from British Foreign Secretary Arthur Balfour to Zionist leader Lord Rothschild, declaring that 'His Majesty's Government view with favour the establishment in Palestine of a national home for the Jewish people.' Made without consulting the Arab majority population of Palestine; set the Israeli-Palestinian conflict in motion.",
+    "decade": "1910s",
+    "tags": [
+      "history",
+      "britain",
+      "middle_east",
+      "zionism",
+      "palestine"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "nakba",
+    "label": "The Nakba (1948 Palestinian Exodus)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight",
+    "summary": "The mass displacement of approximately 700,000 Palestinian Arabs during the 1948 Arab-Israeli War, through a combination of military expulsion, flight from fighting, and psychological warfare. Palestinians call this 'the Catastrophe' (Nakba). Their exile and the refusal to allow return created the Palestinian refugee crisis that persists to the present day.",
+    "decade": "1940s",
+    "tags": [
+      "history",
+      "middle_east",
+      "palestine",
+      "refugees",
+      "war"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "founding_of_israel",
+    "label": "Founding of the State of Israel (1948)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Declaration_of_the_Establishment_of_the_State_of_Israel",
+    "summary": "David Ben-Gurion's declaration of the State of Israel on May 14, 1948, one day before the British Mandate for Palestine expired. Recognized immediately by the United States and the Soviet Union, the declaration triggered the first Arab-Israeli War as neighboring Arab states invaded. Israel's founding simultaneously fulfilled the Zionist project and dispossessed the Palestinian Arab majority.",
+    "decade": "1940s",
+    "tags": [
+      "history",
+      "middle_east",
+      "israel",
+      "zionism",
+      "independence"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "arab_israeli_war_1948",
+    "label": "1948 Arab-Israeli War",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War",
+    "summary": "The first Arab-Israeli War, fought between the newly declared State of Israel and a coalition of Arab states (Egypt, Jordan, Syria, Iraq, Lebanon). Israel expanded beyond the UN partition plan borders, expelled or drove out most Palestinian Arabs, and secured its existence. The armistice lines became Israel's de facto borders until 1967.",
+    "decade": "1940s",
+    "tags": [
+      "history",
+      "middle_east",
+      "war",
+      "israel",
+      "arab_states"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "suez_crisis_1956",
+    "label": "Suez Crisis (1956)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Suez_Crisis",
+    "summary": "Egypt's President Nasser nationalized the Suez Canal, triggering a secret invasion by Britain, France, and Israel. US and Soviet pressure forced a humiliating Anglo-French withdrawal, marking the definitive end of British imperial power in the Middle East and elevating both Nasser's pan-Arab nationalism and superpower influence in the region.",
+    "decade": "1950s",
+    "tags": [
+      "history",
+      "middle_east",
+      "imperialism",
+      "cold_war",
+      "egypt"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "six_day_war_1967",
+    "label": "Six-Day War (1967)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Six-Day_War",
+    "summary": "Israel's preemptive war against Egypt, Jordan, and Syria in June 1967, in which Israel captured the West Bank, Gaza Strip, Sinai Peninsula, and Golan Heights in six days. The occupation of the West Bank and Gaza placed over a million Palestinians under Israeli military control and created the territorial framework for all subsequent Israeli-Palestinian conflict.",
+    "decade": "1960s",
+    "tags": [
+      "history",
+      "middle_east",
+      "war",
+      "israel",
+      "occupation"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "yom_kippur_war_1973",
+    "label": "Yom Kippur War (1973)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yom_Kippur_War",
+    "summary": "Egypt and Syria's surprise attack on Israel on Yom Kippur, initially achieving major gains before Israel reversed the momentum. The war led to the 1973 oil embargo, triggered the Camp David peace process, and shattered Israeli assumptions of invincibility. It was the last major Arab-Israeli conventional war.",
+    "decade": "1970s",
+    "tags": [
+      "history",
+      "middle_east",
+      "war",
+      "israel",
+      "oil"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "iranian_revolution_1979",
+    "label": "Iranian Islamic Revolution (1979)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Iranian_Revolution",
+    "summary": "The popular uprising that overthrew Shah Mohammad Reza Pahlavi and established the Islamic Republic of Iran under Ayatollah Khomeini's doctrine of velayat-e faqih (guardianship of the jurist). The revolution replaced a secular pro-Western monarchy with a theocratic government hostile to both the US and the Soviet Union, transforming Middle Eastern geopolitics.",
+    "decade": "1970s",
+    "tags": [
+      "history",
+      "iran",
+      "revolution",
+      "islamism",
+      "theocracy"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "soviet_afghan_war",
+    "label": "Soviet-Afghan War (1979–1989)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War",
+    "summary": "The decade-long conflict following the Soviet invasion of Afghanistan in December 1979, in which CIA-backed, Saudi-financed Afghan mujahideen fighters — supplemented by foreign volunteers including Osama bin Laden — fought Soviet forces to a strategic stalemate. The US saw it as a successful proxy war against the USSR; the aftermath created the conditions for the Taliban and al-Qaeda.",
+    "decade": "1979–1989",
+    "tags": [
+      "history",
+      "cold_war",
+      "afghanistan",
+      "cia",
+      "islamism"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "rise_of_al_qaeda",
+    "label": "Rise of Al-Qaeda",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Al-Qaeda",
+    "summary": "The formation and growth of al-Qaeda as a transnational jihadist organization, founded by Osama bin Laden in 1988 from the network of Arab volunteers assembled in Afghanistan during the Soviet war. Al-Qaeda applied the infrastructure, veterans, and ideology of the Afghan jihad to a global campaign against the United States and Western presence in Muslim countries.",
+    "decade": "1980s–2000s",
+    "tags": [
+      "terrorism",
+      "islamism",
+      "al_qaeda",
+      "afghanistan",
+      "radicalization"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "september_11_attacks",
+    "label": "September 11 Attacks (2001)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/September_11_attacks",
+    "summary": "Al-Qaeda's coordinated suicide attacks using hijacked commercial aircraft against the World Trade Center and Pentagon, killing nearly 3,000 people. The attacks triggered the US invasion of Afghanistan, the War on Terror, the invasion of Iraq, the Patriot Act's surveillance expansion, and a generational restructuring of US foreign policy and domestic security — producing consequences that dwarfed the original attacks in scale.",
+    "decade": "2000s",
+    "tags": [
+      "history",
+      "terrorism",
+      "usa",
+      "al_qaeda",
+      "war_on_terror"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "gulf_war_1990",
+    "label": "Gulf War (1990–1991)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gulf_War",
+    "summary": "Iraq's invasion of Kuwait in August 1990 and the US-led coalition's military expulsion of Iraqi forces, resulting in Kuwait's liberation but Saddam Hussein remaining in power. The stationing of US troops in Saudi Arabia after the war became bin Laden's central grievance against the US, and Saddam's survival set the stage for the 2003 Iraq War.",
+    "decade": "1990s",
+    "tags": [
+      "history",
+      "middle_east",
+      "war",
+      "iraq",
+      "usa"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "oslo_accords",
+    "label": "Oslo Accords (1993)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oslo_Accords",
+    "summary": "Secret negotiations between Israel and the PLO that produced mutual recognition and a framework for Palestinian self-governance through the Palestinian Authority. The accords created the two-state solution framework but without resolving final-status issues: borders, Jerusalem, refugees, or settlements. The peace process stalled and collapsed, and the Palestinian Authority became associated with corruption and ineffectiveness.",
+    "decade": "1990s",
+    "tags": [
+      "history",
+      "middle_east",
+      "peace_process",
+      "israel",
+      "palestine"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "syrian_civil_war",
+    "label": "Syrian Civil War (2011–present)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Syrian_civil_war",
+    "summary": "The multi-sided civil war that erupted when Assad's government violently suppressed Arab Spring protests, producing the world's largest refugee crisis (over 6 million external refugees, 6 million internally displaced), over 300,000 deaths, the near-destruction of major cities, Russian and Iranian military intervention, US proxy warfare, and the rise and partial defeat of ISIS.",
+    "decade": "2010s–present",
+    "tags": [
+      "history",
+      "middle_east",
+      "war",
+      "syria",
+      "refugees"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "isis_rise",
+    "label": "Rise of ISIS (Islamic State)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Islamic_State",
+    "summary": "The emergence of the Islamic State in Iraq and Syria (ISIS) from the remnants of al-Qaeda in Iraq, growing from a weakened insurgency to the capture of Mosul and vast territories in Iraq and Syria in 2014. ISIS combined jihadist ideology with state-building, executing mass atrocities, genociding the Yazidis, and inspiring attacks worldwide before its territorial defeat in 2019.",
+    "decade": "2010s",
+    "tags": [
+      "history",
+      "terrorism",
+      "islamism",
+      "iraq",
+      "syria"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "nuremberg_trials",
+    "label": "Nuremberg Trials (1945–1946)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nuremberg_trials",
+    "summary": "The International Military Tribunal's prosecution of 24 major Nazi war criminals for crimes against peace, war crimes, and crimes against humanity. The trials established that 'following orders' is not a defense for atrocity, created the legal precedent for international criminal justice, and defined crimes against humanity as a legal category. They were also the first formal accounting of what had happened in the Holocaust, creating the evidentiary record on which later denial could be prosecuted.",
+    "decade": "1940s",
+    "tags": [
+      "history",
+      "wwii",
+      "law",
+      "justice",
+      "holocaust"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "apartheid_south_africa",
+    "label": "Apartheid South Africa (1948–1994)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Apartheid",
+    "summary": "The system of institutionalized racial segregation and discrimination enforced by South Africa's National Party government from 1948 to 1994, classifying all South Africans by race, separating them into distinct areas, denying Black South Africans citizenship and political rights, and enforcing this system through police violence and imprisonment. Apartheid was the most legally elaborate racial hierarchy since Nazism, and its end through negotiated transition became a model for post-conflict reconciliation.",
+    "decade": "1948–1994",
+    "tags": [
+      "history",
+      "africa",
+      "racism",
+      "colonialism",
+      "segregation"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "decolonization_movement",
+    "label": "Global Decolonization Movement (1945–1975)",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Decolonization",
+    "summary": "The wave of independence movements that dissolved European colonial empires between 1945 and 1975, producing over 50 new nation-states across Africa, Asia, the Middle East, and the Caribbean. Decolonization was driven by anti-colonial nationalist movements, the economic exhaustion of colonial powers after WWII, superpower pressure (the US and USSR both opposed formal colonialism), and the internal contradictions of maintaining empire after having fought against fascism.",
+    "decade": "1945–1975",
+    "tags": [
+      "history",
+      "colonialism",
+      "independence",
+      "africa",
+      "asia"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "latin_american_dirty_wars",
+    "label": "Latin American Dirty Wars (1960s–1980s)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dirty_War",
+    "summary": "The systematic state terrorism conducted by US-backed military dictatorships across Latin America — Argentina, Chile, Brazil, Uruguay, Guatemala, El Salvador, and others — involving the kidnapping, torture, and disappearance of tens of thousands of suspected leftists, labor organizers, students, and journalists. Coordinated through Operation Condor, these campaigns were enabled by CIA training, intelligence sharing, and political support as Cold War anti-communist policy.",
+    "decade": "1960s–1980s",
+    "tags": [
+      "history",
+      "cold_war",
+      "latin_america",
+      "torture",
+      "cia"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "pre_socratic_philosophy",
+    "label": "Pre-Socratic Philosophy",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pre-Socratic_philosophy",
+    "summary": "The earliest Greek philosophical tradition (c. 600–400 BCE), in which thinkers like Thales, Anaximander, Heraclitus, and Parmenides attempted to explain nature through rational principles rather than mythological narrative. For the first time in the Western tradition, systematic reasoning rather than divine authority was offered as the basis for understanding reality — establishing the foundational premise that the world can be understood by the human mind, independent of revelation.",
+    "decade": "600s BCE",
+    "tags": [
+      "philosophy",
+      "greece",
+      "ancient",
+      "reason",
+      "cosmology",
+      "rationalism"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "socrates",
+    "label": "Socrates (c. 470–399 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Socrates",
+    "summary": "Athenian philosopher regarded as the founder of Western moral philosophy. Socrates left no written works; his ideas survive through Plato's dialogues. He invented philosophical inquiry through relentless questioning — exposing contradictions in interlocutors' beliefs and claiming to be wise only in knowing that he knew nothing. He was tried and executed in 399 BCE for impiety and corrupting the youth of Athens, becoming the first martyr of philosophy and demonstrating that honest inquiry is a political threat to any society built on unexamined belief.",
+    "decade": "400s BCE",
+    "tags": [
+      "philosophy",
+      "athens",
+      "greece",
+      "ancient",
+      "ethics",
+      "inquiry"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "plato",
+    "label": "Plato (c. 428–348 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Plato",
+    "summary": "Athenian philosopher, student of Socrates and teacher of Aristotle, whose dialogues established the central problems of Western philosophy. Plato founded the Academy in Athens (c. 387 BCE), the first institution of higher learning in the Western world. His Theory of Forms — that material objects are imperfect copies of ideal, eternal, perfect Forms — shaped theology, mathematics, and political theory for two millennia. His Republic outlined a model of justice and the ideal state governed by philosopher-kings, launching the tradition of utopian political philosophy.",
+    "decade": "400s BCE",
+    "tags": [
+      "philosophy",
+      "athens",
+      "greece",
+      "ancient",
+      "idealism",
+      "politics",
+      "education"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "aristotle",
+    "label": "Aristotle (384–322 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aristotle",
+    "summary": "Greek philosopher and polymath, student of Plato and tutor of Alexander the Great. Aristotle's systematic writings on logic, biology, physics, metaphysics, ethics, politics, rhetoric, and poetics defined the boundaries of Western knowledge for nearly two thousand years. Where Plato sought the ideal, Aristotle studied the actual: he developed empirical methods of inquiry, taxonomic classification, and formal logic. His concept of the good life as eudaimonia — flourishing through virtuous activity — became the foundation of virtue ethics.",
+    "decade": "300s BCE",
+    "tags": [
+      "philosophy",
+      "greece",
+      "ancient",
+      "logic",
+      "ethics",
+      "science",
+      "empiricism"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "stoicism",
+    "label": "Stoicism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stoicism",
+    "summary": "Greek philosophical school founded by Zeno of Citium c. 300 BCE, which taught that virtue alone constitutes the good life, that external events are indifferent, and that emotional suffering arises from false judgments about what is within our control. In its Roman form (Epictetus, Seneca, Marcus Aurelius), Stoicism became the dominant philosophy of the Roman ruling class. Its influence shaped Christian ethics, the concept of natural law that grounded Roman and international law, and contemporary cognitive-behavioral therapy.",
+    "decade": "300s BCE",
+    "tags": [
+      "philosophy",
+      "greece",
+      "rome",
+      "ethics",
+      "virtue",
+      "self-control",
+      "natural-law"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "epicureanism",
+    "label": "Epicureanism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Epicureanism",
+    "summary": "Greek philosophical school founded by Epicurus c. 307 BCE, which taught that the highest good is pleasure — specifically the absence of pain and anxiety, not sensory indulgence. Epicurus advocated withdrawal from public life into communities of friendship, atomic materialism (the soul dissolves at death, no divine providence), and living simply. Epicurean ethics provided an alternative to both Platonic idealism and Stoic duty, prioritizing individual flourishing, and influenced Enlightenment materialism, liberalism, and secular humanism.",
+    "decade": "300s BCE",
+    "tags": [
+      "philosophy",
+      "greece",
+      "ethics",
+      "materialism",
+      "pleasure",
+      "secularism",
+      "friendship"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "hellenistic_philosophy",
+    "label": "Hellenistic Philosophy",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hellenistic_philosophy",
+    "summary": "The diverse philosophical movements of the Hellenistic period (c. 323–31 BCE) following Alexander the Great's conquests, including Stoicism, Epicureanism, Skepticism, and Cynicism. Hellenistic philosophy shifted the focus from cosmology and politics to individual ethics — how to live well in a world of uncertainty. The period also saw the first synthesis of Greek philosophy with Persian, Egyptian, and Jewish traditions, preparing the intellectual ground for Neoplatonism, rabbinic Judaism, and the emergence of Christianity.",
+    "decade": "300s BCE",
+    "tags": [
+      "philosophy",
+      "greece",
+      "hellenism",
+      "ethics",
+      "syncretism",
+      "cosmopolitanism"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "scholasticism",
+    "label": "Scholasticism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scholasticism",
+    "summary": "The dominant intellectual tradition of medieval Europe (11th–15th century), which applied Aristotelian logic and method to Christian theology. Thomas Aquinas, its greatest practitioner, synthesized Aristotle with Christianity to produce a comprehensive philosophical theology (Summa Theologica). Scholasticism built the great medieval universities, invented rigorous academic disputation, and made systematic rational argument the standard of theological truth — while insisting that reason and revelation ultimately harmonize.",
+    "decade": "1100s",
+    "tags": [
+      "philosophy",
+      "medieval",
+      "theology",
+      "christianity",
+      "aristotle",
+      "university"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "existentialism",
+    "label": "Existentialism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Existentialism",
+    "summary": "The 20th-century philosophical movement (Sartre, Heidegger, Camus, de Beauvoir) that placed individual existence, freedom, and authenticity at the center of philosophy. Confronting a world without inherent meaning after the death of God, existentialism insisted that humans are condemned to create their own meaning and are fully responsible for their choices. Existentialism shaped post-war literature, psychotherapy, and the 1960s cultural revolution — and directly preceded postmodernism through its critique of essential human nature and master narratives.",
+    "decade": "1940s",
+    "tags": [
+      "philosophy",
+      "freedom",
+      "authenticity",
+      "meaning",
+      "absurdism",
+      "responsibility"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "postmodernism_philosophy",
+    "label": "Postmodern Philosophy",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Postmodern_philosophy",
+    "summary": "A late 20th-century philosophical movement (Foucault, Derrida, Lyotard, Baudrillard) characterized by skepticism toward grand narratives, rejection of objective foundations, deconstruction of texts and power structures, and the claim that knowledge and truth are always situated in power relations. Postmodern philosophy produced invaluable tools for exposing how institutions naturalize power — but its relativist epistemology has also been weaponized by authoritarian movements to delegitimize empirical consensus, making it simultaneously a critique of domination and a vector for manufactured doubt.",
+    "decade": "1960s",
+    "tags": [
+      "philosophy",
+      "deconstruction",
+      "power",
+      "relativism",
+      "postmodernism",
+      "epistemology"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "vedic_tradition",
+    "label": "Vedic Tradition",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vedic_period",
+    "summary": "The foundational religious and philosophical tradition of the Indian subcontinent (c. 1500–500 BCE), centered on the Vedas — collections of hymns, ritual instructions, and philosophical speculation composed in Sanskrit. The Vedic tradition established the conceptual vocabulary of Indian thought: dharma (cosmic order and duty), rita (natural law), karma (action and consequence), Brahman (ultimate reality), and the Atman (individual self). The later Vedic period produced the Upanishads, the Bhagavad Gita, and the systematic philosophical schools that defined all subsequent South Asian thought.",
+    "decade": "1500s BCE",
+    "tags": [
+      "philosophy",
+      "india",
+      "religion",
+      "vedas",
+      "dharma",
+      "ancient",
+      "hinduism"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "upanishadic_philosophy",
+    "label": "Upanishadic Philosophy",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Upanishads",
+    "summary": "The philosophical texts (c. 800–200 BCE) that form the concluding layer of the Vedas, investigating the ultimate nature of reality: Brahman (the absolute, impersonal ground of all being) and Atman (the individual self). The Upanishads' central claim — tat tvam asi, 'that art thou,' identifying individual self with ultimate reality — became the foundation of Indian idealism. They also developed the doctrines of karma and rebirth in their mature philosophical forms, and established the concepts that the Buddha would both inherit and critique.",
+    "decade": "700s BCE",
+    "tags": [
+      "philosophy",
+      "india",
+      "vedanta",
+      "brahman",
+      "atman",
+      "consciousness",
+      "meditation"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "jainism",
+    "label": "Jainism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jainism",
+    "summary": "An ancient Indian religious and philosophical tradition, its classical form systematized by Mahavira (c. 599–527 BCE), contemporaneous with the Buddha. Jainism's central doctrines are ahimsa (non-violence toward all living beings), anekantavada (the many-sidedness of truth — no single perspective captures reality fully), and ascetic self-discipline. Jainism made non-violence its absolute ethical principle, influencing Gandhi and providing one of the most rigorous philosophical analyses of how violence operates within systems of thought.",
+    "decade": "500s BCE",
+    "tags": [
+      "philosophy",
+      "india",
+      "nonviolence",
+      "asceticism",
+      "ethics",
+      "ancient",
+      "jain"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "gautama_buddha",
+    "label": "Gautama Buddha (c. 563–483 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gautama_Buddha",
+    "summary": "Siddhartha Gautama, the founder of Buddhism, born into an aristocratic family in what is now Nepal. His awakening (c. 528 BCE) under the Bodhi tree produced the Four Noble Truths and the Eightfold Path — the diagnosis that suffering arises from craving and ignorance, and the prescription of disciplined ethical and meditative practice as the path to liberation. The Buddha rejected both extreme asceticism and sensory indulgence, offered liberation to all regardless of caste, and created a monastic community (Sangha) that became one of the most globally influential institutions in history.",
+    "decade": "500s BCE",
+    "tags": [
+      "philosophy",
+      "india",
+      "buddhism",
+      "meditation",
+      "liberation",
+      "ancient",
+      "ethics"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "buddhist_philosophy",
+    "label": "Buddhist Philosophy",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Buddhist_philosophy",
+    "summary": "The broad philosophical tradition emerging from the Buddha's teachings, developing over two thousand years across India, Southeast Asia, China, Japan, and Tibet. Its foundational claims — the Four Noble Truths, Eightfold Path, dependent origination, impermanence (anicca), no-self (anatta), and emptiness (sunyata) — constitute a systematic critique of the assumptions underlying ordinary human suffering. Buddhist philosophy contains one of history's most sustained traditions of analysis of mind, ethics, and epistemology, and its spread shaped the entire intellectual history of Asia.",
+    "decade": "500s BCE",
+    "tags": [
+      "philosophy",
+      "buddhism",
+      "india",
+      "asia",
+      "mind",
+      "ethics",
+      "liberation",
+      "impermanence"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "laozi",
+    "label": "Laozi (c. 6th century BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Laozi",
+    "summary": "The legendary or semi-historical figure credited with founding Taoism and authoring the Tao Te Ching, one of the most translated and read texts in world history. Whether or not Laozi was a single historical individual, the Tao Te Ching he is attributed to represents a systematic philosophy of effortless action, the limits of conceptual knowledge, the dangers of aggressive governance, and the power of yielding. Its paradoxical style (the Tao that can be spoken is not the eternal Tao) deliberately resists systematic formulation, pointing to a reality beyond rational categories.",
+    "decade": "500s BCE",
+    "tags": [
+      "philosophy",
+      "china",
+      "taoism",
+      "ancient",
+      "tao",
+      "wisdom",
+      "paradox"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "taoism",
+    "label": "Taoism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Taoism",
+    "summary": "The Chinese philosophical and religious tradition centered on the Tao (Way) — the ineffable principle underlying reality that cannot be fully captured in language or concept. Associated with Laozi and Zhuangzi (philosophical Taoism) and later with religious Taoism (ritual, alchemy, immortality). Taoism's central insights — that forced action creates resistance, that yielding often overpowers force, that the universe maintains itself through natural order rather than human control — provide a systematic counterpoint to Confucian social activism and Legalist state power.",
+    "decade": "400s BCE",
+    "tags": [
+      "philosophy",
+      "china",
+      "tao",
+      "nature",
+      "non-action",
+      "paradox",
+      "spirituality"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "confucius",
+    "label": "Confucius (551–479 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Confucius",
+    "summary": "Kong Qiu (Confucius), the Chinese philosopher whose teachings shaped East Asian civilization for two thousand years. Confucius taught that social harmony arises not from law or force but from the cultivation of virtue (ren — humaneness), the performance of ritual propriety (li), and the rectification of names (zhengming — calling things by their proper terms). He emphasized education, self-cultivation, and the obligations of each person within a web of hierarchical relationships. His model of the junzi (superior person) whose ethical example transforms society became the template for Chinese governance and education.",
+    "decade": "500s BCE",
+    "tags": [
+      "philosophy",
+      "china",
+      "ancient",
+      "ethics",
+      "ritual",
+      "governance",
+      "education"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "mohism",
+    "label": "Mohism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mohism",
+    "summary": "The Chinese philosophical school founded by Mozi (c. 470–391 BCE), which taught jian ai — universal, impartial love for all people equally, regardless of family relationship. Mohism was explicitly anti-war, anti-ritualism, and egalitarian: offensive wars are unjust, elaborate rituals waste resources that could feed the hungry, and social position should reflect merit rather than birth. It developed a utilitarian ethics, a logic of argumentation, and a proto-scientific approach to mechanics and optics. Mohism was the strongest early Chinese challenge to Confucian differential love and aristocratic hierarchy, but declined after the Qin unification.",
+    "decade": "400s BCE",
+    "tags": [
+      "philosophy",
+      "china",
+      "ethics",
+      "equality",
+      "antiwar",
+      "logic",
+      "universal-love"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "chan_zen_buddhism",
+    "label": "Chan/Zen Buddhism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chan_Buddhism",
+    "summary": "The East Asian Buddhist tradition (Chan in Chinese, Zen in Japanese) that synthesized Indian Buddhist meditation with Chinese Taoist sensibility, emerging in Tang Dynasty China (6th–8th century CE). Chan Buddhism emphasized direct experiential awakening over scriptural study, transmission of insight from teacher to student outside texts, and the use of paradoxical questions (koan) to break through conceptual thinking. As a synthesis of Buddhist emptiness doctrine with Taoist non-action, Chan/Zen produced a distinctive approach to mind, art, aesthetics, and daily life practice that profoundly shaped East Asian culture.",
+    "decade": "600s",
+    "tags": [
+      "philosophy",
+      "buddhism",
+      "china",
+      "japan",
+      "meditation",
+      "taoism",
+      "awakening"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "buddhist_spread_east_asia",
+    "label": "Spread of Buddhism to East Asia",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spread_of_Buddhism",
+    "summary": "The transmission of Buddhism along the Silk Road into China (1st–2nd century CE), then Korea (4th century), Japan (6th century), and Vietnam — one of the most consequential cultural transformations in Asian history. Buddhism arrived in China not as a foreign imposition but through traders and missionaries, where it underwent a profound synthesis with existing Chinese thought: Taoist concepts provided the vocabulary for translating Buddhist terms, while Confucian ethics shaped how Buddhist monasticism was adapted to Chinese social structures, producing the distinctly Chinese tradition of Chan Buddhism.",
+    "decade": "100s",
+    "tags": [
+      "buddhism",
+      "china",
+      "japan",
+      "silk-road",
+      "cultural-transmission",
+      "synthesis"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "davidic_monarchy",
+    "label": "Davidic Monarchy and United Kingdom of Israel",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(united_monarchy)",
+    "summary": "The united monarchy under Saul, David (c.1000 BCE), and Solomon, culminating in the construction of the First Temple in Jerusalem. David's reign established Jerusalem as the political and religious capital; Solomon's Temple became the centralizing institution of Israelite religion, replacing distributed local shrines with a single sacrificial center. The political unity was short-lived — the kingdom split after Solomon into Israel (north) and Judah (south) — but the memory of Davidic unity and the Temple became permanent theological reference points, and the promise of a future Davidic king (messiah) shaped Jewish and Christian eschatology for millennia.",
+    "decade": "1000s BCE",
+    "tags": [
+      "judaism",
+      "israel",
+      "temple",
+      "jerusalem",
+      "david",
+      "solomon",
+      "monarchy"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "second_temple_period",
+    "label": "Second Temple Period",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Second_Temple_period",
+    "summary": "The 600-year period (516 BCE–70 CE) following the return from Babylonian exile, during which the Second Temple stood in Jerusalem. This era saw explosive religious diversification: Pharisees, Sadducees, Essenes, and Zealots each offered competing answers to what Judaism required under foreign domination — first Persian, then Greek (Hellenistic), then Roman. The Maccabean revolt against Hellenization, the emergence of apocalyptic literature, and the ministry of Jesus of Nazareth all occur within this period. Its violent end — the Roman destruction of Jerusalem in 70 CE and again in 135 CE — forced Judaism to reinvent itself without a Temple.",
+    "decade": "500s BCE",
+    "tags": [
+      "judaism",
+      "temple",
+      "pharisees",
+      "sadducees",
+      "rome",
+      "sectarianism",
+      "apocalyptic"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "jesus_of_nazareth",
+    "label": "Jesus of Nazareth",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jesus",
+    "summary": "Jewish preacher and healer from Galilee (c.4 BCE–30 CE) whose teachings, execution by Roman crucifixion, and the subsequent belief in his resurrection became the founding events of Christianity. Jesus operated within the Jewish sectarian landscape of the Second Temple period, preaching the imminent Kingdom of God, critiquing religious hypocrisy, and emphasizing radical ethics of love and forgiveness. His followers' claim that he was the long-awaited Messiah (Christ) and had risen from the dead produced the first Christian communities within Judaism; his deification and the subsequent Gentile mission transformed a Jewish renewal movement into a distinct world religion.",
+    "decade": "1s",
+    "tags": [
+      "christianity",
+      "judaism",
+      "messiah",
+      "crucifixion",
+      "resurrection",
+      "galileo",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "paul_of_tarsus",
+    "label": "Paul of Tarsus",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paul_the_Apostle",
+    "summary": "Jewish-Roman citizen (c.5–67 CE) who, after a dramatic conversion experience, became Christianity's most consequential theologian and missionary. Paul's letters (c.50–60 CE) — the earliest Christian writings — developed the theological framework that defined Christianity: justification by faith rather than works, the universality of salvation beyond Jewish law, and the cosmic significance of Christ's death and resurrection. His three missionary journeys established Christian communities throughout the Roman Mediterranean. More than any other figure, Paul transformed Jesus' Jewish renewal movement into a universal religion aimed at Gentiles, deciding crucial early disputes about whether non-Jews needed to observe Mosaic law (his answer: no).",
+    "decade": "50s",
+    "tags": [
+      "christianity",
+      "theology",
+      "missions",
+      "epistles",
+      "faith",
+      "gentiles",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "constantine_conversion",
+    "label": "Constantine's Conversion and the Edict of Milan",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Edict_of_Milan",
+    "summary": "Emperor Constantine I's reported conversion to Christianity (c.312 CE) and the subsequent Edict of Milan (313 CE), which granted religious tolerance throughout the Roman Empire and ended the persecution of Christians. Constantine's patronage transformed Christianity from a persecuted minority religion into an imperially favored faith within a generation. He convened the Council of Nicaea (325 CE), built the Church of the Holy Sepulchre, and relocated the imperial capital to Constantinople (modern Istanbul). His reign marks the pivot from Christianity as counter-cultural sect to Christianity as state religion — a transformation with profound consequences for church authority, religious coercion, and the entanglement of political and spiritual power.",
+    "decade": "310s",
+    "tags": [
+      "christianity",
+      "rome",
+      "empire",
+      "toleration",
+      "state-religion",
+      "constantine",
+      "edict"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "nicene_creed",
+    "label": "Council of Nicaea and Nicene Creed",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/First_Council_of_Nicaea",
+    "summary": "The first ecumenical council of Christianity, convened by Emperor Constantine in 325 CE to resolve the Arian controversy — the dispute over whether Christ was co-eternal with God or a created being (as Arius argued). The council produced the Nicene Creed, establishing Trinitarian orthodoxy and declaring Arianism heretical. The Council of Nicaea established the precedent of imperial involvement in theological disputes, created the machinery of orthodoxy enforcement, and generated a model of authoritative creedal Christianity that defined who was in and who was out. It also set the pattern for subsequent church councils and the eventual codification of the biblical canon.",
+    "decade": "320s",
+    "tags": [
+      "christianity",
+      "orthodoxy",
+      "trinity",
+      "arianism",
+      "creed",
+      "heresy",
+      "council"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "augustine_of_hippo",
+    "label": "Augustine of Hippo",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Augustine_of_Hippo",
+    "summary": "Bishop and theologian (354–430 CE) whose synthesis of Christian doctrine with Neoplatonic philosophy made him the single most influential thinker in Western Christianity. His Confessions pioneered introspective autobiography and psychological self-analysis; his City of God reframed the fall of Rome as theologically irrelevant to the eternal city. Augustine's doctrines — original sin, predestination, just war theory, and the necessity of divine grace — shaped both Catholic and Protestant theology for over a millennium. His interpretation of Paul's letters defined what faith and sin meant for Western Christianity, and his polemic against Pelagius established that human moral effort is insufficient without divine grace — a debate that would explode again in the Reformation.",
+    "decade": "390s",
+    "tags": [
+      "christianity",
+      "theology",
+      "philosophy",
+      "neoplatonism",
+      "sin",
+      "grace",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "monasticism",
+    "label": "Christian Monasticism",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christian_monasticism",
+    "summary": "The tradition of religious withdrawal from ordinary society into disciplined communal or solitary life, originating in the Egyptian desert (Anthony of Egypt, c.270 CE) and systematized by Benedict of Nursia (Rule of Benedict, c.516 CE). Monasteries became the intellectual, agricultural, and social service institutions of medieval Europe — preserving classical learning, developing brewing and farming techniques, running hospitals and schools, and providing the institutional backbone of the Church before universities existed. Monks and nuns produced the illuminated manuscripts, scriptoria, and theological commentaries that carried knowledge across the Dark Ages. Monasticism also generated the reform movements (Cluniac, Cistercian, Franciscan, Dominican) that repeatedly renewed the Church from within.",
+    "decade": "300s",
+    "tags": [
+      "christianity",
+      "monks",
+      "benedict",
+      "medieval",
+      "learning",
+      "preservation",
+      "community"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "christian_sacred_art",
+    "label": "Christian Sacred Art",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christian_art",
+    "summary": "The visual art tradition produced by and for Christianity, spanning Byzantine mosaics, Romanesque sculpture, Gothic stained glass, Renaissance painting, and Baroque expression. Sacred art was theology made visible for populations who could not read: images of the Crucifixion, the Virgin, and the saints taught doctrine, inspired devotion, and communicated the narrative of salvation. The iconoclasm controversies (726–843 CE) were theological wars over whether images were instruments of devotion or idolatry. The Renaissance explosion of sacred art — Giotto, Fra Angelico, Leonardo, Michelangelo, Raphael — was funded by the Church as an assertion of power and prestige, producing the Western artistic tradition as a byproduct of theological patronage.",
+    "decade": "300s",
+    "tags": [
+      "christianity",
+      "art",
+      "icons",
+      "renaissance",
+      "painting",
+      "theology",
+      "patronage"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "gothic_architecture",
+    "label": "Gothic Architecture",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gothic_architecture",
+    "summary": "The medieval architectural style (c.1140–1500 CE) originating in France that transformed the cathedral from a heavy Romanesque fortress into a soaring structure of light and height. The technical innovations — pointed arch, flying buttress, ribbed vault — solved the engineering problem of directing load outward, allowing walls to be filled with stained glass instead of stone. The Gothic cathedral was a cosmological argument in stone: its verticality pointed toward heaven, its light symbolized divine illumination, its program of sculpture and glass was a theological encyclopedia. Notre-Dame de Paris, Chartres, and Canterbury are surviving examples. Gothic architecture was a theology of ascent made tangible.",
+    "decade": "1100s",
+    "tags": [
+      "architecture",
+      "christianity",
+      "medieval",
+      "cathedrals",
+      "france",
+      "engineering",
+      "theology"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "thomas_aquinas",
+    "label": "Thomas Aquinas",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Aquinas",
+    "summary": "Dominican friar and theologian (1225–1274) whose Summa Theologica synthesized Aristotelian philosophy with Christian theology, becoming the intellectual summit of medieval scholasticism. Aquinas argued that faith and reason are complementary rather than contradictory: reason can demonstrate the existence of God (his Five Ways), while revelation supplements what reason cannot reach. His natural law theory became the foundation of Catholic moral theology and political philosophy. Aquinas was condemned by the Bishop of Paris in 1277 but canonized in 1323 — his rehabilitation marks the official triumph of scholastic synthesis. His method defined Catholic intellectual culture from the Counter-Reformation through the twentieth century.",
+    "decade": "1260s",
+    "tags": [
+      "theology",
+      "philosophy",
+      "scholasticism",
+      "aristotle",
+      "catholicism",
+      "natural-law",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "council_of_trent",
+    "label": "Council of Trent",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Council_of_Trent",
+    "summary": "The Catholic Church council convened in three sessions (1545–1563) in response to the Protestant Reformation, producing the definitive statement of Catholic doctrine and discipline that would govern the Church until the Second Vatican Council (1962). Trent rejected key Protestant positions (sola scriptura, sola fide), reaffirmed transubstantiation, clerical celibacy, and the seven sacraments, and initiated comprehensive institutional reforms of clergy education and behavior. The Tridentine reforms produced the modern Catholic Church: its catechism, its standardized Latin Mass, its seminary system. Trent also hardened confessional lines, making coexistence with Protestantism more difficult and contributing to the Wars of Religion.",
+    "decade": "1540s",
+    "tags": [
+      "catholicism",
+      "counter-reformation",
+      "council",
+      "doctrine",
+      "reform",
+      "protestantism"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "martin_luther",
+    "label": "Martin Luther",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Martin_Luther",
+    "summary": "German Augustinian friar (1483–1546) whose theological protest against indulgence sales (95 Theses, 1517) triggered the Protestant Reformation. Luther core theological innovations — justification by faith alone (sola fide), scripture as the sole religious authority (sola scriptura), and the priesthood of all believers — directly challenged papal authority and the sacramental system. His translation of the Bible into German democratized scripture and standardized the German language. Luther later produced virulently antisemitic treatises (On the Jews and Their Lies, 1543) that would be cited by Nazi propagandists four centuries later, making him both a liberating and a deeply destructive historical force.",
+    "decade": "1510s",
+    "tags": [
+      "reformation",
+      "theology",
+      "protestantism",
+      "germany",
+      "bible",
+      "antisemitism",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "second_vatican_council",
+    "label": "Second Vatican Council (Vatican II)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Second_Vatican_Council",
+    "summary": "The Catholic Church council convened by Pope John XXIII (1962–1965) that produced the most significant reform of Catholic doctrine and practice since Trent. Vatican II declared the Church open to dialogue with modernity and other religions, permitted Mass in vernacular languages (replacing the Latin Tridentine Mass), affirmed religious freedom, repudiated antisemitism through the declaration Nostra Aetate (stating that Jews as a people are not collectively responsible for Jesus death), and initiated ecumenical dialogue. The Council was a rupture with the fortress-Church model of the Counter-Reformation — embracing rather than condemning the modern world. It generated both a progressive wing eager for further reform and a traditionalist reaction that persists to the present.",
+    "decade": "1960s",
+    "tags": [
+      "catholicism",
+      "reform",
+      "ecumenism",
+      "antisemitism",
+      "modernism",
+      "council",
+      "nostra-aetate"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "jewish_expulsion_spain_1492",
+    "label": "Expulsion of Jews from Spain (1492)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alhambra_Decree",
+    "summary": "The Alhambra Decree of March 31, 1492, issued by Ferdinand and Isabella, ordered the expulsion of all Jews from Spain who refused baptism — ending approximately 1,500 years of Jewish presence on the Iberian Peninsula. Approximately 100,000-200,000 Jews left Spain (estimates vary); many went to the Ottoman Empire, which actively welcomed them, while others went to North Africa and the Netherlands. The expulsion followed decades of forced conversions, anti-Jewish riots (1391), and the Spanish Inquisition targeting conversos (Jewish converts to Christianity suspected of secret Jewish practice). The same year Columbus sailed, Spain expelled its Jewish population — a coincidence that condensed the ambitions and contradictions of the Catholic Monarchs.",
+    "decade": "1490s",
+    "tags": [
+      "antisemitism",
+      "spain",
+      "expulsion",
+      "inquisition",
+      "diaspora",
+      "sephardic",
+      "ferdinand-isabella"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "gnostic_christianity",
+    "label": "Gnostic Christianity",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gnosticism",
+    "summary": "A diverse family of early Christian movements (2nd–3rd century CE) sharing the belief that the material world is the creation of an inferior or evil divine being (the Demiurge), not the supreme God, and that salvation comes through secret knowledge (gnosis) of the true divine nature. Gnostic texts (the Gospel of Thomas, Gospel of Philip, the Nag Hammadi library) offer a radically different Christianity from the one that became orthodoxy: more mystical, less institutional, often more gender-egalitarian, and deeply suspicious of the body and matter. The proto-orthodox church (Irenaeus, Tertullian) attacked Gnosticism as heresy throughout the 2nd century; the Council of Nicaea and subsequent councils made these texts officially excluded from the biblical canon.",
+    "decade": "100s",
+    "tags": [
+      "christianity",
+      "heresy",
+      "gnosis",
+      "nag-hammadi",
+      "alternative",
+      "mysticism",
+      "early-church"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "john_locke",
+    "label": "John Locke",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Locke",
+    "summary": "English philosopher (1632–1704) whose Two Treatises of Government (1689) established the Enlightenment framework of natural rights, limited government, and the right of revolution that directly shaped the American Declaration of Independence and the French Revolution. Against Hobbes, Locke argued that humans possess natural rights to life, liberty, and property that precede and constrain government; that political authority is legitimate only with the consent of the governed; and that a government that violates natural rights may be overthrown. His Letter Concerning Toleration (1689) argued for religious freedom as a political principle. Locke is the theoretical father of classical liberalism — the tradition that government exists to protect individual rights rather than impose collective purpose.",
+    "decade": "1680s",
+    "tags": [
+      "philosophy",
+      "liberalism",
+      "social-contract",
+      "natural-rights",
+      "enlightenment",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "voltaire",
+    "label": "Voltaire",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Voltaire",
+    "summary": "French Enlightenment writer and philosopher (1694–1778), born François-Marie Arouet, who became the era most powerful polemicist against religious intolerance, censorship, and clerical abuse of power. His novella Candide (1759) is a sustained satire of Leibnizian optimism; his Letters Concerning the English Nation (1733) praised English religious tolerance as a model for France. His campaign to rehabilitate Jean Calas — a Protestant wrongly tortured and executed by Catholic authorities — established his reputation as a fighter for civil liberties. Voltaire signature phrase \"Écrasez l'infâme\" (crush the infamous thing — meaning clerical tyranny) defined the Enlightenment posture toward institutional religion. He was antisemitic in his own writings, a contradiction that illustrates that Enlightenment universalism was selectively applied.",
+    "decade": "1750s",
+    "tags": [
+      "philosophy",
+      "enlightenment",
+      "satire",
+      "toleration",
+      "anti-clericalism",
+      "france",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "jean_jacques_rousseau",
+    "label": "Jean-Jacques Rousseau",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau",
+    "summary": "Genevan philosopher (1712–1778) whose Social Contract (1762) — opening with \"Man is born free, and everywhere he is in chains\" — became the theoretical bible of the French Revolution. Rousseau distinguished his version of the social contract from Hobbes and Locke: for Rousseau, the general will of the people is the only legitimate source of sovereignty, and property and social inequality are not natural but politically constructed corruptions of an originally free state. His educational philosophy (Emile) emphasized natural development over rote instruction. Rousseau is the ancestor of democratic populism, romantic nationalism, and the idea that inequality is not inevitable but political — a claim that inspired both the French Revolution and every subsequent populist movement that appeals to \"the people\" against \"the elite.\"",
+    "decade": "1760s",
+    "tags": [
+      "philosophy",
+      "social-contract",
+      "democracy",
+      "revolution",
+      "enlightenment",
+      "france",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "immanuel_kant",
+    "label": "Immanuel Kant",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Immanuel_kant",
+    "summary": "Prussian philosopher (1724–1804) whose Critique of Pure Reason (1781) restructured philosophy by arguing that the mind actively shapes experience rather than passively receiving it — a \"Copernican revolution\" in epistemology. His moral philosophy (Groundwork for the Metaphysics of Morals, 1785) derived ethics from reason alone through the categorical imperative: \"Act only according to that maxim by which you can at the same time will that it should become a universal law.\" His essay Perpetual Peace (1795) outlined a theory of international law and democratic peace that anticipated the League of Nations and the United Nations. Kant synthesized rationalism and empiricism, founded modern moral philosophy independent of religion, and established the terms for virtually all subsequent philosophy in the Western tradition.",
+    "decade": "1780s",
+    "tags": [
+      "philosophy",
+      "ethics",
+      "epistemology",
+      "enlightenment",
+      "germany",
+      "categorical-imperative",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "adam_smith",
+    "label": "Adam Smith",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adam_Smith",
+    "summary": "Scottish moral philosopher and economist (1723–1790) whose Wealth of Nations (1776) founded modern economics by arguing that market exchange, guided by the \"invisible hand\" of price signals, could coordinate economic activity more efficiently than state direction. Smith argued that the division of labor, private property, and free trade produced national wealth — a framework that became the intellectual foundation of capitalist political economy. He was more complex than his disciples: he recognized that merchants systematically conspire against the public interest, warned against monopoly power and the mercantile system, and in Theory of Moral Sentiments argued that sympathy rather than self-interest is the basis of social life. His work has been selectively invoked — the laissez-faire readings became the dominant interpretation, used to resist labor regulations and environmental protections.",
+    "decade": "1770s",
+    "tags": [
+      "economics",
+      "capitalism",
+      "enlightenment",
+      "scotland",
+      "free-market",
+      "philosophy",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "georg_hegel",
+    "label": "Georg Wilhelm Friedrich Hegel",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
+    "summary": "German philosopher (1770–1831) whose Phenomenology of Spirit (1807) and Philosophy of History elaborated the dialectical method — the idea that historical development proceeds through contradiction: a thesis generates its antithesis, and their resolution produces a synthesis at a higher level of understanding. Hegel argued that history has a direction, moving toward the self-realization of Spirit (Geist) in freedom. His philosophy of right defended the modern state as the culmination of ethical life; his account of master-slave dialectic anticipated modern theories of recognition and identity politics. Karl Marx inverted Hegel materialist-dialectically to produce historical materialism; Francis Fukuyama used Hegelian teleology to declare liberal democracy the \"end of history.\" Hegel is perhaps the most consequential philosopher of the 19th century in terms of the movements that emerged from or against his system.",
+    "decade": "1800s",
+    "tags": [
+      "philosophy",
+      "dialectic",
+      "germany",
+      "history",
+      "idealism",
+      "enlightenment",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "friedrich_nietzsche",
+    "label": "Friedrich Nietzsche",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+    "summary": "German philosopher (1844–1900) who attacked the foundations of Western morality, declaring \"God is dead\" and arguing that Judeo-Christian ethics is a \"slave morality\" invented by the weak to constrain the strong. His concept of the Ubermensch (superman or overman) — a self-creating individual who imposes values on the world rather than inheriting them — and his \"will to power\" as the fundamental drive of life became the most misread philosophical ideas of the 20th century. Nietzsche was adamantly opposed to German nationalism, antisemitism, and statism — yet his sister Elisabeth Forster-Nietzsche, who controlled his archive after his mental collapse, produced falsified editions that made him appear to endorse all three, providing the Nazis with a philosopher. His actual work influenced existentialism (Sartre, Camus), post-structuralism (Foucault, Derrida), and the critique of morality as power.",
+    "decade": "1880s",
+    "tags": [
+      "philosophy",
+      "germany",
+      "existentialism",
+      "nihilism",
+      "will-to-power",
+      "morality",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "joseph_stalin",
+    "label": "Joseph Stalin",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Joseph_Stalin",
+    "summary": "Soviet dictator (1878–1953) who transformed the Soviet Union through collectivization, industrialization, and political terror on a scale that killed an estimated 6–20 million people through executions, the gulag system, and deliberately engineered famine. Stalin consolidated power after Lenin death through systematic elimination of rivals (Trotsky, Zinoviev, Bukharin) in show trials that demonstrated his mastery of political theater. His forced collectivization of Soviet agriculture (1929–1933) produced the Holodomor famine in Ukraine. The Great Purge (1936–1938) killed approximately 750,000 and imprisoned millions. His wartime leadership — including the defense of Stalingrad — also arguably saved the world from Nazi domination, making him one of the most contradictory figures in history: a mass murderer whose military victory was indispensable to defeating Hitler.",
+    "decade": "1930s",
+    "tags": [
+      "soviet",
+      "dictatorship",
+      "communism",
+      "terror",
+      "gulag",
+      "purges",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "adolf_hitler",
+    "label": "Adolf Hitler",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+    "summary": "Austrian-born German politician (1889–1945) who rose from political obscurity to Chancellor of Germany in 1933, then established a totalitarian dictatorship and launched the most destructive war in human history. Hitler worldview combined radical antisemitism (Jews as a parasitic race destroying Aryan civilization), Social Darwinism (racial struggle as the engine of history), and revanchist German nationalism (avenging the humiliation of Versailles). His Final Solution — the systematic genocide of European Jews — killed approximately 6 million people and defined the 20th century concept of genocide. His path to power demonstrates the catastrophic potential of democratic fragility: the Weimar Republic legally handed power to a party committed to destroying it. His defeat in 1945 required the combined military effort of the United States, Soviet Union, and Great Britain, at a cost of approximately 70 million lives.",
+    "decade": "1930s",
+    "tags": [
+      "nazism",
+      "holocaust",
+      "antisemitism",
+      "germany",
+      "genocide",
+      "wwii",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "heinrich_himmler",
+    "label": "Heinrich Himmler",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Heinrich_Himmler",
+    "summary": "German Nazi politician (1900–1945) who, as head of the SS and Gestapo, was the principal architect and administrator of the Holocaust. While Hitler provided the ideological direction and Goebbels the propaganda, Himmler ran the apparatus: the concentration camps, the Einsatzgruppen mobile killing units, the death camps, and the SS empire that controlled security across occupied Europe. He oversaw the murder of approximately 6 million Jews and millions of others (Roma, Soviet POWs, disabled people, political prisoners). His SS was simultaneously a military force, an economic enterprise (using slave labor), and an ideological vanguard — a state within the state that reported only to Hitler. Himmler capture in 1945 and suicide before trial deprived the Nuremberg proceedings of their most culpable defendant.",
+    "decade": "1940s",
+    "tags": [
+      "nazism",
+      "holocaust",
+      "ss",
+      "germany",
+      "genocide",
+      "bureaucracy",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "hirohito",
+    "label": "Emperor Hirohito (Showa)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hirohito",
+    "summary": "Emperor of Japan (1901–1989, reigned 1926–1989) during whose name World War II was fought in Asia, including the Nanjing Massacre, the attack on Pearl Harbor, and the use of biological and chemical weapons by Unit 731. His actual role in war decisions remains debated by historians: some argue he was a constitutional monarch who lacked real power; others present evidence that he was actively involved in military planning and approved expansionist operations. He was not prosecuted at the Tokyo War Crimes Tribunal — the United States decided to preserve him as a stabilizing symbol for the occupation. His radio address of August 15, 1945, announcing surrender — the first time the Japanese public had heard his voice — used such archaic court language that many listeners could not understand it was a surrender.",
+    "decade": "1930s",
+    "tags": [
+      "japan",
+      "wwii",
+      "emperor",
+      "imperialism",
+      "asia",
+      "surrender",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "pol_pot",
+    "label": "Pol Pot",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pol_Pot",
+    "summary": "Cambodian communist leader (1925–1998) who, as head of the Khmer Rouge, oversaw one of the most extreme genocides in history. Between 1975 and 1979, his regime killed an estimated 1.5–2 million people — roughly 25% of the Cambodian population — through execution, starvation, overwork, and disease. Year Zero ideology attempted to erase all prior history and rebuild society from scratch: urban populations were forcibly evacuated to the countryside, money was abolished, all educated people were marked for death (glasses were sufficient evidence of counter-revolutionary status), and temples and institutions were destroyed. The regime targeted ethnic Vietnamese, Chinese, and Muslim Cham minorities for extermination. Vietnam invaded Cambodia in 1979 and ended the genocide; Pol Pot spent the subsequent decades sheltered by the jungle with residual Khmer Rouge forces, protected partly by tacit Western support because his regime opposed Vietnam.",
+    "decade": "1970s",
+    "tags": [
+      "cambodia",
+      "genocide",
+      "communism",
+      "khmer-rouge",
+      "year-zero",
+      "cambodia",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "leopold_ii_belgium",
+    "label": "King Leopold II of Belgium",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Leopold_II_of_Belgium",
+    "summary": "King of Belgium (1835–1909) who, through a humanitarian fraud of extraordinary cynicism, obtained personal ownership of the Congo Free State (modern DRC) — an area 76 times the size of Belgium — and ran it as a private commercial enterprise that killed an estimated 10 million people through violence, forced labor, starvation, and disease. Leopold presented his Congo venture to the international community as a philanthropic mission to end Arab slave trading and bring civilization to central Africa; the reality was a system of rubber extraction enforced through mutilation (workers who failed rubber quotas had their hands cut off — baskets of severed hands were submitted as proof of enforcement), hostage-taking, and mass killing. Photographs of mutilated Congolese and the journalism of E.D. Morel eventually exposed the regime; international pressure forced Leopold to transfer sovereignty to Belgium in 1908. Leopold died one of the richest men in Europe.",
+    "decade": "1880s",
+    "tags": [
+      "colonialism",
+      "congo",
+      "genocide",
+      "belgium",
+      "rubber",
+      "imperialism",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "winston_churchill",
+    "label": "Winston Churchill",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Winston_Churchill",
+    "summary": "British Prime Minister (1874–1965) whose refusal to negotiate with Hitler after Dunkirk (June 1940) was arguably the single most consequential individual decision of the 20th century. Churchill \"finest hour\" speeches mobilized British resistance at the moment when Germany controlled most of continental Europe and the United States was still neutral. His wartime coalition management, his relationship with Roosevelt (Atlantic Charter, Lend-Lease), and his coordination of Allied strategy (including the decision for the North African and Italian campaigns before D-Day) shaped the outcome of the war. His Iron Curtain speech at Fulton, Missouri (1946) coined the phrase and framed the Cold War. Churchill was also an ardent imperialist who resisted Indian independence and whose policies contributed to the 1943 Bengal Famine; he is simultaneously a symbol of resistance to fascism and of the violence of British Empire.",
+    "decade": "1940s",
+    "tags": [
+      "britain",
+      "wwii",
+      "cold-war",
+      "empire",
+      "leadership",
+      "speech",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "nikita_khrushchev",
+    "label": "Nikita Khrushchev",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nikita_Khrushchev",
+    "summary": "Soviet leader (1894–1971) whose \"Secret Speech\" to the 20th Party Congress (1956) denounced Stalin cult of personality and some of his crimes, beginning de-Stalinization and unleashing a crisis of legitimacy across the communist world. He presided over the most dangerous moment of the Cold War — the Cuban Missile Crisis (1962) — and the compromise he reached with Kennedy (Soviet missiles removed from Cuba in exchange for US pledge not to invade Cuba and quiet removal of US missiles from Turkey) was the closest humanity has come to nuclear war. His confrontational style at the UN (allegedly banging his shoe on the desk), his announcement that the Soviet Union would \"bury\" capitalism, and his support for Soviet space achievements (Sputnik, Gagarin) defined an era. He was deposed in a party coup in 1964 for policy failures.",
+    "decade": "1950s",
+    "tags": [
+      "soviet",
+      "cold-war",
+      "de-stalinization",
+      "nuclear",
+      "khrushchev",
+      "cuba",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "john_kennedy",
+    "label": "John F. Kennedy",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+    "summary": "US President (1917–1963) whose 1,000-day presidency included the Cuban Missile Crisis, the Berlin Crisis, and the early escalation of Vietnam, but who is remembered primarily for his assassination in Dallas (November 22, 1963) and the cultural mythology of Camelot. Kennedy negotiation during the Cuban Missile Crisis — resisting military advisors who urged air strikes — avoided nuclear war; his back-channel communication with Khrushchev through intermediaries and his willingness to offer a face-saving compromise (the secret Turkey deal) demonstrated diplomatic flexibility that Kennedy public posture concealed. His presidency also authorized the Bay of Pigs invasion (a CIA operation inherited from Eisenhower that he reluctantly approved and then refused air support for), escalated US advisors in Vietnam from 900 to 16,000, and signed the Limited Nuclear Test Ban Treaty (1963).",
+    "decade": "1960s",
+    "tags": [
+      "usa",
+      "cold-war",
+      "cuba",
+      "vietnam",
+      "assassination",
+      "nuclear",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "richard_nixon",
+    "label": "Richard Nixon",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Richard_Nixon",
+    "summary": "US President (1913–1994) whose presidency combined significant foreign policy achievements with the Watergate scandal that produced the only presidential resignation in American history. Nixon opening to China (1972) and detente with the Soviet Union were genuine diplomatic accomplishments that reordered global politics. He also expanded the Vietnam War into Cambodia and Laos, prolonged US involvement (the peace with honor that ended in 1975 South Vietnamese collapse), and his National Security Advisor Henry Kissinger supported the overthrow of Salvador Allende in Chile (1973) and backed the Argentine dirty war. His obstruction of justice in the Watergate cover-up — including the Saturday Night Massacre — became the defining case study of presidential abuse of power and the institutional resistance (a free press, congressional oversight, an independent judiciary) that stopped it.",
+    "decade": "1970s",
+    "tags": [
+      "usa",
+      "vietnam",
+      "watergate",
+      "china",
+      "cold-war",
+      "presidency",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "mikhail_gorbachev",
+    "label": "Mikhail Gorbachev",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev",
+    "summary": "Last leader of the Soviet Union (1931–2022) whose reform programs glasnost (openness) and perestroika (restructuring) unleashed forces that dissolved the empire he was trying to save. Gorbachev intended to revitalize Soviet socialism, not end it: he allowed greater press freedom, released political prisoners, and permitted competitive elections within the Communist Party — all of which activated preference falsification (decades of private anti-regime sentiment becoming publicly expressible) and accelerated Soviet collapse. His decision not to use military force to suppress Eastern European revolutions (1989) — breaking with Soviet precedent — was the decisive act that allowed the Berlin Wall to fall peacefully. He negotiated the START and INF arms treaties with Reagan. He is celebrated in the West as the man who ended the Cold War; in Russia he is blamed for the humiliations that followed.",
+    "decade": "1980s",
+    "tags": [
+      "soviet",
+      "cold-war",
+      "reform",
+      "glasnost",
+      "collapse",
+      "perestroika",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "harriet_tubman",
+    "label": "Harriet Tubman",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Harriet_Tubman",
+    "summary": "American abolitionist (c.1822–1913) born into slavery who escaped bondage and then made approximately 13 missions back into slave states to guide approximately 70 enslaved people to freedom through the Underground Railroad. During the Civil War she served as a spy, scout, and nurse for the Union Army, including commanding the Combahee River Raid (1863) that liberated 700 enslaved people — the first woman to lead an armed assault in US history. Tubman represents the fullest possible form of resistance: not only personal escape but sustained return to danger to free others, at enormous personal risk. Her later advocacy for women's suffrage connected the abolitionist and feminist movements. She was denied a federal pension for her Civil War service for three decades because of her gender.",
+    "decade": "1850s",
+    "tags": [
+      "slavery",
+      "abolition",
+      "civil-rights",
+      "resistance",
+      "underground-railroad",
+      "usa",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "frederick_douglass",
+    "label": "Frederick Douglass",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frederick_Douglass",
+    "summary": "American abolitionist and writer (c.1818–1895) who escaped slavery and became the most influential Black American intellectual of the 19th century. His Narrative of the Life of Frederick Douglass (1845) proved that the enslaved were fully human — educated, thoughtful, morally clear — by simply being undeniably one of them and writing it down. His 1852 speech \"What to the Slave Is the Fourth of July?\" is the most powerful oration in American history on the contradiction between the Declaration of Independence and the institution of slavery: \"This Fourth July is yours, not mine. You may rejoice, I must mourn.\" He advised Lincoln during the Civil War, advocated for the 13th, 14th, and 15th Amendments, and continued fighting racial terror during Reconstruction and Jim Crow until his death.",
+    "decade": "1850s",
+    "tags": [
+      "slavery",
+      "abolition",
+      "civil-rights",
+      "oratory",
+      "literature",
+      "usa",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "web_du_bois",
+    "label": "W.E.B. Du Bois",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/W._E._B._Du_Bois",
+    "summary": "American sociologist, civil rights activist, and writer (1868–1963) whose The Souls of Black Folk (1903) introduced the concepts of \"double consciousness\" (the sense of always looking at oneself through the eyes of others) and \"the veil\" (the invisible barrier between Black and white American life) that remain central to African American studies. He co-founded the NAACP (1909) and edited its magazine The Crisis for 24 years. His sociological study The Philadelphia Negro (1899) pioneered empirical urban sociology. Du Bois believed in pan-Africanism and the global solidarity of colonized peoples. He was hounded by McCarthyism, had his passport revoked, and eventually renounced American citizenship at age 93, dying in Ghana the night before the March on Washington. His intellectual breadth — sociology, history, fiction, autobiography — makes him one of the most significant American thinkers of the 20th century.",
+    "decade": "1900s",
+    "tags": [
+      "civil-rights",
+      "sociology",
+      "pan-africanism",
+      "race",
+      "usa",
+      "double-consciousness",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "martin_luther_king_jr",
+    "label": "Martin Luther King Jr.",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.",
+    "summary": "American Baptist minister and civil rights leader (1929–1968) who adapted Gandhian nonviolent resistance to the American context, leading the Montgomery Bus Boycott (1955), the Birmingham campaign (1963), the March on Washington (\"I Have a Dream\" speech, 1963), and the Selma to Montgomery marches (1965). His activism produced the Civil Rights Act (1964) and Voting Rights Act (1965). King was also a critic of US militarism and economic inequality — his \"Beyond Vietnam\" speech (1967) cost him mainstream support — and was organizing the Poor People's Campaign when he was assassinated in Memphis on April 4, 1968. The FBI under J. Edgar Hoover conducted an extensive harassment and surveillance campaign against him (COINTELPRO), including a letter urging him to commit suicide. His reputation has been partially domesticated into a comforting icon; the radical King who opposed the Vietnam War and demanded economic redistribution is less comfortable.",
+    "decade": "1950s",
+    "tags": [
+      "civil-rights",
+      "usa",
+      "nonviolence",
+      "race",
+      "baptist",
+      "assassination",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "malcolm_x",
+    "label": "Malcolm X",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Malcolm_X",
+    "summary": "American Black Muslim minister and civil rights activist (1925–1965) who articulated Black self-determination, Black pride, and the legitimacy of self-defense against racial violence as a counterpoint to mainstream civil rights nonviolence. As the Nation of Islam's most prominent speaker, he indicted white America with devastating clarity: \"You've been hoodwinked. You've been had. You've been took. You've been led astray. You've been bamboozled.\" After his break with the Nation of Islam and pilgrimage to Mecca (1964), he began moving toward a more universal human rights framework before his assassination in 1965, likely by Nation of Islam members. Malcolm X represents the voice that white America found most threatening about the civil rights movement: Black people insisting on dignity without asking for approval, and asserting the right to defend it.",
+    "decade": "1960s",
+    "tags": [
+      "civil-rights",
+      "usa",
+      "black-nationalism",
+      "islam",
+      "self-determination",
+      "assassination",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "hannah_arendt",
+    "label": "Hannah Arendt",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hannah_Arendt",
+    "summary": "German-American political philosopher (1906–1975) who produced the two most important works of political theory in the 20th century: The Origins of Totalitarianism (1951), which traced the connections between 19th-century antisemitism, imperialism, and 20th-century Nazi and Stalinist totalitarianism, and Eichmann in Jerusalem (1963), which reported on the trial of Adolf Eichmann and introduced the concept of the \"banality of evil\" — the observation that Eichmann was not a monster but a bureaucrat who had suspended his capacity for independent moral judgment. Her claim that ordinary people commit extraordinary evil through thoughtlessness rather than malice remains the most important single insight in Holocaust studies. She was attacked from all sides: Jews accused her of blaming the victims; others of exonerating Eichmann. She is the philosopher most needed for understanding how democracies collapse.",
+    "decade": "1950s",
+    "tags": [
+      "philosophy",
+      "totalitarianism",
+      "holocaust",
+      "politics",
+      "evil",
+      "germany",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "muhammad_ibn_abdallah",
+    "label": "Muhammad ibn Abdallah (the Prophet)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Muhammad",
+    "summary": "Arabian merchant and religious leader (c.570–632 CE) whose reported revelations, compiled as the Quran, and whose life (Sunnah) founded Islam — the world's second-largest religion and one of its fastest-growing. Muhammad began receiving revelations in the cave of Hira around 610 CE; his preaching of monotheism in polytheistic Mecca led to persecution, the Hijra (migration to Medina, 622 CE — Year 1 of the Islamic calendar), and ultimately the unification of the Arabian Peninsula under Islam. His political and military leadership at Medina established the first Islamic state, integrating religious law (sharia) with governance. After his death in 632 CE, disagreement over succession produced the Sunni-Shia split that has structured Islamic history ever since. The Quran's status as the direct word of God (not merely inspired by God) gives Islamic theology a different relationship to scripture than Christianity or Judaism.",
+    "decade": "610s",
+    "tags": [
+      "islam",
+      "religion",
+      "arabia",
+      "prophet",
+      "quran",
+      "monotheism",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "saladin",
+    "label": "Saladin (Salah ad-Din)",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saladin",
+    "summary": "Kurdish Muslim military leader (c.1137–1193) who unified the Ayyubid dynasty across Egypt and Syria and recaptured Jerusalem from the Crusaders in 1187 CE — ending 88 years of Christian control. His victory at the Battle of Hattin destroyed the Crusader army; Jerusalem fell without a massacre, in deliberate contrast to the First Crusade's slaughter of 1099. Saladin became a figure of admiration in both Muslim and Christian traditions for his chivalry — releasing prisoners, allowing safe passage, and treating the defeated Richard I with courtesy. He is the symbol of Islamic resistance to Crusader colonialism and the model of the warrior who combines military effectiveness with personal honor. He remains one of the most significant figures in Arab and Islamic political memory, invoked by successive generations of Arab leaders.",
+    "decade": "1180s",
+    "tags": [
+      "islam",
+      "crusades",
+      "arab",
+      "jerusalem",
+      "kurdish",
+      "military",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "genghis_khan",
+    "label": "Genghis Khan",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Genghis_Khan",
+    "summary": "Mongolian conqueror (c.1162–1227) who unified the Mongol tribes and built the largest contiguous land empire in history, stretching from the Pacific to Eastern Europe. His military innovations — disciplined cavalry, sophisticated siege warfare, psychological terror, and meritocratic command structure — made the Mongol army the most effective military force of the 13th century. The Mongol conquests killed an estimated 40 million people (perhaps 10% of the world's population), destroyed cities that had existed for centuries (including Baghdad in 1258, ending the Abbasid Caliphate), and caused demographic collapses in Iran, Central Asia, and China. The Pax Mongolica — the enforced peace within the empire after conquest — facilitated the Silk Road trade that connected East and West, accelerating cultural and commercial exchange. His legacy is genuinely dual: unprecedented destruction and unprecedented connectivity.",
+    "decade": "1200s",
+    "tags": [
+      "mongolia",
+      "conquest",
+      "empire",
+      "silk-road",
+      "destruction",
+      "cavalry",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "theodor_herzl",
+    "label": "Theodor Herzl",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Theodor_Herzl",
+    "summary": "Austro-Hungarian journalist (1860–1904) who founded modern political Zionism and is considered the father of the State of Israel. Herzl covered the Dreyfus Affair (1894) for a Viennese newspaper and was radicalized by the antisemitism he witnessed in France — supposedly the most enlightened country in Europe. His pamphlet Der Judenstaat (The Jewish State, 1896) argued that antisemitism is permanent wherever Jews are a minority, and that the only solution is a Jewish homeland. He organized the First Zionist Congress (1897) in Basel, establishing the World Zionist Organization and declaring its aim as a publicly recognized, legally secured homeland for the Jewish people in Palestine. He died at 44 without seeing the state he conceptualized; it was established 44 years after his death. His vision was secular and political, not religious — a fact often lost in contemporary debates.",
+    "decade": "1890s",
+    "tags": [
+      "zionism",
+      "israel",
+      "judaism",
+      "antisemitism",
+      "nationalism",
+      "austria",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "gamal_nasser",
+    "label": "Gamal Abdel Nasser",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gamal_Abdel_Nasser",
+    "summary": "Egyptian military officer and President (1918–1970) who led the 1952 revolution that ended the Egyptian monarchy and became the most charismatic Arab nationalist leader of the 20th century. His nationalization of the Suez Canal (1956) — which triggered the failed British-French-Israeli military response — made him a symbol of Arab self-determination against Western colonialism. His pan-Arabism briefly united Egypt and Syria (United Arab Republic, 1958–1961). He was the dominant figure in the Arab world until the catastrophic defeat of the Six-Day War (1967), in which Israel destroyed the Egyptian air force in three hours and occupied Sinai, Gaza, the West Bank, and the Golan Heights. The defeat destroyed Nasserism as an ideology. His death in 1970 produced one of the largest public mourning events in history: millions attended his funeral or lined the streets in Arab countries.",
+    "decade": "1950s",
+    "tags": [
+      "egypt",
+      "arab-nationalism",
+      "pan-arabism",
+      "suez",
+      "colonialism",
+      "middle-east",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "ayatollah_khomeini",
+    "label": "Ayatollah Ruhollah Khomeini",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ruhollah_Khomeini",
+    "summary": "Iranian Shia cleric and revolutionary leader (1902–1989) who developed the doctrine of velayat-e faqih (guardianship of the Islamic jurist) — the theological argument that Islamic jurisprudence gives clerics the right and duty to govern directly — and led the 1979 Iranian Revolution that overthrew the Shah and established the Islamic Republic of Iran. Khomeini spent 15 years in exile (in Iraq, then Paris) broadcasting his revolutionary theology via cassette tapes smuggled into Iran — an early demonstration that decentralized media can defeat state control of information. His revolution was not exclusively Islamist at its start: secular nationalists and leftists joined the uprising against the Shah, but Khomeini outmaneuvered them after the Shah fell. The Islamic Republic he founded has governed Iran for over four decades, making him the most consequential religious-political leader of the 20th century.",
+    "decade": "1970s",
+    "tags": [
+      "iran",
+      "islam",
+      "revolution",
+      "shia",
+      "clerical-rule",
+      "khomeini",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "osama_bin_laden",
+    "label": "Osama bin Laden",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Osama_bin_Laden",
+    "summary": "Saudi Arabian militant (1957–2011) who founded al-Qaeda and directed the September 11, 2001 attacks on the United States — the most consequential act of political violence of the 21st century. Bin Laden came from a wealthy Saudi construction family, was radicalized by the Soviet invasion of Afghanistan (1979), and built his jihadist network from the Arab Afghans recruited by the CIA-backed mujahedeen. His ideology combined Wahhabist theology, anti-colonial resentment of US military presence in Saudi Arabia (after Gulf War I), and the strategic calculation that striking the \"far enemy\" (US) was more effective than attacking corrupt Muslim regimes. The September 11 attacks killed approximately 3,000 people and triggered the US invasions of Afghanistan and Iraq, the War on Terror, and the surveillance state — consequences that exceeded bin Laden stated strategic goals but that he correctly anticipated would overextend American power.",
+    "decade": "1990s",
+    "tags": [
+      "al-qaeda",
+      "terrorism",
+      "september-11",
+      "islamism",
+      "saudi-arabia",
+      "jihad",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "charles_darwin",
+    "label": "Charles Darwin",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Charles_Darwin",
+    "summary": "English naturalist (1809–1882) whose On the Origin of Species (1859) established the theory of evolution by natural selection — the scientific framework that explains the diversity of life on Earth without reference to divine creation. Darwin five-year voyage on HMS Beagle (1831–1836) and subsequent decades of careful observation produced the evidence; his delayed publication (he sat on the theory for 20 years) reflects both his meticulous standards and his awareness that the implications would be culturally explosive. Natural selection — that heritable variation combined with differential reproduction over time produces adaptation — was the missing mechanism for the evolution that others had suspected. Darwin himself never applied natural selection to social policy; Social Darwinists did, misusing his framework to justify racial hierarchy, imperialism, and eugenics. The scientific theory is one of the most robust in the history of science; its social misapplication is one of the most consequential misreadings.",
+    "decade": "1850s",
+    "tags": [
+      "science",
+      "evolution",
+      "biology",
+      "natural-selection",
+      "britain",
+      "enlightenment",
+      "person"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "ancient_sumer",
+    "label": "Ancient Sumer",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sumer",
+    "summary": "The earliest known civilization in southern Mesopotamia (modern Iraq), emerging around 3500 BCE. Sumer developed the first cities (Uruk, Ur, Lagash), the first writing system (cuneiform), codified law, and complex religious mythology. Sumerian city-states were organized around temple complexes, with priests managing agricultural surplus. Their innovations in irrigation, administration, and trade established the templates for later Babylonian, Assyrian, and Persian civilizations. The Sumerian language, though unrelated to Semitic languages, was preserved as a literary and religious tongue long after it ceased to be spoken.",
+    "decade": "3500s BCE–2000s BCE",
+    "tags": [
+      "mesopotamia",
+      "civilization",
+      "iraq",
+      "ancient",
+      "city-state",
+      "origins"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "neo_babylonian_empire",
+    "label": "Neo-Babylonian Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Neo-Babylonian_Empire",
+    "summary": "The final period of Babylonian dominance in Mesopotamia (626–539 BCE), following the fall of Assyria. Under Nebuchadnezzar II (reigned 605–562 BCE), the Neo-Babylonian Empire destroyed Jerusalem and the First Temple (586 BCE), deporting the Judean elite to Babylon — the Babylonian Captivity that profoundly shaped Jewish theology and scripture. Babylon became the greatest city of the ancient world, featuring the Hanging Gardens, the Ishtar Gate, and extensive astronomical observations. The empire fell to Cyrus the Great of Persia in 539 BCE, who allowed the Jews to return to Judea.",
+    "decade": "620s BCE–540s BCE",
+    "tags": [
+      "babylon",
+      "mesopotamia",
+      "empire",
+      "nebuchadnezzar",
+      "jewish-history",
+      "ancient",
+      "persia"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "ancient_egypt",
+    "label": "Ancient Egypt",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ancient_Egypt",
+    "summary": "One of the world's oldest and most enduring civilizations, centered on the Nile River and lasting from approximately 3100 BCE (unification under the first pharaoh) to 30 BCE (conquest by Rome). Ancient Egypt developed a distinctive state religion, monumental architecture (pyramids, temples), a hieroglyphic writing system, and a bureaucratic government under the divine pharaoh. Egypt's agricultural wealth from Nile flooding supported a population of several million, enabling massive public works. Egypt influenced the ancient Mediterranean world through trade, military power, and cultural exchange, absorbing and influencing Nubia, the Levant, and eventually Greece and Rome.",
+    "decade": "3100s BCE–30s BCE",
+    "tags": [
+      "egypt",
+      "civilization",
+      "africa",
+      "ancient",
+      "nile",
+      "pharaoh",
+      "empire"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "pyramid_construction",
+    "label": "Pyramid Construction",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Egyptian_pyramids",
+    "summary": "The construction of monumental royal tombs in ancient Egypt, reaching its peak in the Old Kingdom (2686–2181 BCE) with the Giza pyramid complex — including the Great Pyramid of Khufu, one of the Seven Wonders of the Ancient World. The pyramids served as royal tombs and cosmic symbols, aligning with celestial bodies and encoding religious beliefs about the afterlife and the pharaoh's divine journey. Construction required massive organized labor — a combination of skilled artisans, administrative workers, and seasonal laborers (not exclusively slaves, as archaeology now shows). The pyramids are the largest surviving monuments of the ancient world and a testament to Egyptian administrative, engineering, and logistical capacity.",
+    "decade": "2600s BCE–1500s BCE",
+    "tags": [
+      "egypt",
+      "architecture",
+      "monument",
+      "religion",
+      "labor",
+      "ancient",
+      "giza"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "cleopatra",
+    "label": "Cleopatra VII",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cleopatra",
+    "summary": "The last active ruler of Ptolemaic Egypt (reigned 51–30 BCE), Cleopatra VII Philopator was a skilled political strategist, polyglot (the first Ptolemaic ruler to learn Egyptian), and the last pharaoh of an independent Egypt. Her alliances with Julius Caesar and then Mark Antony were attempts to use Roman power to preserve Egyptian independence against Roman annexation. After the defeat of Antony and Cleopatra by Octavian (the future Augustus) at the Battle of Actium (31 BCE), Cleopatra died by suicide (30 BCE), ending the Ptolemaic dynasty and making Egypt a Roman province. Cleopatra's legacy has been shaped by Roman propaganda that portrayed her as a dangerous Eastern seductress — a framing that has distorted historical understanding.",
+    "decade": "60s BCE–30s BCE",
+    "tags": [
+      "egypt",
+      "rome",
+      "ruler",
+      "woman",
+      "ptolemy",
+      "ancient",
+      "politics"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "akhenaten",
+    "label": "Akhenaten",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Akhenaten",
+    "summary": "Egyptian pharaoh who ruled from approximately 1353 to 1336 BCE and instituted a radical religious revolution, replacing Egypt's polytheistic pantheon with exclusive worship of the Aten (the solar disc). Akhenaten built a new capital city (Akhetaten, modern Amarna), suppressed the powerful priesthood of Amun, and depicted the Aten in an unprecedented abstract way — as light itself rather than an anthropomorphic god. His \"Amarna Period\" was erased from Egyptian memory after his death: his successors (including Tutankhamun) restored traditional polytheism, dismantled Akhetaten, and attempted to erase Akhenaten's name from records. Akhenaten is considered history's first monotheist, though the relationship between his Aten worship and later Abrahamic monotheism is debated.",
+    "decade": "1360s BCE–1340s BCE",
+    "tags": [
+      "egypt",
+      "pharaoh",
+      "religion",
+      "monotheism",
+      "amarna",
+      "ancient",
+      "revolution"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "nubian_pharaohs",
+    "label": "Nubian Pharaohs (25th Dynasty)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Twenty-fifth_Dynasty_of_Egypt",
+    "summary": "The period from approximately 744 to 656 BCE when Kushite kings from Nubia conquered and ruled Egypt as pharaohs of the 25th Dynasty. The Nubian pharaohs — Piankhy, Shabaka, Shebitku, Taharqa, and Tantamani — presented themselves as restorers of Egyptian tradition, reviving ancient religious practices, rebuilding temples, and adopting hieroglyphic titulary. Taharqa (the \"Tirhakah\" of the Bible) led Egypt's resistance to Assyrian invasion. The Nubian pharaohs were eventually expelled by Assyrian forces but continued to rule in Kush. Their reign demonstrates that \"Egypt\" was not an exclusively northeastern African identity — sub-Saharan African rulers legitimately claimed and exercised pharaonic authority.",
+    "decade": "750s BCE–650s BCE",
+    "tags": [
+      "nubia",
+      "egypt",
+      "pharaoh",
+      "africa",
+      "25th-dynasty",
+      "kush",
+      "ancient"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "peloponnesian_war",
+    "label": "Peloponnesian War",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peloponnesian_War",
+    "summary": "The catastrophic conflict between Athens and Sparta (431–404 BCE) that ended the Golden Age of Greece and destroyed Athenian power. Thucydides' account of the war is one of history's foundational works of political science, analyzing the causes of war in terms of Athenian imperial growth making Sparta afraid — a dynamic now called the \"Thucydides Trap.\" The war produced the Athenian plague (killing Pericles), the disastrous Sicilian Expedition, political upheaval in Athens, and ultimately Athenian defeat and surrender to Sparta. The war left Greece economically exhausted and politically fragmented, creating conditions for the eventual Macedonian conquest under Philip II and Alexander the Great.",
+    "decade": "430s BCE–400s BCE",
+    "tags": [
+      "greece",
+      "war",
+      "athens",
+      "sparta",
+      "ancient",
+      "thucydides",
+      "conflict"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "pericles",
+    "label": "Pericles",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pericles",
+    "summary": "Athenian statesman (c. 495–429 BCE) who dominated Athenian politics during its golden age and gave his name to the Periclean Age. Pericles extended democratic participation, oversaw the construction of the Parthenon and Acropolis monuments, and built the Athenian Empire (Delian League) into an instrument of Athenian power. His funeral oration (recorded by Thucydides) is among the most celebrated defenses of democratic governance in antiquity. Pericles also pursued an aggressive imperial policy — treating Athenian allies as subjects — that contributed to Spartan fears and the outbreak of the Peloponnesian War. He died of the Athenian plague in 429 BCE, his reputation simultaneously that of democracy's greatest champion and contributor to the war that destroyed it.",
+    "decade": "460s BCE–430s BCE",
+    "tags": [
+      "greece",
+      "athens",
+      "democracy",
+      "statesman",
+      "ancient",
+      "politics",
+      "pericles"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  },
+  {
+    "id": "olympic_games_ancient",
+    "label": "Ancient Olympic Games",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
+    "summary": "The quadrennial pan-Hellenic athletic festival held at Olympia in honor of Zeus, traditionally dated from 776 BCE to 393 CE (when abolished by the Christian emperor Theodosius). The Olympics were one of four pan-Hellenic games (along with Pythian, Isthmian, and Nemean games) that provided a common cultural framework across hundreds of independent Greek city-states. A sacred truce allowed safe travel during the games. The Olympics promoted Greek cultural unity, established common athletic ideals (the naked athletic body as beautiful), and created a shared calendar (Olympiads) used for historical dating. The modern Olympic Games (1896) were explicitly modeled on the ancient tradition, creating a modern institution self-consciously linking Western civilization to Greek origins.",
+    "decade": "770s BCE–390s CE",
+    "tags": [
+      "greece",
+      "sport",
+      "religion",
+      "pan-hellenic",
+      "culture",
+      "ancient",
+      "athletics"
+    ],
+    "scope": "global/history",
+    "cross_scope": false
+  }
+]

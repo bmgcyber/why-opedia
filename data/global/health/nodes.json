@@ -1,0 +1,74 @@
+[
+  {
+    "id": "tobacco_master_settlement",
+    "label": "Tobacco Master Settlement Agreement",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tobacco_Master_Settlement_Agreement",
+    "summary": "1998 agreement between 46 U.S. states and major tobacco companies, requiring the release of millions of internal documents. Those documents proved companies had internal knowledge of addiction and carcinogenicity decades before public admission, converting plausible deniability into confirmed corporate fraud.",
+    "decade": "1990s",
+    "tags": [
+      "corporate",
+      "law",
+      "tobacco",
+      "accountability",
+      "history"
+    ],
+    "region": "Americas",
+    "scope": "global/health",
+    "cross_scope": false
+  },
+  {
+    "id": "pain_management_movement",
+    "label": "Pain Management Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pain_management",
+    "summary": "Medical consensus that emerged in the 1980s–90s around the undertreatment of chronic pain — 'opiophobia' was causing patient suffering, and physicians needed to prescribe opioids more willingly. A legitimate clinical problem and the entry point Purdue Pharma systematically exploited.",
+    "decade": "1980s–1990s",
+    "tags": [
+      "medical",
+      "health",
+      "opioids",
+      "history"
+    ],
+    "scope": "global/health",
+    "cross_scope": false
+  },
+  {
+    "id": "tuskegee_syphilis_study",
+    "label": "Tuskegee Syphilis Study",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+    "summary": "U.S. Public Health Service study that deliberately withheld syphilis treatment from 399 Black men for 40 years after penicillin became available, observing disease progression rather than providing care. Exposed in 1972, it produced documented, lasting medical distrust in Black American communities — one of the most traceable causal links between a government atrocity and a downstream epistemic condition.",
+    "decade": "1930s–1970s",
+    "tags": [
+      "government",
+      "medical",
+      "racism",
+      "history",
+      "documented_atrocity"
+    ],
+    "scope": "global/health",
+    "cross_scope": false
+  },
+  {
+    "id": "american_eugenics_movement",
+    "label": "American Eugenics Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eugenics_in_the_United_States",
+    "summary": "State-backed program of forced sterilization and racial hygiene laws that sterilized approximately 60,000 Americans deemed 'unfit.' Explicitly cited by Nazi racial scientists as legal and scientific precedent; Nuremberg Laws were modeled partly on American miscegenation and sterilization statutes.",
+    "decade": "1900s–1940s",
+    "tags": [
+      "racism",
+      "pseudoscience",
+      "policy",
+      "history",
+      "documented_atrocity"
+    ],
+    "scope": "global/health",
+    "cross_scope": false
+  }
+]

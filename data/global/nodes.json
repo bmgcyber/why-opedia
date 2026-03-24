@@ -1,0 +1,52 @@
+[
+  {
+    "id": "portal-media",
+    "label": "Media & Information",
+    "category": "portal",
+    "node_type": "portal",
+    "scope": "global",
+    "target_scope": "global/media",
+    "summary": "7 nodes on media & information.",
+    "cross_scope": false
+  },
+  {
+    "id": "portal-politics",
+    "label": "Politics & Power",
+    "category": "portal",
+    "node_type": "portal",
+    "scope": "global",
+    "target_scope": "global/politics",
+    "summary": "55 nodes on politics & power.",
+    "cross_scope": false
+  },
+  {
+    "id": "portal-psychology",
+    "label": "Psychology & Identity",
+    "category": "portal",
+    "node_type": "portal",
+    "scope": "global",
+    "target_scope": "global/psychology",
+    "summary": "11 nodes on psychology & identity.",
+    "cross_scope": false
+  },
+  {
+    "id": "portal-health",
+    "label": "Health & Medicine",
+    "category": "portal",
+    "node_type": "portal",
+    "scope": "global",
+    "target_scope": "global/health",
+    "summary": "4 nodes on health & medicine.",
+    "cross_scope": false
+  },
+  {
+    "id": "portal-history",
+    "label": "History & Events",
+    "category": "portal",
+    "node_type": "portal",
+    "scope": "global",
+    "target_scope": "global/history",
+    "summary": "168 nodes on history & events.",
+    "cross_scope": false
+  }
+]

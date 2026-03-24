@@ -1,0 +1,139 @@
+[
+  {
+    "id": "radio_milles_collines",
+    "label": "Radio Mille Collines (RTLM)",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Radio_T%C3%A9l%C3%A9vision_Libre_des_Mille_Collines",
+    "summary": "Hutu Power radio station that broadcast dehumanizing language (\"inyenzi\" — cockroaches), names and locations of Tutsi individuals, and operational instructions to killers during the 1994 genocide. Functioned as both ideological infrastructure and operational logistics.",
+    "decade": "1990s",
+    "tags": [
+      "genocide",
+      "propaganda",
+      "media",
+      "rwanda",
+      "africa"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "joseph_goebbels",
+    "label": "Joseph Goebbels",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Joseph_Goebbels",
+    "summary": "German Nazi politician (1897–1945) who served as Reich Minister of Propaganda from 1933 until his death, making him history most consequential propagandist. Goebbels understood that modern mass media — film, radio, newspapers, rallies — could be coordinated to produce a totalizing emotional experience that bypassed rational evaluation. He orchestrated Kristallnacht (November 1938), produced the film Triumph of the Will (Riefenstahl, under his supervision), controlled all German cultural production, and deployed \"Big Lie\" technique — repeating false claims so confidently and persistently that audiences doubt their own memory. His diary reveals that he was fully aware of the Holocaust and supported it. He and his wife killed their six children before taking their own lives in the Berlin bunker in 1945.",
+    "decade": "1930s",
+    "tags": [
+      "nazism",
+      "propaganda",
+      "media",
+      "germany",
+      "holocaust",
+      "manipulation",
+      "person"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "cuneiform",
+    "label": "Cuneiform Writing",
+    "node_type": "reference",
+    "category": "product",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cuneiform",
+    "summary": "The earliest known writing system, developed in Sumer around 3200 BCE. Cuneiform was pressed into clay tablets with a wedge-shaped stylus and initially used for administrative record-keeping — tracking grain, livestock, and labor. It evolved from pictographs into an abstract syllabic script capable of recording literature, law, and religious texts. Over 3,000 years, cuneiform was adapted to write Sumerian, Akkadian, Babylonian, Assyrian, Elamite, Hittite, and Ugaritic, among others. The Epic of Gilgamesh, the Code of Hammurabi, and the world's earliest love poetry were all recorded in cuneiform. Deciphered in the 19th century CE, cuneiform tablets revealed the depth of Mesopotamian civilization.",
+    "decade": "3200s BCE",
+    "tags": [
+      "writing",
+      "mesopotamia",
+      "communication",
+      "literacy",
+      "clay-tablets",
+      "invention"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "gilgamesh",
+    "label": "Epic of Gilgamesh",
+    "node_type": "reference",
+    "category": "product",
+    "wikipedia": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
+    "summary": "The oldest surviving epic poem, composed in ancient Sumer and later expanded in Akkadian around 2100–1200 BCE. The Epic follows Gilgamesh, king of Uruk, through adventures with his companion Enkidu, the loss of Enkidu to death, and Gilgamesh's failed quest for immortality. The story contains a flood narrative remarkably similar to the later biblical account of Noah — providing textual evidence of a shared ancient Near Eastern mythological tradition. The Epic grapples with themes of friendship, mortality, hubris, and the meaning of a well-lived life. Rediscovered and translated in the 19th century CE, it reshaped understanding of the origins of biblical literature.",
+    "decade": "2100s BCE",
+    "tags": [
+      "literature",
+      "mythology",
+      "mesopotamia",
+      "epic",
+      "flood",
+      "immortality",
+      "ancient"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "egyptian_hieroglyphics",
+    "label": "Egyptian Hieroglyphics",
+    "node_type": "reference",
+    "category": "product",
+    "wikipedia": "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs",
+    "summary": "The formal writing system of ancient Egypt, consisting of logographic and alphabetic elements, used from approximately 3200 BCE until the 4th century CE. Hieroglyphics (Greek: \"sacred carvings\") were used in monumental contexts — temple walls, tombs, royal decrees — and represented both sounds and concepts. A cursive form (hieratic) was used for everyday writing on papyrus; an even more simplified form (demotic) emerged later. The decipherment of hieroglyphics by Jean-François Champollion (1822), using the Rosetta Stone, unlocked 3,000 years of Egyptian history. Hieroglyphics influenced Phoenician script, which became the ancestor of the Greek and Latin alphabets.",
+    "decade": "3100s BCE",
+    "tags": [
+      "egypt",
+      "writing",
+      "language",
+      "communication",
+      "ancient",
+      "rosetta-stone",
+      "alphabet"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "book_of_the_dead",
+    "label": "Book of the Dead",
+    "node_type": "reference",
+    "category": "product",
+    "wikipedia": "https://en.wikipedia.org/wiki/Book_of_the_Dead",
+    "summary": "An ancient Egyptian funerary text used from approximately 1550 BCE to 50 BCE, consisting of magic spells and instructions intended to assist the deceased's journey through the afterlife (Duat) and judgment before Osiris. The Book of the Dead (more accurately \"Book of Coming Forth by Day\") was written on papyrus scrolls placed in tombs alongside the deceased. It contains the famous \"Negative Confession\" — a declaration of innocence before 42 divine judges — and the \"Weighing of the Heart\" ceremony, where the deceased's heart is weighed against the feather of Ma'at. The ethical content (denying murder, theft, falsehood) represents one of the earliest written moral codes. It influenced later conceptions of divine judgment and afterlife in Mediterranean religions.",
+    "decade": "1550s BCE",
+    "tags": [
+      "egypt",
+      "religion",
+      "afterlife",
+      "mythology",
+      "funerary",
+      "ancient",
+      "judgment"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "homeric_epics",
+    "label": "Homeric Epics (Iliad & Odyssey)",
+    "node_type": "reference",
+    "category": "product",
+    "wikipedia": "https://en.wikipedia.org/wiki/Homeric_epics",
+    "summary": "The Iliad and Odyssey, attributed to Homer (8th century BCE), are the foundational texts of Western literature and the primary source for Greek mythology. The Iliad narrates episodes from the Trojan War (the wrath of Achilles, the death of Hector); the Odyssey follows Odysseus's ten-year return from Troy. The epics were composed in an oral tradition before being written down, and they were central to Greek education — Greeks learned to read using Homer, memorized long passages, and treated the epics as an encyclopedia of heroic values and divine behavior. The Homeric epics shaped Greek mythology, philosophy (Plato quotes and critiques Homer), Roman literature (Virgil's Aeneid), and Western literary imagination from the Renaissance to the present.",
+    "decade": "800s BCE",
+    "tags": [
+      "greece",
+      "literature",
+      "epic",
+      "homer",
+      "mythology",
+      "iliad",
+      "odyssey"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  }
+]
