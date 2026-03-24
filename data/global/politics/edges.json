@@ -1834,5 +1834,176 @@
     "label": "The 2008 financial crisis and bank bailouts while homeowners were foreclosed was the economic shock that produced Tea Party, MAGA, and Brexiteers",
     "note": "The 2008 financial crisis produced the populist backlash of the 2010s: the optics of $700 billion bank bailouts (TARP) while 10 million families were foreclosed produced legitimate rage at elite impunity; both Tea Party (right-wing populist, anti-government) and Occupy Wall Street (left-wing populist, anti-corporate) were immediate 2008-2010 responses; the Tea Party ultimately won the institutional battle (2010 midterms, 2016 Trump); MAGA's \"drain the swamp\" rhetoric is directly descended from 2008 bank bailout rage. The crisis delegitimized economic elites (banks, regulators, economists) — the same delegitimization that enables right-wing populism.",
     "confidence": "high"
+  },
+  {
+    "id": "police_brutality__black_lives_matter",
+    "source": "police_brutality",
+    "target": "black_lives_matter",
+    "type": "PRODUCED",
+    "label": "Police killings of unarmed Black Americans produced Black Lives Matter as the defining protest movement of the 2010s",
+    "note": "Black Lives Matter emerged directly from documented police killings: the Trayvon Martin killing (2012, by neighborhood watch, not police) and George Zimmerman acquittal prompted Alicia Garza's Facebook post and the hashtag; Michael Brown (2014, Ferguson), Eric Garner (2014, New York), Tamir Rice (2014, Cleveland), Sandra Bland (2015, Texas), Walter Scott (2015), Philando Castile (2016), Breonna Taylor (2020), and George Floyd (2020) sustained and expanded the movement. Each killing that produced no accountability — no charges, or acquittals — demonstrated that police violence against Black Americans operated outside normal legal accountability. BLM was the organized response to documented, systematic impunity.",
+    "confidence": "high"
+  },
+  {
+    "id": "police_brutality__war_on_drugs",
+    "source": "police_brutality",
+    "target": "war_on_drugs",
+    "type": "ENABLED",
+    "label": "War on Drugs enforcement concentrated police violence in communities of color through the logic of saturation policing of drug markets",
+    "note": "War on Drugs enforcement was the primary driver of police-community violence in the late 20th century: aggressive drug enforcement (stop-and-frisk, no-knock raids, consent searches) concentrated in Black and Latino neighborhoods; militarization of police through 1033 program transferred military equipment to local departments framing drug enforcement as warfare; qualified immunity doctrine (developed largely through drug enforcement cases) immunized officers from civil liability for excessive force; the New York Police Department's 700,000 annual stop-and-frisks (2011, 88% Black or Latino) demonstrated drug enforcement's racial targeting. The War on Drugs created the policing paradigm that produced the specific pattern of racialized police violence BLM documented.",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow__police_brutality",
+    "source": "jim_crow",
+    "target": "police_brutality",
+    "type": "ENABLED",
+    "label": "Jim Crow-era police forces were explicitly designed to enforce racial hierarchy; this institutional character persisted through northern Great Migration",
+    "note": "Contemporary police brutality is historically connected to Jim Crow policing: southern police forces were created partly to enforce slave codes and catch runaways; after emancipation, they enforced Black Codes and Jim Crow segregation through selective enforcement and racial terror; the KKK and police forces had overlapping membership through the early 20th century. Northern cities imported racialized policing practices as Black Americans migrated north (Great Migration). The institutional culture of policing as racial control was not abolished by civil rights legislation — it adapted. Bryan Stevenson and the Equal Justice Initiative trace contemporary police culture's racial violence directly to slave patrol and Jim Crow enforcement traditions.",
+    "confidence": "high"
+  },
+  {
+    "id": "surveillance_state__patriot_act_surveillance",
+    "source": "patriot_act_surveillance",
+    "target": "surveillance_state",
+    "type": "PRODUCED",
+    "label": "The PATRIOT Act's surveillance expansion produced the mass surveillance infrastructure Snowden revealed in 2013",
+    "note": "The surveillance state that Snowden revealed was substantially built on PATRIOT Act authorities: Section 215 (bulk telephone metadata collection) enabled NSA collection of every American's call records; Section 702 (PRISM) enabled collection of internet communications from major tech companies; the combination produced mass surveillance infrastructure that had been undisclosed to the public and most of Congress. The FISA court that was supposed to supervise this surveillance operated in secret, approving 99%+ of government requests. The surveillance state was not a dramatic discontinuity from PATRIOT Act surveillance — it was the logical development of surveillance authorities established after 9/11.",
+    "confidence": "high"
+  },
+  {
+    "id": "surveillance_state__great_firewall_china",
+    "source": "surveillance_state",
+    "target": "great_firewall_china",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "China's surveillance state is the most comprehensive version of a tendency present in all modern states: using digital infrastructure for population monitoring",
+    "note": "China's surveillance state and Western surveillance states share the fundamental mechanism (digital infrastructure enables mass monitoring) while differing in scope and purpose: China's social credit system, Xinjiang facial recognition and predictive policing, and comprehensive internet monitoring represent the most extensive state surveillance apparatus in history; Western NSA/GCHQ surveillance programs revealed by Snowden were significant but targeted at foreign intelligence and specific domestic threats rather than universal social monitoring. The key difference is political purpose: China's surveillance explicitly aims to suppress political dissent and enforce social conformity; Western mass surveillance was officially directed at terrorism. Both demonstrate that digital infrastructure makes comprehensive surveillance technically possible.",
+    "confidence": "high"
+  },
+  {
+    "id": "surveillance_state__social_media_algorithms",
+    "source": "surveillance_state",
+    "target": "social_media_algorithms",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "State mass surveillance and corporate social media surveillance share infrastructure and data while serving different masters",
+    "note": "State surveillance and corporate social media surveillance are deeply intertwined: the NSA PRISM program collected user data from Facebook, Google, Apple, Microsoft, and Yahoo through legal compulsion; social media companies' behavioral data is more comprehensive than state surveillance of the same individuals; authoritarian states (China, Russia, Saudi Arabia) compel social media companies to provide surveillance access; commercial surveillance of users (location, social graph, behavioral data) is the same data states want. The distinction between government surveillance and corporate surveillance has been eroded by state data demands, corporate cooperation, and the purchase of commercial data by intelligence agencies to avoid warrant requirements.",
+    "confidence": "high"
+  },
+  {
+    "id": "nato__cold_war",
+    "source": "cold_war",
+    "target": "nato",
+    "type": "PRODUCED",
+    "label": "NATO was created as the institutional expression of Western Cold War collective security against Soviet expansion",
+    "note": "NATO (1949) was a direct Cold War creation: Soviet pressure on Western Europe (Berlin blockade 1948-49, Czech coup 1948) convinced Western European states and the US that formal collective security was necessary; the North Atlantic Treaty's Article 5 (mutual defense commitment) was designed to extend US nuclear deterrence to Western Europe; NATO's integrated military command (SACEUR) institutionalized US military presence in Europe permanently. NATO transformed the Cold War from a US-Soviet bilateral confrontation to a multilateral alliance that gave Western Europe protection while limiting their independent military policy. NATO's survival after the Cold War (continuing expansion eastward) demonstrates how institutions persist beyond their original purpose.",
+    "confidence": "high"
+  },
+  {
+    "id": "nato__european_union",
+    "source": "nato",
+    "target": "european_union",
+    "type": "ENABLED",
+    "label": "NATO provided the security framework that allowed European integration to proceed without independent German rearmament threatening neighbors",
+    "note": "NATO and EU integration were complementary Cold War projects: NATO handled European collective security, allowing EU predecessors (ECSC, EEC) to focus on economic integration rather than military coordination; West Germany's rearmament was acceptable to France and others because it was integrated into NATO command rather than independent; the US security guarantee removed the threat perception (especially of Germany) that had historically driven European nations to military competition. Without NATO's security umbrella, European integration would have required independent security arrangements that would have reproduced Franco-German security competition. NATO was the security precondition that made the European peace project politically possible.",
+    "confidence": "high"
+  },
+  {
+    "id": "nato__cold_war_proxy_wars",
+    "source": "nato",
+    "target": "cold_war_proxy_wars",
+    "type": "ENABLED",
+    "label": "NATO's protection of Western Europe channeled Cold War competition into proxy wars in the developing world",
+    "note": "NATO's collective security guarantee shifted Cold War military competition to proxy wars: by making direct Soviet attack on Western Europe strategically prohibitive, NATO pushed superpower competition into areas outside the alliance guarantee — Asia, Africa, Latin America, the Middle East. The Korean War (1950-53) and Vietnam War (1955-75) were outside NATO's scope; the CIA operations in Central America, Africa, and the Middle East were proxy competition that NATO's conventional deterrence in Europe made necessary. NATO thus both limited the Cold War (prevented European war) and displaced it (made proxy wars elsewhere more intense).",
+    "confidence": "high"
+  },
+  {
+    "id": "nuclear_weapons__cuban_missile_crisis",
+    "source": "nuclear_weapons",
+    "target": "cuban_missile_crisis",
+    "type": "PRODUCED",
+    "label": "The Cuban Missile Crisis was the direct product of nuclear weapons strategic logic: Soviet missiles in Cuba would undermine US strategic advantage",
+    "note": "The Cuban Missile Crisis was a nuclear weapons problem: Khrushchev placed missiles in Cuba to offset US strategic nuclear advantage (the US had approximately 5,000 warheads vs Soviet 1,500 in 1962) and to demonstrate Soviet ability to project nuclear force to the Western Hemisphere; Kennedy's response was nuclear deterrence logic — the missiles were unacceptable because they fundamentally altered the strategic balance; the resolution required nuclear weapons mechanics (missile withdrawal, pledge not to attack Cuba, secret Jupiter missile withdrawal from Turkey). Every element of the crisis was shaped by nuclear weapons' specific strategic properties — second-strike capability, counterforce vs. countervalue targeting, escalation ladders.",
+    "confidence": "high"
+  },
+  {
+    "id": "nuclear_weapons__cold_war_proxy_wars",
+    "source": "nuclear_weapons",
+    "target": "cold_war_proxy_wars",
+    "type": "ENABLED",
+    "label": "Nuclear deterrence prevented direct superpower war but enabled proxy wars by creating a strategic floor that prevented escalation",
+    "note": "Nuclear weapons created the strategic conditions for proxy wars: MAD (mutually assured destruction) made direct superpower war existentially risky; this created a \"nuclear umbrella\" under which conventional conflicts could be fought without triggering nuclear exchange; both superpowers learned they could support opposite sides in regional conflicts without that requiring direct confrontation; the Korean War established the precedent that nuclear powers could fight limited conventional wars without escalating. Nuclear weapons thus both prevented the most catastrophic possible war and enabled the dozens of conventional conflicts that killed millions in Korea, Vietnam, Angola, Afghanistan, and Central America.",
+    "confidence": "high"
+  },
+  {
+    "id": "reconstruction_era__gerrymandering",
+    "source": "reconstruction_era",
+    "target": "gerrymandering",
+    "type": "ENABLED",
+    "label": "Post-Reconstruction racial gerrymandering was among the first tools used to strip Black Americans of political power after the 1877 Compromise",
+    "note": "Gerrymandering's racial history begins with Reconstruction's defeat: after 1877, Southern states used district manipulation alongside literacy tests and poll taxes to dismantle Black political representation; the Gerrymander as a racial tool predates the modern algorithmic variety. The Voting Rights Act (1965) required DOJ preclearance for electoral changes in states with discrimination history specifically because of this history. When Shelby County v. Holder (2013) eliminated preclearance, states immediately began racial gerrymandering — demonstrating that the historical pattern remained present as soon as the constraint was removed. Contemporary racial gerrymandering and its post-Reconstruction precedents are legally connected through the Voting Rights Act's history.",
+    "confidence": "high"
+  },
+  {
+    "id": "gerrymandering__citizens_united",
+    "source": "gerrymandering",
+    "target": "citizens_united",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Gerrymandering and Citizens United are complementary mechanisms for minority rule: gerrymandering makes most votes irrelevant; Citizens United makes most money politically decisive",
+    "note": "Gerrymandering and Citizens United operate together in the post-2010 Republican electoral strategy: REDMAP (2010) used gerrymandering to lock in Republican state legislative majorities regardless of vote share; those majorities then implemented voter suppression laws; Citizens United enabled unlimited dark money to fund primary challenges against any Republican who compromised. The combination produces minority rule: Republicans can win legislative majorities with minority vote share (gerrymandering), and dark money punishes any deviation from radical positions (Citizens United). Together they have produced a political system where the preferences of the Republican donor class (not the median voter) determine Republican policy.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war_proxy_wars__decolonization_movement",
+    "source": "cold_war_proxy_wars",
+    "target": "decolonization_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Cold War proxy wars and decolonization movements were inextricably entangled — independence movements became battlegrounds for superpower competition",
+    "note": "Cold War proxy wars and decolonization became intertwined systems: newly independent states needed superpower support for economic development and security; the US and USSR competed to draw independent states into their orbits; liberation movements sought Soviet support when the US backed colonial powers; US support for anti-communist regimes meant supporting colonial and post-colonial authoritarian governments against popular movements. Vietnam was simultaneously a Cold War proxy war and a decolonization movement; Angola, Mozambique, Guinea-Bissau were simultaneously anti-Portuguese decolonization and Cold War confrontations. The Cold War structured decolonization's political economy in ways that complicated its outcomes.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war_proxy_wars__iran_contra",
+    "source": "cold_war_proxy_wars",
+    "target": "iran_contra",
+    "type": "PRODUCED",
+    "label": "Iran-Contra was the proxy war system attempting to continue after Congress withdrew authorization through the Boland Amendment",
+    "note": "Iran-Contra was produced by the Cold War proxy war logic hitting a constitutional obstacle: the Boland Amendment (1982) prohibited US aid to Contra fighters in Nicaragua; the Reagan administration's commitment to proxy war against the Sandinista government (Cold War logic) led to the illegal workaround — selling arms to Iran and diverting proceeds to Contras. The entire operation was a proxy war operation that circumvented democratic constraints. Iran-Contra demonstrates that the Cold War proxy war logic was institutionally embedded in the executive branch to the point where officials viewed constitutional oversight as an obstacle to circumvent rather than a constraint to respect.",
+    "confidence": "high"
+  },
+  {
+    "id": "climate_change_policy__immigration_crisis",
+    "source": "climate_change_policy",
+    "target": "immigration_crisis",
+    "type": "PRODUCED",
+    "label": "Climate change is a primary driver of contemporary mass displacement — the future of the immigration crisis is a climate refugee crisis",
+    "note": "Climate change is producing the immigration crisis through multiple pathways: sea level rise makes coastal areas uninhabitable (Bangladesh, Pacific islands, Miami); desertification and drought destroy agricultural livelihoods (Sahel, Syria, Central America's Dry Corridor); extreme heat makes regions in tropics and subtropics lethally hot without air conditioning; World Bank estimates 216 million internal climate migrants by 2050. The Syrian conflict (2011-present) was partly triggered by drought (2006-2011) that failed crops and drove 1.5 million farmers to cities, producing social instability. Immigration policy debates that treat climate migration as an immigration problem rather than a climate problem will systematically fail to address its root causes.",
+    "confidence": "high"
+  },
+  {
+    "id": "decolonization_movement__immigration_crisis",
+    "source": "decolonization_movement",
+    "target": "immigration_crisis",
+    "type": "ENABLED",
+    "label": "Post-colonial economic structures and conflict are primary drivers of migration from former colonies to former imperial centers",
+    "note": "Contemporary immigration patterns are substantially post-colonial: the colonial relationship created economic development asymmetries that drive migration (former colonies systematically underdeveloped as complement to imperial economy); former colonies experience political instability partly as legacy of colonial borders and divide-and-rule politics; colonial-era labor migration created communities in imperial centers whose families continue to migrate through chain migration. The UK's immigration crisis is primarily from former British Empire territories; France's from former French colonies; Spain's from former Spanish colonies. Post-colonial migration follows colonial pathways — language connections, diaspora networks, and economic development differentials all trace to the colonial relationship.",
+    "confidence": "high"
+  },
+  {
+    "id": "human_rights_declaration__apartheid_south_africa",
+    "source": "human_rights_declaration",
+    "target": "apartheid_south_africa",
+    "type": "ENABLED",
+    "label": "The UDHR provided the international legal framework that made apartheid a violation of international norms rather than merely internal South African policy",
+    "note": "The UDHR enabled apartheid's international delegitimization: apartheid was established (1948) the same year as the UDHR; from the beginning, India challenged apartheid in the UN as a UDHR violation; the Universal Periodic Review process created systematic international scrutiny; UN sanctions (1977 mandatory arms embargo) required the UDHR normative framework to justify interference in domestic policy. Without the UDHR's establishment of universal human rights as international norms, apartheid would have been legally classified as internal South African policy immune to international pressure. The UDHR created the international normative framework that allowed decades of pressure culminating in the 1994 transition.",
+    "confidence": "high"
+  },
+  {
+    "id": "human_rights_declaration__torture",
+    "source": "human_rights_declaration",
+    "target": "abu_ghraib",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Abu Ghraib demonstrated that UDHR-based torture prohibitions fail when states claim emergency national security exceptions",
+    "note": "The UDHR (Article 5) and subsequent Convention Against Torture establish absolute prohibition on torture. Abu Ghraib demonstrated the prohibition's limits: the Bush administration's \"torture memos\" (Yoo/Bybee) created legal frameworks claiming that techniques not meeting a narrow torture definition were permissible; the UDHR's absolute prohibition was circumvented through definitional manipulation rather than direct challenge. This is the pattern of human rights law failure under emergency conditions: states rarely argue against human rights norms directly but instead manipulate definitions, claim emergency exceptions, or create extralegal spaces (Guantanamo) where normal legal frameworks do not apply. Abu Ghraib demonstrated the weakness of rights frameworks that depend on good faith definition.",
+    "confidence": "high"
   }
 ]

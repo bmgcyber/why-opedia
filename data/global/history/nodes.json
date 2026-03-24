@@ -4276,5 +4276,27 @@
       "propaganda",
       "literature"
     ]
+  },
+  {
+    "id": "harlem_renaissance",
+    "label": "Harlem Renaissance",
+    "node_type": "era",
+    "category": "era",
+    "decade": "1920s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Harlem_Renaissance",
+    "summary": "Flowering of African American intellectual, cultural, and artistic life in Harlem, New York (1920s-30s); produced Langston Hughes, Zora Neale Hurston, Louis Armstrong, Duke Ellington; affirmed Black identity and challenged racial inferiority narratives.",
+    "tags": [
+      "harlem",
+      "african american",
+      "art",
+      "literature",
+      "jazz",
+      "blues",
+      "identity",
+      "langston hughes",
+      "zora neale hurston"
+    ]
   }
 ]

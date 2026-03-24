@@ -4453,5 +4453,167 @@
     "label": "Orwell's \"1984\" propaganda analysis and Chomsky/Herman's manufactured consent theory are complementary critiques: totalitarian vs. liberal media manipulation",
     "note": "Orwell and Chomsky/Herman analyze different but related information manipulation systems: Orwell analyzed totalitarian propaganda (explicit state control, active censorship, enforced conformity); manufactured consent analyzes liberal democratic propaganda (structural filters, incentive alignment, subtle distortion without visible censorship). Orwell's insight was that explicit propaganda was inefficient and ultimately fragile — it required constant enforcement. Chomsky's insight was that liberal media systems achieve similar results without visible censorship, through ownership concentration, advertiser influence, and source dependence. Orwell's \"1984\" and manufactured consent theory are complementary critiques: one explains authoritarian systems, the other explains systems that allow criticism while systematically limiting its reach.",
     "confidence": "high"
+  },
+  {
+    "id": "satanic_panic__recovered_memory_therapy",
+    "source": "satanic_panic",
+    "target": "recovered_memory_therapy",
+    "type": "PRODUCED",
+    "label": "The Satanic Panic was produced by recovered memory therapy techniques that created false memories of abuse in children and adults",
+    "note": "The Satanic Panic and recovered memory therapy are causally linked: therapists using hypnosis and guided imagery to uncover \"repressed\" memories of childhood abuse produced the Satanic ritual abuse cases; the McMartin preschool case investigators used deeply leading interview techniques with young children that reliably produced false accounts; the \"survivor\" therapy movement (popularized by \"The Courage to Heal\") generated adult \"recovered memories\" of childhood abuse including Satanic ritual elements. The Satanic Panic demonstrated that suggestive therapeutic techniques can produce confident false memories indistinguishable from real memories — a finding with implications beyond the Satanic Panic for all recovered memory testimony.",
+    "confidence": "high"
+  },
+  {
+    "id": "satanic_panic__evangelical_christianity",
+    "source": "satanic_panic",
+    "target": "evangelical_christianity",
+    "type": "ENABLED",
+    "label": "Evangelical Christianity's literal belief in Satan provided the theological framework that made Satanic ritual abuse accusations credible to certain audiences",
+    "note": "Evangelical theology made Satanic Panic accusations credible: the belief that Satan is literally active in the world, seeking souls through occult practices, made the idea of organized Satanic ritual abuse theologically plausible to evangelical audiences; \"Satanic panic\" literature circulated in evangelical churches (Lauren Stratford's \"Satan's Underground,\" later revealed as fabricated); evangelical media amplified the narratives; Focus on the Family's James Dobson promoted Satanic ritual abuse claims. The panic's persistence in evangelical communities beyond its mainstream collapse demonstrates how theological frameworks shape the believability of specific empirical claims.",
+    "confidence": "high"
+  },
+  {
+    "id": "east_india_company__colonial_era",
+    "source": "east_india_company",
+    "target": "colonial_era",
+    "type": "ENABLED",
+    "label": "The East India Company invented the corporate colonialism model that transformed the colonial era from state-led conquest to profit-driven corporate governance",
+    "note": "The East India Company (EIC) invented a new form of colonialism: private corporation with state-backed monopoly conducting conquest, administration, and extraction simultaneously. The EIC raised its own army, levied taxes, administered justice, and fought wars — all for shareholder profit. The EIC's 1757 Battle of Plassey (defeating the Nawab of Bengal) began corporate conquest of India; EIC administration caused the Bengal Famine (1770, killing 10 million) through revenue extraction during drought. The EIC model demonstrated that colonial extraction could be privatized — the state provides legal and military backing; the corporation provides the administrative and extraction apparatus. This corporate colonialism model persists in contemporary multinational corporation relationships with resource-rich developing countries.",
+    "confidence": "high"
+  },
+  {
+    "id": "east_india_company__resource_extraction",
+    "source": "east_india_company",
+    "target": "resource_extraction",
+    "type": "ENABLED",
+    "label": "The East India Company pioneered resource extraction as corporate strategy, draining India's wealth to British shareholders",
+    "note": "The EIC institutionalized systematic resource extraction: India's share of world GDP fell from 25% (1700) to 4% (1950) under British colonial extraction; the EIC and subsequent British Raj extracted textile manufacturing (deindustrializing India's formerly world-leading textile industry to make room for British textiles), agricultural revenue (causing famines), and raw materials. Utsa Patnaik's research estimates total extraction of $45 trillion from India during the colonial period. The EIC demonstrated how extraction functions: suppress local manufacturing, convert to raw material export, drain surplus through taxation and trade terms. This is the template for colonial extraction that resource curse theorists identify as the historical origin of post-colonial dependency.",
+    "confidence": "high"
+  },
+  {
+    "id": "english_civil_war__enlightenment",
+    "source": "english_civil_war",
+    "target": "enlightenment",
+    "type": "ENABLED",
+    "label": "The English Civil War produced the political concepts (constitutional limits on monarchy, parliamentary sovereignty) that the Enlightenment systematized",
+    "note": "The English Civil War (1642-1651) was the political laboratory from which Enlightenment political theory emerged: Locke's social contract theory was developed in direct response to the Civil War's questions (what justifies royal authority? when is resistance legitimate?); the Levellers' Agreement of the People (1647) articulated natural rights and democratic government concepts before Locke; Hobbes' \"Leviathan\" (1651) was the conservative response to Civil War disorder; the Glorious Revolution (1688-89) and subsequent Bill of Rights produced the constitutional monarchy that Locke theorized. The English experience of civil war, regicide, restoration, and Glorious Revolution provided the empirical cases that Enlightenment political theory explained.",
+    "confidence": "high"
+  },
+  {
+    "id": "english_civil_war__american_revolution",
+    "source": "english_civil_war",
+    "target": "american_revolution",
+    "type": "ENABLED",
+    "label": "The English Civil War precedents — constitutional limits on monarchy, natural rights, parliamentary sovereignty — were directly invoked by American revolutionaries",
+    "note": "American revolutionaries drew explicitly on English Civil War precedents: the argument that Parliament could not tax Americans without representation directly echoed English Civil War arguments about taxation without parliamentary consent; \"Radical Whig\" political thought (Commonwealth men) transmitted Civil War constitutional principles to American colonists; Thomas Jefferson's \"A Summary View of the Rights of British America\" (1774) argued from English constitutional tradition including Civil War precedents; the Levellers' natural rights arguments appeared in modified form in the Declaration of Independence. The American Revolution was the English constitutional tradition applied to a colonial context.",
+    "confidence": "high"
+  },
+  {
+    "id": "robber_barons__supply_side_economics",
+    "source": "robber_barons",
+    "target": "supply_side_economics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Robber Baron-era \"Social Darwinism\" and supply-side economics share the argument that concentrated wealth creates general prosperity through investment",
+    "note": "Robber Baron-era Social Darwinism and supply-side economics are historically connected as elite wealth justifications: Social Darwinism (Herbert Spencer, Andrew Carnegie's \"Gospel of Wealth\") argued that concentrated wealth was the natural product of superior individuals whose investment created general prosperity — \"a rising tide lifts all boats\" in 1880s language; supply-side economics (\"trickle down\") makes the same argument with modern economic vocabulary. Carnegie explicitly argued against higher taxation of the wealthy on the grounds that rich people allocate capital more efficiently than governments. Supply-side economics is Social Darwinism with macroeconomic vocabulary substituting for biological metaphor — same argument, updated framing.",
+    "confidence": "high"
+  },
+  {
+    "id": "robber_barons__wealth_inequality",
+    "source": "robber_barons",
+    "target": "wealth_inequality",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Robber Baron-era Gilded Age inequality and contemporary inequality are separate historical peaks produced by similar policy conditions",
+    "note": "Robber Baron-era inequality and contemporary wealth inequality are historically parallel: 1890s Gilded Age inequality (Carnegie, Rockefeller, Morgan wealth vs. working-class poverty) prompted Progressive Era and eventually New Deal redistribution through taxation, regulation, and labor rights; post-1980 neoliberal policies undid these redistributive mechanisms and reproduced similar inequality levels. Piketty's \"Capital in the 21st Century\" documents the U-shaped curve: high inequality (Gilded Age) → reduction through World Wars and New Deal policies (1914-1970) → return to high inequality (1980-present) through neoliberal policies. The Robber Baron comparison is analytically useful: contemporary billionaires have accumulated wealth at Gilded Age scale, suggesting similar political economy conditions.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_migration__harlem_renaissance",
+    "source": "great_migration",
+    "target": "harlem_renaissance",
+    "type": "PRODUCED",
+    "label": "The Great Migration created Harlem as the capital of Black America, producing the Harlem Renaissance cultural explosion",
+    "note": "The Great Migration was the demographic foundation of the Harlem Renaissance: Black Southerners migrating to New York concentrated in Harlem, which became the largest Black urban community in the world by the 1920s; this concentration created the audience, patronage, and peer community that enabled the Harlem Renaissance's cultural production; Langston Hughes, Zora Neale Hurston, Claude McKay, Louis Armstrong, Duke Ellington — all were either migrants or the immediate products of migration communities. The Renaissance demonstrated that Black cultural genius was not dependent on Southern conditions — it had been suppressed by those conditions and flourished when given the urban resources, freedom, and audience that Northern migration provided.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_migration__political_polarization",
+    "source": "great_migration",
+    "target": "political_polarization",
+    "type": "ENABLED",
+    "label": "The Great Migration transformed both Northern cities and Southern politics, reshaping the partisan alignment that produced contemporary polarization",
+    "note": "The Great Migration reshaping of American politics took decades but was fundamental: Black migration to Northern cities created the urban-suburban racial divide that structured post-WWII politics; white flight from integrated neighborhoods (beginning 1940s-50s) produced suburban Republican constituencies; the Great Migration's political empowerment of Northern Black voters was a key factor in FDR's coalition and eventually produced the Civil Rights legislation that broke the New Deal coalition; Southern white voters moved to the Republican Party in response to civil rights (Goldwater 1964, Nixon's Southern Strategy), producing the partisan geographic sorting that defines contemporary polarization. The Great Migration set in motion demographic and political changes whose effects still shape American politics.",
+    "confidence": "high"
+  },
+  {
+    "id": "spanish_flu__collective_trauma",
+    "source": "spanish_flu",
+    "target": "collective_trauma",
+    "type": "PRODUCED",
+    "label": "The Spanish flu killed 50-100 million people yet was suppressed from public consciousness for decades — a case study in collective trauma erasure",
+    "note": "The Spanish flu is a case study in collective trauma suppression: wartime censorship prevented accurate reporting during the pandemic; the scale of death (50-100 million, more than WWI) was too overwhelming for normal grief processing; families were too depleted to publicly memorialize dead; post-war \"normalcy\" desire suppressed acknowledgment of pandemic suffering. The result was extraordinary amnesia: the Spanish flu was largely absent from public consciousness for decades, appearing only marginally in family stories and without the memorialization WWI received. Historians Laura Spinney (\"Pale Rider\") and John Barry (\"The Great Influenza\") documented this suppression. The COVID-19 pandemic's comparison to 1918 revealed that many Americans had never heard of the earlier pandemic.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther_king__nonviolent_resistance",
+    "source": "martin_luther_king",
+    "target": "nonviolent_resistance",
+    "type": "ENABLED",
+    "label": "King adapted Gandhi's satyagraha to the American context, developing a theology and practice of nonviolent resistance specific to Jim Crow",
+    "note": "King's nonviolent resistance was a deliberate adaptation of Gandhian strategy to American conditions: King visited India in 1959 and met Gandhi's followers; his \"Letter from Birmingham Jail\" explains why nonviolence was a strategic choice adapted to the specific conditions of Jim Crow (the oppressor's violence would be televised; American democratic ideology would feel contradiction between \"Land of the Free\" and fire hoses); King's synthesis of Gandhi and the African American church tradition — agape love as the basis for nonviolent resistance — was distinctively American. King acknowledged that Gandhi was his inspiration while insisting his approach was adapted to American context rather than simply imported.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther_king__lgbtq_rights_movement",
+    "source": "martin_luther_king",
+    "target": "lgbtq_rights_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "The Civil Rights Movement's legal and strategic toolkit was directly adopted by the LGBTQ rights movement",
+    "note": "The LGBTQ rights movement explicitly modeled itself on Civil Rights Movement strategy: the movement's legal strategy (ACLU, Lambda Legal litigation from test cases up to Supreme Court) followed the NAACP LDF playbook; the \"coming out\" strategy paralleled the sit-in strategy of making discrimination visible and personal; the argument that sexual orientation is not a choice paralleled civil rights arguments that race-based discrimination targets immutable characteristics; Bayard Rustin (gay Black civil rights leader who organized the March on Washington) embodied the movements' connection while his gayness was suppressed by movement leaders. King himself was reluctant to publicly support gay rights; his legacy has been claimed by both civil rights and LGBTQ movements.",
+    "confidence": "high"
+  },
+  {
+    "id": "hiroshima_nagasaki__cold_war",
+    "source": "hiroshima_nagasaki",
+    "target": "cold_war",
+    "type": "ENABLED",
+    "label": "Hiroshima and Nagasaki began the nuclear age whose strategic logic shaped every Cold War confrontation",
+    "note": "Hiroshima and Nagasaki inaugurated the nuclear age that structured the entire Cold War: the bombings demonstrated that nuclear weapons were usable and decisive; the Soviet response (accelerated nuclear program, producing a bomb in 1949) immediately made nuclear deterrence the central Cold War strategic logic; every subsequent Cold War crisis — Berlin Blockade, Korean War, Suez, Berlin Wall, Cuba — was managed with awareness of the nuclear threshold; every US-Soviet relationship was fundamentally a nuclear relationship. The Cold War's defining characteristic — intense rivalry without direct superpower war — was a direct consequence of the nuclear deterrence logic that Hiroshima and Nagasaki had established.",
+    "confidence": "high"
+  },
+  {
+    "id": "gandhi__civil_rights_movement",
+    "source": "gandhi",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "label": "Gandhi's satyagraha was the intellectual and strategic inspiration for the American Civil Rights Movement's nonviolent direct action",
+    "note": "Gandhi directly influenced the American Civil Rights Movement through multiple pathways: CORE (Congress of Racial Equality, founded 1942) explicitly adopted Gandhian nonviolence from its founding; Bayard Rustin traveled to India in 1948 to study Gandhian methods; King's 1959 India visit and his study of Gandhi's writings shaped his strategic thinking; the Montgomery Bus Boycott (1955-56) adapted the Indian Gandhian boycott method to American conditions. Gandhi's insight — that nonviolent resistance to unjust laws forces authorities to reveal their violence publicly, delegitimizing them in democratic societies with free press — was the strategic foundation of civil rights protest. The sit-in at Greensboro (1960) was Gandhian civil disobedience applied to American lunch counters.",
+    "confidence": "high"
+  },
+  {
+    "id": "greek_democracy__enlightenment",
+    "source": "greek_democracy",
+    "target": "enlightenment",
+    "type": "ENABLED",
+    "label": "Enlightenment political theorists used ancient Greek democracy as their primary historical reference case for self-governance",
+    "note": "The Enlightenment's democratic theory was substantially constructed around Greek democracy: Rousseau's \"general will\" drew on Athenian direct democracy's model of citizen participation; Montesquieu analyzed Greek city-state constitutions in \"The Spirit of the Laws\"; the American founders' debate about republic vs. democracy was explicitly framed in Greek terms (Athenian direct democracy as unstable; Spartan republic as stable but too oligarchic; Roman republic as the better model); the Federalist Papers' authors were deeply versed in Greek political theory. The Enlightenment did not invent democracy — it theorized and updated the ancient Greek concept using Greek case studies as empirical evidence.",
+    "confidence": "high"
+  },
+  {
+    "id": "bay_of_pigs__cold_war_proxy_wars",
+    "source": "bay_of_pigs",
+    "target": "cold_war_proxy_wars",
+    "type": "ENABLED",
+    "label": "Bay of Pigs exemplified the Cold War proxy war logic: using Cuban exile forces to remove a hostile government without direct US military involvement",
+    "note": "Bay of Pigs was proxy war logic applied to Cuba: the CIA trained approximately 1,400 Cuban exiles (Brigade 2506) as a proxy force to overthrow Castro without direct US military involvement; the proxy force would maintain plausible deniability for the US while achieving the Cold War objective of eliminating the Cuban communist government. The operation failed because the proxy force was inadequate without direct US air support (which Kennedy denied to maintain deniability); the Cuban population did not rise up to support the invasion (overestimated anti-Castro sentiment); and Castro's intelligence had advance warning. Bay of Pigs demonstrated both the appeal of the proxy war approach (avoiding direct US involvement) and its limits (proxy forces are a poor substitute for adequate military capability).",
+    "confidence": "high"
+  },
+  {
+    "id": "chile_coup_1973__latin_american_dirty_wars",
+    "source": "chile_coup_1973",
+    "target": "latin_american_dirty_wars",
+    "type": "PRODUCED",
+    "label": "Pinochet's Chile was both a Latin American dirty war and a template for subsequent dirty wars across the region through Operation Condor",
+    "note": "Chile's dirty war was simultaneously an event and a regional organizing force: DINA (Pinochet's secret police) killed and tortured thousands domestically; Chile was a founding member of Operation Condor (1975) — the CIA-facilitated coordination system where Argentina, Brazil, Chile, Uruguay, Paraguay, and Bolivia shared intelligence and conducted cross-border operations against each other's dissidents; Condor operations assassinated dissidents in third countries (Orlando Letelier killed in Washington DC, 1976). Chile provided both the template (systematic detention-torture-disappearance) and the coordination infrastructure that characterized Latin American dirty wars. The Pinochet model was explicitly studied and emulated by subsequent dirty war regimes.",
+    "confidence": "high"
   }
 ]
