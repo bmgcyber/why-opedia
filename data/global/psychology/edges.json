@@ -353,5 +353,68 @@
     "label": "Both emerged as text-based traditions pivoting from destroyed ritual centers to portable learning communities",
     "note": "Rabbinic Judaism (emerging after the destruction of the Second Temple, 70 CE) and Confucianism (emerging after the Zhou dynasty collapse disrupted ritual practice, ~500 BCE) share the same structural response to ritual center destruction: pivot from place-based ritual to portable text-based learning communities. Both created: a canon of authoritative texts (Mishnah/Talmud; Analects/Four Books), a class of learned interpreters (rabbis; Confucian scholars), and a practice-based piety centered on study and ethical conduct rather than sacrifice. The parallel is a textbook case of parallel cultural evolution under similar selective pressure.",
     "confidence": "high"
+  },
+  {
+    "id": "radicalization__social_media_algorithms",
+    "source": "radicalization",
+    "target": "social_media_algorithms",
+    "type": "ENABLED",
+    "label": "Social media algorithms accelerate radicalization by systematically serving increasingly extreme content to engaged users",
+    "note": "Social media algorithms drive radicalization through engagement optimization: content that produces strong emotional reactions (outrage, fear, disgust) generates more engagement signals; algorithms serving similar but more extreme content to engaged users creates the radicalization pipeline; recommendation systems on YouTube, Facebook, and Twitter have been documented leading users from mainstream political content to increasingly extreme right-wing, white nationalist, and conspiratorial content within multiple sessions. The \"YouTube pipeline\" to right-wing radicalization was documented by Ribeiro et al. (2019); similar dynamics operate on other platforms. Algorithmic radicalization requires no human recruiter — the platform architecture does the work.",
+    "confidence": "high"
+  },
+  {
+    "id": "radicalization__conspiracy_theories",
+    "source": "radicalization",
+    "target": "conspiracy_theories",
+    "type": "ENABLED",
+    "label": "Conspiracy theory belief is both a driver and product of radicalization — it provides the alternative epistemic framework that makes extreme views coherent",
+    "note": "Conspiracy theories and radicalization are structurally linked: conspiracy theories provide the alternative epistemic framework that makes extreme ideological positions coherent — if mainstream institutions are corrupt and lying, then extreme responses seem proportionate; conspiracy theory communities provide the social belonging and identity that radicalization requires; shared conspiracy belief creates the in-group boundary that distinguishes radicals from normies. QAnon demonstrated the full dynamic: a specific conspiracy theory that embedded users in a community, provided escalating revelations, and produced real-world violence (January 6) from participants who were primarily radicalized online.",
+    "confidence": "high"
+  },
+  {
+    "id": "radicalization__incel_culture",
+    "source": "radicalization",
+    "target": "incel_community",
+    "type": "ENABLED",
+    "label": "Incel communities are radicalization environments where misogynist grievance escalates to celebration of mass violence",
+    "note": "Incel communities demonstrate radicalization dynamics: entry via relatable social failure and loneliness; community validation of individual grievance as systemic (\"hypergamy,\" \"Chad/Stacy\"); escalating rhetoric from frustration to hatred to celebration of violence against women; \"black pill\" ideology (nothing can improve their situation) as nihilistic endpoint; multiple mass shootings attributed to incel ideology (Elliot Rodger 2014, Alek Minassian 2018). The radicalization pipeline from \"I'm lonely and can't get dates\" to \"women deserve to die\" involves community norm escalation, identity investment in the ideology, and exposure to increasing celebration of violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "mgtow__incel_culture",
+    "source": "mgtow",
+    "target": "incel_community",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "MGTOW and incel culture share the manosphere pipeline of male grievance, anti-feminism, and escalating radicalization",
+    "note": "MGTOW and incel communities share structural features while differing in ideology: both center male grievance about gender relations; both promote anti-feminist frameworks; both exist in overlapping online communities (Reddit, forums, YouTube); both share \"red pill\" language and concepts. The difference: incels believe they cannot get sex/relationships because of women's hypergamy; MGTOW choose to separate from women as a response to the same perceived female hypergamy. Both exist on the manosphere radicalization spectrum that can extend to misogynist violence. MGTOW was sometimes a radicalization step before or after incel identification.",
+    "confidence": "high"
+  },
+  {
+    "id": "mgtow__right_wing_populism",
+    "source": "mgtow",
+    "target": "right_wing_populism",
+    "type": "ENABLED",
+    "label": "Manosphere politics feed right-wing populism through shared antifeminism, anti-immigration, and anti-establishment grievance",
+    "note": "MGTOW and manosphere communities are political recruitment grounds for right-wing populism: shared anti-feminism and traditionalist gender ideology connects to broader right-wing politics; manosphere influencers (Jordan Peterson, Joe Rogan) introduced young men to right-wing political ideas through masculinity content; Trump's campaign explicitly targeted the male grievance demographic; Andrew Tate exemplifies the pipeline from manosphere influencer to explicitly political right-wing messaging. The radicalization pipeline: men seek content about dating/masculinity → anti-feminist framing → broader right-wing politics → white nationalism in some cases.",
+    "confidence": "high"
+  },
+  {
+    "id": "conspiracy_theories__broken_epistemology",
+    "source": "conspiracy_theories",
+    "target": "broken_epistemology",
+    "type": "ENABLED",
+    "label": "Widespread conspiracy theory belief produces broken epistemology at the societal level — shared reality becomes impossible to maintain",
+    "note": "Conspiracy theories produce broken epistemology through multiple pathways: they establish unfalsifiability as a feature (any disconfirming evidence is evidence of the conspiracy's power); they create parallel information ecosystems with incompatible factual claims; they erode trust in the institutions (media, science, government) that produce shared factual frameworks. When significant portions of the population believe in mutually incompatible realities (election fraud, COVID being fake, vaccine microchips), democratic deliberation and collective problem-solving become impossible. The COVID pandemic demonstrated the life-or-death stakes of broken epistemology — conspiracy beliefs about vaccines and treatments produced hundreds of thousands of preventable deaths.",
+    "confidence": "high"
+  },
+  {
+    "id": "conspiracy_theories__antisemitism",
+    "source": "conspiracy_theories",
+    "target": "antisemitism",
+    "type": "ENABLED",
+    "label": "Antisemitic conspiracy theories are the oldest and most persistent conspiracy framework; modern conspiracism regularly reverts to antisemitic tropes",
+    "note": "Antisemitism and conspiracy theory are structurally linked: the Protocols of the Elders of Zion (1903) was the first modern conspiracy text, and its narrative (secret Jewish elite controlling governments and finance) has been recycled through every subsequent conspiracy framework: the Illuminati narrative is often antisemitic; QAnon's \"cabal of Satan-worshipping pedophiles\" revived medieval blood libel antisemitism; George Soros conspiracy theories deploy antisemitic \"puppetmaster\" tropes; \"the Great Replacement\" conspiracy theory about elite manipulation of immigration is often explicitly antisemitic. Conspiracy theories tend toward antisemitism because their narrative logic (secret powerful elite controlling society) maps onto existing antisemitic tropes.",
+    "confidence": "high"
   }
 ]

@@ -1297,5 +1297,105 @@
       "brexit",
       "trade"
     ]
+  },
+  {
+    "id": "labor_movement",
+    "label": "Labor Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1870s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Labour_movement",
+    "summary": "Collective organization of workers to improve wages, hours, and conditions through unions, strikes, and political action; responsible for the 8-hour day, weekends, child labor laws, and workplace safety.",
+    "tags": [
+      "unions",
+      "workers rights",
+      "strikes",
+      "collective bargaining",
+      "socialism",
+      "class struggle",
+      "AFL-CIO"
+    ]
+  },
+  {
+    "id": "reconstruction_era",
+    "label": "Reconstruction Era",
+    "node_type": "era",
+    "category": "era",
+    "decade": "1860s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Reconstruction_era",
+    "summary": "Period 1865-1877 of attempted integration of formerly enslaved people into American political and economic life; ended by the Compromise of 1877 and subsequent violent removal of Black political power in the South.",
+    "tags": [
+      "reconstruction",
+      "civil war aftermath",
+      "black suffrage",
+      "freedmen",
+      "jim crow",
+      "compromise 1877",
+      "political rights"
+    ]
+  },
+  {
+    "id": "jim_crow",
+    "label": "Jim Crow Laws",
+    "node_type": "policy",
+    "category": "policy",
+    "decade": "1870s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Jim_Crow_laws",
+    "summary": "System of racial apartheid laws in the US South (1877-1965) enforcing racial segregation in schools, transportation, public accommodations, and political life; enforced through legal discrimination and racial terror.",
+    "tags": [
+      "segregation",
+      "racial apartheid",
+      "south",
+      "disenfranchisement",
+      "lynching",
+      "separate but equal",
+      "civil rights"
+    ]
+  },
+  {
+    "id": "franklin_d_roosevelt",
+    "label": "Franklin D. Roosevelt",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1930s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+    "summary": "US President 1933-1945; created the New Deal to address the Great Depression, led the US through WWII, established the modern welfare state; also interned Japanese Americans and made strategic compromises on civil rights.",
+    "tags": [
+      "new deal",
+      "great depression",
+      "world war ii",
+      "welfare state",
+      "keynesianism",
+      "japanese internment",
+      "four terms"
+    ]
+  },
+  {
+    "id": "reparations_debate",
+    "label": "Reparations Debate",
+    "node_type": "debate",
+    "category": "debate",
+    "decade": "1990s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Reparations_for_slavery_in_the_United_States",
+    "summary": "Ongoing debate over whether the US should provide reparations for slavery and subsequent racial oppression; Ta-Nehisi Coates renewed national discussion in 2014.",
+    "tags": [
+      "reparations",
+      "slavery",
+      "racial justice",
+      "coates",
+      "HR 40",
+      "economic justice",
+      "history"
+    ]
   }
 ]

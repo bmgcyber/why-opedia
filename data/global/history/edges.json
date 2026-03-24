@@ -4102,5 +4102,86 @@
     "label": "Colonial resource extraction created the economic structures and governance patterns that produce the resource curse in post-colonial states",
     "note": "The resource curse in post-colonial states is substantially a legacy of colonial economic design: colonial economies were structured for extraction (primary commodity export) rather than diversification; colonial infrastructure (railways, ports) connected resource areas to export points, not internal markets; colonial governance concentrated power in extractive institutions; European companies maintained extraction relationships through independence via neocolonial arrangements. The post-independence states that inherited these structures — dependent on single commodity exports, with governance designed for extraction rather than development — were structurally predisposed to resource curse dynamics.",
     "confidence": "high"
+  },
+  {
+    "id": "mccarthyism__red_scare",
+    "source": "mccarthyism",
+    "target": "red_scare",
+    "type": "PRODUCED",
+    "label": "McCarthyism was the personification of the Red Scare but the Red Scare preceded and outlasted McCarthy himself",
+    "note": "McCarthyism and the Red Scare are related but distinct: the Red Scare (Second, 1947-1957) was a broad social and political phenomenon including HUAC, Hollywood blacklists, loyalty oaths, and anti-communist legislation; McCarthy (1950-1954) was a senator who weaponized the existing anti-communist atmosphere for political power. McCarthy gave the Red Scare its most visible and reckless expression but did not create it — he was destroyed (Army-McCarthy hearings, 1954) while the broader Red Scare structures remained. The Red Scare lasted longer and had deeper institutional effects than McCarthy's brief prominence.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war__red_scare",
+    "source": "cold_war",
+    "target": "red_scare",
+    "type": "PRODUCED",
+    "label": "The Cold War's ideological competition produced the Red Scare's domestic anti-communist purge",
+    "note": "The Red Scare was the domestic face of Cold War ideology: the Soviet Union's acquisition of nuclear weapons (1949), the Chinese Communist Revolution (1949), and the Korean War (1950) created genuine public fear of communist expansion; HUAC, the FBI, and politicians exploited these fears; actual Soviet espionage (Rosenbergs, Alger Hiss) provided real cases that could be used to justify the broader witch hunt. The Cold War required an internal enemy to mirror the external one — the Red Scare constructed domestic communists as that enemy. The Red Scare's effects lasted beyond the Cold War: it destroyed the American left's institutional base.",
+    "confidence": "high"
+  },
+  {
+    "id": "red_scare__cointelpro",
+    "source": "red_scare",
+    "target": "cointelpro",
+    "type": "ENABLED",
+    "label": "Red Scare institutions (FBI counter-subversion programs) directly evolved into COINTELPRO",
+    "note": "COINTELPRO (1956-1971) emerged from Red Scare institutional infrastructure: FBI Director Hoover had built the counter-communist apparatus during the Red Scare; COINTELPRO applied the same techniques (infiltration, disruption, illegal surveillance) to civil rights organizations, the New Left, and Black liberation movements after the formal Red Scare ended. The transition was seamless — for Hoover, communists and civil rights leaders were the same threat. COINTELPRO demonstrated that Red Scare methods outlived their ostensible target: the infrastructure of political repression, once built, was applied to whatever movements threatened the existing order.",
+    "confidence": "high"
+  },
+  {
+    "id": "robber_barons__labor_movement",
+    "source": "robber_barons",
+    "target": "labor_movement",
+    "type": "PRODUCED",
+    "label": "Robber baron labor exploitation and violent strike-breaking created the conditions that produced the modern labor movement",
+    "note": "The Robber Baron era directly created the organized labor movement: Rockefeller's Standard Oil, Carnegie's steel mills, and Morgan's railroads paid poverty wages, demanded 70-hour weeks, employed child labor, and used Pinkertons and state militias to violently break strikes (Homestead Strike 1892, Pullman Strike 1894). These conditions made organized labor's formation an act of economic survival. The AFL (1886) and later the CIO (1935) emerged from workers whose only alternative to collective action was continued exploitation. The violence of the robber baron response to organizing (strike-breaking, blacklisting, murder) demonstrated that labor rights required legal protection, eventually producing the Wagner Act.",
+    "confidence": "high"
+  },
+  {
+    "id": "robber_barons__progressive_era",
+    "source": "robber_barons",
+    "target": "progressive_era",
+    "type": "PRODUCED",
+    "label": "Robber baron monopoly power and political corruption produced the Progressive Era's regulatory and anti-monopoly response",
+    "note": "The Progressive Era (1890s-1920s) was directly produced by Robber Baron excess: Standard Oil's monopolistic control of oil refining; J.P. Morgan's financial power (he personally stabilized the US banking system in 1907, revealing that one private individual had more economic power than the federal government); railroad price manipulation; corporate political corruption (railroads owned entire state legislatures). Muckraking journalists (Ida Tarbell on Standard Oil, Upton Sinclair on meatpacking) documented these abuses; Progressive politicians (Roosevelt, La Follette, Wilson) built reform coalitions. The regulatory state was built in direct response to Robber Baron power.",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow__great_migration",
+    "source": "jim_crow",
+    "target": "great_migration",
+    "type": "CAUSED",
+    "label": "Jim Crow terror, lynching, and economic exclusion drove African Americans to leave the South in the Great Migration",
+    "note": "The Great Migration (1910-1970) was caused by Jim Crow: racial violence (lynching, which peaked in the 1890s and 1900s), sharecropping economic peonage, systematic educational exclusion, and legal disenfranchisement made the South untenable for Black Americans seeking economic opportunity or physical safety. Northern industrial jobs (especially during WWI labor shortages) provided the economic pull; Jim Crow violence and exploitation provided the political push. The Great Migration transformed American cities, politics, and culture — the Harlem Renaissance, Chicago blues, Northern Black political power — but also produced Northern residential segregation and racial conflict as whites resisted Black urban migration.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_migration__civil_rights_movement",
+    "source": "great_migration",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "label": "The Great Migration created the Northern Black political base and economic resources that made the Civil Rights Movement organizationally viable",
+    "note": "The Great Migration made the Civil Rights Movement possible: Northern Black communities had voting rights, economic resources, and political connections denied in the South; Northern Black newspapers (Chicago Defender) covered Southern racial violence that Southern papers suppressed; the NAACP built organizational infrastructure in Northern cities; Northern Black voters became crucial in key electoral states, giving the movement political leverage with national Democratic politicians. The Civil Rights Movement's Southern campaigns were organizationally and financially supported by Northern Black communities whose political power derived from the Great Migration.",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow__tulsa_race_massacre",
+    "source": "jim_crow",
+    "target": "tulsa_race_massacre",
+    "type": "PRODUCED",
+    "label": "The Tulsa Massacre was Jim Crow racial violence at its most concentrated — the destruction of Black economic success that violated racial hierarchy",
+    "note": "The Tulsa Race Massacre (1921) was an extreme expression of Jim Crow racial violence: Greenwood's \"Black Wall Street\" represented Black economic success and independence that violated the racial hierarchy Jim Crow was designed to enforce. The immediate trigger was a disputed incident involving a Black man and white elevator operator; the actual motivation was white rage at Black prosperity and self-sufficiency. The massacre was organized and carried out with police participation; airplanes were used to surveil and possibly fire on Black neighborhoods. The 80-year suppression of the massacre in Oklahoma history demonstrates the relationship between racial violence and historical erasure that is itself a Jim Crow legacy.",
+    "confidence": "high"
+  },
+  {
+    "id": "tulsa_race_massacre__reparations_debate",
+    "source": "tulsa_race_massacre",
+    "target": "reparations_debate",
+    "type": "ENABLED",
+    "label": "Tulsa became a focal point of reparations debate because it involves identifiable victims, documented property destruction, and living descendants",
+    "note": "The Tulsa Race Massacre is the leading concrete case in reparations debates because it combines features that make the abstract concrete: documented property destruction with calculable value; identified perpetrators and victims; living survivors and their children; government participation making state liability clear; and documented suppression of victims' prior attempts at compensation. The 2021 centennial renewed national attention during the BLM moment. Greenwood survivors testified to Congress. Oklahoma courts have considered reparations lawsuits. Tulsa demonstrates both the case for reparations and the institutional resistance to them.",
+    "confidence": "high"
   }
 ]

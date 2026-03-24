@@ -1528,5 +1528,95 @@
     "label": "The Cold War provided the security context that made European integration politically feasible",
     "note": "European integration was enabled by Cold War conditions: the Soviet threat provided the security motivation for Western European cooperation; US support (Marshall Plan, NATO) created the economic and security foundations for integration; the division of Europe at the Iron Curtain made Western European states prioritize unity over competition. Without the Cold War's security umbrella, French-German reconciliation and pooled sovereignty would have been politically impossible. The EU's expansion after 1989 demonstrated this: without Soviet threat, integration became contested rather than consensus.",
     "confidence": "high"
+  },
+  {
+    "id": "labor_movement__new_deal",
+    "source": "labor_movement",
+    "target": "new_deal",
+    "type": "ENABLED",
+    "label": "Labor movement pressure and electoral power made the New Deal's pro-labor legislation politically possible",
+    "note": "The labor movement was essential to the New Deal's political economy: the 1930s mass strike wave (sit-down strikes, auto workers, steelworkers) demonstrated labor's power; the AFL and CIO provided FDR's electoral coalition; labor leaders shaped the National Labor Relations Act (Wagner Act, 1935) and Social Security. The New Deal gave labor legal recognition and collective bargaining rights (NLRA); labor gave the New Deal the political base to overcome business opposition. The New Deal-labor alliance was the foundation of Democratic Party politics for the next 40 years.",
+    "confidence": "high"
+  },
+  {
+    "id": "labor_movement__neoliberalism",
+    "source": "labor_movement",
+    "target": "neoliberalism",
+    "type": "DISCREDITED",
+    "label": "Neoliberalism systematically dismantled the institutional power of the labor movement through Reagan-Thatcher era policy",
+    "note": "Neoliberalism targeted labor movement institutional power as central to its project: Reagan's PATCO strike-breaking (1981) signaled government would not enforce labor rights; Thatcher broke the miners' union (1984-85); deregulation and trade liberalization moved manufacturing to low-wage countries; anti-union legislation reduced organizing rights. Union membership in the US fell from 35% (1955) to 10% (2020). This was not market accident — it was deliberate policy. The decline of union power correlates precisely with the rise in income inequality, demonstrating that unions were the primary institutional mechanism for distributing productivity gains to workers.",
+    "confidence": "high"
+  },
+  {
+    "id": "labor_movement__civil_rights_movement",
+    "source": "labor_movement",
+    "target": "civil_rights_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "The labor and civil rights movements shared organizing tactics, leadership, and goals while also experiencing deep racial tension within unions",
+    "note": "The labor and civil rights movements had complex, intertwined histories: A. Philip Randolph organized the Brotherhood of Sleeping Car Porters (first major Black union) and used labor power to desegregate defense industries (threatened 1941 march on Washington that produced FDR's Executive Order 8802); the 1963 March on Washington was officially a March for Jobs and Freedom organized by labor leaders; King was in Memphis supporting striking sanitation workers when assassinated (1968). But AFL unions also enforced racial exclusion for decades. The movements shared class analysis and organizing tactics while navigating the union movement's structural racism.",
+    "confidence": "high"
+  },
+  {
+    "id": "reconstruction_era__jim_crow",
+    "source": "reconstruction_era",
+    "target": "jim_crow",
+    "type": "ENABLED",
+    "label": "The failure of Reconstruction directly produced Jim Crow as the Southern white elite reasserted political and economic control",
+    "note": "Jim Crow was the direct consequence of Reconstruction's defeat: the Compromise of 1877 ended federal enforcement of Reconstruction amendments; Southern states immediately began dismantling Black political power through violence, fraud, and eventually literacy tests and poll taxes; the Supreme Court's Plessy v. Ferguson (1896) provided the legal architecture; lynching enforced the new racial order through terror. Jim Crow was not a natural cultural development — it was a deliberate political project to restore the racial hierarchy that slavery had institutionalized, adapting to the post-slavery legal context.",
+    "confidence": "high"
+  },
+  {
+    "id": "american_civil_war__reconstruction_era",
+    "source": "american_civil_war",
+    "target": "reconstruction_era",
+    "type": "PRODUCED",
+    "label": "The Civil War's military victory over slavery produced the Reconstruction effort to integrate formerly enslaved people into the republic",
+    "note": "Reconstruction was the political consequence of Union victory: the 13th, 14th, and 15th amendments abolished slavery, established birthright citizenship, and guaranteed voting rights; the Freedmen's Bureau attempted economic integration; Black Americans held office throughout the South for the first time. Reconstruction demonstrated what was possible — and its violent defeat demonstrated the limits of legal change without sustained enforcement. Historians now recognize Reconstruction's achievements as remarkable given the scale of the task; its failure was not inevitable but the result of political decisions to withdraw federal troops and enforcement.",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow__civil_rights_movement",
+    "source": "jim_crow",
+    "target": "civil_rights_movement",
+    "type": "PRODUCED",
+    "label": "Jim Crow's systematic racial violence and legal oppression was the direct target and motivation of the Civil Rights Movement",
+    "note": "The Civil Rights Movement was specifically a movement against Jim Crow: the Montgomery Bus Boycott (1955) targeted bus segregation; sit-ins targeted lunch counter segregation; Freedom Riders targeted interstate transportation segregation; the Voting Rights Act targeted literacy tests and poll taxes. Jim Crow's specific legal architecture — separate but equal facilities, systematic disenfranchisement, racial terror enforcement — shaped the movement's tactics (nonviolent direct action to expose Jim Crow's violence) and its legislative victories (Civil Rights Act 1964, Voting Rights Act 1965). Jim Crow created the conditions requiring the Civil Rights Movement.",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow__voter_suppression_modern",
+    "source": "jim_crow",
+    "target": "voter_suppression_modern",
+    "type": "ENABLED",
+    "label": "Modern voter suppression revives Jim Crow disenfranchisement tactics through neutral-seeming procedural restrictions that disparately impact Black voters",
+    "note": "Modern voter suppression laws revive Jim Crow tactics in legally race-neutral packaging: voter ID laws (Black Americans disproportionately lack required ID), purging voter rolls (purges disproportionately target Black and Latino voters), closing polling places in minority areas, limiting early voting and Sunday voting (Black churches' \"souls to the polls\"). The Shelby County v. Holder (2013) Supreme Court decision gutted the Voting Rights Act's preclearance requirement — within hours of the decision, states began passing voter suppression legislation. The structural continuity from Jim Crow poll taxes and literacy tests to modern voter ID laws is recognized by civil rights scholars.",
+    "confidence": "high"
+  },
+  {
+    "id": "franklin_d_roosevelt__new_deal",
+    "source": "franklin_d_roosevelt",
+    "target": "new_deal",
+    "type": "PRODUCED",
+    "label": "FDR designed and implemented the New Deal as a pragmatic response to the Great Depression's political and economic crisis",
+    "note": "FDR created the New Deal through three phases of legislation (1933-1938): First New Deal (banking reform, FDIC, farm policy, CCC); Second New Deal (Wagner Act, Social Security, WPA); Third New Deal (Fair Labor Standards Act). FDR's approach was pragmatic rather than ideological — he tried things, kept what worked, abandoned what did not. His Brain Trust (economists, academics, lawyers) produced a flood of legislation in the First Hundred Days. FDR's political genius was framing New Deal programs as saving capitalism from itself, rather than replacing it — defusing revolutionary pressure while providing economic relief.",
+    "confidence": "high"
+  },
+  {
+    "id": "franklin_d_roosevelt__world_war_ii",
+    "source": "franklin_d_roosevelt",
+    "target": "world_war_ii",
+    "type": "ENABLED",
+    "label": "FDR's management of US war mobilization was decisive in Allied victory through Lend-Lease, industrial conversion, and alliance-building",
+    "note": "FDR's WWII leadership shaped the Allied victory: Lend-Lease provided Britain and USSR with materials before US entry; the \"Arsenal of Democracy\" industrial mobilization converted US manufacturing to war production at unprecedented speed; FDR maintained the Grand Alliance between the US, Britain, and USSR despite deep mutual suspicion; Bretton Woods (1944) and the UN (1945) created the postwar international order FDR envisioned. FDR's compromises with Stalin at Yalta (dividing Eastern Europe) and his failure to act on Holocaust information remain historical controversies that complicate his legacy as wartime leader.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_depression__franklin_d_roosevelt",
+    "source": "great_depression",
+    "target": "franklin_d_roosevelt",
+    "type": "PRODUCED",
+    "label": "The Great Depression's severity made FDR's election politically possible and his radical New Deal programs politically necessary",
+    "note": "FDR's election (1932) and the New Deal were direct political products of the Great Depression: Hoover's failure to respond effectively had produced 25% unemployment, mass bank failures, and Hoovervilles; the Depression made the electorate receptive to radical intervention; fear of communist revolution or fascist response (as in Germany) made business elites willing to accept New Deal reforms as the price of stability. The Depression created the political space for institutional transformation that would have been impossible in normal economic conditions. FDR's \"nothing to fear but fear itself\" was also implicitly about the fear of political revolution.",
+    "confidence": "high"
   }
 ]

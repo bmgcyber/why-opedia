@@ -461,5 +461,87 @@
       "incels",
       "white-nationalism"
     ]
+  },
+  {
+    "id": "radicalization",
+    "label": "Online Radicalization",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Radicalization",
+    "summary": "Process by which individuals adopt increasingly extreme political, social, or religious views, often facilitated by online communities that provide validation, identity, and escalating content.",
+    "tags": [
+      "extremism",
+      "pipeline",
+      "online communities",
+      "identity",
+      "echo chamber",
+      "white nationalism",
+      "incel",
+      "ISIS"
+    ]
+  },
+  {
+    "id": "conspiracy_theories",
+    "label": "Conspiracy Theory Psychology",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1990s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Conspiracy_theory",
+    "summary": "Psychological and social dynamics underlying belief in conspiracy theories: need for cognitive closure, pattern recognition overactivation, distrust of institutions, social belonging in belief communities.",
+    "tags": [
+      "conspiracy",
+      "psychology",
+      "epistemology",
+      "distrust",
+      "pattern recognition",
+      "qanon",
+      "cognitive bias"
+    ]
+  },
+  {
+    "id": "satanic_panic",
+    "label": "Satanic Panic",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1980s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Satanic_panic",
+    "summary": "1980s-90s wave of false accusations of Satanic ritual abuse driven by moral panic, leading interview techniques, and false memories; produced wrongful convictions including the McMartin preschool case.",
+    "tags": [
+      "moral panic",
+      "false memory",
+      "mcmartin",
+      "ritual abuse",
+      "hysteria",
+      "media",
+      "wrongful conviction"
+    ]
+  },
+  {
+    "id": "antisemitism",
+    "label": "Antisemitism",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "100s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Antisemitism",
+    "summary": "Prejudice against, hatred of, or discrimination against Jews; the oldest continuous form of bigotry in Western history, recurring across ideological contexts from medieval Christendom to modern far-right movements.",
+    "tags": [
+      "antisemitism",
+      "judaism",
+      "racism",
+      "hatred",
+      "holocaust",
+      "conspiracy",
+      "scapegoating",
+      "pogrom"
+    ]
   }
 ]

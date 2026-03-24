@@ -6324,5 +6324,77 @@
     "label": "The CIA ran propaganda and media manipulation programs as standard tools of covert operations",
     "note": "The CIA institutionalized manufactured consent as a covert tool: Operation Mockingbird (documented by the Church Committee) paid journalists and placed assets in major American and international news organizations; Radio Free Europe and Radio Liberty were CIA fronts; the Congress for Cultural Freedom (backed by CIA) funded intellectual magazines and cultural events to promote liberal anti-communism. The CIA's media operations operated on the understanding that controlling the information environment is as important as military operations — manufactured consent as a form of bloodless regime change at home and abroad.",
     "confidence": "high"
+  },
+  {
+    "id": "climate_change_denial__environmental_degradation",
+    "source": "climate_change_denial",
+    "target": "environmental_degradation",
+    "type": "ENABLED",
+    "label": "Climate denial campaigns delayed policy action that has allowed environmental degradation to accelerate",
+    "note": "Climate change denial has directly enabled environmental degradation by blocking policy response: ExxonMobil's internal research from the 1970s accurately predicted climate change; their decision to fund denial rather than transition enabled three additional decades of fossil fuel expansion; the deliberate manufacturing of scientific doubt (the \"merchants of doubt\" strategy modeled on tobacco) prevented policy action during the 1990s and 2000s when mitigation would have been cheaper and more effective. The denial campaign's success in preventing carbon pricing or fossil fuel phase-out represents the most consequential example of organized corporate disinformation in history by magnitude of harm.",
+    "confidence": "high"
+  },
+  {
+    "id": "climate_change_denial__manufactured_consent",
+    "source": "climate_change_denial",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "label": "Climate denial used manufactured consent techniques — false balance, bought experts, astroturf groups — to create apparent public controversy about settled science",
+    "note": "Climate change denial systematically applied manufactured consent techniques: the Global Climate Coalition (fossil fuel industry) paid for scientific-seeming reports contradicting climate consensus; \"Junk Science\" blogs created appearance of grassroots skepticism; think tanks (Heartland Institute, Cato Institute) received fossil fuel funding to produce policy papers; media \"balance\" standards gave equal time to bought skeptics and actual climate scientists. The playbook was explicitly borrowed from tobacco: create doubt, not convince of alternative, to prevent policy action. Naomi Oreskes's \"Merchants of Doubt\" documented the same scientists doing tobacco denial and climate denial.",
+    "confidence": "high"
+  },
+  {
+    "id": "conspiracy_theory_grifters__climate_change_denial",
+    "source": "conspiracy_theory_grifters",
+    "target": "climate_change_denial",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Climate denial and conspiracy grifting share the business model of selling alternative epistemology to institutions threatened by accurate information",
+    "note": "Climate denial and conspiracy grifting share structural features: both profit from anti-institutional epistemology; both sell \"hidden truth\" that official science suppresses; both create community around shared rejection of expertise; both provide economic return to grifters (fossil fuel companies, media personalities, book sellers) while imposing costs on their audiences. The overlap between climate denial and broader conspiracy culture (COVID denial, QAnon) demonstrates how alternative epistemology communities share members and reinforce each other. Climate denial pioneered the institutional infrastructure that COVID denial later used.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_panic__war_on_drugs",
+    "source": "moral_panic",
+    "target": "war_on_drugs",
+    "type": "ENABLED",
+    "label": "The War on Drugs was launched and sustained by repeated moral panics about drug use that were systematically exaggerated for political effect",
+    "note": "The War on Drugs required moral panics to maintain political support: the crack cocaine panic (1986) produced the 100:1 sentencing disparity that sentenced crack (associated with Black users) to prison terms 100 times longer than powder cocaine (associated with white users) for equivalent amounts; the \"crack baby\" panic (proved exaggerated) justified draconian sentencing; methamphetamine panics in the 2000s; opioid crisis framing as street crime rather than pharmaceutical industry failure. Each wave of moral panic enabled more punitive legislation. John Ehrlichman (Nixon's domestic policy advisor) admitted the War on Drugs was designed to criminalize Black people and antiwar protesters.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_panic__satanic_panic",
+    "source": "moral_panic",
+    "target": "satanic_panic",
+    "type": "PRODUCED",
+    "label": "The Satanic Panic was the classic case study of moral panic dynamics: media amplification producing false mass confession, hysteria, and wrongful convictions",
+    "note": "The Satanic Panic (1980s-early 1990s) is the paradigm case of moral panic: McMartin preschool case and dozens of other \"ritual abuse\" cases were produced entirely by leading interview techniques on children, therapist-induced false memories, and media amplification; hundreds of innocent people were imprisoned; \"repressed memory\" therapy created false memories of abuse in adults; the Diagnostic and Statistical Manual recognized recovered memory syndrome problems. The Satanic Panic case study demonstrates how moral panic mechanisms — initial accusation, media amplification, authority confirmation, community conformity pressure, investigation bias toward confirmation — produce massive injustice despite lack of evidence.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group__moral_panic",
+    "source": "in_group_out_group_dynamics",
+    "target": "moral_panic",
+    "type": "ENABLED",
+    "label": "Moral panics require an out-group (\"folk devil\") to focus community anxiety; in-group/out-group dynamics determine who becomes the target",
+    "note": "Moral panics require a \"folk devil\" — a stigmatized group onto which community anxiety is projected. Which group becomes the folk devil is determined by existing in-group/out-group structures: racial minorities (crack epidemic), youth subcultures (heavy metal, video games), religious minorities (Satanists), sexual minorities (gay men as AIDS threat, LGBTQ as threat to children). The moral panic literature (Stanley Cohen's \"Folk Devils and Moral Panics\") demonstrates that the chosen folk devil reveals the society's existing anxieties and social hierarchies more accurately than it reveals actual threats. The mechanism: in-group anxiety → out-group designation → panic → repression → reinforced hierarchy.",
+    "confidence": "high"
+  },
+  {
+    "id": "epigenetics__collective_trauma",
+    "source": "epigenetics",
+    "target": "collective_trauma",
+    "type": "ENABLED",
+    "label": "Epigenetic research provides biological mechanisms for the intergenerational transmission of collective trauma effects",
+    "note": "Epigenetic research offers biological explanation for collective trauma transmission: studies of Holocaust survivors' children show altered cortisol stress response profiles consistent with epigenetic inheritance; research on descendants of famine survivors shows metabolic changes; studies of communities experiencing sustained racial violence show stress biomarkers in subsequent generations. The Rachel Yehuda lab's Holocaust epigenetics research is the most cited. These findings suggest collective trauma has biological as well as psychological and social transmission pathways — challenging strict gene/environment separations and providing scientific basis for claims about historical trauma's ongoing effects.",
+    "confidence": "high"
+  },
+  {
+    "id": "epigenetics__adverse_childhood_experiences",
+    "source": "epigenetics",
+    "target": "adverse_childhood_experiences",
+    "type": "ENABLED",
+    "label": "ACE research and epigenetics converge on the same insight: early environmental experience has lasting biological effects through gene expression changes",
+    "note": "ACE research and epigenetics converge: ACE studies document that early childhood trauma (abuse, neglect, household dysfunction) produces lasting health impacts; epigenetic research explains the biological mechanism — early stress produces methylation changes in stress-response genes that alter HPA axis function, cortisol response, and inflammatory pathways. Together they demonstrate that childhood trauma is not simply psychological but has measurable biological effects that persist through gene expression changes. This convergence has therapeutic implications: epigenetic changes are potentially reversible, suggesting that trauma-focused interventions might produce biological as well as psychological healing.",
+    "confidence": "high"
   }
 ]

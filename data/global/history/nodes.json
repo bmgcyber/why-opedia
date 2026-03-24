@@ -3898,5 +3898,108 @@
       "americas",
       "european expansion"
     ]
+  },
+  {
+    "id": "red_scare",
+    "label": "Red Scare",
+    "node_type": "era",
+    "category": "era",
+    "decade": "1940s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Second_Red_Scare",
+    "summary": "Period of intense anti-communist suspicion in the US (1947-1957) driven by McCarthy hearings, HUAC investigations, Hollywood blacklists, and loyalty oaths; produced lasting chilling effects on American left politics.",
+    "tags": [
+      "mccarthyism",
+      "communism",
+      "huac",
+      "blacklist",
+      "cold war",
+      "loyalty oaths",
+      "witch hunt"
+    ]
+  },
+  {
+    "id": "robber_barons",
+    "label": "Robber Barons",
+    "node_type": "era",
+    "category": "era",
+    "decade": "1870s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Robber_baron_(industrialist)",
+    "summary": "Late 19th-century US industrialists (Rockefeller, Carnegie, Morgan, Vanderbilt) who built monopolistic fortunes through ruthless business practices, labor exploitation, and political corruption; spurred the Progressive Era regulatory response.",
+    "tags": [
+      "gilded age",
+      "monopoly",
+      "rockefeller",
+      "carnegie",
+      "morgan",
+      "trust",
+      "inequality",
+      "industrialization"
+    ]
+  },
+  {
+    "id": "great_migration",
+    "label": "Great Migration",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1910s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Migration_(African_American)",
+    "summary": "Mass movement of 6 million African Americans from the rural South to Northern and Western cities (1910-1970), driven by Jim Crow terror and economic opportunity; transformed American cities, politics, and culture.",
+    "tags": [
+      "african american",
+      "migration",
+      "jim crow",
+      "great migration",
+      "harlem",
+      "chicago",
+      "urban",
+      "north"
+    ]
+  },
+  {
+    "id": "tulsa_race_massacre",
+    "label": "Tulsa Race Massacre",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1920s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Tulsa_race_massacre",
+    "summary": "Destruction of Greenwood (\"Black Wall Street\") in Tulsa, Oklahoma in 1921 by white mobs and deputized rioters; 300 killed, 10,000 left homeless, 35 blocks burned; covered up for decades as American history.",
+    "tags": [
+      "race massacre",
+      "black wall street",
+      "greenwood",
+      "oklahoma",
+      "racial violence",
+      "suppressed history",
+      "1921"
+    ]
+  },
+  {
+    "id": "progressive_era",
+    "label": "Progressive Era",
+    "node_type": "era",
+    "category": "era",
+    "decade": "1890s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Progressive_Era",
+    "summary": "US reform period (1890s-1920s) responding to Gilded Age inequality, monopoly power, and political corruption; produced antitrust law, food safety regulation, women's suffrage, direct election of senators, and early conservation.",
+    "tags": [
+      "progressivism",
+      "reform",
+      "trust busting",
+      "suffrage",
+      "muckraking",
+      "roosevelt",
+      "wilson",
+      "regulation"
+    ]
   }
 ]

@@ -1915,5 +1915,25 @@
       "industrial",
       "deforestation"
     ]
+  },
+  {
+    "id": "epigenetics",
+    "label": "Epigenetics & Intergenerational Trauma",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1990s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Epigenetics",
+    "summary": "Biological mechanism by which environmental experiences (including trauma, stress, and poverty) alter gene expression without changing DNA sequence; evidence for intergenerational transmission of trauma effects.",
+    "tags": [
+      "epigenetics",
+      "intergenerational trauma",
+      "gene expression",
+      "trauma",
+      "biology",
+      "Holocaust survivors",
+      "methyl groups"
+    ]
   }
 ]
