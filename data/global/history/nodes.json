@@ -3283,5 +3283,126 @@
       "bureaucracy",
       "great-wall"
     ]
+  },
+  {
+    "id": "french_revolution",
+    "label": "French Revolution",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1780s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/French_Revolution",
+    "summary": "The French Revolution (1789–1799) overthrew the Bourbon monarchy, dismantled feudalism and the aristocracy, established the secular republic, and produced the Declaration of the Rights of Man. It exported Enlightenment principles at bayonet-point across Europe through the Revolutionary and Napoleonic Wars. Its ideological legacy — liberty, equality, fraternity — shaped all subsequent democratic, nationalist, and socialist movements. It also inaugurated the Terror and Napoleon's empire, raising the question of whether Enlightenment ideals produce or undermine the tyranny they claim to oppose.",
+    "tags": [
+      "enlightenment",
+      "democracy",
+      "revolution",
+      "jacobins",
+      "terror",
+      "napoleon",
+      "rights",
+      "secularism"
+    ]
+  },
+  {
+    "id": "scientific_revolution",
+    "label": "Scientific Revolution",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1540s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Scientific_Revolution",
+    "summary": "The Scientific Revolution (c. 1543–1687) — from Copernicus's heliocentric model through Galileo's experimental method to Newton's Principia — replaced Aristotelian natural philosophy and Catholic cosmology with a mechanistic, mathematical account of nature. It produced the methods (hypothesis, experiment, peer criticism) and institutions (Royal Society, 1660) that define modern science, and decisively challenged the Church's authority to define truth about the natural world. The Revolution's mechanistic worldview eventually destabilized not just cosmology but biology, economics, and social philosophy.",
+    "tags": [
+      "copernicus",
+      "galileo",
+      "newton",
+      "enlightenment",
+      "church-conflict",
+      "methodology",
+      "materialism"
+    ]
+  },
+  {
+    "id": "industrial_revolution",
+    "label": "Industrial Revolution",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1760s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Industrial_Revolution",
+    "summary": "The Industrial Revolution (c. 1760–1840, Britain first; spreading globally through 1900) transformed agrarian economies into industrial ones through steam power, textile mechanization, iron/steel production, and railway networks. It produced: urban working classes, capitalism as a dominant economic system, Karl Marx's analysis of industrial wage labor, catastrophic child labor and factory conditions, and the environmental destruction of industrialization. The Revolution's geographical unevenness (Britain first, then Europe/US, then the Global South) structured global inequality for the next two centuries.",
+    "tags": [
+      "capitalism",
+      "labor",
+      "urbanization",
+      "steam-power",
+      "colonialism",
+      "marx",
+      "environment"
+    ]
+  },
+  {
+    "id": "american_revolution",
+    "label": "American Revolution",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1770s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Revolution",
+    "summary": "The American Revolution (1775–1783) established the United States as the first modern republic built on Enlightenment principles: popular sovereignty, individual rights, separation of powers, and religious freedom. The Declaration of Independence and Constitution operationalized Locke, Montesquieu, and Rousseau's theories. The Revolution's contradiction — proclaiming universal equality while maintaining slavery — determined American political conflict for the next 200 years. It inspired the French Revolution and global democratic movements, but its constitutional settlement ultimately protected slaveholder interests through the Senate, Electoral College, and Three-Fifths Compromise.",
+    "tags": [
+      "enlightenment",
+      "democracy",
+      "locke",
+      "constitution",
+      "slavery-contradiction",
+      "republic",
+      "independence"
+    ]
+  },
+  {
+    "id": "napoleon_bonaparte",
+    "label": "Napoleon Bonaparte",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1790s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Napoleon_Bonaparte",
+    "summary": "Napoleon Bonaparte (1769–1821) conquered most of continental Europe, codified Enlightenment legal principles in the Napoleonic Code (secular law, property rights, equality before law), and through conquest spread French revolutionary principles across Europe while simultaneously demonstrating that enlightened despotism was still despotism. His defeat (Waterloo, 1815) produced the Congress of Vienna's conservative restoration but could not put the genie of national self-determination back in the bottle. Modern European nationalism — both the liberal and ethnic variants — is a direct response to Napoleonic conquest.",
+    "tags": [
+      "france",
+      "enlightenment",
+      "empire",
+      "nationalism",
+      "law",
+      "congress-of-vienna",
+      "europe"
+    ]
+  },
+  {
+    "id": "congress_of_vienna",
+    "label": "Congress of Vienna",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1810s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Congress_of_Vienna",
+    "summary": "The Congress of Vienna (1814–15) was the diplomatic conference that redesigned Europe after the Napoleonic Wars. Led by Metternich, Talleyrand, Castlereagh, and Tsar Alexander, it established the Concert of Europe — a collective great-power management system — and the principle of legitimism (restoring pre-revolutionary dynasties). The settlement maintained relative European peace until the Crimean War (1853) and shaped European borders until World War I. It represents the conservative counter-revolutionary response to Enlightenment ideals and Napoleon's democratizing conquests.",
+    "tags": [
+      "diplomacy",
+      "napoleon",
+      "metternich",
+      "conservatism",
+      "nationalism",
+      "balance-of-power",
+      "restoration"
+    ]
   }
 ]

@@ -288,5 +288,59 @@
     "label": "The printing press transformed Homer from manuscript rarity to the curriculum text of Western education",
     "note": "Homer was the most printed non-Biblical text in 15th-17th century Europe: the first printed Greek book was a Homer (Florence, 1488). The printing press transformed the Homeric epics from manuscripts available only in major libraries to the curriculum text for grammar schools, universities, and gentlemen's education across Europe. The standardization the press imposed — a canonical text replacing the manuscript variants — also transformed how Homer was read, interpreted, and transmitted. The modern Western tradition of Homer as cultural foundation was constructed by the press.",
     "confidence": "high"
+  },
+  {
+    "id": "world_wide_web__social_media_platforms",
+    "source": "world_wide_web",
+    "target": "social_media_platforms",
+    "type": "PRODUCED",
+    "label": "Social media platforms are the web's most consequential applications, transforming its democratic promise into engagement optimization",
+    "note": "The World Wide Web's architectural promise — anyone can publish, anyone can read — was fulfilled and perverted simultaneously by social media platforms. Facebook, Twitter, YouTube, and TikTok democratized publication but centralized distribution, replacing editorial gatekeeping with algorithmic gatekeeping optimized for engagement rather than accuracy. The web's open protocol layer (TCP/IP, HTTP) was captured by application-layer monopolies. Social media is what happened to the web when advertising became its business model.",
+    "confidence": "high"
+  },
+  {
+    "id": "world_wide_web__attention_economy",
+    "source": "world_wide_web",
+    "target": "attention_economy",
+    "type": "PRODUCED",
+    "label": "The web's infinite supply of content required attention as the scarce resource, producing the attention economy",
+    "note": "Before the web, scarcity in information was content: there was limited space in newspapers, airtime on TV, shelf space in bookstores. The web eliminated content scarcity and created attention scarcity: with infinite content available, human attention became the scarce resource that media companies compete for. This inversion — from content-scarce to attention-scarce — is the structural shift that produced the attention economy, with all its downstream effects (outrage optimization, engagement maximization, filter bubbles).",
+    "confidence": "high"
+  },
+  {
+    "id": "world_wide_web__local_news_collapse",
+    "source": "world_wide_web",
+    "target": "local_news_collapse",
+    "type": "PRODUCED",
+    "label": "Web classified ads (Craigslist) and digital advertising destroyed local newspaper revenue models",
+    "note": "The web directly caused the local news collapse through revenue destruction: Craigslist (1995) eliminated classified advertising, the largest revenue source for local newspapers; Google AdSense captured display advertising by providing better targeting; Facebook news feeds replaced local newspapers as community information hubs. Between 1990 and 2020, daily newspaper circulation fell 57%; newsroom employment fell 57%; 2,100 US papers closed. The web didn't mean to kill local news — it just offered superior alternatives to every service local newspapers provided.",
+    "confidence": "high"
+  },
+  {
+    "id": "printing_press__world_wide_web",
+    "source": "printing_press",
+    "target": "world_wide_web",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both eliminated gatekeepers from information distribution, producing simultaneous democratization and disinformation explosion",
+    "note": "The printing press (Gutenberg, c. 1440) and World Wide Web (Berners-Lee, 1991) are the two great gatekeeping-elimination events in information history. Both followed the same pattern: initial promise of democratic information access → rapid adoption → incumbent institutions challenged → new forms of disinformation (printing press: Protestant pamphlet wars, witch trial manuals; web: social media disinformation, QAnon). Both required decades for society to develop norms and institutions adequate to the new information environment.",
+    "confidence": "high"
+  },
+  {
+    "id": "world_wide_web__deepfakes",
+    "source": "world_wide_web",
+    "target": "deepfakes",
+    "type": "ENABLED",
+    "label": "Web infrastructure provides the distribution and computational resources that make deepfakes a disinformation threat",
+    "note": "Deepfakes require two web-dependent conditions: (1) cloud computing and open-source AI frameworks (GitHub, Hugging Face) that make generation accessible; (2) web distribution infrastructure (social media, messaging apps) that ensures rapid spread before debunking. A deepfake without the web is a private curiosity; with the web it becomes a potential election weapon. The web didn't create deepfake technology but it created the conditions under which deepfakes matter — the combination of generation accessibility and distribution velocity.",
+    "confidence": "high"
+  },
+  {
+    "id": "world_wide_web__cambridge_analytica",
+    "source": "world_wide_web",
+    "target": "cambridge_analytica",
+    "type": "ENABLED",
+    "label": "Web behavioral data trails made psychographic profiling at scale possible for the first time",
+    "note": "Cambridge Analytica's operation was only possible because the web generates behavioral data traces at scale: Facebook's data (likes, follows, sharing patterns) captured the psychological profiles of 87 million users, enabling psychographic micro-targeting that traditional polling could never achieve. Without web infrastructure's passive data collection, there is no Cambridge Analytica — the firm's product (psychological profiles for political targeting) required the web's capacity to passively document human behavior at the scale of billions of interactions.",
+    "confidence": "high"
   }
 ]

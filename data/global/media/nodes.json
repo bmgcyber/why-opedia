@@ -422,5 +422,25 @@
       "civic-engagement",
       "news-deserts"
     ]
+  },
+  {
+    "id": "world_wide_web",
+    "label": "World Wide Web / Internet",
+    "node_type": "reference",
+    "category": "technology",
+    "decade": "1990s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/World_Wide_Web",
+    "summary": "Tim Berners-Lee's World Wide Web (1991) — and the internet infrastructure underneath it — is the printing press of the digital age: the most radical transformation of information production and distribution since Gutenberg. It eliminated gatekeepers (publishers, broadcasters, governments) from information distribution, enabling everyone to publish and everything to be published. This democratization produced Wikipedia and citizen journalism alongside climate denial and deepfakes. The web's architectural properties (hyperlinks, search, viral sharing) produced attention economy dynamics, filter bubbles, and the collapse of the distinction between journalism, entertainment, and propaganda.",
+    "tags": [
+      "internet",
+      "berners-lee",
+      "digital-revolution",
+      "information",
+      "gatekeepers",
+      "democratization",
+      "algorithmic"
+    ]
   }
 ]
