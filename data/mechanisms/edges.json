@@ -3128,7 +3128,7 @@
     "id": "radicalization_pipeline__mgtow",
     "source": "radicalization_pipeline",
     "target": "mgtow",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "label": "MGTOW participates in the manosphere radicalization pipeline",
     "note": "MGTOW occupies a mid-stage position in the manosphere radicalization pipeline: more ideologically coherent than the red pill entry point, sharing infrastructure with incel communities, and providing a retreat position for men who want to withdraw from dating without embracing incel violence ideology.",
     "confidence": "high"
@@ -3164,7 +3164,7 @@
     "id": "outrage_optimization__social_media_addiction",
     "source": "outrage_optimization",
     "target": "social_media_addiction",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "label": "Outrage optimization creates addictive engagement loops",
     "note": "Outrage-optimizing algorithms increase addictive platform use: anger is the emotion with the highest engagement persistence, keeping users on platform longer than positive content. The addiction and the outrage optimization are integrated — addicted users generate more outrage signal for the algorithm to amplify.",
     "confidence": "high"
@@ -3173,7 +3173,7 @@
     "id": "groupthink__cult_dynamics",
     "source": "groupthink",
     "target": "cult_dynamics",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "label": "Groupthink is the psychological mechanism behind cult thought control",
     "note": "Cult thought reform environments deliberately engineer groupthink: information control ensures only supportive data reaches members, leadership infallibility prevents critical evaluation, and social homogeneity removes dissenting voices. Cults are groupthink engineered to maximum intensity.",
     "confidence": "high"
@@ -3737,7 +3737,7 @@
     "id": "in_group_out_group_dynamics__saladin",
     "source": "in_group_out_group_dynamics",
     "target": "saladin",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "label": "Saladin unified fractured Muslim in-groups to counter Crusader out-groups",
     "note": "Saladin's political achievement was unifying the fractured Muslim world (Sunni, Shia, Arab, Kurdish, Egyptian, Syrian) against the Crusader out-group. His genius was making the Crusader presence the dominant in-group/out-group frame, subordinating inter-Muslim conflicts. His magnanimity toward the Crusader out-group after victory deliberately contrasted with their 1099 massacre.",
     "confidence": "high"
@@ -3899,7 +3899,7 @@
     "id": "manufactured_consent__john_kennedy",
     "source": "manufactured_consent",
     "target": "john_kennedy",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "label": "Kennedy pioneered the televised presidential image as consent manufacture",
     "note": "Kennedy's 1960 televised debate victory over Nixon — Nixon visibly sweating, Kennedy telegenic — marked the ascendancy of image over substance in presidential politics. The manufactured presidential persona became the template for all subsequent political communication. JFK's administration also deployed manufactured consent through strategic media management (Cuban Missile Crisis messaging).",
     "confidence": "high"
@@ -3935,7 +3935,7 @@
     "id": "in_group_out_group_dynamics__roman_empire",
     "source": "in_group_out_group_dynamics",
     "target": "roman_empire",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "label": "Rome's citizenship extension gradually collapsed provincial in-group/out-group boundaries",
     "note": "Rome's gradual extension of citizenship — from the city to allies to all free men in the empire (212 CE Caracalla edict) — was a systematic collapse of in-group/out-group boundaries through legal assimilation. The mechanism worked: provincials who gained citizenship became Romans psychologically, defending the empire against external out-groups.",
     "confidence": "high"
@@ -4025,7 +4025,7 @@
     "id": "structural_violence__ottoman_empire",
     "source": "structural_violence",
     "target": "ottoman_empire",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "label": "The Ottoman millet system produced structural violence through confessional hierarchy",
     "note": "The Ottoman millet system — semi-autonomous religious communities with different rights and tax obligations — produced structural violence through differential treatment embedded in legal structures. Non-Muslim communities had protected but subordinated status; Christians and Jews paid the jizya (poll tax) and faced occupational restrictions. The system was relatively tolerant by contemporary standards and structurally unequal simultaneously.",
     "confidence": "high"
