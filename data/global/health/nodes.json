@@ -237,5 +237,83 @@
     ],
     "scope": "global/health",
     "cross_scope": false
+  },
+  {
+    "id": "covid19_pandemic",
+    "label": "COVID-19 Pandemic",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "2020s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/COVID-19_pandemic",
+    "summary": "The COVID-19 pandemic (2019–present) killed over 7 million people officially (excess death estimates range 15–20 million) and fundamentally restructured global health, politics, and economics. The pandemic exposed failures in pandemic preparedness, supply chain resilience, and public health communication; accelerated mRNA vaccine technology; and became a vehicle for unprecedented political polarization of health messaging, anti-vaccine movements, and misinformation ecosystems.",
+    "tags": [
+      "pandemic",
+      "covid",
+      "public-health",
+      "vaccine",
+      "misinformation",
+      "mRNA",
+      "political-polarization"
+    ]
+  },
+  {
+    "id": "sugar_industry_cover_up",
+    "label": "Sugar Industry Research Suppression",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1960s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Sugar_industry_research_suppression",
+    "summary": "UCSF research (2016) revealed that the Sugar Research Foundation (Sugar Association) paid Harvard scientists in the 1960s to shift blame for heart disease from sugar to saturated fat — a strategy directly modeled on tobacco industry research suppression. The resulting dietary guidelines (low-fat, high-carbohydrate) shaped American diet policy for 50 years and may have contributed to the obesity and diabetes epidemic. The mechanism: industry-funded research that systematically exonerates the industry.",
+    "tags": [
+      "nutrition",
+      "industry-capture",
+      "scientific-fraud",
+      "tobacco",
+      "dietary-guidelines",
+      "heart-disease"
+    ]
+  },
+  {
+    "id": "anti_psychiatry_movement",
+    "label": "Anti-Psychiatry Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1960s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Anti-psychiatry",
+    "summary": "The anti-psychiatry movement (R.D. Laing, Thomas Szasz, Michel Foucault) challenged the medical model of mental illness as a social construction used to control deviance. Laing argued schizophrenia was a rational response to irrational family systems; Szasz argued \"mental illness\" was a myth used to medicalize moral and social deviance; Foucault's \"Madness and Civilization\" historicized psychiatric power. The movement influenced deinstitutionalization and the survivor/consumer movement, while also enabling harmful neglect of severely ill people.",
+    "tags": [
+      "psychiatry",
+      "mental-health",
+      "foucault",
+      "szasz",
+      "deinstitutionalization",
+      "power",
+      "social-control"
+    ]
+  },
+  {
+    "id": "pharmaceutical_trials_manipulation",
+    "label": "Pharmaceutical Clinical Trial Manipulation",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "decade": "1990s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Publication_bias",
+    "summary": "Systematic manipulation of pharmaceutical clinical trials — publication bias (burying negative results), outcome switching, ghost-writing, seeding trials, key opinion leader programs, and selective data release — has distorted medical evidence for decades. Ben Goldacre's \"Bad Pharma\" documented how up to half of clinical trials go unpublished, and published trials systematically overstate benefits and understate harms. The FDA relies on industry-submitted trial data, creating a structural conflict of interest at the heart of drug approval.",
+    "tags": [
+      "pharma",
+      "clinical-trials",
+      "publication-bias",
+      "scientific-fraud",
+      "fda",
+      "evidence-based-medicine"
+    ]
   }
 ]

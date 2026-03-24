@@ -4668,5 +4668,131 @@
     "label": "Assyrian imperial expansion was driven by extraction of Mesopotamian agricultural regions",
     "note": "The Neo-Assyrian Empire's military expansion followed an agricultural logic: conquest of Mesopotamian river valleys, Levantine grain regions, and Egyptian delta provided the tribute (grain, timber, metal, labor) to sustain the world's first professional standing army. Assyrian administrative innovations (tribute assessment, deportation for agricultural labor) show how Mesopotamian agriculture structured imperial expansion.",
     "confidence": "high"
+  },
+  {
+    "id": "manufactured_scientific_doubt__covid19_pandemic",
+    "source": "manufactured_scientific_doubt",
+    "target": "covid19_pandemic",
+    "type": "ENABLED",
+    "label": "Decades of manufactured scientific doubt left the public epistemically unprepared for COVID",
+    "note": "The COVID pandemic arrived in a public epistemological environment already destabilized by manufactured scientific doubt: tobacco-industry-modeled climate denial had normalized the idea that \"both sides\" of any scientific question deserved equal weight. When COVID vaccine science became a political battleground, the doubt-manufacturing machinery (amplified by social media) was already in place. COVID misinformation weaponized the same epistemic infrastructure.",
+    "confidence": "high"
+  },
+  {
+    "id": "institutional_credibility_laundering__covid19_pandemic",
+    "source": "institutional_credibility_laundering",
+    "target": "covid19_pandemic",
+    "type": "ENABLED",
+    "label": "COVID credibility laundering: doctors, lawyers, and researchers lent authority to misinformation",
+    "note": "COVID misinformation was amplified by institutional credibility laundering: physicians (Dr. Simone Gold, America's Frontline Doctors), researchers (Stanford's Great Barrington Declaration), and lawyers provided the veneer of expert authority to policy positions that contradicted mainstream public health consensus. The pattern — genuine credentials lending authority to fringe claims — is the classic laundering mechanism.",
+    "confidence": "high"
+  },
+  {
+    "id": "tobacco_industry_research_suppression__sugar_industry_cover_up",
+    "source": "tobacco_industry_research_suppression",
+    "target": "sugar_industry_cover_up",
+    "type": "ENABLED",
+    "label": "Sugar industry directly adopted tobacco's research suppression playbook",
+    "note": "UCSF documents showed the Sugar Research Foundation contracted with Hill & Knowlton — the same PR firm that ran tobacco's \"doubt\" campaign — and directly adopted tobacco's strategy: fund favorable researchers, attack unfavorable studies, and flood the scientific literature with industry-sponsored results. This is not analogical resemblance; the sugar industry consciously copied and adapted the tobacco model.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__anti_psychiatry_movement",
+    "source": "structural_violence",
+    "target": "anti_psychiatry_movement",
+    "type": "ENABLED",
+    "label": "Anti-psychiatry correctly identified structural violence in psychiatric institutionalization",
+    "note": "The anti-psychiatry movement's enduring contribution was documenting the structural violence embedded in psychiatric institutions: involuntary commitment laws, forced treatment, racial disparities in diagnosis (Black patients overdiagnosed with schizophrenia), and the use of psychiatric categories to pathologize political and sexual deviance (homosexuality in DSM until 1973). The critique was accurate about structure even where it was wrong about biology.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_scientific_doubt__pharmaceutical_trials_manipulation",
+    "source": "manufactured_scientific_doubt",
+    "target": "pharmaceutical_trials_manipulation",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Pharmaceutical trial manipulation is the medical industry's form of manufactured scientific doubt",
+    "note": "Tobacco's manufactured scientific doubt (funding contradictory research to create uncertainty) and pharmaceutical trial manipulation (selective publication, outcome switching, burying negative results) are the same mechanism applied to different industries. Both exploit the appearance of scientific rigor to conceal corporate knowledge of harm. Ben Goldacre's \"Bad Pharma\" (2012) documents this as systematic industry practice, not individual fraud.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__narcissistic_abuse",
+    "source": "moral_disengagement",
+    "target": "narcissistic_abuse",
+    "type": "ENABLED",
+    "label": "Dark triad personalities operationalize moral disengagement to enable systematic harm",
+    "note": "Dark triad personalities (particularly those scoring high on psychopathy) exhibit structural moral disengagement: reduced emotional response to others' suffering, cognitive mechanisms that minimize harm (\"they deserved it\"), and dehumanization of targets. The dark triad is not a separate phenomenon from moral disengagement but rather its personality-trait expression — people for whom the moral disengagement mechanisms are default operating mode rather than crisis-induced adaptations.",
+    "confidence": "medium"
+  },
+  {
+    "id": "moral_panic__recovered_memory_therapy",
+    "source": "moral_panic",
+    "target": "recovered_memory_therapy",
+    "type": "CAUSED",
+    "label": "Satanic Panic was a textbook moral panic amplified by therapeutic false memory production",
+    "note": "The Satanic Panic (1980s–90s) — the wave of allegations that daycare centers were conducting Satanic ritual abuse — is a textbook moral panic: disproportionate societal response to an (essentially non-existent) threat, amplified by media, therapeutic authority, and institutional momentum. Recovered memory therapy's iatrogenic false memories provided the \"evidence\" that sustained the panic long after skepticism should have prevailed.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__attachment_theory",
+    "source": "collective_trauma",
+    "target": "attachment_theory",
+    "type": "ENABLED",
+    "label": "Collective trauma transmission operates through the same attachment mechanisms as individual trauma",
+    "note": "Attachment theory explains collective trauma transmission: parents with unresolved trauma (Holocaust, slavery, displacement) transmit disorganized attachment to children through hypervigilant parenting, emotional unavailability, or reenactment of trauma dynamics. The \"chosen trauma\" (Volkan) that defines collective identity is maintained through attachment relationships — each generation receives the trauma as part of its identity formation.",
+    "confidence": "high"
+  },
+  {
+    "id": "radicalization_pipeline__online_radicalization",
+    "source": "radicalization_pipeline",
+    "target": "online_radicalization",
+    "type": "ENABLED",
+    "label": "Online environments created an automated, scalable radicalization pipeline",
+    "note": "Online radicalization is the radicalization pipeline automated and scaled: YouTube's recommendation algorithm, Reddit's community structure, and Discord server hierarchies perform the functions of traditional radicalization recruiters (isolation, identity replacement, escalating commitment) without human intervention. The pipeline now processes millions of users simultaneously — a qualitative change in radicalization capacity from pre-digital extremism.",
+    "confidence": "high"
+  },
+  {
+    "id": "outrage_optimization__attention_economy",
+    "source": "outrage_optimization",
+    "target": "attention_economy",
+    "type": "ENABLED",
+    "label": "The attention economy structurally selects for outrage because it maximizes engagement",
+    "note": "Attention economy platforms discovered empirically (through engagement optimization) what neuroscience confirms: moral outrage generates stronger, more sustained attention than calm or positive content. The mechanism: outrage activates threat response (amygdala) and social enforcement instincts simultaneously, producing viral sharing and extended engagement. Attention economy selection pressure thus structurally favors outrage-generating content over accurate or nuanced content.",
+    "confidence": "high"
+  },
+  {
+    "id": "filter_bubble__attention_economy",
+    "source": "filter_bubble",
+    "target": "attention_economy",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Filter bubbles and the attention economy co-produce each other through personalization",
+    "note": "Filter bubbles and attention economy optimization are mutually reinforcing: personalization algorithms create filter bubbles by showing users more of what they engage with; the attention economy rewards this personalization because familiar in-group content generates more reliable engagement than challenging cross-group content. The result: users in echo chambers spend more time on platform, generating more ad revenue, reinforcing the algorithmic selection.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_media_polarization__social_media_platforms",
+    "source": "social_media_polarization",
+    "target": "social_media_platforms",
+    "type": "PRODUCED",
+    "label": "Social media platforms' architecture structurally produces political polarization",
+    "note": "Research (Bail et al. 2018, Allcott et al. 2020, Facebook's own internal research) shows that social media platforms produce political polarization through: algorithmic amplification of outrage content, like/share mechanics that reward tribal signaling, harassment norms that drive moderates out of public discourse, and identity capture that makes political opinions part of self-concept. Facebook's own researchers found the platform was \"tearing society apart.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "conspiracy_theory_grifters__infowars_alternative_media",
+    "source": "conspiracy_theory_grifters",
+    "target": "infowars_alternative_media",
+    "type": "ENABLED",
+    "label": "InfoWars is the paradigm case of conspiracy theory grifterism at industrial scale",
+    "note": "Alex Jones/InfoWars is the paradigm case of conspiracy grifterism: Jones built audience trust through government distrust narratives, then monetized that trust through supplement sales (Survival Shield X-2, Super Male Vitality), emergency food kits, and merchandise — generating over $80 million annually. The conspiracy content was simultaneously sincere belief and calculated audience cultivation for product sales. Jones's Sandy Hook defamation judgments exposed the personal cost to victims.",
+    "confidence": "high"
+  },
+  {
+    "id": "info_ecosystem_collapse__local_news_collapse",
+    "source": "info_ecosystem_collapse",
+    "target": "local_news_collapse",
+    "type": "CAUSED",
+    "label": "Local news collapse is the structural driver of the broader information ecosystem collapse",
+    "note": "The information ecosystem collapse begins with local news: local journalism provided the factual substrate (verified events, public records, source relationships) on which regional and national journalism built. When local papers close, the fact-production infrastructure disappears, creating \"information voids\" that social media and partisan media fill with unverified content. The national polarization crisis is downstream of the local news funding crisis.",
+    "confidence": "high"
   }
 ]

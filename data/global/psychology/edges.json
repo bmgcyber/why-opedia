@@ -321,5 +321,41 @@
     "type": "ENABLED",
     "label": "scientific veneer gave self-help marketers credible language",
     "confidence": "high"
+  },
+  {
+    "id": "cult_dynamics__narcissistic_abuse",
+    "source": "cult_dynamics",
+    "target": "narcissistic_abuse",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Cult dynamics and narcissistic abuse operate through identical coercive control mechanisms",
+    "note": "Cult dynamics (BITE model: Behavior, Information, Thought, Emotional control) and narcissistic abuse operate through the same coercive control mechanisms: isolation from outside relationships, reality distortion, intermittent reinforcement, identity replacement, and exit cost maximization. The clinical literature on cult exit trauma and narcissistic abuse recovery is substantially overlapping, and survivor communities increasingly use the same vocabulary.",
+    "confidence": "high"
+  },
+  {
+    "id": "trauma_bonding__attachment_theory",
+    "source": "trauma_bonding",
+    "target": "attachment_theory",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Trauma bonding exploits attachment system vulnerabilities established in early development",
+    "note": "Trauma bonding — the counterintuitive emotional attachment to an abuser — operates through the attachment system: abusers exploit the same neural mechanisms that form parent-child bonds by alternating intense threat (activating the attachment system) with intermittent care (providing the \"haven\"). Anxious-ambivalent attachment style (Ainsworth) predisposes to trauma bonding by heightening hypervigilance to abandonment signals.",
+    "confidence": "high"
+  },
+  {
+    "id": "red_pill_community__online_radicalization",
+    "source": "red_pill_community",
+    "target": "online_radicalization",
+    "type": "ENABLED",
+    "label": "The Red Pill community was the gateway for online radicalization into the broader manosphere",
+    "note": "The Red Pill community (r/TheRedPill, male self-improvement framing) functioned as an entry ramp into the radicalization pipeline: moderate \"self-improvement\" rhetoric adjacent to misogyny → pickup artistry → incel ideology → men's rights activism → white nationalism. YouTube \"heterodox\" content (Jordan Peterson) fed into the same pipeline. The radicalization mechanism: each community normalized the next community's premises.",
+    "confidence": "high"
+  },
+  {
+    "id": "recovered_memory_therapy__milgram_obedience_experiments",
+    "source": "recovered_memory_therapy",
+    "target": "milgram_obedience_experiments",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both demonstrate how authority figures can override subjects' own perception of reality",
+    "note": "Milgram's obedience experiments and recovered memory therapy share the mechanism of authority-induced reality override: Milgram showed that subjects would administer (apparent) electric shocks despite their own moral instincts when an authority figure directed them; recovered memory therapists showed that clients would \"remember\" events that never occurred when therapeutic authority suggested they must have. Both demonstrate the power of authority to override direct experience.",
+    "confidence": "medium"
   }
 ]

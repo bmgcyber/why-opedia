@@ -341,5 +341,86 @@
       "television",
       "fundraising"
     ]
+  },
+  {
+    "id": "attention_economy",
+    "label": "The Attention Economy",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "decade": "2000s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Attention_economy",
+    "summary": "The attention economy (Herbert Simon, Michael Goldhaber) treats human attention as the scarce resource that advertising-based media monetizes. Digital platforms — Facebook, YouTube, Twitter/X, TikTok — optimize for maximum attention capture through algorithmic recommendation, infinite scroll, notification design, and variable reward schedules (slot-machine mechanics). The result: content that generates strong emotional response (outrage, fear, desire) outcompetes informative or nuanced content, systematically degrading the information ecosystem.",
+    "tags": [
+      "attention",
+      "social-media",
+      "algorithms",
+      "advertising",
+      "outrage",
+      "engagement",
+      "platforms"
+    ]
+  },
+  {
+    "id": "social_media_platforms",
+    "label": "Social Media Platforms (Facebook, Twitter, TikTok)",
+    "node_type": "reference",
+    "category": "product",
+    "decade": "2000s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Social_media",
+    "summary": "Social media platforms — Facebook (2004), Twitter (2006), YouTube (2005), Instagram (2010), TikTok (2016) — became the dominant infrastructure for public discourse, news distribution, political organizing, and identity formation. Their advertising business models align engagement maximization with emotional intensification, creating the structural conditions for misinformation spread, filter bubbles, outrage optimization, and political polarization. Facebook alone reaches 3 billion users, making it a primary communication infrastructure for much of humanity.",
+    "tags": [
+      "facebook",
+      "twitter",
+      "tiktok",
+      "instagram",
+      "youtube",
+      "platforms",
+      "social-media",
+      "algorithms"
+    ]
+  },
+  {
+    "id": "infowars_alternative_media",
+    "label": "InfoWars & Alternative Media Ecosystem",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "2000s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/InfoWars",
+    "summary": "Alex Jones's InfoWars and the broader alternative media ecosystem (Breitbart, The Daily Wire, Zero Hedge, Gateway Pundit) built audience trust by positioning themselves as truth-tellers against mainstream media suppression, then monetized that trust through supplement sales, merchandise, and political fundraising. Jones's Sandy Hook defamation judgments (nearly $1.5 billion) demonstrated the real-world harm of conspiracy media. The ecosystem represents manufactured alternative epistemic authority: trust in authorities by attacking all other authorities.",
+    "tags": [
+      "infowars",
+      "alex-jones",
+      "conspiracy",
+      "alternative-media",
+      "disinformation",
+      "breitbart",
+      "epistemic"
+    ]
+  },
+  {
+    "id": "local_news_collapse",
+    "label": "Local News Collapse & News Deserts",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "decade": "2000s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/News_desert",
+    "summary": "Over 2,500 local newspapers closed between 2004 and 2023, creating \"news deserts\" where communities have no local journalism coverage. The collapse was driven by digital advertising migration to Google and Facebook, Craigslist's destruction of classifieds revenue, and private equity acquisition-and-strip strategies. The consequences: rising political polarization (national partisan media fills the vacuum), municipal corruption going unreported, lower civic engagement, and \"information voids\" filled by social media rumor.",
+    "tags": [
+      "journalism",
+      "local-news",
+      "media-collapse",
+      "private-equity",
+      "democracy",
+      "civic-engagement",
+      "news-deserts"
+    ]
   }
 ]

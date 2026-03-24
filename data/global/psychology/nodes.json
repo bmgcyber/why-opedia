@@ -381,5 +381,85 @@
     ],
     "scope": "global/psychology",
     "cross_scope": false
+  },
+  {
+    "id": "narcissistic_abuse",
+    "label": "Narcissistic Abuse / Dark Triad",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Dark_triad",
+    "summary": "The \"dark triad\" (narcissism, Machiavellianism, psychopathy) and \"narcissistic abuse\" as popular psychological frameworks became culturally dominant in the 2010s through social media, online communities, and self-help literature. The frameworks offer a vocabulary for interpersonal harm but also enabled pathologizing of ordinary relationship conflict, political opponents, and public figures. The dark triad research is legitimate; the popular \"narcissistic abuse survivor\" community represents its overapplication to non-clinical contexts.",
+    "tags": [
+      "narcissism",
+      "dark-triad",
+      "psychopathy",
+      "abuse",
+      "self-help",
+      "pop-psychology",
+      "relationships"
+    ]
+  },
+  {
+    "id": "recovered_memory_therapy",
+    "label": "Recovered Memory Therapy & Satanic Panic",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1980s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Recovered_memory_therapy",
+    "summary": "The recovered memory therapy movement (1980s–90s) and its extreme form, Satanic Panic (ritual abuse allegations at daycare centers), demonstrated how therapeutic techniques could create false memories of abuse at scale. Therapists using hypnosis, guided imagery, and \"body memories\" produced hundreds of false accusations; the McMartin Preschool case, Paul Ingram case, and similar prosecutions destroyed lives based on iatrogenic (therapist-induced) memories. The scandal produced major advances in memory science (Elizabeth Loftus) and standards for forensic interviewing.",
+    "tags": [
+      "false-memory",
+      "satanic-panic",
+      "therapy",
+      "trauma",
+      "memory",
+      "psychology",
+      "iatrogenic"
+    ]
+  },
+  {
+    "id": "attachment_theory",
+    "label": "Attachment Theory",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1960s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Attachment_theory",
+    "summary": "Attachment theory (John Bowlby, Mary Ainsworth) established that early caregiver relationships form internal working models that shape all subsequent relationships. The Strange Situation procedure identified secure, anxious-ambivalent, avoidant, and disorganized attachment styles, now widely applied to adult relationships. Attachment theory bridges developmental psychology, clinical therapy, and evolutionary biology, and has been extended to explain cult dynamics, trauma bonding, political leadership followership, and online community formation.",
+    "tags": [
+      "bowlby",
+      "ainsworth",
+      "attachment",
+      "development",
+      "relationships",
+      "trauma",
+      "psychology"
+    ]
+  },
+  {
+    "id": "online_radicalization",
+    "label": "Online Radicalization Pathways",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Online_radicalization",
+    "summary": "Online radicalization pathways — the algorithmic and social mechanisms by which people move from mainstream content to extremist ideology via recommendation engines, community escalation, and identity capture — have produced domestic terrorism, incel violence, white nationalist movements, and QAnon. The \"rabbit hole\" metaphor describes how recommendation algorithms optimize for engagement by escalating emotional intensity, leading users through progressively more extreme content. The radicalization pipeline is now a well-documented technical and psychological phenomenon.",
+    "tags": [
+      "radicalization",
+      "algorithms",
+      "extremism",
+      "youtube",
+      "qanon",
+      "incels",
+      "white-nationalism"
+    ]
   }
 ]

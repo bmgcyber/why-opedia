@@ -220,5 +220,41 @@
     "type": "SHARES_MECHANISM_WITH",
     "label": "government inaction in both cases reflects devaluation of marginalised lives",
     "confidence": "medium"
+  },
+  {
+    "id": "anti_vaccination_movement__covid19_pandemic",
+    "source": "anti_vaccination_movement",
+    "target": "covid19_pandemic",
+    "type": "ENABLED",
+    "label": "Pre-existing anti-vaccination infrastructure enabled COVID vaccine hesitancy",
+    "note": "The anti-vaccination movement's two-decade infrastructure (Wakefield fraud, Natural News, CHD/RFK Jr.) was immediately available as an organizational and informational resource for COVID vaccine hesitancy. COVID did not create vaccine hesitancy; it revealed how effectively the anti-vax movement had seeded institutional distrust in medical authorities.",
+    "confidence": "high"
+  },
+  {
+    "id": "tobacco_master_settlement__sugar_industry_cover_up",
+    "source": "tobacco_master_settlement",
+    "target": "sugar_industry_cover_up",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Tobacco and sugar industries used identical research suppression playbooks",
+    "note": "The sugar industry consciously modeled its research suppression strategy on the tobacco industry's 1950s-60s playbook: fund favorable research, suppress unfavorable findings, create scientific uncertainty, and delay regulation by manufacturing doubt. The mechanism is identical because the sugar industry literally consulted the same PR and lobbying infrastructure.",
+    "confidence": "high"
+  },
+  {
+    "id": "deinstitutionalization__anti_psychiatry_movement",
+    "source": "deinstitutionalization",
+    "target": "anti_psychiatry_movement",
+    "type": "ENABLED",
+    "label": "Anti-psychiatry provided the intellectual justification for deinstitutionalization's policy implementation",
+    "note": "Deinstitutionalization (1960s–80s) was accelerated by the anti-psychiatry critique: if mental illness was a social construction and asylums were coercive control mechanisms, then closing them was liberation. The intellectual cover provided by Laing and Szasz allowed cost-cutting governors (Reagan in California) to frame institutional closure as humane progress. The result: inadequate community support and mass homelessness of severely ill people.",
+    "confidence": "high"
+  },
+  {
+    "id": "big_pharma_lobbying__pharmaceutical_trials_manipulation",
+    "source": "big_pharma_lobbying",
+    "target": "pharmaceutical_trials_manipulation",
+    "type": "ENABLED",
+    "label": "Pharmaceutical lobbying created the regulatory environment that enabled trial manipulation",
+    "note": "Big pharma lobbying produced the Prescription Drug User Fee Act (PDUFA, 1992) — pharmaceutical companies pay FDA review fees — creating a structural conflict of interest. Industry funding of FDA operations, combined with expedited review timelines, created pressure to approve drugs on manipulated trial evidence. The regulatory capture mechanism: industry funds the regulator, which then relies on industry-submitted data.",
+    "confidence": "high"
   }
 ]

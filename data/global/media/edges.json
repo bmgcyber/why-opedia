@@ -216,5 +216,41 @@
     "label": "Televangelism independently developed and operationalized Bernays's manufactured consent techniques",
     "note": "Oral Roberts and later televangelists independently discovered the manufactured consent toolkit: appeals to unconscious desire (spiritual transformation, physical healing), crowd psychology, testimonial advertising, and manufactured scarcity (the closing window of salvation). Whether or not they read Bernays, televangelism operationalized the same techniques for religious and political mobilization.",
     "confidence": "medium"
+  },
+  {
+    "id": "social_media_platforms__attention_economy",
+    "source": "social_media_platforms",
+    "target": "attention_economy",
+    "type": "ENABLED",
+    "label": "Social media platforms operationalized the attention economy at unprecedented scale",
+    "note": "Social media platforms transformed the attention economy from an academic concept into industrial infrastructure: Facebook's News Feed, YouTube's recommendation algorithm, and TikTok's FYP are engineered attention capture systems optimized by billions of daily interactions. The platforms don't just compete for attention — they systematically reshape what captures attention by training users' reward systems.",
+    "confidence": "high"
+  },
+  {
+    "id": "fox_news__infowars_alternative_media",
+    "source": "fox_news",
+    "target": "infowars_alternative_media",
+    "type": "ENABLED",
+    "label": "Fox News normalized the alternative media logic that infotainment can substitute for journalism",
+    "note": "Fox News's success demonstrated that partisan infotainment could outperform journalism economically, providing the proof of concept that alternative media built on: if Fox could reach 3 million nightly viewers by telling conservatives what they wanted to hear, then more extreme versions could build smaller but more loyal audiences. Breitbart, InfoWars, and The Daily Wire are Fox News's logical successors in the outrage-monetization continuum.",
+    "confidence": "high"
+  },
+  {
+    "id": "local_news_collapse__social_media_platforms",
+    "source": "local_news_collapse",
+    "target": "social_media_platforms",
+    "type": "CAUSED",
+    "label": "Social media platforms captured the local advertising revenue that funded local journalism",
+    "note": "Facebook and Google systematically captured the local advertising revenue that had funded local journalism: Facebook took social connection (replacing classified ads and local news as community glue), Google took search advertising (replacing Yellow Pages and local business ads), Craigslist took classifieds. Local newspapers, stripped of revenue, shrank or closed, leaving the local information space to be filled by social media rumor and national partisan media.",
+    "confidence": "high"
+  },
+  {
+    "id": "cambridge_analytica__social_media_platforms",
+    "source": "cambridge_analytica",
+    "target": "social_media_platforms",
+    "type": "EXPLOITED",
+    "label": "Cambridge Analytica exploited Facebook's data architecture for political micro-targeting",
+    "note": "Cambridge Analytica harvested 87 million Facebook profiles through a quiz app that exploited the platform's lax API permissions, then used the psychographic data for targeted political advertising (Brexit, Trump 2016, and 60+ other campaigns). The scandal revealed that social media platforms' core data architecture — broad third-party access to user data for advertising — was structurally vulnerable to political exploitation.",
+    "confidence": "high"
   }
 ]
