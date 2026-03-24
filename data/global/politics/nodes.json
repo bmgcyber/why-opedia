@@ -1054,5 +1054,44 @@
     ],
     "scope": "global/politics",
     "cross_scope": false
+  },
+  {
+    "id": "christian_nationalism",
+    "label": "Christian Nationalism",
+    "node_type": "reference",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christian_nationalism",
+    "summary": "The ideology that a nation is defined by and ought to be governed according to Christian identity and values, typically merging national and Christian identity so that a threat to one is a threat to the other. Christian nationalism differs from mere religious patriotism in claiming that the nation was founded as a Christian nation, that Christian values should be legally enforced, and that non-Christians are at best guests and at worst threats. In the United States, Christian nationalism became politically prominent in the 1970s through the Moral Majority and reached a new peak in the 2010s–2020s. It shares structural features with other forms of ethno-religious nationalism worldwide — from Hindu nationalism to political Islam — in using religious identity as a mobilizing framework for political power.",
+    "decade": "1970s",
+    "tags": [
+      "christianity",
+      "nationalism",
+      "politics",
+      "usa",
+      "ideology",
+      "theocracy",
+      "identity"
+    ],
+    "scope": "global/politics",
+    "cross_scope": false
+  },
+  {
+    "id": "church_state_entanglement",
+    "label": "Church-State Entanglement",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The structural fusion of religious and political authority, where each legitimates the other: the state claims divine sanction for its power, and the church claims state enforcement for its religious requirements. This mechanism enables both institutions to claim greater authority than either would have alone, while eliminating the accountability structures that each would otherwise provide. Church-state entanglement has historically produced: forced conversions (you must accept the religion of the ruler), inquisitions (state enforcement of theological compliance), religious wars (wars of succession become wars of religion), and the weaponization of religious identity for political mobilization. The Enlightenment separation of church and state was a deliberate response to the destruction caused by this mechanism in the Wars of Religion.",
+    "decade": "300s",
+    "tags": [
+      "religion",
+      "politics",
+      "power",
+      "authority",
+      "mechanism",
+      "coercion",
+      "entanglement"
+    ],
+    "scope": "global/politics",
+    "cross_scope": false
   }
 ]

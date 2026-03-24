@@ -3679,5 +3679,50 @@
     "label": "Pericles' aggressive imperial strategy contributed to Spartan fear that triggered the war",
     "note": "Pericles' expansive Athenian imperial policy — using the Delian League treasury for Athenian public works, extending Athenian power — directly provoked Spartan-led opposition. Thucydides records Spartan leaders identifying Pericles' strategy as the proximate cause of the war.",
     "confidence": "high"
+  },
+  {
+    "id": "papal_authority__spanish_inquisition",
+    "source": "papal_authority",
+    "target": "spanish_inquisition",
+    "type": "ENABLED",
+    "label": "Papal sanction gave the Inquisition theological and legal legitimacy",
+    "note": "The Spanish Inquisition operated with papal authorization — the bull Exigit Sinceras Devotionis (1478) granted the Spanish Crown the right to appoint inquisitors under papal authority. Without the claim to papal supremacy and the theological apparatus of heresy prosecution, the Inquisition had no legitimacy to compel confession or adjudicate belief.",
+    "confidence": "high"
+  },
+  {
+    "id": "papal_authority__catholic_clergy_abuse",
+    "source": "papal_authority",
+    "target": "catholic_clergy_abuse",
+    "type": "ENABLED",
+    "label": "Hierarchical authority structure enabled systematic cover-up of abuse",
+    "note": "The same hierarchical obedience structure that made the Church effective also made it capable of systematic cover-up. Bishops answered to the Vatican; Vatican culture prioritized institutional reputation over victim welfare. The authority structure that centralized power also centralized the capacity to suppress disclosure.",
+    "confidence": "high"
+  },
+  {
+    "id": "blood_libel_myth__pogroms",
+    "source": "blood_libel_myth",
+    "target": "pogroms",
+    "type": "CAUSED",
+    "label": "Blood libel accusations directly triggered massacres and pogroms",
+    "note": "Many of the deadliest pogroms in Russian history were triggered by blood libel accusations. The Kishinev pogrom (1903) was preceded by accusations that Jews had murdered a Christian child for blood — a claim spread by a local antisemitic newspaper. The accusation served as the immediate trigger that turned latent hostility into organized violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "pogroms__zionism",
+    "source": "pogroms",
+    "target": "zionism",
+    "type": "ENABLED",
+    "label": "Pogroms convinced Jewish intellectuals that European safety was impossible without a homeland",
+    "note": "Theodor Herzl was radicalized toward Zionism partly by the Dreyfus Affair and partly by the awareness of Russian pogroms. The argument of Der Judenstaat (1896) rests on the premise that antisemitism is permanent and that Jews require a state of their own to be safe. The pogroms were empirical evidence for the Zionist argument.",
+    "confidence": "high"
+  },
+  {
+    "id": "catholic_clergy_abuse__religious_trauma",
+    "source": "catholic_clergy_abuse",
+    "target": "religious_trauma",
+    "type": "PRODUCED",
+    "label": "Clergy sexual abuse produced severe religious trauma in survivors compounded by spiritual violation",
+    "note": "Clergy abuse produces a specific form of religious trauma: the perpetrator held divine authority, the institution claimed to represent God, and the violation was therefore both sexual and spiritual. Survivors often lose not only trust in institutions but in God, prayer, and the spiritual framework that had been central to their identity. The betrayal is compounded by years of institutional cover-up.",
+    "confidence": "high"
   }
 ]
