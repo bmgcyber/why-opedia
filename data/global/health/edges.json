@@ -319,5 +319,50 @@
     "label": "Both conversion therapy and anti-psychiatry reject psychiatric establishment authority, though for opposite ideological reasons",
     "note": "Conversion therapy and the anti-psychiatry movement both challenge psychiatric establishment authority, representing different failures of the therapeutic relation. Anti-psychiatry (Szasz, Laing, Foucault) critiques psychiatry as social control dressed as medicine — pathologizing normal variation and deviance. Conversion therapy inverts this: it treats non-pathological variation (homosexuality, which APA removed from DSM in 1973) as pathology requiring treatment. Both challenge psychiatric authority but in opposite directions: anti-psychiatry expands what counts as normal; conversion therapy contracts it. Both demonstrate that psychiatric diagnosis is politically contested rather than purely scientific.",
     "confidence": "medium"
+  },
+  {
+    "id": "opioid_crisis__war_on_drugs",
+    "source": "opioid_crisis",
+    "target": "war_on_drugs",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "The opioid crisis and War on Drugs represent contrasting government responses to addiction shaped by race: one criminalized, one medicalized",
+    "note": "The opioid crisis and War on Drugs represent the same phenomenon — mass addiction — treated through opposite policy lenses determined by racial demographics: the crack epidemic (primarily affecting Black communities in the 1980s) produced the War on Drugs with mandatory minimum sentences and mass incarceration; the opioid epidemic (initially primarily affecting white rural communities) produced treatment programs, harm reduction, and pharmaceutical company prosecution. This differential response documents how racial identity shapes policy framing: addiction is a crime requiring punishment when Black; a disease requiring treatment when white. The belated recognition of fentanyl's expansion into all communities began eroding this treatment gap.",
+    "confidence": "high"
+  },
+  {
+    "id": "opioid_crisis__regulatory_capture",
+    "source": "opioid_crisis",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "The FDA's failure to respond to opioid crisis evidence was a textbook case of regulatory capture by pharmaceutical industry",
+    "note": "The opioid crisis was enabled by pharmaceutical regulatory capture: the FDA approved OxyContin (1995) based on inadequate addiction studies; the FDA ignored evidence of widespread addiction and diversion for a decade; the Joint Commission adopted pain as the \"fifth vital sign\" (promoted by Purdue Pharma) mandating opioid prescription; DEA quota systems that set production caps were systematically overwhelmed by industry lobbying. Congressional testimony and DOJ investigation revealed that FDA officials received industry consulting fees; the revolving door between FDA and pharmaceutical companies created institutional capture. The regulatory failure was not accidental — it was the predictable result of regulatory capture dynamics.",
+    "confidence": "high"
+  },
+  {
+    "id": "mental_health_stigma__adverse_childhood_experiences",
+    "source": "mental_health_stigma",
+    "target": "adverse_childhood_experiences",
+    "type": "ENABLED",
+    "label": "Mental health stigma prevents trauma disclosure and treatment, allowing ACE effects to compound across development",
+    "note": "Mental health stigma directly enables ACE harm through treatment prevention: stigma around mental health treatment prevents trauma survivors from seeking help; institutional cultures in schools, military, and workplaces punish mental health disclosure; race and gender shape stigma (Black men facing particular pressure against help-seeking; women's trauma more often diagnosed as personality disorder than PTSD); religious communities may frame trauma response as spiritual failure rather than medical need. ACE research demonstrates that early intervention can alter trajectory — mental health stigma blocking that intervention allows trauma effects to compound into the adult health outcomes ACE studies document.",
+    "confidence": "high"
+  },
+  {
+    "id": "loneliness_epidemic__social_media_addiction",
+    "source": "loneliness_epidemic",
+    "target": "social_media_addiction",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "The loneliness epidemic and social media addiction are structurally linked: social media replaces but cannot substitute for the embodied social connection it simulates",
+    "note": "The loneliness epidemic and social media addiction share a paradoxical relationship: social media use increased sharply during the same period loneliness increased, suggesting social media exacerbates rather than solves loneliness; research (Sherry Turkle, \"Alone Together\") documents that social media use produces feelings of social connection that are not metabolically equivalent to in-person social contact; heavy social media use correlates with increased loneliness, especially in adolescents; social media's comparison dynamics (comparing your inside to others' outsides) produce social alienation even among users with large followings. The loneliness epidemic is not caused solely by social media but social media use is not the solution its business model implies.",
+    "confidence": "high"
+  },
+  {
+    "id": "loneliness_epidemic__mental_health_stigma",
+    "source": "loneliness_epidemic",
+    "target": "mental_health_stigma",
+    "type": "ENABLED",
+    "label": "Mental health stigma prevents people from disclosing loneliness and seeking social connection, reinforcing the epidemic",
+    "note": "Mental health stigma compounds the loneliness epidemic: loneliness itself carries social stigma (admitting loneliness signals social failure); the stigma prevents people from disclosing the condition, which would be the first step toward addressing it; mental health treatment stigma prevents therapeutic interventions for the depression and anxiety that both cause and result from loneliness; workplace cultures that reward isolation (long hours, geographic mobility) attach success status to behaviors that produce loneliness. The loneliness epidemic is partly self-concealing because of the stigma attached to admitting it.",
+    "confidence": "high"
   }
 ]

@@ -6396,5 +6396,59 @@
     "label": "ACE research and epigenetics converge on the same insight: early environmental experience has lasting biological effects through gene expression changes",
     "note": "ACE research and epigenetics converge: ACE studies document that early childhood trauma (abuse, neglect, household dysfunction) produces lasting health impacts; epigenetic research explains the biological mechanism — early stress produces methylation changes in stress-response genes that alter HPA axis function, cortisol response, and inflammatory pathways. Together they demonstrate that childhood trauma is not simply psychological but has measurable biological effects that persist through gene expression changes. This convergence has therapeutic implications: epigenetic changes are potentially reversible, suggesting that trauma-focused interventions might produce biological as well as psychological healing.",
     "confidence": "high"
+  },
+  {
+    "id": "regulatory_capture__neoliberalism",
+    "source": "regulatory_capture",
+    "target": "neoliberalism",
+    "type": "ENABLED",
+    "label": "Neoliberal ideology promotes regulatory capture by framing business-friendly regulators as efficiency and anti-regulatory ideology as market freedom",
+    "note": "Neoliberalism and regulatory capture are structurally connected: neoliberal ideology framing all regulation as government interference creates political support for dismantling regulatory capacity and appointing industry-friendly regulators; the revolving door (regulator to industry to regulator) is structurally incentivized by industry's superior compensation and neoliberalism's validation of private sector over public sector careers; Koch network funding of economics departments (against regulation) and think tanks (Cato, Heritage) that train regulators creates a pipeline of ideologically pre-captured officials. Regulatory capture is not incidental to neoliberalism — it is the operational mechanism through which neoliberal ideology is converted into reduced regulatory effectiveness.",
+    "confidence": "high"
+  },
+  {
+    "id": "regulatory_capture__opioid_crisis",
+    "source": "regulatory_capture",
+    "target": "opioid_crisis",
+    "type": "ENABLED",
+    "label": "Regulatory capture of the FDA and DEA by the pharmaceutical industry was the proximate cause of the opioid crisis",
+    "note": "The opioid crisis is the regulatory capture case study: the FDA's approval of OxyContin (1995) despite inadequate addiction data; the FDA's decade-long failure to respond to addiction evidence Purdue Pharma knew about; DEA production quotas set far above demonstrated medical need; Congressional lobbying (Controlled Substances Act amendments 2016) that deliberately weakened DEA enforcement; the Sackler family's systematic cultivation of FDA officials and pain management advocacy groups. Congressional investigations documented specific instances of industry influence on regulatory decisions. The opioid crisis demonstrates that regulatory capture causes mass death — 500,000+ Americans died from pharmaceutical opioids since 1999.",
+    "confidence": "high"
+  },
+  {
+    "id": "astroturfing__climate_change_denial",
+    "source": "astroturfing",
+    "target": "climate_change_denial",
+    "type": "ENABLED",
+    "label": "Climate denial was organized through astroturf groups that presented industry-funded denial as independent scientific and citizen skepticism",
+    "note": "Astroturfing was central to climate denial's effectiveness: the Global Climate Coalition (fossil fuel companies) funded \"independent\" research centers and spokespeople who appeared as independent scientists; Citizens for a Sound Economy (Koch-funded) organized against carbon policy as if citizen-driven; the Heartland Institute (tobacco and fossil fuel funded) sponsored conferences presenting fringe scientists as a legitimate skeptical community; American Legislative Exchange Council (ALEC) drafted state-level anti-climate legislation as if from legislators. The astroturf design was essential to creating the appearance of a genuine scientific controversy — the strategy required hiding industry funding to maintain the false impression of independent skepticism.",
+    "confidence": "high"
+  },
+  {
+    "id": "astroturfing__manufactured_consent",
+    "source": "astroturfing",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "label": "Astroturfing is the operational implementation of manufactured consent through fake grassroots to create false impression of popular support for elite interests",
+    "note": "Astroturfing is manufactured consent's grassroots implementation mechanism: manufactured consent operates through institutional channels (media ownership, advertising, sourcing); astroturfing extends this to simulated citizen movements, creating the appearance that elite-funded positions are popular demands. The combination of manufactured consent (top-down through media institutions) and astroturfing (bottom-up through fake citizen groups) creates a complete manufactured democratic legitimacy: policies promoted by owned media (top-down) appear to have citizen support (bottom-up) through astroturf organizations. Tobacco, fossil fuels, pharmaceutical companies, and political campaigns all use the combined strategy.",
+    "confidence": "high"
+  },
+  {
+    "id": "propaganda__manufactured_consent",
+    "source": "propaganda",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "label": "Propaganda is the historical precursor and continuing practice that manufactured consent theory systematically analyzes",
+    "note": "Propaganda and manufactured consent are related concepts at different scales: propaganda (Bernays, Lippmann, wartime government communications) refers to deliberate information manipulation campaigns; manufactured consent (Chomsky/Herman) identifies the structural conditions in liberal democracies that produce systematic propaganda effects without requiring explicit conspiracy. Both describe manipulation of public opinion through controlled information environments; manufactured consent explains why propaganda is so effective in \"free\" societies — media structural filters produce propaganda effects without requiring government censorship. Edward Bernays (who coined \"public relations\" as a replacement for \"propaganda\" after WWI gave it a bad name) is the intellectual connection: his nephew Sigmund Freud's psychology applied to mass persuasion.",
+    "confidence": "high"
+  },
+  {
+    "id": "propaganda__fascism",
+    "source": "propaganda",
+    "target": "fascism",
+    "type": "ENABLED",
+    "label": "Fascism was the first political movement to systematically theorize and deploy modern propaganda as its primary political tool",
+    "note": "Fascism and propaganda are structurally inseparable: Mussolini and Goebbels both theorized propaganda as the essential technology of fascist rule; Nazi Germany's Ministry of Public Enlightenment and Propaganda was the first government ministry dedicated entirely to information control; Leni Riefenstahl's Triumph of the Will was the first systematic use of cinema as state propaganda; the Nuremberg rallies were designed as propaganda spectacles. Hitler's \"Mein Kampf\" contains an extensive analysis of propaganda as political technique. Fascism's novelty as a political form was partly its explicit theorization of propaganda as statecraft — previous authoritarian regimes relied on censorship and force; fascism added systematic positive propaganda.",
+    "confidence": "high"
   }
 ]

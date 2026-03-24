@@ -1935,5 +1935,67 @@
       "Holocaust survivors",
       "methyl groups"
     ]
+  },
+  {
+    "id": "regulatory_capture",
+    "label": "Regulatory Capture",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1970s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Regulatory_capture",
+    "summary": "Process by which regulatory agencies come to serve the industries they are supposed to regulate; occurs through revolving door hiring, industry funding of research, and systematic influence over agency culture and personnel.",
+    "tags": [
+      "regulatory capture",
+      "revolving door",
+      "corruption",
+      "industry influence",
+      "FDA",
+      "SEC",
+      "EPA",
+      "lobbying"
+    ]
+  },
+  {
+    "id": "astroturfing",
+    "label": "Astroturfing",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1980s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Astroturfing",
+    "summary": "Creation of fake grassroots movements by corporate or political interests to manufacture appearance of popular support; named by Lloyd Bentsen for fake citizen groups actually funded by industry.",
+    "tags": [
+      "astroturfing",
+      "fake grassroots",
+      "corporate lobbying",
+      "manufactured consent",
+      "climate denial",
+      "tobacco",
+      "PR"
+    ]
+  },
+  {
+    "id": "propaganda",
+    "label": "Propaganda",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1910s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Propaganda",
+    "summary": "Systematic use of biased or misleading information to promote a political cause or point of view; distinguished from education by its deliberate manipulation rather than information transfer; central to modern state and corporate power.",
+    "tags": [
+      "propaganda",
+      "persuasion",
+      "disinformation",
+      "war",
+      "state power",
+      "media",
+      "manipulation",
+      "bernays"
+    ]
   }
 ]

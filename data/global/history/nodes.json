@@ -4001,5 +4001,67 @@
       "wilson",
       "regulation"
     ]
+  },
+  {
+    "id": "spanish_flu",
+    "label": "Spanish Flu Pandemic",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1910s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Spanish_flu",
+    "summary": "Influenza pandemic of 1918-1920 killing 50-100 million people worldwide; suppressed in wartime media coverage; shaped public health institutions and pandemic preparedness in ways that deteriorated by the 21st century.",
+    "tags": [
+      "pandemic",
+      "1918",
+      "influenza",
+      "public health",
+      "wwi",
+      "wartime censorship",
+      "mortality",
+      "global"
+    ]
+  },
+  {
+    "id": "printing_press",
+    "label": "Printing Press",
+    "node_type": "technology",
+    "category": "technology",
+    "decade": "1450s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Printing_press",
+    "summary": "Gutenberg's movable type press (c. 1440) enabled mass reproduction of texts, making books affordable; directly enabled the Protestant Reformation by allowing Bible distribution, and the Scientific Revolution by enabling scientific communication.",
+    "tags": [
+      "gutenberg",
+      "printing",
+      "information revolution",
+      "reformation",
+      "scientific revolution",
+      "mass media",
+      "literacy"
+    ]
+  },
+  {
+    "id": "protestant_reformation_history",
+    "label": "Protestant Reformation",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1510s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Reformation",
+    "summary": "Martin Luther's 1517 challenge to Catholic Church authority, producing the split of Western Christianity into Catholic and Protestant branches; drove religious wars, created the secular state concept, and catalyzed the Scientific Revolution.",
+    "tags": [
+      "martin luther",
+      "protestantism",
+      "catholicism",
+      "church reform",
+      "religious war",
+      "secularism",
+      "bible",
+      "95 theses"
+    ]
   }
 ]

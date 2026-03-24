@@ -378,5 +378,77 @@
     "label": "Both use data surveillance and information control for political manipulation — state vs. corporate versions of the same epistemic control project",
     "note": "The Great Firewall and Cambridge Analytica represent two models of information-environment manipulation: China uses state infrastructure to monitor and control information systematically; Cambridge Analytica used harvested data to micro-target individuals with psychologically tailored political messaging. Both aim at the same goal: shaping populations' beliefs and political behavior through control of information environment. The difference is scale (1.4B vs. 87M Facebook users) and method (censorship vs. targeting), but the underlying project — using information technology to produce desired political outcomes in populations — is identical.",
     "confidence": "medium"
+  },
+  {
+    "id": "fox_news__political_polarization",
+    "source": "fox_news",
+    "target": "political_polarization",
+    "type": "CAUSED",
+    "label": "Fox News is the primary institutional driver of American political polarization through partisan epistemological separation",
+    "note": "Academic research (Pew Research, Martin and Yurukoglu 2017 NBER paper) documents Fox News's causal role in political polarization: towns that received Fox News in cable rollout showed measurable increases in Republican vote share; Fox viewers hold factually distinct beliefs about climate change, vaccine safety, and election integrity from non-Fox viewers; Fox News pioneered the partisan news model where viewers receive a separate information environment rather than shared facts. The polarization Fox produces is not merely partisan but epistemological — Fox viewers and non-viewers inhabit incompatible factual realities, making democratic deliberation impossible.",
+    "confidence": "high"
+  },
+  {
+    "id": "fox_news__trump_maga",
+    "source": "fox_news",
+    "target": "trump_maga",
+    "type": "ENABLED",
+    "label": "Fox News and MAGA were mutually constitutive — Fox created the audience and epistemic environment MAGA exploited; MAGA gave Fox its primary political purpose",
+    "note": "Fox News and MAGA had a symbiotic relationship: Fox had spent two decades priming its audience with Obama birth certificate coverage, Benghazi hearings, Clinton email obsession, and border crime panic — creating the exact audience Trump exploited in 2015-16; Trump understood Fox's audience viscerally and gave them the authoritarian strongman Fox programming implied they needed; Fox News coverage of Trump was systematically more favorable than any other mainstream outlet throughout his presidency and during January 6. Rupert Murdoch's post-January 6 distancing from Trump was commercial calculation, not principled — Fox continued amplifying election denial even while internal communications (revealed in Dominion lawsuit) showed executives knew it was false.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__fox_news",
+    "source": "manufactured_consent",
+    "target": "fox_news",
+    "type": "ENABLED",
+    "label": "Fox News institutionalized the manufactured consent model in a partisan direction, but Chomsky/Herman's propaganda model applies to its operations",
+    "note": "Herman and Chomsky's manufactured consent model was developed analyzing liberal mainstream media, but applies even more directly to Fox News: ownership filter (Murdoch's political agenda); advertising filter (corporate advertisers aligned with Republican politics); sourcing filter (Republican politicians and conservative think tanks as primary sources); flak filter (Media Research Center and others attack reporters who criticize Fox or Republicans); ideology filter (anti-communism replaced with anti-liberalism as the primary organizing ideology). Fox added a sixth filter: partisan audience capture, where the audience's political identity is directly monetized, creating incentives to radicalize rather than inform.",
+    "confidence": "high"
+  },
+  {
+    "id": "russian_disinformation__social_media_algorithms",
+    "source": "russian_disinformation",
+    "target": "social_media_algorithms",
+    "type": "EXPLOITED",
+    "label": "Russian disinformation operations specifically exploited social media algorithmic amplification to reach audiences far beyond organic reach",
+    "note": "The Internet Research Agency (IRA) and Russian disinformation operations were specifically designed to exploit social media algorithms: content designed to maximize engagement (outrage, fear, identity threat) was algorithmically amplified beyond its organic reach; Russian accounts posed as American political activists on all sides to amplify division; the IRA created Facebook groups with millions of organic followers who never knew they were interacting with Russian state operations. The Mueller Report documented the scale: IRA social media content reached 126 million Americans on Facebook alone. Russian operations demonstrated that social media algorithms were a national security vulnerability because they amplified divisive content regardless of source.",
+    "confidence": "high"
+  },
+  {
+    "id": "russian_disinformation__broken_epistemology",
+    "source": "russian_disinformation",
+    "target": "broken_epistemology",
+    "type": "ENABLED",
+    "label": "Russian disinformation strategy was explicitly designed to produce epistemological confusion rather than promote specific beliefs",
+    "note": "Russian disinformation strategy (documented in the Gerasimov Doctrine and Surkov's \"managed democracy\" framework) aims not to persuade but to confuse: the goal is to make audiences uncertain about what is true, distrust all information sources, and become paralyzed by competing narratives. The strategy is effective precisely because it exploits healthy epistemic habits — skepticism of propaganda — to undermine the possibility of shared factual knowledge. When everything is potentially disinformation, democratic deliberation becomes impossible. Russian operations promoted contradictory conspiracies simultaneously because the confusion itself serves the strategic goal, not any particular false belief.",
+    "confidence": "high"
+  },
+  {
+    "id": "media_consolidation__manufactured_consent",
+    "source": "media_consolidation",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "label": "Media consolidation reduces the range of perspectives in public discourse, enabling manufactured consent through corporate ownership alignment",
+    "note": "Media consolidation enables manufactured consent by reducing editorial independence: when six companies control 90% of US media, their shared corporate interests (tax policy, regulatory policy, labor law) create structural alignment across nominally independent outlets; local news consolidation (Sinclair Broadcast Group buying local TV stations and mandating politically-aligned \"must-run\" segments) demonstrates the direct mechanism; conglomerate ownership (Disney-ABC, Comcast-NBC) creates conflicts of interest between journalism and corporate parent interests. The consolidation trend reduces the diversity of ownership that is the structural precondition for media pluralism.",
+    "confidence": "high"
+  },
+  {
+    "id": "media_consolidation__political_polarization",
+    "source": "media_consolidation",
+    "target": "political_polarization",
+    "type": "ENABLED",
+    "label": "Media consolidation has produced a partisan media landscape where audiences can select entirely into partisan information environments",
+    "note": "Media consolidation paradoxically increased polarization despite reducing the number of media organizations: the consolidation era coincided with partisan specialization, where consolidated media companies found profitable niches in partisan audiences rather than broad general audiences; cable TV economics incentivized partisan identity content; local newspaper collapse (accelerated by consolidated chains cutting costs) removed the shared information environment of local communities. The result is a consolidated media landscape where fewer owners produce more partisan content — consolidation and polarization have been simultaneous rather than offsetting trends.",
+    "confidence": "high"
+  },
+  {
+    "id": "citizen_journalism__social_media_algorithms",
+    "source": "citizen_journalism",
+    "target": "social_media_algorithms",
+    "type": "ENABLED",
+    "label": "Social media algorithms turned citizen journalism into a double-edged force — real accountability journalism alongside unvetted viral misinformation",
+    "note": "Social media platforms amplify citizen journalism through the same engagement optimization that amplifies misinformation: the George Floyd murder was documented by 17-year-old Darnella Frazier's iPhone video (without which prosecution might have failed); police brutality documentation across the BLM era was primarily citizen journalism; but the same dynamics amplify viral misinformation — Plandemic, COVID denialism, election fraud claims — that also originates with non-professional content creators. The distinction between citizen accountability journalism and viral misinformation uses the same distribution infrastructure; platforms cannot amplify one without amplifying the other.",
+    "confidence": "high"
   }
 ]

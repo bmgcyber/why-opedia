@@ -357,5 +357,46 @@
       "human rights",
       "torture"
     ]
+  },
+  {
+    "id": "mental_health_stigma",
+    "label": "Mental Health Stigma",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1900s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Social_stigma_of_mental_illness",
+    "summary": "Social stigma attached to mental illness that prevents treatment-seeking, produces discrimination, and reinforces suffering; intersects with race, gender, and class in determining who gets diagnosed and treated.",
+    "tags": [
+      "mental health",
+      "stigma",
+      "discrimination",
+      "treatment",
+      "psychiatry",
+      "depression",
+      "schizophrenia",
+      "shame"
+    ]
+  },
+  {
+    "id": "loneliness_epidemic",
+    "label": "Loneliness Epidemic",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Loneliness",
+    "summary": "Public health crisis of widespread social isolation documented across Western democracies; the US Surgeon General declared loneliness an epidemic in 2023; associated with mortality risk equivalent to smoking 15 cigarettes per day.",
+    "tags": [
+      "loneliness",
+      "isolation",
+      "social connection",
+      "mental health",
+      "social media",
+      "community",
+      "public health"
+    ]
   }
 ]

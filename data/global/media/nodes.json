@@ -464,5 +464,68 @@
       "authoritarian",
       "information-control"
     ]
+  },
+  {
+    "id": "russian_disinformation",
+    "label": "Russian Disinformation Operations",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Russian_interference_in_the_2016_United_States_elections",
+    "summary": "Russian state-directed campaigns using social media, fake news sites, and hacked email releases to influence Western elections and amplify social division; documented in the Mueller Report and Senate Intelligence Committee investigations.",
+    "tags": [
+      "russia",
+      "disinformation",
+      "election interference",
+      "IRA",
+      "troll farm",
+      "social media",
+      "mueller",
+      "2016"
+    ]
+  },
+  {
+    "id": "citizen_journalism",
+    "label": "Citizen Journalism",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2000s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Citizen_journalism",
+    "summary": "Non-professional reporting enabled by digital cameras and social media; democratizes news gathering but also produces unvetted information, reduced professional standards, and vulnerability to manipulation.",
+    "tags": [
+      "social media",
+      "crowdsourcing",
+      "news",
+      "twitter",
+      "smartphone",
+      "accountability",
+      "unvetted",
+      "democratization"
+    ]
+  },
+  {
+    "id": "media_consolidation",
+    "label": "Media Consolidation",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1990s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Concentration_of_media_ownership",
+    "summary": "Progressive concentration of media ownership in fewer corporate hands; six companies control 90% of US media by 2012 vs 50 companies in 1983; reduces editorial independence and narrows range of perspectives in public discourse.",
+    "tags": [
+      "media ownership",
+      "consolidation",
+      "corporate media",
+      "Murdoch",
+      "Comcast",
+      "Disney",
+      "monopoly",
+      "diversity"
+    ]
   }
 ]

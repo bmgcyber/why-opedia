@@ -4183,5 +4183,68 @@
     "label": "Tulsa became a focal point of reparations debate because it involves identifiable victims, documented property destruction, and living descendants",
     "note": "The Tulsa Race Massacre is the leading concrete case in reparations debates because it combines features that make the abstract concrete: documented property destruction with calculable value; identified perpetrators and victims; living survivors and their children; government participation making state liability clear; and documented suppression of victims' prior attempts at compensation. The 2021 centennial renewed national attention during the BLM moment. Greenwood survivors testified to Congress. Oklahoma courts have considered reparations lawsuits. Tulsa demonstrates both the case for reparations and the institutional resistance to them.",
     "confidence": "high"
+  },
+  {
+    "id": "rwandan_genocide__hutu_power",
+    "source": "rwandan_genocide",
+    "target": "hutu_power",
+    "type": "PRODUCED",
+    "label": "The Rwandan genocide was organized and executed by Hutu Power extremists using state media as their primary mobilization tool",
+    "note": "Hutu Power was the direct organizational cause of the Rwandan genocide: Radio Milles Collines broadcast daily instructions, named specific Tutsis to kill, and used dehumanizing language (\"cockroaches\") that lowered killing inhibitions; the Interahamwe militias were Hutu Power's paramilitary arm; the genocide was organizationally sophisticated — it killed 500,000-800,000 people in 100 days using primarily machetes and local coordination. The genocide demonstrates the relationship between media dehumanization and mass violence: Radio Milles Collines was as essential to the genocide as the machetes. Rwanda became the defining case for \"responsibility to protect\" doctrine in international law.",
+    "confidence": "high"
+  },
+  {
+    "id": "spanish_flu__covid19_pandemic",
+    "source": "spanish_flu",
+    "target": "covid19_pandemic",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "The Spanish flu and COVID-19 share pandemic dynamics but COVID occurred in an information environment the 1918 pandemic could not have imagined",
+    "note": "The Spanish flu (1918-1920) and COVID-19 share fundamental pandemic dynamics: respiratory transmission, high mortality in vulnerable populations, non-pharmaceutical interventions (masking, distancing) as primary early mitigation, and catastrophic failure of political leadership in some jurisdictions. Key differences: Spanish flu occurred under wartime censorship that suppressed initial coverage; COVID occurred in a 24-hour social media information environment where denial, conspiracy, and political weaponization of public health spread at pandemic speed alongside the virus. The comparison illuminates how the information environment shapes pandemic response: wartime censorship produced ignorance; social media produced epistemic chaos.",
+    "confidence": "high"
+  },
+  {
+    "id": "spanish_flu__world_war_i",
+    "source": "spanish_flu",
+    "target": "world_war_i",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "WWI troop movements spread the Spanish flu globally; wartime censorship prevented warning other nations about the pandemic",
+    "note": "The Spanish flu and WWI were deeply intertwined: troop movements (US soldiers sailing to Europe, soldiers in crowded trenches) spread the virus globally; wartime censorship in all belligerent nations suppressed news of the illness to avoid damaging morale — Spain (neutral) reported freely, giving it the misleading name \"Spanish flu\"; the 1918 German Spring Offensive failed partly because flu had decimated German forces; the Armistice (November 1918) celebrations produced massive super-spreader events during the second wave. The flu killed more people than WWI did — approximately 50-100 million vs 20 million — but gets far less historical attention because it lacked the political drama of the war.",
+    "confidence": "high"
+  },
+  {
+    "id": "printing_press__protestant_reformation_history",
+    "source": "printing_press",
+    "target": "protestant_reformation_history",
+    "type": "ENABLED",
+    "label": "The printing press made the Reformation possible by enabling mass distribution of Luther's theses and vernacular Bibles outside Church control",
+    "note": "The printing press was the enabling technology of the Protestant Reformation: Luther's 95 Theses (1517) were printed and distributed across Germany within weeks — previously, reformers like Jan Hus (burned 1415) could not spread their ideas fast enough to survive Church suppression; vernacular Bible printing (Luther's German Bible, 1534) gave literate Germans direct access to scripture, undermining the priest's interpretive monopoly; Protestant pamphlet culture created a public sphere of religious debate outside Church control. The Reformation could not have survived without printing; Church opponents of earlier centuries were isolated by the slow spread of manuscript culture.",
+    "confidence": "high"
+  },
+  {
+    "id": "printing_press__scientific_revolution",
+    "source": "printing_press",
+    "target": "scientific_revolution",
+    "type": "ENABLED",
+    "label": "The printing press enabled scientific communication at scale, allowing scientists across Europe to build on each other's work",
+    "note": "The Scientific Revolution required the printing press as its communication infrastructure: Copernicus's \"De Revolutionibus\" (1543) could be distributed across Europe simultaneously; scientists could cite, debate, and build on each other's work rather than each working in isolation; standardized printed texts meant scientists in different countries were working from the same data; Galileo, Kepler, and Newton could develop a cumulative scientific tradition because printing made scientific knowledge cumulative. Without printing, the Scientific Revolution's knowledge accumulation speed would have been impossible — manuscript culture was too slow and error-prone for the systematic empirical tradition science requires.",
+    "confidence": "high"
+  },
+  {
+    "id": "protestant_reformation_history__protestant_reformation",
+    "source": "protestant_reformation_history",
+    "target": "protestant_reformation",
+    "type": "PRODUCED",
+    "label": "The historical Protestant Reformation produced the Protestant Reformation as an ongoing religious tradition",
+    "note": "The Protestant Reformation as historical event (1517 onward) and Protestant Reformation as ongoing religious movement represent the event and its institutional legacy. Luther's challenge to Rome produced Lutheranism, Calvinism, Anglicanism, and dozens of subsequent Protestant denominations; the principle of \"sola scriptura\" (scripture alone as authority) embedded the logic of fragmentation that has produced 40,000+ Protestant denominations. The historical Reformation also produced the concept of religious freedom (initially as protection for Protestant minorities in Catholic territories, then universalized) and the secular state (the only solution to religious civil war). Connecting the historical event to the living movement.",
+    "confidence": "high"
+  },
+  {
+    "id": "protestant_reformation_history__peace_of_westphalia",
+    "source": "protestant_reformation_history",
+    "target": "peace_of_westphalia",
+    "type": "PRODUCED",
+    "label": "The Thirty Years War of religion that the Reformation catalyzed produced the Peace of Westphalia as its resolution",
+    "note": "The Peace of Westphalia (1648) was the political resolution to the wars of religion the Protestant Reformation had caused: the Thirty Years War (1618-1648) killed a third of the German population in religiously-motivated mass violence; Westphalia's solution was to separate religious authority from political sovereignty — rulers could determine their territory's religion (cuius regio, eius religio) but could not force religious conversion outside their borders. This solution (state sovereignty as the answer to religious war) was the origin of the modern international order. The Reformation caused a century of religious war; Westphalia created the state system to prevent it happening again.",
+    "confidence": "high"
   }
 ]

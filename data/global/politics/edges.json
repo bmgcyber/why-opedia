@@ -1618,5 +1618,14 @@
     "label": "The Great Depression's severity made FDR's election politically possible and his radical New Deal programs politically necessary",
     "note": "FDR's election (1932) and the New Deal were direct political products of the Great Depression: Hoover's failure to respond effectively had produced 25% unemployment, mass bank failures, and Hoovervilles; the Depression made the electorate receptive to radical intervention; fear of communist revolution or fascist response (as in Germany) made business elites willing to accept New Deal reforms as the price of stability. The Depression created the political space for institutional transformation that would have been impossible in normal economic conditions. FDR's \"nothing to fear but fear itself\" was also implicitly about the fear of political revolution.",
     "confidence": "high"
+  },
+  {
+    "id": "regulatory_capture__neoliberalism_politics",
+    "source": "neoliberalism",
+    "target": "regulatory_capture",
+    "type": "PRODUCED",
+    "label": "Neoliberal politics systematically produced regulatory capture by appointing industry insiders and defunding enforcement agencies",
+    "note": "Neoliberal governments (Reagan, Thatcher, and successors) systematically produced regulatory capture: Reagan appointed Anne Gorsuch (Burford) to head EPA with mandate to weaken it; appointed James Watt (former industry attorney) as Interior Secretary; defunded regulatory agencies while appointing opponents of their mission. The political strategy was explicit — use personnel and budget cuts to weaken regulation while avoiding the political cost of abolishing popular regulatory protections. This \"slow capture\" through hostile appointment and budget starvation became the template for subsequent Republican administrations. The result was regulatory agencies staffed by people ideologically committed to not regulating.",
+    "confidence": "high"
   }
 ]
