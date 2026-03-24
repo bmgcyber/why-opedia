@@ -3404,5 +3404,126 @@
       "balance-of-power",
       "restoration"
     ]
+  },
+  {
+    "id": "world_war_ii",
+    "label": "World War II",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1930s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/World_War_II",
+    "summary": "World War II (1939–1945) killed 70–85 million people — the deadliest conflict in human history — and fundamentally restructured global order: the Holocaust, two atomic bombs on Japan, the defeat of fascism, and the emergence of the United States and Soviet Union as superpowers. Its consequences defined the 20th century: the United Nations, the Cold War, decolonization, the State of Israel, NATO, the Marshall Plan, and the Nuremberg principles. WWII is the pivot event from which most subsequent global history flows.",
+    "tags": [
+      "holocaust",
+      "nazi",
+      "hiroshima",
+      "nuremburg",
+      "cold-war",
+      "decolonization",
+      "un",
+      "fascism-defeat"
+    ]
+  },
+  {
+    "id": "renaissance",
+    "label": "Renaissance",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1400s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Renaissance",
+    "summary": "The Renaissance (c. 1350–1600, beginning in Italian city-states) was the cultural and intellectual movement that bridged medieval and modern Europe: recovery of classical Greek and Roman texts, development of humanism (human dignity and capacity as the center of intellectual concern), and transformation of art (perspective, naturalism), science (empiricism), and political thought (Machiavelli). It produced the intellectual preconditions for both the Protestant Reformation and Scientific Revolution. The Renaissance's printing press dependency (Gutenberg, 1440) made its ideas irreversible.",
+    "tags": [
+      "humanism",
+      "italy",
+      "art",
+      "classical-revival",
+      "printing-press",
+      "machiavelli",
+      "da-vinci"
+    ]
+  },
+  {
+    "id": "mongol_empire",
+    "label": "Mongol Empire",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1200s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Mongol_Empire",
+    "summary": "The Mongol Empire (1206–1368) under Genghis Khan and successors was the largest contiguous land empire in history, stretching from Korea to Eastern Europe. It destroyed the Abbasid Caliphate (Baghdad, 1258), facilitated the Black Death's westward spread along trade routes, and simultaneously enabled unprecedented Eurasian trade (Pax Mongolica). Its destruction of Islamic scholarship centers and Chinese administrative systems represents one of history's greatest cultural losses, while the trade networks it maintained accelerated the exchange of technology, disease, and ideas across Eurasia.",
+    "tags": [
+      "genghis-khan",
+      "conquests",
+      "trade",
+      "black-death",
+      "abbasid-destruction",
+      "eurasian-exchange"
+    ]
+  },
+  {
+    "id": "korean_war",
+    "label": "Korean War",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Korean_War",
+    "summary": "The Korean War (1950–53) was the first major hot conflict of the Cold War, killing approximately 3 million people (mostly Korean civilians) and ending in an armistice that left the peninsula divided at the 38th parallel — a division that persists. The war established key Cold War precedents: US military intervention against communist expansion (Truman Doctrine applied), UN collective security action (first use), Chinese military intervention in a regional conflict, and the limitation of nuclear weapons use despite US capability. The \"Forgotten War\" in Western memory is Korea's defining national trauma.",
+    "tags": [
+      "cold-war",
+      "truman",
+      "china",
+      "un",
+      "division",
+      "containment",
+      "forgotten-war",
+      "nuclear-deterrence"
+    ]
+  },
+  {
+    "id": "roman_republic",
+    "label": "Roman Republic",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "-500s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Roman_Republic",
+    "summary": "The Roman Republic (509–27 BCE) developed the constitutional structures — Senate, consuls, tribunes, written law (Twelve Tables), and checks and balances — that directly influenced Western constitutional tradition. Its collapse (through the combination of economic inequality, military professionalization, social war, and charismatic generals — Marius, Sulla, Caesar, Octavian) is the foundational case study in how republics die. The American Founders studied the Roman Republic obsessively; Madison's Federalist Papers cite its decline as the primary cautionary precedent.",
+    "tags": [
+      "senate",
+      "constitution",
+      "checks-and-balances",
+      "julius-caesar",
+      "democracy-decay",
+      "law",
+      "republic"
+    ]
+  },
+  {
+    "id": "julius_caesar",
+    "label": "Julius Caesar",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "-40s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Julius_Caesar",
+    "summary": "Gaius Julius Caesar (100–44 BCE) conquered Gaul, crossed the Rubicon to trigger civil war, became dictator perpetuo, and was assassinated on the Ides of March. His actions destroyed the Roman Republic and — through the subsequent civil wars — produced the Roman Empire under his adopted son Augustus. Caesar is the paradigm case for how republics die: not through frontal assault on democratic institutions but through charismatic populist leadership exploiting institutional crisis, military personal loyalty, and constitutional manipulation.",
+    "tags": [
+      "republic-collapse",
+      "rome",
+      "assassination",
+      "populism",
+      "civil-war",
+      "dictator",
+      "gallic-wars"
+    ]
   }
 ]
