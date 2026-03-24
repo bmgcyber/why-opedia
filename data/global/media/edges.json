@@ -1,14 +1,5 @@
 [
   {
-    "id": "hutu_power__radio_milles_collines",
-    "source": "hutu_power",
-    "target": "radio_milles_collines",
-    "type": "PRODUCED",
-    "label": "ideology created its media arm",
-    "note": "RTLM was explicitly created by Hutu Power organizers including Ferdinand Nahimana, who was later convicted of genocide by the International Criminal Tribunal for Rwanda specifically for his role in RTLM's broadcasts.",
-    "confidence": "high"
-  },
-  {
     "id": "radio_milles_collines__rwandan_genocide",
     "source": "radio_milles_collines",
     "target": "rwandan_genocide",
@@ -18,39 +9,12 @@
     "confidence": "high"
   },
   {
-    "id": "nazi_propaganda__radio_milles_collines",
-    "source": "nazi_propaganda",
-    "target": "radio_milles_collines",
-    "type": "SHARES_MECHANISM_WITH",
-    "label": "both used media to dehumanize and coordinate",
-    "note": "Both used mass broadcast media to systematically strip target populations of human status and coordinate killers. Der Stürmer's vermin/parasite language and RTLM's 'inyenzi' (cockroach) language serve the same psychological function.",
-    "confidence": "high"
-  },
-  {
-    "id": "radio_milles_collines__dehumanization",
-    "source": "radio_milles_collines",
-    "target": "dehumanization",
-    "type": "PRODUCED",
-    "label": "cockroach language stripped human status",
-    "note": "RTLM didn't just report events — it actively produced dehumanization as a functional output, broadcasting 'cockroach' language continuously to prepare killers psychologically and lower the moral threshold for participating.",
-    "confidence": "high"
-  },
-  {
     "id": "adolf_hitler__joseph_goebbels",
     "source": "adolf_hitler",
     "target": "joseph_goebbels",
     "type": "ENABLED",
     "label": "Hitler gave Goebbels total control over German media and cultural production",
     "note": "Goebbels relationship to Hitler was that of a virtuoso to a patron: Hitler provided the political authority and personal trust that gave Goebbels his extraordinary power. Goebbels was appointed Reich Minister of Propaganda in 1933 at Hitler insistence. Their relationship was symbiotic: Goebbels made Hitler seem divine; Hitler made Goebbels omnipotent.",
-    "confidence": "high"
-  },
-  {
-    "id": "joseph_goebbels__nazi_propaganda",
-    "source": "joseph_goebbels",
-    "target": "nazi_propaganda",
-    "type": "PRODUCED",
-    "label": "Goebbels created and administered the Nazi propaganda machine as Minister",
-    "note": "As Reich Minister of Public Enlightenment and Propaganda, Goebbels controlled all German newspapers, radio stations, films, theater, music, and the arts through the Reich Chamber of Culture. No one could work in German cultural life without Goebbels approval. He developed the most sophisticated state propaganda apparatus in history to that point.",
     "confidence": "high"
   },
   {
@@ -114,15 +78,6 @@
     "type": "ENABLED",
     "label": "Hieroglyphic writing enabled the recording and transmission of funerary texts",
     "note": "The Book of the Dead existed only because of hieroglyphic writing. The spells and instructions required written form to be placed in tombs; the hieroglyphic tradition preserved and transmitted this text over 1,500 years.",
-    "confidence": "high"
-  },
-  {
-    "id": "homeric_epics__greek_mythology",
-    "source": "homeric_epics",
-    "target": "greek_mythology",
-    "type": "ENABLED",
-    "label": "The Homeric epics standardized and transmitted Greek mythology across the Hellenic world",
-    "note": "Before Homer, Greek mythology was regional and diverse. The Iliad and Odyssey provided a shared canonical account of the gods and heroes that became the common cultural currency of all Greek-speaking peoples. Homer was the \"Bible of the Greeks.\"",
     "confidence": "high"
   },
   {

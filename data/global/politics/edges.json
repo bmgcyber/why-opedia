@@ -9,15 +9,6 @@
     "confidence": "high"
   },
   {
-    "id": "watergate__broken_epistemology",
-    "source": "watergate",
-    "target": "broken_epistemology",
-    "type": "CAUSED",
-    "label": "demonstrated government lies at highest level",
-    "note": "Nixon's coverup confirmed that presidential-level deception was real, contributing to collapse of institutional trust.",
-    "confidence": "high"
-  },
-  {
     "id": "church_committee__cointelpro",
     "source": "church_committee",
     "target": "cointelpro",
@@ -54,39 +45,12 @@
     "confidence": "high"
   },
   {
-    "id": "dehumanization__jim_crow_laws",
-    "source": "dehumanization",
-    "target": "jim_crow_laws",
-    "type": "ENABLED",
-    "label": "ideology outlasted slavery's legal end",
-    "note": "The dehumanizing racial ideology slavery required did not dissolve at emancipation — it provided the moral scaffolding that made Jim Crow laws politically possible and socially acceptable to white majorities.",
-    "confidence": "high"
-  },
-  {
     "id": "jim_crow_laws__war_on_drugs",
     "source": "jim_crow_laws",
     "target": "war_on_drugs",
     "type": "ENABLED",
     "label": "racialized enforcement infrastructure inherited",
     "note": "Jim Crow's racialized policing patterns, prosecutorial discretion, and community surveillance infrastructure were not dismantled at the Civil Rights Acts — they were inherited by the War on Drugs, which applied them through nominally race-neutral drug enforcement with documented racial targeting.",
-    "confidence": "medium"
-  },
-  {
-    "id": "war_on_drugs__mass_incarceration",
-    "source": "war_on_drugs",
-    "target": "mass_incarceration",
-    "type": "CAUSED",
-    "label": "mandatory minimums drove incarceration rates",
-    "note": "The War on Drugs produced mass incarceration through mandatory minimum sentencing, three-strikes laws, and militarized policing — tripling the U.S. prison population between 1980 and 2000 with documented racial disparities in enforcement and sentencing at every stage.",
-    "confidence": "high"
-  },
-  {
-    "id": "jim_crow_laws__mass_incarceration",
-    "source": "jim_crow_laws",
-    "target": "mass_incarceration",
-    "type": "ENABLED",
-    "label": "racial caste system changed its form",
-    "note": "Michelle Alexander's The New Jim Crow documents the structural continuity: both systems used legal mechanisms to maintain racial hierarchy — the formal apartheid of Jim Crow replaced by the carceral system as the primary mechanism of racial control after 1965.",
     "confidence": "medium"
   },
   {
@@ -99,51 +63,6 @@
     "confidence": "high"
   },
   {
-    "id": "pentagon_papers__broken_epistemology",
-    "source": "pentagon_papers",
-    "target": "broken_epistemology",
-    "type": "CAUSED",
-    "label": "proved government systematically deceived the public",
-    "note": "The Pentagon Papers confirmed what MK Ultra and COINTELPRO showed from different angles: the U.S. government systematically deceived the public on matters of war and peace. Together these revelations constituted a foundational collapse of institutional trust.",
-    "confidence": "high"
-  },
-  {
-    "id": "fossil_fuel_industry__climate_change_denial",
-    "source": "fossil_fuel_industry",
-    "target": "climate_change_denial",
-    "type": "PRODUCED",
-    "label": "industry directly funded denial campaigns",
-    "note": "Documented by DeSmog, Union of Concerned Scientists, and Congressional investigations: Exxon, Chevron, and API funded think tanks, front groups, and political campaigns specifically to produce and sustain climate denial as a coherent organized movement.",
-    "confidence": "high"
-  },
-  {
-    "id": "fossil_fuel_industry__manufactured_scientific_doubt",
-    "source": "fossil_fuel_industry",
-    "target": "manufactured_scientific_doubt",
-    "type": "CAUSED",
-    "label": "Exxon funded doubt while knowing the science",
-    "note": "Internal Exxon documents from the late 1970s show company scientists accurately modeling climate change — while the company simultaneously funded doubt-manufacturing campaigns. This is the most documented instance of an industry deploying manufactured scientific doubt after confirming internally what it was denying publicly.",
-    "confidence": "high"
-  },
-  {
-    "id": "fossil_fuel_industry__tobacco_industry_research_suppression",
-    "source": "fossil_fuel_industry",
-    "target": "tobacco_industry_research_suppression",
-    "type": "SHARES_MECHANISM_WITH",
-    "label": "same PR firms, same scientists, same playbook",
-    "note": "Naomi Oreskes documented in Merchants of Doubt that the fossil fuel doubt campaign was executed in part by the same individuals — including Frederick Seitz — and the same PR firms that had run the tobacco doubt campaign. The playbook was literally copied.",
-    "confidence": "high"
-  },
-  {
-    "id": "fossil_fuel_industry__corporate_regulatory_capture",
-    "source": "fossil_fuel_industry",
-    "target": "corporate_regulatory_capture",
-    "type": "PRODUCED",
-    "label": "captured EPA and energy regulators",
-    "note": "The fossil fuel industry's regulatory capture of the EPA, Department of Energy, and Congressional energy committees is among the most extensively documented cases of regulatory capture — with revolving-door personnel, direct funding of oversight committee members, and documented agency decisions favoring industry over science.",
-    "confidence": "high"
-  },
-  {
     "id": "war_on_drugs__tuskegee_syphilis_study",
     "source": "war_on_drugs",
     "target": "tuskegee_syphilis_study",
@@ -153,30 +72,12 @@
     "confidence": "medium"
   },
   {
-    "id": "pentagon_papers__moon_landing_conspiracy",
-    "source": "pentagon_papers",
-    "target": "moon_landing_conspiracy",
-    "type": "ENABLED",
-    "label": "proven government lies fueled broader distrust",
-    "note": "The Pentagon Papers confirmed that the government had systematically deceived the public on a matter of national importance. This confirmation made 'they're lying about everything' a more emotionally coherent position — providing exactly the broken epistemology that moon landing conspiracy theories exploit.",
-    "confidence": "speculative"
-  },
-  {
     "id": "jim_crow_laws__tuskegee_syphilis_study",
     "source": "jim_crow_laws",
     "target": "tuskegee_syphilis_study",
     "type": "ENABLED",
     "label": "racial hierarchy made study possible",
     "note": "The Tuskegee study could only persist for 40 years because Jim Crow's racial hierarchy rendered Black Alabamans sufficiently powerless that their withheld consent, absent advocacy, and denied treatment generated no institutional consequences. The study is an artifact of that power structure.",
-    "confidence": "high"
-  },
-  {
-    "id": "nazi_propaganda__nuremberg_laws_1935",
-    "source": "nazi_propaganda",
-    "target": "nuremberg_laws_1935",
-    "type": "PRODUCED",
-    "label": "decade of propaganda produced racial law",
-    "note": "The Nuremberg Laws codified what Nazi propaganda had spent a decade establishing as social fact — that Jews were a separate, threatening race. The laws translated propaganda into administrative infrastructure.",
     "confidence": "high"
   },
   {
@@ -207,24 +108,6 @@
     "confidence": "high"
   },
   {
-    "id": "gulag_system__mass_incarceration",
-    "source": "gulag_system",
-    "target": "mass_incarceration",
-    "type": "SHARES_MECHANISM_WITH",
-    "label": "both are carceral systems built on racial targeting",
-    "note": "Both the Gulag and U.S. mass incarceration use nominally neutral legal processes to incarcerate populations targeted by political and racial criteria — producing economic benefit for the state while maintaining social control over politically inconvenient groups.",
-    "confidence": "medium"
-  },
-  {
-    "id": "iran_contra__broken_epistemology",
-    "source": "iran_contra",
-    "target": "broken_epistemology",
-    "type": "CAUSED",
-    "label": "confirmed illegal presidential covert operations",
-    "note": "Iran-Contra confirmed the Pentagon Papers/Watergate/COINTELPRO pattern: a presidential administration had conducted illegal covert foreign policy operations and lied to Congress about them. Each successive confirmation deepened the rational basis for institutional distrust.",
-    "confidence": "high"
-  },
-  {
     "id": "iran_contra__watergate",
     "source": "iran_contra",
     "target": "watergate",
@@ -252,24 +135,6 @@
     "confidence": "high"
   },
   {
-    "id": "patriot_act_surveillance__broken_epistemology",
-    "source": "patriot_act_surveillance",
-    "target": "broken_epistemology",
-    "type": "CAUSED",
-    "label": "Snowden confirmed mass surveillance was real",
-    "note": "Government officials had publicly denied mass surveillance programs that Snowden's documents confirmed were real — adding another confirmed government lie to the accumulating record that produced broken epistemology in American public discourse.",
-    "confidence": "medium"
-  },
-  {
-    "id": "medieval_christian_antisemitism__spanish_inquisition",
-    "source": "medieval_christian_antisemitism",
-    "target": "spanish_inquisition",
-    "type": "PRODUCED",
-    "label": "theological infrastructure produced the Inquisition",
-    "note": "The Spanish Inquisition was produced by the same theological framework of collective Jewish guilt — focused specifically on conversos suspected of secretly continuing Jewish practice, requiring 1,000 years of accumulated antisemitic theological infrastructure to function.",
-    "confidence": "high"
-  },
-  {
     "id": "thirty_years_war__peace_of_westphalia",
     "source": "thirty_years_war",
     "target": "peace_of_westphalia",
@@ -294,15 +159,6 @@
     "type": "SHARES_MECHANISM_WITH",
     "label": "both exposed systematic government cover-up",
     "note": "Both My Lai and the Pentagon Papers were covered up for years by military and political officials before being forced into public record — demonstrating the same pattern of systematic institutional deception about Vietnam War conduct.",
-    "confidence": "high"
-  },
-  {
-    "id": "reconstruction_era__jim_crow_laws",
-    "source": "reconstruction_era",
-    "target": "jim_crow_laws",
-    "type": "CAUSED",
-    "label": "Reconstruction's failure produced Jim Crow",
-    "note": "Reconstruction's 1877 abandonment — Federal troops withdrawn as part of the Compromise of 1877 — allowed white supremacist violence to destroy Black political participation. Jim Crow laws were the legal consolidation of the racial control that white supremacist terror had already established through violence.",
     "confidence": "high"
   },
   {
@@ -369,15 +225,6 @@
     "confidence": "high"
   },
   {
-    "id": "jewish_diaspora__zionism",
-    "source": "jewish_diaspora",
-    "target": "zionism",
-    "type": "CAUSED",
-    "label": "Diaspora persecution produced nationalist response",
-    "note": "Two millennia of Jewish life in diaspora — marked by pogroms, legal discrimination, forced conversions, expulsions, and endemic antisemitism — produced Zionism as a nationalist response. Theodor Herzl formalized this response after witnessing the Dreyfus Affair, arguing that Jewish safety could only be achieved through a sovereign Jewish state.",
-    "confidence": "high"
-  },
-  {
     "id": "the_holocaust__zionism",
     "source": "the_holocaust",
     "target": "zionism",
@@ -432,15 +279,6 @@
     "confidence": "high"
   },
   {
-    "id": "oil_geopolitics__us_iran_1953_coup",
-    "source": "oil_geopolitics",
-    "target": "us_iran_1953_coup",
-    "type": "CAUSED",
-    "label": "Oil interests drove the intervention",
-    "note": "The Anglo-Iranian Oil Company's loss of its Iranian concessions to Mosaddegh's nationalization was the immediate trigger for the coup. British and US oil interests — and the principle that Western nations could not permit the nationalization of their oil assets — was the explicit motivation that MI6 brought to the CIA when requesting US involvement.",
-    "confidence": "high"
-  },
-  {
     "id": "cold_war__suez_crisis_1956",
     "source": "cold_war",
     "target": "suez_crisis_1956",
@@ -477,60 +315,6 @@
     "confidence": "high"
   },
   {
-    "id": "moral_disengagement__gulag_system",
-    "source": "moral_disengagement",
-    "target": "gulag_system",
-    "type": "ENABLED",
-    "label": "Bureaucratic diffusion enabled mass imprisonment",
-    "note": "The Gulag's vast scale was made possible by moral disengagement through bureaucratic diffusion: guards transferred prisoners, administrators processed paperwork, NKVD officers followed quotas. No single actor felt personally responsible for the fate of individuals. The system committed atrocities that none of its parts would own.",
-    "confidence": "high"
-  },
-  {
-    "id": "manufactured_consent__fossil_fuel_industry",
-    "source": "manufactured_consent",
-    "target": "fossil_fuel_industry",
-    "type": "SHARES_MECHANISM_WITH",
-    "label": "Climate denial used the same playbook",
-    "note": "The fossil fuel industry's climate denial campaign explicitly modeled itself on tobacco's manufactured doubt strategy: fund contrarian scientists, sponsor think tanks, flood media with 'both sides' framing. Both are instances of manufactured consent's core mechanism: powerful interests shaping the range of 'acceptable' public opinion through media management.",
-    "confidence": "high"
-  },
-  {
-    "id": "structural_violence__war_on_drugs",
-    "source": "structural_violence",
-    "target": "war_on_drugs",
-    "type": "ENABLED",
-    "label": "Structural racism enabled racially targeted enforcement",
-    "note": "The War on Drugs was politically viable because structural racism had already removed Black communities from full political citizenship. It imposed harsh penalties on crack cocaine (associated with Black communities) while treating powder cocaine leniently. The structural violence came first; the War on Drugs operationalized it.",
-    "confidence": "high"
-  },
-  {
-    "id": "preference_falsification__arab_spring",
-    "source": "preference_falsification",
-    "target": "arab_spring",
-    "type": "CAUSED",
-    "label": "Sudden cascade of revealed preferences produced revolution",
-    "note": "The Arab Spring was a textbook preference falsification cascade: populations that had publicly accepted their governments for decades rapidly revealed their true preferences once a threshold of public protest was crossed. Bouazizi's self-immolation provided the signal that made public dissent safe enough to join, and what had seemed like stable authoritarian consensus collapsed in weeks.",
-    "confidence": "high"
-  },
-  {
-    "id": "lost_cause_mythology__jim_crow_laws",
-    "source": "lost_cause_mythology",
-    "target": "jim_crow_laws",
-    "type": "ENABLED",
-    "label": "Mythology provided ideological cover for segregation",
-    "note": "Jim Crow laws were implemented within the Lost Cause ideological framework: if the Confederacy had been right, then its racial order had been legitimate, and reimposing racial hierarchy through law was restoration rather than oppression. Lost Cause mythology made white Southerners morally comfortable enforcing racial hierarchy while believing themselves honorable people.",
-    "confidence": "high"
-  },
-  {
-    "id": "preference_falsification__fall_of_soviet_union",
-    "source": "preference_falsification",
-    "target": "fall_of_soviet_union",
-    "type": "CAUSED",
-    "label": "Preference cascade made collapse sudden and total",
-    "note": "The Soviet Union's dissolution fit preference falsification's cascade model precisely: decades of publicly performed Soviet loyalty masked widespread private alienation. When Gorbachev's glasnost made dissent less costly, the cascade began. What appeared to be a stable superpower collapsed within two years — exactly the pattern Kuran's model predicts for preference falsification systems.",
-    "confidence": "high"
-  },
-  {
     "id": "cold_war__fall_of_soviet_union",
     "source": "cold_war",
     "target": "fall_of_soviet_union",
@@ -556,24 +340,6 @@
     "label": "Mandate framework legitimized independence as the goal",
     "note": "The League of Nations Mandate system nominally framed colonial administration as temporary — preparing territories for eventual self-governance. This framing provided anti-colonial nationalists with the imperial powers' own stated logic to demand independence. The mandates did not cause decolonization, but they legitimized it within international law.",
     "confidence": "medium"
-  },
-  {
-    "id": "democratic_backsliding__tiananmen_square_massacre",
-    "source": "democratic_backsliding",
-    "target": "tiananmen_square_massacre",
-    "type": "CAUSED",
-    "label": "CCP chose repression over reform",
-    "note": "Tiananmen was the culmination of a democratic backsliding decision: faced with pro-democracy protests threatening CCP control, Deng Xiaoping chose military suppression over the political reforms Zhao Ziyang had been willing to negotiate. The massacre established that the CCP would use any violence necessary to prevent democratic accountability — and then erase the event from public memory.",
-    "confidence": "high"
-  },
-  {
-    "id": "historical_revisionism__tiananmen_square_massacre",
-    "source": "historical_revisionism",
-    "target": "tiananmen_square_massacre",
-    "type": "ENABLED",
-    "label": "State censorship erased the massacre from Chinese memory",
-    "note": "The Chinese government's comprehensive censorship of Tiananmen is historical revisionism at its most total: a generation of Chinese citizens under 40 has minimal knowledge of the event. The 'Tank Man' photograph is among the most recognized images globally; inside China it barely exists. Revisionism here is not reinterpretation but near-complete erasure.",
-    "confidence": "high"
   },
   {
     "id": "cold_war__latin_american_dirty_wars",
@@ -603,51 +369,6 @@
     "confidence": "high"
   },
   {
-    "id": "enlightenment_philosophy__social_contract_theory",
-    "source": "enlightenment_philosophy",
-    "target": "social_contract_theory",
-    "type": "PRODUCED",
-    "label": "Enlightenment reason produced social contract as political foundation",
-    "note": "The Enlightenment's commitment to reason as the basis of authority made social contract theory its central political framework: if divine right cannot legitimate government, what can? Hobbes, Locke, and Rousseau each answered this question by grounding political authority in rational consent. Locke's version — consent of the governed, natural rights, right of revolution — directly informed the American and French Revolutions.",
-    "confidence": "high"
-  },
-  {
-    "id": "enlightenment_philosophy__kantian_ethics",
-    "source": "enlightenment_philosophy",
-    "target": "kantian_ethics",
-    "type": "ENABLED",
-    "label": "Kant synthesized and completed the Enlightenment moral project",
-    "note": "Kant described himself as answering Hume's skepticism and completing the Enlightenment's project of grounding morality in reason alone — without reference to God, tradition, or sentiment. His critical philosophy — asking what reason can know, what it must do, and what it may hope — was the philosophical summit of Enlightenment rationalism, and simultaneously its self-critique, establishing the limits of pure reason.",
-    "confidence": "high"
-  },
-  {
-    "id": "enlightenment_philosophy__utilitarianism",
-    "source": "enlightenment_philosophy",
-    "target": "utilitarianism",
-    "type": "ENABLED",
-    "label": "Enlightenment empiricism and reform produced utilitarianism",
-    "note": "Utilitarianism was the Enlightenment's attempt to derive ethics from observable facts about human happiness rather than abstract metaphysics. Bentham's hedonic calculus applied Enlightenment empiricism directly to moral questions: what actions actually produce more pleasure than pain? The Enlightenment's reformist spirit — critique existing institutions rationally — gave utilitarianism its practical program of social reform.",
-    "confidence": "high"
-  },
-  {
-    "id": "enlightenment_philosophy__hegelian_dialectic",
-    "source": "enlightenment_philosophy",
-    "target": "hegelian_dialectic",
-    "type": "ENABLED",
-    "label": "Hegel emerged from and criticized the Enlightenment project",
-    "note": "Hegel was shaped by and responded to the Enlightenment: the French Revolution — Enlightenment reason applied to politics — produced the Terror, destabilizing Enlightenment optimism. Hegel's dialectical philosophy was an attempt to think through how rational history progresses not through smooth development but through catastrophic contradiction and reconciliation. He both inherited Enlightenment rationalism and transformed it into historical dialectics.",
-    "confidence": "high"
-  },
-  {
-    "id": "hegelian_dialectic__frankfurt_school",
-    "source": "hegelian_dialectic",
-    "target": "frankfurt_school",
-    "type": "ENABLED",
-    "label": "Critical theory applied the Hegelian dialectic to culture and capitalism",
-    "note": "The Frankfurt School's critical theory program was explicitly Hegelian-Marxist: it used Hegel's dialectical method (immanent critique — measuring a system against its own ideals) to analyze how Enlightenment reason had inverted into domination, how capitalism produced false consciousness, and how mass culture foreclosed emancipatory possibilities. The School's signature move — dialectical reversal — was Hegelian in structure.",
-    "confidence": "high"
-  },
-  {
     "id": "frankfurt_school__postmodernism_philosophy",
     "source": "frankfurt_school",
     "target": "postmodernism_philosophy",
@@ -657,57 +378,12 @@
     "confidence": "medium"
   },
   {
-    "id": "frankfurt_school__manufactured_consent",
-    "source": "frankfurt_school",
-    "target": "manufactured_consent",
-    "type": "SHARES_MECHANISM_WITH",
-    "label": "Both analyze elite-controlled discourse limiting thinkable politics",
-    "note": "The Frankfurt School's analysis of the culture industry (Adorno and Horkheimer) and Herman and Chomsky's propaganda model (manufactured consent) converge on the same mechanism: mass media produced by concentrated corporate/state interests systematically limits the range of ideas and critiques available to citizens, producing a public that consents to its own domination while believing it is freely informed. The Frankfurt School produced the theoretical framework; manufactured consent identified the institutional structure.",
-    "confidence": "high"
-  },
-  {
-    "id": "papal_authority__spanish_inquisition",
-    "source": "papal_authority",
-    "target": "spanish_inquisition",
-    "type": "ENABLED",
-    "label": "Papal sanction gave the Inquisition theological and legal legitimacy",
-    "note": "The Spanish Inquisition operated with papal authorization — the bull Exigit Sinceras Devotionis (1478) granted the Spanish Crown the right to appoint inquisitors under papal authority. Without the claim to papal supremacy and the theological apparatus of heresy prosecution, the Inquisition had no legitimacy to compel confession or adjudicate belief.",
-    "confidence": "high"
-  },
-  {
     "id": "spanish_inquisition__jewish_expulsion_spain_1492",
     "source": "spanish_inquisition",
     "target": "jewish_expulsion_spain_1492",
     "type": "PRODUCED",
     "label": "The Inquisition targeting of conversos made the final expulsion of unconverted Jews logical",
     "note": "The Spanish Inquisition targeted conversos (Jewish converts to Christianity) suspected of secretly practicing Judaism. The existence of unconverted Jews was seen as a contaminating influence — providing a community to which conversos could revert. The Inquisition created the logic for the Alhambra Decree: if conversos were the problem, remove the source of their temptation.",
-    "confidence": "high"
-  },
-  {
-    "id": "pogroms__zionism",
-    "source": "pogroms",
-    "target": "zionism",
-    "type": "ENABLED",
-    "label": "Pogroms convinced Jewish intellectuals that European safety was impossible without a homeland",
-    "note": "Theodor Herzl was radicalized toward Zionism partly by the Dreyfus Affair and partly by the awareness of Russian pogroms. The argument of Der Judenstaat (1896) rests on the premise that antisemitism is permanent and that Jews require a state of their own to be safe. The pogroms were empirical evidence for the Zionist argument.",
-    "confidence": "high"
-  },
-  {
-    "id": "evangelical_christianity__prosperity_gospel",
-    "source": "evangelical_christianity",
-    "target": "prosperity_gospel",
-    "type": "ENABLED",
-    "label": "Evangelical emphasis on personal blessing and Scripture interpretation enabled prosperity theology",
-    "note": "Prosperity gospel grew within Evangelical and Pentecostal soil: the emphasis on personal relationship with God, the possibility of direct divine blessing, and the right of individuals to interpret Scripture all enabled the prosperity gospel claim that financial blessing follows faithful giving. It is an Evangelical form of theology, not an external imposition.",
-    "confidence": "high"
-  },
-  {
-    "id": "thomas_hobbes__social_contract_theory",
-    "source": "thomas_hobbes",
-    "target": "social_contract_theory",
-    "type": "PRODUCED",
-    "label": "Hobbes Leviathan founded the social contract tradition in Western political theory",
-    "note": "Hobbes argument that political authority derives from a contract between individuals — not from divine right or tradition — was the founding move of social contract theory. His version (absolute sovereignty) was more authoritarian than Locke or Rousseau, but he established the contractarian framework all subsequent theorists would work within.",
     "confidence": "high"
   },
   {
@@ -763,15 +439,6 @@
     "label": "Smith Wealth of Nations was a founding text of Enlightenment political economy",
     "note": "Smith was a member of the Scottish Enlightenment (Hume was his friend). Wealth of Nations applied Enlightenment principles — empirical analysis, natural law, rational self-interest — to economic life. Its argument that free exchange produces social benefit without conscious direction was the Enlightenment faith in natural harmony applied to economics.",
     "confidence": "high"
-  },
-  {
-    "id": "niccolo_machiavelli__democratic_backsliding",
-    "source": "niccolo_machiavelli",
-    "target": "democratic_backsliding",
-    "type": "ENABLED",
-    "label": "Machiavellian statecraft provided the intellectual framework for rulers who manipulate institutions",
-    "note": "Machiavelli argument that effective rulers must act outside conventional morality — using deception, fear, and force when necessary — was adopted by successive authoritarian leaders as justification for breaking constitutional norms. The \"Machiavellian\" ruler who consolidates power by manufacturing crises and eliminating rivals is a recurring figure in democratic backsliding.",
-    "confidence": "medium"
   },
   {
     "id": "niccolo_machiavelli__enlightenment_philosophy",
@@ -870,15 +537,6 @@
     "type": "ENABLED",
     "label": "Mussolini experience in WWI radicalized him and provided the emotional core of fascism",
     "note": "Mussolini served in WWI and was wounded; his experience of trench warfare, mass death, and post-war humiliation (Italy was promised territorial gains that were denied at Versailles) became the founding emotional experience of fascism: betrayal, sacrifice, violence as purification, and the nation as the supreme value. Fasci di combattimento (combat leagues) were originally WWI veteran organizations.",
-    "confidence": "high"
-  },
-  {
-    "id": "benito_mussolini__democratic_backsliding",
-    "source": "benito_mussolini",
-    "target": "democratic_backsliding",
-    "type": "ENABLED",
-    "label": "Mussolini March on Rome model demonstrated how democracies can be legally captured",
-    "note": "Mussolini path to power — threatening violence while maneuvering legally, being appointed by the king within constitutional norms, then gradually abolishing those norms from inside — became the template that Hitler, and many subsequent authoritarians, studied and replicated. The \"legal coup\" was the 20th-century innovation in democratic destruction.",
     "confidence": "high"
   },
   {
@@ -1089,15 +747,6 @@
     "confidence": "high"
   },
   {
-    "id": "nelson_mandela__structural_violence",
-    "source": "nelson_mandela",
-    "target": "structural_violence",
-    "type": "DISCREDITED",
-    "label": "Mandela Rivonia Trial statement named apartheid as structural violence requiring political response",
-    "note": "Mandela Rivonia Trial statement (I am prepared to die) named the structural violence of apartheid — the laws, economic exclusions, pass systems, and police violence that enforced racial hierarchy — as political violence requiring political resistance. He argued that when all legal means of resistance are closed, people are not morally obligated to be passive.",
-    "confidence": "high"
-  },
-  {
     "id": "martin_luther_king_jr__jim_crow_laws",
     "source": "martin_luther_king_jr",
     "target": "jim_crow_laws",
@@ -1113,15 +762,6 @@
     "type": "PRODUCED",
     "label": "Fanon Wretched of the Earth was the philosophical manifesto of the global decolonization movement",
     "note": "The Wretched of the Earth (1961) synthesized political strategy, psychological analysis, and moral philosophy into the definitive account of what anti-colonial struggle requires and what it does to those who fight it. It was read by anti-colonial movements across Africa, Asia, and Latin America as their foundational text.",
-    "confidence": "high"
-  },
-  {
-    "id": "frantz_fanon__collective_trauma",
-    "source": "frantz_fanon",
-    "target": "collective_trauma",
-    "type": "ENABLED",
-    "label": "Fanon psychiatric work documented collective trauma as a product of colonial violence",
-    "note": "As a psychiatrist in Algeria treating both colonial subjects and French soldiers, Fanon documented the specific psychological damage colonialism inflicted: the internalization of racial inferiority, the splitting of identity, and the post-independence trauma that continued after formal liberation. His clinical observations produced some of the earliest systematic accounts of what would later be called collective trauma.",
     "confidence": "high"
   },
   {
@@ -1260,24 +900,6 @@
     "confidence": "high"
   },
   {
-    "id": "meroe__nubian_trade",
-    "source": "meroe",
-    "target": "nubian_trade",
-    "type": "PRODUCED",
-    "label": "Meroe's iron production and position between the African interior and the Roman world produced extensive trade",
-    "note": "Meroe became a major iron-producing center, trading manufactured goods across sub-Saharan Africa. Its position on the Nile gave it access to both Mediterranean Roman trade and African interior trade routes.",
-    "confidence": "high"
-  },
-  {
-    "id": "kingdom_of_kush__nubian_trade",
-    "source": "kingdom_of_kush",
-    "target": "nubian_trade",
-    "type": "ENABLED",
-    "label": "The Kingdom of Kush maintained and extended Nubian trade networks across sub-Saharan Africa",
-    "note": "Kush's political stability and military capacity enabled the trade networks that connected the African interior to Mediterranean markets. The kingdom's wealth derived substantially from controlling these trade routes.",
-    "confidence": "high"
-  },
-  {
     "id": "athenian_democracy__socrates",
     "source": "athenian_democracy",
     "target": "socrates",
@@ -1350,30 +972,12 @@
     "confidence": "medium"
   },
   {
-    "id": "qanon__january_6_attack",
-    "source": "qanon",
-    "target": "january_6_attack",
-    "type": "ENABLED",
-    "label": "QAnon belief radicalized participants in the January 6th attack",
-    "note": "Many January 6th participants and organizers held QAnon beliefs. QAnon's framing of the 2020 election as a Satanic cabal's theft of the election provided the ideological framework that made violent resistance feel morally required rather than merely politically motivated.",
-    "confidence": "high"
-  },
-  {
     "id": "trump_maga__january_6_attack",
     "source": "trump_maga",
     "target": "january_6_attack",
     "type": "CAUSED",
     "label": "Trump's Big Lie campaign and direct incitement caused the January 6th Capitol attack",
     "note": "The January 6th Select Committee documented that Trump's months-long \"Stop the Steal\" campaign, his pressure on state officials and Vice President Pence, and his speech on January 6th directly caused the attack. Without Trump's active incitement and the MAGA movement's organizational infrastructure, the attack would not have occurred.",
-    "confidence": "high"
-  },
-  {
-    "id": "culture_wars__trump_maga",
-    "source": "culture_wars",
-    "target": "trump_maga",
-    "type": "ENABLED",
-    "label": "Decades of culture war framing created the identity-threat politics that MAGA mobilized",
-    "note": "Trump's MAGA movement mobilized the accumulated emotional energy of three decades of culture war: white Christian identity threat, anti-immigration anxiety, and the framing of Democratic opponents as existential threats to American civilization. Culture war politics trained Republican voters to see politics as warfare.",
     "confidence": "high"
   },
   {

@@ -93,7 +93,11 @@
 
     // Build combined graph data
     const allNodes = [...scopeNodes, ...ghostNodes, ...childPortals];
-    const allEdges = [...scopeEdges];
+    // Only include scope edges where both endpoints are visible in this scope view
+    const visibleNodeIds = new Set([...scopeNodes, ...ghostNodes].map(n => n.id));
+    const allEdges = scopeEdges.filter(e =>
+      visibleNodeIds.has(e.source) && visibleNodeIds.has(e.target)
+    );
 
     // Add mechanism edges that connect to scope nodes
     for (const edge of mechEdges) {

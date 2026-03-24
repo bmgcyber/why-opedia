@@ -1,32 +1,5 @@
 [
   {
-    "id": "tobacco_settlement__tobacco_suppression",
-    "source": "tobacco_master_settlement",
-    "target": "tobacco_industry_research_suppression",
-    "type": "DISCREDITED",
-    "label": "internal documents proved corporate knowledge",
-    "note": "Release of over 35 million internal pages made the suppression historically undeniable, converting decades of plausible deniability into confirmed, documented corporate fraud.",
-    "confidence": "high"
-  },
-  {
-    "id": "pain_management__purdue_pharma_oxycontin",
-    "source": "pain_management_movement",
-    "target": "purdue_pharma_oxycontin",
-    "type": "ENABLED",
-    "label": "legitimate suffering created receptive environment",
-    "note": "The genuine medical problem of undertreated chronic pain gave Purdue's aggressive prescribing campaign the appearance of responding to a clinical need — providing moral cover and a motivated physician audience.",
-    "confidence": "high"
-  },
-  {
-    "id": "tuskegee_syphilis_study__broken_epistemology",
-    "source": "tuskegee_syphilis_study",
-    "target": "broken_epistemology",
-    "type": "CAUSED",
-    "label": "produced documented medical distrust",
-    "note": "The most directly traceable instance of government atrocity producing community-specific broken epistemology: studies on COVID vaccine hesitancy in Black Americans consistently identify Tuskegee as a primary cited reason for medical distrust.",
-    "confidence": "high"
-  },
-  {
     "id": "tuskegee__mk_ultra",
     "source": "tuskegee_syphilis_study",
     "target": "mk_ultra",
@@ -52,24 +25,6 @@
     "label": "movement secured Supreme Court legitimacy",
     "note": "The eugenics movement's legal and scientific lobbying produced the Buck v. Bell ruling as its formal judicial endorsement — converting a pseudoscientific ideology into constitutional law.",
     "confidence": "high"
-  },
-  {
-    "id": "american_eugenics_movement__dehumanization",
-    "source": "american_eugenics_movement",
-    "target": "dehumanization",
-    "type": "EXPLOITED",
-    "label": "declared the 'unfit' subhuman",
-    "note": "Eugenics required and deployed the dehumanization of disabled people, the poor, immigrants, and racial minorities as 'defectives' whose reproduction threatened civilization — providing scientific cover for the psychological process.",
-    "confidence": "high"
-  },
-  {
-    "id": "hamitic_hypothesis__american_eugenics_movement",
-    "source": "hamitic_hypothesis",
-    "target": "american_eugenics_movement",
-    "type": "SHARES_MECHANISM_WITH",
-    "label": "shared racial hierarchy pseudoscience",
-    "note": "Both the Hamitic Hypothesis and American eugenics used scientific-appearing racial taxonomies to establish heritable hierarchies — pseudoscience dressed as anthropology or biology to justify state-sanctioned targeting of populations by race.",
-    "confidence": "medium"
   },
   {
     "id": "american_eugenics_movement__cointelpro",

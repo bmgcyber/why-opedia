@@ -1,72 +1,5 @@
 [
   {
-    "id": "fat_acceptance__healthy_at_every_size",
-    "source": "fat_acceptance_movement",
-    "target": "healthy_at_every_size",
-    "type": "PRODUCED",
-    "label": "produced strong-form health claim",
-    "note": "Fat acceptance movement generated HAES as its medical framework, extending dignity advocacy into contested health claims.",
-    "confidence": "high",
-    "sources": [
-      "Bacon, L. (2010). Health at Every Size. BenBella Books.",
-      "https://en.wikipedia.org/wiki/Health_at_every_size"
-    ]
-  },
-  {
-    "id": "fat_acceptance__identity_capture",
-    "source": "fat_acceptance_movement",
-    "target": "identity_capture",
-    "type": "NORMALIZED",
-    "label": "normalized weight as core identity",
-    "note": "Community reward structures make losing weight feel like betrayal of in-group, converting a health condition into load-bearing identity.",
-    "confidence": "high"
-  },
-  {
-    "id": "fat_acceptance__medical_weight_bias",
-    "source": "medical_weight_bias",
-    "target": "fat_acceptance_movement",
-    "type": "ENABLED",
-    "label": "legitimate bias fueled movement",
-    "note": "Documented poor medical care for larger patients provided the real grievance that grew the movement.",
-    "confidence": "high"
-  },
-  {
-    "id": "identity_capture__incel",
-    "source": "identity_capture",
-    "target": "incel_community",
-    "type": "SHARES_MECHANISM_WITH",
-    "label": "same identity lock-in pattern",
-    "note": "Both fat acceptance and incel communities use identity capture to insulate members from self-examination. Leaving = betrayal.",
-    "confidence": "high"
-  },
-  {
-    "id": "identity_capture__brony",
-    "source": "identity_capture",
-    "target": "brony_fandom",
-    "type": "SHARES_MECHANISM_WITH",
-    "label": "fandom becomes identity not interest",
-    "note": "For a subset, MLP fandom becomes a surrogate social world rather than an entertainment preference.",
-    "confidence": "medium"
-  },
-  {
-    "id": "identity_capture__furry",
-    "source": "identity_capture",
-    "target": "furry_fandom",
-    "type": "SHARES_MECHANISM_WITH",
-    "label": "fursona as identity displacement",
-    "note": "Fursona construction suggests the appeal is not anthropomorphic animals but an alternate self that opts out of uncomfortable human identity.",
-    "confidence": "medium"
-  },
-  {
-    "id": "identity_capture__chronic_illness",
-    "source": "identity_capture",
-    "target": "chronic_illness_online_communities",
-    "type": "SHARES_MECHANISM_WITH",
-    "label": "illness becomes personality",
-    "note": "Communities develop reward structures where being sicker generates more engagement, and recovery threatens belonging.",
-    "confidence": "high"
-  },
-  {
     "id": "incel__self_reinforces",
     "source": "incel_community",
     "target": "incel_community",
@@ -76,39 +9,12 @@
     "confidence": "high"
   },
   {
-    "id": "identity_capture__fat_acceptance",
-    "source": "identity_capture",
-    "target": "fat_acceptance_movement",
-    "type": "COLONIZED",
-    "label": "dignity advocacy captured by identity framework",
-    "note": "The legitimate core of fat acceptance (medical bias, dignity, anti-stigma) was colonized by an identity framework that makes improvement feel like betrayal.",
-    "confidence": "medium"
-  },
-  {
     "id": "the_holocaust__milgram_obedience_experiments",
     "source": "the_holocaust",
     "target": "milgram_obedience_experiments",
     "type": "CAUSED",
     "label": "Holocaust prompted the obedience question",
     "note": "Stanley Milgram designed his obedience experiments explicitly to investigate the Holocaust's central puzzle: how could ordinary Germans participate in systematic mass murder? He began his research immediately after the Eichmann trial in 1961 and stated directly that the experiments were designed to understand Nazi atrocity. The Holocaust was the question; the Milgram experiments were the scientific attempt to answer it.",
-    "confidence": "high"
-  },
-  {
-    "id": "moral_disengagement__milgram_obedience_experiments",
-    "source": "moral_disengagement",
-    "target": "milgram_obedience_experiments",
-    "type": "SHARES_MECHANISM_WITH",
-    "label": "Experiments operationalized moral disengagement in lab conditions",
-    "note": "The Milgram experiments demonstrated moral disengagement's core mechanisms under controlled conditions: participants displaced responsibility to the authority figure, used euphemistic framing, diffused responsibility through the experimental setup, and continued despite evidence of harm. The results were empirical confirmation of Bandura's theoretical framework.",
-    "confidence": "high"
-  },
-  {
-    "id": "in_group_out_group_dynamics__stanford_prison_experiment",
-    "source": "in_group_out_group_dynamics",
-    "target": "stanford_prison_experiment",
-    "type": "ENABLED",
-    "label": "Role assignment activated in-group guard solidarity",
-    "note": "The Stanford Prison Experiment demonstrated that in-group/out-group dynamics operate through arbitrary role assignment alone: students randomly designated as 'guards' within hours formed a guard in-group and treated 'prisoners' as an out-group deserving degradation. No pre-existing prejudice was required — the role assignment itself activated tribal psychology.",
     "confidence": "high"
   },
   {
@@ -130,30 +36,12 @@
     "confidence": "high"
   },
   {
-    "id": "confucianism__confucian_social_order",
-    "source": "confucianism",
-    "target": "confucian_social_order",
-    "type": "PRODUCED",
-    "label": "Confucianism formalized hierarchical social order as moral framework",
-    "note": "The Confucian framework of the five relationships — ruler-minister, parent-child, husband-wife, elder-younger, friend-friend — is not merely a social description but a moral prescription: each relationship entails specific obligations that define what it means to be virtuous. Confucianism produced social order not through law (Legalism) or force, but through internalized moral obligation — making hierarchy feel like duty rather than submission.",
-    "confidence": "high"
-  },
-  {
     "id": "confucianism__mohism",
     "source": "confucianism",
     "target": "mohism",
     "type": "ENABLED",
     "label": "Confucianism was the context that Mohism explicitly critiqued",
     "note": "Mozi developed Mohist philosophy explicitly as a critique of Confucian doctrine: Confucian differential love (loving relatives more than strangers) was, for Mozi, the source of social conflict rather than its solution. The Mohist doctrine of jian ai (universal, impartial love) was a direct philosophical alternative. Without Confucianism as the dominant framework to challenge, Mohism's distinctive positions cannot be understood — it is a systematic response to what Mozi saw as Confucian ethics' fundamental flaw.",
-    "confidence": "high"
-  },
-  {
-    "id": "confucianism__legalism_chinese",
-    "source": "confucianism",
-    "target": "legalism_chinese",
-    "type": "ENABLED",
-    "label": "Legalism emerged as anti-Confucian theory of state power",
-    "note": "Legalism developed explicitly in opposition to Confucian governance: where Confucius taught that virtuous rulers produce harmonious subjects, Han Feizi and Shang Yang argued that this was naive — human nature is self-interested and requires incentive structures of reward and punishment rather than moral example. Legalism was a pragmatic political science in explicit reaction to what its founders saw as Confucian idealism, and the Qin Dynasty's brutal success seemed to validate the Legalist alternative.",
     "confidence": "high"
   },
   {
@@ -166,15 +54,6 @@
     "confidence": "high"
   },
   {
-    "id": "rabbinic_judaism__jewish_diaspora",
-    "source": "rabbinic_judaism",
-    "target": "jewish_diaspora",
-    "type": "ENABLED",
-    "label": "Rabbinic Judaism made diaspora theologically viable rather than catastrophic",
-    "note": "By replacing Temple sacrifice with prayer, Torah study, and ethical observance, rabbinic Judaism created a portable religious identity. Jews could maintain collective identity, practice, and community structure anywhere in the world. This innovation allowed the Jewish diaspora to persist as a coherent religious civilization rather than assimilating.",
-    "confidence": "high"
-  },
-  {
     "id": "sigmund_freud__frankfurt_school",
     "source": "sigmund_freud",
     "target": "frankfurt_school",
@@ -184,30 +63,12 @@
     "confidence": "high"
   },
   {
-    "id": "sigmund_freud__broken_epistemology",
-    "source": "sigmund_freud",
-    "target": "broken_epistemology",
-    "type": "ENABLED",
-    "label": "Freud unfalsifiable framework contributed to the epistemological problems of psychoanalysis as science",
-    "note": "Freud theories were constructed to be unfalsifiable: if a patient agreed with the analyst interpretation it confirmed the theory; if they disagreed, the resistance itself was interpreted as confirmation (repression). This self-sealing quality became a central example in Karl Popper demarcation criterion between science and pseudoscience, and contributed to the epistemological problems of psychological science.",
-    "confidence": "medium"
-  },
-  {
     "id": "stanley_milgram__milgram_obedience_experiments",
     "source": "stanley_milgram",
     "target": "milgram_obedience_experiments",
     "type": "PRODUCED",
     "label": "Milgram designed and conducted the obedience experiments to empirically test Holocaust perpetration",
     "note": "Milgram explicitly designed the experiments in response to Hannah Arendt banality of evil and to test the claim that situational authority rather than character determines whether people commit atrocities. The experiments are the most important empirical finding in social psychology — and also the most ethically controversial, since participants were deceived into believing they were harming others.",
-    "confidence": "high"
-  },
-  {
-    "id": "stanley_milgram__moral_disengagement",
-    "source": "stanley_milgram",
-    "target": "moral_disengagement",
-    "type": "ENABLED",
-    "label": "Milgram results provided the empirical proof that authority pressure produces moral disengagement in ordinary people",
-    "note": "Milgram findings empirically confirmed the mechanism of moral disengagement Bandura would later theorize: in his experiments, participants progressively disengaged from moral agency by diffusing responsibility (\"I was just following orders\"), using euphemistic language (\"administering shocks\" not \"hurting someone\"), and incrementally committing to the authority relationship through small initial compliance.",
     "confidence": "high"
   },
   {
