@@ -3327,5 +3327,743 @@
     "type": "ENABLED",
     "label": "algorithmic recommendation accelerated QAnon radicalisation",
     "confidence": "high"
+  },
+  {
+    "id": "hegelian_dialectic__karl_marx",
+    "source": "hegelian_dialectic",
+    "target": "karl_marx",
+    "type": "ENABLED",
+    "label": "Marx inverted Hegel's dialectic to produce historical materialism",
+    "note": "Marx appropriated Hegel's dialectical method — thesis, antithesis, synthesis — but inverted it: where Hegel saw the dialectic as the movement of Spirit, Marx saw it as the movement of material conditions. \"I found it standing on its head; I put it right way up.\" Without Hegel, no Marxist theory of history.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__karl_marx",
+    "source": "structural_violence",
+    "target": "karl_marx",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Marx provided the foundational theory of structural violence",
+    "note": "Marx's analysis of surplus value extraction, alienated labor, and class-based exploitation is the original systematic theory of structural violence — harm embedded in economic structures that requires no individual malicious intent, only participation in the system.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_backsliding__vladimir_lenin",
+    "source": "democratic_backsliding",
+    "target": "vladimir_lenin",
+    "type": "ENABLED",
+    "label": "Lenin's vanguard party model is the template for democratic backsliding",
+    "note": "Lenin's theory of the revolutionary vanguard party — an elite of professional revolutionaries who know better than the masses what the masses need — provided the ideological justification for dismantling democratic institutions in the name of the proletariat. The Constituent Assembly dissolved in January 1918, one session after it produced an anti-Bolshevik majority.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__mao_zedong",
+    "source": "dehumanization",
+    "target": "mao_zedong",
+    "type": "ENABLED",
+    "label": "Mao's Cultural Revolution deployed dehumanization against class enemies",
+    "note": "The Cultural Revolution (1966–76) deployed systematic dehumanization of landlords, intellectuals, and \"class enemies\" — public struggle sessions, forced confessions, and mob violence. The dehumanization was the mechanism: once the target group was redefined as enemies of the people, ordinary participants felt licensed to commit atrocities.",
+    "confidence": "high"
+  },
+  {
+    "id": "groupthink__mao_zedong",
+    "source": "groupthink",
+    "target": "mao_zedong",
+    "type": "ENABLED",
+    "label": "Great Leap Forward catastrophe exemplifies groupthink preventing error correction",
+    "note": "The Great Leap Forward (1958–62) killed an estimated 15–45 million people in famine while officials reported record harvests to avoid punishment. Local officials competed to report impossible grain yields; dissenting voices were silenced. Groupthink in an authoritarian hierarchy prevented the feedback that might have corrected the catastrophe.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__cold_war",
+    "source": "manufactured_consent",
+    "target": "cold_war",
+    "type": "ENABLED",
+    "label": "Cold War mobilized the US state apparatus for domestic consent manufacture",
+    "note": "The Cold War justified a domestic consent-manufacturing apparatus: House Un-American Activities Committee, loyalty oaths, FBI surveillance, and the alignment of media, universities, and labor unions with anticommunist ideology. Chomsky and Herman's manufactured consent analysis was built substantially on Cold War examples.",
+    "confidence": "high"
+  },
+  {
+    "id": "resource_curse__cold_war",
+    "source": "resource_curse",
+    "target": "cold_war",
+    "type": "ENABLED",
+    "label": "Cold War interventions entrenched the resource curse in developing nations",
+    "note": "US and Soviet Cold War interventions in resource-rich nations (Iran 1953, Guatemala 1954, Congo 1960, Chile 1973) repeatedly installed resource-extraction-friendly governments that enriched elites while entrenching the resource curse — the correlation between natural resource wealth and poor governance outcomes.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__ronald_reagan",
+    "source": "manufactured_consent",
+    "target": "ronald_reagan",
+    "type": "ENABLED",
+    "label": "Reagan pioneered the permanent political communication apparatus",
+    "note": "Reagan's administration operationalized the permanent campaign as governance: daily media strategy, stage-managed visuals, and message discipline that treated governing as consent manufacture. His communications operation transformed how all subsequent presidencies managed public opinion.",
+    "confidence": "high"
+  },
+  {
+    "id": "corporate_regulatory_capture__ronald_reagan",
+    "source": "corporate_regulatory_capture",
+    "target": "ronald_reagan",
+    "type": "ENABLED",
+    "label": "Reagan's regulatory rollback institutionalized corporate regulatory capture",
+    "note": "Reagan's deregulation program — cutting EPA staffing, appointing industry representatives to regulatory agencies, reducing antitrust enforcement — institutionalized corporate regulatory capture as explicit policy rather than covert influence. The revolving door was opened wider and the ideology that regulators should facilitate rather than constrain industry became bipartisan common sense.",
+    "confidence": "high"
+  },
+  {
+    "id": "corporate_regulatory_capture__citizens_united",
+    "source": "corporate_regulatory_capture",
+    "target": "citizens_united",
+    "type": "ENABLED",
+    "label": "Citizens United gave corporate money constitutional protection in politics",
+    "note": "The Citizens United decision (2010) removed most limits on corporate political spending, giving corporate interests constitutional protection to fund political campaigns. It converted the regulatory capture mechanism from covert (lobbying) to overt (unlimited political advertising), making capture visible and legal simultaneously.",
+    "confidence": "high"
+  },
+  {
+    "id": "political_polarization__citizens_united",
+    "source": "political_polarization",
+    "target": "citizens_united",
+    "type": "ENABLED",
+    "label": "Unlimited political spending accelerated political polarization",
+    "note": "Citizens United amplified political polarization by enabling ideologically extreme donors to fund primary campaigns against moderate incumbents. The mechanism: extreme donors fund extreme primary challengers; moderate politicians face electoral threats from their own party; legislative bodies shift to the extremes.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__voter_suppression_modern",
+    "source": "structural_violence",
+    "target": "voter_suppression_modern",
+    "type": "ENABLED",
+    "label": "Voter suppression is structural violence embedded in electoral law",
+    "note": "Modern voter suppression — voter ID laws, polling place closures in minority-majority districts, voter roll purges — is structural violence in electoral form. It requires no explicitly racist intent: administering laws that have disparate impact achieves the same disenfranchisement as explicit exclusion.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_backsliding__voter_suppression_modern",
+    "source": "democratic_backsliding",
+    "target": "voter_suppression_modern",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Voter suppression is a democratic backsliding mechanism in competitive democracy",
+    "note": "Modern voter suppression exemplifies competitive authoritarian democratic backsliding: formal democratic institutions remain intact while the rules of competition are systematically skewed against opposition constituencies. It achieves authoritarian outcomes through technically legal means.",
+    "confidence": "high"
+  },
+  {
+    "id": "legitimate_grievance_capture__tea_party_movement",
+    "source": "legitimate_grievance_capture",
+    "target": "tea_party_movement",
+    "type": "ENABLED",
+    "label": "Tea Party captured legitimate economic anxiety and routed it to corporate tax cuts",
+    "note": "The Tea Party movement channeled genuine working-class economic anxiety (2008 financial crisis, job losses, bailouts) into a political agenda that primarily benefited the corporate interests that funded the movement (Koch Brothers). Legitimate grievances about bank bailouts were captured and redirected toward cutting programs that served the grievants.",
+    "confidence": "high"
+  },
+  {
+    "id": "radicalization_pipeline__tea_party_movement",
+    "source": "radicalization_pipeline",
+    "target": "tea_party_movement",
+    "type": "ENABLED",
+    "label": "Tea Party infrastructure became the radicalization pipeline for MAGA",
+    "note": "The Tea Party radicalized the Republican base between 2009–2014, creating the constituency that elevated Trump in 2016. The pipeline ran: economic anxiety → Tea Party → \"establishment\" GOP rejection → Trump base. The organizational infrastructure (Fox News, talk radio, congressional freshmen) became the MAGA movement's skeleton.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__henry_kissinger",
+    "source": "moral_disengagement",
+    "target": "henry_kissinger",
+    "type": "ENABLED",
+    "label": "Kissinger's realpolitik systematized moral disengagement in statecraft",
+    "note": "Kissinger's diplomatic approach — supporting coups (Chile 1973), authorizing civilian bombing (Cambodia), enabling genocide (Bangladesh 1971) — exemplifies systematic moral disengagement: the cognitive and organizational reframing that separates actors from the moral consequences of their decisions. \"Power is the ultimate aphrodisiac\" — the personal and the systemic moral disengagement converge.",
+    "confidence": "high"
+  },
+  {
+    "id": "oil_geopolitics__henry_kissinger",
+    "source": "oil_geopolitics",
+    "target": "henry_kissinger",
+    "type": "ENABLED",
+    "label": "Kissinger shaped US oil geopolitics through petrodollar arrangements",
+    "note": "Kissinger negotiated the petrodollar system (1974): Saudi Arabia prices oil in US dollars; the US provides military protection. This arrangement embedded oil geopolitics into the global financial architecture, making dollar hegemony and Middle East military presence structurally interdependent — a constraint on US foreign policy that persists.",
+    "confidence": "high"
+  },
+  {
+    "id": "ahimsa_principle__mahatma_gandhi",
+    "source": "ahimsa_principle",
+    "target": "mahatma_gandhi",
+    "type": "ENABLED",
+    "label": "Gandhi operationalized the ahimsa principle as mass political strategy",
+    "note": "Gandhi transformed the ancient Hindu-Jain principle of ahimsa (non-violence) from personal ethical discipline into a mass political strategy — satyagraha (truth-force). The principle that moral force is superior to coercive force, instantiated in the Salt March and Non-Cooperation Movement, demonstrated that the ahimsa doctrine could dismantle empire.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__joseph_stalin",
+    "source": "dehumanization",
+    "target": "joseph_stalin",
+    "type": "ENABLED",
+    "label": "Stalinist purges deployed class-based dehumanization as liquidation mechanism",
+    "note": "Stalin's purges required systematic dehumanization: kulaks as class enemies who deserved extermination, Trotskyites and wreckers as subhuman vermin, national minorities as inherently treacherous. The ideological dehumanization preceded and enabled the physical liquidation — Great Terror (1936–38), collectivization famine, deportations.",
+    "confidence": "high"
+  },
+  {
+    "id": "preference_falsification__joseph_stalin",
+    "source": "preference_falsification",
+    "target": "joseph_stalin",
+    "type": "ENABLED",
+    "label": "Stalinist terror produced maximal preference falsification",
+    "note": "The Stalinist terror system — where expressing doubt about collectivization, the show trials, or Stalin's decisions was potentially fatal — produced systematic preference falsification at mass scale. Populations publicly applauded what they privately opposed. This was both a psychological condition and a systemic feature that made the regime's collapse sudden and surprising when it came.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__heinrich_himmler",
+    "source": "dehumanization",
+    "target": "heinrich_himmler",
+    "type": "ENABLED",
+    "label": "Himmler industrialized dehumanization as bureaucratic management",
+    "note": "Himmler's SS was the organizational embodiment of dehumanization as bureaucratic system: mass murder through paperwork, industrial processes, and organizational hierarchy. Himmler himself avoided witnessing the murders — the bureaucratic disembodiment of killing is the purest form of moral disengagement.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__heinrich_himmler",
+    "source": "moral_disengagement",
+    "target": "heinrich_himmler",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Himmler exemplifies moral disengagement through bureaucratic mediation",
+    "note": "Himmler's famous fainting episode at an Einsatzgruppen execution and his subsequent push for gas chambers (as less psychologically damaging to perpetrators) reveals the moral disengagement mechanism: the goal was not to eliminate moral concern but to mediate it through bureaucratic distance that made harm invisible to perpetrators.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__pol_pot",
+    "source": "dehumanization",
+    "target": "pol_pot",
+    "type": "ENABLED",
+    "label": "Khmer Rouge ideology dehumanized intellectuals, urbanites, and ethnic minorities",
+    "note": "The Khmer Rouge's Year Zero ideology systematically dehumanized educated people, urban dwellers, and ethnic Vietnamese as \"enemies of the people\" incompatible with agrarian utopia. Glasses marked one as an intellectual; Vietnamese identity marked one for execution. Dehumanization enabled a genocide that killed 25% of Cambodia's population.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__leopold_ii_belgium",
+    "source": "structural_violence",
+    "target": "leopold_ii_belgium",
+    "type": "ENABLED",
+    "label": "Leopold's Congo Free State was structural violence institutionalized as private enterprise",
+    "note": "Leopold's Congo (1885–1908) was structural violence in its purest corporate form: a privately held territory where the infrastructure (Force Publique, rubber quotas, hand-severing enforcement) was systematically designed to extract maximum profit through violence. Approximately 10 million Congolese died. The structural design required no individual sadism — only compliance with the system's demands.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__leopold_ii_belgium",
+    "source": "dehumanization",
+    "target": "leopold_ii_belgium",
+    "type": "ENABLED",
+    "label": "Belgian colonial dehumanization enabled the Congo atrocities",
+    "note": "The Congo atrocities depended on the racial dehumanization that characterized Belgian colonial ideology: Congolese people as children requiring civilization, or as labor units requiring productivity quotas. The severed hand became the symbol — a unit of accounting in a dehumanizing system.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__martin_luther",
+    "source": "in_group_out_group_dynamics",
+    "target": "martin_luther",
+    "type": "ENABLED",
+    "label": "Luther's Reformation hardened in-group/out-group boundaries with lethal consequences",
+    "note": "Luther's Reformation created new confessional in-group/out-group structures that shaped European politics for two centuries. The formula cuius regio, eius religio (whose realm, his religion) produced mass population transfers, the Thirty Years' War, and St. Bartholomew's Day Massacre — violence structured by the same in-group/out-group mechanism that preceded it, now with doctrinal rather than ethnic content.",
+    "confidence": "high"
+  },
+  {
+    "id": "wahhabism_salafism__osama_bin_laden",
+    "source": "wahhabism_salafism",
+    "target": "osama_bin_laden",
+    "type": "ENABLED",
+    "label": "Wahhabism provided the theological framework for bin Laden's jihadism",
+    "note": "Bin Laden was shaped by Wahhabi theology and Sayyid Qutb's radical extension of it: the concept of takfir (declaring other Muslims apostates), the obligation of offensive jihad, and the framing of all compromise with Western modernity as apostasy. Without the Saudi-funded global expansion of Wahhabi theology, the Al-Qaeda ideological formation is unintelligible.",
+    "confidence": "high"
+  },
+  {
+    "id": "radicalization_pipeline__osama_bin_laden",
+    "source": "radicalization_pipeline",
+    "target": "osama_bin_laden",
+    "type": "ENABLED",
+    "label": "Bin Laden operated a physical radicalization pipeline through Afghanistan",
+    "note": "The Afghan jihad training camps (1980s–2001) were a physical radicalization pipeline: young Muslim men with grievances were recruited, indoctrinated in Wahhabi-jihadist theology, trained militarily, and deployed globally. This physical pipeline prefigures the digital radicalization pipeline; the mechanism is identical, only the medium differs.",
+    "confidence": "high"
+  },
+  {
+    "id": "oil_geopolitics__gamal_nasser",
+    "source": "oil_geopolitics",
+    "target": "gamal_nasser",
+    "type": "ENABLED",
+    "label": "Nasser's nationalization of the Suez Canal reshaped oil geopolitics",
+    "note": "Nasser's 1956 nationalization of the Suez Canal Company challenged Western control of Middle Eastern energy infrastructure and triggered the Suez Crisis. His pan-Arab nationalism demonstrated that resource nationalism could succeed against colonial powers, influencing subsequent nationalizations (Libya 1969, Iraq 1972, Iran 1979).",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__genghis_khan",
+    "source": "dehumanization",
+    "target": "genghis_khan",
+    "type": "ENABLED",
+    "label": "Mongol terror strategy required the dehumanization of resisting populations",
+    "note": "Mongol strategic terror — the deliberate massacre of cities that resisted — required the dehumanization of enemy populations as obstacles to be eliminated rather than people to be ruled. Cities that submitted were spared; cities that resisted were destroyed and their populations killed. The conditional dehumanization was itself the terror mechanism.",
+    "confidence": "high"
+  },
+  {
+    "id": "cultural_hegemony__charles_darwin",
+    "source": "cultural_hegemony",
+    "target": "charles_darwin",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Social Darwinism misappropriated Darwin to naturalize class hierarchy",
+    "note": "Darwin's evolution theory was rapidly misappropriated into \"Social Darwinism\" — the application of natural selection to human society to naturalize class hierarchy, racial hierarchy, and imperial competition. Darwin himself resisted some of these extensions. The misappropriation shows how scientific authority (cultural hegemony through science) can be captured for ideological purposes.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__sunni_shia_split",
+    "source": "in_group_out_group_dynamics",
+    "target": "sunni_shia_split",
+    "type": "ENABLED",
+    "label": "The Sunni-Shia split is the foundational in-group/out-group fracture of Islamic civilization",
+    "note": "The question of Ali's succession (632 CE) created Islam's primary confessional in-group/out-group fracture. Over fourteen centuries, this theological dispute has been activated and deactivated by political actors who found communal identity useful for mobilization. The Iran-Saudi Arabia proxy conflict is the contemporary expression of this ancient in-group/out-group dynamic.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__sunni_shia_split",
+    "source": "collective_trauma",
+    "target": "sunni_shia_split",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Karbala is the foundational collective trauma of Shia identity",
+    "note": "The Battle of Karbala (680 CE) — the killing of Hussein ibn Ali and his companions — is the constitutive collective trauma of Shia Islam, annually re-enacted in Ashura. Collective trauma becomes identity: the Shia sense of persecution, martyrdom, and righteousness-in-defeat is built on the transmission of this historical trauma across generations.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__september_11_attacks",
+    "source": "in_group_out_group_dynamics",
+    "target": "september_11_attacks",
+    "type": "ENABLED",
+    "label": "September 11 triggered mass in-group/out-group reconfiguration",
+    "note": "September 11 produced an immediate, massive reconfiguration of in-group/out-group dynamics in the US and globally. Muslims and Arab-Americans became an out-group; \"American\" identity was redefined around a traumatic in-group boundary. This reconfiguration enabled the Iraq War, surveillance expansion, and ongoing Islamophobia — all predictable from in-group/out-group activation.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__september_11_attacks",
+    "source": "collective_trauma",
+    "target": "september_11_attacks",
+    "type": "CAUSED",
+    "label": "September 11 produced collective trauma that structured two decades of US policy",
+    "note": "The September 11 attacks are the clearest recent example of collective trauma transmission: a shared catastrophic experience that produced lasting psychological, political, and institutional effects. The trauma structured the post-9/11 surveillance state, two wars, and a political culture of security theater that outlasted the immediate threat.",
+    "confidence": "high"
+  },
+  {
+    "id": "israel_palestine_conflict__balfour_declaration",
+    "source": "israel_palestine_conflict",
+    "target": "balfour_declaration",
+    "type": "ENABLED",
+    "label": "The Balfour Declaration is the originating document of the Israel-Palestine conflict",
+    "note": "The Balfour Declaration (1917) — \"a national home for the Jewish people\" in Palestine — while also promising not to prejudice \"the civil and religious rights of existing non-Jewish communities\" — created the structural contradiction that has generated the ongoing conflict. The impossibility of fulfilling both promises is built into the document itself.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__sykes_picot_agreement",
+    "source": "structural_violence",
+    "target": "sykes_picot_agreement",
+    "type": "ENABLED",
+    "label": "Sykes-Picot embedded structural violence into the modern Middle East",
+    "note": "The Sykes-Picot Agreement (1916) divided the Middle East between British and French spheres of influence, drawing borders that cut across ethnic, religious, and tribal communities. The borders created minority-majority configurations that would require violent suppression to maintain — structural violence embedded in the territorial definition of states.",
+    "confidence": "high"
+  },
+  {
+    "id": "wahhabism_salafism__iranian_revolution_1979",
+    "source": "wahhabism_salafism",
+    "target": "iranian_revolution_1979",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Iranian Revolution and Wahhabism are competing Islamist political theologies",
+    "note": "The Iranian Revolution (1979) and Saudi Wahhabism both represent political Islam but from competing theological traditions. The Iranian model (Shia velayat-e faqih) and Wahhabi Sunni salafism have been in proxy conflict since 1979, structuring Middle East conflicts through competing claims to represent authentic Islamic governance. The theological competition is simultaneously a geopolitical resource war.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_contract_theory__stoicism",
+    "source": "social_contract_theory",
+    "target": "stoicism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Stoic cosmopolitanism prefigures social contract universalism",
+    "note": "Stoic philosophy — particularly Marcus Aurelius and Epictetus — developed a cosmopolitan ethics that recognized all humans as sharing in the rational logos, regardless of citizenship status. This universalism prefigures the social contract tradition's extension of natural rights to all persons, contra the Athenian restriction of citizenship. The intellectual genealogy from Stoicism to natural rights theory is substantial.",
+    "confidence": "medium"
+  },
+  {
+    "id": "cultural_hegemony__paul_of_tarsus",
+    "source": "cultural_hegemony",
+    "target": "paul_of_tarsus",
+    "type": "ENABLED",
+    "label": "Paul transformed a Jewish sect into a universal cultural hegemony",
+    "note": "Paul's theological innovations — the gentile mission, faith over works, universal salvation through Christ — were the organizational decisions that transformed a Jewish reform movement into a universal religion. His letters established the cultural and doctrinal architecture that enabled Christianity to become, via Constantine, the hegemonic culture of Western civilization.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__jesus_of_nazareth",
+    "source": "in_group_out_group_dynamics",
+    "target": "jesus_of_nazareth",
+    "type": "ENABLED",
+    "label": "Jesus systematically challenged in-group/out-group boundaries",
+    "note": "Jesus' teachings and actions repeatedly violated in-group/out-group boundaries: healing the Samaritan, Canaanite woman, Roman centurion's servant; eating with tax collectors and sinners; the Good Samaritan parable. The early Christian community's dissolution of ethnic and class distinctions (\"neither Jew nor Greek, slave nor free\") was a direct extension of this challenge.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__muhammad_ibn_abdallah",
+    "source": "in_group_out_group_dynamics",
+    "target": "muhammad_ibn_abdallah",
+    "type": "ENABLED",
+    "label": "Muhammad created a new in-group (umma) that superseded tribal identity",
+    "note": "Muhammad's critical political innovation was the Constitution of Medina: replacing the tribal in-group (clan loyalty as primary) with the umma (Muslim community as primary in-group). This was a radical restructuring of in-group/out-group dynamics: tribal loyalty was subordinated to religious identity, enabling a multi-tribal political community. The same reconstitution of in-group boundaries was the mechanism of early Islamic expansion.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__winston_churchill",
+    "source": "in_group_out_group_dynamics",
+    "target": "winston_churchill",
+    "type": "ENABLED",
+    "label": "Churchill's colonial in-group/out-group views enabled imperial atrocities",
+    "note": "Churchill's explicit racial hierarchy — his view of Indians as \"a beastly people with a beastly religion,\" his blocking of famine relief in Bengal (1943, killing 3+ million) — reflects in-group/out-group dynamics operating at imperial scale. The same person who resisted Hitler applied similar logic to colonized peoples, revealing that anti-fascism and colonial racism were psychologically compatible in the same worldview.",
+    "confidence": "high"
+  },
+  {
+    "id": "preference_falsification__nikita_khrushchev",
+    "source": "preference_falsification",
+    "target": "nikita_khrushchev",
+    "type": "ENABLED",
+    "label": "Khrushchev's Secret Speech revealed the scale of Stalinist preference falsification",
+    "note": "Khrushchev's 1956 Secret Speech denouncing Stalin revealed — at the highest levels of the Communist Party — how extensively preference falsification had operated: party members who privately doubted Stalinist claims had publicly applauded them for decades. The speech itself was a mass preference revelation event that shocked the international communist movement.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__harriet_tubman",
+    "source": "structural_violence",
+    "target": "harriet_tubman",
+    "type": "ENABLED",
+    "label": "Tubman navigated and resisted structural violence embedded in American law",
+    "note": "Tubman's Underground Railroad operated against the structural violence of the Fugitive Slave Act and the entire legal apparatus of slavery. Her resistance demonstrates that structural violence is not unchangeable: organized individual and collective action can create exit routes even when the legal structure makes escape criminal.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__saladin",
+    "source": "in_group_out_group_dynamics",
+    "target": "saladin",
+    "type": "ENABLES",
+    "label": "Saladin unified fractured Muslim in-groups to counter Crusader out-groups",
+    "note": "Saladin's political achievement was unifying the fractured Muslim world (Sunni, Shia, Arab, Kurdish, Egyptian, Syrian) against the Crusader out-group. His genius was making the Crusader presence the dominant in-group/out-group frame, subordinating inter-Muslim conflicts. His magnanimity toward the Crusader out-group after victory deliberately contrasted with their 1099 massacre.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_backsliding__church_committee",
+    "source": "democratic_backsliding",
+    "target": "church_committee",
+    "type": "ENABLED",
+    "label": "The Church Committee documented systematic democratic backsliding in US intelligence",
+    "note": "The Church Committee (1975–76) documented the CIA's COINTELPRO, NSA domestic surveillance, assassination plots, and covert domestic operations — systematic violations of democratic norms by the intelligence apparatus. The committee's reforms (creating FISA courts, intelligence oversight committees) were the institutional response to demonstrated democratic backsliding.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__iranian_revolution_1979",
+    "source": "collective_trauma",
+    "target": "iranian_revolution_1979",
+    "type": "ENABLED",
+    "label": "The Iranian Revolution channeled collective trauma of Mossadegh coup and SAVAK",
+    "note": "The 1979 revolution was driven partly by collective trauma: the 1953 CIA-backed coup that removed Mossadegh, decades of SAVAK torture and surveillance, and the humiliations of US-backed Pahlavi modernization that felt like cultural colonization. Khomeini successfully mobilized this collective trauma as revolutionary energy.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__franklin_roosevelt",
+    "source": "collective_trauma",
+    "target": "franklin_roosevelt",
+    "type": "ENABLED",
+    "label": "FDR's New Deal mobilized collective trauma of the Depression for transformation",
+    "note": "The Great Depression was a collective trauma that Roosevelt successfully mobilized as political energy for institutional transformation. The New Deal was possible because collective trauma made Americans receptive to radical government intervention — channeling the trauma into reform rather than demagogic scapegoating.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__harry_truman",
+    "source": "moral_disengagement",
+    "target": "harry_truman",
+    "type": "ENABLED",
+    "label": "Truman's atomic bomb decisions exemplify moral disengagement at scale",
+    "note": "The decision to drop atomic bombs on Hiroshima and Nagasaki required abstracting 200,000 civilian deaths into strategic calculus. The institutionalization of large-scale civilian targeting as legitimate military strategy required systematic moral disengagement at organizational and individual levels.",
+    "confidence": "high"
+  },
+  {
+    "id": "institutional_credibility_laundering__dwight_eisenhower",
+    "source": "institutional_credibility_laundering",
+    "target": "dwight_eisenhower",
+    "type": "ENABLED",
+    "label": "Eisenhower warned that military-industrial credibility laundering threatened democracy",
+    "note": "Eisenhower's military-industrial complex warning (1961) identified institutional credibility laundering: private defense contractors using military prestige to advance commercial interests, acquiring unwarranted influence over policy through the borrowed authority of the military institution.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__jawaharlal_nehru",
+    "source": "collective_trauma",
+    "target": "jawaharlal_nehru",
+    "type": "ENABLED",
+    "label": "Nehru's non-alignment emerged from the collective trauma of colonial subordination",
+    "note": "Nehru's non-alignment policy emerged from the collective trauma of British colonialism and the Partition. Indian independence required building a national identity that could hold together diverse ethnic, religious, and linguistic groups — an identity built partly on shared colonial trauma and its negation.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_contract_theory__code_of_hammurabi",
+    "source": "social_contract_theory",
+    "target": "code_of_hammurabi",
+    "type": "ENABLED",
+    "label": "Hammurabi's Code is the earliest systematic statement of law as governance contract",
+    "note": "Hammurabi's Code (c.1754 BCE) represents the earliest comprehensive legal code: laws applying to all subjects, with a prologue stating Hammurabi's divine mandate to make justice prevail. This is a proto-social contract: authority is legitimate insofar as it serves justice, not merely power.",
+    "confidence": "medium"
+  },
+  {
+    "id": "social_contract_theory__athenian_democracy",
+    "source": "social_contract_theory",
+    "target": "athenian_democracy",
+    "type": "ENABLED",
+    "label": "Athenian democracy was the first institutional instantiation of consent-based governance",
+    "note": "Athenian democracy (c.508 BCE) is the first institutional form of the idea that legitimate governance requires citizen participation. Its radical limitation — excluding women, slaves, and foreigners — also makes it the paradigm case of how consent of the governed coexists with systematic exclusion.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_contract_theory__peace_of_westphalia",
+    "source": "social_contract_theory",
+    "target": "peace_of_westphalia",
+    "type": "ENABLED",
+    "label": "Westphalia established state sovereignty as the foundation of international order",
+    "note": "The Peace of Westphalia (1648) created the modern state system: sovereign states with recognized territorial boundaries as the primary actors. This established the international social contract — mutual recognition of sovereignty — that underlies all subsequent international law.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__mandate_system",
+    "source": "structural_violence",
+    "target": "mandate_system",
+    "type": "ENABLED",
+    "label": "League of Nations mandates institutionalized structural violence as liberal imperialism",
+    "note": "The mandate system created a hierarchy of territories administered by colonial powers under the legal fiction of developing them toward self-governance. The mandates that mattered were assigned to powers with strategic interests, embedding structural violence into the post-WWI international order.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__herero_nama_genocide",
+    "source": "dehumanization",
+    "target": "herero_nama_genocide",
+    "type": "ENABLED",
+    "label": "German colonial dehumanization enabled the first 20th-century genocide",
+    "note": "The Herero and Nama genocide (1904-08) was enabled by colonial dehumanization: German colonists defined the Herero as subhuman Untermenschen whose extermination was pest control. General von Trotha's extermination order was the logical conclusion of colonial dehumanization ideology, directly influencing Nazi racial thinking.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__herero_nama_genocide",
+    "source": "collective_trauma",
+    "target": "herero_nama_genocide",
+    "type": "CAUSED",
+    "label": "The Herero genocide produced collective trauma transmitted across generations",
+    "note": "The genocide destroyed approximately 80% of the Herero population, producing collective trauma that shaped Namibian national identity and the century-long campaign for German reparations (recognized 2021). The long-delayed acknowledgment demonstrates how collective trauma without recognition persists.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__buck_v_bell",
+    "source": "structural_violence",
+    "target": "buck_v_bell",
+    "type": "ENABLED",
+    "label": "Buck v. Bell inscribed compulsory sterilization into constitutional law",
+    "note": "Buck v. Bell (1927) gave constitutional authority to compulsory sterilization programs. The decision has never been formally overturned, sitting in US law as institutionalized structural violence. Oliver Wendell Holmes' 'Three generations of imbeciles are enough' epitomizes structural violence laundered through judicial authority.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__english_reformation",
+    "source": "in_group_out_group_dynamics",
+    "target": "english_reformation",
+    "type": "ENABLED",
+    "label": "The English Reformation created Protestant/Catholic in-group conflict with lasting effects",
+    "note": "Henry VIII's English Reformation created confessional in-group/out-group boundaries producing: Thomas More's execution, dissolution of monasteries, Mary's persecutions, and the sectarian conflict persisting in Northern Ireland. The religious split was entangled with dynastic succession and property redistribution.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__battle_of_stalingrad",
+    "source": "collective_trauma",
+    "target": "battle_of_stalingrad",
+    "type": "CAUSED",
+    "label": "Stalingrad produced collective trauma shaping Soviet and German national identity",
+    "note": "The Battle of Stalingrad (1942-43) — 2 million total casualties — became the defining collective trauma of WWII for both Soviet and German populations. For the USSR it was the turning point; for Germany the moral recognition that the war was lost and the regime's promises were lies.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__battle_of_stalingrad",
+    "source": "dehumanization",
+    "target": "battle_of_stalingrad",
+    "type": "ENABLED",
+    "label": "Both sides deployed dehumanization to sustain fighting in extreme conditions",
+    "note": "Stalingrad's extreme conditions required maximum dehumanization. Soviet propaganda portrayed German soldiers as fascist beasts; Nazi ideology had already dehumanized Soviet people as Untermenschen. Dehumanization was the psychological infrastructure enabling combat under conditions that would otherwise trigger breakdown.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_backsliding__richard_nixon",
+    "source": "democratic_backsliding",
+    "target": "richard_nixon",
+    "type": "ENABLED",
+    "label": "Nixon's Watergate is the paradigm case of democratic backsliding through executive abuse",
+    "note": "Nixon's Watergate — using the CIA, FBI, and IRS to target political enemies, and the cover-up — is the US paradigm case of democratic backsliding through executive abuse. The institutional response (impeachment process, resignation, special prosecutor precedent) temporarily repaired the norm violation but established precedents that subsequent presidents tested.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__john_kennedy",
+    "source": "manufactured_consent",
+    "target": "john_kennedy",
+    "type": "ENABLES",
+    "label": "Kennedy pioneered the televised presidential image as consent manufacture",
+    "note": "Kennedy's 1960 televised debate victory over Nixon — Nixon visibly sweating, Kennedy telegenic — marked the ascendancy of image over substance in presidential politics. The manufactured presidential persona became the template for all subsequent political communication. JFK's administration also deployed manufactured consent through strategic media management (Cuban Missile Crisis messaging).",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_disengagement__hirohito",
+    "source": "moral_disengagement",
+    "target": "hirohito",
+    "type": "ENABLED",
+    "label": "Hirohito's institutional role enabled moral disengagement from imperial atrocities",
+    "note": "Hirohito's precise degree of responsibility for Japanese war crimes remains debated, but his institutional position — divine emperor who could have stopped the war earlier and did not — exemplifies moral disengagement through role diffusion. The emperor-as-god structure distributed moral responsibility so thoroughly that no single actor felt accountable for the Rape of Nanjing or Unit 731.",
+    "confidence": "medium"
+  },
+  {
+    "id": "cultural_hegemony__alexander_the_great",
+    "source": "cultural_hegemony",
+    "target": "alexander_the_great",
+    "type": "ENABLED",
+    "label": "Alexander's conquests produced Hellenistic cultural hegemony across three continents",
+    "note": "Alexander's empire was primarily a cultural hegemony project: the deliberate imposition of Greek language, art, philosophy, and civic institutions across Egypt, Persia, and Central Asia. The polis (Greek city-state) as the model of civilized governance spread through military force and cultural prestige. Hellenistic cultural hegemony outlasted the empire by centuries.",
+    "confidence": "high"
+  },
+  {
+    "id": "cultural_hegemony__roman_empire",
+    "source": "cultural_hegemony",
+    "target": "roman_empire",
+    "type": "ENABLED",
+    "label": "Rome transformed military conquest into cultural hegemony through Romanization",
+    "note": "Rome's longevity rested on cultural hegemony: provincials desired Roman citizenship, adopted Latin, built Roman infrastructure, and internalized Roman law as the standard of civilization. The transition from military conquest to cultural assimilation — 'Latin on the tongue and Rome in the heart' — is the template for all subsequent imperial cultural hegemony strategies.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__roman_empire",
+    "source": "in_group_out_group_dynamics",
+    "target": "roman_empire",
+    "type": "ENABLES",
+    "label": "Rome's citizenship extension gradually collapsed provincial in-group/out-group boundaries",
+    "note": "Rome's gradual extension of citizenship — from the city to allies to all free men in the empire (212 CE Caracalla edict) — was a systematic collapse of in-group/out-group boundaries through legal assimilation. The mechanism worked: provincials who gained citizenship became Romans psychologically, defending the empire against external out-groups.",
+    "confidence": "high"
+  },
+  {
+    "id": "confucian_social_order__confucius",
+    "source": "confucian_social_order",
+    "target": "confucius",
+    "type": "ENABLED",
+    "label": "Confucius established the social order philosophy bearing his name",
+    "note": "Confucius (551-479 BCE) systematized the ritual practices (li), filial piety (xiao), and hierarchical social relationships (five relationships) that define Confucian social order. His compilation of the Odes and History and his teaching method (the Analects) established the educational tradition that shaped Chinese civilization for two millennia.",
+    "confidence": "high"
+  },
+  {
+    "id": "wu_wei__laozi",
+    "source": "wu_wei",
+    "target": "laozi",
+    "type": "ENABLED",
+    "label": "Laozi founded the philosophy of wu wei (non-action) as governance principle",
+    "note": "Laozi's Tao Te Ching (c. 6th century BCE) articulates wu wei — non-forceful action aligned with the natural way (Tao) — as both personal ethics and governance principle. The sage ruler who leads through non-interference is the political application of wu wei. The Taoist critique of Confucian activist governance runs through Chinese political philosophy.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__second_temple_period",
+    "source": "collective_trauma",
+    "target": "second_temple_period",
+    "type": "ENABLED",
+    "label": "The Second Temple period was defined by the collective trauma of Babylonian exile",
+    "note": "The Second Temple period (538 BCE - 70 CE) was shaped by the collective trauma of the Babylonian exile: the loss of the Temple, monarchy, and land produced the religious innovations (Torah codification, synagogue, monotheism hardening) that constitute Second Temple Judaism. Collective trauma as creative religious transformation.",
+    "confidence": "high"
+  },
+  {
+    "id": "jewish_diaspora__second_temple_period",
+    "source": "jewish_diaspora",
+    "target": "second_temple_period",
+    "type": "PRODUCED",
+    "label": "Second Temple period established the diaspora communities preceding the final dispersion",
+    "note": "The Second Temple period produced the first large-scale diaspora communities (Alexandria, Babylonia, Rome) that preceded and outlasted the Temple's destruction. The Jewish diaspora community infrastructure — synagogues, Torah interpretation, communal organization — was established during the Second Temple period and enabled survival after 70 CE.",
+    "confidence": "high"
+  },
+  {
+    "id": "cultural_hegemony__arab_conquests",
+    "source": "cultural_hegemony",
+    "target": "arab_conquests",
+    "type": "ENABLED",
+    "label": "Arab conquests spread Islamic cultural hegemony more durably than military control",
+    "note": "The 7th-century Arab conquests established a cultural hegemony that far outlasted the initial military expansion: Arabic became the lingua franca of religion, science, and commerce across the Middle East and North Africa; Islam became the dominant religious identity; and Islamic law structured social relations for centuries after individual dynasties fell.",
+    "confidence": "high"
+  },
+  {
+    "id": "oil_geopolitics__suez_crisis_1956",
+    "source": "oil_geopolitics",
+    "target": "suez_crisis_1956",
+    "type": "ENABLED",
+    "label": "The Suez Crisis established oil infrastructure control as the central Middle East geopolitical issue",
+    "note": "The Suez Crisis (1956) made explicit that control of oil infrastructure — the canal through which Middle Eastern oil transited — was the central issue in Western relations with Arab states. Eisenhower's forcing of Anglo-French withdrawal confirmed US dominance of Middle East oil geopolitics and replaced British imperial power with American hegemony.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__arab_israeli_war_1948",
+    "source": "in_group_out_group_dynamics",
+    "target": "arab_israeli_war_1948",
+    "type": "CAUSED",
+    "label": "The 1948 war created the Palestinian refugee in-group/out-group trauma at the conflict's core",
+    "note": "The 1948 war created the Nakba (Palestinian catastrophe) — 700,000 Palestinian refugees — and established the foundational in-group/out-group binary: Israeli state/Palestinian statelessness, Israeli sovereignty/Palestinian dispossession. Both communities' current identities are structured around this originating in-group/out-group configuration.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__arab_israeli_war_1948",
+    "source": "collective_trauma",
+    "target": "arab_israeli_war_1948",
+    "type": "CAUSED",
+    "label": "The 1948 war created foundational collective traumas on both sides",
+    "note": "The 1948 war created two simultaneous collective traumas: Israeli memory of existential threat from Arab armies (reinforcing Holocaust trauma) and Palestinian Nakba (catastrophe) memory of dispossession and refugee camps. Both collective traumas are continuously transmitted, politically activated, and form the psychological infrastructure of the ongoing conflict.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__great_schism_1054",
+    "source": "in_group_out_group_dynamics",
+    "target": "great_schism_1054",
+    "type": "CAUSED",
+    "label": "The Great Schism created the Eastern/Western Christian in-group/out-group division",
+    "note": "The 1054 Great Schism (mutual excommunications of Rome and Constantinople) formalized the Eastern/Western Christian in-group/out-group division. The doctrinal differences (filioque, papal authority) were entangled with cultural and political differences. The split produced: the Crusader sack of Constantinople (1204) — Christian armies destroying the Christian East.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__ottoman_empire",
+    "source": "structural_violence",
+    "target": "ottoman_empire",
+    "type": "ENABLES",
+    "label": "The Ottoman millet system produced structural violence through confessional hierarchy",
+    "note": "The Ottoman millet system — semi-autonomous religious communities with different rights and tax obligations — produced structural violence through differential treatment embedded in legal structures. Non-Muslim communities had protected but subordinated status; Christians and Jews paid the jizya (poll tax) and faced occupational restrictions. The system was relatively tolerant by contemporary standards and structurally unequal simultaneously.",
+    "confidence": "high"
+  },
+  {
+    "id": "structural_violence__syrian_civil_war",
+    "source": "structural_violence",
+    "target": "syrian_civil_war",
+    "type": "ENABLED",
+    "label": "The Syrian Civil War erupted from structural violence accumulated under Ba'athist rule",
+    "note": "The Syrian Civil War (2011-present) erupted from structural violence accumulated under the Assad dynasty: resource extraction from rural areas to benefit the regime's Alawite-dominated security state, drought-induced displacement without government response, and systematic torture and disappearance as governance tools. The 2011 protests were met with structural violence that transformed them into armed conflict.",
+    "confidence": "high"
+  },
+  {
+    "id": "oil_geopolitics__gulf_war_1990",
+    "source": "oil_geopolitics",
+    "target": "gulf_war_1990",
+    "type": "CAUSED",
+    "label": "The Gulf War was explicitly a war about oil infrastructure and regional geopolitics",
+    "note": "The Gulf War (1990-91) was oil geopolitics made explicit: Iraq's invasion of Kuwait threatened Saudi oil fields and the regional order guaranteeing Western energy access. Bush's 'draw a line in the sand' and the 34-nation coalition were mobilized around the oil infrastructure logic that structures all US Middle East policy. Cheney's 'defend Saudi Arabia' briefing used explicitly oil-geopolitical language.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__pericles",
+    "source": "in_group_out_group_dynamics",
+    "target": "pericles",
+    "type": "ENABLED",
+    "label": "Pericles tightened citizenship laws, defining the Athenian in-group more exclusively",
+    "note": "In 451 BCE, Pericles passed a citizenship law requiring both parents to be Athenian citizens — tightening the in-group boundary at the peak of Athenian power. The law was both a response to demographic anxiety (too many foreigners claiming citizenship rights) and a mechanism for excluding the children of Athenian men and foreign women from political participation.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_backsliding__john_kennedy",
+    "source": "democratic_backsliding",
+    "target": "john_kennedy",
+    "type": "ENABLED",
+    "label": "Kennedy's authorization of the Bay of Pigs and assassination plotting exemplifies executive overreach",
+    "note": "Kennedy authorized the CIA's Bay of Pigs invasion (violating Cuban sovereignty), assassination plots against Castro (revealed by Church Committee), and covert operations throughout Latin America — democratic backsliding through executive-branch covert action that circumvents constitutional oversight. The Bay of Pigs failure was partly a result of the CIA's manufactured intelligence (institutional credibility laundering).",
+    "confidence": "high"
   }
 ]
