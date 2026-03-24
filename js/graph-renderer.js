@@ -50,6 +50,13 @@ let selectedNodeId = null;
 const portalMaterials = [];
 let pulsePhase = 0;
 
+// Semantic zoom (distance-based node tier visibility)
+// Tier 1 = top 25% by degree (always visible)
+// Tier 2 = next 35%         (visible at dist ≤ 500)
+// Tier 3 = rest             (visible at dist ≤ 200)
+const nodeTiers = {};
+let semanticZoomActive = false;
+
 // Label sprites (id → sprite)
 const labelSprites = {};
 
@@ -124,9 +131,13 @@ function initRenderer(containerEl) {
     }
   }, 50);
 
-  // Label visibility updates when camera moves
-  graphInstance.controls().addEventListener('change', updateLabelVisibility);
-  graphInstance.onEngineStop(updateLabelVisibility);
+  // Label visibility + semantic zoom update when camera moves
+  function onCameraChange() {
+    updateLabelVisibility();
+    applySemanticZoom();
+  }
+  graphInstance.controls().addEventListener('change', onCameraChange);
+  graphInstance.onEngineStop(onCameraChange);
 
   return graphInstance;
 }
@@ -281,6 +292,42 @@ function addStarField(scene) {
   scene.add(new THREE.Points(geo, mat));
 }
 
+// ── Semantic zoom ────────────────────────────────────────────────────────────
+// Assigns tier 1/2/3 to nodes by degree rank. Portals and ghosts are always
+// tier 1 (always visible regardless of camera distance).
+function computeTiers(nodes) {
+  for (const k of Object.keys(nodeTiers)) delete nodeTiers[k];
+
+  const rankable = [...nodes]
+    .filter(n => n.category !== 'portal' && !n.ghost)
+    .sort((a, b) => (b.__degree || 0) - (a.__degree || 0));
+  const count = rankable.length;
+
+  rankable.forEach((n, i) => {
+    nodeTiers[n.id] = i < count * 0.25 ? 1 : i < count * 0.60 ? 2 : 3;
+  });
+}
+
+// Called from filter-manager to enable/disable distance-based visibility.
+// When enabled, camera distance drives visibility. When disabled, the caller
+// controls visibility via setNodeVisibility/dimToNeighborhood.
+function setSemanticZoom(enabled) {
+  semanticZoomActive = enabled;
+  if (enabled) applySemanticZoom();
+}
+
+function applySemanticZoom() {
+  if (!semanticZoomActive || !graphInstance) return;
+  const dist = graphInstance.camera().position.length();
+  graphInstance.nodeVisibility(n => {
+    if (n.category === 'portal' || n.ghost) return true;
+    const tier = nodeTiers[n.id] || 1;
+    if (dist > 500) return tier === 1;
+    if (dist > 200) return tier <= 2;
+    return true;
+  });
+}
+
 // ── Load graph data ───────────────────────────────────────────────────────────
 function loadGraphData(nodes, edges) {
   // Compute degrees
@@ -295,6 +342,9 @@ function loadGraphData(nodes, edges) {
   for (const n of nodes) {
     n.__degree = degMap[n.id] || 0;
   }
+
+  // Assign semantic zoom tiers
+  computeTiers(nodes);
 
   // Convert edges to links (3d-force-graph uses 'source'/'target' but may need to re-resolve)
   const links = edges.map(e => ({
@@ -529,6 +579,8 @@ window.GraphRenderer = {
   setNodeVisibility,
   setLinkVisibility,
   resetVisibility,
+  setSemanticZoom,
+  applySemanticZoom,
 
   fitCamera,
   focusOnNode,

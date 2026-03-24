@@ -177,6 +177,17 @@
     if (btn) btn.addEventListener('click', resetAll);
   }
 
+  // ── Is any explicit filter active? ───────────────────────────────────────
+  // Used to decide whether semantic zoom should control visibility.
+  function isAnyFilterActive() {
+    if (!allCategories.size) return false;
+    return selectedNodeId !== null ||
+      minConnectivity > 0 ||
+      enabledNodeCategories.size < allCategories.size ||
+      enabledEdgeFilters.size < EDGE_FILTER_GROUPS.length ||
+      (allRegions.size > 0 && enabledRegions.size < allRegions.size);
+  }
+
   // ── Apply combined filters ────────────────────────────────────────────────
   function applyFilters() {
     const GR = GraphRenderer;
@@ -184,7 +195,7 @@
 
     const data = GR.getCurrentData();
 
-    // Compute visible node set
+    // Compute visible node set (under explicit filters)
     const visibleNodeIds = new Set();
     for (const n of data.nodes) {
       if (n.category === 'portal') { visibleNodeIds.add(n.id); continue; }
@@ -196,21 +207,26 @@
       visibleNodeIds.add(n.id);
     }
 
-    // Neighborhood dimming overrides visibility
+    const anyActive = isAnyFilterActive();
+
+    // Semantic zoom: hand off visibility control to camera-distance LOD
+    // when no explicit filter is active. The setSemanticZoom call also
+    // immediately applies the current camera distance.
+    GR.setSemanticZoom(!anyActive);
+
     if (selectedNodeId) {
+      // Neighborhood mode: dim non-neighbors AND restrict visibility
       const neighbors = GR.getNeighborIds(selectedNodeId, neighborhoodDepth, {}, edgeMap);
       GR.dimToNeighborhood(selectedNodeId, neighborhoodDepth, {}, edgeMap);
-
-      // Also restrict visibility to neighborhood ∩ visible
       GR.setNodeVisibility(n => {
         if (n.category === 'portal') return true;
         return visibleNodeIds.has(n.id) && neighbors.has(n.id);
       });
-    } else {
+    } else if (anyActive) {
+      // Explicit filter mode: show only nodes passing the filter
       GR.setNodeVisibility(n => visibleNodeIds.has(n.id));
-      // Note: do NOT call GR.resetVisibility() here — it calls nodeVisibility(true)
-      // which would override the setNodeVisibility filter we just applied above.
     }
+    // else: semantic zoom (already applied by setSemanticZoom above)
 
     // Edge visibility
     GR.setLinkVisibility(link => {
