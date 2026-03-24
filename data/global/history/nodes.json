@@ -4063,5 +4063,89 @@
       "bible",
       "95 theses"
     ]
+  },
+  {
+    "id": "nelson_mandela",
+    "label": "Nelson Mandela",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+    "summary": "South African anti-apartheid leader, imprisoned 27 years (1964-1990), first democratically elected President of South Africa (1994); symbol of resistance to racial oppression and political reconciliation.",
+    "tags": [
+      "south africa",
+      "apartheid",
+      "ANC",
+      "robben island",
+      "reconciliation",
+      "truth commission",
+      "liberation",
+      "icon"
+    ]
+  },
+  {
+    "id": "martin_luther_king",
+    "label": "Martin Luther King Jr.",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.",
+    "summary": "American civil rights leader, Baptist minister, Nobel Peace Prize 1964; led Montgomery Bus Boycott, March on Washington, Selma marches; advocated nonviolent resistance; assassinated 1968; his legacy is contested between radical and sanitized versions.",
+    "tags": [
+      "civil rights",
+      "nonviolence",
+      "MLK",
+      "I have a dream",
+      "march on washington",
+      "selma",
+      "vietnam",
+      "assassination"
+    ]
+  },
+  {
+    "id": "hiroshima_nagasaki",
+    "label": "Hiroshima & Nagasaki Bombings",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1940s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
+    "summary": "First and only combat use of nuclear weapons; US dropped atomic bombs on Hiroshima (August 6) and Nagasaki (August 9) 1945, killing 130,000-226,000 people; ended WWII in the Pacific; began the nuclear age.",
+    "tags": [
+      "atomic bomb",
+      "world war ii",
+      "japan",
+      "nuclear",
+      "truman",
+      "manhattan project",
+      "civilian deaths",
+      "deterrence"
+    ]
+  },
+  {
+    "id": "vietnam_war_protests",
+    "label": "Vietnam War Protests",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Opposition_to_United_States_involvement_in_the_Vietnam_War",
+    "summary": "Mass antiwar movement against US involvement in Vietnam (1965-1975); included campus protests, draft resistance, Kent State massacre, veteran organizing; transformed public opinion and demonstrated that democratic societies could constrain militarism through protest.",
+    "tags": [
+      "antiwar",
+      "vietnam",
+      "draft resistance",
+      "kent state",
+      "protest",
+      "1960s",
+      "counterculture",
+      "draft"
+    ]
   }
 ]

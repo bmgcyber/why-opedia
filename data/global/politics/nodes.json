@@ -1397,5 +1397,68 @@
       "economic justice",
       "history"
     ]
+  },
+  {
+    "id": "lgbtq_rights_movement",
+    "label": "LGBTQ Rights Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1960s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/LGBT_rights_movement",
+    "summary": "Civil rights movement for the legal and social equality of lesbian, gay, bisexual, transgender, and queer people; from Stonewall (1969) to marriage equality (2015) in the US; ongoing globally with severe persecution in many countries.",
+    "tags": [
+      "lgbtq",
+      "gay rights",
+      "stonewall",
+      "marriage equality",
+      "trans rights",
+      "civil rights",
+      "aids crisis",
+      "discrimination"
+    ]
+  },
+  {
+    "id": "nuclear_weapons",
+    "label": "Nuclear Weapons",
+    "node_type": "technology",
+    "category": "technology",
+    "decade": "1940s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Nuclear_weapon",
+    "summary": "Weapons of mass destruction using nuclear fission or fusion; first deployed by the US against Hiroshima and Nagasaki (1945); shaped Cold War deterrence doctrine, arms race, and persistent existential risk.",
+    "tags": [
+      "nuclear",
+      "atomic bomb",
+      "manhattan project",
+      "hiroshima",
+      "cold war",
+      "MAD",
+      "arms race",
+      "proliferation"
+    ]
+  },
+  {
+    "id": "cold_war_proxy_wars",
+    "label": "Cold War Proxy Wars",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1950s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/List_of_proxy_wars",
+    "summary": "Military conflicts fought between smaller nations or factions backed by the US and Soviet Union, using Third World countries as battlegrounds for superpower competition without direct confrontation; Korea, Vietnam, Angola, Afghanistan, Central America.",
+    "tags": [
+      "proxy war",
+      "cold war",
+      "korea",
+      "vietnam",
+      "angola",
+      "afghanistan",
+      "nicaragua",
+      "superpower competition"
+    ]
   }
 ]

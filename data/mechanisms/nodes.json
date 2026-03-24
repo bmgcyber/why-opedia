@@ -1997,5 +1997,47 @@
       "manipulation",
       "bernays"
     ]
+  },
+  {
+    "id": "nonviolent_resistance",
+    "label": "Nonviolent Resistance",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1900s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Nonviolent_resistance",
+    "summary": "Political strategy using noncooperation, civil disobedience, and moral persuasion rather than violence to achieve political change; theorized by Gandhi, practiced by MLK; statistical evidence shows it is more effective than violent revolution.",
+    "tags": [
+      "gandhi",
+      "civil disobedience",
+      "satyagraha",
+      "MLK",
+      "boycott",
+      "sit-in",
+      "noncooperation",
+      "protest"
+    ]
+  },
+  {
+    "id": "legal_mobilization",
+    "label": "Legal Mobilization",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1930s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Cause_lawyering",
+    "summary": "Strategic use of litigation and legal systems to achieve social movement goals; NAACP Legal Defense Fund's Brown v. Board strategy; ACLU model; effective when courts are more accessible than legislatures.",
+    "tags": [
+      "litigation",
+      "NAACP",
+      "ACLU",
+      "civil rights",
+      "test case",
+      "strategic litigation",
+      "Brown v Board",
+      "cause lawyering"
+    ]
   }
 ]

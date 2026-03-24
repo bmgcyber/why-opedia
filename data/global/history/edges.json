@@ -4246,5 +4246,77 @@
     "label": "The Thirty Years War of religion that the Reformation catalyzed produced the Peace of Westphalia as its resolution",
     "note": "The Peace of Westphalia (1648) was the political resolution to the wars of religion the Protestant Reformation had caused: the Thirty Years War (1618-1648) killed a third of the German population in religiously-motivated mass violence; Westphalia's solution was to separate religious authority from political sovereignty — rulers could determine their territory's religion (cuius regio, eius religio) but could not force religious conversion outside their borders. This solution (state sovereignty as the answer to religious war) was the origin of the modern international order. The Reformation caused a century of religious war; Westphalia created the state system to prevent it happening again.",
     "confidence": "high"
+  },
+  {
+    "id": "apartheid_south_africa__nelson_mandela",
+    "source": "apartheid_south_africa",
+    "target": "nelson_mandela",
+    "type": "PRODUCED",
+    "label": "Apartheid's oppression produced Mandela as the liberation movement's defining leader through his imprisonment and moral authority",
+    "note": "Apartheid produced Mandela through a dynamic common in liberation politics: the oppressor's response to Mandela (arresting and imprisoning him for 27 years on Robben Island) made him a global symbol rather than eliminating his influence. Mandela's 1964 \"I am prepared to die\" speech at the Rivonia Trial transformed him from ANC militant to moral philosopher of liberation. The apartheid regime's decision to imprison rather than execute created the martyr who could not be killed, whose prison years became his most powerful political act. Mandela's release (1990) and the subsequent Truth and Reconciliation Commission model made South Africa a template for transitional justice.",
+    "confidence": "high"
+  },
+  {
+    "id": "nelson_mandela__decolonization_movement",
+    "source": "nelson_mandela",
+    "target": "decolonization_movement",
+    "type": "ENABLED",
+    "label": "Mandela and the ANC's victory was the last major victory of the global decolonization movement",
+    "note": "South Africa's transition (1990-1994) was the final chapter of the 20th century decolonization wave: the ANC was a pan-Africanist liberation movement in the tradition of Nkrumah, Nyerere, and Cabral; international anti-apartheid solidarity connected the South African struggle to the broader decolonization narrative; Mandela's African National Congress was explicitly in the tradition of anticolonial African nationalism. South Africa's transition in 1994 — the last formally segregated state in Africa becoming democratic — closed the formal decolonization era, though neocolonial economic structures remained.",
+    "confidence": "high"
+  },
+  {
+    "id": "civil_rights_movement__martin_luther_king",
+    "source": "civil_rights_movement",
+    "target": "martin_luther_king",
+    "type": "PRODUCED",
+    "label": "The Civil Rights Movement produced King as its preeminent spokesperson, while King's charismatic leadership shaped the movement's tactics and moral frame",
+    "note": "MLK and the Civil Rights Movement had a mutually constitutive relationship: King did not create the movement (the NAACP, local activists, and Black church organizing preceded him) but his rhetorical genius, theological grounding, and strategic vision gave it its defining moral frame; Montgomery Bus Boycott (1955-56) elevated him nationally; his \"Letter from Birmingham Jail\" (1963) is the movement's most sophisticated theoretical statement; the March on Washington speech defined the movement for white liberal America. King was simultaneously the product of the movement's structures and the figure who most shaped how America understood those structures.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther_king__vietnam_war",
+    "source": "martin_luther_king",
+    "target": "vietnam_war",
+    "type": "ENABLED",
+    "label": "King's 1967 \"Beyond Vietnam\" speech connected the civil rights and antiwar movements, at enormous political cost",
+    "note": "King's April 1967 \"Beyond Vietnam\" speech was a strategic and moral turning point: it explicitly connected racism, militarism, and economic exploitation as the \"triple evils\"; it marked his break with Johnson administration (which had supported civil rights legislation but was waging Vietnam); it cost him white liberal support and FBI director Hoover intensified COINTELPRO surveillance against him; SCLC fundraising dropped significantly. King's analysis — that the Vietnam War was diverting resources from the Poor People's Campaign and reflecting the same dehumanization that justified Jim Crow — was prescient but politically costly. His assassination in Memphis (April 1968) while supporting a sanitation strike connected the movements he'd sought to unite.",
+    "confidence": "high"
+  },
+  {
+    "id": "malcolm_x__black_lives_matter",
+    "source": "malcolm_x",
+    "target": "black_lives_matter",
+    "type": "ENABLED",
+    "label": "Malcolm X's analysis of systemic racism, police violence, and the limits of respectability politics directly influenced BLM's framework",
+    "note": "Black Lives Matter's intellectual framework draws more from Malcolm X than from King's integrationist tradition: BLM's founding principles (by Alicia Garza, Patrisse Cullors, Opal Tometi) emphasized systemic analysis, intersectionality, and rejection of respectability politics — much closer to Malcolm's approach than to King's moral suasion; the Movement for Black Lives' policy platform (2016) included reparations, police abolition, and economic restructuring that echo Malcolm's structural analysis; BLM's tone — assertive, defiant, centering Black experience rather than appealing to white conscience — reflects the Malcolm tradition more than the King tradition that white political culture prefers.",
+    "confidence": "high"
+  },
+  {
+    "id": "world_war_ii__hiroshima_nagasaki",
+    "source": "world_war_ii",
+    "target": "hiroshima_nagasaki",
+    "type": "PRODUCED",
+    "label": "WWII's Pacific theater produced the strategic logic and technological capability that led to Hiroshima and Nagasaki",
+    "note": "Hiroshima and Nagasaki were produced by WWII's specific context: the Manhattan Project was initiated by fear of German atomic development; the Pacific War's ferocity (Iwo Jima, Okinawa island campaigns with massive casualties) made US military planners estimate a Japan invasion would cost 250,000-1 million American casualties; Japan's military culture of resistance to surrender created the strategic context; the available bombs and delivery capability created the option. The decision remains historically contested: traditional view (ended the war, saved lives) vs. revisionist view (Japan was already considering surrender; primary motivation was Soviet deterrence). The debate reveals how strategic necessity and moral principle intertwined in the atomic decision.",
+    "confidence": "high"
+  },
+  {
+    "id": "vietnam_war__vietnam_war_protests",
+    "source": "vietnam_war",
+    "target": "vietnam_war_protests",
+    "type": "PRODUCED",
+    "label": "The Vietnam War produced the most sustained and ultimately effective antiwar movement in American history",
+    "note": "Vietnam War protests were the war's direct product: draft vulnerability (young men could be conscripted) created personal stakes that produced campus activism; draft card burning, sit-ins at induction centers, and the March on the Pentagon (1967) built the movement; the Tet Offensive (1968) demonstrated the war's failure against government claims of progress; Kent State (4 students killed by National Guard, 1970) galvanized the campus movement; Vietnam Veterans Against the War brought moral authority from those who had served. The movement demonstrates that democratic societies have mechanisms to constrain militarism when costs become visible — but those mechanisms work slowly and incompletely.",
+    "confidence": "high"
+  },
+  {
+    "id": "vietnam_war_protests__iraq_war_wmd",
+    "source": "vietnam_war_protests",
+    "target": "iraq_war_wmd",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "The February 2003 Iraq War protests were the largest antiwar demonstrations in history, yet failed to prevent the war — a contrast with Vietnam's eventual success",
+    "note": "The Iraq War protests (February 15, 2003 — 15 million people in 600 cities worldwide, the largest coordinated protest in history) and Vietnam protests share mechanism while demonstrating a key difference: both were massive democratic expressions against military action; the Iraq protest was preemptive (before the war began) while Vietnam protests were reactive (after casualties mounted); the Iraq protest failed to prevent the war despite unprecedented scale, partly because the Bush administration had committed before public opinion could respond, partly because the Iraq War initially appeared to be a quick victory. The contrast suggests that preemptive protests face higher political barriers than reactive ones.",
+    "confidence": "high"
   }
 ]

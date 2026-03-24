@@ -6450,5 +6450,59 @@
     "label": "Fascism was the first political movement to systematically theorize and deploy modern propaganda as its primary political tool",
     "note": "Fascism and propaganda are structurally inseparable: Mussolini and Goebbels both theorized propaganda as the essential technology of fascist rule; Nazi Germany's Ministry of Public Enlightenment and Propaganda was the first government ministry dedicated entirely to information control; Leni Riefenstahl's Triumph of the Will was the first systematic use of cinema as state propaganda; the Nuremberg rallies were designed as propaganda spectacles. Hitler's \"Mein Kampf\" contains an extensive analysis of propaganda as political technique. Fascism's novelty as a political form was partly its explicit theorization of propaganda as statecraft — previous authoritarian regimes relied on censorship and force; fascism added systematic positive propaganda.",
     "confidence": "high"
+  },
+  {
+    "id": "nonviolent_resistance__civil_rights_movement",
+    "source": "nonviolent_resistance",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "label": "Nonviolent resistance was the Civil Rights Movement's strategic choice, theorized by Gandhi and adapted by King to the American context",
+    "note": "King's adaptation of Gandhi's nonviolent resistance to American civil rights was a strategic calculation, not only a moral one: nonviolent tactics exposed the brutality of Jim Crow enforcement for national and international media — Bull Connor's firehoses and police dogs against peaceful marchers in Birmingham (1963) produced more legislative action than any argument had; nonviolence denied opponents the pretext of self-defense; it maintained moral high ground in Cold War context (US fighting Soviet tyranny while practicing racial apartheid was a global embarrassment). Gandhi's satyagraha (truth-force) was adapted to American Baptist church tradition and the specific tactical conditions of the Jim Crow South.",
+    "confidence": "high"
+  },
+  {
+    "id": "nonviolent_resistance__apartheid_south_africa",
+    "source": "nonviolent_resistance",
+    "target": "apartheid_south_africa",
+    "type": "DISCREDITED",
+    "label": "The ANC adopted nonviolent resistance until Sharpeville (1960), then turned to armed struggle when the state proved impervious to peaceful protest",
+    "note": "The ANC's turn from nonviolent to armed resistance (Umkhonto we Sizwe, 1961) after the Sharpeville massacre (1960, 69 protesters killed) demonstrates nonviolent resistance's limits against sufficiently violent states. The ANC had spent 48 years using peaceful organizing, petitions, and legal challenges; the state responded by banning the ANC, massacring protesters, and arresting leadership. The Sharpeville decision to shoot peaceful protesters removed the moral space that nonviolent resistance requires — it needs the opponent to have political costs for violent response, which requires audience sympathy (international community, domestic white moderates). South Africa's apartheid regime was, for decades, willing to pay those costs.",
+    "confidence": "high"
+  },
+  {
+    "id": "legal_mobilization__civil_rights_movement",
+    "source": "legal_mobilization",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "label": "NAACP Legal Defense Fund's strategic litigation — culminating in Brown v. Board — was as important to the Civil Rights Movement as street protest",
+    "note": "The NAACP LDF's legal mobilization strategy was 20 years in the making before Brown v. Board (1954): Thurgood Marshall and the LDF systematically built a litigation record attacking \"separate but equal\" from higher education down to primary schools; they developed a social science evidence strategy (Kenneth Clark's doll studies showing segregation's psychological harm) that treated law as contestable social fact rather than fixed doctrine; the Brown decision's \"with all deliberate speed\" implementation clause revealed the limits of litigation without political enforcement. Legal mobilization requires courts that are more accessible than legislatures — a condition that has historically varied, making litigation strategy temporally dependent on the composition of the judiciary.",
+    "confidence": "high"
+  },
+  {
+    "id": "legal_mobilization__lgbtq_rights_movement",
+    "source": "legal_mobilization",
+    "target": "lgbtq_rights_movement",
+    "type": "ENABLED",
+    "label": "Legal mobilization through ACLU and Lambda Legal was the primary LGBTQ rights strategy, producing Lawrence (2003) and Obergefell (2015)",
+    "note": "Legal mobilization was the defining LGBTQ rights strategy: Lambda Legal and ACLU built litigation records through careful case selection; Bowers v. Hardwick (1986) was a defeat that defined the next generation's strategy; Romer v. Evans (1996), Lawrence v. Texas (2003), United States v. Windsor (2013), and Obergefell v. Hodges (2015) were a deliberate litigation sequence; Evan Wolfson's marriage equality strategy explicitly modeled the NAACP LDF approach. The LGBTQ rights legal mobilization demonstrates how civil rights movements can build constitutional rights through strategic litigation in 30-year timeframes, fundamentally reshaping constitutional doctrine through carefully selected test cases.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__vietnam_war_protests",
+    "source": "collective_trauma",
+    "target": "vietnam_war_protests",
+    "type": "ENABLED",
+    "label": "The collective trauma of Vietnam War casualties and the Kent State massacre radicalized the antiwar movement",
+    "note": "The Vietnam War protest movement was driven by collective trauma: the draft lottery creating shared mortality risk for young men; the return of veterans with visible physical and psychological wounds; the Kent State massacre (National Guard killing student protesters) demonstrating that the state would use deadly force against its own citizens; My Lai massacre revelation (1969) demonstrating that US forces were committing atrocities. These traumatic events radicalized moderate antiwar sentiment into mass mobilization. The collective trauma mechanism: each atrocity expanded the movement's base while deepening existing members' commitment, creating a self-reinforcing radicalization dynamic driven by accumulating horror.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__cold_war",
+    "source": "in_group_out_group_dynamics",
+    "target": "cold_war",
+    "type": "ENABLED",
+    "label": "Cold War ideology required rigid in-group/out-group thinking that made any leftist political position automatically \"communist\" and therefore treasonous",
+    "note": "Cold War in-group/out-group dynamics operated through binary ideological categorization: \"free world\" vs. communist world; any political position (labor rights, civil rights, antiwar activism) could be delegitimized by labeling it communist-aligned; this made the in-group/out-group boundary ideologically policed rather than just national — an American advocating socialized medicine was potentially \"Soviet-aligned.\" Red Scare and COINTELPRO were institutional implementations of this logic. The Cold War produced the specific pathology of treating domestic political opponents as enemy agents, which is the core of authoritarian political culture — making loyal opposition impossible.",
+    "confidence": "high"
   }
 ]

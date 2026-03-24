@@ -416,5 +416,32 @@
     "label": "Antisemitic conspiracy theories are the oldest and most persistent conspiracy framework; modern conspiracism regularly reverts to antisemitic tropes",
     "note": "Antisemitism and conspiracy theory are structurally linked: the Protocols of the Elders of Zion (1903) was the first modern conspiracy text, and its narrative (secret Jewish elite controlling governments and finance) has been recycled through every subsequent conspiracy framework: the Illuminati narrative is often antisemitic; QAnon's \"cabal of Satan-worshipping pedophiles\" revived medieval blood libel antisemitism; George Soros conspiracy theories deploy antisemitic \"puppetmaster\" tropes; \"the Great Replacement\" conspiracy theory about elite manipulation of immigration is often explicitly antisemitic. Conspiracy theories tend toward antisemitism because their narrative logic (secret powerful elite controlling society) maps onto existing antisemitic tropes.",
     "confidence": "high"
+  },
+  {
+    "id": "antisemitism__the_holocaust",
+    "source": "antisemitism",
+    "target": "the_holocaust",
+    "type": "PRODUCED",
+    "label": "Nazi antisemitism transformed centuries of religious and cultural antisemitism into an industrial racial genocide",
+    "note": "The Holocaust was the endpoint of a specific German antisemitism trajectory that combined traditional European religious antisemitism with modern racial science and state administrative capacity. Hannah Arendt's analysis in \"The Origins of Totalitarianism\" traces the convergence of colonial racism (practiced on non-Europeans) with European antisemitism (practiced domestically) as the ideological foundation; the Nazi racial state then applied industrial bureaucratic methods to genocide. The Holocaust's \"banality of evil\" — ordinary bureaucrats implementing mass murder through paperwork — demonstrated that genocide does not require individual sadism but only institutional normalization of dehumanization.",
+    "confidence": "high"
+  },
+  {
+    "id": "antisemitism__conspiracy_theories",
+    "source": "antisemitism",
+    "target": "conspiracy_theories",
+    "type": "ENABLED",
+    "label": "Antisemitic conspiracy frameworks are the template from which modern conspiracy theory logic derives",
+    "note": "Modern conspiracy theory logic inherits its structure from antisemitic conspiracy frameworks: the Protocols of the Elders of Zion established the narrative architecture of secret elite manipulating events behind the scenes; this architecture — hidden powerful group, coordinated deception, ordinary people as victims of their manipulation — is the template for all subsequent conspiracy theories regardless of whether they explicitly name Jews. QAnon's Rothschild/Soros elements demonstrate the persistence of the antisemitic template. The relationship is not merely historical: conspiracy theories regress toward antisemitism when they require a sufficiently powerful and unified hidden force, because antisemitic mythology provides the ready-made explanation.",
+    "confidence": "high"
+  },
+  {
+    "id": "radicalization__online_radicalization",
+    "source": "radicalization",
+    "target": "online_radicalization",
+    "type": "PRODUCED",
+    "label": "Online radicalization is the digital-era instantiation of general radicalization dynamics with accelerated feedback loops",
+    "note": "Online radicalization and general radicalization share mechanisms but the internet dramatically accelerates them: geographic isolation is eliminated (a lonely teenager in rural Idaho can access neo-Nazi communities instantly); feedback loops are tightened (content that validates extreme views is algorithmically surfaced faster); anonymity reduces social inhibitions; extremist communities that could never sustain critical mass in physical space can reach global scale online; escalation dynamics operate 24/7 without the natural interruption of offline life. Online radicalization's speed and scale difference from historical radicalization is sufficient to treat it as a qualitatively distinct phenomenon.",
+    "confidence": "high"
   }
 ]
