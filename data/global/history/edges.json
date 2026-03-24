@@ -4615,5 +4615,41 @@
     "label": "Pinochet's Chile was both a Latin American dirty war and a template for subsequent dirty wars across the region through Operation Condor",
     "note": "Chile's dirty war was simultaneously an event and a regional organizing force: DINA (Pinochet's secret police) killed and tortured thousands domestically; Chile was a founding member of Operation Condor (1975) — the CIA-facilitated coordination system where Argentina, Brazil, Chile, Uruguay, Paraguay, and Bolivia shared intelligence and conducted cross-border operations against each other's dissidents; Condor operations assassinated dissidents in third countries (Orlando Letelier killed in Washington DC, 1976). Chile provided both the template (systematic detention-torture-disappearance) and the coordination infrastructure that characterized Latin American dirty wars. The Pinochet model was explicitly studied and emulated by subsequent dirty war regimes.",
     "confidence": "high"
+  },
+  {
+    "id": "tulsa_race_massacre__historical_revisionism",
+    "source": "tulsa_race_massacre",
+    "target": "historical_revisionism",
+    "type": "ENABLED",
+    "label": "Tulsa Race Massacre was suppressed from Oklahoma history for 80 years — a deliberate historical revisionism by institutions that participated in or enabled it",
+    "note": "Tulsa Race Massacre suppression was organized and deliberate: Tulsa newspapers self-censored for decades; Oklahoma state history curricula excluded the massacre; city and state officials who had participated in or enabled the massacre had institutional interests in suppression; the National Guard records were sealed; the American Red Cross disaster response records minimized the extent. The massacre was virtually absent from public historical memory until the 1996 Oklahoma Commission on the Tulsa Race Riot began official documentation. The 80-year suppression demonstrates how historical revisionism operates in democratic societies — not through overt censorship but through institutional self-interest, curricula design, and the power of those who benefited from erasure to shape what is remembered.",
+    "confidence": "high"
+  },
+  {
+    "id": "tulsa_race_massacre__dehumanization",
+    "source": "tulsa_race_massacre",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "The Tulsa massacre's targeting of Black economic success demonstrates dehumanization directed specifically at Black prosperity",
+    "note": "The Tulsa massacre demonstrates dehumanization directed at Black economic achievement: Greenwood was targeted specifically because Black prosperity — the Black Wall Street of thriving businesses, professional class, and economic independence — violated the racial hierarchy that required Black inferiority. The dehumanization of successful Black Americans required particular ideological work: the \"uppity\" characterization, the accusations of assault (the immediate trigger), and the coordinated mob violence reflected anger at Black success that threatened white psychological investment in racial hierarchy. This \"dehumanization of success\" mechanism — violently punishing Black achievement — also appears in the 1898 Wilmington coup, the destruction of Rosewood (1923), and the pattern of economic retaliation against NAACP chapters.",
+    "confidence": "high"
+  },
+  {
+    "id": "harlem_renaissance__civil_rights_movement",
+    "source": "harlem_renaissance",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "label": "The Harlem Renaissance developed Black political thought, cultural confidence, and organizational infrastructure that the Civil Rights Movement built on",
+    "note": "The Harlem Renaissance was the intellectual incubator of civil rights: W.E.B. Du Bois (Crisis magazine) developed Black political theory and NAACP strategy from Harlem; the \"New Negro\" cultural movement asserted Black dignity and equality that civil rights demanded politically; Marcus Garvey's UNIA (Black nationalism, Harlem-based) articulated the alternative tradition; Langston Hughes and other Renaissance writers documented and affirmed Black experience that Jim Crow tried to erase. The Civil Rights Movement's intellectual confidence — the ability to argue comprehensively for Black equality — was built on the cultural and intellectual work the Renaissance had done. The movement's leaders (King, Lewis, Marshall) were educated in institutions the Renaissance had strengthened.",
+    "confidence": "high"
+  },
+  {
+    "id": "harlem_renaissance__cultural_hegemony",
+    "source": "harlem_renaissance",
+    "target": "cultural_hegemony",
+    "type": "DISCREDITED",
+    "label": "The Harlem Renaissance challenged cultural hegemony by producing a thriving Black artistic tradition that claimed equal value with Euro-American culture",
+    "note": "The Harlem Renaissance was a direct challenge to cultural hegemony: Euro-American cultural hegemony framed Black culture as derivative, inferior, or absent; the Renaissance produced poetry, literature, jazz, and visual art that demonstrated Black cultural creativity and richness; Langston Hughes's \"I, Too, Sing America\" (1945) directly challenged cultural exclusion; the Renaissance forced white Americans to encounter Black culture on its own terms. The challenge was partial — the Renaissance produced some integration into mainstream cultural institutions while also being celebrated in ways that commodified Black culture for white audiences (Harlem nightclubs catering to white tourists). Cultural hegemony can partially accommodate challenges by assimilating them, which is distinct from being discredited by them.",
+    "confidence": "high"
   }
 ]
