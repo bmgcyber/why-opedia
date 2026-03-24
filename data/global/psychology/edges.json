@@ -209,5 +209,117 @@
     "label": "Milgram results provided the empirical proof that authority pressure produces moral disengagement in ordinary people",
     "note": "Milgram findings empirically confirmed the mechanism of moral disengagement Bandura would later theorize: in his experiments, participants progressively disengaged from moral agency by diffusing responsibility (\"I was just following orders\"), using euphemistic language (\"administering shocks\" not \"hurting someone\"), and incrementally committing to the authority relationship through small initial compliance.",
     "confidence": "high"
+  },
+  {
+    "id": "incel_community__red_pill_community",
+    "source": "incel_community",
+    "target": "red_pill_community",
+    "type": "FRAGMENTED_INTO",
+    "label": "incels emerged from and radicalised beyond red pill framework",
+    "confidence": "high"
+  },
+  {
+    "id": "red_pill_community__mgtow",
+    "source": "red_pill_community",
+    "target": "mgtow",
+    "type": "PRODUCED",
+    "label": "red pill ideology produced withdrawal variant",
+    "confidence": "high"
+  },
+  {
+    "id": "pua_community__red_pill_community",
+    "source": "pua_community",
+    "target": "red_pill_community",
+    "type": "PRODUCED",
+    "label": "PUA community evolved into the broader red pill worldview",
+    "confidence": "high"
+  },
+  {
+    "id": "red_pill_community__incel_community",
+    "source": "red_pill_community",
+    "target": "incel_community",
+    "type": "ENABLED",
+    "label": "red pill framework provided ideology for incel grievance",
+    "confidence": "high"
+  },
+  {
+    "id": "social_media_addiction__red_pill_community",
+    "source": "social_media_addiction",
+    "target": "red_pill_community",
+    "type": "ENABLED",
+    "label": "engagement-maximising algorithms recommended radicalising content",
+    "confidence": "high"
+  },
+  {
+    "id": "social_media_addiction__qanon",
+    "source": "social_media_addiction",
+    "target": "qanon",
+    "type": "ENABLED",
+    "label": "compulsive platform use and recommendation loops spread QAnon",
+    "confidence": "high"
+  },
+  {
+    "id": "self_help_industry__positive_psychology",
+    "source": "self_help_industry",
+    "target": "positive_psychology",
+    "type": "EXPLOITED",
+    "label": "pop-self-help colonised academic positive psychology findings",
+    "confidence": "high"
+  },
+  {
+    "id": "jordan_peterson__red_pill_community",
+    "source": "jordan_peterson",
+    "target": "red_pill_community",
+    "type": "ENABLED",
+    "label": "provided academic-adjacent legitimacy for red pill ideas about hierarchy",
+    "confidence": "high"
+  },
+  {
+    "id": "sigmund_freud__jordan_peterson",
+    "source": "sigmund_freud",
+    "target": "jordan_peterson",
+    "type": "ENABLED",
+    "label": "Jungian/Freudian archetypes form core of Peterson's intellectual framework",
+    "confidence": "high"
+  },
+  {
+    "id": "milgram_obedience_experiments__groupthink",
+    "source": "milgram_obedience_experiments",
+    "target": "groupthink",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both demonstrate how institutional authority overrides individual moral judgment",
+    "confidence": "high"
+  },
+  {
+    "id": "cult_dynamics__identity_capture",
+    "source": "cult_dynamics",
+    "target": "identity_capture",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "cult dynamics represent the extreme of identity capture mechanisms",
+    "confidence": "high"
+  },
+  {
+    "id": "trauma_bonding__cult_dynamics",
+    "source": "trauma_bonding",
+    "target": "cult_dynamics",
+    "type": "ENABLED",
+    "label": "abuse-reward cycles in cults create persistent loyalty despite harm",
+    "confidence": "high"
+  },
+  {
+    "id": "cognitive_dissonance__cult_dynamics",
+    "source": "cognitive_dissonance",
+    "target": "cult_dynamics",
+    "type": "ENABLED",
+    "label": "heavy investment and sunk costs make members rationalise rather than exit",
+    "confidence": "high"
+  },
+  {
+    "id": "positive_psychology__self_help_industry",
+    "source": "positive_psychology",
+    "target": "self_help_industry",
+    "type": "ENABLED",
+    "label": "scientific veneer gave self-help marketers credible language",
+    "confidence": "high"
   }
 ]

@@ -124,5 +124,103 @@
     "label": "The Homeric epics standardized and transmitted Greek mythology across the Hellenic world",
     "note": "Before Homer, Greek mythology was regional and diverse. The Iliad and Odyssey provided a shared canonical account of the gods and heroes that became the common cultural currency of all Greek-speaking peoples. Homer was the \"Bible of the Greeks.\"",
     "confidence": "high"
+  },
+  {
+    "id": "walter_lippmann__edward_bernays",
+    "source": "walter_lippmann",
+    "target": "edward_bernays",
+    "type": "ENABLED",
+    "label": "Lippmann's theory legitimised Bernays's practice",
+    "note": "Bernays cited Lippmann as a key intellectual influence; both operated from the same premise that the public required guided management.",
+    "confidence": "high"
+  },
+  {
+    "id": "edward_bernays__joseph_goebbels",
+    "source": "edward_bernays",
+    "target": "joseph_goebbels",
+    "type": "ENABLED",
+    "label": "Bernays's techniques were adapted by Nazi propaganda",
+    "note": "Goebbels reportedly read Bernays's Propaganda and kept it on his desk; the irony that Bernays was Jewish was not lost on him.",
+    "confidence": "high"
+  },
+  {
+    "id": "printing_press__yellow_journalism",
+    "source": "printing_press",
+    "target": "yellow_journalism",
+    "type": "ENABLED",
+    "label": "mass print infrastructure made newspaper wars possible",
+    "confidence": "medium"
+  },
+  {
+    "id": "rupert_murdoch__fox_news",
+    "source": "rupert_murdoch",
+    "target": "fox_news",
+    "type": "PRODUCED",
+    "label": "founded and controlled editorial direction",
+    "confidence": "high"
+  },
+  {
+    "id": "fox_news__qanon",
+    "source": "fox_news",
+    "target": "qanon",
+    "type": "ENABLED",
+    "label": "amplified conspiratorial content that fed QAnon ecosystem",
+    "confidence": "high"
+  },
+  {
+    "id": "cambridge_analytica__qanon",
+    "source": "cambridge_analytica",
+    "target": "qanon",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both exploit psychographic profiling and social media algorithms",
+    "confidence": "medium"
+  },
+  {
+    "id": "war_of_worlds_broadcast__moral_panic",
+    "source": "war_of_worlds_broadcast",
+    "target": "moral_panic",
+    "type": "PRODUCED",
+    "label": "became canonical example of media-induced mass panic",
+    "confidence": "medium"
+  },
+  {
+    "id": "deepfakes__broken_epistemology",
+    "source": "deepfakes",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "synthetic media erodes trust in audiovisual evidence",
+    "confidence": "high"
+  },
+  {
+    "id": "rt_russia_today__broken_epistemology",
+    "source": "rt_russia_today",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "firehose-of-falsehood strategy targets epistemic infrastructure",
+    "confidence": "high"
+  },
+  {
+    "id": "filter_bubble__qanon",
+    "source": "filter_bubble",
+    "target": "qanon",
+    "type": "ENABLED",
+    "label": "algorithmic recommendation accelerated QAnon radicalisation",
+    "confidence": "high"
+  },
+  {
+    "id": "yellow_journalism__moral_panic",
+    "source": "yellow_journalism",
+    "target": "moral_panic",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both amplify threat narratives for audience-building",
+    "confidence": "high"
+  },
+  {
+    "id": "edward_bernays__corporate_regulatory_capture",
+    "source": "edward_bernays",
+    "target": "corporate_regulatory_capture",
+    "type": "ENABLED",
+    "label": "PR industry provided corporate capture its persuasion infrastructure",
+    "confidence": "high"
   }
 ]

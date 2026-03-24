@@ -70,5 +70,172 @@
     ],
     "scope": "global/health",
     "cross_scope": false
+  },
+  {
+    "id": "opioid_crisis",
+    "label": "Opioid Epidemic",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Opioid_epidemic_in_the_United_States",
+    "summary": "Three waves of overdose deaths beginning in the 1990s: prescription opioids, then heroin, then fentanyl. Over 500,000 deaths in the US 1999–2019. Driven by pharmaceutical companies' aggressive marketing of opioids as non-addictive, regulatory failures, and the \"pain management\" ideology that incentivised heavy prescription. The crisis disproportionately struck deindustrialised communities with collapsed social infrastructure.",
+    "decade": "1990s",
+    "tags": [
+      "opioids",
+      "public-health",
+      "pharmaceutical",
+      "addiction",
+      "usa",
+      "regulation"
+    ],
+    "scope": "global/health",
+    "cross_scope": false
+  },
+  {
+    "id": "purdue_pharma",
+    "label": "Purdue Pharma & the Sackler Family",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Purdue_Pharma",
+    "summary": "Pharmaceutical company that marketed OxyContin from 1996 with deliberate misrepresentations about its addiction potential. Internal documents showed executives knew of diversion and addiction. The Sackler family extracted billions before bankruptcy while the company was fined. Epitomises the capture of medical regulation, academic research, and prescribing culture by pharmaceutical commercial interests.",
+    "decade": "1990s",
+    "tags": [
+      "pharmaceutical",
+      "opioids",
+      "corruption",
+      "lobbying",
+      "addiction",
+      "corporate"
+    ],
+    "scope": "global/health",
+    "cross_scope": false
+  },
+  {
+    "id": "aids_crisis",
+    "label": "AIDS Crisis (1980s–90s)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/HIV/AIDS_in_the_United_States",
+    "summary": "The Reagan administration's deliberate inaction during the early AIDS epidemic — when the virus was wrongly coded as a \"gay disease\" — allowed preventable mass death. ACT UP's militant activism forced FDA approval acceleration, transforming drug-approval timelines permanently. The crisis exposed how social stigma is encoded in public health responses, with moral judgements determining whose deaths receive institutional urgency.",
+    "decade": "1980s",
+    "tags": [
+      "aids",
+      "lgbtq",
+      "public-health",
+      "stigma",
+      "activism",
+      "government",
+      "usa"
+    ],
+    "scope": "global/health",
+    "cross_scope": false
+  },
+  {
+    "id": "anti_vaccination_movement",
+    "label": "Anti-Vaccination Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anti-vaccine_activism",
+    "summary": "Movement opposing vaccination, with modern form catalysed by Andrew Wakefield's fraudulent 1998 Lancet paper linking MMR vaccine to autism (retracted 2010, Wakefield struck off). Despite debunking, anti-vax beliefs spread through social media networks, celebrity amplification, and distrust of pharmaceutical companies. Re-emergence of measles in high-coverage populations demonstrated real public health consequences.",
+    "decade": "1990s",
+    "tags": [
+      "vaccines",
+      "conspiracy",
+      "public-health",
+      "misinformation",
+      "social-media",
+      "autism"
+    ],
+    "scope": "global/health",
+    "cross_scope": false
+  },
+  {
+    "id": "deinstitutionalization",
+    "label": "Psychiatric Deinstitutionalization",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Deinstitutionalization",
+    "summary": "The large-scale closure of psychiatric hospitals from the 1960s–80s, driven by a combination of civil rights concerns about institutional abuse, the new availability of antipsychotic drugs, fiscal conservatism, and critiques of psychiatry by figures like Thomas Szasz and R.D. Laing. Community mental health infrastructure was never built to replace institutions. Resulted in mass homelessness and incarceration of people with severe mental illness — the \"transinstitutionalisation\" thesis.",
+    "decade": "1960s",
+    "tags": [
+      "mental-health",
+      "policy",
+      "homelessness",
+      "psychiatry",
+      "deinstitutionalization"
+    ],
+    "scope": "global/health",
+    "cross_scope": false
+  },
+  {
+    "id": "leaded_gasoline_cover_up",
+    "label": "Leaded Gasoline & Corporate Science Denial",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tetraethyllead",
+    "summary": "Tetraethyl lead was added to gasoline from 1923 despite immediate worker deaths and the available lead-free alternative. The lead industry funded fraudulent science, intimidated researchers, and captured the Bureau of Mines for decades. Robert Kehoe's Kehoe Principle — that something must be proven harmful before regulation — inverted the precautionary principle. This model (fund science to create doubt) was later adopted by tobacco, fossil fuels, and other industries. Lead's cognitive effects may have contributed to the crime wave and drop of the 20th century.",
+    "decade": "1920s",
+    "tags": [
+      "lead",
+      "corporate-fraud",
+      "public-health",
+      "science-denial",
+      "regulation"
+    ],
+    "scope": "global/health",
+    "cross_scope": false
+  },
+  {
+    "id": "lobotomy_era",
+    "label": "Lobotomy Era (Psychosurgery)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lobotomy",
+    "summary": "Walter Freeman's transorbital lobotomy (1946) was performed on ~50,000 Americans and spread globally as psychiatric treatment. Freeman received the Nobel Prize (1949) before evidence of harm was systematically documented. The procedure was promoted as a cure for mental illness but primarily served to pacify difficult patients in overcrowded institutions. Exemplifies how medicine can adopt interventions without adequate evidence, powered by institutional convenience and Nobel-Prize-level authority.",
+    "decade": "1940s",
+    "tags": [
+      "psychiatry",
+      "medicine",
+      "history",
+      "abuse",
+      "institutions"
+    ],
+    "scope": "global/health",
+    "cross_scope": false
+  },
+  {
+    "id": "big_pharma_lobbying",
+    "label": "Pharmaceutical Industry Lobbying",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pharmaceutical_lobby",
+    "summary": "The pharmaceutical industry is consistently the largest lobbying spender in US politics, outspending defence and oil. Lobbying extends to shaping FDA personnel and processes, funding medical education (CME), sponsoring clinical trials with publication bias toward positive results, and revolving-door employment of regulators. The result is a healthcare system optimised for drug sales rather than health outcomes.",
+    "decade": "1980s",
+    "tags": [
+      "lobbying",
+      "pharmaceutical",
+      "regulation",
+      "corruption",
+      "healthcare"
+    ],
+    "scope": "global/health",
+    "cross_scope": false
+  },
+  {
+    "id": "thalidomide_scandal",
+    "label": "Thalidomide Scandal (1957–62)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thalidomide",
+    "summary": "Thalidomide, marketed in 46 countries as a sedative and morning sickness treatment, caused ~10,000 birth defects (phocomelia). FDA officer Frances Kelsey blocked US approval based on inadequate safety data, saving thousands. The scandal directly caused the 1962 Kefauver-Harris Amendment requiring proof of efficacy and adequate safety trials before drug approval — fundamentally transforming pharmaceutical regulation.",
+    "decade": "1950s",
+    "tags": [
+      "pharmaceutical",
+      "regulation",
+      "medicine",
+      "birth-defects",
+      "fda"
+    ],
+    "scope": "global/health",
+    "cross_scope": false
   }
 ]

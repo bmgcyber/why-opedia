@@ -124,5 +124,101 @@
     "label": "Darwin theory of natural selection was systematically misapplied to justify eugenics programs",
     "note": "Darwin himself never advocated eugenics; his cousin Francis Galton coined the term and misapplied natural selection to human breeding. Social Darwinists and eugenicists took Darwin framework — variation, inheritance, selection — and applied it to social policy in ways Darwin methodology did not support. Darwin is the intellectual ancestor of eugenics the way Marx is of Stalinism: both had their work systematically perverted by successors.",
     "confidence": "high"
+  },
+  {
+    "id": "pain_management_movement__opioid_crisis",
+    "source": "pain_management_movement",
+    "target": "opioid_crisis",
+    "type": "CAUSED",
+    "label": "\"pain as fifth vital sign\" normalised opioid overprescription",
+    "confidence": "high"
+  },
+  {
+    "id": "purdue_pharma__opioid_crisis",
+    "source": "purdue_pharma",
+    "target": "opioid_crisis",
+    "type": "CAUSED",
+    "label": "OxyContin mismarketing directly drove prescription opioid wave",
+    "confidence": "high"
+  },
+  {
+    "id": "purdue_pharma__pain_management_movement",
+    "source": "purdue_pharma",
+    "target": "pain_management_movement",
+    "type": "ENABLED",
+    "label": "funded and shaped the pain management ideology",
+    "confidence": "high"
+  },
+  {
+    "id": "american_eugenics_movement__tuskegee_syphilis_study",
+    "source": "american_eugenics_movement",
+    "target": "tuskegee_syphilis_study",
+    "type": "ENABLED",
+    "label": "eugenicist ideology made Black subjects available for non-consensual experimentation",
+    "confidence": "high"
+  },
+  {
+    "id": "tuskegee_syphilis_study__anti_vaccination_movement",
+    "source": "tuskegee_syphilis_study",
+    "target": "anti_vaccination_movement",
+    "type": "ENABLED",
+    "label": "documented federal medical abuse fuelled lasting Black distrust of public health",
+    "confidence": "high"
+  },
+  {
+    "id": "big_pharma_lobbying__purdue_pharma",
+    "source": "big_pharma_lobbying",
+    "target": "purdue_pharma",
+    "type": "ENABLED",
+    "label": "industry-captured regulation allowed OxyContin mismarketing",
+    "confidence": "high"
+  },
+  {
+    "id": "big_pharma_lobbying__opioid_crisis",
+    "source": "big_pharma_lobbying",
+    "target": "opioid_crisis",
+    "type": "ENABLED",
+    "label": "blocked regulation and funded advocacy for expanded prescribing",
+    "confidence": "high"
+  },
+  {
+    "id": "deinstitutionalization__opioid_crisis",
+    "source": "deinstitutionalization",
+    "target": "opioid_crisis",
+    "type": "ENABLED",
+    "label": "destroyed community mental health infrastructure that could have caught addiction",
+    "confidence": "medium"
+  },
+  {
+    "id": "lobotomy_era__deinstitutionalization",
+    "source": "lobotomy_era",
+    "target": "deinstitutionalization",
+    "type": "CAUSED",
+    "label": "institutional psychiatric abuse drove civil rights backlash and closure movement",
+    "confidence": "high"
+  },
+  {
+    "id": "leaded_gasoline_cover_up__corporate_regulatory_capture",
+    "source": "leaded_gasoline_cover_up",
+    "target": "corporate_regulatory_capture",
+    "type": "PRODUCED",
+    "label": "invented the doubt-manufacturing playbook for regulatory capture",
+    "confidence": "high"
+  },
+  {
+    "id": "thalidomide_scandal__american_eugenics_movement",
+    "source": "thalidomide_scandal",
+    "target": "american_eugenics_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both involve non-consensual use of vulnerable populations as experimental subjects",
+    "confidence": "medium"
+  },
+  {
+    "id": "aids_crisis__american_eugenics_movement",
+    "source": "aids_crisis",
+    "target": "american_eugenics_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "government inaction in both cases reflects devaluation of marginalised lives",
+    "confidence": "medium"
   }
 ]

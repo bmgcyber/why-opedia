@@ -213,5 +213,173 @@
     ],
     "scope": "global/psychology",
     "cross_scope": false
+  },
+  {
+    "id": "jordan_peterson",
+    "label": "Jordan Peterson",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jordan_Peterson",
+    "summary": "Canadian clinical psychologist who became a global media figure following his 2016 refusal to use Bill C-16 pronouns. His YouTube lectures on Jungian archetypes, biblical symbolism, and personal responsibility attracted millions. His work is contested: supporters see practical self-improvement philosophy; critics see a palatable gateway to far-right gender and racial hierarchies. His personal struggles with benzodiazepine dependency complicated his self-help authority.",
+    "decade": "2010s",
+    "tags": [
+      "psychology",
+      "masculinity",
+      "politics",
+      "self-help",
+      "culture-war",
+      "online"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "red_pill_community",
+    "label": "Red Pill / Manosphere",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Manosphere",
+    "summary": "Loosely connected online communities (Reddit r/TheRedPill, 4chan) that claim to expose \"uncomfortable truths\" about gender, sexual dynamics, and social hierarchy hidden by feminism and mainstream culture. Ranges from self-improvement advice (lifting, stoicism) to misogynistic theory of female nature and \"hypergamy.\" Gateway to more extreme movements including incels and far-right radicalisation. Named from The Matrix: the red pill as truth vs. comfortable blue-pill illusion.",
+    "decade": "2010s",
+    "tags": [
+      "masculinity",
+      "online",
+      "radicalization",
+      "misogyny",
+      "gender",
+      "community"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "mgtow",
+    "label": "MGTOW (Men Going Their Own Way)",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Men_Going_Their_Own_Way",
+    "summary": "Online movement advocating male withdrawal from romantic relationships with women, framed as escaping feminist oppression. Ranges from self-sufficiency philosophy (MGTOW \"monk mode\") to deep misogyny. Grew on YouTube and Reddit, partially overlaps with incel and red pill communities. Represents a response to perceived loss of traditional male social roles in changed economic and cultural conditions.",
+    "decade": "2010s",
+    "tags": [
+      "masculinity",
+      "online",
+      "misogyny",
+      "gender",
+      "community",
+      "mgtow"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "pua_community",
+    "label": "Pick-Up Artist (PUA) Community",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pickup_artist",
+    "summary": "Subculture of men who use scripted techniques to achieve sexual success. Systematised by Neil Strauss's The Game (2005) and community figures like Mystery. Conceptualises seduction as a manipulative skill set using negging, false scarcity, and social proof. Preceded the broader manosphere and contributed its framework of women as targets of competitive male strategy. Critics argue it normalises coercion; defenders frame it as honest self-improvement.",
+    "decade": "2000s",
+    "tags": [
+      "masculinity",
+      "gender",
+      "manipulation",
+      "community",
+      "online",
+      "misogyny"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "self_help_industry",
+    "label": "Self-Help Industry",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Self-help",
+    "summary": "A $11+ billion US industry of books, seminars, podcasts, and coaching promising personal transformation. Structural features: advice that is unfalsifiable (any failure is the reader's fault), perpetual consumption (each book promises what the last didn't deliver), and pathologising normal life struggles as individual deficiencies. The industry monetises precarity by reframing systemic problems (job insecurity, social isolation) as personal failures requiring personal solutions.",
+    "decade": "1980s",
+    "tags": [
+      "self-help",
+      "capitalism",
+      "psychology",
+      "culture",
+      "individualism"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "social_media_addiction",
+    "label": "Social Media Addiction & Design",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Social_media_use_and_mental_health",
+    "summary": "Social media platforms are deliberately engineered for compulsive use: variable ratio reinforcement (the same mechanism as slot machines) via unpredictable likes and notifications, infinite scroll eliminating natural stopping points, and social comparison metrics (follower counts, likes) that exploit status anxiety. Internal research at Facebook (leaked by Frances Haugen, 2021) showed awareness of harm to teen girls' body image. The business model requires attention maximisation regardless of psychological cost.",
+    "decade": "2010s",
+    "tags": [
+      "social-media",
+      "technology",
+      "addiction",
+      "mental-health",
+      "design",
+      "platforms"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "positive_psychology",
+    "label": "Positive Psychology Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/Positive_psychology",
+    "summary": "Academic movement (Martin Seligman, Mihaly Csikszentmihalyi, from ~2000) studying wellbeing, flourishing, and strengths rather than pathology. Influenced corporate wellness programmes, positive thinking culture, and \"happiness science.\" Critics argue it overclaims research findings, is deployed by corporations to manage workers rather than address working conditions, and its pop-psychology form blames depression on insufficient positivity.",
+    "decade": "2000s",
+    "tags": [
+      "psychology",
+      "self-help",
+      "wellbeing",
+      "culture",
+      "corporations"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "cult_dynamics",
+    "label": "Cult Dynamics & Thought Reform",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cult",
+    "summary": "Robert Lifton's criteria for thought reform environments: milieu control, mystical manipulation, demand for purity, confession, sacred science, loading the language, doctrine over person, dispensing of existence. These patterns appear in religious cults, MLM organisations, political movements, and certain corporate cultures. Steven Hassan's BITE model (Behaviour, Information, Thought, Emotional control) provides a framework for identifying coercive control in any organisation.",
+    "decade": "1960s",
+    "tags": [
+      "cults",
+      "coercion",
+      "psychology",
+      "control",
+      "identity",
+      "groups"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
+  },
+  {
+    "id": "trauma_bonding",
+    "label": "Trauma Bonding & Stockholm Syndrome",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trauma_bonding",
+    "summary": "The psychological attachment that forms between a victim and abuser, reinforced by cycles of abuse and intermittent reward. Patrick Carnes identified this in domestic abuse; \"Stockholm syndrome\" (1973 bank siege) named the phenomenon in hostage situations. The same mechanism operates in high-control groups, coercive romantic relationships, and certain institutional environments. Intermittent reinforcement is more powerful than consistent reward in creating compulsive attachment.",
+    "decade": "1970s",
+    "tags": [
+      "psychology",
+      "abuse",
+      "coercion",
+      "attachment",
+      "relationships"
+    ],
+    "scope": "global/psychology",
+    "cross_scope": false
   }
 ]

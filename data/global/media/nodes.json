@@ -135,5 +135,212 @@
     ],
     "scope": "global/media",
     "cross_scope": false
+  },
+  {
+    "id": "edward_bernays",
+    "label": "Edward Bernays",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Edward_Bernays",
+    "summary": "Nephew of Freud and founder of modern public relations. Pioneered the use of psychological techniques to manufacture public consent for corporate and government clients. His 1928 book Propaganda argued that invisible governance by an elite class through mass persuasion was both inevitable and desirable. His campaigns included promoting cigarettes to women (\"Torches of Freedom\") and helping United Fruit Company orchestrate the CIA coup in Guatemala (1954).",
+    "decade": "1920s",
+    "tags": [
+      "propaganda",
+      "public-relations",
+      "media",
+      "manipulation",
+      "psychology"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "walter_lippmann",
+    "label": "Walter Lippmann",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Walter_Lippmann",
+    "summary": "Influential American journalist and intellectual who coined \"stereotype\" and argued in Public Opinion (1922) that democracy required a \"specialised class\" to interpret complex reality for the masses. His ideas legitimised elite management of public information and directly influenced Bernays. A key theorist of the gap between \"the world outside and the pictures in our heads.\"",
+    "decade": "1920s",
+    "tags": [
+      "media",
+      "journalism",
+      "democracy",
+      "elite",
+      "propaganda",
+      "lippmann"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "yellow_journalism",
+    "label": "Yellow Journalism",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yellow_journalism",
+    "summary": "Sensationalist journalism pioneered by Hearst and Pulitzer newspapers in the 1890s that prioritised circulation-driving scandal, patriotism, and emotionalism over factual reporting. Widely blamed for inflaming public opinion toward the Spanish-American War (1898). Established the template of profit-driven outrage journalism that recurs in tabloid, cable, and social media eras.",
+    "decade": "1890s",
+    "tags": [
+      "journalism",
+      "sensationalism",
+      "media",
+      "war",
+      "propaganda"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "printing_press",
+    "label": "Gutenberg Printing Press",
+    "node_type": "reference",
+    "category": "product",
+    "wikipedia": "https://en.wikipedia.org/wiki/Printing_press",
+    "summary": "Johannes Gutenberg's movable-type press (~1440) democratised text production, collapsing the Church's monopoly on literacy and information. Enabled mass distribution of the Bible, Martin Luther's pamphlets (Reformation), Enlightenment philosophy, and eventually nationalist newspapers. Every subsequent information revolution—from the telegram to the internet—follows the same pattern: decentralised production disrupts existing gatekeepers, producing both liberation and disorder.",
+    "decade": "1440s",
+    "tags": [
+      "technology",
+      "media",
+      "religion",
+      "information",
+      "history",
+      "reformation"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "war_of_worlds_broadcast",
+    "label": "War of the Worlds Broadcast (1938)",
+    "node_type": "reference",
+    "category": "event",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_War_of_the_Worlds_(radio_drama)",
+    "summary": "Orson Welles's CBS Radio dramatisation (Oct 30, 1938) in news-bulletin format. Contemporary accounts of mass panic were heavily exaggerated by newspapers eager to discredit radio competition. Nonetheless, the episode became a founding myth of mass media power — the idea that realistic broadcast fiction could be mistaken for fact and cause social panic. Became evidence in media effects research and propaganda theory.",
+    "decade": "1930s",
+    "tags": [
+      "radio",
+      "media",
+      "panic",
+      "psychology",
+      "myth",
+      "propaganda"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "rupert_murdoch",
+    "label": "Rupert Murdoch",
+    "node_type": "reference",
+    "category": "person",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rupert_Murdoch",
+    "summary": "Media mogul who built News Corp into a global empire including Fox News, The Sun, and The Wall Street Journal. Pioneered the model of ideologically aligned news as a political force multiplier. UK phone-hacking scandal exposed routine journalistic criminality. Fox News under his direction fundamentally reshaped US conservative media consumption and Republican Party politics.",
+    "decade": "1970s",
+    "tags": [
+      "media",
+      "politics",
+      "conservative",
+      "fox-news",
+      "polarization"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "fox_news",
+    "label": "Fox News",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fox_News",
+    "summary": "US cable news channel launched 1996 by Murdoch with Roger Ailes as CEO. Positioned as a conservative alternative to perceived mainstream media bias. Became the dominant US news source for Republicans, shaping GOP primary politics, amplifying conspiratorial content, and — as revealed in Dominion Voting Systems litigation — internally questioning the claims its anchors publicly championed. Internal texts showed executives afraid that accurate reporting would lose audience.",
+    "decade": "1990s",
+    "tags": [
+      "media",
+      "conservative",
+      "politics",
+      "polarization",
+      "propaganda",
+      "usa"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "cambridge_analytica",
+    "label": "Cambridge Analytica",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cambridge_Analytica",
+    "summary": "Political data firm that harvested personal data from ~87 million Facebook profiles without consent via a third-party app loophole. Used psychographic profiling (OCEAN model) to micro-target political advertising. Employed in the 2016 Trump campaign and UK Brexit referendum campaign. Disbanded after whistleblower Christopher Wylie's exposé. Demonstrated how platform data architecture could be weaponised for political manipulation.",
+    "decade": "2010s",
+    "tags": [
+      "data",
+      "manipulation",
+      "politics",
+      "social-media",
+      "facebook",
+      "privacy",
+      "elections"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "qanon",
+    "label": "QAnon",
+    "node_type": "reference",
+    "category": "movement",
+    "wikipedia": "https://en.wikipedia.org/wiki/QAnon",
+    "summary": "Anonymous internet conspiracy theory (started 2017 on 4chan) claiming a secret Satanic paedophile cabal of Democratic politicians and celebrities was being fought by Donald Trump. Spread via algorithmic recommendation on YouTube and Facebook, integrated existing anti-Semitic \"blood libel\" tropes, and radicalised adherents into real-world violence. Illustrates how social media platforms can transform fringe anonymous content into a mass movement within years.",
+    "decade": "2010s",
+    "tags": [
+      "conspiracy",
+      "extremism",
+      "social-media",
+      "disinformation",
+      "radicalization",
+      "antisemitism",
+      "usa"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "deepfakes",
+    "label": "Deepfakes & Synthetic Media",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Deepfake",
+    "summary": "AI-generated synthetic audio-visual media that realistically depicts real people saying or doing things they never did. Non-consensual sexual deepfakes (~96% of deepfake content as of 2019) disproportionately target women. Political deepfakes threaten to make video evidence epistemically worthless. The societal danger may be less from fake footage being believed than from real footage being disbelieved (\"liar's dividend\").",
+    "decade": "2010s",
+    "tags": [
+      "ai",
+      "technology",
+      "disinformation",
+      "manipulation",
+      "trust",
+      "media"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
+  },
+  {
+    "id": "rt_russia_today",
+    "label": "RT (Russia Today)",
+    "node_type": "reference",
+    "category": "institution",
+    "wikipedia": "https://en.wikipedia.org/wiki/RT_(TV_network)",
+    "summary": "Russian state-funded international television network launched 2005. Denied being state propaganda while consistently amplifying Kremlin-aligned narratives: anti-NATO, anti-EU, pro-Brexit, pro-far-right parties, and anti-vaccine content. Used Western free-press infrastructure against itself — achieving YouTube and cable distribution before bans following the 2022 Ukraine invasion. Exemplifies \"firehose of falsehood\" doctrine: not persuade but confuse.",
+    "decade": "2000s",
+    "tags": [
+      "russia",
+      "propaganda",
+      "disinformation",
+      "state-media",
+      "information-warfare"
+    ],
+    "scope": "global/media",
+    "cross_scope": false
   }
 ]

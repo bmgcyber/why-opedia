@@ -2648,5 +2648,165 @@
     "label": "Culture war conflicts deepened partisan identity and affective polarization",
     "note": "Culture war issues (abortion, guns, LGBTQ, immigration) generate strong emotional identity responses that increase affective polarization — the sense that political opponents are not merely wrong but evil or dangerous. This emotional dimension of cultural conflict drives polarization beyond what policy disagreements alone produce.",
     "confidence": "high"
+  },
+  {
+    "id": "cognitive_dissonance__identity_capture",
+    "source": "cognitive_dissonance",
+    "target": "identity_capture",
+    "type": "ENABLED",
+    "label": "dissonance resolution reinforces captured identity",
+    "confidence": "high"
+  },
+  {
+    "id": "cognitive_dissonance__broken_epistemology",
+    "source": "cognitive_dissonance",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "rationalising contradictions degrades epistemic standards",
+    "confidence": "high"
+  },
+  {
+    "id": "groupthink__broken_epistemology",
+    "source": "groupthink",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "suppressed dissent produces poor collective epistemics",
+    "confidence": "high"
+  },
+  {
+    "id": "confirmation_bias__filter_bubble",
+    "source": "confirmation_bias",
+    "target": "filter_bubble",
+    "type": "SELF_REINFORCES",
+    "label": "bias amplified by algorithmic curation of matching content",
+    "confidence": "high"
+  },
+  {
+    "id": "overton_window__conspiracy_theory_grifters",
+    "source": "overton_window",
+    "target": "conspiracy_theory_grifters",
+    "type": "ENABLED",
+    "label": "window shift gives fringe figures mainstream adjacency",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_panic__scapegoating",
+    "source": "moral_panic",
+    "target": "scapegoating",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both focus collective anxiety onto a designated threat group",
+    "confidence": "high"
+  },
+  {
+    "id": "cultural_hegemony__identity_capture",
+    "source": "cultural_hegemony",
+    "target": "identity_capture",
+    "type": "ENABLED",
+    "label": "hegemonic culture shapes the identities available to individuals",
+    "confidence": "high"
+  },
+  {
+    "id": "dunning_kruger_effect__broken_epistemology",
+    "source": "dunning_kruger_effect",
+    "target": "broken_epistemology",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both involve miscalibrated assessments of knowledge quality",
+    "confidence": "medium"
+  },
+  {
+    "id": "availability_heuristic__moral_panic",
+    "source": "availability_heuristic",
+    "target": "moral_panic",
+    "type": "ENABLED",
+    "label": "vivid media coverage makes threat feel imminent and widespread",
+    "confidence": "high"
+  },
+  {
+    "id": "confirmation_bias__anti_vaccination_movement",
+    "source": "confirmation_bias",
+    "target": "anti_vaccination_movement",
+    "type": "ENABLED",
+    "label": "bias filters out vaccine safety evidence",
+    "confidence": "high"
+  },
+  {
+    "id": "confirmation_bias__qanon",
+    "source": "confirmation_bias",
+    "target": "qanon",
+    "type": "ENABLED",
+    "label": "adherents filter reality to fit the Q narrative",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_panic__broken_epistemology",
+    "source": "moral_panic",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "satanic ritual abuse panic shows how institutional processes amplify false beliefs",
+    "confidence": "high"
+  },
+  {
+    "id": "overton_window__maga_movement",
+    "source": "overton_window",
+    "target": "trump_maga",
+    "type": "ENABLED",
+    "label": "years of right-wing window-shifting made Trump viable",
+    "confidence": "high"
+  },
+  {
+    "id": "cultural_hegemony__fox_news",
+    "source": "cultural_hegemony",
+    "target": "fox_news",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Fox constructs and maintains a conservative hegemonic narrative",
+    "confidence": "medium"
+  },
+  {
+    "id": "filter_bubble__incel_community",
+    "source": "filter_bubble",
+    "target": "incel_community",
+    "type": "ENABLED",
+    "label": "algorithms radicalize isolated men via recommended incel content",
+    "confidence": "high"
+  },
+  {
+    "id": "scapegoating__antisemitism",
+    "source": "scapegoating",
+    "target": "protocols_of_elders_of_zion",
+    "type": "ENABLED",
+    "label": "antisemitic conspiracy texts provide a target for scapegoating",
+    "confidence": "high"
+  },
+  {
+    "id": "scapegoating__incel_community",
+    "source": "scapegoating",
+    "target": "incel_community",
+    "type": "ENABLED",
+    "label": "incels scapegoat women for their social alienation",
+    "confidence": "high"
+  },
+  {
+    "id": "groupthink__stanford_prison_experiment",
+    "source": "groupthink",
+    "target": "stanford_prison_experiment",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both show how group roles override individual moral judgment",
+    "confidence": "high"
+  },
+  {
+    "id": "cognitive_dissonance__red_pill_community",
+    "source": "cognitive_dissonance",
+    "target": "red_pill_community",
+    "type": "SELF_REINFORCES",
+    "label": "the more invested a man is, the harder to reject the framework",
+    "confidence": "high"
+  },
+  {
+    "id": "cognitive_dissonance__pua_community",
+    "source": "cognitive_dissonance",
+    "target": "pua_community",
+    "type": "ENABLED",
+    "label": "practitioners rationalise manipulation as honest self-improvement",
+    "confidence": "medium"
   }
 ]

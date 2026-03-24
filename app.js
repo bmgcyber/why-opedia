@@ -94,9 +94,10 @@ async function loadScopeIntoGraph(nodes, edges) {
   // Rebuild filters (edge map + sidebar UI)
   FM.buildFilters(nodes, edges);
 
-  // Update stats and scope section
+  // Update stats, scope section, and URL hash
   updateStats(nodes.length, edges.length);
   updateScopeSection(nodes);
+  updateURLState();
 }
 
 // ── Scope section sidebar ─────────────────────────────────────────────────────

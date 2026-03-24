@@ -1589,5 +1589,169 @@
     ],
     "scope": "global/mechanisms",
     "cross_scope": true
+  },
+  {
+    "id": "cognitive_dissonance",
+    "label": "Cognitive Dissonance",
+    "node_type": "reference",
+    "category": "mechanism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cognitive_dissonance",
+    "summary": "The mental discomfort of holding contradictory beliefs simultaneously. Rather than updating beliefs, people typically rationalise, minimise, or ignore the contradiction. Exploited by cults, propaganda, and political movements to lock in loyalty despite contradictory evidence.",
+    "decade": "1950s",
+    "tags": [
+      "psychology",
+      "belief",
+      "rationalisation",
+      "propaganda",
+      "identity"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "groupthink",
+    "label": "Groupthink",
+    "node_type": "reference",
+    "category": "mechanism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Groupthink",
+    "summary": "The tendency of cohesive groups to prioritise consensus and harmony over critical evaluation. Dissenting information is suppressed, alternatives are not examined, and the group becomes overconfident in its decisions. Identified by Irving Janis through analysis of US foreign policy disasters.",
+    "decade": "1970s",
+    "tags": [
+      "psychology",
+      "decision-making",
+      "conformity",
+      "institutions",
+      "failure"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "dunning_kruger_effect",
+    "label": "Dunning-Kruger Effect",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect",
+    "summary": "People with limited knowledge in a domain overestimate their competence, while genuine experts underestimate theirs relative to others. Named for Kruger & Dunning's 1999 study. Frequently invoked in political and online discourse, often misapplied as simple mockery of perceived ignorance.",
+    "decade": "1990s",
+    "tags": [
+      "psychology",
+      "metacognition",
+      "expertise",
+      "politics",
+      "online"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "moral_panic",
+    "label": "Moral Panic",
+    "node_type": "reference",
+    "category": "mechanism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moral_panic",
+    "summary": "Sociologist Stanley Cohen's concept: a disproportionate, media-amplified public reaction to a perceived threat to social values, typically targeting a \"folk devil\" group. The panic creates new laws, enforcement, and institutions that outlast the original threat. Examples span drug scares, video games, Satanic ritual panic, and online predators.",
+    "decade": "1970s",
+    "tags": [
+      "sociology",
+      "media",
+      "law",
+      "scapegoating",
+      "institutions"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "cultural_hegemony",
+    "label": "Cultural Hegemony",
+    "node_type": "ideology",
+    "category": "ideology",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cultural_hegemony",
+    "summary": "Antonio Gramsci's theory: dominant classes maintain power not just through coercion but through cultural consent — normalising their worldview via media, education, religion, and popular culture so that subordinate groups internalise the ruling ideology as common sense.",
+    "decade": "1930s",
+    "tags": [
+      "marxism",
+      "power",
+      "culture",
+      "media",
+      "ideology",
+      "gramsci"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "confirmation_bias",
+    "label": "Confirmation Bias",
+    "node_type": "reference",
+    "category": "mechanism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Confirmation_bias",
+    "summary": "The tendency to search for, interpret, favour, and recall information that confirms or supports one's prior beliefs. Actively filters out disconfirming evidence. Amplified by algorithmic filter bubbles which optimise for engagement by showing users content that matches their existing views.",
+    "decade": "1960s",
+    "tags": [
+      "psychology",
+      "cognition",
+      "media",
+      "politics",
+      "algorithms"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "availability_heuristic",
+    "label": "Availability Heuristic",
+    "node_type": "reference",
+    "category": "mechanism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Availability_heuristic",
+    "summary": "Tversky and Kahneman's finding that people estimate the likelihood of events by how easily examples come to mind. Vivid, recent, or emotionally salient events are judged as more probable. Exploited by media (if it bleeds it leads) and politicians emphasising dramatic anecdotes over base rates.",
+    "decade": "1970s",
+    "tags": [
+      "psychology",
+      "cognition",
+      "media",
+      "risk-perception",
+      "kahneman"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "overton_window",
+    "label": "Overton Window",
+    "node_type": "reference",
+    "category": "mechanism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Overton_window",
+    "summary": "The range of policies considered acceptable by the mainstream public at a given time. Developed by Joseph Overton at the Mackinac Center. Radical positions at the fringe gradually shift the window by making previously extreme positions seem moderate. Deliberately deployed by think tanks, political operatives, and media figures.",
+    "decade": "1990s",
+    "tags": [
+      "politics",
+      "media",
+      "policy",
+      "radicalization",
+      "think-tanks"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "scapegoating",
+    "label": "Scapegoating",
+    "node_type": "reference",
+    "category": "mechanism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scapegoating",
+    "summary": "Projecting blame for systemic problems onto a specific group or individual, redirecting anger away from root causes. Named from the Levitical goat ritually loaded with community sins and expelled. Functions as social pressure release and in-group cohesion builder. Recurs in economic crises, military defeats, and social anxieties — targeting minority religious, ethnic, or demographic groups.",
+    "decade": "ancient",
+    "tags": [
+      "psychology",
+      "sociology",
+      "prejudice",
+      "politics",
+      "blame",
+      "out-group"
+    ],
+    "scope": "global/mechanisms",
+    "cross_scope": true
   }
 ]
