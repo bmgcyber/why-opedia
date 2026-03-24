@@ -1,0 +1,244 @@
+#!/usr/bin/env node
+// add_batch3_nodes.js — British Empire, East India Company, Magna Carta, Winston Churchill,
+// Keynesianism, Welfare State
+const fs = require('fs');
+const path = require('path');
+const D = p => path.join(__dirname, '..', p);
+
+const mechNodes = JSON.parse(fs.readFileSync(D('data/mechanisms/nodes.json')));
+const mechEdges = JSON.parse(fs.readFileSync(D('data/mechanisms/edges.json')));
+const histNodes = JSON.parse(fs.readFileSync(D('data/global/history/nodes.json')));
+const histEdges = JSON.parse(fs.readFileSync(D('data/global/history/edges.json')));
+const politEdges = JSON.parse(fs.readFileSync(D('data/global/politics/edges.json')));
+
+const mechNodeIds = new Set(mechNodes.map(n=>n.id));
+const mechEdgeIds = new Set(mechEdges.map(e=>e.id));
+const histIds = new Set(histNodes.map(n=>n.id));
+const histEdgeIds = new Set(histEdges.map(e=>e.id));
+const politEdgeIds = new Set(politEdges.map(e=>e.id));
+
+// ── New history nodes ─────────────────────────────────────────────────────
+const newHistNodes = [
+  { id: 'british_empire',
+    label: 'British Empire',
+    node_type: 'reference', category: 'era', decade: '1600s',
+    scope: 'global/history', cross_scope: false,
+    wikipedia: 'https://en.wikipedia.org/wiki/British_Empire',
+    summary: 'The British Empire (c. 1600–1997) was the largest empire in history, covering a quarter of Earth\'s land surface and ruling a quarter of its population at its 1920 peak. Built through trade, conquest, and colonization across five continents, it produced the Atlantic slave trade, the Indian plantation system, Canadian genocide of First Nations, the opium trade in China, and the Scramble for Africa. Its economic model — extraction of colonial resources for metropolitan benefit — created the structures of global inequality that persist today. Its language, legal systems, and institutions remain in place across dozens of former colonies.',
+    tags: ['colonialism','empire','slavery','india','africa','opium','extraction','commonwealth'] },
+
+  { id: 'east_india_company',
+    label: 'East India Company',
+    node_type: 'reference', category: 'event', decade: '1600s',
+    scope: 'global/history', cross_scope: false,
+    wikipedia: 'https://en.wikipedia.org/wiki/East_India_Company',
+    summary: 'The British East India Company (1600–1874) was history\'s first modern corporation and the prototype of corporate colonial power: a joint-stock company with its own army, legal system, and territory, holding monopoly trading rights enforced through violence. It conquered India over 200 years — using divide-and-rule tactics between Indian princes — before the 1857 Sepoy Mutiny prompted the British Crown to assume direct control. The EIC\'s "deindustrialization" of India — destroying its textile industry to favor British manufactures — is the prototype of economic imperialism through free trade. It extracted an estimated $45 trillion from India during its operations.',
+    tags: ['india','corporation','colonialism','opium','monopoly','sepoy','extraction','imperialism'] },
+
+  { id: 'magna_carta',
+    label: 'Magna Carta',
+    node_type: 'reference', category: 'event', decade: '1210s',
+    scope: 'global/history', cross_scope: false,
+    wikipedia: 'https://en.wikipedia.org/wiki/Magna_Carta',
+    summary: 'Magna Carta (1215) was the first formal limitation on English royal power — establishing that even the king was subject to law. Originally a feudal document forced from King John by rebellious barons, its provisions evolved into foundational constitutional principles: habeas corpus, due process, rule of law, and the right to trial by peers. Reinterpreted by 17th century common lawyers (Edward Coke) as the foundation of English liberties, it became the philosophical basis for the English Civil War, the Glorious Revolution, American colonial grievances, and ultimately the US Bill of Rights. Magna Carta is the longest chain in the constitutional tradition from medieval England to modern democracy.',
+    tags: ['constitution','rights','rule-of-law','habeas-corpus','england','feudal','liberty','due-process'] },
+
+  { id: 'english_civil_war',
+    label: 'English Civil War',
+    node_type: 'reference', category: 'event', decade: '1640s',
+    scope: 'global/history', cross_scope: false,
+    wikipedia: 'https://en.wikipedia.org/wiki/English_Civil_War',
+    summary: 'The English Civil War (1642–1651) was the defining constitutional crisis of the English-speaking world: Parliament vs. Crown, Puritans vs. Anglicans, sovereignty debates that established parliamentary supremacy. Charles I\'s execution (1649) established the principle that no ruler was above law; Cromwell\'s Protectorate demonstrated the instability of radical republican rule; the Restoration (1660) and Glorious Revolution (1688) produced the constitutional monarchy settlement that shaped British and American political theory. The debate between Thomas Hobbes (royal absolutism) and John Locke (social contract) was generated by this conflict. The Civil War is where modern constitutional democracy\'s philosophical foundations were worked out.',
+    tags: ['parliament','constitution','cromwell','charles-i','sovereignty','puritans','locke','hobbes'] },
+
+  { id: 'winston_churchill',
+    label: 'Winston Churchill',
+    node_type: 'reference', category: 'person', decade: '1940s',
+    scope: 'global/history', cross_scope: false,
+    wikipedia: 'https://en.wikipedia.org/wiki/Winston_Churchill',
+    summary: 'Winston Churchill (1874–1965) led Britain through WWII\'s darkest period, refusing Hitler\'s peace overtures after Dunkirk and sustaining Allied resistance until American entry made German defeat inevitable. His "Iron Curtain" speech (1946) named the Cold War before it was called that. Churchill also presided over British imperial atrocities — the Bengal famine (3 million deaths, 1943, partly from diversion of supplies), the Mau Mau suppression, and championing the empire when its dissolution was clearly coming. He represents the complexity of historical heroism: the man who saved liberal democracy from fascism while defending British racial imperialism that contradicted those same values.',
+    tags: ['wwii','cold-war','iron-curtain','empire','battle-of-britain','india','bengal-famine','rhetoric'] },
+];
+
+// ── New mechanism nodes ───────────────────────────────────────────────────
+const newMechNodes = [
+  { id: 'keynesianism',
+    label: 'Keynesianism',
+    node_type: 'reference', category: 'ideology',
+    scope: 'global/mechanisms', cross_scope: true,
+    wikipedia: 'https://en.wikipedia.org/wiki/Keynesian_economics',
+    summary: 'Keynesianism (John Maynard Keynes, General Theory 1936) is the economic theory that government fiscal policy — deficit spending during recessions, taxing during booms — can stabilize the business cycle and prevent depressions. It challenged the classical economic view that markets self-correct; Keynes argued that aggregate demand shortfalls can produce sustained unemployment that markets cannot correct without government intervention. Keynesianism justified the New Deal, postwar welfare states, and the "golden age of capitalism" (1945-1973). It was displaced by monetarism (Friedman) and neoliberalism (Hayek) from the 1970s onward, but returned after the 2008 financial crisis demonstrated that austerity could not recover economies from deep recessions.',
+    tags: ['economics','fiscal-policy','depression','government-spending','stagflation','neoliberalism','welfare-state'] },
+
+  { id: 'welfare_state',
+    label: 'Welfare State',
+    node_type: 'reference', category: 'ideology',
+    scope: 'global/mechanisms', cross_scope: true,
+    wikipedia: 'https://en.wikipedia.org/wiki/Welfare_state',
+    summary: 'The welfare state is a model of government providing universal social insurance against major life risks: unemployment, sickness, old age, and poverty. Developed primarily in post-WWII Western Europe and the United States (New Deal, Great Society), it represents the political accommodation between capitalism and democracy: providing security within a market economy to prevent the political radicalization that economic insecurity produces. The welfare state\'s legitimacy rests on social contract theory — government protects citizens from economic catastrophe in exchange for democratic participation. It is under sustained attack from neoliberalism on fiscal grounds, and from political right on "dependency" grounds, while remaining broadly popular where established.',
+    tags: ['social-insurance','medicaid','social-security','keynes','neoliberalism','poverty','dependency','democracy'] },
+];
+
+// ── History edges ─────────────────────────────────────────────────────────
+const newHistEdges = [
+  // british_empire
+  { id: 'british_empire__atlantic_slave_trade',
+    source: 'british_empire', target: 'atlantic_slave_trade', type: 'PRODUCED',
+    label: 'Britain dominated the transatlantic slave trade for a century before abolition, transporting 3+ million Africans',
+    note: 'The British Empire was the dominant slave-trading power from 1640-1807: the Royal African Company held monopoly (1672-1698), then private British traders dominated; Britain transported over 3.1 million enslaved Africans to the Americas. The wealth from the slave trade financed banking institutions (Lloyds began as slave-trade insurance), plantation fortunes (the Caribbean absentee plantation owner class), and British industrialization. The 1833 Slavery Abolition Act abolished slavery in British colonies — but the £20 million compensation paid to slaveholders (not enslaved people) was only paid off by British taxpayers in 2015.',
+    confidence: 'high' },
+  { id: 'british_empire__industrial_revolution',
+    source: 'british_empire', target: 'industrial_revolution', type: 'ENABLED',
+    label: 'British colonial markets and raw materials were essential preconditions for Britain\'s Industrial Revolution leadership',
+    note: 'The British Empire\'s economic relationship with industrialization was symbiotic: colonial India and Egypt provided cheap cotton for Lancashire mills; colonies provided captive markets for manufactured output; Caribbean sugar wealth funded banking capital; enslaved labor in American colonies produced tobacco, cotton, and sugar that funded the merchant class whose profits were reinvested in industrial enterprises. Eric Williams\' argument that slavery financed industrialization remains debated, but the consensus is that imperial economic advantages significantly accelerated British industrialization relative to competitors without comparable colonial resources.',
+    confidence: 'high' },
+  { id: 'british_empire__partition_of_india',
+    source: 'british_empire', target: 'partition_of_india', type: 'PRODUCED',
+    label: 'Partition\'s catastrophic 1947 violence was a direct consequence of 200 years of British divide-and-rule policy in India',
+    note: 'India\'s Partition (1947, 14-18 million displaced, 200,000-2 million killed) was the British Empire\'s exit wound: British colonial policy systematically exploited Hindu-Muslim religious differences (separate electorates, 1909; communal representation) and accelerated through Partition\'s rushed timeline (Mountbatten\'s decision to advance it from June 1948 to August 1947). The Radcliffe Line dividing India and Pakistan was drawn in 36 days by a lawyer who had never visited India. The catastrophic violence was the predictable consequence of drawing religious borders through mixed communities with inadequate preparation — what happens when an empire exits on its own schedule.',
+    confidence: 'high' },
+  { id: 'british_empire__decolonization_movement',
+    source: 'british_empire', target: 'decolonization_movement', type: 'PRODUCED',
+    label: 'The British Empire\'s exhaustion from WWII made it unable to resist Indian and African independence movements it had previously suppressed',
+    note: 'The British Empire\'s decolonization was a product of WWII exhaustion and strategic calculation: Britain emerged from WWII financially dependent on the United States (Lend-Lease debt), militarily overstretched (defending 40+ territories), and facing organized independence movements it had suppressed for decades. India\'s independence (1947) began the cascade; the humiliation of the 1956 Suez Crisis (US forcing Britain to back down) demonstrated Britain could no longer maintain imperial commitments without American support. Harold Macmillan\'s "Wind of Change" speech (1960) acknowledged what was already happening. Decolonization was the British Empire\'s bankruptcy proceeding.',
+    confidence: 'high' },
+  { id: 'age_of_exploration__british_empire',
+    source: 'age_of_exploration', target: 'british_empire', type: 'PRODUCED',
+    label: 'British overseas expansion grew from the Age of Exploration\'s competitive European maritime race into the world\'s largest empire',
+    note: 'The British Empire grew from the competitive dynamics of the Age of Exploration: initially behind Portugal and Spain, Britain established colonies in North America (1607, Jamestown) and the Caribbean (1620s-1630s), building on maritime technology and trade organization the Age of Exploration had developed. The defeat of the Spanish Armada (1588) opened Atlantic dominance; the Navigation Acts (1651) built commercial maritime strength; the East India Company (1600) extended commercial empire. Britain became the dominant colonial power through the 18th century by outlasting rivals (France in Seven Years War), building naval supremacy, and industrializing first.',
+    confidence: 'high' },
+
+  // east_india_company
+  { id: 'east_india_company__british_empire',
+    source: 'east_india_company', target: 'british_empire', type: 'ENABLED',
+    label: 'The East India Company conquered India for Britain — its military operations became the foundation of British South Asian dominance',
+    note: 'The East India Company\'s conquest of India (1757-1858) was the British Empire\'s most profitable achievement: the Battle of Plassey (1757) gave the Company control of Bengal (India\'s wealthiest province); subsequent military campaigns extended control across the subcontinent using Indian sepoy armies paid from Indian revenues. The Company governed 200 million people through a private corporate structure until the 1857 Sepoy Mutiny prompted Crown takeover. The Company transferred $45T (in today\'s values, per economist Utsa Patnaik) from India to Britain over 200 years — the foundation of British industrialization and financial dominance.',
+    confidence: 'high' },
+  { id: 'east_india_company__partition_of_india',
+    source: 'east_india_company', target: 'partition_of_india', type: 'ENABLED',
+    label: 'The EIC\'s divide-and-rule tactics between Hindu and Muslim populations created the communal framework that Partition exploited',
+    note: 'The East India Company pioneered the "divide and rule" administrative strategy that created India\'s communal politics: exploiting Hindu-Muslim rivalries to prevent unified Indian resistance; creating separate administrative categories based on religion; privileging certain communities in army recruitment based on "martial race" theory. These policies were institutionalized in the British Raj\'s separate communal electorates (1909). The EIC\'s century of communal manipulation created the political organizations — Muslim League, Hindu Mahasabha — that demanded and produced Partition. The line between Company rule and the 1947 catastrophe is direct.',
+    confidence: 'high' },
+
+  // magna_carta
+  { id: 'magna_carta__american_revolution',
+    source: 'magna_carta', target: 'american_revolution', type: 'ENABLED',
+    label: 'American colonists invoked Magna Carta against British parliament as the foundation of their constitutional rights claims',
+    note: 'Magna Carta was the American colonists\' primary constitutional authority: colonial lawyers trained in English common law used Magna Carta to argue that British parliamentary acts (Stamp Act, Townshend Acts) violated Englishmen\'s constitutional rights. John Adams, James Otis, and Patrick Henry all invoked Magna Carta in colonial rights arguments. The Declaration of Independence\'s natural rights framework drew on the tradition Magna Carta established — that rulers are subject to fundamental law and cannot arbitrarily violate the rights of the governed. American constitutional law is Magna Carta\'s primary 20th-century legacy.',
+    confidence: 'high' },
+  { id: 'magna_carta__roman_republic',
+    source: 'magna_carta', target: 'roman_republic', type: 'SHARES_MECHANISM_WITH',
+    label: 'Both Magna Carta and the Roman Republic represent moments when political elites forced constitutional limits on unilateral executive power',
+    note: 'Magna Carta (1215, English barons limiting royal power) and the Roman Republic\'s institutions (Senate, tribunes, consulship as check on tyranny) share the structural mechanism: elites using collective action to force constitutional constraints on unilateral executive authority. Both were products of elite self-interest (barons and senators protecting property and power) that evolved into constitutional principle (due process and rule of law). Both were cited in subsequent centuries as foundations for constitutional government. The Roman Republic\'s Twelve Tables and Magna Carta are the two foundational texts of the Western constitutional tradition.',
+    confidence: 'high' },
+  { id: 'english_civil_war__magna_carta',
+    source: 'english_civil_war', target: 'magna_carta', type: 'ENABLED',
+    label: 'Parliamentary forces invoked Magna Carta as their constitutional authority against Charles I\'s royal absolutism claims',
+    note: 'Magna Carta was the English Civil War\'s constitutional weapon: Sir Edward Coke\'s interpretation of Magna Carta (Institutes of the Laws of England, 1628-1644) made it the foundation of common law rights against royal prerogative. Parliamentary lawyers used Coke\'s Magna Carta to argue that Charles I\'s forced loans, imprisonment without trial, and quartering of soldiers violated fundamental English law. The Petition of Right (1628) — which Charles signed — was explicitly grounded in Magna Carta provisions. The Civil War\'s constitutional debate was conducted using Magna Carta as the primary authority for both Parliament\'s rights claims and limitations on royal power.',
+    confidence: 'high' },
+  { id: 'english_civil_war__french_revolution',
+    source: 'english_civil_war', target: 'french_revolution', type: 'SHARES_MECHANISM_WITH',
+    label: 'Both represent mid-period democratic revolutions that executed monarchs, produced radical republics, then restored modified monarchies',
+    note: 'The English Civil War (1642-51) and the French Revolution (1789-99) share a structural pattern: constitutional crisis → regicide (Charles I 1649; Louis XVI 1793) → radical republic (Commonwealth 1649-60; Jacobin Republic 1792-94) → Thermidorian reaction → restored modified monarchy (Charles II 1660; Napoleon 1804; Louis XVIII 1814). Both generated foundational political philosophy: Hobbes and Locke from the English Civil War; Rousseau, Voltaire, Montesquieu preceding and the Romantics following the French Revolution. The English case was studied by French revolutionaries — and the English Restoration was cited by French conservatives after Thermidor as the template for counter-revolutionary stabilization.',
+    confidence: 'high' },
+
+  // winston_churchill
+  { id: 'winston_churchill__world_war_ii',
+    source: 'winston_churchill', target: 'world_war_ii', type: 'ENABLED',
+    label: 'Churchill\'s refusal to negotiate with Hitler after Dunkirk — overriding Halifax\'s peace party — made Allied victory possible',
+    note: 'Churchill\'s most consequential decision was refusing Hitler\'s peace terms after Dunkirk (May-June 1940): Lord Halifax and his peace faction argued that seeking terms from Hitler was the realistic option; Churchill\'s argument — that Hitler\'s terms would make Britain a satellite state that could not be rescued — prevailed in the War Cabinet. This decision sustained the resistance that made American entry strategically viable. Churchill also provided the rhetorical framework ("finest hour," "we shall fight on the beaches") that transformed British public opinion from defeat anticipation to resolute resistance. His rhetoric was not incidental — it changed what was politically possible in the darkest period.',
+    confidence: 'high' },
+  { id: 'world_war_ii__winston_churchill',
+    source: 'world_war_ii', target: 'winston_churchill', type: 'PRODUCED',
+    label: 'WWII made Churchill — ending his political wilderness years and placing his rhetoric and bulldog persona in service of a cause matching them',
+    note: 'Churchill\'s WWII greatness was contingent on WWII: he had been in the political wilderness since 1931 (his career considered finished) and was known primarily as a controversial imperialist who had misjudged the Dardanelles. WWII was the only situation where Churchill\'s gifts — rhetorical grandeur, strategic instinct, personal stubbornness, anti-appeasement conviction — were exactly what was needed. In any other political context, Churchill\'s personality traits and judgment failures (Gallipoli, Gold Standard, India) would have continued to marginalize him. WWII produced Churchill by requiring precisely what he was.',
+    confidence: 'high' },
+  { id: 'winston_churchill__cold_war',
+    source: 'winston_churchill', target: 'cold_war', type: 'ENABLED',
+    label: 'Churchill\'s Iron Curtain speech (1946) gave the Cold War its defining metaphor and called Western resistance to Soviet expansion before the US had fully committed',
+    note: 'Churchill\'s Fulton, Missouri "Iron Curtain" speech (March 5, 1946) preceded US Cold War commitment: Truman Doctrine (1947), Marshall Plan (1948), and NATO (1949) all came after Churchill named the Soviet threat. "From Stettin in the Baltic to Trieste in the Adriatic, an iron curtain has descended across the Continent" was both accurate description and agenda-setting rhetoric — defining the Soviet-Western conflict as a civilizational struggle for Churchill\'s American audience. The speech is credited with accelerating US acceptance of its Cold War role. Churchill\'s rhetorical genius again shaped political reality: naming the Cold War helped constitute it as the organizing principle of postwar politics.',
+    confidence: 'high' },
+  { id: 'british_empire__winston_churchill',
+    source: 'british_empire', target: 'winston_churchill', type: 'ENABLED',
+    label: 'Churchill\'s imperial values — believing in British civilizational superiority — produced the Bengal famine policy and resistance to Indian independence',
+    note: 'Churchill\'s relationship to the British Empire reveals the limits of his heroism: he was an unreconstructed imperialist who believed in white European civilizational superiority. His 1943 Bengal famine (3 million dead) was worsened by his diversion of food supplies away from India and rejection of relief requests; he viewed Indian lives as less important than British war resources. He opposed Indian independence vehemently; privately called Gandhi a "half-naked fakir." Churchill represents the paradox of WWII heroism: the man who saved liberal democracy from fascism did so while defending an empire built on racial hierarchy incompatible with those same values.',
+    confidence: 'high' },
+];
+
+// ── Mechanism edges ───────────────────────────────────────────────────────
+const newMechEdges = [
+  // keynesianism cross-scope
+  { id: 'keynesianism__new_deal',
+    source: 'keynesianism', target: 'new_deal', type: 'ENABLED',
+    label: 'Keynesian economic theory provided the intellectual justification for FDR\'s New Deal deficit spending programs',
+    note: 'Keynes\'s General Theory (1936) and the New Deal (1933-39) were not sequential — Roosevelt began deficit spending before Keynes published — but Keynesian theory retroactively explained what the New Deal was doing and became its intellectual defense. New Deal programs like the WPA (public employment) and farm price supports were Keynesian fiscal policy before Keynesianism was fully theorized. After 1936, Keynesian economists (Alvin Hansen, Paul Samuelson) provided the analytical framework that justified continued New Deal-style programs and eventually post-WWII macroeconomic policy. Keynes provided the New Deal\'s theoretical legitimacy.',
+    confidence: 'high' },
+  { id: 'great_depression__keynesianism',
+    source: 'great_depression', target: 'keynesianism', type: 'PRODUCED',
+    label: 'The Great Depression\'s failure of classical economics — that markets self-correct — created the intellectual space for Keynesian theory',
+    note: 'Keynes\'s General Theory (1936) was the Great Depression\'s intellectual product: classical economics predicted that the Depression should be self-correcting (wages would fall, stimulating employment; prices would fall, stimulating consumption), but unemployment remained at 25% for years without self-correction. The Depression\'s empirical refutation of classical economics was what made Keynes\' heterodox argument — that aggregate demand shortfalls required government correction — intellectually credible. Without the Depression\'s massive, sustained refutation of orthodox economics, Keynes would have remained a heterodox economist rather than the 20th century\'s most influential.',
+    confidence: 'high' },
+  { id: 'neoliberalism__keynesianism',
+    source: 'neoliberalism', target: 'keynesianism', type: 'DISCREDITED',
+    label: 'Stagflation (1970s) gave neoliberals the empirical opening to attack Keynesianism as causing inflation and undermining growth',
+    note: 'The 1970s stagflation (simultaneous high inflation and unemployment) was neoliberalism\'s founding political moment: Keynesian economics had predicted that inflation and unemployment traded off (the Phillips Curve) and that government spending could manage this trade-off. When both rose simultaneously, Milton Friedman\'s monetarism (control money supply, not fiscal policy) and Friedrich Hayek\'s structural critique (government intervention distorts price signals) provided alternative explanations. The Reagan-Thatcher revolution explicitly repudiated Keynesianism — cutting spending, raising interest rates, and deregulating — and the subsequent economic recovery (however unequal) was cited as vindication. Keynesianism\'s return after 2008 demonstrates that its discrediting was incomplete.',
+    confidence: 'high' },
+
+  // welfare_state cross-scope
+  { id: 'welfare_state__new_deal',
+    source: 'welfare_state', target: 'new_deal', type: 'ENABLED',
+    label: 'The New Deal was America\'s partial welfare state — establishing Social Security, unemployment insurance, and banking protection',
+    note: 'The New Deal established American welfare state institutions that remain foundational: Social Security (1935) — old-age pension and disability insurance; FDIC bank deposit insurance; unemployment insurance; and Medicare/Medicaid (LBJ\'s Great Society, 1965) completing the New Deal framework. The American welfare state is more limited than European versions (no universal healthcare, weaker labor protections) because the New Deal coalition required Southern Democratic support that excluded African Americans from many programs (Social Security excluded domestic and agricultural workers, 65% of employed Black people). The American welfare state is the New Deal\'s partial, racially-compromised achievement.',
+    confidence: 'high' },
+  { id: 'welfare_state__neoliberalism',
+    source: 'welfare_state', target: 'neoliberalism', type: 'ENABLED',
+    label: 'The welfare state\'s success in reducing poverty and inequality was the threat neoliberalism was organized to defeat',
+    note: 'Neoliberalism defined itself against the welfare state: Hayek\'s Road to Serfdom (1944) argued that economic planning led to totalitarianism; Friedman\'s Capitalism and Freedom (1962) argued government welfare programs created dependency and distorted markets; and Reagan\'s welfare queen rhetoric demonized the safety net. The welfare state\'s political durability — Social Security remains the third rail of American politics — forced neoliberals to focus on welfare state erosion (means-testing, privatization, block grants) rather than direct elimination. The welfare state\'s resilience is the story of neoliberalism\'s incomplete triumph.',
+    confidence: 'high' },
+  { id: 'collective_trauma__welfare_state',
+    source: 'collective_trauma', target: 'welfare_state', type: 'PRODUCED',
+    label: 'WWII\'s collective trauma produced a political consensus that government must prevent the catastrophic economic insecurity the Depression and war had created',
+    note: 'The postwar welfare state was constructed by a generation with direct experience of the Depression and WWII: policymakers who had seen 25% unemployment, mass suffering, and fascism\'s rise from economic desperation were committed to preventing recurrence. The Beveridge Report (1942) explicitly argued that the welfare state would prevent the conditions that enabled fascism and war. The postwar welfare states (NHS, Social Security expansion, German social market economy) were collective trauma responses — building institutions that would prevent a repetition of the 1930s catastrophe. This crisis memory weakened as generations without direct experience became the policy majority.',
+    confidence: 'high' },
+
+  // british_empire cross-scope mechanism edges
+  { id: 'cultural_hegemony__british_empire',
+    source: 'cultural_hegemony', target: 'british_empire', type: 'ENABLED',
+    label: 'British cultural hegemony — English language, common law, cricket — was the Empire\'s softest and most durable form of control',
+    note: 'The British Empire\'s cultural hegemony was its most enduring achievement: English became the global lingua franca; British common law became the legal foundation of dozens of independent nations; British parliamentary institutions were the model for post-colonial constitutions; and cultural products (literature, education systems, cricket) created elite classes in colonized countries who identified with British culture. This "soft power" of cultural hegemony (Gramsci\'s term is specifically applicable here) means that Britain\'s cultural influence persists decades after political independence — making former colonial elites voluntary transmitters of values originally imposed through violence.',
+    confidence: 'high' },
+  { id: 'imperialism__british_empire',
+    source: 'imperialism', target: 'british_empire', type: 'PRODUCED',
+    label: 'The British Empire was imperialism\'s largest expression — the most successful colonial-extraction system in history at its peak',
+    note: 'The British Empire was imperialism\'s highest development: larger than any previous empire, more systematically organized for resource extraction, and more durable than its competitors. British imperialism\'s innovations — joint-stock company colonialism (East India Company), free trade imperialism (forcing open markets while protecting domestic industry), scientific racism (legitimizing extraction through racial hierarchy theory), and indirect rule (using local elites to minimize administrative costs) — became the models for subsequent imperial practice. The British Empire was not uniquely cruel by historical standards, but its scale and systematic organization made it the defining example of imperialism\'s economic and human consequences.',
+    confidence: 'high' },
+];
+
+// ── Add all nodes and edges ───────────────────────────────────────────────
+let hn=0, mn=0, heAdded=0, meAdded=0;
+
+newHistNodes.forEach(n => { if (!histIds.has(n.id)) { histNodes.push(n); histIds.add(n.id); hn++; } });
+newMechNodes.forEach(n => { if (!mechNodeIds.has(n.id)) { mechNodes.push(n); mechNodeIds.add(n.id); mn++; } });
+newHistEdges.forEach(e => { if (!histEdgeIds.has(e.id)) { histEdges.push(e); histEdgeIds.add(e.id); heAdded++; } });
+newMechEdges.forEach(e => { if (!mechEdgeIds.has(e.id)) { mechEdges.push(e); mechEdgeIds.add(e.id); meAdded++; } });
+
+fs.writeFileSync(D('data/global/history/nodes.json'), JSON.stringify(histNodes, null, 2));
+fs.writeFileSync(D('data/global/history/edges.json'), JSON.stringify(histEdges, null, 2));
+fs.writeFileSync(D('data/mechanisms/nodes.json'), JSON.stringify(mechNodes, null, 2));
+fs.writeFileSync(D('data/mechanisms/edges.json'), JSON.stringify(mechEdges, null, 2));
+
+console.log('History nodes: +'+hn+' → '+histNodes.length);
+console.log('Mechanism nodes: +'+mn+' → '+mechNodes.length);
+console.log('History edges: +'+heAdded+' → '+histEdges.length);
+console.log('Mechanism edges: +'+meAdded+' → '+mechEdges.length);
+
+// Integrity
+const allIds = new Set();
+['mechanisms','global/media','global/health','global/psychology','global/politics','global/history'].forEach(s =>
+  JSON.parse(fs.readFileSync(D('data/'+s+'/nodes.json'))).forEach(n => allIds.add(n.id)));
+let orphans = 0;
+[...histEdges,...mechEdges].forEach(e => {
+  if (!allIds.has(e.source)) { console.log('ORPHAN src:', e.source); orphans++; }
+  if (!allIds.has(e.target)) { console.log('ORPHAN tgt:', e.target); orphans++; }
+});
+console.log('Total orphans:', orphans);

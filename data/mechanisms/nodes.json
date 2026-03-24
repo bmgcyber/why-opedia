@@ -1776,5 +1776,44 @@
       "postcolonialism",
       "dependency"
     ]
+  },
+  {
+    "id": "keynesianism",
+    "label": "Keynesianism",
+    "node_type": "reference",
+    "category": "ideology",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Keynesian_economics",
+    "summary": "Keynesianism (John Maynard Keynes, General Theory 1936) is the economic theory that government fiscal policy — deficit spending during recessions, taxing during booms — can stabilize the business cycle and prevent depressions. It challenged the classical economic view that markets self-correct; Keynes argued that aggregate demand shortfalls can produce sustained unemployment that markets cannot correct without government intervention. Keynesianism justified the New Deal, postwar welfare states, and the \"golden age of capitalism\" (1945-1973). It was displaced by monetarism (Friedman) and neoliberalism (Hayek) from the 1970s onward, but returned after the 2008 financial crisis demonstrated that austerity could not recover economies from deep recessions.",
+    "tags": [
+      "economics",
+      "fiscal-policy",
+      "depression",
+      "government-spending",
+      "stagflation",
+      "neoliberalism",
+      "welfare-state"
+    ]
+  },
+  {
+    "id": "welfare_state",
+    "label": "Welfare State",
+    "node_type": "reference",
+    "category": "ideology",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Welfare_state",
+    "summary": "The welfare state is a model of government providing universal social insurance against major life risks: unemployment, sickness, old age, and poverty. Developed primarily in post-WWII Western Europe and the United States (New Deal, Great Society), it represents the political accommodation between capitalism and democracy: providing security within a market economy to prevent the political radicalization that economic insecurity produces. The welfare state's legitimacy rests on social contract theory — government protects citizens from economic catastrophe in exchange for democratic participation. It is under sustained attack from neoliberalism on fiscal grounds, and from political right on \"dependency\" grounds, while remaining broadly popular where established.",
+    "tags": [
+      "social-insurance",
+      "medicaid",
+      "social-security",
+      "keynes",
+      "neoliberalism",
+      "poverty",
+      "dependency",
+      "democracy"
+    ]
   }
 ]

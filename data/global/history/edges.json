@@ -3805,5 +3805,131 @@
     "label": "The Age of Exploration and Renaissance were parallel expressions of 15th century European expansion — geographic and intellectual discovery simultaneously",
     "note": "The Age of Exploration and the Italian Renaissance were simultaneous expressions of the same European expansion impulse: geographic exploration displaced the world's known limits; humanist scholarship displaced the known intellectual limits. Portuguese maritime exploration (1420s-1500s) and Italian Renaissance humanism (1400s-1520s) shared institutional context — Medici and other merchant banking families funded both; the same patronage networks that funded Botticelli also funded cartographers. The Florentine Amerigo Vespucci's accounts (from which \"America\" derives) circulated in the same humanist scholarly networks that produced Renaissance philosophy. Geographic and intellectual exploration were not separate projects.",
     "confidence": "medium"
+  },
+  {
+    "id": "british_empire__atlantic_slave_trade",
+    "source": "british_empire",
+    "target": "atlantic_slave_trade",
+    "type": "PRODUCED",
+    "label": "Britain dominated the transatlantic slave trade for a century before abolition, transporting 3+ million Africans",
+    "note": "The British Empire was the dominant slave-trading power from 1640-1807: the Royal African Company held monopoly (1672-1698), then private British traders dominated; Britain transported over 3.1 million enslaved Africans to the Americas. The wealth from the slave trade financed banking institutions (Lloyds began as slave-trade insurance), plantation fortunes (the Caribbean absentee plantation owner class), and British industrialization. The 1833 Slavery Abolition Act abolished slavery in British colonies — but the £20 million compensation paid to slaveholders (not enslaved people) was only paid off by British taxpayers in 2015.",
+    "confidence": "high"
+  },
+  {
+    "id": "british_empire__industrial_revolution",
+    "source": "british_empire",
+    "target": "industrial_revolution",
+    "type": "ENABLED",
+    "label": "British colonial markets and raw materials were essential preconditions for Britain's Industrial Revolution leadership",
+    "note": "The British Empire's economic relationship with industrialization was symbiotic: colonial India and Egypt provided cheap cotton for Lancashire mills; colonies provided captive markets for manufactured output; Caribbean sugar wealth funded banking capital; enslaved labor in American colonies produced tobacco, cotton, and sugar that funded the merchant class whose profits were reinvested in industrial enterprises. Eric Williams' argument that slavery financed industrialization remains debated, but the consensus is that imperial economic advantages significantly accelerated British industrialization relative to competitors without comparable colonial resources.",
+    "confidence": "high"
+  },
+  {
+    "id": "british_empire__partition_of_india",
+    "source": "british_empire",
+    "target": "partition_of_india",
+    "type": "PRODUCED",
+    "label": "Partition's catastrophic 1947 violence was a direct consequence of 200 years of British divide-and-rule policy in India",
+    "note": "India's Partition (1947, 14-18 million displaced, 200,000-2 million killed) was the British Empire's exit wound: British colonial policy systematically exploited Hindu-Muslim religious differences (separate electorates, 1909; communal representation) and accelerated through Partition's rushed timeline (Mountbatten's decision to advance it from June 1948 to August 1947). The Radcliffe Line dividing India and Pakistan was drawn in 36 days by a lawyer who had never visited India. The catastrophic violence was the predictable consequence of drawing religious borders through mixed communities with inadequate preparation — what happens when an empire exits on its own schedule.",
+    "confidence": "high"
+  },
+  {
+    "id": "british_empire__decolonization_movement",
+    "source": "british_empire",
+    "target": "decolonization_movement",
+    "type": "PRODUCED",
+    "label": "The British Empire's exhaustion from WWII made it unable to resist Indian and African independence movements it had previously suppressed",
+    "note": "The British Empire's decolonization was a product of WWII exhaustion and strategic calculation: Britain emerged from WWII financially dependent on the United States (Lend-Lease debt), militarily overstretched (defending 40+ territories), and facing organized independence movements it had suppressed for decades. India's independence (1947) began the cascade; the humiliation of the 1956 Suez Crisis (US forcing Britain to back down) demonstrated Britain could no longer maintain imperial commitments without American support. Harold Macmillan's \"Wind of Change\" speech (1960) acknowledged what was already happening. Decolonization was the British Empire's bankruptcy proceeding.",
+    "confidence": "high"
+  },
+  {
+    "id": "age_of_exploration__british_empire",
+    "source": "age_of_exploration",
+    "target": "british_empire",
+    "type": "PRODUCED",
+    "label": "British overseas expansion grew from the Age of Exploration's competitive European maritime race into the world's largest empire",
+    "note": "The British Empire grew from the competitive dynamics of the Age of Exploration: initially behind Portugal and Spain, Britain established colonies in North America (1607, Jamestown) and the Caribbean (1620s-1630s), building on maritime technology and trade organization the Age of Exploration had developed. The defeat of the Spanish Armada (1588) opened Atlantic dominance; the Navigation Acts (1651) built commercial maritime strength; the East India Company (1600) extended commercial empire. Britain became the dominant colonial power through the 18th century by outlasting rivals (France in Seven Years War), building naval supremacy, and industrializing first.",
+    "confidence": "high"
+  },
+  {
+    "id": "east_india_company__british_empire",
+    "source": "east_india_company",
+    "target": "british_empire",
+    "type": "ENABLED",
+    "label": "The East India Company conquered India for Britain — its military operations became the foundation of British South Asian dominance",
+    "note": "The East India Company's conquest of India (1757-1858) was the British Empire's most profitable achievement: the Battle of Plassey (1757) gave the Company control of Bengal (India's wealthiest province); subsequent military campaigns extended control across the subcontinent using Indian sepoy armies paid from Indian revenues. The Company governed 200 million people through a private corporate structure until the 1857 Sepoy Mutiny prompted Crown takeover. The Company transferred $45T (in today's values, per economist Utsa Patnaik) from India to Britain over 200 years — the foundation of British industrialization and financial dominance.",
+    "confidence": "high"
+  },
+  {
+    "id": "east_india_company__partition_of_india",
+    "source": "east_india_company",
+    "target": "partition_of_india",
+    "type": "ENABLED",
+    "label": "The EIC's divide-and-rule tactics between Hindu and Muslim populations created the communal framework that Partition exploited",
+    "note": "The East India Company pioneered the \"divide and rule\" administrative strategy that created India's communal politics: exploiting Hindu-Muslim rivalries to prevent unified Indian resistance; creating separate administrative categories based on religion; privileging certain communities in army recruitment based on \"martial race\" theory. These policies were institutionalized in the British Raj's separate communal electorates (1909). The EIC's century of communal manipulation created the political organizations — Muslim League, Hindu Mahasabha — that demanded and produced Partition. The line between Company rule and the 1947 catastrophe is direct.",
+    "confidence": "high"
+  },
+  {
+    "id": "magna_carta__american_revolution",
+    "source": "magna_carta",
+    "target": "american_revolution",
+    "type": "ENABLED",
+    "label": "American colonists invoked Magna Carta against British parliament as the foundation of their constitutional rights claims",
+    "note": "Magna Carta was the American colonists' primary constitutional authority: colonial lawyers trained in English common law used Magna Carta to argue that British parliamentary acts (Stamp Act, Townshend Acts) violated Englishmen's constitutional rights. John Adams, James Otis, and Patrick Henry all invoked Magna Carta in colonial rights arguments. The Declaration of Independence's natural rights framework drew on the tradition Magna Carta established — that rulers are subject to fundamental law and cannot arbitrarily violate the rights of the governed. American constitutional law is Magna Carta's primary 20th-century legacy.",
+    "confidence": "high"
+  },
+  {
+    "id": "magna_carta__roman_republic",
+    "source": "magna_carta",
+    "target": "roman_republic",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both Magna Carta and the Roman Republic represent moments when political elites forced constitutional limits on unilateral executive power",
+    "note": "Magna Carta (1215, English barons limiting royal power) and the Roman Republic's institutions (Senate, tribunes, consulship as check on tyranny) share the structural mechanism: elites using collective action to force constitutional constraints on unilateral executive authority. Both were products of elite self-interest (barons and senators protecting property and power) that evolved into constitutional principle (due process and rule of law). Both were cited in subsequent centuries as foundations for constitutional government. The Roman Republic's Twelve Tables and Magna Carta are the two foundational texts of the Western constitutional tradition.",
+    "confidence": "high"
+  },
+  {
+    "id": "english_civil_war__magna_carta",
+    "source": "english_civil_war",
+    "target": "magna_carta",
+    "type": "ENABLED",
+    "label": "Parliamentary forces invoked Magna Carta as their constitutional authority against Charles I's royal absolutism claims",
+    "note": "Magna Carta was the English Civil War's constitutional weapon: Sir Edward Coke's interpretation of Magna Carta (Institutes of the Laws of England, 1628-1644) made it the foundation of common law rights against royal prerogative. Parliamentary lawyers used Coke's Magna Carta to argue that Charles I's forced loans, imprisonment without trial, and quartering of soldiers violated fundamental English law. The Petition of Right (1628) — which Charles signed — was explicitly grounded in Magna Carta provisions. The Civil War's constitutional debate was conducted using Magna Carta as the primary authority for both Parliament's rights claims and limitations on royal power.",
+    "confidence": "high"
+  },
+  {
+    "id": "english_civil_war__french_revolution",
+    "source": "english_civil_war",
+    "target": "french_revolution",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both represent mid-period democratic revolutions that executed monarchs, produced radical republics, then restored modified monarchies",
+    "note": "The English Civil War (1642-51) and the French Revolution (1789-99) share a structural pattern: constitutional crisis → regicide (Charles I 1649; Louis XVI 1793) → radical republic (Commonwealth 1649-60; Jacobin Republic 1792-94) → Thermidorian reaction → restored modified monarchy (Charles II 1660; Napoleon 1804; Louis XVIII 1814). Both generated foundational political philosophy: Hobbes and Locke from the English Civil War; Rousseau, Voltaire, Montesquieu preceding and the Romantics following the French Revolution. The English case was studied by French revolutionaries — and the English Restoration was cited by French conservatives after Thermidor as the template for counter-revolutionary stabilization.",
+    "confidence": "high"
+  },
+  {
+    "id": "winston_churchill__world_war_ii",
+    "source": "winston_churchill",
+    "target": "world_war_ii",
+    "type": "ENABLED",
+    "label": "Churchill's refusal to negotiate with Hitler after Dunkirk — overriding Halifax's peace party — made Allied victory possible",
+    "note": "Churchill's most consequential decision was refusing Hitler's peace terms after Dunkirk (May-June 1940): Lord Halifax and his peace faction argued that seeking terms from Hitler was the realistic option; Churchill's argument — that Hitler's terms would make Britain a satellite state that could not be rescued — prevailed in the War Cabinet. This decision sustained the resistance that made American entry strategically viable. Churchill also provided the rhetorical framework (\"finest hour,\" \"we shall fight on the beaches\") that transformed British public opinion from defeat anticipation to resolute resistance. His rhetoric was not incidental — it changed what was politically possible in the darkest period.",
+    "confidence": "high"
+  },
+  {
+    "id": "world_war_ii__winston_churchill",
+    "source": "world_war_ii",
+    "target": "winston_churchill",
+    "type": "PRODUCED",
+    "label": "WWII made Churchill — ending his political wilderness years and placing his rhetoric and bulldog persona in service of a cause matching them",
+    "note": "Churchill's WWII greatness was contingent on WWII: he had been in the political wilderness since 1931 (his career considered finished) and was known primarily as a controversial imperialist who had misjudged the Dardanelles. WWII was the only situation where Churchill's gifts — rhetorical grandeur, strategic instinct, personal stubbornness, anti-appeasement conviction — were exactly what was needed. In any other political context, Churchill's personality traits and judgment failures (Gallipoli, Gold Standard, India) would have continued to marginalize him. WWII produced Churchill by requiring precisely what he was.",
+    "confidence": "high"
+  },
+  {
+    "id": "british_empire__winston_churchill",
+    "source": "british_empire",
+    "target": "winston_churchill",
+    "type": "ENABLED",
+    "label": "Churchill's imperial values — believing in British civilizational superiority — produced the Bengal famine policy and resistance to Indian independence",
+    "note": "Churchill's relationship to the British Empire reveals the limits of his heroism: he was an unreconstructed imperialist who believed in white European civilizational superiority. His 1943 Bengal famine (3 million dead) was worsened by his diversion of food supplies away from India and rejection of relief requests; he viewed Indian lives as less important than British war resources. He opposed Indian independence vehemently; privately called Gandhi a \"half-naked fakir.\" Churchill represents the paradox of WWII heroism: the man who saved liberal democracy from fascism did so while defending an empire built on racial hierarchy incompatible with those same values.",
+    "confidence": "high"
   }
 ]

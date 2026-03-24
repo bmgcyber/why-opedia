@@ -6126,5 +6126,77 @@
     "label": "Imperialism created the economic structures — monoculture extraction, institutional weakness — that produce the resource curse in postcolonial states",
     "note": "The resource curse (natural resource wealth correlating with poor development outcomes) is substantially a product of imperialism: colonial economies were structured around single-commodity extraction (rubber, cotton, copper, oil) for metropolitan markets, with infrastructure built to move resources out rather than develop internal economies. Institutional frameworks were designed for colonial extraction rather than indigenous governance. When independence came, postcolonial states inherited: monoculture economies vulnerable to commodity price swings; institutions designed for extraction rather than development; and social elites whose interests aligned with continued extraction rather than diversification. The resource curse is colonialism's economic afterlife.",
     "confidence": "high"
+  },
+  {
+    "id": "keynesianism__new_deal",
+    "source": "keynesianism",
+    "target": "new_deal",
+    "type": "ENABLED",
+    "label": "Keynesian economic theory provided the intellectual justification for FDR's New Deal deficit spending programs",
+    "note": "Keynes's General Theory (1936) and the New Deal (1933-39) were not sequential — Roosevelt began deficit spending before Keynes published — but Keynesian theory retroactively explained what the New Deal was doing and became its intellectual defense. New Deal programs like the WPA (public employment) and farm price supports were Keynesian fiscal policy before Keynesianism was fully theorized. After 1936, Keynesian economists (Alvin Hansen, Paul Samuelson) provided the analytical framework that justified continued New Deal-style programs and eventually post-WWII macroeconomic policy. Keynes provided the New Deal's theoretical legitimacy.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_depression__keynesianism",
+    "source": "great_depression",
+    "target": "keynesianism",
+    "type": "PRODUCED",
+    "label": "The Great Depression's failure of classical economics — that markets self-correct — created the intellectual space for Keynesian theory",
+    "note": "Keynes's General Theory (1936) was the Great Depression's intellectual product: classical economics predicted that the Depression should be self-correcting (wages would fall, stimulating employment; prices would fall, stimulating consumption), but unemployment remained at 25% for years without self-correction. The Depression's empirical refutation of classical economics was what made Keynes' heterodox argument — that aggregate demand shortfalls required government correction — intellectually credible. Without the Depression's massive, sustained refutation of orthodox economics, Keynes would have remained a heterodox economist rather than the 20th century's most influential.",
+    "confidence": "high"
+  },
+  {
+    "id": "neoliberalism__keynesianism",
+    "source": "neoliberalism",
+    "target": "keynesianism",
+    "type": "DISCREDITED",
+    "label": "Stagflation (1970s) gave neoliberals the empirical opening to attack Keynesianism as causing inflation and undermining growth",
+    "note": "The 1970s stagflation (simultaneous high inflation and unemployment) was neoliberalism's founding political moment: Keynesian economics had predicted that inflation and unemployment traded off (the Phillips Curve) and that government spending could manage this trade-off. When both rose simultaneously, Milton Friedman's monetarism (control money supply, not fiscal policy) and Friedrich Hayek's structural critique (government intervention distorts price signals) provided alternative explanations. The Reagan-Thatcher revolution explicitly repudiated Keynesianism — cutting spending, raising interest rates, and deregulating — and the subsequent economic recovery (however unequal) was cited as vindication. Keynesianism's return after 2008 demonstrates that its discrediting was incomplete.",
+    "confidence": "high"
+  },
+  {
+    "id": "welfare_state__new_deal",
+    "source": "welfare_state",
+    "target": "new_deal",
+    "type": "ENABLED",
+    "label": "The New Deal was America's partial welfare state — establishing Social Security, unemployment insurance, and banking protection",
+    "note": "The New Deal established American welfare state institutions that remain foundational: Social Security (1935) — old-age pension and disability insurance; FDIC bank deposit insurance; unemployment insurance; and Medicare/Medicaid (LBJ's Great Society, 1965) completing the New Deal framework. The American welfare state is more limited than European versions (no universal healthcare, weaker labor protections) because the New Deal coalition required Southern Democratic support that excluded African Americans from many programs (Social Security excluded domestic and agricultural workers, 65% of employed Black people). The American welfare state is the New Deal's partial, racially-compromised achievement.",
+    "confidence": "high"
+  },
+  {
+    "id": "welfare_state__neoliberalism",
+    "source": "welfare_state",
+    "target": "neoliberalism",
+    "type": "ENABLED",
+    "label": "The welfare state's success in reducing poverty and inequality was the threat neoliberalism was organized to defeat",
+    "note": "Neoliberalism defined itself against the welfare state: Hayek's Road to Serfdom (1944) argued that economic planning led to totalitarianism; Friedman's Capitalism and Freedom (1962) argued government welfare programs created dependency and distorted markets; and Reagan's welfare queen rhetoric demonized the safety net. The welfare state's political durability — Social Security remains the third rail of American politics — forced neoliberals to focus on welfare state erosion (means-testing, privatization, block grants) rather than direct elimination. The welfare state's resilience is the story of neoliberalism's incomplete triumph.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__welfare_state",
+    "source": "collective_trauma",
+    "target": "welfare_state",
+    "type": "PRODUCED",
+    "label": "WWII's collective trauma produced a political consensus that government must prevent the catastrophic economic insecurity the Depression and war had created",
+    "note": "The postwar welfare state was constructed by a generation with direct experience of the Depression and WWII: policymakers who had seen 25% unemployment, mass suffering, and fascism's rise from economic desperation were committed to preventing recurrence. The Beveridge Report (1942) explicitly argued that the welfare state would prevent the conditions that enabled fascism and war. The postwar welfare states (NHS, Social Security expansion, German social market economy) were collective trauma responses — building institutions that would prevent a repetition of the 1930s catastrophe. This crisis memory weakened as generations without direct experience became the policy majority.",
+    "confidence": "high"
+  },
+  {
+    "id": "cultural_hegemony__british_empire",
+    "source": "cultural_hegemony",
+    "target": "british_empire",
+    "type": "ENABLED",
+    "label": "British cultural hegemony — English language, common law, cricket — was the Empire's softest and most durable form of control",
+    "note": "The British Empire's cultural hegemony was its most enduring achievement: English became the global lingua franca; British common law became the legal foundation of dozens of independent nations; British parliamentary institutions were the model for post-colonial constitutions; and cultural products (literature, education systems, cricket) created elite classes in colonized countries who identified with British culture. This \"soft power\" of cultural hegemony (Gramsci's term is specifically applicable here) means that Britain's cultural influence persists decades after political independence — making former colonial elites voluntary transmitters of values originally imposed through violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "imperialism__british_empire",
+    "source": "imperialism",
+    "target": "british_empire",
+    "type": "PRODUCED",
+    "label": "The British Empire was imperialism's largest expression — the most successful colonial-extraction system in history at its peak",
+    "note": "The British Empire was imperialism's highest development: larger than any previous empire, more systematically organized for resource extraction, and more durable than its competitors. British imperialism's innovations — joint-stock company colonialism (East India Company), free trade imperialism (forcing open markets while protecting domestic industry), scientific racism (legitimizing extraction through racial hierarchy theory), and indirect rule (using local elites to minimize administrative costs) — became the models for subsequent imperial practice. The British Empire was not uniquely cruel by historical standards, but its scale and systematic organization made it the defining example of imperialism's economic and human consequences.",
+    "confidence": "high"
   }
 ]
