@@ -3706,5 +3706,23 @@
     "label": "Ho Chi Minh synthesized Vietnamese nationalism with Marxist-Leninist anti-imperialism into the most successful anticolonial military strategy of the 20th century",
     "note": "Ho Chi Minh was the most effective practitioner of decolonization as military strategy: trained in Moscow (1923), he applied Leninist vanguard party organization to Vietnamese nationalist movement-building; studied guerrilla warfare theory and translated it into Vietnamese conditions; built a coalition (Viet Minh) that transcended communist ideology by prioritizing national liberation. His success — defeating France (1954) and the United States (1975) with a poor, agrarian nation — became the template for Third World liberation movements during the Cold War. Ho demonstrated that asymmetric warfare, sustained popular support, and patience could defeat vastly superior military forces.",
     "confidence": "high"
+  },
+  {
+    "id": "vietnam_war__ho_chi_minh",
+    "source": "vietnam_war",
+    "target": "ho_chi_minh",
+    "type": "ENABLED",
+    "label": "The Vietnam War's human cost on both sides validated Ho Chi Minh's strategy of sustained resistance against technologically superior forces",
+    "note": "The Vietnam War validated Ho Chi Minh's strategic insight: that an outgunned but politically motivated force could defeat a technologically superior enemy by making the war's cost in time and casualties unacceptable to democratic public opinion. Ho's military doctrine (Vo Nguyen Giap's formulation) held that the US would tire before Vietnam would — and was correct. 58,000 American deaths and a decade of protest made continuation politically impossible; 2-3 million Vietnamese deaths were absorbed by a system that did not require public consent for war. Ho Chi Minh's legacy is the demonstration that political will is a military force multiplier that equalizes asymmetric conflicts.",
+    "confidence": "high"
+  },
+  {
+    "id": "ho_chi_minh__cuban_revolution",
+    "source": "ho_chi_minh",
+    "target": "cuban_revolution",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Ho Chi Minh and Fidel Castro were the defining Third World revolutionary figures of the Cold War, both defeating US-backed forces",
+    "note": "Ho Chi Minh (Vietnam) and Fidel Castro (Cuba) represent the two most consequential Third World revolutionary success stories of the Cold War: both defeated US military power (directly in Vietnam; indirectly in Cuba's survival despite Bay of Pigs, assassination attempts, and 60+ year embargo); both maintained power for decades; both became symbols of small-nation resistance to American hegemony. Their influence on Third World liberation movements — from Angola to Nicaragua — made them the Cold War's most important non-superpower actors. The US failure to defeat either Ho or Castro was the most significant constraint on American Cold War power.",
+    "confidence": "high"
   }
 ]

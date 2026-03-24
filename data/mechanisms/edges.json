@@ -6000,5 +6000,14 @@
     "label": "The Great Firewall produces a systematically broken epistemology for 1.4 billion people — a national-scale epistemic bubble",
     "note": "The Great Firewall produces broken epistemology at population scale: Chinese citizens who cannot access Wikipedia, Google, or foreign news sources have systematically different (and systematically false) beliefs about: the Tiananmen Square death toll, the Xinjiang internment camps, Taiwan's international status, and COVID-19's origins. This is not individual epistemological failure but state-engineered mass epistemological manipulation. The COVID-19 pandemic demonstrated this: Chinese citizens had access to government claims about the virus while foreign researchers had access to evidence the government suppressed. The Great Firewall doesn't just create ignorance — it engineers specific false beliefs at national scale.",
     "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__ho_chi_minh",
+    "source": "manufactured_consent",
+    "target": "ho_chi_minh",
+    "type": "ENABLED",
+    "label": "Ho Chi Minh's media strategy — maintaining a liberation narrative against American propaganda — was anti-manufactured consent that won the information war",
+    "note": "Ho Chi Minh's strategic communication — maintaining the \"national liberation from foreign invaders\" narrative in international media — successfully countered American manufactured consent about \"containing communist aggression.\" By framing the war as anticolonial independence rather than communist expansion (true for most Vietnamese regardless of ideology), Ho and the Viet Minh maintained legitimacy in the Third World and among American antiwar protesters. The manufactured consent problem for Johnson and Nixon was that the war's actual nature — preventing Vietnamese reunification under an elected leader (Ho would have won 1956 elections) — was difficult to make sound democratic.",
+    "confidence": "high"
   }
 ]
