@@ -3651,5 +3651,47 @@
       "cold-war",
       "guerrilla"
     ]
+  },
+  {
+    "id": "meiji_restoration",
+    "label": "Meiji Restoration",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1860s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Meiji_Restoration",
+    "summary": "The Meiji Restoration (1868-1912) was Japan's transformation from feudal shogunate to modern nation-state — the only non-Western country to successfully industrialize in the 19th century. Within 40 years, Japan built railways, a modern army and navy, universities, a constitution, and heavy industry. It also developed imperial ambitions: defeating China (1895) and Russia (1905), annexing Korea (1910), and eventually joining WWI's winners. The Meiji transformation's fusion of Western technology with Japanese nationalist ideology — \"Western learning, Japanese spirit\" — produced the imperial militarism that led to WWII's Pacific theater.",
+    "tags": [
+      "japan",
+      "modernization",
+      "industrialization",
+      "imperialism",
+      "korea",
+      "china",
+      "militarism",
+      "wwii"
+    ]
+  },
+  {
+    "id": "age_of_exploration",
+    "label": "Age of Exploration",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1490s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Age_of_Discovery",
+    "summary": "The Age of Exploration (c. 1420-1620) was the period of European maritime expansion across the Atlantic, Pacific, and Indian Oceans — producing the first truly global economy and the Columbian Exchange. Portuguese and Spanish navigators established sea routes to Africa, Asia, and the Americas; subsequent Dutch, English, and French expansion created competing colonial empires. The Age of Exploration's consequences: the decimation of Indigenous American populations through disease and violence; the transatlantic slave trade; plantation economies; and the foundation of global capitalism. It is the hinge event that made Western European nations the dominant global powers for the next 500 years.",
+    "tags": [
+      "columbus",
+      "colonialism",
+      "slave-trade",
+      "indigenous",
+      "portugal",
+      "spain",
+      "capitalism",
+      "globalization"
+    ]
   }
 ]

@@ -1738,5 +1738,43 @@
     ],
     "scope": "global/mechanisms",
     "cross_scope": true
+  },
+  {
+    "id": "fascism",
+    "label": "Fascism",
+    "node_type": "reference",
+    "category": "ideology",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Fascism",
+    "summary": "Fascism is a far-right authoritarian ultranationalism characterized by dictatorial power, forcible suppression of opposition, and strong regimentation of society and the economy. It emerged in early 20th century Europe (Mussolini's Italy, Nazi Germany, Franco's Spain), using manufactured crisis, scapegoating of minorities, and mythologized national identity to achieve totalitarian control. Fascism requires: a charismatic leader who embodies the national will; a defined enemy (internal and external); manufactured emergency justifying suspension of rights; and party-state fusion eliminating independent institutions. Its recurrence across cultures suggests it exploits universal psychological vulnerabilities rather than being historically unique.",
+    "tags": [
+      "totalitarianism",
+      "nationalism",
+      "authoritarianism",
+      "mussolini",
+      "hitler",
+      "democracy-failure",
+      "ideology"
+    ]
+  },
+  {
+    "id": "imperialism",
+    "label": "Imperialism",
+    "node_type": "reference",
+    "category": "ideology",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Imperialism",
+    "summary": "Imperialism is the policy of extending a state's power through territorial acquisition, political domination, or economic control of other nations. European imperialism (1500-1960) produced colonial systems that reshaped every continent through resource extraction, forced labor, population displacement, and cultural suppression. Imperialism's mechanisms — military conquest, economic dependency, cultural hegemony, and institutional extraction — persist in postcolonial forms (neocolonialism, economic imperialism through IMF conditionality, military basing). Its legacy — underdevelopment, ethnic conflict created by colonial borders, institutional weakness — continues to shape the global South.",
+    "tags": [
+      "colonialism",
+      "empire",
+      "extraction",
+      "exploitation",
+      "race",
+      "postcolonialism",
+      "dependency"
+    ]
   }
 ]

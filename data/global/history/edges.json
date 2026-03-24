@@ -3724,5 +3724,86 @@
     "label": "Ho Chi Minh and Fidel Castro were the defining Third World revolutionary figures of the Cold War, both defeating US-backed forces",
     "note": "Ho Chi Minh (Vietnam) and Fidel Castro (Cuba) represent the two most consequential Third World revolutionary success stories of the Cold War: both defeated US military power (directly in Vietnam; indirectly in Cuba's survival despite Bay of Pigs, assassination attempts, and 60+ year embargo); both maintained power for decades; both became symbols of small-nation resistance to American hegemony. Their influence on Third World liberation movements — from Angola to Nicaragua — made them the Cold War's most important non-superpower actors. The US failure to defeat either Ho or Castro was the most significant constraint on American Cold War power.",
     "confidence": "high"
+  },
+  {
+    "id": "meiji_restoration__hirohito",
+    "source": "meiji_restoration",
+    "target": "hirohito",
+    "type": "PRODUCED",
+    "label": "The Meiji imperial system — emperor as divine sovereign, nation united around imperial will — made Hirohito's WWII role possible",
+    "note": "Hirohito was born (1901) into the imperial institution the Meiji Restoration had created: an emperor elevated from feudal figurehead to divine sovereign, the symbolic center of Japanese nationalist identity, and formal commander in chief of the armed forces. The Meiji constitution (1889) gave the emperor formal authority over military affairs that subsequent militarization exploited. Hirohito was a product of the Meiji system — educated within its imperial framework, trained to see himself as both divine and national. His WWII role — enabling Japanese military aggression while maintaining formal constitutional legitimacy — required exactly the ambiguous emperor-sovereignty the Meiji Restoration had constructed.",
+    "confidence": "high"
+  },
+  {
+    "id": "meiji_restoration__world_war_ii",
+    "source": "meiji_restoration",
+    "target": "world_war_ii",
+    "type": "ENABLED",
+    "label": "Meiji Japan's fusion of Western military technology with ultranationalist Shinto ideology produced the Japanese militarism that drove WWII's Pacific theater",
+    "note": "The Meiji Restoration's contradictions produced Japanese militarism: the \"Western learning, Japanese spirit\" (wakon yosai) synthesis adopted Western industrial technology while rejecting Western democratic values; created a professional military modeled on Germany and Britain while maintaining the Emperor's divine sovereignty; industrialized rapidly while suppressing labor organization and political opposition. By the 1930s, the Meiji system's contradictions resolved into ultranationalist militarism — a military-industrial-imperial complex that convinced itself that Japan's survival required Pacific dominance. The Pacific War was the Meiji transformation's full expression.",
+    "confidence": "high"
+  },
+  {
+    "id": "meiji_restoration__korean_war",
+    "source": "meiji_restoration",
+    "target": "korean_war",
+    "type": "ENABLED",
+    "label": "Meiji Japan's 1910 annexation of Korea and subsequent 35-year colonial occupation directly produced the divided Korea that became the Korean War",
+    "note": "Korea's Cold War division and the Korean War (1950-53) trace directly to Meiji Japan's imperialism: Japan annexed Korea in 1910 as part of its Meiji-era imperial expansion, administering it as a colony until 1945. Japan's WWII defeat left Korea divided at the 38th parallel between US and Soviet occupation zones — each side installing client governments. The Korean War's origin is the post-WWII management of Japan's colonial legacy. Moreover, Korea served as Japan's supply base during the Korean War, enabling Japan's economic recovery and beginning its postwar growth miracle. The Korean War is, in part, Meiji imperialism's deferred consequence.",
+    "confidence": "high"
+  },
+  {
+    "id": "decolonization_movement__meiji_restoration",
+    "source": "meiji_restoration",
+    "target": "decolonization_movement",
+    "type": "ENABLED",
+    "label": "Japan's successful non-Western modernization demonstrated that European racial claims about development capacity were false — inspiring Asian and African independence movements",
+    "note": "Japan's Meiji success — defeating China (1895) and Russia (1905) and joining the Great Powers — was psychologically transformative for colonized peoples: it demonstrated that European claims about inherent racial superiority in industrial and military capacity were false. India's Bal Gangadhar Tilak celebrated Japan's 1905 victory over Russia; African nationalists cited Japan as proof that non-European peoples could achieve modernity. Later, Japan's WWII defeat of British, Dutch, and French colonial forces in Asia — even though Japanese colonialism was brutal — permanently shattered the European military mystique that had sustained colonial authority.",
+    "confidence": "high"
+  },
+  {
+    "id": "silk_road__age_of_exploration",
+    "source": "silk_road",
+    "target": "age_of_exploration",
+    "type": "ENABLED",
+    "label": "Ottoman control of Silk Road routes after 1453 drove European maritime exploration seeking alternative trade routes to Asia",
+    "note": "The Age of Exploration was directly motivated by the Silk Road's disruption: the Ottoman Empire's capture of Constantinople (1453) and control of Levantine trade routes increased the cost and difficulty of European access to Asian goods. Portuguese maritime exploration (Vasco da Gama around Africa, 1498) and Columbus's Atlantic crossing (1492) were both attempting to find alternative routes to the Silk Road's Asian terminus. The discovery of the Americas was an accident of the search for a western route to China. The Age of Exploration is, in this sense, a consequence of Silk Road geopolitics — European maritime empires rose from the attempt to bypass Ottoman trade control.",
+    "confidence": "high"
+  },
+  {
+    "id": "age_of_exploration__atlantic_slave_trade",
+    "source": "age_of_exploration",
+    "target": "atlantic_slave_trade",
+    "type": "PRODUCED",
+    "label": "European exploration of Africa and the Americas created the triangle trade that produced the transatlantic slave trade",
+    "note": "The Atlantic slave trade was produced by the Age of Exploration's economic logic: Portuguese explorers established African coastal trading posts (1440s) initially for gold; as American plantation agriculture developed (1500s-1600s), enslaved Africans became the labor solution for mines and plantations. The triangle trade — European manufactured goods to Africa, enslaved people to the Americas, colonial commodities back to Europe — was the Age of Exploration's economic architecture. Without European maritime capability and colonial plantation agriculture (both products of exploration), the transatlantic slave trade's scale — 12 million people over 350 years — would have been impossible.",
+    "confidence": "high"
+  },
+  {
+    "id": "age_of_exploration__industrial_revolution",
+    "source": "age_of_exploration",
+    "target": "industrial_revolution",
+    "type": "ENABLED",
+    "label": "Colonial resource extraction from Age of Exploration territories provided the capital and raw materials that funded Britain's Industrial Revolution",
+    "note": "The Industrial Revolution's British origins are inseparable from the Age of Exploration's colonial legacy: West Indian sugar profits funded banking institutions (Lloyds, Barclays) that financed industrialization; colonial cotton (from slave plantations in US South and India) supplied the textile factories that industrialization's first wave centered on; colonial markets absorbed manufactured output; and colonial commodity profits created the capital accumulation that industrial investment required. Eric Williams' \"Capitalism and Slavery\" (1944) argued the slave trade financed British industrialization — a thesis still debated but influential. The Industrial Revolution is the Age of Exploration's economic successor.",
+    "confidence": "high"
+  },
+  {
+    "id": "age_of_exploration__haitian_revolution",
+    "source": "age_of_exploration",
+    "target": "haitian_revolution",
+    "type": "PRODUCED",
+    "label": "The Haitian Revolution was a direct consequence of the plantation slave economy the Age of Exploration created in Saint-Domingue",
+    "note": "The Age of Exploration's most radical consequence was the Haitian Revolution: European maritime expansion created Caribbean plantation colonies; plantation agriculture required enslaved labor; Saint-Domingue became the world's most profitable plantation colony with the most brutal slave system; and that system produced the revolutionary conditions — 500,000 enslaved people with revolutionary consciousness and military experience — that culminated in the only successful slave revolution in history. The Age of Exploration created the colonial system that the Haitian Revolution destroyed. Columbus's 1492 voyage and Haiti's 1804 independence are cause and consequence across 312 years.",
+    "confidence": "high"
+  },
+  {
+    "id": "age_of_exploration__renaissance",
+    "source": "age_of_exploration",
+    "target": "renaissance",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "The Age of Exploration and Renaissance were parallel expressions of 15th century European expansion — geographic and intellectual discovery simultaneously",
+    "note": "The Age of Exploration and the Italian Renaissance were simultaneous expressions of the same European expansion impulse: geographic exploration displaced the world's known limits; humanist scholarship displaced the known intellectual limits. Portuguese maritime exploration (1420s-1500s) and Italian Renaissance humanism (1400s-1520s) shared institutional context — Medici and other merchant banking families funded both; the same patronage networks that funded Botticelli also funded cartographers. The Florentine Amerigo Vespucci's accounts (from which \"America\" derives) circulated in the same humanist scholarly networks that produced Renaissance philosophy. Geographic and intellectual exploration were not separate projects.",
+    "confidence": "medium"
   }
 ]
