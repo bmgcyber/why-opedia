@@ -4741,5 +4741,140 @@
     "label": "The Berlin Conference's arbitrary colonial borders became the basis for post-independence African states, producing ongoing ethnic and territorial conflicts",
     "note": "The Berlin Conference created the borders that haunt African decolonization: the Scramble for Africa (1884-1914) divided the continent among European powers with straight lines drawn on maps by people who had never visited most of the territory; these lines divided ethnic groups between different colonies, creating minorities in each (Yoruba across Nigeria/Benin/Togo; Somali across Somalia/Ethiopia/Kenya/Djibouti; Tuareg across Mali/Niger/Algeria/Libya); the OAU's 1964 decision to preserve colonial borders to prevent unlimited territorial revision means African states continue to govern within colonial administrative boundaries that reflect no historical, ethnic, or geographic logic. The Berlin Conference's arbitrary cartography is a root cause of African state fragility.",
     "confidence": "high"
+  },
+  {
+    "id": "suffrage_movement__second_wave_feminism",
+    "source": "suffrage_movement",
+    "target": "second_wave_feminism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Suffrage established foundation for later feminist waves",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "suffrage_movement__civil_rights_movement",
+    "source": "suffrage_movement",
+    "target": "civil_rights_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both used civil disobedience, legal mobilization, and coalition-building",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "suffrage_movement__nonviolent_resistance",
+    "source": "suffrage_movement",
+    "target": "nonviolent_resistance",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Suffragist tactics pioneered many nonviolent resistance strategies",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "black_panthers__cointelpro",
+    "source": "black_panthers",
+    "target": "cointelpro",
+    "type": "FORCED_INTO",
+    "label": "Forced into",
+    "note": "Black Panther Party was primary COINTELPRO target for infiltration and suppression",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "black_panthers__civil_rights_movement",
+    "source": "black_panthers",
+    "target": "civil_rights_movement",
+    "type": "FRAGMENTED_INTO",
+    "label": "Fragmented into",
+    "note": "Black Power movement emerged partly from disillusionment with nonviolent civil rights strategy",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "black_panthers__mass_incarceration",
+    "source": "black_panthers",
+    "target": "mass_incarceration",
+    "type": "FORCED_INTO",
+    "label": "Forced into",
+    "note": "COINTELPRO targeting of Panthers contributed to criminalization of Black organizing",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "marxism__black_panthers",
+    "source": "marxism",
+    "target": "black_panthers",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Black Panther Party explicitly drew on Marxist-Leninist ideology",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cold_war_nuclear_fear__nuclear_weapons",
+    "source": "cold_war_nuclear_fear",
+    "target": "nuclear_weapons",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Nuclear weapons created the existential fear that defined Cold War culture",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cold_war_nuclear_fear__cuban_missile_crisis",
+    "source": "cold_war_nuclear_fear",
+    "target": "cuban_missile_crisis",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Cuban Missile Crisis was the peak expression of nuclear terror",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cold_war_nuclear_fear__cold_war_culture",
+    "source": "cold_war_nuclear_fear",
+    "target": "cold_war_culture",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Nuclear anxiety shaped Cold War film, art, literature, and civil society",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cold_war_nuclear_fear__lgbtq_rights_movement",
+    "source": "cold_war_nuclear_fear",
+    "target": "lgbtq_rights_movement",
+    "type": "PROVIDED_COVER_FOR",
+    "label": "Provided cover for",
+    "note": "Cold War moral panic about communism linked to persecution of gay people as security risks",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "colonialism_legacy__decolonization_africa",
+    "source": "colonialism_legacy",
+    "target": "decolonization_africa",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Colonial exploitation created the conditions that drove African decolonization",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "colonialism_legacy__wealth_inequality",
+    "source": "colonialism_legacy",
+    "target": "wealth_inequality",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Colonial extraction created persistent global wealth inequality between nations",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "colonialism_legacy__resource_extraction",
+    "source": "colonialism_legacy",
+    "target": "resource_extraction",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Colonialism institutionalized resource extraction from periphery to core",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "colonial_era__colonialism_legacy",
+    "source": "colonial_era",
+    "target": "colonialism_legacy",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "The colonial era directly produced the ongoing structural legacies",
+    "confidence": "confirmed"
   }
 ]

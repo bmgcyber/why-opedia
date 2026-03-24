@@ -2144,5 +2144,110 @@
       "disease mongering",
       "patent"
     ]
+  },
+  {
+    "id": "capitalism",
+    "label": "Capitalism",
+    "node_type": "ideology",
+    "category": "ideology",
+    "decade": "1700s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Capitalism",
+    "summary": "Economic system based on private ownership of the means of production, wage labor, and profit-driven markets. Has produced immense wealth while generating inequality, exploitation, and environmental degradation.",
+    "tags": [
+      "capitalism",
+      "markets",
+      "private_property",
+      "profit",
+      "wage_labor",
+      "inequality",
+      "neoliberalism",
+      "economics"
+    ]
+  },
+  {
+    "id": "marxism",
+    "label": "Marxism",
+    "node_type": "ideology",
+    "category": "ideology",
+    "decade": "1840s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Marxism",
+    "summary": "Political and economic theory developed by Karl Marx and Friedrich Engels analyzing capitalism through class struggle, historical materialism, and the critique of exploitation. Foundation for socialist and communist movements.",
+    "tags": [
+      "marxism",
+      "marx",
+      "class_struggle",
+      "historical_materialism",
+      "communism",
+      "socialism",
+      "capitalism_critique",
+      "labor"
+    ]
+  },
+  {
+    "id": "algorithmic_bias",
+    "label": "Algorithmic Bias",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "2010s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Algorithmic_bias",
+    "summary": "Systematic errors in AI/algorithmic outputs that create unfair outcomes for certain groups, often encoding and amplifying existing social biases from training data or flawed design choices.",
+    "tags": [
+      "algorithmic_bias",
+      "AI",
+      "machine_learning",
+      "discrimination",
+      "fairness",
+      "data_bias",
+      "surveillance",
+      "automation"
+    ]
+  },
+  {
+    "id": "platform_economy",
+    "label": "Platform Economy",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Platform_economy",
+    "summary": "Economic model where digital platforms mediate transactions between users, workers, and consumers — concentrating power among a few corporations while reclassifying workers as independent contractors to avoid labor protections.",
+    "tags": [
+      "platform_economy",
+      "gig_economy",
+      "uber",
+      "amazon",
+      "labor_rights",
+      "monopoly",
+      "technology",
+      "inequality"
+    ]
+  },
+  {
+    "id": "automation_economy",
+    "label": "Automation & Job Displacement",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Technological_unemployment",
+    "summary": "The replacement of human labor by machines and AI, accelerating income inequality, occupational disruption, and demands for universal basic income and retraining programs.",
+    "tags": [
+      "automation",
+      "technological_unemployment",
+      "robots",
+      "AI",
+      "inequality",
+      "UBI",
+      "labor",
+      "future_of_work"
+    ]
   }
 ]

@@ -497,5 +497,68 @@
     "label": "Second wave feminism generated the theoretical frameworks (patriarchy, personal-is-political, consciousness raising) that feminist theory systematized",
     "note": "Second wave feminism and feminist theory are mutually constitutive: the movement generated concepts (consciousness-raising groups produced the \"personal is political\" insight; radical feminism produced patriarchy analysis; socialist feminism produced the sex/gender distinction) that feminist theorists systematized; academic feminist theory (women's studies departments, founded 1970s) developed the movement's insights into formal theory; theory then influenced movement (intersectionality critique changed movement practice). Simone de Beauvoir's \"The Second Sex\" (1949) was the second wave's foundational theoretical text; Betty Friedan's \"Feminine Mystique\" (1963) was its popular mobilizer. Theory and movement developed through ongoing exchange.",
     "confidence": "high"
+  },
+  {
+    "id": "postmodernism__conspiracy_theories",
+    "source": "postmodernism",
+    "target": "conspiracy_theories",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Relativism about truth contributes to distrust of official narratives and expertise",
+    "confidence": "speculative"
+  },
+  {
+    "id": "postmodernism__cancel_culture",
+    "source": "postmodernism",
+    "target": "cancel_culture",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Postmodern focus on power dynamics underlies many cancel culture rationales",
+    "confidence": "speculative"
+  },
+  {
+    "id": "postmodernism__feminist_theory",
+    "source": "postmodernism",
+    "target": "feminist_theory",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Postmodern philosophy deeply influenced intersectional and third-wave feminism",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "postmodernism__radicalization",
+    "source": "postmodernism",
+    "target": "radicalization",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Rejection of shared truths facilitates radicalization into alternative epistemologies",
+    "confidence": "speculative"
+  },
+  {
+    "id": "social_media_radicalization__radicalization",
+    "source": "social_media_radicalization",
+    "target": "radicalization",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Online radicalization accelerates and scales traditional radicalization processes",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "social_media_radicalization__mgtow",
+    "source": "social_media_radicalization",
+    "target": "mgtow",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "YouTube and Reddit pipelines drive men into manosphere communities",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "social_media_radicalization__conspiracy_theories",
+    "source": "social_media_radicalization",
+    "target": "conspiracy_theories",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Engagement algorithms amplify conspiracy content for emotional engagement",
+    "confidence": "confirmed"
   }
 ]

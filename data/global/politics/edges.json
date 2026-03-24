@@ -2131,5 +2131,185 @@
     "label": "Human rights organizations including Amnesty International and B'Tselem have characterized Israel's occupation as apartheid",
     "note": "The apartheid characterization of Israeli occupation is analytically contested but increasingly mainstream in human rights discourse: Amnesty International (2022), Human Rights Watch (2021), and B'Tselem (Israeli human rights org) have formally characterized Israeli control over Palestinians as apartheid based on: fragmented territorial control (areas A, B, C in West Bank); differential legal systems (Israeli civil law for settlers, military law for Palestinians in same territory); movement restrictions (checkpoints, separation barrier); settlement expansion on Palestinian land. South African apartheid veterans have explicitly made the comparison. The debate over the term is itself politically significant — it reflects the tension between Israel's international support and the documented conditions of occupation.",
     "confidence": "high"
+  },
+  {
+    "id": "indigenous_rights__decolonization_africa",
+    "source": "indigenous_rights",
+    "target": "decolonization_africa",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both challenge European colonial systems and demand sovereignty",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "indigenous_rights__israel_palestine",
+    "source": "indigenous_rights",
+    "target": "israel_palestine",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Indigenous rights frameworks are applied in settler-colonial analyses of the conflict",
+    "confidence": "speculative"
+  },
+  {
+    "id": "indigenous_rights__trail_of_tears",
+    "source": "indigenous_rights",
+    "target": "trail_of_tears",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Trail of Tears created political consciousness driving rights movements",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "colonialism_legacy__indigenous_rights",
+    "source": "colonialism_legacy",
+    "target": "indigenous_rights",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Colonial dispossession gave rise to Indigenous rights movements",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "privacy_rights__surveillance_state",
+    "source": "privacy_rights",
+    "target": "surveillance_state",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Privacy advocates challenge mass surveillance as unconstitutional",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "surveillance_state__privacy_rights",
+    "source": "surveillance_state",
+    "target": "privacy_rights",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Surveillance programs reframe privacy as a threat to security",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "privacy_rights__police_brutality",
+    "source": "privacy_rights",
+    "target": "police_brutality",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both address state power over citizens without accountability",
+    "confidence": "speculative"
+  },
+  {
+    "id": "cancel_culture__postmodernism",
+    "source": "cancel_culture",
+    "target": "postmodernism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Cancel culture debates mirror postmodern disputes over truth and power",
+    "confidence": "speculative"
+  },
+  {
+    "id": "cancel_culture__social_media_radicalization",
+    "source": "cancel_culture",
+    "target": "social_media_radicalization",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both emerge from social media dynamics of public shaming and group reinforcement",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "moral_panic__cancel_culture",
+    "source": "moral_panic",
+    "target": "cancel_culture",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Cancel culture episodes often exhibit classic moral panic dynamics",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "school_to_prison_pipeline__mass_incarceration",
+    "source": "school_to_prison_pipeline",
+    "target": "mass_incarceration",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Zero-tolerance school policies feed directly into carceral system",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "school_to_prison_pipeline__prison_industrial_complex",
+    "source": "school_to_prison_pipeline",
+    "target": "prison_industrial_complex",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "School discipline systems supply labor to private prison industry",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "school_to_prison_pipeline__jim_crow",
+    "source": "school_to_prison_pipeline",
+    "target": "jim_crow",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both use institutional mechanisms to enforce racial hierarchy",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "redlining__wealth_inequality",
+    "source": "redlining",
+    "target": "wealth_inequality",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Decades of denied mortgages prevented Black wealth accumulation across generations",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "redlining__police_brutality",
+    "source": "redlining",
+    "target": "police_brutality",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Segregated neighborhoods created conditions for over-policing and brutality",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "redlining__reparations_debate",
+    "source": "redlining",
+    "target": "reparations_debate",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Redlining is a primary exhibit in reparations arguments for wealth remediation",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "jim_crow__redlining",
+    "source": "jim_crow",
+    "target": "redlining",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Jim Crow racial ideology extended into housing policy through federal programs",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "anti_vaccine_movement__conspiracy_theories",
+    "source": "anti_vaccine_movement",
+    "target": "conspiracy_theories",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Anti-vaccine beliefs are a major vector for health-related conspiracy theories",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "anti_vaccine_movement__tobacco_industry",
+    "source": "anti_vaccine_movement",
+    "target": "tobacco_industry",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both use manufactured doubt and industry-funded science denial tactics",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "anti_vaccine_movement__propaganda",
+    "source": "anti_vaccine_movement",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Anti-vaccine campaigns use propaganda techniques to manufacture doubt and spread fear",
+    "confidence": "confirmed"
   }
 ]

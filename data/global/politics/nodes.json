@@ -1732,5 +1732,131 @@
       "two-state",
       "apartheid"
     ]
+  },
+  {
+    "id": "indigenous_rights",
+    "label": "Indigenous Rights Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1970s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Indigenous_rights",
+    "summary": "Global movement for the political, land, cultural, and self-determination rights of Indigenous peoples, challenging centuries of colonization, forced assimilation, and erasure.",
+    "tags": [
+      "indigenous_rights",
+      "decolonization",
+      "sovereignty",
+      "AIM",
+      "land_rights",
+      "UNDRIP",
+      "First_Nations",
+      "native_american"
+    ]
+  },
+  {
+    "id": "privacy_rights",
+    "label": "Digital Privacy Rights",
+    "node_type": "concept",
+    "category": "concept",
+    "decade": "2000s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Privacy_law",
+    "summary": "The legal and political struggle to protect individual privacy against corporate data collection, government surveillance, and the erosion of informational autonomy in the digital age.",
+    "tags": [
+      "privacy",
+      "GDPR",
+      "data_protection",
+      "surveillance",
+      "civil_liberties",
+      "internet_rights",
+      "tech_regulation",
+      "NSA"
+    ]
+  },
+  {
+    "id": "cancel_culture",
+    "label": "Cancel Culture Debate",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Cancel_culture",
+    "summary": "Social phenomenon where individuals or organizations face public boycotts or ostracism following accusations of offensive behavior. Contested as accountability vs. mob censorship depending on political perspective.",
+    "tags": [
+      "cancel_culture",
+      "social_media",
+      "accountability",
+      "free_speech",
+      "boycott",
+      "woke",
+      "culture_war",
+      "platform"
+    ]
+  },
+  {
+    "id": "school_to_prison_pipeline",
+    "label": "School-to-Prison Pipeline",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1990s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/School-to-prison_pipeline",
+    "summary": "Pattern of policies and practices that push students — disproportionately Black and Latino — from schools into the criminal justice system through zero-tolerance discipline and police presence in schools.",
+    "tags": [
+      "school_to_prison_pipeline",
+      "zero_tolerance",
+      "mass_incarceration",
+      "racial_disparity",
+      "juvenile_justice",
+      "education",
+      "police"
+    ]
+  },
+  {
+    "id": "redlining",
+    "label": "Redlining & Segregation Policy",
+    "node_type": "historical_event",
+    "category": "historical_event",
+    "decade": "1930s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Redlining",
+    "summary": "Government and banking practice that denied mortgages and financial services to Black Americans by marking minority neighborhoods as high-risk, systematically preventing wealth accumulation and creating lasting racial economic inequality.",
+    "tags": [
+      "redlining",
+      "housing_discrimination",
+      "segregation",
+      "racism",
+      "wealth_gap",
+      "HOLC",
+      "FHA",
+      "urban_disinvestment"
+    ]
+  },
+  {
+    "id": "anti_vaccine_movement",
+    "label": "Anti-Vaccine Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1990s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Anti-vaccination_movement",
+    "summary": "Social movement opposing vaccines, fueled by discredited research, distrust of pharmaceutical industry, and conspiracy theories — causing measles resurgences and undermining public health infrastructure globally.",
+    "tags": [
+      "anti_vaccine",
+      "vaccines",
+      "misinformation",
+      "public_health",
+      "conspiracy",
+      "autism",
+      "wakefield",
+      "measles",
+      "hesitancy"
+    ]
   }
 ]

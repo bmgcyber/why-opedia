@@ -4385,5 +4385,90 @@
       "borders",
       "neocolonialism"
     ]
+  },
+  {
+    "id": "suffrage_movement",
+    "label": "Women's Suffrage Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1840s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Women%27s_suffrage",
+    "summary": "The struggle for women's right to vote, spanning 70+ years from the Seneca Falls Convention (1848) to the 19th Amendment (1920) in the US and parallel movements worldwide. Foundation of modern feminist politics.",
+    "tags": [
+      "suffrage",
+      "womens_rights",
+      "voting",
+      "feminism",
+      "seneca_falls",
+      "19th_amendment",
+      "emmeline_pankhurst",
+      "civil_rights"
+    ]
+  },
+  {
+    "id": "black_panthers",
+    "label": "Black Panther Party",
+    "node_type": "organization",
+    "category": "organization",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Panther_Party",
+    "summary": "Marxist revolutionary organization founded 1966 in Oakland by Huey Newton and Bobby Seale. Organized armed community patrols, free breakfast programs, and community health clinics — suppressed by FBI COINTELPRO.",
+    "tags": [
+      "black_panthers",
+      "black_power",
+      "COINTELPRO",
+      "Huey_Newton",
+      "Oakland",
+      "community_organizing",
+      "revolutionary",
+      "FBI"
+    ]
+  },
+  {
+    "id": "cold_war_nuclear_fear",
+    "label": "Cold War Nuclear Fear",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Nuclear_fear",
+    "summary": "Collective psychological and cultural anxiety about nuclear annihilation during the Cold War, shaping civil defense programs, pop culture, protest movements, and arms control negotiations from 1945 through the 1980s.",
+    "tags": [
+      "cold_war",
+      "nuclear_fear",
+      "MAD",
+      "duck_and_cover",
+      "fallout_shelter",
+      "arms_race",
+      "protest",
+      "civil_defense"
+    ]
+  },
+  {
+    "id": "colonialism_legacy",
+    "label": "Colonial Legacy & Ongoing Effects",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Legacy_of_colonialism",
+    "summary": "The enduring political, economic, psychological, and cultural consequences of European colonialism: from arbitrary borders and extractive institutions to ongoing wealth inequality between former colonizers and colonized nations.",
+    "tags": [
+      "colonialism",
+      "post_colonialism",
+      "imperialism",
+      "wealth_gap",
+      "borders",
+      "Africa",
+      "Asia",
+      "global_south",
+      "neo_colonialism"
+    ]
   }
 ]

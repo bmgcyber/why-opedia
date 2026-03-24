@@ -629,5 +629,48 @@
       "feminism",
       "critical race theory"
     ]
+  },
+  {
+    "id": "postmodernism",
+    "label": "Postmodernism",
+    "node_type": "ideology",
+    "category": "ideology",
+    "decade": "1960s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Postmodernism",
+    "summary": "Intellectual and cultural movement rejecting grand narratives, objective truth, and universal values. Influential in academia, art, and politics — critiqued for relativism and weaponized in anti-science discourse.",
+    "tags": [
+      "postmodernism",
+      "deconstruction",
+      "relativism",
+      "foucault",
+      "derrida",
+      "truth",
+      "narrative",
+      "academia",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "social_media_radicalization",
+    "label": "Social Media Radicalization",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Online_radicalization",
+    "summary": "Process by which individuals are drawn toward extreme ideologies through algorithmic recommendation systems, online communities, and targeted propaganda — accelerating political polarization and real-world violence.",
+    "tags": [
+      "radicalization",
+      "social_media",
+      "algorithms",
+      "extremism",
+      "youtube",
+      "online_communities",
+      "polarization",
+      "terrorism"
+    ]
   }
 ]

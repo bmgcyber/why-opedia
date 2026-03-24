@@ -6819,5 +6819,149 @@
     "label": "The pharmaceutical industry has systematically captured the FDA through revolving door, clinical trial funding, and user fee model",
     "note": "Pharmaceutical regulatory capture is systemic: the Prescription Drug User Fee Act (1992) created a system where pharmaceutical companies pay FDA user fees to fund drug review — creating financial dependency; FDA reviewers routinely move to industry positions (revolving door); clinical trials are predominantly funded by pharmaceutical companies rather than independent researchers; medical journal peer review is compromised by industry funding; key opinion leaders (KOLs) are paid as industry speakers while being cited as independent experts. The 2020 opioid crisis congressional investigation documented specific instances of industry influence on FDA drug scheduling and approval decisions. The FDA is the paradigm case of regulatory capture in a life-or-death regulatory context.",
     "confidence": "high"
+  },
+  {
+    "id": "capitalism__supply_side_economics",
+    "source": "capitalism",
+    "target": "supply_side_economics",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Supply-side economics is a policy expression of capitalist ideology",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "capitalism__wealth_inequality",
+    "source": "capitalism",
+    "target": "wealth_inequality",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Market capitalism generates and concentrates wealth inequality without redistribution",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "capitalism__regulatory_capture",
+    "source": "capitalism",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Profit motive creates incentives for corporations to capture regulators",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "capitalism__austerity",
+    "source": "capitalism",
+    "target": "austerity",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Austerity is a tool to protect capital from redistribution pressures",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "capitalism__platform_economy",
+    "source": "capitalism",
+    "target": "platform_economy",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Platform economy is late-stage capitalism applied to digital infrastructure",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "capitalism__automation_economy",
+    "source": "capitalism",
+    "target": "automation_economy",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Profit-driven automation accelerates labor displacement",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "marxism__capitalism",
+    "source": "marxism",
+    "target": "capitalism",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Marxism provides systematic critique of capitalism as exploitative",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "marxism__class_consciousness",
+    "source": "marxism",
+    "target": "social_contract_theory",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both analyze the power relationship between classes and the state",
+    "confidence": "speculative"
+  },
+  {
+    "id": "marxism__labor_movement",
+    "source": "marxism",
+    "target": "labor_movement",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Marxist theory provided intellectual framework for labor organizing",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "algorithmic_bias__surveillance_state",
+    "source": "algorithmic_bias",
+    "target": "surveillance_state",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Biased algorithms amplify surveillance harms against minority communities",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "algorithmic_bias__social_media_radicalization",
+    "source": "algorithmic_bias",
+    "target": "social_media_radicalization",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Engagement-optimizing algorithms funnel users toward extreme content",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "algorithmic_bias__echo_chamber",
+    "source": "algorithmic_bias",
+    "target": "echo_chamber",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Recommendation systems reinforce existing beliefs and segregate audiences",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "platform_economy__wealth_inequality",
+    "source": "platform_economy",
+    "target": "wealth_inequality",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Platform monopolies capture value while gig workers lack protections",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "platform_economy__automation_economy",
+    "source": "platform_economy",
+    "target": "automation_economy",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both erode traditional employment and labor protections",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "automation_economy__wealth_inequality",
+    "source": "automation_economy",
+    "target": "wealth_inequality",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Automation concentrates gains among capital owners while displacing workers",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "automation_economy__social_safety_net",
+    "source": "automation_economy",
+    "target": "social_safety_net",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Automation disruption drives demand for expanded safety nets and UBI",
+    "confidence": "confirmed"
   }
 ]
