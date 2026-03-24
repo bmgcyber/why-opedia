@@ -2005,5 +2005,50 @@
     "label": "Abu Ghraib demonstrated that UDHR-based torture prohibitions fail when states claim emergency national security exceptions",
     "note": "The UDHR (Article 5) and subsequent Convention Against Torture establish absolute prohibition on torture. Abu Ghraib demonstrated the prohibition's limits: the Bush administration's \"torture memos\" (Yoo/Bybee) created legal frameworks claiming that techniques not meeting a narrow torture definition were permissible; the UDHR's absolute prohibition was circumvented through definitional manipulation rather than direct challenge. This is the pattern of human rights law failure under emergency conditions: states rarely argue against human rights norms directly but instead manipulate definitions, claim emergency exceptions, or create extralegal spaces (Guantanamo) where normal legal frameworks do not apply. Abu Ghraib demonstrated the weakness of rights frameworks that depend on good faith definition.",
     "confidence": "high"
+  },
+  {
+    "id": "disability_rights__civil_rights_movement",
+    "source": "disability_rights",
+    "target": "civil_rights_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Disability rights movement explicitly modeled on Civil Rights Movement, with \"nothing about us without us\" replacing \"we shall overcome\"",
+    "note": "The disability rights movement explicitly modeled its legal and political strategy on the Civil Rights Movement: Ed Roberts (wheelchair user who fought UC Berkeley's admissions exclusion in 1962) and Judy Heumann (denied teaching license due to wheelchair in 1970) developed an independent living philosophy that paralleled Black Power's self-determination; the Section 504 sit-in (1977, 26 days occupying San Francisco HEW office — the longest such occupation in US history) deployed direct action borrowed from civil rights; ADAPT (disability direct action group) chained themselves to inaccessible buses; the ADA (1990) was the legislative equivalent of the Civil Rights Act. The strategy transfer was explicit and conscious.",
+    "confidence": "high"
+  },
+  {
+    "id": "disability_rights__conversion_therapy",
+    "source": "disability_rights",
+    "target": "conversion_therapy",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both disability rights and LGBTQ rights challenge the medical establishment's authority to define \"normal\" human variation requiring correction",
+    "note": "Disability rights and LGBTQ rights share the challenge to medical authority: the medical model of disability (disability is individual deficit requiring treatment/cure) is challenged by the social model (disability is the product of social barriers, not individual difference); similarly, homosexuality was removed from DSM in 1973 under pressure from gay rights advocates arguing that same-sex attraction was normal human variation. Both movements challenge medicine's power to define human normality and prescribe correction of deviation. The neurodiversity movement extends this challenge to autism and ADHD. All three represent the same fundamental critique: medical authority should not determine the boundaries of acceptable human variation.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_safety_net__new_deal",
+    "source": "social_safety_net",
+    "target": "new_deal",
+    "type": "PRODUCED",
+    "label": "The New Deal created the foundational institutions of the American social safety net",
+    "note": "The New Deal created the US social safety net's core institutions: Social Security (1935, retirement and disability insurance); Federal Deposit Insurance Corporation (banking protection); unemployment insurance; WPA and CCC (work programs); SEC (securities regulation). These programs created the first comprehensive US social safety net — before the New Deal, the elderly poor often died in poorhouses; workers who lost jobs had no income replacement. The New Deal's safety net was built on the principle that individuals could not be expected to self-insure against systemic economic risks (recession, old age, disability) that required collective insurance mechanisms.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_safety_net__neoliberalism",
+    "source": "social_safety_net",
+    "target": "neoliberalism",
+    "type": "DISCREDITED",
+    "label": "Neoliberalism systematically eroded the social safety net through welfare reform, privatization, and austerity",
+    "note": "Neoliberalism targeted the social safety net as its primary institutional obstacle: Reagan attempted to cut Social Security in 1981 (retreated under political pressure), succeeded in cutting Medicaid and SNAP; Clinton's welfare reform (PRWORA, 1996) replaced AFDC entitlement with TANF block grants, adding work requirements and time limits; Bush attempted Social Security privatization in 2005; state-level Medicaid work requirements, SNAP time limits, and Section 8 waiting lists represent ongoing erosion. The ideological framing: safety net programs create \"dependency\" that reduces work incentives — the moral failure model of poverty applied to social policy. Empirical research consistently fails to find the work disincentive effects neoliberal theory predicts.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_safety_net__welfare_state",
+    "source": "social_safety_net",
+    "target": "welfare_state",
+    "type": "ENABLED",
+    "label": "The social safety net is the American implementation of the welfare state, less comprehensive than European equivalents",
+    "note": "The US social safety net is a partial welfare state: compared to European welfare states (universal healthcare, childcare, housing, generous unemployment, family leave), the US safety net is limited — no universal healthcare (ACA provides partial coverage), minimal childcare support, time-limited unemployment, no federal paid family leave, weak housing assistance. The US welfare state was limited from inception by Southern Democrats who insisted on excluding agricultural and domestic workers (primarily Black) from Social Security and labor protections. The comparative poverty rates — US has the highest poverty among wealthy democracies — reflect this thinner safety net. The safety net vs. welfare state distinction captures the gap between what the US has and what other wealthy democracies have built.",
+    "confidence": "high"
   }
 ]

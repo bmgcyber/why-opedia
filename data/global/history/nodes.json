@@ -4298,5 +4298,26 @@
       "langston hughes",
       "zora neale hurston"
     ]
+  },
+  {
+    "id": "french_revolution_history",
+    "label": "French Revolution",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1780s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/French_Revolution",
+    "summary": "Radical political and social transformation of France (1789-1799); abolished monarchy and feudalism; produced Declaration of Rights of Man; degenerated into the Terror (1793-94) with 40,000+ executions; ended with Napoleon's coup; model for subsequent revolutions.",
+    "tags": [
+      "france",
+      "revolution",
+      "liberty equality fraternity",
+      "robespierre",
+      "terror",
+      "napoleon",
+      "monarchy",
+      "enlightenment"
+    ]
   }
 ]

@@ -527,5 +527,26 @@
       "monopoly",
       "diversity"
     ]
+  },
+  {
+    "id": "internet_and_democracy",
+    "label": "Internet & Democracy",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2000s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Internet_and_democracy",
+    "summary": "The internet's impact on democratic politics: initially celebrated as democratizing information access; subsequently revealed as enabling surveillance, disinformation, and algorithmic radicalization; net effect on democracy is contested and varies by regime type.",
+    "tags": [
+      "internet",
+      "democracy",
+      "social media",
+      "surveillance",
+      "disinformation",
+      "arab spring",
+      "china",
+      "censorship"
+    ]
   }
 ]

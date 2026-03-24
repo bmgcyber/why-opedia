@@ -450,5 +450,32 @@
     "label": "Social media algorithms turned citizen journalism into a double-edged force — real accountability journalism alongside unvetted viral misinformation",
     "note": "Social media platforms amplify citizen journalism through the same engagement optimization that amplifies misinformation: the George Floyd murder was documented by 17-year-old Darnella Frazier's iPhone video (without which prosecution might have failed); police brutality documentation across the BLM era was primarily citizen journalism; but the same dynamics amplify viral misinformation — Plandemic, COVID denialism, election fraud claims — that also originates with non-professional content creators. The distinction between citizen accountability journalism and viral misinformation uses the same distribution infrastructure; platforms cannot amplify one without amplifying the other.",
     "confidence": "high"
+  },
+  {
+    "id": "internet_and_democracy__social_media_algorithms",
+    "source": "internet_and_democracy",
+    "target": "social_media_algorithms",
+    "type": "ENABLED",
+    "label": "The internet's democratic promise was subverted by social media algorithms that optimize for engagement over civic participation",
+    "note": "The internet's initial democratic promise (global information access, decentralized voice, horizontal communication) was fundamentally altered by social media platforms' emergence: the early internet's open architecture was replaced by a few dominant platforms (Facebook, Twitter, YouTube) that algorithmically manage information flow for engagement optimization; the democratizing technology became a radicalization and polarization machine; authoritarian states (China, Russia, Turkey, Hungary) learned to use the same infrastructure for censorship and disinformation. The gap between the internet's democratic potential and its actual political effects reflects the choice to build engagement-optimized platforms rather than information-quality-optimized platforms.",
+    "confidence": "high"
+  },
+  {
+    "id": "internet_and_democracy__broken_epistemology",
+    "source": "internet_and_democracy",
+    "target": "broken_epistemology",
+    "type": "PRODUCED",
+    "label": "The internet disrupted the institutional intermediaries (professional journalism, expert credentialing) that had maintained shared epistemic standards",
+    "note": "The internet produced broken epistemology by eliminating the friction that had previously limited information spread: pre-internet, publishing required institutional backing (newspaper, publishing house, broadcaster) that provided epistemic gatekeeping — not perfect but limiting the most obviously false content; the internet eliminated these gatekeepers, enabling anyone to publish anything at global scale with no quality control; search engines and social media algorithms then amplified content without regard to accuracy; the result is an information environment where conspiracy theories, disinformation, and accurate information are distributed through the same channels without reliable quality signals. The broken epistemology is the internet's fundamental political legacy.",
+    "confidence": "high"
+  },
+  {
+    "id": "internet_and_democracy__great_firewall_china",
+    "source": "internet_and_democracy",
+    "target": "great_firewall_china",
+    "type": "ENABLED",
+    "label": "China's Great Firewall demonstrated that the internet is not inherently democratic — it can be controlled to produce a state-managed information environment",
+    "note": "China's Great Firewall refuted the techno-optimist assumption that the internet was inherently democratizing: the \"Barlow Declaration of Independence of Cyberspace\" (1996) asserted that states could not control the internet; China proved otherwise; the Great Firewall demonstrated that a technically sophisticated state could fragment the global internet into a national intranet, censor political content with reasonable completeness, and use internet infrastructure for surveillance. Other authoritarian states (Russia, Iran, Turkey) have studied and partially adopted the Chinese model. China's success has made the \"internet as democracy technology\" claim untenable — it is a democracy technology when states allow it to be and an authoritarian technology when they choose otherwise.",
+    "confidence": "high"
   }
 ]

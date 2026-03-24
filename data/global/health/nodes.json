@@ -440,5 +440,47 @@
       "inequality",
       "ACA"
     ]
+  },
+  {
+    "id": "neurodiversity",
+    "label": "Neurodiversity Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1990s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Neurodiversity",
+    "summary": "Movement framing neurological differences (autism, ADHD, dyslexia) as natural human variation rather than disorders; challenges deficit model; advocates for accommodation rather than cure; connects to disability rights and anti-psychiatry movements.",
+    "tags": [
+      "autism",
+      "ADHD",
+      "neurodiversity",
+      "disability",
+      "accommodation",
+      "stigma",
+      "diagnosis",
+      "difference vs disorder"
+    ]
+  },
+  {
+    "id": "tobacco_industry",
+    "label": "Tobacco Industry & Public Health",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1950s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Tobacco_industry",
+    "summary": "Tobacco companies knew smoking caused cancer by the 1950s and systematically suppressed the science; developed the disinformation playbook used by climate denial and pharmaceutical industries; Master Settlement Agreement (1998) revealed strategy through document disclosure.",
+    "tags": [
+      "tobacco",
+      "cancer",
+      "disinformation",
+      "merchants of doubt",
+      "nicotine",
+      "lobbying",
+      "master settlement",
+      "public health"
+    ]
   }
 ]

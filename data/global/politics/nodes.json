@@ -1606,5 +1606,47 @@
       "privacy",
       "civil liberties"
     ]
+  },
+  {
+    "id": "disability_rights",
+    "label": "Disability Rights Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1970s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Disability_rights_movement",
+    "summary": "Civil rights movement asserting full political, social, and economic participation for disabled people; produced the Americans with Disabilities Act (1990); \"nothing about us without us\" as organizing principle; challenges medical model with social model of disability.",
+    "tags": [
+      "disability",
+      "ADA",
+      "accessibility",
+      "social model",
+      "independent living",
+      "crip culture",
+      "accommodation",
+      "rights"
+    ]
+  },
+  {
+    "id": "social_safety_net",
+    "label": "Social Safety Net",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1930s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Social_safety_net",
+    "summary": "System of government programs providing income support, healthcare, and services to vulnerable populations (elderly, disabled, unemployed, children); includes Social Security, Medicare, Medicaid, unemployment insurance, food stamps; central battleground of neoliberal vs. Keynesian politics.",
+    "tags": [
+      "welfare state",
+      "social security",
+      "medicare",
+      "medicaid",
+      "unemployment",
+      "food stamps",
+      "poverty",
+      "safety net"
+    ]
   }
 ]

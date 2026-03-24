@@ -543,5 +543,47 @@
       "scapegoating",
       "pogrom"
     ]
+  },
+  {
+    "id": "toxic_masculinity",
+    "label": "Toxic Masculinity",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1980s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Toxic_masculinity",
+    "summary": "Cultural norms of masculinity that harm both men and others: emotional suppression, dominance assertion, violence normalization, homophobia; linked to mental health crises in men, domestic violence, and mass shooting patterns.",
+    "tags": [
+      "masculinity",
+      "gender",
+      "men",
+      "emotional suppression",
+      "violence",
+      "homophobia",
+      "mental health",
+      "culture"
+    ]
+  },
+  {
+    "id": "echo_chamber",
+    "label": "Echo Chambers & Filter Bubbles",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2000s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Echo_chamber_(media)",
+    "summary": "Information environments where people encounter only views confirming their own beliefs; enabled by algorithmic personalization and self-selection; contributes to political polarization and makes viewpoint challenges psychologically alien.",
+    "tags": [
+      "echo chamber",
+      "filter bubble",
+      "confirmation bias",
+      "algorithms",
+      "social media",
+      "polarization",
+      "Eli Pariser",
+      "epistemic"
+    ]
   }
 ]

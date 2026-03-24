@@ -443,5 +443,41 @@
     "label": "Online radicalization is the digital-era instantiation of general radicalization dynamics with accelerated feedback loops",
     "note": "Online radicalization and general radicalization share mechanisms but the internet dramatically accelerates them: geographic isolation is eliminated (a lonely teenager in rural Idaho can access neo-Nazi communities instantly); feedback loops are tightened (content that validates extreme views is algorithmically surfaced faster); anonymity reduces social inhibitions; extremist communities that could never sustain critical mass in physical space can reach global scale online; escalation dynamics operate 24/7 without the natural interruption of offline life. Online radicalization's speed and scale difference from historical radicalization is sufficient to treat it as a qualitatively distinct phenomenon.",
     "confidence": "high"
+  },
+  {
+    "id": "toxic_masculinity__incel_community",
+    "source": "toxic_masculinity",
+    "target": "incel_community",
+    "type": "PRODUCED",
+    "label": "Incel culture represents toxic masculinity reaching its logical extreme — male identity defined entirely by sexual access to women",
+    "note": "Incel culture is toxic masculinity at its ideological extreme: the foundational incel premise — that male worth is determined by sexual access to women, and that men who cannot achieve this access are fundamentally worthless — is the most extreme expression of masculinity defined through dominance and women as objects. Toxic masculinity norms (men should not show vulnerability, men should have sexual conquest, emotional needs should be suppressed) produce the specific pathology: inability to express loneliness except as rage, inability to process rejection except as entitlement violation, inability to value relationships not structured around dominance. Incel violence (Elliot Rodger, Alek Minassian) is toxic masculinity's terminus point.",
+    "confidence": "high"
+  },
+  {
+    "id": "toxic_masculinity__mental_health_stigma",
+    "source": "toxic_masculinity",
+    "target": "mental_health_stigma",
+    "type": "ENABLED",
+    "label": "Toxic masculinity norms (real men are tough, don't need help) are primary drivers of men's mental health treatment avoidance",
+    "note": "Toxic masculinity produces mental health treatment avoidance: research consistently shows men are less likely to seek mental health treatment than women; the primary barrier is not access but stigma from masculinity norms — seeking therapy is framed as weakness, emotional acknowledgment as femininity; men die by suicide at 3-4x the rate of women (higher rates, lower attempt rates) largely because men use more lethal means and delay help-seeking; men's mental health crisis (loneliness epidemic, suicide rates, substance abuse) is substantially exacerbated by the masculine norm that men should handle problems alone. Toxic masculinity's most direct harm may be to men themselves through systematic prevention of help-seeking and emotional expression.",
+    "confidence": "high"
+  },
+  {
+    "id": "echo_chamber__political_polarization",
+    "source": "echo_chamber",
+    "target": "political_polarization",
+    "type": "CAUSED",
+    "label": "Echo chambers produce affective polarization — not just political disagreement but mutual contempt between partisan groups who perceive each other as alien",
+    "note": "Echo chambers produce affective polarization (hostility toward the other party, not just policy disagreement): Eli Pariser's \"Filter Bubble\" (2011) documented how algorithmic personalization created ideologically homogeneous information environments; research shows that partisan media consumption correlates with negative out-group affect more than policy positions; Pew Research documents that partisan hostility is at historic highs — Republicans and Democrats increasingly view each other as threats to the country, not political opponents. Echo chambers make this possible by ensuring people encounter the most extreme and threatening versions of the opposing side (antagonist content generates engagement) without normal context that would humanize political opponents.",
+    "confidence": "high"
+  },
+  {
+    "id": "echo_chamber__social_media_algorithms",
+    "source": "echo_chamber",
+    "target": "social_media_algorithms",
+    "type": "PRODUCED",
+    "label": "Social media algorithms produce echo chambers through engagement optimization — content that confirms existing beliefs generates more interaction",
+    "note": "Social media algorithms produce echo chambers through their optimization logic: content that generates strong reactions (agreement, outrage, disgust) from users produces more engagement metrics (likes, shares, comments); algorithms trained on engagement therefore preferentially serve content that reinforces existing beliefs and triggers strong emotional responses; over time, this produces homogeneous information environments where challenging views are filtered out. Facebook's own internal research (revealed in 2021 \"Facebook Papers\") showed the platform's algorithm amplified divisive content and that algorithm changes to reduce divisiveness also reduced engagement. The echo chamber is not accidental — it is the predictable product of engagement-optimized recommendation systems.",
+    "confidence": "high"
   }
 ]

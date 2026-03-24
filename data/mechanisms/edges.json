@@ -6765,5 +6765,23 @@
     "label": "Abu Ghraib was the most prominent real-world test case for Milgram's findings about authority structure and obedience to torture",
     "note": "Abu Ghraib confirmed Milgram's predictions: the soldiers who tortured detainees were ordinary Americans from normal backgrounds, not sadists; they were operating under an institutional authority structure (chain of command, legal \"torture memos,\" institutional normalization); Philip Zimbardo (Stanford Prison Experiment) analyzed Abu Ghraib systematically in \"The Lucifer Effect\" (2007), demonstrating how situational factors overrode individual moral judgment; investigators found no evidence that abuse was caused by individual pathology — it was institutional. The Abu Ghraib analysis and Milgram/Zimbardo research converge on the same conclusion: ordinary people in institutional authority structures systematically harm others when commanded to, regardless of individual morality.",
     "confidence": "high"
+  },
+  {
+    "id": "addiction_science__war_on_drugs",
+    "source": "addiction_science",
+    "target": "war_on_drugs",
+    "type": "DISCREDITED",
+    "label": "Addiction neuroscience directly contradicts the War on Drugs' moral failure model that justifies criminalization",
+    "note": "Addiction science (brain disease model of addiction, NIDA 1995+) has systematically discredited the War on Drugs' ideological foundation: if addiction is a chronic brain disorder with genetic predisposition and neurobiological mechanism (dopamine reward pathway dysregulation), then criminalizing addicts is equivalent to criminalizing diabetics for their disease; incarceration demonstrably fails as treatment (98% of incarcerated drug users re-use upon release); harm reduction (needle exchange, methadone, naloxone, supervised consumption) prevents death and enables recovery more effectively than criminalization. The scientific evidence against criminalization has been available since the 1970s; the War on Drugs was explicitly designed for political purposes (targeting Black communities and antiwar protesters) rather than in response to scientific evidence.",
+    "confidence": "high"
+  },
+  {
+    "id": "addiction_science__opioid_crisis",
+    "source": "addiction_science",
+    "target": "opioid_crisis",
+    "type": "ENABLED",
+    "label": "Pharmaceutical opioid marketing exploited addiction science — specifically, false claims that OxyContin was not addictive because of its time-release formula",
+    "note": "Purdue Pharma exploited and distorted addiction science: the company's marketing claimed OxyContin's time-release formula prevented addiction (a false claim internally acknowledged by 2000); the single article in a medical journal claiming opioids rarely caused addiction in pain patients (cited 11,000 times) was used to promote widespread prescribing; Purdue paid doctors to speak at \"pain seminars\" presenting opioid prescribing as scientifically validated; the company lobbied to change pain management guidelines. Addiction science was weaponized by the pharmaceutical industry — the same scientific understanding that should have prevented opioid expansion was used selectively to manufacture the appearance of scientific support for aggressive prescribing.",
+    "confidence": "high"
   }
 ]

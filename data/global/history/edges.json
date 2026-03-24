@@ -4651,5 +4651,41 @@
     "label": "The Harlem Renaissance challenged cultural hegemony by producing a thriving Black artistic tradition that claimed equal value with Euro-American culture",
     "note": "The Harlem Renaissance was a direct challenge to cultural hegemony: Euro-American cultural hegemony framed Black culture as derivative, inferior, or absent; the Renaissance produced poetry, literature, jazz, and visual art that demonstrated Black cultural creativity and richness; Langston Hughes's \"I, Too, Sing America\" (1945) directly challenged cultural exclusion; the Renaissance forced white Americans to encounter Black culture on its own terms. The challenge was partial — the Renaissance produced some integration into mainstream cultural institutions while also being celebrated in ways that commodified Black culture for white audiences (Harlem nightclubs catering to white tourists). Cultural hegemony can partially accommodate challenges by assimilating them, which is distinct from being discredited by them.",
     "confidence": "high"
+  },
+  {
+    "id": "scientific_revolution__enlightenment",
+    "source": "scientific_revolution",
+    "target": "enlightenment",
+    "type": "PRODUCED",
+    "label": "The Scientific Revolution's demonstration that reason and evidence could explain nature drove Enlightenment confidence in reason as the basis for human affairs",
+    "note": "The Scientific Revolution produced the Enlightenment's intellectual confidence: Newton's \"Principia Mathematica\" (1687) demonstrated that mathematical reason could explain planetary motion and terrestrial gravity with the same laws — the universe operates by discoverable rational principles; this demonstration that reason could unlock nature's secrets implied reason could also unlock social, political, and moral truth; Locke applied Newtonian empiricism to political philosophy; Voltaire celebrated Newton as demonstrating reason's power; the Philosophes sought to apply scientific method to human affairs. Without the Scientific Revolution's demonstration of reason's power, the Enlightenment's confidence in reason as the basis for social organization would lack empirical foundation.",
+    "confidence": "high"
+  },
+  {
+    "id": "printing_press__scientific_revolution_edge",
+    "source": "printing_press",
+    "target": "scientific_revolution",
+    "type": "ENABLED",
+    "label": "The printing press enabled scientific communication at scale",
+    "note": "This edge connects the printing press to the scientific revolution enabling knowledge accumulation.",
+    "confidence": "high"
+  },
+  {
+    "id": "ottoman_empire__rise_of_islam",
+    "source": "ottoman_empire",
+    "target": "rise_of_islam",
+    "type": "ENABLED",
+    "label": "The Ottoman Empire was the most powerful Muslim state for 600 years, the caliphate that defined Sunni Islamic political authority",
+    "note": "The Ottoman Empire institutionalized Islamic political authority through the caliphate: Ottoman sultans held the Sunni caliphate title from 1517 (conquest of Egypt) until its abolition in 1924 (Ataturk); the empire administered the holy cities of Mecca and Medina, giving it religious authority over global Sunni Islam; Ottoman religious institutions (ulema, Diyanet) shaped Islamic law and practice across three continents; the empire's collapse produced the \"caliphate problem\" that political Islamist movements (including ISIS) have sought to resolve. The Ottoman caliphate was the political institutionalization of the Islamic tradition that began with the Rashidun caliphs.",
+    "confidence": "high"
+  },
+  {
+    "id": "french_revolution__napoleon",
+    "source": "french_revolution",
+    "target": "napoleon_bonaparte",
+    "type": "PRODUCED",
+    "label": "The French Revolution's radicalism and destabilization produced Napoleon as the stabilizing figure who institutionalized revolutionary achievements under imperial authority",
+    "note": "Napoleon was produced by the French Revolution in multiple senses: without the Revolution's meritocratic military culture (any soldier could become marshal; noble birth not required), Napoleon (Corsican minor noble) could not have risen to general by 24; the Revolution's destabilization and Thermidorian reaction created the political vacuum that Napoleon filled; the Consulate's coup (1799) ended revolutionary government but preserved its legal achievements (Napoleonic Code, abolition of feudalism). Napoleon institutionalized the Revolution's transformations — equality before the law, religious tolerance, meritocracy — while ending its democracy. He simultaneously completed and destroyed the Revolution.",
+    "confidence": "high"
   }
 ]

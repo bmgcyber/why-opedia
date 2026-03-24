@@ -2081,5 +2081,26 @@
       "capital",
       "plutocracy"
     ]
+  },
+  {
+    "id": "addiction_science",
+    "label": "Addiction as Disease",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1980s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Addiction",
+    "summary": "Scientific understanding of addiction as a chronic brain disorder with genetic, environmental, and neurobiological components; challenged moral failure model; basis for harm reduction approaches; reveals how criminalization of addiction is scientifically indefensible.",
+    "tags": [
+      "addiction",
+      "neuroscience",
+      "harm reduction",
+      "dopamine",
+      "disease model",
+      "opioids",
+      "recovery",
+      "stigma"
+    ]
   }
 ]

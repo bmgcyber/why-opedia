@@ -400,5 +400,41 @@
     "label": "The opioid crisis was exacerbated by the US healthcare system's fragmented mental health and addiction treatment coverage",
     "note": "The opioid crisis was shaped by healthcare system failures: mental health parity laws were inconsistently enforced, leaving addiction treatment under-covered; the insurance market's preference for cheaper interventions (prescriptions) over more expensive ones (addiction treatment, therapy) incentivized opioid prescribing; fragmented coverage (job-linked insurance) meant people losing jobs during addiction lost healthcare when they needed it most; rural healthcare deserts (products of market failure) had no treatment alternatives to opioid prescriptions. Countries with universal healthcare systems and integrated addiction treatment had significantly lower pharmaceutical opioid death rates even with similar prescribing patterns — access to treatment is the key variable.",
     "confidence": "high"
+  },
+  {
+    "id": "neurodiversity__anti_psychiatry_movement",
+    "source": "neurodiversity",
+    "target": "anti_psychiatry_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Neurodiversity and anti-psychiatry both challenge psychiatric authority to define and treat neurological difference, though from different directions",
+    "note": "Neurodiversity and anti-psychiatry share the challenge to psychiatric diagnostic authority but with key differences: anti-psychiatry (Szasz, Laing, Foucault) critiques all psychiatric diagnosis as social control; neurodiversity accepts autism and ADHD diagnoses as descriptive while rejecting the pathology framing; anti-psychiatry often opposes medication; neurodiversity advocates may support medication chosen by the neurodivergent person. Both challenge the assumption that neurological difference from statistical norms requires clinical intervention. The neurodiversity movement is more pragmatic — seeking accommodation and respect within existing institutions rather than abolishing psychiatric authority entirely.",
+    "confidence": "high"
+  },
+  {
+    "id": "neurodiversity__disability_rights",
+    "source": "neurodiversity",
+    "target": "disability_rights",
+    "type": "ENABLED",
+    "label": "Neurodiversity is the application of disability rights' social model to neurological conditions",
+    "note": "Neurodiversity is disability rights philosophy applied to neurological variation: the social model of disability holds that people are disabled not by their bodies/minds but by social barriers that fail to accommodate variation; neurodiversity applies this to autism (not a disorder requiring cure, but a way of being requiring accommodation), ADHD (not a deficit but a different attentional profile requiring different work environments), and dyslexia (not a reading disorder but a different cognitive style requiring different teaching methods). The ADA already covers many neurodivergent conditions; the neurodiversity movement pushes further to reframe accommodation as normal rather than exceptional. The connection is explicit — many neurodiversity advocates developed their framework directly from disability rights philosophy.",
+    "confidence": "high"
+  },
+  {
+    "id": "tobacco_industry__climate_change_denial",
+    "source": "tobacco_industry",
+    "target": "climate_change_denial",
+    "type": "PRODUCED",
+    "label": "Tobacco industry PR firms and strategies were directly transferred to climate denial campaigns",
+    "note": "The climate denial playbook was explicitly borrowed from tobacco: the \"Tobacco Institute\" model (industry-funded research organization presenting industry position as independent science) was reproduced in the Global Climate Coalition; Hill & Knowlton (tobacco PR) and the same PR professionals who managed tobacco denial consulted on climate denial campaigns; the specific strategy — \"manufacture doubt about scientific consensus rather than prove alternative\" — was developed by tobacco and licensed to other industries; Naomi Oreskes documented that the same scientists who did tobacco denial (Frederick Seitz, Fred Singer) subsequently did climate denial through the same organization (George C. Marshall Institute). The tobacco industry invented the playbook; fossil fuels copied it.",
+    "confidence": "high"
+  },
+  {
+    "id": "tobacco_industry__regulatory_capture",
+    "source": "tobacco_industry",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "Tobacco industry regulatory capture of the FDA delayed classification of nicotine as a drug and tobacco products as drug delivery devices for decades",
+    "note": "Tobacco regulatory capture is the historical precursor to pharmaceutical regulatory capture: the FDA repeatedly attempted to regulate tobacco as a nicotine delivery device (nicotine is pharmacologically active); Congress passed the Family Smoking Prevention and Tobacco Control Act only in 2009 — after decades of failed FDA attempts blocked by tobacco industry lobbying; tobacco companies spent $13 million lobbying in 2009 to shape the bill's provisions; the resulting law was criticized by public health advocates as too weak. The tobacco industry's regulatory capture success (for six decades after cancer causation was established in 1950) became the template for pharmaceutical industry regulatory capture strategies.",
+    "confidence": "high"
   }
 ]
