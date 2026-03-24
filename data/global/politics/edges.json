@@ -693,15 +693,6 @@
     "confidence": "high"
   },
   {
-    "id": "second_vatican_council__liberation_theology",
-    "source": "second_vatican_council",
-    "target": "liberation_theology",
-    "type": "ENABLED",
-    "label": "Vatican II opening to social reality provided the theological space for liberation theology",
-    "note": "Liberation theology emerged directly from the Vatican II atmosphere of openness and the Council injunctions to read the signs of the times. Gutierrez A Theology of Liberation (1971) is unintelligible without the Vatican II permission to engage social and political reality as a theological task.",
-    "confidence": "high"
-  },
-  {
     "id": "evangelical_christianity__prosperity_gospel",
     "source": "evangelical_christianity",
     "target": "prosperity_gospel",
@@ -709,15 +700,6 @@
     "label": "Evangelical emphasis on personal blessing and Scripture interpretation enabled prosperity theology",
     "note": "Prosperity gospel grew within Evangelical and Pentecostal soil: the emphasis on personal relationship with God, the possibility of direct divine blessing, and the right of individuals to interpret Scripture all enabled the prosperity gospel claim that financial blessing follows faithful giving. It is an Evangelical form of theology, not an external imposition.",
     "confidence": "high"
-  },
-  {
-    "id": "liberation_theology__structural_violence",
-    "source": "liberation_theology",
-    "target": "structural_violence",
-    "type": "DISCREDITED",
-    "label": "Liberation theology challenged the framing of poverty as natural rather than structural violence",
-    "note": "Liberation theology explicitly argued that poverty is not a natural condition but the result of unjust social structures — which is the Galtungian concept of structural violence applied theologically. By naming structural sin as the cause of poverty, liberation theology discredited the conservative theological framing of inequality as divinely ordained or morally deserved.",
-    "confidence": "medium"
   },
   {
     "id": "thomas_hobbes__social_contract_theory",

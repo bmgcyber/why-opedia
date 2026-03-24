@@ -476,26 +476,6 @@
     "cross_scope": false
   },
   {
-    "id": "liberation_theology",
-    "label": "Liberation Theology",
-    "node_type": "reference",
-    "category": "movement",
-    "wikipedia": "https://en.wikipedia.org/wiki/Liberation_theology",
-    "summary": "A theological movement originating in Latin America in the late 1960s, most influentially in Gustavo Gutierrez A Theology of Liberation (1971), arguing that Christian salvation is inseparable from liberation of the poor from systemic oppression. Liberation theology reads the Bible from the perspective of the poor (the preferential option for the poor), interprets exodus as a paradigm of divine liberation from political oppression, and uses social science alongside scripture to analyze structural injustice. It inspired Catholic base communities across Latin America, influenced liberation movements in Africa (Black theology) and Asia, and was simultaneously celebrated by progressives and condemned by the Vatican under John Paul II and Cardinal Ratzinger, who accused it of Marxist contamination.",
-    "decade": "1960s",
-    "tags": [
-      "theology",
-      "latin-america",
-      "poverty",
-      "justice",
-      "marxism",
-      "catholicism",
-      "reform"
-    ],
-    "scope": "global/politics",
-    "cross_scope": false
-  },
-  {
     "id": "thomas_hobbes",
     "label": "Thomas Hobbes",
     "node_type": "reference",
