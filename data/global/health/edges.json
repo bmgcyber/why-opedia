@@ -454,5 +454,59 @@
     "label": "Chronic illness management demonstrably benefits from coordinated universal coverage rather than fragmented private insurance",
     "note": "Chronic illness is the primary healthcare utilization driver: 86% of US healthcare spending is for chronic disease; managing chronic conditions (diabetes, heart disease, COPD, mental illness) requires consistent long-term care that private insurance fragmentation actively prevents (insurance switching means no continuity of care; cost-sharing delays care until conditions worsen; prior authorization creates delays in needed treatment). Universal single-payer systems produce better chronic disease outcomes: diabetes management in Canada vs. US shows equivalent clinical guidelines producing better outcomes in Canada because coverage continuity enables consistent management. Chronic illness management is the practical argument for universal coverage.",
     "confidence": "high"
+  },
+  {
+    "id": "opioid_corporate_liability__opioid_crisis",
+    "source": "opioid_corporate_liability",
+    "target": "opioid_crisis",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Corporate misconduct by Purdue Pharma directly created the opioid epidemic",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "opioid_corporate_liability__pharmaceutical_industry",
+    "source": "opioid_corporate_liability",
+    "target": "pharmaceutical_industry",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "The opioid crisis exposed pharmaceutical industry capture of regulation and medicine",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "opioid_corporate_liability__regulatory_capture",
+    "source": "opioid_corporate_liability",
+    "target": "regulatory_capture",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "FDA regulatory failure was central to allowing OxyContin marketing claims",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "mental_health_care_access__mental_health_stigma",
+    "source": "mental_health_care_access",
+    "target": "mental_health_stigma",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Stigma and access barriers reinforce each other in mental health system failure",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "mental_health_care_access__mass_incarceration",
+    "source": "mental_health_care_access",
+    "target": "mass_incarceration",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Lack of mental health care funnels mentally ill people into prisons",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "mental_health_care_access__loneliness_epidemic",
+    "source": "mental_health_care_access",
+    "target": "loneliness_epidemic",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both are crises of social disconnection and system abandonment",
+    "confidence": "speculative"
   }
 ]

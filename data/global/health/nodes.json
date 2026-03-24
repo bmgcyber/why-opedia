@@ -503,5 +503,47 @@
       "long-term care",
       "social determinants"
     ]
+  },
+  {
+    "id": "opioid_corporate_liability",
+    "label": "Opioid Corporate Accountability",
+    "node_type": "historical_event",
+    "category": "historical_event",
+    "decade": "2010s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Opioid_epidemic_in_the_United_States",
+    "summary": "Legal and political reckoning with Purdue Pharma, the Sackler family, and distributors for manufacturing the opioid epidemic through aggressive marketing of OxyContin while suppressing evidence of addiction risk.",
+    "tags": [
+      "opioid",
+      "Purdue_Pharma",
+      "Sackler",
+      "accountability",
+      "pharmaceutical",
+      "addiction",
+      "lawsuit",
+      "corporate_crime"
+    ]
+  },
+  {
+    "id": "mental_health_care_access",
+    "label": "Mental Health Care Access Crisis",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1980s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Mental_health_in_the_United_States",
+    "summary": "Severe shortage of affordable mental health services in the US driven by deinstitutionalization without community replacement, insurance discrimination, and provider shortages — leaving millions without care and contributing to homelessness and incarceration.",
+    "tags": [
+      "mental_health",
+      "deinstitutionalization",
+      "healthcare_access",
+      "insurance",
+      "therapy",
+      "crisis",
+      "homelessness",
+      "psychiatry"
+    ]
   }
 ]

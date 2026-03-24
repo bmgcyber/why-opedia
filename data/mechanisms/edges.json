@@ -6963,5 +6963,149 @@
     "label": "Enabled",
     "note": "Automation disruption drives demand for expanded safety nets and UBI",
     "confidence": "confirmed"
+  },
+  {
+    "id": "surveillance_capitalism__surveillance_state",
+    "source": "surveillance_capitalism",
+    "target": "surveillance_state",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Corporate and state surveillance use same data infrastructure",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "surveillance_capitalism__platform_economy",
+    "source": "surveillance_capitalism",
+    "target": "platform_economy",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Platform monopoly depends on behavioral data extraction for revenue",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "surveillance_capitalism__algorithmic_bias",
+    "source": "surveillance_capitalism",
+    "target": "algorithmic_bias",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Surveillance data trains biased models used for advertising, hiring, and policing",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "surveillance_capitalism__privacy_rights",
+    "source": "surveillance_capitalism",
+    "target": "privacy_rights",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Surveillance capitalism normalizes mass data extraction that privacy advocates challenge",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cognitive_dissonance_effect__conspiracy_theories",
+    "source": "cognitive_dissonance_effect",
+    "target": "conspiracy_theories",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Conspiracy theories resolve cognitive dissonance by providing coherent alternative worldviews",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cognitive_dissonance_effect__radicalization",
+    "source": "cognitive_dissonance_effect",
+    "target": "radicalization",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Dissonance reduction drives deeper commitment as investments in a worldview increase",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cognitive_dissonance_effect__propaganda",
+    "source": "cognitive_dissonance_effect",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Propagandists exploit dissonance to force belief change through repeated exposure",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "learned_helplessness__ptsd",
+    "source": "learned_helplessness",
+    "target": "ptsd",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both involve trauma-induced patterns of passivity and avoidance",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "learned_helplessness__aces",
+    "source": "learned_helplessness",
+    "target": "adverse_childhood_experiences",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Adverse childhood experiences create learned helplessness patterns",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "learned_helplessness__mass_incarceration",
+    "source": "learned_helplessness",
+    "target": "mass_incarceration",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Incarceration induces learned helplessness affecting reintegration prospects",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "scientific_consensus__climate_change_denial",
+    "source": "scientific_consensus",
+    "target": "climate_change_denial",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Science denial playbook pioneered by tobacco was adapted for climate",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "scientific_consensus__tobacco_industry",
+    "source": "scientific_consensus",
+    "target": "tobacco_industry",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Tobacco industry invented the manufactured doubt strategy for science consensus",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "scientific_consensus__anti_vaccine_movement",
+    "source": "scientific_consensus",
+    "target": "anti_vaccine_movement",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Anti-vaccine movement uses same manufactured doubt tactics against vaccine science",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "dark_money__citizens_united",
+    "source": "dark_money",
+    "target": "citizens_united",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Citizens United removed disclosure requirements enabling dark money networks",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "dark_money__regulatory_capture",
+    "source": "dark_money",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Anonymous political spending funds regulatory capture without accountability",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "dark_money__climate_change_denial",
+    "source": "dark_money",
+    "target": "climate_change_denial",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Fossil fuel industry funds climate denial through anonymous nonprofit networks",
+    "confidence": "confirmed"
   }
 ]

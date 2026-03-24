@@ -2249,5 +2249,109 @@
       "labor",
       "future_of_work"
     ]
+  },
+  {
+    "id": "surveillance_capitalism",
+    "label": "Surveillance Capitalism",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "2010s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Surveillance_capitalism",
+    "summary": "Economic logic in which behavioral data is extracted from users without consent and sold as predictions about future behavior. Described by Shoshana Zuboff as a new form of power that treats human experience as raw material for profit.",
+    "tags": [
+      "surveillance_capitalism",
+      "data_extraction",
+      "behavioral_modification",
+      "Google",
+      "Facebook",
+      "Zuboff",
+      "attention_economy",
+      "privacy"
+    ]
+  },
+  {
+    "id": "cognitive_dissonance_effect",
+    "label": "Cognitive Dissonance",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1950s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Cognitive_dissonance",
+    "summary": "Psychological discomfort caused by holding contradictory beliefs or acting against one's values. Often resolved by changing beliefs rather than behavior — exploited in propaganda, cult indoctrination, and political manipulation.",
+    "tags": [
+      "cognitive_dissonance",
+      "Festinger",
+      "belief_change",
+      "rationalization",
+      "propaganda",
+      "psychology",
+      "self_deception"
+    ]
+  },
+  {
+    "id": "learned_helplessness",
+    "label": "Learned Helplessness",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1960s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Learned_helplessness",
+    "summary": "Psychological state in which repeated exposure to uncontrollable negative events leads to passive acceptance even when escape is possible. Seligman's model underpins depression theory and explains political disengagement.",
+    "tags": [
+      "learned_helplessness",
+      "Seligman",
+      "depression",
+      "political_apathy",
+      "trauma",
+      "disempowerment",
+      "conditioning",
+      "psychology"
+    ]
+  },
+  {
+    "id": "scientific_consensus",
+    "label": "Scientific Consensus Denial",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1950s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Denialism",
+    "summary": "Strategy of manufacturing doubt about established scientific consensus through false balance, cherry-picking studies, and funding contrarian research. Used by tobacco, fossil fuel, and pharmaceutical industries to delay regulation.",
+    "tags": [
+      "science_denial",
+      "denialism",
+      "manufactured_doubt",
+      "climate_denial",
+      "tobacco",
+      "fossil_fuels",
+      "media",
+      "lobbying"
+    ]
+  },
+  {
+    "id": "dark_money",
+    "label": "Dark Money in Politics",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "2010s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Dark_money",
+    "summary": "Political spending by nonprofit organizations that are not required to disclose their donors, allowing wealthy individuals and corporations to influence elections and legislation anonymously — vastly expanded after Citizens United.",
+    "tags": [
+      "dark_money",
+      "Citizens_United",
+      "campaign_finance",
+      "oligarchy",
+      "lobbying",
+      "democracy",
+      "Koch_brothers",
+      "elections"
+    ]
   }
 ]

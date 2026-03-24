@@ -1858,5 +1858,47 @@
       "measles",
       "hesitancy"
     ]
+  },
+  {
+    "id": "student_debt_crisis",
+    "label": "Student Debt Crisis",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2000s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Student_debt",
+    "summary": "US student loan debt exceeding $1.7 trillion, driven by college cost explosion, predatory lending, and state disinvestment in public education — leaving millions in decades-long debt bondage that constrains economic mobility.",
+    "tags": [
+      "student_debt",
+      "higher_education",
+      "inequality",
+      "loan_forgiveness",
+      "predatory_lending",
+      "neoliberalism",
+      "youth",
+      "economic_mobility"
+    ]
+  },
+  {
+    "id": "dark_money_politics",
+    "label": "Dark Money Political Networks",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Dark_money",
+    "summary": "Networks of politically active nonprofits funneling undisclosed donor money into elections and policy advocacy — including Koch network, Arabella Advisors, and others reshaping political landscape without accountability.",
+    "tags": [
+      "dark_money",
+      "Koch",
+      "Citizens_United",
+      "oligarchy",
+      "nonprofit",
+      "elections",
+      "campaign_finance",
+      "plutocracy"
+    ]
   }
 ]

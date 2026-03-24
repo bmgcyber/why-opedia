@@ -2311,5 +2311,59 @@
     "label": "Enabled",
     "note": "Anti-vaccine campaigns use propaganda techniques to manufacture doubt and spread fear",
     "confidence": "confirmed"
+  },
+  {
+    "id": "student_debt_crisis__wealth_inequality",
+    "source": "student_debt_crisis",
+    "target": "wealth_inequality",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Student debt locks young workers in debt while wealth concentrates at top",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "student_debt_crisis__austerity",
+    "source": "student_debt_crisis",
+    "target": "austerity",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "State disinvestment in public universities is a form of education austerity",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "student_debt_crisis__social_safety_net",
+    "source": "student_debt_crisis",
+    "target": "social_safety_net",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Student debt crisis exposes gaps in safety net for economic mobility",
+    "confidence": "speculative"
+  },
+  {
+    "id": "dark_money_politics__citizens_united",
+    "source": "dark_money_politics",
+    "target": "citizens_united",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Citizens United ruling enabled dark money political networks to proliferate",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "dark_money_politics__wealth_inequality",
+    "source": "dark_money_politics",
+    "target": "wealth_inequality",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Dark money translates wealth inequality directly into political power",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "dark_money_politics__climate_change_policy",
+    "source": "dark_money_politics",
+    "target": "climate_change_policy",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Fossil fuel dark money funds organizations opposing climate legislation",
+    "confidence": "confirmed"
   }
 ]

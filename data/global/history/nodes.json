@@ -4470,5 +4470,49 @@
       "global_south",
       "neo_colonialism"
     ]
+  },
+  {
+    "id": "reformation_counter_reformation",
+    "label": "Reformation & Counter-Reformation",
+    "node_type": "historical_event",
+    "category": "historical_event",
+    "decade": "1510s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Reformation",
+    "summary": "The 16th century Protestant split from Catholicism triggered by Martin Luther, followed by Catholic institutional reform — reshaping European politics, enabling religious wars, and accelerating print culture and literacy.",
+    "tags": [
+      "Reformation",
+      "Luther",
+      "Protestant",
+      "Counter_Reformation",
+      "Catholic_Church",
+      "religious_wars",
+      "printing_press",
+      "Europe"
+    ]
+  },
+  {
+    "id": "transatlantic_slave_trade",
+    "label": "Transatlantic Slave Trade",
+    "node_type": "historical_event",
+    "category": "historical_event",
+    "decade": "1500s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Atlantic_slave_trade",
+    "summary": "The forced transportation of 12+ million Africans to the Americas between the 16th and 19th centuries. Foundation of New World plantation economies and source of intergenerational trauma, racism, and persistent wealth inequality.",
+    "tags": [
+      "slavery",
+      "transatlantic",
+      "Middle_Passage",
+      "abolition",
+      "racism",
+      "plantation",
+      "cotton",
+      "wealth_inequality",
+      "Africa",
+      "Americas"
+    ]
   }
 ]

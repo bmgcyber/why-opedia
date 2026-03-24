@@ -477,5 +477,113 @@
     "label": "China's Great Firewall demonstrated that the internet is not inherently democratic — it can be controlled to produce a state-managed information environment",
     "note": "China's Great Firewall refuted the techno-optimist assumption that the internet was inherently democratizing: the \"Barlow Declaration of Independence of Cyberspace\" (1996) asserted that states could not control the internet; China proved otherwise; the Great Firewall demonstrated that a technically sophisticated state could fragment the global internet into a national intranet, censor political content with reasonable completeness, and use internet infrastructure for surveillance. Other authoritarian states (Russia, Iran, Turkey) have studied and partially adopted the Chinese model. China's success has made the \"internet as democracy technology\" claim untenable — it is a democracy technology when states allow it to be and an authoritarian technology when they choose otherwise.",
     "confidence": "high"
+  },
+  {
+    "id": "social_media_platforms__social_media_radicalization",
+    "source": "social_media_platforms",
+    "target": "social_media_radicalization",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Platform engagement algorithms systematically promote extremist content",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "social_media_platforms__surveillance_capitalism",
+    "source": "social_media_platforms",
+    "target": "surveillance_capitalism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Social media platforms are the primary vehicle for surveillance capitalism",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "social_media_platforms__echo_chamber",
+    "source": "social_media_platforms",
+    "target": "echo_chamber",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Algorithmic feeds create personalized echo chambers",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "social_media_platforms__russian_disinformation",
+    "source": "social_media_platforms",
+    "target": "russian_disinformation",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Platforms provided infrastructure for state-sponsored disinformation operations",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "social_media_platforms__cancel_culture",
+    "source": "social_media_platforms",
+    "target": "cancel_culture",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Social media amplifies pile-on dynamics enabling cancel culture",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "internet_history__social_media_platforms",
+    "source": "internet_history",
+    "target": "social_media_platforms",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Commercialization of internet infrastructure produced social media as dominant paradigm",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "internet_history__internet_and_democracy",
+    "source": "internet_history",
+    "target": "internet_and_democracy",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Internet expansion raised then complicated democratic participation hopes",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "internet_history__citizen_journalism",
+    "source": "internet_history",
+    "target": "citizen_journalism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Internet gave everyone a publishing platform enabling citizen journalism",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "printing_press__internet_history",
+    "source": "printing_press",
+    "target": "internet_history",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both were information revolutions that disrupted existing power structures",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "algorithmic_news__echo_chamber",
+    "source": "algorithmic_news",
+    "target": "echo_chamber",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Personalized feeds are the primary mechanism creating modern echo chambers",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "algorithmic_news__broken_epistemology",
+    "source": "algorithmic_news",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Algorithmic curation fragments shared reality into personalized information silos",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "algorithmic_bias__algorithmic_news",
+    "source": "algorithmic_bias",
+    "target": "algorithmic_news",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "News curation algorithms inherit biases that distort political information",
+    "confidence": "confirmed"
   }
 ]

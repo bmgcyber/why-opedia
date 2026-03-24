@@ -548,5 +548,46 @@
       "china",
       "censorship"
     ]
+  },
+  {
+    "id": "internet_history",
+    "label": "The Internet & Information Age",
+    "node_type": "historical_event",
+    "category": "historical_event",
+    "decade": "1990s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/History_of_the_Internet",
+    "summary": "The development and popularization of the internet from ARPANET through Web 1.0 to the social media age — transforming commerce, communication, journalism, politics, and warfare while creating new vectors for surveillance and manipulation.",
+    "tags": [
+      "internet",
+      "ARPANET",
+      "world_wide_web",
+      "information_revolution",
+      "digital_divide",
+      "tech_industry",
+      "disruption"
+    ]
+  },
+  {
+    "id": "algorithmic_news",
+    "label": "Algorithmic News Curation",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "2010s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Filter_bubble",
+    "summary": "The process by which social media algorithms and search engines curate news and information based on engagement history, creating filter bubbles that limit exposure to challenging viewpoints and amplify outrage.",
+    "tags": [
+      "filter_bubble",
+      "algorithmic_curation",
+      "Facebook",
+      "Google",
+      "personalization",
+      "echo_chamber",
+      "news",
+      "engagement"
+    ]
   }
 ]

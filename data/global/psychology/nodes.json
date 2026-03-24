@@ -672,5 +672,49 @@
       "polarization",
       "terrorism"
     ]
+  },
+  {
+    "id": "milgram_obedience",
+    "label": "Milgram Obedience Studies",
+    "node_type": "historical_event",
+    "category": "historical_event",
+    "decade": "1960s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Milgram_experiment",
+    "summary": "Stanley Milgram's 1961 experiments showing most ordinary people would administer apparently fatal electric shocks under authority pressure. Provided empirical foundation for understanding how ordinary people participate in atrocities.",
+    "tags": [
+      "Milgram",
+      "obedience",
+      "authority",
+      "psychology",
+      "Holocaust",
+      "Arendt",
+      "genocide",
+      "conformity",
+      "authority_bias"
+    ]
+  },
+  {
+    "id": "dehumanization",
+    "label": "Dehumanization",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1930s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Dehumanization",
+    "summary": "Psychological process of denying full human status to groups through language, imagery, and ideology — a prerequisite for mass violence, genocide, slavery, and systemic discrimination, studied extensively post-Holocaust.",
+    "tags": [
+      "dehumanization",
+      "genocide",
+      "racism",
+      "propaganda",
+      "Holocaust",
+      "psychology",
+      "violence",
+      "othering",
+      "enemy_image"
+    ]
   }
 ]

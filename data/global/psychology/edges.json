@@ -560,5 +560,95 @@
     "label": "Enabled",
     "note": "Engagement algorithms amplify conspiracy content for emotional engagement",
     "confidence": "confirmed"
+  },
+  {
+    "id": "attachment_theory__aces",
+    "source": "attachment_theory",
+    "target": "adverse_childhood_experiences",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "ACEs disrupt secure attachment formation during critical development windows",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "attachment_theory__radicalization",
+    "source": "attachment_theory",
+    "target": "radicalization",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Insecure attachment creates need for belonging that extremist groups exploit",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "attachment_theory__conversion_therapy",
+    "source": "attachment_theory",
+    "target": "conversion_therapy",
+    "type": "PROVIDED_COVER_FOR",
+    "label": "Provided cover for",
+    "note": "Pseudo-therapeutic attachment theories were used to justify conversion therapy",
+    "confidence": "speculative"
+  },
+  {
+    "id": "milgram_obedience__propaganda",
+    "source": "milgram_obedience",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Milgram showed authority compliance enables mass participation in propaganda systems",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "milgram_obedience__dehumanization",
+    "source": "milgram_obedience",
+    "target": "dehumanization",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both explain how ordinary people commit atrocities through psychological mechanisms",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "milgram_obedience__stanley_milgram",
+    "source": "milgram_obedience",
+    "target": "stanley_milgram",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Milgram study is the defining work of Stanley Milgram",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "dehumanization__rwandan_genocide",
+    "source": "dehumanization",
+    "target": "rwandan_genocide",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Radio propaganda dehumanizing Tutsis as cockroaches enabled mass participation",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "dehumanization__armenian_genocide",
+    "source": "dehumanization",
+    "target": "armenian_genocide",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Ottoman propaganda dehumanized Armenians as internal enemy threat",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "dehumanization__slavery",
+    "source": "dehumanization",
+    "target": "transatlantic_slave_trade",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Racial dehumanization of Africans was ideological foundation of slave trade",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "dehumanization__mass_incarceration",
+    "source": "dehumanization",
+    "target": "mass_incarceration",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Dehumanizing language about criminals enables mass incarceration policies",
+    "confidence": "confirmed"
   }
 ]

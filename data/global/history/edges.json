@@ -4876,5 +4876,131 @@
     "label": "Produced",
     "note": "The colonial era directly produced the ongoing structural legacies",
     "confidence": "confirmed"
+  },
+  {
+    "id": "reformation__protestant_reformation_history",
+    "source": "reformation_counter_reformation",
+    "target": "protestant_reformation_history",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Protestant Reformation is the core event of the broader Reformation period",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "reformation__printing_press",
+    "source": "reformation_counter_reformation",
+    "target": "printing_press",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Printing press enabled Luther to disseminate 95 Theses rapidly across Europe",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "reformation__enlightenment",
+    "source": "reformation_counter_reformation",
+    "target": "enlightenment",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Reformation challenge to religious authority created intellectual space for Enlightenment",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "protestant_work_ethic",
+    "source": "reformation_counter_reformation",
+    "target": "capitalism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Weber argued Protestant ethic of hard work and frugality enabled capitalist accumulation",
+    "confidence": "speculative"
+  },
+  {
+    "id": "slave_trade__colonialism",
+    "source": "transatlantic_slave_trade",
+    "target": "colonial_era",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Slave trade and colonialism are interlinked systems of European extraction",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "slave_trade__colonialism_legacy",
+    "source": "transatlantic_slave_trade",
+    "target": "colonialism_legacy",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Slave trade created enduring wealth inequality and structural racism",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "slave_trade__dehumanization",
+    "source": "transatlantic_slave_trade",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Racial dehumanization was developed to justify and sustain slave trade",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "slave_trade__reparations",
+    "source": "transatlantic_slave_trade",
+    "target": "reparations_debate",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Slave trade is the primary historical basis for reparations arguments",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "slave_trade__great_migration",
+    "source": "transatlantic_slave_trade",
+    "target": "great_migration",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Forced migration of enslaved peoples created the African American communities that later migrated north",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "industrial_revolution__capitalism",
+    "source": "industrial_revolution",
+    "target": "capitalism",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Industrial capitalism emerged directly from industrial revolution dynamics",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "industrial_revolution__labor_movement",
+    "source": "industrial_revolution",
+    "target": "labor_movement",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Industrial working conditions created the labor movement and union organizing",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "industrial_revolution__robber_barons",
+    "source": "industrial_revolution",
+    "target": "robber_barons",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Industrial Revolution created conditions for monopoly capitalists",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "industrial_revolution__environmental_degradation",
+    "source": "industrial_revolution",
+    "target": "environmental_degradation",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Fossil fuel industrialization began the environmental crisis still unfolding",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "industrial_revolution__marxism",
+    "source": "industrial_revolution",
+    "target": "marxism",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Industrial capitalism and its conditions inspired Marx to develop his critique",
+    "confidence": "confirmed"
   }
 ]
