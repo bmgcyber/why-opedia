@@ -4313,7 +4313,7 @@
     "id": "utilitarianism__epicureanism",
     "source": "utilitarianism",
     "target": "epicureanism",
-    "type": "SHARES MECHANISM",
+    "type": "SHARES_MECHANISM_WITH",
     "label": "Epicureanism is the ancient precursor to utilitarian pleasure/pain calculus",
     "note": "Epicurus's philosophy (341–270 BCE) — that the good life is the maximization of pleasure (ataraxia — tranquility) and minimization of pain — is the ancient structural precursor to Bentham's utilitarian calculus. Both are hedonistic consequentialist frameworks. The key difference: Epicurus's \"pleasure\" was the absence of pain (aponia/ataraxia), not the maximization of positive pleasure — a proto-negative-utilitarian position.",
     "confidence": "high"

@@ -55,6 +55,9 @@
 
   // ── Enter scope ────────────────────────────────────────────────────────────
   async function enterScope(scopePath) {
+    // 'global' is the full merged world view — delegate to enterGlobalView
+    if (scopePath === 'global') return enterGlobalView();
+
     const { nodes: scopeNodes, edges: scopeEdges } = await loadScope(scopePath);
 
     // Build set of node IDs in this scope
