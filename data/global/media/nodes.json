@@ -322,5 +322,24 @@
     ],
     "scope": "global/media",
     "cross_scope": false
+  },
+  {
+    "id": "televangelism",
+    "label": "Televangelism",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1970s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Televangelism",
+    "summary": "Televangelism — religious broadcasting via television — industrialized evangelical Christianity as a media product. Oral Roberts, Pat Robertson, Jim Bakker, Jimmy Swaggart, and later Joel Osteen built media empires combining prosperity gospel theology, faith healing theater, and direct donation solicitation. The format pioneered many techniques later adopted by political media: personal charismatic authority, emotional manipulation, donor cultivation, and manufactured testimony.",
+    "tags": [
+      "religion",
+      "media",
+      "prosperity-gospel",
+      "evangelicalism",
+      "television",
+      "fundraising"
+    ]
   }
 ]

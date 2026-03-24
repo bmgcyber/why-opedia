@@ -1014,5 +1014,24 @@
     ],
     "scope": "global/politics",
     "cross_scope": false
+  },
+  {
+    "id": "january_6_capitol",
+    "label": "January 6 Capitol Attack",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "2020s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/2021_United_States_Capitol_attack",
+    "summary": "The January 6, 2021 attack on the United States Capitol — in which a mob of Trump supporters breached the building to prevent the certification of the 2020 presidential election — was the first violent disruption of peaceful power transfer in American history. The attack drew on Stop the Steal misinformation, Christian nationalist mobilization, militia networks, and the Stop the Steal rally at the Ellipse. The House Select Committee found Trump directly responsible for inciting the attack.",
+    "tags": [
+      "trump",
+      "insurrection",
+      "democracy",
+      "christian-nationalism",
+      "election-denial",
+      "qanon"
+    ]
   }
 ]
