@@ -442,5 +442,27 @@
       "democratization",
       "algorithmic"
     ]
+  },
+  {
+    "id": "great_firewall_china",
+    "label": "Great Firewall of China",
+    "node_type": "reference",
+    "category": "platform",
+    "decade": "1990s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Firewall",
+    "summary": "The Great Firewall (Golden Shield Project, 1998–present) is China's internet censorship and surveillance infrastructure — blocking Google, Facebook, Twitter, YouTube, Wikipedia, and The New York Times while monitoring all domestic internet activity. It has produced a parallel Chinese internet (WeChat, Weibo, Baidu) that operates under CCP content rules. The Great Firewall is the world's most sophisticated information control system, demonstrating that the internet — contrary to 1990s techno-optimism — can be fragmented along national lines. Its model is being exported: Russia, Iran, North Korea, and others have adopted elements of China's sovereign internet approach.",
+    "tags": [
+      "censorship",
+      "china",
+      "internet",
+      "surveillance",
+      "weibo",
+      "wechat",
+      "sovereignty",
+      "authoritarian",
+      "information-control"
+    ]
   }
 ]

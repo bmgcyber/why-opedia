@@ -5883,5 +5883,122 @@
     "label": "The Democratic Party's support for civil rights produced the party realignment that created today's political polarization geography",
     "note": "The Civil Rights Act (1964) and Voting Rights Act (1965) triggered the party realignment that produced today's polarization: LBJ's signing of the Civil Rights Act caused the solid Democratic South to shift to the Republican Party over the following 30 years. Nixon's Southern Strategy explicitly exploited white Southern resentment of civil rights gains. The result: the Democratic Party became a coalition of racial minorities and educated whites; the Republican Party became predominantly white and less educated. This demographic-ideological sorting — produced by civil rights political realignment — is the structural basis of American political polarization.",
     "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__great_depression",
+    "source": "collective_trauma",
+    "target": "great_depression",
+    "type": "ENABLED",
+    "label": "The Great Depression produced collective trauma that shaped an entire generation's economic behavior and political assumptions for 50 years",
+    "note": "The Depression generation (those who came of age 1929-1939) carried collective economic trauma that shaped behavior for life: obsessive saving, distrust of banks, hoarding behavior, garden plots, and voting patterns that reliably supported the New Deal coalition for 50 years. Tom Brokaw's \"Greatest Generation\" concept is partly a description of Depression-formed character — frugality, stoicism, community obligation — produced by collective economic trauma. The Depression's collective trauma explains why the postwar Keynesian consensus held for 30 years: a generation of voters and politicians who had survived the Depression would not risk repeating it.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_backsliding__great_depression",
+    "source": "democratic_backsliding",
+    "target": "great_depression",
+    "type": "ENABLED",
+    "label": "The Depression enabled democratic backsliding across Europe by creating economic desperation that authoritarian movements exploited",
+    "note": "The Great Depression's political consequence was democratic backsliding across Europe: Germany (Hitler, 1933), Italy (Mussolini already in power but Depression ended liberal opposition), Austria (Dollfuss, 1933), Spain (Franco civil war 1936), Hungary, Romania, and others all moved toward authoritarianism as Depression-era economic desperation discredited liberal democratic parties that had failed to address it. FDR prevented American democratic backsliding by expanding government intervention — the New Deal — at the cost of elite economic interests. The Depression demonstrated that capitalism without adequate state management produces economic crises that destroy the democracies capitalism claims to require.",
+    "confidence": "high"
+  },
+  {
+    "id": "dehumanization__haitian_revolution",
+    "source": "dehumanization",
+    "target": "haitian_revolution",
+    "type": "ENABLED",
+    "label": "Atlantic slavery's systematic dehumanization of enslaved people paradoxically produced the Haitian Revolution's ferocity — people fighting to reclaim their humanity",
+    "note": "The Haitian Revolution's violence — including the 1804 massacre of most remaining white Haitians — cannot be understood without the dehumanization that Atlantic slavery required: a system that treated human beings as livestock for 200 years produced a revolutionary response that matched its brutality. Frederick Douglass argued that American slaveholders were the real creators of slave rebellion's violence by making violence the only language they understood. The Haitian Revolution demonstrates the dialectic of dehumanization: the attempt to dehumanize human beings produces a struggle to reclaim humanity that the dehumanizers experience as incomprehensible violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_trauma__haitian_revolution",
+    "source": "haitian_revolution",
+    "target": "collective_trauma",
+    "type": "PRODUCED",
+    "label": "Haiti's collective trauma from slavery and its aftermath — isolation, debt, foreign intervention — produced the persistent underdevelopment that continues today",
+    "note": "Haiti's post-revolutionary collective trauma is one of history's most sustained: the 1825 French indemnity (Haiti paid France $21B in today's value for French slaveholders' \"lost property\" — meaning the enslaved people themselves — which wasn't fully paid until 1947); the US occupation (1915-1934); the Duvalier dictatorship (1957-1986); and the 2010 earthquake. Haiti's poverty is not an outcome of Haitian culture but of compounded external interventions beginning the moment slavery ended. The trauma of being the only nation in history to pay reparations to slaveholders — and of being isolated and destabilized for demonstrating that enslaved people could govern themselves — is Haiti's defining collective experience.",
+    "confidence": "high"
+  },
+  {
+    "id": "cultural_hegemony__silk_road",
+    "source": "cultural_hegemony",
+    "target": "silk_road",
+    "type": "ENABLED",
+    "label": "The Silk Road was the primary mechanism of cultural hegemony transmission between civilizations for 1600 years",
+    "note": "The Silk Road was not merely a trade route but a cultural hegemony transmission mechanism: dominant civilizational concepts (Chinese bureaucratic techniques, Islamic mathematics and astronomy, Indian zero and decimal system, Greek philosophy via Islamic transmission) spread along trade routes because commercial contact brought cultural contact. The Islamic world's dominance of Silk Road trade 8th-15th centuries made Arabic the Silk Road's intellectual lingua franca — transmitting Islamic scientific and philosophical achievements to both East and West. Cultural hegemony along trade routes is not incidental but structural: commercial dominance enables cultural dominance.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__mccarthyism",
+    "source": "manufactured_consent",
+    "target": "mccarthyism",
+    "type": "ENABLED",
+    "label": "McCarthyism required mass media cooperation to manufacture consent for Communist threat panic that justified political persecution",
+    "note": "McCarthyism was a manufactured consent operation: the media (newspapers, radio, early television) amplified McCarthy's accusations without investigating their basis; mainstream newspapers printed his charges as front-page news before evidence was assessed; the \"he said/she said\" journalistic norm gave Communist accusations equal standing with denials. Edward R. Murrow's See It Now (March 1954) was remarkable because it broke from manufactured consent — actually analyzing McCarthy's claims against evidence — and demonstrated that McCarthy's accusations couldn't withstand factual scrutiny. McCarthyism collapsed when media stopped manufacturing consent for it.",
+    "confidence": "high"
+  },
+  {
+    "id": "in_group_out_group_dynamics__mccarthyism",
+    "source": "in_group_out_group_dynamics",
+    "target": "mccarthyism",
+    "type": "ENABLED",
+    "label": "McCarthyism operated through extreme in-group/out-group dynamics: \"true Americans\" vs. Communist infiltrators",
+    "note": "McCarthyism's psychological mechanism was in-group/out-group dynamics applied to Cold War anxiety: \"loyal Americans\" vs. Communist infiltrators and their \"fellow travelers.\" The genius of McCarthyite accusation was that it targeted people's group identities — being accused of Communist sympathy meant expulsion from the American in-group, with career-ending consequences. The social pressure to publicly distance from accused individuals (lest association imply sympathy) created the cascade of denunciations that destroyed careers. Arthur Miller's \"The Crucible\" (1953) drew the parallel explicitly: McCarthyism and Salem witch trials operated through identical in-group/out-group accusation dynamics.",
+    "confidence": "high"
+  },
+  {
+    "id": "legitimate_grievance_capture__cuban_revolution",
+    "source": "legitimate_grievance_capture",
+    "target": "cuban_revolution",
+    "type": "ENABLED",
+    "label": "Castro's July 26th Movement captured genuine Cuban grievances — US corporate domination, Batista corruption — for communist ideological ends",
+    "note": "The Cuban Revolution succeeded by capturing genuine popular grievances: US corporations owned 40% of Cuba's sugar production and 50% of its utilities; the Batista government was nakedly corrupt and brutal; income inequality was extreme. Castro's July 26th Movement — initially presenting itself as nationalist rather than communist — channeled these legitimate grievances into a revolution that then imposed a communist state. US policy (the embargo, Bay of Pigs) then validated Cuba's anti-imperialist narrative, allowing Castro to maintain popular legitimacy despite the revolution's subsequent authoritarianism. Legitimate grievance capture enabled and sustained the Cuban Revolution.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_contract_theory__new_deal",
+    "source": "social_contract_theory",
+    "target": "new_deal",
+    "type": "ENABLED",
+    "label": "The New Deal was applied social contract theory: government's obligation to ensure minimum welfare in exchange for democratic legitimacy",
+    "note": "The New Deal operationalized social contract theory in American politics: FDR's argument — and subsequent articulation in the Four Freedoms — was that political legitimacy required government to ensure \"freedom from want.\" This was Lockean social contract extended to economic security: citizens exchange political participation for government protection of more than just physical security and property; they are owed protection from economic catastrophe. The New Deal's durability reflected this social contract logic — voters who had survived the Depression understood that government protection from economic disaster was what government was for. Neoliberalism's project was redefining the social contract to exclude economic security.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__george_w_bush",
+    "source": "manufactured_consent",
+    "target": "george_w_bush",
+    "type": "ENABLED",
+    "label": "The Bush administration's WMD case was the most consequential manufactured consent operation in American history",
+    "note": "The Bush administration's case for the Iraq War was manufactured consent at the highest level: Cheney's repeated TV appearances asserting WMD certainty; the White House Iraq Group's deliberate media strategy to \"sell\" the war; the NYT's Judith Miller publishing unchecked WMD claims as front page news; Colin Powell's UN presentation using fabricated intelligence. The Downing Street Memo (leaked 2005) revealed British intelligence knew intelligence was \"being fixed around the policy.\" 4,500 American soldiers and 150,000+ Iraqis died as a direct consequence of this manufactured consent operation. It remains the textbook case for how democratic publics can be misled into war.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_backsliding__roe_v_wade",
+    "source": "democratic_backsliding",
+    "target": "roe_v_wade",
+    "type": "ENABLED",
+    "label": "Dobbs v. Jackson represents democratic backsliding through judicial capture — using court appointments to override majority public opinion on abortion rights",
+    "note": "The overturning of Roe v. Wade via Dobbs (2022) is democratic backsliding through judicial means: polls consistently showed 60-70% of Americans supported abortion rights; Dobbs overrode this majority preference using a Supreme Court whose majority was appointed by presidents who lost the popular vote (Bush in 2000, Trump in 2016) and confirmed by senators representing a minority of Americans. The Federalist Society's 40-year judicial project — systematically selecting and grooming anti-Roe justices — is textbook democratic backsliding: using legitimate institutional processes to achieve outcomes opposed by democratic majorities. Dobbs demonstrates that judicial capture is the most durable form of democratic backsliding.",
+    "confidence": "high"
+  },
+  {
+    "id": "manufactured_consent__great_firewall_china",
+    "source": "manufactured_consent",
+    "target": "great_firewall_china",
+    "type": "ENABLED",
+    "label": "The Great Firewall is the world's most sophisticated infrastructure for manufacturing consent at population scale",
+    "note": "The Great Firewall operationalizes manufactured consent at unprecedented scale: Chinese citizens have access to a curated information environment designed to produce specific political beliefs — that the CCP governs competently, that foreign criticism reflects anti-China bias, that Tiananmen never happened. Unlike Western media manufactured consent (which operates through selective emphasis and framing), the Great Firewall operates through technical censorship, AI monitoring of \"sensitive\" search terms, and real-time content removal. The 50 Cent Army (paid commenters who promote CCP positions) adds active consent manufacturing to passive censorship. Together they produce a population largely supportive of its own information suppression.",
+    "confidence": "high"
+  },
+  {
+    "id": "broken_epistemology__great_firewall_china",
+    "source": "great_firewall_china",
+    "target": "broken_epistemology",
+    "type": "PRODUCED",
+    "label": "The Great Firewall produces a systematically broken epistemology for 1.4 billion people — a national-scale epistemic bubble",
+    "note": "The Great Firewall produces broken epistemology at population scale: Chinese citizens who cannot access Wikipedia, Google, or foreign news sources have systematically different (and systematically false) beliefs about: the Tiananmen Square death toll, the Xinjiang internment camps, Taiwan's international status, and COVID-19's origins. This is not individual epistemological failure but state-engineered mass epistemological manipulation. The COVID-19 pandemic demonstrated this: Chinese citizens had access to government claims about the virus while foreign researchers had access to evidence the government suppressed. The Great Firewall doesn't just create ignorance — it engineers specific false beliefs at national scale.",
+    "confidence": "high"
   }
 ]

@@ -342,5 +342,41 @@
     "label": "Web behavioral data trails made psychographic profiling at scale possible for the first time",
     "note": "Cambridge Analytica's operation was only possible because the web generates behavioral data traces at scale: Facebook's data (likes, follows, sharing patterns) captured the psychological profiles of 87 million users, enabling psychographic micro-targeting that traditional polling could never achieve. Without web infrastructure's passive data collection, there is no Cambridge Analytica — the firm's product (psychological profiles for political targeting) required the web's capacity to passively document human behavior at the scale of billions of interactions.",
     "confidence": "high"
+  },
+  {
+    "id": "tiananmen_square_massacre__great_firewall_china",
+    "source": "tiananmen_square_massacre",
+    "target": "great_firewall_china",
+    "type": "PRODUCED",
+    "label": "The Tiananmen Square massacre's information suppression — and subsequent awareness of the internet's threat — drove Great Firewall development",
+    "note": "The CCP's response to Tiananmen (1989) shaped the Great Firewall's political logic: the massacre's global TV coverage — CNN's live broadcast, the Tank Man photograph — demonstrated that information technology posed an existential threat to authoritarian control. As the internet developed in the 1990s, the CCP developed the Golden Shield Project (Great Firewall) specifically to prevent Tiananmen-type events from being documented and transmitted globally. The Tiananmen precedent — where information technology nearly toppled the CCP — drove the most comprehensive internet censorship infrastructure in history.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_firewall_china__social_media_platforms",
+    "source": "great_firewall_china",
+    "target": "social_media_platforms",
+    "type": "DISCREDITED",
+    "label": "The Great Firewall blocks all Western social media platforms, creating a bifurcated global internet",
+    "note": "The Great Firewall has created the global internet's permanent bifurcation: Google, Facebook, Instagram, Twitter/X, YouTube, Wikipedia, WhatsApp, and The New York Times are all blocked in China. In their place: Baidu (Google), WeChat (Facebook+WhatsApp), Weibo (Twitter), Bilibili (YouTube), Baidu Baike (Wikipedia) — all operating under CCP content rules. This creates a 1.4 billion-person internet ecosystem entirely separate from the global web, with the CCP controlling the information environment of the world's second-largest economy. The Great Firewall demonstrates that internet fragmentation along national sovereignty lines was always possible despite 1990s techno-optimist predictions.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_firewall_china__fox_news",
+    "source": "great_firewall_china",
+    "target": "fox_news",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both create curated information ecosystems that systematically exclude challenging information and reinforce predetermined political narratives",
+    "note": "The Great Firewall and Fox News ecosystem share a functional mechanism: both create curated information environments where citizens have difficulty accessing contradictory information. The Great Firewall uses state technical censorship; Fox News uses selective coverage, framing, and audience self-selection. Both produce audiences who believe their media accurately represents reality while being systematically misinformed on key factual questions (Fox viewers' beliefs about Iraq WMD, COVID, election fraud; Chinese citizens' beliefs about Tiananmen, Xinjiang, Taiwan). The mechanism — curated information ecosystem producing self-reinforcing beliefs — operates at different scales and through different means but produces similar epistemic outcomes.",
+    "confidence": "medium"
+  },
+  {
+    "id": "great_firewall_china__cambridge_analytica",
+    "source": "great_firewall_china",
+    "target": "cambridge_analytica",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both use data surveillance and information control for political manipulation — state vs. corporate versions of the same epistemic control project",
+    "note": "The Great Firewall and Cambridge Analytica represent two models of information-environment manipulation: China uses state infrastructure to monitor and control information systematically; Cambridge Analytica used harvested data to micro-target individuals with psychologically tailored political messaging. Both aim at the same goal: shaping populations' beliefs and political behavior through control of information environment. The difference is scale (1.4B vs. 87M Facebook users) and method (censorship vs. targeting), but the underlying project — using information technology to produce desired political outcomes in populations — is identical.",
+    "confidence": "medium"
   }
 ]

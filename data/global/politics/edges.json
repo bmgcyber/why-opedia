@@ -1213,5 +1213,77 @@
     "label": "Meroitic civilization preserved and transmitted Egyptian pharaonic traditions after Upper Egypt's decline",
     "note": "The Meroitic period (c. 300 BCE – 350 CE) represents the continuation and transformation of Egyptian pharaonic culture in Nubia after Egypt itself had been conquered by Persians, Greeks, and Romans. Meroitic rulers built pyramids, used Egyptian-style temple architecture, adopted pharaonic coronation rituals, and maintained Egyptian religious iconography — while also developing distinct Meroitic traditions (Meroitic script, lion temples). Meroe was the preservation zone for pharaonic culture at a time when Egypt proper was Hellenized and then Romanized.",
     "confidence": "high"
+  },
+  {
+    "id": "franklin_roosevelt__new_deal",
+    "source": "franklin_roosevelt",
+    "target": "new_deal",
+    "type": "PRODUCED",
+    "label": "FDR's New Deal was the most ambitious peacetime expansion of federal government power in American history",
+    "note": "Franklin Roosevelt's New Deal (1933-39) created the modern American administrative state: Social Security (1935), unemployment insurance, FDIC bank deposit insurance, SEC stock market regulation, Wagner Act labor protections, rural electrification, and the WPA's millions of public works jobs. Roosevelt navigated between business interests and labor demands, using the Depression crisis to justify state intervention that had previously been constitutionally contested. The New Deal's coalition — urban workers, African Americans (partially), Southern whites, intellectuals — defined Democratic Party politics for 30 years. Its opponents (Reagan, Tea Party movement) defined themselves against it equally long.",
+    "confidence": "high"
+  },
+  {
+    "id": "new_deal__neoliberalism",
+    "source": "new_deal",
+    "target": "neoliberalism",
+    "type": "ENABLED",
+    "label": "The New Deal's successful state capitalism became the target that neoliberalism defined itself against and ultimately dismantled",
+    "note": "Neoliberalism (Hayek, Friedman, Reagan, Thatcher) defined itself against the New Deal's Keynesian welfare state model: deregulation reversed Glass-Steagall banking regulation (1999); supply-side tax cuts reversed New Deal progressive taxation; privatization reversed New Deal public investment; weakened unions reversed Wagner Act labor protections. The Mont Pelerin Society (1947) was founded specifically to develop an intellectual counter to New Deal-style social democracy. Reagan's \"Government is not the solution; government is the problem\" was the anti-New Deal formulation. Neoliberalism's success was measured in rolling back New Deal institutions one by one from 1980 to 2008.",
+    "confidence": "high"
+  },
+  {
+    "id": "new_deal__military_industrial_complex",
+    "source": "new_deal",
+    "target": "military_industrial_complex",
+    "type": "ENABLED",
+    "label": "The New Deal's administrative state and industrial mobilization infrastructure became the foundation for WWII and Cold War military-industrial complex",
+    "note": "The New Deal's state-building directly enabled the military-industrial complex: New Deal agencies built the administrative capacity (planning, procurement, economic management) that WWII mobilization required; New Deal public works created industrial infrastructure (dams, electricity, highways) that military production used; the New Deal legitimized government-industry coordination that the military-industrial complex institutionalized. Eisenhower warned against the military-industrial complex in 1961 — the very year the New Deal's institutional legacy was being incorporated into permanent Cold War military spending. The New Deal didn't create the military-industrial complex but built the government capacity that enabled it.",
+    "confidence": "medium"
+  },
+  {
+    "id": "george_w_bush__iraq_war_wmd",
+    "source": "george_w_bush",
+    "target": "iraq_war_wmd",
+    "type": "PRODUCED",
+    "label": "Bush administration's manufactured WMD case — presented to the UN by Powell, repeated in presidential speeches — justified the 2003 Iraq invasion",
+    "note": "The Bush administration's case for the Iraq War was built on manufactured evidence: the aluminum tubes claim (attributed to uranium enrichment despite DOE dissent); the Niger yellowcake uranium forgery; the al-Qaeda-Saddam connection claim (without evidence); Curveball's fabricated mobile bioweapons lab testimony. The Iraq Survey Group found no WMD after the invasion. The Chilcot Inquiry (UK) concluded the war's legal basis was \"far from satisfactory.\" Bush's presidency is the definitive case study of how manufactured consent for war operates at the highest levels of government — and how the media ecosystem (NYT's Judith Miller) can become complicit in amplifying false intelligence.",
+    "confidence": "high"
+  },
+  {
+    "id": "september_11_attacks__george_w_bush",
+    "source": "september_11_attacks",
+    "target": "george_w_bush",
+    "type": "ENABLED",
+    "label": "9/11 gave Bush the political space to launch the War on Terror, invade two countries, and construct a surveillance state",
+    "note": "9/11 transformed Bush's presidency: his pre-9/11 approval rating was 51%; post-9/11 it reached 90% — enabling the Authorization for Use of Military Force (AUMF), the PATRIOT Act, the Afghanistan invasion, and ultimately the Iraq War on the theory that Saddam had WMD and terrorist connections. The 9/11 political space lasted long enough to justify all the major War on Terror policies before the WMD fabrication was exposed. Bush's presidency demonstrates how catastrophic events create political permission for actions that would otherwise be impossible — and why manufactured consent requires manufacturing a crisis or exploiting a real one.",
+    "confidence": "high"
+  },
+  {
+    "id": "roe_v_wade__evangelical_christianity",
+    "source": "roe_v_wade",
+    "target": "evangelical_christianity",
+    "type": "ENABLED",
+    "label": "Roe v. Wade transformed evangelical Christianity from largely apolitical to the Republican Party's most powerful constituency",
+    "note": "Roe v. Wade (1973) was the central event in evangelical political mobilization: before Roe, most evangelical Christians were not politically organized around abortion (many supported abortion rights); Roe's constitutional protection of abortion triggered a systematic evangelical political response — Moral Majority (1979), Christian Coalition, Focus on the Family — that made abortion the unifying issue of evangelical politics for 50 years. The Federalist Society's judicial strategy (begun 1982) was largely designed to find justices who would overturn Roe. The 2022 Dobbs decision completing this strategy demonstrates how patient, systematic judicial capture works as a democratic backsliding tool.",
+    "confidence": "high"
+  },
+  {
+    "id": "trump_maga__roe_v_wade",
+    "source": "trump_maga",
+    "target": "roe_v_wade",
+    "type": "DISCREDITED",
+    "label": "Trump's three Supreme Court appointments — Gorsuch, Kavanaugh, Barrett — created the 5-4 majority that overturned Roe v. Wade in Dobbs (2022)",
+    "note": "Trump's most durable institutional legacy was the Dobbs decision: his three Supreme Court appointments (Gorsuch 2017, Kavanaugh 2018, Barrett 2020) created the conservative supermajority that overturned Roe v. Wade in Dobbs v. Jackson Women's Health Organization (June 2022). This fulfilled the promise that motivated evangelical voters to support Trump despite his non-evangelical lifestyle. The Dobbs decision demonstrates how election outcomes have generational judicial consequences — Trump's presidency lasting 4 years produced Supreme Court justices with 30-year terms. The Federalist Society's 40-year judicial project achieved its central goal through Trump's court appointments.",
+    "confidence": "high"
+  },
+  {
+    "id": "roe_v_wade__culture_wars",
+    "source": "roe_v_wade",
+    "target": "culture_wars",
+    "type": "ENABLED",
+    "label": "Roe v. Wade was the organizing center of American culture wars — the issue that made abortion the defining partisan litmus test",
+    "note": "Roe v. Wade organized American culture wars more than any other single ruling: for 50 years (1973-2022), abortion was the issue that sorted voters, politicians, judicial appointments, and party platforms. The Roe fight demonstrates how a single Supreme Court decision can restructure partisan alignment: before Roe, abortion was not consistently partisan; after Roe, it became the defining difference between the parties. The culture wars' specific intensity — the moral absolute quality of the debate — reflects Roe's framing as a constitutional rights question that made compromise structurally difficult.",
+    "confidence": "high"
   }
 ]

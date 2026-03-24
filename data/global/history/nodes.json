@@ -3525,5 +3525,131 @@
       "dictator",
       "gallic-wars"
     ]
+  },
+  {
+    "id": "great_depression",
+    "label": "Great Depression",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1920s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Depression",
+    "summary": "The Great Depression (1929–1939) was the worst economic catastrophe in modern history: US GDP fell 30%, unemployment reached 25%, and bank failures wiped out savings. It was global — spreading through trade contraction and the gold standard — and politically transformative: it brought FDR and the New Deal in the US, Hitler and the NSDAP in Germany, and militarist governments in Japan. The Depression demonstrated that unregulated capitalism could produce systemic collapse, legitimizing state economic intervention for a generation. Its policy lessons — Keynesian stimulus, banking regulation, social safety nets — shaped postwar economic institutions.",
+    "tags": [
+      "economics",
+      "capitalism",
+      "unemployment",
+      "fascism",
+      "keynesian",
+      "fdr",
+      "weimar",
+      "1930s"
+    ]
+  },
+  {
+    "id": "haitian_revolution",
+    "label": "Haitian Revolution",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1790s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Haitian_Revolution",
+    "summary": "The Haitian Revolution (1791–1804) was the only successful slave revolt in history, producing the first Black republic in the Western hemisphere and permanently abolishing slavery in Haiti. Led by Toussaint L'Ouverture and Jean-Jacques Dessalines, it defeated Napoleon's army — the best military force in Europe — and forced France's 1803 Louisiana Purchase (Napoleon needed cash after Haiti's loss). The revolution terrified slaveholding societies across the Americas, producing intense information suppression. Its success demonstrated that enslaved people would fight and die for freedom, challenging the ideological foundation of Atlantic slavery.",
+    "tags": [
+      "slavery",
+      "revolution",
+      "haiti",
+      "atlantic",
+      "toussaint",
+      "napoleon",
+      "abolition",
+      "race"
+    ]
+  },
+  {
+    "id": "silk_road",
+    "label": "Silk Road",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "-100s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Silk_Road",
+    "summary": "The Silk Road (c. 130 BCE–1450 CE) was a network of trade routes connecting China to Central Asia, Persia, Arabia, and the Mediterranean. It transmitted silk, spices, paper, gunpowder, and Buddhism, Islam, and the Black Death westward, while carrying glass, gold, and Christianity eastward. The Mongol Empire's pax mongolica (1200s) enabled its peak period. The Ottoman Empire's control of eastern trade routes after the fall of Constantinople (1453) drove European maritime exploration seeking Silk Road alternatives — producing the Age of Discovery. The Silk Road is the original globalization network.",
+    "tags": [
+      "trade",
+      "globalization",
+      "china",
+      "mongols",
+      "islam",
+      "buddhism",
+      "plague",
+      "columbus",
+      "exploration"
+    ]
+  },
+  {
+    "id": "mccarthyism",
+    "label": "McCarthyism",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/McCarthyism",
+    "summary": "McCarthyism (1950–1956) was the campaign of accusations, blacklists, and government investigations targeting alleged Communist influence in American institutions — led by Senator Joseph McCarthy and fueled by HUAC (House Un-American Activities Committee). It destroyed careers through guilt by association, forced loyalty oaths, and congressional hearings that violated due process. The Hollywood blacklist silenced hundreds of writers, directors, and actors. McCarthyism is the American archetype of manufactured internal enemy panic — demonstrating how national security threat rhetoric suppresses dissent, and how institutional cowardice enables persecution until someone (Edward R. Murrow) publicly names it.",
+    "tags": [
+      "communism",
+      "cold-war",
+      "blacklist",
+      "censorship",
+      "huac",
+      "loyalty-oaths",
+      "dissent",
+      "korea"
+    ]
+  },
+  {
+    "id": "cuban_revolution",
+    "label": "Cuban Revolution",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Cuban_Revolution",
+    "summary": "The Cuban Revolution (1953–1959) brought Fidel Castro and the 26th of July Movement to power, overthrowing the US-backed Batista dictatorship and establishing a communist state 90 miles from Florida. It triggered the Bay of Pigs invasion (1961), the Cuban Missile Crisis (1962), and 60+ years of US embargo. Cuba exported its revolutionary model across Latin America, Africa, and Asia through Che Guevara's campaigns and internationalist military aid. The revolution made Cuba a Cold War flashpoint, demonstrating that small nations could successfully challenge American hegemony in its own backyard and producing one of the Cold War's most durable confrontations.",
+    "tags": [
+      "cuba",
+      "castro",
+      "cold-war",
+      "communism",
+      "revolution",
+      "embargo",
+      "missile-crisis",
+      "latin-america"
+    ]
+  },
+  {
+    "id": "ho_chi_minh",
+    "label": "Ho Chi Minh",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1940s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Ho_Chi_Minh",
+    "summary": "Ho Chi Minh (1890–1969) founded the Viet Minh independence movement, led Vietnam's defeat of France at Dien Bien Phu (1954), and unified North Vietnam as a communist state that eventually defeated the United States in the Vietnam War. A nationalist-communist hybrid, Ho was simultaneously a devoted Marxist-Leninist and an ardent Vietnamese patriot who cited the American Declaration of Independence at Vietnam's 1945 independence declaration. His persistence through 30 years of war — against Japan, France, and the United States — makes him one of the 20th century's most successful anticolonial leaders and a symbol of small-nation resistance to great-power domination.",
+    "tags": [
+      "vietnam",
+      "communism",
+      "decolonization",
+      "anticolonialism",
+      "dien-bien-phu",
+      "cold-war",
+      "guerrilla"
+    ]
   }
 ]

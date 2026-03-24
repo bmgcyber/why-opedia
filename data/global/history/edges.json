@@ -3544,5 +3544,167 @@
     "label": "Athenian imperial wealth under Pericles funded magnificent participation in the Panhellenic games, projecting cultural hegemony",
     "note": "Athens under Pericles (461-429 BCE) used the Panhellenic games — Olympic, Pythian, Isthmian, Nemean — as arenas of cultural and political projection: wealthy Athenians competed in chariot races and other aristocratic events as demonstrations of Athenian power. Alcibiades (Pericles' ward) famously entered seven chariot teams at the 416 BCE Olympics. The games were sites of political propaganda as much as athletic competition — victories were publicized through odes (Pindar) and architectural dedications. Periclean Athens understood the games as a soft power arena for Athenian imperial ambition.",
     "confidence": "medium"
+  },
+  {
+    "id": "world_war_i__great_depression",
+    "source": "world_war_i",
+    "target": "great_depression",
+    "type": "ENABLED",
+    "label": "WWI's war debts, reparations, and economic disruption created the financial fragility that made the Great Depression global",
+    "note": "WWI created the economic conditions for the Depression: Allied war debts to the US (Britain and France owed $10B+); Germany's Versailles reparations ($33B) — which required Germany to borrow from American banks; the collapse of the gold standard's pre-war stability; and European agricultural and industrial disruption. When Wall Street crashed (1929), American banks called in German loans, German banks collapsed, the Weimar Republic's economy imploded, European banks failed in sequence. The Depression was global rather than merely American because of WWI's interlocking debt structure. German economic collapse directly enabled Hitler's rise.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_depression__world_war_ii",
+    "source": "great_depression",
+    "target": "world_war_ii",
+    "type": "ENABLED",
+    "label": "The Great Depression enabled WWII by producing the economic desperation that brought Hitler, Mussolini, and Japanese militarists to power",
+    "note": "The Great Depression was a necessary condition for WWII: Nazi electoral success tracked Germany's unemployment rate (27% in 1932); Mussolini had already seized power (1922) but Depression eliminated liberal opposition; Japanese military adventurism in Manchuria (1931) was partly driven by the economic crisis. Economic desperation produced political radicalization that liberal democratic institutions could not contain. The Depression demonstrated that capitalist economic crisis without adequate state response produces authoritarian political response — the lesson that shaped postwar Keynesian consensus and the welfare state construction.",
+    "confidence": "high"
+  },
+  {
+    "id": "treaty_of_versailles__great_depression",
+    "source": "treaty_of_versailles",
+    "target": "great_depression",
+    "type": "ENABLED",
+    "label": "Versailles reparations created the interlocking debt structure — Germany borrowing from American banks to pay reparations — that collapsed when Wall Street crashed",
+    "note": "The Versailles Treaty's reparations created a circular financial structure: Germany borrowed from American banks (Dawes Plan, 1924) to pay French and British reparations, which France and Britain used to repay American WWI loans. When Wall Street crashed (1929), American banks called in German loans, German banks failed, the reparations flow stopped, and European banks collapsed in sequence. The reparations-debt circuit made the Depression global rather than American. Keynes had warned in \"The Economic Consequences of the Peace\" (1919) that the Versailles reparations structure was economically irrational and politically dangerous — he was right on both counts.",
+    "confidence": "high"
+  },
+  {
+    "id": "atlantic_slave_trade__haitian_revolution",
+    "source": "atlantic_slave_trade",
+    "target": "haitian_revolution",
+    "type": "PRODUCED",
+    "label": "The brutality of Saint-Domingue's plantation slavery system — the most intense in the hemisphere — produced the revolutionary conditions and leadership that ended it",
+    "note": "Saint-Domingue (Haiti) was the most profitable colony in the world (producing 40% of Europe's sugar and 50% of its coffee) and had the most brutal plantation system in the hemisphere — with mortality rates so high that enslaved populations had to be continuously replenished through the slave trade. This brutality produced: massive enslaved population (500,000 vs. 40,000 whites and 30,000 free people of color); enslaved Africans with direct military experience (many were soldiers in Africa); and Toussaint L'Ouverture's military genius, which had been forged in this extreme environment. The Haitian Revolution was the Atlantic slave trade's extreme consequences encountering Enlightenment ideals.",
+    "confidence": "high"
+  },
+  {
+    "id": "french_revolution__haitian_revolution",
+    "source": "french_revolution",
+    "target": "haitian_revolution",
+    "type": "ENABLED",
+    "label": "The French Revolution's Declaration of Rights of Man directly inspired Haitian revolutionary leaders who applied its universalist claims to enslaved people",
+    "note": "The Haitian Revolution was a direct response to the French Revolution's universalist claims: Toussaint L'Ouverture and Jean-Jacques Dessalines invoked the Declaration of the Rights of Man against France's failure to apply it to Saint-Domingue's enslaved population. The French Revolution first abolished slavery in 1794 (under pressure from Haitian forces); Napoleon Bonaparte reinstated it in 1802 and sent 40,000 troops to reconquer Haiti — a decision that cost France 50,000 soldiers to disease and Haitian resistance. The Haitian Revolution exposed the fundamental contradiction of Enlightenment universalism: \"Liberty, Equality, Fraternity\" applied only to free white men unless seized by force.",
+    "confidence": "high"
+  },
+  {
+    "id": "haitian_revolution__decolonization_movement",
+    "source": "haitian_revolution",
+    "target": "decolonization_movement",
+    "type": "ENABLED",
+    "label": "The Haitian Revolution was the template and inspiration for 20th century anticolonial movements — proof that colonial domination could be militarily defeated",
+    "note": "The Haitian Revolution (1804) proved that an enslaved/colonized population could militarily defeat the most powerful European military force — demonstrating the possibility of successful anticolonial struggle that 20th century decolonization movements drew on. C.L.R. James's \"The Black Jacobins\" (1938) — the definitive account — was explicitly written as inspiration for African and Caribbean independence movements. Haitian revolutionary tradition influenced: Marcus Garvey's Pan-Africanism, Frantz Fanon's anticolonial theory, Caribbean independence movements, and African national liberation movements. The Revolution was systematically suppressed from historical memory precisely because of its demonstration that slavery could be ended by the enslaved.",
+    "confidence": "high"
+  },
+  {
+    "id": "haitian_revolution__american_civil_war",
+    "source": "haitian_revolution",
+    "target": "american_civil_war",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both represent enslaved people's violent rejection of chattel slavery — Haiti succeeded in 1804, the US required 60 years more before abolition",
+    "note": "The Haitian Revolution and the American Civil War share the mechanism: enslaved people's organized rejection of chattel slavery through armed struggle. The Haitian Revolution's success terrified American slaveholders — John C. Calhoun and other Southern politicians attributed slave resistance and abolitionist sentiment to \"Haitian contagion,\" and suppressed information about Haiti. The comparison haunted American slavery debates: if Haiti demonstrated enslaved people's capacity for self-liberation and governance, the entire ideological justification for American slavery (enslaved people's unfitness for freedom) was exposed as false. The Civil War was Haiti's deferred consequence in American history.",
+    "confidence": "high"
+  },
+  {
+    "id": "silk_road__black_death",
+    "source": "silk_road",
+    "target": "black_death",
+    "type": "ENABLED",
+    "label": "The Silk Road's trade networks transmitted the Black Death from its Central Asian origin to Europe through Crimean ports",
+    "note": "The Black Death's transmission route followed the Silk Road: the plague (Yersinia pestis) originated in Central Asia/China, traveled along Mongol trade routes westward, reached Crimean port Caffa (1346) — where besieging Mongol forces reportedly catapulted infected corpses into the city — then spread via Genoese trading ships to Constantinople, Sicily, and Europe. The Silk Road's efficiency at moving goods and people made it equally efficient at moving disease. The Black Death demonstrates how trade networks are simultaneously wealth and pathogen transmission networks — a lesson repeated with COVID-19's emergence along 21st century supply chains.",
+    "confidence": "high"
+  },
+  {
+    "id": "mongol_empire__silk_road",
+    "source": "mongol_empire",
+    "target": "silk_road",
+    "type": "ENABLED",
+    "label": "The Mongol Empire's pax mongolica created the safest and most active period of Silk Road trade, enabling East-West cultural transmission",
+    "note": "The Mongol Empire's Pax Mongolica (c. 1260-1350) was the Silk Road's peak period: the Mongols unified the route from China to the Black Sea under a single military protection umbrella, dramatically reducing banditry and political disruption. Marco Polo's journey (1271-95) was only possible because of Mongol security. The Pax Mongolica transmitted: paper currency (from China to Islamic world), gunpowder, printing technology, silk, and the Black Death. The Mongol Empire was paradoxically both the Silk Road's greatest enabler and — through the Black Death's transmission along its routes — its most devastating disruptor.",
+    "confidence": "high"
+  },
+  {
+    "id": "silk_road__renaissance",
+    "source": "silk_road",
+    "target": "renaissance",
+    "type": "ENABLED",
+    "label": "Silk Road goods and classical manuscripts recovered through Islamic contact via trade routes fed Italian Renaissance learning and luxury culture",
+    "note": "The Silk Road contributed to Renaissance preconditions: Italian city-states (Venice, Genoa, Florence) grew wealthy as Mediterranean termini for Silk Road trade, funding the merchant patronage class that sponsored Renaissance art and learning. Arabic manuscripts — including Aristotle, Euclid, and Avicenna — reached Europe through Silk Road commercial and cultural networks. Luxury goods (silk, spices, dyes) that defined Renaissance elite culture arrived via these routes. The Ottoman Empire's capture of Silk Road chokepoints (Constantinople 1453) drove Portuguese and Spanish maritime exploration — Columbus's 1492 voyage was explicitly seeking a western Silk Road alternative.",
+    "confidence": "high"
+  },
+  {
+    "id": "rise_of_islam__silk_road",
+    "source": "rise_of_islam",
+    "target": "silk_road",
+    "type": "ENABLED",
+    "label": "Islamic traders dominated Silk Road commerce from the 8th-15th centuries, transmitting Islamic culture, mathematics, and institutions along trade routes",
+    "note": "From the 8th century CE onward, Islamic merchants dominated Silk Road trade: Arab and Persian traders controlled the western Silk Road routes; Muslim Sogdian merchants operated through Central Asia; the Islamic world served as the transmission belt between Chinese and Mediterranean civilizations. Along Silk Road routes, Islamic civilization transmitted: Arabic numerals (India to Europe), algebra (al-Khwarizmi), astronomical tables, and the paper-making technology from China. Cities like Samarkand, Bukhara, and Baghdad were Silk Road commercial and intellectual hubs. The Silk Road's peak period of cultural transmission was also Islamic civilization's intellectual golden age.",
+    "confidence": "high"
+  },
+  {
+    "id": "korean_war__mccarthyism",
+    "source": "korean_war",
+    "target": "mccarthyism",
+    "type": "ENABLED",
+    "label": "The Korean War created the communist threat panic that McCarthy and HUAC exploited to attack domestic dissent",
+    "note": "The Korean War (1950-53) created the political climate McCarthyism exploited: North Korea's invasion, Mao's China entering the war, and Soviet nuclear testing (1949) created a \"who lost Asia?\" panic that made communist threat accusations politically devastating. McCarthy's Senate career began with his Wheeling speech (February 1950, four months before Korea) but accelerated dramatically after North Korea's invasion demonstrated communist expansionism. The Korean War's domestic political consequence was the suppression of dissent — any questioning of US Cold War policy became vulnerable to communist sympathy accusations. McCarthyism was Korean War domestic political terror.",
+    "confidence": "high"
+  },
+  {
+    "id": "mccarthyism__cointelpro",
+    "source": "mccarthyism",
+    "target": "cointelpro",
+    "type": "ENABLED",
+    "label": "McCarthy's anti-communist campaign built the institutional infrastructure and cultural precedent for COINTELPRO's domestic surveillance of civil rights and anti-war movements",
+    "note": "McCarthyism and COINTELPRO are two phases of the same FBI-led domestic political repression apparatus: McCarthy relied heavily on FBI director J. Edgar Hoover's files for his accusations, and Hoover used McCarthy to legitimize anti-communist surveillance. COINTELPRO (1956-1971) was the formal successor to McCarthyism — using the same surveillance and disruption tools but targeting civil rights (Martin Luther King), antiwar movements, and Black Panthers rather than Communists. Hoover's FBI ran both operations; both used secret surveillance, informants, and career destruction as tools of political suppression. COINTELPRO was McCarthyism with better legal cover and broader targets.",
+    "confidence": "high"
+  },
+  {
+    "id": "mccarthyism__vietnam_war",
+    "source": "mccarthyism",
+    "target": "vietnam_war",
+    "type": "ENABLED",
+    "label": "McCarthyism's political terror of \"who lost China?\" made Democratic presidents unable to consider withdrawal from Vietnam",
+    "note": "McCarthyism directly produced the Vietnam War's political trap: the fear that any Democratic president who \"lost\" Southeast Asia to communism would face McCarthy-style accusations of Communist sympathy paralyzed Vietnam decision-making for 20 years. LBJ explicitly told advisers that withdrawing from Vietnam would produce \"I was the president who lost Vietnam\" — with the political consequences McCarthy had demonstrated were politically devastating. The men who escalated Vietnam (McNamara, Rusk, LBJ) were all veterans of the McCarthy period who understood that losing an Asian country to communism was politically unsurvivable. McCarthyism created the political trap that made Vietnam inevitable.",
+    "confidence": "high"
+  },
+  {
+    "id": "cuban_revolution__cuban_missile_crisis",
+    "source": "cuban_revolution",
+    "target": "cuban_missile_crisis",
+    "type": "PRODUCED",
+    "label": "The Cuban Revolution brought Soviet missiles to Cuba — the Bay of Pigs failure and Soviet-Cuban alliance produced the Missile Crisis",
+    "note": "The Missile Crisis followed directly from the Cuban Revolution: Castro's 1959 revolution and subsequent nationalization of American companies drove Cuba into Soviet alliance; the CIA's Bay of Pigs invasion (April 1961) — a catastrophic failure — convinced Khrushchev that Cuba was vulnerable and pushed Castro deeper into Soviet embrace; Soviet missiles were placed in Cuba (1962) as a deterrent against another American invasion. The Missile Crisis is the Cuban Revolution's Cold War consequence — the US-Soviet confrontation that the Revolution made possible by establishing a communist state in America's sphere of influence.",
+    "confidence": "high"
+  },
+  {
+    "id": "latin_american_dirty_wars__cuban_revolution",
+    "source": "cuban_revolution",
+    "target": "latin_american_dirty_wars",
+    "type": "ENABLED",
+    "label": "Castro's Cuba provided ideological inspiration, military training, and material support for Latin American guerrilla movements that triggered military dirty wars",
+    "note": "The Cuban Revolution directly enabled the Latin American dirty wars: Cuba trained and supported guerrilla movements across Latin America (Che Guevara's Bolivian campaign; Sandinistas; Colombian M-19; Argentine ERP and Montoneros), providing ideological legitimacy for armed leftist insurgency. US-backed military governments justified their dirty wars — Argentina's Proceso (30,000 disappeared), Chile's Pinochet coup, Guatemalan genocide — as anti-communist responses to Cuban-sponsored subversion. Cuba was simultaneously an inspiration for revolutionary movements and the justification for US-sponsored state terror against those movements and anyone associated with them.",
+    "confidence": "high"
+  },
+  {
+    "id": "ho_chi_minh__vietnam_war",
+    "source": "ho_chi_minh",
+    "target": "vietnam_war",
+    "type": "PRODUCED",
+    "label": "Ho Chi Minh's leadership of the Vietnamese independence movement — first against France, then against the US — produced the Vietnam War",
+    "note": "Ho Chi Minh produced the Vietnam War by refusing to accept any outcome short of Vietnamese reunification under communist leadership: defeating France at Dien Bien Phu (1954) established the Democratic Republic of Vietnam in the North; the Geneva Accords' promised 1956 reunification elections (cancelled by US/South Vietnam because Ho would have won) created the political impasse that became war. Ho's genius was framing the war as national liberation rather than communist ideology — making it impossible for the US to distinguish between Vietnamese nationalism and communist subversion, because they were the same movement. Ho died in 1969 before reunification but had designed the strategy that achieved it.",
+    "confidence": "high"
+  },
+  {
+    "id": "decolonization_movement__ho_chi_minh",
+    "source": "decolonization_movement",
+    "target": "ho_chi_minh",
+    "type": "ENABLED",
+    "label": "Ho Chi Minh synthesized Vietnamese nationalism with Marxist-Leninist anti-imperialism into the most successful anticolonial military strategy of the 20th century",
+    "note": "Ho Chi Minh was the most effective practitioner of decolonization as military strategy: trained in Moscow (1923), he applied Leninist vanguard party organization to Vietnamese nationalist movement-building; studied guerrilla warfare theory and translated it into Vietnamese conditions; built a coalition (Viet Minh) that transcended communist ideology by prioritizing national liberation. His success — defeating France (1954) and the United States (1975) with a poor, agrarian nation — became the template for Third World liberation movements during the Cold War. Ho demonstrated that asymmetric warfare, sustained popular support, and patience could defeat vastly superior military forces.",
+    "confidence": "high"
   }
 ]

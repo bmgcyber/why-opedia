@@ -1113,5 +1113,69 @@
       "democratic-backsliding",
       "authoritarianism"
     ]
+  },
+  {
+    "id": "new_deal",
+    "label": "New Deal",
+    "node_type": "reference",
+    "category": "policy",
+    "decade": "1930s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/New_Deal",
+    "summary": "The New Deal (1933–1939) was Franklin Roosevelt's response to the Great Depression: a package of banking regulation (Glass-Steagall), public works (WPA, CCC), labor rights (Wagner Act), agricultural support (AAA), and the Social Security Act (1935). It restructured the relationship between government and economy, establishing the administrative state as a legitimate economic actor. The New Deal's legacy — Keynesian fiscal policy, financial regulation, social insurance — defined American liberalism until Reagan's neoliberal counter-revolution. It remains the contested template for government responses to economic crisis.",
+    "tags": [
+      "fdr",
+      "keynesian",
+      "social-security",
+      "welfare-state",
+      "regulation",
+      "labor",
+      "banking",
+      "depression"
+    ]
+  },
+  {
+    "id": "george_w_bush",
+    "label": "George W. Bush",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "2000s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/George_W._Bush",
+    "summary": "George W. Bush (president 2001–2009) launched the War on Terror after 9/11, invading Afghanistan (2001) and Iraq (2003) based on false WMD intelligence. The Iraq War destabilized the Middle East, enabled ISIS, and killed hundreds of thousands. His administration authorized torture (\"enhanced interrogation\"), mass surveillance (PATRIOT Act), and Guantanamo indefinite detention. The 2003 Iraq invasion was accomplished through a manufactured WMD propaganda campaign — a case study in manufactured consent for war. Bush also cut taxes for the wealthy (Bush tax cuts) and presided over the 2008 financial crisis following deregulation.",
+    "tags": [
+      "iraq-war",
+      "war-on-terror",
+      "9/11",
+      "wmd",
+      "torture",
+      "guantanamo",
+      "patriot-act",
+      "surveillance",
+      "neoconservatism"
+    ]
+  },
+  {
+    "id": "roe_v_wade",
+    "label": "Roe v. Wade",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1970s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Roe_v._Wade",
+    "summary": "Roe v. Wade (1973) was the Supreme Court decision establishing a constitutional right to abortion, triggering 50 years of culture war over reproductive rights. Its 2022 overturning in Dobbs v. Jackson — achieved through Trump's appointment of three Supreme Court justices — is the most significant reversal of a constitutional right in American history. Roe became the central organizing issue of evangelical Christian political mobilization, the culture wars, and the Republican Party's judicial strategy (Federalist Society, court packing). The fight over Roe demonstrates how judicial capture is a long-term democratic backsliding strategy.",
+    "tags": [
+      "abortion",
+      "supreme-court",
+      "evangelical",
+      "culture-wars",
+      "reproductive-rights",
+      "dobbs",
+      "trump",
+      "judicial-capture"
+    ]
   }
 ]
