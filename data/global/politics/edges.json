@@ -1366,5 +1366,77 @@
     "label": "Both represent Counter-Reformation Catholic institutional responses using force — military protection and religious enforcement — to defend papal authority",
     "note": "The Papal Swiss Guard and the Spanish Inquisition represent two modes of Counter-Reformation papal power: the Guard provided physical protection for the papacy after the traumatic Sack of Rome (1527) demonstrated its vulnerability; the Inquisition provided theological enforcement of Catholic doctrine in Spain. Both were responses to the Protestant Reformation's challenge to papal authority — one military, one juridical. The Inquisition operated under papal authorization but was administered by the Spanish crown; the Guard is directly under papal command. Together they represent the Counter-Reformation's strategy of combining military protection with doctrinal enforcement.",
     "confidence": "medium"
+  },
+  {
+    "id": "cold_war__united_nations",
+    "source": "cold_war",
+    "target": "united_nations",
+    "type": "ENABLED",
+    "label": "Cold War superpower competition paralyzed the UN Security Council, shaping the UN around what the US-Soviet veto permitted",
+    "note": "The UN was designed for great power cooperation that the Cold War immediately precluded: US and Soviet Security Council vetoes paralyzed collective security throughout the Cold War, with each superpower blocking actions against its clients. The Korean War was only possible because the Soviet Union was temporarily boycotting the Security Council when North Korea invaded (1950). NATO and the Warsaw Pact were the real Cold War security systems; the UN served primarily through humanitarian agencies and peacekeeping in proxy conflicts where superpowers preferred a neutral face. Cold War competition shaped what the UN could accomplish.",
+    "confidence": "high"
+  },
+  {
+    "id": "united_nations__neoliberalism",
+    "source": "united_nations",
+    "target": "neoliberalism",
+    "type": "ENABLED",
+    "label": "UN-affiliated institutions — IMF, World Bank — became vehicles for imposing neoliberal structural adjustment on developing countries",
+    "note": "The UN's Bretton Woods financial institutions (IMF, World Bank) became neoliberalism's primary enforcement mechanism in the developing world: IMF structural adjustment programs (1980s-2000s) required developing countries to privatize state enterprises, cut social spending, liberalize trade, and deregulate financial sectors as conditions for emergency loans. These conditionality requirements systematically imposed neoliberal policies on countries that had no democratic mandate for them. The \"Washington Consensus\" — neoliberal policy as the universal development recipe — was enforced through World Bank and IMF conditionality on countries with no alternative in debt crisis.",
+    "confidence": "high"
+  },
+  {
+    "id": "united_nations__zionism",
+    "source": "united_nations",
+    "target": "zionism",
+    "type": "ENABLED",
+    "label": "UN General Assembly Resolution 181 (1947) partitioned Palestine, directly producing the Israeli state and the Palestinian refugee crisis",
+    "note": "The UN's Partition Plan (Resolution 181, 1947) was the founding act of both the Israeli state and the Palestinian refugee crisis: dividing Mandatory Palestine into Jewish and Arab states, it was accepted by the Jewish Agency and rejected by Arab states. Israel's Declaration of Independence (1948) cited Resolution 181; the subsequent Arab-Israeli War (1948-49) produced the Nakba — 700,000+ Palestinian refugees. The UN bears institutional responsibility for both: it created the state structure that Zionism had sought while failing to protect Palestinian rights. The UN's 1947 partition decision is the origin point of one of the world's most persistent conflicts.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war__nato",
+    "source": "cold_war",
+    "target": "nato",
+    "type": "PRODUCED",
+    "label": "NATO was the institutional embodiment of Cold War Western containment — collective military deterrence against Soviet conventional superiority",
+    "note": "NATO (1949) was produced by the Cold War's military logic: the Soviet Union had the largest conventional army in Europe; the Western democracies had demobilized; and Soviet expansion into Eastern Europe (1945-48) demonstrated its willingness to use military dominance. NATO's Article 5 collective defense was designed to deter Soviet invasion by making it an attack on the US — triggering nuclear response. The Korean War (1950) transformed NATO from a paper alliance into an actual military organization: Eisenhower became the first Supreme Allied Commander, and US troops were permanently stationed in Europe.",
+    "confidence": "high"
+  },
+  {
+    "id": "nato__fall_of_soviet_union",
+    "source": "nato",
+    "target": "fall_of_soviet_union",
+    "type": "ENABLED",
+    "label": "NATO's military containment and economic pressure contributed to the military overextension that contributed to Soviet collapse",
+    "note": "NATO's contribution to Soviet collapse is debated but real: the Reagan military buildup (SDI, Pershing II missiles in Europe) increased Soviet military spending beyond what its economy could sustain; NATO's conventional deterrence prevented Soviet conventional military adventurism while forcing nuclear parity spending; and NATO's institutional success — demonstrating that democratic alliances could maintain coherence across decades — contrasted with Warsaw Pact coercive unity. Whether NATO \"won\" the Cold War or the Soviet system's internal contradictions were decisive is disputed, but NATO's containment prevented the kind of territorial expansion that might have relieved Soviet economic pressure.",
+    "confidence": "medium"
+  },
+  {
+    "id": "lyndon_johnson__vietnam_war",
+    "source": "lyndon_johnson",
+    "target": "vietnam_war",
+    "type": "ENABLED",
+    "label": "LBJ escalated Vietnam from 16,000 advisers to 550,000 troops using the false Gulf of Tonkin incident as pretext",
+    "note": "Lyndon Johnson transformed Vietnam from a limited advisory commitment into a full-scale war: the Gulf of Tonkin Resolution (August 1964), based on a fabricated second attack on US ships, gave Johnson congressional authority for unlimited escalation. By 1968, 550,000 American troops were in Vietnam; 58,000 would ultimately die; US bombing of Vietnam exceeded all WWII bombing combined. Johnson privately doubted Vietnam was winnable but feared being the president who \"lost\" Vietnam to communism — McCarthyism's shadow. The Tet Offensive (1968) destroyed Johnson's credibility; he withdrew from the 1968 presidential race. Vietnam was LBJ's personal tragedy and the Great Society's political death.",
+    "confidence": "high"
+  },
+  {
+    "id": "civil_rights_movement__lyndon_johnson",
+    "source": "civil_rights_movement",
+    "target": "lyndon_johnson",
+    "type": "ENABLED",
+    "label": "MLK's movement created the political pressure that forced LBJ's hand on the Civil Rights Act and Voting Rights Act",
+    "note": "The Civil Rights Movement enabled LBJ's legislative achievements by creating unmistakable political urgency: the Birmingham campaign's images of police dogs and fire hoses, broadcast nationally, created the political space Johnson needed to push the Civil Rights Act through a resistant Congress. King and Johnson had a complex relationship — King needed Johnson's political mastery; Johnson needed King's movement's moral authority. Selma's Bloody Sunday (March 1965) and the subsequent \"How Long, Not Long\" speech gave Johnson the political moment to sign the Voting Rights Act (August 1965). The Civil Rights Act was as much the Movement's achievement as Johnson's.",
+    "confidence": "high"
+  },
+  {
+    "id": "lyndon_johnson__right_wing_populism",
+    "source": "lyndon_johnson",
+    "target": "right_wing_populism",
+    "type": "ENABLED",
+    "label": "LBJ's Civil Rights Acts drove white Southern Democrats to the Republican Party, creating the right-wing populist coalition",
+    "note": "LBJ's signing of the Civil Rights Act reportedly led him to say \"We have lost the South for a generation\" — it turned out to be longer. The Democratic Party's association with Black civil rights triggered the partisan realignment that produced modern right-wing populism: the Solid Democratic South began voting Republican in presidential elections (Goldwater, 1964) and eventually state and local elections (1990s-2000s). Nixon's Southern Strategy explicitly exploited this realignment. Reagan's welfare queen and \"states' rights\" rhetoric continued it. The white working-class populist base of today's Republican Party was substantially produced by the political fallout from LBJ's civil rights achievements.",
+    "confidence": "high"
   }
 ]

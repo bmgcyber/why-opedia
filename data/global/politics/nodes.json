@@ -1177,5 +1177,66 @@
       "trump",
       "judicial-capture"
     ]
+  },
+  {
+    "id": "united_nations",
+    "label": "United Nations",
+    "node_type": "reference",
+    "category": "policy",
+    "decade": "1940s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/United_Nations",
+    "summary": "The United Nations (founded 1945) is the primary international institution for collective security, human rights, and global governance. Built on the failures of the League of Nations, it established the Security Council (with great power veto), the Universal Declaration of Human Rights (1948), the Genocide Convention, and specialized agencies (WHO, UNICEF, UNESCO). The UN's fundamental tension — state sovereignty vs. human rights, Security Council veto vs. collective action — has made it more effective at humanitarian work than conflict prevention. It legitimized decolonization, established international human rights law, and created the diplomatic infrastructure of the rules-based international order.",
+    "tags": [
+      "international",
+      "sovereignty",
+      "human-rights",
+      "security-council",
+      "peacekeeping",
+      "cold-war",
+      "decolonization"
+    ]
+  },
+  {
+    "id": "nato",
+    "label": "NATO",
+    "node_type": "reference",
+    "category": "policy",
+    "decade": "1940s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/NATO",
+    "summary": "The North Atlantic Treaty Organization (1949) is the US-led military alliance that contained Soviet power in Europe during the Cold War and remains the world's most powerful military alliance. Article 5's collective defense clause made an attack on any member an attack on all — deterring Soviet conventional military aggression in Europe. NATO's expansion after the Cold War (from 16 to 32 members) to include former Soviet satellites was central to Russia's justification for the 2022 Ukraine invasion. NATO demonstrates how Cold War institutions outlast their original context and generate new conflicts through their persistence.",
+    "tags": [
+      "cold-war",
+      "military",
+      "collective-defense",
+      "europe",
+      "russia",
+      "ukraine",
+      "expansion",
+      "deterrence"
+    ]
+  },
+  {
+    "id": "lyndon_johnson",
+    "label": "Lyndon B. Johnson",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1960s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Lyndon_B._Johnson",
+    "summary": "Lyndon Baines Johnson (president 1963–1969) passed the most significant civil rights legislation since Reconstruction — the Civil Rights Act (1964) and Voting Rights Act (1965) — and built the Great Society welfare state (Medicare, Medicaid, Head Start). He also escalated Vietnam War involvement from 16,000 advisers (1963) to 550,000 troops (1968), using the false Gulf of Tonkin incident as justification. LBJ's presidency represents the Democratic Party's liberal apex and its simultaneous Vietnam catastrophe: the president who achieved the most progressive domestic agenda also ended the New Deal coalition by alienating the white South with civil rights and the middle class with Vietnam.",
+    "tags": [
+      "civil-rights",
+      "vietnam",
+      "great-society",
+      "medicare",
+      "medicaid",
+      "voting-rights",
+      "gulf-of-tonkin"
+    ]
   }
 ]

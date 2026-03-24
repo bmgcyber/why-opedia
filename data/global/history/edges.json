@@ -3931,5 +3931,59 @@
     "label": "Churchill's imperial values — believing in British civilizational superiority — produced the Bengal famine policy and resistance to Indian independence",
     "note": "Churchill's relationship to the British Empire reveals the limits of his heroism: he was an unreconstructed imperialist who believed in white European civilizational superiority. His 1943 Bengal famine (3 million dead) was worsened by his diversion of food supplies away from India and rejection of relief requests; he viewed Indian lives as less important than British war resources. He opposed Indian independence vehemently; privately called Gandhi a \"half-naked fakir.\" Churchill represents the paradox of WWII heroism: the man who saved liberal democracy from fascism did so while defending an empire built on racial hierarchy incompatible with those same values.",
     "confidence": "high"
+  },
+  {
+    "id": "woodrow_wilson__treaty_of_versailles",
+    "source": "woodrow_wilson",
+    "target": "treaty_of_versailles",
+    "type": "PRODUCED",
+    "label": "Wilson's Fourteen Points shaped Versailles in theory but the Allied powers ignored his self-determination principle for non-European peoples",
+    "note": "The Treaty of Versailles was simultaneously Wilson's greatest achievement (the League of Nations) and failure: Wilson's Fourteen Points proposed a non-punitive peace, but Clemenceau's France and Lloyd George's Britain demanded German punishment — reparations, war guilt clause, territorial losses. Wilson traded these concessions for the League of Nations, believing international law would correct the peace's flaws. The US Senate's subsequent rejection of the League (Henry Cabot Lodge's reservations) destroyed Wilson's synthesis. His health collapsed during the ratification fight (stroke, 1919); his wife Edith effectively ran the White House during his incapacitation.",
+    "confidence": "high"
+  },
+  {
+    "id": "woodrow_wilson__decolonization_movement",
+    "source": "woodrow_wilson",
+    "target": "decolonization_movement",
+    "type": "ENABLED",
+    "label": "Wilson's self-determination principle — intended for European nations — was applied by colonized peoples as justification for independence",
+    "note": "Wilson's Fourteen Points' \"self-determination\" principle was intended for European nationalities (Czechs, Poles, South Slavs) but colonized peoples immediately applied it universally: Ho Chi Minh submitted a petition to the Versailles Conference demanding Vietnamese self-determination; African and Asian delegations at Versailles expected Wilson's principle to apply to them; the Korean independence movement (March First Movement, 1919) invoked it explicitly. When Wilson's self-determination was applied only to white Europeans while colonized peoples were redistributed between imperial powers, the betrayal radicalized anticolonial movements — including Ho Chi Minh, who moved from Wilsonian petitioner to Leninist revolutionary.",
+    "confidence": "high"
+  },
+  {
+    "id": "world_war_i__woodrow_wilson",
+    "source": "world_war_i",
+    "target": "woodrow_wilson",
+    "type": "PRODUCED",
+    "label": "WWI gave Wilson the opportunity to reshape international order on liberal principles — and his failure to do so shaped the 20th century",
+    "note": "WWI produced Wilson's historical role: his \"too proud to fight\" neutrality through 1917, then \"war to end all wars\" idealism, positioned him as the moral arbiter of postwar peace. Wilson's moment at Versailles (January-June 1919) — when a US President participated directly in European peace negotiations for the first time — was the high-water mark of American liberal internationalism. His failure (League rejected, health collapsed, Versailles punitive despite Fourteen Points) demonstrates how idealistic foreign policy frameworks encounter the realities of European power politics. Wilson's Versailles experience shaped both American isolationism (1920s-30s) and the UN's more realistic institutional design.",
+    "confidence": "high"
+  },
+  {
+    "id": "woodrow_wilson__league_of_nations",
+    "source": "woodrow_wilson",
+    "target": "league_of_nations",
+    "type": "PRODUCED",
+    "label": "Wilson's Fourteen Points created the League of Nations concept — and his failure to achieve US Senate ratification ensured it couldn't function",
+    "note": "Wilson both created and destroyed the League of Nations: his Fourteen Points (January 1918) established collective security as the postwar framework; his personal negotiation at Versailles inserted the League Covenant into the treaty; and his inability to compromise with Senate Republican reservations — a product of partisan stubbornness and declining health — ensured US non-participation. The League without the US (the world's largest economy and potential military) had insufficient economic or military power to enforce collective security decisions. Wilson's vision of a liberal international order was correct; his political failure in achieving US participation was the 20th century's most consequential missed opportunity.",
+    "confidence": "high"
+  },
+  {
+    "id": "league_of_nations__united_nations",
+    "source": "league_of_nations",
+    "target": "united_nations",
+    "type": "PRODUCED",
+    "label": "The UN was deliberately designed to correct League of Nations failures: universal membership, binding enforcement, Security Council with veto",
+    "note": "The United Nations was explicitly designed as the League of Nations' successor, learning from its failures: where the League required unanimous Council decisions, the UN Security Council operated by majority with great power veto — making decisions possible (if vetoed by nuclear powers); where the US was absent from the League, Roosevelt ensured US leadership in founding the UN; where the League had no military enforcement mechanism, the UN Charter created the theoretical basis for collective military action. The UN's design reflects the specific lessons of how the League failed — though the Cold War immediately created new failure modes the UN designers hadn't anticipated.",
+    "confidence": "high"
+  },
+  {
+    "id": "league_of_nations__world_war_ii",
+    "source": "league_of_nations",
+    "target": "world_war_ii",
+    "type": "ENABLED",
+    "label": "The League's failure to stop Japanese and Italian aggression (1931-36) taught Hitler that collective security was a paper tiger",
+    "note": "The League of Nations' failures in the 1930s enabled WWII by demonstrating that aggression faced no effective response: Japan invaded Manchuria (1931), the League condemned it but imposed no sanctions — Japan left the League and kept Manchuria; Italy invaded Ethiopia (1935-36), the League imposed limited sanctions that didn't include oil — Mussolini completed the conquest. These failures taught Hitler that collective security was rhetoric without enforcement: German remilitarization (1936), annexation of Austria (1938), and seizure of Czechoslovakia (1938-39) each faced only League protests. The League's failure of nerve made WWII aggression rational.",
+    "confidence": "high"
   }
 ]

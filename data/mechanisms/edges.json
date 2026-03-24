@@ -6198,5 +6198,68 @@
     "label": "The British Empire was imperialism's largest expression — the most successful colonial-extraction system in history at its peak",
     "note": "The British Empire was imperialism's highest development: larger than any previous empire, more systematically organized for resource extraction, and more durable than its competitors. British imperialism's innovations — joint-stock company colonialism (East India Company), free trade imperialism (forcing open markets while protecting domestic industry), scientific racism (legitimizing extraction through racial hierarchy theory), and indirect rule (using local elites to minimize administrative costs) — became the models for subsequent imperial practice. The British Empire was not uniquely cruel by historical standards, but its scale and systematic organization made it the defining example of imperialism's economic and human consequences.",
     "confidence": "high"
+  },
+  {
+    "id": "dog_whistle_politics__war_on_drugs",
+    "source": "dog_whistle_politics",
+    "target": "war_on_drugs",
+    "type": "ENABLED",
+    "label": "Nixon and Reagan's War on Drugs language was explicitly designed as racial dog whistle — associating Black people with crime",
+    "note": "Nixon aide John Ehrlichman confessed (2016, posthumously published): \"The Nixon campaign in 1968...had two enemies: the antiwar left and Black people...We knew we couldn't make it illegal to be either against the war or Black, but by getting the public to associate the hippies with marijuana and Blacks with heroin, and then criminalizing both heavily, we could disrupt those communities.\" Reagan's \"welfare queen\" and \"crack epidemic\" crime rhetoric repeated this pattern. The War on Drugs was substantially a dog whistle political project — using drug enforcement language to implement racially targeted policing without overtly racist legal language.",
+    "confidence": "high"
+  },
+  {
+    "id": "dog_whistle_politics__trump_maga",
+    "source": "dog_whistle_politics",
+    "target": "trump_maga",
+    "type": "ENABLED",
+    "label": "MAGA rhetoric evolved from coded racial dog whistles to increasingly explicit racist language as Trump tested how explicit was permissible",
+    "note": "Trump's racial politics represent a progression from dog whistle to bullhorn: early coded language (\"inner cities,\" \"rapists coming over the border\") gradually gave way to more explicit statements as each escalation proved politically survivable. Trump tested the dog whistle logic — that racism could only be politically deployed through code — by moving toward increasingly explicit racial language and finding his coalition held or strengthened. MAGA demonstrates that political dog whistles are calibrated instruments: when the audience has been prepared and the opposition is normalized as the enemy, the code can become more explicit without electoral cost.",
+    "confidence": "high"
+  },
+  {
+    "id": "dog_whistle_politics__voter_suppression_modern",
+    "source": "dog_whistle_politics",
+    "target": "voter_suppression_modern",
+    "type": "ENABLED",
+    "label": "\"Election integrity\" and \"voter fraud\" are dog whistle framings for race-targeted voter suppression",
+    "note": "\"Voter fraud\" rhetoric functions as a dog whistle for racial voter suppression: claims of widespread voter fraud are concentrated in jurisdictions with large minority populations (urban counties in swing states); the \"election integrity\" measures enacted in response (strict voter ID, reduced polling locations, limited drop boxes) disproportionately burden minority voters who vote Democratic. The fraud claims have been tested in 60+ courts and failed; the suppression effects are documented by the Brennan Center. \"Voter fraud\" serves as the dog whistle justification for measures that would face explicit legal challenge if framed as \"we need to reduce Black voter turnout.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "gaslighting__narcissistic_abuse",
+    "source": "gaslighting",
+    "target": "narcissistic_abuse",
+    "type": "ENABLED",
+    "label": "Gaslighting is the primary psychological weapon of narcissistic abusers — making victims doubt their perception of abuse",
+    "note": "Gaslighting is the defining feature of narcissistic abuse: abusers deny, minimize, and distort documented abusive behavior (\"that never happened\"; \"you're too sensitive\"; \"you're crazy\") until victims doubt their own perceptions and become dependent on the abuser's version of reality. This psychological disorientation serves the abuser's control: victims who can't trust their own memory or perception can't assess whether the relationship is abusive. Narcissistic abuse literature identifies gaslighting as the mechanism that converts isolated incidents of abuse into a sustained control dynamic — making the victim complicit in interpreting abuse as love.",
+    "confidence": "high"
+  },
+  {
+    "id": "gaslighting__trump_maga",
+    "source": "gaslighting",
+    "target": "trump_maga",
+    "type": "ENABLED",
+    "label": "Trump's \"alternative facts,\" election fraud denial, and documented event denial represent gaslighting as political strategy",
+    "note": "Trump's political communication systematically uses gaslighting: denying documented video evidence (\"I never said that\"); insisting that clear electoral defeats were victories (\"we won\"); claiming that widely-witnessed events didn't occur (COVID downplaying, Charlottesville \"very fine people\" denial). Kellyanne Conway's \"alternative facts\" formulation named the strategy. Gaslighting works politically because the constant contradiction of documented reality creates cognitive overload in audiences — exhausting the capacity to fact-check every claim. Trump's political strength is partly his willingness to contradict reality so consistently that opponents seem obsessive for tracking it.",
+    "confidence": "high"
+  },
+  {
+    "id": "gaslighting__manufactured_consent",
+    "source": "gaslighting",
+    "target": "manufactured_consent",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both gaslighting and manufactured consent operate by controlling what people believe they have perceived and experienced",
+    "note": "Gaslighting (individual psychological manipulation) and manufactured consent (mass media manipulation) share the mechanism of controlling perceived reality: gaslighting makes individuals doubt what they experienced; manufactured consent makes populations doubt what they observe. Both work by substituting authoritative narrative for individual perception; both require sustained repetition to overcome the target's actual experience; and both produce a psychological state where the target's own perception becomes unreliable to them. The political weaponization of gaslighting — \"alternative facts\" — is manufactured consent at the individual psychological level, using a relationship dynamic to achieve what propaganda achieves at population scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "gaslighting__historical_revisionism",
+    "source": "gaslighting",
+    "target": "historical_revisionism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Historical revisionism is collective gaslighting — making societies doubt their documented collective experiences",
+    "note": "Historical revisionism operates at the collective level using the same mechanism as individual gaslighting: replacing documented experience with a preferred narrative that serves the reviser's interests. The Lost Cause mythology denied the Confederacy was about slavery (contradicted by Confederate declarations explicitly stating it); Holocaust denial denies the best-documented genocide; Japanese textbook revisionism minimized the Nanjing Massacre and \"comfort women\" system. These are collective gaslighting — making societies doubt what their collective historical record documents. The mechanism works the same way: enough authoritative repetition erodes confidence in documented experience, especially when direct witnesses die.",
+    "confidence": "high"
   }
 ]

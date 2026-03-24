@@ -1815,5 +1815,45 @@
       "dependency",
       "democracy"
     ]
+  },
+  {
+    "id": "dog_whistle_politics",
+    "label": "Dog Whistle Politics",
+    "node_type": "reference",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Dog_whistle_(politics)",
+    "summary": "Dog whistle politics uses coded language that conveys a specific meaning to a target audience while appearing innocuous to others — allowing politicians to mobilize prejudice while maintaining plausible deniability. Nixon's \"law and order\" (Black crime); Reagan's \"welfare queen\" (Black dependency); \"states' rights\" (segregation); \"illegal aliens\" (Latino criminality); \"inner city problems\" (Black poverty) all function as racial dog whistles heard by the intended audience while sounding policy-neutral to others. The mechanism allows racial grievance mobilization without explicit racism — enabling political racism while denying it.",
+    "tags": [
+      "racism",
+      "coded-language",
+      "politics",
+      "nixon",
+      "reagan",
+      "southern-strategy",
+      "deniability",
+      "wedge-issues"
+    ]
+  },
+  {
+    "id": "gaslighting",
+    "label": "Gaslighting",
+    "node_type": "reference",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Gaslighting",
+    "summary": "Gaslighting is a form of psychological manipulation in which a person or group causes another to question their own perceptions, memories, or sanity. The term originates from the 1944 film Gaslight, in which a husband manipulates his wife into doubting her senses. Applied to political and social contexts, gaslighting includes: denying documented events (\"there were very fine people on both sides\"); insisting victims are overreacting (\"you're being too sensitive\"); contradicting clear evidence (\"alternative facts\"); and institutional denial of systemic harm. Gaslighting is the psychological mechanism of manufactured doubt applied to personal and collective experience.",
+    "tags": [
+      "manipulation",
+      "psychology",
+      "abuse",
+      "narcissism",
+      "denial",
+      "alternative-facts",
+      "trauma",
+      "power"
+    ]
   }
 ]

@@ -3777,5 +3777,45 @@
       "locke",
       "hobbes"
     ]
+  },
+  {
+    "id": "woodrow_wilson",
+    "label": "Woodrow Wilson",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1910s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Woodrow_Wilson",
+    "summary": "Woodrow Wilson (president 1913–1921) shaped the 20th century international order through WWI leadership and the Fourteen Points' \"self-determination\" principle, which inspired decolonization movements while being applied exclusively to European peoples. Wilson established the League of Nations framework — then failed to get US Senate ratification, making the US absent from its creation. Wilson also re-segregated the federal government, screened Birth of a Nation at the White House, and reversed Black civil service gains. He represents the progressive era's contradictions: internationalist in foreign policy, white supremacist in domestic racial politics.",
+    "tags": [
+      "wwi",
+      "league-of-nations",
+      "self-determination",
+      "segregation",
+      "fourteen-points",
+      "versailles",
+      "racism"
+    ]
+  },
+  {
+    "id": "league_of_nations",
+    "label": "League of Nations",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1910s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/League_of_Nations",
+    "summary": "The League of Nations (1920–1946) was Wilson's post-WWI collective security institution — the first attempt at global governance — that failed to prevent WWII. The US Senate's rejection left the League without its most powerful intended member; it also excluded Germany and Soviet Russia. The League failed its crucial tests: Japan's Manchuria invasion (1931), Italy's Ethiopia invasion (1935-36), and German remilitarization (1936) all went unchallenged. Its failure produced the insight that international institutions require binding enforcement mechanisms and great power participation to function — the lesson that shaped the UN's stronger (if still limited) design.",
+    "tags": [
+      "international",
+      "wwii-cause",
+      "collective-security",
+      "wilson",
+      "versailles",
+      "appeasement",
+      "sovereignty"
+    ]
   }
 ]
