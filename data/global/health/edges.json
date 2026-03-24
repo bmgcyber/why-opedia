@@ -436,5 +436,23 @@
     "label": "Tobacco industry regulatory capture of the FDA delayed classification of nicotine as a drug and tobacco products as drug delivery devices for decades",
     "note": "Tobacco regulatory capture is the historical precursor to pharmaceutical regulatory capture: the FDA repeatedly attempted to regulate tobacco as a nicotine delivery device (nicotine is pharmacologically active); Congress passed the Family Smoking Prevention and Tobacco Control Act only in 2009 — after decades of failed FDA attempts blocked by tobacco industry lobbying; tobacco companies spent $13 million lobbying in 2009 to shape the bill's provisions; the resulting law was criticized by public health advocates as too weak. The tobacco industry's regulatory capture success (for six decades after cancer causation was established in 1950) became the template for pharmaceutical industry regulatory capture strategies.",
     "confidence": "high"
+  },
+  {
+    "id": "chronic_illness_policy__adverse_childhood_experiences",
+    "source": "chronic_illness_policy",
+    "target": "adverse_childhood_experiences",
+    "type": "ENABLED",
+    "label": "ACE research demonstrates that chronic illness is substantially produced by social conditions, requiring policy responses upstream of medical treatment",
+    "note": "Chronic illness policy is transformed by ACE research: if high-ACE individuals have dramatically elevated chronic disease risk regardless of individual health behaviors, then chronic disease prevention requires addressing the social conditions that produce ACEs (poverty, domestic violence, substance abuse, incarceration) rather than only targeting individual-level behavior change. This \"upstream\" logic challenges the healthcare system's downstream focus (treating disease after it occurs); public health approaches using ACE screening and trauma-informed care are more cost-effective than managing chronic conditions in adulthood. ACE-informed chronic illness policy integrates social determinants of health into disease prevention in ways that challenge the medical model's individualism.",
+    "confidence": "high"
+  },
+  {
+    "id": "chronic_illness_policy__single_payer_healthcare",
+    "source": "chronic_illness_policy",
+    "target": "single_payer_healthcare",
+    "type": "ENABLED",
+    "label": "Chronic illness management demonstrably benefits from coordinated universal coverage rather than fragmented private insurance",
+    "note": "Chronic illness is the primary healthcare utilization driver: 86% of US healthcare spending is for chronic disease; managing chronic conditions (diabetes, heart disease, COPD, mental illness) requires consistent long-term care that private insurance fragmentation actively prevents (insurance switching means no continuity of care; cost-sharing delays care until conditions worsen; prior authorization creates delays in needed treatment). Universal single-payer systems produce better chronic disease outcomes: diabetes management in Canada vs. US shows equivalent clinical guidelines producing better outcomes in Canada because coverage continuity enables consistent management. Chronic illness management is the practical argument for universal coverage.",
+    "confidence": "high"
   }
 ]

@@ -1648,5 +1648,89 @@
       "poverty",
       "safety net"
     ]
+  },
+  {
+    "id": "mass_incarceration",
+    "label": "Mass Incarceration",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1970s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Incarceration_in_the_United_States",
+    "summary": "US has world's highest incarceration rate; 2.3 million incarcerated (2020), disproportionately Black and Latino; produced by War on Drugs, mandatory minimums, three-strikes laws; Michelle Alexander's \"The New Jim Crow\" frames it as racial control system.",
+    "tags": [
+      "prison",
+      "mass incarceration",
+      "war on drugs",
+      "mandatory minimum",
+      "racial justice",
+      "prison industrial complex",
+      "michelle alexander"
+    ]
+  },
+  {
+    "id": "stonewall",
+    "label": "Stonewall Riots",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1960s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Stonewall_riots",
+    "summary": "June 1969 uprising by LGBTQ patrons against police raid at the Stonewall Inn, Greenwich Village; catalyzed the modern LGBTQ rights movement; produced Gay Liberation Front, Gay Activists Alliance; marked by transgender women and drag queens of color leading the resistance.",
+    "tags": [
+      "stonewall",
+      "lgbtq",
+      "1969",
+      "police",
+      "gay liberation",
+      "marsha p johnson",
+      "transgender",
+      "resistance"
+    ]
+  },
+  {
+    "id": "second_wave_feminism",
+    "label": "Second Wave Feminism",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1960s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Second-wave_feminism",
+    "summary": "Feminist movement (1960s-1980s) broadening from suffrage to reproductive rights, workplace equality, domestic violence, and the personal-is-political; Betty Friedan, Gloria Steinem, Simone de Beauvoir; produced Roe v. Wade, Title IX, workplace harassment law.",
+    "tags": [
+      "feminism",
+      "womens liberation",
+      "reproductive rights",
+      "title ix",
+      "ERA",
+      "Betty Friedan",
+      "Gloria Steinem",
+      "consciousness raising"
+    ]
+  },
+  {
+    "id": "israel_palestine",
+    "label": "Israel-Palestine Conflict",
+    "node_type": "conflict",
+    "category": "conflict",
+    "decade": "1940s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_conflict",
+    "summary": "Ongoing conflict between Israeli state and Palestinian people over land, sovereignty, and rights; rooted in 1948 establishment of Israel and displacement of 700,000 Palestinians (Nakba); characterized by occupation, settlements, blockade, and periodic wars.",
+    "tags": [
+      "israel",
+      "palestine",
+      "occupation",
+      "settlements",
+      "nakba",
+      "Gaza",
+      "West Bank",
+      "two-state",
+      "apartheid"
+    ]
   }
 ]

@@ -2050,5 +2050,86 @@
     "label": "The social safety net is the American implementation of the welfare state, less comprehensive than European equivalents",
     "note": "The US social safety net is a partial welfare state: compared to European welfare states (universal healthcare, childcare, housing, generous unemployment, family leave), the US safety net is limited — no universal healthcare (ACA provides partial coverage), minimal childcare support, time-limited unemployment, no federal paid family leave, weak housing assistance. The US welfare state was limited from inception by Southern Democrats who insisted on excluding agricultural and domestic workers (primarily Black) from Social Security and labor protections. The comparative poverty rates — US has the highest poverty among wealthy democracies — reflect this thinner safety net. The safety net vs. welfare state distinction captures the gap between what the US has and what other wealthy democracies have built.",
     "confidence": "high"
+  },
+  {
+    "id": "mass_incarceration__war_on_drugs",
+    "source": "mass_incarceration",
+    "target": "war_on_drugs",
+    "type": "PRODUCED",
+    "label": "The War on Drugs directly produced mass incarceration through mandatory minimums, three-strikes laws, and aggressive prosecution",
+    "note": "Mass incarceration is substantially a product of War on Drugs policy: US incarceration rates were similar to Western Europe until the mid-1970s; the sharp divergence began with Nixon's drug war and accelerated under Reagan (mandatory minimums 1986, three-strikes 1994 crime bill); drug offenses now constitute 45% of federal prison population; the crack/powder cocaine sentencing disparity (100:1) produced disproportionate Black incarceration. Michelle Alexander's analysis: mass incarceration functions as a racial caste system — felony conviction permanently strips voting rights, access to public housing, student loans, and employment, creating a permanent underclass from communities targeted by drug enforcement.",
+    "confidence": "high"
+  },
+  {
+    "id": "mass_incarceration__prison_industrial_complex",
+    "source": "mass_incarceration",
+    "target": "prison_industrial_complex",
+    "type": "PRODUCED",
+    "label": "Mass incarceration created the prison industrial complex — an economic system that profits from incarceration and lobbies to maintain high prison populations",
+    "note": "Mass incarceration produced the prison industrial complex through scale: when incarceration reached 2 million, it became a significant economic sector; private prison companies (CCA, GEO Group) emerged to profit from incarceration; prison guard unions lobbied against sentencing reform; rural communities built economic development strategies around prison jobs; ALEC (American Legislative Exchange Council) coordinated private prison companies and state legislators to write mandatory minimum and three-strikes legislation. The prison industrial complex is self-perpetuating: the political and economic interests created by mass incarceration lobby to maintain the policies that produce it.",
+    "confidence": "high"
+  },
+  {
+    "id": "mass_incarceration__jim_crow",
+    "source": "mass_incarceration",
+    "target": "jim_crow",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Michelle Alexander's \"The New Jim Crow\" thesis: mass incarceration reproduces racial hierarchy through the criminal justice system rather than explicit legal segregation",
+    "note": "Alexander's argument: Jim Crow was struck down by civil rights legislation but replaced by mass incarceration as the mechanism of racial social control; both systems: (1) target Black communities through racially discriminatory enforcement (drug arrest rates are racially disparate despite similar usage rates); (2) use legal systems rather than extralegal violence; (3) create secondary civil disabilities (felony disenfranchisement, public benefits exclusion) that maintain racial hierarchy after formal legal equality; (4) are structured by official colorblindness that renders racial intent invisible. The comparison is analytically contested but the structural parallels — legal system producing racial hierarchy through nominally race-neutral mechanisms — have been widely documented.",
+    "confidence": "high"
+  },
+  {
+    "id": "stonewall__lgbtq_rights_movement",
+    "source": "stonewall",
+    "target": "lgbtq_rights_movement",
+    "type": "PRODUCED",
+    "label": "Stonewall catalyzed the modern LGBTQ rights movement by transforming defensive resistance into organized political mobilization",
+    "note": "Stonewall was the organizational origin of the LGBTQ rights movement: the pre-Stonewall homophile movement (Mattachine Society, Daughters of Bilitis) pursued respectability politics and legal gradualism; Stonewall produced a new generation of confrontational organizers (Gay Liberation Front, Gay Activists Alliance); the anniversary of Stonewall became Pride (first march 1970); the Stonewall generation built the political infrastructure (congressional lobbying, legal organizations, media presence) that produced the movement's subsequent victories. Stonewall demonstrated that queer people would resist police violence — this assertion of dignity was the emotional and political foundation of everything that followed.",
+    "confidence": "high"
+  },
+  {
+    "id": "stonewall__aids_crisis",
+    "source": "stonewall",
+    "target": "aids_crisis",
+    "type": "ENABLED",
+    "label": "The Stonewall generation's political infrastructure was mobilized against AIDS, transforming ACT UP into the most effective medical advocacy movement in history",
+    "note": "The Stonewall generation's organizational infrastructure was essential to the AIDS crisis response: ACT UP (AIDS Coalition to Unleash Power, 1987) deployed Stonewall-derived tactics (direct action, civil disobedience, media confrontation) against FDA drug approval delays; activists became expert enough in FDA procedures to demand and win accelerated approval processes; the treatment advocacy infrastructure activists built (treatment protocols, clinical trial access, drug pricing negotiations) permanently transformed patient advocacy. Without Stonewall-era organizing infrastructure and the political experience of the 1970s LGBT movement, the AIDS crisis response would have been much slower. The crisis was partly resisted because the community had built political capacity through post-Stonewall organizing.",
+    "confidence": "high"
+  },
+  {
+    "id": "second_wave_feminism__roe_v_wade",
+    "source": "second_wave_feminism",
+    "target": "roe_v_wade",
+    "type": "PRODUCED",
+    "label": "Second wave feminism's reproductive rights activism produced the legal and political conditions for Roe v. Wade",
+    "note": "Second wave feminism produced Roe v. Wade through sustained activism: NOW (founded 1966) made abortion rights a central demand; women's liberation consciousness-raising groups connected abortion access to women's liberation broadly; state-level abortion rights campaigns (New York repealed abortion ban 1970) created legal precedents; feminist lawyers (Ruth Bader Ginsburg was not the Roe attorney but was part of the broader feminist legal movement) framed reproductive rights as constitutional liberty; the case was decided in 1973 at the movement's height. The reversal in Dobbs (2022) came only after decades of anti-abortion movement building specifically targeting the judiciary.",
+    "confidence": "high"
+  },
+  {
+    "id": "second_wave_feminism__culture_wars",
+    "source": "second_wave_feminism",
+    "target": "culture_wars",
+    "type": "ENABLED",
+    "label": "Second wave feminism's challenges to traditional gender roles produced the conservative backlash that became the culture wars",
+    "note": "Second wave feminism's challenges produced organized conservative backlash that became the culture wars: Phyllis Schlafly mobilized against the Equal Rights Amendment (1972-1982) using the argument that feminism threatened traditional family values; the ERA's defeat (failed ratification 1982) marked the first major culture war victory; the Moral Majority's founding (1979) was explicitly a response to feminist and gay rights advances; \"family values\" politics was culturally constructed against the feminist challenge to traditional gender roles; anti-abortion politics was embedded in the broader anti-feminist backlash. The culture wars are substantially feminism's cultural challenge producing and sustaining organized conservative political opposition.",
+    "confidence": "high"
+  },
+  {
+    "id": "zionism__israel_palestine",
+    "source": "zionism",
+    "target": "israel_palestine",
+    "type": "PRODUCED",
+    "label": "Zionism's practical implementation through Israeli state-building produced the Israel-Palestine conflict through land displacement",
+    "note": "The Israel-Palestine conflict was produced by Zionism's intersection with existing Palestinian Arab population: Zionist immigration to Ottoman/British Mandate Palestine (1880s-1948) created demographic and political conflict with Arab residents; the 1948 Israeli War of Independence and Nakba (Palestinian catastrophe — 700,000 displaced) established the conflict's structural parameters; subsequent wars (1967 Six-Day War establishing occupation of West Bank and Gaza) deepened it. The conflict is the product of two legitimate historical claims — Jewish national self-determination and Palestinian indigenous rights — in an arena where British imperial promises (Balfour Declaration, Hussein-McMahon correspondence) created incompatible commitments.",
+    "confidence": "high"
+  },
+  {
+    "id": "israel_palestine__apartheid_south_africa",
+    "source": "israel_palestine",
+    "target": "apartheid_south_africa",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Human rights organizations including Amnesty International and B'Tselem have characterized Israel's occupation as apartheid",
+    "note": "The apartheid characterization of Israeli occupation is analytically contested but increasingly mainstream in human rights discourse: Amnesty International (2022), Human Rights Watch (2021), and B'Tselem (Israeli human rights org) have formally characterized Israeli control over Palestinians as apartheid based on: fragmented territorial control (areas A, B, C in West Bank); differential legal systems (Israeli civil law for settlers, military law for Palestinians in same territory); movement restrictions (checkpoints, separation barrier); settlement expansion on Palestinian land. South African apartheid veterans have explicitly made the comparison. The debate over the term is itself politically significant — it reflects the tension between Israel's international support and the documented conditions of occupation.",
+    "confidence": "high"
   }
 ]

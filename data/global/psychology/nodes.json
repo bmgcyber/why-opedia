@@ -585,5 +585,49 @@
       "Eli Pariser",
       "epistemic"
     ]
+  },
+  {
+    "id": "feminist_theory",
+    "label": "Feminist Theory",
+    "node_type": "ideology",
+    "category": "ideology",
+    "decade": "1960s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Feminist_theory",
+    "summary": "Theoretical framework analyzing gender oppression and its intersections with race, class, and sexuality; from liberal feminism (equal rights) to radical feminism (patriarchy as root oppression) to intersectional feminism (interlocking oppressions).",
+    "tags": [
+      "feminism",
+      "patriarchy",
+      "intersectionality",
+      "gender",
+      "de Beauvoir",
+      "hooks",
+      "Crenshaw",
+      "oppression",
+      "liberation"
+    ]
+  },
+  {
+    "id": "intersectionality",
+    "label": "Intersectionality",
+    "node_type": "theory",
+    "category": "theory",
+    "decade": "1980s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Intersectionality",
+    "summary": "Framework by Kimberle Crenshaw analyzing how multiple social categories (race, gender, class, sexuality) overlap and interact to produce distinct experiences of privilege and oppression; cannot be understood through single-axis analysis.",
+    "tags": [
+      "intersectionality",
+      "crenshaw",
+      "race",
+      "gender",
+      "class",
+      "privilege",
+      "oppression",
+      "feminism",
+      "critical race theory"
+    ]
   }
 ]

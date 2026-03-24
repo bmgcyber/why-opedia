@@ -4687,5 +4687,59 @@
     "label": "The French Revolution's radicalism and destabilization produced Napoleon as the stabilizing figure who institutionalized revolutionary achievements under imperial authority",
     "note": "Napoleon was produced by the French Revolution in multiple senses: without the Revolution's meritocratic military culture (any soldier could become marshal; noble birth not required), Napoleon (Corsican minor noble) could not have risen to general by 24; the Revolution's destabilization and Thermidorian reaction created the political vacuum that Napoleon filled; the Consulate's coup (1799) ended revolutionary government but preserved its legal achievements (Napoleonic Code, abolition of feudalism). Napoleon institutionalized the Revolution's transformations — equality before the law, religious tolerance, meritocracy — while ending its democracy. He simultaneously completed and destroyed the Revolution.",
     "confidence": "high"
+  },
+  {
+    "id": "cold_war__cold_war_culture",
+    "source": "cold_war",
+    "target": "cold_war_culture",
+    "type": "PRODUCED",
+    "label": "The Cold War produced a specific cultural formation: suburban conformism, nuclear anxiety, and deliberate US cultural propaganda",
+    "note": "The Cold War shaped American culture systematically: suburbanization was partly Cold War dispersal strategy (urban concentration vulnerable to nuclear attack); the \"American Way of Life\" (home ownership, consumer goods, family stability) was explicitly promoted as the antithesis of Soviet communism; the CIA funded cultural production (Congress for Cultural Freedom, abstract expressionism) as democracy demonstration; nuclear anxiety pervaded 1950s-60s culture (fallout shelters, duck-and-cover drills, nuclear themed films); McCarthyism's cultural impact extended beyond politics to film, television, and literature (Hollywood blacklist). The Cold War produced the cultural conformism of the 1950s that the 1960s counterculture was reacting against.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war_culture__manufactured_consent",
+    "source": "cold_war_culture",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "label": "Cold War cultural formation required and produced manufactured consent — the active construction of \"American Way of Life\" ideology against communist alternative",
+    "note": "Cold War manufactured consent was systematic: the Advertising Council and corporate PR created the \"People's Capitalism\" campaign (1955) to demonstrate American prosperity to domestic and international audiences; Voice of America and Radio Free Europe were manufactured consent operations aimed at communist bloc populations; Hollywood's HUAC cooperation and the blacklist produced cinema aligned with Cold War ideology; the corporate-liberal consensus (excluding socialist options from political debate) was manufactured consent structurally — not through censorship but through defining the acceptable range of political discourse. Chomsky and Herman's manufactured consent framework was developed partly through analysis of Cold War media operations.",
+    "confidence": "high"
+  },
+  {
+    "id": "vietnam_war__cambodian_genocide",
+    "source": "vietnam_war",
+    "target": "cambodian_genocide",
+    "type": "PRODUCED",
+    "label": "US bombing of Cambodia destabilized the country and helped bring the Khmer Rouge to power",
+    "note": "The causal chain from Vietnam War to Cambodian Genocide is documented: Nixon and Kissinger authorized secret bombing of Cambodia (Operation Menu, 1969-1973, 2.7 million tons of bombs) to destroy Vietnamese supply lines; the bombing destabilized Cambodia's neutral government (Sihanouk), drove rural population toward the Khmer Rouge, and killed tens of thousands of civilians; the subsequent US-backed coup (Lon Nol) further destabilized the country; the Khmer Rouge emerged from this chaos. When the Khmer Rouge took power (1975), their radical ideology was shaped partly by the trauma of US bombing and partly by radical Maoist ideology their French-educated leaders had developed. The US was not simply innocent bystander to the Cambodian Genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "cambodian_genocide__dehumanization",
+    "source": "cambodian_genocide",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "Khmer Rouge Year Zero ideology and dehumanization of the educated class enabled mass killing of own population",
+    "note": "The Cambodian Genocide used distinctive dehumanization: Khmer Rouge \"Year Zero\" ideology erased the past and declared the educated, urban, and professional classes as \"new people\" (second-class citizens or enemies) vs. \"old people\" (peasant base); wearing glasses was evidence of education (death sentence); speaking French was grounds for execution; \"base people\" vs. \"new people\" created a hierarchy where the urban population were systematically dehumanized as corrupted by capitalism and foreign influence. The genocide killed 25% of Cambodia's population — one of history's most intensive mass killings — enabled by the ideological framework that made educated people alien parasites to be eliminated.",
+    "confidence": "high"
+  },
+  {
+    "id": "decolonization_movement__decolonization_africa",
+    "source": "decolonization_movement",
+    "target": "decolonization_africa",
+    "type": "PRODUCED",
+    "label": "African decolonization was the largest single wave of the global decolonization movement",
+    "note": "African decolonization (1951-1994) was the global decolonization movement's largest event by number of states: 54 African countries achieved independence from European colonial rule; \"The Africa of the 1960s\" saw 17 countries become independent in a single year (1960, \"the year of Africa\"); the OAU (Organization of African Unity, 1963) was the pan-African institutional expression; Kwame Nkrumah's Ghana (1957, first sub-Saharan independence) was the vanguard. African decolonization was simultaneously more complete (formal political independence) and more limited (neocolonial economic structures, Cold War penetration, colonial borders producing ethnic conflict) than independence leaders had hoped. The gap between formal independence and substantive sovereignty defined post-colonial African political history.",
+    "confidence": "high"
+  },
+  {
+    "id": "berlin_conference_1884__decolonization_africa",
+    "source": "berlin_conference_1884",
+    "target": "decolonization_africa",
+    "type": "ENABLED",
+    "label": "The Berlin Conference's arbitrary colonial borders became the basis for post-independence African states, producing ongoing ethnic and territorial conflicts",
+    "note": "The Berlin Conference created the borders that haunt African decolonization: the Scramble for Africa (1884-1914) divided the continent among European powers with straight lines drawn on maps by people who had never visited most of the territory; these lines divided ethnic groups between different colonies, creating minorities in each (Yoruba across Nigeria/Benin/Togo; Somali across Somalia/Ethiopia/Kenya/Djibouti; Tuareg across Mali/Niger/Algeria/Libya); the OAU's 1964 decision to preserve colonial borders to prevent unlimited territorial revision means African states continue to govern within colonial administrative boundaries that reflect no historical, ethnic, or geographic logic. The Berlin Conference's arbitrary cartography is a root cause of African state fragility.",
+    "confidence": "high"
   }
 ]

@@ -482,5 +482,26 @@
       "master settlement",
       "public health"
     ]
+  },
+  {
+    "id": "chronic_illness_policy",
+    "label": "Chronic Illness & Disability Policy",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1990s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Chronic_condition",
+    "summary": "Political and policy dimensions of chronic illness: insurance discrimination, disability benefit systems, ADA accommodation, the medicalization of normal variation, and the political economy of treating vs. preventing chronic disease.",
+    "tags": [
+      "chronic illness",
+      "disability",
+      "insurance",
+      "ADA",
+      "medicalization",
+      "prevention",
+      "long-term care",
+      "social determinants"
+    ]
   }
 ]

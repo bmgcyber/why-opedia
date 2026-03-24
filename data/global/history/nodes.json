@@ -4319,5 +4319,71 @@
       "monarchy",
       "enlightenment"
     ]
+  },
+  {
+    "id": "cold_war_culture",
+    "label": "Cold War Culture",
+    "node_type": "era",
+    "category": "era",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Cold_War_(1947%E2%80%931953)",
+    "summary": "Cultural dimensions of the Cold War: conformist suburban ideology, nuclear anxiety, science fiction, jazz as US propaganda, abstract expressionism funded by CIA as cultural weapon; the ideology of \"the American Way of Life\" as counter to communism.",
+    "tags": [
+      "cold war",
+      "culture",
+      "conformism",
+      "suburbia",
+      "nuclear anxiety",
+      "propaganda",
+      "jazz",
+      "abstract expressionism",
+      "CIA"
+    ]
+  },
+  {
+    "id": "cambodian_genocide",
+    "label": "Cambodian Genocide",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1970s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Cambodian_genocide",
+    "summary": "Khmer Rouge genocide (1975-1979) killed 1.5-2 million Cambodians (25% of population); radical agrarian utopia through forced labor and purge of educated class; enabled by US bombing of Cambodia that destabilized the country and helped Khmer Rouge rise.",
+    "tags": [
+      "cambodia",
+      "khmer rouge",
+      "pol pot",
+      "genocide",
+      "year zero",
+      "agrarian",
+      "killing fields",
+      "vietnam war",
+      "US bombing"
+    ]
+  },
+  {
+    "id": "decolonization_africa",
+    "label": "African Decolonization",
+    "node_type": "era",
+    "category": "era",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Decolonisation_of_Africa",
+    "summary": "Wave of African independence from European colonial rule (1950s-1970s); 54 countries becoming independent; Kwame Nkrumah, Patrice Lumumba, Julius Nyerere as defining leaders; struggled with colonial borders, neocolonialism, and Cold War proxy wars.",
+    "tags": [
+      "africa",
+      "independence",
+      "colonial",
+      "nkrumah",
+      "lumumba",
+      "pan-africanism",
+      "OAU",
+      "borders",
+      "neocolonialism"
+    ]
   }
 ]

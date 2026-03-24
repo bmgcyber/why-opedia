@@ -479,5 +479,23 @@
     "label": "Social media algorithms produce echo chambers through engagement optimization — content that confirms existing beliefs generates more interaction",
     "note": "Social media algorithms produce echo chambers through their optimization logic: content that generates strong reactions (agreement, outrage, disgust) from users produces more engagement metrics (likes, shares, comments); algorithms trained on engagement therefore preferentially serve content that reinforces existing beliefs and triggers strong emotional responses; over time, this produces homogeneous information environments where challenging views are filtered out. Facebook's own internal research (revealed in 2021 \"Facebook Papers\") showed the platform's algorithm amplified divisive content and that algorithm changes to reduce divisiveness also reduced engagement. The echo chamber is not accidental — it is the predictable product of engagement-optimized recommendation systems.",
     "confidence": "high"
+  },
+  {
+    "id": "feminist_theory__intersectionality",
+    "source": "feminist_theory",
+    "target": "intersectionality",
+    "type": "PRODUCED",
+    "label": "Intersectionality theory was developed within feminist theory by Kimberle Crenshaw to explain how race and gender interact in producing oppression",
+    "note": "Intersectionality emerged from feminist theory's encounter with its own racial blind spots: Kimberle Crenshaw's 1989 paper \"Demarginalizing the Intersection of Race and Sex\" documented that Black women were excluded from both race discrimination doctrine (which centered Black men) and sex discrimination doctrine (which centered white women); her 1991 \"Mapping the Margins\" extended this to domestic violence. Intersectionality was a corrective to white feminist theory's assumed universality of women's experience. Bell hooks, Patricia Hill Collins, and other Black feminist theorists had been making similar arguments since the 1970s (Combahee River Collective Statement, 1977). Intersectionality moved from feminist legal theory to mainstream use (and subsequent right-wing weaponization).",
+    "confidence": "high"
+  },
+  {
+    "id": "feminist_theory__second_wave_feminism",
+    "source": "feminist_theory",
+    "target": "second_wave_feminism",
+    "type": "ENABLED",
+    "label": "Second wave feminism generated the theoretical frameworks (patriarchy, personal-is-political, consciousness raising) that feminist theory systematized",
+    "note": "Second wave feminism and feminist theory are mutually constitutive: the movement generated concepts (consciousness-raising groups produced the \"personal is political\" insight; radical feminism produced patriarchy analysis; socialist feminism produced the sex/gender distinction) that feminist theorists systematized; academic feminist theory (women's studies departments, founded 1970s) developed the movement's insights into formal theory; theory then influenced movement (intersectionality critique changed movement practice). Simone de Beauvoir's \"The Second Sex\" (1949) was the second wave's foundational theoretical text; Betty Friedan's \"Feminine Mystique\" (1963) was its popular mobilizer. Theory and movement developed through ongoing exchange.",
+    "confidence": "high"
   }
 ]

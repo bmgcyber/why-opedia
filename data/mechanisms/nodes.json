@@ -2102,5 +2102,47 @@
       "recovery",
       "stigma"
     ]
+  },
+  {
+    "id": "prison_industrial_complex",
+    "label": "Prison Industrial Complex",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1990s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Prison%E2%80%93industrial_complex",
+    "summary": "Self-reinforcing system of economic and political interests benefiting from mass incarceration: private prison companies, guard unions, rural economies dependent on prison jobs, prosecutors with conviction incentives; maintains high incarceration independent of crime rates.",
+    "tags": [
+      "prison",
+      "industrial complex",
+      "private prison",
+      "mass incarceration",
+      "political economy",
+      "lobby",
+      "ALEC",
+      "racial justice"
+    ]
+  },
+  {
+    "id": "pharmaceutical_industry",
+    "label": "Pharmaceutical Industry",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1950s",
+    "scope": "global/mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Pharmaceutical_industry",
+    "summary": "Industry producing drugs for profit; conflict between commercial incentives and public health goals; responsible for both life-saving innovations and the opioid crisis, insulin price gouging, and strategic disease manufacturing for lifestyle drugs.",
+    "tags": [
+      "pharma",
+      "drug pricing",
+      "clinical trials",
+      "FDA",
+      "opioid",
+      "profit motive",
+      "disease mongering",
+      "patent"
+    ]
   }
 ]

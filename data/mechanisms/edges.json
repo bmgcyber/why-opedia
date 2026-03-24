@@ -6783,5 +6783,41 @@
     "label": "Pharmaceutical opioid marketing exploited addiction science — specifically, false claims that OxyContin was not addictive because of its time-release formula",
     "note": "Purdue Pharma exploited and distorted addiction science: the company's marketing claimed OxyContin's time-release formula prevented addiction (a false claim internally acknowledged by 2000); the single article in a medical journal claiming opioids rarely caused addiction in pain patients (cited 11,000 times) was used to promote widespread prescribing; Purdue paid doctors to speak at \"pain seminars\" presenting opioid prescribing as scientifically validated; the company lobbied to change pain management guidelines. Addiction science was weaponized by the pharmaceutical industry — the same scientific understanding that should have prevented opioid expansion was used selectively to manufacture the appearance of scientific support for aggressive prescribing.",
     "confidence": "high"
+  },
+  {
+    "id": "prison_industrial_complex__mass_incarceration",
+    "source": "prison_industrial_complex",
+    "target": "mass_incarceration",
+    "type": "ENABLED",
+    "label": "Prison industrial complex lobbying maintains mass incarceration policies that serve political and economic interests over public safety",
+    "note": "The prison industrial complex perpetuates mass incarceration through institutional lobbying: CCA (now CoreCivic) and GEO Group directly lobbied for immigration detention expansion (profiting from ICE contracts); ALEC wrote and promoted mandatory minimum and three-strikes legislation with private prison companies at the table; California Correctional Peace Officers Association (guard union) has been the largest single contributor to California ballot initiatives opposing prison reform; rural prison economy opposition to prison closure. The result is that incarceration rates are maintained at economically and politically convenient levels rather than crime-justified levels — mass incarceration is sustained by institutional interests that profit from it.",
+    "confidence": "high"
+  },
+  {
+    "id": "prison_industrial_complex__war_on_drugs",
+    "source": "prison_industrial_complex",
+    "target": "war_on_drugs",
+    "type": "ENABLED",
+    "label": "Prison industrial complex interests lobbied specifically to maintain drug criminalization policies that maximize incarceration",
+    "note": "Prison industrial complex lobbying is specifically targeted at drug policy: private prison companies lobbied against marijuana legalization (would reduce incarceration); ALEC wrote and promoted mandatory minimum drug sentencing laws; three-strikes laws (requiring third-conviction life imprisonment) were often for drug offenses; immigration detention expansion was partly driven by the same private prison industry that benefits from drug incarceration. Drug policy reform threatens the prison industrial complex's economic model — every person not incarcerated for drug offenses is revenue loss for private prisons, guard union employment, and the rural economies that depend on prison jobs.",
+    "confidence": "high"
+  },
+  {
+    "id": "pharmaceutical_industry__opioid_crisis",
+    "source": "pharmaceutical_industry",
+    "target": "opioid_crisis",
+    "type": "PRODUCED",
+    "label": "The opioid crisis was a pharmaceutical industry crime: Purdue Pharma knowingly marketed an addictive drug with false safety claims",
+    "note": "The opioid crisis is primarily a pharmaceutical industry failure: Purdue Pharma knew by 1999 that OxyContin produced addiction and diversion at high rates; the company suppressed research, lied to doctors and regulators, and paid salespeople based on prescription volumes with no accountability for addiction outcomes; the Sackler family extracted $10-13 billion from Purdue while the crisis killed 500,000+ Americans; Purdue pleaded guilty to federal criminal charges (2020); the Sackler family paid $6 billion in settlement but retained most wealth. The pharmaceutical industry's broader business model (disease marketing, off-label promotion, clinical trial manipulation, patent evergreening) creates systematic incentives to maximize sales over patient welfare.",
+    "confidence": "high"
+  },
+  {
+    "id": "pharmaceutical_industry__regulatory_capture",
+    "source": "pharmaceutical_industry",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "The pharmaceutical industry has systematically captured the FDA through revolving door, clinical trial funding, and user fee model",
+    "note": "Pharmaceutical regulatory capture is systemic: the Prescription Drug User Fee Act (1992) created a system where pharmaceutical companies pay FDA user fees to fund drug review — creating financial dependency; FDA reviewers routinely move to industry positions (revolving door); clinical trials are predominantly funded by pharmaceutical companies rather than independent researchers; medical journal peer review is compromised by industry funding; key opinion leaders (KOLs) are paid as industry speakers while being cited as independent experts. The 2020 opioid crisis congressional investigation documented specific instances of industry influence on FDA drug scheduling and approval decisions. The FDA is the paradigm case of regulatory capture in a life-or-death regulatory context.",
+    "confidence": "high"
   }
 ]
