@@ -711,15 +711,6 @@
     "confidence": "high"
   },
   {
-    "id": "evangelical_christianity__christian_nationalism",
-    "source": "evangelical_christianity",
-    "target": "christian_nationalism",
-    "type": "ENABLED",
-    "label": "Evangelical political mobilization provided the organizational base for Christian nationalism",
-    "note": "Christian nationalism required a pre-existing organizational infrastructure of churches, schools, media, and donor networks — which Evangelical Christianity provided. The Moral Majority (1979) was explicitly an Evangelical political mobilization. Christian nationalism is partly an intensification of Evangelical political theology.",
-    "confidence": "high"
-  },
-  {
     "id": "evangelical_christianity__prosperity_gospel",
     "source": "evangelical_christianity",
     "target": "prosperity_gospel",
@@ -1428,15 +1419,6 @@
     "type": "ENABLED",
     "label": "Jim Crow voter suppression established the legal templates and political logic of modern voter restrictions",
     "note": "Modern voter suppression draws on the Jim Crow playbook: procedural mechanisms (ID requirements, registration purges, polling place reduction) that are nominally race-neutral but have racially disparate effects. The Voting Rights Act of 1965 was designed to end Jim Crow voter suppression; its gutting in Shelby County (2013) enabled its revival.",
-    "confidence": "high"
-  },
-  {
-    "id": "church_state_entanglement__papal_authority",
-    "source": "church_state_entanglement",
-    "target": "papal_authority",
-    "type": "ENABLED",
-    "label": "The entanglement of church and empire gave the papacy political leverage to assert supremacy",
-    "note": "Papal authority claims were not merely theological — they depended on the entanglement of church and state. The investiture controversy (which ruler appoints bishops?) only matters if church positions carry political power. The papacy used its spiritual authority to constrain secular rulers only because secular rulers needed papal legitimation.",
     "confidence": "high"
   }
 ]

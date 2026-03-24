@@ -213,21 +213,6 @@
     "cross_scope": true
   },
   {
-    "id": "scapegoating_mechanism",
-    "label": "Scapegoating",
-    "node_type": "mechanism",
-    "category": "mechanism",
-    "summary": "Psychological and social mechanism in which a group experiencing diffuse anxiety or systemic problems displaces blame onto a specific identifiable out-group.",
-    "decade": "Ongoing",
-    "tags": [
-      "psychology",
-      "mechanism",
-      "sociology"
-    ],
-    "scope": "global/mechanisms",
-    "cross_scope": true
-  },
-  {
     "id": "legitimate_grievance_capture",
     "label": "Legitimate Grievance Capture",
     "node_type": "mechanism",

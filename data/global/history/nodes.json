@@ -3187,25 +3187,6 @@
     "cross_scope": false
   },
   {
-    "id": "papal_authority",
-    "label": "Papal Authority and Petrine Supremacy",
-    "node_type": "mechanism",
-    "category": "mechanism",
-    "summary": "The doctrine that the Bishop of Rome (the Pope) holds supreme authority over all Christians, derived from the claim that Peter was the first bishop of Rome and that Jesus granted Peter unique leadership (Matthew 16:18). This mechanism produced a hierarchical church structure capable of coordinating action across a continent, but also capable of coercion, crusades, inquisitions, and political domination over secular rulers. The tension between papal authority claims and the authority of councils, secular rulers, and local bishops is the structural driver of most major Christian schisms and reform movements, from the Great Schism of 1054 to the Protestant Reformation.",
-    "decade": "800s",
-    "tags": [
-      "christianity",
-      "papacy",
-      "authority",
-      "hierarchy",
-      "church",
-      "rome",
-      "mechanism"
-    ],
-    "scope": "global/history",
-    "cross_scope": false
-  },
-  {
     "id": "jesuit_order",
     "label": "Society of Jesus (Jesuits)",
     "node_type": "reference",
@@ -3226,85 +3207,6 @@
     "cross_scope": false
   },
   {
-    "id": "catholic_clergy_abuse",
-    "label": "Catholic Clergy Sexual Abuse Scandal",
-    "node_type": "reference",
-    "category": "phenomenon",
-    "wikipedia": "https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases",
-    "summary": "The systematic sexual abuse of minors by Catholic priests, and the institutional cover-up by bishops and Vatican officials, exposed globally from the 1980s onward and reaching crisis point with the Boston Globe investigative series (2002, dramatized in the film Spotlight). The scandal revealed not merely individual predators but a systemic pattern: abusive priests transferred to new parishes rather than removed, victims silenced, police not notified, and diocesan assets protected over victim welfare. The abuse affected tens of thousands of children across decades; the cover-up extended to the highest levels of the Church. The scandal severely damaged institutional credibility and accelerated secularization in historically Catholic countries.",
-    "decade": "1990s",
-    "tags": [
-      "catholicism",
-      "abuse",
-      "cover-up",
-      "institution",
-      "credibility",
-      "scandal",
-      "harm"
-    ],
-    "scope": "global/history",
-    "cross_scope": false
-  },
-  {
-    "id": "blood_libel_myth",
-    "label": "Blood Libel Myth",
-    "node_type": "reference",
-    "category": "phenomenon",
-    "wikipedia": "https://en.wikipedia.org/wiki/Blood_libel",
-    "summary": "The false accusation that Jews murder Christian children to use their blood in religious rituals, first recorded in Norwich, England (1144 CE) and repeated across Europe for centuries. Blood libel accusations triggered massacres, expulsions, and judicial murders. They were officially condemned by several popes (Innocent IV, Gregory X) as fabrications, yet continued to circulate and be believed. The myth exemplifies how a factually false, officially refuted accusation can survive for centuries because it serves the psychological function of demonization — transforming ordinary neighbors into secret monsters. Blood libel accusations resurfaced in the Tsarist Empire and were used to justify pogroms in the 19th and early 20th centuries.",
-    "decade": "1140s",
-    "tags": [
-      "antisemitism",
-      "myth",
-      "medieval",
-      "persecution",
-      "false-accusation",
-      "demonization"
-    ],
-    "scope": "global/history",
-    "cross_scope": false
-  },
-  {
-    "id": "pogroms",
-    "label": "Pogroms",
-    "node_type": "reference",
-    "category": "phenomenon",
-    "wikipedia": "https://en.wikipedia.org/wiki/Pogrom",
-    "summary": "Organized massacres of Jewish communities, most prominently in the Russian Empire (1880s–1921), carried out by mobs often with tacit or active government encouragement. The word pogrom is Russian for devastation. The first major wave followed the assassination of Tsar Alexander II (1881), when Jews were falsely blamed; the Kishinev pogrom (1903) and subsequent waves killed thousands and displaced hundreds of thousands. Pogroms were a key driver of the massive Jewish emigration from Eastern Europe to the United States (1880–1924, approximately 2 million Jews) and a major catalyst for Zionism. The Dreyfus Affair (1894) and the pogroms convinced Theodor Herzl that Jews could never be safe in Europe without a homeland.",
-    "decade": "1880s",
-    "tags": [
-      "antisemitism",
-      "russia",
-      "massacre",
-      "violence",
-      "diaspora",
-      "zionism",
-      "emigration"
-    ],
-    "scope": "global/history",
-    "cross_scope": false
-  },
-  {
-    "id": "prosperity_gospel",
-    "label": "Prosperity Gospel",
-    "node_type": "reference",
-    "category": "ideology",
-    "wikipedia": "https://en.wikipedia.org/wiki/Prosperity_theology",
-    "summary": "A theological movement within Evangelical and Pentecostal Christianity teaching that financial blessing and physical health are God will for believers, and that faith, positive confession, and tithing will reliably produce material prosperity. Originating in the mid-20th century American context (Oral Roberts, Kenneth Hagin, Kenneth Copeland), it became globally influential through television ministry and spread to sub-Saharan Africa, Latin America, and East Asia. Critics — including mainstream Evangelical theologians — argue it misrepresents scripture, exploits the poor, and provides false hope that ultimately extracts wealth from vulnerable believers toward wealthy pastors. Its theology of deserved prosperity also inverts the traditional Christian understanding of suffering and humility.",
-    "decade": "1980s",
-    "tags": [
-      "christianity",
-      "theology",
-      "wealth",
-      "televangelism",
-      "exploitation",
-      "faith",
-      "pentecostal"
-    ],
-    "scope": "global/history",
-    "cross_scope": false
-  },
-  {
     "id": "liberation_theology",
     "label": "Liberation Theology",
     "node_type": "reference",
@@ -3320,25 +3222,6 @@
       "marxism",
       "catholicism",
       "reform"
-    ],
-    "scope": "global/history",
-    "cross_scope": false
-  },
-  {
-    "id": "religious_trauma",
-    "label": "Religious Trauma",
-    "node_type": "mechanism",
-    "category": "mechanism",
-    "summary": "The psychological harm caused by harmful religious experiences, including: using fear of hell and divine punishment for behavioral control; demanding suppression of doubt as a moral failing; enforcing conformity through shunning, excommunication, or social exclusion; pathologizing normal human experiences (sexuality, doubt, grief) as sinful; and teaching that outside relationships and institutions are corrupted or dangerous. Religious trauma syndrome (coined by Marlene Winell) describes the cluster of PTSD-like symptoms in survivors: difficulty making decisions, distorted thinking, black-and-white cognition, sexual shame, and loss of community upon leaving. The mechanism operates through institutions, families, and communities, and its effects can persist long after formal religious participation has ended.",
-    "decade": "1990s",
-    "tags": [
-      "psychology",
-      "religion",
-      "trauma",
-      "abuse",
-      "control",
-      "harm",
-      "mechanism"
     ],
     "scope": "global/history",
     "cross_scope": false

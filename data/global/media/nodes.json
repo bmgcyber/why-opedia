@@ -287,26 +287,6 @@
     "cross_scope": false
   },
   {
-    "id": "qanon",
-    "label": "QAnon",
-    "node_type": "reference",
-    "category": "movement",
-    "wikipedia": "https://en.wikipedia.org/wiki/QAnon",
-    "summary": "Anonymous internet conspiracy theory (started 2017 on 4chan) claiming a secret Satanic paedophile cabal of Democratic politicians and celebrities was being fought by Donald Trump. Spread via algorithmic recommendation on YouTube and Facebook, integrated existing anti-Semitic \"blood libel\" tropes, and radicalised adherents into real-world violence. Illustrates how social media platforms can transform fringe anonymous content into a mass movement within years.",
-    "decade": "2010s",
-    "tags": [
-      "conspiracy",
-      "extremism",
-      "social-media",
-      "disinformation",
-      "radicalization",
-      "antisemitism",
-      "usa"
-    ],
-    "scope": "global/media",
-    "cross_scope": false
-  },
-  {
     "id": "deepfakes",
     "label": "Deepfakes & Synthetic Media",
     "node_type": "reference",

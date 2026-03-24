@@ -160,22 +160,6 @@
     "confidence": "high"
   },
   {
-    "id": "fox_news__qanon",
-    "source": "fox_news",
-    "target": "qanon",
-    "type": "ENABLED",
-    "label": "amplified conspiratorial content that fed QAnon ecosystem",
-    "confidence": "high"
-  },
-  {
-    "id": "cambridge_analytica__qanon",
-    "source": "cambridge_analytica",
-    "target": "qanon",
-    "type": "SHARES_MECHANISM_WITH",
-    "label": "both exploit psychographic profiling and social media algorithms",
-    "confidence": "medium"
-  },
-  {
     "id": "war_of_worlds_broadcast__moral_panic",
     "source": "war_of_worlds_broadcast",
     "target": "moral_panic",
@@ -197,14 +181,6 @@
     "target": "broken_epistemology",
     "type": "CAUSED",
     "label": "firehose-of-falsehood strategy targets epistemic infrastructure",
-    "confidence": "high"
-  },
-  {
-    "id": "filter_bubble__qanon",
-    "source": "filter_bubble",
-    "target": "qanon",
-    "type": "ENABLED",
-    "label": "algorithmic recommendation accelerated QAnon radicalisation",
     "confidence": "high"
   },
   {
