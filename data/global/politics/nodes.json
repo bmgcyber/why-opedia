@@ -456,26 +456,6 @@
     "cross_scope": false
   },
   {
-    "id": "jesuit_order",
-    "label": "Society of Jesus (Jesuits)",
-    "node_type": "reference",
-    "category": "institution",
-    "wikipedia": "https://en.wikipedia.org/wiki/Society_of_Jesus",
-    "summary": "Religious order founded by Ignatius of Loyola in 1540 as the intellectual spearhead of the Catholic Counter-Reformation. The Jesuits distinguished themselves through rigorous intellectual training, flexibility in mission contexts, and a special fourth vow of obedience to the Pope. They became the Church dominant force in education (founding universities across Europe, Asia, and the Americas), foreign missions (entering Japan, China, India, and the Americas), and theological disputation against Protestantism. Their probabilist moral theology and accommodation to local cultures made them controversial — they were suppressed by Pope Clement XIV in 1773 under pressure from European monarchs, then restored in 1814.",
-    "decade": "1540s",
-    "tags": [
-      "catholicism",
-      "jesuits",
-      "education",
-      "missions",
-      "counter-reformation",
-      "philosophy",
-      "institution"
-    ],
-    "scope": "global/politics",
-    "cross_scope": false
-  },
-  {
     "id": "evangelical_christianity",
     "label": "Evangelical Christianity",
     "node_type": "reference",

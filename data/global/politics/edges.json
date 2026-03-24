@@ -675,15 +675,6 @@
     "confidence": "high"
   },
   {
-    "id": "jesuit_order__council_of_trent",
-    "source": "jesuit_order",
-    "target": "council_of_trent",
-    "type": "ENABLED",
-    "label": "Jesuit theologians provided the intellectual leadership at Trent",
-    "note": "Jesuit theologians, particularly Diego Lainez and Alfonso Salmeron, played decisive roles at the Council of Trent in drafting the decrees on justification, scripture, and tradition. The Jesuits were the Counter-Reformation intellectual elite, and Trent was where that elite shaped Catholic doctrine for four centuries.",
-    "confidence": "high"
-  },
-  {
     "id": "spanish_inquisition__jewish_expulsion_spain_1492",
     "source": "spanish_inquisition",
     "target": "jewish_expulsion_spain_1492",
