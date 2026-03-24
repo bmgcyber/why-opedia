@@ -211,5 +211,77 @@
     "label": "Pharmaceutical lobbying created the regulatory environment that enabled trial manipulation",
     "note": "Big pharma lobbying produced the Prescription Drug User Fee Act (PDUFA, 1992) — pharmaceutical companies pay FDA review fees — creating a structural conflict of interest. Industry funding of FDA operations, combined with expedited review timelines, created pressure to approve drugs on manipulated trial evidence. The regulatory capture mechanism: industry funds the regulator, which then relies on industry-submitted data.",
     "confidence": "high"
+  },
+  {
+    "id": "aids_crisis__anti_vaccination_movement",
+    "source": "aids_crisis",
+    "target": "anti_vaccination_movement",
+    "type": "ENABLED",
+    "label": "AIDS crisis institutionalized government medical dishonesty that fueled lasting vaccine distrust",
+    "note": "The AIDS crisis (particularly Reagan's refusal to acknowledge it publicly until 1987, after 20,000 Americans had died) created a documented pattern of government dishonesty about epidemic threats that anti-vaccination activists directly cite. The documented pattern: government initially downplayed a health crisis to protect political interests, costing lives. This creates rational grounds for skepticism when the same government later promotes vaccines as safe — the AIDS crisis is part of the evidentiary basis for medical distrust.",
+    "confidence": "high"
+  },
+  {
+    "id": "aids_crisis__deinstitutionalization",
+    "source": "aids_crisis",
+    "target": "deinstitutionalization",
+    "type": "ENABLED",
+    "label": "Deinstitutionalization eliminated the residential care infrastructure AIDS patients needed",
+    "note": "The AIDS crisis coincided with the aftermath of deinstitutionalization (1960s–80s): the residential care infrastructure that would have housed severely ill AIDS patients had been dismantled. Many AIDS patients in the late 1980s died in emergency rooms or homeless, because there were no long-term care facilities outside expensive hospitals. The deinstitutionalization decision — made for fiscal and ideological reasons — became a structural constraint on the AIDS response.",
+    "confidence": "medium"
+  },
+  {
+    "id": "aids_crisis__covid19_pandemic",
+    "source": "aids_crisis",
+    "target": "covid19_pandemic",
+    "type": "ENABLED",
+    "label": "AIDS ACT UP activism created the expedited drug approval and patient advocacy infrastructure COVID used",
+    "note": "ACT UP's activism during the AIDS crisis fundamentally changed FDA drug approval: the Treatment IND protocol (1987), Parallel Track trials (1989), and Accelerated Approval pathway (1992) were all direct results of AIDS activist pressure. These regulatory changes created the infrastructure that enabled COVID vaccine approval at unprecedented speed — Operation Warp Speed used the same expedited pathways ACT UP won. The COVID vaccine miracle was partly an inheritance from AIDS activist organizing.",
+    "confidence": "high"
+  },
+  {
+    "id": "pharmaceutical_trials_manipulation__opioid_crisis",
+    "source": "pharmaceutical_trials_manipulation",
+    "target": "opioid_crisis",
+    "type": "ENABLED",
+    "label": "Purdue's manipulated OxyContin trials were the proximate mechanism of the prescription opioid wave",
+    "note": "Purdue Pharma's 1996 OxyContin launch relied on manipulated clinical data: the claim that OxyContin was less addictive than other opioids, and that addiction risk in chronic pain patients was less than 1%, were both based on manipulated or cherry-picked evidence. The FDA approval was secured with this data. Subsequent prescribing guidelines drew on the manipulated trials. Pharmaceutical trial manipulation was not incidental to the opioid crisis — it was the mechanism through which Purdue's product entered legitimate medicine.",
+    "confidence": "high"
+  },
+  {
+    "id": "sugar_industry_cover_up__opioid_crisis",
+    "source": "sugar_industry_cover_up",
+    "target": "opioid_crisis",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both used industry-funded research and regulatory capture to suppress evidence of mass harm",
+    "note": "The sugar industry (1960s–90s) and Purdue Pharma (1990s–2010s) used structurally identical strategies: fund studies that show favorable results, suppress or deny unfavorable data, capture regulatory agencies through personnel and funding relationships, and maintain market access until the harm is undeniable. The mechanism is the tobacco playbook applied to sugar and opioids. All three industries — tobacco, sugar, and pharma — literally consulted the same PR and lobbying infrastructure.",
+    "confidence": "high"
+  },
+  {
+    "id": "leaded_gasoline_cover_up__big_pharma_lobbying",
+    "source": "leaded_gasoline_cover_up",
+    "target": "big_pharma_lobbying",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both: industry funds the science that regulates it, producing systematic suppression of harm evidence",
+    "note": "Tetraethyl lead (1920s–80s) and pharmaceutical lobbying share the same regulatory capture mechanism: industry-funded scientists dominate expert panels, industry funding shapes research questions, and regulators depend on industry-submitted data to evaluate industry products. The lead industry suppressed evidence of neurological harm for 60 years; pharma lobbying produced the PDUFA model where pharma pays FDA review fees. Both are examples of the same corporate-regulatory revolving door producing predictable harm suppression.",
+    "confidence": "high"
+  },
+  {
+    "id": "anti_psychiatry_movement__covid19_pandemic",
+    "source": "anti_psychiatry_movement",
+    "target": "covid19_pandemic",
+    "type": "ENABLED",
+    "label": "Anti-psychiatry's dismantling of mental health infrastructure left COVID patients without treatment",
+    "note": "COVID-19 produced a mental health crisis (anxiety, depression, trauma, long COVID psychological symptoms) at a moment when the mental health infrastructure was at its weakest: 50 years of deinstitutionalization and anti-psychiatry-influenced defunding had produced a shortage of beds, psychiatrists, and community mental health centers. The anti-psychiatry movement's practical legacy — inadequate publicly funded mental health care — constrained the COVID mental health response.",
+    "confidence": "medium"
+  },
+  {
+    "id": "covid19_pandemic__big_pharma_lobbying",
+    "source": "covid19_pandemic",
+    "target": "big_pharma_lobbying",
+    "type": "ENABLED",
+    "label": "COVID vaccine development showed pharmaceutical lobbying's success in protecting IP over global access",
+    "note": "The COVID vaccine IP controversy demonstrated pharma lobbying's sustained power: pharmaceutical companies lobbied successfully against TRIPS waiver provisions that would have allowed Generic manufacturing in developing countries. Pfizer, Moderna, and J&J lobbied against IP waivers, patent sharing, and technology transfer — maintaining monopoly pricing while millions in low-income countries went without vaccines. The COVID response showed both the triumph of pharmaceutical innovation and the lobbying infrastructure that protected profits over lives.",
+    "confidence": "high"
   }
 ]
