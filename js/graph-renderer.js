@@ -108,21 +108,21 @@ function initRenderer(containerEl) {
     .warmupTicks(100)
     .cooldownTicks(200);
 
-  // Customize forces after creation
-  graphInstance
-    .d3Force('charge', d3.forceManyBody().strength(-120))
-    .d3Force('link',   d3.forceLink().distance(link =>
-      link.type === 'SHARES_MECHANISM_WITH' ? 150 : 80
-    ))
-    .d3Force('collision', d3.forceCollide().radius(n => (n.__size || 8) + 5))
-    .d3Force('z-spread', () => {
-      if (!currentGraphData) return;
-      currentGraphData.nodes.forEach(node => {
-        if (Math.abs(node.z || 0) < 50) {
-          node.vz = (node.vz || 0) + (((node.z || 0) >= 0 ? 1 : -1) * 0.3);
-        }
-      });
-    });
+  // Configure the library's EXISTING 3D force instances — do NOT replace them with
+  // forces from the CDN d3 package (d3 v7 is 2D-only: forceManyBody/forceLink there
+  // only touch vx/vy, never vz, which collapses the graph to a flat plane).
+  // graphInstance.d3Force('name') with no second arg returns the existing instance.
+  const chargeForce = graphInstance.d3Force('charge');
+  if (chargeForce) chargeForce.strength(-120);
+
+  const linkForce = graphInstance.d3Force('link');
+  if (linkForce) linkForce.distance(link =>
+    link.type === 'SHARES_MECHANISM_WITH' ? 150 : 80
+  );
+
+  // Remove the default center force — it pulls everything to z=0 and fights z spread.
+  // The random initial positions + charge repulsion provide adequate centering.
+  graphInstance.d3Force('center', null);
 
   // Scene extras: fog, lights, star field
   const scene = graphInstance.scene();
@@ -572,6 +572,28 @@ function exportPNG() {
   a.download = 'why-opedia-graph.png';
   a.click();
 }
+
+// ── Debug helpers (accessible from browser console) ──────────────────────────
+window.__graphDebug = {
+  get instance() { return graphInstance; },
+  get data()     { return currentGraphData; },
+  zStats() {
+    const nodes = (currentGraphData || {}).nodes || [];
+    if (!nodes.length) return 'No nodes loaded';
+    const zs = nodes.map(n => n.z || 0).sort((a, b) => a - b);
+    const mean = zs.reduce((s, v) => s + v, 0) / zs.length;
+    const stddev = Math.sqrt(zs.reduce((s, v) => s + (v - mean) ** 2, 0) / zs.length);
+    return { count: zs.length, min: +zs[0].toFixed(1), max: +zs[zs.length-1].toFixed(1), mean: +mean.toFixed(1), stddev: +stddev.toFixed(1) };
+  },
+  forces() {
+    if (!graphInstance) return 'No instance';
+    return ['charge','link','center','collision'].reduce((o, k) => {
+      o[k] = !!graphInstance.d3Force(k);
+      return o;
+    }, {});
+  },
+  numDims() { return graphInstance ? graphInstance.numDimensions() : null; },
+};
 
 // ── Public API ────────────────────────────────────────────────────────────────
 window.GraphRenderer = {
