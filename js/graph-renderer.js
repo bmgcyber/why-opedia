@@ -61,9 +61,11 @@ const TYPE_OPACITY = {
 const DEFAULT_NEIGHBOR_OPACITY = 0.55;
 const DIM_OPACITY = 0.05;
 
-// ── Direct opacity helper ─────────────────────────────────────────────────────
+// ── Direct opacity / visibility helpers ──────────────────────────────────────
 // graphInstance.nodeOpacity(fn) does not reliably apply to custom nodeThreeObject
 // groups. We bypass the library and traverse materials directly via node.__threeObj.
+// applyLinkVisibility(fn) similarly may not take immediate effect on
+// settled graphs — we also set obj.visible directly on the link THREE object.
 function applyNodeOpacity(opacityFn) {
   if (!graphInstance || !currentGraphData) return;
   // Also update the library accessor so it stays consistent on future ticks.
@@ -80,6 +82,20 @@ function applyNodeOpacity(opacityFn) {
         child.material.needsUpdate = true;
       }
     });
+  }
+}
+
+function applyLinkVisibility(visibilityFn) {
+  if (!graphInstance || !currentGraphData) return;
+  graphInstance.linkVisibility(visibilityFn);
+  const fn = typeof visibilityFn === 'function' ? visibilityFn : () => !!visibilityFn;
+  for (const link of currentGraphData.links) {
+    const visible = fn(link);
+    // getLinkObject() is the public API; __lineObj is the internal fallback
+    const obj = (typeof graphInstance.getLinkObject === 'function'
+      ? graphInstance.getLinkObject(link)
+      : null) || link.__lineObj;
+    if (obj) obj.visible = !!visible;
   }
 }
 
@@ -443,7 +459,7 @@ function refreshOpacity() {
   const focusId = selectedNodeId || hoveredNodeId;
   if (!focusId) {
     applyNodeOpacity(0.92);
-    graphInstance.linkVisibility(true);
+    applyLinkVisibility(true);
     graphInstance.linkOpacity(0.35);
     return;
   }
@@ -468,7 +484,7 @@ function refreshOpacity() {
   applyNodeOpacity(node => neighborOpacities.get(node.id) ?? DIM_OPACITY);
   // linkOpacity() only accepts scalars in this library — use linkVisibility to
   // hide all edges not directly touching the selected node.
-  graphInstance.linkVisibility(link => {
+  applyLinkVisibility(link => {
     const s = typeof link.source === 'object' ? link.source.id : link.source;
     const t = typeof link.target === 'object' ? link.target.id : link.target;
     return s === focusId || t === focusId;
@@ -480,7 +496,7 @@ function refreshOpacity() {
 function highlightPath(nodeIds, edgePairs) {
   const nodeSet = new Set(nodeIds);
   applyNodeOpacity(n => nodeSet.has(n.id) ? 0.95 : 0.06);
-  graphInstance.linkVisibility(link => {
+  applyLinkVisibility(link => {
     const s = typeof link.source === 'object' ? link.source.id : link.source;
     const t = typeof link.target === 'object' ? link.target.id : link.target;
     return edgePairs.some(([a, b]) => a === s && b === t);
@@ -490,7 +506,7 @@ function highlightPath(nodeIds, edgePairs) {
 
 function clearPathHighlight() {
   applyNodeOpacity(0.92);
-  graphInstance.linkVisibility(true);
+  applyLinkVisibility(true);
   graphInstance.linkOpacity(0.35);
 }
 
@@ -520,7 +536,7 @@ function dimToNeighborhood(rootId, depth, nodeMap, edgeMap) {
   }
 
   applyNodeOpacity(n => neighborOpacities.get(n.id) ?? DIM_OPACITY);
-  graphInstance.linkVisibility(link => {
+  applyLinkVisibility(link => {
     const s = typeof link.source === 'object' ? link.source.id : link.source;
     const t = typeof link.target === 'object' ? link.target.id : link.target;
     return allNeighbors.has(s) && allNeighbors.has(t);
@@ -632,12 +648,12 @@ function setNodeVisibility(predicate) {
 }
 
 function setLinkVisibility(predicate) {
-  graphInstance.linkVisibility(predicate);
+  applyLinkVisibility(predicate);
 }
 
 function resetVisibility() {
   graphInstance.nodeVisibility(true);
-  graphInstance.linkVisibility(true);
+  applyLinkVisibility(true);
   applyNodeOpacity(0.92);
   graphInstance.linkOpacity(0.35);
 }
