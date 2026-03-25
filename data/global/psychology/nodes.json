@@ -696,28 +696,6 @@
     ]
   },
   {
-    "id": "dehumanization",
-    "label": "Dehumanization",
-    "node_type": "mechanism",
-    "category": "mechanism",
-    "decade": "1930s",
-    "scope": "global/psychology",
-    "cross_scope": false,
-    "wikipedia": "https://en.wikipedia.org/wiki/Dehumanization",
-    "summary": "Psychological process of denying full human status to groups through language, imagery, and ideology — a prerequisite for mass violence, genocide, slavery, and systemic discrimination, studied extensively post-Holocaust.",
-    "tags": [
-      "dehumanization",
-      "genocide",
-      "racism",
-      "propaganda",
-      "Holocaust",
-      "psychology",
-      "violence",
-      "othering",
-      "enemy_image"
-    ]
-  },
-  {
     "id": "intergenerational_trauma",
     "label": "Intergenerational Trauma",
     "node_type": "mechanism",

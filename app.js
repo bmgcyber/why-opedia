@@ -1020,7 +1020,7 @@ function loadURLState() {
 function initWASD() {
   if (isMobile) return;   // touch devices don't need keyboard fly controls
 
-  const SPEED = 10;   // units per frame
+  const SPEED = 10;   // units per 16.67ms (60fps baseline)
   const keys  = {};
 
   document.addEventListener('keydown', e => {
@@ -1047,16 +1047,20 @@ function initWASD() {
     keys[e.key.toLowerCase()] = false;
   });
 
-  // RAF loop: move camera each frame when a movement key is held
-  (function tick() {
+  // Time-based RAF loop: normalise movement to 60fps so speed is consistent
+  // regardless of whether many or few nodes are visible (framerate can vary 2×).
+  let lastT = performance.now();
+  (function tick(now) {
     requestAnimationFrame(tick);
+    const dt = Math.min((now - lastT) / 16.667, 4); // cap at 4× to avoid jumps
+    lastT = now;
     const fwd = (keys['w'] ? 1 : 0) - (keys['s'] ? 1 : 0);
     const rgt = (keys['d'] ? 1 : 0) - (keys['a'] ? 1 : 0);
     const up  = (keys['e'] ? 1 : 0) - (keys['q'] ? 1 : 0);
     if (fwd !== 0 || rgt !== 0 || up !== 0) {
-      GR.moveCamera(fwd * SPEED, rgt * SPEED, up * SPEED);
+      GR.moveCamera(fwd * SPEED * dt, rgt * SPEED * dt, up * SPEED * dt);
     }
-  })();
+  })(performance.now());
 }
 
 // ── Utility ───────────────────────────────────────────────────────────────────
