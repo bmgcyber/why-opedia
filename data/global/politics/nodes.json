@@ -2027,5 +2027,90 @@
       "racism",
       "far_right"
     ]
+  },
+  {
+    "id": "libertarianism",
+    "label": "Libertarianism",
+    "node_type": "ideology",
+    "category": "ideology",
+    "decade": "1970s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Libertarianism",
+    "summary": "Political philosophy prioritizing individual liberty, minimal government, and free markets. Ranges from classical liberalism to anarcho-capitalism. Influential in tech industry and shapes opposition to regulation, taxes, and social programs.",
+    "tags": [
+      "libertarianism",
+      "individual_freedom",
+      "minimal_government",
+      "Ayn_Rand",
+      "Hayek",
+      "tech_industry",
+      "Ron_Paul",
+      "free_market"
+    ]
+  },
+  {
+    "id": "theocracy",
+    "label": "Theocracy & Religious Nationalism",
+    "node_type": "ideology",
+    "category": "ideology",
+    "decade": "1970s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Theocracy",
+    "summary": "Governance system where religious law or authority structures political power. Ranges from Iran's Islamic Republic to Christian nationalist movements seeking to align US law with evangelical interpretations — threatening secular governance.",
+    "tags": [
+      "theocracy",
+      "religious_nationalism",
+      "Christian_nationalism",
+      "Iran",
+      "Taliban",
+      "church_state",
+      "secularism",
+      "evangelicalism"
+    ]
+  },
+  {
+    "id": "great_society",
+    "label": "Great Society Programs",
+    "node_type": "historical_event",
+    "category": "historical_event",
+    "decade": "1960s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Society",
+    "summary": "LBJ's domestic legislation agenda 1964-68 creating Medicare, Medicaid, Voting Rights Act, and civil rights protections — the last major expansion of the American welfare state before the Reagan counter-revolution.",
+    "tags": [
+      "Great_Society",
+      "LBJ",
+      "Medicare",
+      "Medicaid",
+      "civil_rights",
+      "Voting_Rights_Act",
+      "welfare_state",
+      "poverty"
+    ]
+  },
+  {
+    "id": "bioethics",
+    "label": "Bioethics & Medical Ethics",
+    "node_type": "concept",
+    "category": "concept",
+    "decade": "1970s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Bioethics",
+    "summary": "Field examining ethical implications of biological and medical research — covering abortion, end-of-life care, genetic engineering, AI diagnostics, clinical trial ethics, and equitable access to medical technology.",
+    "tags": [
+      "bioethics",
+      "medical_ethics",
+      "abortion",
+      "genetics",
+      "CRISPR",
+      "Tuskegee",
+      "informed_consent",
+      "healthcare",
+      "research_ethics"
+    ]
   }
 ]

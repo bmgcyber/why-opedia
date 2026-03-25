@@ -713,5 +713,59 @@
     "label": "Enabled",
     "note": "Narcissistic parenting is a major category of adverse childhood experience",
     "confidence": "confirmed"
+  },
+  {
+    "id": "authoritarian_personality__fascism",
+    "source": "authoritarian_personality",
+    "target": "fascism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Authoritarian personality profile explains mass support for fascist movements",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "authoritarian_personality__cult_dynamics",
+    "source": "authoritarian_personality",
+    "target": "cult_dynamics",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Authoritarian personality creates susceptibility to cult-like submission to leaders",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "authoritarian_personality__milgram_obedience",
+    "source": "authoritarian_personality",
+    "target": "milgram_obedience",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both explain how personality and situation combine to produce obedience to harmful authority",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "identity_politics__intersectionality",
+    "source": "identity_politics",
+    "target": "intersectionality",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Intersectionality provides theoretical framework for multiple-identity political analysis",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "identity_politics__tribalism",
+    "source": "identity_politics",
+    "target": "tribalism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both operate through group identity dynamics though with different normative claims",
+    "confidence": "speculative"
+  },
+  {
+    "id": "identity_politics__cancel_culture",
+    "source": "identity_politics",
+    "target": "cancel_culture",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Identity-based politics creates frameworks for accountability that manifest as cancel culture",
+    "confidence": "speculative"
   }
 ]

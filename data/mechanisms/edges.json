@@ -7233,5 +7233,167 @@
     "label": "Caused",
     "note": "Centuries of racialized exclusion from wealth-building produced persistent racial wealth gap",
     "confidence": "confirmed"
+  },
+  {
+    "id": "neoliberalism_ideology__capitalism",
+    "source": "neoliberalism_ideology",
+    "target": "capitalism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Neoliberalism is the dominant political expression of contemporary capitalism",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "neoliberalism_ideology__austerity",
+    "source": "neoliberalism_ideology",
+    "target": "austerity",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Austerity policies are the primary fiscal instrument of neoliberal governance",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "neoliberalism_ideology__supply_side_economics",
+    "source": "neoliberalism_ideology",
+    "target": "supply_side_economics",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Supply-side economics is the theoretical foundation of neoliberal tax and spending policy",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "neoliberalism_ideology__welfare_state",
+    "source": "neoliberalism_ideology",
+    "target": "welfare_state",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Neoliberalism frames welfare state as inefficient and morally corrosive",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "neoliberalism_ideology__privatization",
+    "source": "neoliberalism_ideology",
+    "target": "healthcare_privatization",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Healthcare privatization is a neoliberal policy applied to public health systems",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "neoliberalism_ideology__regulatory_capture",
+    "source": "neoliberalism_ideology",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Deregulation ideology creates conditions for regulatory capture by industry",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "groupthink__bay_of_pigs",
+    "source": "groupthink",
+    "target": "bay_of_pigs",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Bay of Pigs is Janis's primary case study of catastrophic groupthink",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "groupthink__propaganda",
+    "source": "groupthink",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Groupthink in media organizations facilitates uncritical amplification of official propaganda",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "groupthink__echo_chamber",
+    "source": "groupthink",
+    "target": "echo_chamber",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Echo chambers are groupthink operating at population scale",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "confirmation_bias_effect__echo_chamber",
+    "source": "confirmation_bias_effect",
+    "target": "echo_chamber",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Confirmation bias drives individuals to seek out echo chambers confirming their views",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "confirmation_bias_effect__conspiracy_theories",
+    "source": "confirmation_bias_effect",
+    "target": "conspiracy_theories",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Conspiracy thinking exploits confirmation bias to resist disconfirming evidence",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "confirmation_bias_effect__broken_epistemology",
+    "source": "confirmation_bias_effect",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Confirmation bias at scale contributes to collapse of shared epistemic standards",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "tribalism__in_group_out_group_dynamics",
+    "source": "tribalism",
+    "target": "in_group_out_group_dynamics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Tribalism is the political expression of in-group/out-group psychological dynamics",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "tribalism__scapegoating",
+    "source": "tribalism",
+    "target": "scapegoating",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Tribal psychology facilitates scapegoating of out-groups for in-group problems",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "tribalism__populism",
+    "source": "tribalism",
+    "target": "populism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Populism mobilizes tribal instincts against designated elite enemies",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "artificial_intelligence__algorithmic_bias",
+    "source": "artificial_intelligence",
+    "target": "algorithmic_bias",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "AI systems are the primary source of contemporary algorithmic bias concerns",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "artificial_intelligence__automation_economy",
+    "source": "artificial_intelligence",
+    "target": "automation_economy",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "AI-driven automation is accelerating job displacement across sectors",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "artificial_intelligence__surveillance_capitalism",
+    "source": "artificial_intelligence",
+    "target": "surveillance_capitalism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "AI makes surveillance capitalism more powerful through predictive behavioral modeling",
+    "confidence": "confirmed"
   }
 ]

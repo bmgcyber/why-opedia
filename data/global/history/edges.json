@@ -5092,5 +5092,95 @@
     "label": "Enabled",
     "note": "Pentagon Papers and media coverage led to increased government media management",
     "confidence": "confirmed"
+  },
+  {
+    "id": "mccarthyism__moral_panic",
+    "source": "mccarthyism",
+    "target": "moral_panic",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "McCarthyism exhibited classic moral panic dynamics around communist infiltration",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "mccarthyism__civil_rights_movement",
+    "source": "mccarthyism",
+    "target": "civil_rights_movement",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Red-baiting was used to undermine civil rights leaders by labeling them communist",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cultural_revolution_china__mao",
+    "source": "cultural_revolution_china",
+    "target": "red_scare",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Cultural Revolution was Mao's attempt to maintain ideological purity and personal power",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cultural_revolution_china__propaganda",
+    "source": "cultural_revolution_china",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Cultural Revolution deployed mass propaganda through Little Red Book and wall posters",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cultural_revolution_china__dehumanization",
+    "source": "cultural_revolution_china",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Intellectuals and enemies were dehumanized through public struggle sessions",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "arab_spring__social_media_platforms",
+    "source": "arab_spring",
+    "target": "social_media_platforms",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Social media played key role in coordinating Arab Spring protests",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "arab_spring__internet_and_democracy",
+    "source": "arab_spring",
+    "target": "internet_and_democracy",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Arab Spring was seen as proof of internet democratization thesis before its limits showed",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "arab_spring__civil_war_proxy",
+    "source": "arab_spring",
+    "target": "cold_war_proxy_wars",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Syrian civil war that emerged from Arab Spring became a proxy war for global powers",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "nuclear_proliferation__nuclear_weapons",
+    "source": "nuclear_proliferation",
+    "target": "nuclear_weapons",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Nuclear weapons technology proliferation is the defining challenge of the nuclear age",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "nuclear_proliferation__cold_war_nuclear_fear",
+    "source": "nuclear_proliferation",
+    "target": "cold_war_nuclear_fear",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Proliferation beyond two superpowers intensified nuclear anxiety in Cold War era",
+    "confidence": "confirmed"
   }
 ]

@@ -737,5 +737,49 @@
       "family_systems",
       "transgenerational"
     ]
+  },
+  {
+    "id": "authoritarian_personality",
+    "label": "Authoritarian Personality",
+    "node_type": "theory",
+    "category": "theory",
+    "decade": "1950s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Authoritarian_Personality",
+    "summary": "Adorno and colleagues' 1950 study identifying psychological profile predisposed to authoritarian obedience: rigid thinking, in-group conformity, submission to authority, and aggression toward out-groups — linked to fascist susceptibility.",
+    "tags": [
+      "authoritarian_personality",
+      "Adorno",
+      "fascism",
+      "obedience",
+      "prejudice",
+      "F_scale",
+      "psychology",
+      "conformity",
+      "ethnocentrism"
+    ]
+  },
+  {
+    "id": "identity_politics",
+    "label": "Identity Politics",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1970s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Identity_politics",
+    "summary": "Political mobilization based on shared identity — racial, gender, sexual, religious, or class — contested from both right (as divisive) and left (as essential for marginalized group representation). Central to culture war debates.",
+    "tags": [
+      "identity_politics",
+      "race",
+      "gender",
+      "LGBTQ",
+      "class",
+      "representation",
+      "culture_war",
+      "Combahee_River_Collective",
+      "intersectionality"
+    ]
   }
 ]

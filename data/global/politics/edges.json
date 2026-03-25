@@ -2527,5 +2527,131 @@
     "label": "Enabled",
     "note": "White supremacist recruitment has shifted heavily to online radicalization pipelines",
     "confidence": "confirmed"
+  },
+  {
+    "id": "libertarianism__capitalism",
+    "source": "libertarianism",
+    "target": "capitalism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Libertarianism provides philosophical foundation for market capitalism",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "libertarianism__neoliberalism_ideology",
+    "source": "libertarianism",
+    "target": "neoliberalism_ideology",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Libertarian thought is intellectual ancestor of neoliberal policy",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "libertarianism__welfare_state",
+    "source": "libertarianism",
+    "target": "welfare_state",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Libertarians oppose welfare state as coercive redistribution",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "theocracy__fascism",
+    "source": "theocracy",
+    "target": "fascism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both use total ideology to justify suppression of dissent and minority rights",
+    "confidence": "speculative"
+  },
+  {
+    "id": "moral_panic__theocracy",
+    "source": "moral_panic",
+    "target": "theocracy",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Moral panics about sexual and cultural norms fuel religious nationalist politics",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "great_society__welfare_state",
+    "source": "great_society",
+    "target": "welfare_state",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Great Society programs were the last major US welfare state expansion",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "great_society__civil_rights_movement",
+    "source": "great_society",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Great Society legislation enacted Civil Rights Act and Voting Rights Act",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "great_society__vietnam_war",
+    "source": "great_society",
+    "target": "vietnam_war",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Vietnam War costs destroyed political capital needed for Great Society programs",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "new_deal__welfare_state",
+    "source": "new_deal",
+    "target": "welfare_state",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "New Deal created Social Security and foundational welfare state infrastructure",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "new_deal__labor_movement",
+    "source": "new_deal",
+    "target": "labor_movement",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Wagner Act was New Deal cornerstone enabling union organizing",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "new_deal__keynesianism",
+    "source": "new_deal",
+    "target": "keynesianism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "New Deal embodied Keynesian demand management before Keynes fully theorized it",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "great_depression__new_deal",
+    "source": "financial_crisis_2008",
+    "target": "new_deal",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "2008 crisis reignited debates about New Deal-style fiscal intervention",
+    "confidence": "speculative"
+  },
+  {
+    "id": "bioethics__pharmaceutical_industry",
+    "source": "bioethics",
+    "target": "pharmaceutical_industry",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Bioethics challenges clinical trial manipulation and profit-driven research agendas",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "bioethics__healthcare_privatization",
+    "source": "bioethics",
+    "target": "healthcare_privatization",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Medical ethics principles conflict with profit-driven healthcare denial",
+    "confidence": "confirmed"
   }
 ]

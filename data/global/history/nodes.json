@@ -4538,5 +4538,72 @@
       "nuclear",
       "Cold_War"
     ]
+  },
+  {
+    "id": "cultural_revolution_china",
+    "label": "China's Cultural Revolution",
+    "node_type": "historical_event",
+    "category": "historical_event",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Cultural_Revolution",
+    "summary": "Mao Zedong's 1966-76 campaign to purge capitalist and traditional elements from Chinese society — killing hundreds of thousands, destroying cultural heritage, sending intellectuals to labor camps, and creating lasting trauma.",
+    "tags": [
+      "Cultural_Revolution",
+      "Mao",
+      "China",
+      "Red_Guards",
+      "communism",
+      "purge",
+      "intellectuals",
+      "totalitarianism",
+      "trauma"
+    ]
+  },
+  {
+    "id": "arab_spring",
+    "label": "Arab Spring",
+    "node_type": "historical_event",
+    "category": "historical_event",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Arab_Spring",
+    "summary": "Wave of pro-democracy protests and uprisings across Arab world 2010-2012, sparked in Tunisia and spreading to Egypt, Libya, Syria, Bahrain, and Yemen — some succeeding briefly, most crushed or descending into civil war.",
+    "tags": [
+      "Arab_Spring",
+      "democracy",
+      "Tunisia",
+      "Egypt",
+      "Syria",
+      "social_media",
+      "revolution",
+      "authoritarianism",
+      "Libya",
+      "protest"
+    ]
+  },
+  {
+    "id": "nuclear_proliferation",
+    "label": "Nuclear Proliferation",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Nuclear_proliferation",
+    "summary": "Spread of nuclear weapons beyond original five nuclear states — India, Pakistan, North Korea acquiring weapons; Iran and others pursuing capability — creating ongoing existential risks despite Non-Proliferation Treaty framework.",
+    "tags": [
+      "nuclear_proliferation",
+      "NPT",
+      "Pakistan",
+      "India",
+      "North_Korea",
+      "Iran",
+      "nuclear_weapons",
+      "WMD",
+      "existential_risk"
+    ]
   }
 ]

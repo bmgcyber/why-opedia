@@ -2418,5 +2418,93 @@
       "policy",
       "discrimination"
     ]
+  },
+  {
+    "id": "neoliberalism_ideology",
+    "label": "Neoliberalism",
+    "node_type": "ideology",
+    "category": "ideology",
+    "decade": "1970s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Neoliberalism",
+    "summary": "Dominant economic ideology since the 1980s prioritizing free markets, deregulation, privatization, and reduced government spending. Associated with Thatcher, Reagan, and Chicago School economists. Drove global inequality rise and welfare state erosion.",
+    "tags": [
+      "neoliberalism",
+      "Thatcher",
+      "Reagan",
+      "free_market",
+      "privatization",
+      "deregulation",
+      "Chicago_School",
+      "Friedman",
+      "inequality"
+    ]
+  },
+  {
+    "id": "confirmation_bias_effect",
+    "label": "Confirmation Bias",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1960s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Confirmation_bias",
+    "summary": "Tendency to search for, interpret, and recall information in ways confirming existing beliefs — foundation of echo chambers, science denial, and political polarization. Amplified by social media algorithmic curation.",
+    "tags": [
+      "confirmation_bias",
+      "cognitive_bias",
+      "echo_chamber",
+      "polarization",
+      "media",
+      "psychology",
+      "belief",
+      "motivated_reasoning"
+    ]
+  },
+  {
+    "id": "tribalism",
+    "label": "Tribalism & In-Group Psychology",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1970s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Tribalism",
+    "summary": "Evolutionary social psychology favoring the in-group and viewing the out-group with suspicion — exploited by political strategists, media, and demagogues to generate loyalty through manufactured conflict.",
+    "tags": [
+      "tribalism",
+      "in_group",
+      "out_group",
+      "identity",
+      "partisanship",
+      "evolution",
+      "social_psychology",
+      "conflict",
+      "us_vs_them"
+    ]
+  },
+  {
+    "id": "artificial_intelligence",
+    "label": "Artificial Intelligence",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "summary": "Machine intelligence systems capable of performing tasks requiring human cognition — transforming labor markets, warfare, surveillance, healthcare, and media while raising profound questions about bias, accountability, and existential risk.",
+    "tags": [
+      "AI",
+      "machine_learning",
+      "automation",
+      "GPT",
+      "bias",
+      "surveillance",
+      "labor",
+      "existential_risk",
+      "ethics",
+      "regulation"
+    ]
   }
 ]
