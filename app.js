@@ -57,6 +57,7 @@ async function boot() {
     initSidebar();
     initToolbar();
     initModals();
+    initWASD();
 
     // URL state
     loadURLState();
@@ -951,6 +952,47 @@ function loadURLState() {
   } catch (err) {
     console.warn('loadURLState error:', err);
   }
+}
+
+// ── WASD Camera Controls ──────────────────────────────────────────────────────
+// W/S = fly forward/backward  A/D = strafe left/right  Space = snap to selected
+function initWASD() {
+  const SPEED = 4;   // units per frame
+  const keys  = {};
+
+  document.addEventListener('keydown', e => {
+    // Never hijack keypresses when the user is typing in an input/textarea
+    const tag = e.target.tagName;
+    if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+
+    const k = e.key.toLowerCase();
+    if (k === 'w' || k === 'a' || k === 's' || k === 'd') {
+      keys[k] = true;
+      e.preventDefault();  // prevent page scroll
+    }
+
+    if (e.key === ' ') {
+      e.preventDefault();
+      // Snap camera back to the currently selected node
+      if (selectedNodeId && nodeMap[selectedNodeId]) {
+        GR.focusOnNode(nodeMap[selectedNodeId]);
+      }
+    }
+  });
+
+  document.addEventListener('keyup', e => {
+    keys[e.key.toLowerCase()] = false;
+  });
+
+  // RAF loop: move camera each frame when a movement key is held
+  (function tick() {
+    requestAnimationFrame(tick);
+    const fwd = (keys['w'] ? 1 : 0) - (keys['s'] ? 1 : 0);
+    const rgt = (keys['d'] ? 1 : 0) - (keys['a'] ? 1 : 0);
+    if (fwd !== 0 || rgt !== 0) {
+      GR.moveCamera(fwd * SPEED, rgt * SPEED);
+    }
+  })();
 }
 
 // ── Utility ───────────────────────────────────────────────────────────────────

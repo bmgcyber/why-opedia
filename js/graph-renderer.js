@@ -470,6 +470,28 @@ function fitCamera() {
   graphInstance.zoomToFit(400, 80);
 }
 
+// Move camera (and orbit target) together along the camera's look/right vectors.
+// forwardDelta: + = towards target, - = away. rightDelta: + = right, - = left.
+// Called each animation frame by app.js WASD handler.
+function moveCamera(forwardDelta, rightDelta) {
+  if (!graphInstance) return;
+  const camera   = graphInstance.camera();
+  const controls = graphInstance.controls();
+
+  const forward = new THREE.Vector3()
+    .subVectors(controls.target, camera.position).normalize();
+  const right = new THREE.Vector3()
+    .crossVectors(forward, camera.up).normalize();
+
+  const delta = new THREE.Vector3()
+    .addScaledVector(forward, forwardDelta)
+    .addScaledVector(right, rightDelta);
+
+  camera.position.add(delta);
+  controls.target.add(delta);
+  controls.update();
+}
+
 function focusOnNode(node, zoom) {
   const distance = zoom || 150;
   const nx = node.x || 0, ny = node.y || 0, nz = node.z || 0;
@@ -618,6 +640,7 @@ window.GraphRenderer = {
 
   fitCamera,
   focusOnNode,
+  moveCamera,
   exportPNG,
 
   getGraphInstance,
