@@ -585,5 +585,86 @@
     "label": "Enabled",
     "note": "News curation algorithms inherit biases that distort political information",
     "confidence": "confirmed"
+  },
+  {
+    "id": "war_of_worlds_broadcast__propaganda",
+    "source": "war_of_worlds_broadcast",
+    "target": "propaganda",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "War of Worlds broadcast demonstrated radio's capacity for mass psychological manipulation",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "rupert_murdoch__media_consolidation",
+    "source": "rupert_murdoch",
+    "target": "media_consolidation",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "News Corp represents paradigmatic media consolidation across countries",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "rupert_murdoch__broken_epistemology",
+    "source": "rupert_murdoch",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Murdoch outlets systematically promoted misinformation degrading epistemics",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "radio_milles_collines__propaganda",
+    "source": "radio_milles_collines",
+    "target": "propaganda",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Hate radio represents propaganda weaponized for genocide",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "homeric_epics__propaganda",
+    "source": "homeric_epics",
+    "target": "propaganda",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Epic poetry functioned as cultural propaganda glorifying war and elite heroes",
+    "confidence": "speculative"
+  },
+  {
+    "id": "walter_lippmann__propaganda",
+    "source": "walter_lippmann",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Lippmann's theories of public opinion influenced modern propaganda practice",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "walter_lippmann__broken_epistemology",
+    "source": "walter_lippmann",
+    "target": "broken_epistemology",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Lippmann identified the problem of manufactured consent shaping public reality",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "citizen_journalism__broken_epistemology",
+    "source": "citizen_journalism",
+    "target": "broken_epistemology",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Proliferation of non-professional news sources contributes to fragmented information environment",
+    "confidence": "speculative"
+  },
+  {
+    "id": "citizen_journalism__russian_disinformation",
+    "source": "citizen_journalism",
+    "target": "russian_disinformation",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Citizen journalism platforms provide cover for state disinformation posing as grassroots reporting",
+    "confidence": "confirmed"
   }
 ]

@@ -5182,5 +5182,77 @@
     "label": "Enabled",
     "note": "Proliferation beyond two superpowers intensified nuclear anxiety in Cold War era",
     "confidence": "confirmed"
+  },
+  {
+    "id": "jewish_roman_wars__diaspora",
+    "source": "jewish_roman_wars",
+    "target": "antisemitism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Roman destruction of Jerusalem and Jewish dispersal created diaspora conditions exploited by antisemitism",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "jewish_roman_wars__the_holocaust",
+    "source": "jewish_roman_wars",
+    "target": "the_holocaust",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both represent historical attempts to destroy Jewish civilization through violence",
+    "confidence": "speculative"
+  },
+  {
+    "id": "jewish_roman_wars__colonial_era",
+    "source": "jewish_roman_wars",
+    "target": "colonial_era",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Roman conquest and colonization of Judea represents ancient colonial domination",
+    "confidence": "speculative"
+  },
+  {
+    "id": "second_vatican_council__catholic_church",
+    "source": "second_vatican_council",
+    "target": "protestant_reformation_history",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both Vatican II and Reformation represent attempts to modernize Catholic practice",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "second_vatican_council__reformation",
+    "source": "second_vatican_council",
+    "target": "reformation_counter_reformation",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Vatican II completed reforms the Counter-Reformation resisted for four centuries",
+    "confidence": "speculative"
+  },
+  {
+    "id": "leopold_ii_belgium__colonialism_legacy",
+    "source": "leopold_ii_belgium",
+    "target": "colonialism_legacy",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Leopold's Congo Free State is the defining example of colonial extraction and genocide",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "leopold_ii_belgium__resource_extraction",
+    "source": "leopold_ii_belgium",
+    "target": "resource_extraction",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Congo rubber quotas enforced by mutilation represent pure extractive colonialism",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "leopold_ii_belgium__dehumanization",
+    "source": "leopold_ii_belgium",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Leopold's regime dehumanized Congolese people as labor instruments for rubber production",
+    "confidence": "confirmed"
   }
 ]

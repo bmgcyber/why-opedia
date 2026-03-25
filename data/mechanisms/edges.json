@@ -7395,5 +7395,68 @@
     "label": "Enabled",
     "note": "AI makes surveillance capitalism more powerful through predictive behavioral modeling",
     "confidence": "confirmed"
+  },
+  {
+    "id": "false_consciousness__propaganda",
+    "source": "false_consciousness",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Propaganda manufactures false consciousness by presenting elite interests as universal",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "false_consciousness__marxism",
+    "source": "false_consciousness",
+    "target": "marxism",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "False consciousness is a core Marxist analytical concept about ideology",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "false_consciousness__cognitive_dissonance_effect",
+    "source": "false_consciousness",
+    "target": "cognitive_dissonance_effect",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both describe mechanisms by which people hold beliefs counter to their interests",
+    "confidence": "speculative"
+  },
+  {
+    "id": "deepfakes__broken_epistemology",
+    "source": "deepfakes",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Deepfakes accelerate epistemic crisis by making video evidence unreliable",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "deepfakes__russian_disinformation",
+    "source": "deepfakes",
+    "target": "russian_disinformation",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Synthetic media tools are being integrated into state disinformation operations",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "deepfakes__algorithmic_bias",
+    "source": "deepfakes",
+    "target": "algorithmic_bias",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both involve AI systems creating harmful social effects through manipulation of perception",
+    "confidence": "speculative"
+  },
+  {
+    "id": "artificial_intelligence__deepfakes",
+    "source": "artificial_intelligence",
+    "target": "deepfakes",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Generative AI models produced deepfake capabilities as a byproduct of vision research",
+    "confidence": "confirmed"
   }
 ]

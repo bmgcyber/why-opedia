@@ -2653,5 +2653,176 @@
     "label": "Discredited",
     "note": "Medical ethics principles conflict with profit-driven healthcare denial",
     "confidence": "confirmed"
+  },
+  {
+    "id": "gender_pay_gap__second_wave_feminism",
+    "source": "gender_pay_gap",
+    "target": "second_wave_feminism",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Gender pay gap was a primary target of second-wave feminist legislation",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "gender_pay_gap__wealth_inequality",
+    "source": "gender_pay_gap",
+    "target": "wealth_inequality",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Gender wage discrimination contributes directly to gender wealth gap",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "gender_pay_gap__intersectionality",
+    "source": "gender_pay_gap",
+    "target": "intersectionality",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Pay gaps compound along race and gender axes in ways intersectionality explains",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "voter_suppression__jim_crow",
+    "source": "voter_suppression",
+    "target": "jim_crow",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Jim Crow laws included poll taxes and literacy tests as paradigmatic voter suppression",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "voter_suppression__gerrymandering",
+    "source": "voter_suppression",
+    "target": "gerrymandering",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both are techniques to dilute minority political power",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "voter_suppression__systemic_racism",
+    "source": "voter_suppression",
+    "target": "systemic_racism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Voter suppression is a primary mechanism of systemic racism in political power",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "voter_suppression__dark_money_politics",
+    "source": "voter_suppression",
+    "target": "dark_money_politics",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Dark money funds voter suppression advocacy organizations",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "land_reform__colonialism_legacy",
+    "source": "land_reform",
+    "target": "colonialism_legacy",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Land reform movements directly challenged colonial land seizure systems",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "land_reform__decolonization_africa",
+    "source": "land_reform",
+    "target": "decolonization_africa",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Land redistribution was central demand of African decolonization movements",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "land_reform__wealth_inequality",
+    "source": "land_reform",
+    "target": "wealth_inequality",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Land reform attempts to reverse colonial and feudal wealth concentration in land",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "french_revolution_history__enlightenment",
+    "source": "french_revolution_history",
+    "target": "enlightenment",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "French Revolution was direct political expression of Enlightenment philosophy",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "french_revolution_history__marxism",
+    "source": "french_revolution_history",
+    "target": "marxism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "French Revolution provided Marx with key lessons about bourgeois revolution and class struggle",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "french_revolution_history__napoleon_Bonaparte",
+    "source": "french_revolution_history",
+    "target": "napoleon_bonaparte",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Napoleon Bonaparte rose to power through the political vacuum created by French Revolution",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "tiananmen_square_massacre__cultural_revolution_china",
+    "source": "tiananmen_square_massacre",
+    "target": "cultural_revolution_china",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both represent CCP suppression of dissent through state violence",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "stonewall__civil_rights_movement",
+    "source": "stonewall",
+    "target": "civil_rights_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both used direct action and visibility politics to demand equal rights",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "progressive_era__labor_movement",
+    "source": "progressive_era",
+    "target": "labor_movement",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Progressive Era produced major labor legislation including child labor and hours laws",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "progressive_era__robber_barons",
+    "source": "progressive_era",
+    "target": "robber_barons",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Progressive Era trust-busting directly targeted robber baron monopolies",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "progressive_era__new_deal",
+    "source": "progressive_era",
+    "target": "new_deal",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Progressive Era built institutional and intellectual foundations for New Deal",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "tiananmen_square_massacre__propaganda",
+    "source": "tiananmen_square_massacre",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "CCP propaganda systematically erased Tiananmen from Chinese public memory",
+    "confidence": "confirmed"
   }
 ]

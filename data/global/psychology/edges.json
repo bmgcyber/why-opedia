@@ -767,5 +767,185 @@
     "label": "Enabled",
     "note": "Identity-based politics creates frameworks for accountability that manifest as cancel culture",
     "confidence": "speculative"
+  },
+  {
+    "id": "pua_community__mgtow",
+    "source": "pua_community",
+    "target": "mgtow",
+    "type": "FRAGMENTED_INTO",
+    "label": "Fragmented into",
+    "note": "Some PUA adherents moved into MGTOW as alienation deepened",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "pua_community__toxic_masculinity",
+    "source": "pua_community",
+    "target": "toxic_masculinity",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "PUA community represents and reinforces toxic masculinity norms",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "pua_community__social_media_radicalization",
+    "source": "pua_community",
+    "target": "social_media_radicalization",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Online PUA forums function as radicalization pipelines into misogynist extremism",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "brony_fandom__in_group_out_group_dynamics",
+    "source": "brony_fandom",
+    "target": "in_group_out_group_dynamics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Fan communities exhibit strong in-group bonding and out-group rejection dynamics",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "brony_fandom__identity_politics",
+    "source": "brony_fandom",
+    "target": "identity_politics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Fandom identity functions as a form of subcultural identity politics",
+    "confidence": "speculative"
+  },
+  {
+    "id": "furry_fandom__in_group_out_group_dynamics",
+    "source": "furry_fandom",
+    "target": "in_group_out_group_dynamics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Furry community shows strong in-group belonging and protective identity dynamics",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "furry_fandom__identity_politics",
+    "source": "furry_fandom",
+    "target": "identity_politics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Furry identity intersects with LGBTQ and other identity movements",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "stanford_prison_experiment__milgram_obedience",
+    "source": "stanford_prison_experiment",
+    "target": "milgram_obedience",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both demonstrate how situational roles override individual moral agency",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "stanford_prison_experiment__dehumanization",
+    "source": "stanford_prison_experiment",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Prison experiment showed how institutional roles produce dehumanizing behavior",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "stanford_prison_experiment__authoritarian_personality",
+    "source": "stanford_prison_experiment",
+    "target": "authoritarian_personality",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both reveal the power of authority and role to shape behavior independent of personality",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "echo_chamber__tribalism",
+    "source": "echo_chamber",
+    "target": "tribalism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Echo chambers reinforce tribal identity by filtering out challenging perspectives",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "echo_chamber__confirmation_bias_effect",
+    "source": "echo_chamber",
+    "target": "confirmation_bias_effect",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Echo chambers are self-reinforcing structures built on confirmation bias",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "toxic_masculinity__mgtow",
+    "source": "toxic_masculinity",
+    "target": "mgtow",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Toxic masculinity norms create the alienated masculine identity MGTOW exploits",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "toxic_masculinity__gender_pay_gap",
+    "source": "toxic_masculinity",
+    "target": "gender_pay_gap",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Masculine norms excluding women from leadership roles contribute to pay gap",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "intersectionality__feminist_theory",
+    "source": "intersectionality",
+    "target": "feminist_theory",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Intersectionality developed from and refined feminist theoretical frameworks",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "intersectionality__systemic_racism",
+    "source": "intersectionality",
+    "target": "systemic_racism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Intersectionality reveals how racial and gender systems of oppression compound",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "trauma_bonding__narcissistic_abuse",
+    "source": "trauma_bonding",
+    "target": "narcissistic_abuse",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Trauma bonding is the primary mechanism keeping victims in narcissistic abuse relationships",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "trauma_bonding__adverse_childhood_experiences",
+    "source": "trauma_bonding",
+    "target": "adverse_childhood_experiences",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Early relational trauma creates patterns that manifest as trauma bonding in adult relationships",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "satanic_panic__moral_panic",
+    "source": "satanic_panic",
+    "target": "moral_panic",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Satanic panic is a paradigmatic example of moral panic dynamics",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "satanic_panic__conspiracy_theories",
+    "source": "satanic_panic",
+    "target": "conspiracy_theories",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Satanic ritual abuse beliefs share epistemological structure with conspiracy theories",
+    "confidence": "confirmed"
   }
 ]

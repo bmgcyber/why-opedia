@@ -2506,5 +2506,49 @@
       "ethics",
       "regulation"
     ]
+  },
+  {
+    "id": "false_consciousness",
+    "label": "False Consciousness",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1840s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/False_consciousness",
+    "summary": "Marxist concept describing workers holding beliefs that serve elite interests against their own — voting against economic self-interest, supporting policies that harm them, or internalizing oppressor worldviews through media and culture.",
+    "tags": [
+      "false_consciousness",
+      "Marx",
+      "ideology",
+      "working_class",
+      "hegemony",
+      "Gramsci",
+      "media",
+      "propaganda",
+      "class_interests"
+    ]
+  },
+  {
+    "id": "deepfakes",
+    "label": "Deepfakes & Synthetic Media",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Deepfake",
+    "summary": "AI-generated synthetic media — realistic fake videos, audio, and images — threatening political discourse, enabling non-consensual pornography, and accelerating the collapse of shared evidentiary standards in public life.",
+    "tags": [
+      "deepfakes",
+      "synthetic_media",
+      "AI",
+      "disinformation",
+      "fake_news",
+      "elections",
+      "nonconsensual",
+      "epistemology",
+      "manipulation"
+    ]
   }
 ]

@@ -562,5 +562,104 @@
     "label": "Shares mechanism with",
     "note": "Food deserts in low-income communities are an environmental justice issue",
     "confidence": "confirmed"
+  },
+  {
+    "id": "tobacco_master_settlement__tobacco_industry",
+    "source": "tobacco_master_settlement",
+    "target": "tobacco_industry",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Master Settlement Agreement forced tobacco industry to pay $246B and restrict marketing",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "tobacco_master_settlement__regulatory_capture",
+    "source": "tobacco_master_settlement",
+    "target": "regulatory_capture",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Settlement revealed extent of regulatory capture that allowed tobacco harm for decades",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "tobacco_master_settlement__opioid_corporate_liability",
+    "source": "tobacco_master_settlement",
+    "target": "opioid_corporate_liability",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Opioid litigation used tobacco settlement as legal model and template",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "lobotomy_era__mental_health_stigma",
+    "source": "lobotomy_era",
+    "target": "mental_health_stigma",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Psychiatric abuses including lobotomies created lasting trauma and mistrust of psychiatry",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "lobotomy_era__bioethics",
+    "source": "lobotomy_era",
+    "target": "bioethics",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Psychiatric abuses drove development of medical ethics and informed consent frameworks",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "lobotomy_era__adverse_childhood_experiences",
+    "source": "lobotomy_era",
+    "target": "adverse_childhood_experiences",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Institutionalization of children created severe adverse experiences",
+    "confidence": "speculative"
+  },
+  {
+    "id": "thalidomide_scandal__pharmaceutical_industry",
+    "source": "thalidomide_scandal",
+    "target": "pharmaceutical_industry",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Thalidomide disaster was the catalyst for modern drug testing requirements",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "thalidomide_scandal__regulatory_capture",
+    "source": "thalidomide_scandal",
+    "target": "regulatory_capture",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Thalidomide showed regulatory failure when industry captured approval processes",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "thalidomide_scandal__bioethics",
+    "source": "thalidomide_scandal",
+    "target": "bioethics",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Thalidomide tragedy accelerated development of bioethics principles for drug trials",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "pain_management_movement__opioid_corporate_liability",
+    "source": "pain_management_movement",
+    "target": "opioid_corporate_liability",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Pain management push by Purdue Pharma is basis of corporate liability claims",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "pain_management_movement__regulatory_capture",
+    "source": "pain_management_movement",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Pain management guidelines were captured by pharmaceutical industry influence",
+    "confidence": "confirmed"
   }
 ]
