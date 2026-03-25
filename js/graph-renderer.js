@@ -5,6 +5,10 @@
 // All 3d-force-graph configuration and Three.js rendering logic.
 // Depends on: THREE (global from three.min.js CDN), ForceGraph3D (global), d3 (global)
 
+/* eslint-disable no-undef */
+const THREE = window.THREE;
+if (!THREE) throw new Error('Three.js not loaded — check CDN script in index.html');
+
 // ── Color maps ─────────────────────────────────────────────────────────────────
 const CATEGORY_COLOR = {
   event:       '#5b8dee',

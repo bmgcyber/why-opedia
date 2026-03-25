@@ -191,14 +191,14 @@
     </div>
   </div>
 
-  <!-- CDN: Three.js (must load BEFORE 3d-force-graph so UMD uses this instance) -->
-  <script src="https://cdn.jsdelivr.net/npm/three@0.167.0/build/three.min.js"></script>
-  <!-- CDN: 3d-force-graph (Three.js peer dependency resolved via global THREE above) -->
+  <!-- CDN: Three.js — must load BEFORE 3d-force-graph -->
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <!-- CDN: 3d-force-graph (uses global THREE set above) -->
   <script src="https://unpkg.com/3d-force-graph@1.73.3/dist/3d-force-graph.min.js"></script>
   <!-- CDN: d3 for force simulation customization -->
-  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+  <script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
   <!-- CDN: Fuse.js for fuzzy search -->
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="https://unpkg.com/fuse.js@7.0.0/dist/fuse.min.js"></script>
 
   <!-- App modules (order matters: renderer before app) -->
   <script src="js/graph-renderer.js"></script>
