@@ -146,7 +146,6 @@ function handleNodeClick(node) {
   GR.selectNode(node.id);
   showNodePanel(node);
   activateNeighborhood(node.id);
-  GR.focusOnNode(node);
   updateURLState();
 }
 

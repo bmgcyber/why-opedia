@@ -443,6 +443,7 @@ function refreshOpacity() {
   const focusId = selectedNodeId || hoveredNodeId;
   if (!focusId) {
     applyNodeOpacity(0.92);
+    graphInstance.linkVisibility(true);
     graphInstance.linkOpacity(0.35);
     return;
   }
@@ -465,32 +466,31 @@ function refreshOpacity() {
   }
 
   applyNodeOpacity(node => neighborOpacities.get(node.id) ?? DIM_OPACITY);
-  graphInstance.linkOpacity(link => {
+  // linkOpacity() only accepts scalars in this library — use linkVisibility to
+  // hide all edges not directly touching the selected node.
+  graphInstance.linkVisibility(link => {
     const s = typeof link.source === 'object' ? link.source.id : link.source;
     const t = typeof link.target === 'object' ? link.target.id : link.target;
-    if (s !== focusId && t !== focusId) return DIM_OPACITY;
-    const neighborId = s === focusId ? t : s;
-    if (!neighborOpacities.has(neighborId)) return DIM_OPACITY;
-    const typeOp = TYPE_OPACITY[link.type] !== undefined
-      ? TYPE_OPACITY[link.type]
-      : DEFAULT_NEIGHBOR_OPACITY;
-    return typeOp;
+    return s === focusId || t === focusId;
   });
+  graphInstance.linkOpacity(0.7);
 }
 
 // ── Path highlight ────────────────────────────────────────────────────────────
 function highlightPath(nodeIds, edgePairs) {
   const nodeSet = new Set(nodeIds);
   applyNodeOpacity(n => nodeSet.has(n.id) ? 0.95 : 0.06);
-  graphInstance.linkOpacity(link => {
+  graphInstance.linkVisibility(link => {
     const s = typeof link.source === 'object' ? link.source.id : link.source;
     const t = typeof link.target === 'object' ? link.target.id : link.target;
-    return edgePairs.some(([a, b]) => a === s && b === t) ? 1.0 : 0.04;
+    return edgePairs.some(([a, b]) => a === s && b === t);
   });
+  graphInstance.linkOpacity(0.9);
 }
 
 function clearPathHighlight() {
   applyNodeOpacity(0.92);
+  graphInstance.linkVisibility(true);
   graphInstance.linkOpacity(0.35);
 }
 
@@ -520,11 +520,12 @@ function dimToNeighborhood(rootId, depth, nodeMap, edgeMap) {
   }
 
   applyNodeOpacity(n => neighborOpacities.get(n.id) ?? DIM_OPACITY);
-  graphInstance.linkOpacity(link => {
+  graphInstance.linkVisibility(link => {
     const s = typeof link.source === 'object' ? link.source.id : link.source;
     const t = typeof link.target === 'object' ? link.target.id : link.target;
-    return (allNeighbors.has(s) && allNeighbors.has(t)) ? 0.75 : DIM_OPACITY;
+    return allNeighbors.has(s) && allNeighbors.has(t);
   });
+  graphInstance.linkOpacity(0.7);
 }
 
 function getNeighborIds(rootId, depth, nodeMap, edgeMap) {
