@@ -304,9 +304,13 @@
     // immediately applies the current camera distance.
     GR.setSemanticZoom(!anyActive);
 
+    // Pre-compute neighborhood set once so both node and link visibility can use it.
+    const neighbors = selectedNodeId
+      ? GR.getNeighborIds(selectedNodeId, neighborhoodDepth, {}, edgeMap)
+      : null;
+
     if (selectedNodeId) {
       // Neighborhood mode: dim non-neighbors AND restrict visibility
-      const neighbors = GR.getNeighborIds(selectedNodeId, neighborhoodDepth, {}, edgeMap);
       GR.dimToNeighborhood(selectedNodeId, neighborhoodDepth, {}, edgeMap);
       GR.setNodeVisibility(n => {
         if (n.category === 'portal') return true;
@@ -325,7 +329,14 @@
       if (!edgePassesFilter(link)) return false;
       const s = typeof link.source === 'object' ? link.source.id : link.source;
       const t = typeof link.target === 'object' ? link.target.id : link.target;
-      return visibleNodeIds.has(s) && visibleNodeIds.has(t);
+      if (!visibleNodeIds.has(s) || !visibleNodeIds.has(t)) return false;
+      if (selectedNodeId) {
+        // Match the hover behaviour: only show edges directly touching the selected node.
+        // At depth > 1 show all edges within the neighborhood so the chain is readable.
+        if (neighborhoodDepth <= 1) return s === selectedNodeId || t === selectedNodeId;
+        return neighbors.has(s) && neighbors.has(t);
+      }
+      return true;
     });
 
     updateNodeTypeCounts(data.nodes, visibleNodeIds);
