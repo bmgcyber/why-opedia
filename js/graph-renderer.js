@@ -77,6 +77,7 @@ function initRenderer(containerEl) {
   container = containerEl;
 
   graphInstance = ForceGraph3D({ controlType: 'orbit', rendererConfig: { antialias: true } })(container)
+    .numDimensions(3)
     .backgroundColor('#0d1117')
     // Node geometry / appearance
     .nodeId('id')
@@ -113,7 +114,15 @@ function initRenderer(containerEl) {
     .d3Force('link',   d3.forceLink().distance(link =>
       link.type === 'SHARES_MECHANISM_WITH' ? 150 : 80
     ))
-    .d3Force('collision', d3.forceCollide().radius(n => (n.__size || 8) + 5));
+    .d3Force('collision', d3.forceCollide().radius(n => (n.__size || 8) + 5))
+    .d3Force('z-spread', () => {
+      if (!currentGraphData) return;
+      currentGraphData.nodes.forEach(node => {
+        if (Math.abs(node.z || 0) < 50) {
+          node.vz = (node.vz || 0) + (((node.z || 0) >= 0 ? 1 : -1) * 0.3);
+        }
+      });
+    });
 
   // Scene extras: fog, lights, star field
   const scene = graphInstance.scene();
@@ -357,6 +366,13 @@ function loadGraphData(nodes, edges) {
     source: e.source,
     target: e.target,
   }));
+
+  // Randomize initial 3D positions so force sim starts with z-spread
+  nodes.forEach(node => {
+    if (node.x === undefined) node.x = (Math.random() - 0.5) * 400;
+    if (node.y === undefined) node.y = (Math.random() - 0.5) * 400;
+    if (node.z === undefined) node.z = (Math.random() - 0.5) * 400;
+  });
 
   currentGraphData = { nodes, links };
 
