@@ -1020,7 +1020,7 @@ function loadURLState() {
 function initWASD() {
   if (isMobile) return;   // touch devices don't need keyboard fly controls
 
-  const SPEED = 4;   // units per frame
+  const SPEED = 10;   // units per frame
   const keys  = {};
 
   document.addEventListener('keydown', e => {
