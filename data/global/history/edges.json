@@ -5254,5 +5254,77 @@
     "label": "Enabled",
     "note": "Leopold's regime dehumanized Congolese people as labor instruments for rubber production",
     "confidence": "confirmed"
+  },
+  {
+    "id": "indigenous_boarding_schools__indigenous_rights",
+    "source": "indigenous_boarding_schools",
+    "target": "indigenous_rights",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Boarding school trauma and survivors drove indigenous rights movements",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "indigenous_boarding_schools__intergenerational_trauma",
+    "source": "indigenous_boarding_schools",
+    "target": "intergenerational_trauma",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Forced separation and abuse in boarding schools created documented intergenerational trauma",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "indigenous_boarding_schools__systemic_racism",
+    "source": "indigenous_boarding_schools",
+    "target": "systemic_racism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Boarding schools were a form of institutionalized systemic racism targeting Indigenous children",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "indigenous_boarding_schools__dehumanization",
+    "source": "indigenous_boarding_schools",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Dehumanization of Indigenous peoples justified the cultural genocide of boarding schools",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cambodian_genocide__khmer_rouge_genocide",
+    "source": "cambodian_genocide",
+    "target": "khmer_rouge_genocide",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Cambodian genocide and Khmer Rouge are the same event at different analytical levels",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cambodian_genocide__vietnam_war",
+    "source": "cambodian_genocide",
+    "target": "vietnam_war",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "US bombing of Cambodia destabilized country enabling Khmer Rouge rise",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "nuclear_proliferation__cuba_missile_crisis",
+    "source": "nuclear_proliferation",
+    "target": "cuban_missile_crisis",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Nuclear proliferation and arms race produced Cuban Missile Crisis as near-catastrophe",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "nuclear_proliferation__arms_race",
+    "source": "nuclear_proliferation",
+    "target": "cold_war_nuclear_fear",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Proliferation drove nuclear fear in cold war culture and civil society",
+    "confidence": "confirmed"
   }
 ]

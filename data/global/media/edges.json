@@ -666,5 +666,68 @@
     "label": "Enabled",
     "note": "Citizen journalism platforms provide cover for state disinformation posing as grassroots reporting",
     "confidence": "confirmed"
+  },
+  {
+    "id": "yellow_journalism__propaganda",
+    "source": "yellow_journalism",
+    "target": "propaganda",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Yellow journalism pioneered emotional manipulation techniques later systematized as propaganda",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "yellow_journalism__misinformation_economy",
+    "source": "yellow_journalism",
+    "target": "misinformation_economy",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Yellow journalism established the profit-from-outrage model that misinformation economy inherits",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "yellow_journalism__broken_epistemology",
+    "source": "yellow_journalism",
+    "target": "broken_epistemology",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Hearst papers manufactured stories that became historical facts — early epistemic warfare",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "deepstate_media_narrative__conspiracy_theories",
+    "source": "deepstate_media_narrative",
+    "target": "conspiracy_theories",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Deep state narrative is a specific conspiracy theory targeting government institutions",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "deepstate_media_narrative__russian_disinformation",
+    "source": "deepstate_media_narrative",
+    "target": "russian_disinformation",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Deep state narratives have been amplified by Russian disinformation operations",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "deepstate_media_narrative__broken_epistemology",
+    "source": "deepstate_media_narrative",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Deep state framing delegitimizes all evidence from official sources",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "deepstate_media_narrative__misinformation_economy",
+    "source": "deepstate_media_narrative",
+    "target": "misinformation_economy",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Deep state content drives massive engagement and fundraising in right-wing media",
+    "confidence": "confirmed"
   }
 ]

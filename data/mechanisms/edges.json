@@ -7458,5 +7458,113 @@
     "label": "Produced",
     "note": "Generative AI models produced deepfake capabilities as a byproduct of vision research",
     "confidence": "confirmed"
+  },
+  {
+    "id": "misinformation_economy__propaganda",
+    "source": "misinformation_economy",
+    "target": "propaganda",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Misinformation economy provides financial infrastructure for propaganda production",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "misinformation_economy__anti_vaccine_movement",
+    "source": "misinformation_economy",
+    "target": "anti_vaccine_movement",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Anti-vaccine content is highly profitable in misinformation economy",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "misinformation_economy__conspiracy_theories",
+    "source": "misinformation_economy",
+    "target": "conspiracy_theories",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Conspiracy content generates highest engagement and revenue in misinformation ecosystem",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "misinformation_economy__broken_epistemology",
+    "source": "misinformation_economy",
+    "target": "broken_epistemology",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Profit motive for outrage content systematically degrades epistemic commons",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "misinformation_economy__surveillance_capitalism",
+    "source": "misinformation_economy",
+    "target": "surveillance_capitalism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both exploit behavioral data for profit with harmful externalities to society",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "anti_intellectualism__conspiracy_theories",
+    "source": "anti_intellectualism",
+    "target": "conspiracy_theories",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Anti-intellectualism creates receptivity to conspiracy theories that reject expert consensus",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "anti_intellectualism__scientific_consensus",
+    "source": "anti_intellectualism",
+    "target": "scientific_consensus",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Anti-intellectualism is prerequisite for manufactured doubt about scientific consensus to work",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "anti_intellectualism__populism",
+    "source": "anti_intellectualism",
+    "target": "populism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Populism exploits anti-intellectualist resentment of educated elites",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "anti_intellectualism__false_consciousness",
+    "source": "anti_intellectualism",
+    "target": "false_consciousness",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Anti-intellectualism prevents class analysis needed to identify false consciousness",
+    "confidence": "speculative"
+  },
+  {
+    "id": "class_consciousness__marxism",
+    "source": "class_consciousness",
+    "target": "marxism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Class consciousness is the central mechanism of Marxist political theory",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "class_consciousness__labor_movement",
+    "source": "class_consciousness",
+    "target": "labor_movement",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Labor organizing requires class consciousness to motivate collective action",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "class_consciousness__false_consciousness",
+    "source": "class_consciousness",
+    "target": "false_consciousness",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Class consciousness is the antidote to false consciousness",
+    "confidence": "confirmed"
   }
 ]

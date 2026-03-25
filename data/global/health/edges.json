@@ -661,5 +661,59 @@
     "label": "Enabled",
     "note": "Pain management guidelines were captured by pharmaceutical industry influence",
     "confidence": "confirmed"
+  },
+  {
+    "id": "medical_racism__systemic_racism",
+    "source": "medical_racism",
+    "target": "systemic_racism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Medical racism is systemic racism manifesting in healthcare delivery",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "medical_racism__adverse_childhood_experiences",
+    "source": "medical_racism",
+    "target": "adverse_childhood_experiences",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Racialized medical neglect is a form of adverse childhood experience",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "medical_racism__environmental_justice",
+    "source": "medical_racism",
+    "target": "environmental_justice",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Environmental health disparities and medical racism compound in communities of color",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "medical_racism__healthcare_privatization",
+    "source": "medical_racism",
+    "target": "healthcare_privatization",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Profit-driven healthcare exacerbates racial disparities through insurance discrimination",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "neurodiversity__conversion_therapy",
+    "source": "neurodiversity",
+    "target": "conversion_therapy",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Neurodiversity movement challenges attempts to cure or normalize autism and ADHD",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "neurodiversity__mental_health_stigma",
+    "source": "neurodiversity",
+    "target": "mental_health_stigma",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Neurodiversity reframes neurological differences as variation rather than pathology",
+    "confidence": "confirmed"
   }
 ]

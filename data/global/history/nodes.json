@@ -4605,5 +4605,26 @@
       "WMD",
       "existential_risk"
     ]
+  },
+  {
+    "id": "indigenous_boarding_schools",
+    "label": "Indigenous Boarding Schools",
+    "node_type": "historical_event",
+    "category": "historical_event",
+    "decade": "1870s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Indian_boarding_schools",
+    "summary": "\"Kill the Indian, save the man\": US and Canadian government schools forcibly removing Indigenous children from families to eliminate Native languages, culture, and identity — producing documented abuse, death, and intergenerational trauma still unfolding.",
+    "tags": [
+      "boarding_schools",
+      "Indigenous",
+      "forced_assimilation",
+      "cultural_genocide",
+      "residential_schools",
+      "trauma",
+      "Canada",
+      "Native_American"
+    ]
   }
 ]

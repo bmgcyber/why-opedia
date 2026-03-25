@@ -2176,5 +2176,26 @@
       "revolution",
       "property_rights"
     ]
+  },
+  {
+    "id": "food_sovereignty",
+    "label": "Food Sovereignty",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1990s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Food_sovereignty",
+    "summary": "Movement asserting the right of peoples to define their own food systems rather than being subject to international market forces — challenging corporate agriculture, GMO patents, and trade agreements destroying small farming.",
+    "tags": [
+      "food_sovereignty",
+      "Via_Campesina",
+      "GMO",
+      "corporate_agriculture",
+      "trade",
+      "small_farmers",
+      "indigenous",
+      "food_systems"
+    ]
   }
 ]

@@ -587,5 +587,26 @@
       "sugar",
       "corporate_responsibility"
     ]
+  },
+  {
+    "id": "medical_racism",
+    "label": "Medical Racism & Health Disparities",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1900s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Race_and_health_in_the_United_States",
+    "summary": "Racial disparities in healthcare access, quality, and outcomes rooted in systemic racism, implicit bias, and historical abuses like Tuskegee — producing higher rates of chronic illness, maternal mortality, and COVID-19 deaths in Black communities.",
+    "tags": [
+      "medical_racism",
+      "health_disparities",
+      "Tuskegee",
+      "bias",
+      "maternal_mortality",
+      "COVID",
+      "Black_health",
+      "systemic_racism"
+    ]
   }
 ]

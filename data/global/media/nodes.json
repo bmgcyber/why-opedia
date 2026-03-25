@@ -589,5 +589,27 @@
       "news",
       "engagement"
     ]
+  },
+  {
+    "id": "deepstate_media_narrative",
+    "label": "Deep State Conspiracy Narrative",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "global/media",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Deep_state_in_the_United_States",
+    "summary": "Conspiracy theory positing a hidden permanent government controlling elected officials — amplified by right-wing media to delegitimize intelligence agencies, law enforcement, and media as coordinated enemies of the people.",
+    "tags": [
+      "deep_state",
+      "conspiracy",
+      "QAnon",
+      "Trump",
+      "FBI",
+      "media_distrust",
+      "disinformation",
+      "right_wing_media",
+      "shadow_government"
+    ]
   }
 ]

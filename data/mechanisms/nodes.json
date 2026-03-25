@@ -2550,5 +2550,68 @@
       "epistemology",
       "manipulation"
     ]
+  },
+  {
+    "id": "misinformation_economy",
+    "label": "Misinformation Economy",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "2010s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Fake_news_website",
+    "summary": "The financial ecosystem sustaining misinformation: advertising revenue from outrage clicks, donation drives, supplement sales, and merchandise fueling fake news sites, alternative health gurus, and conspiracy influencers.",
+    "tags": [
+      "misinformation",
+      "fake_news",
+      "attention_economy",
+      "advertising",
+      "monetization",
+      "conspiracy",
+      "influencers",
+      "platforms"
+    ]
+  },
+  {
+    "id": "anti_intellectualism",
+    "label": "Anti-Intellectualism",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1950s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Anti-intellectualism",
+    "summary": "Hostility toward expertise, education, and intellectual inquiry — documented by Richard Hofstadter in American political culture. Exploited by demagogues to discredit inconvenient scientific findings and undermine democratic deliberation.",
+    "tags": [
+      "anti_intellectualism",
+      "Hofstadter",
+      "expertise",
+      "populism",
+      "education",
+      "science",
+      "elitism",
+      "expertise_rejection"
+    ]
+  },
+  {
+    "id": "class_consciousness",
+    "label": "Class Consciousness",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1840s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Class_consciousness",
+    "summary": "The awareness of one's own social class position and its relationship to other classes — the Marxist prerequisite for political action. Its absence (false consciousness) enables working-class support for elite interests.",
+    "tags": [
+      "class_consciousness",
+      "Marx",
+      "class_struggle",
+      "workers",
+      "labor",
+      "false_consciousness",
+      "solidarity",
+      "organizing"
+    ]
   }
 ]

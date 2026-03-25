@@ -2824,5 +2824,68 @@
     "label": "Enabled",
     "note": "CCP propaganda systematically erased Tiananmen from Chinese public memory",
     "confidence": "confirmed"
+  },
+  {
+    "id": "gun_violence_policy__white_supremacy_movement",
+    "source": "gun_violence_policy",
+    "target": "white_supremacy_movement",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "White supremacist mass shooters exploit lax gun laws enabled by NRA lobbying",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "gun_violence_policy__school_to_prison_pipeline",
+    "source": "gun_violence_policy",
+    "target": "school_to_prison_pipeline",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Both disproportionately harm Black and low-income communities through policy failure",
+    "confidence": "speculative"
+  },
+  {
+    "id": "theocracy__anti_vaccine_movement",
+    "source": "theocracy",
+    "target": "anti_vaccine_movement",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Religious communities disproportionately drove vaccine hesitancy through faith-based exemptions",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "theocracy__climate_change_denial",
+    "source": "theocracy",
+    "target": "climate_change_denial",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Evangelical eschatology reduces motivation to address climate change",
+    "confidence": "speculative"
+  },
+  {
+    "id": "food_sovereignty__environmental_degradation",
+    "source": "food_sovereignty",
+    "target": "environmental_degradation",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Food sovereignty movements challenge corporate agriculture causing environmental degradation",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "food_sovereignty__indigenous_rights",
+    "source": "food_sovereignty",
+    "target": "indigenous_rights",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Indigenous food sovereignty is a central demand of indigenous rights movements",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "food_sovereignty__colonialism_legacy",
+    "source": "food_sovereignty",
+    "target": "colonialism_legacy",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Food sovereignty challenges the colonial model of extracting cash crops from former colonies",
+    "confidence": "confirmed"
   }
 ]
