@@ -325,21 +325,12 @@ function computeTiers(nodes) {
 // Called from filter-manager to enable/disable distance-based visibility.
 // When enabled, camera distance drives visibility. When disabled, the caller
 // controls visibility via setNodeVisibility/dimToNeighborhood.
-function setSemanticZoom(enabled) {
-  semanticZoomActive = enabled;
-  if (enabled) applySemanticZoom();
+function setSemanticZoom(_enabled) {
+  // Semantic zoom disabled — all nodes always visible regardless of camera distance.
 }
 
 function applySemanticZoom() {
-  if (!semanticZoomActive || !graphInstance) return;
-  const dist = graphInstance.camera().position.length();
-  graphInstance.nodeVisibility(n => {
-    if (n.category === 'portal' || n.ghost) return true;
-    const tier = nodeTiers[n.id] || 1;
-    if (dist > 500) return tier === 1;
-    if (dist > 200) return tier <= 2;
-    return true;
-  });
+  // Semantic zoom disabled.
 }
 
 // ── Load graph data ───────────────────────────────────────────────────────────

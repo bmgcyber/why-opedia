@@ -225,8 +225,10 @@
     } else if (anyActive) {
       // Explicit filter mode: show only nodes passing the filter
       GR.setNodeVisibility(n => visibleNodeIds.has(n.id));
+    } else {
+      // No filters active: show all nodes
+      GR.setNodeVisibility(true);
     }
-    // else: semantic zoom (already applied by setSemanticZoom above)
 
     // Edge visibility
     GR.setLinkVisibility(link => {
