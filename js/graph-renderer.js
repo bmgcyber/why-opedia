@@ -126,7 +126,7 @@ function initRenderer(containerEl) {
 
   // Scene extras: fog, lights, star field
   const scene = graphInstance.scene();
-  scene.fog = new THREE.FogExp2(0x0d1117, 0.002);
+  // Fog removed — it faded the graph out on zoom, making it impossible to see at distance.
 
   const ambient = new THREE.AmbientLight(0xffffff, 0.6);
   scene.add(ambient);
