@@ -1,3 +1,4 @@
+(function () {
 'use strict';
 
 // ── graph-renderer.js
@@ -589,3 +590,5 @@ window.GraphRenderer = {
   getGraphInstance,
   getCurrentData,
 };
+
+})();
