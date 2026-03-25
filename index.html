@@ -12,7 +12,10 @@
   <div id="toolbar">
     <button id="sidebar-toggle" title="Toggle filters panel" aria-expanded="true">☰</button>
     <div id="wordmark">Why<span>-opedia</span></div>
+    <button id="back-btn" title="Go back (Alt+←)" hidden>←</button>
     <button id="fit-btn" title="Reset view">⊡</button>
+    <button id="fullscreen-btn" title="Toggle fullscreen">⛶</button>
+    <button id="help-btn" title="Keyboard shortcuts (?)">?</button>
     <a id="contribute-link" href="https://github.com/bmgcyber/why-opedia/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">
       + Contribute
     </a>
@@ -55,6 +58,9 @@
           </button>
           <button id="quiz-btn" class="sb-tool-btn" title="Test your knowledge of the graph">
             Quiz
+          </button>
+          <button id="explore-btn" class="sb-tool-btn" title="Jump to a random well-connected node">
+            Explore
           </button>
         </div>
       </div>
@@ -128,7 +134,19 @@
         <input id="sb-conn-slider" type="range" min="0" max="50" value="0" class="sb-slider" />
       </div>
 
-      <!-- 9. Reset All -->
+      <!-- 10. Time Period Filter -->
+      <div id="sb-decade-section" class="sb-section" hidden>
+        <div class="sb-section-header">
+          <span>Time Period</span>
+          <span id="sb-decade-display" class="sb-conn-display">All time</span>
+        </div>
+        <div class="sb-slider-label">From</div>
+        <input id="sb-decade-min" type="range" class="sb-slider" />
+        <div class="sb-slider-label" style="margin-top:8px">To</div>
+        <input id="sb-decade-max" type="range" class="sb-slider" />
+      </div>
+
+      <!-- Reset All -->
       <div class="sb-reset-section">
         <button id="sb-reset" class="sb-reset-btn">Reset All Filters</button>
       </div>
@@ -188,6 +206,30 @@
       <button class="modal-close" id="mech-explorer-close">✕</button>
       <div class="modal-title" id="mech-explorer-title">Mechanism Explorer</div>
       <div id="mech-explorer-body"></div>
+    </div>
+  </div>
+
+  <!-- Help Modal -->
+  <div id="help-modal" class="modal-overlay" hidden>
+    <div class="modal-content modal-content-help">
+      <button class="modal-close" id="help-close">✕</button>
+      <div class="modal-title">Keyboard Shortcuts</div>
+      <div id="help-body">
+        <table class="help-shortcuts-table">
+          <tbody>
+            <tr><td class="help-key">W / S</td><td>Fly forward / backward</td></tr>
+            <tr><td class="help-key">A / D</td><td>Strafe left / right</td></tr>
+            <tr><td class="help-key">E / Q</td><td>Fly up / down</td></tr>
+            <tr><td class="help-key">Space</td><td>Snap camera to selected node</td></tr>
+            <tr><td class="help-key">/ or Ctrl+K</td><td>Focus search box</td></tr>
+            <tr><td class="help-key">Escape</td><td>Close panels &amp; deselect</td></tr>
+            <tr><td class="help-key">Alt + ←</td><td>Go back to previous scope</td></tr>
+            <tr><td class="help-key">?</td><td>Show this help overlay</td></tr>
+            <tr><td class="help-key">⛶ button</td><td>Toggle fullscreen</td></tr>
+            <tr><td class="help-key">⊡ button</td><td>Fit graph to view</td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 

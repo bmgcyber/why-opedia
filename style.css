@@ -110,6 +110,24 @@ body:not(.sidebar-collapsed) #sidebar-toggle {
   border-color: var(--accent);
 }
 
+#back-btn, #fullscreen-btn, #help-btn {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 16px;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+#back-btn:hover, #fullscreen-btn:hover, #help-btn:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
 #contribute-link {
   margin-left: auto;
   font-size: 12px;
@@ -1662,3 +1680,44 @@ body.sidebar-collapsed #stats {
 }
 
 /* (2D layout mode badge and cluster compound styles removed in 3D refactor) */
+
+/* ── Help modal (Feature 7) ──────────────────────────────────────────────── */
+
+.modal-content-help {
+  max-width: 480px;
+}
+
+.help-shortcuts-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.help-shortcuts-table tr {
+  border-bottom: 1px solid var(--border);
+}
+
+.help-shortcuts-table tr:last-child {
+  border-bottom: none;
+}
+
+.help-shortcuts-table td {
+  padding: 9px 8px;
+  font-size: 13px;
+  color: var(--text-muted);
+  vertical-align: middle;
+  line-height: 1.4;
+}
+
+.help-key {
+  font-family: 'SF Mono', 'Fira Code', monospace !important;
+  font-size: 11px !important;
+  color: var(--text) !important;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 3px 8px !important;
+  white-space: nowrap;
+  min-width: 110px;
+  display: inline-block;
+  text-align: center;
+}

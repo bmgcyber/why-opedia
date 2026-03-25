@@ -9,6 +9,8 @@
 const THREE = window.THREE;
 if (!THREE) throw new Error('Three.js not loaded — check CDN script in index.html');
 
+const isMobile = navigator.maxTouchPoints > 0 || /Mobi/i.test(navigator.userAgent);
+
 // ── Color maps ─────────────────────────────────────────────────────────────────
 const CATEGORY_COLOR = {
   event:       '#5b8dee',
@@ -40,6 +42,24 @@ const EDGE_COLOR = {
   FORCED_INTO:          '#b05252',
 };
 const EDGE_DEFAULT_COLOR = '#4a4f6a';
+
+// ── Edge-type neighbor opacity weights (Feature 1: Smart Highlight) ──────────
+const TYPE_OPACITY = {
+  CAUSED:                0.90,
+  ENABLED:               0.90,
+  EXPLOITED:             0.75,
+  NORMALIZED:            0.75,
+  COLONIZED:             0.75,
+  FORCED_INTO:           0.75,
+  FRAGMENTED_INTO:       0.70,
+  PRODUCED:              0.70,
+  DISCREDITED:           0.65,
+  REACTIVATED:           0.65,
+  SELF_REINFORCES:       0.55,
+  SHARES_MECHANISM_WITH: 0.20,
+};
+const DEFAULT_NEIGHBOR_OPACITY = 0.55;
+const DIM_OPACITY = 0.05;
 
 // ── Module state ──────────────────────────────────────────────────────────────
 let graphInstance = null;
@@ -90,10 +110,10 @@ function initRenderer(containerEl) {
     .linkColor(link => edgeColor(link))
     .linkWidth(link => link.confidence === 'speculative' ? 0.5 : 1.2)
     .linkOpacity(0.35)
-    .linkDirectionalArrowLength(4)
+    .linkDirectionalArrowLength(isMobile ? 0 : 4)
     .linkDirectionalArrowRelPos(0.88)
     .linkDirectionalArrowColor(link => edgeColor(link))
-    .linkDirectionalParticles(1)
+    .linkDirectionalParticles(isMobile ? 0 : 1)
     .linkDirectionalParticleColor(link => edgeColor(link))
     .linkDirectionalParticleWidth(1.5)
     .linkDirectionalParticleSpeed(0.005)
@@ -104,8 +124,8 @@ function initRenderer(containerEl) {
     .onBackgroundClick(handleBgClick)
     // Force simulation
     .d3AlphaDecay(0.02)
-    .d3VelocityDecay(0.3)
-    .warmupTicks(100)
+    .d3VelocityDecay(0.25)
+    .warmupTicks(isMobile ? 50 : 150)
     .cooldownTicks(200);
 
   // Configure the library's EXISTING 3D force instances — do NOT replace them with
@@ -113,11 +133,11 @@ function initRenderer(containerEl) {
   // only touch vx/vy, never vz, which collapses the graph to a flat plane).
   // graphInstance.d3Force('name') with no second arg returns the existing instance.
   const chargeForce = graphInstance.d3Force('charge');
-  if (chargeForce) chargeForce.strength(-120);
+  if (chargeForce) chargeForce.strength(-300);
 
   const linkForce = graphInstance.d3Force('link');
   if (linkForce) linkForce.distance(link =>
-    link.type === 'SHARES_MECHANISM_WITH' ? 150 : 80
+    link.type === 'SHARES_MECHANISM_WITH' ? 280 : 140
   );
 
   // Remove the default center force — it pulls everything to z=0 and fights z spread.
@@ -171,7 +191,7 @@ function buildNodeObject(node) {
 
   if (isPortal) {
     // Portal: glowing sphere with pulsing emissive
-    const geo = new THREE.SphereGeometry(size * 1.4, 20, 20);
+    const geo = new THREE.SphereGeometry(size * (isMobile ? 2.0 : 1.4), 20, 20);
     const mat = new THREE.MeshPhongMaterial({
       color:             0xffffff,
       emissive:          0x8888ff,
@@ -189,7 +209,8 @@ function buildNodeObject(node) {
   } else if (isGhost) {
     // Ghost: semi-transparent sphere + wireframe shell
     const color = categoryColor(node.category);
-    const geo = new THREE.SphereGeometry(size, 16, 16);
+    const seg = isMobile ? 8 : 16;
+    const geo = new THREE.SphereGeometry(size, seg, seg);
     const mat = new THREE.MeshPhongMaterial({
       color,
       transparent: true,
@@ -213,7 +234,8 @@ function buildNodeObject(node) {
   } else {
     // Regular node: sphere with category color
     const color = categoryColor(node.category);
-    const geo = new THREE.SphereGeometry(size, 16, 16);
+    const seg = isMobile ? 8 : 16;
+    const geo = new THREE.SphereGeometry(size, seg, seg);
     const mat = new THREE.MeshPhongMaterial({ color, shininess: 60 });
     group.add(new THREE.Mesh(geo, mat));
   }
@@ -398,28 +420,39 @@ function refreshOpacity() {
 
   const focusId = selectedNodeId || hoveredNodeId;
   if (!focusId) {
-    // Reset everything
     graphInstance.nodeOpacity(0.92);
     graphInstance.linkOpacity(0.35);
     return;
   }
 
-  // Build neighbor set
-  const neighborIds = new Set([focusId]);
+  // Build neighbor opacity map: focusId = 1.0, neighbors weighted by edge type.
+  // If a node is reachable via multiple edge types, keep the highest opacity.
+  const neighborOpacities = new Map([[focusId, 1.0]]);
+
   for (const link of currentGraphData.links) {
     const s = typeof link.source === 'object' ? link.source.id : link.source;
     const t = typeof link.target === 'object' ? link.target.id : link.target;
-    if (s === focusId) neighborIds.add(t);
-    if (t === focusId) neighborIds.add(s);
+    if (s !== focusId && t !== focusId) continue;
+
+    const neighborId = s === focusId ? t : s;
+    const edgeOp = TYPE_OPACITY[link.type] !== undefined
+      ? TYPE_OPACITY[link.type]
+      : DEFAULT_NEIGHBOR_OPACITY;
+    const current = neighborOpacities.get(neighborId) || 0;
+    if (edgeOp > current) neighborOpacities.set(neighborId, edgeOp);
   }
 
-  graphInstance.nodeOpacity(node =>
-    neighborIds.has(node.id) ? 0.95 : 0.06
-  );
+  graphInstance.nodeOpacity(node => neighborOpacities.get(node.id) ?? DIM_OPACITY);
   graphInstance.linkOpacity(link => {
     const s = typeof link.source === 'object' ? link.source.id : link.source;
     const t = typeof link.target === 'object' ? link.target.id : link.target;
-    return (neighborIds.has(s) && neighborIds.has(t)) ? 0.9 : 0.04;
+    if (s !== focusId && t !== focusId) return DIM_OPACITY;
+    const neighborId = s === focusId ? t : s;
+    if (!neighborOpacities.has(neighborId)) return DIM_OPACITY;
+    const typeOp = TYPE_OPACITY[link.type] !== undefined
+      ? TYPE_OPACITY[link.type]
+      : DEFAULT_NEIGHBOR_OPACITY;
+    return typeOp;
   });
 }
 
@@ -441,12 +474,34 @@ function clearPathHighlight() {
 
 // ── Neighborhood dimming ──────────────────────────────────────────────────────
 function dimToNeighborhood(rootId, depth, nodeMap, edgeMap) {
-  const neighbors = getNeighborIds(rootId, depth, nodeMap, edgeMap);
-  graphInstance.nodeOpacity(n => neighbors.has(n.id) ? 0.95 : 0.06);
+  const allNeighbors = getNeighborIds(rootId, depth, nodeMap, edgeMap);
+
+  // Direct (depth-1) neighbors from rootId get type-based opacity; deeper nodes get 0.60.
+  const neighborOpacities = new Map([[rootId, 1.0]]);
+
+  for (const link of currentGraphData.links) {
+    const s = typeof link.source === 'object' ? link.source.id : link.source;
+    const t = typeof link.target === 'object' ? link.target.id : link.target;
+    if (s !== rootId && t !== rootId) continue;
+    const neighborId = s === rootId ? t : s;
+    if (!allNeighbors.has(neighborId)) continue;
+    const edgeOp = TYPE_OPACITY[link.type] !== undefined
+      ? TYPE_OPACITY[link.type]
+      : DEFAULT_NEIGHBOR_OPACITY;
+    const current = neighborOpacities.get(neighborId) || 0;
+    if (edgeOp > current) neighborOpacities.set(neighborId, edgeOp);
+  }
+
+  // Deeper neighbors not yet assigned get flat opacity
+  for (const id of allNeighbors) {
+    if (!neighborOpacities.has(id)) neighborOpacities.set(id, 0.60);
+  }
+
+  graphInstance.nodeOpacity(n => neighborOpacities.get(n.id) ?? DIM_OPACITY);
   graphInstance.linkOpacity(link => {
     const s = typeof link.source === 'object' ? link.source.id : link.source;
     const t = typeof link.target === 'object' ? link.target.id : link.target;
-    return (neighbors.has(s) && neighbors.has(t)) ? 0.9 : 0.04;
+    return (allNeighbors.has(s) && allNeighbors.has(t)) ? 0.75 : DIM_OPACITY;
   });
 }
 
@@ -473,7 +528,7 @@ function fitCamera() {
 // Move camera (and orbit target) together along the camera's look/right vectors.
 // forwardDelta: + = towards target, - = away. rightDelta: + = right, - = left.
 // Called each animation frame by app.js WASD handler.
-function moveCamera(forwardDelta, rightDelta) {
+function moveCamera(forwardDelta, rightDelta, upDelta = 0) {
   if (!graphInstance) return;
   const camera   = graphInstance.camera();
   const controls = graphInstance.controls();
@@ -482,10 +537,12 @@ function moveCamera(forwardDelta, rightDelta) {
     .subVectors(controls.target, camera.position).normalize();
   const right = new THREE.Vector3()
     .crossVectors(forward, camera.up).normalize();
+  const up = camera.up.clone().normalize();
 
   const delta = new THREE.Vector3()
     .addScaledVector(forward, forwardDelta)
-    .addScaledVector(right, rightDelta);
+    .addScaledVector(right, rightDelta)
+    .addScaledVector(up, upDelta);
 
   camera.position.add(delta);
   controls.target.add(delta);
@@ -586,6 +643,25 @@ function exportPNG() {
   a.click();
 }
 
+// ── Flash node (brief scale pulse on search select) ───────────────────────
+function flashNode(nodeId) {
+  const node = currentGraphData.nodes.find(n => n.id === nodeId);
+  if (!node || !node.__threeObject) return;
+  const obj = node.__threeObject;
+  const origScale = obj.scale.clone();
+  let phase = 0;
+  const interval = setInterval(() => {
+    phase += 0.08;
+    if (phase >= Math.PI) {
+      clearInterval(interval);
+      obj.scale.copy(origScale);
+      return;
+    }
+    const s = 1 + 0.8 * Math.sin(phase);
+    obj.scale.set(origScale.x * s, origScale.y * s, origScale.z * s);
+  }, 16);
+}
+
 // ── Debug helpers (accessible from browser console) ──────────────────────────
 window.__graphDebug = {
   get instance() { return graphInstance; },
@@ -641,6 +717,7 @@ window.GraphRenderer = {
   fitCamera,
   focusOnNode,
   moveCamera,
+  flashNode,
   exportPNG,
 
   getGraphInstance,

@@ -22,6 +22,12 @@ let pathHighlightedIds = new Set();
 // Quiz
 let quizScore = 0, quizTotal = 0;
 
+// Mobile detection (used to skip WASD setup on touch devices)
+const isMobile = navigator.maxTouchPoints > 0 || /Mobi/i.test(navigator.userAgent);
+
+// Scope navigation history
+const scopeHistory = [];
+
 // ── Boot ──────────────────────────────────────────────────────────────────────
 document.getElementById('stats').textContent = 'Loading…';
 
@@ -44,7 +50,9 @@ async function boot() {
     // Wire scope changes to graph data updates.
     // enterScope/enterGlobalView fires this callback before returning, so
     // we must NOT call loadScopeIntoGraph a second time at the call site.
-    SM.onScopeChange(async ({ nodes, edges }) => {
+    SM.onScopeChange(async ({ nodes, edges, scopePath }) => {
+      scopeHistory.push(scopePath || 'global');
+      updateBackBtn();
       await loadScopeIntoGraph(nodes, edges);
     });
 
@@ -176,6 +184,19 @@ function clearSelection() {
   FM.clearNeighborhoodRoot();
   const nbSection = document.getElementById('sb-neighborhood');
   if (nbSection) nbSection.hidden = true;
+}
+
+function goBack() {
+  if (scopeHistory.length < 2) return;
+  scopeHistory.pop();                          // discard current scope
+  const prev = scopeHistory.pop();             // pop previous (onScopeChange re-pushes it)
+  if (!prev || prev === 'global') SM.enterGlobalView();
+  else SM.enterScope(prev);
+}
+
+function updateBackBtn() {
+  const btn = document.getElementById('back-btn');
+  if (btn) btn.hidden = scopeHistory.length < 2;
 }
 
 function activateNeighborhood(nodeId) {
@@ -465,14 +486,39 @@ function initToolbar() {
 
   document.getElementById('fit-btn').addEventListener('click', () => GR.fitCamera());
 
+  document.getElementById('fullscreen-btn').addEventListener('click', () => {
+    if (!document.fullscreenElement) document.documentElement.requestFullscreen().catch(() => {});
+    else document.exitFullscreen();
+  });
+
+  document.getElementById('back-btn').addEventListener('click', goBack);
+
+  document.getElementById('help-btn').addEventListener('click', () => {
+    document.getElementById('help-modal').hidden = false;
+  });
+
   document.addEventListener('keydown', e => {
+    const tag = e.target.tagName;
+    const inInput = tag === 'INPUT' || tag === 'TEXTAREA';
+
     if (e.key === 'Escape') {
-      document.getElementById('analytics-modal').hidden = true;
-      document.getElementById('quiz-modal').hidden      = true;
+      document.getElementById('analytics-modal').hidden     = true;
+      document.getElementById('quiz-modal').hidden          = true;
       document.getElementById('mech-explorer-modal').hidden = true;
+      document.getElementById('help-modal').hidden          = true;
       closePanel();
       clearSelection();
       showTooltip(null);
+    }
+
+    if (!inInput && e.key === '?') {
+      e.preventDefault();
+      document.getElementById('help-modal').hidden = false;
+    }
+
+    if (e.altKey && e.key === 'ArrowLeft') {
+      e.preventDefault();
+      goBack();
     }
   });
 }
@@ -485,6 +531,7 @@ function initSidebar() {
   Search.onResultSelect(node => {
     handleNodeClick(node);
     GR.focusOnNode(node, 120);
+    GR.flashNode(node.id);
   });
 }
 
@@ -501,6 +548,17 @@ function initModals() {
   });
   document.getElementById('mech-explorer-close').addEventListener('click', () => {
     document.getElementById('mech-explorer-modal').hidden = true;
+  });
+  document.getElementById('help-close').addEventListener('click', () => {
+    document.getElementById('help-modal').hidden = true;
+  });
+  document.getElementById('explore-btn').addEventListener('click', () => {
+    const candidates = allNodes
+      .filter(n => n.category !== 'portal' && !n.cross_scope && (n.__degree || 0) > 2)
+      .sort((a, b) => (b.__degree || 0) - (a.__degree || 0));
+    const topN = candidates.slice(0, Math.max(20, Math.floor(candidates.length * 0.3)));
+    const pick = topN[Math.floor(Math.random() * topN.length)];
+    if (pick) handleNodeClick(pick);
   });
 }
 
@@ -916,8 +974,10 @@ function updateURLState() {
   if (scope && scope !== 'global') params.set('scope', scope);
   if (selectedNodeId) params.set('n', selectedNodeId);
   const fs = FM.getFilterState();
-  if (fs.conn > 0)  params.set('conn', fs.conn);
-  if (fs.dep !== 1) params.set('dep', fs.dep);
+  if (fs.conn > 0)        params.set('conn', fs.conn);
+  if (fs.dep !== 1)       params.set('dep', fs.dep);
+  if (fs.decMin !== null) params.set('decMin', fs.decMin);
+  if (fs.decMax !== null) params.set('decMax', fs.decMax);
   const hash = params.toString();
   try {
     history.replaceState(null, '', hash ? '#' + hash : location.pathname + location.search);
@@ -935,10 +995,12 @@ function loadURLState() {
     }
 
     FM.applyFilterState({
-      cats:  params.get('cats'),
-      edges: params.get('edges'),
-      conn:  params.get('conn'),
-      dep:   params.get('dep'),
+      cats:   params.get('cats'),
+      edges:  params.get('edges'),
+      conn:   params.get('conn'),
+      dep:    params.get('dep'),
+      decMin: params.get('decMin'),
+      decMax: params.get('decMax'),
     });
 
     const nodeId = params.get('n');
@@ -957,6 +1019,8 @@ function loadURLState() {
 // ── WASD Camera Controls ──────────────────────────────────────────────────────
 // W/S = fly forward/backward  A/D = strafe left/right  Space = snap to selected
 function initWASD() {
+  if (isMobile) return;   // touch devices don't need keyboard fly controls
+
   const SPEED = 4;   // units per frame
   const keys  = {};
 
@@ -966,7 +1030,7 @@ function initWASD() {
     if (tag === 'INPUT' || tag === 'TEXTAREA') return;
 
     const k = e.key.toLowerCase();
-    if (k === 'w' || k === 'a' || k === 's' || k === 'd') {
+    if (k === 'w' || k === 'a' || k === 's' || k === 'd' || k === 'q' || k === 'e') {
       keys[k] = true;
       e.preventDefault();  // prevent page scroll
     }
@@ -989,8 +1053,9 @@ function initWASD() {
     requestAnimationFrame(tick);
     const fwd = (keys['w'] ? 1 : 0) - (keys['s'] ? 1 : 0);
     const rgt = (keys['d'] ? 1 : 0) - (keys['a'] ? 1 : 0);
-    if (fwd !== 0 || rgt !== 0) {
-      GR.moveCamera(fwd * SPEED, rgt * SPEED);
+    const up  = (keys['e'] ? 1 : 0) - (keys['q'] ? 1 : 0);
+    if (fwd !== 0 || rgt !== 0 || up !== 0) {
+      GR.moveCamera(fwd * SPEED, rgt * SPEED, up * SPEED);
     }
   })();
 }

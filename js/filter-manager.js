@@ -18,6 +18,12 @@
   let enabledRegions = new Set();
   let allRegions     = new Set();
 
+  // Decade / year range filter (null = no constraint on that bound)
+  let decadeMinYear = null;
+  let decadeMaxYear = null;
+  let dataMinYear   = null;
+  let dataMaxYear   = null;
+
   // Neighborhood state (set by app.js)
   let selectedNodeId   = null;
   let neighborhoodDepth = 1;
@@ -25,6 +31,80 @@
 
   // One-time init flags (listeners must not be added more than once)
   let _controlsInited = false;
+
+  // ── Decade helpers ─────────────────────────────────────────────────────────
+  function parseDecadeYear(decade) {
+    if (!decade) return 2000;
+    const bce = /bce/i.test(decade);
+    const m = decade.match(/(\d+)/);
+    if (m) { const y = parseInt(m[1], 10); return bce ? -y : y; }
+    if (/ancient|classical/i.test(decade)) return 400;
+    if (/medieval/i.test(decade)) return 1200;
+    return 2000;
+  }
+
+  function updateDecadeDisplay() {
+    const display = document.getElementById('sb-decade-display');
+    if (!display) return;
+    if (decadeMinYear === null && decadeMaxYear === null) {
+      display.textContent = 'All time';
+      return;
+    }
+    const minY = decadeMinYear !== null ? decadeMinYear : dataMinYear;
+    const maxY = decadeMaxYear !== null ? decadeMaxYear : dataMaxYear;
+    const fmt  = y => y < 0 ? `${Math.abs(y)} BCE` : String(y);
+    display.textContent = `${fmt(minY)} – ${fmt(maxY)}`;
+  }
+
+  function buildDecadeFilter(nodes) {
+    const years = nodes
+      .filter(n => n.category !== 'portal' && !n.cross_scope && n.decade)
+      .map(n => parseDecadeYear(n.decade));
+
+    const section = document.getElementById('sb-decade-section');
+    if (!years.length) {
+      if (section) section.hidden = true;
+      return;
+    }
+
+    dataMinYear   = Math.min(...years);
+    dataMaxYear   = Math.max(...years);
+    decadeMinYear = null;
+    decadeMaxYear = null;
+
+    const minSlider = document.getElementById('sb-decade-min');
+    const maxSlider = document.getElementById('sb-decade-max');
+    if (minSlider) { minSlider.min = dataMinYear; minSlider.max = dataMaxYear; minSlider.value = dataMinYear; }
+    if (maxSlider) { maxSlider.min = dataMinYear; maxSlider.max = dataMaxYear; maxSlider.value = dataMaxYear; }
+    updateDecadeDisplay();
+    if (section) section.hidden = false;
+  }
+
+  function initDecadeSliders() {
+    const minSlider = document.getElementById('sb-decade-min');
+    const maxSlider = document.getElementById('sb-decade-max');
+    if (!minSlider || !maxSlider) return;
+
+    minSlider.addEventListener('input', () => {
+      if (parseInt(minSlider.value, 10) > parseInt(maxSlider.value, 10)) {
+        minSlider.value = maxSlider.value;
+      }
+      const val = parseInt(minSlider.value, 10);
+      decadeMinYear = (val === dataMinYear) ? null : val;
+      updateDecadeDisplay();
+      applyFilters();
+    });
+
+    maxSlider.addEventListener('input', () => {
+      if (parseInt(maxSlider.value, 10) < parseInt(minSlider.value, 10)) {
+        maxSlider.value = minSlider.value;
+      }
+      const val = parseInt(maxSlider.value, 10);
+      decadeMaxYear = (val === dataMaxYear) ? null : val;
+      updateDecadeDisplay();
+      applyFilters();
+    });
+  }
 
   // ── Build sidebar filter UI ────────────────────────────────────────────────
   function buildFilters(nodes, edges) {
@@ -34,11 +114,13 @@
     buildNodeTypeFilters(nodes);
     buildEdgeTypeFilters();
     buildRegionFilter(nodes);
+    buildDecadeFilter(nodes);
     updateConnectivitySliderMax(nodes);   // update max only (no listener re-add)
 
     // Attach slider + reset listeners exactly once
     if (!_controlsInited) {
       initConnectivitySlider();
+      initDecadeSliders();
       initResetButton();
       _controlsInited = true;
     }
@@ -185,7 +267,8 @@
       minConnectivity > 0 ||
       enabledNodeCategories.size < allCategories.size ||
       enabledEdgeFilters.size < EDGE_FILTER_GROUPS.length ||
-      (allRegions.size > 0 && enabledRegions.size < allRegions.size);
+      (allRegions.size > 0 && enabledRegions.size < allRegions.size) ||
+      decadeMinYear !== null || decadeMaxYear !== null;
   }
 
   // ── Apply combined filters ────────────────────────────────────────────────
@@ -204,6 +287,13 @@
         if (n.region && !enabledRegions.has(n.region)) continue;
       }
       if (minConnectivity > 0 && (n.__degree || 0) < minConnectivity) continue;
+      // Decade range filter — cross-scope mechanism nodes are exempt
+      if ((decadeMinYear !== null || decadeMaxYear !== null) && !n.cross_scope) {
+        const year = parseDecadeYear(n.decade || '');
+        const minY = decadeMinYear !== null ? decadeMinYear : -Infinity;
+        const maxY = decadeMaxYear !== null ? decadeMaxYear :  Infinity;
+        if (year < minY || year > maxY) continue;
+      }
       visibleNodeIds.add(n.id);
     }
 
@@ -315,6 +405,14 @@
     if (slider)  slider.value = 0;
     if (display) display.textContent = '≥ 0';
 
+    decadeMinYear = null;
+    decadeMaxYear = null;
+    const minSlider = document.getElementById('sb-decade-min');
+    const maxSlider = document.getElementById('sb-decade-max');
+    if (minSlider && dataMinYear !== null) minSlider.value = dataMinYear;
+    if (maxSlider && dataMaxYear !== null) maxSlider.value = dataMaxYear;
+    updateDecadeDisplay();
+
     const nbSection = document.getElementById('sb-neighborhood');
     if (nbSection) nbSection.hidden = true;
 
@@ -325,10 +423,12 @@
   // ── URL state helpers ─────────────────────────────────────────────────────
   function getFilterState() {
     return {
-      cats: [...enabledNodeCategories].join(','),
-      edges: [...enabledEdgeFilters].join(','),
-      conn: minConnectivity,
-      dep: neighborhoodDepth,
+      cats:   [...enabledNodeCategories].join(','),
+      edges:  [...enabledEdgeFilters].join(','),
+      conn:   minConnectivity,
+      dep:    neighborhoodDepth,
+      decMin: decadeMinYear,
+      decMax: decadeMaxYear,
     };
   }
 
@@ -358,6 +458,23 @@
         btn.classList.toggle('active', btn.dataset.depth === String(neighborhoodDepth));
       });
     }
+    if (state.decMin !== null && state.decMin !== undefined) {
+      const val = parseInt(state.decMin, 10);
+      if (!isNaN(val)) {
+        decadeMinYear = val;
+        const minSlider = document.getElementById('sb-decade-min');
+        if (minSlider) minSlider.value = val;
+      }
+    }
+    if (state.decMax !== null && state.decMax !== undefined) {
+      const val = parseInt(state.decMax, 10);
+      if (!isNaN(val)) {
+        decadeMaxYear = val;
+        const maxSlider = document.getElementById('sb-decade-max');
+        if (maxSlider) maxSlider.value = val;
+      }
+    }
+    updateDecadeDisplay();
     applyFilters();
   }
 
