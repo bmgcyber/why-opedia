@@ -5002,5 +5002,95 @@
     "label": "Produced",
     "note": "Industrial capitalism and its conditions inspired Marx to develop his critique",
     "confidence": "confirmed"
+  },
+  {
+    "id": "world_war_two__hiroshima_nagasaki",
+    "source": "world_war_two",
+    "target": "hiroshima_nagasaki",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Hiroshima and Nagasaki bombings occurred in final weeks of WWII",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "world_war_two__the_holocaust",
+    "source": "world_war_two",
+    "target": "the_holocaust",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Holocaust was carried out under cover and conditions of WWII",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "world_war_two__human_rights_declaration",
+    "source": "world_war_two",
+    "target": "human_rights_declaration",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "UDHR was direct response to WWII atrocities",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "world_war_two__fascism",
+    "source": "world_war_two",
+    "target": "fascism",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Allied victory discredited fascism as governing ideology globally",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "fascism__world_war_two",
+    "source": "fascism",
+    "target": "world_war_two",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Fascist expansion in Germany and Italy caused WWII",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "world_war_two__decolonization_africa",
+    "source": "world_war_two",
+    "target": "decolonization_africa",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "WWII exhausted European powers enabling post-war decolonization",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "world_war_two__cold_war_nuclear_fear",
+    "source": "world_war_two",
+    "target": "cold_war_nuclear_fear",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "WWII ended with atomic bombings, defining Cold War nuclear terror",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "vietnam_war__cold_war_proxy_wars",
+    "source": "vietnam_war",
+    "target": "cold_war_proxy_wars",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Vietnam was the largest example of Cold War proxy conflict",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "vietnam_war__ptsd",
+    "source": "vietnam_war",
+    "target": "ptsd",
+    "type": "PRODUCED",
+    "label": "Produced",
+    "note": "Vietnam veterans drove recognition and naming of PTSD as clinical syndrome",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "vietnam_war__media_consolidation",
+    "source": "vietnam_war",
+    "target": "media_consolidation",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Pentagon Papers and media coverage led to increased government media management",
+    "confidence": "confirmed"
   }
 ]

@@ -650,5 +650,68 @@
     "label": "Enabled",
     "note": "Dehumanizing language about criminals enables mass incarceration policies",
     "confidence": "confirmed"
+  },
+  {
+    "id": "intergenerational_trauma__epigenetics",
+    "source": "intergenerational_trauma",
+    "target": "epigenetics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Epigenetic changes are proposed biological mechanism for intergenerational trauma transmission",
+    "confidence": "speculative"
+  },
+  {
+    "id": "intergenerational_trauma__adverse_childhood_experiences",
+    "source": "intergenerational_trauma",
+    "target": "adverse_childhood_experiences",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Intergenerational trauma increases likelihood of adverse childhood experiences in next generation",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "intergenerational_trauma__ptsd",
+    "source": "intergenerational_trauma",
+    "target": "ptsd",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Intergenerational trauma involves PTSD-like symptom transmission across generations",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "transatlantic_slave_trade__intergenerational_trauma",
+    "source": "transatlantic_slave_trade",
+    "target": "intergenerational_trauma",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Slavery and its aftermath created documented intergenerational trauma in African American communities",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "narcissistic_abuse__gaslighting",
+    "source": "narcissistic_abuse",
+    "target": "gaslighting",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Gaslighting is a primary tool of narcissistic abuse",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "narcissistic_abuse__cult_dynamics",
+    "source": "narcissistic_abuse",
+    "target": "cult_dynamics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Cult leaders use narcissistic abuse patterns to control followers",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "narcissistic_abuse__adverse_childhood_experiences",
+    "source": "narcissistic_abuse",
+    "target": "adverse_childhood_experiences",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Narcissistic parenting is a major category of adverse childhood experience",
+    "confidence": "confirmed"
   }
 ]

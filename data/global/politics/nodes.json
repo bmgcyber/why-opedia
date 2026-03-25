@@ -1900,5 +1900,132 @@
       "campaign_finance",
       "plutocracy"
     ]
+  },
+  {
+    "id": "welfare_state",
+    "label": "Welfare State",
+    "node_type": "concept",
+    "category": "concept",
+    "decade": "1940s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Welfare_state",
+    "summary": "Model of government providing universal social protections including healthcare, unemployment insurance, pensions, and housing — developed in post-WWII Europe and Scandinavia, under sustained neoliberal attack since the 1980s.",
+    "tags": [
+      "welfare_state",
+      "social_democracy",
+      "universal_healthcare",
+      "Beveridge",
+      "Scandinavia",
+      "redistribution",
+      "public_goods",
+      "neoliberalism"
+    ]
+  },
+  {
+    "id": "universal_basic_income",
+    "label": "Universal Basic Income",
+    "node_type": "concept",
+    "category": "concept",
+    "decade": "2010s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Universal_basic_income",
+    "summary": "Policy proposal for unconditional regular cash payments to all citizens. Advocated as response to automation displacement, poverty elimination, and simplification of welfare bureaucracy. Piloted in Finland, Kenya, Stockton CA.",
+    "tags": [
+      "UBI",
+      "universal_basic_income",
+      "automation",
+      "poverty",
+      "welfare",
+      "cash_transfer",
+      "freedom",
+      "pilot_programs"
+    ]
+  },
+  {
+    "id": "climate_activism",
+    "label": "Climate Activism",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "2010s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Climate_movement",
+    "summary": "Global movement demanding urgent government action on climate change, from Fridays for Future and Greta Thunberg to Extinction Rebellion and Standing Rock — spanning protest, litigation, and civil disobedience.",
+    "tags": [
+      "climate_activism",
+      "Greta_Thunberg",
+      "Fridays_for_Future",
+      "Extinction_Rebellion",
+      "Green_New_Deal",
+      "fossil_fuels",
+      "youth",
+      "protest"
+    ]
+  },
+  {
+    "id": "environmental_justice",
+    "label": "Environmental Justice",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1980s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Environmental_justice",
+    "summary": "Movement addressing disproportionate exposure of low-income and minority communities to environmental hazards including pollution, toxic waste, and climate impacts — connecting environmental and civil rights struggles.",
+    "tags": [
+      "environmental_justice",
+      "pollution",
+      "communities_of_color",
+      "sacrifice_zones",
+      "standing_rock",
+      "Flint",
+      "EPA",
+      "civil_rights"
+    ]
+  },
+  {
+    "id": "gun_violence_policy",
+    "label": "Gun Violence & Policy",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1990s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Gun_violence_in_the_United_States",
+    "summary": "The intersection of gun rights politics, Second Amendment interpretation, mass shootings, and failed legislative efforts for universal background checks or assault weapons bans — shaped by NRA lobbying and rural/urban cultural divisions.",
+    "tags": [
+      "gun_violence",
+      "Second_Amendment",
+      "NRA",
+      "mass_shootings",
+      "gun_control",
+      "lobbying",
+      "school_shootings",
+      "mental_health"
+    ]
+  },
+  {
+    "id": "white_supremacy_movement",
+    "label": "White Supremacy & Far-Right Extremism",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1860s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/White_supremacy",
+    "summary": "Ideology and movement asserting white racial superiority, from Ku Klux Klan and neo-Nazis to modern alt-right and accelerationist networks — responsible for domestic terrorism and mainstreaming of racist policy discourse.",
+    "tags": [
+      "white_supremacy",
+      "KKK",
+      "neo_nazi",
+      "alt_right",
+      "accelerationism",
+      "domestic_terrorism",
+      "great_replacement",
+      "racism",
+      "far_right"
+    ]
   }
 ]

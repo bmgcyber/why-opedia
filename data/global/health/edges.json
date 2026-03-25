@@ -508,5 +508,59 @@
     "label": "Shares mechanism with",
     "note": "Both are crises of social disconnection and system abandonment",
     "confidence": "speculative"
+  },
+  {
+    "id": "healthcare_privatization__single_payer_healthcare",
+    "source": "healthcare_privatization",
+    "target": "single_payer_healthcare",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Healthcare privatization creates the problems that single-payer advocates seek to solve",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "healthcare_privatization__austerity",
+    "source": "healthcare_privatization",
+    "target": "austerity",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Privatization of healthcare is a form of social austerity",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "healthcare_privatization__chronic_illness_policy",
+    "source": "healthcare_privatization",
+    "target": "chronic_illness_policy",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Profit-driven insurance creates barriers to chronic illness management",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "obesity_epidemic__tobacco_industry",
+    "source": "obesity_epidemic",
+    "target": "tobacco_industry",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Food industry used same manufactured doubt and marketing tactics as tobacco industry",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "obesity_epidemic__addiction_science",
+    "source": "obesity_epidemic",
+    "target": "addiction_science",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Ultra-processed food companies deliberately engineer addictive properties",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "obesity_epidemic__environmental_justice",
+    "source": "obesity_epidemic",
+    "target": "environmental_justice",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Food deserts in low-income communities are an environmental justice issue",
+    "confidence": "confirmed"
   }
 ]

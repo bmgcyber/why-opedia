@@ -7107,5 +7107,131 @@
     "label": "Enabled",
     "note": "Fossil fuel industry funds climate denial through anonymous nonprofit networks",
     "confidence": "confirmed"
+  },
+  {
+    "id": "fascism__scapegoating",
+    "source": "fascism",
+    "target": "scapegoating",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Scapegoating ethnic minorities is core to fascist political strategy",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "fascism__propaganda",
+    "source": "fascism",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Fascist states pioneered mass propaganda systems for psychological control",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "fascism__dehumanization",
+    "source": "fascism",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Fascism requires dehumanization of target groups to mobilize violence",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "fascism__cult_dynamics",
+    "source": "fascism",
+    "target": "cult_dynamics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Fascist movements use cult-like loyalty mechanisms around the leader",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "populism__fascism",
+    "source": "populism",
+    "target": "fascism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Right-wing populism can become fascist when combined with ethnic nationalism and violence",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "populism__scapegoating",
+    "source": "populism",
+    "target": "scapegoating",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Populist politics often scapegoat immigrants or minorities for elite failures",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "scapegoating__moral_panic",
+    "source": "scapegoating",
+    "target": "moral_panic",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Moral panics are episodic scapegoating of specific groups or behaviors",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cult_dynamics__radicalization",
+    "source": "cult_dynamics",
+    "target": "radicalization",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Online radicalization pipelines use same isolation and identity replacement as cult recruitment",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cult_dynamics__gaslighting",
+    "source": "cult_dynamics",
+    "target": "gaslighting",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Cult thought control involves sustained gaslighting about external reality",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cult_dynamics__narcissistic_abuse",
+    "source": "cult_dynamics",
+    "target": "narcissistic_abuse",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Cult leaders typically display narcissistic patterns and subject followers to narcissistic abuse",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "systemic_racism__redlining",
+    "source": "systemic_racism",
+    "target": "redlining",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Redlining is a paradigmatic example of institutionalized systemic racism",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "systemic_racism__school_to_prison_pipeline",
+    "source": "systemic_racism",
+    "target": "school_to_prison_pipeline",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Racialized school discipline is a direct product of systemic racism in education",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "systemic_racism__mass_incarceration",
+    "source": "systemic_racism",
+    "target": "mass_incarceration",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "War on drugs and mass incarceration are products of systemic racial bias in criminal justice",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "systemic_racism__wealth_inequality",
+    "source": "systemic_racism",
+    "target": "wealth_inequality",
+    "type": "CAUSED",
+    "label": "Caused",
+    "note": "Centuries of racialized exclusion from wealth-building produced persistent racial wealth gap",
+    "confidence": "confirmed"
   }
 ]

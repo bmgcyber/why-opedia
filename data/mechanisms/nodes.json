@@ -2353,5 +2353,70 @@
       "Koch_brothers",
       "elections"
     ]
+  },
+  {
+    "id": "populism",
+    "label": "Populism",
+    "node_type": "ideology",
+    "category": "ideology",
+    "decade": "1890s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Populism",
+    "summary": "Political approach that frames politics as a struggle between corrupt elites and the virtuous common people. Used by both left and right; right-wing populism often scapegoats minorities while left-wing targets economic elites.",
+    "tags": [
+      "populism",
+      "anti_elite",
+      "nationalism",
+      "Trump",
+      "Chavez",
+      "class",
+      "people_vs_elite",
+      "scapegoating",
+      "democracy"
+    ]
+  },
+  {
+    "id": "cult_dynamics",
+    "label": "Cult Dynamics & Thought Control",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1970s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Cult",
+    "summary": "Psychological control patterns including isolation, love bombing, thought-terminating clichés, and exit costs — used by religious cults, MLM schemes, authoritarian parties, and extremist movements to maintain total loyalty.",
+    "tags": [
+      "cult",
+      "thought_control",
+      "isolation",
+      "love_bombing",
+      "BITE_model",
+      "Lifton",
+      "coercive_control",
+      "indoctrination",
+      "high_demand_group"
+    ]
+  },
+  {
+    "id": "systemic_racism",
+    "label": "Systemic Racism",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1960s",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Institutional_racism",
+    "summary": "The cumulative and compounding effects of racist policies, practices, and norms embedded in institutions — producing racial disparities in wealth, housing, education, health, and criminal justice even without individual racial intent.",
+    "tags": [
+      "systemic_racism",
+      "institutional_racism",
+      "racial_disparities",
+      "housing",
+      "criminal_justice",
+      "wealth_gap",
+      "policy",
+      "discrimination"
+    ]
   }
 ]

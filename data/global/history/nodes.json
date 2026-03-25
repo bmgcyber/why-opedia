@@ -4514,5 +4514,29 @@
       "Africa",
       "Americas"
     ]
+  },
+  {
+    "id": "world_war_two",
+    "label": "World War II",
+    "node_type": "historical_event",
+    "category": "historical_event",
+    "decade": "1940s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/World_War_II",
+    "summary": "Global war 1939-1945 involving most of the world's nations. Killed 70-85 million people including Holocaust, Hiroshima, and Nanjing. Led to UN founding, decolonization wave, Cold War, and fundamental reshaping of global order.",
+    "tags": [
+      "WWII",
+      "Hitler",
+      "Holocaust",
+      "Hiroshima",
+      "UN",
+      "D-Day",
+      "Pacific",
+      "Europe",
+      "genocide",
+      "nuclear",
+      "Cold_War"
+    ]
   }
 ]

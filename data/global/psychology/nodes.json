@@ -716,5 +716,26 @@
       "othering",
       "enemy_image"
     ]
+  },
+  {
+    "id": "intergenerational_trauma",
+    "label": "Intergenerational Trauma",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1960s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Transgenerational_trauma",
+    "summary": "The transmission of trauma and its psychological effects across generations through epigenetic changes, family dynamics, and cultural patterns. Documented in Holocaust survivors, Indigenous communities, and descendants of enslaved people.",
+    "tags": [
+      "intergenerational_trauma",
+      "epigenetics",
+      "Holocaust",
+      "indigenous",
+      "slavery",
+      "PTSD",
+      "family_systems",
+      "transgenerational"
+    ]
   }
 ]

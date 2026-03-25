@@ -545,5 +545,47 @@
       "homelessness",
       "psychiatry"
     ]
+  },
+  {
+    "id": "healthcare_privatization",
+    "label": "Healthcare Privatization",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1980s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Privatization_of_health_care",
+    "summary": "Transfer of healthcare services from public to private ownership, driven by neoliberal ideology — leading to profit-driven denials of care, hospital consolidation, rising costs, and deteriorating outcomes for low-income populations.",
+    "tags": [
+      "healthcare_privatization",
+      "insurance",
+      "for_profit",
+      "hospital_consolidation",
+      "neoliberalism",
+      "medical_debt",
+      "coverage",
+      "costs"
+    ]
+  },
+  {
+    "id": "obesity_epidemic",
+    "label": "Obesity Epidemic",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1980s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Obesity_epidemic",
+    "summary": "The dramatic rise in obesity rates since the 1980s driven by food industry reformulation, sedentary work, food deserts, marketing to children, and income inequality — intersecting with individual responsibility narratives that obscure structural causes.",
+    "tags": [
+      "obesity",
+      "food_industry",
+      "ultra_processed_food",
+      "food_deserts",
+      "inequality",
+      "public_health",
+      "sugar",
+      "corporate_responsibility"
+    ]
   }
 ]

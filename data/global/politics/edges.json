@@ -2365,5 +2365,167 @@
     "label": "Discredited",
     "note": "Fossil fuel dark money funds organizations opposing climate legislation",
     "confidence": "confirmed"
+  },
+  {
+    "id": "welfare_state__austerity",
+    "source": "welfare_state",
+    "target": "austerity",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Austerity policy targets welfare state programs for dismantlement",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "welfare_state__social_safety_net",
+    "source": "welfare_state",
+    "target": "social_safety_net",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Welfare state is the broader concept of which safety net is a component",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "welfare_state__supply_side_economics",
+    "source": "welfare_state",
+    "target": "supply_side_economics",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Supply-side economics frames welfare state as economic burden to be reduced",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "keynesianism__welfare_state",
+    "source": "keynesianism",
+    "target": "welfare_state",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Keynesian demand management theory underpinned welfare state expansion",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "universal_basic_income__automation_economy",
+    "source": "universal_basic_income",
+    "target": "automation_economy",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Automation displacement is primary argument driving UBI advocacy",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "universal_basic_income__welfare_state",
+    "source": "universal_basic_income",
+    "target": "welfare_state",
+    "type": "FRAGMENTED_INTO",
+    "label": "Fragmented into",
+    "note": "UBI proposals often involve replacing existing welfare programs",
+    "confidence": "speculative"
+  },
+  {
+    "id": "universal_basic_income__social_safety_net",
+    "source": "universal_basic_income",
+    "target": "social_safety_net",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "UBI is proposed as evolution or replacement of traditional safety net",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "climate_activism__climate_change_policy",
+    "source": "climate_activism",
+    "target": "climate_change_policy",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Climate activism drives political pressure for climate legislation",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "climate_activism__environmental_justice",
+    "source": "climate_activism",
+    "target": "environmental_justice",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Climate justice wing explicitly connects climate to racial and economic justice",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "climate_change_denial__climate_activism",
+    "source": "climate_change_denial",
+    "target": "climate_activism",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Denial industry funds counter-messaging against climate activists",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "environmental_justice__environmental_degradation",
+    "source": "environmental_justice",
+    "target": "environmental_degradation",
+    "type": "DISCREDITED",
+    "label": "Discredited",
+    "note": "Environmental justice movement challenges sacrifice zone logic",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "environmental_justice__systemic_racism",
+    "source": "environmental_justice",
+    "target": "systemic_racism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "Environmental burdens disproportionately fall on communities of color through systemic racism",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "gun_violence_policy__regulatory_capture",
+    "source": "gun_violence_policy",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "NRA lobbying represents regulatory capture of firearms policy",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "gun_violence_policy__mental_health_stigma",
+    "source": "gun_violence_policy",
+    "target": "mental_health_stigma",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "Mental illness scapegoating deflects from gun availability in mass shooting debates",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "white_supremacy_movement__fascism",
+    "source": "white_supremacy_movement",
+    "target": "fascism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Shares mechanism with",
+    "note": "White supremacy movements draw directly on fascist ideology and aesthetics",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "white_supremacy_movement__scapegoating",
+    "source": "white_supremacy_movement",
+    "target": "scapegoating",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "White supremacy requires scapegoating of non-white groups for social problems",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "white_supremacy_movement__systemic_racism",
+    "source": "white_supremacy_movement",
+    "target": "systemic_racism",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "White supremacist ideology historically justified and created systemic racist policies",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "white_supremacy_movement__social_media_radicalization",
+    "source": "white_supremacy_movement",
+    "target": "social_media_radicalization",
+    "type": "ENABLED",
+    "label": "Enabled",
+    "note": "White supremacist recruitment has shifted heavily to online radicalization pipelines",
+    "confidence": "confirmed"
   }
 ]
