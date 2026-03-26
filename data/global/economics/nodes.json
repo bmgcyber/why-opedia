@@ -6,7 +6,13 @@
     "category": "mechanism",
     "summary": "The self-reinforcing process by which accumulated capital generates returns faster than economic output grows (r > g, Piketty), causing wealth to pool at the top. Network effects, compound interest, inheritance, and asset price inflation all accelerate concentration. Once past a threshold, concentrated wealth purchases the political power needed to prevent redistribution, making the mechanism self-sealing.",
     "decade": "universal",
-    "tags": ["economics", "inequality", "mechanism", "capital", "piketty"],
+    "tags": [
+      "economics",
+      "inequality",
+      "mechanism",
+      "capital",
+      "piketty"
+    ],
     "scope": "global/economics",
     "cross_scope": true
   },
@@ -17,7 +23,13 @@
     "category": "mechanism",
     "summary": "The process by which regulatory agencies designed to act in the public interest become controlled by the industries they are supposed to regulate. Occurs through revolving door hiring, industry funding of regulators' budgets, information asymmetry (only industry has detailed technical knowledge), and concentrated industry interests versus diffuse public interests. The captured regulator becomes a competitive moat for incumbents.",
     "decade": "universal",
-    "tags": ["economics", "mechanism", "regulation", "corruption", "governance"],
+    "tags": [
+      "economics",
+      "mechanism",
+      "regulation",
+      "corruption",
+      "governance"
+    ],
     "scope": "global/economics",
     "cross_scope": true
   },
@@ -28,7 +40,13 @@
     "category": "mechanism",
     "summary": "Obtaining wealth by manipulating economic or political environments rather than by creating value. Includes lobbying for monopoly protections, land appreciation without improvement, patent evergreening, and financial extraction. Distinguished from profit-seeking by its zero-sum or negative-sum character. Gordon Tullock and Anne Krueger's insight: rent-seeking wastes resources equivalent to the rents extracted, since both the capture and defense consume real effort.",
     "decade": "universal",
-    "tags": ["economics", "mechanism", "corruption", "monopoly", "political_economy"],
+    "tags": [
+      "economics",
+      "mechanism",
+      "corruption",
+      "monopoly",
+      "political_economy"
+    ],
     "scope": "global/economics",
     "cross_scope": true
   },
@@ -38,8 +56,14 @@
     "node_type": "mechanism",
     "category": "mechanism",
     "summary": "The structural shift in advanced economies where financial activities displace productive investment as the primary source of profit. Manifests in shareholder primacy, stock buybacks over R&D, private equity strip-and-flip of productive firms, and the expansion of finance from 10% to 30%+ of US corporate profits since 1980. Creates a class of asset owners whose wealth is decoupled from productive activity while workers bear the instability of financial crises.",
-    "decade": "1980s–Ongoing",
-    "tags": ["economics", "mechanism", "finance", "neoliberalism", "inequality"],
+    "decade": "1980s\u2013Ongoing",
+    "tags": [
+      "economics",
+      "mechanism",
+      "finance",
+      "neoliberalism",
+      "inequality"
+    ],
     "scope": "global/economics",
     "cross_scope": true
   },
@@ -50,7 +74,13 @@
     "category": "mechanism",
     "summary": "The systematic mechanisms by which labor income is held below what labor market competition would produce. Includes union busting, non-compete agreements, wage theft, misclassification of employees as contractors, offshoring threats, immigration restriction to prevent labor solidarity, monopsony in company towns, and direct lobbying against minimum wage increases. The result is that productivity gains flow to capital rather than workers.",
     "decade": "universal",
-    "tags": ["economics", "mechanism", "labor", "inequality", "capitalism"],
+    "tags": [
+      "economics",
+      "mechanism",
+      "labor",
+      "inequality",
+      "capitalism"
+    ],
     "scope": "global/economics",
     "cross_scope": true
   },
@@ -59,9 +89,15 @@
     "label": "Monopolization",
     "node_type": "mechanism",
     "category": "mechanism",
-    "summary": "The acquisition of market control sufficient to set prices above competitive levels and exclude rivals. Modern mechanisms: predatory pricing below cost to drive out competitors, acquisition of nascent rivals before they scale, network effects that create winner-take-all dynamics, platform control of distribution channels, and weaponization of patents. Distinct from natural monopoly — in most cases monopoly is achieved and maintained through deliberate strategy.",
+    "summary": "The acquisition of market control sufficient to set prices above competitive levels and exclude rivals. Modern mechanisms: predatory pricing below cost to drive out competitors, acquisition of nascent rivals before they scale, network effects that create winner-take-all dynamics, platform control of distribution channels, and weaponization of patents. Distinct from natural monopoly \u2014 in most cases monopoly is achieved and maintained through deliberate strategy.",
     "decade": "universal",
-    "tags": ["economics", "mechanism", "monopoly", "competition", "antitrust"],
+    "tags": [
+      "economics",
+      "mechanism",
+      "monopoly",
+      "competition",
+      "antitrust"
+    ],
     "scope": "global/economics",
     "cross_scope": true
   },
@@ -70,9 +106,15 @@
     "label": "Austerity Ideology",
     "node_type": "ideology",
     "category": "ideology",
-    "summary": "The political doctrine that governments must cut spending and balance budgets during economic downturns to restore confidence and growth. Empirically refuted by Keynes (1930s) and again by IMF research (2012), yet persistent because it serves creditor interests and provides ideological justification for dismantling welfare states. Operates through the household budget analogy — deliberately obscuring that sovereign currency issuers are not revenue-constrained like households.",
-    "decade": "1970s–Ongoing",
-    "tags": ["economics", "ideology", "neoliberalism", "fiscal_policy", "inequality"],
+    "summary": "The political doctrine that governments must cut spending and balance budgets during economic downturns to restore confidence and growth. Empirically refuted by Keynes (1930s) and again by IMF research (2012), yet persistent because it serves creditor interests and provides ideological justification for dismantling welfare states. Operates through the household budget analogy \u2014 deliberately obscuring that sovereign currency issuers are not revenue-constrained like households.",
+    "decade": "1970s\u2013Ongoing",
+    "tags": [
+      "economics",
+      "ideology",
+      "neoliberalism",
+      "fiscal_policy",
+      "inequality"
+    ],
     "scope": "global/economics",
     "cross_scope": true
   },
@@ -82,8 +124,14 @@
     "node_type": "ideology",
     "category": "ideology",
     "summary": "The theory that tax cuts for the wealthy and corporations will generate broad economic growth that benefits all. Implemented in Reagan's supply-side program (1981) and repeated through Bush and Trump tax cuts. Empirical record shows no increase in investment, growth, or wages as a result; the actual effect is upward redistribution. Widely rejected by mainstream economists but persistently influential because it serves donor class interests. David Stockman, Reagan's own budget director, called it a Trojan horse for the rich.",
-    "decade": "1980s–Ongoing",
-    "tags": ["economics", "ideology", "reaganomics", "neoliberalism", "inequality"],
+    "decade": "1980s\u2013Ongoing",
+    "tags": [
+      "economics",
+      "ideology",
+      "reaganomics",
+      "neoliberalism",
+      "inequality"
+    ],
     "scope": "global/economics",
     "cross_scope": true
   },
@@ -92,9 +140,16 @@
     "label": "Gilded Age",
     "node_type": "event",
     "category": "event",
-    "summary": "US economic period 1870–1900 marked by explosive industrial growth, robber baron consolidation (Carnegie, Rockefeller, Morgan, Vanderbilt), extreme inequality, violent labor suppression, and minimal regulation. Created the first monopoly crisis (Standard Oil, railroad trusts) and triggered the Progressive Era response. The Gilded Age demonstrates wealth concentration self-sealing: industrialists bought legislators, newspapers, and police forces to protect their position.",
+    "summary": "US economic period 1870\u20131900 marked by explosive industrial growth, robber baron consolidation (Carnegie, Rockefeller, Morgan, Vanderbilt), extreme inequality, violent labor suppression, and minimal regulation. Created the first monopoly crisis (Standard Oil, railroad trusts) and triggered the Progressive Era response. The Gilded Age demonstrates wealth concentration self-sealing: industrialists bought legislators, newspapers, and police forces to protect their position.",
     "decade": "1870s",
-    "tags": ["economics", "history", "inequality", "labor", "monopoly", "usa"],
+    "tags": [
+      "economics",
+      "history",
+      "inequality",
+      "labor",
+      "monopoly",
+      "usa"
+    ],
     "region": "Americas",
     "scope": "global/economics"
   },
@@ -103,9 +158,15 @@
     "label": "Great Depression (Economic Mechanisms)",
     "node_type": "event",
     "category": "event",
-    "summary": "1929–1939: the demand collapse triggered by bank failures, debt deflation, and Hoover's austerity response, deepened by Smoot-Hawley tariffs and gold standard constraints. Keynes's General Theory emerged from this crisis. The Depression's mechanisms — credit contraction, asset deflation, unemployment spiral — were repeated in 2008 though mitigated by automatic stabilizers and emergency intervention. The political consequences: enabled fascism in Germany, strengthened FDR's mandate for the New Deal.",
+    "summary": "1929\u20131939: the demand collapse triggered by bank failures, debt deflation, and Hoover's austerity response, deepened by Smoot-Hawley tariffs and gold standard constraints. Keynes's General Theory emerged from this crisis. The Depression's mechanisms \u2014 credit contraction, asset deflation, unemployment spiral \u2014 were repeated in 2008 though mitigated by automatic stabilizers and emergency intervention. The political consequences: enabled fascism in Germany, strengthened FDR's mandate for the New Deal.",
     "decade": "1930s",
-    "tags": ["economics", "history", "depression", "keynes", "financial_crisis"],
+    "tags": [
+      "economics",
+      "history",
+      "depression",
+      "keynes",
+      "financial_crisis"
+    ],
     "region": "Global",
     "scope": "global/economics"
   },
@@ -115,8 +176,14 @@
     "node_type": "event",
     "category": "event",
     "summary": "Loan conditionality packages imposed by the IMF on developing nations from the 1970s onward. Standard conditions: privatization of state enterprises, trade liberalization, currency devaluation, elimination of food and fuel subsidies, and reduction of public sector employment. Effects documented across Latin America, Africa, and Asia: increased inequality, reduced public health and education, enrichment of foreign creditors and local elites, and social instability enabling authoritarian responses. Naomi Klein's 'Shock Doctrine' documents the political exploitation of crisis to impose these measures.",
-    "decade": "1970s–2000s",
-    "tags": ["economics", "neoliberalism", "imf", "structural_adjustment", "global_south"],
+    "decade": "1970s\u20132000s",
+    "tags": [
+      "economics",
+      "neoliberalism",
+      "imf",
+      "structural_adjustment",
+      "global_south"
+    ],
     "region": "Global",
     "scope": "global/economics"
   },
@@ -125,9 +192,16 @@
     "label": "New Deal",
     "node_type": "event",
     "category": "event",
-    "summary": "FDR's 1933–1938 response to the Great Depression: Social Security, FDIC, SEC, Wagner Act (labor organizing rights), public works employment, and financial re-regulation (Glass-Steagall). Demonstrated that state intervention could stabilize capitalism and reduce inequality. Opposed by business interests as socialism. Its later dismantlement (Glass-Steagall repeal 1999, union decline) preceded the 2008 financial crisis, suggesting the regulatory framework's importance to stability.",
+    "summary": "FDR's 1933\u20131938 response to the Great Depression: Social Security, FDIC, SEC, Wagner Act (labor organizing rights), public works employment, and financial re-regulation (Glass-Steagall). Demonstrated that state intervention could stabilize capitalism and reduce inequality. Opposed by business interests as socialism. Its later dismantlement (Glass-Steagall repeal 1999, union decline) preceded the 2008 financial crisis, suggesting the regulatory framework's importance to stability.",
     "decade": "1930s",
-    "tags": ["economics", "history", "new_deal", "fdr", "regulation", "labor"],
+    "tags": [
+      "economics",
+      "history",
+      "new_deal",
+      "fdr",
+      "regulation",
+      "labor"
+    ],
     "region": "Americas",
     "scope": "global/economics"
   },
@@ -138,7 +212,13 @@
     "category": "event",
     "summary": "Nixon's 1971 ending of dollar-gold convertibility dissolved the post-WWII international monetary system. Enabled floating exchange rates, currency speculation, and the removal of constraints on international capital flows. Created conditions for financialization: without gold anchor, money became purely political, enabling central bank expansion and financial engineering. The 'Nixon shock' is the inflection point for the financialization of the global economy.",
     "decade": "1970s",
-    "tags": ["economics", "history", "monetary_policy", "finance", "bretton_woods"],
+    "tags": [
+      "economics",
+      "history",
+      "monetary_policy",
+      "finance",
+      "bretton_woods"
+    ],
     "region": "Global",
     "scope": "global/economics"
   },
@@ -149,7 +229,13 @@
     "category": "event",
     "summary": "Global financial collapse triggered by subprime mortgage securitization, credit default swap chains, and regulatory failure. Mechanisms: predatory lending, rating agency capture, Glass-Steagall repeal enabling deposit-taking banks to run investment bank risks, and too-big-to-fail implicit guarantees creating moral hazard. The crisis transferred private losses to public balance sheets through bailouts while homeowners bore personal losses, accelerating wealth concentration and populist backlash leading to Brexit and Trump.",
     "decade": "2000s",
-    "tags": ["economics", "history", "financial_crisis", "banking", "regulation"],
+    "tags": [
+      "economics",
+      "history",
+      "financial_crisis",
+      "banking",
+      "regulation"
+    ],
     "region": "Global",
     "scope": "global/economics"
   },
@@ -160,7 +246,13 @@
     "category": "ideology",
     "summary": "The doctrine that markets should be free from government intervention: prices set by supply and demand, no minimum wages, no antitrust, no social safety net. Dominant ideology of 19th century industrialization. Associated with Social Darwinism and the view that poverty reflects individual failure rather than structural conditions. The Gilded Age and Great Depression exposed its instability, producing regulatory capitalism as a response. Revived in modified form as neoliberalism after the 1970s stagflation.",
     "decade": "1800s",
-    "tags": ["economics", "ideology", "capitalism", "free_market", "libertarianism"],
+    "tags": [
+      "economics",
+      "ideology",
+      "capitalism",
+      "free_market",
+      "libertarianism"
+    ],
     "scope": "global/economics"
   },
   {
@@ -169,8 +261,15 @@
     "node_type": "ideology",
     "category": "ideology",
     "summary": "The political-economic ideology that markets are the optimal allocator of resources and that state intervention distorts efficiency. Core policies: privatization, deregulation, free trade, capital mobility, and reduction of social spending. Emerged from the Mont Pelerin Society (Hayek, Friedman), institutionalized through Thatcher/Reagan, and spread globally through IMF/World Bank conditionality. Distinct from classical liberalism by its active use of state power to create and enforce market conditions, and its capture of formerly left parties (Third Way, New Democrats).",
-    "decade": "1970s–Ongoing",
-    "tags": ["economics", "ideology", "neoliberalism", "capitalism", "hayek", "friedman"],
+    "decade": "1970s\u2013Ongoing",
+    "tags": [
+      "economics",
+      "ideology",
+      "neoliberalism",
+      "capitalism",
+      "hayek",
+      "friedman"
+    ],
     "scope": "global/economics"
   },
   {
@@ -180,7 +279,13 @@
     "category": "ideology",
     "summary": "Maynard Keynes's framework that aggregate demand determines output and employment, that markets can reach stable equilibria with mass unemployment, and that government spending can counteract recessions. Dominated post-WWII economic policy through the 1970s (Bretton Woods, New Deal successors, European welfare states). Discredited (partially deliberately) during 1970s stagflation, which Keynesian models did not predict. Vindicated by 2008 crisis response, where non-austerity countries recovered faster.",
     "decade": "1930s",
-    "tags": ["economics", "ideology", "keynes", "macroeconomics", "fiscal_policy"],
+    "tags": [
+      "economics",
+      "ideology",
+      "keynes",
+      "macroeconomics",
+      "fiscal_policy"
+    ],
     "scope": "global/economics"
   },
   {
@@ -188,9 +293,15 @@
     "label": "Market Fundamentalism",
     "node_type": "ideology",
     "category": "ideology",
-    "summary": "George Soros's term for the quasi-religious belief that markets are self-correcting and produce optimal social outcomes without regulation. Differs from technical neoliberalism by its ideological rigidity — market failures are attributed to insufficient market freedom rather than inherent market mechanisms. Provides intellectual cover for deregulation regardless of evidence. The 2008 financial crisis prompted Greenspan's famous admission that he had found a 'flaw' in his free market ideology.",
-    "decade": "1980s–Ongoing",
-    "tags": ["economics", "ideology", "free_market", "neoliberalism", "fundamentalism"],
+    "summary": "George Soros's term for the quasi-religious belief that markets are self-correcting and produce optimal social outcomes without regulation. Differs from technical neoliberalism by its ideological rigidity \u2014 market failures are attributed to insufficient market freedom rather than inherent market mechanisms. Provides intellectual cover for deregulation regardless of evidence. The 2008 financial crisis prompted Greenspan's famous admission that he had found a 'flaw' in his free market ideology.",
+    "decade": "1980s\u2013Ongoing",
+    "tags": [
+      "economics",
+      "ideology",
+      "free_market",
+      "neoliberalism",
+      "fundamentalism"
+    ],
     "scope": "global/economics"
   },
   {
@@ -199,8 +310,14 @@
     "node_type": "phenomenon",
     "category": "phenomenon",
     "summary": "The structural gap between top and bottom income earners, measured by Gini coefficient and income share metrics. US top 1% income share has risen from ~10% in 1970 to ~20% in 2020. Piketty's r > g identifies the mechanism: capital returns exceed growth, concentrating income among asset owners. Associated with reduced social mobility, increased political polarization, health disparities, and democratic instability. Not a natural outcome but the result of specific policy choices: union suppression, tax structure, and financialization.",
-    "decade": "1970s–Ongoing",
-    "tags": ["economics", "inequality", "phenomenon", "piketty", "class"],
+    "decade": "1970s\u2013Ongoing",
+    "tags": [
+      "economics",
+      "inequality",
+      "phenomenon",
+      "piketty",
+      "class"
+    ],
     "scope": "global/economics"
   },
   {
@@ -208,9 +325,15 @@
     "label": "Debt Trap",
     "node_type": "phenomenon",
     "category": "phenomenon",
-    "summary": "The mechanism by which creditors — whether IMF, commercial banks, or predatory lenders — gain leverage over debtors unable to repay, extracting concessions that exceed the original debt in value. At sovereign level: structural adjustment conditionality. At individual level: payday loans, medical debt, and student debt. The mechanism requires initial credit access (often predatory), followed by crisis, followed by extraction under duress. Debt as a tool of control is as old as antiquity (biblical debt jubilees existed to prevent this).",
+    "summary": "The mechanism by which creditors \u2014 whether IMF, commercial banks, or predatory lenders \u2014 gain leverage over debtors unable to repay, extracting concessions that exceed the original debt in value. At sovereign level: structural adjustment conditionality. At individual level: payday loans, medical debt, and student debt. The mechanism requires initial credit access (often predatory), followed by crisis, followed by extraction under duress. Debt as a tool of control is as old as antiquity (biblical debt jubilees existed to prevent this).",
     "decade": "universal",
-    "tags": ["economics", "phenomenon", "debt", "inequality", "imf"],
+    "tags": [
+      "economics",
+      "phenomenon",
+      "debt",
+      "inequality",
+      "imf"
+    ],
     "scope": "global/economics"
   },
   {
@@ -219,8 +342,15 @@
     "node_type": "phenomenon",
     "category": "phenomenon",
     "summary": "Guy Standing's term for the growing class of workers with precarious employment: gig economy, zero-hours contracts, temporary agency work, misclassified contractors. Distinct from the traditional proletariat by its lack of occupational identity, benefits, pensions, or union protection. Produced by financialization (firms outsource labor risk), platform capitalism (Uber model), and regulatory arbitrage. Associated with economic anxiety that drives political volatility and populist appeal.",
-    "decade": "1990s–Ongoing",
-    "tags": ["economics", "phenomenon", "labor", "gig_economy", "inequality", "precarity"],
+    "decade": "1990s\u2013Ongoing",
+    "tags": [
+      "economics",
+      "phenomenon",
+      "labor",
+      "gig_economy",
+      "inequality",
+      "precarity"
+    ],
     "scope": "global/economics"
   },
   {
@@ -229,8 +359,15 @@
     "node_type": "phenomenon",
     "category": "phenomenon",
     "summary": "The competitive dynamic in which jurisdictions progressively lower labor standards, environmental regulations, and corporate taxes to attract mobile capital, producing a downward spiral where no jurisdiction can maintain standards without losing investment. A predictable consequence of capital mobility without corresponding labor or regulatory mobility. Produces a prisoner's dilemma: every jurisdiction would prefer higher standards but is individually rational to undercut. The European Union single market attempts to solve this through regulatory harmonization.",
-    "decade": "1980s–Ongoing",
-    "tags": ["economics", "phenomenon", "globalization", "regulation", "labor", "inequality"],
+    "decade": "1980s\u2013Ongoing",
+    "tags": [
+      "economics",
+      "phenomenon",
+      "globalization",
+      "regulation",
+      "labor",
+      "inequality"
+    ],
     "scope": "global/economics"
   },
   {
@@ -239,8 +376,15 @@
     "node_type": "event",
     "category": "event",
     "summary": "The systematic campaign by industrial capital from the 1870s through the present to prevent collective bargaining: Pinkertons and private armies (Homestead 1892, Ludlow 1914), state militia deployment, injunctions, Red Scare conflation of unionism with communism (post-WWI, post-WWII), Taft-Hartley Act restrictions (1947), and Reagan's PATCO firing (1981) as signal that government would side with employers. Union density fell from 35% in 1954 to under 10% today, tracking closely with declining labor share of income.",
-    "decade": "1870s–Ongoing",
-    "tags": ["economics", "history", "labor", "unions", "capitalism", "violence"],
+    "decade": "1870s\u2013Ongoing",
+    "tags": [
+      "economics",
+      "history",
+      "labor",
+      "unions",
+      "capitalism",
+      "violence"
+    ],
     "region": "Americas",
     "scope": "global/economics"
   },
@@ -249,9 +393,16 @@
     "label": "Enclosure Movement",
     "node_type": "event",
     "category": "event",
-    "summary": "English privatization of common lands 1500–1850: Parliamentary acts converting shared agricultural commons into private property, dispossessing peasants who had customary use rights. Created a landless rural proletariat with no alternative to wage labor in emerging factories. Karl Marx called it 'primitive accumulation' — the violent foundational act that created capitalism by separating workers from the means of production. The enclosure mechanism repeats in every colonial context and in modern intellectual property expansion.",
+    "summary": "English privatization of common lands 1500\u20131850: Parliamentary acts converting shared agricultural commons into private property, dispossessing peasants who had customary use rights. Created a landless rural proletariat with no alternative to wage labor in emerging factories. Karl Marx called it 'primitive accumulation' \u2014 the violent foundational act that created capitalism by separating workers from the means of production. The enclosure mechanism repeats in every colonial context and in modern intellectual property expansion.",
     "decade": "1500s",
-    "tags": ["economics", "history", "enclosure", "capitalism", "labor", "commons"],
+    "tags": [
+      "economics",
+      "history",
+      "enclosure",
+      "capitalism",
+      "labor",
+      "commons"
+    ],
     "region": "Europe",
     "scope": "global/economics"
   },
@@ -261,8 +412,14 @@
     "node_type": "ideology",
     "category": "ideology",
     "summary": "Milton Friedman's 1970 doctrine that corporations have a single social responsibility: maximizing returns to shareholders. Became dominant corporate governance ideology from 1980s onward, enabling stock buybacks, executive compensation tied to share price, disinvestment in workers and long-term assets, and externalization of environmental and social costs. Replaced stakeholder capitalism models (employee representation, long-term investment) and provided the ideological justification for financialization of corporate strategy.",
-    "decade": "1970s–Ongoing",
-    "tags": ["economics", "ideology", "finance", "corporate_governance", "friedman"],
+    "decade": "1970s\u2013Ongoing",
+    "tags": [
+      "economics",
+      "ideology",
+      "finance",
+      "corporate_governance",
+      "friedman"
+    ],
     "scope": "global/economics"
   },
   {
@@ -272,7 +429,14 @@
     "category": "mechanism",
     "summary": "Marx's concept for the pre-capitalist expropriation that creates the preconditions for capitalism: separating peasants from land (enclosure), dispossessing colonial peoples, chattel slavery, and piracy. Not a historical one-time event but an ongoing process: David Harvey's 'accumulation by dispossession' describes how privatization of public goods, intellectual property expansion, financial crises exploited for asset transfers, and neoliberal restructuring continue primitive accumulation in the present.",
     "decade": "universal",
-    "tags": ["economics", "mechanism", "marx", "colonialism", "capitalism", "enclosure"],
+    "tags": [
+      "economics",
+      "mechanism",
+      "marx",
+      "colonialism",
+      "capitalism",
+      "enclosure"
+    ],
     "scope": "global/economics"
   },
   {
@@ -281,8 +445,15 @@
     "node_type": "ideology",
     "category": "ideology",
     "summary": "The influential tradition centered at the University of Chicago (Friedman, Stigler, Becker, Lucas) emphasizing free markets, price theory, rational expectations, and skepticism toward government intervention. Provided the intellectual infrastructure for neoliberalism. Friedman's monetarism replaced Keynesian demand management. Chicago antitrust theory redefined predatory pricing as implausible, paving the way for monopolization. The Chicago Boys trained in this tradition implemented Pinochet's shock therapy program in Chile after 1973.",
-    "decade": "1950s–Ongoing",
-    "tags": ["economics", "ideology", "chicago_school", "friedman", "neoliberalism", "monetarism"],
+    "decade": "1950s\u2013Ongoing",
+    "tags": [
+      "economics",
+      "ideology",
+      "chicago_school",
+      "friedman",
+      "neoliberalism",
+      "monetarism"
+    ],
     "scope": "global/economics"
   },
   {
@@ -290,9 +461,16 @@
     "label": "False Consciousness (Economic)",
     "node_type": "phenomenon",
     "category": "phenomenon",
-    "summary": "Workers supporting economic policies that harm their material interests — tax cuts for the wealthy, union restrictions, social spending cuts — due to cultural identification with the donor class, racial resentment redirected from class analysis, or ideological capture (believing they will someday be wealthy too). Frank's 'What's the Matter with Kansas?' documents this in detail. The mechanism: trickle-down propaganda + scapegoating of minorities prevents class solidarity that would threaten elite economic arrangements.",
-    "decade": "1980s–Ongoing",
-    "tags": ["economics", "phenomenon", "class", "ideology", "scapegoating", "marx"],
+    "summary": "Workers supporting economic policies that harm their material interests \u2014 tax cuts for the wealthy, union restrictions, social spending cuts \u2014 due to cultural identification with the donor class, racial resentment redirected from class analysis, or ideological capture (believing they will someday be wealthy too). Frank's 'What's the Matter with Kansas?' documents this in detail. The mechanism: trickle-down propaganda + scapegoating of minorities prevents class solidarity that would threaten elite economic arrangements.",
+    "decade": "1980s\u2013Ongoing",
+    "tags": [
+      "economics",
+      "phenomenon",
+      "class",
+      "ideology",
+      "scapegoating",
+      "marx"
+    ],
     "scope": "global/economics"
   },
   {
@@ -300,9 +478,215 @@
     "label": "Shock Doctrine",
     "node_type": "mechanism",
     "category": "mechanism",
-    "summary": "Naomi Klein's documented pattern: economic and political crises are exploited — and sometimes manufactured — to impose unpopular neoliberal reforms that would be politically impossible under normal conditions. The shock creates disorientation, bypasses democratic deliberation, and exhausts resistance capacity. Examples: Chile post-1973 coup, Bolivia 1985 hyperinflation, Russia post-Soviet, Iraq occupation, and Katrina New Orleans. The mechanism requires ideologically prepared technocrats (Chicago Boys) ready to implement before shock fades.",
-    "decade": "1970s–Ongoing",
-    "tags": ["economics", "mechanism", "neoliberalism", "crisis", "klein", "chile"],
+    "summary": "Naomi Klein's documented pattern: economic and political crises are exploited \u2014 and sometimes manufactured \u2014 to impose unpopular neoliberal reforms that would be politically impossible under normal conditions. The shock creates disorientation, bypasses democratic deliberation, and exhausts resistance capacity. Examples: Chile post-1973 coup, Bolivia 1985 hyperinflation, Russia post-Soviet, Iraq occupation, and Katrina New Orleans. The mechanism requires ideologically prepared technocrats (Chicago Boys) ready to implement before shock fades.",
+    "decade": "1970s\u2013Ongoing",
+    "tags": [
+      "economics",
+      "mechanism",
+      "neoliberalism",
+      "crisis",
+      "klein",
+      "chile"
+    ],
     "scope": "global/economics"
+  },
+  {
+    "id": "federal_reserve_creation_1913",
+    "label": "Federal Reserve Creation (1913)",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1910s",
+    "scope": "global/economics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Federal_Reserve_Act",
+    "summary": "The Federal Reserve System, created by Congress in 1913, became the U.S. central bank \u2014 controlling monetary policy, interest rates, and the money supply. Its creation followed a series of financial panics (1873, 1893, 1907) and represented the embedding of private banking interests within a public regulatory framework.",
+    "tags": [
+      "united states",
+      "central bank",
+      "monetary policy",
+      "banking",
+      "federal reserve",
+      "1913"
+    ]
+  },
+  {
+    "id": "bretton_woods_agreement_1944",
+    "label": "Bretton Woods Agreement (1944)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1940s",
+    "scope": "global/economics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Bretton_Woods_system",
+    "summary": "The 1944 international agreement that established the post-WWII global economic order: fixed exchange rates pegged to the dollar (which was backed by gold), creating the IMF and World Bank. Gave the U.S. dollar structural dominance in global trade. The system's collapse in 1971 (Nixon shock) ushered in floating exchange rates and financialization.",
+    "tags": [
+      "united states",
+      "international finance",
+      "imf",
+      "world bank",
+      "dollar",
+      "post-war",
+      "1944"
+    ]
+  },
+  {
+    "id": "glass_steagall_repeal_1999",
+    "label": "Glass-Steagall Repeal (1999)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1990s",
+    "scope": "global/economics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act",
+    "summary": "The Gramm-Leach-Bliley Act (1999) repealed the Glass-Steagall Act (1933) that had separated commercial and investment banking since the Great Depression. The repeal allowed banks to merge with securities firms, enabling the 'too big to fail' banks and the financial products that caused the 2008 crisis.",
+    "tags": [
+      "united states",
+      "banking",
+      "deregulation",
+      "glass-steagall",
+      "financial crisis",
+      "regulatory capture",
+      "1999"
+    ]
+  },
+  {
+    "id": "nafta_1994",
+    "label": "NAFTA (1994)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1990s",
+    "scope": "global/economics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/North_American_Free_Trade_Agreement",
+    "summary": "North American Free Trade Agreement (1994) eliminated most trade barriers between U.S., Canada, and Mexico. Promised prosperity for all; delivered it unevenly. U.S. manufacturing jobs moved to Mexico; Mexican small farmers were undercut by U.S. corn subsidies, driving migration. Set the template for neoliberal trade policy.",
+    "tags": [
+      "united states",
+      "mexico",
+      "canada",
+      "free trade",
+      "manufacturing",
+      "immigration",
+      "neoliberalism",
+      "1994"
+    ]
+  },
+  {
+    "id": "wto_formation_1995",
+    "label": "WTO Formation (1995)",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1990s",
+    "scope": "global/economics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/World_Trade_Organization",
+    "summary": "The World Trade Organization (1995) replaced GATT and became the global forum for trade rules. Its core logic \u2014 that free trade benefits all parties \u2014 masks power asymmetries: rich nations subsidize their agriculture while demanding developing nations open markets, structuring trade in favor of existing dominant economies.",
+    "tags": [
+      "international trade",
+      "globalization",
+      "neoliberalism",
+      "trade policy",
+      "developing nations",
+      "inequality",
+      "1995"
+    ]
+  },
+  {
+    "id": "housing_bubble_2008",
+    "label": "U.S. Housing Bubble (2008)",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2000s",
+    "scope": "global/economics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/United_States_housing_bubble",
+    "summary": "The speculative bubble in U.S. housing prices (2002\u201307) inflated by predatory subprime lending, mortgage-backed securities, and failed regulatory oversight. Its collapse triggered the 2008 global financial crisis, eliminating $7.4 trillion in homeowner equity and disproportionately destroying Black and Hispanic wealth.",
+    "tags": [
+      "united states",
+      "housing",
+      "subprime",
+      "financial crisis",
+      "deregulation",
+      "wealth inequality",
+      "2008"
+    ]
+  },
+  {
+    "id": "quantitative_easing",
+    "label": "Quantitative Easing",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2000s",
+    "scope": "global/economics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Quantitative_easing",
+    "summary": "Central bank tool of last resort where banks buy financial assets (government bonds, mortgage securities) to inject money into the economy. Used by the Fed after 2008 and massively expanded in 2020. Primary effect: inflated asset prices (stocks, real estate) disproportionately benefiting the wealthy, worsening wealth inequality.",
+    "tags": [
+      "central bank",
+      "monetary policy",
+      "wealth inequality",
+      "federal reserve",
+      "asset prices",
+      "2008",
+      "2020"
+    ]
+  },
+  {
+    "id": "gig_economy",
+    "label": "Gig Economy",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2010s",
+    "scope": "global/economics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Gig_worker",
+    "summary": "Labor market shift (accelerated 2009+) toward short-term contracts and freelance work, enabled by platform apps (Uber, Lyft, TaskRabbit). Companies classify workers as 'independent contractors' to avoid benefits, minimum wage, and collective bargaining rights \u2014 maximizing shareholder returns by pushing employment costs onto workers.",
+    "tags": [
+      "labor",
+      "technology",
+      "platform capitalism",
+      "precariat",
+      "uber",
+      "independent contractor",
+      "worker rights"
+    ]
+  },
+  {
+    "id": "offshore_tax_havens",
+    "label": "Offshore Tax Havens",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1970s",
+    "scope": "global/economics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Tax_haven",
+    "summary": "Jurisdictions (Cayman Islands, Luxembourg, Ireland, Switzerland, etc.) offering minimal taxation for foreign capital. The Panama Papers (2016) and Pandora Papers (2021) revealed that $32+ trillion in private wealth is held offshore. Tax havens structurally enable wealth concentration by letting the wealthy opt out of national tax systems.",
+    "tags": [
+      "taxation",
+      "wealth inequality",
+      "panama papers",
+      "cayman islands",
+      "corporate taxation",
+      "oligarchy"
+    ]
+  },
+  {
+    "id": "student_debt_crisis",
+    "label": "Student Debt Crisis (U.S.)",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2000s",
+    "scope": "global/economics",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Student_debt_in_the_United_States",
+    "summary": "U.S. student debt exceeded $1.7 trillion by 2023 \u2014 more than auto or credit card debt. Driven by decades of state disinvestment in public universities, federal loan program expansion, and predatory for-profit colleges. Disproportionately affects Black students and delays homeownership, family formation, and wealth accumulation for a generation.",
+    "tags": [
+      "united states",
+      "education",
+      "debt",
+      "inequality",
+      "student loans",
+      "higher education",
+      "generational"
+    ]
   }
 ]

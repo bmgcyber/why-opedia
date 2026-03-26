@@ -49,21 +49,33 @@ data/
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-03-26, Session 3)
+## CURRENT DATASET STATE (as of 2026-03-26, Session 4)
 
 | Scope | Nodes | Edges |
 |-------|-------|-------|
-| History | **411** | **890** |
-| Economics | 29 | 74 |
+| History | **492** | **1008** |
+| Economics | 39 | 98 |
 | Politics | 110 | 321 |
 | Psychology | 38 | 107 |
 | Media | 31 | 82 |
 | Health | 31 | 81 |
-| Mechanisms | **144** | **1296** (cross-scope) |
-| **Person nodes (history)** | **183** | — |
-| **Total nodes** | **~794** | **~2851** |
+| Mechanisms | **144** | **1387** (cross-scope) |
+| **Person nodes (history)** | **214** | — |
+| **Total nodes** | **~885** | **~3084** |
 
 **Data integrity:** 0 truly broken edge references. Cross-scope refs to unloaded scopes are filtered by the renderer.
+
+### Session 4 additions:
+- **Duplicate cleanup:** Merged `world_war_two` → `world_war_ii` (7 edges redirected); deleted `french_revolution_history` (orphaned, 0 edges)
+- **Indigenous North American (Priority 1):** haudenosaunee_confederacy, cherokee_nation, sioux_nation, treaty_of_fort_laramie, lakota_ghost_dance, wounded_knee_massacre_1890, american_indian_movement, wounded_knee_1973, standing_rock_protests, indian_boarding_schools + people: sitting_bull, crazy_horse, geronimo, chief_joseph, vine_deloria_jr, leonard_peltier (16 nodes, 42 edges)
+- **East African Civilizations (Priority 2):** kingdom_of_axum, swahili_coast_trade, great_zimbabwe, kingdom_of_kongo, benin_kingdom, maji_maji_rebellion + people: haile_selassie, jomo_kenyatta, julius_nyerere (9 nodes, 22 edges)
+- **Chinese History (Priority 3):** zhou_dynasty, qing_dynasty, yuan_dynasty, boxer_rebellion, tiananmen_square_massacre, chinese_exclusion_act_1882 + people: empress_dowager_cixi, hong_xiuquan (8 nodes, 20 edges)
+- **South Asian Gaps (Priority 4):** vijayanagara_empire, maratha_empire, sikh_empire, partition_of_bengal_1905, amritsar_massacre_1919 + people: shivaji_maharaj, guru_nanak, ranjit_singh, bhimrao_ambedkar (9 nodes, 20 edges)
+- **Pre-Columbian Depth (Priority 5):** mississippian_culture, cahokia, encomienda_system, potosi_silver_mines, tlaxcalan_alliance, maya_codex_burning + people: bartolome_de_las_casas, diego_de_landa, tupac_amaru_ii (9 nodes, 23 edges)
+- **Ottoman Deep Cuts (Priority 6):** tanzimat_reforms, ottoman_debt_crisis, greek_war_of_independence, young_turks_movement, balkan_wars_1912 + people: talaat_pasha, ataturk (7 nodes, 19 edges)
+- **2020s / Contemporary (Priority 7):** ferguson_protests_2014, black_lives_matter, breonna_taylor_killing, january_6_capitol_riot, covid_vaccine_hesitancy, ai_large_language_models, surveillance_state_china, myanmar_coup_2021 + people: xi_jinping, aung_san_suu_kyi, volodymyr_zelensky, angela_davis, fred_hampton, edward_bernays, j_edgar_hoover, henry_kissinger (16 nodes, 35 edges)
+- **Medieval Europe (Priority 8):** feudal_system, norman_conquest_1066, crusades, black_death_social_impact, hanseatic_league, peasants_revolt_1381 + people: william_the_conqueror, joan_of_arc, thomas_becket (9 nodes, 24 edges)
+- **Economics Scope (Priority 10):** federal_reserve_creation_1913, bretton_woods_agreement_1944, glass_steagall_repeal_1999, nafta_1994, wto_formation_1995, housing_bubble_2008, quantitative_easing, gig_economy, offshore_tax_havens, student_debt_crisis (10 nodes, 30 edges)
 
 ---
 
@@ -113,76 +125,38 @@ for scope, ef in [('history','data/global/history/edges.json'),
 
 ## NEXT STEPS: DATASET ADDITIONS (prioritized)
 
-### Priority 1 — Indigenous North American History
-Currently only Trail of Tears and boarding schools. Need full pre-colonial context.
-- **Nodes to add:** `haudenosaunee_confederacy` (Iroquois — model for U.S. Constitution?), `sioux_nation`, `lakota_ghost_dance`, `wounded_knee_massacre_1890`, `wounded_knee_1973`, `cherokee_nation`, `american_indian_movement`, `treaty_of_fort_laramie`, `standing_rock_protests`
-- **People:** `sitting_bull`, `crazy_horse`, `geronimo`, `chief_joseph`, `vine_deloria_jr`, `leonard_peltier`
-- **Mechanism links:** `dehumanization`, `structural_violence`, `historical_revisionism`, `manufactured_consent`, `resource_extraction`, `broken_epistemology`
+### Priority 1 — Indigenous North American History ✓ DONE (Session 4)
+All nodes added. Remaining gap: `mississippian_culture` → `haudenosaunee_confederacy` link needs deeper wiring to pre-contact period.
 
-### Priority 2 — East African Civilizations
-Only colonial/genocide nodes exist for East Africa.
-- **Nodes to add:** `kingdom_of_axum` (Ethiopia, 1st–7th c.), `swahili_coast_trade`, `great_zimbabwe`, `kingdom_of_kongo`, `benin_kingdom` (famous bronzes, 1180–1897), `maji_maji_rebellion` (German East Africa 1905)
-- **People:** `haile_selassie`, `jomo_kenyatta` (Kenya independence), `julius_nyerere` (Tanzania)
-- **Mechanism links:** `imperialism`, `resource_extraction`, `dehumanization`, `structural_violence`
+### Priority 2 — East African Civilizations ✓ DONE (Session 4)
+All nodes added. Still missing: `scramble_for_africa` node (cross-topic), `pan_africanism` node.
 
-### Priority 3 — Additional Chinese History
-Yuan dynasty and deeper connections still missing.
-- **Nodes to add:** `yuan_dynasty` (Mongol-ruled China, 1271–1368), `zhou_dynasty` (800-year dynasty, Confucius's era), `boxer_rebellion` (1900), `chinese_exclusion_act_1882` (U.S.)
-- **People:** `hong_xiuquan` (Taiping Rebellion leader), `empress_dowager_cixi` (Qing regent)
-- **Mechanism links:** `in_group_out_group_dynamics`, `cult_dynamics`, `dehumanization`, `imperialism`
+### Priority 3 — Additional Chinese History ✓ DONE (Session 4)
+Added zhou_dynasty, qing_dynasty, yuan_dynasty, boxer_rebellion, tiananmen_square_massacre, chinese_exclusion_act_1882, hong_xiuquan, empress_dowager_cixi.
 
-### Priority 4 — South Asian Gaps
-Maratha, Sikh, and Vijayanagara empires absent.
-- **Nodes to add:** `maratha_empire` (17th–19th c., resisted Mughals and British), `sikh_empire` (Punjab, 1799–1849), `vijayanagara_empire` (South India, 1336–1646), `partition_of_bengal_1905`, `amritsar_massacre_1919`
-- **People:** `shivaji_maharaj` (Maratha founder), `guru_nanak` (Sikh founder), `ranjit_singh` (Sikh Empire), `bhimrao_ambedkar` (Dalit rights, drafted Indian constitution)
-- **Mechanism links:** `in_group_out_group_dynamics`, `structural_violence`, `dehumanization`, `class_consciousness`
+### Priority 4 — South Asian Gaps ✓ DONE (Session 4)
+Added maratha_empire, sikh_empire, vijayanagara_empire, partition_of_bengal_1905, amritsar_massacre_1919, shivaji_maharaj, guru_nanak, ranjit_singh, bhimrao_ambedkar.
 
-### Priority 5 — Pre-Columbian Depth
-Aztec and Inca added; need deeper nodes.
-- **Nodes to add:** `potosi_silver_mines` (Bolivia — funded European capitalism, 8M deaths), `encomienda_system` (Spanish colonial labor), `tlaxcalan_alliance` (indigenous partners in conquest), `mississippian_culture` (North America mound-builders), `cahokia` (pre-Columbian city larger than London in 1200), `maya_codex_burning` (Diego de Landa burned Maya books 1562)
-- **People:** `bartolome_de_las_casas` (documented Spanish atrocities), `diego_de_landa` (burned Maya books), `tupac_amaru_ii` (Inca revolt leader 1780)
-- **Mechanism links:** `resource_extraction`, `dehumanization`, `structural_violence`, `historical_revisionism`
+### Priority 5 — Pre-Columbian Depth ✓ DONE (Session 4)
+Added potosi_silver_mines, encomienda_system, tlaxcalan_alliance, mississippian_culture, cahokia, maya_codex_burning, bartolome_de_las_casas, diego_de_landa, tupac_amaru_ii.
 
-### Priority 6 — Ottoman Deep Cuts
-Have empire overview and key sultans; need internal reform/collapse arc.
-- **Nodes to add:** `tanzimat_reforms` (Ottoman modernization 1839–1876), `young_turks_movement`, `ottoman_debt_crisis` (1881 — European financial control), `greek_war_of_independence`, `balkan_wars_1912`
-- **People:** `talaat_pasha` (third of the Three Pashas, Armenian Genocide architect alongside Enver)
-- **Mechanism links:** `democratic_backsliding`, `imperialism`, `dehumanization`, `debt_trap`
+### Priority 6 — Ottoman Deep Cuts ✓ DONE (Session 4)
+Added tanzimat_reforms, ottoman_debt_crisis, greek_war_of_independence, young_turks_movement, balkan_wars_1912, talaat_pasha, ataturk.
 
-### Priority 7 — 2020s & Contemporary Depth
-2020s nodes added; need more granularity.
-- **Nodes to add:** `ferguson_protests_2014` (BLM origin), `breonna_taylor_killing`, `covid_vaccine_hesitancy`, `ai_large_language_models` (2022–present), `surveillance_state_china` (Xinjiang, social credit), `myanmar_coup_2021`, `ethiopia_tigray_war`, `haiti_political_collapse`
-- **People:** `xi_jinping` (China's authoritarian consolidation), `aung_san_suu_kyi` (Myanmar), `volodymyr_zelensky`
-- **Mechanism links:** `surveillance_capitalism`, `manufactured_consent`, `democratic_backsliding`, `propaganda`
+### Priority 7 — 2020s & Contemporary Depth ✓ MOSTLY DONE (Session 4)
+Added: ferguson_protests_2014, black_lives_matter, breonna_taylor_killing, january_6_capitol_riot, covid_vaccine_hesitancy, ai_large_language_models, surveillance_state_china, myanmar_coup_2021, xi_jinping, aung_san_suu_kyi, volodymyr_zelensky.
+- **Still missing:** `ethiopia_tigray_war`, `haiti_political_collapse`, `defund_police_debate`, `long_covid`, `rohingya_genocide`
 
-### Priority 8 — Medieval Europe Depth
-Currently thin between fall of Rome and Renaissance.
-- **Nodes to add:** `black_death_social_impact` (flagellants, pogroms, labor shortage → power shift), `hanseatic_league` (early merchant capitalism), `peasants_revolt_1381`, `feudal_system`, `norman_conquest_1066`
-- **People:** `william_the_conqueror`, `joan_of_arc`, `thomas_becket`
-- **Mechanism links:** `structural_violence`, `class_consciousness`, `propaganda`, `church_state_entanglement`
+### Priority 8 — Medieval Europe Depth ✓ DONE (Session 4)
+Added feudal_system, norman_conquest_1066, crusades, black_death_social_impact, hanseatic_league, peasants_revolt_1381, william_the_conqueror, joan_of_arc, thomas_becket.
 
-### Priority 9 — Additional Person Nodes (high-value gaps)
-People with existing topic nodes but no person node:
-- `bartolome_de_las_casas` — documented Spanish atrocities in Americas
-- `sitting_bull` — Sioux, Ghost Dance, Wounded Knee
-- `bhimrao_ambedkar` — Dalit liberation, Indian Constitution
-- `shivaji_maharaj` — Maratha resistance to Mughal/British rule
-- `empress_dowager_cixi` — Qing dynasty regent, blocked modernization
-- `haile_selassie` — Ethiopia, pan-Africanism, Rastafarianism
-- `jomo_kenyatta` — Kenya independence, Mau Mau rebellion
-- `julius_nyerere` — Tanzania, African socialism (Ujamaa)
-- `xi_jinping` — China's authoritarian consolidation
-- `angela_davis` — Black liberation, prison industrial complex
-- `fred_hampton` — Black Panthers, COINTELPRO assassination
-- `edward_bernays` — Father of PR / modern propaganda
-- `j_edgar_hoover` — FBI, COINTELPRO, surveillance state
-- `henry_kissinger` — U.S. foreign policy, Chile coup, Vietnam
-- `hong_xiuquan` — Taiping Rebellion leader
+### Priority 9 — Additional Person Nodes ✓ DONE (Session 4)
+All 15 priority person nodes added in Sessions 3 and 4. Person node total: 214.
+- **Remaining high-value gaps:** `simon_bolivar`, `toussaint_louverture` (if not already added), `frederick_douglass`, `harriet_tubman`, `paulo_freire`, `frantz_fanon`, `rosa_luxemburg`, `emma_goldman`, `che_guevara`, `patrice_lumumba`
 
-### Priority 10 — Economics Scope Additions
-Economics has good conceptual nodes; thin on historical events.
-- **Nodes to add:** `glass_steagall_repeal_1999`, `bretton_woods_agreement_1944` (distinct from collapse), `federal_reserve_creation_1913`, `wto_formation_1995`, `nafta_1994`, `gig_economy`, `offshore_tax_havens`, `quantitative_easing`, `student_debt_crisis`, `housing_bubble_2008`
-- **Cross-scope edges:** Wire to existing history/mechanism nodes (Great Depression, Keynes, Friedman, Reagan)
+### Priority 10 — Economics Scope Additions ✓ DONE (Session 4)
+Added all 10 nodes. Economics scope now: 39 nodes, 98 edges.
+- **Remaining gaps:** `union_busting_reagan`, `citizens_united_2010`, `minimum_wage_stagnation`, `universal_basic_income` (concept node), `debt_jubilee` (concept)
 
 ---
 
@@ -252,11 +226,11 @@ Data model supports nested scopes (`children: {}`). Future: `global/history/wwii
 | Issue | File | Priority |
 |-------|------|----------|
 | Portal node counts are hardcoded | `data/global/nodes.json` | Medium |
-| `world_war_two` is a duplicate of `world_war_ii` | `data/global/history/nodes.json` | Do soon |
-| `french_revolution` vs `french_revolution_history` — check if duplicate | history nodes | Low |
 | Some `SHARES_MECHANISM_WITH` edges are imprecise | edges.json files | Low |
 | Politics-scope nodes thin on mechanism edges | `data/global/politics/` | Medium |
 | `augusto_caesar` ID should probably be `augustus_caesar` | history nodes | Low |
+| ~~`world_war_two` duplicate~~ | ~~fixed Session 4~~ | ✓ Done |
+| ~~`french_revolution_history` orphan~~ | ~~fixed Session 4~~ | ✓ Done |
 
 ---
 
@@ -267,3 +241,4 @@ Data model supports nested scopes (`children: {}`). Future: `global/history/wwii
 | Session 1 | 10 historical topic clusters (Japan, Rome, Spain, China, Ireland, Haiti, etc.); person nodes expanded to 94; HANDOFF.md created |
 | Session 2 | Graph renderer fix (edge filter prevents node scatter); MLK duplicate merged; +70 person nodes (183 total); edge type sidebar expanded to individual types |
 | Session 3 | Economics scope wired in (portal + scope-manager); +50 history nodes across Pre-Columbian Americas, 2020s, Africa, South Asia, China; +320 edges total |
+| Session 4 | Duplicate cleanup (world_war_two merged, french_revolution_history deleted); +83 history nodes across all 8 content priorities; +10 economics nodes; person nodes grew 183→214; total nodes ~794→~885; total edges ~2851→~3084 |

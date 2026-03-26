@@ -10590,5 +10590,824 @@
     "source": "porfirio_diaz",
     "target": "primitive_accumulation",
     "relation": "CAUSED"
+  },
+  {
+    "id": "haudenosaunee_confederacy__structural_violence",
+    "source": "haudenosaunee_confederacy",
+    "target": "structural_violence",
+    "type": "FORCED_INTO",
+    "label": "sovereign nation destroyed by colonial state violence",
+    "note": "The Confederacy was systematically dismantled through treaty violations, forced removal, and military force.",
+    "confidence": "high"
+  },
+  {
+    "id": "haudenosaunee_confederacy__historical_revisionism",
+    "source": "haudenosaunee_confederacy",
+    "target": "historical_revisionism",
+    "type": "PRODUCED",
+    "label": "influence on U.S. Constitution erased from mainstream narrative",
+    "note": "The Haudenosaunee influence on democratic ideals was systematically downplayed in U.S. founding mythology.",
+    "confidence": "medium"
+  },
+  {
+    "id": "trail_of_tears__dehumanization",
+    "source": "trail_of_tears",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "removal required portraying Native peoples as subhuman",
+    "note": "The political and public justification for Indian removal depended on depicting Native peoples as savages or children incapable of self-governance.",
+    "confidence": "high"
+  },
+  {
+    "id": "trail_of_tears__structural_violence",
+    "source": "trail_of_tears",
+    "target": "structural_violence",
+    "type": "ENABLED",
+    "label": "state violence institutionalized in federal policy",
+    "note": "The Indian Removal Act converted genocidal displacement into official federal policy, institutionalizing structural violence against Native peoples.",
+    "confidence": "high"
+  },
+  {
+    "id": "indian_boarding_schools__dehumanization",
+    "source": "indian_boarding_schools",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "erasing indigenous identity normalized as benevolence",
+    "note": "Boarding schools operated under the ideology that Native culture was inferior and erasure was a kindness.",
+    "confidence": "high"
+  },
+  {
+    "id": "indian_boarding_schools__structural_violence",
+    "source": "indian_boarding_schools",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "generational trauma perpetuated by state institutions",
+    "note": "Boarding school trauma cascaded through generations, with outcomes documented in elevated rates of addiction, suicide, and poverty on reservations.",
+    "confidence": "high"
+  },
+  {
+    "id": "indian_boarding_schools__historical_revisionism",
+    "source": "indian_boarding_schools",
+    "target": "historical_revisionism",
+    "type": "PRODUCED",
+    "label": "framed as education, erasing genocidal intent",
+    "note": "Boarding school policy was framed as uplift and civilization, erasing the explicit goal of cultural destruction.",
+    "confidence": "high"
+  },
+  {
+    "id": "wounded_knee_massacre_1890__structural_violence",
+    "source": "wounded_knee_massacre_1890",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "state military force against civilian population",
+    "note": "The massacre was carried out by the 7th Cavalry against unarmed Lakota men, women, and children \u2014 structural violence at its most direct.",
+    "confidence": "high"
+  },
+  {
+    "id": "wounded_knee_massacre_1890__dehumanization",
+    "source": "wounded_knee_massacre_1890",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "perpetrators framed Lakota as existential threat",
+    "note": "Ghost Dance participants were framed as dangerous insurgents justifying lethal military response.",
+    "confidence": "high"
+  },
+  {
+    "id": "american_indian_movement__manufactured_consent",
+    "source": "american_indian_movement",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "media portrayed AIM as violent extremists",
+    "note": "Mainstream media consistently framed AIM as violent militants rather than treaty-rights activists, controlling public perception.",
+    "confidence": "high"
+  },
+  {
+    "id": "standing_rock_protests__resource_extraction",
+    "source": "standing_rock_protests",
+    "target": "resource_extraction",
+    "type": "PRODUCED",
+    "label": "pipeline enabled resource extraction across sovereign land",
+    "note": "The Dakota Access Pipeline exemplified the pattern of resource extraction projects overriding indigenous land rights.",
+    "confidence": "high"
+  },
+  {
+    "id": "standing_rock_protests__structural_violence",
+    "source": "standing_rock_protests",
+    "target": "structural_violence",
+    "type": "ENABLED",
+    "label": "militarized police response to peaceful protest",
+    "note": "State and federal response used militarized police, water cannons, and mass arrests against predominantly peaceful water protectors.",
+    "confidence": "high"
+  },
+  {
+    "id": "treaty_of_fort_laramie__resource_extraction",
+    "source": "treaty_of_fort_laramie",
+    "target": "resource_extraction",
+    "type": "PRODUCED",
+    "label": "gold discovery overrode treaty; established extractive precedent",
+    "note": "Discovery of gold in the Black Hills led the U.S. to violate the treaty, establishing that resource extraction takes precedence over Native sovereignty.",
+    "confidence": "high"
+  },
+  {
+    "id": "treaty_of_fort_laramie__broken_epistemology",
+    "source": "treaty_of_fort_laramie",
+    "target": "broken_epistemology",
+    "type": "PRODUCED",
+    "label": "repeated treaty violations normalized bad faith negotiation",
+    "note": "The U.S. signed and violated over 500 treaties with Native peoples, creating a systematic pattern where agreements were made to be broken.",
+    "confidence": "high"
+  },
+  {
+    "id": "sitting_bull__structural_violence",
+    "source": "sitting_bull",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "resisted and was ultimately destroyed by colonial state power",
+    "note": "Sitting Bull's life and assassination exemplify how the colonial state used structural violence to eliminate indigenous leadership.",
+    "confidence": "high"
+  },
+  {
+    "id": "leonard_peltier__manufactured_consent",
+    "source": "leonard_peltier",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "case relied on media framing of AIM as dangerous",
+    "note": "Peltier's conviction rested partly on a climate of public opinion shaped by FBI and media framing of AIM as violent extremists.",
+    "confidence": "medium"
+  },
+  {
+    "id": "vine_deloria_jr__historical_revisionism",
+    "source": "vine_deloria_jr",
+    "target": "historical_revisionism",
+    "type": "DISCREDITED",
+    "label": "exposed and challenged the myths of American history",
+    "note": "Deloria's work systematically dismantled the historical revisionism that portrayed Native peoples as savages and settlers as civilizers.",
+    "confidence": "high"
+  },
+  {
+    "id": "vine_deloria_jr__broken_epistemology",
+    "source": "vine_deloria_jr",
+    "target": "broken_epistemology",
+    "type": "DISCREDITED",
+    "label": "challenged Western frameworks for understanding indigenous history",
+    "note": "Deloria's critiques of anthropology and Western historiography exposed how broken epistemological frameworks produced distorted accounts of Native peoples.",
+    "confidence": "high"
+  },
+  {
+    "id": "kingdom_of_axum__structural_violence",
+    "source": "kingdom_of_axum",
+    "target": "structural_violence",
+    "type": "FORCED_INTO",
+    "label": "civilization dismantled by repeated invasions",
+    "note": "Axum was eventually dismantled by Persian, then Islamic expansion \u2014 an advanced civilization reduced by sustained military pressure.",
+    "confidence": "medium"
+  },
+  {
+    "id": "swahili_coast_trade__imperialism",
+    "source": "swahili_coast_trade",
+    "target": "imperialism",
+    "type": "PRODUCED",
+    "label": "Portuguese disruption inaugurated Indian Ocean imperialism",
+    "note": "Vasco da Gama's arrival in 1498 began the violent Portuguese takeover of Swahili city-states, inaugurating European imperialism in the Indian Ocean.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_zimbabwe__historical_revisionism",
+    "source": "great_zimbabwe",
+    "target": "historical_revisionism",
+    "type": "PRODUCED",
+    "label": "white settlers denied African authorship for a century",
+    "note": "Rhodesian colonizers actively suppressed archaeological evidence of African authorship, attributing it to Phoenicians, Arabs, or mythical civilizations.",
+    "confidence": "high"
+  },
+  {
+    "id": "kingdom_of_kongo__imperialism",
+    "source": "kingdom_of_kongo",
+    "target": "imperialism",
+    "type": "PRODUCED",
+    "label": "European trade relations transformed into extraction",
+    "note": "Portuguese diplomatic engagement with Kongo gradually turned into economic imperialism and the systematic extraction of enslaved people.",
+    "confidence": "high"
+  },
+  {
+    "id": "benin_kingdom__imperialism",
+    "source": "benin_kingdom",
+    "target": "imperialism",
+    "type": "FORCED_INTO",
+    "label": "British destroyed kingdom in punitive expedition",
+    "note": "The British 'Punitive Expedition' of 1897 destroyed Benin City, looted its art, and ended the kingdom's independence as a case study in imperial violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "benin_kingdom__historical_revisionism",
+    "source": "benin_kingdom",
+    "target": "historical_revisionism",
+    "type": "PRODUCED",
+    "label": "Benin Bronzes framed as products of non-African civilization",
+    "note": "European museums that hold stolen Benin Bronzes long promoted the claim that such sophisticated art must have had non-African origins.",
+    "confidence": "high"
+  },
+  {
+    "id": "maji_maji_rebellion__structural_violence",
+    "source": "maji_maji_rebellion",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "German scorched-earth famine killed hundreds of thousands",
+    "note": "German colonial forces deliberately destroyed food supplies to suppress the rebellion, killing far more through famine than through combat.",
+    "confidence": "high"
+  },
+  {
+    "id": "maji_maji_rebellion__dehumanization",
+    "source": "maji_maji_rebellion",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "colonial framing cast rebel leaders as primitive fanatics",
+    "note": "The spiritual dimension of the movement (maji = 'water' believed to repel bullets) was used to portray rebels as primitive, justifying brutal suppression.",
+    "confidence": "high"
+  },
+  {
+    "id": "haile_selassie__imperialism",
+    "source": "haile_selassie",
+    "target": "imperialism",
+    "type": "PRODUCED",
+    "label": "Italian invasion demonstrated fascist imperialism in Africa",
+    "note": "Mussolini's invasion of Ethiopia in 1935\u201336 was one of the last examples of direct European colonial conquest on the continent.",
+    "confidence": "high"
+  },
+  {
+    "id": "julius_nyerere__resource_extraction",
+    "source": "julius_nyerere",
+    "target": "resource_extraction",
+    "type": "DISCREDITED",
+    "label": "Ujamaa challenged Western economic extraction models",
+    "note": "Nyerere's Ujamaa socialism attempted to build African self-reliance against the extractive economic model imposed by colonialism.",
+    "confidence": "medium"
+  },
+  {
+    "id": "jomo_kenyatta__structural_violence",
+    "source": "jomo_kenyatta",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "post-independence land policy perpetuated colonial inequalities",
+    "note": "Despite leading independence, Kenyatta preserved colonial land structures that concentrated ownership among elites, perpetuating structural violence.",
+    "confidence": "medium"
+  },
+  {
+    "id": "boxer_rebellion__imperialism",
+    "source": "boxer_rebellion",
+    "target": "imperialism",
+    "type": "PRODUCED",
+    "label": "defeated rebellion deepened foreign control of China",
+    "note": "The Boxer Protocol imposed unprecedented foreign military rights on Chinese soil, deepening imperial subordination.",
+    "confidence": "high"
+  },
+  {
+    "id": "boxer_rebellion__in_group_out_group_dynamics",
+    "source": "boxer_rebellion",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Chinese nationalist violence against foreigners and Christians",
+    "note": "The Boxers specifically targeted Chinese Christians and foreigners, exemplifying violent in-group/out-group dynamics.",
+    "confidence": "high"
+  },
+  {
+    "id": "hong_xiuquan__cult_dynamics",
+    "source": "hong_xiuquan",
+    "target": "cult_dynamics",
+    "type": "PRODUCED",
+    "label": "claimed to be Jesus's brother, demanded absolute obedience",
+    "note": "Hong Xiuquan's messianic claims and demand for absolute theological obedience exemplify cult dynamics at mass scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "empress_dowager_cixi__historical_revisionism",
+    "source": "empress_dowager_cixi",
+    "target": "historical_revisionism",
+    "type": "PRODUCED",
+    "label": "suppressed Hundred Days Reform and reformers' memory",
+    "note": "Cixi's crackdown on the 1898 reform movement and execution of reformers erased reform efforts from official history.",
+    "confidence": "high"
+  },
+  {
+    "id": "tiananmen_square_massacre__manufactured_consent",
+    "source": "tiananmen_square_massacre",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "total censorship of the event within China",
+    "note": "The CCP's complete erasure of the massacre from Chinese public memory is one of history's most thorough examples of manufactured consent.",
+    "confidence": "high"
+  },
+  {
+    "id": "tiananmen_square_massacre__structural_violence",
+    "source": "tiananmen_square_massacre",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "state used military force against civilian protest",
+    "note": "The deployment of tanks and armed soldiers against student demonstrators represents direct state structural violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "chinese_exclusion_act_1882__dehumanization",
+    "source": "chinese_exclusion_act_1882",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "racial law required portraying Chinese as unassimilable",
+    "note": "The Act was justified by portraying Chinese people as racially incompatible with American democracy, institutionalizing racial dehumanization in law.",
+    "confidence": "high"
+  },
+  {
+    "id": "chinese_exclusion_act_1882__systemic_racism",
+    "source": "chinese_exclusion_act_1882",
+    "target": "systemic_racism",
+    "type": "PRODUCED",
+    "label": "first U.S. law explicitly targeting a race",
+    "note": "The Chinese Exclusion Act established the legal precedent that race could determine immigration eligibility, a pillar of systemic racism.",
+    "confidence": "high"
+  },
+  {
+    "id": "yuan_dynasty__imperialism",
+    "source": "yuan_dynasty",
+    "target": "imperialism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Mongol rule imposed ethnic hierarchy similar to colonialism",
+    "note": "Yuan dynasty's four-tier ethnic hierarchy (Mongols > Central Asians > Northern Chinese > Southern Chinese) mirrors colonial racial hierarchies.",
+    "confidence": "medium"
+  },
+  {
+    "id": "partition_of_bengal_1905__in_group_out_group_dynamics",
+    "source": "partition_of_bengal_1905",
+    "target": "in_group_out_group_dynamics",
+    "type": "PRODUCED",
+    "label": "deliberately inflamed Hindu-Muslim division",
+    "note": "Curzon's partition was explicitly designed to separate Hindu and Muslim Bengal, manufacturing religious community conflict.",
+    "confidence": "high"
+  },
+  {
+    "id": "amritsar_massacre_1919__dehumanization",
+    "source": "amritsar_massacre_1919",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "Dyer required framing Indians as collective threat",
+    "note": "General Dyer's willingness to fire without warning required viewing the crowd as collectively threatening rather than as individuals.",
+    "confidence": "high"
+  },
+  {
+    "id": "amritsar_massacre_1919__structural_violence",
+    "source": "amritsar_massacre_1919",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "colonial military used against civilian population",
+    "note": "Dyer's action represents the colonial state using structural violence against civilians to enforce submission.",
+    "confidence": "high"
+  },
+  {
+    "id": "bhimrao_ambedkar__structural_violence",
+    "source": "bhimrao_ambedkar",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "exposed caste system as institutionalized structural violence",
+    "note": "Ambedkar's constitutional work made caste discrimination illegal \u2014 naming and attempting to dismantle 3,000 years of structural violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "bhimrao_ambedkar__class_consciousness",
+    "source": "bhimrao_ambedkar",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "built Dalit political consciousness as class movement",
+    "note": "Ambedkar articulated caste oppression in terms of political class interest, mobilizing Dalits as a political bloc.",
+    "confidence": "high"
+  },
+  {
+    "id": "maratha_empire__imperialism",
+    "source": "maratha_empire",
+    "target": "imperialism",
+    "type": "PRODUCED",
+    "label": "Maratha defeat removed last obstacle to British imperialism",
+    "note": "British victory in the Third Anglo-Maratha War (1818) completed the British conquest of India, enabling full imperial dominance.",
+    "confidence": "high"
+  },
+  {
+    "id": "sikh_empire__imperialism",
+    "source": "sikh_empire",
+    "target": "imperialism",
+    "type": "PRODUCED",
+    "label": "Sikh defeat ended last independent Indian power",
+    "note": "British annexation of Punjab after the Anglo-Sikh Wars (1845\u201349) gave Britain control over the entire subcontinent.",
+    "confidence": "high"
+  },
+  {
+    "id": "shivaji_maharaj__in_group_out_group_dynamics",
+    "source": "shivaji_maharaj",
+    "target": "in_group_out_group_dynamics",
+    "type": "PRODUCED",
+    "label": "Maratha identity constructed against Mughal 'other'",
+    "note": "Shivaji's movement relied on constructing a Hindu Maratha identity in opposition to Muslim Mughal rule, an early form of religiously-coded in-group/out-group nationalism.",
+    "confidence": "medium"
+  },
+  {
+    "id": "encomienda_system__resource_extraction",
+    "source": "encomienda_system",
+    "target": "resource_extraction",
+    "type": "PRODUCED",
+    "label": "institutionalized extraction of indigenous labor and land",
+    "note": "The encomienda was the template for colonial resource extraction \u2014 labor forced, land seized, wealth funneled to Spain.",
+    "confidence": "high"
+  },
+  {
+    "id": "encomienda_system__dehumanization",
+    "source": "encomienda_system",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "system required viewing indigenous people as chattel",
+    "note": "The encomienda's logic required dehumanizing indigenous people to justify treating them as productive assets rather than persons.",
+    "confidence": "high"
+  },
+  {
+    "id": "encomienda_system__structural_violence",
+    "source": "encomienda_system",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "state-sanctioned system of forced labor and violence",
+    "note": "The encomienda was structural violence institutionalized \u2014 violence built into law and daily practice.",
+    "confidence": "high"
+  },
+  {
+    "id": "potosi_silver_mines__resource_extraction",
+    "source": "potosi_silver_mines",
+    "target": "resource_extraction",
+    "type": "PRODUCED",
+    "label": "extracted silver funded European capitalism while killing millions",
+    "note": "Potos\u00ed's silver was the engine of Spanish empire and early European capitalism \u2014 produced through the deaths of 8 million workers.",
+    "confidence": "high"
+  },
+  {
+    "id": "potosi_silver_mines__structural_violence",
+    "source": "potosi_silver_mines",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "mita system was state-mandated lethal labor",
+    "note": "The mita draft forcing indigenous men to work in silver mines under lethal conditions was structural violence codified in colonial law.",
+    "confidence": "high"
+  },
+  {
+    "id": "maya_codex_burning__historical_revisionism",
+    "source": "maya_codex_burning",
+    "target": "historical_revisionism",
+    "type": "PRODUCED",
+    "label": "destroyed primary sources; colonial narrative filled the void",
+    "note": "Without the codices, colonial Spanish accounts became the dominant (and deeply biased) source on Maya civilization.",
+    "confidence": "high"
+  },
+  {
+    "id": "maya_codex_burning__dehumanization",
+    "source": "maya_codex_burning",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "framing Maya religion as devil worship justified destruction",
+    "note": "De Landa's justification required portraying Maya spiritual life as demonic, dehumanizing Maya religious practice.",
+    "confidence": "high"
+  },
+  {
+    "id": "bartolome_de_las_casas__dehumanization",
+    "source": "bartolome_de_las_casas",
+    "target": "dehumanization",
+    "type": "DISCREDITED",
+    "label": "argued indigenous people had souls and full humanity",
+    "note": "Las Casas's central argument was that indigenous people were fully human with immortal souls \u2014 directly countering the dehumanization used to justify their exploitation.",
+    "confidence": "high"
+  },
+  {
+    "id": "tlaxcalan_alliance__in_group_out_group_dynamics",
+    "source": "tlaxcalan_alliance",
+    "target": "in_group_out_group_dynamics",
+    "type": "PRODUCED",
+    "label": "indigenous peoples' divisions exploited by conquistadors",
+    "note": "Spanish conquest succeeded partly by exploiting existing indigenous conflicts \u2014 in-group/out-group dynamics between Aztec tributaries and the Aztec empire.",
+    "confidence": "high"
+  },
+  {
+    "id": "cahokia__historical_revisionism",
+    "source": "cahokia",
+    "target": "historical_revisionism",
+    "type": "PRODUCED",
+    "label": "pre-Columbian North American civilization systematically erased",
+    "note": "Cahokia's scale and sophistication contradicted narratives of pre-Columbian North America as populated by primitive nomads; its history was largely ignored for centuries.",
+    "confidence": "high"
+  },
+  {
+    "id": "ottoman_debt_crisis__imperialism",
+    "source": "ottoman_debt_crisis",
+    "target": "imperialism",
+    "type": "PRODUCED",
+    "label": "debt default led to European financial colonialism",
+    "note": "The Ottoman Debt Administration was financial colonialism without formal annexation \u2014 a model repeated across the Global South in the 20th century.",
+    "confidence": "high"
+  },
+  {
+    "id": "young_turks_movement__dehumanization",
+    "source": "young_turks_movement",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "framed Armenians as existential threat requiring elimination",
+    "note": "Young Turk ideology portrayed Armenians as a fifth column undermining Turkish survival \u2014 dehumanization as precondition for genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "young_turks_movement__democratic_backsliding",
+    "source": "young_turks_movement",
+    "target": "democratic_backsliding",
+    "type": "PRODUCED",
+    "label": "constitutional revolution became single-party authoritarian rule",
+    "note": "The Young Turks' 1908 constitutional revolution quickly backslid into the CUP's authoritarian single-party state by 1913.",
+    "confidence": "high"
+  },
+  {
+    "id": "talaat_pasha__structural_violence",
+    "source": "talaat_pasha",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "organized state apparatus for mass killing",
+    "note": "Talaat used the state's entire coercive apparatus \u2014 gendarmerie, irregular forces, deportation bureaucracy \u2014 to execute the genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "balkan_wars_1912__in_group_out_group_dynamics",
+    "source": "balkan_wars_1912",
+    "target": "in_group_out_group_dynamics",
+    "type": "PRODUCED",
+    "label": "territorial loss radicalized Turkish nationalist identity",
+    "note": "The loss of European territories to Christian Balkan nations cemented an Islamic-Turkish in-group identity opposed to Christian minorities.",
+    "confidence": "high"
+  },
+  {
+    "id": "tanzimat_reforms__historical_revisionism",
+    "source": "tanzimat_reforms",
+    "target": "historical_revisionism",
+    "type": "PRODUCED",
+    "label": "Tanzimat reframed Ottoman identity around Turkish nationalism",
+    "note": "The nationalism embedded in Tanzimat reforms constructed a retrospective Turkish national identity, erasing the multi-ethnic Ottoman past.",
+    "confidence": "medium"
+  },
+  {
+    "id": "black_lives_matter__systemic_racism",
+    "source": "black_lives_matter",
+    "target": "systemic_racism",
+    "type": "DISCREDITED",
+    "label": "movement named and challenged systemic racism in policing",
+    "note": "BLM specifically articulated the argument that police brutality is not individual bad actors but a systemic feature of racist institutions.",
+    "confidence": "high"
+  },
+  {
+    "id": "ferguson_protests_2014__structural_violence",
+    "source": "ferguson_protests_2014",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "militarized police response to protest demonstrated state violence",
+    "note": "Ferguson police response (armored vehicles, militarized equipment against civilians) made visible the structural violence underlying law enforcement.",
+    "confidence": "high"
+  },
+  {
+    "id": "surveillance_state_china__surveillance_capitalism",
+    "source": "surveillance_state_china",
+    "target": "surveillance_capitalism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both extract behavioral data to predict and control",
+    "note": "China's state surveillance and Western surveillance capitalism both extract behavioral data at scale to predict and manipulate \u2014 different political systems, same epistemic structure.",
+    "confidence": "high"
+  },
+  {
+    "id": "ai_large_language_models__manufactured_consent",
+    "source": "ai_large_language_models",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "label": "LLMs enable industrial-scale synthetic propaganda",
+    "note": "Large language models can generate persuasive disinformation at industrial scale, dramatically lowering the cost of manufacturing consent.",
+    "confidence": "high"
+  },
+  {
+    "id": "covid_vaccine_hesitancy__manufactured_consent",
+    "source": "covid_vaccine_hesitancy",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "information warfare manufactured distrust of public health",
+    "note": "Vaccine hesitancy was actively manufactured through coordinated disinformation campaigns that exploited social media algorithms.",
+    "confidence": "high"
+  },
+  {
+    "id": "edward_bernays__manufactured_consent",
+    "source": "edward_bernays",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "invented the PR techniques that manufacture consent",
+    "note": "Bernays explicitly theorized and practiced manipulation of public opinion through emotional appeals, creating the foundation for modern propaganda.",
+    "confidence": "high"
+  },
+  {
+    "id": "j_edgar_hoover__surveillance_capitalism",
+    "source": "j_edgar_hoover",
+    "target": "surveillance_capitalism",
+    "type": "ENABLED",
+    "label": "normalized mass surveillance of civilians as security",
+    "note": "Hoover's FBI normalized domestic surveillance as a legitimate security tool, creating the political and legal precedent for subsequent mass surveillance.",
+    "confidence": "medium"
+  },
+  {
+    "id": "j_edgar_hoover__structural_violence",
+    "source": "j_edgar_hoover",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "used state apparatus to destroy political opposition",
+    "note": "COINTELPRO used the FBI's legal power to harass, incarcerate, and kill political dissidents \u2014 structural violence deployed as a political weapon.",
+    "confidence": "high"
+  },
+  {
+    "id": "henry_kissinger__structural_violence",
+    "source": "henry_kissinger",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "orchestrated state violence against civilians across multiple countries",
+    "note": "Kissinger's policies directly produced mass civilian death: secret bombing of Cambodia, Chilean coup torture apparatus, Indonesian invasion of East Timor.",
+    "confidence": "high"
+  },
+  {
+    "id": "angela_davis__structural_violence",
+    "source": "angela_davis",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "theorized prison-industrial complex as structural violence",
+    "note": "Davis's academic and activist work articulated the prison system as institutionalized structural violence against Black and poor communities.",
+    "confidence": "high"
+  },
+  {
+    "id": "fred_hampton__structural_violence",
+    "source": "fred_hampton",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "his assassination was state structural violence against dissent",
+    "note": "Hampton's killing by police acting on FBI intelligence exemplifies state structural violence targeting radical political organizing.",
+    "confidence": "high"
+  },
+  {
+    "id": "xi_jinping__democratic_backsliding",
+    "source": "xi_jinping",
+    "target": "democratic_backsliding",
+    "type": "PRODUCED",
+    "label": "abolished term limits, consolidated single-person rule",
+    "note": "Xi's 2018 removal of presidential term limits marked the definitive end of the collective leadership model and consolidated one-man rule.",
+    "confidence": "high"
+  },
+  {
+    "id": "myanmar_coup_2021__democratic_backsliding",
+    "source": "myanmar_coup_2021",
+    "target": "democratic_backsliding",
+    "type": "PRODUCED",
+    "label": "reversed 10 years of democratic transition in one day",
+    "note": "Myanmar's coup demonstrated how quickly military institutions can reverse democratic transitions, returning to authoritarian rule in hours.",
+    "confidence": "high"
+  },
+  {
+    "id": "january_6_capitol_riot__democratic_backsliding",
+    "source": "january_6_capitol_riot",
+    "target": "democratic_backsliding",
+    "type": "PRODUCED",
+    "label": "violent attempt to overturn democratic election results",
+    "note": "Jan 6 represents the U.S. experience of democratic backsliding \u2014 the first violent interruption of the peaceful transfer of power in American history.",
+    "confidence": "high"
+  },
+  {
+    "id": "feudal_system__structural_violence",
+    "source": "feudal_system",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "institutionalized extraction of peasant labor through threat of force",
+    "note": "Serfdom was structural violence \u2014 labor extracted through legal obligation backed by the threat of physical violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "feudal_system__class_consciousness",
+    "source": "feudal_system",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "feudal hierarchy made class positions explicit and heritable",
+    "note": "The feudal system's explicit class stratification and heritable status created conditions where class interest could be collectively recognized.",
+    "confidence": "high"
+  },
+  {
+    "id": "peasants_revolt_1381__class_consciousness",
+    "source": "peasants_revolt_1381",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "first major collective assertion of peasant class interest",
+    "note": "The Peasants' Revolt was one of the first collective political actions explicitly asserting the rights of the laboring class against the owning class.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_death_social_impact__scapegoating",
+    "source": "black_death_social_impact",
+    "target": "scapegoating",
+    "type": "PRODUCED",
+    "label": "Jews blamed and massacred across Europe during the plague",
+    "note": "Jews were systematically scapegoated for the Black Death \u2014 accused of poisoning wells. Pogroms swept the Rhine valley and across Europe.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_death_social_impact__structural_violence",
+    "source": "black_death_social_impact",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "post-plague pogroms were state-sanctioned violence against Jews",
+    "note": "The massacres of Jewish communities during the plague were often carried out or tolerated by local authorities.",
+    "confidence": "high"
+  },
+  {
+    "id": "crusades__in_group_out_group_dynamics",
+    "source": "crusades",
+    "target": "in_group_out_group_dynamics",
+    "type": "PRODUCED",
+    "label": "defined Christian vs. Muslim identity in existential conflict",
+    "note": "The Crusades crystallized Christian-Muslim in-group/out-group identity in ways that echo through contemporary geopolitics.",
+    "confidence": "high"
+  },
+  {
+    "id": "crusades__dehumanization",
+    "source": "crusades",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "framed Muslims as enemies of God requiring destruction",
+    "note": "Crusade ideology required portraying Muslims (and heretics) as enemies of God, dehumanizing them sufficiently to justify massacre.",
+    "confidence": "high"
+  },
+  {
+    "id": "hanseatic_league__resource_extraction",
+    "source": "hanseatic_league",
+    "target": "resource_extraction",
+    "type": "ENABLED",
+    "label": "merchant capitalism built extraction logic into commercial law",
+    "note": "The Hanseatic League's commercial practices embedded the logic of extracting profit from trade relationships \u2014 the foundation of the capitalism that would later drive colonialism.",
+    "confidence": "medium"
+  },
+  {
+    "id": "thomas_becket__church_state_entanglement",
+    "source": "thomas_becket",
+    "target": "church_state_entanglement",
+    "type": "PRODUCED",
+    "label": "assassination epitomized church-state power conflict",
+    "note": "Becket's murder by royal agents represents the violent peak of church-state entanglement \u2014 when religious and political authority are fused, disputes become lethal.",
+    "confidence": "high"
+  },
+  {
+    "id": "glass_steagall_repeal_1999__regulatory_capture",
+    "source": "glass_steagall_repeal_1999",
+    "target": "regulatory_capture",
+    "type": "PRODUCED",
+    "label": "repeal was achieved through financial industry lobbying",
+    "note": "The Glass-Steagall repeal is a canonical example of regulatory capture \u2014 financial industry systematically captured the regulatory process.",
+    "confidence": "high"
+  },
+  {
+    "id": "offshore_tax_havens__propaganda",
+    "source": "offshore_tax_havens",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "framed as normal business while devastating public revenues",
+    "note": "Tax haven apologists use PR and lobbying to frame offshore tax evasion as legitimate business, masking its structural role in inequality.",
+    "confidence": "medium"
+  },
+  {
+    "id": "student_debt_crisis__broken_epistemology",
+    "source": "student_debt_crisis",
+    "target": "broken_epistemology",
+    "type": "PRODUCED",
+    "label": "debt marketed through false promise of wage premium",
+    "note": "The student debt crisis was sustained by the ideological fiction that any degree at any price will pay off economically.",
+    "confidence": "medium"
+  },
+  {
+    "id": "federal_reserve_creation_1913__resource_extraction",
+    "source": "federal_reserve_creation_1913",
+    "target": "resource_extraction",
+    "type": "ENABLED",
+    "label": "enabled systematic extraction through monetary policy",
+    "note": "Central bank capacity to adjust interest rates and credit availability became a mechanism for extracting wealth from debtors to creditors.",
+    "confidence": "medium"
+  },
+  {
+    "id": "gig_economy__surveillance_capitalism",
+    "source": "gig_economy",
+    "target": "surveillance_capitalism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both extract value from data while obscuring the relationship",
+    "note": "Gig platforms use surveillance of worker behavior (ratings, location, response time) to extract labor while claiming no employment relationship.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_depression__federal_reserve_creation_1913",
+    "source": "great_depression",
+    "target": "federal_reserve_creation_1913",
+    "type": "DISCREDITED",
+    "label": "Great Depression exposed Fed's failure to prevent catastrophe",
+    "note": "The Fed's inability to prevent or mitigate the Depression led to fundamental re-examination of its mandate and tools.",
+    "confidence": "high"
   }
 ]

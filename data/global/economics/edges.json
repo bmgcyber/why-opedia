@@ -562,5 +562,221 @@
     "source": "financialization",
     "target": "income_inequality",
     "relation": "CAUSED"
+  },
+  {
+    "id": "bretton_woods_agreement_1944__bretton_woods_collapse",
+    "source": "bretton_woods_agreement_1944",
+    "target": "bretton_woods_collapse",
+    "type": "CAUSED",
+    "label": "1944 agreement created system that collapsed in 1971",
+    "note": "The Bretton Woods Agreement established the gold-dollar peg that Nixon abandoned in 1971, triggering financialization.",
+    "confidence": "high"
+  },
+  {
+    "id": "bretton_woods_agreement_1944__imf_structural_adjustment",
+    "source": "bretton_woods_agreement_1944",
+    "target": "imf_structural_adjustment",
+    "type": "CAUSED",
+    "label": "created the IMF that later imposed structural adjustment",
+    "note": "The IMF created at Bretton Woods later became the instrument for imposing structural adjustment conditions on developing nations.",
+    "confidence": "high"
+  },
+  {
+    "id": "federal_reserve_creation_1913__great_depression_economics",
+    "source": "federal_reserve_creation_1913",
+    "target": "great_depression_economics",
+    "type": "CAUSED",
+    "label": "Fed's contractionary policy worsened the Depression",
+    "note": "The Federal Reserve tightened the money supply in 1929\u201332, transforming a recession into the Great Depression \u2014 a catastrophic policy error.",
+    "confidence": "high"
+  },
+  {
+    "id": "glass_steagall_repeal_1999__financial_crisis_2008",
+    "source": "glass_steagall_repeal_1999",
+    "target": "financial_crisis_2008",
+    "type": "CAUSED",
+    "label": "repeal enabled the risky banking that crashed in 2008",
+    "note": "Glass-Steagall repeal allowed banks to become 'too big to fail' and to create the mortgage-backed securities that triggered the 2008 crisis.",
+    "confidence": "high"
+  },
+  {
+    "id": "glass_steagall_repeal_1999__financialization",
+    "source": "glass_steagall_repeal_1999",
+    "target": "financialization",
+    "type": "ENABLED",
+    "label": "bank merger with investment firms accelerated financialization",
+    "note": "Allowing commercial banks to engage in investment banking accelerated the shift from productive to financial capitalism.",
+    "confidence": "high"
+  },
+  {
+    "id": "housing_bubble_2008__financial_crisis_2008",
+    "source": "housing_bubble_2008",
+    "target": "financial_crisis_2008",
+    "type": "CAUSED",
+    "label": "bubble collapse triggered global financial crisis",
+    "note": "The collapse of the U.S. housing bubble in 2007\u201308 triggered the global financial crisis through interconnected mortgage securities.",
+    "confidence": "high"
+  },
+  {
+    "id": "housing_bubble_2008__wealth_concentration",
+    "source": "housing_bubble_2008",
+    "target": "wealth_concentration",
+    "type": "PRODUCED",
+    "label": "crash disproportionately destroyed minority wealth",
+    "note": "Black and Hispanic homeowners were disproportionately targeted by predatory lending and suffered greater wealth loss in the crash.",
+    "confidence": "high"
+  },
+  {
+    "id": "nafta_1994__wage_suppression",
+    "source": "nafta_1994",
+    "target": "wage_suppression",
+    "type": "ENABLED",
+    "label": "offshoring threat suppressed wages in manufacturing",
+    "note": "The credible threat to move production to Mexico gave U.S. employers leverage to suppress wages and resist unions.",
+    "confidence": "high"
+  },
+  {
+    "id": "nafta_1994__race_to_the_bottom",
+    "source": "nafta_1994",
+    "target": "race_to_the_bottom",
+    "type": "PRODUCED",
+    "label": "enabled race to the bottom in labor and environmental standards",
+    "note": "NAFTA created regulatory competition between U.S., Mexico, and Canada that pressured all three to lower labor and environmental standards.",
+    "confidence": "high"
+  },
+  {
+    "id": "wto_formation_1995__nafta_1994",
+    "source": "wto_formation_1995",
+    "target": "nafta_1994",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both imposed neoliberal trade logic globally",
+    "note": "NAFTA and the WTO embodied the same Washington Consensus free-trade ideology applied at different scales.",
+    "confidence": "high"
+  },
+  {
+    "id": "wto_formation_1995__race_to_the_bottom",
+    "source": "wto_formation_1995",
+    "target": "race_to_the_bottom",
+    "type": "ENABLED",
+    "label": "WTO rules prevented regulation of corporate behavior",
+    "note": "WTO dispute mechanisms allowed corporations to challenge national regulations as 'barriers to trade', enabling regulatory race to the bottom.",
+    "confidence": "high"
+  },
+  {
+    "id": "quantitative_easing__wealth_concentration",
+    "source": "quantitative_easing",
+    "target": "wealth_concentration",
+    "type": "PRODUCED",
+    "label": "QE inflated asset prices benefiting only asset owners",
+    "note": "QE's primary mechanism (raising asset prices) disproportionately benefited the wealthy who own most financial assets, worsening inequality.",
+    "confidence": "high"
+  },
+  {
+    "id": "quantitative_easing__financial_crisis_2008",
+    "source": "quantitative_easing",
+    "target": "financial_crisis_2008",
+    "type": "PRODUCED",
+    "label": "QE was the Fed's response to 2008 collapse",
+    "note": "Quantitative easing was deployed in response to the 2008 financial crisis when conventional monetary policy hit the zero lower bound.",
+    "confidence": "high"
+  },
+  {
+    "id": "gig_economy__precariat_class",
+    "source": "gig_economy",
+    "target": "precariat_class",
+    "type": "PRODUCED",
+    "label": "gig work is precariat labor at scale",
+    "note": "The gig economy is the primary contemporary mechanism producing the precariat \u2014 workers with no employment security, benefits, or collective power.",
+    "confidence": "high"
+  },
+  {
+    "id": "gig_economy__wage_suppression",
+    "source": "gig_economy",
+    "target": "wage_suppression",
+    "type": "ENABLED",
+    "label": "independent contractor classification avoids minimum wage",
+    "note": "By classifying workers as contractors, gig companies avoid minimum wage obligations and push wage risk onto workers.",
+    "confidence": "high"
+  },
+  {
+    "id": "offshore_tax_havens__wealth_concentration",
+    "source": "offshore_tax_havens",
+    "target": "wealth_concentration",
+    "type": "ENABLED",
+    "label": "tax evasion lets the wealthy accumulate without redistribution",
+    "note": "Offshore tax evasion removes trillions from public taxation, concentrating wealth while cutting government capacity to address inequality.",
+    "confidence": "high"
+  },
+  {
+    "id": "offshore_tax_havens__regulatory_capture",
+    "source": "offshore_tax_havens",
+    "target": "regulatory_capture",
+    "type": "PRODUCED",
+    "label": "lobbying kept tax havens legal despite public cost",
+    "note": "The maintenance of offshore tax havens despite massive public harm is a textbook example of regulatory capture by financial interests.",
+    "confidence": "high"
+  },
+  {
+    "id": "student_debt_crisis__income_inequality",
+    "source": "student_debt_crisis",
+    "target": "income_inequality",
+    "type": "PRODUCED",
+    "label": "debt burden suppresses wealth accumulation for young people",
+    "note": "Student debt delays homeownership, retirement saving, and family formation, locking borrowers into perpetual income disadvantage.",
+    "confidence": "high"
+  },
+  {
+    "id": "student_debt_crisis__austerity_ideology",
+    "source": "student_debt_crisis",
+    "target": "austerity_ideology",
+    "type": "PRODUCED",
+    "label": "austerity-driven state disinvestment in universities caused the crisis",
+    "note": "The student debt crisis was primarily caused by state austerity policies cutting public university funding, shifting costs to students.",
+    "confidence": "high"
+  },
+  {
+    "id": "neoliberalism__glass_steagall_repeal_1999",
+    "source": "neoliberalism",
+    "target": "glass_steagall_repeal_1999",
+    "type": "CAUSED",
+    "label": "neoliberal deregulation ideology drove repeal",
+    "note": "The repeal was a product of the neoliberal belief in market self-regulation that dominated both parties in the 1990s.",
+    "confidence": "high"
+  },
+  {
+    "id": "neoliberalism__nafta_1994",
+    "source": "neoliberalism",
+    "target": "nafta_1994",
+    "type": "CAUSED",
+    "label": "NAFTA was the Clinton administration's neoliberal trade policy",
+    "note": "NAFTA embodied the Washington Consensus neoliberal belief that free trade produces prosperity regardless of starting conditions.",
+    "confidence": "high"
+  },
+  {
+    "id": "neoliberalism__student_debt_crisis",
+    "source": "neoliberalism",
+    "target": "student_debt_crisis",
+    "type": "CAUSED",
+    "label": "neoliberal austerity defunded public universities",
+    "note": "The neoliberal shift to viewing education as a private investment rather than public good drove the disinvestment that created the student debt crisis.",
+    "confidence": "high"
+  },
+  {
+    "id": "neoliberalism__gig_economy",
+    "source": "neoliberalism",
+    "target": "gig_economy",
+    "type": "ENABLED",
+    "label": "deregulation and labor market 'flexibility' enabled gig model",
+    "note": "The gig economy depends on the deregulated labor markets and weakened worker protections that neoliberalism produced.",
+    "confidence": "high"
+  },
+  {
+    "id": "financialization__housing_bubble_2008",
+    "source": "financialization",
+    "target": "housing_bubble_2008",
+    "type": "CAUSED",
+    "label": "financial engineering turned mortgages into speculative vehicles",
+    "note": "Financialization transformed stable mortgages into complex securities that enabled and amplified the housing bubble.",
+    "confidence": "high"
   }
 ]

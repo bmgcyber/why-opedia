@@ -4279,27 +4279,6 @@
     ]
   },
   {
-    "id": "french_revolution_history",
-    "label": "French Revolution",
-    "node_type": "event",
-    "category": "event",
-    "decade": "1780s",
-    "scope": "global/history",
-    "cross_scope": false,
-    "wikipedia": "https://en.wikipedia.org/wiki/French_Revolution",
-    "summary": "Radical political and social transformation of France (1789-1799); abolished monarchy and feudalism; produced Declaration of Rights of Man; degenerated into the Terror (1793-94) with 40,000+ executions; ended with Napoleon's coup; model for subsequent revolutions.",
-    "tags": [
-      "france",
-      "revolution",
-      "liberty equality fraternity",
-      "robespierre",
-      "terror",
-      "napoleon",
-      "monarchy",
-      "enlightenment"
-    ]
-  },
-  {
     "id": "cold_war_culture",
     "label": "Cold War Culture",
     "node_type": "era",
@@ -4492,30 +4471,6 @@
       "wealth_inequality",
       "Africa",
       "Americas"
-    ]
-  },
-  {
-    "id": "world_war_two",
-    "label": "World War II",
-    "node_type": "historical_event",
-    "category": "historical_event",
-    "decade": "1940s",
-    "scope": "global/history",
-    "cross_scope": false,
-    "wikipedia": "https://en.wikipedia.org/wiki/World_War_II",
-    "summary": "Global war 1939-1945 involving most of the world's nations. Killed 70-85 million people including Holocaust, Hiroshima, and Nanjing. Led to UN founding, decolonization wave, Cold War, and fundamental reshaping of global order.",
-    "tags": [
-      "WWII",
-      "Hitler",
-      "Holocaust",
-      "Hiroshima",
-      "UN",
-      "D-Day",
-      "Pacific",
-      "Europe",
-      "genocide",
-      "nuclear",
-      "Cold_War"
     ]
   },
   {
@@ -8353,5 +8308,1655 @@
       "censorship"
     ],
     "region": "Asia"
+  },
+  {
+    "id": "haudenosaunee_confederacy",
+    "label": "Haudenosaunee Confederacy",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1400s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Iroquois",
+    "summary": "The Haudenosaunee (Iroquois) Confederacy united six nations \u2014 Mohawk, Oneida, Onondaga, Cayuga, Seneca, and Tuscarora \u2014 in a sophisticated democratic governance system predating European colonization. Its structure likely influenced the U.S. Constitution.",
+    "tags": [
+      "native american",
+      "democracy",
+      "confederacy",
+      "governance",
+      "iroquois",
+      "pre-colonial"
+    ]
+  },
+  {
+    "id": "cherokee_nation",
+    "label": "Cherokee Nation",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1800s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Cherokee",
+    "summary": "The Cherokee Nation developed a written language (Sequoyah's syllabary), adopted a constitutional government modeled on the U.S., and engaged in legal battles over their sovereignty \u2014 only to be forcibly removed via the Trail of Tears (1838\u201339).",
+    "tags": [
+      "native american",
+      "cherokee",
+      "sovereignty",
+      "trail of tears",
+      "written language"
+    ]
+  },
+  {
+    "id": "sioux_nation",
+    "label": "Sioux Nation",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1800s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Sioux",
+    "summary": "The Sioux (Lakota, Dakota, Nakota) were the dominant indigenous people of the Great Plains. U.S. encroachment on treaty-guaranteed lands in the Black Hills sparked the Great Sioux War (1876), the Battle of Little Bighorn, and ultimately the Wounded Knee Massacre.",
+    "tags": [
+      "native american",
+      "great plains",
+      "lakota",
+      "black hills",
+      "treaty violations"
+    ]
+  },
+  {
+    "id": "treaty_of_fort_laramie",
+    "label": "Treaty of Fort Laramie (1868)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1860s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Fort_Laramie_Treaty_(1868)",
+    "summary": "U.S. treaty with the Sioux guaranteeing the Black Hills as sovereign Lakota territory 'for as long as the grass shall grow.' Broken within a decade when gold was discovered and the U.S. seized the land anyway \u2014 a canonical example of treaty violation.",
+    "tags": [
+      "native american",
+      "treaty",
+      "broken promises",
+      "black hills",
+      "sioux",
+      "u.s. government"
+    ]
+  },
+  {
+    "id": "lakota_ghost_dance",
+    "label": "Lakota Ghost Dance Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1890s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Ghost_Dance",
+    "summary": "A spiritual movement spreading through Plains tribes in 1889\u201390, prophesying the return of dead ancestors and the restoration of indigenous ways of life. U.S. authorities deemed it dangerous and used it as pretext to arrest Sitting Bull and massacre at Wounded Knee.",
+    "tags": [
+      "native american",
+      "religion",
+      "lakota",
+      "spiritual movement",
+      "resistance",
+      "wounded knee"
+    ]
+  },
+  {
+    "id": "wounded_knee_massacre_1890",
+    "label": "Wounded Knee Massacre (1890)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1890s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Wounded_Knee_Massacre",
+    "summary": "U.S. Army troops massacred approximately 250\u2013300 Lakota men, women, and children at Wounded Knee Creek, South Dakota, in December 1890. The final major military action of the American Indian Wars \u2014 and a symbol of the genocidal destruction of Plains Indian culture.",
+    "tags": [
+      "native american",
+      "massacre",
+      "lakota",
+      "u.s. army",
+      "genocide",
+      "7th cavalry"
+    ]
+  },
+  {
+    "id": "american_indian_movement",
+    "label": "American Indian Movement (AIM)",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Indian_Movement",
+    "summary": "Founded in 1968 in Minneapolis, AIM was a Native American activist organization fighting police brutality, treaty rights, and cultural survival. Led the 1972 Trail of Broken Treaties march and the 1973 occupation of Wounded Knee.",
+    "tags": [
+      "native american",
+      "civil rights",
+      "activism",
+      "aim",
+      "wounded knee 1973",
+      "treaty rights"
+    ]
+  },
+  {
+    "id": "wounded_knee_1973",
+    "label": "Wounded Knee Occupation (1973)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1970s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Wounded_Knee_incident",
+    "summary": "Members of AIM and local Oglala Sioux occupied the town of Wounded Knee for 71 days in 1973, demanding U.S. honor of 1868 Fort Laramie treaty. Federal government responded with military-grade force; two occupiers killed. Led to the trial and FBI targeting of Leonard Peltier.",
+    "tags": [
+      "native american",
+      "occupation",
+      "aim",
+      "wounded knee",
+      "federal government",
+      "leonard peltier"
+    ]
+  },
+  {
+    "id": "standing_rock_protests",
+    "label": "Standing Rock Protests (2016)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Dakota_Access_Pipeline_protests",
+    "summary": "The Standing Rock Sioux tribe and thousands of 'water protectors' gathered in 2016 to block the Dakota Access Pipeline from crossing under sacred tribal land and the Missouri River. Suppressed by police with water cannons and rubber bullets; pipeline ultimately approved under Trump.",
+    "tags": [
+      "native american",
+      "pipeline",
+      "water rights",
+      "protest",
+      "dakota access",
+      "sioux",
+      "environmental justice"
+    ]
+  },
+  {
+    "id": "indian_boarding_schools",
+    "label": "Indian Boarding Schools (U.S.)",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1870s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Indian_boarding_schools",
+    "summary": "U.S. government policy (1870s\u20131970s) to forcibly remove Native American children from their families and assimilate them into white culture via boarding schools. Summarized as 'kill the Indian, save the man.' Caused generational trauma, language death, and cultural destruction.",
+    "tags": [
+      "native american",
+      "forced assimilation",
+      "cultural genocide",
+      "children",
+      "boarding schools",
+      "u.s. policy"
+    ]
+  },
+  {
+    "id": "sitting_bull",
+    "label": "Sitting Bull",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1870s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Sitting_Bull",
+    "summary": "Hunkpapa Lakota holy man and chief who led the Sioux resistance to U.S. encroachment. Orchestrated the Battle of Little Bighorn (1876) where Custer's forces were annihilated. Later imprisoned and assassinated by Indian police in 1890 during the Ghost Dance suppression.",
+    "tags": [
+      "native american",
+      "lakota",
+      "sioux",
+      "little bighorn",
+      "ghost dance",
+      "resistance"
+    ]
+  },
+  {
+    "id": "crazy_horse",
+    "label": "Crazy Horse",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1870s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Crazy_Horse",
+    "summary": "Oglala Lakota war leader who fought alongside Sitting Bull to resist U.S. expansion onto Sioux treaty lands. Instrumental in defeating Custer at Little Bighorn (1876). Surrendered in 1877 and was bayoneted by a U.S. soldier while in custody.",
+    "tags": [
+      "native american",
+      "lakota",
+      "warrior",
+      "little bighorn",
+      "resistance",
+      "treaty rights"
+    ]
+  },
+  {
+    "id": "geronimo",
+    "label": "Geronimo",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1870s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Geronimo",
+    "summary": "Chiricahua Apache leader who resisted Mexican and U.S. forces in the Southwest for decades. His 1886 surrender was the formal end of the Apache Wars and of significant armed indigenous resistance to U.S. expansion. Became a symbol of Native resistance worldwide.",
+    "tags": [
+      "native american",
+      "apache",
+      "resistance",
+      "u.s. southwest",
+      "arizona",
+      "armed resistance"
+    ]
+  },
+  {
+    "id": "chief_joseph",
+    "label": "Chief Joseph",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1870s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Chief_Joseph",
+    "summary": "Nez Perce leader who led his people in the Nez Perce War (1877), a 1,170-mile fighting retreat toward Canada to avoid forced relocation. Surrendered 40 miles from the border, famously declaring 'I will fight no more forever.' His eloquent speeches galvanized public sympathy.",
+    "tags": [
+      "native american",
+      "nez perce",
+      "forced relocation",
+      "resistance",
+      "pacific northwest"
+    ]
+  },
+  {
+    "id": "vine_deloria_jr",
+    "label": "Vine Deloria Jr.",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Vine_Deloria_Jr.",
+    "summary": "Standing Rock Sioux author and activist whose 1969 book 'Custer Died for Your Sins' demolished romantic stereotypes of Native Americans and articulated treaty rights arguments that influenced federal Indian policy for decades. Godfather of the Native American intellectual renaissance.",
+    "tags": [
+      "native american",
+      "author",
+      "intellectual",
+      "treaty rights",
+      "activism",
+      "sioux"
+    ]
+  },
+  {
+    "id": "leonard_peltier",
+    "label": "Leonard Peltier",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1970s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Leonard_Peltier",
+    "summary": "Anishinaabe-Lakota AIM activist convicted of murdering two FBI agents during the 1975 Pine Ridge confrontation in a case widely criticized as unfair, with fabricated evidence and coerced witnesses. Considered a political prisoner by Amnesty International. Imprisoned for over 40 years.",
+    "tags": [
+      "native american",
+      "aim",
+      "political prisoner",
+      "fbi",
+      "pine ridge",
+      "injustice"
+    ]
+  },
+  {
+    "id": "kingdom_of_axum",
+    "label": "Kingdom of Axum",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "100s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum",
+    "summary": "One of the great ancient civilizations, the Kingdom of Axum (present-day Ethiopia/Eritrea, 1st\u20137th century CE) controlled Red Sea trade, minted its own coins, erected giant obelisks, and was one of the first states to adopt Christianity. It is the origin of the Ethiopian Orthodox Church.",
+    "tags": [
+      "africa",
+      "ethiopia",
+      "ancient",
+      "trade",
+      "christianity",
+      "civilization",
+      "east africa"
+    ]
+  },
+  {
+    "id": "swahili_coast_trade",
+    "label": "Swahili Coast Trade Network",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "700s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Swahili_coast",
+    "summary": "A network of city-states along Africa's East Coast (Mombasa, Malindi, Kilwa, Zanzibar) that linked Africa to Arabia, Persia, India, and China from the 8th\u201316th centuries. The Swahili culture emerged from Arab-African fusion. Portuguese disruption in 1498 ended this self-sustaining trade world.",
+    "tags": [
+      "africa",
+      "east africa",
+      "trade",
+      "swahili",
+      "indian ocean",
+      "merchant city-states",
+      "colonialism"
+    ]
+  },
+  {
+    "id": "great_zimbabwe",
+    "label": "Great Zimbabwe",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1200s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
+    "summary": "Massive stone city complex in present-day Zimbabwe, capital of the Zimbabwe Kingdom (11th\u201315th centuries), which controlled gold and ivory trade across southern Africa. European colonizers denied African authorship for decades \u2014 a canonical example of colonial historical revisionism.",
+    "tags": [
+      "africa",
+      "southern africa",
+      "zimbabwe",
+      "stone city",
+      "trade",
+      "historical revisionism",
+      "pre-colonial"
+    ]
+  },
+  {
+    "id": "kingdom_of_kongo",
+    "label": "Kingdom of Kongo",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1400s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+    "summary": "A major Central African kingdom (present-day Congo/Angola/Gabon) that was diplomatically sophisticated, literate in Portuguese from the 1480s, and sent ambassadors to Europe. Became one of the primary sources of enslaved Africans for the transatlantic slave trade despite royal protests.",
+    "tags": [
+      "africa",
+      "congo",
+      "angola",
+      "diplomacy",
+      "slave trade",
+      "portuguese",
+      "central africa"
+    ]
+  },
+  {
+    "id": "benin_kingdom",
+    "label": "Kingdom of Benin",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1180s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Kingdom_of_Benin",
+    "summary": "The Kingdom of Benin (present-day southern Nigeria, 1180\u20131897) produced extraordinary bronze sculptures rivaling Renaissance art, maintained sophisticated court culture, and resisted European domination until British forces destroyed Benin City in 1897, looting thousands of Benin Bronzes now held in Western museums.",
+    "tags": [
+      "africa",
+      "nigeria",
+      "west africa",
+      "bronze art",
+      "british colonialism",
+      "looting",
+      "cultural heritage"
+    ]
+  },
+  {
+    "id": "maji_maji_rebellion",
+    "label": "Maji Maji Rebellion",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1900s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Maji_Maji_rebellion",
+    "summary": "The largest African anti-colonial uprising in German East Africa (1905\u201307), uniting dozens of ethnic groups under a spiritual movement. German forces responded with scorched-earth famine tactics, killing 200,000\u2013300,000 people. One of colonialism's most brutal suppressions.",
+    "tags": [
+      "africa",
+      "tanzania",
+      "german colonialism",
+      "rebellion",
+      "anti-colonial",
+      "famine",
+      "east africa"
+    ]
+  },
+  {
+    "id": "haile_selassie",
+    "label": "Haile Selassie",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1930s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Haile_Selassie",
+    "summary": "Emperor of Ethiopia (1930\u201374) who led resistance to Italian invasion, addressed the League of Nations (1936), helped found the African Union, and became a messiah figure in Rastafarianism. His feudal rule suppressed peasant revolts; he was overthrown and killed by a Marxist junta in 1974.",
+    "tags": [
+      "ethiopia",
+      "africa",
+      "pan-africanism",
+      "rastafarianism",
+      "african union",
+      "italian invasion",
+      "emperor"
+    ]
+  },
+  {
+    "id": "jomo_kenyatta",
+    "label": "Jomo Kenyatta",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Jomo_Kenyatta",
+    "summary": "First President of Kenya (1964\u201378), Kenyatta led the Kenya African National Union and the independence movement. Imprisoned by the British as an alleged Mau Mau leader (unproven). After independence, however, he consolidated power and protected elite land interests, limiting land redistribution.",
+    "tags": [
+      "kenya",
+      "africa",
+      "independence",
+      "pan-africanism",
+      "mau mau",
+      "decolonization",
+      "east africa"
+    ]
+  },
+  {
+    "id": "julius_nyerere",
+    "label": "Julius Nyerere",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Julius_Nyerere",
+    "summary": "First President of Tanzania, Nyerere pursued 'Ujamaa' (African socialism) \u2014 forced collectivization of villages that achieved mass literacy and healthcare but collapsed economically by the 1980s. He voluntarily relinquished power in 1985, a rare African leader to do so, and is called the 'Father of the Nation.'",
+    "tags": [
+      "tanzania",
+      "africa",
+      "socialism",
+      "ujamaa",
+      "independence",
+      "decolonization",
+      "east africa"
+    ]
+  },
+  {
+    "id": "zhou_dynasty",
+    "label": "Zhou Dynasty",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "-1000s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Zhou_dynasty",
+    "summary": "China's longest dynasty (1046\u2013256 BCE), the Zhou era produced Confucius, Laozi, and Sun Tzu \u2014 the axial age of Chinese philosophy. The later 'Warring States' period (475\u2013221 BCE) saw constant warfare between rival kingdoms before Qin unification.",
+    "tags": [
+      "china",
+      "dynasty",
+      "confucius",
+      "philosophy",
+      "axial age",
+      "ancient",
+      "warring states"
+    ]
+  },
+  {
+    "id": "qing_dynasty",
+    "label": "Qing Dynasty",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1640s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Qing_dynasty",
+    "summary": "China's last imperial dynasty (1644\u20131912), founded by the Manchu people, the Qing reached its greatest territorial extent before collapsing under the weight of European imperialism, peasant rebellions (Taiping), and internal reform failures. Its fall ended 2,000 years of imperial rule.",
+    "tags": [
+      "china",
+      "dynasty",
+      "manchu",
+      "imperialism",
+      "taiping",
+      "qing",
+      "republic"
+    ]
+  },
+  {
+    "id": "yuan_dynasty",
+    "label": "Yuan Dynasty",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1270s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuan_dynasty",
+    "summary": "Mongol-ruled China (1271\u20131368) established by Kublai Khan. Opened China to unprecedented cross-Eurasian trade (Marco Polo visited) but imposed heavy taxation and ethnic hierarchy, relegating Han Chinese to second-class status. Expelled by the Ming dynasty in 1368.",
+    "tags": [
+      "china",
+      "mongol",
+      "dynasty",
+      "kublai khan",
+      "marco polo",
+      "silk road",
+      "yuan"
+    ]
+  },
+  {
+    "id": "boxer_rebellion",
+    "label": "Boxer Rebellion",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1900s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Boxer_Rebellion",
+    "summary": "Chinese nationalist uprising (1899\u20131901) targeting foreign missionaries and colonial presence. The Qing government initially supported it; an eight-nation alliance invaded China, defeated the Boxers, and imposed the humiliating Boxer Protocol \u2014 indemnity, foreign garrisons in Beijing.",
+    "tags": [
+      "china",
+      "nationalism",
+      "rebellion",
+      "qing",
+      "imperialism",
+      "foreign intervention",
+      "1900"
+    ]
+  },
+  {
+    "id": "tiananmen_square_massacre",
+    "label": "Tiananmen Square Massacre",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1980s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre",
+    "summary": "The Chinese government's military crackdown on student-led pro-democracy demonstrations in Beijing's Tiananmen Square in June 1989, killing hundreds to thousands. The event is one of the most censored in modern history within China \u2014 the 'tank man' image became a global symbol.",
+    "tags": [
+      "china",
+      "massacre",
+      "democracy",
+      "student protest",
+      "ccp",
+      "censorship",
+      "1989"
+    ]
+  },
+  {
+    "id": "chinese_exclusion_act_1882",
+    "label": "Chinese Exclusion Act (1882)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1880s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Chinese_Exclusion_Act",
+    "summary": "U.S. federal law (1882\u20131943) that barred Chinese laborers from immigrating \u2014 the first major U.S. law restricting immigration by nationality and race. Chinese workers had built the Transcontinental Railroad; the act responded to white working-class backlash.",
+    "tags": [
+      "united states",
+      "immigration",
+      "racism",
+      "chinese americans",
+      "exclusion",
+      "labor",
+      "anti-asian"
+    ]
+  },
+  {
+    "id": "empress_dowager_cixi",
+    "label": "Empress Dowager Cixi",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1860s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Empress_Dowager_Cixi",
+    "summary": "De facto ruler of China for nearly 50 years (1861\u20131908), Cixi was a concubine who seized power through political cunning. She initially supported the Boxer Rebellion and suppressed the Hundred Days Reform (1898), blocking modernization. Her policies hastened the Qing collapse.",
+    "tags": [
+      "china",
+      "qing",
+      "empress",
+      "reform",
+      "boxer rebellion",
+      "modernization",
+      "conservatism"
+    ]
+  },
+  {
+    "id": "hong_xiuquan",
+    "label": "Hong Xiuquan",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1840s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Hong_Xiuquan",
+    "summary": "Self-proclaimed younger brother of Jesus Christ who led the Taiping Rebellion (1850\u201364) \u2014 the deadliest civil war in history, killing 20\u201330 million people. Hong's fusion of Christian millenarianism with anti-Qing revolt created a mass movement that nearly toppled the dynasty.",
+    "tags": [
+      "china",
+      "taiping",
+      "religion",
+      "millenarianism",
+      "rebel leader",
+      "qing",
+      "civil war"
+    ]
+  },
+  {
+    "id": "vijayanagara_empire",
+    "label": "Vijayanagara Empire",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1336",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Vijayanagara_Empire",
+    "summary": "The last great Hindu empire of South India (1336\u20131646), Vijayanagara served as a bulwark against Deccan Sultanate expansion, patronized Telugu and Kannada literature, and built the magnificent capital city of Hampi. Defeated at the Battle of Talikota (1565) by a coalition of Muslim sultanates.",
+    "tags": [
+      "india",
+      "south india",
+      "hinduism",
+      "empire",
+      "hampi",
+      "deccan",
+      "medieval india"
+    ]
+  },
+  {
+    "id": "maratha_empire",
+    "label": "Maratha Empire",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1674",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Maratha_Empire",
+    "summary": "The Maratha Confederacy (1674\u20131818) under Shivaji challenged Mughal dominance and became the dominant power in India after Mughal decline. At their peak they controlled most of the subcontinent. British defeat of the Marathas in the Third Anglo-Maratha War (1817\u201318) completed British conquest of India.",
+    "tags": [
+      "india",
+      "maratha",
+      "empire",
+      "mughal",
+      "british colonialism",
+      "shivaji",
+      "confederation"
+    ]
+  },
+  {
+    "id": "sikh_empire",
+    "label": "Sikh Empire",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1799",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Sikh_Empire",
+    "summary": "The Sikh Empire of Punjab (1799\u20131849), founded by Maharaja Ranjit Singh, was one of the last major obstacles to British control of India. A modernized, religiously pluralistic state with a powerful army. After Ranjit Singh's death, British exploitation of succession crises led to annexation in 1849.",
+    "tags": [
+      "india",
+      "punjab",
+      "sikh",
+      "empire",
+      "ranjit singh",
+      "british colonialism",
+      "north india"
+    ]
+  },
+  {
+    "id": "partition_of_bengal_1905",
+    "label": "Partition of Bengal (1905)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1900s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Partition_of_Bengal_(1905)",
+    "summary": "Britain's 1905 division of Bengal into Hindu-majority and Muslim-majority provinces, officially for administrative efficiency. Indian nationalists recognized it as divide-and-rule strategy to weaken the most politically active region. Mass protests led to its reversal in 1911, but it permanently inflamed Hindu-Muslim tensions.",
+    "tags": [
+      "india",
+      "british colonialism",
+      "partition",
+      "bengal",
+      "divide and rule",
+      "nationalism",
+      "hindu-muslim"
+    ]
+  },
+  {
+    "id": "amritsar_massacre_1919",
+    "label": "Amritsar Massacre (1919)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1910s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre",
+    "summary": "British General Dyer ordered troops to fire into a crowd of unarmed protesters (including families gathered for a festival) in Jallianwala Bagh, Amritsar, killing 379\u20131000+ people. The massacre radicalized Indian public opinion toward full independence and transformed Gandhi's nonviolence movement.",
+    "tags": [
+      "india",
+      "british colonialism",
+      "massacre",
+      "punjab",
+      "gandhi",
+      "independence movement",
+      "1919"
+    ]
+  },
+  {
+    "id": "shivaji_maharaj",
+    "label": "Shivaji Maharaj",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1660s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Shivaji",
+    "summary": "Founder of the Maratha Empire (crowned 1674) who pioneered guerrilla warfare against the Mughal Empire and established a Hindu kingdom resisting Mughal and later British expansion. Regarded as a symbol of Maratha pride and Hindu nationalist resistance; one of India's greatest warrior-kings.",
+    "tags": [
+      "india",
+      "maratha",
+      "founder",
+      "mughal resistance",
+      "warrior",
+      "guerrilla warfare",
+      "hindu nationalism"
+    ]
+  },
+  {
+    "id": "guru_nanak",
+    "label": "Guru Nanak",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1490s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Guru_Nanak",
+    "summary": "Founder of Sikhism (born 1469), Guru Nanak preached equality across caste and gender, rejected idol worship, and established a new monotheistic path. His teachings became the foundation of a religion that now has 25+ million adherents worldwide, and eventually formed the spiritual basis of the Sikh Empire.",
+    "tags": [
+      "india",
+      "punjab",
+      "sikh",
+      "founder",
+      "religion",
+      "equality",
+      "caste",
+      "spirituality"
+    ]
+  },
+  {
+    "id": "ranjit_singh",
+    "label": "Maharaja Ranjit Singh",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1800s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Ranjit_Singh",
+    "summary": "Founder and Maharaja of the Sikh Empire (ruled 1801\u201339), Ranjit Singh united the Punjab Sikh misls and built a modernized, religiously tolerant state that was the last major independent power in South Asia. His death in 1839 unleashed a succession crisis that Britain exploited to annex Punjab.",
+    "tags": [
+      "india",
+      "punjab",
+      "sikh",
+      "maharaja",
+      "empire",
+      "british colonialism",
+      "military modernization"
+    ]
+  },
+  {
+    "id": "bhimrao_ambedkar",
+    "label": "B.R. Ambedkar",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1930s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/B._R._Ambedkar",
+    "summary": "Born untouchable (Dalit), Ambedkar earned a PhD from Columbia and LSE, led the Dalit liberation movement, chaired the committee that drafted India's Constitution (which banned caste discrimination), and converted to Buddhism with millions of followers shortly before his death in 1956. Gandhi's antagonist on caste.",
+    "tags": [
+      "india",
+      "dalit",
+      "caste",
+      "constitution",
+      "buddhism",
+      "liberation",
+      "columbia",
+      "human rights"
+    ]
+  },
+  {
+    "id": "mississippian_culture",
+    "label": "Mississippian Culture",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "800s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Mississippian_culture",
+    "summary": "Pre-Columbian mound-building culture (800\u20131600 CE) spread across the Mississippi River valley, centered at Cahokia. Developed complex chiefdoms, long-distance trade networks, and monumental architecture. Declined before European contact, possibly from disease from early Spanish expeditions.",
+    "tags": [
+      "native american",
+      "pre-columbian",
+      "mound builders",
+      "mississippi",
+      "north america",
+      "pre-contact"
+    ]
+  },
+  {
+    "id": "cahokia",
+    "label": "Cahokia",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1000s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Cahokia",
+    "summary": "Pre-Columbian city near present-day St. Louis that at its peak (1100 CE) had a population of 10,000\u201320,000 \u2014 larger than contemporary London. The largest pre-contact settlement in North America, featuring Monks Mound, a structure with a larger base than the Great Pyramid of Giza.",
+    "tags": [
+      "native american",
+      "pre-columbian",
+      "city",
+      "north america",
+      "mound builders",
+      "mississippi",
+      "ancient"
+    ]
+  },
+  {
+    "id": "encomienda_system",
+    "label": "Encomienda System",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1500s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Encomienda",
+    "summary": "Spanish colonial labor system (1503 onward) granting conquistadors the right to extract labor from indigenous people in exchange for 'protecting' and Christianizing them. In practice it was slavery \u2014 indigenous workers died by the millions in mines and plantations. The direct predecessor of chattel slavery in the Americas.",
+    "tags": [
+      "spain",
+      "colonialism",
+      "americas",
+      "slavery",
+      "labor exploitation",
+      "indigenous",
+      "colonial system"
+    ]
+  },
+  {
+    "id": "potosi_silver_mines",
+    "label": "Potos\u00ed Silver Mines",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1540s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Potos%C3%AD",
+    "summary": "Silver mountain in present-day Bolivia that from 1545 produced a third of the world's silver, financing Spanish empire, fueling European capitalism, and killing an estimated 8 million indigenous and African workers through the mita forced labor system. 'I am rich Potos\u00ed' became a world synonym for limitless wealth \u2014 and limitless death.",
+    "tags": [
+      "bolivia",
+      "colonialism",
+      "silver",
+      "mining",
+      "spain",
+      "forced labor",
+      "capitalism",
+      "indigenous genocide"
+    ]
+  },
+  {
+    "id": "tlaxcalan_alliance",
+    "label": "Tlaxcalan Alliance",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1510s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Tlaxcala",
+    "summary": "The Tlaxcalans, long-time enemies of the Aztec Triple Alliance, allied with Hern\u00e1n Cort\u00e9s in 1519 and provided the military bulk of the conquest. Their role was decisive \u2014 Cort\u00e9s had 500 Spaniards; they provided 100,000+ warriors. The conquest was an indigenous civil war as much as a European invasion.",
+    "tags": [
+      "mexico",
+      "aztec",
+      "tlaxcala",
+      "conquest",
+      "indigenous alliance",
+      "cortes",
+      "mesoamerica"
+    ]
+  },
+  {
+    "id": "maya_codex_burning",
+    "label": "Maya Codex Burning (1562)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1560s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Diego_de_Landa",
+    "summary": "In July 1562, Bishop Diego de Landa burned virtually all surviving Maya books (codices) at Man\u00ed, Yucat\u00e1n, calling them 'works of the devil.' Only four Maya codices survive. Landa simultaneously preserved extensive (if biased) accounts of Maya culture \u2014 a single person being both the greatest destroyer and preserver of Maya knowledge.",
+    "tags": [
+      "maya",
+      "colonialism",
+      "book burning",
+      "cultural genocide",
+      "mexico",
+      "spain",
+      "knowledge destruction"
+    ]
+  },
+  {
+    "id": "bartolome_de_las_casas",
+    "label": "Bartolom\u00e9 de las Casas",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1510s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Bartolom%C3%A9_de_las_Casas",
+    "summary": "Spanish Dominican friar who witnessed and documented the genocidal destruction of indigenous people in the Caribbean and Americas. His 'A Short Account of the Destruction of the Indies' (1542) provided the first European moral indictment of colonial violence and helped end the encomienda system \u2014 though it also promoted African slavery as an alternative.",
+    "tags": [
+      "spain",
+      "colonialism",
+      "americas",
+      "human rights",
+      "indigenous rights",
+      "dominican",
+      "reform"
+    ]
+  },
+  {
+    "id": "diego_de_landa",
+    "label": "Diego de Landa",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1560s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Diego_de_Landa",
+    "summary": "Spanish Franciscan bishop who burned Maya books in 1562 \u2014 the greatest act of deliberate cultural destruction in the Americas. He was also tried by the Inquisition for his harsh treatment of Maya people. Paradoxically, his 'Relaci\u00f3n de las cosas de Yucat\u00e1n' (written partially in penance) became the primary source for deciphering the Maya script.",
+    "tags": [
+      "spain",
+      "colonialism",
+      "maya",
+      "book burning",
+      "cultural destruction",
+      "yucatan",
+      "franciscan"
+    ]
+  },
+  {
+    "id": "tupac_amaru_ii",
+    "label": "T\u00fapac Amaru II",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1780s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/T%C3%BApac_Amaru_II",
+    "summary": "Jos\u00e9 Gabriel Condorcanqui Noguera, who took the name T\u00fapac Amaru II (after an Inca ruler), led the largest indigenous revolt in the Americas (1780\u201381) against Spanish rule, inspiring both Sim\u00f3n Bol\u00edvar and later 20th-century revolutionary movements. Captured and executed with his family in the Cusco plaza.",
+    "tags": [
+      "peru",
+      "inca",
+      "rebellion",
+      "anti-colonial",
+      "spain",
+      "indigenous revolt",
+      "andes",
+      "liberation"
+    ]
+  },
+  {
+    "id": "tanzimat_reforms",
+    "label": "Tanzimat Reforms",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1839",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Tanzimat",
+    "summary": "Ottoman modernization program (1839\u20131876) that attempted to centralize administration, guarantee equal rights for all subjects (including non-Muslims), and Westernize the empire's legal and military institutions. Seen as too little by Western powers and too much by conservative Muslims \u2014 ultimately failing to prevent collapse.",
+    "tags": [
+      "ottoman",
+      "modernization",
+      "reform",
+      "middle east",
+      "turkey",
+      "westernization",
+      "19th century"
+    ]
+  },
+  {
+    "id": "ottoman_debt_crisis",
+    "label": "Ottoman Debt Crisis (1881)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1880s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Ottoman_Public_Debt_Administration",
+    "summary": "After defaulting on its foreign debt in 1875, the Ottoman Empire submitted to the Ottoman Public Debt Administration (1881) \u2014 a European-controlled body managing Ottoman finances. Foreign financial control stripped the empire of fiscal sovereignty, a template for 20th-century debt trap colonialism.",
+    "tags": [
+      "ottoman",
+      "debt",
+      "imperialism",
+      "finance",
+      "europe",
+      "colonialism",
+      "fiscal sovereignty"
+    ]
+  },
+  {
+    "id": "greek_war_of_independence",
+    "label": "Greek War of Independence",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1820s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Greek_War_of_Independence",
+    "summary": "Greek uprising against Ottoman rule (1821\u201329) that, with European support, resulted in Greek independence. The first successful nationalist revolution in the Ottoman Empire, it established the pattern of European 'great power' intervention in Ottoman internal affairs and inspired similar movements in the Balkans.",
+    "tags": [
+      "greece",
+      "ottoman",
+      "independence",
+      "nationalism",
+      "balkans",
+      "european intervention",
+      "19th century"
+    ]
+  },
+  {
+    "id": "young_turks_movement",
+    "label": "Young Turks Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1900s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Young_Turks",
+    "summary": "Ottoman reform movement (Committee of Union and Progress) that led the 1908 constitutional revolution, deposed Sultan Abdul Hamid II, and seized power by 1913. The Three Pashas who led the movement (Enver, Talaat, Cemal) dragged the empire into WWI and organized the Armenian Genocide.",
+    "tags": [
+      "ottoman",
+      "reform",
+      "nationalism",
+      "turkey",
+      "three pashas",
+      "armenian genocide",
+      "wwi"
+    ]
+  },
+  {
+    "id": "balkan_wars_1912",
+    "label": "Balkan Wars (1912\u201313)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1910s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Balkan_Wars",
+    "summary": "Two wars in which the Balkan League (Serbia, Bulgaria, Greece, Montenegro) stripped the Ottoman Empire of almost all its European territories, and then fought each other over the spoils. The First Balkan War ended 500 years of Ottoman presence in Europe. These humiliations radicalized the Young Turks and enabled their coup.",
+    "tags": [
+      "ottoman",
+      "balkans",
+      "war",
+      "nationalism",
+      "disintegration",
+      "serbia",
+      "bulgaria",
+      "greece"
+    ]
+  },
+  {
+    "id": "talaat_pasha",
+    "label": "Talaat Pasha",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1910s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Talaat_Pasha",
+    "summary": "Ottoman Grand Vizier and one of the Three Pashas who led the Young Turks. Primary architect of the Armenian Genocide (1915\u201316) alongside Enver Pasha. Fled to Germany after Ottoman defeat; assassinated in Berlin in 1921 by Soghomon Tehlirian, an Armenian genocide survivor, in what became known as 'Operation Nemesis.'",
+    "tags": [
+      "ottoman",
+      "turkey",
+      "young turks",
+      "armenian genocide",
+      "three pashas",
+      "grand vizier",
+      "assassination"
+    ]
+  },
+  {
+    "id": "ataturk",
+    "label": "Mustafa Kemal Atat\u00fcrk",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1920s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk",
+    "summary": "Founder of the Republic of Turkey (1923), Atat\u00fcrk transformed the Ottoman remnant into a secular, Westernized nation-state. Abolished the Caliphate, replaced Arabic script with Latin, banned traditional dress. Revered as the 'Father of Turks' but his authoritarian secularism is contested by Islamist movements he suppressed.",
+    "tags": [
+      "turkey",
+      "ottoman",
+      "founder",
+      "secularism",
+      "republic",
+      "modernization",
+      "nationalism"
+    ]
+  },
+  {
+    "id": "ferguson_protests_2014",
+    "label": "Ferguson Protests (2014)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Ferguson_unrest",
+    "summary": "Protests erupting in Ferguson, Missouri after the police killing of Michael Brown (18-year-old Black man, August 2014). The sustained unrest and militarized police response catalyzed the Black Lives Matter movement into a national force and sparked a national reckoning with police brutality against Black Americans.",
+    "tags": [
+      "united states",
+      "police brutality",
+      "black lives matter",
+      "protest",
+      "racism",
+      "civil rights",
+      "2014"
+    ]
+  },
+  {
+    "id": "black_lives_matter",
+    "label": "Black Lives Matter Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Lives_Matter",
+    "summary": "Founded in 2013 by Alicia Garza, Patrisse Cullors, and Opal Tometi following the acquittal of Trayvon Martin's killer, BLM became the largest civil rights movement in U.S. history. The 2020 George Floyd protests brought it to global scale, with 15\u201326 million participants in the U.S. alone.",
+    "tags": [
+      "united states",
+      "black liberation",
+      "civil rights",
+      "police brutality",
+      "protest",
+      "activism",
+      "2013"
+    ]
+  },
+  {
+    "id": "breonna_taylor_killing",
+    "label": "Killing of Breonna Taylor",
+    "node_type": "event",
+    "category": "event",
+    "decade": "2020s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Killing_of_Breonna_Taylor",
+    "summary": "Breonna Taylor, a Black emergency medical technician, was shot and killed by Louisville police executing a no-knock warrant at her apartment in March 2020. No drugs were found. No officer was charged with her murder. Her killing, alongside George Floyd's, galvanized the 2020 BLM protests.",
+    "tags": [
+      "united states",
+      "police brutality",
+      "black lives matter",
+      "no-knock warrant",
+      "systemic racism",
+      "2020"
+    ]
+  },
+  {
+    "id": "january_6_capitol_riot",
+    "label": "January 6 Capitol Attack",
+    "node_type": "event",
+    "category": "event",
+    "decade": "2020s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack",
+    "summary": "On January 6, 2021, supporters of President Trump stormed the U.S. Capitol building to halt certification of the 2020 election \u2014 the first violent interruption of the peaceful transfer of power in American history. Over 1,000 charged; Trump impeached a second time and later convicted on related charges.",
+    "tags": [
+      "united states",
+      "democracy",
+      "insurrection",
+      "trump",
+      "election",
+      "capitol",
+      "2021"
+    ]
+  },
+  {
+    "id": "covid_vaccine_hesitancy",
+    "label": "COVID Vaccine Hesitancy",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2020s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/COVID-19_vaccine_hesitancy",
+    "summary": "Widespread resistance to COVID-19 vaccines (2021\u201323), particularly in the U.S., driven by a confluence of misinformation, distrust in institutions, political polarization, and social media amplification. The phenomenon demonstrated how information ecosystems now directly shape public health outcomes \u2014 and kill people.",
+    "tags": [
+      "united states",
+      "public health",
+      "misinformation",
+      "vaccines",
+      "anti-vax",
+      "social media",
+      "polarization"
+    ]
+  },
+  {
+    "id": "ai_large_language_models",
+    "label": "AI Large Language Models",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2020s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Large_language_model",
+    "summary": "The emergence of large language models (GPT-3 2020, ChatGPT 2022, GPT-4 2023) marked a step-change in AI capability, enabling human-like text generation. Raises profound questions about labor displacement, epistemology (what is true?), weaponized disinformation, and concentration of power in a handful of corporations.",
+    "tags": [
+      "technology",
+      "ai",
+      "automation",
+      "information",
+      "labor",
+      "power concentration",
+      "2020s"
+    ]
+  },
+  {
+    "id": "surveillance_state_china",
+    "label": "China Surveillance State",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Mass_surveillance_in_China",
+    "summary": "Under Xi Jinping, China built the world's most comprehensive surveillance state: 700+ million CCTV cameras, facial recognition at scale, social credit systems, total monitoring of Uyghurs in Xinjiang. The Xinjiang system amounts to a digital-era concentration camp for 1 million+ Uyghurs.",
+    "tags": [
+      "china",
+      "surveillance",
+      "xinjiang",
+      "uyghurs",
+      "authoritarianism",
+      "xi jinping",
+      "technology"
+    ]
+  },
+  {
+    "id": "myanmar_coup_2021",
+    "label": "Myanmar Military Coup (2021)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "2020s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/2021_Myanmar_coup_d%27%C3%A9tat",
+    "summary": "Myanmar's military (Tatmadaw) seized power on February 1, 2021, arresting Aung San Suu Kyi and ending a decade of partial democracy. Mass protests were met with lethal force; a civil war followed. The coup accelerated China's influence in Myanmar and demonstrated how quickly democratic transitions can reverse.",
+    "tags": [
+      "myanmar",
+      "military coup",
+      "democracy",
+      "authoritarianism",
+      "aung san suu kyi",
+      "civil war",
+      "2021"
+    ]
+  },
+  {
+    "id": "xi_jinping",
+    "label": "Xi Jinping",
+    "node_type": "person",
+    "category": "person",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Xi_Jinping",
+    "summary": "General Secretary of the Chinese Communist Party since 2012, Xi Jinping has overseen the most significant concentration of power in China since Mao \u2014 abolishing presidential term limits (2018), building the Xinjiang surveillance-detention system, suppressing Hong Kong's autonomy, and positioning China as a global authoritarian model.",
+    "tags": [
+      "china",
+      "ccp",
+      "authoritarianism",
+      "xi jinping",
+      "surveillance",
+      "hong kong",
+      "xinjiang"
+    ]
+  },
+  {
+    "id": "aung_san_suu_kyi",
+    "label": "Aung San Suu Kyi",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1990s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi",
+    "summary": "Myanmar's democracy icon who spent 15 years under house arrest and won the 1991 Nobel Peace Prize. After 2015 elections, her government failed to condemn \u2014 and may have enabled \u2014 the Rohingya genocide (2017). Arrested in the 2021 coup and sentenced to 27 years; her moral legacy remains deeply contested.",
+    "tags": [
+      "myanmar",
+      "democracy",
+      "nobel peace prize",
+      "rohingya",
+      "genocide",
+      "coup",
+      "moral complexity"
+    ]
+  },
+  {
+    "id": "volodymyr_zelensky",
+    "label": "Volodymyr Zelensky",
+    "node_type": "person",
+    "category": "person",
+    "decade": "2020s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy",
+    "summary": "Ukrainian president who refused to flee Kyiv after Russia's 2022 invasion, galvanizing Ukrainian resistance and international support. Former comedian and actor, Zelensky proved that personal leadership matters \u2014 his decision to stay transformed Ukraine's military and political position.",
+    "tags": [
+      "ukraine",
+      "russia",
+      "war",
+      "leadership",
+      "democracy",
+      "nato",
+      "2022"
+    ]
+  },
+  {
+    "id": "angela_davis",
+    "label": "Angela Davis",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1970s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Angela_Davis",
+    "summary": "Black communist activist, philosopher, and author who was on the FBI's Ten Most Wanted list in 1970. Her acquittal became an international cause; she went on to theorize prison abolitionism, intersectionality, and the relationship between race, capitalism, and carceral systems. Her work 'Are Prisons Obsolete?' (2003) anchored the prison abolition movement.",
+    "tags": [
+      "united states",
+      "black liberation",
+      "communism",
+      "prison abolition",
+      "feminism",
+      "civil rights",
+      "fbi"
+    ]
+  },
+  {
+    "id": "fred_hampton",
+    "label": "Fred Hampton",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Fred_Hampton",
+    "summary": "Chairman of the Illinois Black Panther Party, Fred Hampton (21 years old) was building a multiracial 'Rainbow Coalition' when the FBI and Chicago police assassinated him in a pre-dawn raid on December 4, 1969. The raid, organized under COINTELPRO, was later ruled unconstitutional. His murder exemplifies state assassination of radical leadership.",
+    "tags": [
+      "united states",
+      "black panthers",
+      "cointelpro",
+      "fbi",
+      "assassination",
+      "chicago",
+      "civil rights"
+    ]
+  },
+  {
+    "id": "edward_bernays",
+    "label": "Edward Bernays",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1920s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Edward_Bernays",
+    "summary": "Sigmund Freud's nephew and the 'father of public relations,' Bernays invented the modern PR industry by applying psychoanalytic theory to mass persuasion. Convinced women to smoke ('torches of freedom'), engineered the 1954 Guatemala coup for United Fruit Company, and wrote 'Propaganda' (1928) \u2014 a manual for manufacturing consent.",
+    "tags": [
+      "united states",
+      "propaganda",
+      "public relations",
+      "advertising",
+      "media",
+      "manipulation",
+      "freud"
+    ]
+  },
+  {
+    "id": "j_edgar_hoover",
+    "label": "J. Edgar Hoover",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/J._Edgar_Hoover",
+    "summary": "Director of the FBI (1935\u201372) who built the bureau into a domestic surveillance and political repression apparatus. COINTELPRO (1956\u201371) targeted civil rights leaders, Black nationalists, socialists, and anti-war groups. Hoover kept secret files on presidents and senators, making him effectively unaccountable and untouchable.",
+    "tags": [
+      "united states",
+      "fbi",
+      "cointelpro",
+      "surveillance",
+      "civil rights",
+      "political repression",
+      "hoover"
+    ]
+  },
+  {
+    "id": "henry_kissinger",
+    "label": "Henry Kissinger",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1970s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Henry_Kissinger",
+    "summary": "U.S. National Security Advisor and Secretary of State (1969\u201377) who orchestrated the secret bombing of Cambodia, the Chilean coup killing Allende, support for Indonesian genocide in East Timor, and d\u00e9tente with China and the USSR. Won the Nobel Peace Prize for Vietnam negotiations while escalating the war. Died in 2023 still defended as a strategic genius by some.",
+    "tags": [
+      "united states",
+      "cold war",
+      "foreign policy",
+      "chile",
+      "cambodia",
+      "vietnam",
+      "realpolitik",
+      "kissinger"
+    ]
+  },
+  {
+    "id": "feudal_system",
+    "label": "Feudal System",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "900s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Feudalism",
+    "summary": "The dominant social structure of medieval Europe (c. 9th\u201315th centuries): hierarchical exchange of land (fief) for military service and loyalty. Serfs were bound to land owned by lords who owed allegiance to kings. The system concentrated political and economic power in a hereditary nobility, providing the class structure that capitalism would both inherit and transform.",
+    "tags": [
+      "europe",
+      "medieval",
+      "class",
+      "land",
+      "aristocracy",
+      "serfdom",
+      "economic system"
+    ]
+  },
+  {
+    "id": "norman_conquest_1066",
+    "label": "Norman Conquest (1066)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1060s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Norman_Conquest_of_England",
+    "summary": "William the Conqueror's defeat of Harold II at the Battle of Hastings (1066) imposed Norman French rule on Anglo-Saxon England. Created the Domesday Book (first census), built castle infrastructure, replaced English aristocracy with French nobles, and fused Anglo-Saxon and French languages into Middle English.",
+    "tags": [
+      "england",
+      "medieval",
+      "conquest",
+      "norman",
+      "feudalism",
+      "william the conqueror",
+      "1066"
+    ]
+  },
+  {
+    "id": "crusades",
+    "label": "The Crusades",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1090s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Crusades",
+    "summary": "A series of religious wars (1096\u20131291) by Western Christian powers to capture the Holy Land from Muslim control. Legacy includes massacres of Jews and Muslims, the sack of Constantinople (1204), the Inquisition spirit, and a foundational role in shaping Christian-Muslim antagonism still exploited in modern political rhetoric.",
+    "tags": [
+      "europe",
+      "middle east",
+      "religion",
+      "holy war",
+      "medieval",
+      "christianity",
+      "islam",
+      "pope"
+    ]
+  },
+  {
+    "id": "black_death_social_impact",
+    "label": "Black Death Social Impact",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1340s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Death",
+    "summary": "The Black Death (1347\u201351) killed 30\u201360% of Europe's population. Social consequences: surviving peasants gained bargaining power (labor scarcity), leading to feudal decline; Jews were massacred across Europe blamed for the plague; flagellant movements emerged; the Church's authority was undermined when prayer failed to stop it.",
+    "tags": [
+      "europe",
+      "medieval",
+      "plague",
+      "class",
+      "antisemitism",
+      "church",
+      "labor",
+      "social change"
+    ]
+  },
+  {
+    "id": "hanseatic_league",
+    "label": "Hanseatic League",
+    "node_type": "institution",
+    "category": "institution",
+    "decade": "1200s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Hanseatic_League",
+    "summary": "A commercial and defensive confederation of merchant cities in Northern Europe (1241\u20131669) that dominated Baltic and North Sea trade. The League established commercial law, standard weights and measures, and proto-diplomatic institutions \u2014 an early model of supranational economic governance and merchant capitalism.",
+    "tags": [
+      "europe",
+      "trade",
+      "merchant",
+      "capitalism",
+      "medieval",
+      "north sea",
+      "baltic",
+      "confederation"
+    ]
+  },
+  {
+    "id": "peasants_revolt_1381",
+    "label": "Peasants' Revolt (1381)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1380s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Peasants%27_Revolt",
+    "summary": "English uprising led by Wat Tyler against the poll tax, feudal obligations, and serfdom. Protesters marched on London, occupied the Tower, and briefly forced the young King Richard II to promise reforms. The revolt was suppressed, its leaders executed, but it accelerated the end of serfdom in England and demonstrated collective peasant power.",
+    "tags": [
+      "england",
+      "medieval",
+      "revolt",
+      "peasants",
+      "class",
+      "serfdom",
+      "taxation",
+      "wat tyler"
+    ]
+  },
+  {
+    "id": "william_the_conqueror",
+    "label": "William the Conqueror",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1060s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/William_the_Conqueror",
+    "summary": "Duke of Normandy who conquered England in 1066, establishing a new ruling class and transforming English governance, language, and culture. His Domesday Book was history's first comprehensive land survey. William's conquest is the last successful invasion of England.",
+    "tags": [
+      "england",
+      "medieval",
+      "conquest",
+      "norman",
+      "feudalism",
+      "king",
+      "domesday"
+    ]
+  },
+  {
+    "id": "joan_of_arc",
+    "label": "Joan of Arc",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1420s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Joan_of_Arc",
+    "summary": "French peasant girl who at 17 claimed divine visions directing her to lead the French army against the English in the Hundred Years' War. Lifted the siege of Orl\u00e9ans (1429), turned the war's tide, and was captured and burned as a heretic by the English in 1431. Canonized in 1920 and a symbol of French national identity.",
+    "tags": [
+      "france",
+      "medieval",
+      "hundred years war",
+      "religion",
+      "nationalism",
+      "heresy",
+      "female leader"
+    ]
+  },
+  {
+    "id": "thomas_becket",
+    "label": "Thomas Becket",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1160s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Becket",
+    "summary": "Archbishop of Canterbury assassinated in his cathedral in 1170 by knights acting on a suggestion by King Henry II ('Will no one rid me of this turbulent priest?'). The murder shocked medieval Europe, forced Henry to submit to papal authority, and canonized Becket \u2014 exemplifying the church-state conflict that defined medieval European politics.",
+    "tags": [
+      "england",
+      "medieval",
+      "church",
+      "state",
+      "king henry ii",
+      "assassination",
+      "church-state conflict"
+    ]
   }
 ]

@@ -5004,69 +5004,6 @@
     "confidence": "confirmed"
   },
   {
-    "id": "world_war_two__hiroshima_nagasaki",
-    "source": "world_war_two",
-    "target": "hiroshima_nagasaki",
-    "type": "PRODUCED",
-    "label": "Produced",
-    "note": "Hiroshima and Nagasaki bombings occurred in final weeks of WWII",
-    "confidence": "confirmed"
-  },
-  {
-    "id": "world_war_two__the_holocaust",
-    "source": "world_war_two",
-    "target": "the_holocaust",
-    "type": "PRODUCED",
-    "label": "Produced",
-    "note": "Holocaust was carried out under cover and conditions of WWII",
-    "confidence": "confirmed"
-  },
-  {
-    "id": "world_war_two__human_rights_declaration",
-    "source": "world_war_two",
-    "target": "human_rights_declaration",
-    "type": "PRODUCED",
-    "label": "Produced",
-    "note": "UDHR was direct response to WWII atrocities",
-    "confidence": "confirmed"
-  },
-  {
-    "id": "world_war_two__fascism",
-    "source": "world_war_two",
-    "target": "fascism",
-    "type": "DISCREDITED",
-    "label": "Discredited",
-    "note": "Allied victory discredited fascism as governing ideology globally",
-    "confidence": "confirmed"
-  },
-  {
-    "id": "fascism__world_war_two",
-    "source": "fascism",
-    "target": "world_war_two",
-    "type": "CAUSED",
-    "label": "Caused",
-    "note": "Fascist expansion in Germany and Italy caused WWII",
-    "confidence": "confirmed"
-  },
-  {
-    "id": "world_war_two__decolonization_africa",
-    "source": "world_war_two",
-    "target": "decolonization_africa",
-    "type": "ENABLED",
-    "label": "Enabled",
-    "note": "WWII exhausted European powers enabling post-war decolonization",
-    "confidence": "confirmed"
-  },
-  {
-    "id": "world_war_two__cold_war_nuclear_fear",
-    "source": "world_war_two",
-    "target": "cold_war_nuclear_fear",
-    "type": "PRODUCED",
-    "label": "Produced",
-    "note": "WWII ended with atomic bombings, defining Cold War nuclear terror",
-    "confidence": "confirmed"
-  },
-  {
     "id": "vietnam_war__cold_war_proxy_wars",
     "source": "vietnam_war",
     "target": "cold_war_proxy_wars",
@@ -7333,5 +7270,1130 @@
     "source": "tiananmen_square_1989",
     "target": "chinese_cultural_revolution",
     "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "world_war_ii__human_rights_declaration",
+    "source": "world_war_ii",
+    "target": "human_rights_declaration",
+    "type": "PRODUCED",
+    "label": "atrocities prompted universal rights framework",
+    "note": "WWII atrocities, especially the Holocaust, directly prompted the 1948 Universal Declaration of Human Rights.",
+    "confidence": "high"
+  },
+  {
+    "id": "world_war_ii__fascism",
+    "source": "world_war_ii",
+    "target": "fascism",
+    "type": "DISCREDITED",
+    "label": "Allied victory delegitimized fascist ideology",
+    "note": "Allied victory in WWII discredited fascism as a viable political system.",
+    "confidence": "high"
+  },
+  {
+    "id": "fascism__world_war_ii",
+    "source": "fascism",
+    "target": "world_war_ii",
+    "type": "CAUSED",
+    "label": "fascist expansionism triggered war",
+    "note": "Fascist ideology driving German and Italian expansionism was a primary cause of WWII.",
+    "confidence": "high"
+  },
+  {
+    "id": "world_war_ii__decolonization_africa",
+    "source": "world_war_ii",
+    "target": "decolonization_africa",
+    "type": "ENABLED",
+    "label": "weakened European powers could not hold colonies",
+    "note": "WWII exhausted European colonial powers economically and militarily, accelerating African independence movements.",
+    "confidence": "high"
+  },
+  {
+    "id": "world_war_ii__cold_war_nuclear_fear",
+    "source": "world_war_ii",
+    "target": "cold_war_nuclear_fear",
+    "type": "PRODUCED",
+    "label": "atomic bombings launched nuclear era anxiety",
+    "note": "Use of atomic bombs in 1945 initiated the nuclear age and the existential fear that defined the Cold War era.",
+    "confidence": "high"
+  },
+  {
+    "id": "haudenosaunee_confederacy__trail_of_tears",
+    "source": "haudenosaunee_confederacy",
+    "target": "trail_of_tears",
+    "type": "FORCED_INTO",
+    "label": "sovereign confederacy destroyed by removal",
+    "note": "The Cherokee Nation and neighboring peoples who built sophisticated governance were forcibly removed by the Indian Removal Act.",
+    "confidence": "high"
+  },
+  {
+    "id": "haudenosaunee_confederacy__cherokee_nation",
+    "source": "haudenosaunee_confederacy",
+    "target": "cherokee_nation",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both developed constitutional self-governance",
+    "note": "Both the Haudenosaunee and Cherokee developed written constitutional systems of self-governance before European dispossession.",
+    "confidence": "high"
+  },
+  {
+    "id": "cherokee_nation__trail_of_tears",
+    "source": "cherokee_nation",
+    "target": "trail_of_tears",
+    "type": "FORCED_INTO",
+    "label": "nation forcibly removed from homeland",
+    "note": "The Cherokee Nation was the primary people forcibly marched on the Trail of Tears despite U.S. Supreme Court rulings in their favor.",
+    "confidence": "high"
+  },
+  {
+    "id": "andrew_jackson__cherokee_nation",
+    "source": "andrew_jackson",
+    "target": "cherokee_nation",
+    "type": "EXPLOITED",
+    "label": "Indian Removal Act destroyed Cherokee sovereignty",
+    "note": "Andrew Jackson signed and enforced the Indian Removal Act (1830) stripping Cherokee of their lands despite Supreme Court protection.",
+    "confidence": "high"
+  },
+  {
+    "id": "sioux_nation__treaty_of_fort_laramie",
+    "source": "sioux_nation",
+    "target": "treaty_of_fort_laramie",
+    "type": "PRODUCED",
+    "label": "negotiated treaty protecting Black Hills",
+    "note": "The Sioux negotiated the Fort Laramie Treaty securing the Black Hills as sovereign territory.",
+    "confidence": "high"
+  },
+  {
+    "id": "treaty_of_fort_laramie__sioux_nation",
+    "source": "treaty_of_fort_laramie",
+    "target": "sioux_nation",
+    "type": "ENABLED",
+    "label": "treaty promised territorial sovereignty",
+    "note": "The treaty guaranteed Sioux territory \u2014 broken when gold was discovered in the Black Hills in 1874.",
+    "confidence": "high"
+  },
+  {
+    "id": "sioux_nation__lakota_ghost_dance",
+    "source": "sioux_nation",
+    "target": "lakota_ghost_dance",
+    "type": "PRODUCED",
+    "label": "Lakota embraced ghost dance prophecy",
+    "note": "The Ghost Dance spread rapidly through the Lakota and other Sioux peoples as conditions on reservations worsened.",
+    "confidence": "high"
+  },
+  {
+    "id": "lakota_ghost_dance__wounded_knee_massacre_1890",
+    "source": "lakota_ghost_dance",
+    "target": "wounded_knee_massacre_1890",
+    "type": "CAUSED",
+    "label": "U.S. used Ghost Dance as pretext for massacre",
+    "note": "U.S. authorities declared the Ghost Dance a threat, moved to arrest Sitting Bull (who was killed), and the resulting standoff culminated in the Wounded Knee Massacre.",
+    "confidence": "high"
+  },
+  {
+    "id": "sitting_bull__lakota_ghost_dance",
+    "source": "sitting_bull",
+    "target": "lakota_ghost_dance",
+    "type": "ENABLED",
+    "label": "supported the movement among Lakota",
+    "note": "Sitting Bull's support for the Ghost Dance marked him as a target; Indian police came to arrest him and he was killed.",
+    "confidence": "high"
+  },
+  {
+    "id": "sitting_bull__wounded_knee_massacre_1890",
+    "source": "sitting_bull",
+    "target": "wounded_knee_massacre_1890",
+    "type": "CAUSED",
+    "label": "his assassination triggered the final confrontation",
+    "note": "Sitting Bull's killing two weeks before Wounded Knee destabilized the Lakota and contributed to the fearful standoff.",
+    "confidence": "high"
+  },
+  {
+    "id": "sitting_bull__sioux_nation",
+    "source": "sitting_bull",
+    "target": "sioux_nation",
+    "type": "ENABLED",
+    "label": "led Sioux resistance for two decades",
+    "note": "Sitting Bull was the paramount spiritual and political leader of the Sioux resistance from the 1860s through his assassination in 1890.",
+    "confidence": "high"
+  },
+  {
+    "id": "crazy_horse__sioux_nation",
+    "source": "crazy_horse",
+    "target": "sioux_nation",
+    "type": "ENABLED",
+    "label": "led Sioux military resistance",
+    "note": "Crazy Horse was the foremost Lakota war leader, instrumental in victories at Rosebud Creek and Little Bighorn.",
+    "confidence": "high"
+  },
+  {
+    "id": "crazy_horse__sitting_bull",
+    "source": "crazy_horse",
+    "target": "sitting_bull",
+    "type": "ENABLED",
+    "label": "alliance won at Little Bighorn",
+    "note": "Crazy Horse and Sitting Bull cooperated to defeat Custer's 7th Cavalry at the Battle of Little Bighorn in 1876.",
+    "confidence": "high"
+  },
+  {
+    "id": "wounded_knee_massacre_1890__american_indian_movement",
+    "source": "wounded_knee_massacre_1890",
+    "target": "american_indian_movement",
+    "type": "CAUSED",
+    "label": "symbol of injustice fueled 20th-century activism",
+    "note": "The 1890 massacre became a defining symbol for AIM, which chose Wounded Knee as the site of its 1973 occupation for this reason.",
+    "confidence": "high"
+  },
+  {
+    "id": "american_indian_movement__wounded_knee_1973",
+    "source": "american_indian_movement",
+    "target": "wounded_knee_1973",
+    "type": "CAUSED",
+    "label": "AIM organized the 71-day occupation",
+    "note": "AIM leaders Russell Means and Dennis Banks organized the 1973 occupation at the site of the 1890 massacre.",
+    "confidence": "high"
+  },
+  {
+    "id": "wounded_knee_1973__leonard_peltier",
+    "source": "wounded_knee_1973",
+    "target": "leonard_peltier",
+    "type": "CAUSED",
+    "label": "federal crackdown led to Pine Ridge confrontation",
+    "note": "Post-Wounded Knee FBI presence on Pine Ridge reservation led directly to the 1975 shootout and Peltier's conviction.",
+    "confidence": "high"
+  },
+  {
+    "id": "leonard_peltier__american_indian_movement",
+    "source": "leonard_peltier",
+    "target": "american_indian_movement",
+    "type": "ENABLED",
+    "label": "AIM activist at Pine Ridge",
+    "note": "Peltier was present at Pine Ridge as an AIM member protecting residents from right-wing vigilantes before the fatal confrontation.",
+    "confidence": "high"
+  },
+  {
+    "id": "vine_deloria_jr__american_indian_movement",
+    "source": "vine_deloria_jr",
+    "target": "american_indian_movement",
+    "type": "ENABLED",
+    "label": "intellectual framework for indigenous rights",
+    "note": "Deloria's writings provided legal and philosophical grounding for the treaty-rights arguments that AIM advanced.",
+    "confidence": "high"
+  },
+  {
+    "id": "geronimo__american_indian_movement",
+    "source": "geronimo",
+    "target": "american_indian_movement",
+    "type": "ENABLED",
+    "label": "symbol of unbroken resistance",
+    "note": "Geronimo's legacy of prolonged armed resistance inspired subsequent indigenous rights activists.",
+    "confidence": "medium"
+  },
+  {
+    "id": "chief_joseph__vine_deloria_jr",
+    "source": "chief_joseph",
+    "target": "vine_deloria_jr",
+    "type": "ENABLED",
+    "label": "exemplar of dignified indigenous leadership",
+    "note": "Chief Joseph's eloquence and moral authority shaped the tradition of Native leadership that Deloria articulated in writing.",
+    "confidence": "medium"
+  },
+  {
+    "id": "american_indian_movement__standing_rock_protests",
+    "source": "american_indian_movement",
+    "target": "standing_rock_protests",
+    "type": "ENABLED",
+    "label": "built infrastructure for indigenous resistance",
+    "note": "AIM's decades of work building indigenous solidarity networks enabled the rapid mobilization at Standing Rock.",
+    "confidence": "medium"
+  },
+  {
+    "id": "treaty_of_fort_laramie__standing_rock_protests",
+    "source": "treaty_of_fort_laramie",
+    "target": "standing_rock_protests",
+    "type": "CAUSED",
+    "label": "pipeline crossed treaty-protected land",
+    "note": "Standing Rock Sioux invoked the 1868 Fort Laramie Treaty in opposing the pipeline \u2014 the same treaty violated 150 years earlier.",
+    "confidence": "high"
+  },
+  {
+    "id": "trail_of_tears__indian_boarding_schools",
+    "source": "trail_of_tears",
+    "target": "indian_boarding_schools",
+    "type": "ENABLED",
+    "label": "removal set stage for cultural destruction",
+    "note": "Forced physical removal was followed by forced cultural removal through boarding school assimilation policy.",
+    "confidence": "high"
+  },
+  {
+    "id": "indian_boarding_schools__american_indian_movement",
+    "source": "indian_boarding_schools",
+    "target": "american_indian_movement",
+    "type": "CAUSED",
+    "label": "generational trauma fueled resistance movement",
+    "note": "Many AIM founders were boarding school survivors or children of survivors; the trauma shaped their radicalization.",
+    "confidence": "high"
+  },
+  {
+    "id": "kingdom_of_axum__swahili_coast_trade",
+    "source": "kingdom_of_axum",
+    "target": "swahili_coast_trade",
+    "type": "ENABLED",
+    "label": "Axumite Red Sea control preceded Swahili networks",
+    "note": "Axum's control of Red Sea trade routes laid the foundation for later Swahili Coast trading networks.",
+    "confidence": "medium"
+  },
+  {
+    "id": "swahili_coast_trade__kingdom_of_kongo",
+    "source": "swahili_coast_trade",
+    "target": "kingdom_of_kongo",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both sophisticated pre-colonial African trade networks",
+    "note": "Both represent advanced pre-colonial African commercial civilizations disrupted by European colonization.",
+    "confidence": "medium"
+  },
+  {
+    "id": "kingdom_of_kongo__transatlantic_slave_trade",
+    "source": "kingdom_of_kongo",
+    "target": "transatlantic_slave_trade",
+    "type": "EXPLOITED",
+    "label": "Kongo royals sold captives but lost control of the trade",
+    "note": "Portuguese exploitation transformed limited slave trading into a systematic drain; Kongo rulers protested but were economically overwhelmed.",
+    "confidence": "high"
+  },
+  {
+    "id": "benin_kingdom__great_zimbabwe",
+    "source": "benin_kingdom",
+    "target": "great_zimbabwe",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both exemplify colonial erasure of African civilization",
+    "note": "European colonizers denied African authorship of both Benin Bronzes and Great Zimbabwe's stone architecture.",
+    "confidence": "high"
+  },
+  {
+    "id": "maji_maji_rebellion__decolonization_africa",
+    "source": "maji_maji_rebellion",
+    "target": "decolonization_africa",
+    "type": "ENABLED",
+    "label": "early anti-colonial resistance seeded later independence movements",
+    "note": "Maji Maji demonstrated African capacity for large-scale resistance and became a symbol for later nationalist movements.",
+    "confidence": "medium"
+  },
+  {
+    "id": "haile_selassie__league_of_nations",
+    "source": "haile_selassie",
+    "target": "league_of_nations",
+    "type": "DISCREDITED",
+    "label": "League's failure to act on Ethiopia exposed its weakness",
+    "note": "Selassie's 1936 address to the League after Italian invasion, and the League's failure to respond, discredited the institution globally.",
+    "confidence": "high"
+  },
+  {
+    "id": "haile_selassie__decolonization_africa",
+    "source": "haile_selassie",
+    "target": "decolonization_africa",
+    "type": "ENABLED",
+    "label": "helped found the OAU/African Union",
+    "note": "Selassie was instrumental in founding the Organization of African Unity in 1963, coordinating pan-African independence movements.",
+    "confidence": "high"
+  },
+  {
+    "id": "jomo_kenyatta__decolonization_africa",
+    "source": "jomo_kenyatta",
+    "target": "decolonization_africa",
+    "type": "ENABLED",
+    "label": "led Kenya to independence from Britain",
+    "note": "Kenyatta's leadership brought Kenya to independence in 1963, the model case of peaceful decolonization after the Mau Mau suppression.",
+    "confidence": "high"
+  },
+  {
+    "id": "haile_selassie__jomo_kenyatta",
+    "source": "haile_selassie",
+    "target": "jomo_kenyatta",
+    "type": "ENABLED",
+    "label": "Selassie's pan-Africanism inspired East African independence",
+    "note": "Selassie's vision of pan-African solidarity and Ethiopian independence provided inspiration for East African independence leaders.",
+    "confidence": "medium"
+  },
+  {
+    "id": "julius_nyerere__decolonization_africa",
+    "source": "julius_nyerere",
+    "target": "decolonization_africa",
+    "type": "ENABLED",
+    "label": "led Tanganyika/Tanzania independence; promoted pan-Africanism",
+    "note": "Nyerere brought Tanganyika to independence in 1961 and later united it with Zanzibar to form Tanzania.",
+    "confidence": "high"
+  },
+  {
+    "id": "jomo_kenyatta__julius_nyerere",
+    "source": "jomo_kenyatta",
+    "target": "julius_nyerere",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "contemporaneous East African independence leaders",
+    "note": "Kenyatta and Nyerere were the two central figures in East African independence, frequently collaborating on pan-African initiatives.",
+    "confidence": "high"
+  },
+  {
+    "id": "zhou_dynasty__han_dynasty",
+    "source": "zhou_dynasty",
+    "target": "han_dynasty",
+    "type": "CAUSED",
+    "label": "Warring States \u2192 Qin unification \u2192 Han empire",
+    "note": "Zhou collapse via Warring States led to Qin unification and then the Han Dynasty that established the imperial template.",
+    "confidence": "high"
+  },
+  {
+    "id": "yuan_dynasty__ming_dynasty",
+    "source": "yuan_dynasty",
+    "target": "ming_dynasty",
+    "type": "CAUSED",
+    "label": "Mongol rule's oppression fueled Han Ming revolt",
+    "note": "The Yuan's ethnic hierarchy and heavy taxation provoked the Red Turban Rebellion that brought the Ming dynasty to power in 1368.",
+    "confidence": "high"
+  },
+  {
+    "id": "ming_dynasty__qing_dynasty",
+    "source": "ming_dynasty",
+    "target": "qing_dynasty",
+    "type": "CAUSED",
+    "label": "Ming collapse enabled Manchu conquest",
+    "note": "The Ming dynasty's internal collapse enabled the Manchu invasion and establishment of the Qing in 1644.",
+    "confidence": "high"
+  },
+  {
+    "id": "qing_dynasty__opium_wars",
+    "source": "qing_dynasty",
+    "target": "opium_wars",
+    "type": "PRODUCED",
+    "label": "Qing weakness invited British imposition of opium trade",
+    "note": "Qing refusal to trade on British terms led to the Opium Wars (1839\u201342, 1856\u201360) that forced open Chinese markets.",
+    "confidence": "high"
+  },
+  {
+    "id": "opium_wars__qing_dynasty",
+    "source": "opium_wars",
+    "target": "qing_dynasty",
+    "type": "CAUSED",
+    "label": "defeats accelerated dynastic decline",
+    "note": "The Opium War defeats exposed Qing military weakness and triggered nationalist resentment that fueled both the Taiping and Boxer rebellions.",
+    "confidence": "high"
+  },
+  {
+    "id": "qing_dynasty__taiping_rebellion",
+    "source": "qing_dynasty",
+    "target": "taiping_rebellion",
+    "type": "PRODUCED",
+    "label": "Qing corruption and post-Opium war misery fueled rebellion",
+    "note": "Qing governance failures and post-Opium War poverty created the conditions for Hong Xiuquan's mass movement.",
+    "confidence": "high"
+  },
+  {
+    "id": "hong_xiuquan__taiping_rebellion",
+    "source": "hong_xiuquan",
+    "target": "taiping_rebellion",
+    "type": "CAUSED",
+    "label": "led the Taiping Heavenly Kingdom",
+    "note": "Hong Xiuquan founded and led the Taiping Heavenly Kingdom from 1850 until his death just before the rebellion's defeat in 1864.",
+    "confidence": "high"
+  },
+  {
+    "id": "taiping_rebellion__qing_dynasty",
+    "source": "taiping_rebellion",
+    "target": "qing_dynasty",
+    "type": "CAUSED",
+    "label": "devastated Qing capacity and legitimacy",
+    "note": "The 20M+ death toll and economic destruction of the Taiping Rebellion permanently weakened the Qing dynasty.",
+    "confidence": "high"
+  },
+  {
+    "id": "empress_dowager_cixi__qing_dynasty",
+    "source": "empress_dowager_cixi",
+    "target": "qing_dynasty",
+    "type": "ENABLED",
+    "label": "dominated Qing politics for 47 years",
+    "note": "Cixi's regency defined the late Qing period from 1861 to her death in 1908.",
+    "confidence": "high"
+  },
+  {
+    "id": "empress_dowager_cixi__boxer_rebellion",
+    "source": "empress_dowager_cixi",
+    "target": "boxer_rebellion",
+    "type": "ENABLED",
+    "label": "declared war on foreign powers, supporting Boxers",
+    "note": "In 1900 Cixi declared war on all foreign powers and ordered support for the Boxer Uprising \u2014 a catastrophic miscalculation.",
+    "confidence": "high"
+  },
+  {
+    "id": "boxer_rebellion__qing_dynasty",
+    "source": "boxer_rebellion",
+    "target": "qing_dynasty",
+    "type": "CAUSED",
+    "label": "Boxer Protocol accelerated dynastic collapse",
+    "note": "The Boxer Protocol imposed massive indemnities and foreign military presence, leaving the Qing unable to reform or resist revolution.",
+    "confidence": "high"
+  },
+  {
+    "id": "vijayanagara_empire__maratha_empire",
+    "source": "vijayanagara_empire",
+    "target": "maratha_empire",
+    "type": "ENABLED",
+    "label": "Hindu resistance tradition inspired Maratha movement",
+    "note": "Vijayanagara's legacy as the defender of South Indian Hindu culture inspired the Maratha resistance movement of the 17th century.",
+    "confidence": "medium"
+  },
+  {
+    "id": "mughal_empire__vijayanagara_empire",
+    "source": "mughal_empire",
+    "target": "vijayanagara_empire",
+    "type": "CAUSED",
+    "label": "Deccan pressures culminated in Vijayanagara's defeat",
+    "note": "The Deccan Sultanates allied with Mughal pressure to defeat Vijayanagara at the Battle of Talikota (1565).",
+    "confidence": "high"
+  },
+  {
+    "id": "shivaji_maharaj__maratha_empire",
+    "source": "shivaji_maharaj",
+    "target": "maratha_empire",
+    "type": "CAUSED",
+    "label": "founded the Maratha Empire",
+    "note": "Shivaji unified the Maratha chiefs and was crowned Chhatrapati (sovereign) in 1674, founding the empire.",
+    "confidence": "high"
+  },
+  {
+    "id": "maratha_empire__mughal_empire",
+    "source": "maratha_empire",
+    "target": "mughal_empire",
+    "type": "CAUSED",
+    "label": "Maratha wars accelerated Mughal collapse",
+    "note": "Maratha military campaigns against the Mughals drained Mughal resources and contributed to the empire's disintegration after Aurangzeb.",
+    "confidence": "high"
+  },
+  {
+    "id": "guru_nanak__sikh_empire",
+    "source": "guru_nanak",
+    "target": "sikh_empire",
+    "type": "ENABLED",
+    "label": "Sikh faith provided identity and purpose for the Sikh state",
+    "note": "Guru Nanak's teachings created a distinctive Sikh identity that eventually coalesced into political statehood under Ranjit Singh.",
+    "confidence": "high"
+  },
+  {
+    "id": "ranjit_singh__sikh_empire",
+    "source": "ranjit_singh",
+    "target": "sikh_empire",
+    "type": "CAUSED",
+    "label": "founded and built the Sikh Empire",
+    "note": "Ranjit Singh united the Sikh misls and built the empire from 1801 to its height in the 1830s.",
+    "confidence": "high"
+  },
+  {
+    "id": "sikh_empire__maratha_empire",
+    "source": "sikh_empire",
+    "target": "maratha_empire",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both were last indigenous empires defeated by British",
+    "note": "Both the Maratha Confederacy and Sikh Empire represented the final phases of indigenous resistance before British conquest completed.",
+    "confidence": "high"
+  },
+  {
+    "id": "partition_of_bengal_1905__gandhi",
+    "source": "partition_of_bengal_1905",
+    "target": "gandhi",
+    "type": "ENABLED",
+    "label": "anti-partition movement radicalized Indian nationalism",
+    "note": "The Swadeshi movement triggered by partition politicized a generation of nationalists and shaped the movement Gandhi would later lead.",
+    "confidence": "high"
+  },
+  {
+    "id": "amritsar_massacre_1919__gandhi",
+    "source": "amritsar_massacre_1919",
+    "target": "gandhi",
+    "type": "CAUSED",
+    "label": "massacre turned Gandhi toward full independence demand",
+    "note": "Amritsar ended Gandhi's belief that Britain could be worked with through constitutional means, radicalizing his demand for swaraj (self-rule).",
+    "confidence": "high"
+  },
+  {
+    "id": "amritsar_massacre_1919__sepoy_mutiny",
+    "source": "amritsar_massacre_1919",
+    "target": "sepoy_mutiny",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both exemplify British lethal force against Indian civilians",
+    "note": "Jallianwala Bagh echoed the post-Sepoy Mutiny massacres \u2014 British use of overwhelming lethal force to suppress Indian resistance.",
+    "confidence": "medium"
+  },
+  {
+    "id": "bhimrao_ambedkar__gandhi",
+    "source": "bhimrao_ambedkar",
+    "target": "gandhi",
+    "type": "DISCREDITED",
+    "label": "challenged Gandhi's paternalistic approach to caste",
+    "note": "Ambedkar opposed Gandhi's support for varnashrama (caste system reform rather than abolition) and the patronizing 'Harijan' framing, demanding full social revolution.",
+    "confidence": "high"
+  },
+  {
+    "id": "bhimrao_ambedkar__sepoy_mutiny",
+    "source": "bhimrao_ambedkar",
+    "target": "sepoy_mutiny",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both represent resistance to entrenched hierarchy",
+    "note": "Both the Sepoy Mutiny and Ambedkar's Dalit movement challenged hierarchical systems that oppressed lower castes.",
+    "confidence": "medium"
+  },
+  {
+    "id": "cahokia__mississippian_culture",
+    "source": "cahokia",
+    "target": "mississippian_culture",
+    "type": "ENABLED",
+    "label": "Cahokia was the cultural and political center",
+    "note": "Cahokia was the apex city of the Mississippian culture, its influence radiating trade and religious practices across the continent.",
+    "confidence": "high"
+  },
+  {
+    "id": "mississippian_culture__haudenosaunee_confederacy",
+    "source": "mississippian_culture",
+    "target": "haudenosaunee_confederacy",
+    "type": "ENABLED",
+    "label": "eastern woodland traditions influenced Haudenosaunee",
+    "note": "Mississippian cultural networks overlapped with the northeastern cultures from which the Haudenosaunee Confederacy emerged.",
+    "confidence": "medium"
+  },
+  {
+    "id": "encomienda_system__potosi_silver_mines",
+    "source": "encomienda_system",
+    "target": "potosi_silver_mines",
+    "type": "ENABLED",
+    "label": "encomienda labor fed the mines",
+    "note": "The mita forced labor system at Potos\u00ed was the encomienda system applied to mining \u2014 the same structure with even more lethal conditions.",
+    "confidence": "high"
+  },
+  {
+    "id": "aztec_empire__tlaxcalan_alliance",
+    "source": "aztec_empire",
+    "target": "tlaxcalan_alliance",
+    "type": "CAUSED",
+    "label": "Aztec extraction of Tlaxcalan tribute created enemy ally",
+    "note": "The Aztec system of extracting sacrificial victims and tribute from subjugated peoples made the Tlaxcalans eager to ally against them.",
+    "confidence": "high"
+  },
+  {
+    "id": "tlaxcalan_alliance__aztec_empire",
+    "source": "tlaxcalan_alliance",
+    "target": "aztec_empire",
+    "type": "CAUSED",
+    "label": "alliance provided the forces that destroyed the empire",
+    "note": "Without Tlaxcalan support, Cort\u00e9s could not have defeated the Aztec Empire. The conquest was fundamentally an indigenous coalition war.",
+    "confidence": "high"
+  },
+  {
+    "id": "inca_empire__encomienda_system",
+    "source": "inca_empire",
+    "target": "encomienda_system",
+    "type": "PRODUCED",
+    "label": "Spain built encomienda on existing mita labor system",
+    "note": "The Spanish adapted the existing Incan mita (corv\u00e9e labor) system into the encomienda, making the transition to colonial exploitation more efficient.",
+    "confidence": "high"
+  },
+  {
+    "id": "inca_empire__tupac_amaru_ii",
+    "source": "inca_empire",
+    "target": "tupac_amaru_ii",
+    "type": "ENABLED",
+    "label": "Inca legacy provided symbolic legitimacy for revolt",
+    "note": "T\u00fapac Amaru II invoked Inca ancestry and used the name of the last Sapa Inca to legitimize his revolt against Spain.",
+    "confidence": "high"
+  },
+  {
+    "id": "potosi_silver_mines__encomienda_system",
+    "source": "potosi_silver_mines",
+    "target": "encomienda_system",
+    "type": "ENABLED",
+    "label": "demand for mine labor institutionalized forced labor",
+    "note": "Potos\u00ed's enormous labor demands were the primary driver of the mita/encomienda system's most brutal form.",
+    "confidence": "high"
+  },
+  {
+    "id": "maya_codex_burning__maya_civilization",
+    "source": "maya_codex_burning",
+    "target": "maya_civilization",
+    "type": "CAUSED",
+    "label": "destroyed primary records of Maya civilization",
+    "note": "The burning of thousands of Maya books eliminated most of the written record of Maya science, history, and religious thought.",
+    "confidence": "high"
+  },
+  {
+    "id": "diego_de_landa__maya_codex_burning",
+    "source": "diego_de_landa",
+    "target": "maya_codex_burning",
+    "type": "CAUSED",
+    "label": "ordered and oversaw the burning",
+    "note": "De Landa personally ordered the auto-da-f\u00e9 at Man\u00ed in July 1562 that destroyed virtually all surviving Maya manuscripts.",
+    "confidence": "high"
+  },
+  {
+    "id": "bartolome_de_las_casas__encomienda_system",
+    "source": "bartolome_de_las_casas",
+    "target": "encomienda_system",
+    "type": "DISCREDITED",
+    "label": "documented atrocities leading to New Laws (1542)",
+    "note": "Las Casas's testimony led to the New Laws of 1542 which theoretically ended the encomienda \u2014 though enforcement was weak.",
+    "confidence": "high"
+  },
+  {
+    "id": "bartolome_de_las_casas__christopher_columbus",
+    "source": "bartolome_de_las_casas",
+    "target": "christopher_columbus",
+    "type": "PRODUCED",
+    "label": "was a child when Columbus arrived; later documented the consequences",
+    "note": "Las Casas's father sailed with Columbus; Las Casas himself arrived in Hispaniola in 1502 and witnessed the destruction Columbus had begun.",
+    "confidence": "high"
+  },
+  {
+    "id": "tupac_amaru_ii__haitian_revolution",
+    "source": "tupac_amaru_ii",
+    "target": "haitian_revolution",
+    "type": "ENABLED",
+    "label": "revolt inspired enslaved people across the Americas",
+    "note": "News of Tupac Amaru II's revolt spread across Latin America and the Caribbean, influencing the consciousness of enslaved people who would lead the Haitian Revolution a decade later.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ottoman_empire__tanzimat_reforms",
+    "source": "ottoman_empire",
+    "target": "tanzimat_reforms",
+    "type": "PRODUCED",
+    "label": "empire attempted modernization under European pressure",
+    "note": "Tanzimat was the Ottoman response to military defeats and European demands for commercial access and minority protections.",
+    "confidence": "high"
+  },
+  {
+    "id": "tanzimat_reforms__ottoman_debt_crisis",
+    "source": "tanzimat_reforms",
+    "target": "ottoman_debt_crisis",
+    "type": "CAUSED",
+    "label": "modernization borrowed heavily from European banks",
+    "note": "Tanzimat-era infrastructure projects required foreign loans, leading to the debt default and European financial control by 1881.",
+    "confidence": "high"
+  },
+  {
+    "id": "tanzimat_reforms__young_turks_movement",
+    "source": "tanzimat_reforms",
+    "target": "young_turks_movement",
+    "type": "ENABLED",
+    "label": "created educated secular reformers who radicalized",
+    "note": "Tanzimat's new schools educated a generation of Westernized officers and bureaucrats who became the Young Turks.",
+    "confidence": "high"
+  },
+  {
+    "id": "greek_war_of_independence__ottoman_empire",
+    "source": "greek_war_of_independence",
+    "target": "ottoman_empire",
+    "type": "CAUSED",
+    "label": "first successful nationalist dismemberment of empire",
+    "note": "Greek independence established the precedent that Ottoman territories could be detached through nationalist revolt with European support.",
+    "confidence": "high"
+  },
+  {
+    "id": "greek_war_of_independence__balkan_wars_1912",
+    "source": "greek_war_of_independence",
+    "target": "balkan_wars_1912",
+    "type": "ENABLED",
+    "label": "nationalism model spread through Balkans",
+    "note": "Greek independence demonstrated that Balkan peoples could win autonomy from the Ottomans, inspiring Serbian, Bulgarian, and Romanian nationalism.",
+    "confidence": "high"
+  },
+  {
+    "id": "balkan_wars_1912__young_turks_movement",
+    "source": "balkan_wars_1912",
+    "target": "young_turks_movement",
+    "type": "ENABLED",
+    "label": "defeats allowed Young Turks to consolidate power",
+    "note": "Military humiliation in the Balkan Wars discredited the old Ottoman leadership and enabled the Young Turk coup of 1913.",
+    "confidence": "high"
+  },
+  {
+    "id": "balkan_wars_1912__armenian_genocide",
+    "source": "balkan_wars_1912",
+    "target": "armenian_genocide",
+    "type": "CAUSED",
+    "label": "defeat created paranoid nationalism targeting minorities",
+    "note": "The loss of European territories to Christian minorities fueled the Young Turks' paranoid nationalism and their view of Armenians as a fifth column.",
+    "confidence": "high"
+  },
+  {
+    "id": "young_turks_movement__armenian_genocide",
+    "source": "young_turks_movement",
+    "target": "armenian_genocide",
+    "type": "CAUSED",
+    "label": "Committee of Union and Progress organized the genocide",
+    "note": "The Young Turk leadership, especially the Three Pashas, planned and executed the Armenian Genocide beginning in April 1915.",
+    "confidence": "high"
+  },
+  {
+    "id": "talaat_pasha__armenian_genocide",
+    "source": "talaat_pasha",
+    "target": "armenian_genocide",
+    "type": "CAUSED",
+    "label": "primary architect of the genocide",
+    "note": "As Grand Vizier and Interior Minister, Talaat Pasha issued the deportation orders and organized the systematic killing apparatus.",
+    "confidence": "high"
+  },
+  {
+    "id": "talaat_pasha__young_turks_movement",
+    "source": "talaat_pasha",
+    "target": "young_turks_movement",
+    "type": "ENABLED",
+    "label": "one of the Three Pashas who led the movement",
+    "note": "Talaat was one of the three dominant figures of the Young Turk CUP alongside Enver and Cemal.",
+    "confidence": "high"
+  },
+  {
+    "id": "young_turks_movement__ataturk",
+    "source": "young_turks_movement",
+    "target": "ataturk",
+    "type": "ENABLED",
+    "label": "Young Turk military culture produced Kemal",
+    "note": "Atat\u00fcrk emerged from the same Young Turk military culture but led the nationalist resistance after Ottoman defeat.",
+    "confidence": "high"
+  },
+  {
+    "id": "ataturk__ottoman_empire",
+    "source": "ataturk",
+    "target": "ottoman_empire",
+    "type": "CAUSED",
+    "label": "abolished the sultanate, ended the empire",
+    "note": "Atat\u00fcrk's Grand National Assembly formally abolished the Ottoman Sultanate in 1922 and the Caliphate in 1924, ending a 600-year empire.",
+    "confidence": "high"
+  },
+  {
+    "id": "ottoman_debt_crisis__ottoman_empire",
+    "source": "ottoman_debt_crisis",
+    "target": "ottoman_empire",
+    "type": "CAUSED",
+    "label": "financial dependency accelerated collapse",
+    "note": "European financial control stripped the empire of economic sovereignty, accelerating its decline toward WWI and dissolution.",
+    "confidence": "high"
+  },
+  {
+    "id": "ferguson_protests_2014__george_floyd_murder",
+    "source": "ferguson_protests_2014",
+    "target": "george_floyd_murder",
+    "type": "ENABLED",
+    "label": "Ferguson built infrastructure for 2020 uprising",
+    "note": "The BLM movement, activist networks, and collective trauma built since Ferguson created the conditions for the massive 2020 response.",
+    "confidence": "high"
+  },
+  {
+    "id": "ferguson_protests_2014__black_lives_matter",
+    "source": "ferguson_protests_2014",
+    "target": "black_lives_matter",
+    "type": "ENABLED",
+    "label": "Ferguson nationalized the BLM movement",
+    "note": "BLM was founded in 2013 but Ferguson in 2014 transformed it from a social media hashtag into a national movement.",
+    "confidence": "high"
+  },
+  {
+    "id": "breonna_taylor_killing__george_floyd_murder",
+    "source": "breonna_taylor_killing",
+    "target": "george_floyd_murder",
+    "type": "ENABLED",
+    "label": "Taylor killing compounded outrage when Floyd was killed",
+    "note": "Breonna Taylor's killing (March 2020) primed widespread outrage such that Floyd's killing (May 2020) triggered historic protests.",
+    "confidence": "high"
+  },
+  {
+    "id": "breonna_taylor_killing__black_lives_matter",
+    "source": "breonna_taylor_killing",
+    "target": "black_lives_matter",
+    "type": "ENABLED",
+    "label": "galvanized BLM movement in 2020",
+    "note": "Taylor's case highlighted the specific vulnerability of Black women to police violence, broadening BLM's focus.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_lives_matter__george_floyd_murder",
+    "source": "black_lives_matter",
+    "target": "george_floyd_murder",
+    "type": "ENABLED",
+    "label": "BLM built framework to respond to Floyd's killing",
+    "note": "The organizational infrastructure and framing built by BLM allowed immediate, massive, organized response to Floyd's killing.",
+    "confidence": "high"
+  },
+  {
+    "id": "civil_rights_movement__black_lives_matter",
+    "source": "civil_rights_movement",
+    "target": "black_lives_matter",
+    "type": "ENABLED",
+    "label": "BLM continues and extends the civil rights tradition",
+    "note": "BLM builds on the civil rights movement's unfinished work while confronting the specific new forms of racial capitalism and carceral violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "cointelpro__fred_hampton",
+    "source": "cointelpro",
+    "target": "fred_hampton",
+    "type": "CAUSED",
+    "label": "COINTELPRO operation assassinated Hampton",
+    "note": "The FBI's COINTELPRO program targeting the Black Panthers organized the December 1969 raid in which Hampton was killed.",
+    "confidence": "high"
+  },
+  {
+    "id": "fred_hampton__civil_rights_movement",
+    "source": "fred_hampton",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "label": "built multiracial Rainbow Coalition",
+    "note": "Hampton's cross-racial organizing extended the civil rights tradition toward class-based multiracial solidarity.",
+    "confidence": "high"
+  },
+  {
+    "id": "angela_davis__cointelpro",
+    "source": "angela_davis",
+    "target": "cointelpro",
+    "type": "PRODUCED",
+    "label": "she was a primary COINTELPRO target",
+    "note": "Davis was placed on the FBI's Most Wanted list in 1970, a direct product of COINTELPRO's targeting of radical Black activists.",
+    "confidence": "high"
+  },
+  {
+    "id": "january_6_capitol_riot__ukraine_russia_war",
+    "source": "january_6_capitol_riot",
+    "target": "ukraine_russia_war",
+    "type": "ENABLED",
+    "label": "U.S. democratic weakness emboldened Russian aggression",
+    "note": "Jan 6's demonstration of U.S. democratic fragility likely factored into Putin's calculation that U.S. support for Ukraine would be limited.",
+    "confidence": "medium"
+  },
+  {
+    "id": "covid_vaccine_hesitancy__covid_19_pandemic",
+    "source": "covid_vaccine_hesitancy",
+    "target": "covid_19_pandemic",
+    "type": "PRODUCED",
+    "label": "hesitancy prolonged the pandemic and increased death toll",
+    "note": "Vaccine hesitancy slowed the U.S. and global vaccination rollout, extending the pandemic and causing preventable deaths.",
+    "confidence": "high"
+  },
+  {
+    "id": "ai_large_language_models__surveillance_state_china",
+    "source": "ai_large_language_models",
+    "target": "surveillance_state_china",
+    "type": "ENABLED",
+    "label": "AI advances enabled mass surveillance scale",
+    "note": "Advances in machine learning and facial recognition that underpinned LLM development also enabled the Chinese surveillance state.",
+    "confidence": "medium"
+  },
+  {
+    "id": "aung_san_suu_kyi__myanmar_coup_2021",
+    "source": "aung_san_suu_kyi",
+    "target": "myanmar_coup_2021",
+    "type": "PRODUCED",
+    "label": "her elected government was the coup's primary target",
+    "note": "Suu Kyi's government was arrested and overthrown in the February 2021 coup.",
+    "confidence": "high"
+  },
+  {
+    "id": "xi_jinping__surveillance_state_china",
+    "source": "xi_jinping",
+    "target": "surveillance_state_china",
+    "type": "CAUSED",
+    "label": "built and expanded China's surveillance infrastructure",
+    "note": "Under Xi's leadership, China's surveillance system expanded dramatically from 2012 onward, including the Xinjiang system.",
+    "confidence": "high"
+  },
+  {
+    "id": "xi_jinping__tiananmen_square_massacre",
+    "source": "xi_jinping",
+    "target": "tiananmen_square_massacre",
+    "type": "ENABLED",
+    "label": "built political career within CCP post-Tiananmen system",
+    "note": "Xi's rise to power took place within the post-Tiananmen CCP system that established repression as the response to political demands.",
+    "confidence": "medium"
+  },
+  {
+    "id": "volodymyr_zelensky__ukraine_russia_war",
+    "source": "volodymyr_zelensky",
+    "target": "ukraine_russia_war",
+    "type": "ENABLED",
+    "label": "leadership defined Ukrainian resistance",
+    "note": "Zelensky's decision to remain in Kyiv and his communication skill mobilized Ukrainian society and international support.",
+    "confidence": "high"
+  },
+  {
+    "id": "edward_bernays__chile_coup_1973",
+    "source": "edward_bernays",
+    "target": "chile_coup_1973",
+    "type": "ENABLED",
+    "label": "PR techniques used to frame \u00c1rbenz as communist in 1954 Guatemala; same model for Chile",
+    "note": "Bernays engineered the 1954 CIA-backed Guatemala coup using PR campaigns for United Fruit; the same playbook was used against Allende.",
+    "confidence": "medium"
+  },
+  {
+    "id": "edward_bernays__vietnam_war",
+    "source": "edward_bernays",
+    "target": "vietnam_war",
+    "type": "ENABLED",
+    "label": "invented the propaganda apparatus used for war manufacture",
+    "note": "Bernays's techniques for manufacturing public consent were adopted by U.S. government and military for justifying military interventions.",
+    "confidence": "medium"
+  },
+  {
+    "id": "j_edgar_hoover__cointelpro",
+    "source": "j_edgar_hoover",
+    "target": "cointelpro",
+    "type": "CAUSED",
+    "label": "personally created and directed COINTELPRO",
+    "note": "Hoover created COINTELPRO in 1956 and personally approved operations targeting civil rights leaders including King and Hampton.",
+    "confidence": "high"
+  },
+  {
+    "id": "j_edgar_hoover__civil_rights_movement",
+    "source": "j_edgar_hoover",
+    "target": "civil_rights_movement",
+    "type": "PRODUCED",
+    "label": "FBI actively worked to destroy civil rights leadership",
+    "note": "Hoover viewed the civil rights movement as a communist threat; COINTELPRO targeted King, SNCC, and Panthers specifically to destroy the movement.",
+    "confidence": "high"
+  },
+  {
+    "id": "henry_kissinger__chile_coup_1973",
+    "source": "henry_kissinger",
+    "target": "chile_coup_1973",
+    "type": "CAUSED",
+    "label": "orchestrated U.S. destabilization leading to the coup",
+    "note": "Kissinger said 'I don't see why we need to stand by and watch a country go communist due to the irresponsibility of its own people' \u2014 authorizing CIA operations that enabled Pinochet's coup.",
+    "confidence": "high"
+  },
+  {
+    "id": "feudal_system__black_death_social_impact",
+    "source": "feudal_system",
+    "target": "black_death_social_impact",
+    "type": "PRODUCED",
+    "label": "feudal labor surplus sustained by plague's elimination",
+    "note": "The feudal system depended on abundant serf labor; the Black Death's population collapse undermined this by making surviving workers scarce.",
+    "confidence": "high"
+  },
+  {
+    "id": "feudal_system__magna_carta",
+    "source": "feudal_system",
+    "target": "magna_carta",
+    "type": "PRODUCED",
+    "label": "baronial class produced the charter to limit royal power",
+    "note": "Magna Carta was a product of feudal barons asserting their rights against the king \u2014 operating within the feudal logic of contractual obligations.",
+    "confidence": "high"
+  },
+  {
+    "id": "feudal_system__peasants_revolt_1381",
+    "source": "feudal_system",
+    "target": "peasants_revolt_1381",
+    "type": "CAUSED",
+    "label": "feudal obligations and poll tax triggered revolt",
+    "note": "The poll tax of 1381 was the immediate trigger, but the underlying cause was the feudal system's oppressive obligations that post-plague peasants had new power to resist.",
+    "confidence": "high"
+  },
+  {
+    "id": "william_the_conqueror__norman_conquest_1066",
+    "source": "william_the_conqueror",
+    "target": "norman_conquest_1066",
+    "type": "CAUSED",
+    "label": "led and won the conquest",
+    "note": "William the Conqueror's victory at Hastings personally accomplished the Norman Conquest.",
+    "confidence": "high"
+  },
+  {
+    "id": "norman_conquest_1066__feudal_system",
+    "source": "norman_conquest_1066",
+    "target": "feudal_system",
+    "type": "ENABLED",
+    "label": "Conquest imposed fully articulated feudalism on England",
+    "note": "The Norman Conquest reorganized English land tenure on strict feudal lines, creating the most sophisticated feudal system in Europe.",
+    "confidence": "high"
+  },
+  {
+    "id": "norman_conquest_1066__magna_carta",
+    "source": "norman_conquest_1066",
+    "target": "magna_carta",
+    "type": "ENABLED",
+    "label": "Norman baronial class created tension requiring charter",
+    "note": "The Norman-descended barons who forced Magna Carta from King John were a direct product of the social structure the Conquest created.",
+    "confidence": "high"
+  },
+  {
+    "id": "crusades__thomas_becket",
+    "source": "crusades",
+    "target": "thomas_becket",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both exemplify medieval church-state power conflict",
+    "note": "Both the Crusades (Pope vs. secular rulers) and Becket's assassination (King vs. Church) reflect the fundamental church-state power struggle.",
+    "confidence": "medium"
+  },
+  {
+    "id": "feudal_system__crusades",
+    "source": "feudal_system",
+    "target": "crusades",
+    "type": "ENABLED",
+    "label": "feudal military structure provided the crusade armies",
+    "note": "The feudal military obligation system provided the knights and armies that made the Crusades logistically possible.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_death__black_death_social_impact",
+    "source": "black_death",
+    "target": "black_death_social_impact",
+    "type": "CAUSED",
+    "label": "plague caused the social disruption",
+    "note": "The Black Death (bubonic plague) was the direct cause of the social upheaval that followed.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_death_social_impact__peasants_revolt_1381",
+    "source": "black_death_social_impact",
+    "target": "peasants_revolt_1381",
+    "type": "CAUSED",
+    "label": "labor scarcity gave peasants power to revolt",
+    "note": "Post-Black Death labor scarcity gave surviving peasants leverage they had never had; the revolt exploited this power shift.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_death_social_impact__protestant_reformation",
+    "source": "black_death_social_impact",
+    "target": "protestant_reformation",
+    "type": "ENABLED",
+    "label": "Church's failure during plague undermined its authority",
+    "note": "The Church's inability to explain or stop the plague undermined its claim to divine authority, preparing the ground for Reformation critiques.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_death_social_impact__hanseatic_league",
+    "source": "black_death_social_impact",
+    "target": "hanseatic_league",
+    "type": "ENABLED",
+    "label": "post-plague economic disruption accelerated merchant capitalism",
+    "note": "The Black Death disrupted traditional feudal economic arrangements, accelerating the shift toward merchant capitalism that the Hanseatic League represented.",
+    "confidence": "medium"
+  },
+  {
+    "id": "hanseatic_league__protestant_reformation",
+    "source": "hanseatic_league",
+    "target": "protestant_reformation",
+    "type": "ENABLED",
+    "label": "merchant cities provided safe haven for Reformation ideas",
+    "note": "Hanseatic merchant cities like Hamburg and Lubeck were among the first to adopt Lutheranism, giving the Reformation urban commercial backing.",
+    "confidence": "high"
+  },
+  {
+    "id": "joan_of_arc__feudal_system",
+    "source": "joan_of_arc",
+    "target": "feudal_system",
+    "type": "DISCREDITED",
+    "label": "peasant girl commanding armies challenged the feudal hierarchy",
+    "note": "Joan's leadership by divine mandate rather than noble birth challenged feudal assumptions about who could hold military and political authority.",
+    "confidence": "medium"
+  },
+  {
+    "id": "thomas_becket__magna_carta",
+    "source": "thomas_becket",
+    "target": "magna_carta",
+    "type": "ENABLED",
+    "label": "church-crown conflict weakened royal authority",
+    "note": "Becket's murder and Henry II's penance established that the Church could constrain royal power, contributing to the principle that kings are subject to law.",
+    "confidence": "medium"
   }
 ]
