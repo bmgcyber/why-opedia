@@ -1,14 +1,14 @@
 # HANDOFF.md — Why-Opedia
 
-> Read this file at the start of every session. It is the source of truth for current state, objectives, and decisions made.
+> Read this file at the start of every session. It is the source of truth for current state, objectives, and decisions made. Read `prompts/PURPOSE.md` before adding content.
 
 ---
 
 ## PROJECT OVERVIEW
 
-Why-opedia is a causal graph encyclopedia — a knowledge graph where nodes are historical events, people, movements, mechanisms, and institutions, and edges are typed causal relationships (CAUSED, ENABLED, PRODUCED, SHARES_MECHANISM_WITH, DISCREDITED, NORMALIZED, COLONIZED, EXPLOITED, FORCED_INTO, FRAGMENTED_INTO, PROVIDED_COVER_FOR, SELF_REINFORCES).
+Why-opedia is a causal graph encyclopedia — a knowledge graph where nodes are historical events, people, movements, mechanisms, and institutions, and edges are typed causal relationships.
 
-The north star is in `prompts/PURPOSE.md`. Read it.
+**North star:** `prompts/PURPOSE.md` — read it before every session.
 
 ---
 
@@ -16,163 +16,79 @@ The north star is in `prompts/PURPOSE.md`. Read it.
 
 ```
 data/
-  scopes.json                    — defines all scopes (global, global/history, etc.)
+  scopes.json                    — defines all scopes
   global/
-    history/
-      nodes.json                 — history nodes (events, persons, movements, institutions, eras)
-      edges.json                 — history-to-history edges only
-    economics/
-      nodes.json                 — economics scope nodes
-      edges.json
-    [other scopes...]
+    nodes.json                   — portal nodes (one per scope)
+    history/nodes.json + edges.json
+    economics/nodes.json + edges.json
+    politics/nodes.json + edges.json
+    psychology/nodes.json + edges.json
+    media/nodes.json + edges.json
+    health/nodes.json + edges.json
   mechanisms/
-    nodes.json                   — cross-scope mechanism/reference nodes
-    edges.json                   — ALL cross-scope edges go here (mechanism↔history, mechanism↔mechanism)
+    nodes.json                   — cross-scope mechanism/concept nodes
+    edges.json                   — ALL cross-scope edges (any scope ↔ mechanism, or scope ↔ scope)
 ```
 
-**Critical rule:** Cross-scope edges (e.g., a history node → a mechanism node) go in `data/mechanisms/edges.json`. Same-scope history edges go in `data/global/history/edges.json`.
+**Critical routing rules:**
+- Same-scope edges → that scope's `edges.json`
+- ANY cross-scope edge (history → mechanism, history → economics, etc.) → `data/mechanisms/edges.json`
+- Adding a new scope → must also add portal node to `data/global/nodes.json` AND add scope name to both `subScopes` arrays in `js/scope-manager.js`
 
-### Edge types available:
+### Edge types:
 `CAUSED`, `COLONIZED`, `DISCREDITED`, `ENABLED`, `EXPLOITED`, `FORCED_INTO`, `FRAGMENTED_INTO`, `NORMALIZED`, `PRODUCED`, `PROVIDED_COVER_FOR`, `SELF_REINFORCES`, `SHARES_MECHANISM_WITH`
 
 ### Node categories:
-- `person` — historical individuals
-- `event` — specific historical events
-- `movement` — social/political/religious movements
-- `institution` — lasting organizations/structures
-- `era` — broad time periods
-- `ideology` — belief systems
-- `phenomenon` — observed patterns
-- `mechanism` — analytical concepts (mostly in mechanisms scope)
-- `reference` — cross-scope reference nodes
+`person`, `event`, `movement`, `institution`, `era`, `ideology`, `phenomenon`, `mechanism`, `reference`
+
+### Edge ID convention: `{source_id}__{target_id}` (double underscore)
+
+### Rules for people:
+- **Never add floating person nodes** — every person must have at least 2 edges to existing nodes
+- Person nodes go in the scope where their primary activity occurred (usually `global/history`)
 
 ---
 
 ## CURRENT DATASET STATE (as of 2026-03-26, Session 3)
 
-| File | Count |
-|------|-------|
-| History nodes | **411** |
-| History edges | **890** |
-| Mechanism edges | **1296** |
-| Economics edges | **74** |
-| Mechanism nodes | **144** |
-| **Person nodes (history scope)** | **183** |
+| Scope | Nodes | Edges |
+|-------|-------|-------|
+| History | **411** | **890** |
+| Economics | 29 | 74 |
+| Politics | 110 | 321 |
+| Psychology | 38 | 107 |
+| Media | 31 | 82 |
+| Health | 31 | 81 |
+| Mechanisms | **144** | **1296** (cross-scope) |
+| **Person nodes (history)** | **183** | — |
+| **Total nodes** | **~794** | **~2851** |
+
+**Data integrity:** 0 truly broken edge references. Cross-scope refs to unloaded scopes are filtered by the renderer.
 
 ---
 
-## WHAT WAS DONE SESSION 3
+## CRITICAL TECHNICAL DECISIONS (don't undo these)
 
-### Fix: Economics Scope Now Visible
-- Added `portal-economics` portal node to `data/global/nodes.json`
-- Added `'economics'` to both `subScopes` arrays in `js/scope-manager.js` (`enterGlobalView` and `getMechanismCrossScope`)
-- Economics scope is now a first-class scope alongside media, politics, psychology, health, history
-
-### Content: Four Major Areas Added (+50 history nodes, +222 edges)
-
-**Pre-Columbian Americas (14 nodes):**
-`aztec_empire`, `maya_civilization`, `inca_empire`, `spanish_conquest_mexico`, `spanish_conquest_peru`, `columbian_exchange`, `mayan_collapse`, `montezuma_ii`, `pachacuti`, `atahualpa`, `francisco_pizarro`, `cuauhtemoc`, `la_malinche`
-
-**2020s Content (10 nodes):**
-`covid_19_pandemic`, `george_floyd_murder`, `blm_movement`, `january_6_insurrection`, `ukraine_russia_war`, `metoo_movement`, `greta_thunberg`, `climate_crisis_activism`, `smartphone_social_media_era`, `donald_trump`
-
-**African History (10 nodes):**
-`mali_empire`, `songhai_empire`, `mansa_musa`, `sundiata_keita`, `ashanti_empire`, `battle_of_adwa`, `menelik_ii`, `kwame_nkrumah`, `patrice_lumumba`, `thomas_sankara`
-
-**South Asian History (8 nodes):**
-`maurya_empire`, `ashoka`, `chandragupta_maurya`, `mughal_empire`, `akbar_the_great`, `aurangzeb`, `sepoy_mutiny`, `bengal_famine_1943`
-
-**Chinese History (8 nodes):**
-`han_dynasty`, `tang_dynasty`, `wu_zetian`, `song_dynasty`, `ming_dynasty`, `zheng_he`, `opium_wars`, `taiping_rebellion`, `tiananmen_square_1989`
-
-### Economics Scope Wired In (+78 cross-scope edges)
-Added 44 cross-scope edges connecting history persons and events to economics nodes (Chicago School, shock doctrine, primitive accumulation, etc.)
-
----
-
-## WHAT WAS DONE SESSION 2
-
-### Fix 1: Graph Renderer — Edge Validation (CRITICAL)
-Added a 2-line filter in `js/graph-renderer.js` `loadGraphData()` to remove edges referencing nodes not in the current loaded node set before passing to the d3-force simulation. Invalid edges were causing NaN position values → charge repulsion operated unopposed → nodes flew everywhere. This fix is permanent and handles all future cross-scope edge mismatches.
+### 1. Edge filter in renderer (Session 2)
+`js/graph-renderer.js` `loadGraphData()` filters edges against the current node set before passing to d3-force. **Never remove this.** Invalid edges cause NaN forces → nodes fly apart.
 
 ```javascript
-// Added to loadGraphData() before links array is built:
 const validIds = new Set(nodes.map(n => n.id));
 const links = edges
   .filter(e => validIds.has(e.source) && validIds.has(e.target))
   .map(e => ({ ...e, source: e.source, target: e.target }));
 ```
 
-### Fix 2: MLK Duplicate Node Merge
-- Removed duplicate `martin_luther_king` node (kept `martin_luther_king_jr`)
-- Updated 4 edges: `civil_rights_movement__martin_luther_king`, `martin_luther_king__vietnam_war`, `martin_luther_king__nonviolent_resistance`, `martin_luther_king__lgbtq_rights_movement` → all now reference `martin_luther_king_jr`
+### 2. Economics scope wiring (Session 3)
+Economics portal was missing from `data/global/nodes.json` and `scope-manager.js`. Both are now fixed. If adding future scopes, replicate this pattern — three places need updating: `scopes.json`, `data/global/nodes.json`, and both `subScopes` arrays in `js/scope-manager.js`.
 
-### Phase 1: Comprehensive Person Node Additions (+70 people)
-Added 55 person nodes in the first batch and 15 in the second, covering major gaps across all historical topics. **People are always linked to relevant nodes — no floating nodes.**
-
-**Batch 1 additions (+55):**
-| Category | People Added |
-|----------|-------------|
-| American History | `abraham_lincoln`, `rosa_parks`, `susan_b_anthony`, `elizabeth_cady_stanton`, `emmeline_pankhurst`, `thurgood_marshall`, `john_lewis`, `thomas_paine`, `benjamin_franklin`, `thaddeus_stevens`, `medgar_evers` |
-| European History | `augusto_caesar`, `archduke_franz_ferdinand`, `kaiser_wilhelm_ii`, `adolf_eichmann`, `napoleon_iii`, `otto_von_bismarck`, `louis_xvi`, `cardinal_richelieu`, `gustavus_adolphus`, `william_wilberforce`, `ferdinand_isabella`, `matthias_hopkins`, `pope_urban_ii`, `slobodan_milosevic`, `radovan_karadzic` |
-| Africa / Middle East | `steve_biko`, `desmond_tutu`, `mustafa_kemal_ataturk`, `enver_pasha`, `saddam_hussein` |
-| Asia | `kublai_khan`, `sun_yat_sen`, `chiang_kai_shek`, `deng_xiaoping`, `emperor_meiji`, `ito_hirobumi`, `judah_maccabee` |
-| Latin America | `fulgencio_batista`, `pancho_villa`, `emiliano_zapata`, `henri_christophe` |
-| Exploration / Colonialism | `christopher_columbus`, `hernan_cortes`, `vasco_da_gama` |
-| Science / Economics | `nicolaus_copernicus`, `milton_friedman`, `john_maynard_keynes`, `andrew_carnegie`, `francis_galton` |
-| Philosophy | `jean_paul_sartre`, `simone_de_beauvoir`, `michel_foucault`, `noam_chomsky`, `gustavo_gutierrez` |
-
-**Batch 2 additions (+15):**
-`taharqa`, `marcus_aurelius`, `henry_v_england`, `duke_of_wellington`, `fw_de_klerk`, `porfirio_diaz`, `kim_il_sung`, `harriet_beecher_stowe`, `ulysses_grant`, `epicurus`, `david_hume`, `simone_weil`, `jose_marti`, `robert_e_lee`, `olaudah_equiano`
-
-**Edges added:** +98 history-to-history, +150 cross-scope (batch 1) + 29 history + 33 cross-scope (batch 2) = **310 edges total this session**
+### 3. Edge type filters (Session 3)
+`js/filter-manager.js` now exposes all 8 "other" edge types individually in a collapsible sidebar section. `EDGE_FILTER_MAIN` was removed — `edgePassesFilter()` now checks `enabledEdgeFilters.has(type)` directly for all types.
 
 ---
 
-## DATA INTEGRITY STATUS
+## INTEGRITY CHECK SCRIPT (run after every bulk addition)
 
-- **Truly broken edges (reference non-existent nodes): 0**
-- Cross-scope edges that reference nodes in unloaded scopes: 146 history, 289 mechanism — these are VALID, filtered safely by the renderer fix
-- Economics scope: 0 broken edges (clean)
-
----
-
-## KNOWN REMAINING GAPS (for future sessions)
-
-### Content gaps still to address:
-- Psychology scope (38 nodes) — some communities lack full person/event context
-- Indigenous history: Trail of Tears/boarding schools covered but pre-colonial cultures absent (Haudenosaunee, Lakota, etc.)
-- Pre-Columbian Americas added ✓ — but deeper nodes possible (Tlaxcalan alliance, Potosí mines, etc.)
-- African history significantly expanded ✓ — but East African civilizations absent (Axum, Swahili Coast, etc.)
-- Chinese dynasties: Han, Tang, Song, Ming added ✓ — Shang, Zhou, Yuan still absent
-- Ottoman era deep cuts: Tanzimat reforms, Young Turks, etc.
-- 2020s content added ✓ — but AI/algorithmic governance mostly in mechanisms only
-- South Asian: Maurya, Mughal added ✓ — Maratha Empire, Sikh Empire, Vijayanagara absent
-- Media scope (31 nodes) could use more contemporary nodes (Tanzimat reforms, etc.)
-
-### Lower-priority person nodes not yet added:
-- `genghis_khan` expansion — have him but light connections to `silk_road`, `plague`
-- `rodrigo_borgia` (Pope Alexander VI) — corruption, church-state entanglement
-- `thomas_more` — English Reformation, Utopia (critiqued enclosures)
-- `simone_de_beauvoir` — added ✓
-- `frantz_fanon` — present in politics scope already
-
-### Technical debt:
-- `reconstruction_era` is referenced in edges but is a mechanism node (it exists in mechanisms); verify it resolves correctly
-- Some edges use `SHARES_MECHANISM_WITH` loosely — could be tightened in future audit
-
----
-
-## DEVELOPMENT GUIDELINES
-
-### Adding nodes:
-1. Check if the ID already exists before creating
-2. Cross-scope edges always go in `data/mechanisms/edges.json`
-3. Same-scope edges go in the scope's `edges.json`
-4. Always verify referential integrity after bulk additions
-5. **People must always be linked to relevant nodes — never add floating person nodes**
-
-### Python pattern for integrity check:
 ```python
 import json, os
 scope_dirs = ['data/global/history','data/global/economics','data/global/media',
@@ -181,21 +97,173 @@ all_ids = set()
 for d in scope_dirs:
     p = f"{d}/nodes.json"
     if os.path.exists(p):
-        with open(p) as f: nodes = json.load(f)
-        all_ids |= {n['id'] for n in nodes}
-# Check edges: source and target in all_ids
-```
+        with open(p) as f: all_ids |= {n['id'] for n in json.load(f)}
 
-### Edge ID convention:
-`{source_id}__{target_id}` (double underscore)
+for scope, ef in [('history','data/global/history/edges.json'),
+                  ('mechanisms','data/mechanisms/edges.json'),
+                  ('economics','data/global/economics/edges.json')]:
+    with open(ef) as f: edges = json.load(f)
+    broken = [(e['id'],e['source'],e['target']) for e in edges
+              if e['source'] not in all_ids or e['target'] not in all_ids]
+    print(f"{scope}: {len(broken)} truly broken")
+    for b in broken: print(f"  {b}")
+```
 
 ---
 
-## GIT STATUS
+## NEXT STEPS: DATASET ADDITIONS (prioritized)
 
-Uncommitted changes as of session end (Session 2):
-- `js/graph-renderer.js` — renderer fix (edge filter in loadGraphData)
-- `data/global/history/nodes.json` — +70 person nodes, MLK duplicate removed
-- `data/global/history/edges.json` — +127 edges
-- `data/mechanisms/edges.json` — +183 edges
-- `HANDOFF.md` — updated
+### Priority 1 — Indigenous North American History
+Currently only Trail of Tears and boarding schools. Need full pre-colonial context.
+- **Nodes to add:** `haudenosaunee_confederacy` (Iroquois — model for U.S. Constitution?), `sioux_nation`, `lakota_ghost_dance`, `wounded_knee_massacre_1890`, `wounded_knee_1973`, `cherokee_nation`, `american_indian_movement`, `treaty_of_fort_laramie`, `standing_rock_protests`
+- **People:** `sitting_bull`, `crazy_horse`, `geronimo`, `chief_joseph`, `vine_deloria_jr`, `leonard_peltier`
+- **Mechanism links:** `dehumanization`, `structural_violence`, `historical_revisionism`, `manufactured_consent`, `resource_extraction`, `broken_epistemology`
+
+### Priority 2 — East African Civilizations
+Only colonial/genocide nodes exist for East Africa.
+- **Nodes to add:** `kingdom_of_axum` (Ethiopia, 1st–7th c.), `swahili_coast_trade`, `great_zimbabwe`, `kingdom_of_kongo`, `benin_kingdom` (famous bronzes, 1180–1897), `maji_maji_rebellion` (German East Africa 1905)
+- **People:** `haile_selassie`, `jomo_kenyatta` (Kenya independence), `julius_nyerere` (Tanzania)
+- **Mechanism links:** `imperialism`, `resource_extraction`, `dehumanization`, `structural_violence`
+
+### Priority 3 — Additional Chinese History
+Yuan dynasty and deeper connections still missing.
+- **Nodes to add:** `yuan_dynasty` (Mongol-ruled China, 1271–1368), `zhou_dynasty` (800-year dynasty, Confucius's era), `boxer_rebellion` (1900), `chinese_exclusion_act_1882` (U.S.)
+- **People:** `hong_xiuquan` (Taiping Rebellion leader), `empress_dowager_cixi` (Qing regent)
+- **Mechanism links:** `in_group_out_group_dynamics`, `cult_dynamics`, `dehumanization`, `imperialism`
+
+### Priority 4 — South Asian Gaps
+Maratha, Sikh, and Vijayanagara empires absent.
+- **Nodes to add:** `maratha_empire` (17th–19th c., resisted Mughals and British), `sikh_empire` (Punjab, 1799–1849), `vijayanagara_empire` (South India, 1336–1646), `partition_of_bengal_1905`, `amritsar_massacre_1919`
+- **People:** `shivaji_maharaj` (Maratha founder), `guru_nanak` (Sikh founder), `ranjit_singh` (Sikh Empire), `bhimrao_ambedkar` (Dalit rights, drafted Indian constitution)
+- **Mechanism links:** `in_group_out_group_dynamics`, `structural_violence`, `dehumanization`, `class_consciousness`
+
+### Priority 5 — Pre-Columbian Depth
+Aztec and Inca added; need deeper nodes.
+- **Nodes to add:** `potosi_silver_mines` (Bolivia — funded European capitalism, 8M deaths), `encomienda_system` (Spanish colonial labor), `tlaxcalan_alliance` (indigenous partners in conquest), `mississippian_culture` (North America mound-builders), `cahokia` (pre-Columbian city larger than London in 1200), `maya_codex_burning` (Diego de Landa burned Maya books 1562)
+- **People:** `bartolome_de_las_casas` (documented Spanish atrocities), `diego_de_landa` (burned Maya books), `tupac_amaru_ii` (Inca revolt leader 1780)
+- **Mechanism links:** `resource_extraction`, `dehumanization`, `structural_violence`, `historical_revisionism`
+
+### Priority 6 — Ottoman Deep Cuts
+Have empire overview and key sultans; need internal reform/collapse arc.
+- **Nodes to add:** `tanzimat_reforms` (Ottoman modernization 1839–1876), `young_turks_movement`, `ottoman_debt_crisis` (1881 — European financial control), `greek_war_of_independence`, `balkan_wars_1912`
+- **People:** `talaat_pasha` (third of the Three Pashas, Armenian Genocide architect alongside Enver)
+- **Mechanism links:** `democratic_backsliding`, `imperialism`, `dehumanization`, `debt_trap`
+
+### Priority 7 — 2020s & Contemporary Depth
+2020s nodes added; need more granularity.
+- **Nodes to add:** `ferguson_protests_2014` (BLM origin), `breonna_taylor_killing`, `covid_vaccine_hesitancy`, `ai_large_language_models` (2022–present), `surveillance_state_china` (Xinjiang, social credit), `myanmar_coup_2021`, `ethiopia_tigray_war`, `haiti_political_collapse`
+- **People:** `xi_jinping` (China's authoritarian consolidation), `aung_san_suu_kyi` (Myanmar), `volodymyr_zelensky`
+- **Mechanism links:** `surveillance_capitalism`, `manufactured_consent`, `democratic_backsliding`, `propaganda`
+
+### Priority 8 — Medieval Europe Depth
+Currently thin between fall of Rome and Renaissance.
+- **Nodes to add:** `black_death_social_impact` (flagellants, pogroms, labor shortage → power shift), `hanseatic_league` (early merchant capitalism), `peasants_revolt_1381`, `feudal_system`, `norman_conquest_1066`
+- **People:** `william_the_conqueror`, `joan_of_arc`, `thomas_becket`
+- **Mechanism links:** `structural_violence`, `class_consciousness`, `propaganda`, `church_state_entanglement`
+
+### Priority 9 — Additional Person Nodes (high-value gaps)
+People with existing topic nodes but no person node:
+- `bartolome_de_las_casas` — documented Spanish atrocities in Americas
+- `sitting_bull` — Sioux, Ghost Dance, Wounded Knee
+- `bhimrao_ambedkar` — Dalit liberation, Indian Constitution
+- `shivaji_maharaj` — Maratha resistance to Mughal/British rule
+- `empress_dowager_cixi` — Qing dynasty regent, blocked modernization
+- `haile_selassie` — Ethiopia, pan-Africanism, Rastafarianism
+- `jomo_kenyatta` — Kenya independence, Mau Mau rebellion
+- `julius_nyerere` — Tanzania, African socialism (Ujamaa)
+- `xi_jinping` — China's authoritarian consolidation
+- `angela_davis` — Black liberation, prison industrial complex
+- `fred_hampton` — Black Panthers, COINTELPRO assassination
+- `edward_bernays` — Father of PR / modern propaganda
+- `j_edgar_hoover` — FBI, COINTELPRO, surveillance state
+- `henry_kissinger` — U.S. foreign policy, Chile coup, Vietnam
+- `hong_xiuquan` — Taiping Rebellion leader
+
+### Priority 10 — Economics Scope Additions
+Economics has good conceptual nodes; thin on historical events.
+- **Nodes to add:** `glass_steagall_repeal_1999`, `bretton_woods_agreement_1944` (distinct from collapse), `federal_reserve_creation_1913`, `wto_formation_1995`, `nafta_1994`, `gig_economy`, `offshore_tax_havens`, `quantitative_easing`, `student_debt_crisis`, `housing_bubble_2008`
+- **Cross-scope edges:** Wire to existing history/mechanism nodes (Great Depression, Keynes, Friedman, Reagan)
+
+---
+
+## NEXT STEPS: TECHNICAL IMPROVEMENTS
+
+### UI / Visualization
+
+**1. Full-Text Search** *(High priority)*
+Add a search input to the sidebar that filters nodes by label or summary text. Currently impossible to find a node without knowing it exists. Implementation: sidebar text input → filter `nodePassesFilter()` to check `node.label.toLowerCase().includes(query)` or `node.summary.toLowerCase().includes(query)`. File: `js/filter-manager.js`.
+
+**2. Timeline / Era Filter** *(Medium priority)*
+Add a decade range slider that filters visible nodes by the `decade` field. Allows exploration of "only WWI-era nodes" etc. Implementation: add decade range to filter state in `filter-manager.js`, apply in `nodePassesFilter()`. File: `js/filter-manager.js`.
+
+**3. Portal Node Counts Auto-Update** *(Medium priority)*
+Portal nodes show hardcoded counts ("168 nodes on history") that go stale as data grows. Fix: compute counts dynamically in `enterGlobalView()` from actual loaded data. File: `js/scope-manager.js` + remove count strings from `data/global/nodes.json`.
+
+**4. "Focus Mode" on Node Click** *(Medium priority)*
+When clicking a node, hide all nodes more than N hops away. Currently clicking shows connections in the sidebar but doesn't simplify the 3D view. Implementation: BFS from selected node in filter-manager, hide distant nodes temporarily. Files: `js/filter-manager.js`, `js/graph-renderer.js`.
+
+**5. Edge Label on Hover** *(Low priority)*
+Show the relation type (CAUSED, ENABLED, etc.) as a label when hovering an edge. 3d-force-graph supports `linkLabel()`. File: `js/graph-renderer.js`.
+
+**6. Graph Statistics Panel** *(Low priority)*
+Small HUD showing: visible node count, visible edge count, top 5 most-connected nodes. Derive from `graphInstance.graphData()` after each load. File: `js/graph-renderer.js` or new `js/stats-panel.js`.
+
+**7. Performance at Scale** *(Medium priority)*
+Global view renders 800+ nodes simultaneously; frame rate degrades on lower-end hardware. Options: (a) reduce charge strength when node count > 500, (b) cluster portal nodes visually until user zooms in, (c) cap label rendering distance more aggressively.
+
+### Data Quality
+
+**8. Duplicate Node Audit** *(Do soon)*
+Known duplicates that need merging:
+- `world_war_two` and `world_war_ii` — keep `world_war_ii`, redirect edges, delete `world_war_two`
+- `french_revolution` and `french_revolution_history` — verify if distinct or duplicate
+- `cold_war_culture` and `cold_war_nuclear_fear` — check overlap
+Pattern for merge: (1) find all edges referencing old ID, (2) update source/target to new ID, (3) deduplicate edge IDs, (4) remove old node.
+
+**9. Politics Scope Mechanism Wiring** *(Medium priority)*
+Politics scope (110 nodes, 321 edges) has very thin cross-scope mechanism connections. A pass through `data/global/politics/nodes.json` to add mechanism edges for each political node would significantly enrich the graph.
+
+**10. SHARES_MECHANISM_WITH Audit** *(Low priority)*
+Many `SHARES_MECHANISM_WITH` edges are loosely used where a proper intermediate mechanism node would be more accurate. Future pass: if A → X and B → X already, replace `A SHARES_MECHANISM_WITH B` with `A → X ← B` pattern.
+
+**11. Cross-Scope Missing Links** *(Ongoing)*
+High-value missing connections:
+- `black_death` → `structural_violence`, `class_consciousness`, `scapegoating`
+- `mongol_conquests` → `structural_violence`, `imperialism`
+- `cold_war_culture` → `manufactured_consent`, `propaganda`, `in_group_out_group_dynamics`
+- `great_migration` → `systemic_racism`, `structural_violence`, `class_consciousness`
+- Most politics-scope nodes lack mechanism connections
+
+### Architecture (Future)
+
+**12. New Scope: Technology**
+`global/technology` scope for: printing press, industrial revolution, telegraph, radio, TV, internet, smartphones, AI. Many mechanism connections exist but are scattered across history.
+
+**13. New Scope: Religion**
+`global/religion` scope for major religions, sects, councils, reformations — currently scattered across history nodes. Would enable dedicated filtering of religious causality chains.
+
+**14. Scope Hierarchy / Sub-scopes**
+Data model supports nested scopes (`children: {}`). Future: `global/history/wwii`, `global/history/antiquity`, etc. for navigable depth without loading everything.
+
+---
+
+## KNOWN BUGS / TECH DEBT
+
+| Issue | File | Priority |
+|-------|------|----------|
+| Portal node counts are hardcoded | `data/global/nodes.json` | Medium |
+| `world_war_two` is a duplicate of `world_war_ii` | `data/global/history/nodes.json` | Do soon |
+| `french_revolution` vs `french_revolution_history` — check if duplicate | history nodes | Low |
+| Some `SHARES_MECHANISM_WITH` edges are imprecise | edges.json files | Low |
+| Politics-scope nodes thin on mechanism edges | `data/global/politics/` | Medium |
+| `augusto_caesar` ID should probably be `augustus_caesar` | history nodes | Low |
+
+---
+
+## SESSION HISTORY SUMMARY
+
+| Session | Key Work |
+|---------|----------|
+| Session 1 | 10 historical topic clusters (Japan, Rome, Spain, China, Ireland, Haiti, etc.); person nodes expanded to 94; HANDOFF.md created |
+| Session 2 | Graph renderer fix (edge filter prevents node scatter); MLK duplicate merged; +70 person nodes (183 total); edge type sidebar expanded to individual types |
+| Session 3 | Economics scope wired in (portal + scope-manager); +50 history nodes across Pre-Columbian Americas, 2020s, Africa, South Asia, China; +320 edges total |
