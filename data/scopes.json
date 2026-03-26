@@ -21,6 +21,10 @@
       "history": {
         "label": "History & Events",
         "children": {}
+      },
+      "economics": {
+        "label": "Economics & Inequality",
+        "children": {}
       }
     }
   }

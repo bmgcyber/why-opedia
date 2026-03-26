@@ -2613,5 +2613,93 @@
       "solidarity",
       "organizing"
     ]
+  },
+  {
+    "id": "wealth_concentration",
+    "label": "Wealth Concentration",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The self-reinforcing process by which accumulated capital generates returns faster than economic output grows (r > g, Piketty), causing wealth to pool at the top. Network effects, compound interest, inheritance, and asset price inflation all accelerate concentration. Once past a threshold, concentrated wealth purchases the political power needed to prevent redistribution, making the mechanism self-sealing.",
+    "decade": "universal",
+    "tags": ["economics", "inequality", "mechanism", "capital", "piketty"],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "regulatory_capture",
+    "label": "Regulatory Capture",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The process by which regulatory agencies designed to act in the public interest become controlled by the industries they are supposed to regulate. Occurs through revolving door hiring, industry funding of regulators' budgets, information asymmetry, and concentrated industry interests versus diffuse public interests.",
+    "decade": "universal",
+    "tags": ["economics", "mechanism", "regulation", "corruption", "governance"],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "rent_seeking",
+    "label": "Rent-Seeking",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Obtaining wealth by manipulating economic or political environments rather than by creating value. Includes lobbying for monopoly protections, land appreciation without improvement, patent evergreening, and financial extraction. Distinguished from profit-seeking by its zero-sum or negative-sum character.",
+    "decade": "universal",
+    "tags": ["economics", "mechanism", "corruption", "monopoly", "political_economy"],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "financialization",
+    "label": "Financialization",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The structural shift in advanced economies where financial activities displace productive investment as the primary source of profit. Manifests in shareholder primacy, stock buybacks over R&D, private equity strip-and-flip, and the expansion of finance to 30%+ of US corporate profits since 1980.",
+    "decade": "1980s–Ongoing",
+    "tags": ["economics", "mechanism", "finance", "neoliberalism", "inequality"],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "wage_suppression",
+    "label": "Wage Suppression",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The systematic mechanisms by which labor income is held below what labor market competition would produce. Includes union busting, non-compete agreements, wage theft, misclassification as contractors, offshoring threats, and direct lobbying against minimum wage increases.",
+    "decade": "universal",
+    "tags": ["economics", "mechanism", "labor", "inequality", "capitalism"],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "monopolization",
+    "label": "Monopolization",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The acquisition of market control sufficient to set prices above competitive levels and exclude rivals. Modern mechanisms: predatory pricing, acquisition of nascent rivals, network effects, platform control of distribution, and weaponization of patents.",
+    "decade": "universal",
+    "tags": ["economics", "mechanism", "monopoly", "competition", "antitrust"],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "austerity_ideology",
+    "label": "Austerity Ideology",
+    "node_type": "ideology",
+    "category": "ideology",
+    "summary": "The political doctrine that governments must cut spending and balance budgets during economic downturns. Empirically refuted but persistent because it serves creditor interests and provides ideological justification for dismantling welfare states.",
+    "decade": "1970s–Ongoing",
+    "tags": ["economics", "ideology", "neoliberalism", "fiscal_policy", "inequality"],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "trickle_down_economics",
+    "label": "Trickle-Down Economics",
+    "node_type": "ideology",
+    "category": "ideology",
+    "summary": "The theory that tax cuts for the wealthy and corporations will generate broad economic growth benefiting all. Implemented as Reagan supply-side policy. Empirical record shows no increase in investment, growth, or wages; the actual effect is upward redistribution.",
+    "decade": "1980s–Ongoing",
+    "tags": ["economics", "ideology", "reaganomics", "neoliberalism", "inequality"],
+    "scope": "mechanisms",
+    "cross_scope": true
   }
 ]

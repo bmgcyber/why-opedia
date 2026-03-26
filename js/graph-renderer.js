@@ -113,6 +113,10 @@ let selectedNodeId = null;
 const portalMaterials = [];
 let pulsePhase = 0;
 
+// Cross-scope mechanism material references for slow emissive pulse
+const mechMaterials = [];
+let mechPulsePhase = 0;
+
 // Semantic zoom (distance-based node tier visibility)
 // Tier 1 = top 25% by degree (always visible)
 // Tier 2 = next 35%         (visible at dist ≤ 500)
@@ -203,6 +207,15 @@ function initRenderer(containerEl) {
     }
   }, 50);
 
+  // Cross-scope mechanism slow breathing pulse (lower frequency than portals)
+  setInterval(() => {
+    mechPulsePhase += 0.025;
+    const pulse = 0.15 + 0.35 * Math.abs(Math.sin(mechPulsePhase));
+    for (const mat of mechMaterials) {
+      mat.emissiveIntensity = pulse;
+    }
+  }, 80);
+
   // Label visibility + semantic zoom update when camera moves
   function onCameraChange() {
     updateLabelVisibility();
@@ -219,11 +232,13 @@ function buildNodeObject(node) {
   const isPortal   = node.category === 'portal';
   const isGhost    = node.ghost === true;
   const isMechanism = ['mechanism', 'ideology', 'phenomenon'].includes(node.category);
+  const isCrossScopeMech = node.cross_scope && isMechanism;
 
-  // Compute size
-  const degree = node.__degree || 0;
-  const size   = 3 + (degree / Math.max(maxNodeDegree, 1)) * 12;
-  node.__size  = size;
+  // Compute size — cross-scope mechanism nodes get 1.5x base before degree scaling
+  const degree     = node.__degree || 0;
+  const baseRadius = isCrossScopeMech ? 3 * 1.5 : 3;
+  const size       = baseRadius + (degree / Math.max(maxNodeDegree, 1)) * 12;
+  node.__size      = size;
 
   const group = new THREE.Group();
 
@@ -268,6 +283,11 @@ function buildNodeObject(node) {
       opacity:     0.75,
       shininess:   80,
     });
+    if (isCrossScopeMech) {
+      mat.emissive = new THREE.Color(CATEGORY_COLOR[node.category] || '#a96ce6');
+      mat.emissiveIntensity = 0.2;
+      mechMaterials.push(mat);
+    }
     group.add(new THREE.Mesh(geo, mat));
   } else {
     // Regular node: sphere with category color
@@ -427,9 +447,10 @@ function loadGraphData(nodes, edges) {
 
   currentGraphData = { nodes, links };
 
-  // Clear old label sprites
+  // Clear old label sprites and material references
   for (const key of Object.keys(labelSprites)) delete labelSprites[key];
   portalMaterials.length = 0;
+  mechMaterials.length = 0;
 
   graphInstance.graphData(currentGraphData);
 

@@ -1721,3 +1721,37 @@ body.sidebar-collapsed #stats {
   display: inline-block;
   text-align: center;
 }
+
+/* ── Tag chips (Tags filter section) ─────────────────────────────────────── */
+
+.sb-tag-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 2px;
+}
+
+.sb-tag-chip {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 11px;
+  line-height: 1;
+  padding: 4px 9px;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+
+.sb-tag-chip:hover {
+  background: var(--surface2);
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.sb-tag-chip.active {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent);
+}

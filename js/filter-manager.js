@@ -18,6 +18,9 @@
   let enabledRegions = new Set();
   let allRegions     = new Set();
 
+  // Tags filter (chip-based, OR logic)
+  const activeTags = new Set();
+
   // Decade / year range filter (null = no constraint on that bound)
   let decadeMinYear = null;
   let decadeMaxYear = null;
@@ -114,6 +117,7 @@
     buildNodeTypeFilters(nodes);
     buildEdgeTypeFilters();
     buildRegionFilter(nodes);
+    buildTagFilter(nodes);
     buildDecadeFilter(nodes);
     updateConnectivitySliderMax(nodes);   // update max only (no listener re-add)
 
@@ -234,6 +238,51 @@
     });
   }
 
+  function buildTagFilter(nodes) {
+    const section = document.getElementById('sb-tags-section');
+    const container = document.getElementById('sb-tags-list');
+    if (!container) return;
+
+    // Count tag frequencies across all non-portal nodes
+    const tagCounts = {};
+    for (const n of nodes) {
+      if (n.category === 'portal') continue;
+      for (const t of (n.tags || [])) {
+        tagCounts[t] = (tagCounts[t] || 0) + 1;
+      }
+    }
+
+    const tags = Object.keys(tagCounts).sort((a, b) => tagCounts[b] - tagCounts[a]).slice(0, 20);
+
+    activeTags.clear();
+    container.innerHTML = '';
+
+    if (!tags.length) {
+      if (section) section.hidden = true;
+      return;
+    }
+
+    if (section) section.hidden = false;
+
+    tags.forEach(tag => {
+      const chip = document.createElement('button');
+      chip.className = 'sb-tag-chip';
+      chip.dataset.tag = tag;
+      chip.textContent = `${escHtml(tag)} (${tagCounts[tag]})`;
+      chip.addEventListener('click', () => {
+        if (activeTags.has(tag)) {
+          activeTags.delete(tag);
+          chip.classList.remove('active');
+        } else {
+          activeTags.add(tag);
+          chip.classList.add('active');
+        }
+        applyFilters();
+      });
+      container.appendChild(chip);
+    });
+  }
+
   // Update only the slider's max value (called on every scope change)
   function updateConnectivitySliderMax(nodes) {
     const slider = document.getElementById('sb-conn-slider');
@@ -268,7 +317,8 @@
       enabledNodeCategories.size < allCategories.size ||
       enabledEdgeFilters.size < EDGE_FILTER_GROUPS.length ||
       (allRegions.size > 0 && enabledRegions.size < allRegions.size) ||
-      decadeMinYear !== null || decadeMaxYear !== null;
+      decadeMinYear !== null || decadeMaxYear !== null ||
+      activeTags.size > 0;
   }
 
   // ── Apply combined filters ────────────────────────────────────────────────
@@ -294,6 +344,8 @@
         const maxY = decadeMaxYear !== null ? decadeMaxYear :  Infinity;
         if (year < minY || year > maxY) continue;
       }
+      // Tags filter (OR logic — node must have at least one active tag)
+      if (activeTags.size > 0 && !(n.tags || []).some(t => activeTags.has(t))) continue;
       visibleNodeIds.add(n.id);
     }
 
@@ -400,6 +452,8 @@
     minConnectivity       = 0;
     selectedNodeId        = null;
     neighborhoodDepth     = 1;
+    activeTags.clear();
+    document.querySelectorAll('.sb-tag-chip').forEach(chip => chip.classList.remove('active'));
 
     document.querySelectorAll('[data-category]').forEach(cb => { cb.checked = true; });
     document.querySelectorAll('[data-edge-filter]').forEach(cb => { cb.checked = true; });

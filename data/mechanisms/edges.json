@@ -7566,5 +7566,923 @@
     "label": "Discredited",
     "note": "Class consciousness is the antidote to false consciousness",
     "confidence": "confirmed"
+  },
+  {
+    "id": "propaganda__trickle_down_economics",
+    "source": "propaganda",
+    "target": "trickle_down_economics",
+    "type": "ENABLED",
+    "label": "manufactured public consent for upward redistribution",
+    "note": "Propaganda mechanisms — from think tank messaging to media framing — created public acceptance of tax cuts for the wealthy as benefiting everyone.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "scapegoating__wealth_concentration",
+    "source": "scapegoating",
+    "target": "wealth_concentration",
+    "type": "ENABLED",
+    "label": "redirected anger from capital to outgroups",
+    "note": "Scapegoating of immigrants, racial minorities, and welfare recipients diverts economic anxiety away from wealth concentration and toward outgroups, preventing class solidarity.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "dehumanization__wage_suppression",
+    "source": "dehumanization",
+    "target": "wage_suppression",
+    "type": "ENABLED",
+    "label": "racialized labor devaluation",
+    "note": "Dehumanization of workers by race, immigration status, or social category enables employers and society to accept below-subsistence wages as natural rather than political.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "regulatory_capture__financial_crisis_2008_mech",
+    "source": "regulatory_capture",
+    "target": "financial_crisis_2008",
+    "type": "ENABLED",
+    "label": "financial industry captured its own oversight",
+    "note": "Greenspan, Rubin, and Summers actively blocked Brooksley Born's attempt to regulate derivatives. Glass-Steagall repeal enabled deposit bank speculation. The captured regulators permitted the conditions for 2008.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "wealth_concentration__regulatory_capture_mech",
+    "source": "wealth_concentration",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "concentrated wealth funds political capture",
+    "note": "The same wealth concentration that deregulation produced funds the lobbying, campaign contributions, and revolving door that deepen regulatory capture.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "enclosure_movement__wage_suppression",
+    "source": "enclosure_movement",
+    "target": "wage_suppression",
+    "type": "CAUSED",
+    "label": "created a class with no choice but to accept wage labor terms",
+    "note": "By eliminating access to common land for subsistence, enclosure removed the floor beneath agricultural wages — workers who could previously refuse bad wages by farming common land now had no alternative. This structural elimination of exit options is the foundational mechanism of wage suppression.",
+    "confidence": "high"
+  },
+  {
+    "id": "enclosure_movement__wealth_concentration",
+    "source": "enclosure_movement",
+    "target": "wealth_concentration",
+    "type": "ENABLED",
+    "label": "privatized common resources into landlord hands",
+    "note": "Enclosure transferred land held in common by communities into the private ownership of landlords and improving farmers — concentrating productive agricultural capital from the many to the few through legislative rather than market mechanisms.",
+    "confidence": "high"
+  },
+  {
+    "id": "enclosure_movement__class_consciousness",
+    "source": "enclosure_movement",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "dispossession made class antagonism structurally visible",
+    "note": "When enclosure explicitly transferred land from common use to private ownership through Acts of Parliament, it made class antagonism legible as a political act rather than natural order — producing the material conditions for working-class political identity.",
+    "confidence": "high"
+  },
+  {
+    "id": "enclosure_movement__structural_violence",
+    "source": "enclosure_movement",
+    "target": "structural_violence",
+    "type": "NORMALIZED",
+    "label": "legislative dispossession normalized as progress",
+    "note": "Enclosure's rhetoric of 'improvement' and agricultural efficiency framed the dispossession of rural communities as rational modernization. This normalization of structural dispossession as development is a template for subsequent colonial and neoliberal appropriation narratives.",
+    "confidence": "high"
+  },
+  {
+    "id": "enclosure_movement__rent_seeking",
+    "source": "enclosure_movement",
+    "target": "rent_seeking",
+    "type": "ENABLED",
+    "label": "created the landlord class extracting rent from previously common land",
+    "note": "Enclosed land became a rent-generating asset — landlords now owned what communities had previously held in common, enabling extraction of value from others' labor and residency without contributing productive activity. The landowner class created by enclosure is the original rent-seeking class.",
+    "confidence": "high"
+  },
+  {
+    "id": "enclosure_movement__marxism",
+    "source": "enclosure_movement",
+    "target": "marxism",
+    "type": "ENABLED",
+    "label": "provided the empirical basis for primitive accumulation theory",
+    "note": "Marx's analysis of 'primitive accumulation' — the historical violence that created the conditions for capitalism — is built primarily on the English enclosure movement. The enclosure case provided Marx with documented evidence that capitalism's origin was not market efficiency but legislative dispossession.",
+    "confidence": "high"
+  },
+  {
+    "id": "chartist_movement__class_consciousness",
+    "source": "chartist_movement",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "first mass articulation of working-class political identity",
+    "note": "Chartism was the first movement to explicitly articulate the laboring class as a political actor demanding constitutional rights — converting economic class position into political consciousness at mass scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "tokugawa_shogunate__preference_falsification",
+    "source": "tokugawa_shogunate",
+    "target": "preference_falsification",
+    "type": "NORMALIZED",
+    "label": "institutionalized performance of loyalty regardless of private belief",
+    "note": "The Tokugawa system made dissent not merely punishable but structurally impossible to express — samurai were required to die for their lord regardless of personal judgment, merchants to accept their low status publicly, and the outcast class to perform their ritual pollution role. The entire social order was organized around performance of assigned role rather than authentic preference.",
+    "confidence": "high"
+  },
+  {
+    "id": "tokugawa_shogunate__structural_violence",
+    "source": "tokugawa_shogunate",
+    "target": "structural_violence",
+    "type": "NORMALIZED",
+    "label": "institutionalized hierarchy embedded violence in social structure",
+    "note": "Samurai held the legal right to kill commoners who showed insufficient respect (kirisute gomen), creating a formal structure in which class-based lethal violence was legally sanctioned. The system embedded violence into the social hierarchy as an enforcement mechanism rather than an exceptional event.",
+    "confidence": "high"
+  },
+  {
+    "id": "eta_hinin_caste_system__dehumanization",
+    "source": "eta_hinin_caste_system",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "legal non-humanity institutionalized as social fact",
+    "note": "The 'hinin' classification — literally 'non-human' — is one of the most explicit cases of legal dehumanization in any caste system. The classification was not metaphorical: it carried specific legal disabilities, residential restrictions, and the formal exclusion from the category of human person in legal proceedings.",
+    "confidence": "high"
+  },
+  {
+    "id": "eta_hinin_caste_system__structural_violence",
+    "source": "eta_hinin_caste_system",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "label": "hereditary impurity imposed economic deprivation by birth",
+    "note": "The eta/hinin system produced structural violence by assigning economic deprivation, social exclusion, and legal disability at birth — converting the accident of parentage into a lifetime of constrained opportunity. Formal abolition in 1871 without remediation preserved the structural outcome.",
+    "confidence": "high"
+  },
+  {
+    "id": "eta_hinin_caste_system__systemic_racism",
+    "source": "eta_hinin_caste_system",
+    "target": "systemic_racism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both encode group status in institutions that persist after formal abolition",
+    "note": "Both the eta/hinin system and American systemic racism demonstrate the same pattern: formal legal abolition (1871 for eta/hinin, 1865 for slavery) without structural remediation preserves the hierarchy through institutional inertia — residential patterns, employment networks, and social capital persist long after the legal distinction is removed.",
+    "confidence": "high"
+  },
+  {
+    "id": "gracchi_brothers__class_consciousness",
+    "source": "gracchi_brothers",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "land reform attempt made class conflict explicit in Roman politics",
+    "note": "The Gracchi's land reform campaigns explicitly framed Roman politics as a conflict between the landless poor (who had lost farms while serving in armies that conquered land now held by the aristocracy) and the elite. Their campaigns are the first large-scale explicit articulation of class interest as a political program in Western history.",
+    "confidence": "high"
+  },
+  {
+    "id": "gracchi_brothers__wealth_concentration",
+    "source": "gracchi_brothers",
+    "target": "wealth_concentration",
+    "type": "CAUSED",
+    "label": "attempted to redistribute wealth; failure accelerated concentration",
+    "note": "The Gracchi's attempts to enforce the lex Licinia Sextia limits on public land holdings (500 iugera maximum) exposed the scale of aristocratic land concentration. Their assassinations removed the only mechanism for redistribution, confirming that wealth concentration could be defended by lethal violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "sulla_march_on_rome__democratic_backsliding",
+    "source": "sulla_march_on_rome",
+    "target": "democratic_backsliding",
+    "type": "CAUSED",
+    "label": "established the precedent that military force resolves constitutional disputes",
+    "note": "Sulla's march on Rome was the first instance in the Republic's history of a constitutional dispute being resolved by military force. Once this threshold was crossed, the constitutional norms protecting republican governance could no longer hold — every subsequent general with a loyal army could now make the same calculation.",
+    "confidence": "high"
+  },
+  {
+    "id": "sulla_march_on_rome__fascism",
+    "source": "sulla_march_on_rome",
+    "target": "fascism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "military force legitimating political power is fascism's defining feature",
+    "note": "Sulla's proscriptions, dictatorial rule, and normalization of political violence against opponents contains the structural DNA of fascism: popular military figure using force to seize constitutional power, eliminating opponents through kill lists, exercising personal rule outside institutional constraints — then presenting it as restoration of order.",
+    "confidence": "medium"
+  },
+  {
+    "id": "roman_republic__democratic_backsliding",
+    "source": "roman_republic",
+    "target": "democratic_backsliding",
+    "type": "PRODUCED",
+    "label": "foundational case study of how republics die",
+    "note": "The Roman Republic's collapse from constitutional governance to military dictatorship over approximately 100 years (133–27 BCE) is the primary historical case referenced by political scientists studying democratic backsliding — used explicitly by Madison in the Federalist Papers as the cautionary precedent for American constitutional design.",
+    "confidence": "high"
+  },
+  {
+    "id": "spanish_inquisition__dehumanization",
+    "source": "spanish_inquisition",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "institutionalized torture and blood purity as legitimate state practice",
+    "note": "The Inquisition normalized the dehumanizing proposition that conversos retained racial contamination regardless of faith — and that torture was a legitimate means of establishing religious truth. Both propositions dehumanized their targets: as racially contaminated and as bodies whose pain could be used to extract institutional purposes.",
+    "confidence": "high"
+  },
+  {
+    "id": "spanish_inquisition__structural_violence",
+    "source": "spanish_inquisition",
+    "target": "structural_violence",
+    "type": "NORMALIZED",
+    "label": "embedded state violence into religious orthodoxy enforcement",
+    "note": "The Inquisition's use of torture, exile, property confiscation, and execution as instruments of religious conformity embedded state violence into the structural maintenance of social order — not as exceptional punishment but as routine administrative process.",
+    "confidence": "high"
+  },
+  {
+    "id": "spanish_inquisition__in_group_out_group_dynamics",
+    "source": "spanish_inquisition",
+    "target": "in_group_out_group_dynamics",
+    "type": "NORMALIZED",
+    "label": "institutionalized religious identity as the boundary of belonging",
+    "note": "The Inquisition created a social order in which religious identity (and ancestral religious identity) determined access to public life, employment, and safety — converting in-group/out-group dynamics from social prejudice into legal infrastructure.",
+    "confidence": "high"
+  },
+  {
+    "id": "limpieza_de_sangre__dehumanization",
+    "source": "limpieza_de_sangre",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "declared racial contamination permanent and conversion irrelevant",
+    "note": "Blood purity doctrine dehumanized conversos by declaring that no act — baptism, piety, cultural assimilation, service, or sacrifice — could remove the contamination of ancestry. The person's agency and choices were irrelevant; their blood determined their worth.",
+    "confidence": "high"
+  },
+  {
+    "id": "limpieza_de_sangre__systemic_racism",
+    "source": "limpieza_de_sangre",
+    "target": "systemic_racism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both embed racial hierarchy into institutional access",
+    "note": "Both limpieza de sangre and systemic racism operate by encoding racial categories into institutional access — employment, education, military, marriage — such that individual merit becomes secondary to group membership. The structural mechanism is identical across 500 years.",
+    "confidence": "medium"
+  },
+  {
+    "id": "european_witch_trials__scapegoating",
+    "source": "european_witch_trials",
+    "target": "scapegoating",
+    "type": "NORMALIZED",
+    "label": "attributed communal misfortune to identifiable human villains",
+    "note": "Witch accusations followed predictable patterns: economic crisis, plague, drought, or child death → attribution to supernatural malice → identification of a vulnerable individual as the cause. The witch trial mechanism converted structural misfortune into personal blame, providing an actionable target for communal anxiety.",
+    "confidence": "high"
+  },
+  {
+    "id": "european_witch_trials__moral_panic",
+    "source": "european_witch_trials",
+    "target": "moral_panic",
+    "type": "PRODUCED",
+    "label": "paranoia about diabolical conspiracy escalated into mass killing",
+    "note": "European witch trials demonstrate the full architecture of moral panic: external threat identified (Satan's conspiracy), designated group (women, especially elderly/marginal), institutional amplification (church, courts), and self-reinforcing dynamics (torture-extracted confessions produce new accusations).",
+    "confidence": "high"
+  },
+  {
+    "id": "european_witch_trials__dehumanization",
+    "source": "european_witch_trials",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "accused were defined as agents of Satan rather than human persons",
+    "note": "The witch trial framework classified accused individuals not as deluded or criminal humans but as willing servants of diabolical power — making them categorically other, dangerous, and requiring destruction rather than rehabilitation.",
+    "confidence": "high"
+  },
+  {
+    "id": "european_witch_trials__in_group_out_group_dynamics",
+    "source": "european_witch_trials",
+    "target": "in_group_out_group_dynamics",
+    "type": "NORMALIZED",
+    "label": "converted social marginality into existential threat status",
+    "note": "Those most likely to be accused — elderly widows, socially isolated women, those with disputes with neighbors — were already marginal community members. The witch trial mechanism converted social marginality into formal out-group status with lethal consequences.",
+    "confidence": "high"
+  },
+  {
+    "id": "european_witch_trials__structural_violence",
+    "source": "european_witch_trials",
+    "target": "structural_violence",
+    "type": "NORMALIZED",
+    "label": "mass killing of women normalized as defensive community action",
+    "note": "The execution of tens of thousands of women was normalized not as violence but as community self-defense — the structural violence was rendered invisible by its framing as defensive necessity. This normalization of gendered lethal violence as protection is structurally similar to contemporary 'honor killing' rationalizations.",
+    "confidence": "medium"
+  },
+  {
+    "id": "malleus_maleficarum__propaganda",
+    "source": "malleus_maleficarum",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "label": "first mass-printed propaganda systematizing institutional persecution",
+    "note": "The Malleus was produced on the newly invented printing press and distributed widely — one of the first uses of mass print media to systematize and scale an ideology of persecution. Its structure (theological justification → identification criteria → interrogation procedures) is the template for propaganda that converts ideological framework into operational instructions.",
+    "confidence": "high"
+  },
+  {
+    "id": "qin_dynasty__propaganda",
+    "source": "qin_dynasty",
+    "target": "propaganda",
+    "type": "NORMALIZED",
+    "label": "standardized script and official history as tools of ideological control",
+    "note": "The Qin standardization of Chinese script was simultaneously a practical administrative reform and an ideological control mechanism — a single imperial script meant a single imperial narrative. Combined with the destruction of alternative historical records, the state controlled the only available framework for understanding the past.",
+    "confidence": "medium"
+  },
+  {
+    "id": "qin_dynasty__historical_revisionism",
+    "source": "qin_dynasty",
+    "target": "historical_revisionism",
+    "type": "PRODUCED",
+    "label": "book burning was the first systematic erasure of historical record",
+    "note": "Qin Shi Huang's decree destroying history, philosophy, and poetry books — preserving only agricultural, medical, and divination texts — was the first recorded large-scale state attempt to physically eliminate the historical record that would allow comparison to alternative political arrangements.",
+    "confidence": "high"
+  },
+  {
+    "id": "qin_dynasty__structural_violence",
+    "source": "qin_dynasty",
+    "target": "structural_violence",
+    "type": "NORMALIZED",
+    "label": "collective punishment embedded violence as bureaucratic enforcement",
+    "note": "Legalist collective punishment — executing entire families (nine clans) for the crimes of one member — embedded lethal violence into the routine enforcement mechanism of the administrative state. Violence was not exceptional but structural: the expected consequence of non-compliance at any level.",
+    "confidence": "high"
+  },
+  {
+    "id": "qin_book_burning__historical_revisionism",
+    "source": "qin_book_burning",
+    "target": "historical_revisionism",
+    "type": "PRODUCED",
+    "label": "physical destruction of records is the ultimate historical revisionism",
+    "note": "By destroying the texts that contained pre-Qin history, philosophy, and cultural memory, Qin Shi Huang did not merely revise history — he eliminated the raw material from which alternatives could be reconstructed. This is historical revisionism at its most complete: not rewriting the past but erasing its existence.",
+    "confidence": "high"
+  },
+  {
+    "id": "qin_book_burning__anti_intellectualism",
+    "source": "qin_book_burning",
+    "target": "anti_intellectualism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both target the intellectual class as threats to power",
+    "note": "The burying of 460 Confucian scholars who refused to destroy their books is the archetypally explicit case of state anti-intellectualism: scholars are threats because their knowledge creates the capacity for independent judgment. Contemporary anti-intellectualism uses social rather than physical elimination, but the target — the capacity for independent epistemic authority — is identical.",
+    "confidence": "medium"
+  },
+  {
+    "id": "irish_famine__structural_violence",
+    "source": "irish_famine",
+    "target": "structural_violence",
+    "type": "NORMALIZED",
+    "label": "market ideology framed preventable death as natural consequence",
+    "note": "The British response normalized the famine's death toll as the natural operation of market forces — not as a policy choice but as the inevitable result of Irish agricultural failure and Irish character. This framing converted structural violence (policy decisions that killed people) into natural disaster.",
+    "confidence": "high"
+  },
+  {
+    "id": "irish_famine__austerity_ideology",
+    "source": "irish_famine",
+    "target": "austerity_ideology",
+    "type": "PRODUCED",
+    "label": "provided the founding empirical case for laissez-faire non-intervention",
+    "note": "British Treasury officials explicitly used the Irish Famine as a demonstration case for laissez-faire principles — Trevelyan's book on the famine presented it as evidence that non-intervention was correct policy. The famine did not merely exemplify austerity ideology; it was actively used to construct and legitimate it.",
+    "confidence": "medium"
+  },
+  {
+    "id": "supply_side_economics__irish_famine",
+    "source": "supply_side_economics",
+    "target": "irish_famine",
+    "type": "ENABLED",
+    "label": "laissez-faire ideology prevented adequate famine relief",
+    "note": "The ideological commitment to non-interference with market forces — the 19th century predecessor of supply-side economics — was the explicit stated reason British authorities refused to purchase food, maintain relief works, or restrict exports during the famine. The death toll was ideologically produced.",
+    "confidence": "high"
+  },
+  {
+    "id": "imperialism__irish_famine",
+    "source": "imperialism",
+    "target": "irish_famine",
+    "type": "ENABLED",
+    "label": "colonial relationship made lethal policy response possible",
+    "note": "Ireland's status as a British colony meant its relief was administered by a foreign power with its own political economy and ideological commitments, and that Irish political interests had no effective representation in the decisions that determined their survival. The colonial relationship is a structural precondition for the famine's preventable scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "charles_trevelyan__austerity_ideology",
+    "source": "charles_trevelyan",
+    "target": "austerity_ideology",
+    "type": "PRODUCED",
+    "label": "documented the ideology of non-intervention as correct famine response",
+    "note": "Trevelyan's published writings — especially his 1848 book 'The Irish Crisis' — are the most thoroughly documented case of an official explicitly articulating why market ideology required accepting mass death rather than distorting natural processes. He was knighted for this work. The documentation makes him the canonical individual case study in austerity ideology.",
+    "confidence": "high"
+  },
+  {
+    "id": "haitian_indemnity__rent_seeking",
+    "source": "haitian_indemnity",
+    "target": "rent_seeking",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "extracted payment for 'property' (enslaved people) that was itself illegitimate",
+    "note": "France demanded payment for 'lost property' — enslaved human beings — using legal force (threat of military blockade) to extract value from the Haitian economy for 122 years. This is rent-seeking in its most naked form: demanding payment for the removal of a threat the payee created.",
+    "confidence": "high"
+  },
+  {
+    "id": "haitian_indemnity__resource_extraction",
+    "source": "haitian_indemnity",
+    "target": "resource_extraction",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "continuous wealth extraction from a sovereign nation for 122 years",
+    "note": "The indemnity functioned as a mechanism for extracting the economic surplus of a sovereign nation — approximately 80% of state revenues in early decades — and transferring it to the former colonial power and its banks. The mechanism was legal rather than military, but the extraction was continuous and structurally identical to colonial resource extraction.",
+    "confidence": "high"
+  },
+  {
+    "id": "haitian_indemnity__structural_violence",
+    "source": "haitian_indemnity",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "label": "debt servicing prevented investment in public welfare for a century",
+    "note": "The indemnity consumed resources that would otherwise have funded schools, roads, hospitals, and economic development. The structural violence was not military — it was the chronic underdevelopment produced by 122 years of enforced capital outflow. This is the mechanism by which formal political freedom coexists with material subjugation.",
+    "confidence": "high"
+  },
+  {
+    "id": "haitian_indemnity__wealth_concentration",
+    "source": "haitian_indemnity",
+    "target": "wealth_concentration",
+    "type": "CAUSED",
+    "label": "transferred Haitian national wealth to French slaveholding class",
+    "note": "The indemnity was paid to the specific individuals who had been slaveholders — concentrating reparation payments to a rentier class for 'property' they had lost. The mechanism transferred sovereign wealth from one of the hemisphere's poorest nations to one of its wealthiest.",
+    "confidence": "high"
+  },
+  {
+    "id": "haitian_indemnity__imperialism",
+    "source": "haitian_indemnity",
+    "target": "imperialism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "demonstrates imperialism persisting through legal-financial mechanisms after decolonization",
+    "note": "The indemnity demonstrates that imperial extraction does not require continued military occupation — it can be embedded in legal agreements, backed by military threat, and enforced through financial mechanisms for over a century after formal independence. This is the template for 20th century debt-based neo-imperialism.",
+    "confidence": "high"
+  },
+  {
+    "id": "thirty_years_war__legitimate_grievance_capture",
+    "source": "thirty_years_war",
+    "target": "legitimate_grievance_capture",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "real theological differences weaponized by political actors",
+    "note": "The Thirty Years War began with genuine confessional grievances (the Defenestration of Prague was a real political crisis) but was rapidly captured by political actors using religion instrumentally to advance dynastic and territorial interests. France, a Catholic power, funded Protestant forces — demonstrating that the religious framing was a vehicle for political interests.",
+    "confidence": "high"
+  },
+  {
+    "id": "thirty_years_war__in_group_out_group_dynamics",
+    "source": "thirty_years_war",
+    "target": "in_group_out_group_dynamics",
+    "type": "NORMALIZED",
+    "label": "religious identity became a kill-or-be-killed group marker",
+    "note": "The war normalized confessional identity (Catholic/Protestant/Calvinist) as the primary marker of friend and enemy — overriding the political, economic, and kinship ties that had previously organized European social life. This radicalization of religious in-group/out-group dynamics produced 8 million deaths.",
+    "confidence": "high"
+  },
+  {
+    "id": "thirty_years_war__radicalization_pipeline",
+    "source": "thirty_years_war",
+    "target": "radicalization_pipeline",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "confessional identity escalated from difference to existential threat",
+    "note": "The war traced the same radicalization pathway as modern pipelines: theological difference → political grievance → armed conflict → atrocity → vengeance cycle → dehumanization of the confessional other as an existential threat requiring elimination rather than coexistence.",
+    "confidence": "medium"
+  },
+  {
+    "id": "peace_of_westphalia__church_state_entanglement",
+    "source": "peace_of_westphalia",
+    "target": "church_state_entanglement",
+    "type": "DISCREDITED",
+    "label": "removed religion as a legitimate casus belli between states",
+    "note": "Westphalia's settlement explicitly established that states could maintain whatever internal religion they chose without external intervention — converting religion from an interstate political issue into a domestic matter. This formally ended the Thirty Years War's logic of confessional intervention and provided the first institutional check on church-state entanglement at the interstate level.",
+    "confidence": "high"
+  },
+  {
+    "id": "state_shinto__manufactured_consent",
+    "source": "state_shinto",
+    "target": "manufactured_consent",
+    "type": "NORMALIZED",
+    "label": "manufactured emperor worship as the basis of national consensus",
+    "note": "State Shinto's mandatory school curriculum produced a population that genuinely believed in divine imperial authority — not through coercion alone but through decades of systematic cultural production. This is manufactured consent in its most complete form: the consent was real, but it was engineered by those who benefited from it.",
+    "confidence": "high"
+  },
+  {
+    "id": "state_shinto__identity_capture",
+    "source": "state_shinto",
+    "target": "identity_capture",
+    "type": "NORMALIZED",
+    "label": "made Japanese identity inseparable from imperial loyalty",
+    "note": "State Shinto fused being Japanese with loyalty to the divine emperor — so that questioning imperial policy became a form of identity betrayal and self-rejection. This is identity capture at civilizational scale: the entire national identity was constructed to make dissent feel like self-annihilation.",
+    "confidence": "high"
+  },
+  {
+    "id": "state_shinto__propaganda",
+    "source": "state_shinto",
+    "target": "propaganda",
+    "type": "NORMALIZED",
+    "label": "mandatory indoctrination from childhood through all state institutions",
+    "note": "State Shinto propaganda operated through every state institution — mandatory school ceremonies, military rituals, neighborhood associations, media — producing a comprehensive ideological environment with no space for alternative frameworks. It is the most thoroughly institutionalized propaganda system in modern history before the totalitarian states of the 1930s.",
+    "confidence": "high"
+  },
+  {
+    "id": "state_shinto__dehumanization",
+    "source": "state_shinto",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "divine Japanese hierarchy rendered non-Japanese as spiritually inferior",
+    "note": "State Shinto's cosmological hierarchy — Japanese as the divine emperor's people, non-Japanese as outside the sacred order — provided the ideological framework for treating Chinese and Korean lives as lesser. This is not incidental but structural: the theology specifically ranked non-Japanese outside the sacred human community.",
+    "confidence": "medium"
+  },
+  {
+    "id": "nanjing_massacre__dehumanization",
+    "source": "nanjing_massacre",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "soldiers publicly competed in killing civilians as sport",
+    "note": "The 'killing contest' between two Japanese officers — counting Chinese civilian deaths and covered approvingly in Japanese newspapers — is one of the most explicit documented cases of dehumanization in operation: killing civilians was framed as competition and entertainment, with no institutional or social mechanism objecting.",
+    "confidence": "high"
+  },
+  {
+    "id": "nanjing_massacre__historical_revisionism",
+    "source": "nanjing_massacre",
+    "target": "historical_revisionism",
+    "type": "PRODUCED",
+    "label": "ongoing Japanese official denial is an active historical revisionism case",
+    "note": "Japanese government officials have repeatedly visited Yasukuni Shrine (which honors convicted war criminals including those responsible for Nanjing), textbooks have minimized the massacre, and prominent politicians have denied its scale — producing an ongoing case study in how states use historical revisionism to manage domestic identity around documented atrocities.",
+    "confidence": "high"
+  },
+  {
+    "id": "unit_731__dehumanization",
+    "source": "unit_731",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "classified human subjects as 'logs' — experimental material",
+    "note": "Unit 731 personnel referred to their experimental subjects as 'maruta' (logs) — a routine dehumanizing designation that converted prisoners into research material. This linguistic dehumanization was institutional: it was the standard term used in official reports and communicated between personnel.",
+    "confidence": "high"
+  },
+  {
+    "id": "unit_731__institutional_credibility_laundering",
+    "source": "unit_731",
+    "target": "institutional_credibility_laundering",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "U.S. military granted immunity in exchange for experimental data",
+    "note": "The U.S. decision to grant Unit 731 commanders immunity from prosecution in exchange for their experimental results laundered the credibility of the data by separating its scientific use from its atrocity origin — the same mechanism as U.S. recruitment of Nazi scientists (Operation Paperclip). The institutional credibility of U.S. military medicine was used to absorb and normalize the use of torture-derived data.",
+    "confidence": "high"
+  },
+  {
+    "id": "meiji_restoration__imperialism",
+    "source": "meiji_restoration",
+    "target": "imperialism",
+    "type": "PRODUCED",
+    "label": "modernization produced imperial expansion as its validation",
+    "note": "Meiji modernization was explicitly validated by military success — defeating China (1895) and Russia (1905) demonstrated that Western-style modernization had made Japan a Great Power. Imperial expansion was the proof of concept. Korea (1910) and China were the fields on which this proof was demonstrated.",
+    "confidence": "high"
+  },
+  {
+    "id": "medieval_christian_antisemitism__spanish_inquisition",
+    "source": "medieval_christian_antisemitism",
+    "target": "spanish_inquisition",
+    "type": "ENABLED",
+    "label": "centuries of theological antisemitism enabled institutional persecution",
+    "note": "The Inquisition's targeting of conversos built on 800 years of accumulated Christian theological antisemitism — blood libel, usury prohibition, deicide accusations — that had normalized hostility toward Jewish people as a religious duty.",
+    "confidence": "high"
+  },
+  {
+    "id": "qin_shi_huang__propaganda",
+    "source": "qin_shi_huang",
+    "target": "propaganda",
+    "type": "NORMALIZED",
+    "label": "institutionalized state control of all information as governance principle",
+    "note": "Qin Shi Huang's governance made state control of narrative an explicit principle of administration — not incidental censorship but the designed elimination of all competing historical and philosophical frameworks. His approach treats propaganda not as persuasion but as monopolization: remove alternatives, not just advance preferred truth.",
+    "confidence": "high"
+  },
+  {
+    "id": "qin_shi_huang__structural_violence",
+    "source": "qin_shi_huang",
+    "target": "structural_violence",
+    "type": "NORMALIZED",
+    "label": "collective punishment made violence a structural administrative mechanism",
+    "note": "Qin Shi Huang's collective punishment doctrine — executing nine clans for a single person's transgression — made lethal violence an explicit structural feature of governance, not an exceptional sanction. Violence was embedded in the normal functioning of the administrative state.",
+    "confidence": "high"
+  },
+  {
+    "id": "tokugawa_ieyasu__preference_falsification",
+    "source": "tokugawa_ieyasu",
+    "target": "preference_falsification",
+    "type": "NORMALIZED",
+    "label": "designed surveillance systems that made authentic political expression impossible",
+    "note": "The sankin-kōtai system (required alternating residence in Edo) and the bugyō (inspector) system created pervasive elite surveillance that made authentic expression of dissatisfaction a dangerous act. Ieyasu's governance was explicitly designed to produce performed loyalty rather than authentic loyalty.",
+    "confidence": "high"
+  },
+  {
+    "id": "torquemada__dehumanization",
+    "source": "torquemada",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "institutionalized torture as a legitimate tool of truth-extraction",
+    "note": "Torquemada's Instrucciones formalized torture as a routine judicial procedure — not exceptional punishment but normal evidentiary practice. This normalization of torture as a legitimate instrument converted accused persons into bodies whose pain could be instrumentalized for institutional purposes.",
+    "confidence": "high"
+  },
+  {
+    "id": "toussaint_louverture__dehumanization",
+    "source": "toussaint_louverture",
+    "target": "dehumanization",
+    "type": "DISCREDITED",
+    "label": "demonstrated through military and political achievement that dehumanization ideology was false",
+    "note": "Louverture's military command of armies that defeated France, Britain, and Spain, and his political administration of Saint-Domingue, constituted an empirical refutation of every argument used to justify enslaved status. Slaveholding societies responded not by revising the ideology but by suppressing Haiti's example — demonstrating that dehumanizing ideology is maintained by information control, not evidence.",
+    "confidence": "high"
+  },
+  {
+    "id": "lucius_sulla__democratic_backsliding",
+    "source": "lucius_sulla",
+    "target": "democratic_backsliding",
+    "type": "CAUSED",
+    "label": "personally crossed the constitutional line that made subsequent crossings inevitable",
+    "note": "Sulla's march on Rome was the first step in a ratchet — once one general demonstrated that marching on Rome worked, the constitutional norm against it was gone. Every subsequent Roman politician knew that if they lost a political dispute, their opponents might march on them. This mutual insecurity accelerated the arms race of political violence that ended the Republic.",
+    "confidence": "high"
+  },
+  {
+    "id": "tiberius_gracchus__class_consciousness",
+    "source": "tiberius_gracchus",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "first politician to explicitly frame Roman politics as class conflict",
+    "note": "Tiberius's land reform speeches explicitly framed the political dispute as one between the landless poor — veterans who had fought for land that the rich then took — and the aristocratic class that had illegally occupied public land. This articulation of class interest as a legitimate political program was unprecedented in Roman political life.",
+    "confidence": "high"
+  },
+  {
+    "id": "gaius_gracchus__class_consciousness",
+    "source": "gaius_gracchus",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "extended class politics to include grain subsidies and citizenship expansion",
+    "note": "Gaius's grain subsidy proposal created the first Roman welfare mechanism based on explicit recognition that the state had obligations to its poor citizens — an institutional acknowledgment of class interest that the Senate treated as an existential threat to its own position.",
+    "confidence": "high"
+  },
+  {
+    "id": "shiro_ishii__institutional_credibility_laundering",
+    "source": "shiro_ishii",
+    "target": "institutional_credibility_laundering",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "U.S. immunity deal laundered atrocity data through military medical institutions",
+    "note": "The U.S. Army's decision to grant Ishii immunity and incorporate his experimental data into American biological warfare research laundered the institutional legitimacy of U.S. military medicine through the use of torture-derived data. This is institutional credibility laundering: absorbing contaminated knowledge into a credible institution to enable its use.",
+    "confidence": "high"
+  },
+  {
+    "id": "shiro_ishii__moral_disengagement",
+    "source": "shiro_ishii",
+    "target": "moral_disengagement",
+    "type": "NORMALIZED",
+    "label": "'maruta' (logs) linguistic dehumanization enabled medical personnel to commit atrocities",
+    "note": "Unit 731's standard terminology for subjects — 'maruta' (logs) — is a documented instance of linguistic moral disengagement operationalized at institutional scale: medical professionals who had taken oaths to 'do no harm' committed lethal experimentation by linguistically reclassifying their subjects as non-persons.",
+    "confidence": "high"
+  },
+  {
+    "id": "karl_marx__marxism",
+    "source": "karl_marx",
+    "target": "marxism",
+    "type": "PRODUCED",
+    "label": "developed Marxist theory",
+    "note": "Marx is the primary intellectual author of Marxism — historical materialism, surplus value theory, class struggle analysis, and the critique of capitalist ideology. The mechanism node is named for him.",
+    "confidence": "high"
+  },
+  {
+    "id": "karl_marx__class_consciousness",
+    "source": "karl_marx",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "defined class consciousness as the necessary precondition for revolution",
+    "note": "Marx's concept of class consciousness — the recognition by a class of its own interests, distinct from the false consciousness imposed by ruling-class ideology — is the analytical framework the mechanism node is built on. He distinguished class-in-itself (objective economic position) from class-for-itself (conscious political actor).",
+    "confidence": "high"
+  },
+  {
+    "id": "karl_marx__false_consciousness",
+    "source": "karl_marx",
+    "target": "false_consciousness",
+    "type": "PRODUCED",
+    "label": "developed the concept of false consciousness",
+    "note": "Marx's analysis of ideology — that the ruling class's ideas become the dominant ideas of any epoch, causing workers to internalize a worldview serving their exploiters' interests — is the origin of false consciousness as an analytical concept.",
+    "confidence": "high"
+  },
+  {
+    "id": "karl_marx__wealth_concentration",
+    "source": "karl_marx",
+    "target": "wealth_concentration",
+    "type": "PRODUCED",
+    "label": "predicted capital concentration as an inherent tendency of capitalism",
+    "note": "Marx's Capital Vol. 1 demonstrates mathematically why capitalism must concentrate wealth — competitive pressure forces firms to accumulate capital, and capital accumulation gives larger firms structural advantages. His prediction of monopolization (confirmed) and eventual collapse (not confirmed) both follow from this analysis.",
+    "confidence": "high"
+  },
+  {
+    "id": "mao_zedong__propaganda",
+    "source": "mao_zedong",
+    "target": "propaganda",
+    "type": "NORMALIZED",
+    "label": "developed 'Thought' as a totalizing ideological framework",
+    "note": "Mao Zedong Thought was the first political ideology in the communist tradition to require not just behavioral compliance but total psychological transformation — the 'rectification campaigns' demanded the elimination of all thoughts not aligned with Party doctrine. The Little Red Book was both symbol and instrument of this total propaganda project.",
+    "confidence": "high"
+  },
+  {
+    "id": "mao_zedong__manufactured_consent",
+    "source": "mao_zedong",
+    "target": "manufactured_consent",
+    "type": "NORMALIZED",
+    "label": "mass mobilization campaigns manufactured enthusiastic compliance",
+    "note": "Both the Great Leap Forward and the Cultural Revolution used mass mobilization — rallies, public confession sessions, criticism meetings — to manufacture apparent enthusiasm for policies that private surveys and defector testimony showed were widely feared. The difference from Nazi propaganda was the requirement of active participation rather than passive acceptance.",
+    "confidence": "high"
+  },
+  {
+    "id": "mao_zedong__broken_epistemology",
+    "source": "mao_zedong",
+    "target": "broken_epistemology",
+    "type": "PRODUCED",
+    "label": "made ideological conformity the epistemological standard — evidence that contradicted the Party line was disqualified",
+    "note": "The defining feature of Mao's governance was the subordination of empirical reality to ideological requirement: agricultural pseudoscience was imposed because it fit Maoist theory, grain statistics were falsified to confirm Great Leap targets, and anyone who reported the famine was purged. This is not merely propaganda — it is the systematic destruction of empirical feedback mechanisms.",
+    "confidence": "high"
+  },
+  {
+    "id": "maximilien_robespierre__cult_dynamics",
+    "source": "maximilien_robespierre",
+    "target": "cult_dynamics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "ideological purity logic that destroys those it designates as impure",
+    "note": "Robespierre's Terror followed the same structural logic as cult thought control: deviation from the revolutionary line is treachery, treachery is existential threat, existential threat requires elimination. The self-reinforcing purity spiral — where each purge reveals new enemies requiring new purges — ended only when Robespierre himself was consumed by it.",
+    "confidence": "medium"
+  },
+  {
+    "id": "maximilien_robespierre__radicalization_pipeline",
+    "source": "maximilien_robespierre",
+    "target": "radicalization_pipeline",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "virtuous revolutionary transformed by ideology and power into mass killer",
+    "note": "Robespierre's trajectory — from principled lawyer who opposed capital punishment to director of mass executions — is the foundational case study of how genuine commitment to justice can be transformed by ideological abstraction and institutional power into the opposite of its stated values.",
+    "confidence": "medium"
+  },
+  {
+    "id": "george_washington__democratic_backsliding",
+    "source": "george_washington",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "voluntary retirement established the constitutional norm against permanent power",
+    "note": "Washington's refusal of a third term — or monarchy — established the precedent that democratic legitimacy requires voluntary limitation of power. This norm held for 150 years (FDR broke the two-term custom, hence the 22nd Amendment). Washington's DISCREDITING of permanent power is as important as Caesar's NORMALIZING of it.",
+    "confidence": "high"
+  },
+  {
+    "id": "thomas_jefferson__manufactured_consent",
+    "source": "thomas_jefferson",
+    "target": "manufactured_consent",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "held that all men are created equal while enslaving 607 people — foundational ideological contradiction",
+    "note": "Jefferson's Declaration simultaneously articulated universal human rights and enslaved 607 people. This contradiction was not private hypocrisy but a public ideological position: Jefferson maintained that slavery was wrong and continued it. The founding national mythology was constructed on this explicit contradiction — establishing the template of high-minded rhetoric masking material exploitation.",
+    "confidence": "high"
+  },
+  {
+    "id": "galileo_galilei__manufactured_scientific_doubt",
+    "source": "galileo_galilei",
+    "target": "manufactured_scientific_doubt",
+    "type": "DISCREDITED",
+    "label": "Galileo's trial is the archetypal case of authority suppressing empirical evidence",
+    "note": "The Inquisition's condemnation of Galileo for accurately describing the solar system established the paradigm of institutional authority suppressing evidence-based conclusions. Tobacco, climate, and evolution deniers all attempt to invert this: positioning themselves as the Galileo figure to discredit the scientific consensus as the Inquisition.",
+    "confidence": "high"
+  },
+  {
+    "id": "johannes_gutenberg__propaganda",
+    "source": "johannes_gutenberg",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "printing press made mass propaganda distribution possible",
+    "note": "Every major propaganda campaign from the Reformation through the 21st century depends on mass reproduction of identical messages at low cost — the capability Gutenberg created. Martin Luther's antisemitic pamphlets, Nazi propaganda, and social media algorithmic amplification are all downstream of Gutenberg's invention.",
+    "confidence": "high"
+  },
+  {
+    "id": "jeremy_bentham__utilitarianism",
+    "source": "jeremy_bentham",
+    "target": "utilitarianism",
+    "type": "PRODUCED",
+    "label": "founded the utilitarian tradition",
+    "note": "Bentham is the founder of utilitarianism as a systematic moral philosophy. His Introduction to the Principles of Morals and Legislation (1789) established the greatest happiness principle and the felicific calculus. Every subsequent utilitarian thinker — Mill, Sidgwick, Singer — is building on or responding to Bentham.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_stuart_mill__utilitarianism",
+    "source": "john_stuart_mill",
+    "target": "utilitarianism",
+    "type": "PRODUCED",
+    "label": "systematized and humanized the utilitarian tradition",
+    "note": "Mill's Utilitarianism (1863) and On Liberty (1859) refined Bentham's framework: adding qualitative distinctions between pleasures, the harm principle, and individual liberty as constraints on utilitarian maximization. Mill's version of utilitarianism is the one that survives as a major philosophical tradition.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_stuart_mill__regulatory_capture",
+    "source": "john_stuart_mill",
+    "target": "regulatory_capture",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "served East India Company while theorizing liberal governance — embodied the contradiction",
+    "note": "Mill worked for the East India Company for 35 years while writing On Liberty — a man who theorized that power over others is only justified to prevent harm, administering a colonial monopoly that extracted wealth from India through coercive monopoly. His career demonstrates how liberal theory can coexist with its systematic violation at institutional scale.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ignatius_of_loyola__cult_dynamics",
+    "source": "ignatius_of_loyola",
+    "target": "cult_dynamics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Spiritual Exercises designed to produce total psychological transformation through guided experience",
+    "note": "The Spiritual Exercises — Ignatius's program of intensive meditation and directed imagination — are designed to produce fundamental changes in what the practitioner wants and believes by immersing them in guided emotional and cognitive experience. This is not thought control in the negative sense, but the same psychological mechanism is present: structured experience reshaping identity and commitment.",
+    "confidence": "medium"
+  },
+  {
+    "id": "john_calvin__prosperity_gospel",
+    "source": "john_calvin",
+    "target": "prosperity_gospel",
+    "type": "ENABLED",
+    "label": "predestination and worldly success as election sign provided theological foundation",
+    "note": "Weber's argument in The Protestant Ethic: Calvinist predestination created anxiety about one's election status, which was partially resolved by worldly success as an external sign of divine favor. The Prosperity Gospel explicitly converts this anxiety-management mechanism into a theology of entitlement: financial success proves God's favor.",
+    "confidence": "medium"
+  },
+  {
+    "id": "oliver_cromwell__structural_violence",
+    "source": "oliver_cromwell",
+    "target": "structural_violence",
+    "type": "NORMALIZED",
+    "label": "colonial violence against Irish Catholics legitimized as godly righteousness",
+    "note": "Cromwell's Irish campaign was conducted with explicit theological justification — the massacres at Drogheda and Wexford were framed as divine punishment for Catholic perfidy. This normalization of colonial mass killing as God's work is a template for subsequent British imperial violence presented as civilizational duty.",
+    "confidence": "high"
+  },
+  {
+    "id": "suleiman_the_magnificent__imperialism",
+    "source": "suleiman_the_magnificent",
+    "target": "imperialism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Ottoman imperial expansion followed the same extraction logic as European imperialism",
+    "note": "While often contrasted with European colonialism (the Ottomans did not racially dehumanize subject populations in the same way), Ottoman expansion under Suleiman followed the same structural logic of military conquest, tribute extraction, and administrative subjugation. The 'tolerant empire' characterization obscures the coercive mechanisms of Ottoman imperial governance.",
+    "confidence": "medium"
+  },
+  {
+    "id": "muhammad_ali_jinnah__in_group_out_group_dynamics",
+    "source": "muhammad_ali_jinnah",
+    "target": "in_group_out_group_dynamics",
+    "type": "NORMALIZED",
+    "label": "Two-Nation Theory made religious identity the basis of political community",
+    "note": "Jinnah's Two-Nation Theory asserted that Hindu and Muslim were fundamentally incompatible political identities that could not share a state — converting religious difference into existential political incompatibility. This formalization of religious in-group/out-group as the unit of sovereign political organization has structured South Asian conflict ever since.",
+    "confidence": "high"
+  },
+  {
+    "id": "oscar_romero__structural_violence",
+    "source": "oscar_romero",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "documented and named state structural violence from the pulpit",
+    "note": "Romero's weekly sermons systematically documented the structural violence of the Salvadoran state — naming dead bodies, identifying perpetrators, reading out lists of the disappeared. His method of making structural violence visible and attributing responsibility to specific actors is the pastoral practice of liberation theology's 'preferential option for the poor.'",
+    "confidence": "high"
+  },
+  {
+    "id": "andrew_jackson__populism",
+    "source": "andrew_jackson",
+    "target": "populism",
+    "type": "PRODUCED",
+    "label": "founded the template for American racial populism",
+    "note": "Jacksonian Democracy combined genuine expansion of white male suffrage (eliminating property requirements) with aggressive racial exclusion (Indian removal, defense of slavery) — establishing the recurring American populist template: mobilize class grievance among one racial group by targeting another. This structure recurs in every subsequent American populist movement.",
+    "confidence": "high"
+  },
+  {
+    "id": "augusto_pinochet__neoliberalism_ideology",
+    "source": "augusto_pinochet",
+    "target": "neoliberalism_ideology",
+    "type": "PRODUCED",
+    "label": "Chile was the first large-scale empirical test of neoliberal economic doctrine",
+    "note": "The Chicago Boys' economic program in Pinochet's Chile (privatization, deregulation, elimination of social programs) was the first national-scale implementation of the Friedmanite economic doctrine — predating Thatcher and Reagan by several years. Chile became the empirical reference case, positive or negative, for every subsequent neoliberal policy debate.",
+    "confidence": "high"
+  },
+  {
+    "id": "salvador_allende__class_consciousness",
+    "source": "salvador_allende",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "electoral Marxism demonstrated working-class political power through democratic means",
+    "note": "Allende's election demonstrated that Marxist class analysis could produce democratic electoral victory — challenging both liberal democracy's claim that class politics were illegitimate and Leninist Marxism's claim that revolution required armed struggle. The coup's response — destroying the democratic path — confirmed the structural limits on working-class electoral power.",
+    "confidence": "high"
+  },
+  {
+    "id": "lothar_von_trotha__dehumanization",
+    "source": "lothar_von_trotha",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "extermination order made racial dehumanization into explicit military doctrine",
+    "note": "Von Trotha's order — 'every Herero, with or without a gun, with or without cattle, will be shot' — made racial dehumanization into an explicit military command, legally issued and officially sanctioned. This is dehumanization operationalized into doctrine, not merely ideology.",
+    "confidence": "high"
+  },
+  {
+    "id": "ratko_mladic__dehumanization",
+    "source": "ratko_mladic",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "gave 'gift to the Serbian people' framing to genocide victims",
+    "note": "Mladić's statement that he was offering Srebrenica 'as a gift to the Serbian people' and his reassurances to survivors before their murder demonstrate the same pattern as the Rwandan genocide: dehumanization so thorough that the perpetrator performs kindness to victims while planning their slaughter.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_d_rockefeller__monopolization",
+    "source": "john_d_rockefeller",
+    "target": "monopolization",
+    "type": "PRODUCED",
+    "label": "Standard Oil is the foundational case study of monopoly formation",
+    "note": "Rockefeller's achievement of 91% control of U.S. oil refining through horizontal integration, railroad rebates, and predatory pricing is the paradigmatic case of monopolization — the one that produced antitrust law as a response and that every subsequent monopoly case is compared to.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_d_rockefeller__regulatory_capture",
+    "source": "john_d_rockefeller",
+    "target": "regulatory_capture",
+    "type": "NORMALIZED",
+    "label": "used political connections to forestall regulatory intervention for decades",
+    "note": "Standard Oil's survival for decades despite widespread public awareness of its monopolistic practices was due partly to political relationships and legal strategies that delayed antitrust enforcement — the original large-scale case of regulatory capture of the institutions meant to constrain corporate power.",
+    "confidence": "medium"
+  },
+  {
+    "id": "harry_truman__manufactured_consent",
+    "source": "harry_truman",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "Truman Doctrine manufactured Cold War consensus by framing containment as existential",
+    "note": "Truman's 1947 speech requesting aid for Greece and Turkey manufactured Cold War consensus by presenting every communist movement anywhere as a Soviet-directed existential threat to American democracy — a framing Senator Arthur Vandenberg advised Truman to use to 'scare the hell out of the American people.'",
+    "confidence": "high"
   }
 ]

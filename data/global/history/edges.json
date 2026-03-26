@@ -5326,5 +5326,662 @@
     "label": "Enabled",
     "note": "Proliferation drove nuclear fear in cold war culture and civil society",
     "confidence": "confirmed"
+  },
+  {
+    "id": "great_depression__world_war_ii_economics",
+    "source": "great_depression",
+    "target": "world_war_ii",
+    "type": "ENABLED",
+    "label": "economic collapse enabled authoritarian appeal",
+    "note": "The Great Depression destroyed the Weimar Republic's legitimacy, produced mass unemployment, and created the economic desperation that made Nazi and fascist promises credible to millions.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "imf_structural_adjustment__latin_american_dirty_wars",
+    "source": "imf_structural_adjustment",
+    "target": "latin_american_dirty_wars",
+    "type": "ENABLED",
+    "label": "economic shock doctrine enabled authoritarian consolidation",
+    "note": "IMF structural adjustment programs were implemented under and following military dictatorships in Argentina, Chile, and Brazil, using terror to suppress the resistance that economic pain would otherwise generate.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "imf_structural_adjustment__chile_coup_1973",
+    "source": "imf_structural_adjustment",
+    "target": "chile_coup_1973",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "shock doctrine preparation and implementation",
+    "note": "The Chicago Boys were prepared before the coup to implement neoliberal restructuring immediately after Pinochet took power, using the shock of the coup to bypass democratic opposition.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "enclosure_movement__chartist_movement",
+    "source": "enclosure_movement",
+    "target": "chartist_movement",
+    "type": "PRODUCED",
+    "label": "dispossession produced the movement demanding political voice",
+    "note": "The Chartist Movement drew directly from the population created by enclosure: landless agricultural laborers and industrial workers who had no political representation and no property to qualify for the vote under existing property franchises.",
+    "confidence": "high"
+  },
+  {
+    "id": "enclosure_movement__industrial_revolution",
+    "source": "enclosure_movement",
+    "target": "industrial_revolution",
+    "type": "ENABLED",
+    "label": "created the landless labor pool industrialization required",
+    "note": "Industrial factories required a large population with no choice but to sell their labor for wages. Enclosure produced this population by eliminating subsistence alternatives — the industrial working class was not a natural development but a legislated creation.",
+    "confidence": "high"
+  },
+  {
+    "id": "enclosure_movement__atlantic_slave_trade",
+    "source": "enclosure_movement",
+    "target": "atlantic_slave_trade",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both strip existing rights to create dependent labor",
+    "note": "Both enclosure and the slave trade produce dependent labor by eliminating alternative economic existence — enclosure by privatizing the land peasants had worked for generations, slavery by physical capture and legal dehumanization. Both manufacture a population that must sell labor on the captor's terms.",
+    "confidence": "medium"
+  },
+  {
+    "id": "tokugawa_shogunate__eta_hinin_caste_system",
+    "source": "tokugawa_shogunate",
+    "target": "eta_hinin_caste_system",
+    "type": "PRODUCED",
+    "label": "shogunate legally codified and enforced the outcast system",
+    "note": "While outcast communities predated Tokugawa, the shogunate formalized and systematized the eta/hinin classification through law, making hereditary outcast status legally binding and creating bureaucratic enforcement mechanisms.",
+    "confidence": "high"
+  },
+  {
+    "id": "tokugawa_shogunate__meiji_restoration",
+    "source": "tokugawa_shogunate",
+    "target": "meiji_restoration",
+    "type": "ENABLED",
+    "label": "shogunate's failure to modernize created the coalition that overthrew it",
+    "note": "When Perry's Black Ships arrived in 1853, the shogunate's inability to expel Western powers exposed its military obsolescence. The resulting loss of legitimacy — failure of the shogunate's core function of defending Japan — created the political coalition (Satsuma, Choshu domains) that overthrew it in 1868.",
+    "confidence": "high"
+  },
+  {
+    "id": "roman_republic__gracchi_brothers",
+    "source": "roman_republic",
+    "target": "gracchi_brothers",
+    "type": "PRODUCED",
+    "label": "Republic's constitutional structure enabled reform challenge",
+    "note": "The Tribune of the Plebs — the Gracchi's office — was a constitutional instrument designed to protect commoners from patrician power. The Gracchi used it for its intended purpose; the Senate's violent response revealed that the constitution's protective mechanisms had been captured by elite interests.",
+    "confidence": "high"
+  },
+  {
+    "id": "gracchi_brothers__sulla_march_on_rome",
+    "source": "gracchi_brothers",
+    "target": "sulla_march_on_rome",
+    "type": "ENABLED",
+    "label": "assassinations established that violence wins political disputes",
+    "note": "The Senate's successful use of violence against the Gracchi established the precedent that killing political opponents was both effective and went unpunished. This normalized political violence as a tool, which Sulla then escalated from assassination to full military coup.",
+    "confidence": "medium"
+  },
+  {
+    "id": "sulla_march_on_rome__julius_caesar",
+    "source": "sulla_march_on_rome",
+    "target": "julius_caesar",
+    "type": "ENABLED",
+    "label": "Sulla's precedent proved marching on Rome was survivable",
+    "note": "Julius Caesar, who witnessed Sulla's march as a young man and was himself on Sulla's proscription list, absorbed the lesson that military force could resolve political disputes and that a general with loyal legions could make himself master of Rome. The Rubicon crossing was Sulla's march replayed with higher stakes.",
+    "confidence": "high"
+  },
+  {
+    "id": "limpieza_de_sangre__spanish_inquisition",
+    "source": "limpieza_de_sangre",
+    "target": "spanish_inquisition",
+    "type": "ENABLED",
+    "label": "blood purity ideology gave Inquisition its racial framework",
+    "note": "The blood purity statutes (beginning 1449) established the doctrine that converso ancestry was a permanent contamination regardless of faith — creating the social and ideological infrastructure that the Inquisition then institutionalized through torture and legal process. The Inquisition formalized what blood purity laws had normalized.",
+    "confidence": "high"
+  },
+  {
+    "id": "spanish_inquisition__colonial_era",
+    "source": "spanish_inquisition",
+    "target": "colonial_era",
+    "type": "ENABLED",
+    "label": "Inquisition exported as colonial control infrastructure",
+    "note": "The Spanish Inquisition was established in New Spain (Mexico, 1571) and Lima, Peru (1570), using religious orthodoxy enforcement as a mechanism of colonial population control — targeting indigenous Catholicism, crypto-Judaism, and indigenous religious practice as threats to Spanish colonial order.",
+    "confidence": "high"
+  },
+  {
+    "id": "limpieza_de_sangre__nuremberg_laws_1935",
+    "source": "limpieza_de_sangre",
+    "target": "nuremberg_laws_1935",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "same hereditary racial contamination doctrine, 400 years apart",
+    "note": "The Nuremberg Laws' core claim — that Jewish racial identity was hereditary, permanent, and could not be removed by conversion, marriage, or assimilation — was identical to the doctrine of limpieza de sangre established in Iberia in the 1400s. Both use blood as the marker of indelible group membership.",
+    "confidence": "medium"
+  },
+  {
+    "id": "malleus_maleficarum__european_witch_trials",
+    "source": "malleus_maleficarum",
+    "target": "european_witch_trials",
+    "type": "ENABLED",
+    "label": "standardized the theological and procedural framework for prosecution",
+    "note": "The Malleus provided both the theological justification (women's greater susceptibility to diabolism) and the procedural manual (interrogation, torture, confession-extraction, execution) that turned localized witch suspicion into a systematized, scalable prosecution infrastructure. It was among the first books mass-produced on the printing press.",
+    "confidence": "high"
+  },
+  {
+    "id": "protestant_reformation__european_witch_trials",
+    "source": "protestant_reformation",
+    "target": "european_witch_trials",
+    "type": "ENABLED",
+    "label": "confessional competition intensified witch-hunting",
+    "note": "The intensity of European witch trials tracked closely with zones of confessional conflict — both Catholic and Protestant authorities used witch prosecution to demonstrate religious zeal, with each confession providing apparent evidence of diabolical conspiracy. The Reformation's social disruption and psychological stress also created the anxiety conditions that drove accusation.",
+    "confidence": "medium"
+  },
+  {
+    "id": "european_witch_trials__rwandan_genocide",
+    "source": "european_witch_trials",
+    "target": "rwandan_genocide",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "same manufactured panic → mass killing of designated group",
+    "note": "Both the witch trials and the Rwandan genocide follow the same causal structure: an ideological framework designates a group as existentially dangerous → accusation dynamics produce rapid escalation → ordinary people participate in mass killing as community duty. Gregory Stanton's genocide stages map directly onto the witch trial mechanism.",
+    "confidence": "medium"
+  },
+  {
+    "id": "qin_dynasty__qin_book_burning",
+    "source": "qin_dynasty",
+    "target": "qin_book_burning",
+    "type": "PRODUCED",
+    "label": "Legalist state logic demanded epistemological control",
+    "note": "The book burning was the direct product of Legalist state theory: if the ruler's will is law and competing philosophical frameworks undermine obedience, those frameworks must be destroyed. The burning was not irrational extremism but the logical application of Han Fei's Legalist principles to intellectual life.",
+    "confidence": "high"
+  },
+  {
+    "id": "qin_book_burning__chinese_cultural_revolution",
+    "source": "qin_book_burning",
+    "target": "chinese_cultural_revolution",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both destroy cultural memory to produce ideological blank slate",
+    "note": "Both campaigns targeted the same thing: the intellectual infrastructure — books, scholars, historical memory — that would allow populations to conceive of alternatives to the current political order. The Cultural Revolution's 'Destroy the Four Olds' campaign is structurally identical to Qin's book burning, 2,100 years later.",
+    "confidence": "medium"
+  },
+  {
+    "id": "british_empire__irish_famine",
+    "source": "british_empire",
+    "target": "irish_famine",
+    "type": "ENABLED",
+    "label": "colonial power structures made the famine's severity possible",
+    "note": "Ireland's status as a British colony meant its relief policy was controlled by London, its food exports were governed by British market ideology, and Irish political representatives had no effective power to override British policy decisions. The colonial relationship was the condition under which ideological famine response was possible.",
+    "confidence": "high"
+  },
+  {
+    "id": "charles_trevelyan__irish_famine",
+    "source": "charles_trevelyan",
+    "target": "irish_famine",
+    "type": "ENABLED",
+    "label": "Trevelyan's ideological administration shaped famine severity",
+    "note": "As Treasury official controlling famine relief, Trevelyan repeatedly reduced aid, ended public works, and blocked food purchases — documenting his reasoning in explicit ideological terms. His policies are the most thoroughly documented individual case of laissez-faire ideology applied at mass-casualty scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "haitian_revolution__haitian_indemnity",
+    "source": "haitian_revolution",
+    "target": "haitian_indemnity",
+    "type": "PRODUCED",
+    "label": "successful revolution produced punitive financial retaliation",
+    "note": "France's indemnity demand was explicitly a response to the revolution — payment to slaveholders for their 'lost property' (the enslaved people themselves) as the price of diplomatic recognition. The revolution was punished financially for 122 years.",
+    "confidence": "high"
+  },
+  {
+    "id": "haitian_indemnity__colonialism_legacy",
+    "source": "haitian_indemnity",
+    "target": "colonialism_legacy",
+    "type": "CAUSED",
+    "label": "debt extracted capital for a century, producing chronic underdevelopment",
+    "note": "The indemnity consumed approximately 80% of Haiti's state revenues in its early decades, preventing investment in infrastructure, education, and economic development. The New York Times' 2022 investigation calculated $115 billion in modern-equivalent terms — transferred from Haiti to France and French banks across 122 years.",
+    "confidence": "high"
+  },
+  {
+    "id": "peace_of_westphalia__congress_of_vienna",
+    "source": "peace_of_westphalia",
+    "target": "congress_of_vienna",
+    "type": "ENABLED",
+    "label": "established the sovereignty framework Vienna would codify",
+    "note": "The Congress of Vienna (1815) operated within the Westphalian framework of sovereign states as the unit of international order, codifying the balance-of-power system as the mechanism for maintaining it. Westphalia provided the conceptual architecture; Vienna provided the institutional machinery.",
+    "confidence": "medium"
+  },
+  {
+    "id": "meiji_restoration__state_shinto",
+    "source": "meiji_restoration",
+    "target": "state_shinto",
+    "type": "PRODUCED",
+    "label": "oligarchs invented national religion to manufacture unity",
+    "note": "The Meiji oligarchs had no existing national ideology to unify a population previously divided by 250 years of feudal domain loyalty. They deliberately constructed State Shinto — elevating the emperor to divine status, creating mandatory ritual observance, and criminalizing dissent — as a synthetic national identity.",
+    "confidence": "high"
+  },
+  {
+    "id": "state_shinto__nanjing_massacre",
+    "source": "state_shinto",
+    "target": "nanjing_massacre",
+    "type": "ENABLED",
+    "label": "divine empire ideology dehumanized non-Japanese as spiritually inferior",
+    "note": "State Shinto's doctrine of Japanese divine superiority — the emperor's divine lineage, Japan's sacred mission — provided the ideological substrate that classified Chinese civilians as spiritually and racially inferior. This dehumanization enabled Japanese soldiers to commit atrocities without cognitive dissonance.",
+    "confidence": "medium"
+  },
+  {
+    "id": "state_shinto__unit_731",
+    "source": "state_shinto",
+    "target": "unit_731",
+    "type": "ENABLED",
+    "label": "divine mission ideology removed ethical constraints on enemy treatment",
+    "note": "Unit 731's experiments on live Chinese, Korean, and Allied prisoners required a moral framework in which their suffering was irrelevant. State Shinto's hierarchical cosmology — Japanese divine, non-Japanese subhuman — provided that framework through two decades of mandatory school indoctrination.",
+    "confidence": "medium"
+  },
+  {
+    "id": "unit_731__mk_ultra",
+    "source": "unit_731",
+    "target": "mk_ultra",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both programs: state-authorized non-consensual human experimentation",
+    "note": "Both Unit 731 and MK Ultra represent state programs of lethal or harmful non-consensual human experimentation, both concealed from domestic populations, and both involving scientist recruitment after WWII — the U.S. granted Unit 731 commanders immunity in exchange for data, and recruited Nazi medical scientists under Operation Paperclip. The immunity deals share the same logic.",
+    "confidence": "high"
+  },
+  {
+    "id": "nanjing_massacre__armenian_genocide",
+    "source": "nanjing_massacre",
+    "target": "armenian_genocide",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are state-authorized mass killing denied by successor governments",
+    "note": "Both the Armenian Genocide and the Nanjing Massacre are well-documented mass atrocities whose perpetrating states' successor governments have engaged in sustained official denial, minimization, and textbook revision. Both create ongoing diplomatic crises because acknowledgment is treated as existentially threatening.",
+    "confidence": "medium"
+  },
+  {
+    "id": "qin_shi_huang__qin_dynasty",
+    "source": "qin_shi_huang",
+    "target": "qin_dynasty",
+    "type": "PRODUCED",
+    "label": "created and embodied the Qin state",
+    "note": "Qin Shi Huang was not merely the ruler of the Qin Dynasty — he created it through military conquest and designed its institutional architecture. The dynasty's characteristic features (Legalist governance, standardization, book burning) were his personal policy choices.",
+    "confidence": "high"
+  },
+  {
+    "id": "qin_shi_huang__qin_book_burning",
+    "source": "qin_shi_huang",
+    "target": "qin_book_burning",
+    "type": "PRODUCED",
+    "label": "personally ordered the destruction of historical and philosophical texts",
+    "note": "The 213 BCE burning of books was Qin Shi Huang's direct order, implemented by chancellor Li Si. The emperor's personal involvement and the explicit stated rationale (preventing comparison to alternative political arrangements) makes this among the most thoroughly documented cases of state epistemological control in ancient history.",
+    "confidence": "high"
+  },
+  {
+    "id": "tokugawa_ieyasu__tokugawa_shogunate",
+    "source": "tokugawa_ieyasu",
+    "target": "tokugawa_shogunate",
+    "type": "PRODUCED",
+    "label": "designed the institutional architecture of the shogunate",
+    "note": "Tokugawa Ieyasu did not merely found the shogunate — he deliberately designed its stability mechanisms: sankin-kōtai (alternating residence surveillance), domain fragmentation, sakoku isolation, and caste rigidity. The 265-year duration of the system reflects the quality of the institutional design.",
+    "confidence": "high"
+  },
+  {
+    "id": "tokugawa_ieyasu__eta_hinin_caste_system",
+    "source": "tokugawa_ieyasu",
+    "target": "eta_hinin_caste_system",
+    "type": "PRODUCED",
+    "label": "formalized the outcast system through legal codification",
+    "note": "The Tokugawa legal codes under Ieyasu formalized the eta/hinin distinctions into explicit law with enforced residential segregation and occupational restriction — converting pre-existing social prejudice into permanent institutional infrastructure.",
+    "confidence": "medium"
+  },
+  {
+    "id": "torquemada__spanish_inquisition",
+    "source": "torquemada",
+    "target": "spanish_inquisition",
+    "type": "PRODUCED",
+    "label": "designed the Inquisition's procedural infrastructure",
+    "note": "As first Grand Inquisitor, Torquemada wrote the Instrucciones — the procedural manual that standardized examination, torture, confession, and sentencing across all Spanish Inquisition tribunals. He transformed the institution from an ad-hoc royal tool into a systematic bureaucratic machine capable of operating uniformly across Spain and its colonies.",
+    "confidence": "high"
+  },
+  {
+    "id": "torquemada__jewish_expulsion_spain_1492",
+    "source": "torquemada",
+    "target": "jewish_expulsion_spain_1492",
+    "type": "PRODUCED",
+    "label": "personally lobbied Ferdinand and Isabella for the expulsion decree",
+    "note": "Historical accounts, including Hernando del Pulgar's chronicle, record Torquemada personally presenting Ferdinand and Isabella with a crucifix and accusing them of betraying Christ if they accepted Jewish bribes to reverse the expulsion. His advocacy was the decisive factor in the Alhambra Decree's issuance.",
+    "confidence": "medium"
+  },
+  {
+    "id": "toussaint_louverture__haitian_revolution",
+    "source": "toussaint_louverture",
+    "target": "haitian_revolution",
+    "type": "PRODUCED",
+    "label": "military and political architect of the revolution",
+    "note": "Louverture was the indispensable figure of the Haitian Revolution's middle phase: he organized formerly enslaved people into a disciplined military force capable of defeating the best armies in the world, negotiated complex multi-party alliances, and governed the colony with sufficient competence to alarm Napoleon into sending 40,000 troops to destroy him.",
+    "confidence": "high"
+  },
+  {
+    "id": "jean_jacques_dessalines__haitian_revolution",
+    "source": "jean_jacques_dessalines",
+    "target": "haitian_revolution",
+    "type": "PRODUCED",
+    "label": "completed the revolution and declared independence",
+    "note": "After Louverture's treacherous capture, Dessalines took command and won the decisive Battle of Vertières (November 18, 1803), forcing the French army's evacuation. His declaration of independence on January 1, 1804, completed the revolution as a political fact.",
+    "confidence": "high"
+  },
+  {
+    "id": "jean_jacques_dessalines__haitian_indemnity",
+    "source": "jean_jacques_dessalines",
+    "target": "haitian_indemnity",
+    "type": "ENABLED",
+    "label": "founding of Haiti as sovereign state created the leverage point for indemnity demands",
+    "note": "France's indemnity demand was possible precisely because Dessalines had made Haiti an independent state — France could use diplomatic recognition (or its absence) as leverage for extracting payment. The existence of a Haitian government to sign the agreement was the precondition for the debt.",
+    "confidence": "medium"
+  },
+  {
+    "id": "tiberius_gracchus__gracchi_brothers",
+    "source": "tiberius_gracchus",
+    "target": "gracchi_brothers",
+    "type": "PRODUCED",
+    "label": "initiated the land reform campaign",
+    "note": "Tiberius's 133 BCE land reform proposal was the opening act of the Gracchi crisis — the specific policy, the specific political confrontation with the Senate, and his assassination that established the precedent of political murder in Roman constitutional life.",
+    "confidence": "high"
+  },
+  {
+    "id": "gaius_gracchus__gracchi_brothers",
+    "source": "gaius_gracchus",
+    "target": "gracchi_brothers",
+    "type": "PRODUCED",
+    "label": "extended and radicalized the reform program",
+    "note": "Gaius's reforms went beyond Tiberius's land redistribution to attack senatorial power directly — transferring courts, proposing citizenship extension, and creating grain subsidies. His assassination along with 3,000 supporters set the precedent for mass political killing of constitutional opponents.",
+    "confidence": "high"
+  },
+  {
+    "id": "lucius_sulla__sulla_march_on_rome",
+    "source": "lucius_sulla",
+    "target": "sulla_march_on_rome",
+    "type": "PRODUCED",
+    "label": "personally led the march and designed the subsequent dictatorship",
+    "note": "Sulla's march on Rome was a personal political decision, made against the advice of all but one of his officers — demonstrating that the willingness to cross constitutional lines was a choice, not a structural inevitability. He then designed the proscription system and the reformed Senate as deliberate institutional restructuring.",
+    "confidence": "high"
+  },
+  {
+    "id": "lucius_sulla__julius_caesar",
+    "source": "lucius_sulla",
+    "target": "julius_caesar",
+    "type": "ENABLED",
+    "label": "Sulla's example showed Caesar the march on Rome was survivable and effective",
+    "note": "Caesar was 16 when Sulla marched on Rome and on his proscription list as a young man. Caesar later said that Sulla 'did not know his political ABCs' for resigning the dictatorship — but he absorbed the lesson that an army's loyalty to its general was more powerful than constitutional constraint. Every aspect of Caesar's career reflects lessons drawn from Sulla.",
+    "confidence": "high"
+  },
+  {
+    "id": "shiro_ishii__unit_731",
+    "source": "shiro_ishii",
+    "target": "unit_731",
+    "type": "PRODUCED",
+    "label": "founded and commanded the program",
+    "note": "Ishii founded Unit 731 in 1932, personally designed its experimental programs, recruited and supervised personnel, and organized the field-testing of biological weapons on Chinese populations. The unit's entire conceptual framework — using prisoners as 'logs' for medical experimentation — was Ishii's design.",
+    "confidence": "high"
+  },
+  {
+    "id": "karl_marx__enclosure_movement",
+    "source": "karl_marx",
+    "target": "enclosure_movement",
+    "type": "PRODUCED",
+    "label": "developed primitive accumulation theory from enclosure evidence",
+    "note": "Marx's analysis of the enclosure movement in Das Kapital Vol. 1 (Part 8: Primitive Accumulation) is the foundational text connecting historical dispossession to capitalist development. He used the English enclosures as empirical evidence that capitalism's precondition was violence, not voluntary market development.",
+    "confidence": "high"
+  },
+  {
+    "id": "karl_marx__chartist_movement",
+    "source": "karl_marx",
+    "target": "chartist_movement",
+    "type": "ENABLED",
+    "label": "Chartism influenced Marx's understanding of working-class consciousness",
+    "note": "Marx lived in England during the Chartist movement's final years and wrote extensively about it. The Chartists' demand for political representation as a means of achieving economic reform directly informed Marx's analysis of the relationship between political power and class interest.",
+    "confidence": "medium"
+  },
+  {
+    "id": "karl_marx__french_revolution",
+    "source": "french_revolution",
+    "target": "karl_marx",
+    "type": "ENABLED",
+    "label": "French Revolution provided Marx's model of bourgeois revolution",
+    "note": "Marx's theory of historical materialism treated the French Revolution as the paradigm case of a bourgeois revolution — the capitalist class overthrowing feudal aristocracy — and used it to predict the coming proletarian revolution by the same structural logic.",
+    "confidence": "high"
+  },
+  {
+    "id": "maximilien_robespierre__french_revolution",
+    "source": "maximilien_robespierre",
+    "target": "french_revolution",
+    "type": "PRODUCED",
+    "label": "led the Revolution's most radical and violent phase",
+    "note": "Robespierre controlled the Committee of Public Safety during the Reign of Terror (September 1793–July 1794), directing the execution of approximately 17,000 people and the imprisonment of 300,000 — the Revolution's most intense period. His own arrest and execution on 9 Thermidor (July 27, 1794) ended the Terror.",
+    "confidence": "high"
+  },
+  {
+    "id": "george_washington__american_revolution",
+    "source": "george_washington",
+    "target": "american_revolution",
+    "type": "PRODUCED",
+    "label": "commanded Continental Army and led military victory",
+    "note": "Washington held the Continental Army together through catastrophic defeats (New York, 1776), the winter at Valley Forge, and years of stalemate, making the strategic decisions (Trenton, Yorktown) that produced military victory. His leadership was widely considered essential to the Revolution's survival.",
+    "confidence": "high"
+  },
+  {
+    "id": "thomas_jefferson__american_revolution",
+    "source": "thomas_jefferson",
+    "target": "american_revolution",
+    "type": "PRODUCED",
+    "label": "authored the Declaration of Independence",
+    "note": "Jefferson's Declaration of Independence articulated the philosophical foundation of the American Revolution — natural rights, consent of the governed, and the right to revolution — in terms drawn from Locke and Enlightenment philosophy. The document became the primary statement of American founding principles.",
+    "confidence": "high"
+  },
+  {
+    "id": "mehmed_ii__fall_of_constantinople",
+    "source": "mehmed_ii",
+    "target": "fall_of_constantinople",
+    "type": "PRODUCED",
+    "label": "commanded the siege and ordered the conquest",
+    "note": "Mehmed organized the 53-day siege with unprecedented military technology including the largest cannon then existing, commanded the final assault, and personally entered Constantinople after its fall — ending the Byzantine Empire and establishing Istanbul as the Ottoman capital.",
+    "confidence": "high"
+  },
+  {
+    "id": "mehmed_ii__ottoman_empire",
+    "source": "mehmed_ii",
+    "target": "ottoman_empire",
+    "type": "PRODUCED",
+    "label": "transformed the Ottoman state into a true empire",
+    "note": "The conquest of Constantinople transformed the Ottoman state from a regional power into the successor to the Roman/Byzantine imperial tradition. Mehmed's subsequent campaigns brought the Ottoman Empire to its position as the dominant power of the eastern Mediterranean.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_iii_sobieski__battle_of_vienna_1683",
+    "source": "john_iii_sobieski",
+    "target": "battle_of_vienna_1683",
+    "type": "PRODUCED",
+    "label": "commanded the relief force and led the decisive cavalry charge",
+    "note": "Sobieski organized and led the combined relief army, personally commanded the cavalry charge down the Kahlenberg hillside, and accepted the Ottoman camp's capture. His relief of Vienna ended the Ottoman siege that had lasted two months and threatened the Habsburg capital.",
+    "confidence": "high"
+  },
+  {
+    "id": "fidel_castro__cuban_revolution",
+    "source": "fidel_castro",
+    "target": "cuban_revolution",
+    "type": "PRODUCED",
+    "label": "led the revolutionary movement from Sierra Maestra to Havana",
+    "note": "Castro organized the July 26 Movement, survived the Granma landing disaster (1956), built guerrilla forces in the Sierra Maestra, and led the military campaign that forced Batista's flight on January 1, 1959. His subsequent governance transformed the revolution's nationalist character into a communist state.",
+    "confidence": "high"
+  },
+  {
+    "id": "fidel_castro__bay_of_pigs",
+    "source": "fidel_castro",
+    "target": "bay_of_pigs",
+    "type": "ENABLED",
+    "label": "Castro's nationalization of U.S. assets prompted the CIA invasion plan",
+    "note": "Castro's nationalization of American-owned businesses and his alignment with the Soviet Union triggered the Eisenhower administration's authorization of the CIA invasion plan that Kennedy inherited and approved. The Bay of Pigs was the direct consequence of Castro's economic policies.",
+    "confidence": "high"
+  },
+  {
+    "id": "andrew_jackson__trail_of_tears",
+    "source": "andrew_jackson",
+    "target": "trail_of_tears",
+    "type": "PRODUCED",
+    "label": "signed and enforced the Indian Removal Act over Supreme Court ruling",
+    "note": "Jackson signed the Indian Removal Act (1830) and then refused to enforce Worcester v. Georgia (1832), in which the Supreme Court found Indian removal unconstitutional. His defiance of the Supreme Court ruling — reportedly saying 'Marshall has made his decision, now let him enforce it' — made the Trail of Tears possible.",
+    "confidence": "high"
+  },
+  {
+    "id": "augusto_pinochet__chile_coup_1973",
+    "source": "augusto_pinochet",
+    "target": "chile_coup_1973",
+    "type": "PRODUCED",
+    "label": "led the military coup and established the dictatorship",
+    "note": "Pinochet commanded the coup as Army commander-in-chief, personally directing the aerial bombing of the Presidential Palace and Allende's death. He then established himself as head of the ruling junta and ultimately as President, governing until 1990.",
+    "confidence": "high"
+  },
+  {
+    "id": "salvador_allende__chile_coup_1973",
+    "source": "salvador_allende",
+    "target": "chile_coup_1973",
+    "type": "ENABLED",
+    "label": "governed until the coup that killed him",
+    "note": "Allende died in the Presidential Palace on September 11, 1973, during the coup — whether by suicide or murder remains disputed. His three years of democratic socialist governance and the economic destabilization campaign against him were the direct context for the coup.",
+    "confidence": "high"
+  },
+  {
+    "id": "lothar_von_trotha__herero_nama_genocide",
+    "source": "lothar_von_trotha",
+    "target": "herero_nama_genocide",
+    "type": "PRODUCED",
+    "label": "issued the extermination order and commanded the genocide",
+    "note": "Von Trotha's October 1904 Vernichtungsbefehl is the founding document of the genocide — the first written extermination order in modern history. He personally designed the strategy of driving the Herero into the Omaheke Desert, poisoning waterholes, and establishing concentration camps.",
+    "confidence": "high"
+  },
+  {
+    "id": "ratko_mladic__srebrenica_massacre",
+    "source": "ratko_mladic",
+    "target": "srebrenica_massacre",
+    "type": "PRODUCED",
+    "label": "ordered and oversaw the massacre",
+    "note": "Mladić personally visited Srebrenica as it fell, broadcast reassurances to survivors on camera, and oversaw the separation of men and boys from women and children that preceded their systematic execution. The ICTY found that he bore individual criminal responsibility for genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "galileo_galilei__scientific_revolution",
+    "source": "galileo_galilei",
+    "target": "scientific_revolution",
+    "type": "PRODUCED",
+    "label": "established experimental method and heliocentric observation",
+    "note": "Galileo's telescope observations (moons of Jupiter, phases of Venus, sunspots) provided the first empirical evidence supporting Copernican heliocentrism, while his experiments on motion and falling objects established the experimental method as the foundation of physical science.",
+    "confidence": "high"
+  },
+  {
+    "id": "isaac_newton__scientific_revolution",
+    "source": "isaac_newton",
+    "target": "scientific_revolution",
+    "type": "PRODUCED",
+    "label": "synthesized the Scientific Revolution into universal physical laws",
+    "note": "Newton's Principia (1687) unified celestial and terrestrial mechanics into a single mathematical framework — the culmination and synthesis of the Scientific Revolution. His laws of motion and gravitation stood as the complete description of physical reality for 200 years.",
+    "confidence": "high"
+  },
+  {
+    "id": "johannes_gutenberg__printing_press",
+    "source": "johannes_gutenberg",
+    "target": "printing_press",
+    "type": "PRODUCED",
+    "label": "invented movable type printing",
+    "note": "Gutenberg's development of movable type and the printing press around 1440 produced the communication infrastructure that enabled the Protestant Reformation, Scientific Revolution, and Enlightenment — each of which depended on the mass distribution of texts that only the press made economically viable.",
+    "confidence": "high"
+  },
+  {
+    "id": "ignatius_of_loyola__jesuit_order",
+    "source": "ignatius_of_loyola",
+    "target": "jesuit_order",
+    "type": "PRODUCED",
+    "label": "founded the Society of Jesus",
+    "note": "Ignatius founded the Jesuits in 1540 with the specific mission of serving the Pope directly in education and missions — bypassing existing ecclesiastical hierarchies. His Spiritual Exercises provided the formation model; his Constitutions provided the governance structure that made the Jesuits uniquely adaptive.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_calvin__protestant_reformation",
+    "source": "john_calvin",
+    "target": "protestant_reformation",
+    "type": "PRODUCED",
+    "label": "developed Reformed theology and the Geneva model",
+    "note": "Calvin's Institutes of the Christian Religion (1536, expanded 1559) provided Reformed Protestantism with its systematic theology. His governance of Geneva as a model Protestant city-state became the template for Reformed communities in Scotland, England, and the Netherlands.",
+    "confidence": "high"
+  },
+  {
+    "id": "oliver_cromwell__english_civil_war",
+    "source": "oliver_cromwell",
+    "target": "english_civil_war",
+    "type": "PRODUCED",
+    "label": "military architect of the Parliamentary victory",
+    "note": "Cromwell organized and commanded the New Model Army that defeated the Royalist forces, commanded the campaign that executed Charles I, and became Lord Protector after Parliament failed to produce stable governance. He is the central figure of the English Civil War's military and political outcome.",
+    "confidence": "high"
+  },
+  {
+    "id": "oliver_cromwell__irish_famine",
+    "source": "oliver_cromwell",
+    "target": "irish_famine",
+    "type": "ENABLED",
+    "label": "Cromwellian land seizures created the Anglo-Irish landlord class",
+    "note": "Cromwell's 1649–1653 Irish campaign, followed by the Act for Settlement of Ireland (1652), transferred approximately 11 million acres from Irish Catholic landowners to English Protestant settlers and soldiers — creating the Anglo-Irish landlord class that would own the land from which food was exported during the famine two centuries later.",
+    "confidence": "high"
+  },
+  {
+    "id": "suleiman_the_magnificent__ottoman_empire",
+    "source": "suleiman_the_magnificent",
+    "target": "ottoman_empire",
+    "type": "PRODUCED",
+    "label": "brought the Empire to its territorial and cultural apex",
+    "note": "Suleiman's reign marked the Ottoman Empire at its greatest extent — from Hungary to Mesopotamia, from North Africa to the Arabian Peninsula. His legal codification (the Kanun) and administrative reforms created the institutional framework that the Empire maintained for centuries after his death.",
+    "confidence": "high"
+  },
+  {
+    "id": "suleiman_the_magnificent__sykes_picot_agreement",
+    "source": "suleiman_the_magnificent",
+    "target": "sykes_picot_agreement",
+    "type": "ENABLED",
+    "label": "established the Ottoman administrative order that Sykes-Picot dismantled",
+    "note": "The Arab provinces administered under Suleiman's reformed governance — Syria, Iraq, the Hijaz — were the territories that Sykes-Picot divided between Britain and France. Understanding the Ottoman administrative geography Suleiman established is essential to understanding how disruptive that division was.",
+    "confidence": "medium"
+  },
+  {
+    "id": "muhammad_ali_jinnah__partition_of_india",
+    "source": "muhammad_ali_jinnah",
+    "target": "partition_of_india",
+    "type": "PRODUCED",
+    "label": "Two-Nation Theory made Partition the political solution",
+    "note": "Jinnah's Muslim League's success in the 1946 elections, combined with his insistence on a separate Muslim state, made Partition the only politically viable path to independence. His role is contested — whether he wanted a fully sovereign Pakistan or a negotiating position for Muslim rights in a unified India.",
+    "confidence": "high"
+  },
+  {
+    "id": "oscar_romero__liberation_theology",
+    "source": "oscar_romero",
+    "target": "liberation_theology",
+    "type": "PRODUCED",
+    "label": "embodied liberation theology as witness and martyr",
+    "note": "Romero's transformation from conservative establishment archbishop to prophetic voice for the poor, his systematic documentation of state violence, and his martyrdom at the altar made him the most iconic figure of liberation theology — canonized in 2018 as evidence that the Church officially validates his interpretation.",
+    "confidence": "high"
+  },
+  {
+    "id": "alp_arslan__battle_of_manzikert",
+    "source": "alp_arslan",
+    "target": "battle_of_manzikert",
+    "type": "PRODUCED",
+    "label": "commanded the Seljuk forces and captured the Byzantine emperor",
+    "note": "Alp Arslan led the Seljuk forces at Manzikert and personally received the captured Byzantine Emperor Romanos IV — treating him respectfully and releasing him, which was diplomatically unusual. The battle's outcome opened Anatolia to permanent Turkish settlement.",
+    "confidence": "high"
+  },
+  {
+    "id": "alp_arslan__first_crusade",
+    "source": "alp_arslan",
+    "target": "first_crusade",
+    "type": "ENABLED",
+    "label": "Manzikert triggered the Byzantine appeal that launched the Crusades",
+    "note": "Manzikert's damage to Byzantine military capacity was the direct trigger for Emperor Alexios I's appeal to Pope Urban II at the Council of Piacenza in 1095 — requesting Western military aid. Urban II transformed this into the First Crusade at Clermont. Alp Arslan's victory thus initiated the causal chain leading to 200 years of Crusades.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_d_rockefeller__robber_barons",
+    "source": "john_d_rockefeller",
+    "target": "robber_barons",
+    "type": "PRODUCED",
+    "label": "founded Standard Oil and became the paradigm case of monopoly capitalism",
+    "note": "Rockefeller's Standard Oil was the first and largest of the Gilded Age trusts — a template for horizontal monopolization that the Sherman Antitrust Act (1890) and subsequent enforcement were specifically designed to address. His methods (railroad rebates, predatory pricing, acquisition) defined 'robber baron' as a category.",
+    "confidence": "high"
   }
 ]
