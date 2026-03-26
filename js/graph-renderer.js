@@ -159,6 +159,7 @@ function initRenderer(containerEl) {
     .linkDirectionalParticleColor(link => edgeColor(link))
     .linkDirectionalParticleWidth(1.5)
     .linkDirectionalParticleSpeed(0.005)
+    .linkLabel(link => link.type ? link.type.replace(/_/g, ' ') : '')
     // Events
     .onNodeClick(handleNodeClick)
     .onNodeHover(handleNodeHover)

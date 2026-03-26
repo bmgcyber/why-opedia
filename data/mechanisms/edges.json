@@ -8624,26 +8624,26 @@
     "relation": "PRODUCED"
   },
   {
-    "id": "augusto_caesar__manufactured_consent",
-    "source": "augusto_caesar",
+    "id": "augustus_caesar__manufactured_consent",
+    "source": "augustus_caesar",
     "target": "manufactured_consent",
     "relation": "NORMALIZED"
   },
   {
-    "id": "augusto_caesar__democratic_backsliding",
-    "source": "augusto_caesar",
+    "id": "augustus_caesar__democratic_backsliding",
+    "source": "augustus_caesar",
     "target": "democratic_backsliding",
     "relation": "CAUSED"
   },
   {
-    "id": "augusto_caesar__propaganda",
-    "source": "augusto_caesar",
+    "id": "augustus_caesar__propaganda",
+    "source": "augustus_caesar",
     "target": "propaganda",
     "relation": "PRODUCED"
   },
   {
-    "id": "augusto_caesar__cult_dynamics",
-    "source": "augusto_caesar",
+    "id": "augustus_caesar__cult_dynamics",
+    "source": "augustus_caesar",
     "target": "cult_dynamics",
     "relation": "NORMALIZED"
   },

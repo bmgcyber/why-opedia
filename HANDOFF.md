@@ -162,28 +162,24 @@ Added all 10 nodes. Economics scope now: 39 nodes, 98 edges.
 
 ## NEXT STEPS: TECHNICAL IMPROVEMENTS
 
+### Already implemented (no work needed)
+- **Full-text search**: `js/search.js` + Fuse.js — fuzzy search, camera flies to node, node flashes. Keyboard: `/` or `Ctrl+K`.
+- **Portal node counts auto-update**: `scope-manager.js` `generatePortalsForScope()` computes `${nodes.length}` dynamically. Hardcoded strings in `data/global/nodes.json` are bypassed.
+- **Focus mode / Neighborhood**: Clicking a node opens Neighborhood panel (depth 1/2/3 buttons). `applyFilters()` calls `GR.setNodeVisibility()` to hide nodes beyond N hops. Fully working.
+- **Stats HUD**: `#stats` div (bottom-left overlay) shows `visible/total nodes · total edges`. Updated by `updateStats()` in filter-manager.
+- **Decade range filter**: `#sb-decade-section` sliders already built into filter-manager. Active on scopes with `decade` field data.
+- **Edge type label on hover**: `linkLabel(link => link.type.replace(/_/g,' '))` added in Session 5.
+
 ### UI / Visualization
 
-**1. Full-Text Search** *(High priority)*
-Add a search input to the sidebar that filters nodes by label or summary text. Currently impossible to find a node without knowing it exists. Implementation: sidebar text input → filter `nodePassesFilter()` to check `node.label.toLowerCase().includes(query)` or `node.summary.toLowerCase().includes(query)`. File: `js/filter-manager.js`.
+**1. Visible Edge Count in Stats** *(Low priority)*
+`updateStats()` shows total edges, not visible edges. Could count edges where both endpoints are in `visibleNodeIds`. File: `js/filter-manager.js:452`.
 
-**2. Timeline / Era Filter** *(Medium priority)*
-Add a decade range slider that filters visible nodes by the `decade` field. Allows exploration of "only WWI-era nodes" etc. Implementation: add decade range to filter state in `filter-manager.js`, apply in `nodePassesFilter()`. File: `js/filter-manager.js`.
+**2. Performance at Scale** *(Medium priority)*
+Global view now renders 885+ nodes. Options if frame rate degrades: (a) reduce charge strength when node count > 500, (b) cap label rendering distance more aggressively, (c) lazy-load mechanism nodes.
 
-**3. Portal Node Counts Auto-Update** *(Medium priority)*
-Portal nodes show hardcoded counts ("168 nodes on history") that go stale as data grows. Fix: compute counts dynamically in `enterGlobalView()` from actual loaded data. File: `js/scope-manager.js` + remove count strings from `data/global/nodes.json`.
-
-**4. "Focus Mode" on Node Click** *(Medium priority)*
-When clicking a node, hide all nodes more than N hops away. Currently clicking shows connections in the sidebar but doesn't simplify the 3D view. Implementation: BFS from selected node in filter-manager, hide distant nodes temporarily. Files: `js/filter-manager.js`, `js/graph-renderer.js`.
-
-**5. Edge Label on Hover** *(Low priority)*
-Show the relation type (CAUSED, ENABLED, etc.) as a label when hovering an edge. 3d-force-graph supports `linkLabel()`. File: `js/graph-renderer.js`.
-
-**6. Graph Statistics Panel** *(Low priority)*
-Small HUD showing: visible node count, visible edge count, top 5 most-connected nodes. Derive from `graphInstance.graphData()` after each load. File: `js/graph-renderer.js` or new `js/stats-panel.js`.
-
-**7. Performance at Scale** *(Medium priority)*
-Global view renders 800+ nodes simultaneously; frame rate degrades on lower-end hardware. Options: (a) reduce charge strength when node count > 500, (b) cluster portal nodes visually until user zooms in, (c) cap label rendering distance more aggressively.
+**3. Top-N Most-Connected Nodes in Stats** *(Low priority)*
+Add a "most connected nodes" list to the stats area — useful for discovering hub nodes. Derive from degree data already in `n.__degree`.
 
 ### Data Quality
 
@@ -225,12 +221,12 @@ Data model supports nested scopes (`children: {}`). Future: `global/history/wwii
 
 | Issue | File | Priority |
 |-------|------|----------|
-| Portal node counts are hardcoded | `data/global/nodes.json` | Medium |
 | Some `SHARES_MECHANISM_WITH` edges are imprecise | edges.json files | Low |
 | Politics-scope nodes thin on mechanism edges | `data/global/politics/` | Medium |
-| `augusto_caesar` ID should probably be `augustus_caesar` | history nodes | Low |
 | ~~`world_war_two` duplicate~~ | ~~fixed Session 4~~ | ✓ Done |
 | ~~`french_revolution_history` orphan~~ | ~~fixed Session 4~~ | ✓ Done |
+| ~~`augusto_caesar` wrong ID~~ | ~~fixed Session 5~~ | ✓ Done |
+| ~~Portal counts hardcoded~~ | ~~already dynamic~~ | ✓ N/A |
 
 ---
 
@@ -242,3 +238,4 @@ Data model supports nested scopes (`children: {}`). Future: `global/history/wwii
 | Session 2 | Graph renderer fix (edge filter prevents node scatter); MLK duplicate merged; +70 person nodes (183 total); edge type sidebar expanded to individual types |
 | Session 3 | Economics scope wired in (portal + scope-manager); +50 history nodes across Pre-Columbian Americas, 2020s, Africa, South Asia, China; +320 edges total |
 | Session 4 | Duplicate cleanup (world_war_two merged, french_revolution_history deleted); +83 history nodes across all 8 content priorities; +10 economics nodes; person nodes grew 183→214; total nodes ~794→~885; total edges ~2851→~3084 |
+| Session 5 | Technical audit: edge type labels on hover (linkLabel added); augusto_caesar → augustus_caesar rename; HANDOFF technical section corrected (search/focus/stats/portal counts/decade filter all already implemented) |

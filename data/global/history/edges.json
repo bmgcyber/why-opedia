@@ -6030,20 +6030,20 @@
     "relation": "SHARES_MECHANISM_WITH"
   },
   {
-    "id": "augusto_caesar__roman_republic",
-    "source": "augusto_caesar",
+    "id": "augustus_caesar__roman_republic",
+    "source": "augustus_caesar",
     "target": "roman_republic",
     "relation": "FRAGMENTED_INTO"
   },
   {
-    "id": "augusto_caesar__roman_empire",
-    "source": "augusto_caesar",
+    "id": "augustus_caesar__roman_empire",
+    "source": "augustus_caesar",
     "target": "roman_empire",
     "relation": "CAUSED"
   },
   {
-    "id": "augusto_caesar__sulla_march_on_rome",
-    "source": "augusto_caesar",
+    "id": "augustus_caesar__sulla_march_on_rome",
+    "source": "augustus_caesar",
     "target": "sulla_march_on_rome",
     "relation": "SHARES_MECHANISM_WITH"
   },
