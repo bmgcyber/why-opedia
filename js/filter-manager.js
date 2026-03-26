@@ -592,6 +592,5 @@
     get selectedNodeId() { return selectedNodeId; },
     get neighborhoodDepth() { return neighborhoodDepth; },
     EDGE_FILTER_GROUPS,
-    EDGE_FILTER_MAIN,
   };
 })();
