@@ -431,12 +431,16 @@ function loadGraphData(nodes, edges) {
   // Assign semantic zoom tiers
   computeTiers(nodes);
 
-  // Convert edges to links (3d-force-graph uses 'source'/'target' but may need to re-resolve)
-  const links = edges.map(e => ({
-    ...e,
-    source: e.source,
-    target: e.target,
-  }));
+  // Filter out edges referencing nodes not in this load set (orphaned cross-scope refs)
+  // before passing to the force simulation — invalid edges cause NaN forces and node scatter.
+  const validIds = new Set(nodes.map(n => n.id));
+  const links = edges
+    .filter(e => validIds.has(e.source) && validIds.has(e.target))
+    .map(e => ({
+      ...e,
+      source: e.source,
+      target: e.target,
+    }));
 
   // Randomize initial 3D positions so force sim starts with z-spread
   nodes.forEach(node => {
