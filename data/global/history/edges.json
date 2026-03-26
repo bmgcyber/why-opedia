@@ -6745,5 +6745,593 @@
     "source": "olaudah_equiano",
     "target": "harriet_tubman",
     "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "aztec_empire__spanish_conquest_mexico",
+    "source": "aztec_empire",
+    "target": "spanish_conquest_mexico",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "inca_empire__spanish_conquest_peru",
+    "source": "inca_empire",
+    "target": "spanish_conquest_peru",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "maya_civilization__mayan_collapse",
+    "source": "maya_civilization",
+    "target": "mayan_collapse",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "hernan_cortes__spanish_conquest_mexico",
+    "source": "hernan_cortes",
+    "target": "spanish_conquest_mexico",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "hernan_cortes__aztec_empire",
+    "source": "hernan_cortes",
+    "target": "aztec_empire",
+    "relation": "COLONIZED"
+  },
+  {
+    "id": "francisco_pizarro__spanish_conquest_peru",
+    "source": "francisco_pizarro",
+    "target": "spanish_conquest_peru",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "francisco_pizarro__inca_empire",
+    "source": "francisco_pizarro",
+    "target": "inca_empire",
+    "relation": "COLONIZED"
+  },
+  {
+    "id": "montezuma_ii__aztec_empire",
+    "source": "montezuma_ii",
+    "target": "aztec_empire",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "montezuma_ii__spanish_conquest_mexico",
+    "source": "montezuma_ii",
+    "target": "spanish_conquest_mexico",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "pachacuti__inca_empire",
+    "source": "pachacuti",
+    "target": "inca_empire",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "atahualpa__inca_empire",
+    "source": "atahualpa",
+    "target": "inca_empire",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "atahualpa__spanish_conquest_peru",
+    "source": "atahualpa",
+    "target": "spanish_conquest_peru",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "cuauhtemoc__spanish_conquest_mexico",
+    "source": "cuauhtemoc",
+    "target": "spanish_conquest_mexico",
+    "relation": "DISCREDITED"
+  },
+  {
+    "id": "cuauhtemoc__aztec_empire",
+    "source": "cuauhtemoc",
+    "target": "aztec_empire",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "la_malinche__spanish_conquest_mexico",
+    "source": "la_malinche",
+    "target": "spanish_conquest_mexico",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "christopher_columbus__aztec_empire",
+    "source": "christopher_columbus",
+    "target": "aztec_empire",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "christopher_columbus__maya_civilization",
+    "source": "christopher_columbus",
+    "target": "maya_civilization",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "christopher_columbus__inca_empire",
+    "source": "christopher_columbus",
+    "target": "inca_empire",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "columbian_exchange__atlantic_slave_trade",
+    "source": "columbian_exchange",
+    "target": "atlantic_slave_trade",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "columbian_exchange__colonial_era",
+    "source": "columbian_exchange",
+    "target": "colonial_era",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "columbian_exchange__age_of_exploration",
+    "source": "columbian_exchange",
+    "target": "age_of_exploration",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "spanish_conquest_mexico__colonial_era",
+    "source": "spanish_conquest_mexico",
+    "target": "colonial_era",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "spanish_conquest_peru__colonial_era",
+    "source": "spanish_conquest_peru",
+    "target": "colonial_era",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "aztec_empire__silk_road",
+    "source": "aztec_empire",
+    "target": "silk_road",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "inca_empire__silk_road",
+    "source": "inca_empire",
+    "target": "silk_road",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "covid_19_pandemic__blm_movement",
+    "source": "covid_19_pandemic",
+    "target": "blm_movement",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "covid_19_pandemic__january_6_insurrection",
+    "source": "covid_19_pandemic",
+    "target": "january_6_insurrection",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "covid_19_pandemic__smartphone_social_media_era",
+    "source": "covid_19_pandemic",
+    "target": "smartphone_social_media_era",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "george_floyd_murder__blm_movement",
+    "source": "george_floyd_murder",
+    "target": "blm_movement",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "george_floyd_murder__january_6_insurrection",
+    "source": "george_floyd_murder",
+    "target": "january_6_insurrection",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "blm_movement__civil_rights_movement",
+    "source": "blm_movement",
+    "target": "civil_rights_movement",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "blm_movement__martin_luther_king_jr",
+    "source": "blm_movement",
+    "target": "martin_luther_king_jr",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "blm_movement__rosa_parks",
+    "source": "blm_movement",
+    "target": "rosa_parks",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "january_6_insurrection__donald_trump",
+    "source": "january_6_insurrection",
+    "target": "donald_trump",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "donald_trump__january_6_insurrection",
+    "source": "donald_trump",
+    "target": "january_6_insurrection",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "donald_trump__mccarthyism",
+    "source": "donald_trump",
+    "target": "mccarthyism",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "smartphone_social_media_era__blm_movement",
+    "source": "smartphone_social_media_era",
+    "target": "blm_movement",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "smartphone_social_media_era__metoo_movement",
+    "source": "smartphone_social_media_era",
+    "target": "metoo_movement",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "smartphone_social_media_era__january_6_insurrection",
+    "source": "smartphone_social_media_era",
+    "target": "january_6_insurrection",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "metoo_movement__suffrage_movement",
+    "source": "metoo_movement",
+    "target": "suffrage_movement",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "greta_thunberg__climate_crisis_activism",
+    "source": "greta_thunberg",
+    "target": "climate_crisis_activism",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "climate_crisis_activism__industrial_revolution",
+    "source": "climate_crisis_activism",
+    "target": "industrial_revolution",
+    "relation": "DISCREDITED"
+  },
+  {
+    "id": "ukraine_russia_war__cold_war_culture",
+    "source": "ukraine_russia_war",
+    "target": "cold_war_culture",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "mali_empire__songhai_empire",
+    "source": "mali_empire",
+    "target": "songhai_empire",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "mali_empire__atlantic_slave_trade",
+    "source": "mali_empire",
+    "target": "atlantic_slave_trade",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "songhai_empire__atlantic_slave_trade",
+    "source": "songhai_empire",
+    "target": "atlantic_slave_trade",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "sundiata_keita__mali_empire",
+    "source": "sundiata_keita",
+    "target": "mali_empire",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "mansa_musa__mali_empire",
+    "source": "mansa_musa",
+    "target": "mali_empire",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "mansa_musa__silk_road",
+    "source": "mansa_musa",
+    "target": "silk_road",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "ashanti_empire__atlantic_slave_trade",
+    "source": "ashanti_empire",
+    "target": "atlantic_slave_trade",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "ashanti_empire__berlin_conference_1884",
+    "source": "ashanti_empire",
+    "target": "berlin_conference_1884",
+    "relation": "DISCREDITED"
+  },
+  {
+    "id": "battle_of_adwa__berlin_conference_1884",
+    "source": "battle_of_adwa",
+    "target": "berlin_conference_1884",
+    "relation": "DISCREDITED"
+  },
+  {
+    "id": "battle_of_adwa__decolonization_movement",
+    "source": "battle_of_adwa",
+    "target": "decolonization_movement",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "battle_of_adwa__menelik_ii",
+    "source": "battle_of_adwa",
+    "target": "menelik_ii",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "menelik_ii__battle_of_adwa",
+    "source": "menelik_ii",
+    "target": "battle_of_adwa",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "kwame_nkrumah__decolonization_movement",
+    "source": "kwame_nkrumah",
+    "target": "decolonization_movement",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "kwame_nkrumah__decolonization_africa",
+    "source": "kwame_nkrumah",
+    "target": "decolonization_africa",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "kwame_nkrumah__patrice_lumumba",
+    "source": "kwame_nkrumah",
+    "target": "patrice_lumumba",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "kwame_nkrumah__thomas_sankara",
+    "source": "kwame_nkrumah",
+    "target": "thomas_sankara",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "patrice_lumumba__latin_american_dirty_wars",
+    "source": "patrice_lumumba",
+    "target": "latin_american_dirty_wars",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "patrice_lumumba__bay_of_pigs",
+    "source": "patrice_lumumba",
+    "target": "bay_of_pigs",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "thomas_sankara__kwame_nkrumah",
+    "source": "thomas_sankara",
+    "target": "kwame_nkrumah",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "thomas_sankara__decolonization_africa",
+    "source": "thomas_sankara",
+    "target": "decolonization_africa",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "king_leopold_congo__patrice_lumumba",
+    "source": "king_leopold_congo",
+    "target": "patrice_lumumba",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "maurya_empire__ashoka",
+    "source": "maurya_empire",
+    "target": "ashoka",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "chandragupta_maurya__maurya_empire",
+    "source": "chandragupta_maurya",
+    "target": "maurya_empire",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "ashoka__buddhist_spread_east_asia",
+    "source": "ashoka",
+    "target": "buddhist_spread_east_asia",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "ashoka__maurya_empire",
+    "source": "ashoka",
+    "target": "maurya_empire",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "ashoka__gautama_buddha",
+    "source": "ashoka",
+    "target": "gautama_buddha",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "mughal_empire__partition_of_india",
+    "source": "mughal_empire",
+    "target": "partition_of_india",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "mughal_empire__east_india_company",
+    "source": "mughal_empire",
+    "target": "east_india_company",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "mughal_empire__sepoy_mutiny",
+    "source": "mughal_empire",
+    "target": "sepoy_mutiny",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "akbar_the_great__mughal_empire",
+    "source": "akbar_the_great",
+    "target": "mughal_empire",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "aurangzeb__mughal_empire",
+    "source": "aurangzeb",
+    "target": "mughal_empire",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "aurangzeb__partition_of_india",
+    "source": "aurangzeb",
+    "target": "partition_of_india",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "sepoy_mutiny__partition_of_india",
+    "source": "sepoy_mutiny",
+    "target": "partition_of_india",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "sepoy_mutiny__east_india_company",
+    "source": "sepoy_mutiny",
+    "target": "east_india_company",
+    "relation": "DISCREDITED"
+  },
+  {
+    "id": "bengal_famine_1943__partition_of_india",
+    "source": "bengal_famine_1943",
+    "target": "partition_of_india",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "bengal_famine_1943__irish_famine",
+    "source": "bengal_famine_1943",
+    "target": "irish_famine",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "bengal_famine_1943__winston_churchill",
+    "source": "bengal_famine_1943",
+    "target": "winston_churchill",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "han_dynasty__silk_road",
+    "source": "han_dynasty",
+    "target": "silk_road",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "han_dynasty__qin_dynasty",
+    "source": "han_dynasty",
+    "target": "qin_dynasty",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "han_dynasty__tang_dynasty",
+    "source": "han_dynasty",
+    "target": "tang_dynasty",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "tang_dynasty__wu_zetian",
+    "source": "tang_dynasty",
+    "target": "wu_zetian",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "wu_zetian__tang_dynasty",
+    "source": "wu_zetian",
+    "target": "tang_dynasty",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "tang_dynasty__song_dynasty",
+    "source": "tang_dynasty",
+    "target": "song_dynasty",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "song_dynasty__mongol_conquests",
+    "source": "song_dynasty",
+    "target": "mongol_conquests",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "song_dynasty__kublai_khan",
+    "source": "song_dynasty",
+    "target": "kublai_khan",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "ming_dynasty__zheng_he",
+    "source": "ming_dynasty",
+    "target": "zheng_he",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "ming_dynasty__opium_wars",
+    "source": "ming_dynasty",
+    "target": "opium_wars",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "zheng_he__silk_road",
+    "source": "zheng_he",
+    "target": "silk_road",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "zheng_he__age_of_exploration",
+    "source": "zheng_he",
+    "target": "age_of_exploration",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "opium_wars__east_india_company",
+    "source": "opium_wars",
+    "target": "east_india_company",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "opium_wars__taiping_rebellion",
+    "source": "opium_wars",
+    "target": "taiping_rebellion",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "opium_wars__meiji_restoration",
+    "source": "opium_wars",
+    "target": "meiji_restoration",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "taiping_rebellion__tiananmen_square_1989",
+    "source": "taiping_rebellion",
+    "target": "tiananmen_square_1989",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "tiananmen_square_1989__deng_xiaoping",
+    "source": "tiananmen_square_1989",
+    "target": "deng_xiaoping",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "tiananmen_square_1989__chinese_cultural_revolution",
+    "source": "tiananmen_square_1989",
+    "target": "chinese_cultural_revolution",
+    "relation": "SHARES_MECHANISM_WITH"
   }
 ]

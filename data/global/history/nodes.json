@@ -7354,5 +7354,1004 @@
       "person"
     ],
     "region": "Africa"
+  },
+  {
+    "id": "aztec_empire",
+    "label": "Aztec Empire (Triple Alliance)",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1300s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Aztec_Empire",
+    "summary": "Mesoamerican empire (1428\u20131521) centered on Tenochtitl\u00e1n (present-day Mexico City), which at its height housed ~200,000\u2013400,000 people \u2014 larger than any European city of the period. The Triple Alliance of Tenochtitl\u00e1n, Texcoco, and Tlacopan controlled central Mexico through tribute extraction, military conquest, and religious ceremony. Its fall to Hern\u00e1n Cort\u00e9s's 500 soldiers was enabled by a devastating smallpox epidemic (which killed perhaps half the population), internal political divisions, and an alliance of 100,000+ indigenous people who had their own reasons to overthrow Aztec dominance. The narrative of a small European force defeating a vast empire obscures these structural factors.",
+    "tags": [
+      "aztec",
+      "mexico",
+      "mesoamerica",
+      "empire",
+      "colonialism"
+    ],
+    "region": "Latin America"
+  },
+  {
+    "id": "maya_civilization",
+    "label": "Maya Civilization",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "2000s BCE",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Maya_civilization",
+    "summary": "Mesoamerican civilization (c. 2000 BCE\u2013present) spanning present-day Mexico, Guatemala, Belize, Honduras, and El Salvador. At its Classic Period peak (250\u2013900 CE), Maya city-states built pyramid complexes, developed a complete writing system, made astronomical calculations of extraordinary precision (the Maya calendar), and sustained dense urban populations through sophisticated agriculture. The 'Classic Collapse' (~800\u2013900 CE) depopulated the southern lowlands \u2014 likely due to drought, warfare, and political fragmentation. The Maya were never extinct: ~7 million Maya descendants live today, many still speaking Maya languages.",
+    "tags": [
+      "maya",
+      "mesoamerica",
+      "writing",
+      "astronomy",
+      "calendar",
+      "colonialism"
+    ],
+    "region": "Latin America"
+  },
+  {
+    "id": "inca_empire",
+    "label": "Inca Empire (Tawantinsuyu)",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1400s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Inca_Empire",
+    "summary": "The largest empire in pre-Columbian America (c. 1438\u20131533), stretching 4,000 km along the Andes from Ecuador to Chile \u2014 roughly the size of the Roman Empire at its height. The Incas built 40,000 km of roads (the Qhapaq \u00d1an), maintained a sophisticated bureaucracy using knotted string records (quipu), and organized agricultural terracing that fed 12 million people. Conquered by Francisco Pizarro's 168 soldiers and 1 cannon, with decisive help from smallpox, a civil war that split the empire, and indigenous allies. Its sophisticated infrastructure was largely dismantled for silver extraction.",
+    "tags": [
+      "inca",
+      "peru",
+      "andes",
+      "empire",
+      "colonialism",
+      "road"
+    ],
+    "region": "Latin America"
+  },
+  {
+    "id": "spanish_conquest_mexico",
+    "label": "Spanish Conquest of Mexico (1519\u20131521)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1520s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire",
+    "summary": "Military campaign that ended the Aztec Empire and established New Spain. Hern\u00e1n Cort\u00e9s arrived in 1519 with 500 soldiers and 16 horses. The conquest depended on: (1) a devastating smallpox epidemic that killed ~50% of Tenochtitl\u00e1n's population before any siege; (2) Tlaxcalan and other indigenous allies who provided ~150,000 warriors; (3) La Malinche (Malintzin), a Nahua woman who served as translator and strategist; and (4) the fragility of Aztec tributary empire. Tenochtitl\u00e1n fell in 1521. The population of central Mexico fell from ~25 million to ~1 million by 1600 \u2014 mostly from epidemic disease.",
+    "tags": [
+      "colonialism",
+      "aztec",
+      "cortes",
+      "mexico",
+      "conquest",
+      "smallpox"
+    ],
+    "region": "Latin America"
+  },
+  {
+    "id": "spanish_conquest_peru",
+    "label": "Spanish Conquest of Peru (1532\u20131572)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1530s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire",
+    "summary": "Francisco Pizarro's conquest of the Inca Empire began at Cajamarca (1532), where his 168 soldiers massacred 7,000 unarmed Inca nobles, captured Atahualpa, accepted a roomful of gold and silver as ransom, and executed Atahualpa anyway. The conquest exploited a civil war between Atahualpa and his brother Hu\u00e1scar that had just ended. Silver from Potos\u00ed (present-day Bolivia), discovered in 1545, became the engine of the Spanish colonial economy \u2014 minting 80% of the world's silver between 1500 and 1800 and fueling European capitalism while killing millions of indigenous forced laborers in the mines.",
+    "tags": [
+      "colonialism",
+      "inca",
+      "pizarro",
+      "peru",
+      "silver",
+      "conquest"
+    ],
+    "region": "Latin America"
+  },
+  {
+    "id": "columbian_exchange",
+    "label": "Columbian Exchange",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "decade": "1490s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Columbian_exchange",
+    "summary": "The transfer of plants, animals, culture, human populations, technology, and diseases between the Americas and the Old World following Columbus's 1492 voyage. In one direction: potatoes, tomatoes, maize, cacao, tobacco, quinine, rubber. In the other: horses, cattle, wheat, sugarcane, and \u2014 most destructively \u2014 smallpox, measles, typhus, and influenza, against which indigenous Americans had no immunity. Demographic historians estimate 50\u201390% of indigenous Americans died from epidemic disease between 1492 and 1600 \u2014 the largest demographic catastrophe in recorded history. The Columbian Exchange also enabled Europe's industrial revolution via tropical commodities and American silver.",
+    "tags": [
+      "colonialism",
+      "disease",
+      "trade",
+      "americas",
+      "europe",
+      "demography"
+    ],
+    "region": "Latin America"
+  },
+  {
+    "id": "mayan_collapse",
+    "label": "Classic Maya Collapse",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "800s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Classic_Maya_collapse",
+    "summary": "The rapid depopulation of Classic Maya cities in the southern lowlands between roughly 800\u20131000 CE, ending the Classic Period. Major urban centers like Tikal, Palenque, and Cop\u00e1n were abandoned within a century. Proposed causes include: prolonged drought (confirmed by lake sediment records), deforestation and soil exhaustion, endemic warfare between city-states, trade network disruption, and political instability. The collapse was not uniform \u2014 northern lowland cities like Chich\u00e9n Itz\u00e1 continued to thrive. It demonstrates the vulnerability of complex civilizations to environmental change compounded by political fragmentation.",
+    "tags": [
+      "maya",
+      "collapse",
+      "drought",
+      "civilization",
+      "archaeology"
+    ],
+    "region": "Latin America"
+  },
+  {
+    "id": "montezuma_ii",
+    "label": "Moctezuma II",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1500s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Moctezuma_II",
+    "summary": "Ninth ruler (tlatoani) of the Aztec Empire (c. 1466\u20131520) who presided over its greatest territorial expansion before Cort\u00e9s arrived. His response to the Spanish \u2014 initially welcoming them, then captured by them \u2014 has been interpreted variously as religious deference (seeing Cort\u00e9s as the god Quetzalcoatl), political calculation, or paralysis. He died in Spanish custody in 1520; whether killed by Spaniards or by his own people is disputed. His reputation in Mexican historiography oscillates between traitor and victim. The 'Quetzalcoatl misunderstanding' narrative that explains his compliance was probably a later Spanish-inspired invention.",
+    "tags": [
+      "aztec",
+      "mexico",
+      "montezuma",
+      "conquest",
+      "person"
+    ],
+    "region": "Latin America"
+  },
+  {
+    "id": "pachacuti",
+    "label": "Pachacuti",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1430s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Pachacuti",
+    "summary": "Ninth Sapa Inca (c. 1418\u20131471) who transformed the Inca state from a small kingdom into Tawantinsuyu \u2014 the 'Four Suyus' \u2014 through military conquest and administrative innovation. He is credited with building Machu Picchu (c. 1450), constructing the road network, and establishing the Inca system of mit'a (labor tribute) that organized millions of people into state projects without currency. His reign is the Inca Empire's founding moment. His name means 'world-shaker' or 'earth-shaker' in Quechua. His empire-building model \u2014 centralized administration, standardized infrastructure, labor mobilization \u2014 influenced later state-building theories.",
+    "tags": [
+      "inca",
+      "peru",
+      "machu-picchu",
+      "empire",
+      "person"
+    ],
+    "region": "Latin America"
+  },
+  {
+    "id": "atahualpa",
+    "label": "Atahualpa",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1530s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Atahualpa",
+    "summary": "Last sovereign Sapa Inca (c. 1502\u20131533) who had just won a brutal civil war against his brother Hu\u00e1scar when Pizarro arrived. Captured at Cajamarca after his unarmed retinue was massacred, he paid a ransom of a room filled with gold and two rooms with silver \u2014 roughly 24 tons of gold \u2014 one of history's largest ransoms. Pizarro executed him anyway, by garrote (strangulation, a concession to his agreeing to be baptized rather than burned). His execution eliminated the one figure with legitimacy to coordinate resistance. He had ruled for less than a year.",
+    "tags": [
+      "inca",
+      "peru",
+      "pizarro",
+      "conquest",
+      "person"
+    ],
+    "region": "Latin America"
+  },
+  {
+    "id": "francisco_pizarro",
+    "label": "Francisco Pizarro",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1530s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Francisco_Pizarro",
+    "summary": "Spanish conquistador (c. 1471\u20131541) who conquered the Inca Empire with 168 soldiers. Illiterate, illegitimate son of a minor nobleman, he made three expeditions before his successful conquest. The Cajamarca ambush (1532) \u2014 seizing Atahualpa during what was presented as a peaceful meeting \u2014 was one of history's most audacious acts of organized violence. He established Lima as Peru's capital and spent his remaining years in brutal internal conflict with other conquistadors. Assassinated in Lima in 1541 by supporters of Diego de Almagro, whom he had earlier executed. He represents the conquistador archetype: extraordinary personal courage in service of catastrophic ends.",
+    "tags": [
+      "colonialism",
+      "inca",
+      "peru",
+      "conquest",
+      "spain",
+      "person"
+    ],
+    "region": "Latin America"
+  },
+  {
+    "id": "cuauhtemoc",
+    "label": "Cuauht\u00e9moc",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1520s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Cuauht%C3%A9moc",
+    "summary": "Last Aztec tlatoani (ruler) of Tenochtitl\u00e1n (c. 1495\u20131525) who organized the final resistance against Cort\u00e9s during the siege of Tenochtitl\u00e1n. Captured in his canoe while trying to escape the fallen city, he was tortured to reveal hidden treasure (Cort\u00e9s burned his feet) and later executed during an expedition to Honduras. His defiance became a symbol of indigenous resistance in Mexican national identity \u2014 a counterweight to Montezuma's ambiguous legacy. He is considered a national hero of Mexico; his statue stands on the Paseo de la Reforma in Mexico City.",
+    "tags": [
+      "aztec",
+      "mexico",
+      "resistance",
+      "conquest",
+      "person"
+    ],
+    "region": "Latin America"
+  },
+  {
+    "id": "la_malinche",
+    "label": "La Malinche (Malintzin)",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1510s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/La_Malinche",
+    "summary": "Nahua woman (c. 1500\u20131529) who served as Cort\u00e9s's primary translator, interpreter, and strategic advisor during the conquest of Mexico. Born to a noble family, sold into slavery, given to Cort\u00e9s as a tribute gift, she learned Spanish and became indispensable to the conquest \u2014 understanding both Nahuatl and Maya. She bore Cort\u00e9s's son Mart\u00edn, one of the first mestizo children of the colonial era. Her legacy is deeply contested: in Mexico she is 'La Malinche' \u2014 a symbol of betrayal and collaboration (malinchismo). Revisionist historians read her as a survivor exercising agency under enslavement, not a traitor to a national identity that didn't yet exist.",
+    "tags": [
+      "aztec",
+      "mexico",
+      "conquest",
+      "woman",
+      "translation",
+      "person"
+    ],
+    "region": "Latin America"
+  },
+  {
+    "id": "covid_19_pandemic",
+    "label": "COVID-19 Pandemic",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "2020s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/COVID-19_pandemic",
+    "summary": "Global pandemic caused by SARS-CoV-2, first identified in Wuhan, China in late 2019, that killed an estimated 7\u201320 million people (excess mortality) and disrupted global society for 2\u20133 years. Its political dimensions included: accelerated surveillance infrastructure justified by public health; massive wealth transfer to already-wealthy sectors (tech, pharma, finance) while lower-income workers bore disproportionate risk; vaccine nationalism leaving poor countries behind; and emergence of anti-vaccination movements that blended legitimate pharmaceutical skepticism with conspiracy theory. The pandemic exposed the structural vulnerabilities of just-in-time global supply chains and the unequal distribution of health infrastructure.",
+    "tags": [
+      "pandemic",
+      "covid",
+      "2020s",
+      "public-health",
+      "inequality",
+      "usa"
+    ],
+    "region": "Global"
+  },
+  {
+    "id": "george_floyd_murder",
+    "label": "Murder of George Floyd",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "2020s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Murder_of_George_Floyd",
+    "summary": "Killing of George Floyd, a 46-year-old Black American man, by Minneapolis police officer Derek Chauvin on May 25, 2020 \u2014 filmed on a bystander's phone, the video showing Chauvin kneeling on Floyd's neck for 9 minutes and 29 seconds as Floyd stated he couldn't breathe. The video's global circulation triggered the largest protest movement in American history, with an estimated 15\u201326 million participants across 2,000 cities. It became a defining moment for the Black Lives Matter movement and prompted international reckoning with police violence. Chauvin was convicted of murder in 2021. The protests were followed by a nationwide backlash ('defund the police' panic) and minimal structural police reform.",
+    "tags": [
+      "usa",
+      "police",
+      "race",
+      "2020s",
+      "protest",
+      "blm"
+    ],
+    "region": "North America"
+  },
+  {
+    "id": "blm_movement",
+    "label": "Black Lives Matter Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Lives_Matter",
+    "summary": "Decentralized political and social movement founded in 2013 after George Zimmerman's acquittal in the Trayvon Martin shooting, gaining global prominence after the 2020 murder of George Floyd. At its 2020 peak it was estimated to be the largest protest movement in American history. The movement's decentralized, leaderless structure \u2014 partly a deliberate design choice to prevent leadership assassination (as happened with civil rights leaders) \u2014 made it both more resilient and harder to direct politically. The counternarrative 'Blue Lives Matter' and debates over 'defund the police' illustrated how the Overton window mechanism shapes messaging. The movement produced material results (awareness, some policy changes) and generated substantial backlash.",
+    "tags": [
+      "usa",
+      "race",
+      "police",
+      "protest",
+      "2010s",
+      "2020s",
+      "civil-rights"
+    ],
+    "region": "North America"
+  },
+  {
+    "id": "january_6_insurrection",
+    "label": "January 6th U.S. Capitol Attack",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "2020s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/2021_United_States_Capitol_attack",
+    "summary": "Attack on the U.S. Capitol on January 6, 2021 by supporters of President Donald Trump attempting to prevent certification of the 2020 presidential election results. Trump's 'Stop the Steal' campaign had spread the false claim that the election was stolen through fraud. The attack resulted in 7 deaths (including officers), 140 injured officers, and the temporary halt of certification. The event represents the first forcible interruption of the peaceful transfer of presidential power in U.S. history. Its historical significance is contested: defenders call it a protest that got out of hand; critics call it a coup attempt. Trump was impeached (not convicted) for incitement.",
+    "tags": [
+      "usa",
+      "trump",
+      "democracy",
+      "coup",
+      "2020s",
+      "capitol"
+    ],
+    "region": "North America"
+  },
+  {
+    "id": "ukraine_russia_war",
+    "label": "Russian Invasion of Ukraine (2022\u2013present)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "2020s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine",
+    "summary": "Full-scale Russian military invasion of Ukraine launched on February 24, 2022 \u2014 the largest conventional war in Europe since WWII. Russia had already annexed Crimea in 2014 and supported separatists in Donbas. The 2022 invasion failed to achieve its initial objective of rapid regime change in Kyiv. The war produced the largest refugee crisis in Europe since WWII (over 8 million Ukrainian refugees abroad), massive civilian casualties, war crimes including deliberate targeting of civilian infrastructure, and realignment of European security architecture. It also demonstrated the limits of economic sanctions as deterrence and the continued relevance of conventional military power in great-power competition.",
+    "tags": [
+      "ukraine",
+      "russia",
+      "war",
+      "europe",
+      "2020s",
+      "nato"
+    ],
+    "region": "Europe"
+  },
+  {
+    "id": "metoo_movement",
+    "label": "#MeToo Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/MeToo_movement",
+    "summary": "Social movement against sexual abuse and harassment, given global momentum in October 2017 when accusations against film producer Harvey Weinstein went public, prompting millions to share personal experiences using the hashtag #MeToo (coined by Tarana Burke in 2006). The movement led to the firing/resignation of hundreds of powerful men across media, politics, entertainment, and business. It demonstrated how social media can aggregate individually suppressed experiences into collective accountability. The backlash ('false accusation' panic, questions of due process) and its limitations (mostly impacting high-profile figures while protecting institutional power structures) illustrated the gap between cultural shifts and structural change.",
+    "tags": [
+      "feminism",
+      "harassment",
+      "metoo",
+      "2010s",
+      "2020s",
+      "social-media"
+    ],
+    "region": "Global"
+  },
+  {
+    "id": "greta_thunberg",
+    "label": "Greta Thunberg",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Greta_Thunberg",
+    "summary": "Swedish climate activist (2003\u2013) who began a solo school strike outside the Swedish parliament in August 2018, which grew into Fridays for Future \u2014 a global youth climate movement with 4+ million participants in its September 2019 climate strike. Her Asperger syndrome, which she describes as her 'superpower' for focus, contributed to her unwillingness to soften her message for political palatability. Her UN speech ('How dare you!', September 2019) became a cultural marker. She represents the 'moral authority of the young' argument \u2014 that those who will live with climate consequences have standing to demand action from those who created the problem.",
+    "tags": [
+      "climate",
+      "youth",
+      "activism",
+      "sweden",
+      "2010s",
+      "2020s",
+      "person"
+    ],
+    "region": "Europe"
+  },
+  {
+    "id": "climate_crisis_activism",
+    "label": "Global Climate Crisis & Activism",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Climate_movement",
+    "summary": "The social movement responding to anthropogenic climate change, encompassing scientific consensus-building (IPCC), NGO advocacy (Greenpeace, Sierra Club), direct action (Extinction Rebellion), youth activism (Fridays for Future), and legal strategies (climate litigation). The movement has operated against a backdrop of sustained manufactured doubt \u2014 tobacco industry veterans literally advising fossil fuel companies to delay regulation by funding uncertainty. Key tension: systemic change requires political will that existing political economies are structured to prevent. The gap between scientific urgency (IPCC reports) and policy response has grown for 40 years.",
+    "tags": [
+      "climate",
+      "environment",
+      "activism",
+      "fossil-fuel",
+      "2010s",
+      "2020s"
+    ],
+    "region": "Global"
+  },
+  {
+    "id": "smartphone_social_media_era",
+    "label": "Smartphone & Social Media Era",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Social_media",
+    "summary": "The period from approximately 2007 (iPhone launch) to present, defined by ubiquitous smartphone ownership and algorithmic social media platforms (Facebook 2004, Twitter 2006, Instagram 2010, TikTok 2016). The era reorganized political communication, social identity formation, commerce, and attention. Algorithmic content ranking \u2014 optimizing for engagement, which correlates with outrage, fear, and identity threat \u2014 created feedback loops that accelerated political polarization, conspiracy theory spread, and identity-based radicalization. The business model (free at point of use, monetized through attention and data) aligned corporate incentives with maximizing emotional arousal rather than informational quality.",
+    "tags": [
+      "social-media",
+      "technology",
+      "smartphone",
+      "2010s",
+      "algorithm",
+      "polarization"
+    ],
+    "region": "Global"
+  },
+  {
+    "id": "donald_trump",
+    "label": "Donald Trump",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Donald_Trump",
+    "summary": "American real estate developer and 45th and 47th U.S. President (1946\u2013) who won the 2016 election by mobilizing white working-class resentment, nativist immigration politics, and anti-establishment rhetoric against a Democratic establishment symbolized by Hillary Clinton. His presidency normalized open lying by political leaders, tested constitutional limits of executive power, withdrew from the Paris Agreement and WHO, and ended with the January 6th Capitol attack. His 2020 electoral defeat and subsequent 'Stop the Steal' campaign represent the most serious challenge to American democratic norms since the Civil War. His 2024 return to the presidency demonstrated that democratic backsliding can be reversed by election even after a failed coup attempt.",
+    "tags": [
+      "usa",
+      "trump",
+      "populism",
+      "democracy",
+      "2010s",
+      "2020s",
+      "person"
+    ],
+    "region": "North America"
+  },
+  {
+    "id": "mali_empire",
+    "label": "Mali Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1230s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Mali_Empire",
+    "summary": "West African empire (c. 1235\u20131600) founded by Sundiata Keita after defeating the Ghana Empire. At its height under Mansa Musa (r. 1312\u20131337), it controlled the trans-Saharan gold and salt trade, making Mali the wealthiest empire in the world by per-capita gold production. Timbuktu became a major center of Islamic scholarship \u2014 the Sankore mosque/university housed 25,000 students. The empire demonstrates the sophistication of pre-colonial African political economy and challenges the Eurocentric assumption that Africa had no history before colonialism.",
+    "tags": [
+      "africa",
+      "mali",
+      "gold",
+      "trade",
+      "islam",
+      "west-africa"
+    ],
+    "region": "Africa"
+  },
+  {
+    "id": "songhai_empire",
+    "label": "Songhai Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1400s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Songhai_Empire",
+    "summary": "West African empire (c. 1375\u20131591) that succeeded Mali as the dominant power in the Sahel, reaching its peak under Sunni Ali (1464\u20131492) and Askia Mohammad I (1493\u20131528). The largest empire in African history by area, it controlled trans-Saharan trade, maintained a professional army with cavalry and canoe forces, and continued Timbuktu's role as a center of Islamic scholarship. Destroyed by Moroccan invasion (Battle of Tondibi, 1591) using firearms against Songhai cavalry \u2014 one of the earliest African cases of gunpowder warfare deciding a state's fate.",
+    "tags": [
+      "africa",
+      "songhai",
+      "west-africa",
+      "trade",
+      "islam",
+      "timbuktu"
+    ],
+    "region": "Africa"
+  },
+  {
+    "id": "mansa_musa",
+    "label": "Mansa Musa",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1310s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Mansa_Musa",
+    "summary": "Emperor of the Mali Empire (r. 1312\u20131337), often cited as the wealthiest person in history. His 1324\u20131325 hajj to Mecca, accompanied by 60,000 people and 12 tons of gold, flooded Egyptian and Arabian markets with so much gold that it caused regional inflation lasting a decade. He brought back Arab scholars and architects who transformed Timbuktu into an Islamic intellectual center. His pilgrimage put Mali on European maps for the first time (the 1375 Catalan Atlas shows him holding a gold nugget). He represents the counter-narrative to the assumption that pre-colonial Africa was primitive: here is a ruler whose casual generosity destabilized Mediterranean trade.",
+    "tags": [
+      "mali",
+      "africa",
+      "gold",
+      "wealth",
+      "islam",
+      "person"
+    ],
+    "region": "Africa"
+  },
+  {
+    "id": "sundiata_keita",
+    "label": "Sundiata Keita",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1230s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Sundiata_Keita",
+    "summary": "Founder and first Mansa (emperor) of the Mali Empire (c. 1217\u20131255) who defeated the Sosso king Sumanguru Kante at the Battle of Kirina (c. 1235), unifying the Mande peoples and establishing Mali's dominance of the western Sahel. The Epic of Sundiata \u2014 an oral history preserved by griots (hereditary storytellers) for 800 years \u2014 is the founding narrative of Mali and one of Africa's great literary works. His story involves disability (reportedly unable to walk until adulthood), exile, return, and triumph \u2014 archetypal hero narrative structures that parallel founding myths across cultures.",
+    "tags": [
+      "mali",
+      "africa",
+      "west-africa",
+      "founder",
+      "epic",
+      "person"
+    ],
+    "region": "Africa"
+  },
+  {
+    "id": "ashanti_empire",
+    "label": "Ashanti Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1700s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Ashanti_Empire",
+    "summary": "West African empire centered in present-day Ghana (1701\u20131957), unified under Osei Tutu I with the Golden Stool as its sacred symbol of national soul. The Ashanti fought and defeated four British invasions (1823, 1863, 1873, 1895) before final annexation in 1900. Their resistance \u2014 particularly the Second Ashanti-British War (1873) \u2014 forced the British to rethink colonial military tactics. The Ashanti were also significant participants in the Atlantic slave trade, selling war captives. This dual role (African resistance to colonialism AND participation in slavery) complicates the simple colonizer/victim binary.",
+    "tags": [
+      "ashanti",
+      "ghana",
+      "africa",
+      "colonialism",
+      "resistance",
+      "gold"
+    ],
+    "region": "Africa"
+  },
+  {
+    "id": "battle_of_adwa",
+    "label": "Battle of Adwa (1896)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1890s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Adwa",
+    "summary": "Ethiopian victory over the Italian invading army on March 1, 1896 \u2014 the decisive defeat of a European colonial power by an African army in the 19th century. Emperor Menelik II mobilized ~100,000 Ethiopian soldiers; the Italians lost ~7,000 men. Italy was forced to sign the Treaty of Addis Ababa recognizing Ethiopian sovereignty. The battle made Ethiopia a symbol of African independence during the colonial period, inspired pan-African movements, and shaped Mussolini's decision to invade Ethiopia in 1935 as revenge. It demonstrated that colonial conquest was not inevitable \u2014 geography, leadership, and numbers could overcome European technological advantage.",
+    "tags": [
+      "ethiopia",
+      "africa",
+      "colonialism",
+      "resistance",
+      "italy",
+      "independence"
+    ],
+    "region": "Africa"
+  },
+  {
+    "id": "menelik_ii",
+    "label": "Emperor Menelik II",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1880s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Menelik_II",
+    "summary": "Emperor of Ethiopia (1844\u20131913) who modernized the Ethiopian state, defeated the Italian invasion at Adwa (1896), and expanded Ethiopian territory \u2014 doubling its size through conquest of neighboring peoples. He introduced the telegraph, railways, and a central banking system. His modernization was simultaneously anti-colonial (resisting European partition of Africa) and imperial (incorporating non-Amhara peoples into Ethiopian empire). He represents the ambiguity of African leaders who resisted external colonialism while practicing internal conquest \u2014 a complexity that pan-African historiography sometimes elides.",
+    "tags": [
+      "ethiopia",
+      "africa",
+      "adwa",
+      "colonialism",
+      "modernization",
+      "person"
+    ],
+    "region": "Africa"
+  },
+  {
+    "id": "kwame_nkrumah",
+    "label": "Kwame Nkrumah",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Kwame_Nkrumah",
+    "summary": "First Prime Minister and President of Ghana (1909\u20131972) who led Ghana to independence from Britain in 1957 \u2014 the first sub-Saharan African country to gain independence \u2014 and became the defining voice of pan-Africanism. His Consciencism philosophy and Neo-Colonialism: The Last Stage of Imperialism (1965) argued that formal independence without economic sovereignty was illusory. Deposed in a CIA-backed coup in 1966 while on a diplomatic mission to Vietnam. His fate exemplified the structural vulnerability of African socialist leaders to Cold War-era U.S. intervention.",
+    "tags": [
+      "ghana",
+      "africa",
+      "independence",
+      "pan-africanism",
+      "colonialism",
+      "person"
+    ],
+    "region": "Africa"
+  },
+  {
+    "id": "patrice_lumumba",
+    "label": "Patrice Lumumba",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Patrice_Lumumba",
+    "summary": "First Prime Minister of the Democratic Republic of Congo (1925\u20131961), elected when Belgium granted independence in June 1960. Within months, his government faced the Katanga secession (supported by Belgian mining interests), mutiny, and a CIA/Belgian-backed coup by Joseph Mobutu. Captured, tortured, and executed on January 17, 1961 \u2014 his body dissolved in acid to prevent a grave from becoming a shrine. The CIA's involvement (confirmed in 1975 Church Committee hearings) in his murder exemplifies Cold War proxy politics: the U.S. chose Mobutu's 32-year kleptocracy over Lumumba's socialist nationalism. His assassination remains a founding wound of African postcolonial politics.",
+    "tags": [
+      "congo",
+      "africa",
+      "independence",
+      "cia",
+      "colonialism",
+      "assassination",
+      "person"
+    ],
+    "region": "Africa"
+  },
+  {
+    "id": "thomas_sankara",
+    "label": "Thomas Sankara",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1980s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Sankara",
+    "summary": "President of Burkina Faso (1949\u20131987) who led a military coup in 1983 and governed for four years with a radical anti-imperialist, feminist, and environmental program: mass literacy campaigns, women's rights, tree-planting, debt refusal ('I won't pay a debt I didn't contract for'), renaming the country from 'Upper Volta' (a colonial name) to 'Burkina Faso' ('Land of Upright People'). Often called 'Africa's Che Guevara.' Assassinated in 1987 in a coup led by his close ally Blaise Compaor\u00e9, reportedly with French and Ivorian involvement. His legacy is enormously influential among young Africans as a model of uncompromising anti-colonial governance.",
+    "tags": [
+      "burkina-faso",
+      "africa",
+      "anti-colonialism",
+      "feminism",
+      "assassination",
+      "person"
+    ],
+    "region": "Africa"
+  },
+  {
+    "id": "maurya_empire",
+    "label": "Maurya Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "320s BCE",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Maurya_Empire",
+    "summary": "First pan-Indian empire (322\u2013185 BCE), founded by Chandragupta Maurya with Chanakya's strategic guidance, reaching its peak under Ashoka (268\u2013232 BCE). At its greatest extent, it covered most of the Indian subcontinent plus parts of Central Asia. Ashoka's conversion to Buddhism after the bloody Kalinga War, and his subsequent edicts promoting nonviolence, religious tolerance, and welfare governance \u2014 carved on rocks and pillars across the empire \u2014 represent one of history's most dramatic personal transformations and most influential examples of moral governance. The Maurya Empire's administrative handbook (Arthashastra, attributed to Chanakya) is an early masterwork of statecraft.",
+    "tags": [
+      "india",
+      "maurya",
+      "ashoka",
+      "buddhism",
+      "empire",
+      "nonviolence"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "ashoka",
+    "label": "Ashoka the Great",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "260s BCE",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Ashoka",
+    "summary": "Third Maurya Emperor (r. 268\u2013232 BCE) who after the brutal conquest of Kalinga (modern Odisha, ~100,000 killed, 150,000 deported) experienced a profound moral conversion to Buddhism and transformed his governance. His Rock Edicts and Pillar Edicts \u2014 physical inscriptions across the empire \u2014 declared religious tolerance, animal welfare, public works, and a rejection of war as an instrument of policy. He sent Buddhist missionaries across Asia (his son Mahinda is credited with bringing Buddhism to Sri Lanka). His model of governance \u2014 welfare, tolerance, moral suasion over violence \u2014 makes him one of history's most influential rulers and the original example of a powerful leader changing course.",
+    "tags": [
+      "india",
+      "ashoka",
+      "buddhism",
+      "empire",
+      "nonviolence",
+      "tolerance",
+      "person"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "mughal_empire",
+    "label": "Mughal Empire",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1520s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Mughal_Empire",
+    "summary": "Muslim dynasty that ruled most of the Indian subcontinent from 1526 to 1857. Founded by Babur (a descendant of Timur and Genghis Khan), it reached its peak under Akbar (1556\u20131605), whose policy of religious syncretism (Din-i-Ilahi) and Hindu-Muslim cultural fusion produced the distinctive Mughal cultural synthesis: Taj Mahal, Urdu language, miniature painting. Under Akbar, India produced ~25% of global GDP. The empire's decline accelerated under Aurangzeb's religious intolerance and British East India Company encroachment. It ended with the 1857 Sepoy Mutiny and the British Raj's formal establishment.",
+    "tags": [
+      "india",
+      "mughal",
+      "islam",
+      "empire",
+      "taj-mahal",
+      "colonialism"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "akbar_the_great",
+    "label": "Akbar the Great",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1560s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Akbar",
+    "summary": "Third Mughal Emperor (1542\u20131605) who governed the Indian subcontinent for 49 years and is considered the greatest Mughal ruler. Illiterate but extraordinarily curious, he held interfaith dialogues between Muslim scholars, Hindu pandits, Zoroastrian priests, Jain monks, and Jesuit priests. His policy of sulh-i-kul ('universal peace') abolished the jizya tax on non-Muslims, allowed Hindu temples to be built, and incorporated Rajput Hindu nobles as military commanders. He founded the syncretic Din-i-Ilahi religion. His governance demonstrates that religious pluralism and political stability can be mutually reinforcing \u2014 a counter-example to the religious violence of the same period in Europe.",
+    "tags": [
+      "mughal",
+      "india",
+      "tolerance",
+      "pluralism",
+      "person"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "aurangzeb",
+    "label": "Aurangzeb",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1660s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Aurangzeb",
+    "summary": "Sixth Mughal Emperor (1618\u20131707) who reversed Akbar's pluralist policies: reimposed the jizya tax on Hindus, destroyed Hindu temples, implemented strict Sunni sharia law, and expanded the empire to its greatest territorial extent through 49 years of nearly continuous warfare. His long reign overextended Mughal military capacity and exhausted the treasury. Historians debate his legacy: a pious Muslim ruler implementing his sincere convictions vs. the ruler whose religious intolerance fractured Hindu-Muslim relations and weakened the empire that Britain would later exploit. His reign is the historical touchstone for Hindu nationalist arguments about Mughal oppression.",
+    "tags": [
+      "mughal",
+      "india",
+      "islam",
+      "intolerance",
+      "person"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "sepoy_mutiny",
+    "label": "Indian Rebellion of 1857 (Sepoy Mutiny)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1850s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857",
+    "summary": "Major armed uprising against British East India Company rule in India, beginning with sepoy (Indian soldier) mutinies triggered by the introduction of rifle cartridges greased with beef and pork fat (violating Hindu and Muslim dietary laws). The rebellion spread across northern and central India. British reprisals were extraordinarily brutal \u2014 mutineers blown from cannons, villages destroyed. The rebellion's suppression led directly to the formal dissolution of the East India Company and establishment of direct Crown rule (the British Raj) in 1858. It is called 'Mutiny' by British historiography; 'First War of Independence' by Indian nationalist historiography \u2014 the naming contest itself a mechanism story.",
+    "tags": [
+      "india",
+      "british",
+      "colonialism",
+      "rebellion",
+      "1857",
+      "person"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "bengal_famine_1943",
+    "label": "Bengal Famine (1943)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1940s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Bengal_famine_of_1943",
+    "summary": "Famine that killed an estimated 2\u20133 million people in Bengal, British India, during WWII. Caused not by crop failure but by policy: wartime inflation, export of rice from Bengal to supply Allied troops, denial of relief imports, and Winston Churchill's explicit rejection of food aid requests from Indian officials. Churchill's private statements revealed contempt for Indians ('they breed like rabbits'). The famine was deliberate policy prioritizing British war effort over Indian lives. It demonstrated how colonial relationships transform natural scarcity into manufactured mortality. Amartya Sen's subsequent analysis \u2014 that famines are political, not natural, events \u2014 was informed partly by this case.",
+    "tags": [
+      "india",
+      "famine",
+      "colonialism",
+      "britain",
+      "churchill",
+      "ww2",
+      "person"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "chandragupta_maurya",
+    "label": "Chandragupta Maurya",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "320s BCE",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Chandragupta_Maurya",
+    "summary": "Founder of the Maurya Empire (c. 340\u2013297 BCE) who, with Chanakya's guidance, defeated the Nanda Empire and established the first pan-Indian empire at age ~20, then repelled a Seleucid invasion, forcing a peace treaty that gave him Afghanistan and Balochistan. He later abdicated, converted to Jainism, and fasted to death (sallekhana) \u2014 one of history's most dramatic renunciations of power. His achievement in unifying India from 322\u2013297 BCE took Alexander the Great's entire lifetime to fail at doing to Persia.",
+    "tags": [
+      "india",
+      "maurya",
+      "empire",
+      "jainism",
+      "chanakya",
+      "person"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "han_dynasty",
+    "label": "Han Dynasty",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "200s BCE",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Han_dynasty",
+    "summary": "Second imperial dynasty of China (206 BCE\u2013220 CE), often considered China's golden age. The Han institutionalized Confucianism as state ideology, established the Silk Road trade network, expanded Chinese territory into Central Asia, Korea, and Vietnam, and developed paper, the seismograph, and the water wheel. The Han created the foundational Chinese imperial bureaucracy \u2014 civil service examinations, centralized taxation, standardized weights \u2014 that persisted in modified form until 1912. Chinese people still call themselves 'Han' (\u6c49\u65cf) after this dynasty. The fall of the Han \u2014 warlordism, peasant rebellions, economic collapse \u2014 set the template for China's recurring dynastic cycle.",
+    "tags": [
+      "china",
+      "han",
+      "dynasty",
+      "silk-road",
+      "confucianism",
+      "empire"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "tang_dynasty",
+    "label": "Tang Dynasty",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "610s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Tang_dynasty",
+    "summary": "Chinese imperial dynasty (618\u2013907 CE), widely considered the high point of Chinese civilization. Chang'an (present-day Xi'an) was the world's largest city, a cosmopolitan hub connecting the Silk Road with populations from across Eurasia, Persia, India, Japan, and Korea. The Tang produced China's greatest poetry (Li Bai, Du Fu), invented woodblock printing, and under Empress Wu Zetian (690\u2013705 CE) had the only female ruler in Chinese imperial history. The Tang collapse led to the Five Dynasties and Ten Kingdoms period of fragmentation. Japanese and Korean cultures absorbed Tang aesthetics, religion (Buddhism), and administrative models during this period.",
+    "tags": [
+      "china",
+      "tang",
+      "dynasty",
+      "poetry",
+      "wu-zetian",
+      "silk-road"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "wu_zetian",
+    "label": "Wu Zetian",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "660s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Wu_Zetian",
+    "summary": "The only woman in Chinese history to formally assume the title of Empress Regnant (624\u2013705 CE), ruling China in her own right (as opposed to regent) from 690\u2013705 CE. Rose from concubine to consort to empress consort to ruling empress through a combination of intelligence, ruthlessness, and political skill. She expanded the civil service examination system to recruit talent regardless of birth \u2014 meritocratic reform \u2014 while ruthlessly eliminating rivals. Traditional Confucian historiography condemned her as monstrous; modern Chinese feminist historiography celebrates her. Her example challenges both the 'women never rule' myth and the 'women who rule are monsters' trope.",
+    "tags": [
+      "china",
+      "tang",
+      "dynasty",
+      "empress",
+      "woman",
+      "person"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "song_dynasty",
+    "label": "Song Dynasty",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Song_dynasty",
+    "summary": "Chinese dynasty (960\u20131279 CE) that produced a commercial and technological revolution: gunpowder weapons, magnetic compass, printing press (500 years before Gutenberg), paper money (the world's first), mechanized textile production. Song China was the most economically developed society in the world, producing ~25% of global GDP. The Southern Song (1127\u20131279) maintained political integrity even after losing northern China to the Jin dynasty. The Song fell to the Mongols under Kublai Khan. The paradox of Song China: technological and commercial sophistication without the political power to survive military invasion.",
+    "tags": [
+      "china",
+      "song",
+      "dynasty",
+      "technology",
+      "gunpowder",
+      "printing",
+      "commerce"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "ming_dynasty",
+    "label": "Ming Dynasty",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1360s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Ming_dynasty",
+    "summary": "Chinese dynasty (1368\u20131644) that expelled the Mongols, built the current Great Wall, and sent admiral Zheng He on seven massive naval expeditions (1405\u20131433) that reached East Africa \u2014 the largest fleet in history, 300 ships vs. Columbus's 3 \u2014 before China deliberately turned inward. The decision to abandon maritime expansion (burning the ships, banning ocean-going vessels) is one of history's most consequential missed turns: China ceded ocean dominance to Portugal and later Britain. The Ming also saw the consolidation of Confucian orthodoxy and population growth to ~200 million. Fell to the Manchu Qing dynasty after peasant rebellions.",
+    "tags": [
+      "china",
+      "ming",
+      "dynasty",
+      "zheng-he",
+      "great-wall",
+      "exploration"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "zheng_he",
+    "label": "Zheng He",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1400s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Zheng_He",
+    "summary": "Chinese Muslim admiral (1371\u20131433) who commanded seven massive naval expeditions during the Ming dynasty, sailing to Southeast Asia, India, Arabia, and East Africa with fleets of up to 300 ships \u2014 the largest wooden vessels ever built. His voyages demonstrated Chinese naval supremacy and established tributary trade relationships across the Indian Ocean. They did not lead to colonization. After his death, Confucian court officials ordered the ships burned and ocean voyages banned \u2014 a decision that ended Chinese maritime expansion and ceded the Indian Ocean to Portuguese navigators arriving decades later. Zheng He is the answer to 'what if China had colonized the world?'",
+    "tags": [
+      "china",
+      "ming",
+      "exploration",
+      "navy",
+      "admiral",
+      "person"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "opium_wars",
+    "label": "Opium Wars (1839\u20131842, 1856\u20131860)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1840s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Opium_Wars",
+    "summary": "Two wars between China and Britain (and France in the second) fought over Britain's right to sell opium in China. The East India Company grew opium in Bengal, sold it in China, and used the proceeds to buy Chinese goods \u2014 reversing a trade deficit. When China destroyed ~1,400 tons of British opium in 1839, Britain went to war. China lost both wars, ceding Hong Kong, opening treaty ports, granting extraterritoriality to foreigners, and paying massive indemnities. The opium trade is the prototype for 'free trade' as a weapon of imperial expansion \u2014 using market access demands to break down sovereignty. The term 'century of humiliation' in Chinese historiography dates from the First Opium War.",
+    "tags": [
+      "china",
+      "britain",
+      "opium",
+      "colonialism",
+      "trade",
+      "humiliation"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "taiping_rebellion",
+    "label": "Taiping Rebellion (1850\u20131864)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1850s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Taiping_Rebellion",
+    "summary": "Massive civil war in southern China (1850\u20131864) launched by Hong Xiuquan, who believed himself the younger brother of Jesus Christ, against the Qing dynasty. The Taiping Heavenly Kingdom controlled much of southern China for over a decade. Death toll estimates range from 20\u201330 million \u2014 more than WWI. The rebellion weakened the Qing dynasty profoundly, paving the way for the century of humiliation that followed. It demonstrates how religious millenarianism, economic desperation, and political instability combine to produce catastrophic violence \u2014 and how little-known (in the West) events can dwarf the scale of events that dominate Western historical memory.",
+    "tags": [
+      "china",
+      "qing",
+      "rebellion",
+      "christianity",
+      "civil-war",
+      "death-toll"
+    ],
+    "region": "Asia"
+  },
+  {
+    "id": "tiananmen_square_1989",
+    "label": "Tiananmen Square Massacre (1989)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1980s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre",
+    "summary": "Pro-democracy protests centered in Tiananmen Square, Beijing, lasting from April to June 4, 1989, when the Chinese government declared martial law and sent military forces to suppress the protests. Death toll estimates range from hundreds to thousands. The 'Tank Man' photograph became one of the most iconic images of the 20th century. Deng Xiaoping's decision to use lethal force preserved the Communist Party's political monopoly while pursuing economic liberalization \u2014 demonstrating that the two were not linked. The event is almost entirely suppressed in China; millions of Chinese citizens have no knowledge of it. It represents the most dramatic case of historical revisionism through information control in the modern era.",
+    "tags": [
+      "china",
+      "democracy",
+      "massacre",
+      "1989",
+      "deng",
+      "censorship"
+    ],
+    "region": "Asia"
   }
 ]

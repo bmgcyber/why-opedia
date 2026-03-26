@@ -48,5 +48,15 @@
     "target_scope": "global/history",
     "summary": "168 nodes on history & events.",
     "cross_scope": false
+  },
+  {
+    "id": "portal-economics",
+    "label": "Economics & Inequality",
+    "category": "portal",
+    "node_type": "portal",
+    "scope": "global",
+    "target_scope": "global/economics",
+    "summary": "29 nodes on economics & inequality.",
+    "cross_scope": false
   }
 ]

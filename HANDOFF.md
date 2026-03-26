@@ -48,19 +48,49 @@ data/
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-03-26, Session 2)
+## CURRENT DATASET STATE (as of 2026-03-26, Session 3)
 
 | File | Count |
 |------|-------|
-| History nodes | **361** |
-| History edges | **792** |
-| Mechanism edges | **1128** |
+| History nodes | **411** |
+| History edges | **890** |
+| Mechanism edges | **1296** |
+| Economics edges | **74** |
 | Mechanism nodes | **144** |
-| **Person nodes (history scope)** | **163** |
+| **Person nodes (history scope)** | **183** |
 
 ---
 
-## WHAT WAS DONE THIS SESSION
+## WHAT WAS DONE SESSION 3
+
+### Fix: Economics Scope Now Visible
+- Added `portal-economics` portal node to `data/global/nodes.json`
+- Added `'economics'` to both `subScopes` arrays in `js/scope-manager.js` (`enterGlobalView` and `getMechanismCrossScope`)
+- Economics scope is now a first-class scope alongside media, politics, psychology, health, history
+
+### Content: Four Major Areas Added (+50 history nodes, +222 edges)
+
+**Pre-Columbian Americas (14 nodes):**
+`aztec_empire`, `maya_civilization`, `inca_empire`, `spanish_conquest_mexico`, `spanish_conquest_peru`, `columbian_exchange`, `mayan_collapse`, `montezuma_ii`, `pachacuti`, `atahualpa`, `francisco_pizarro`, `cuauhtemoc`, `la_malinche`
+
+**2020s Content (10 nodes):**
+`covid_19_pandemic`, `george_floyd_murder`, `blm_movement`, `january_6_insurrection`, `ukraine_russia_war`, `metoo_movement`, `greta_thunberg`, `climate_crisis_activism`, `smartphone_social_media_era`, `donald_trump`
+
+**African History (10 nodes):**
+`mali_empire`, `songhai_empire`, `mansa_musa`, `sundiata_keita`, `ashanti_empire`, `battle_of_adwa`, `menelik_ii`, `kwame_nkrumah`, `patrice_lumumba`, `thomas_sankara`
+
+**South Asian History (8 nodes):**
+`maurya_empire`, `ashoka`, `chandragupta_maurya`, `mughal_empire`, `akbar_the_great`, `aurangzeb`, `sepoy_mutiny`, `bengal_famine_1943`
+
+**Chinese History (8 nodes):**
+`han_dynasty`, `tang_dynasty`, `wu_zetian`, `song_dynasty`, `ming_dynasty`, `zheng_he`, `opium_wars`, `taiping_rebellion`, `tiananmen_square_1989`
+
+### Economics Scope Wired In (+78 cross-scope edges)
+Added 44 cross-scope edges connecting history persons and events to economics nodes (Chicago School, shock doctrine, primitive accumulation, etc.)
+
+---
+
+## WHAT WAS DONE SESSION 2
 
 ### Fix 1: Graph Renderer — Edge Validation (CRITICAL)
 Added a 2-line filter in `js/graph-renderer.js` `loadGraphData()` to remove edges referencing nodes not in the current loaded node set before passing to the d3-force simulation. Invalid edges were causing NaN position values → charge repulsion operated unopposed → nodes flew everywhere. This fix is permanent and handles all future cross-scope edge mismatches.
@@ -110,16 +140,15 @@ Added 55 person nodes in the first batch and 15 in the second, covering major ga
 ## KNOWN REMAINING GAPS (for future sessions)
 
 ### Content gaps still to address:
-- Economics scope is thin (29 nodes) — needs more historical grounding
 - Psychology scope (38 nodes) — some communities lack full person/event context
-- 2020s content is almost absent
-- African history underrepresented outside colonial/genocide contexts
-- Indigenous history beyond Trail of Tears and boarding schools
-- South Asian history (partition covered but India pre-colonial is thin)
-- Pre-Columbian Americas entirely absent (Aztec, Inca, Maya civilizations)
-- Chinese dynasties before Qin are absent (Shang, Zhou, Han, Tang, Song, Ming)
-- Mughal Empire absent
-- Ottoman era beyond existing nodes (Tanzimat reforms, etc.)
+- Indigenous history: Trail of Tears/boarding schools covered but pre-colonial cultures absent (Haudenosaunee, Lakota, etc.)
+- Pre-Columbian Americas added ✓ — but deeper nodes possible (Tlaxcalan alliance, Potosí mines, etc.)
+- African history significantly expanded ✓ — but East African civilizations absent (Axum, Swahili Coast, etc.)
+- Chinese dynasties: Han, Tang, Song, Ming added ✓ — Shang, Zhou, Yuan still absent
+- Ottoman era deep cuts: Tanzimat reforms, Young Turks, etc.
+- 2020s content added ✓ — but AI/algorithmic governance mostly in mechanisms only
+- South Asian: Maurya, Mughal added ✓ — Maratha Empire, Sikh Empire, Vijayanagara absent
+- Media scope (31 nodes) could use more contemporary nodes (Tanzimat reforms, etc.)
 
 ### Lower-priority person nodes not yet added:
 - `genghis_khan` expansion — have him but light connections to `silk_road`, `plague`

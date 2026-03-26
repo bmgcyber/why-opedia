@@ -122,7 +122,7 @@
   // Loads ALL nodes across all scopes for the top-level world view.
   async function enterGlobalView() {
     // Load all scopes in parallel
-    const subScopes = ['media', 'politics', 'psychology', 'health', 'history'];
+    const subScopes = ['media', 'politics', 'psychology', 'health', 'history', 'economics'];
     const results = await Promise.all([
       loadScope('global'),
       Promise.resolve({ nodes: mechNodes, edges: mechEdges }),  // already loaded
@@ -194,7 +194,7 @@
     if (!mechNode) return null;
 
     // Load all scopes and find connected nodes
-    const subScopes = ['global/media', 'global/politics', 'global/psychology', 'global/health', 'global/history'];
+    const subScopes = ['global/media', 'global/politics', 'global/psychology', 'global/health', 'global/history', 'global/economics'];
     const results = await Promise.all(subScopes.map(s => loadScope(s)));
 
     const connectedNodes = [];

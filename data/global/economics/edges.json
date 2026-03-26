@@ -1,0 +1,566 @@
+[
+  {
+    "id": "wealth_concentration__regulatory_capture",
+    "source": "wealth_concentration",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "wealth buys regulatory influence",
+    "note": "Concentrated wealth funds lobbying, campaign contributions, and revolving door hiring that systematically captures regulatory agencies.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "wealth_concentration__rent_seeking",
+    "source": "wealth_concentration",
+    "target": "rent_seeking",
+    "type": "ENABLED",
+    "label": "wealth enables political extraction",
+    "note": "Capital concentration funds the lobbying and political donations needed to secure monopoly protections, tax preferences, and other rents.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "wealth_concentration__income_inequality",
+    "source": "wealth_concentration",
+    "target": "income_inequality",
+    "type": "CAUSED",
+    "label": "capital returns exceed wage growth",
+    "note": "Piketty's r > g: returns to capital exceed economic growth, systematically concentrating income among asset owners.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "wealth_concentration__self_reinforces",
+    "source": "wealth_concentration",
+    "target": "wealth_concentration",
+    "type": "SELF_REINFORCES",
+    "label": "compound returns and political capture",
+    "note": "Accumulated wealth generates returns that compound while simultaneously purchasing political protection against redistribution.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "regulatory_capture__monopolization",
+    "source": "regulatory_capture",
+    "target": "monopolization",
+    "type": "ENABLED",
+    "label": "weak antitrust enforcement",
+    "note": "Chicago School capture of antitrust agencies redefined predatory pricing as implausible, allowing monopolization to proceed unchecked.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "regulatory_capture__financial_crisis_2008",
+    "source": "regulatory_capture",
+    "target": "financial_crisis_2008",
+    "type": "ENABLED",
+    "label": "banks wrote their own oversight rules",
+    "note": "Financial industry regulatory capture (Gramm-Leach-Bliley, SEC leverage exemptions, CFTC derivatives exclusion) removed the oversight that could have prevented the 2008 collapse.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "financialization__wealth_concentration",
+    "source": "financialization",
+    "target": "wealth_concentration",
+    "type": "CAUSED",
+    "label": "asset returns accrue to owners",
+    "note": "As economic activity shifted to financial extraction, gains flowed to asset owners rather than workers, accelerating concentration.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "financialization__financial_crisis_2008",
+    "source": "financialization",
+    "target": "financial_crisis_2008",
+    "type": "CAUSED",
+    "label": "complex instruments built systemic fragility",
+    "note": "Financialization created mortgage-backed securities, CDOs, and credit default swap chains that amplified the subprime shock into a global crisis.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "financialization__precariat_class",
+    "source": "financialization",
+    "target": "precariat_class",
+    "type": "CAUSED",
+    "label": "firms outsource labor risk",
+    "note": "Shareholder primacy and financialization pressure caused firms to shed employment risk through contracting, temp work, and the gig model.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "neoliberalism__austerity_ideology",
+    "source": "neoliberalism",
+    "target": "austerity_ideology",
+    "type": "PRODUCED",
+    "label": "austerity as core neoliberal policy",
+    "note": "Austerity is the fiscal expression of neoliberal theory: government deficit spending is treated as crowding out private investment.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "neoliberalism__financialization",
+    "source": "neoliberalism",
+    "target": "financialization",
+    "type": "ENABLED",
+    "label": "deregulation enabled financial expansion",
+    "note": "Capital account liberalization, Glass-Steagall repeal, and derivatives deregulation created conditions for the financial sector's dominance.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "neoliberalism__wage_suppression",
+    "source": "neoliberalism",
+    "target": "wage_suppression",
+    "type": "ENABLED",
+    "label": "union busting as policy",
+    "note": "Reagan's PATCO firing, Taft-Hartley, right-to-work laws, and NLRB capture all reflect neoliberal ideology's hostility to collective bargaining.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "neoliberalism__race_to_the_bottom",
+    "source": "neoliberalism",
+    "target": "race_to_the_bottom",
+    "type": "CAUSED",
+    "label": "capital mobility without labor mobility",
+    "note": "Free trade agreements without labor or environmental standards enable jurisdictions to compete by lowering protections.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "neoliberalism__imf_structural_adjustment",
+    "source": "neoliberalism",
+    "target": "imf_structural_adjustment",
+    "type": "PRODUCED",
+    "label": "structural adjustment as neoliberal export",
+    "note": "The Washington Consensus encoded neoliberal doctrine as IMF/World Bank loan conditionality, spreading it to the Global South.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "trickle_down_economics__wealth_concentration",
+    "source": "trickle_down_economics",
+    "target": "wealth_concentration",
+    "type": "ENABLED",
+    "label": "tax policy favoring capital",
+    "note": "Reagan and subsequent tax cuts lowered top marginal rates, capital gains taxes, and estate taxes, accelerating concentration.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "chicago_school_economics__neoliberalism",
+    "source": "chicago_school_economics",
+    "target": "neoliberalism",
+    "type": "PRODUCED",
+    "label": "intellectual infrastructure for neoliberalism",
+    "note": "Friedman's monetarism, Stigler's regulatory capture theory, and Lucas's rational expectations provided neoliberalism its academic credibility.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "chicago_school_economics__shock_doctrine",
+    "source": "chicago_school_economics",
+    "target": "shock_doctrine",
+    "type": "ENABLED",
+    "label": "Chicago Boys implemented shock programs",
+    "note": "Chicago-trained economists in Chile, Bolivia, and Russia implemented neoliberal programs under crisis cover.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "market_fundamentalism__regulatory_capture",
+    "source": "market_fundamentalism",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "ideology justifies light-touch regulation",
+    "note": "Greenspan's market fundamentalism led him to oppose derivatives regulation, trusting firms to self-regulate.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "shareholder_primacy__financialization",
+    "source": "shareholder_primacy",
+    "target": "financialization",
+    "type": "PRODUCED",
+    "label": "share price as sole corporate metric",
+    "note": "Friedman's shareholder doctrine enabled buybacks, short-termism, and financial engineering replacing productive investment.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "shareholder_primacy__wage_suppression",
+    "source": "shareholder_primacy",
+    "target": "wage_suppression",
+    "type": "ENABLED",
+    "label": "labor is a cost to minimize",
+    "note": "When returns to shareholders are the only metric, wages are pressure to reduce rather than a social obligation.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "great_depression_economics__new_deal",
+    "source": "great_depression_economics",
+    "target": "new_deal",
+    "type": "ENABLED",
+    "label": "crisis created mandate for intervention",
+    "note": "The Great Depression discredited laissez-faire and created the political mandate for FDR's regulatory and social programs.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "great_depression_economics__keynesianism",
+    "source": "great_depression_economics",
+    "target": "keynesianism",
+    "type": "PRODUCED",
+    "label": "market failure demanded new theory",
+    "note": "Classical economics could not explain mass unemployment in equilibrium; Keynes's General Theory emerged from the Depression crisis.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "laissez_faire_capitalism__great_depression_economics",
+    "source": "laissez_faire_capitalism",
+    "target": "great_depression_economics",
+    "type": "CAUSED",
+    "label": "unregulated banking created systemic fragility",
+    "note": "Absence of deposit insurance, banking regulation, and automatic stabilizers allowed the 1929 crash to cascade into a decade-long depression.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "primitive_accumulation__enclosure_movement_economics",
+    "source": "primitive_accumulation",
+    "target": "enclosure_movement_economics",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "enclosure as primitive accumulation",
+    "note": "The enclosure movement is Marx's archetypal case of primitive accumulation: commons to private property by legal fiat.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "enclosure_movement_economics__laissez_faire_capitalism",
+    "source": "enclosure_movement_economics",
+    "target": "laissez_faire_capitalism",
+    "type": "ENABLED",
+    "label": "landless proletariat created wage labor",
+    "note": "Dispossessed peasants became the industrial workforce, making wage labor markets possible.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "gilded_age__wealth_concentration",
+    "source": "gilded_age",
+    "target": "wealth_concentration",
+    "type": "CAUSED",
+    "label": "monopoly capitalism concentrates wealth",
+    "note": "Standard Oil, US Steel, and railroad trusts produced the first great wealth concentration under industrial capitalism.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "gilded_age__labor_movement_suppression",
+    "source": "gilded_age",
+    "target": "labor_movement_suppression",
+    "type": "PRODUCED",
+    "label": "industrial violence against unions",
+    "note": "Carnegie (Homestead 1892), Rockefeller (Ludlow 1914), and Pullman all used private armies and state militias against labor organizing.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "imf_structural_adjustment__debt_trap",
+    "source": "imf_structural_adjustment",
+    "target": "debt_trap",
+    "type": "CAUSED",
+    "label": "conditionality perpetuates indebtedness",
+    "note": "SAP conditions that suppress growth and privatize revenue-generating assets prevent countries from repaying, requiring further loans and conditions.",
+    "confidence": "high"
+  },
+  {
+    "id": "imf_structural_adjustment__race_to_the_bottom",
+    "source": "imf_structural_adjustment",
+    "target": "race_to_the_bottom",
+    "type": "CAUSED",
+    "label": "labor cost competition enabled",
+    "note": "Structural adjustment requirements for open capital accounts and labor market flexibility enable capital to flee toward lowest-standard countries.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "financial_crisis_2008__wealth_concentration",
+    "source": "financial_crisis_2008",
+    "target": "wealth_concentration",
+    "type": "CAUSED",
+    "label": "bailouts privatized gains, socialized losses",
+    "note": "Bank bailouts preserved the wealth of financial asset holders while homeowners lost equity, accelerating the wealth gap.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "bretton_woods_collapse__financialization",
+    "source": "bretton_woods_collapse",
+    "target": "financialization",
+    "type": "ENABLED",
+    "label": "floating rates enabled currency speculation",
+    "note": "Ending gold convertibility created floating exchange rates and enabled the capital account liberalization that powered financialization.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "shock_doctrine__imf_structural_adjustment",
+    "source": "shock_doctrine",
+    "target": "imf_structural_adjustment",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "crisis exploitation mechanism",
+    "note": "Both use economic crisis or coercion to impose neoliberal reforms: SAPs require economic distress; shock doctrine exploits manufactured or natural crises.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "income_inequality__precariat_class",
+    "source": "income_inequality",
+    "target": "precariat_class",
+    "type": "CAUSED",
+    "label": "wage share decline creates precarity",
+    "note": "Declining labor share of income forces more workers into non-standard employment to maintain consumption.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "income_inequality__false_consciousness_economics",
+    "source": "income_inequality",
+    "target": "false_consciousness_economics",
+    "type": "ENABLED",
+    "label": "resentment redirected from class to culture",
+    "note": "Increasing inequality produces anxiety and resentment that trickle-down propaganda and scapegoating redirect toward racial/cultural targets.",
+    "confidence": "high"
+  },
+  {
+    "id": "rent_seeking__monopolization",
+    "source": "rent_seeking",
+    "target": "monopolization",
+    "type": "ENABLED",
+    "label": "regulatory capture enables market dominance",
+    "note": "Rent-seeking via regulatory capture produces monopoly protections: exclusive licenses, favorable antitrust interpretation, and incumbent advantages.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "monopolization__wealth_concentration",
+    "source": "monopolization",
+    "target": "wealth_concentration",
+    "type": "CAUSED",
+    "label": "monopoly profits accrue to owners",
+    "note": "Monopoly pricing extracts above-competitive returns that flow to shareholders, accelerating concentration.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "wage_suppression__income_inequality",
+    "source": "wage_suppression",
+    "target": "income_inequality",
+    "type": "CAUSED",
+    "label": "stagnant wages widen the gap",
+    "note": "When productivity gains are not shared with workers, the income gap between capital and labor grows.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "austerity_ideology__race_to_the_bottom",
+    "source": "austerity_ideology",
+    "target": "race_to_the_bottom",
+    "type": "ENABLED",
+    "label": "social spending cuts used as investment signal",
+    "note": "Countries compete to cut social spending as a signal to bond markets and foreign investors.",
+    "confidence": "high"
+  },
+  {
+    "id": "labor_movement_suppression__wage_suppression",
+    "source": "labor_movement_suppression",
+    "target": "wage_suppression",
+    "type": "CAUSED",
+    "label": "unions removed from wage-setting",
+    "note": "Union decline directly explains the disconnection of productivity and wage growth: collective bargaining was the mechanism of wage transmission.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "false_consciousness_economics__trickle_down_economics",
+    "source": "false_consciousness_economics",
+    "target": "trickle_down_economics",
+    "type": "ENABLED",
+    "label": "workers vote for tax cuts for the wealthy",
+    "note": "False consciousness about class position enables political support for policies (supply-side tax cuts) that harm working-class material interests.",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "keynesianism__great_depression_economics",
+    "source": "keynesianism",
+    "target": "great_depression_economics",
+    "relation": "DISCREDITED"
+  },
+  {
+    "id": "keynesianism__new_deal",
+    "source": "keynesianism",
+    "target": "new_deal",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "chicago_school_economics__market_fundamentalism",
+    "source": "chicago_school_economics",
+    "target": "market_fundamentalism",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "chicago_school_economics__laissez_faire_capitalism",
+    "source": "chicago_school_economics",
+    "target": "laissez_faire_capitalism",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "shock_doctrine__austerity_ideology",
+    "source": "shock_doctrine",
+    "target": "austerity_ideology",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "neoliberalism__shareholder_primacy",
+    "source": "neoliberalism",
+    "target": "shareholder_primacy",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "neoliberalism__labor_movement_suppression",
+    "source": "neoliberalism",
+    "target": "labor_movement_suppression",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "neoliberalism__precariat_class",
+    "source": "neoliberalism",
+    "target": "precariat_class",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "neoliberalism__debt_trap",
+    "source": "neoliberalism",
+    "target": "debt_trap",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "market_fundamentalism__austerity_ideology",
+    "source": "market_fundamentalism",
+    "target": "austerity_ideology",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "market_fundamentalism__laissez_faire_capitalism",
+    "source": "market_fundamentalism",
+    "target": "laissez_faire_capitalism",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "great_depression_economics__market_fundamentalism",
+    "source": "great_depression_economics",
+    "target": "market_fundamentalism",
+    "relation": "DISCREDITED"
+  },
+  {
+    "id": "bretton_woods_collapse__neoliberalism",
+    "source": "bretton_woods_collapse",
+    "target": "neoliberalism",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "bretton_woods_collapse__chicago_school_economics",
+    "source": "bretton_woods_collapse",
+    "target": "chicago_school_economics",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "financial_crisis_2008__shock_doctrine",
+    "source": "financial_crisis_2008",
+    "target": "shock_doctrine",
+    "relation": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "financial_crisis_2008__financialization",
+    "source": "financial_crisis_2008",
+    "target": "financialization",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "financial_crisis_2008__austerity_ideology",
+    "source": "financial_crisis_2008",
+    "target": "austerity_ideology",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "financial_crisis_2008__debt_trap",
+    "source": "financial_crisis_2008",
+    "target": "debt_trap",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "financial_crisis_2008__income_inequality",
+    "source": "financial_crisis_2008",
+    "target": "income_inequality",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "imf_structural_adjustment__austerity_ideology",
+    "source": "imf_structural_adjustment",
+    "target": "austerity_ideology",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "laissez_faire_capitalism__enclosure_movement_economics",
+    "source": "laissez_faire_capitalism",
+    "target": "enclosure_movement_economics",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "laissez_faire_capitalism__labor_movement_suppression",
+    "source": "laissez_faire_capitalism",
+    "target": "labor_movement_suppression",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "laissez_faire_capitalism__primitive_accumulation",
+    "source": "laissez_faire_capitalism",
+    "target": "primitive_accumulation",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "primitive_accumulation__gilded_age",
+    "source": "primitive_accumulation",
+    "target": "gilded_age",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "shareholder_primacy__income_inequality",
+    "source": "shareholder_primacy",
+    "target": "income_inequality",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "trickle_down_economics__income_inequality",
+    "source": "trickle_down_economics",
+    "target": "income_inequality",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "trickle_down_economics__austerity_ideology",
+    "source": "trickle_down_economics",
+    "target": "austerity_ideology",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "false_consciousness_economics__labor_movement_suppression",
+    "source": "false_consciousness_economics",
+    "target": "labor_movement_suppression",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "false_consciousness_economics__wage_suppression",
+    "source": "false_consciousness_economics",
+    "target": "wage_suppression",
+    "relation": "ENABLED"
+  },
+  {
+    "id": "wage_suppression__precariat_class",
+    "source": "wage_suppression",
+    "target": "precariat_class",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "rent_seeking__wealth_concentration",
+    "source": "rent_seeking",
+    "target": "wealth_concentration",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "rent_seeking__regulatory_capture",
+    "source": "rent_seeking",
+    "target": "regulatory_capture",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "monopolization__wage_suppression",
+    "source": "monopolization",
+    "target": "wage_suppression",
+    "relation": "CAUSED"
+  },
+  {
+    "id": "financialization__income_inequality",
+    "source": "financialization",
+    "target": "income_inequality",
+    "relation": "CAUSED"
+  }
+]
