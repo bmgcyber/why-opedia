@@ -6,8 +6,10 @@
 
 (function () {
   // ── Filter state ───────────────────────────────────────────────────────────
-  const EDGE_FILTER_GROUPS = ['CAUSED', 'ENABLED', 'SHARES_MECHANISM_WITH', 'SELF_REINFORCES', 'other', 'speculative'];
-  const EDGE_FILTER_MAIN   = new Set(['CAUSED', 'ENABLED', 'SHARES_MECHANISM_WITH', 'SELF_REINFORCES']);
+  const EDGE_TYPE_MAIN  = ['CAUSED', 'ENABLED', 'SHARES_MECHANISM_WITH', 'SELF_REINFORCES'];
+  const EDGE_TYPE_OTHER = ['COLONIZED', 'DISCREDITED', 'EXPLOITED', 'FORCED_INTO',
+                           'FRAGMENTED_INTO', 'NORMALIZED', 'PRODUCED', 'PROVIDED_COVER_FOR'];
+  const EDGE_FILTER_GROUPS = [...EDGE_TYPE_MAIN, ...EDGE_TYPE_OTHER, 'speculative'];
 
   let enabledNodeCategories = new Set();
   let enabledEdgeFilters    = new Set(EDGE_FILTER_GROUPS);
@@ -178,32 +180,64 @@
       'ENABLED':              'ENABLED',
       'SHARES_MECHANISM_WITH':'SHARES MECHANISM WITH',
       'SELF_REINFORCES':      'SELF REINFORCES',
-      'other':                'Other types',
+      'COLONIZED':            'COLONIZED',
+      'DISCREDITED':          'DISCREDITED',
+      'EXPLOITED':            'EXPLOITED',
+      'FORCED_INTO':          'FORCED INTO',
+      'FRAGMENTED_INTO':      'FRAGMENTED INTO',
+      'NORMALIZED':           'NORMALIZED',
+      'PRODUCED':             'PRODUCED',
+      'PROVIDED_COVER_FOR':   'PROVIDED COVER FOR',
       'speculative':          'Speculative edges',
     };
+
     const container = document.getElementById('sb-edge-types');
     if (!container) return;
     container.innerHTML = '';
 
-    EDGE_FILTER_GROUPS.forEach(group => {
-      const isSpec  = group === 'speculative';
-      const color   = GraphRenderer.EDGE_COLOR[group] || GraphRenderer.EDGE_DEFAULT_COLOR;
+    function makeRow(type, indented) {
+      const isSpec   = type === 'speculative';
+      const color    = GraphRenderer.EDGE_COLOR[type] || GraphRenderer.EDGE_DEFAULT_COLOR;
       const dotClass = isSpec ? 'sb-dot dashed-line' : 'sb-dot line';
       const dotStyle = isSpec ? '' : `style="background:${color}"`;
       const row = document.createElement('label');
-      row.className = 'sb-check-row';
+      row.className = 'sb-check-row' + (indented ? ' sb-check-indented' : '');
       row.innerHTML = `
-        <input type="checkbox" class="sb-checkbox" data-edge-filter="${escHtml(group)}" checked>
+        <input type="checkbox" class="sb-checkbox" data-edge-filter="${escHtml(type)}" checked>
         <span class="${dotClass}" ${dotStyle}></span>
-        <span class="sb-check-label">${escHtml(labels[group])}</span>
+        <span class="sb-check-label">${escHtml(labels[type])}</span>
       `;
       row.querySelector('input').addEventListener('change', e => {
-        if (e.target.checked) enabledEdgeFilters.add(group);
-        else enabledEdgeFilters.delete(group);
+        if (e.target.checked) enabledEdgeFilters.add(type);
+        else enabledEdgeFilters.delete(type);
         applyFilters();
       });
-      container.appendChild(row);
+      return row;
+    }
+
+    // Main types
+    EDGE_TYPE_MAIN.forEach(t => container.appendChild(makeRow(t, false)));
+
+    // Collapsible "Other types" sub-group
+    const groupHeader = document.createElement('div');
+    groupHeader.className = 'sb-group-toggle';
+    groupHeader.innerHTML = `<span class="sb-group-arrow">▶</span><span>Other types</span>`;
+    container.appendChild(groupHeader);
+
+    const groupItems = document.createElement('div');
+    groupItems.className = 'sb-group-items';
+    groupItems.hidden = true;
+    EDGE_TYPE_OTHER.forEach(t => groupItems.appendChild(makeRow(t, true)));
+    container.appendChild(groupItems);
+
+    groupHeader.addEventListener('click', () => {
+      const collapsed = groupItems.hidden;
+      groupItems.hidden = !collapsed;
+      groupHeader.querySelector('.sb-group-arrow').textContent = collapsed ? '▼' : '▶';
     });
+
+    // Speculative at the bottom
+    container.appendChild(makeRow('speculative', false));
   }
 
   function buildRegionFilter(nodes) {
@@ -396,8 +430,8 @@
     const type       = link.type;
     const confidence = link.confidence;
     if (!enabledEdgeFilters.has('speculative') && confidence === 'speculative') return false;
-    if (EDGE_FILTER_MAIN.has(type)) return enabledEdgeFilters.has(type);
-    return enabledEdgeFilters.has('other');
+    if (!enabledEdgeFilters.has(type)) return false;
+    return true;
   }
 
   // ── Node count display ─────────────────────────────────────────────────────

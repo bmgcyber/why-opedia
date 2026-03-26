@@ -455,6 +455,36 @@ body.sidebar-collapsed #sidebar {
   flex-shrink: 0;
 }
 
+/* ── Edge type collapsible sub-group ─────────────────────────────────────── */
+
+.sb-group-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 2px;
+  cursor: pointer;
+  font-size: 11px;
+  color: var(--text-muted);
+  user-select: none;
+  border-radius: 4px;
+}
+
+.sb-group-toggle:hover {
+  background: var(--surface2);
+  color: var(--text);
+}
+
+.sb-group-arrow {
+  font-size: 9px;
+  width: 10px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.sb-check-row.sb-check-indented {
+  padding-left: 14px;
+}
+
 /* ── Connectivity Slider ──────────────────────────────────────────────────── */
 
 .sb-conn-display {
