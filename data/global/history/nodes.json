@@ -10648,5 +10648,297 @@
       "1950s",
       "1960s"
     ]
+  },
+  {
+    "id": "indian_independence_1947",
+    "label": "Indian Independence",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1940s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "India's independence from British rule on August 15, 1947, ending 200 years of colonial control and creating the world's largest democracy. Achieved primarily through Gandhi's nonviolent mass movement — civil disobedience, salt march, non-cooperation — combined with post-WWII British exhaustion and moral delegitimization of empire. The partition of India and Pakistan was simultaneous, killing 200,000–2 million people and displacing 10–20 million. Independence demonstrated that nonviolent resistance could defeat an empire, establishing the template for subsequent decolonization movements.",
+    "tags": [
+      "india",
+      "gandhi",
+      "nonviolent resistance",
+      "decolonization",
+      "britain",
+      "1947",
+      "partition"
+    ]
+  },
+  {
+    "id": "end_of_apartheid_1994",
+    "label": "End of Apartheid",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1990s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "South Africa's first democratic election on April 27, 1994, in which Nelson Mandela won the presidency, ending 46 years of apartheid. The transition was negotiated rather than revolutionary — the ANC and National Party negotiated a constitutional settlement that included amnesty provisions, power-sharing arrangements, and a Truth and Reconciliation Commission. Despite predictions of civil war, the transition was largely peaceful. It demonstrated that a deeply unjust system entrenched by law and violence could be dismantled through negotiated democratic transition.",
+    "tags": [
+      "south africa",
+      "apartheid",
+      "nelson mandela",
+      "democracy",
+      "anc",
+      "1994",
+      "peace"
+    ]
+  },
+  {
+    "id": "voting_rights_act_1965",
+    "label": "Voting Rights Act of 1965",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "Signed by President Johnson on August 6, 1965, the Voting Rights Act eliminated literacy tests, provided federal oversight of elections in states with histories of discrimination, and dramatically increased Black voter registration. Black voter registration in Mississippi went from 6% to 59% within a year. The Act was the direct product of the Selma-to-Montgomery marches (March 1965), during which state troopers attacked peaceful marchers on Edmund Pettus Bridge on Bloody Sunday — images broadcast nationally broke remaining Congressional resistance. The Supreme Court gutted key provisions in Shelby County v. Holder (2013).",
+    "tags": [
+      "civil rights",
+      "voting",
+      "jim crow",
+      "lyndon johnson",
+      "selma",
+      "discrimination",
+      "1965",
+      "united states"
+    ]
+  },
+  {
+    "id": "ada_1990",
+    "label": "Americans with Disabilities Act",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1990s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The Americans with Disabilities Act (1990) prohibited discrimination against people with disabilities in employment, public accommodations, transportation, and telecommunications — the most comprehensive disability rights law in the world at the time. Passed with bipartisan support after years of disability rights organizing, including the Capitol Crawl (1990) in which activists abandoned their wheelchairs and crawled up Capitol steps. The ADA established that disability is a civil rights issue — that barriers are created by built environments and social structures, not by individual bodies.",
+    "tags": [
+      "disability rights",
+      "civil rights",
+      "united states",
+      "legislation",
+      "accessibility",
+      "1990",
+      "george h.w. bush"
+    ]
+  },
+  {
+    "id": "marriage_equality_us_2015",
+    "label": "Marriage Equality (Obergefell v. Hodges)",
+    "node_type": "event",
+    "category": "event",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The Supreme Court's 5-4 ruling in Obergefell v. Hodges (June 26, 2015) established marriage equality as a constitutional right in all 50 U.S. states. The decision followed a 20-year trajectory of legal, legislative, and cultural change — from DOMA (1996) to Massachusetts (2004) to 37 states before the ruling. Public support went from 27% in 1996 to 60% in 2015, one of the fastest documented shifts in American public opinion on any issue. The ruling demonstrated that moral circle expansion through cultural and legal channels can move at scale within a generation.",
+    "tags": [
+      "lgbtq",
+      "marriage equality",
+      "supreme court",
+      "civil rights",
+      "united states",
+      "2015",
+      "obama"
+    ]
+  },
+  {
+    "id": "emancipation_proclamation_1863",
+    "label": "Emancipation Proclamation",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1860s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "President Lincoln's executive order of January 1, 1863, declaring enslaved people in Confederate states 'forever free.' Legally narrow — it applied only to Confederate-held territory — but politically transformative: it changed the Civil War's purpose from preserving the Union to ending slavery, prevented European recognition of the Confederacy, and enabled Black men to serve in the Union Army (180,000 did). The 13th Amendment (1865) completed legal abolition. The Proclamation is the decisive moment when slavery became the war's central stake.",
+    "tags": [
+      "slavery",
+      "lincoln",
+      "civil war",
+      "emancipation",
+      "united states",
+      "1863",
+      "abolition"
+    ]
+  },
+  {
+    "id": "thirteen_amendment_1865",
+    "label": "13th Amendment — Abolition of Slavery",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1860s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "Ratified December 6, 1865, the 13th Amendment abolished slavery throughout the United States — the legal culmination of 40 years of abolitionist organizing, the Civil War, and Lincoln's Emancipation Proclamation. It contains the 'punishment clause' ('except as punishment for crime'), which the prison-industrial-complex critique identifies as enabling the convict leasing system and mass incarceration. The amendment ended the legal institution of slavery but did not resolve the underlying racial hierarchy, which reconstructed itself through Jim Crow, convict leasing, and structural racism.",
+    "tags": [
+      "slavery",
+      "abolition",
+      "civil war",
+      "reconstruction",
+      "constitution",
+      "united states",
+      "1865"
+    ]
+  },
+  {
+    "id": "camp_david_accords_1978",
+    "label": "Camp David Accords",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1970s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The 1978 peace agreements between Egypt and Israel, brokered by President Carter at Camp David, establishing a peace framework and Egypt's recognition of Israel — the first Arab country to do so. Egypt regained the Sinai Peninsula; Israel gained normalized relations with its largest Arab neighbor and removal of the largest military threat. Both Sadat and Begin received the Nobel Peace Prize. The accords demonstrated that sustained personal diplomacy between leaders willing to make existential compromises could resolve conflicts where all parties thought peace impossible.",
+    "tags": [
+      "middle east",
+      "egypt",
+      "israel",
+      "diplomacy",
+      "carter",
+      "1978",
+      "peace",
+      "sadat",
+      "begin"
+    ]
+  },
+  {
+    "id": "nuclear_test_ban_treaty_1963",
+    "label": "Partial Nuclear Test Ban Treaty",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The 1963 treaty banning nuclear weapons tests in the atmosphere, underwater, and in space — the first nuclear arms control agreement, signed by the US, USSR, and UK. It came directly from the Cuban Missile Crisis (1962), which had brought the world closest to nuclear war and shocked both superpowers into recognizing that escalation had no floor. The treaty was also driven by scientific evidence of radioactive fallout's health effects. It halted the most dangerous form of nuclear testing and established the precedent for subsequent arms control: SALT, START, NPT.",
+    "tags": [
+      "nuclear",
+      "arms control",
+      "cold war",
+      "kennedy",
+      "khrushchev",
+      "1963",
+      "disarmament"
+    ]
+  },
+  {
+    "id": "paris_agreement_2015",
+    "label": "Paris Agreement",
+    "node_type": "event",
+    "category": "event",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The 2015 UN climate accord, signed by 196 countries, committing to limit global warming to well below 2°C above pre-industrial levels. The first universal climate agreement — unlike Kyoto (1997), which covered only developed countries. Nations set their own nationally determined contributions (NDCs) rather than accepting binding caps, making it politically achievable but weaker on enforcement. The agreement's significance is the universal acknowledgment of shared responsibility and the $100 billion per year climate finance commitment to developing nations. Whether its goals are achievable depends on whether commitments are met.",
+    "tags": [
+      "climate change",
+      "environment",
+      "un",
+      "diplomacy",
+      "2015",
+      "carbon",
+      "international cooperation"
+    ]
+  },
+  {
+    "id": "mahatma_gandhi",
+    "label": "Mahatma Gandhi",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1880s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "Mohandas Karamchand Gandhi (1869–1948), leader of India's independence movement and developer of satyagraha — nonviolent resistance as a political philosophy and practice. Tested in South Africa (1893–1914) against racial discrimination laws; deployed at scale in India against British rule through the Non-Cooperation Movement (1920), Salt March (1930), and Quit India Movement (1942). Assassinated January 30, 1948 by a Hindu nationalist. His methods directly inspired Martin Luther King Jr., the civil rights movement, Nelson Mandela (before his ANC period), and virtually every subsequent nonviolent resistance movement.",
+    "tags": [
+      "india",
+      "nonviolent resistance",
+      "independence",
+      "satyagraha",
+      "british empire",
+      "decolonization",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "eleanor_roosevelt",
+    "label": "Eleanor Roosevelt",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1910s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "Eleanor Roosevelt (1884–1962), First Lady 1933–1945, later U.S. delegate to the UN and chair of the UN Commission on Human Rights that drafted the Universal Declaration of Human Rights (1948). The most influential First Lady in American history — she transformed the role into an independent political force, advocating for Black civil rights (resigning from the DAR when it refused Marian Anderson), labor rights, and women's equality. Her diplomatic work after FDR's death was arguably her most lasting legacy: the UDHR is her most important achievement.",
+    "tags": [
+      "human rights",
+      "united states",
+      "un",
+      "udhr",
+      "civil rights",
+      "women",
+      "new deal",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "martin_luther_king",
+    "label": "Martin Luther King Jr.",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "Martin Luther King Jr. (1929–1968), Baptist minister and civil rights leader who led the Montgomery Bus Boycott (1955), the Birmingham Campaign (1963), the March on Washington ('I Have a Dream,' 1963), and the Selma-to-Montgomery marches (1965). Nobel Peace Prize 1964. King synthesized Gandhi's nonviolent resistance with the Black church's prophetic tradition and Thoreau's civil disobedience into the most effective mass movement for racial equality in American history. Assassinated April 4, 1968 in Memphis. His final years criticized the Vietnam War and economic inequality — positions that have been systematically sanitized by the 'safe MLK' myth.",
+    "tags": [
+      "civil rights",
+      "united states",
+      "nonviolent resistance",
+      "montgomery",
+      "birmingham",
+      "selma",
+      "mlk",
+      "1950s",
+      "1960s"
+    ]
+  },
+  {
+    "id": "cesar_chavez",
+    "label": "César Chávez",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "César Chávez (1927–1993), co-founder with Dolores Huerta of the United Farm Workers (UFW) in 1962. Led the Delano grape strike and boycott (1965–1970), the first successful farmworker strike in U.S. history, securing a contract from major California growers. Used Gandhian nonviolent tactics — strikes, boycotts, marches, fasts — to organize the most vulnerable agricultural workers: Latino and Filipino migrants without legal protections. Established that nonviolent organizing could build durable labor power for workers most excluded from existing union structures.",
+    "tags": [
+      "labor movement",
+      "farmworkers",
+      "ufw",
+      "chicano",
+      "nonviolent resistance",
+      "california",
+      "strikes",
+      "1960s"
+    ]
+  },
+  {
+    "id": "dolores_huerta",
+    "label": "Dolores Huerta",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "Dolores Huerta (born 1930), co-founder of the United Farm Workers with César Chávez and the movement's primary organizer and lobbyist. Coined 'Sí, se puede' ('Yes, we can'). Negotiated the landmark 1970 grape contracts; led the national boycott that built consumer pressure on California growers. Less famous than Chávez but arguably equally essential — she handled the political and legislative strategy while Chávez led public actions. A foundational figure in Chicana feminism and in the model of combining labor organizing with civil rights activism.",
+    "tags": [
+      "labor movement",
+      "farmworkers",
+      "ufw",
+      "chicana feminism",
+      "nonviolent resistance",
+      "california",
+      "1960s"
+    ]
   }
 ]

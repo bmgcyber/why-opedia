@@ -2891,5 +2891,95 @@
     ],
     "scope": "mechanisms",
     "cross_scope": true
+  },
+  {
+    "id": "grassroots_organizing",
+    "label": "Grassroots Organizing",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "summary": "The practice of building political power from the bottom up — recruiting and developing local leaders, building relationships door-to-door, identifying shared interests, and creating accountable organizations capable of sustained collective action. Distinguished from top-down mobilization (where people are activated for someone else's agenda) by developing participants' own leadership and power. Saul Alinsky codified Industrial Areas Foundation (IAF) principles; Marshall Ganz's 'public narrative' framework theorized how organizing works through story. The civil rights movement's church-based organizing infrastructure is the archetypal case: it already existed before it was redirected to civil rights, giving it resources, relationships, and accountability.",
+    "tags": [
+      "organizing",
+      "civil society",
+      "democracy",
+      "power",
+      "community",
+      "labor",
+      "civil rights"
+    ]
+  },
+  {
+    "id": "land_reform",
+    "label": "Land Reform",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "summary": "Redistributing land ownership from large landholders to smallholders or landless peasants. When successfully implemented, land reform has been among the most powerful mechanisms for reducing rural inequality and enabling broad-based development. South Korea and Taiwan's 1950s land reforms — which broke up landlord power and created a class of small owner-operators — are directly credited with enabling their subsequent economic miracles. Japan's WWII-era land reform had similar effects. Land reform fails when: implementation is partial, compensated at inflated prices, or reversed by subsequent governments.",
+    "tags": [
+      "agriculture",
+      "inequality",
+      "poverty",
+      "development",
+      "south korea",
+      "taiwan",
+      "rural"
+    ]
+  },
+  {
+    "id": "public_health_infrastructure",
+    "label": "Public Health Infrastructure",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "summary": "The institutional systems — water treatment, sewage, food safety inspection, disease surveillance, emergency response capacity, vaccination programs — that protect population health at scale. Public health infrastructure operates largely invisibly when functioning: its successes are diseases that don't happen, outbreaks that don't spread, contamination that's caught. COVID-19 demonstrated how its degradation (defunded state health departments, no pandemic stockpile, hollowed-out CDC) produces catastrophic vulnerability. It is a classic public good: non-excludable, non-rivalrous, and systematically underfunded because its value is visible only in its absence.",
+    "tags": [
+      "public health",
+      "infrastructure",
+      "government",
+      "prevention",
+      "covid",
+      "water",
+      "sanitation"
+    ]
+  },
+  {
+    "id": "reparations",
+    "label": "Reparations",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "summary": "Economic redress for historical wrongs — compensation paid by perpetrators (or their successors) to victims (or their descendants) for documented harm. Successful cases: German reparations to Holocaust survivors (DM 3.45 billion by 1965; ongoing payments); Japanese American internment reparations ($20,000 + apology, 1988); South Africa's TRC reparations (limited). The mechanism rests on two claims: that historical injustice produces present-day disadvantage (which is empirically documented for slavery and Jim Crow), and that collective entities can bear responsibility for predecessor actions. Opposition arguments (no living perpetrators, individual liability) are addressed in philosophy of collective responsibility.",
+    "tags": [
+      "justice",
+      "slavery",
+      "holocaust",
+      "accountability",
+      "economic",
+      "civil rights",
+      "collective responsibility"
+    ]
+  },
+  {
+    "id": "democratic_accountability",
+    "label": "Democratic Accountability",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "summary": "The mechanism by which elected representatives are held responsible for their actions through elections, transparency requirements, and public scrutiny. Democratic accountability works when: elections are free and fair, voters have accurate information, representatives know they will face consequences for misconduct, and independent institutions (courts, press, civil society) monitor behavior between elections. Its failure modes — captured courts, information pollution, gerrymandering, voter suppression — are precisely the mechanisms of democratic backsliding. When functioning, democratic accountability is what converts public preferences into policy and makes government responsive to the governed.",
+    "tags": [
+      "democracy",
+      "elections",
+      "transparency",
+      "government",
+      "accountability",
+      "voting",
+      "civil society"
+    ]
   }
 ]

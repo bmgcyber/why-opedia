@@ -13128,5 +13128,392 @@
     "label": "diary's intimate specificity makes Holocaust denial culturally and emotionally implausible",
     "note": "Holocaust deniers have repeatedly attacked the diary's authenticity (falsely; its authenticity is thoroughly established). The attempts reveal the diary's function: it makes the Holocaust so specific, so intimate, so humanly documented that denial requires rejecting not an abstract claim but a specific child's life. It is a bulwark against the abstraction that revisionism requires.",
     "confidence": "high"
+  },
+  {
+    "id": "indian_independence_1947__nonviolent_resistance",
+    "source": "indian_independence_1947",
+    "target": "nonviolent_resistance",
+    "type": "PRODUCED",
+    "label": "independence demonstrated nonviolent resistance can defeat an empire",
+    "note": "India's independence is the foundational proof-of-concept for nonviolent resistance at national scale — it showed that a mass nonviolent movement could force the withdrawal of colonial power from the world's largest empire without matching its military capacity.",
+    "confidence": "high"
+  },
+  {
+    "id": "indian_independence_1947__decolonization_independence_wave",
+    "source": "indian_independence_1947",
+    "target": "decolonization_independence_wave",
+    "type": "ENABLED",
+    "label": "India's independence triggered the global decolonization wave",
+    "note": "India's 1947 independence was the signal event that made colonial empire's end seem inevitable — demonstrating that Britain, the dominant colonial power, would grant independence to its largest colony. It directly inspired African and Asian independence movements that followed in the next 25 years.",
+    "confidence": "high"
+  },
+  {
+    "id": "mahatma_gandhi__indian_independence_1947",
+    "source": "mahatma_gandhi",
+    "target": "indian_independence_1947",
+    "type": "CAUSED",
+    "label": "Gandhi led the nonviolent movement that won independence",
+    "note": "Gandhi's leadership of the Indian National Congress and his development of satyagraha as a mass political tool — through the Salt March, Non-Cooperation, and Quit India movements — was the primary political force that compelled British withdrawal.",
+    "confidence": "high"
+  },
+  {
+    "id": "mahatma_gandhi__nonviolent_resistance",
+    "source": "mahatma_gandhi",
+    "target": "nonviolent_resistance",
+    "type": "PRODUCED",
+    "label": "Gandhi developed and theorized nonviolent resistance as a political philosophy",
+    "note": "Gandhi did not merely practice nonviolent resistance; he developed it as a coherent philosophy (satyagraha — 'truth-force') with theological, ethical, and strategic dimensions that gave it transferable content beyond his specific context. His writing and example provided the intellectual infrastructure that subsequent movements adapted.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther_king__mahatma_gandhi",
+    "source": "martin_luther_king",
+    "target": "mahatma_gandhi",
+    "type": "ENABLED",
+    "label": "King explicitly built his movement on Gandhian methods",
+    "note": "King studied Gandhi intensively after the Montgomery Bus Boycott began, visited India in 1959, and explicitly modeled SCLC strategy on Gandhian satyagraha. He described Gandhi as providing 'the method for social reform' that Christianity provided the motivation for. The civil rights movement's most distinctive features — nonviolent discipline, willingness to fill jails, economic boycotts — were Gandhian adaptations.",
+    "confidence": "high"
+  },
+  {
+    "id": "end_of_apartheid_1994__apartheid_south_africa",
+    "source": "end_of_apartheid_1994",
+    "target": "apartheid_south_africa",
+    "type": "DISCREDITED",
+    "label": "democratic transition dismantled the apartheid system",
+    "note": "South Africa's 1994 election ended the apartheid system — the legal architecture of racial separation, the pass laws, the bantustans, the group areas act — through a negotiated democratic transition rather than revolutionary overthrow. It demonstrated that deeply entrenched legal systems of racial hierarchy can be dismantled through political process.",
+    "confidence": "high"
+  },
+  {
+    "id": "end_of_apartheid_1994__truth_and_reconciliation",
+    "source": "end_of_apartheid_1994",
+    "target": "truth_and_reconciliation",
+    "type": "PRODUCED",
+    "label": "transition produced the most ambitious truth and reconciliation process in history",
+    "note": "The negotiated transition included the commitment to a truth commission as a substitute for Nuremberg-style prosecutions — the TRC was the price of peaceful transition. This produced the most extensively studied application of the truth and reconciliation mechanism.",
+    "confidence": "high"
+  },
+  {
+    "id": "end_of_apartheid_1994__coalition_building",
+    "source": "end_of_apartheid_1994",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "ANC-National Party negotiation was coalition building across the deepest divide",
+    "note": "The negotiations between Mandela's ANC and de Klerk's National Party — former prisoner and former jailer — required coalition building across what had been an absolute political divide. The willingness of both sides to make existential concessions (NP: abandoning white minority rule; ANC: granting amnesty without full prosecution) was what made the transition possible.",
+    "confidence": "high"
+  },
+  {
+    "id": "voting_rights_act_1965__civil_rights_act_1964",
+    "source": "voting_rights_act_1965",
+    "target": "civil_rights_act_1964",
+    "type": "ENABLED",
+    "label": "voting rights secured the political power to defend civil rights legislation",
+    "note": "The Voting Rights Act was the necessary complement to the Civil Rights Act — civil rights legislation without voting power to defend it could be reversed. The dramatic increase in Black voter registration (Mississippi: 6% → 59% in one year) produced the political power that made the legislative gains defensible.",
+    "confidence": "high"
+  },
+  {
+    "id": "voting_rights_act_1965__jim_crow",
+    "source": "voting_rights_act_1965",
+    "target": "jim_crow",
+    "type": "DISCREDITED",
+    "label": "ended systematic disenfranchisement that was Jim Crow's political foundation",
+    "note": "Black disenfranchisement was Jim Crow's political foundation — without it, Black political power would have made Jim Crow's legal maintenance impossible in Southern states where Black citizens were a substantial minority or majority. The VRA's success in increasing Black voter registration changed Southern politics within a decade.",
+    "confidence": "high"
+  },
+  {
+    "id": "voting_rights_act_1965__nonviolent_resistance",
+    "source": "voting_rights_act_1965",
+    "target": "nonviolent_resistance",
+    "type": "PRODUCED",
+    "label": "Bloody Sunday images broke Congressional resistance to voting rights",
+    "note": "The Voting Rights Act was passed 8 weeks after Bloody Sunday — state troopers attacking nonviolent marchers on Edmund Pettus Bridge. The television broadcast of the attack on peaceful marchers produced a wave of public outrage that broke the Senate filibuster. Nonviolent resistance deliberately uses opponent violence to generate political pressure.",
+    "confidence": "high"
+  },
+  {
+    "id": "ada_1990__moral_circle_expansion",
+    "source": "ada_1990",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "label": "ADA encoded the expansion of moral consideration to disabled people into law",
+    "note": "The ADA represented the formal legal recognition that disability is a civil rights issue — that barriers are socially constructed, not inherent to impaired bodies, and that disabled people have the same claim on public participation as anyone else. This was a significant expansion of the moral circle in American law.",
+    "confidence": "high"
+  },
+  {
+    "id": "ada_1990__structural_violence",
+    "source": "ada_1990",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "ADA identified and mandated remediation of built environmental violence against disabled people",
+    "note": "The ADA named inaccessible buildings, transportation, and communications as forms of structural violence — barriers that systematically excluded disabled people from public life regardless of individual intent. By mandating accessibility, it required that structural conditions be remediated rather than treating exclusion as unfortunate but natural.",
+    "confidence": "high"
+  },
+  {
+    "id": "marriage_equality_us_2015__lgbtq_rights_movement",
+    "source": "marriage_equality_us_2015",
+    "target": "lgbtq_rights_movement",
+    "type": "PRODUCED",
+    "label": "landmark victory of the LGBTQ+ rights movement",
+    "note": "Obergefell was the most significant legislative/judicial achievement of the LGBTQ+ rights movement — extending a fundamental social institution to gay and lesbian people after a generation of organizing. The speed of the shift (27% support in 1996 to 60% in 2015) is one of the fastest documented changes in American public opinion.",
+    "confidence": "high"
+  },
+  {
+    "id": "marriage_equality_us_2015__moral_circle_expansion",
+    "source": "marriage_equality_us_2015",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "label": "codified expansion of moral consideration to LGBTQ+ people in constitutional law",
+    "note": "Obergefell's majority opinion explicitly framed marriage equality as moral circle expansion: the Constitution's dignity clause protects all persons' right to form intimate bonds, regardless of sexual orientation. It was the first Supreme Court ruling to explicitly ground LGBTQ+ rights in the dignity of persons as persons.",
+    "confidence": "high"
+  },
+  {
+    "id": "emancipation_proclamation_1863__abolitionist_movement",
+    "source": "emancipation_proclamation_1863",
+    "target": "abolitionist_movement",
+    "type": "PRODUCED",
+    "label": "fulfilled the abolitionist movement's 40-year demand",
+    "note": "The Emancipation Proclamation was the federal government's first step toward the abolitionists' central demand — ending slavery. Lincoln moved more slowly than abolitionists wanted, but the Proclamation represented their argument becoming government policy. Frederick Douglass, who had criticized Lincoln's caution, called it the beginning of the end of slavery.",
+    "confidence": "high"
+  },
+  {
+    "id": "emancipation_proclamation_1863__american_civil_war",
+    "source": "emancipation_proclamation_1863",
+    "target": "american_civil_war",
+    "type": "ENABLED",
+    "label": "transformed the war's purpose and enabled Black military service",
+    "note": "The Proclamation changed the war from a war to preserve the Union into a war to end slavery — which changed what a Union victory would mean, what was worth dying for, and who could fight for it. 180,000 Black soldiers subsequently served in the Union Army, contributing decisively to the war's outcome.",
+    "confidence": "high"
+  },
+  {
+    "id": "thirteen_amendment_1865__abolitionist_movement",
+    "source": "thirteen_amendment_1865",
+    "target": "abolitionist_movement",
+    "type": "PRODUCED",
+    "label": "legal culmination of 40 years of abolitionist organizing",
+    "note": "The 13th Amendment was the abolitionist movement's ultimate goal — achieved after four decades of organizing, the Civil War, and Lincoln's Emancipation Proclamation. It converted the movement's moral demand into constitutional law.",
+    "confidence": "high"
+  },
+  {
+    "id": "thirteen_amendment_1865__mass_incarceration",
+    "source": "thirteen_amendment_1865",
+    "target": "mass_incarceration",
+    "type": "ENABLED",
+    "label": "punishment exception clause provided legal foundation for convict leasing and mass incarceration",
+    "note": "The 13th Amendment's 'except as punishment for crime' clause allowed Southern states to re-enslave freed Black people through the convict leasing system — criminalizing minor offenses, leasing prisoners to plantations and mines. Michelle Alexander's analysis shows this clause is the constitutional origin of mass incarceration as a racial control mechanism.",
+    "confidence": "high"
+  },
+  {
+    "id": "camp_david_accords_1978__israel_palestine",
+    "source": "camp_david_accords_1978",
+    "target": "israel_palestine",
+    "type": "ENABLED",
+    "label": "Egypt-Israel peace removed the largest military threat to Israel and opened diplomatic possibilities",
+    "note": "Camp David resolved the most dangerous dimension of the Arab-Israeli conflict — Egypt had fought four wars against Israel and possessed by far the largest Arab military. By removing this threat, the accords changed the conflict's dynamics and established that negotiated peace between Israel and Arab states was achievable.",
+    "confidence": "high"
+  },
+  {
+    "id": "camp_david_accords_1978__coalition_building",
+    "source": "camp_david_accords_1978",
+    "target": "coalition_building",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Carter's mediation built a durable settlement from irreconcilable-seeming positions",
+    "note": "Carter's Camp David strategy — exhaustive private negotiations with Sadat and Begin over 13 days, focused on concrete interests rather than abstract positions — exemplifies principled negotiation. Carter identified that Egypt needed territorial sovereignty (Sinai) and Israel needed security (normalized relations, demilitarized buffer), and constructed a deal that satisfied both.",
+    "confidence": "high"
+  },
+  {
+    "id": "nuclear_test_ban_treaty_1963__nuclear_weapons",
+    "source": "nuclear_test_ban_treaty_1963",
+    "target": "nuclear_weapons",
+    "type": "DISCREDITED",
+    "label": "first constraint on nuclear weapons development through arms control",
+    "note": "The PTBT was the first international agreement to limit nuclear weapons — demonstrating that the superpowers could agree on constraints even at the height of Cold War tension. It directly followed the Cuban Missile Crisis and established the arms control negotiating channel that produced SALT, START, and the NPT.",
+    "confidence": "high"
+  },
+  {
+    "id": "nuclear_test_ban_treaty_1963__cold_war",
+    "source": "nuclear_test_ban_treaty_1963",
+    "target": "cold_war",
+    "type": "DISCREDITED",
+    "label": "demonstrated that Cold War antagonists could cooperate on existential risks",
+    "note": "The treaty proved that ideological adversaries could negotiate binding agreements on shared existential risks — a crucial precedent. The Cuban Missile Crisis had demonstrated that escalation could be uncontrollable; the treaty was the first institutionalized response to that recognition.",
+    "confidence": "high"
+  },
+  {
+    "id": "paris_agreement_2015__environmentalism_movement",
+    "source": "paris_agreement_2015",
+    "target": "environmentalism_movement",
+    "type": "PRODUCED",
+    "label": "most significant international environmental agreement since Montreal Protocol",
+    "note": "The Paris Agreement was the environmental movement's largest diplomatic achievement since the Montreal Protocol — achieving universal participation in climate commitments that previous negotiations (Kyoto, Copenhagen) had failed to produce. Whether its ambitions are met depends on implementation, but the agreement itself represents a breakthrough in international cooperation.",
+    "confidence": "high"
+  },
+  {
+    "id": "paris_agreement_2015__climate_change_policy",
+    "source": "paris_agreement_2015",
+    "target": "climate_change_policy",
+    "type": "PRODUCED",
+    "label": "established the international framework for national climate policy",
+    "note": "The Paris Agreement's nationally determined contributions (NDCs) framework — countries set their own targets, which are reviewed and ratcheted up over time — became the governing framework for international climate policy. It trades binding caps (which blocked previous agreements) for universal participation and reputational accountability.",
+    "confidence": "high"
+  },
+  {
+    "id": "eleanor_roosevelt__universal_declaration_human_rights_1948",
+    "source": "eleanor_roosevelt",
+    "target": "universal_declaration_human_rights_1948",
+    "type": "CAUSED",
+    "label": "chaired the drafting committee and drove the Declaration to adoption",
+    "note": "Eleanor Roosevelt was the driving force behind the UDHR — she chaired the UN Commission on Human Rights, managed the drafting process across eight countries' competing conceptions of rights, and personally lobbied delegates to ensure adoption. The document would not have taken the form it did, or been adopted when it was, without her political skill and moral authority.",
+    "confidence": "high"
+  },
+  {
+    "id": "eleanor_roosevelt__moral_circle_expansion",
+    "source": "eleanor_roosevelt",
+    "target": "moral_circle_expansion",
+    "type": "ENABLED",
+    "label": "expanded rights discourse to include economic and social rights alongside civil and political rights",
+    "note": "Roosevelt insisted that the UDHR include economic and social rights (Article 22-27: right to work, education, social security, adequate living standards) alongside civil and political rights — over U.S. State Department objections. This insistence established that human dignity requires material conditions, not only legal freedom.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther_king__civil_rights_movement",
+    "source": "martin_luther_king",
+    "target": "civil_rights_movement",
+    "type": "CAUSED",
+    "label": "King was the movement's primary public leader and moral voice",
+    "note": "King served as the SCLC's president and the civil rights movement's most visible leader from the Montgomery Bus Boycott (1955) through his assassination (1968). His oratory, strategic vision, willingness to go to jail, and ability to maintain nonviolent discipline under violent attack were essential to the movement's success.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther_king__voting_rights_act_1965",
+    "source": "martin_luther_king",
+    "target": "voting_rights_act_1965",
+    "type": "CAUSED",
+    "label": "led the Selma campaign that directly produced the Voting Rights Act",
+    "note": "King led the Selma-to-Montgomery marches specifically to dramatize the denial of Black voting rights and force federal voting rights legislation. Bloody Sunday — March 7, 1965 — was the product of this deliberate strategy: create a confrontation that televised state violence would make politically untenable for Congress to ignore.",
+    "confidence": "high"
+  },
+  {
+    "id": "cesar_chavez__labor_movement",
+    "source": "cesar_chavez",
+    "target": "labor_movement",
+    "type": "ENABLED",
+    "label": "organized the most excluded workers into durable union power",
+    "note": "Chávez extended the labor movement to agricultural workers — who had been specifically excluded from the National Labor Relations Act (1935) through Southern Democratic pressure — demonstrating that even the most vulnerable, mobile, and legally unprotected workers could be organized through sustained grassroots effort.",
+    "confidence": "high"
+  },
+  {
+    "id": "cesar_chavez__nonviolent_resistance",
+    "source": "cesar_chavez",
+    "target": "nonviolent_resistance",
+    "type": "ENABLED",
+    "label": "applied Gandhian nonviolent tactics to labor organizing",
+    "note": "Chávez explicitly modeled UFW strategy on Gandhi and King — fasts, marches, boycotts as moral suasion rather than pure economic pressure. The national grape boycott worked because it built consumer solidarity across racial and class lines, extending labor power beyond the workplace.",
+    "confidence": "high"
+  },
+  {
+    "id": "dolores_huerta__labor_movement",
+    "source": "dolores_huerta",
+    "target": "labor_movement",
+    "type": "ENABLED",
+    "label": "co-built the UFW's organizational infrastructure and legislative strategy",
+    "note": "Huerta negotiated the landmark 1970 Delano grape contracts, lobbied the California legislature for the Agricultural Labor Relations Act (1975 — first law in the U.S. guaranteeing farmworkers' collective bargaining rights), and built the UFW's organizational capacity. Her work was the political and institutional counterpart to Chávez's public leadership.",
+    "confidence": "high"
+  },
+  {
+    "id": "dolores_huerta__second_wave_feminism",
+    "source": "dolores_huerta",
+    "target": "second_wave_feminism",
+    "type": "ENABLED",
+    "label": "bridged labor organizing and feminist organizing",
+    "note": "Huerta's leadership in a male-dominated movement, her insistence on women's full participation in organizing, and her later explicit feminist advocacy made her a bridge between the labor movement and second-wave feminism — demonstrating that working-class Chicana experience was part of feminism's scope.",
+    "confidence": "medium"
+  },
+  {
+    "id": "grassroots_organizing__civil_rights_movement",
+    "source": "grassroots_organizing",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "label": "Black church infrastructure was the organizational foundation of civil rights",
+    "note": "The civil rights movement succeeded partly because it had a pre-existing organizational infrastructure — the Black church network — that could be redirected to political organizing. SCLC's church base, SNCC's student networks, and the NAACP's chapters exemplify grassroots organizing: pre-existing relationships and institutions converted to political action.",
+    "confidence": "high"
+  },
+  {
+    "id": "grassroots_organizing__coalition_building",
+    "source": "grassroots_organizing",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "grassroots organizations are the building blocks of political coalitions",
+    "note": "Coalitions are built from organizations, not from individuals — unions, churches, civic groups, and community organizations are the units that coalitions combine. Grassroots organizing builds these units and gives them the capacity to commit their members, making them capable of entering and sustaining coalitions.",
+    "confidence": "high"
+  },
+  {
+    "id": "land_reform__east_asia_economic_miracle",
+    "source": "land_reform",
+    "target": "east_asia_economic_miracle",
+    "type": "ENABLED",
+    "label": "South Korean and Taiwanese land reforms were preconditions for the economic miracle",
+    "note": "Both South Korea and Taiwan implemented radical land reform in the early 1950s — breaking up large landlord holdings and distributing land to tenant farmers. This created a class of small owner-operators, reduced rural inequality, generated agricultural productivity, and eliminated the landed aristocracy's political power. Land reform is the missing variable in explanations of the East Asian miracle that focus only on industrial policy.",
+    "confidence": "high"
+  },
+  {
+    "id": "land_reform__structural_violence",
+    "source": "land_reform",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "successful land reform is the most direct structural remedy for rural inequality",
+    "note": "Much rural poverty is structural — the product of land tenure systems that concentrate ownership and force the majority into tenancy or landlessness. Land reform directly remediates this structural condition by redistributing the asset that generates rural income. When it works, it changes the underlying structure rather than managing its symptoms.",
+    "confidence": "high"
+  },
+  {
+    "id": "public_health_infrastructure__structural_violence",
+    "source": "public_health_infrastructure",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "public health infrastructure is the primary structural counter to health inequality",
+    "note": "Health disparities between wealthy and poor communities are primarily structural — the product of differential access to clean water, sanitation, vaccination, and preventive care. Public health infrastructure addresses health inequality at the structural level: clean water in every home, vaccination programs that reach every child, food safety that applies to all markets.",
+    "confidence": "high"
+  },
+  {
+    "id": "public_health_infrastructure__global_vaccination_campaigns",
+    "source": "public_health_infrastructure",
+    "target": "global_vaccination_campaigns",
+    "type": "ENABLED",
+    "label": "vaccination campaigns require public health infrastructure to function",
+    "note": "Global vaccination campaigns depend on pre-existing public health infrastructure: cold chain logistics, vaccination registries, healthcare worker networks, community trust, and surveillance systems. Where public health infrastructure is degraded, vaccination campaigns cannot maintain coverage — as documented in COVID-19's uneven global rollout.",
+    "confidence": "high"
+  },
+  {
+    "id": "reparations__structural_violence",
+    "source": "reparations",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "reparations address the economic dimension of historical structural violence",
+    "note": "Structural violence's economic harms persist across generations — stolen land, denied wages, blocked wealth-building under Jim Crow, and convict leasing represent compounding economic deprivation. Reparations address the economic dimension of this inheritance: translating documented historical harm into present-day economic remediation.",
+    "confidence": "high"
+  },
+  {
+    "id": "reparations__truth_and_reconciliation",
+    "source": "reparations",
+    "target": "truth_and_reconciliation",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both require acknowledged truth before providing remedy",
+    "note": "Reparations and truth and reconciliation both require that wrongs be officially acknowledged before remedy is possible — denied wrongs cannot be remediated. Both mechanisms therefore begin with the same step: establishing an acknowledged historical record against which claims can be made.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_accountability__democratic_backsliding",
+    "source": "democratic_accountability",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "functioning democratic accountability is what democratic backsliding dismantles",
+    "note": "Democratic backsliding proceeds by dismantling accountability mechanisms: captured courts cannot hold executives accountable; information pollution prevents voters from making informed judgments; electoral manipulation removes the consequence that accountability requires. The restoration of democratic accountability is therefore the primary task of democratic recovery.",
+    "confidence": "high"
+  },
+  {
+    "id": "democratic_accountability__electoral_fraud",
+    "source": "democratic_accountability",
+    "target": "voter_suppression",
+    "type": "DISCREDITED",
+    "label": "democratic accountability mechanisms resist voter suppression",
+    "note": "Functioning democratic accountability — independent election authorities, judicial review of electoral laws, press scrutiny of electoral administration, civil society monitoring — is the structural defense against voter suppression. Where these mechanisms are strong, voter suppression is harder to implement without consequence.",
+    "confidence": "high"
   }
 ]
