@@ -2745,8 +2745,8 @@
     "confidence": "confirmed"
   },
   {
-    "id": "french_revolution_history__enlightenment",
-    "source": "french_revolution_history",
+    "id": "french_revolution__enlightenment",
+    "source": "french_revolution",
     "target": "enlightenment",
     "type": "ENABLED",
     "label": "Enabled",
@@ -2754,8 +2754,8 @@
     "confidence": "confirmed"
   },
   {
-    "id": "french_revolution_history__marxism",
-    "source": "french_revolution_history",
+    "id": "french_revolution__marxism",
+    "source": "french_revolution",
     "target": "marxism",
     "type": "ENABLED",
     "label": "Enabled",
@@ -2763,8 +2763,8 @@
     "confidence": "confirmed"
   },
   {
-    "id": "french_revolution_history__napoleon_Bonaparte",
-    "source": "french_revolution_history",
+    "id": "french_revolution__napoleon_Bonaparte",
+    "source": "french_revolution",
     "target": "napoleon_bonaparte",
     "type": "PRODUCED",
     "label": "Produced",

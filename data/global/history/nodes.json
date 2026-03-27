@@ -9958,5 +9958,401 @@
       "assassination",
       "church-state conflict"
     ]
+  },
+  {
+    "id": "harriet_beecher_stowe",
+    "label": "Harriet Beecher Stowe",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1850s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Harriet_Beecher_Stowe",
+    "summary": "American abolitionist author whose novel 'Uncle Tom's Cabin' (1852) became the best-selling novel of the 19th century and galvanized Northern anti-slavery sentiment. Lincoln reportedly said she was 'the little woman who wrote the book that started this great war.' Her work exemplifies literature as a causal force in political history.",
+    "tags": [
+      "author",
+      "abolitionism",
+      "civil war",
+      "slavery",
+      "harriet beecher stowe",
+      "19th century"
+    ]
+  },
+  {
+    "id": "thomas_paine",
+    "label": "Thomas Paine",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1770s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Paine",
+    "summary": "English-American political activist whose pamphlet 'Common Sense' (1776) made independence from Britain the obvious choice for ordinary colonists. Later wrote 'The Rights of Man' (defending the French Revolution) and 'The Age of Reason' (deism). Died in poverty and obscurity; rehabilitated as one of history's most consequential political writers.",
+    "tags": [
+      "author",
+      "american revolution",
+      "pamphlet",
+      "enlightenment",
+      "independence",
+      "revolutionary"
+    ]
+  },
+  {
+    "id": "leni_riefenstahl",
+    "label": "Leni Riefenstahl",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1930s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Leni_Riefenstahl",
+    "summary": "German filmmaker whose 'Triumph of the Will' (1935) and 'Olympia' (1938) pioneered cinematic techniques while serving Nazi propaganda. Her claim of artistic innocence \u2014 that she was just a filmmaker, not responsible for what the content served \u2014 is the defining test case for art's complicity in political evil. Lived to 101, never disavowed her work.",
+    "tags": [
+      "filmmaker",
+      "nazi",
+      "propaganda",
+      "germany",
+      "film",
+      "aesthetics",
+      "complicity"
+    ]
+  },
+  {
+    "id": "w_e_b_dubois",
+    "label": "W.E.B. Du Bois",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1900s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/W._E._B._Du_Bois",
+    "summary": "First Black PhD from Harvard, Du Bois co-founded the NAACP, introduced 'double consciousness' and 'the Talented Tenth,' and spent 95 years fighting racism through scholarship, journalism, and activism. Moved to Ghana at 93, renounced his U.S. citizenship. His theoretical framework shaped every major tradition of Black political thought that followed.",
+    "tags": [
+      "author",
+      "civil rights",
+      "naacp",
+      "black liberation",
+      "double consciousness",
+      "sociology",
+      "naacp founder"
+    ]
+  },
+  {
+    "id": "rachel_carson",
+    "label": "Rachel Carson",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Rachel_Carson",
+    "summary": "Marine biologist whose 'Silent Spring' (1962) exposed the ecological destruction of DDT and synthetic pesticides. Subjected to intense industry smear campaigns calling her a 'hysterical woman.' Died of cancer in 1964, two years after publication, before she could see the EPA established (1970) or DDT banned (1972) \u2014 direct consequences of her work.",
+    "tags": [
+      "author",
+      "environmentalism",
+      "ecology",
+      "scientist",
+      "ddt",
+      "pesticides",
+      "marine biology"
+    ]
+  },
+  {
+    "id": "upton_sinclair",
+    "label": "Upton Sinclair",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1900s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Upton_Sinclair",
+    "summary": "Muckraking journalist and socialist author whose 'The Jungle' (1906) exposed Chicago meatpacking conditions and accidentally produced the Pure Food and Drug Act. Ran for California governor on a socialist 'End Poverty in California' platform (1934), nearly winning. Wrote 'I, Candidate for Governor \u2014 and How I Got Licked' about his defeat.",
+    "tags": [
+      "author",
+      "muckraking",
+      "socialism",
+      "labor",
+      "journalist",
+      "progressive era",
+      "food safety"
+    ]
+  },
+  {
+    "id": "billie_holiday",
+    "label": "Billie Holiday",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1930s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Billie_Holiday",
+    "summary": "Jazz vocalist whose 1939 recording of 'Strange Fruit' confronted American audiences with anti-Black lynching violence. The Federal Bureau of Narcotics, led by Harry Anslinger, targeted her specifically to silence the song \u2014 surveilling her, entrapping her with heroin, prosecuting her, and revoking her cabaret license. She died in federal custody at 44. The harassment was political.",
+    "tags": [
+      "musician",
+      "jazz",
+      "civil rights",
+      "anti-lynching",
+      "fbi harassment",
+      "billie holiday",
+      "1930s"
+    ]
+  },
+  {
+    "id": "woody_guthrie",
+    "label": "Woody Guthrie",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1930s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Woody_Guthrie",
+    "summary": "Oklahoma-born folk singer who became the voice of Dust Bowl refugees and Depression-era labor struggles. His guitar read 'This Machine Kills Fascists.' 'This Land Is Your Land,' 'So Long, It's Been Good to Know Yuh,' and hundreds of other songs gave the working class a musical identity. Influenced Pete Seeger, Bob Dylan, and every American protest musician after.",
+    "tags": [
+      "musician",
+      "folk",
+      "labor",
+      "dust bowl",
+      "socialist",
+      "depression era",
+      "protest music"
+    ]
+  },
+  {
+    "id": "pablo_picasso",
+    "label": "Pablo Picasso",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1930s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Pablo_Picasso",
+    "summary": "Spanish artist who created Guernica (1937) in response to the Nazi bombing of the Basque town \u2014 the most politically consequential artwork of the 20th century. Communist Party member from 1944. Refused to return Guernica to Spain until democracy was restored; it became a weapon of the anti-Franco resistance.",
+    "tags": [
+      "artist",
+      "spain",
+      "anti-war",
+      "guernica",
+      "cubism",
+      "communism",
+      "anti-fascism"
+    ]
+  },
+  {
+    "id": "frantz_fanon",
+    "label": "Frantz Fanon",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1950s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Frantz_Fanon",
+    "summary": "Martinican psychiatrist and revolutionary writer who served the Algerian FLN. 'Black Skin, White Masks' (1952) analyzed the psychology of colonialism; 'The Wretched of the Earth' (1961) became the theoretical foundation for anti-colonial liberation movements worldwide. Influenced the Black Panthers, ANC, Palestinian liberation movement, and postcolonial theory.",
+    "tags": [
+      "author",
+      "anti-colonialism",
+      "psychiatry",
+      "algeria",
+      "martinique",
+      "liberation",
+      "black panthers"
+    ]
+  },
+  {
+    "id": "paulo_freire",
+    "label": "Paulo Freire",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Paulo_Freire",
+    "summary": "Brazilian educator whose 'Pedagogy of the Oppressed' (1968) became the foundational text of liberation pedagogy. Exiled by Brazil's military dictatorship in 1964 for teaching literacy to peasants. His literacy programs empowered rural workers to vote \u2014 which made the dictatorship consider him dangerous enough to arrest.",
+    "tags": [
+      "educator",
+      "brazil",
+      "liberation pedagogy",
+      "literacy",
+      "class consciousness",
+      "exile",
+      "critical theory"
+    ]
+  },
+  {
+    "id": "spike_lee",
+    "label": "Spike Lee",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1980s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Spike_Lee",
+    "summary": "American filmmaker who pioneered explicitly political filmmaking about Black American life. 'Do the Right Thing' (1989) \u2014 about a police killing in Brooklyn \u2014 'Malcolm X' (1992), '4 Little Girls' (1997), and 'BlacKkKlansman' (2018) constitute a sustained artistic argument about structural racism. Often dismissed as 'angry' by critics who saw his subject matter as the problem.",
+    "tags": [
+      "filmmaker",
+      "black liberation",
+      "civil rights",
+      "police brutality",
+      "documentary",
+      "director"
+    ]
+  },
+  {
+    "id": "joseph_goebbels",
+    "label": "Joseph Goebbels",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1930s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Joseph_Goebbels",
+    "summary": "Nazi Reich Minister of Propaganda (1933\u201345) who controlled all German media and cultural production. Invented many techniques of modern political propaganda: the big lie, spectacle politics, the rally as aesthetic experience, total media saturation. His diaries document the conscious, industrial manufacturing of mass hysteria. Killed himself with his family on May 1, 1945.",
+    "tags": [
+      "propagandist",
+      "nazi",
+      "germany",
+      "media",
+      "film",
+      "radio",
+      "propaganda",
+      "world war ii"
+    ]
+  },
+  {
+    "id": "william_randolph_hearst",
+    "label": "William Randolph Hearst",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1890s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Randolph_Hearst",
+    "summary": "Newspaper magnate whose sensationalist 'yellow journalism' in the New York Journal is credited with helping manufacture public support for the Spanish-American War (1898). 'You furnish the pictures and I'll furnish the war' (attributed). Citizen Kane is based on him. His media empire demonstrated that news could be weaponized for political and financial ends.",
+    "tags": [
+      "media",
+      "journalism",
+      "propaganda",
+      "spanish american war",
+      "yellow journalism",
+      "press baron"
+    ]
+  },
+  {
+    "id": "betty_friedan",
+    "label": "Betty Friedan",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Betty_Friedan",
+    "summary": "Author of 'The Feminine Mystique' (1963) and co-founder of NOW (National Organization for Women). Named 'the problem that has no name' \u2014 educated women's profound dissatisfaction with domestic confinement \u2014 launching second-wave feminism. Later criticized for centering white, middle-class women's experience and for homophobia within NOW.",
+    "tags": [
+      "feminist",
+      "author",
+      "now",
+      "second wave",
+      "women's liberation",
+      "united states",
+      "1960s"
+    ]
+  },
+  {
+    "id": "ku_klux_klan",
+    "label": "Ku Klux Klan",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1860s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "White supremacist terrorist organization founded in 1865 by Confederate veterans. Experienced three distinct eras: Reconstruction-era night riders targeting freedpeople (1865–1871), a mass movement of 3–6 million members revived by Birth of a Nation (1915–1930s), and a post-WWII resurgence targeting civil rights organizers (1950s–present). Each era used different tactics but shared the goal of enforcing racial hierarchy through violence and intimidation.",
+    "tags": ["white supremacy", "terrorism", "reconstruction", "jim crow", "domestic terrorism", "united states"]
+  },
+  {
+    "id": "russian_revolution_1917",
+    "label": "Russian Revolution",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1910s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The 1917 revolutions that ended the Romanov dynasty and brought the Bolsheviks to power. The February Revolution (March 1917) overthrew the Tsar; the October Revolution (November 1917) overthrew the provisional government. Lenin's Bolsheviks established the world's first communist state, triggering a civil war (1917–1922) and producing the Soviet Union. The event validated Marxist revolutionary theory and inspired communist movements worldwide for a century.",
+    "tags": ["russia", "communism", "marxism", "revolution", "1917", "bolsheviks", "soviet union", "lennin"]
+  },
+  {
+    "id": "abolitionist_movement",
+    "label": "Abolitionist Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1830s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The transatlantic campaign to end slavery, active primarily 1830–1865 in the United States and earlier in Britain. American abolitionists combined moral arguments, legal challenges, slave narratives, and direct action (Underground Railroad) to build political opposition to slavery. Uncle Tom's Cabin (1852) was the movement's most effective propaganda tool, selling 300,000 copies in its first year. The movement succeeded in Britain (1833) and the U.S. (1865 with the 13th Amendment).",
+    "tags": ["slavery", "civil rights", "underground railroad", "united states", "britain", "19th century", "emancipation", "frederick douglass"]
+  },
+  {
+    "id": "spanish_civil_war_1936",
+    "label": "Spanish Civil War",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1930s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "1936–1939 war between the elected Spanish Republic and Franco's Nationalist coalition. Nazi Germany and Fascist Italy supported Franco; the Soviet Union supported the Republic; Western democracies refused to intervene. The Nationalists won in 1939, beginning Franco's 36-year dictatorship. The war was a rehearsal for WWII — Germany tested Blitzkrieg tactics and its Condor Legion bombed the Basque town of Guernica on April 26, 1937, inspiring Picasso's painting. International Brigades of volunteers from 53 countries fought for the Republic.",
+    "tags": ["spain", "fascism", "franco", "nazi", "soviet union", "1930s", "antifascism", "international brigades", "guernica"]
+  },
+  {
+    "id": "japanese_american_internment_1942",
+    "label": "Japanese American Internment",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1940s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The forced relocation and incarceration of 120,000 Japanese Americans and Japanese immigrants during WWII, authorized by Executive Order 9066 (February 1942). Two-thirds were American citizens. Internees were confined to 10 concentration camps under armed guard, losing homes, businesses, and property. No Japanese American was charged with espionage or sabotage. The Supreme Court upheld internment in Korematsu v. United States (1944). The U.S. government issued a formal apology and reparations in 1988.",
+    "tags": ["world war ii", "racism", "civil liberties", "japanese american", "executive order", "korematsu", "reparations", "united states"]
+  },
+  {
+    "id": "oklahoma_city_bombing_1995",
+    "label": "Oklahoma City Bombing",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1990s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "April 19, 1995 truck bombing of the Alfred P. Murrah Federal Building in Oklahoma City by Timothy McVeigh and Terry Nichols, killing 168 people including 19 children. The deadliest domestic terrorist attack in U.S. history until 9/11. McVeigh cited The Turner Diaries as his blueprint and chose the date to coincide with the Waco siege anniversary. The attack revealed the depth of anti-government far-right militia movements and white nationalist terrorism operating entirely within the United States.",
+    "tags": ["domestic terrorism", "white nationalism", "far right", "militia movement", "united states", "1990s", "turner diaries"]
+  },
+  {
+    "id": "environmentalism_movement",
+    "label": "Environmentalism Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1960s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The organized political and social movement to protect the natural environment from industrial pollution, habitat destruction, and species extinction. Largely catalyzed in the U.S. by Rachel Carson's Silent Spring (1962), which documented DDT's ecological harm. The first Earth Day (1970) mobilized 20 million Americans; subsequent years produced the EPA, Clean Air Act, Clean Water Act, and DDT ban. The movement evolved from conservation to environmental justice, connecting pollution to structural racism and poverty.",
+    "tags": ["environment", "ecology", "pollution", "epa", "climate", "rachel carson", "earth day", "conservation", "1960s", "1970s"]
+  },
+  {
+    "id": "deindustrialization",
+    "label": "Deindustrialization",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1970s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The decline of manufacturing employment in developed economies, accelerating from the 1970s onward due to automation, globalization, and offshoring. In the United States, the Rust Belt and urban cores like Detroit, Cleveland, and South Central Los Angeles lost 50–70% of manufacturing jobs between 1970–2000. The resulting mass unemployment, disinvestment, and community collapse provided the context for crack cocaine epidemics, gang formation, and cultural responses including hip hop. Deindustrialization was unevenly distributed along racial and class lines.",
+    "tags": ["rust belt", "economics", "inequality", "urbanization", "globalization", "automation", "manufacturing", "united states", "1970s", "1980s"]
+  },
+  {
+    "id": "nazi_germany",
+    "label": "Nazi Germany",
+    "node_type": "era",
+    "category": "era",
+    "decade": "1930s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The German state under Adolf Hitler and the National Socialist (Nazi) Party, 1933–1945. Nazi Germany pursued racial ideology through law (Nuremberg Laws, 1935), terror (Kristallnacht, 1938), conquest (annexation of Austria and Czechoslovakia, invasion of Poland 1939), and genocide (the Holocaust: systematic murder of 6 million Jews and 5–6 million others). The regime's defeat in WWII produced the Nuremberg Trials and the foundations of international human rights law.",
+    "tags": ["germany", "fascism", "nazism", "world war ii", "holocaust", "genocide", "antisemitism", "totalitarianism", "1930s", "1940s"]
   }
 ]

@@ -25,6 +25,7 @@ data/
     psychology/nodes.json + edges.json
     media/nodes.json + edges.json
     health/nodes.json + edges.json
+    art/nodes.json + edges.json   — Art & Culture scope (added Session 6)
   mechanisms/
     nodes.json                   — cross-scope mechanism/concept nodes
     edges.json                   — ALL cross-scope edges (any scope ↔ mechanism, or scope ↔ scope)
@@ -39,7 +40,7 @@ data/
 `CAUSED`, `COLONIZED`, `DISCREDITED`, `ENABLED`, `EXPLOITED`, `FORCED_INTO`, `FRAGMENTED_INTO`, `NORMALIZED`, `PRODUCED`, `PROVIDED_COVER_FOR`, `SELF_REINFORCES`, `SHARES_MECHANISM_WITH`
 
 ### Node categories:
-`person`, `event`, `movement`, `institution`, `era`, `ideology`, `phenomenon`, `mechanism`, `reference`
+`person`, `event`, `movement`, `institution`, `era`, `ideology`, `phenomenon`, `mechanism`, `reference`, `artifact` (specific cultural works: films, books, albums, artworks — added Session 6)
 
 ### Edge ID convention: `{source_id}__{target_id}` (double underscore)
 
@@ -49,21 +50,29 @@ data/
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-03-26, Session 4)
+## CURRENT DATASET STATE (as of 2026-03-26, Session 7)
 
 | Scope | Nodes | Edges |
 |-------|-------|-------|
-| History | **492** | **1008** |
+| History | **516** | **1008** |
 | Economics | 39 | 98 |
 | Politics | 110 | 321 |
 | Psychology | 38 | 107 |
 | Media | 31 | 82 |
 | Health | 31 | 81 |
-| Mechanisms | **144** | **1387** (cross-scope) |
-| **Person nodes (history)** | **214** | — |
-| **Total nodes** | **~885** | **~3084** |
+| Art & Culture | **40** | **22** |
+| Mechanisms | **144** | **1505** (cross-scope) |
+| **Person nodes (history)** | **~229** | — |
+| **Total nodes** | **~915** | **~3224** |
 
-**Data integrity:** 0 truly broken edge references. Cross-scope refs to unloaded scopes are filtered by the renderer.
+**Data integrity:** 0 broken edge references. Verified 2026-03-26.
+
+### Session 6–7 additions:
+- **Art & Culture scope (Session 6):** Full scope wired (scopes.json + scope-manager.js + portal node). 40 art artifact nodes, 22 within-scope edges, 57 initial cross-scope edges. New `artifact` node category introduced.
+- **Artist/author person nodes (Session 6):** harriet_beecher_stowe, thomas_paine, leni_riefenstahl, w_e_b_dubois, rachel_carson, upton_sinclair, billie_holiday, woody_guthrie, pablo_picasso, frantz_fanon, paulo_freire, spike_lee, joseph_goebbels, william_randolph_hearst, betty_friedan (+15 to history scope)
+- **9 missing history nodes (Session 7):** ku_klux_klan, russian_revolution_1917, abolitionist_movement, spanish_civil_war_1936, japanese_american_internment_1942, oklahoma_city_bombing_1995, environmentalism_movement, deindustrialization, nazi_germany
+- **61 additional cross-scope edges (Session 7):** 22 resolved skipped edges + 39 art→history/mechanism wiring; total mechanism edges grew 1444→1505
+- **3 orphan politics edges fixed (Session 7):** french_revolution_history → french_revolution remapped
 
 ### Session 4 additions:
 - **Duplicate cleanup:** Merged `world_war_two` → `world_war_ii` (7 edges redirected); deleted `french_revolution_history` (orphaned, 0 edges)
@@ -104,7 +113,8 @@ Economics portal was missing from `data/global/nodes.json` and `scope-manager.js
 ```python
 import json, os
 scope_dirs = ['data/global/history','data/global/economics','data/global/media',
-              'data/global/politics','data/global/psychology','data/global/health','data/mechanisms']
+              'data/global/politics','data/global/psychology','data/global/health',
+              'data/mechanisms','data/global/art']
 all_ids = set()
 for d in scope_dirs:
     p = f"{d}/nodes.json"
@@ -113,11 +123,13 @@ for d in scope_dirs:
 
 for scope, ef in [('history','data/global/history/edges.json'),
                   ('mechanisms','data/mechanisms/edges.json'),
-                  ('economics','data/global/economics/edges.json')]:
+                  ('economics','data/global/economics/edges.json'),
+                  ('politics','data/global/politics/edges.json'),
+                  ('art','data/global/art/edges.json')]:
     with open(ef) as f: edges = json.load(f)
     broken = [(e['id'],e['source'],e['target']) for e in edges
               if e['source'] not in all_ids or e['target'] not in all_ids]
-    print(f"{scope}: {len(broken)} truly broken")
+    print(f"{scope}: {len(broken)} broken")
     for b in broken: print(f"  {b}")
 ```
 
@@ -239,3 +251,5 @@ Data model supports nested scopes (`children: {}`). Future: `global/history/wwii
 | Session 3 | Economics scope wired in (portal + scope-manager); +50 history nodes across Pre-Columbian Americas, 2020s, Africa, South Asia, China; +320 edges total |
 | Session 4 | Duplicate cleanup (world_war_two merged, french_revolution_history deleted); +83 history nodes across all 8 content priorities; +10 economics nodes; person nodes grew 183→214; total nodes ~794→~885; total edges ~2851→~3084 |
 | Session 5 | Technical audit: edge type labels on hover (linkLabel added); augusto_caesar → augustus_caesar rename; HANDOFF technical section corrected (search/focus/stats/portal counts/decade filter all already implemented) |
+| Session 6 | Art & Culture scope: full wiring (scopes.json, scope-manager.js, portal); 40 art artifact nodes; 22 within-scope edges; 57 cross-scope edges; 15 artist person nodes (history) |
+| Session 7 | 9 missing history nodes (KKK, Russian Revolution, Abolitionist Movement, Spanish Civil War, Japanese American Internment, Oklahoma City Bombing, Environmentalism, Deindustrialization, Nazi Germany); 61 additional cross-scope edges; 3 orphan politics edges fixed; total 915 nodes, 1505 mechanism edges |

@@ -25,6 +25,10 @@
       "economics": {
         "label": "Economics & Inequality",
         "children": {}
+      },
+      "art": {
+        "label": "Art & Culture",
+        "children": {}
       }
     }
   }

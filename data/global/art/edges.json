@@ -1,0 +1,191 @@
+[
+  {
+    "id": "birth_of_a_nation_1915__lost_cause_mythology",
+    "source": "birth_of_a_nation_1915",
+    "target": "lost_cause_mythology",
+    "type": "PRODUCED",
+    "label": "film codified and mass-distributed the Lost Cause narrative",
+    "note": "Birth of a Nation was the primary vehicle through which Lost Cause mythology reached mass popular culture — the first time the Confederate revisionist narrative was encoded in a mass medium.",
+    "confidence": "high"
+  },
+  {
+    "id": "lost_cause_mythology__gone_with_the_wind_1939",
+    "source": "lost_cause_mythology",
+    "target": "gone_with_the_wind_1939",
+    "type": "PRODUCED",
+    "label": "mythology generated its most successful cultural artifact",
+    "note": "Gone with the Wind was the most commercially successful product of the Lost Cause tradition, reaching audiences the original mythology's books and monuments could not.",
+    "confidence": "high"
+  },
+  {
+    "id": "minstrelsy__birth_of_a_nation_1915",
+    "source": "minstrelsy",
+    "target": "birth_of_a_nation_1915",
+    "type": "ENABLED",
+    "label": "minstrel stereotypes provided visual vocabulary for the film",
+    "note": "Birth of a Nation used minstrelsy's established dehumanizing visual codes — which audiences already accepted as 'comedy' — to portray Black men as threatening.",
+    "confidence": "high"
+  },
+  {
+    "id": "minstrelsy__gone_with_the_wind_1939",
+    "source": "minstrelsy",
+    "target": "gone_with_the_wind_1939",
+    "type": "ENABLED",
+    "label": "minstrel trope of loyal, happy slave carried into film",
+    "note": "Gone with the Wind's 'happy slave' characters (Mammy, Prissy) directly descended from the minstrel tradition of the contented, childlike enslaved person.",
+    "confidence": "high"
+  },
+  {
+    "id": "triumph_of_the_will_1935__nazi_propaganda_machine",
+    "source": "triumph_of_the_will_1935",
+    "target": "nazi_propaganda_machine",
+    "type": "PRODUCED",
+    "label": "film was the propaganda ministry's masterpiece",
+    "note": "Triumph of the Will was commissioned by Hitler and produced under Goebbels's ministry, becoming its most technically ambitious product and the template for state spectacle cinema.",
+    "confidence": "high"
+  },
+  {
+    "id": "nazi_propaganda_machine__soviet_socialist_realism",
+    "source": "nazi_propaganda_machine",
+    "target": "soviet_socialist_realism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both used state-controlled art to manufacture political consent",
+    "note": "Nazi and Soviet cultural control both operated on the principle that art is a political weapon to be controlled by the state; they arrived independently at similar conclusions about aesthetic requirements.",
+    "confidence": "high"
+  },
+  {
+    "id": "communist_manifesto_1848__das_kapital",
+    "source": "communist_manifesto_1848",
+    "target": "das_kapital",
+    "type": "ENABLED",
+    "label": "manifesto provided political frame; Kapital provided economic analysis",
+    "note": "The Communist Manifesto (1848) was Marx and Engels's political call to action; Das Kapital (1867) was the theoretical economic foundation for that call — the two works are complementary halves.",
+    "confidence": "high"
+  },
+  {
+    "id": "1984_orwell__brave_new_world",
+    "source": "1984_orwell",
+    "target": "brave_new_world",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are canonical dystopian critiques of political control",
+    "note": "1984 and Brave New World represent the two dominant modes of dystopian control: overt fear and repression vs. pleasure and distraction. Together they map the possibility space of authoritarian futures.",
+    "confidence": "high"
+  },
+  {
+    "id": "wretched_of_the_earth__pedagogy_of_oppressed",
+    "source": "wretched_of_the_earth",
+    "target": "pedagogy_of_oppressed",
+    "type": "ENABLED",
+    "label": "Fanon's liberation psychology influenced Freire's liberation pedagogy",
+    "note": "Freire explicitly drew on Fanon's analysis of colonial psychology in developing his theory of oppression and liberation through critical consciousness.",
+    "confidence": "high"
+  },
+  {
+    "id": "autobiography_malcolm_x__wretched_of_the_earth",
+    "source": "autobiography_malcolm_x",
+    "target": "wretched_of_the_earth",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both articulate the psychology of colonized/oppressed consciousness",
+    "note": "Malcolm X and Fanon both described the internalization of oppression by the oppressed and the process of psychological liberation — from opposite sides of the Atlantic.",
+    "confidence": "high"
+  },
+  {
+    "id": "souls_of_black_folk__autobiography_malcolm_x",
+    "source": "souls_of_black_folk",
+    "target": "autobiography_malcolm_x",
+    "type": "ENABLED",
+    "label": "Du Bois's double consciousness framework shaped Malcolm's self-analysis",
+    "note": "Du Bois's concept of double consciousness — living in America while being seen as a problem — was the intellectual framework Malcolm X engaged with in his autobiography.",
+    "confidence": "medium"
+  },
+  {
+    "id": "harlem_renaissance__souls_of_black_folk",
+    "source": "harlem_renaissance",
+    "target": "souls_of_black_folk",
+    "type": "ENABLED",
+    "label": "Du Bois's intellectual legacy was foundational to the Renaissance",
+    "note": "Du Bois co-founded the NAACP and his intellectual framework gave the Harlem Renaissance its conceptual foundation for asserting Black humanity and cultural equality.",
+    "confidence": "high"
+  },
+  {
+    "id": "strange_fruit__we_shall_overcome",
+    "source": "strange_fruit",
+    "target": "we_shall_overcome",
+    "type": "ENABLED",
+    "label": "both forged collective political consciousness through music",
+    "note": "Strange Fruit (1939) and We Shall Overcome (1960s) represent the two poles of civil rights music: individual lamentation and collective aspiration, both using song to make political reality visceral.",
+    "confidence": "medium"
+  },
+  {
+    "id": "harlem_renaissance__hip_hop_culture",
+    "source": "harlem_renaissance",
+    "target": "hip_hop_culture",
+    "type": "ENABLED",
+    "label": "Renaissance established tradition of Black cultural innovation as political assertion",
+    "note": "The Harlem Renaissance established the framework — Black creativity as an assertion of humanity against racist dehumanization — that hip hop inherited and extended in the 1970s South Bronx.",
+    "confidence": "high"
+  },
+  {
+    "id": "straight_outta_compton_1988__hip_hop_culture",
+    "source": "straight_outta_compton_1988",
+    "target": "hip_hop_culture",
+    "type": "PRODUCED",
+    "label": "album brought political hip hop to mass cultural consciousness",
+    "note": "Straight Outta Compton transformed hip hop from a regional cultural form to a national political voice, centering police brutality in mainstream consciousness.",
+    "confidence": "high"
+  },
+  {
+    "id": "counterculture_1960s__punk_rock",
+    "source": "counterculture_1960s",
+    "target": "punk_rock",
+    "type": "ENABLED",
+    "label": "60s counterculture established the template; punk radicalized it",
+    "note": "Punk consciously rejected what it saw as the commercial co-optation of 60s counterculture, returning to its confrontational core but with working-class rage rather than middle-class idealism.",
+    "confidence": "high"
+  },
+  {
+    "id": "yellow_journalism_1890s__wartime_propaganda_wwii",
+    "source": "yellow_journalism_1890s",
+    "target": "wartime_propaganda_wwii",
+    "type": "ENABLED",
+    "label": "yellow journalism developed emotional manipulation techniques later industrialized",
+    "note": "Hearst's techniques for manufacturing emotional response to foreign threats — exaggerated atrocity stories, patriotic imagery — were systematically industrialized by WWII propaganda offices.",
+    "confidence": "high"
+  },
+  {
+    "id": "wpa_federal_art_project__counterculture_1960s",
+    "source": "wpa_federal_art_project",
+    "target": "counterculture_1960s",
+    "type": "ENABLED",
+    "label": "WPA established art as instrument of social change",
+    "note": "WPA artists created the tradition of committed social art that the 1960s counterculture inherited — the idea that cultural production is inherently political.",
+    "confidence": "medium"
+  },
+  {
+    "id": "the_jungle_1906__silent_spring_1962",
+    "source": "the_jungle_1906",
+    "target": "silent_spring_1962",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are muckraking books that triggered regulatory reform",
+    "note": "The Jungle (food safety) and Silent Spring (pesticides) both used narrative journalism to expose industrial harm, triggering legislative responses within 2-3 years of publication.",
+    "confidence": "high"
+  },
+  {
+    "id": "feminine_mystique_1963__second_sex_beauvoir",
+    "source": "feminine_mystique_1963",
+    "target": "second_sex_beauvoir",
+    "type": "ENABLED",
+    "label": "Friedan built on Beauvoir's theoretical framework",
+    "note": "Friedan's analysis of American suburban women was the practical application of Beauvoir's theoretical argument that femininity is socially constructed rather than innate.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_algiers_1966__wretched_of_the_earth",
+    "source": "battle_of_algiers_1966",
+    "target": "wretched_of_the_earth",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are anti-colonial texts that became movement manuals",
+    "note": "The Battle of Algiers (film) and The Wretched of the Earth (book) both emerged from the Algerian independence war and became foundational texts for subsequent liberation movements worldwide.",
+    "confidence": "high"
+  }
+]

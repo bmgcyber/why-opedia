@@ -58,5 +58,15 @@
     "target_scope": "global/economics",
     "summary": "29 nodes on economics & inequality.",
     "cross_scope": false
+  },
+  {
+    "id": "portal-art",
+    "label": "Art & Culture",
+    "category": "portal",
+    "node_type": "portal",
+    "scope": "global",
+    "target_scope": "global/art",
+    "summary": "Art, literature, film, music, and propaganda as causal forces.",
+    "cross_scope": false
   }
 ]
