@@ -2,6 +2,51 @@
 
 > Read this file at the start of every session. It is the source of truth for current state, objectives, and decisions made. Read `prompts/PURPOSE.md` before adding content.
 
+## STANDING DIRECTIVE (added Session 8 — never remove this)
+
+**The graph must maintain balance between negative and positive causal forces.**
+
+Why-opedia explains *why* — including why things improve, not only why they fail. Every session adding negative nodes, mechanisms, or events must also add positive counterparts. Positive content is not optional or secondary; it is structurally required.
+
+**Positive content means:**
+- Mechanisms by which good outcomes occur (nonviolent resistance, truth & reconciliation, social trust, moral circle expansion, coalition building, institutional resilience, scientific consensus, mutual aid, whistleblowing, restorative justice)
+- Concrete historical victories and achievements (civil rights legislation, peace agreements, disease eradication, international cooperation successes, poverty reduction, rights expansions)
+- Institutions and structures that produce accountability and protect rights (separation of powers, free press, civil society, international law, federalism)
+- Cultural works that expanded empathy, moral circles, or dignity for excluded groups
+- Economic models that reduce inequality (social democracy, cooperatives, development miracles)
+- Psychological mechanisms that enable resistance, resilience, and moral action
+
+**Every negative mechanism should have a corresponding positive counter-mechanism already in the graph or on the roadmap. Examples:**
+- `dehumanization` ↔ `moral_circle_expansion`, `empathy`
+- `manufactured_consent` ↔ `free_press`, `scientific_consensus`
+- `democratic_backsliding` ↔ `institutional_resilience`, `civil_society`, `separation_of_powers`
+- `structural_violence` ↔ `restorative_justice`, `mutual_aid`, `collective_resilience`
+- `mass_incarceration` ↔ `restorative_justice`, `harm_reduction`
+- `regulatory_capture` ↔ `whistleblowing`, `free_press`
+- `collective_trauma` ↔ `truth_and_reconciliation`, `post_traumatic_growth`
+
+**Ongoing positive content roadmap (add to this as new items are identified):**
+- `indian_independence_1947` — Gandhi's nonviolent independence movement
+- `end_of_apartheid_1994` — Mandela's election and democratic transition
+- `voting_rights_act_1965` — legal enforcement of Black voting rights
+- `ada_1990` — Americans with Disabilities Act; disability rights as rights
+- `marriage_equality_us_2015` — Obergefell v. Hodges, LGBTQ+ rights landmark
+- `paris_agreement_2015` — first universal climate accord
+- `nuclear_test_ban_treaty_1963` — first nuclear arms control success
+- `camp_david_accords_1978` — Egypt-Israel peace; Arab-Israeli diplomacy
+- `emancipation_proclamation_1863` — legal end of slavery in Confederate states
+- `labor_rights_eight_hour_day` — IWW and labor movement's foundational victory
+- `rural_electrification_1930s` — New Deal infrastructure lifting rural poverty
+- `germ_theory_of_disease` — Pasteur/Koch; foundational to modern medicine
+- `scientific_method` — adversarial empiricism as positive epistemic mechanism
+- `grassroots_organizing` — bottom-up power building mechanism
+- `community_land_trusts` — permanently affordable housing mechanism
+- `reparations` — economic redress mechanism for historical wrongs
+- `selma_2014` / `glory_1989` / `black_panther_2018` — positive representation films
+- `disability_rights_art` — art that humanized disabled people
+- `mental_health_movement` — deinstitutionalization and rights-based mental health care
+- Additional person nodes: `nelson_mandela`, `mahatma_gandhi` (already in politics — need person nodes in history if missing), `eleanor_roosevelt`, `desmond_tutu`, `rosa_parks`, `cesar_chavez`, `dolores_huerta`
+
 ---
 
 ## PROJECT OVERVIEW
