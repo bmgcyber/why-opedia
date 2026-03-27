@@ -187,5 +187,50 @@
     "label": "both are anti-colonial texts that became movement manuals",
     "note": "The Battle of Algiers (film) and The Wretched of the Earth (book) both emerged from the Algerian independence war and became foundational texts for subsequent liberation movements worldwide.",
     "confidence": "high"
+  },
+  {
+    "id": "roots_1977__harlem_renaissance",
+    "source": "roots_1977",
+    "target": "harlem_renaissance",
+    "type": "ENABLED",
+    "label": "Harlem Renaissance's assertion of Black humanity prefigured Roots' project",
+    "note": "Roots continued the Harlem Renaissance's project of asserting Black cultural depth and humanity against dehumanizing stereotypes, but through the mass medium of television reaching audiences the Renaissance's literature could not.",
+    "confidence": "medium"
+  },
+  {
+    "id": "to_kill_a_mockingbird_1960__souls_of_black_folk",
+    "source": "to_kill_a_mockingbird_1960",
+    "target": "souls_of_black_folk",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both made racial injustice legible to audiences who might have dismissed it",
+    "note": "Du Bois wrote for a Black intellectual audience asserting Black humanity; Lee wrote for white Southern readers through a white narrator. Both created entry points for audiences who needed a specific angle of approach before they could accept the reality of racial injustice.",
+    "confidence": "medium"
+  },
+  {
+    "id": "diary_of_a_young_girl__schindlers_list_1993",
+    "source": "diary_of_a_young_girl",
+    "target": "schindlers_list_1993",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both individualize the Holocaust to make it emotionally comprehensible",
+    "note": "The diary and Schindler's List deploy the same narrative mechanism: making the Holocaust's horror accessible through specific individuals rather than statistical abstraction. The diary gives a single child's voice; the film gives individual faces and names to the 1,200 Schindler Jews. Both recognize that mass death becomes emotionally real only through its individual instances.",
+    "confidence": "high"
+  },
+  {
+    "id": "philadelphia_1993__do_the_right_thing_1989",
+    "source": "philadelphia_1993",
+    "target": "do_the_right_thing_1989",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both used mainstream film to make discrimination against marginalized groups visible",
+    "note": "Do the Right Thing (1989) and Philadelphia (1993) both deployed Hollywood filmmaking to make discrimination against groups the mainstream entertainment industry had largely ignored — Black Americans facing police violence; gay men with AIDS — accessible to audiences whose empathy those groups couldn't previously activate.",
+    "confidence": "medium"
+  },
+  {
+    "id": "beloved_1987__autobiography_malcolm_x",
+    "source": "beloved_1987",
+    "target": "autobiography_malcolm_x",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both excavated Black psychological experience that dominant culture suppressed",
+    "note": "Morrison's excavation of slavery's psychological interior and Malcolm X's account of the psychology of racialized oppression both worked to make visible the interior life — thoughts, feelings, dignity, rage — that racist systems required to be invisible. Both became foundational texts for understanding the psychological dimension of structural racism.",
+    "confidence": "medium"
   }
 ]

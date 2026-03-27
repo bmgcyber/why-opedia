@@ -50,22 +50,32 @@ data/
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-03-26, Session 7)
+## CURRENT DATASET STATE (as of 2026-03-27, Session 8)
 
 | Scope | Nodes | Edges |
 |-------|-------|-------|
-| History | **516** | **1008** |
-| Economics | 39 | 98 |
-| Politics | 110 | 321 |
-| Psychology | 38 | 107 |
+| History | **527** | **1008** |
+| Economics | 45 | 102 |
+| Politics | 116 | 325 |
+| Psychology | 43 | 107 |
 | Media | 31 | 82 |
-| Health | 31 | 81 |
-| Art & Culture | **40** | **22** |
-| Mechanisms | **144** | **1505** (cross-scope) |
+| Health | 35 | 84 |
+| Art & Culture | 49 | 26 |
+| Mechanisms | **152** | **1578** (cross-scope) |
 | **Person nodes (history)** | **~229** | — |
-| **Total nodes** | **~915** | **~3224** |
+| **Total nodes** | **~960** | **~3312** |
 
-**Data integrity:** 0 broken edge references. Verified 2026-03-26.
+**Data integrity:** 0 broken edge references. Verified 2026-03-27.
+
+### Session 8 additions (positive nodes):
+- **Mechanisms (8 new):** truth_and_reconciliation, moral_circle_expansion, social_trust, mutual_aid, institutional_resilience, coalition_building, whistleblowing, restorative_justice (+ nonviolent_resistance and scientific_consensus already existed)
+- **History (11 new):** civil_rights_act_1964, good_friday_agreement_1998, south_africa_trc, smallpox_eradication_1980, montreal_protocol_1987, universal_declaration_human_rights_1948, marshall_plan_1948, suffrage_19th_amendment, polio_vaccine_1955, international_criminal_court, decolonization_independence_wave
+- **Politics (6 new):** separation_of_powers, free_press, civil_society, international_law, federalism, proportional_representation
+- **Economics (6 new):** microfinance, worker_cooperatives, social_democracy, east_asia_economic_miracle, global_poverty_decline, fair_trade_movement
+- **Psychology (5 new):** post_traumatic_growth, moral_courage, bystander_intervention, empathy, collective_resilience
+- **Health (4 new):** sanitation_revolution_19c, global_vaccination_campaigns, hiv_treatment_breakthrough, harm_reduction
+- **Art (5 new):** roots_1977, to_kill_a_mockingbird_1960, beloved_1987, philadelphia_1993, diary_of_a_young_girl
+- **73 new cross-scope edges** connecting all positive nodes to the existing graph
 
 ### Session 6–7 additions:
 - **Art & Culture scope (Session 6):** Full scope wired (scopes.json + scope-manager.js + portal node). 40 art artifact nodes, 22 within-scope edges, 57 initial cross-scope edges. New `artifact` node category introduced.
@@ -253,3 +263,4 @@ Data model supports nested scopes (`children: {}`). Future: `global/history/wwii
 | Session 5 | Technical audit: edge type labels on hover (linkLabel added); augusto_caesar → augustus_caesar rename; HANDOFF technical section corrected (search/focus/stats/portal counts/decade filter all already implemented) |
 | Session 6 | Art & Culture scope: full wiring (scopes.json, scope-manager.js, portal); 40 art artifact nodes; 22 within-scope edges; 57 cross-scope edges; 15 artist person nodes (history) |
 | Session 7 | 9 missing history nodes (KKK, Russian Revolution, Abolitionist Movement, Spanish Civil War, Japanese American Internment, Oklahoma City Bombing, Environmentalism, Deindustrialization, Nazi Germany); 61 additional cross-scope edges; 3 orphan politics edges fixed; total 915 nodes, 1505 mechanism edges |
+| Session 8 | Positive balance pass: 45 new nodes across all scopes (mechanisms, history, politics, economics, psychology, health, art); 73 new cross-scope edges + 16 within-scope; total 960 nodes, 1578 mechanism edges, 3312 total edges |

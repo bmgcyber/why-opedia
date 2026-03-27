@@ -715,5 +715,32 @@
     "label": "Discredited",
     "note": "Neurodiversity reframes neurological differences as variation rather than pathology",
     "confidence": "confirmed"
+  },
+  {
+    "id": "sanitation_revolution_19c__hiv_treatment_breakthrough",
+    "source": "sanitation_revolution_19c",
+    "target": "hiv_treatment_breakthrough",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both demonstrated that infrastructure investment prevents vastly more death than treatment",
+    "note": "The sanitation revolution eliminated cholera more effectively than treating individual patients; HIV treatment breakthrough transformed individual survival but could not match the prevention power of the combination prevention + treatment + PrEP + harm reduction approach. Both cases demonstrate that systemic intervention outperforms individual treatment.",
+    "confidence": "medium"
+  },
+  {
+    "id": "harm_reduction__hiv_treatment_breakthrough",
+    "source": "harm_reduction",
+    "target": "hiv_treatment_breakthrough",
+    "type": "ENABLED",
+    "label": "harm reduction's needle exchanges reduced HIV transmission that treatment later addressed",
+    "note": "Harm reduction (needle exchanges, syringe service programs) prevented HIV transmission among people who inject drugs — reducing the population that would eventually need antiretroviral treatment. The two approaches complemented each other: harm reduction kept people HIV-negative; ART kept HIV-positive people healthy and undetectable (and therefore unable to transmit).",
+    "confidence": "high"
+  },
+  {
+    "id": "global_vaccination_campaigns__harm_reduction",
+    "source": "global_vaccination_campaigns",
+    "target": "harm_reduction",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are population-level public health interventions that work without requiring behavior change",
+    "note": "Both vaccination and harm reduction work by reducing harm regardless of individual behavior or willpower — vaccination protects even people who don't understand how it works; needle exchanges protect even people who continue using drugs. Both challenge moralizing public health approaches that make protection contingent on 'correct' behavior.",
+    "confidence": "high"
   }
 ]

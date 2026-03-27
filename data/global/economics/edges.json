@@ -587,7 +587,7 @@
     "target": "great_depression_economics",
     "type": "CAUSED",
     "label": "Fed's contractionary policy worsened the Depression",
-    "note": "The Federal Reserve tightened the money supply in 1929\u201332, transforming a recession into the Great Depression \u2014 a catastrophic policy error.",
+    "note": "The Federal Reserve tightened the money supply in 1929–32, transforming a recession into the Great Depression — a catastrophic policy error.",
     "confidence": "high"
   },
   {
@@ -614,7 +614,7 @@
     "target": "financial_crisis_2008",
     "type": "CAUSED",
     "label": "bubble collapse triggered global financial crisis",
-    "note": "The collapse of the U.S. housing bubble in 2007\u201308 triggered the global financial crisis through interconnected mortgage securities.",
+    "note": "The collapse of the U.S. housing bubble in 2007–08 triggered the global financial crisis through interconnected mortgage securities.",
     "confidence": "high"
   },
   {
@@ -686,7 +686,7 @@
     "target": "precariat_class",
     "type": "PRODUCED",
     "label": "gig work is precariat labor at scale",
-    "note": "The gig economy is the primary contemporary mechanism producing the precariat \u2014 workers with no employment security, benefits, or collective power.",
+    "note": "The gig economy is the primary contemporary mechanism producing the precariat — workers with no employment security, benefits, or collective power.",
     "confidence": "high"
   },
   {
@@ -778,5 +778,41 @@
     "label": "financial engineering turned mortgages into speculative vehicles",
     "note": "Financialization transformed stable mortgages into complex securities that enabled and amplified the housing bubble.",
     "confidence": "high"
+  },
+  {
+    "id": "social_democracy__microfinance",
+    "source": "social_democracy",
+    "target": "microfinance",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both extend economic resources to previously excluded populations",
+    "note": "Social democracy (through universal social programs) and microfinance (through small business credit) both work to extend economic resources to those excluded by market failure — social democracy through the state, microfinance through market mechanisms. They represent the two poles of the debate about whether poverty is best addressed through universal public provision or individual market access.",
+    "confidence": "medium"
+  },
+  {
+    "id": "east_asia_economic_miracle__global_poverty_decline",
+    "source": "east_asia_economic_miracle",
+    "target": "global_poverty_decline",
+    "type": "CAUSED",
+    "label": "East Asian development drove the majority of the global poverty reduction since 1990",
+    "note": "China alone accounts for approximately 800 million people lifted from extreme poverty since 1978, representing roughly two-thirds of global poverty reduction. South Korea, Taiwan, and Southeast Asian economies account for hundreds of millions more. Without East Asian development, global poverty would have remained near its 1990 level.",
+    "confidence": "high"
+  },
+  {
+    "id": "worker_cooperatives__microfinance",
+    "source": "worker_cooperatives",
+    "target": "microfinance",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are alternative economic institutions that bypass conventional capital markets",
+    "note": "Cooperatives and microfinance both operate on the insight that conventional capital markets systematically exclude populations that are economically productive — workers who can't raise equity, poor entrepreneurs who can't post collateral. Both create alternative institutional forms that extend productive economic participation to excluded groups.",
+    "confidence": "medium"
+  },
+  {
+    "id": "fair_trade_movement__global_poverty_decline",
+    "source": "fair_trade_movement",
+    "target": "global_poverty_decline",
+    "type": "ENABLED",
+    "label": "fair trade provides price floor protection for smallholder farmers",
+    "note": "Fair trade certification provides smallholder farmers — coffee, cocoa, banana growers — a price floor above commodity market prices and guaranteed market access, partially insulating them from the commodity price volatility that has been a major driver of agricultural poverty. Impact studies show meaningful income improvements in certified cooperatives, contributing to poverty reduction at the margin.",
+    "confidence": "medium"
   }
 ]

@@ -2621,7 +2621,13 @@
     "category": "mechanism",
     "summary": "The self-reinforcing process by which accumulated capital generates returns faster than economic output grows (r > g, Piketty), causing wealth to pool at the top. Network effects, compound interest, inheritance, and asset price inflation all accelerate concentration. Once past a threshold, concentrated wealth purchases the political power needed to prevent redistribution, making the mechanism self-sealing.",
     "decade": "universal",
-    "tags": ["economics", "inequality", "mechanism", "capital", "piketty"],
+    "tags": [
+      "economics",
+      "inequality",
+      "mechanism",
+      "capital",
+      "piketty"
+    ],
     "scope": "mechanisms",
     "cross_scope": true
   },
@@ -2632,7 +2638,13 @@
     "category": "mechanism",
     "summary": "The process by which regulatory agencies designed to act in the public interest become controlled by the industries they are supposed to regulate. Occurs through revolving door hiring, industry funding of regulators' budgets, information asymmetry, and concentrated industry interests versus diffuse public interests.",
     "decade": "universal",
-    "tags": ["economics", "mechanism", "regulation", "corruption", "governance"],
+    "tags": [
+      "economics",
+      "mechanism",
+      "regulation",
+      "corruption",
+      "governance"
+    ],
     "scope": "mechanisms",
     "cross_scope": true
   },
@@ -2643,7 +2655,13 @@
     "category": "mechanism",
     "summary": "Obtaining wealth by manipulating economic or political environments rather than by creating value. Includes lobbying for monopoly protections, land appreciation without improvement, patent evergreening, and financial extraction. Distinguished from profit-seeking by its zero-sum or negative-sum character.",
     "decade": "universal",
-    "tags": ["economics", "mechanism", "corruption", "monopoly", "political_economy"],
+    "tags": [
+      "economics",
+      "mechanism",
+      "corruption",
+      "monopoly",
+      "political_economy"
+    ],
     "scope": "mechanisms",
     "cross_scope": true
   },
@@ -2654,7 +2672,13 @@
     "category": "mechanism",
     "summary": "The structural shift in advanced economies where financial activities displace productive investment as the primary source of profit. Manifests in shareholder primacy, stock buybacks over R&D, private equity strip-and-flip, and the expansion of finance to 30%+ of US corporate profits since 1980.",
     "decade": "1980s–Ongoing",
-    "tags": ["economics", "mechanism", "finance", "neoliberalism", "inequality"],
+    "tags": [
+      "economics",
+      "mechanism",
+      "finance",
+      "neoliberalism",
+      "inequality"
+    ],
     "scope": "mechanisms",
     "cross_scope": true
   },
@@ -2665,7 +2689,13 @@
     "category": "mechanism",
     "summary": "The systematic mechanisms by which labor income is held below what labor market competition would produce. Includes union busting, non-compete agreements, wage theft, misclassification as contractors, offshoring threats, and direct lobbying against minimum wage increases.",
     "decade": "universal",
-    "tags": ["economics", "mechanism", "labor", "inequality", "capitalism"],
+    "tags": [
+      "economics",
+      "mechanism",
+      "labor",
+      "inequality",
+      "capitalism"
+    ],
     "scope": "mechanisms",
     "cross_scope": true
   },
@@ -2676,7 +2706,13 @@
     "category": "mechanism",
     "summary": "The acquisition of market control sufficient to set prices above competitive levels and exclude rivals. Modern mechanisms: predatory pricing, acquisition of nascent rivals, network effects, platform control of distribution, and weaponization of patents.",
     "decade": "universal",
-    "tags": ["economics", "mechanism", "monopoly", "competition", "antitrust"],
+    "tags": [
+      "economics",
+      "mechanism",
+      "monopoly",
+      "competition",
+      "antitrust"
+    ],
     "scope": "mechanisms",
     "cross_scope": true
   },
@@ -2687,7 +2723,13 @@
     "category": "ideology",
     "summary": "The political doctrine that governments must cut spending and balance budgets during economic downturns. Empirically refuted but persistent because it serves creditor interests and provides ideological justification for dismantling welfare states.",
     "decade": "1970s–Ongoing",
-    "tags": ["economics", "ideology", "neoliberalism", "fiscal_policy", "inequality"],
+    "tags": [
+      "economics",
+      "ideology",
+      "neoliberalism",
+      "fiscal_policy",
+      "inequality"
+    ],
     "scope": "mechanisms",
     "cross_scope": true
   },
@@ -2698,7 +2740,155 @@
     "category": "ideology",
     "summary": "The theory that tax cuts for the wealthy and corporations will generate broad economic growth benefiting all. Implemented as Reagan supply-side policy. Empirical record shows no increase in investment, growth, or wages; the actual effect is upward redistribution.",
     "decade": "1980s–Ongoing",
-    "tags": ["economics", "ideology", "reaganomics", "neoliberalism", "inequality"],
+    "tags": [
+      "economics",
+      "ideology",
+      "reaganomics",
+      "neoliberalism",
+      "inequality"
+    ],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "truth_and_reconciliation",
+    "label": "Truth & Reconciliation",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "A formal process for acknowledging past atrocities, hearing survivor testimony, identifying perpetrators, and building a shared historical record as a foundation for peace. South Africa's TRC (1996–2003) is the most studied example. The mechanism rests on the insight that sustainable peace requires acknowledged truth rather than imposed amnesia — societies that suppress accounts of past violence tend to re-traumatize rather than heal. Amnesty in exchange for full public disclosure is the core bargain.",
+    "decade": "1990s–Ongoing",
+    "tags": [
+      "reconciliation",
+      "justice",
+      "post-conflict",
+      "south africa",
+      "healing",
+      "accountability"
+    ],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "moral_circle_expansion",
+    "label": "Moral Circle Expansion",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The documented historical process by which the boundary of those considered deserving of moral consideration progressively widens — from tribe to nation, from one race to all races, from men to all genders, from humans to animals. Peter Singer codified the concept; Steven Pinker documented the empirical trend. The mechanism operates through contact, literacy, narrative empathy, and the logical pressure of moral universalism: if suffering matters, it matters regardless of who suffers. Each expansion was resisted as unnatural before becoming obvious.",
+    "decade": "1800s–Ongoing",
+    "tags": [
+      "ethics",
+      "progress",
+      "empathy",
+      "rights",
+      "universalism",
+      "philosophy"
+    ],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "social_trust",
+    "label": "Social Trust",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Generalized trust between strangers — the expectation that others will behave honestly and cooperate even without personal relationships or enforcement. Robert Putnam's research shows high-trust societies have lower transaction costs, more effective institutions, higher civic participation, and better health outcomes. Trust is built through stable institutions, shared norms, low inequality, and successful collective action; it is depleted by corruption, polarization, and inequality. Scandinavian societies have the highest measured social trust; highly unequal societies the lowest.",
+    "decade": "Ongoing",
+    "tags": [
+      "cooperation",
+      "civic engagement",
+      "institutions",
+      "democracy",
+      "inequality",
+      "community"
+    ],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "mutual_aid",
+    "label": "Mutual Aid",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Voluntary, reciprocal exchange of resources within communities, operating outside the state and market. Peter Kropotkin documented it as a fundamental evolutionary mechanism in 1902; it operates wherever formal institutions fail. LGBTQ+ communities during the AIDS crisis, Black communities during the Great Migration, disaster-affected communities (Hurricane Katrina mutual aid networks), and COVID-19 pod networks all exemplify the mechanism. It differs from charity in being horizontal and reciprocal rather than vertical and one-directional.",
+    "decade": "Ongoing",
+    "tags": [
+      "community",
+      "solidarity",
+      "cooperation",
+      "anarchism",
+      "kropotkin",
+      "resilience"
+    ],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "institutional_resilience",
+    "label": "Institutional Resilience",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The capacity of democratic institutions — courts, free press, civil service, electoral bodies — to resist capture, corruption, and authoritarian pressure. Resilience is not passive; it requires active defense by individuals willing to bear personal costs. Historical cases show that institutions survive when: multiple independent actors check each other, norms are internalized not merely formal, and civil society is organized enough to impose costs on violators. Germany's post-WWII constitutional design (specifically anti-authoritarian) is a studied case of deliberately engineered resilience.",
+    "decade": "Ongoing",
+    "tags": [
+      "democracy",
+      "institutions",
+      "accountability",
+      "rule of law",
+      "checks and balances"
+    ],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "coalition_building",
+    "label": "Coalition Building",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "The process by which groups with different primary interests form durable political alliances sufficient to achieve shared goals. Successful coalitions require: a common enemy or goal larger than factional differences, leadership that can credibly commit to coalition partners, and distributional bargains that give each faction enough to stay in. The New Deal coalition (labor, Black voters, white Southerners, urban ethnics) and the civil rights coalition (Black churches, Jewish organizations, labor unions) are studied American examples. Coalitions fail when factional interests become irreconcilable.",
+    "decade": "Ongoing",
+    "tags": [
+      "politics",
+      "organizing",
+      "social movements",
+      "democracy",
+      "strategy"
+    ],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "whistleblowing",
+    "label": "Whistleblowing",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "Insider disclosure of institutional wrongdoing to the public, press, or oversight bodies. Whistleblowers operate inside the secrecy that allows institutional wrongdoing to persist, and their disclosure is the primary mechanism for accountability when oversight bodies are captured. Pentagon Papers (Ellsberg), Enron (Sherron Watkins), NSA surveillance (Snowden), and Theranos (Tyler Shultz) are canonical cases. The mechanism's reliability depends on legal protections — whistleblower retaliation is the institutional immune response that suppresses it.",
+    "decade": "Ongoing",
+    "tags": [
+      "accountability",
+      "transparency",
+      "journalism",
+      "corporate crime",
+      "government",
+      "democracy"
+    ],
+    "scope": "mechanisms",
+    "cross_scope": true
+  },
+  {
+    "id": "restorative_justice",
+    "label": "Restorative Justice",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "summary": "An approach to wrongdoing that centers repairing harm rather than punishing offenders — bringing together victims, offenders, and communities to understand harm, restore relationships, and determine restitution. Evidence shows lower recidivism than punitive incarceration and higher victim satisfaction. New Zealand uses it extensively for youth justice; Rwanda used gacaca community courts for post-genocide reconciliation. The mechanism challenges the retributive assumption that the state (rather than the harmed person) is the primary victim of crime.",
+    "decade": "1970s–Ongoing",
+    "tags": [
+      "justice",
+      "prison",
+      "rehabilitation",
+      "accountability",
+      "community",
+      "healing"
+    ],
     "scope": "mechanisms",
     "cross_scope": true
   }

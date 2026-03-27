@@ -2197,5 +2197,116 @@
       "indigenous",
       "food_systems"
     ]
+  },
+  {
+    "id": "separation_of_powers",
+    "label": "Separation of Powers",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1700s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "summary": "Montesquieu's constitutional design principle (1748): divide legislative, executive, and judicial power among separate institutions with the capacity to check each other, preventing any single actor from accumulating tyrannical power. The U.S. Constitution (1787) is the first systematic implementation; the French Declaration of the Rights of Man (1789) Article 16 states that any society in which rights are not secured and powers not separated 'has no constitution.' Every subsequent democracy has grappled with how to implement and maintain this structure.",
+    "tags": [
+      "montesquieu",
+      "democracy",
+      "constitution",
+      "checks and balances",
+      "1700s",
+      "political theory"
+    ]
+  },
+  {
+    "id": "free_press",
+    "label": "Free Press",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1700s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "summary": "Independent journalism as a mechanism of democratic accountability — the 'Fourth Estate' that investigates and publicizes government and corporate wrongdoing that other institutions cannot police themselves. The Pentagon Papers, Watergate, Abu Ghraib, and Panama Papers all required independent press functioning without state control. Press freedom is correlated with lower corruption, better governance, and stronger democracy; its capture or suppression is a reliable leading indicator of democratic backsliding.",
+    "tags": [
+      "journalism",
+      "democracy",
+      "accountability",
+      "first amendment",
+      "watchdog",
+      "freedom of press"
+    ]
+  },
+  {
+    "id": "civil_society",
+    "label": "Civil Society",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1800s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "summary": "The space of voluntary associations — churches, unions, civic groups, NGOs, professional bodies — that operates between the state and the family. Tocqueville identified civil society as the foundation of American democracy: it trains citizens in self-governance, creates organized capacity to resist state power, and generates social trust. Authoritarian states systematically suppress civil society precisely because organized voluntary association is the substrate from which political opposition grows. Robert Putnam documented its decline in America as 'bowling alone.'",
+    "tags": [
+      "democracy",
+      "tocqueville",
+      "community",
+      "ngos",
+      "organizing",
+      "social capital",
+      "volunteerism"
+    ]
+  },
+  {
+    "id": "international_law",
+    "label": "International Law",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1600s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "summary": "The treaty-based system of rules constraining state behavior in the absence of world government. From Grotius's foundational work (1625) through the Geneva Conventions, UN Charter, and Rome Statute, international law establishes norms for war, trade, human rights, and sovereignty. Its limitation is enforcement — it works best through reputational costs, economic pressure, and international institution access rather than coercion. Nevertheless, it has progressively constrained state behavior: the practice of colonialism, slavery, and aggressive war all went from legal to internationally criminal within 150 years.",
+    "tags": [
+      "diplomacy",
+      "un",
+      "war",
+      "sovereignty",
+      "human rights",
+      "grotius",
+      "treaty",
+      "1600s"
+    ]
+  },
+  {
+    "id": "federalism",
+    "label": "Federalism",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1700s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "summary": "The constitutional distribution of sovereignty between central and regional governments, creating redundant sites of political authority. Federalism prevents the concentration of power that enables national autocracy — when the center moves toward tyranny, states/provinces can resist; when states fail, the center can intervene. The U.S., Germany, India, Canada, and Switzerland are studied models. Federalism also enables policy experimentation: states function as 'laboratories of democracy' where innovations can be tested before national adoption. Its weakness is that it can protect local majority tyranny (Jim Crow) against national standards.",
+    "tags": [
+      "constitution",
+      "democracy",
+      "states rights",
+      "decentralization",
+      "political theory",
+      "1700s"
+    ]
+  },
+  {
+    "id": "proportional_representation",
+    "label": "Proportional Representation",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1800s",
+    "scope": "global/politics",
+    "cross_scope": false,
+    "summary": "Electoral system in which parties receive parliamentary seats proportional to their vote share, ensuring minority voices are represented rather than eliminated. Used by most European democracies; associated with higher voter turnout, more women in legislatures, stronger welfare states, and lower inequality than winner-takes-all systems. The United Kingdom and United States use first-past-the-post systems, which produce two-party duopolies and allow consistent minority rule (winning parties rarely get majority of votes). The choice of electoral system is one of the highest-stakes constitutional decisions a democracy makes.",
+    "tags": [
+      "elections",
+      "democracy",
+      "representation",
+      "parliament",
+      "europe",
+      "political system"
+    ]
   }
 ]

@@ -12471,5 +12471,662 @@
     "label": "German invasion of Poland directly started the war",
     "note": "World War II in Europe began on September 1, 1939, when Nazi Germany invaded Poland. Nazi Germany's expansionist program — annexation of Austria (1938), Czechoslovakia (1938–39), and the invasion of Poland — is the direct causal origin of the war. Britain and France's declaration of war on Germany in response to the Poland invasion is the formal start of WWII.",
     "confidence": "high"
+  },
+  {
+    "id": "truth_and_reconciliation__south_africa_trc",
+    "source": "truth_and_reconciliation",
+    "target": "south_africa_trc",
+    "type": "PRODUCED",
+    "label": "South African TRC is the defining case of the mechanism",
+    "note": "The South African TRC (1996–2003) is the most extensively studied and replicated truth and reconciliation process — it established the institutional template for amnesty-in-exchange-for-disclosure that subsequent commissions worldwide have adapted.",
+    "confidence": "high"
+  },
+  {
+    "id": "truth_and_reconciliation__collective_trauma",
+    "source": "truth_and_reconciliation",
+    "target": "collective_trauma",
+    "type": "DISCREDITED",
+    "label": "addresses the collective trauma that atrocity produces",
+    "note": "Truth and reconciliation operates on the insight that collective trauma requires acknowledged truth — suppressing the historical record prolongs traumatic injury by making survivors' experiences officially non-existent. The mechanism attempts to convert unacknowledged collective trauma into integrated historical memory.",
+    "confidence": "high"
+  },
+  {
+    "id": "truth_and_reconciliation__historical_revisionism",
+    "source": "truth_and_reconciliation",
+    "target": "historical_revisionism",
+    "type": "DISCREDITED",
+    "label": "creates official historical record that resists revisionism",
+    "note": "By producing public testimony, documented perpetrators, and official findings, truth commissions create an acknowledged historical record that makes revisionism harder — though not impossible. The South African TRC's hearings are a documentary archive that denial cannot easily erase.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_circle_expansion__civil_rights_movement",
+    "source": "moral_circle_expansion",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "label": "expansion of moral consideration to Black Americans was the movement's precondition",
+    "note": "The civil rights movement's success required that white Americans accept Black suffering as morally equivalent to their own — a moral circle expansion. The movement's tactics (nonviolent suffering in public, narrative empathy through images like Birmingham fire hoses) were designed to trigger this expansion by making the moral inconsistency of the status quo undeniable.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_circle_expansion__lgbtq_rights_movement",
+    "source": "moral_circle_expansion",
+    "target": "lgbtq_rights_movement",
+    "type": "ENABLED",
+    "label": "LGBTQ+ rights required extending moral consideration across sexual identity",
+    "note": "Each advance in LGBTQ+ rights — decriminalization, partnership recognition, marriage equality, anti-discrimination law — required a preceding expansion of moral consideration: the recognition that LGBTQ+ people's suffering, dignity, and relationships matter morally in the same way as heterosexual people's. Philadelphia (1993) and Will & Grace (1998–2006) are documented catalysts for this expansion through narrative empathy.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_circle_expansion__dehumanization",
+    "source": "moral_circle_expansion",
+    "target": "dehumanization",
+    "type": "DISCREDITED",
+    "label": "expanding moral consideration is the direct antidote to dehumanization",
+    "note": "Dehumanization works by shrinking the moral circle — convincing people that the target group falls outside the boundary of those deserving moral consideration. Moral circle expansion is the precise counter-mechanism: it works by extending rather than contracting the boundary. Every successful moral expansion has made previous dehumanization obviously repugnant in retrospect.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_trust__social_democracy",
+    "source": "social_trust",
+    "target": "social_democracy",
+    "type": "ENABLED",
+    "label": "high social trust is the precondition for Nordic-model social democracy",
+    "note": "Research by Putnam and others shows that Nordic social democracy's success depends on high social trust — citizens accept high taxes because they trust that others will also comply and that institutions will distribute fairly. The causal relationship may run both ways: social democracy also generates social trust by making institutions reliable. High-trust societies can sustain universal programs that low-trust societies cannot, because the latter faces free-rider perception problems.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_trust__democratic_backsliding",
+    "source": "social_trust",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "social trust is what democratic backsliding depletes",
+    "note": "Democratic backsliding's methods — partisan polarization, corruption normalization, institutional delegitimization — operate by destroying social trust: convincing citizens that other groups are enemies, that institutions are frauds, and that no one is playing by the rules. Societies with high baseline social trust are more resistant to this strategy; those with low trust are more vulnerable. Trust depletion is both a tool and a goal of democratic backsliding.",
+    "confidence": "high"
+  },
+  {
+    "id": "mutual_aid__collective_resilience",
+    "source": "mutual_aid",
+    "target": "collective_resilience",
+    "type": "ENABLED",
+    "label": "mutual aid is the practical mechanism through which collective resilience operates",
+    "note": "Collective resilience is not an abstract quality — it manifests through the concrete practices of mutual aid: sharing food, childcare, skills, and emotional support in networks of reciprocal obligation. Disaster research consistently shows that communities with strong prior mutual aid networks recover faster, with less trauma, than communities dependent on external aid.",
+    "confidence": "high"
+  },
+  {
+    "id": "mutual_aid__structural_violence",
+    "source": "mutual_aid",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "mutual aid provides survival where structural violence withholds institutional support",
+    "note": "Communities experiencing structural violence — redlining, disinvestment, denial of services — have historically used mutual aid to survive what institutions deny: Black mutual aid societies during Jim Crow, LGBTQ+ community support during the AIDS crisis when the government refused to act, undocumented immigrant mutual aid networks. Mutual aid doesn't fix structural violence but it mitigates its lethality.",
+    "confidence": "high"
+  },
+  {
+    "id": "institutional_resilience__democratic_backsliding",
+    "source": "institutional_resilience",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "institutional resilience is the mechanism that resists democratic backsliding",
+    "note": "Institutional resilience determines whether democratic backsliding succeeds or fails. Backsliding is checked when: courts uphold rule of law against executive pressure, civil servants refuse illegal orders, press continues independent reporting, and opposition parties maintain coalitions. Germany's post-1945 constitutional design — specifically engineered after Weimar's failure — includes anti-authoritarian provisions (constructive vote of no confidence, banned anti-constitutional parties) that demonstrated institutional resilience can be deliberately designed.",
+    "confidence": "high"
+  },
+  {
+    "id": "institutional_resilience__separation_of_powers",
+    "source": "institutional_resilience",
+    "target": "separation_of_powers",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "institutional resilience requires functional separation of powers",
+    "note": "Institutional resilience depends on separation of powers providing multiple independent actors who can check each other — if all power is concentrated in one branch or actor, there is no institutional check. Conversely, separation of powers only produces resilience if the separated institutions are genuinely independent and actors within them exercise moral courage to use their checking authority.",
+    "confidence": "high"
+  },
+  {
+    "id": "coalition_building__civil_rights_movement",
+    "source": "coalition_building",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "label": "civil rights coalition of Black churches, Jewish organizations, and labor was its power base",
+    "note": "The civil rights movement's legislative successes depended on coalition: Black churches provided organizational infrastructure; Jewish organizations provided legal expertise, funding, and legislative access; labor unions provided political muscle and bodies for marches. The 1963 March on Washington was a joint SCLC-labor production. This coalition was strategically assembled and maintained — its fracturing in the late 1960s contributed to the movement's declining legislative capacity.",
+    "confidence": "high"
+  },
+  {
+    "id": "coalition_building__new_deal",
+    "source": "coalition_building",
+    "target": "new_deal",
+    "type": "ENABLED",
+    "label": "New Deal coalition held contradictory factions together for 30 years",
+    "note": "The New Deal coalition (labor, Black voters, urban ethnics, white Southern segregationists) was a studied exercise in coalition politics: FDR assembled factions with directly opposed interests and held them together through distributional bargains that gave each enough. The coalition's internal contradiction — Black voters and Southern segregationists — produced its eventual fracture when civil rights made the contradiction irresolvable.",
+    "confidence": "high"
+  },
+  {
+    "id": "scientific_consensus__smallpox_eradication_1980",
+    "source": "scientific_consensus",
+    "target": "smallpox_eradication_1980",
+    "type": "ENABLED",
+    "label": "scientific consensus on vaccine efficacy made eradication possible",
+    "note": "Smallpox eradication required scientific consensus on the effectiveness of the vaccinia vaccine, agreement on the ring vaccination strategy as more efficient than mass vaccination, and WHO coordination based on shared scientific standards. Without consensus, competing national vaccination programs would not have coordinated efficiently enough to close the eradication gaps.",
+    "confidence": "high"
+  },
+  {
+    "id": "scientific_consensus__montreal_protocol_1987",
+    "source": "scientific_consensus",
+    "target": "montreal_protocol_1987",
+    "type": "ENABLED",
+    "label": "ozone science consensus gave governments the certainty to act",
+    "note": "The Montreal Protocol succeeded where climate policy has not partly because ozone science was clearer, faster, and more actionable: Molina and Rowland's 1974 CFC-ozone theory, the 1985 ozone hole discovery, and the subsequent research generated consensus rapidly enough that governments could act before denial campaigns consolidated.",
+    "confidence": "high"
+  },
+  {
+    "id": "scientific_consensus__broken_epistemology",
+    "source": "scientific_consensus",
+    "target": "broken_epistemology",
+    "type": "DISCREDITED",
+    "label": "scientific consensus is the primary institutional mechanism against epistemic failure",
+    "note": "Broken epistemology — the loss of shared capacity to distinguish true from false — is resisted most effectively by functioning scientific institutions: peer review, replication requirements, pre-registration, conflict of interest disclosure. These are adversarial epistemological structures specifically designed to catch error and deception. Their weakening (through funding dependence, publication bias, or political interference) degrades the epistemic commons that democracy requires.",
+    "confidence": "high"
+  },
+  {
+    "id": "whistleblowing__regulatory_capture",
+    "source": "whistleblowing",
+    "target": "regulatory_capture",
+    "type": "DISCREDITED",
+    "label": "insiders are often the only ones who can expose regulatory capture",
+    "note": "Regulatory capture — industries controlling the agencies that regulate them — is structurally designed to be opaque from the outside. Insiders who disclose the capture (Sherron Watkins at Enron, EPA scientists on chemical safety) are often the only mechanism capable of exposing it because they have access to the information that external observers cannot see.",
+    "confidence": "high"
+  },
+  {
+    "id": "whistleblowing__surveillance_state",
+    "source": "whistleblowing",
+    "target": "surveillance_state",
+    "type": "DISCREDITED",
+    "label": "Snowden's disclosures exposed the surveillance state to democratic scrutiny",
+    "note": "Edward Snowden's 2013 disclosures revealed the NSA's mass surveillance programs — PRISM, XKeyscore, bulk phone metadata collection — that had operated in complete secrecy, unreviewed by public democratic process. The disclosures triggered congressional hearings, court findings of unconstitutionality, and international reform. Without whistleblowing, democratic accountability for covert surveillance is structurally impossible.",
+    "confidence": "high"
+  },
+  {
+    "id": "restorative_justice__mass_incarceration",
+    "source": "restorative_justice",
+    "target": "mass_incarceration",
+    "type": "DISCREDITED",
+    "label": "restorative justice produces lower recidivism than punitive incarceration",
+    "note": "Meta-analyses of restorative justice programs consistently show 25–30% lower reoffending rates compared to traditional prosecution, particularly for non-violent offenses. This challenges mass incarceration's implicit theory that punitive severity deters crime — the evidence shows that accountability, restitution, and community restoration outperform incarceration on the metric incarceration claims to optimize for.",
+    "confidence": "high"
+  },
+  {
+    "id": "restorative_justice__war_on_drugs",
+    "source": "restorative_justice",
+    "target": "war_on_drugs",
+    "type": "DISCREDITED",
+    "label": "evidence from Portugal's decriminalization shows harm reduction outperforms criminalization",
+    "note": "Portugal's 2001 drug decriminalization combined with restorative and treatment approaches dramatically reduced drug-related deaths, HIV infections, and incarceration — while drug use rates remained flat or declined. This provided direct evidence that the War on Drugs' criminalization approach is counterproductive even by its own metrics.",
+    "confidence": "high"
+  },
+  {
+    "id": "civil_rights_act_1964__civil_rights_movement",
+    "source": "civil_rights_act_1964",
+    "target": "civil_rights_movement",
+    "type": "PRODUCED",
+    "label": "legislation was the movement's primary legislative victory",
+    "note": "The Civil Rights Act was the direct legislative product of a decade of organizing: the Birmingham campaign (1963), the March on Washington (1963), and the moral pressure generated by images of nonviolent protesters facing violent state response. The bill had been stalled for years; Kennedy's assassination and LBJ's political skill in the Senate completed it.",
+    "confidence": "high"
+  },
+  {
+    "id": "civil_rights_act_1964__jim_crow",
+    "source": "civil_rights_act_1964",
+    "target": "jim_crow",
+    "type": "DISCREDITED",
+    "label": "dismantled the legal framework of Jim Crow segregation",
+    "note": "The Civil Rights Act (1964), combined with the Voting Rights Act (1965) and Fair Housing Act (1968), systematically dismantled the legal infrastructure of Jim Crow — the 'Civil Rights Acts of Reconstruction' that were struck down or unenforced. It did not eliminate systemic racism (which continued structurally) but removed the legal cover for overt racial discrimination in public life.",
+    "confidence": "high"
+  },
+  {
+    "id": "civil_rights_act_1964__nonviolent_resistance",
+    "source": "civil_rights_act_1964",
+    "target": "nonviolent_resistance",
+    "type": "PRODUCED",
+    "label": "demonstrated that nonviolent resistance can produce historic legislative change",
+    "note": "The Civil Rights Act is the archetypal case study for nonviolent resistance's effectiveness in liberal democracies: a decade of strikes, sit-ins, marches, and civil disobedience generated political pressure that legislative obstruction ultimately could not withstand. Erica Chenoweth's research on nonviolent movements' superior success rates draws heavily on the civil rights movement as evidence.",
+    "confidence": "high"
+  },
+  {
+    "id": "good_friday_agreement_1998__truth_and_reconciliation",
+    "source": "good_friday_agreement_1998",
+    "target": "truth_and_reconciliation",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both acknowledge competing legitimate claims rather than requiring one side to capitulate",
+    "note": "The Good Friday Agreement and truth and reconciliation commissions share a core mechanism: they acknowledge that multiple parties have legitimate grievances and identities, and that durable peace requires a framework that can contain contradictions (British and Irish identity in Northern Ireland; perpetrators and victims in post-apartheid South Africa) rather than imposing one interpretation.",
+    "confidence": "high"
+  },
+  {
+    "id": "good_friday_agreement_1998__collective_trauma",
+    "source": "good_friday_agreement_1998",
+    "target": "collective_trauma",
+    "type": "DISCREDITED",
+    "label": "agreement created institutional framework for addressing 30 years of communal trauma",
+    "note": "The Troubles produced deep collective trauma on all sides — loyalist and republican communities both experienced violence as existential threat. The GFA's power-sharing arrangements, prisoner releases, and cultural recognition provisions were partly therapeutic: creating institutional acknowledgment that both communities' experiences were real and their identities legitimate.",
+    "confidence": "medium"
+  },
+  {
+    "id": "south_africa_trc__truth_and_reconciliation",
+    "source": "south_africa_trc",
+    "target": "truth_and_reconciliation",
+    "type": "PRODUCED",
+    "label": "most comprehensive real-world application of the truth and reconciliation mechanism",
+    "note": "The South African TRC was the most ambitious and widely studied application of the truth and reconciliation mechanism — its structure (amnesty for full disclosure, victim hearings, reparations committee) became the template for subsequent commissions in Rwanda, Sierra Leone, East Timor, Colombia, and elsewhere.",
+    "confidence": "high"
+  },
+  {
+    "id": "south_africa_trc__apartheid_south_africa",
+    "source": "south_africa_trc",
+    "target": "apartheid_south_africa",
+    "type": "DISCREDITED",
+    "label": "created the official historical record of apartheid's crimes",
+    "note": "The TRC's public hearings produced documented testimony from perpetrators and victims that made apartheid's crimes part of the official historical record. Security police commanders confessed publicly to atrocities that the apartheid state had denied. The process did not produce prosecutorial justice for most perpetrators, but it produced historical accountability that denial cannot easily erase.",
+    "confidence": "high"
+  },
+  {
+    "id": "smallpox_eradication_1980__global_vaccination_campaigns",
+    "source": "smallpox_eradication_1980",
+    "target": "global_vaccination_campaigns",
+    "type": "ENABLED",
+    "label": "eradication demonstrated the model for subsequent global vaccination campaigns",
+    "note": "Smallpox eradication proved that WHO-coordinated global vaccination campaigns could work across political divisions, including during Cold War tensions. The eradication infrastructure — surveillance networks, cold chain logistics, international cooperation protocols — became the institutional model for the Expanded Programme on Immunization and subsequent polio, measles, and COVID vaccination campaigns.",
+    "confidence": "high"
+  },
+  {
+    "id": "smallpox_eradication_1980__dehumanization",
+    "source": "smallpox_eradication_1980",
+    "target": "dehumanization",
+    "type": "DISCREDITED",
+    "label": "demonstrated that international cooperation can treat all human lives as equally worth saving",
+    "note": "The smallpox eradication campaign's treatment of cases in Bangladesh, Somalia, and India as equally urgent to cases in Europe represented an implicit rejection of the implicit ranking of human lives that colonial medicine had practiced. The ring vaccination strategy required treating every case, everywhere, with equal seriousness.",
+    "confidence": "medium"
+  },
+  {
+    "id": "montreal_protocol_1987__environmentalism_movement",
+    "source": "montreal_protocol_1987",
+    "target": "environmentalism_movement",
+    "type": "PRODUCED",
+    "label": "demonstrated that environmental advocacy can produce universal international agreement",
+    "note": "The Montreal Protocol — the most widely ratified international treaty — was the environmental movement's clearest legislative success and became its proof-of-concept for international environmental governance. The movement's subsequent failure to replicate this success on climate change has been analyzed through comparison with the conditions that made Montreal possible: clearer science, smaller number of industries affected, available substitutes.",
+    "confidence": "high"
+  },
+  {
+    "id": "universal_declaration_human_rights_1948__moral_circle_expansion",
+    "source": "universal_declaration_human_rights_1948",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "label": "codified universalism as international law — rights belong to persons as persons",
+    "note": "The UDHR's Article 1 ('All human beings are born free and equal in dignity and rights') was a formal international statement of moral circle expansion: rights are not contingent on citizenship, ethnicity, religion, or gender but on being human. This universalism — even when unenforced — provided the normative language for every subsequent rights movement.",
+    "confidence": "high"
+  },
+  {
+    "id": "universal_declaration_human_rights_1948__the_holocaust",
+    "source": "universal_declaration_human_rights_1948",
+    "target": "the_holocaust",
+    "type": "PRODUCED",
+    "label": "Holocaust provided the catastrophic evidence that motivated the Declaration",
+    "note": "The UDHR was explicitly motivated by WWII and the Holocaust: its preamble opens 'Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind.' Eleanor Roosevelt's drafting committee was convened precisely to create the international rights framework that might prevent another Holocaust.",
+    "confidence": "high"
+  },
+  {
+    "id": "marshall_plan_1948__great_depression",
+    "source": "marshall_plan_1948",
+    "target": "great_depression",
+    "type": "DISCREDITED",
+    "label": "applied Keynesian lessons of Depression to post-war reconstruction",
+    "note": "The Marshall Plan's theory was explicitly drawn from the Depression's lessons: the U.S. had allowed the Versailles reparations to destabilize Germany's economy, contributing to the Depression and enabling Nazism. Marshall aid reversed the logic — instead of extracting from defeated economies, the U.S. invested in them, demonstrating that expansive fiscal policy could produce rapid economic recovery.",
+    "confidence": "high"
+  },
+  {
+    "id": "marshall_plan_1948__cold_war",
+    "source": "marshall_plan_1948",
+    "target": "cold_war",
+    "type": "ENABLED",
+    "label": "Marshall aid secured Western Europe within the U.S. sphere in the Cold War",
+    "note": "The Marshall Plan was simultaneously humanitarian and strategic: it prevented the economic desperation that had brought communist parties to power across war-devastated Europe. Countries receiving Marshall aid joined NATO and remained in the Western bloc; the plan successfully stabilized Western Europe's democracies at the moment when the Cold War's battle lines were being drawn.",
+    "confidence": "high"
+  },
+  {
+    "id": "polio_vaccine_1955__global_vaccination_campaigns",
+    "source": "polio_vaccine_1955",
+    "target": "global_vaccination_campaigns",
+    "type": "ENABLED",
+    "label": "vaccine success prompted WHO's global eradication campaigns",
+    "note": "The polio vaccine's dramatic success — reducing U.S. cases from 58,000 in 1952 to near zero by 1960 — prompted the WHO to launch the Global Polio Eradication Initiative (1988), which has since reduced cases by 99.9%. The vaccine's effectiveness made global eradication seem achievable and mobilized the international investment the campaign required.",
+    "confidence": "high"
+  },
+  {
+    "id": "international_criminal_court__nuremberg_trials",
+    "source": "international_criminal_court",
+    "target": "nuremberg_trials",
+    "type": "ENABLED",
+    "label": "ICC implemented Nuremberg's precedent in a permanent institution",
+    "note": "The ICC is the institutional realization of the Nuremberg principle — that individuals bear personal criminal responsibility for genocide, crimes against humanity, and war crimes regardless of state orders or head-of-state immunity. Nuremberg was an ad hoc victor's tribunal; the ICC is a permanent, treaty-based court that attempts to make accountability universal and ongoing rather than episodic.",
+    "confidence": "high"
+  },
+  {
+    "id": "decolonization_independence_wave__nonviolent_resistance",
+    "source": "decolonization_independence_wave",
+    "target": "nonviolent_resistance",
+    "type": "ENABLED",
+    "label": "independence movements demonstrated nonviolent resistance at continental scale",
+    "note": "The decolonization wave was partly driven by nonviolent resistance — Gandhi's Indian independence movement was the most prominent but not the only case of nonviolent mass mobilization defeating colonial power. The wave also included violent independence struggles (Algeria, Kenya, Angola), demonstrating both the range of tactics used and the particular moral delegitimization that nonviolent resistance imposed on colonial authorities.",
+    "confidence": "high"
+  },
+  {
+    "id": "decolonization_independence_wave__decolonization_africa",
+    "source": "decolonization_independence_wave",
+    "target": "decolonization_africa",
+    "type": "PRODUCED",
+    "label": "most decolonization wave nations were African",
+    "note": "Over 50 of the approximately 80 countries that gained independence 1945–1975 were African — the decolonization wave was primarily an African phenomenon. Ghana's independence in 1957 under Kwame Nkrumah triggered a cascade across sub-Saharan Africa, and 1960 alone saw 17 African nations gain independence ('Year of Africa').",
+    "confidence": "high"
+  },
+  {
+    "id": "separation_of_powers__democratic_backsliding",
+    "source": "separation_of_powers",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "functional separation of powers is the primary structural resistance to backsliding",
+    "note": "Democratic backsliding consistently proceeds by subordinating one branch to another — executive capture of courts, parliament, or civil service. Every documented case of backsliding (Hungary, Turkey, Venezuela, Philippines) involved dismantling separation of powers. Conversely, democracies that have resisted autocratic pressure (South Korea, Brazil in 2022) did so through independent institutions using their checking authority.",
+    "confidence": "high"
+  },
+  {
+    "id": "separation_of_powers__enlightenment_philosophy",
+    "source": "separation_of_powers",
+    "target": "enlightenment_philosophy",
+    "type": "PRODUCED",
+    "label": "Montesquieu developed the theory from Enlightenment political analysis",
+    "note": "Montesquieu's De l'esprit des lois (1748) — the foundational text on separation of powers — was an Enlightenment work: it applied empirical analysis to political institutions, studying Roman, British, and classical republics to derive the structural conditions for liberty. It translated Enlightenment rationalism into constitutional design.",
+    "confidence": "high"
+  },
+  {
+    "id": "free_press__regulatory_capture",
+    "source": "free_press",
+    "target": "regulatory_capture",
+    "type": "DISCREDITED",
+    "label": "investigative journalism is the primary external mechanism exposing regulatory capture",
+    "note": "Regulatory capture is structurally designed to be opaque — the captured agency and the capturing industry have shared interest in maintaining the arrangement. Investigative journalism (Rachel Carson on the USDA; the NYT on the FDA; ProPublica on the SEC) is often the only mechanism with the resources and independence to document and publicize capture that the political system has failed to correct.",
+    "confidence": "high"
+  },
+  {
+    "id": "free_press__manufactured_consent",
+    "source": "free_press",
+    "target": "manufactured_consent",
+    "type": "DISCREDITED",
+    "label": "genuinely independent press is the structural counter to manufactured consent",
+    "note": "Herman and Chomsky's manufactured consent model depends on media lacking genuine editorial independence — subject to advertising pressure, ownership concentration, and government access management. A genuinely independent press — economically supported by subscribers rather than advertisers, insulated from ownership interference — is the structural alternative. The degradation of ad-supported print journalism has removed this counter-mechanism in many markets.",
+    "confidence": "high"
+  },
+  {
+    "id": "civil_society__democratic_backsliding",
+    "source": "civil_society",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "organized civil society is the substrate from which democratic resistance grows",
+    "note": "Authoritarian consolidation systematically suppresses civil society — Hungary's Orbán, Russia's Putin, Turkey's Erdoğan, and China's Xi all moved against NGOs, unions, professional associations, and independent civic organizations. The pattern confirms Tocqueville's insight: organized voluntary association is the essential infrastructure of democratic resistance. Where civil society is strong, backsliding is harder.",
+    "confidence": "high"
+  },
+  {
+    "id": "civil_society__coalition_building",
+    "source": "civil_society",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "civil society organizations are the building blocks of political coalitions",
+    "note": "Coalition building requires organizations capable of committing their members — unions, churches, civic groups, professional associations. These organizations only exist in a functioning civil society. Where civil society is suppressed, coalition building becomes nearly impossible because there are no organizational units to combine.",
+    "confidence": "high"
+  },
+  {
+    "id": "international_law__international_criminal_court",
+    "source": "international_law",
+    "target": "international_criminal_court",
+    "type": "PRODUCED",
+    "label": "ICC is the most ambitious attempt to give international law enforcement capacity",
+    "note": "International law's fundamental limitation is enforcement — it constrains states through reputational costs and treaty withdrawal rather than coercive enforcement. The ICC is an attempt to partially close this gap by making individual accountability possible without state enforcement: the court can indict, and the arrest of indicted individuals can happen when they enter member state territory.",
+    "confidence": "high"
+  },
+  {
+    "id": "federalism__democratic_backsliding",
+    "source": "federalism",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "federalism provides multiple sites of resistance to national backsliding",
+    "note": "Federal systems make national democratic backsliding harder by preserving opposition power at the state/provincial level. During Trump's presidency, Democratic-controlled states resisted federal policies through litigation, non-compliance, and sanctuary declarations. Germany's Länder system provides similar institutional resistance. However, federalism can also enable local majority tyranny (Jim Crow state governments) that national authority must override.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_democracy__welfare_state",
+    "source": "social_democracy",
+    "target": "welfare_state",
+    "type": "PRODUCED",
+    "label": "social democracy developed the welfare state as its primary institutional expression",
+    "note": "The Nordic welfare state — universal healthcare, free education, generous unemployment and parental leave, comprehensive pension systems — is social democracy's primary institutional achievement. It was built incrementally by Social Democratic parties through electoral politics over 60+ years, demonstrating that market economies can be significantly modified through democratic political pressure without requiring revolutionary transformation.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_democracy__neoliberalism",
+    "source": "social_democracy",
+    "target": "neoliberalism",
+    "type": "DISCREDITED",
+    "label": "Nordic model provides empirical counter-evidence to neoliberal efficiency claims",
+    "note": "Neoliberalism's claim that markets require minimal regulation and redistribution to maximize efficiency is directly challenged by Nordic social democracies: Sweden, Denmark, and Norway combine among the highest social spending, strongest unions, and most progressive taxation in the world with consistently competitive economies, high productivity, and strong entrepreneurship. The empirical existence of functioning high-equality capitalism challenges neoliberal theoretical predictions.",
+    "confidence": "high"
+  },
+  {
+    "id": "east_asia_economic_miracle__neoliberalism",
+    "source": "east_asia_economic_miracle",
+    "target": "neoliberalism",
+    "type": "DISCREDITED",
+    "label": "state-directed development model contradicts free-market development orthodoxy",
+    "note": "The East Asian miracle economies (South Korea, Taiwan, Singapore, Japan) used heavy state intervention — industrial policy, protected domestic industries, directed credit, export promotion — that directly contradicted the Washington Consensus prescriptions of free markets and minimal state intervention. Their success became the central challenge to development neoliberalism and inspired Ha-Joon Chang's 'Kicking Away the Ladder.'",
+    "confidence": "high"
+  },
+  {
+    "id": "east_asia_economic_miracle__global_poverty_decline",
+    "source": "east_asia_economic_miracle",
+    "target": "global_poverty_decline",
+    "type": "PRODUCED",
+    "label": "East Asian development drove the majority of global poverty reduction",
+    "note": "China alone accounts for approximately 800 million people lifted out of extreme poverty since 1978 — the majority of global poverty reduction. South Korea, Taiwan, and Southeast Asian economies account for hundreds of millions more. The East Asian development model, adapted by China, is the primary mechanism behind the most significant reduction in human material suffering in history.",
+    "confidence": "high"
+  },
+  {
+    "id": "global_poverty_decline__resource_extraction",
+    "source": "global_poverty_decline",
+    "target": "resource_extraction",
+    "type": "DISCREDITED",
+    "label": "poverty decline demonstrates that resource wealth is not the primary driver of development",
+    "note": "Countries like South Korea and Taiwan had minimal natural resources but achieved rapid poverty reduction through manufacturing and education investment — directly contradicting the resource extraction model of development. Resource-rich countries (Nigeria, Congo, Venezuela) have often failed to convert wealth into poverty reduction, while resource-poor countries have succeeded. Development causation runs through institutions, not resources.",
+    "confidence": "high"
+  },
+  {
+    "id": "worker_cooperatives__class_consciousness",
+    "source": "worker_cooperatives",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "worker ownership produces direct experience of economic democracy",
+    "note": "Worker cooperatives operationalize class consciousness in institutional form: rather than articulating workers' interests theoretically, they embody them structurally. Workers who own and govern their workplaces have direct experience of the difference between democratic and hierarchical workplace organization — an embodied class consciousness that abstract political education cannot replicate.",
+    "confidence": "medium"
+  },
+  {
+    "id": "post_traumatic_growth__collective_trauma",
+    "source": "post_traumatic_growth",
+    "target": "collective_trauma",
+    "type": "DISCREDITED",
+    "label": "post-traumatic growth is possible even from collective trauma",
+    "note": "While collective trauma documents how communities are wounded by shared catastrophe, post-traumatic growth documents how individuals and communities can emerge from the struggle with that trauma with greater purpose, depth, and resilience. Post-apartheid South Africa, post-Holocaust Jewish communities, and post-9/11 U.S. communities all show evidence of both — the trauma and the growth coexist rather than being sequential stages.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_courage__moral_disengagement",
+    "source": "moral_courage",
+    "target": "moral_disengagement",
+    "type": "DISCREDITED",
+    "label": "moral courage is the psychological capacity that resists moral disengagement",
+    "note": "Moral disengagement works by providing psychological permission to harm — through dehumanization, diffusion of responsibility, and displacement of blame. Moral courage is the counter-mechanism: the capacity to maintain moral clarity and act on it despite social pressure, authority pressure, and the psychological costs of standing apart. Research on Holocaust rescuers identifies moral courage as the distinguishing factor — they acted on the same information others had but with different psychological responses.",
+    "confidence": "high"
+  },
+  {
+    "id": "bystander_intervention__in_group_out_group_dynamics",
+    "source": "bystander_intervention",
+    "target": "in_group_out_group_dynamics",
+    "type": "DISCREDITED",
+    "label": "bystander intervention requires overriding in-group loyalty to protect an out-group member",
+    "note": "Bystander intervention in the context of bias or violence requires people to prioritize a stranger or out-group member over implicit in-group norms — to interrupt the peer whose behavior is harmful. Research shows that people are far more likely to intervene when they identify with the victim rather than the perpetrator, and that in-group norms can be redirected by framing intervention as what their group actually expects.",
+    "confidence": "high"
+  },
+  {
+    "id": "empathy__moral_circle_expansion",
+    "source": "empathy",
+    "target": "moral_circle_expansion",
+    "type": "ENABLED",
+    "label": "empathy is the psychological mechanism through which moral circles expand",
+    "note": "Moral circle expansion is abstract at the level of principle, but it operates through the psychological mechanism of empathy — the capacity to experience another's suffering as real and mattering. Each documented expansion (abolitionism, women's suffrage, LGBTQ+ rights, animal welfare) was preceded by cultural production (Uncle Tom's Cabin, Roots, Philadelphia) that activated empathic identification across the boundary of the circle.",
+    "confidence": "high"
+  },
+  {
+    "id": "collective_resilience__structural_violence",
+    "source": "collective_resilience",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "communities develop collective resilience as a survival response to structural violence",
+    "note": "Paradoxically, some communities facing sustained structural violence develop extraordinary collective resilience through mutual aid, cultural preservation, and shared identity. African American communities under Jim Crow, Jewish communities in the Pale of Settlement, and Indigenous communities under colonial pressure all developed institutional resilience — Black Wall Street (Tulsa), Yiddish cultural institutions, tribal knowledge preservation — that structural violence simultaneously targeted and strengthened.",
+    "confidence": "high"
+  },
+  {
+    "id": "sanitation_revolution_19c__structural_violence",
+    "source": "sanitation_revolution_19c",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "sanitation infrastructure was the largest structural improvement in poor urban conditions in history",
+    "note": "The sanitation revolution was simultaneously a public health and a class justice intervention: cholera and typhoid disproportionately killed the poor in slum conditions. Public sewage systems, clean water supply, and building regulation converted structural conditions that killed the working class systematically into conditions that could support healthy life. It demonstrates that structural interventions — not individual behavior change — produce the largest health improvements.",
+    "confidence": "high"
+  },
+  {
+    "id": "sanitation_revolution_19c__global_vaccination_campaigns",
+    "source": "sanitation_revolution_19c",
+    "target": "global_vaccination_campaigns",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are population-level interventions that work through universal coverage",
+    "note": "Sanitation and vaccination share the same public health logic: they work at the population level, not the individual level. A sewer that serves 90% of households cannot eliminate cholera; a vaccine that covers 90% of a population cannot achieve herd immunity for highly contagious diseases. Both mechanisms require universal or near-universal coverage — and both require collective political will to finance and implement them.",
+    "confidence": "high"
+  },
+  {
+    "id": "hiv_treatment_breakthrough__mutual_aid",
+    "source": "hiv_treatment_breakthrough",
+    "target": "mutual_aid",
+    "type": "PRODUCED",
+    "label": "LGBTQ+ community developed mutual aid networks before the state responded",
+    "note": "ACT UP's early work was mutual aid at scale: buddy systems for the dying, community meal delivery, information networks about experimental treatments — all organized by the community itself when the government had essentially abandoned it. The AIDS crisis produced some of the most documented cases of community mutual aid in American history, and ACT UP's later advocacy combined mutual aid infrastructure with political confrontation.",
+    "confidence": "high"
+  },
+  {
+    "id": "hiv_treatment_breakthrough__whistleblowing",
+    "source": "hiv_treatment_breakthrough",
+    "target": "whistleblowing",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "ACT UP's disruption of FDA approval processes made hidden information public",
+    "note": "ACT UP's activists obtained and publicized information about experimental drugs in the FDA pipeline that was not publicly available — including specific data on treatment efficacy that the FDA was suppressing pending full clinical trial completion. They also exposed financial relationships between researchers and pharmaceutical companies. The mechanism is parallel to whistleblowing: making institutional information available to those it affects.",
+    "confidence": "medium"
+  },
+  {
+    "id": "harm_reduction__war_on_drugs",
+    "source": "harm_reduction",
+    "target": "war_on_drugs",
+    "type": "DISCREDITED",
+    "label": "harm reduction evidence directly contradicts the War on Drugs' criminalization theory",
+    "note": "Portugal's 2001 decriminalization with treatment investment, Switzerland's heroin-assisted treatment, and Vancouver's Insite supervised injection site all produced measurably better outcomes than criminalization on every metric the War on Drugs claims to optimize: overdose deaths, HIV transmission, criminal recidivism, treatment uptake. The evidence that criminalization produces worse outcomes than harm reduction is among the strongest in public health research.",
+    "confidence": "high"
+  },
+  {
+    "id": "roots_1977__empathy",
+    "source": "roots_1977",
+    "target": "empathy",
+    "type": "PRODUCED",
+    "label": "produced mass empathic identification with enslaved people's experience",
+    "note": "Roots was designed to make white Americans experience slavery's reality empathically rather than abstractly — through the specific person of Kunta Kinte, whose name, personality, and suffering were present across eight episodes before and during his enslavement. Post-broadcast surveys documented measurable shifts in white Americans' reported empathy for Black Americans' historical experience.",
+    "confidence": "high"
+  },
+  {
+    "id": "roots_1977__systemic_racism",
+    "source": "roots_1977",
+    "target": "systemic_racism",
+    "type": "DISCREDITED",
+    "label": "made the historical roots of systemic racism visible to mainstream audiences",
+    "note": "Roots demonstrated to 130 million viewers that contemporary racial inequality has specific historical origins — named ancestors, documented experiences, recoverable family histories — rather than being a natural condition. It made the connection between slavery's history and present inequality emotionally comprehensible for audiences that abstract argument could not reach.",
+    "confidence": "high"
+  },
+  {
+    "id": "to_kill_a_mockingbird_1960__empathy",
+    "source": "to_kill_a_mockingbird_1960",
+    "target": "empathy",
+    "type": "PRODUCED",
+    "label": "made racial injustice legible from within white Southern perspective",
+    "note": "To Kill a Mockingbird's particular mechanism is the white child narrator — Scout Finch sees racial injustice through the eyes of someone readers like her could identify with, making it impossible to dismiss as an outsider's view. The novel built empathy by finding a character bridge across the racial divide that direct narration could not have constructed.",
+    "confidence": "high"
+  },
+  {
+    "id": "to_kill_a_mockingbird_1960__systemic_racism",
+    "source": "to_kill_a_mockingbird_1960",
+    "target": "systemic_racism",
+    "type": "DISCREDITED",
+    "label": "exposed the systemic nature of racial injustice through individual legal case",
+    "note": "The novel's power is that Tom Robinson's wrongful conviction is not depicted as an individual miscarriage but as the inevitable product of a system — the jury, the town, the legal structure, the social norms — that could not acquit a Black man accused by a white woman regardless of evidence. It made systemic racism's mechanics visible through a single case.",
+    "confidence": "high"
+  },
+  {
+    "id": "beloved_1987__collective_trauma",
+    "source": "beloved_1987",
+    "target": "collective_trauma",
+    "type": "PRODUCED",
+    "label": "provided the literary language for understanding slavery's intergenerational trauma",
+    "note": "Beloved introduced 'rememory' — involuntary haunting recollection — as the mechanism by which slavery's trauma transmits across generations. The novel shaped academic and therapeutic frameworks for understanding intergenerational trauma, providing narrative language for what was then poorly theorized in psychology. It is one of the clearest cases of a work of fiction producing conceptual tools that subsequently entered scientific discourse.",
+    "confidence": "high"
+  },
+  {
+    "id": "beloved_1987__dehumanization",
+    "source": "beloved_1987",
+    "target": "dehumanization",
+    "type": "DISCREDITED",
+    "label": "restored the full interior humanity that slavery's dehumanization denied",
+    "note": "Morrison's explicit project in Beloved was to recover 'the interior life of slavery' — the emotional, spiritual, and cognitive richness that enslaved people possessed and that both slavery's system and subsequent sanitized history denied. By making Sethe's consciousness fully present and fully human, the novel performed the counter-dehumanization that history had failed to accomplish.",
+    "confidence": "high"
+  },
+  {
+    "id": "philadelphia_1993__empathy",
+    "source": "philadelphia_1993",
+    "target": "empathy",
+    "type": "PRODUCED",
+    "label": "made HIV-positive gay Americans emotionally accessible to mainstream heterosexual audiences",
+    "note": "Philadelphia worked by casting Tom Hanks — the most likable, non-threatening, 'safe' American actor — as a gay man with AIDS, making empathic identification unavoidable for audiences who might have resisted a less familiar presence. The film extended empathy across the double barrier of sexual identity and HIV stigma simultaneously.",
+    "confidence": "high"
+  },
+  {
+    "id": "philadelphia_1993__lgbtq_rights_movement",
+    "source": "philadelphia_1993",
+    "target": "lgbtq_rights_movement",
+    "type": "ENABLED",
+    "label": "shifted mainstream empathy for LGBTQ+ people with HIV at critical political moment",
+    "note": "Philadelphia was released in 1993, when LGBTQ+ rights were contested and HIV/AIDS was still widely understood as a 'gay disease' that stigma justified. The film's impact — 79% positive reviews, Best Actor Oscar, mass theatrical release — preceded the broader shift in public opinion toward LGBTQ+ acceptance that accelerated through the 1990s and 2000s.",
+    "confidence": "medium"
+  },
+  {
+    "id": "diary_of_a_young_girl__the_holocaust",
+    "source": "diary_of_a_young_girl",
+    "target": "the_holocaust",
+    "type": "DISCREDITED",
+    "label": "primary text through which the Holocaust entered post-war popular consciousness",
+    "note": "The Diary is the single most widely read document about the Holocaust — more than any historical account or testimony collection. It functions as the emotional entry point through which generations have first understood the genocide: through a specific child's voice rather than the abstraction of six million victims. Its specificity — Anne's personality, aspirations, loves, ordinary life — is precisely what makes the genocide's horror comprehensible.",
+    "confidence": "high"
+  },
+  {
+    "id": "diary_of_a_young_girl__historical_revisionism",
+    "source": "diary_of_a_young_girl",
+    "target": "historical_revisionism",
+    "type": "DISCREDITED",
+    "label": "diary's intimate specificity makes Holocaust denial culturally and emotionally implausible",
+    "note": "Holocaust deniers have repeatedly attacked the diary's authenticity (falsely; its authenticity is thoroughly established). The attempts reveal the diary's function: it makes the Holocaust so specific, so intimate, so humanly documented that denial requires rejecting not an abstract claim but a specific child's life. It is a bulwark against the abstraction that revisionism requires.",
+    "confidence": "high"
   }
 ]

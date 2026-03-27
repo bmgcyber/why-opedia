@@ -759,5 +759,100 @@
       "Combahee_River_Collective",
       "intersectionality"
     ]
+  },
+  {
+    "id": "post_traumatic_growth",
+    "label": "Post-Traumatic Growth",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1990s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "summary": "The empirically documented phenomenon in which people experience significant positive psychological change following highly challenging life circumstances — not despite the trauma but through the process of struggling with it. Coined by Tedeschi and Calhoun (1996). Dimensions include: greater personal strength, new possibilities, relating to others more deeply, appreciation for life, and spiritual/existential change. Distinct from resilience (returning to baseline) — PTG involves surpassing the prior level of functioning. It does not invalidate trauma's harm; rather, it documents that human beings have a capacity for profound adaptation that oppressive systems cannot fully extinguish.",
+    "tags": [
+      "trauma",
+      "resilience",
+      "healing",
+      "psychology",
+      "positive psychology",
+      "coping",
+      "1990s"
+    ]
+  },
+  {
+    "id": "moral_courage",
+    "label": "Moral Courage",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "Ongoing",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "summary": "The psychological capacity to act on ethical principles in the face of social pressure, personal cost, or institutional opposition. Distinct from physical courage — it involves risking reputation, relationships, career, or safety for ethical reasons. Research identifies factors that enable it: strong moral identity, prior experience of principled action, social support from even one ally, and clear articulation of the ethical principle at stake. The mechanisms of atrocity — dehumanization, moral disengagement, obedience — are all defeated when sufficient individuals exercise moral courage. It is the individual-level mechanism that collective resistance depends on.",
+    "tags": [
+      "ethics",
+      "resistance",
+      "bystander",
+      "individual",
+      "psychology",
+      "upstander",
+      "history"
+    ]
+  },
+  {
+    "id": "bystander_intervention",
+    "label": "Bystander Intervention",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "1960s",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "summary": "The willingness to intervene when witnessing harm to others, countering the bystander effect (Latané and Darley, 1968) in which responsibility diffuses in groups. Training programs demonstrate that the bystander effect is not fixed — knowing about it, seeing others intervene, and having rehearsed responses significantly increase intervention rates. Bystander intervention programs have shown effectiveness in reducing sexual assault, bullying, and hate crimes in institutional settings. At scale, bystander culture is the mechanism by which community norms against harm are enforced without formal authority.",
+    "tags": [
+      "psychology",
+      "social",
+      "violence prevention",
+      "community",
+      "norms",
+      "upstander",
+      "1960s"
+    ]
+  },
+  {
+    "id": "empathy",
+    "label": "Empathy",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "Ongoing",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "summary": "The capacity to understand and share the feelings of others — to experience the world from another's perspective. Empathy is the psychological mechanism underlying moral circle expansion: extending moral consideration to previously excluded groups requires being able to imagine their suffering as real. It is activated by narrative (fiction reliably increases empathic understanding), contact (Allport's contact hypothesis), and social norms that affirm its expression. Dehumanization works by blocking empathy; literature, film, and cross-community contact work by activating it. Empathy's limitations include in-group bias and the tendency toward 'empathy fatigue' with distant or statistically described suffering.",
+    "tags": [
+      "psychology",
+      "social",
+      "moral",
+      "narrative",
+      "perspective-taking",
+      "contact hypothesis",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "collective_resilience",
+    "label": "Collective Resilience",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "Ongoing",
+    "scope": "global/psychology",
+    "cross_scope": false,
+    "summary": "The capacity of communities to recover, adapt, and strengthen following disaster, trauma, or sustained oppression. Research on disasters, wartime communities, and post-conflict societies shows that collective resilience emerges from: pre-existing social networks, shared identity, effective leadership, and the perception of shared fate. Rebecca Solnit's 'A Paradise Built in Hell' documents how communities respond to disasters with mutual aid and solidarity rather than the chaos that authorities fear. Collective resilience is the community-level analog to post-traumatic growth — communities can emerge from catastrophe more cohesive than before.",
+    "tags": [
+      "community",
+      "resilience",
+      "trauma",
+      "disaster",
+      "mutual aid",
+      "social capital",
+      "solidarity"
+    ]
   }
 ]

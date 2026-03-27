@@ -2887,5 +2887,41 @@
     "label": "Discredited",
     "note": "Food sovereignty challenges the colonial model of extracting cash crops from former colonies",
     "confidence": "confirmed"
+  },
+  {
+    "id": "separation_of_powers__federalism",
+    "source": "separation_of_powers",
+    "target": "federalism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both distribute power to prevent its concentration",
+    "note": "Separation of powers (horizontal — between branches) and federalism (vertical — between levels of government) are complementary power-distributing mechanisms. The U.S. constitutional design combines both, creating redundant checks. James Madison's Federalist No. 51 explicitly treats both as applications of the same principle: 'ambition must be made to counteract ambition.'",
+    "confidence": "high"
+  },
+  {
+    "id": "free_press__civil_society",
+    "source": "free_press",
+    "target": "civil_society",
+    "type": "ENABLED",
+    "label": "independent media is a component of civil society",
+    "note": "The free press is the civil society institution most directly constituting democratic accountability — it performs the surveillance of power that no single citizen can perform alone. Press freedom and civil society freedom are correlated: authoritarian governments target both simultaneously because both are mechanisms of accountability.",
+    "confidence": "high"
+  },
+  {
+    "id": "proportional_representation__civil_society",
+    "source": "proportional_representation",
+    "target": "civil_society",
+    "type": "ENABLED",
+    "label": "proportional systems produce more diverse representation that reflects civil society's plurality",
+    "note": "PR systems consistently produce higher representation of women, minority parties, and previously excluded groups — reflecting the actual plurality of civil society rather than compressing it into two parties. This diversity makes legislatures more responsive to organized civil society groups and produces policies (parental leave, childcare, progressive taxation) that reflect broader coalitions.",
+    "confidence": "high"
+  },
+  {
+    "id": "international_law__separation_of_powers",
+    "source": "international_law",
+    "target": "separation_of_powers",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both distribute authority to prevent any single actor from dominating",
+    "note": "International law operates on the same distributional logic as separation of powers but at the inter-state level: by distributing authority across multiple sovereigns and treaty bodies, it prevents any single state from imposing its will universally. Both mechanisms are imperfect — separation of powers can be captured, international law can be ignored — but both create friction against unilateral domination.",
+    "confidence": "medium"
   }
 ]

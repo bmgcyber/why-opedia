@@ -608,5 +608,85 @@
       "Black_health",
       "systemic_racism"
     ]
+  },
+  {
+    "id": "sanitation_revolution_19c",
+    "label": "Sanitation Revolution",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1850s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "summary": "The 19th-century transformation of urban water and sewage infrastructure, eliminating cholera, typhoid, and other waterborne diseases that had killed tens of thousands annually in European and American cities. John Snow's 1854 identification of the Broad Street cholera pump as a source (foundational to epidemiology) and Joseph Bazalgette's London sewer system (1858–1875) are canonical events. By 1900, life expectancy in London had increased by approximately 15 years — more from sewers than from medicine. The sanitation revolution is the single most impactful public health intervention in history.",
+    "tags": [
+      "public health",
+      "cholera",
+      "water",
+      "sewage",
+      "epidemiology",
+      "urban",
+      "john snow",
+      "19th century"
+    ]
+  },
+  {
+    "id": "global_vaccination_campaigns",
+    "label": "Global Vaccination Campaigns",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "1960s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "summary": "WHO-coordinated campaigns to deliver vaccines across political borders, eliminating or greatly reducing polio, measles, diphtheria, pertussis, tetanus, and other childhood killers. The Expanded Programme on Immunization (EPI, launched 1974) is credited with saving over 150 million lives since its inception. GAVI (Global Alliance for Vaccines and Immunization, 2000) has vaccinated over 1 billion children in low-income countries. The campaigns demonstrate that international health cooperation can overcome extreme logistical challenges — and that the poor have as strong a claim on vaccine technology as the wealthy.",
+    "tags": [
+      "vaccination",
+      "who",
+      "public health",
+      "gavi",
+      "global health",
+      "children",
+      "disease prevention"
+    ]
+  },
+  {
+    "id": "hiv_treatment_breakthrough",
+    "label": "HIV/AIDS Treatment Breakthrough",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1990s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "summary": "The development of effective HIV treatment transformed AIDS from a death sentence to a manageable chronic condition. AZT (1987) was the first antiretroviral; combination antiretroviral therapy (ART, 1996) produced the 'Lazarus effect' — patients near death recovering fully. The breakthrough was driven by: ACT UP's pressure on the FDA to accelerate drug approval (demonstrating that patient activism can reshape medical bureaucracy), the scientific community's rapid basic research, and pharmaceutical investment. By 2020, over 27 million people worldwide were on ART. Treatment also prevents transmission — 'Undetectable = Untransmittable' (U=U).",
+    "tags": [
+      "hiv",
+      "aids",
+      "medicine",
+      "act up",
+      "pharmaceutical",
+      "activism",
+      "1980s",
+      "1990s",
+      "public health"
+    ]
+  },
+  {
+    "id": "harm_reduction",
+    "label": "Harm Reduction",
+    "node_type": "ideology",
+    "category": "ideology",
+    "decade": "1980s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "summary": "A public health philosophy that accepts that some people will use drugs and focuses on minimizing related harms rather than requiring abstinence. Practices include: needle exchange programs (reducing HIV transmission), naloxone distribution (reversing opioid overdoses), supervised consumption sites, and drug checking services. Evidence base is strong — needle exchanges reduced HIV transmission among people who inject drugs by 50% in the U.S.; supervised injection sites have not caused a single overdose death. Harm reduction treats addiction as a health issue rather than a moral failing, directly challenging the War on Drugs' criminalization approach.",
+    "tags": [
+      "drugs",
+      "public health",
+      "addiction",
+      "opioid",
+      "needle exchange",
+      "naloxone",
+      "policy",
+      "1980s"
+    ]
   }
 ]
