@@ -13515,5 +13515,626 @@
     "label": "democratic accountability mechanisms resist voter suppression",
     "note": "Functioning democratic accountability — independent election authorities, judicial review of electoral laws, press scrutiny of electoral administration, civil society monitoring — is the structural defense against voter suppression. Where these mechanisms are strong, voter suppression is harder to implement without consequence.",
     "confidence": "high"
+  },
+  {
+    "id": "labor_rights_eight_hour_day__labor_movement",
+    "source": "labor_rights_eight_hour_day",
+    "target": "labor_movement",
+    "type": "PRODUCED",
+    "label": "eight-hour day was the labor movement's foundational demand and first major victory",
+    "note": "The eight-hour day movement was the organizing demand that built the American labor movement — it was specific, universal, and moral enough to unite workers across trades. The Haymarket affair and May Day emerged from this campaign; the Fair Labor Standards Act of 1938 was its legal culmination.",
+    "confidence": "high"
+  },
+  {
+    "id": "labor_rights_eight_hour_day__structural_violence",
+    "source": "labor_rights_eight_hour_day",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "established workers' legal right to time — the fundamental counter to wage slavery",
+    "note": "Unlimited working hours were a form of structural violence: industrial capitalism's initial legal structure gave employers complete authority over workers' time, reducing workers to human machines. The eight-hour day movement established the legal principle that workers have claims on their own time that employers cannot override.",
+    "confidence": "high"
+  },
+  {
+    "id": "labor_rights_eight_hour_day__class_consciousness",
+    "source": "labor_rights_eight_hour_day",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "Haymarket and May Day built international working-class solidarity",
+    "note": "The international observance of May Day as Labor Day — rooted in Haymarket — was one of the primary mechanisms through which class consciousness was produced across national boundaries. Workers in different countries sharing a commemoration is an enactment of the solidarity the Communist Manifesto called for.",
+    "confidence": "high"
+  },
+  {
+    "id": "rural_electrification_1930s__new_deal",
+    "source": "rural_electrification_1930s",
+    "target": "new_deal",
+    "type": "PRODUCED",
+    "label": "REA was one of the New Deal's most transformative infrastructure investments",
+    "note": "The Rural Electrification Administration was New Deal infrastructure policy at its most successful: delivered through cooperatives, it reached 90% of rural homes by 1950 at minimal cost to the government. It demonstrated that rural areas could govern themselves through cooperative institutions when given access to federal capital.",
+    "confidence": "high"
+  },
+  {
+    "id": "rural_electrification_1930s__worker_cooperatives",
+    "source": "rural_electrification_1930s",
+    "target": "worker_cooperatives",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "REA cooperatives remain the largest cooperative sector in the U.S.",
+    "note": "Rural electric cooperatives — created by the REA — are the largest cooperative sector in the United States: 900+ cooperatives serving 42 million people across 56% of U.S. land mass. They demonstrate that cooperative ownership can work at scale in capital-intensive infrastructure industries.",
+    "confidence": "high"
+  },
+  {
+    "id": "rural_electrification_1930s__public_health_infrastructure",
+    "source": "rural_electrification_1930s",
+    "target": "public_health_infrastructure",
+    "type": "ENABLED",
+    "label": "electrification was the prerequisite for rural public health infrastructure",
+    "note": "Rural electrification enabled refrigeration (vaccine storage, food safety), running water (electric pumps), hospital-grade sterilization, and radio health information — all of which were prerequisites for modern public health infrastructure in rural areas. Before electrification, rural public health was functionally impossible at the standard achievable in cities.",
+    "confidence": "high"
+  },
+  {
+    "id": "toussaint_louverture__haitian_revolution",
+    "source": "toussaint_louverture",
+    "target": "haitian_revolution",
+    "type": "CAUSED",
+    "label": "led the military campaign that made the revolution possible",
+    "note": "Toussaint Louverture's military leadership from 1791 — defeating British and Spanish forces, maintaining revolutionary cohesion, and navigating competing imperial interests — was the decisive military factor in the Haitian Revolution's success. Without his generalship, the revolution would likely have been suppressed as earlier Caribbean slave revolts had been.",
+    "confidence": "high"
+  },
+  {
+    "id": "toussaint_louverture__nonviolent_resistance",
+    "source": "toussaint_louverture",
+    "target": "nonviolent_resistance",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Toussaint's political strategy combined force with negotiation — the opposite end of the resistance spectrum from Gandhi",
+    "note": "Toussaint and Gandhi represent the two poles of anti-colonial resistance strategy: Toussaint used armed force because Haiti's enslaved population faced conditions where nonviolent resistance was not viable; Gandhi used nonviolent resistance because British colonial rule was constrained enough to respond to moral pressure. Together they map the range of conditions under which different resistance strategies are appropriate.",
+    "confidence": "medium"
+  },
+  {
+    "id": "simon_bolivar__decolonization_independence_wave",
+    "source": "simon_bolivar",
+    "target": "decolonization_independence_wave",
+    "type": "ENABLED",
+    "label": "Bolívar's liberation campaigns were the 19th century decolonization wave in South America",
+    "note": "Bolívar's military campaigns (1810–1825) achieved independence for Venezuela, Colombia, Ecuador, Peru, and Bolivia — the 19th century's equivalent of the 20th century decolonization wave. His vision of a unified South American federation anticipated the pan-African and pan-Asian solidarity that later decolonization movements articulated.",
+    "confidence": "high"
+  },
+  {
+    "id": "simon_bolivar__decolonization_independence_wave_2",
+    "source": "simon_bolivar",
+    "target": "decolonization_independence_wave",
+    "type": "PRODUCED",
+    "label": "independence campaigns created national identities in post-colonial territories",
+    "note": "Bolívar's campaigns created not just independent states but national identities where none had previously existed — Venezuela, Colombia, Ecuador, Peru, and Bolivia each had to construct national identity from colonial raw material. This pattern — nationalism produced by anti-colonial struggle — recurred across the 20th century decolonization wave.",
+    "confidence": "high"
+  },
+  {
+    "id": "frederick_douglass__abolitionist_movement",
+    "source": "frederick_douglass",
+    "target": "abolitionist_movement",
+    "type": "ENABLED",
+    "label": "Douglass was the abolitionist movement's most powerful spokesperson",
+    "note": "Douglass's Narrative (1845) and his oratory made the abolitionist case undeniable in personal terms — here was the enslaved person whose intelligence, eloquence, and suffering refuted every proslavery argument. His 'What to the Slave is the Fourth of July?' speech is the movement's most devastating text.",
+    "confidence": "high"
+  },
+  {
+    "id": "frederick_douglass__souls_of_black_folk",
+    "source": "frederick_douglass",
+    "target": "souls_of_black_folk",
+    "type": "ENABLED",
+    "label": "Douglass established the tradition of Black intellectual self-assertion that Du Bois continued",
+    "note": "Du Bois's project in The Souls of Black Folk — asserting the intellectual and cultural depth of Black American life against racist denial — was a direct continuation of Douglass's project. Douglass demonstrated that a person born into slavery could become an intellectual and political leader; Du Bois theorized why that mattered.",
+    "confidence": "high"
+  },
+  {
+    "id": "harriet_tubman__abolitionist_movement",
+    "source": "harriet_tubman",
+    "target": "abolitionist_movement",
+    "type": "ENABLED",
+    "label": "Underground Railroad provided the operational infrastructure of practical abolitionism",
+    "note": "Tubman's Underground Railroad work was practical abolitionism — freeing people, not just arguing for freedom. Her work demonstrated that enslaved people's liberation was achievable through organized mutual aid and courage, making the abolitionist case not just morally but operationally.",
+    "confidence": "high"
+  },
+  {
+    "id": "harriet_tubman__mutual_aid",
+    "source": "harriet_tubman",
+    "target": "mutual_aid",
+    "type": "PRODUCED",
+    "label": "Underground Railroad was mutual aid under the most extreme possible conditions",
+    "note": "The Underground Railroad was mutual aid at life-or-death stakes: a network of people providing food, shelter, transportation, and safe passage to freedom at personal risk of imprisonment or death. It exemplifies the mutual aid mechanism operating under structural violence — when institutions deny protection, community networks fill the gap.",
+    "confidence": "high"
+  },
+  {
+    "id": "rosa_parks__civil_rights_movement",
+    "source": "rosa_parks",
+    "target": "civil_rights_movement",
+    "type": "CAUSED",
+    "label": "her arrest triggered the Montgomery Bus Boycott that launched the modern civil rights movement",
+    "note": "Parks's arrest on December 1, 1955 was the spark that ignited the Montgomery Bus Boycott — 381 days of economic pressure that desegregated Montgomery's buses, established the SCLC, and made King a national figure. The boycott is the founding event of the modern civil rights movement.",
+    "confidence": "high"
+  },
+  {
+    "id": "desmond_tutu__south_africa_trc",
+    "source": "desmond_tutu",
+    "target": "south_africa_trc",
+    "type": "CAUSED",
+    "label": "Tutu chaired the TRC and provided its moral framework",
+    "note": "Tutu's chairmanship was essential to the TRC's function and legitimacy — his ubuntu theology ('I am because we are') provided the philosophical framework for the TRC's emphasis on restored community over punitive justice, and his moral authority made the process credible to both victims and perpetrators.",
+    "confidence": "high"
+  },
+  {
+    "id": "desmond_tutu__end_of_apartheid_1994",
+    "source": "desmond_tutu",
+    "target": "end_of_apartheid_1994",
+    "type": "ENABLED",
+    "label": "led international sanctions campaign and provided moral leadership through the transition",
+    "note": "Tutu's call for international economic sanctions against apartheid — at personal risk, as a South African citizen — was the primary voice of internal moral opposition that reached international audiences. His Nobel Prize (1984) gave him the platform to keep apartheid on the international agenda until its end.",
+    "confidence": "high"
+  },
+  {
+    "id": "patrice_lumumba__decolonization_africa",
+    "source": "patrice_lumumba",
+    "target": "decolonization_africa",
+    "type": "ENABLED",
+    "label": "represented the possibility of genuine post-colonial sovereignty",
+    "note": "Lumumba was killed precisely because he represented what genuine independence from colonial economic structures would look like — a Congolese leader who intended to control Congolese resources for Congolese people. His assassination by Western powers is the paradigmatic case of neocolonialism: formal independence without actual sovereignty.",
+    "confidence": "high"
+  },
+  {
+    "id": "patrice_lumumba__cold_war",
+    "source": "patrice_lumumba",
+    "target": "cold_war",
+    "type": "PRODUCED",
+    "label": "his assassination was Cold War neocolonialism in its most naked form",
+    "note": "The CIA and Belgium's decision to eliminate Lumumba because he might align with the Soviets — even though he sought Western investment before being refused — exemplifies how Cold War logic converted anti-colonial leaders into pawns. The Congo's subsequent 32-year Mobutu dictatorship was the direct product of this Cold War calculation.",
+    "confidence": "high"
+  },
+  {
+    "id": "emma_goldman__labor_movement",
+    "source": "emma_goldman",
+    "target": "labor_movement",
+    "type": "ENABLED",
+    "label": "theorized the political philosophy of worker liberation beyond trade unionism",
+    "note": "Goldman's anarchism extended labor politics beyond collective bargaining to challenge the entire structure of capitalist authority — not just better wages but abolition of the wage relationship. Her writings gave the labor movement's most radical wing its philosophical vocabulary.",
+    "confidence": "high"
+  },
+  {
+    "id": "emma_goldman__second_wave_feminism",
+    "source": "emma_goldman",
+    "target": "second_wave_feminism",
+    "type": "ENABLED",
+    "label": "integrated women's liberation into political radicalism 50 years before second-wave feminism",
+    "note": "Goldman advocated for birth control, sexual freedom, and women's economic independence in the 1890s–1910s — positions that second-wave feminism rediscovered in the 1960s. Her integration of feminist demands into broader anti-capitalist politics anticipated the radical feminist argument that women's liberation requires structural economic change.",
+    "confidence": "high"
+  },
+  {
+    "id": "germ_theory_of_disease__sanitation_revolution_19c",
+    "source": "germ_theory_of_disease",
+    "target": "sanitation_revolution_19c",
+    "type": "ENABLED",
+    "label": "germ theory provided the scientific basis for why sanitation works",
+    "note": "Before germ theory, sanitation reformers (Snow, Chadwick) worked empirically — they knew filthy conditions correlated with disease without understanding why. Germ theory provided the causal mechanism: specific pathogens in contaminated water caused specific diseases. This converted sanitation from empirical intervention to theoretically grounded policy.",
+    "confidence": "high"
+  },
+  {
+    "id": "germ_theory_of_disease__global_vaccination_campaigns",
+    "source": "germ_theory_of_disease",
+    "target": "global_vaccination_campaigns",
+    "type": "ENABLED",
+    "label": "germ theory established why vaccines work — what they protect against",
+    "note": "Vaccination (Jenner, 1796) preceded germ theory, but germ theory explained its mechanism: vaccines produce immunity against specific pathogens. This theoretical coherence enabled the development of new vaccines for newly identified pathogens (tuberculosis, typhoid, cholera, polio) and the scientific basis for global vaccination programs.",
+    "confidence": "high"
+  },
+  {
+    "id": "germ_theory_of_disease__scientific_method",
+    "source": "germ_theory_of_disease",
+    "target": "scientific_method",
+    "type": "PRODUCED",
+    "label": "Koch's postulates established the scientific method's application to disease causation",
+    "note": "Koch's four postulates (1884) — specifying what evidence is required to establish a microorganism as the cause of a disease — were an early formalization of the scientific method applied to biology. They set the standard for causal inference in medicine and prefigured the randomized controlled trial as the gold standard for intervention efficacy.",
+    "confidence": "high"
+  },
+  {
+    "id": "mental_health_movement__mass_incarceration",
+    "source": "mental_health_movement",
+    "target": "mass_incarceration",
+    "type": "ENABLED",
+    "label": "deinstitutionalization without community support drove mentally ill people into prisons",
+    "note": "Deinstitutionalization closed psychiatric institutions but failed to build the community mental health centers promised as replacements. The result was that people with serious mental illness ended up in jails and prisons — now the largest providers of mental health 'care' in the U.S. Los Angeles County Jail is the largest psychiatric facility in America. Deinstitutionalization's failure exemplifies how dismantling a bad system without building a better one creates worse outcomes.",
+    "confidence": "high"
+  },
+  {
+    "id": "mental_health_movement__harm_reduction",
+    "source": "mental_health_movement",
+    "target": "harm_reduction",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both reject criminalization and moralization in favor of evidence-based care",
+    "note": "Mental health rights and harm reduction share a core principle: that suffering requires care, not punishment or moral judgment. Both movements challenged systems that responded to mental illness and addiction with incarceration and shame rather than treatment and support. Both argue that autonomy and dignity are preconditions for effective care.",
+    "confidence": "high"
+  },
+  {
+    "id": "scientific_method__germ_theory_of_disease",
+    "source": "scientific_method",
+    "target": "germ_theory_of_disease",
+    "type": "PRODUCED",
+    "label": "Koch's postulates applied the scientific method to disease causation",
+    "note": "Germ theory was the scientific method applied to medicine's most important question — what causes infectious disease. Pasteur's controlled experiments disproving spontaneous generation, Koch's systematic isolation of specific pathogens, and Lister's antiseptic surgery trials were all applications of the scientific method producing revolutionary medical knowledge.",
+    "confidence": "high"
+  },
+  {
+    "id": "scientific_method__broken_epistemology",
+    "source": "scientific_method",
+    "target": "broken_epistemology",
+    "type": "DISCREDITED",
+    "label": "adversarial peer review is the institutional defense against epistemological failure",
+    "note": "Broken epistemology — the loss of shared capacity to identify truth — is countered most effectively by functioning scientific institutions. The scientific method's adversarial structure (peer review, replication requirement, pre-registration, conflicts of interest disclosure) is specifically designed to catch error and deception. Its degradation accelerates epistemological failure.",
+    "confidence": "high"
+  },
+  {
+    "id": "community_land_trusts__global_poverty_decline",
+    "source": "community_land_trusts",
+    "target": "global_poverty_decline",
+    "type": "ENABLED",
+    "label": "CLTs demonstrate that decommodifying land can stabilize communities at risk of displacement",
+    "note": "Land value inflation is a primary mechanism of poverty generation — rising land costs displace low-income residents from neighborhoods where employment exists. CLTs interrupt this mechanism by permanently removing land from speculative markets, demonstrating that affordability can be structurally preserved rather than repeatedly subsidized.",
+    "confidence": "medium"
+  },
+  {
+    "id": "community_land_trusts__mutual_aid",
+    "source": "community_land_trusts",
+    "target": "mutual_aid",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both operate outside both state and market to provide community resources",
+    "note": "CLTs and mutual aid networks both create community-controlled resources that operate outside both state dependency and market extraction — they are horizontal, community-governed, and designed for long-term sustainability rather than immediate transaction. CLTs institutionalize mutual aid's land-sharing function.",
+    "confidence": "medium"
+  },
+  {
+    "id": "universal_basic_income__global_poverty_decline",
+    "source": "universal_basic_income",
+    "target": "global_poverty_decline",
+    "type": "ENABLED",
+    "label": "unconditional cash transfers are the most direct mechanism for poverty reduction",
+    "note": "GiveDirectly's research in Kenya — giving unconditional cash to the extreme poor — produces measurable, durable poverty reduction with no reduction in work effort and better outcomes than in-kind aid. This is the microeconomic case for UBI: people spend money on what they actually need more effectively than external programs can predict.",
+    "confidence": "high"
+  },
+  {
+    "id": "universal_basic_income__automation_inequality",
+    "source": "universal_basic_income",
+    "target": "wealth_concentration",
+    "type": "DISCREDITED",
+    "label": "UBI proposed as structural response to automation-driven wealth concentration",
+    "note": "As automation reduces labor demand and concentrates productivity gains in capital owners, UBI is proposed as the mechanism for redistributing these gains — converting productivity growth into universal welfare rather than concentrated wealth. It decouples survival from employment in an economy where employment may become structurally insufficient.",
+    "confidence": "medium"
+  },
+  {
+    "id": "glory_1989__lost_cause_mythology",
+    "source": "glory_1989",
+    "target": "lost_cause_mythology",
+    "type": "DISCREDITED",
+    "label": "restored Black Civil War soldiers to history the Lost Cause had erased",
+    "note": "The Lost Cause mythology had systematically erased Black soldiers from Civil War memory — the narrative required that the war was fought by white men, not that 180,000 Black soldiers helped win Union victory. Glory directly confronted this erasure, reaching mass audiences with the documented history of the 54th Massachusetts.",
+    "confidence": "high"
+  },
+  {
+    "id": "glory_1989__empathy",
+    "source": "glory_1989",
+    "target": "empathy",
+    "type": "PRODUCED",
+    "label": "made Black Civil War soldiers' experience emotionally present for mainstream audiences",
+    "note": "Glory activated empathy for Black soldiers whose valor and sacrifice had been invisible in popular culture — making their terror, commitment, and death real for audiences conditioned by decades of Civil War films that centered white Confederate and Union soldiers. Denzel Washington's Oscar-winning performance was the vehicle.",
+    "confidence": "high"
+  },
+  {
+    "id": "selma_2014__voting_rights_act_1965",
+    "source": "selma_2014",
+    "target": "voting_rights_act_1965",
+    "type": "PRODUCED",
+    "label": "film restored public understanding of how the VRA was won",
+    "note": "Selma was released the year after Shelby County v. Holder gutted the Voting Rights Act, making its subject — how the VRA was fought for — newly urgent. By depicting the strategic logic of the Selma campaign (provoke state violence to build political pressure), the film made visible the human cost behind what the Supreme Court had just treated as no longer necessary.",
+    "confidence": "high"
+  },
+  {
+    "id": "selma_2014__civil_rights_movement",
+    "source": "selma_2014",
+    "target": "civil_rights_movement",
+    "type": "PRODUCED",
+    "label": "first major Hollywood film to depict King's strategic leadership",
+    "note": "Previous civil rights films depicted King as a moral icon; Selma depicted him as a strategist — making tactical decisions, managing coalition tensions, negotiating with LBJ, calculating which confrontations to seek and which to avoid. This more complex portrayal made the movement's achievements comprehensible as products of strategy rather than moral inspiration alone.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_panther_2018__dehumanization",
+    "source": "black_panther_2018",
+    "target": "dehumanization",
+    "type": "DISCREDITED",
+    "label": "provided a counter-image of African civilization that dehumanization had suppressed",
+    "note": "Dehumanization's most persistent application to Africa has been the 'dark continent' narrative — Africa as place of poverty, chaos, and backwardness requiring Western intervention. Black Panther's Wakanda — a thriving, technologically advanced African civilization — was a direct counter-image. For children who saw it, it supplied an alternative to the dehumanizing African imagery that Western media had normalized.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_panther_2018__moral_circle_expansion",
+    "source": "black_panther_2018",
+    "target": "moral_circle_expansion",
+    "type": "ENABLED",
+    "label": "expanded what mainstream audiences could imagine as African and Black achievement",
+    "note": "Moral circle expansion operates partly through expanding what is imaginable — what kinds of people can be heroes, leaders, geniuses, protectors. Black Panther expanded the imaginative space available to Black children and to non-Black audiences simultaneously, performing the cognitive work that moral circle expansion requires.",
+    "confidence": "high"
+  },
+  {
+    "id": "crip_camp_2020__ada_1990",
+    "source": "crip_camp_2020",
+    "target": "ada_1990",
+    "type": "PRODUCED",
+    "label": "documentary revealed the organizing that produced the ADA",
+    "note": "Crip Camp documented the direct line from Camp Jened's disabled campers in the 1970s to the Section 504 sit-in (1977) to the Capitol Crawl and ADA (1990) — a causal chain in which the same community of people, radicalized at camp, organized the movement that produced landmark legislation.",
+    "confidence": "high"
+  },
+  {
+    "id": "crip_camp_2020__moral_circle_expansion",
+    "source": "crip_camp_2020",
+    "target": "moral_circle_expansion",
+    "type": "ENABLED",
+    "label": "film expanded mainstream awareness that disability rights is a civil rights movement",
+    "note": "Most non-disabled Americans understood the ADA as accommodation policy rather than civil rights achievement. Crip Camp reframed it: disabled people organized, sat in, crawled up Capitol steps, and forced Congress to recognize their rights. This reframing — from charity to rights — is precisely the cognitive work moral circle expansion requires.",
+    "confidence": "high"
+  },
+  {
+    "id": "rohingya_genocide__dehumanization",
+    "source": "rohingya_genocide",
+    "target": "dehumanization",
+    "type": "PRODUCED",
+    "label": "years of anti-Rohingya dehumanization in Myanmar media preceded the genocide",
+    "note": "UN investigators found that Facebook's algorithmic amplification of hate speech describing Rohingya as 'dogs' and 'snakes' was a direct contributing factor to the 2017 ethnic cleansing. This is a documented contemporary case of social media as a dehumanization accelerator — the mechanism that enabled genocide operating in near-real-time.",
+    "confidence": "high"
+  },
+  {
+    "id": "rohingya_genocide__international_criminal_court",
+    "source": "rohingya_genocide",
+    "target": "international_criminal_court",
+    "type": "ENABLED",
+    "label": "ICJ ordered Myanmar to protect Rohingya, testing international accountability mechanisms",
+    "note": "The ICJ's 2020 provisional measures ordering Myanmar to protect the Rohingya tested the international legal accountability system established post-Holocaust. The case demonstrated both the potential and the limits of international justice: orders were issued, but enforcement required political will that was unevenly present.",
+    "confidence": "high"
+  },
+  {
+    "id": "long_covid__aids_crisis",
+    "source": "long_covid",
+    "target": "aids_crisis",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both revealed medical establishment's failure to take patient-reported post-viral syndromes seriously",
+    "note": "Long COVID's struggle for medical recognition — initially dismissed as psychosomatic, advocates having to organize to force research funding — directly paralleled the AIDS crisis's early history: a new disease disproportionately affecting marginalized people, dismissed by the medical establishment, requiring patient activism to force a response. ACT UP veterans explicitly connected the two.",
+    "confidence": "high"
+  },
+  {
+    "id": "long_covid__public_health_infrastructure",
+    "source": "long_covid",
+    "target": "public_health_infrastructure",
+    "type": "PRODUCED",
+    "label": "revealed the degradation of public health infrastructure that allowed COVID to spread at scale",
+    "note": "Long COVID's scale — affecting potentially 15-20 million Americans — was partly a product of COVID's scale, which was itself a product of degraded public health infrastructure: defunded state health departments, no pandemic stockpile, delayed recognition. The chronic disease burden long COVID created was therefore partly a product of public health infrastructure failure.",
+    "confidence": "high"
+  },
+  {
+    "id": "defund_police_debate__mass_incarceration",
+    "source": "defund_police_debate",
+    "target": "mass_incarceration",
+    "type": "DISCREDITED",
+    "label": "surfaced the question of whether policing is the appropriate response to poverty-driven harm",
+    "note": "The defund debate made explicit what criminology research had documented: a significant portion of police calls involve mental health crises, substance abuse, homelessness, and domestic disputes — problems rooted in poverty and inequality that policing cannot address. The debate asked whether reallocating resources from policing to prevention and social services would reduce both crime and incarceration.",
+    "confidence": "high"
+  },
+  {
+    "id": "defund_police_debate__police_brutality",
+    "source": "defund_police_debate",
+    "target": "police_brutality",
+    "type": "PRODUCED",
+    "label": "debate emerged directly from the 2020 wave of documented police killings",
+    "note": "George Floyd's murder and the broader wave of documented police killings in 2020 produced a political crisis that generated the defund debate — the movement argued that incremental reform had failed and that structural change (resource reallocation) was the necessary response. The debate was the political form that the Black Lives Matter movement's analysis of police violence took.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_death_social_impact__class_consciousness",
+    "source": "black_death_social_impact",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "labor shortage gave surviving peasants bargaining power — producing class consciousness",
+    "note": "The Black Death killed 30-50% of Europe's population, creating a massive labor shortage that gave surviving peasants unprecedented bargaining power. This power shift produced class consciousness: peasants who had previously accepted serfdom as natural began demanding wages, mobility, and freedom — the Peasants' Revolt (1381) was the organized expression of this new consciousness.",
+    "confidence": "high"
+  },
+  {
+    "id": "mongol_conquests__structural_violence",
+    "source": "mongol_conquests",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "label": "Mongol conquests destroyed existing state structures and populations at unprecedented scale",
+    "note": "The Mongol conquests (1206–1368) killed an estimated 40 million people — perhaps 10% of the world's population — and destroyed the sophisticated urban and agricultural civilizations of Central Asia, Persia, and China. Baghdad's 1258 destruction ended the Islamic Golden Age. The conquests represent structural violence at continental scale: deliberate destruction of the institutions, infrastructure, and populations that sustained civilizations.",
+    "confidence": "high"
+  },
+  {
+    "id": "mongol_conquests__imperialism",
+    "source": "mongol_conquests",
+    "target": "imperialism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "largest land empire in history established through conquest and extraction",
+    "note": "The Mongol Empire shares imperialism's core mechanism — military conquest followed by extraction of tribute and resources from subjugated peoples — but differs in scale, speed, and organizational form. Where European imperialism operated through administrative colonialism and racial ideology, Mongol imperialism operated through direct military dominance and tax extraction, often preserving existing administrative structures.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war__manufactured_consent",
+    "source": "cold_war",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "label": "Cold War anti-communism provided the ideological cover for suppressing domestic dissent",
+    "note": "The Cold War's manufactured consent operated domestically: anti-communism was used to discredit labor organizers, civil rights leaders, intellectuals, and peace activists as Soviet tools. The FBI's COINTELPRO specifically exploited Cold War framing to neutralize movements the government considered threatening, regardless of any actual Soviet connection.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war__propaganda",
+    "source": "cold_war",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "label": "Cold War produced the most systematic peacetime propaganda operations in democratic history",
+    "note": "Both superpowers ran industrial-scale propaganda during the Cold War: the CIA's Congress for Cultural Freedom funded cultural organizations, magazines, and art programs; the USIA broadcast Voice of America; Hollywood was enlisted. This was propaganda operating within ostensibly free societies — more sophisticated than WWII propaganda because it worked through apparently independent civil society channels.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_migration__systemic_racism",
+    "source": "great_migration",
+    "target": "systemic_racism",
+    "type": "PRODUCED",
+    "label": "migration revealed systemic racism as national, not Southern",
+    "note": "The Great Migration (1910–1970) of 6 million Black Americans to Northern cities revealed that systemic racism was national rather than Southern: Northern cities had redlining, housing segregation, employment discrimination, and police brutality. The migration produced the conditions that made the Northern civil rights movement necessary and revealed that the South's Jim Crow was an extreme expression of a national structure.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_migration__class_consciousness",
+    "source": "great_migration",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "urban industrial work built Black class consciousness and union membership",
+    "note": "The Great Migration brought Black Americans into industrial work — steel mills, meatpacking plants, auto factories — where they joined unions and developed working-class consciousness alongside white workers. This produced both interracial labor solidarity (CIO unions) and racial tension (when Black workers were used as strikebreakers). The migration's urban industrial context was the material basis for the Harlem Renaissance and later Black political organization.",
+    "confidence": "high"
+  },
+  {
+    "id": "debt_jubilee__student_debt_crisis",
+    "source": "debt_jubilee",
+    "target": "student_debt_crisis",
+    "type": "DISCREDITED",
+    "label": "debt jubilee proposed as response to student debt's structural intractability",
+    "note": "Student debt cancellation debates explicitly invoked the debt jubilee concept — the recognition that some debt loads are structurally unpayable and that periodic cancellation prevents debt from becoming permanent servitude. The jubilee framing reframed cancellation from a gift to debtors to a structural correction of a system that had over-extracted.",
+    "confidence": "high"
+  },
+  {
+    "id": "debt_jubilee__resource_extraction",
+    "source": "debt_jubilee",
+    "target": "resource_extraction",
+    "type": "DISCREDITED",
+    "label": "Global South debt jubilee campaigns challenged debt as mechanism of continued extraction",
+    "note": "The Jubilee 2000 campaign for cancellation of sub-Saharan African sovereign debt argued that the debt itself was an instrument of continued extraction: loans made under corrupt or coercive conditions to governments that used them against their own people, now requiring austerity from populations who received no benefit. Jubilee framed debt cancellation as decolonization.",
+    "confidence": "high"
+  },
+  {
+    "id": "war_on_drugs__structural_violence",
+    "source": "war_on_drugs",
+    "target": "structural_violence",
+    "type": "ENABLED",
+    "label": "targeted enforcement converted drug use in Black communities into structural disadvantage",
+    "note": "The War on Drugs was waged disproportionately in Black communities despite equivalent drug use rates across racial groups. Felony records from drug convictions then triggered cascading structural disadvantages: employment discrimination, housing denial, voting disenfranchisement, student loan ineligibility. The drug war was structural violence executed through facially neutral criminal law.",
+    "confidence": "high"
+  },
+  {
+    "id": "gerrymandering__democratic_accountability",
+    "source": "gerrymandering",
+    "target": "democratic_accountability",
+    "type": "DISCREDITED",
+    "label": "partisan gerrymandering insulates representatives from electoral accountability",
+    "note": "Gerrymandering's purpose is to remove democratic accountability: by drawing districts where a party wins regardless of vote share, it ensures incumbents face no competitive election. When incumbents are safe from voters, democratic accountability collapses — representatives optimize for primary voters and donors rather than the general electorate.",
+    "confidence": "high"
+  },
+  {
+    "id": "gerrymandering__voter_suppression",
+    "source": "gerrymandering",
+    "target": "voter_suppression",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are electoral manipulation mechanisms that concentrate political power",
+    "note": "Gerrymandering and voter suppression are complementary mechanisms for electoral manipulation: gerrymandering shapes which votes count through district design; voter suppression shapes who votes through access barriers. Both work by converting formal democratic systems into tools of minority rule.",
+    "confidence": "high"
+  },
+  {
+    "id": "citizens_united__dark_money_politics",
+    "source": "citizens_united",
+    "target": "dark_money_politics",
+    "type": "CAUSED",
+    "label": "Citizens United enabled unlimited anonymous corporate spending in elections",
+    "note": "Citizens United v. FEC (2010) held that corporations have First Amendment rights to unlimited independent political spending. Combined with subsequent rulings, it enabled 'dark money' — politically active nonprofits that don't disclose donors — to flood U.S. elections. Political spending by outside groups grew from $143M (2008) to $1.4B (2012) to $3.4B (2020).",
+    "confidence": "high"
+  },
+  {
+    "id": "citizens_united__regulatory_capture",
+    "source": "citizens_united",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "unlimited corporate political spending accelerates regulatory capture through electoral channel",
+    "note": "Citizens United's removal of limits on corporate political spending enabled a new mechanism of regulatory capture: corporations can now threaten or reward legislators directly through electoral spending, creating the same captured relationship that industry-regulator revolving doors produce but through the electoral channel.",
+    "confidence": "high"
+  },
+  {
+    "id": "military_industrial_complex__democratic_accountability",
+    "source": "military_industrial_complex",
+    "target": "democratic_accountability",
+    "type": "DISCREDITED",
+    "label": "revolving door and classified budgets remove defense spending from democratic scrutiny",
+    "note": "The military-industrial complex escapes democratic accountability through two mechanisms: classification (defense spending details unavailable to public or most legislators) and revolving door capture (defense contractors employ former officials and fund campaigns, creating captured oversight). Eisenhower identified this accountability failure in his 1961 farewell address.",
+    "confidence": "high"
+  },
+  {
+    "id": "surveillance_state__democratic_accountability",
+    "source": "surveillance_state",
+    "target": "democratic_accountability",
+    "type": "DISCREDITED",
+    "label": "covert surveillance programs are structurally immune to democratic accountability",
+    "note": "Surveillance programs conducted in classified secrecy — NSA mass surveillance, FBI COINTELPRO — cannot be democratically accountable because democratic accountability requires public knowledge. The democratic system that was supposed to oversee surveillance (FISA court, congressional intelligence committees) became a legitimizing rubber stamp rather than genuine oversight.",
+    "confidence": "high"
+  },
+  {
+    "id": "voter_suppression_modern__democratic_accountability",
+    "source": "voter_suppression_modern",
+    "target": "democratic_accountability",
+    "type": "DISCREDITED",
+    "label": "voter suppression removes the mechanism by which democratic accountability operates",
+    "note": "Democratic accountability operates through elections: if voters cannot hold representatives accountable, the mechanism fails. Modern voter suppression — purges, ID requirements targeting the poor and minorities, reduced polling locations — is therefore not merely an electoral injustice but a dismantling of the mechanism that makes democracy functional.",
+    "confidence": "high"
+  },
+  {
+    "id": "neoliberalism__democratic_accountability",
+    "source": "neoliberalism",
+    "target": "democratic_accountability",
+    "type": "DISCREDITED",
+    "label": "market fundamentalism transfers decisions from democratic to market processes",
+    "note": "Neoliberalism's core project is to remove decisions from democratic accountability and transfer them to markets — privatization converts public choices into market transactions; trade agreements lock in economic policy against democratic reversal; independent central banks insulate monetary policy from elections. The result is that economic policy — the domain that most directly affects people's lives — is systematically removed from democratic control.",
+    "confidence": "high"
+  },
+  {
+    "id": "right_wing_populism__democratic_accountability",
+    "source": "right_wing_populism",
+    "target": "democratic_accountability",
+    "type": "DISCREDITED",
+    "label": "attacks 'establishment' institutions that are actually accountability mechanisms",
+    "note": "Right-wing populism targets media ('fake news'), courts ('activist judges'), election officials ('rigged elections'), and civil service ('deep state') — precisely the institutions that constitute democratic accountability. By delegitimizing accountability mechanisms as elite conspiracy, it removes the friction that prevents executive power from becoming unchecked.",
+    "confidence": "high"
+  },
+  {
+    "id": "cointelpro__civil_society",
+    "source": "cointelpro",
+    "target": "civil_society",
+    "type": "DISCREDITED",
+    "label": "COINTELPRO systematically attacked the civil society organizations building progressive power",
+    "note": "COINTELPRO's primary targets — SCLC, SNCC, Black Panthers, American Indian Movement, Socialist Workers Party — were civil society organizations. The program disrupted their internal functioning, discredited their leaders, incited violence between groups, and manufactured legal problems. It understood that civil society organizations are the infrastructure of democratic opposition.",
+    "confidence": "high"
+  },
+  {
+    "id": "tea_party_movement__coalition_building",
+    "source": "tea_party_movement",
+    "target": "coalition_building",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Tea Party demonstrated that grassroots organizing works for the right as well as the left",
+    "note": "The Tea Party (2009–2010) was a right-wing demonstration of grassroots organizing's effectiveness: precinct-level organizing, primary challenges to incumbent Republicans, and town hall pressure campaigns produced an 63-seat House gain in 2010. It demonstrated that coalition building and grassroots organizing are politically neutral mechanisms — available to any organized political force.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_lives_matter__grassroots_organizing",
+    "source": "black_lives_matter",
+    "target": "grassroots_organizing",
+    "type": "ENABLED",
+    "label": "BLM demonstrated leaderless distributed organizing at national scale",
+    "note": "BLM's organizational model — decentralized, non-hierarchical, social-media-coordinated — was a new form of grassroots organizing adapted to digital infrastructure. It showed that mass political mobilization could occur without a central organization, though critics argued this decentralization also limited its ability to translate protest into durable political power.",
+    "confidence": "high"
+  },
+  {
+    "id": "reconstruction_era__democratic_accountability",
+    "source": "reconstruction_era",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "label": "Reconstruction's multi-racial democracy was the first genuine democratic accountability in the South",
+    "note": "Reconstruction (1865–1877) produced the first genuinely democratic governments in Southern U.S. history: biracial legislatures, Black congressmen and senators, and public officials accountable to Black voters for the first time. Its overthrow by KKK terrorism and Northern Republican abandonment is the most dramatic case in U.S. history of a functioning democratic accountability system being destroyed.",
+    "confidence": "high"
   }
 ]

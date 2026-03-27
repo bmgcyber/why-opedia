@@ -997,5 +997,84 @@
       "1940s",
       "diary"
     ]
+  },
+  {
+    "id": "glory_1989",
+    "label": "Glory (1989)",
+    "node_type": "artifact",
+    "category": "artifact",
+    "decade": "1980s",
+    "scope": "global/art",
+    "cross_scope": false,
+    "summary": "Edward Zwick's 1989 film depicting the 54th Massachusetts Infantry, one of the first Black military units in the U.S. Civil War. Starring Denzel Washington (Academy Award, Best Supporting Actor) and Morgan Freeman. The film restored to mainstream consciousness the 180,000 Black soldiers who fought in the Civil War — whose contributions had been systematically erased from popular Civil War narratives dominated by the Lost Cause. It demonstrated that Black military valor and sacrifice had shaped American history in ways the dominant culture had suppressed, and became one of the most widely used films in American history education.",
+    "tags": [
+      "film",
+      "civil war",
+      "african american",
+      "military",
+      "54th massachusetts",
+      "denzel washington",
+      "1989"
+    ]
+  },
+  {
+    "id": "selma_2014",
+    "label": "Selma (2014)",
+    "node_type": "artifact",
+    "category": "artifact",
+    "decade": "2010s",
+    "scope": "global/art",
+    "cross_scope": false,
+    "summary": "Ava DuVernay's 2014 film depicting the 1965 Selma-to-Montgomery voting rights marches, focusing on Martin Luther King Jr.'s strategic leadership of the campaign. The first major Hollywood film to center King as a protagonist. Significant for depicting civil rights strategy — the deliberate provocation of state violence to generate national political pressure — rather than simply civil rights heroism. Released the same year as Michael Brown's killing in Ferguson, the film connected 1965 to 2014, demonstrating the continuity of the struggle for Black civic inclusion. DuVernay became the first Black woman to direct a Best Picture Oscar nominee.",
+    "tags": [
+      "film",
+      "civil rights",
+      "mlk",
+      "selma",
+      "voting rights",
+      "ava duvernay",
+      "2014",
+      "historical"
+    ]
+  },
+  {
+    "id": "black_panther_2018",
+    "label": "Black Panther (2018)",
+    "node_type": "artifact",
+    "category": "artifact",
+    "decade": "2010s",
+    "scope": "global/art",
+    "cross_scope": false,
+    "summary": "Ryan Coogler's 2018 Marvel film depicting Wakanda, a fictional African nation that was never colonized and developed advanced technology in isolation. Grossed $1.3 billion globally; the highest-grossing film by a Black director at the time. The film's cultural significance extended well beyond entertainment: it provided millions of Black viewers — especially children — with a vision of African brilliance, dignity, and power unconditioned by colonial history. The contrast between Wakanda's thriving civilization and the 'Africa = poverty' trope in Western media was its explicit political argument. The phrase 'Wakanda Forever' became a cultural touchstone for Black pride globally.",
+    "tags": [
+      "film",
+      "african american",
+      "africa",
+      "representation",
+      "marvel",
+      "ryan coogler",
+      "2018",
+      "black culture"
+    ]
+  },
+  {
+    "id": "crip_camp_2020",
+    "label": "Crip Camp (2020)",
+    "node_type": "artifact",
+    "category": "artifact",
+    "decade": "2020s",
+    "scope": "global/art",
+    "cross_scope": false,
+    "summary": "Barack and Michelle Obama-produced documentary about Camp Jened, a disability summer camp in the 1970s whose alumni became key organizers of the disability rights movement — leading directly to the Section 504 protests (1977) and the ADA (1990). The film restored to public consciousness the radical disability rights organizing that produced the ADA — a movement the mainstream civil rights narrative had largely overlooked. It made visible the argument that disability is not a personal tragedy but a civil rights issue, and that disabled people are the experts on their own needs and rights.",
+    "tags": [
+      "film",
+      "documentary",
+      "disability rights",
+      "ada",
+      "section 504",
+      "civil rights",
+      "2020",
+      "obama"
+    ]
   }
 ]

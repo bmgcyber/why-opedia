@@ -2981,5 +2981,60 @@
       "voting",
       "civil society"
     ]
+  },
+  {
+    "id": "scientific_method",
+    "label": "Scientific Method",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "summary": "The iterative process of empirical investigation: observation, hypothesis formation, experimental testing, peer review, and revision based on evidence. Its power is adversarial: it is specifically designed to defeat confirmation bias by requiring that hypotheses be stated in falsifiable form and tested against conditions that could disprove them. Francis Bacon formalized inductive method; Karl Popper's falsificationism clarified the demarcation criterion. The scientific method is the most reliable epistemological process humans have developed for generating knowledge about causal relationships — and its products (vaccines, antibiotics, structural engineering) demonstrate its efficacy. Its limitations are that it works poorly for non-repeatable historical events and that social incentives can corrupt its practice.",
+    "tags": [
+      "science",
+      "epistemology",
+      "empiricism",
+      "falsification",
+      "popper",
+      "bacon",
+      "knowledge",
+      "method"
+    ]
+  },
+  {
+    "id": "community_land_trusts",
+    "label": "Community Land Trusts",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "summary": "A model of permanently affordable housing in which a nonprofit organization holds land in trust, selling or renting homes to low- and moderate-income residents while retaining land ownership — thereby removing the land from the speculative market permanently. Residents own improvements but not land; resale prices are limited by formula, keeping homes affordable in perpetuity. Originated in the U.S. civil rights movement (New Communities Inc., Georgia, 1969); now ~300 CLTs operate in the U.S. plus dozens internationally. CLTs demonstrate that affordability can be institutionalized rather than subsidized repeatedly — by decommodifying land, they break the cycle in which public subsidy is captured by rising land values.",
+    "tags": [
+      "housing",
+      "affordability",
+      "land",
+      "inequality",
+      "community",
+      "cooperative",
+      "civil rights"
+    ]
+  },
+  {
+    "id": "universal_basic_income",
+    "label": "Universal Basic Income",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "summary": "A regular unconditional cash payment to all citizens regardless of employment status or income. Supported across the political spectrum: libertarians see it replacing a bureaucratic welfare state; progressives see it providing a floor against poverty and economic disruption. Pilot programs in Finland (2017–2018), Kenya (GiveDirectly), Stockton CA (2019), and elsewhere have documented positive effects: improved mental health, increased economic activity, and no reduction in work effort. Proponents argue it becomes essential as automation reduces labor demand; critics question financing and macroeconomic effects. The debate is one of the most important in contemporary economics.",
+    "tags": [
+      "economics",
+      "poverty",
+      "welfare",
+      "automation",
+      "inequality",
+      "policy",
+      "cash transfers"
+    ]
   }
 ]

@@ -688,5 +688,45 @@
       "policy",
       "1980s"
     ]
+  },
+  {
+    "id": "germ_theory_of_disease",
+    "label": "Germ Theory of Disease",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1850s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "summary": "The scientific revolution establishing that infectious diseases are caused by specific microorganisms — bacteria, viruses, fungi, parasites — rather than miasma ('bad air') or moral failing. Louis Pasteur's germ theory (1850s–60s), Robert Koch's identification of specific pathogens (anthrax 1876, tuberculosis 1882, cholera 1883), and Joseph Lister's antiseptic surgery (1867) were the foundational contributions. Germ theory is the intellectual foundation of all modern medicine: it made vaccines, antibiotics, sterile surgery, and public health infrastructure theoretically coherent. Before it, medicine was largely ineffective; after it, the elimination of major killers became possible.",
+    "tags": [
+      "medicine",
+      "pasteur",
+      "koch",
+      "lister",
+      "science",
+      "public health",
+      "1850s",
+      "1860s",
+      "microbiology"
+    ]
+  },
+  {
+    "id": "mental_health_movement",
+    "label": "Mental Health Rights Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1960s",
+    "scope": "global/health",
+    "cross_scope": false,
+    "summary": "The movement challenging the institutionalization of people with mental illness and advocating for rights-based community care. Erving Goffman's 'Asylums' (1961) exposed psychiatric institutions as total institutions that manufactured chronicity; Thomas Szasz's 'The Myth of Mental Illness' (1961) challenged psychiatric power; the patient rights movement organized around informed consent, least-restrictive treatment, and the right to refuse medication. Deinstitutionalization (1960s–1980s) released hundreds of thousands of psychiatric patients — though without adequate community support, many ended up homeless or incarcerated. The movement established that mental illness is a civil rights issue, not merely a medical management problem.",
+    "tags": [
+      "mental health",
+      "psychiatry",
+      "deinstitutionalization",
+      "civil rights",
+      "disability",
+      "goffman",
+      "1960s"
+    ]
   }
 ]

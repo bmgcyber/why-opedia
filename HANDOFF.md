@@ -95,20 +95,20 @@ data/
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-03-27, Session 8)
+## CURRENT DATASET STATE (as of 2026-03-27, Session 10)
 
 | Scope | Nodes | Edges |
 |-------|-------|-------|
-| History | **527** | **1008** |
-| Economics | 45 | 102 |
+| History | **549** | **1008** |
+| Economics | 46 | 102 |
 | Politics | 116 | 325 |
 | Psychology | 43 | 107 |
 | Media | 31 | 82 |
-| Health | 35 | 84 |
-| Art & Culture | 49 | 26 |
-| Mechanisms | **152** | **1578** (cross-scope) |
-| **Person nodes (history)** | **~229** | — |
-| **Total nodes** | **~960** | **~3312** |
+| Health | 37 | 84 |
+| Art & Culture | 53 | 26 |
+| Mechanisms | **160** | **1690** (cross-scope) |
+| **Person nodes (history)** | **~244** | — |
+| **Total nodes** | **~994** | **~3424** |
 
 **Data integrity:** 0 broken edge references. Verified 2026-03-27.
 
@@ -210,9 +210,9 @@ Added potosi_silver_mines, encomienda_system, tlaxcalan_alliance, mississippian_
 ### Priority 6 — Ottoman Deep Cuts ✓ DONE (Session 4)
 Added tanzimat_reforms, ottoman_debt_crisis, greek_war_of_independence, young_turks_movement, balkan_wars_1912, talaat_pasha, ataturk.
 
-### Priority 7 — 2020s & Contemporary Depth ✓ MOSTLY DONE (Session 4)
-Added: ferguson_protests_2014, black_lives_matter, breonna_taylor_killing, january_6_capitol_riot, covid_vaccine_hesitancy, ai_large_language_models, surveillance_state_china, myanmar_coup_2021, xi_jinping, aung_san_suu_kyi, volodymyr_zelensky.
-- **Still missing:** `ethiopia_tigray_war`, `haiti_political_collapse`, `defund_police_debate`, `long_covid`, `rohingya_genocide`
+### Priority 7 — 2020s & Contemporary Depth ✓ DONE (Session 10)
+Added all remaining: rohingya_genocide, long_covid, defund_police_debate.
+- **Still missing:** `ethiopia_tigray_war`, `haiti_political_collapse` (lower priority)
 
 ### Priority 8 — Medieval Europe Depth ✓ DONE (Session 4)
 Added feudal_system, norman_conquest_1066, crusades, black_death_social_impact, hanseatic_league, peasants_revolt_1381, william_the_conqueror, joan_of_arc, thomas_becket.
@@ -310,3 +310,4 @@ Data model supports nested scopes (`children: {}`). Future: `global/history/wwii
 | Session 7 | 9 missing history nodes (KKK, Russian Revolution, Abolitionist Movement, Spanish Civil War, Japanese American Internment, Oklahoma City Bombing, Environmentalism, Deindustrialization, Nazi Germany); 61 additional cross-scope edges; 3 orphan politics edges fixed; total 915 nodes, 1505 mechanism edges |
 | Session 8 | Positive balance pass: 45 new nodes across all scopes (mechanisms, history, politics, economics, psychology, health, art); 73 new cross-scope edges + 16 within-scope; total 960 nodes, 1578 mechanism edges, 3312 total edges |
 | Session 9 | Continued positive additions: 10 history events (indian_independence, end_of_apartheid, voting_rights_act, ada, marriage_equality, emancipation, 13th amendment, camp_david, nuclear_test_ban, paris_agreement); 5 person nodes (gandhi, eleanor_roosevelt, mlk, cesar_chavez, dolores_huerta); 5 mechanisms (grassroots_organizing, land_reform, public_health_infrastructure, reparations, democratic_accountability); 43 cross-scope edges; total 978 nodes, 1621 mechanism edges, 3355 total edges; standing directive added to HANDOFF.md |
+| Session 10 | Positive roadmap completions: labor_rights_eight_hour_day, rural_electrification, germ_theory, mental_health_movement, scientific_method, community_land_trusts, universal_basic_income, debt_jubilee; art: glory_1989, selma_2014, black_panther_2018, crip_camp_2020; 3 Priority 7 negatives (rohingya_genocide, long_covid, defund_police_debate); 69 new cross-scope edges including politics scope mechanism wiring and cross-scope gap filling (black_death, mongols, cold_war, great_migration); total 994 nodes, 1690 mechanism edges, 3424 total edges |

@@ -806,5 +806,25 @@
       "global south",
       "1980s"
     ]
+  },
+  {
+    "id": "debt_jubilee",
+    "label": "Debt Jubilee",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "decade": "Ongoing",
+    "scope": "global/economics",
+    "cross_scope": false,
+    "summary": "Periodic cancellation of debts — rooted in Mosaic law (every 50 years, debts forgiven, land returned, slaves freed) — as a mechanism for preventing the accumulation of debt that concentrates wealth and produces permanent servitude. Modern applications: the 2005 G8 cancellation of sub-Saharan African sovereign debt (Jubilee 2000 campaign); U.S. student debt cancellation debates; IMF debt restructuring for crisis economies. Economist David Graeber argued in 'Debt: The First 5,000 Years' that debt jubilees were historically common and economically necessary to prevent debt deflation spirals. The mechanism challenges the assumption that debts must always be repaid in full.",
+    "tags": [
+      "debt",
+      "economics",
+      "inequality",
+      "jubilee",
+      "biblical",
+      "graeber",
+      "student debt",
+      "global south"
+    ]
   }
 ]

@@ -10940,5 +10940,142 @@
       "california",
       "1960s"
     ]
+  },
+  {
+    "id": "labor_rights_eight_hour_day",
+    "label": "Eight-Hour Day Movement",
+    "node_type": "movement",
+    "category": "movement",
+    "decade": "1880s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The campaign to limit the industrial working day to eight hours — 'eight hours for work, eight hours for rest, eight hours for what we will.' The demand emerged from the 1840s; the pivotal moment was the Haymarket affair (Chicago, May 4, 1886), when a bomb thrown at police during a labor rally killed officers and led to the wrongful execution of eight anarchists. May Day (May 1) commemorates Haymarket worldwide. The eight-hour day was won incrementally: Ford Motor Company adopted it voluntarily in 1914 (finding it increased productivity); the Fair Labor Standards Act (1938) made it federal law. It established the principle that workers' time belongs to them, not entirely to employers.",
+    "tags": [
+      "labor",
+      "unions",
+      "haymarket",
+      "eight hour day",
+      "may day",
+      "workers rights",
+      "1880s",
+      "fair labor standards act"
+    ]
+  },
+  {
+    "id": "rural_electrification_1930s",
+    "label": "Rural Electrification",
+    "node_type": "event",
+    "category": "event",
+    "decade": "1930s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The Rural Electrification Administration (REA, 1935), part of the New Deal, extended electric power to American farms — only 10% of rural homes had electricity in 1935; by 1950, 90% did. Delivered through rural electric cooperatives (still operating today), electricity transformed farm life: refrigeration, running water, powered tools, and radio ended the isolation and physical hardship of rural existence. LBJ credited the REA with transforming the Texas Hill Country of his childhood from pre-industrial poverty to modern life. It is the canonical example of public infrastructure investment reaching populations that private markets deemed unserved.",
+    "tags": [
+      "new deal",
+      "electrification",
+      "rural",
+      "cooperatives",
+      "infrastructure",
+      "poverty",
+      "1930s",
+      "rea"
+    ]
+  },
+  {
+    "id": "simon_bolivar",
+    "label": "Simón Bolívar",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1810s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "Simón Bolívar (1783–1830), Venezuelan military and political leader who led the independence movements of Venezuela, Colombia, Ecuador, Peru, and Bolivia from Spanish colonial rule. Called 'El Libertador.' Led multiple campaigns across the Andes under extraordinary conditions; his vision was a unified South American federation — Gran Colombia — which fractured after independence. Bolívar's career demonstrated both the possibility of large-scale anti-colonial liberation and its limits: political unity across post-colonial societies proved harder to achieve than military victory. His legacy is claimed across the political spectrum in Latin America.",
+    "tags": [
+      "latin america",
+      "venezuela",
+      "independence",
+      "decolonization",
+      "spanish empire",
+      "1810s",
+      "gran colombia"
+    ]
+  },
+  {
+    "id": "emma_goldman",
+    "label": "Emma Goldman",
+    "node_type": "person",
+    "category": "person",
+    "decade": "1890s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "Emma Goldman (1869–1940), anarchist political activist and writer who advocated for labor rights, women's emancipation, free speech, and birth control. Emigrated from Russia to the U.S.; organized workers and spoke on anarchist philosophy across the country. Deported to Russia in 1919 after opposing WWI conscription. Her writings ('Anarchism and Other Essays,' 1910) articulated a vision of freedom from state and capitalist domination simultaneously — an integration of political, economic, and personal liberation. Influenced the feminist, labor, and free speech movements; her life demonstrated the state's use of deportation as a tool to suppress radical political organizing.",
+    "tags": [
+      "anarchism",
+      "feminism",
+      "labor",
+      "free speech",
+      "birth control",
+      "united states",
+      "russia",
+      "1890s"
+    ]
+  },
+  {
+    "id": "rohingya_genocide",
+    "label": "Rohingya Genocide",
+    "node_type": "event",
+    "category": "event",
+    "decade": "2010s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The systematic ethnic cleansing and genocide of the Rohingya Muslim minority in Myanmar by the military (Tatmadaw) and nationalist Buddhist mobs, reaching its most intense phase in August 2017 when 700,000+ Rohingya fled to Bangladesh in three months. UN fact-finders described the campaign as bearing the hallmarks of genocide: mass killings, sexual violence, and burning of villages. Myanmar denied Rohingya citizenship since 1982, rendering them stateless. Facebook's algorithmic amplification of anti-Rohingya hate speech was directly implicated in inciting violence — a documented case of social media enabling genocide. The ICJ (International Court of Justice) ordered Myanmar in 2020 to protect the Rohingya.",
+    "tags": [
+      "myanmar",
+      "genocide",
+      "ethnic cleansing",
+      "rohingya",
+      "muslim",
+      "social media",
+      "facebook",
+      "2017"
+    ]
+  },
+  {
+    "id": "long_covid",
+    "label": "Long COVID",
+    "node_type": "phenomenon",
+    "category": "phenomenon",
+    "decade": "2020s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "Persistent symptoms lasting weeks, months, or years after acute COVID-19 infection — affecting an estimated 10–30% of those infected. Symptoms include fatigue, cognitive impairment ('brain fog'), shortness of breath, and post-exertional malaise resembling ME/CFS. By 2023, an estimated 15–20 million Americans had some form of long COVID, representing a significant cause of workforce disability. Long COVID revealed gaps in medical understanding of post-viral syndromes and exposed how quickly a new disease can generate novel disability at population scale. It also surfaced prior neglect of ME/CFS, a condition with similar features that had been underfunded for decades.",
+    "tags": [
+      "covid",
+      "pandemic",
+      "chronic illness",
+      "disability",
+      "health",
+      "2020s",
+      "post-viral"
+    ]
+  },
+  {
+    "id": "defund_police_debate",
+    "label": "Defund the Police Debate",
+    "node_type": "event",
+    "category": "event",
+    "decade": "2020s",
+    "scope": "global/history",
+    "cross_scope": false,
+    "summary": "The political debate, catalyzed by George Floyd's murder and the 2020 BLM protests, over reallocating police funding to social services, mental health response, housing, and community programs. 'Defund' encompassed positions from abolition to modest reallocation. Minneapolis and other cities made cuts; most reversed them after crime increases. The debate surfaced the question of what police are actually for and whether policing is the appropriate response to problems rooted in poverty, mental illness, and housing instability. The phrase 'defund' became a liability for Democrats in the 2020 elections despite the underlying policy argument being broadly popular when described concretely.",
+    "tags": [
+      "police",
+      "blm",
+      "george floyd",
+      "criminal justice",
+      "reform",
+      "2020s",
+      "united states"
+    ]
   }
 ]
