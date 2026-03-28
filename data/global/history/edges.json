@@ -8395,5 +8395,23 @@
     "label": "church-crown conflict weakened royal authority",
     "note": "Becket's murder and Henry II's penance established that the Church could constrain royal power, contributing to the principle that kings are subject to law.",
     "confidence": "medium"
+  },
+  {
+    "id": "peasants_revolt_1381__geoffrey_chaucer",
+    "source": "peasants_revolt_1381",
+    "target": "geoffrey_chaucer",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both products of the social ferment of late 14th century England",
+    "note": "Chaucer wrote the Canterbury Tales in the same era as the Peasants' Revolt \u2014 both expressions of a society where old hierarchies were being questioned after the Black Death. Chaucer's satire of every class is the literary counterpart to the revolt's political challenge.",
+    "confidence": "medium"
+  },
+  {
+    "id": "geoffrey_chaucer__black_death",
+    "source": "geoffrey_chaucer",
+    "target": "black_death",
+    "type": "ENABLED",
+    "label": "Black Death demographic disruption created conditions for vernacular literary culture",
+    "note": "The Black Death killed so many Latin-educated clergy that vernacular languages gained ground as vehicles for culture \u2014 creating the opening Chaucer exploited. His literary achievement was partly enabled by the plague's disruption of the Latin-educated class.",
+    "confidence": "medium"
   }
 ]

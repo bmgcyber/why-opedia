@@ -95,20 +95,20 @@ data/
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-03-27, Session 10)
+## CURRENT DATASET STATE (as of 2026-03-27, Session 11)
 
 | Scope | Nodes | Edges |
 |-------|-------|-------|
-| History | **549** | **1008** |
-| Economics | 46 | 102 |
+| History | **550** | **1010** |
+| Economics | 46 | 107 |
 | Politics | 116 | 325 |
 | Psychology | 43 | 107 |
 | Media | 31 | 82 |
 | Health | 37 | 84 |
 | Art & Culture | 53 | 26 |
-| Mechanisms | **160** | **1690** (cross-scope) |
-| **Person nodes (history)** | **~244** | — |
-| **Total nodes** | **~994** | **~3424** |
+| Mechanisms | **160** | **1781** (cross-scope) |
+| **Person nodes (history)** | **~245** | — |
+| **Total nodes** | **~1036** | **~3522** |
 
 **Data integrity:** 0 broken edge references. Verified 2026-03-27.
 
@@ -311,3 +311,4 @@ Data model supports nested scopes (`children: {}`). Future: `global/history/wwii
 | Session 8 | Positive balance pass: 45 new nodes across all scopes (mechanisms, history, politics, economics, psychology, health, art); 73 new cross-scope edges + 16 within-scope; total 960 nodes, 1578 mechanism edges, 3312 total edges |
 | Session 9 | Continued positive additions: 10 history events (indian_independence, end_of_apartheid, voting_rights_act, ada, marriage_equality, emancipation, 13th amendment, camp_david, nuclear_test_ban, paris_agreement); 5 person nodes (gandhi, eleanor_roosevelt, mlk, cesar_chavez, dolores_huerta); 5 mechanisms (grassroots_organizing, land_reform, public_health_infrastructure, reparations, democratic_accountability); 43 cross-scope edges; total 978 nodes, 1621 mechanism edges, 3355 total edges; standing directive added to HANDOFF.md |
 | Session 10 | Positive roadmap completions: labor_rights_eight_hour_day, rural_electrification, germ_theory, mental_health_movement, scientific_method, community_land_trusts, universal_basic_income, debt_jubilee; art: glory_1989, selma_2014, black_panther_2018, crip_camp_2020; 3 Priority 7 negatives (rohingya_genocide, long_covid, defund_police_debate); 69 new cross-scope edges including politics scope mechanism wiring and cross-scope gap filling (black_death, mongols, cold_war, great_migration); total 994 nodes, 1690 mechanism edges, 3424 total edges |
+| Session 11 | Deep mechanism wiring pass across all priority node groups: 91 cross-scope edges connecting Indigenous/manifest_destiny, East African kingdoms, Chinese history, South Asian empires, Pre-Columbian nodes, Ottoman history, medieval Europe, Priority 9 persons (angela_davis, fred_hampton, aung_san_suu_kyi, volodymyr_zelensky, xi_jinping), and all 10 economics Priority 10 nodes; within-scope economics edges for glass_steagall/housing_bubble/nafta/wto/gig/qe/offshore; added geoffrey_chaucer to history; total 1036 nodes, 1781 mechanism edges, 3522 total edges |

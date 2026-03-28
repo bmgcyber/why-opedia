@@ -587,7 +587,7 @@
     "target": "great_depression_economics",
     "type": "CAUSED",
     "label": "Fed's contractionary policy worsened the Depression",
-    "note": "The Federal Reserve tightened the money supply in 1929–32, transforming a recession into the Great Depression — a catastrophic policy error.",
+    "note": "The Federal Reserve tightened the money supply in 1929\u201332, transforming a recession into the Great Depression \u2014 a catastrophic policy error.",
     "confidence": "high"
   },
   {
@@ -614,7 +614,7 @@
     "target": "financial_crisis_2008",
     "type": "CAUSED",
     "label": "bubble collapse triggered global financial crisis",
-    "note": "The collapse of the U.S. housing bubble in 2007–08 triggered the global financial crisis through interconnected mortgage securities.",
+    "note": "The collapse of the U.S. housing bubble in 2007\u201308 triggered the global financial crisis through interconnected mortgage securities.",
     "confidence": "high"
   },
   {
@@ -686,7 +686,7 @@
     "target": "precariat_class",
     "type": "PRODUCED",
     "label": "gig work is precariat labor at scale",
-    "note": "The gig economy is the primary contemporary mechanism producing the precariat — workers with no employment security, benefits, or collective power.",
+    "note": "The gig economy is the primary contemporary mechanism producing the precariat \u2014 workers with no employment security, benefits, or collective power.",
     "confidence": "high"
   },
   {
@@ -785,7 +785,7 @@
     "target": "microfinance",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both extend economic resources to previously excluded populations",
-    "note": "Social democracy (through universal social programs) and microfinance (through small business credit) both work to extend economic resources to those excluded by market failure — social democracy through the state, microfinance through market mechanisms. They represent the two poles of the debate about whether poverty is best addressed through universal public provision or individual market access.",
+    "note": "Social democracy (through universal social programs) and microfinance (through small business credit) both work to extend economic resources to those excluded by market failure \u2014 social democracy through the state, microfinance through market mechanisms. They represent the two poles of the debate about whether poverty is best addressed through universal public provision or individual market access.",
     "confidence": "medium"
   },
   {
@@ -803,7 +803,7 @@
     "target": "microfinance",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both are alternative economic institutions that bypass conventional capital markets",
-    "note": "Cooperatives and microfinance both operate on the insight that conventional capital markets systematically exclude populations that are economically productive — workers who can't raise equity, poor entrepreneurs who can't post collateral. Both create alternative institutional forms that extend productive economic participation to excluded groups.",
+    "note": "Cooperatives and microfinance both operate on the insight that conventional capital markets systematically exclude populations that are economically productive \u2014 workers who can't raise equity, poor entrepreneurs who can't post collateral. Both create alternative institutional forms that extend productive economic participation to excluded groups.",
     "confidence": "medium"
   },
   {
@@ -812,7 +812,52 @@
     "target": "global_poverty_decline",
     "type": "ENABLED",
     "label": "fair trade provides price floor protection for smallholder farmers",
-    "note": "Fair trade certification provides smallholder farmers — coffee, cocoa, banana growers — a price floor above commodity market prices and guaranteed market access, partially insulating them from the commodity price volatility that has been a major driver of agricultural poverty. Impact studies show meaningful income improvements in certified cooperatives, contributing to poverty reduction at the margin.",
+    "note": "Fair trade certification provides smallholder farmers \u2014 coffee, cocoa, banana growers \u2014 a price floor above commodity market prices and guaranteed market access, partially insulating them from the commodity price volatility that has been a major driver of agricultural poverty. Impact studies show meaningful income improvements in certified cooperatives, contributing to poverty reduction at the margin.",
     "confidence": "medium"
+  },
+  {
+    "id": "bretton_woods_agreement_1944__financialization",
+    "source": "bretton_woods_agreement_1944",
+    "target": "financialization",
+    "type": "ENABLED",
+    "label": "dollar hegemony created architecture for financial globalization",
+    "note": "Bretton Woods established the dollar reserve system \u2014 and its 1971 collapse produced floating exchange rates that incentivized financial speculation and currency trading. The post-Bretton-Woods era of floating currencies and capital mobility drove financialization.",
+    "confidence": "high"
+  },
+  {
+    "id": "wto_formation_1995__monopolization",
+    "source": "wto_formation_1995",
+    "target": "monopolization",
+    "type": "ENABLED",
+    "label": "WTO intellectual property rules enabled global corporate monopolization",
+    "note": "WTO's TRIPS agreement (Trade-Related Intellectual Property) extended US patent and copyright standards globally \u2014 enabling pharmaceutical and technology companies to maintain global monopoly pricing on drugs and software, concentrating market power at global scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "gig_economy__labor_movement_suppression",
+    "source": "gig_economy",
+    "target": "labor_movement_suppression",
+    "type": "ENABLED",
+    "label": "contractor classification prevents workers from organizing unions",
+    "note": "By classifying gig workers as independent contractors rather than employees, platforms remove them from the legal framework that enables collective bargaining \u2014 systematically preventing the union organizing that might otherwise emerge from shared working conditions.",
+    "confidence": "high"
+  },
+  {
+    "id": "quantitative_easing__asset_price_inflation",
+    "source": "quantitative_easing",
+    "target": "financialization",
+    "type": "ENABLED",
+    "label": "QE created a decade of asset price inflation that enriched the already-wealthy",
+    "note": "Ten years of near-zero interest rates drove capital into equities, real estate, and alternative assets \u2014 producing sustained asset price inflation. Those who owned assets got dramatically wealthier; those who relied on wages or savings did not.",
+    "confidence": "high"
+  },
+  {
+    "id": "offshore_tax_havens__austerity_ideology",
+    "source": "offshore_tax_havens",
+    "target": "austerity_ideology",
+    "type": "ENABLED",
+    "label": "tax avoidance depletes revenues, creating the fiscal gaps that austerity fills",
+    "note": "Corporate and elite tax avoidance through offshore havens depletes government revenues \u2014 creating fiscal gaps that politicians use to justify cutting public services. Tax avoidance creates the fiscal crisis that becomes the justification for austerity.",
+    "confidence": "high"
   }
 ]
