@@ -16368,5 +16368,311 @@
     "label": "shareholder primacy concentrated corporate value in the hands of share owners",
     "note": "By defining shareholder returns as the sole corporate objective, shareholder primacy restructured corporations to redistribute value from workers, communities, and customers to shareholders \u2014 concentrating wealth among those who own capital.",
     "confidence": "high"
+  },
+  {
+    "id": "privacy_rights__surveillance_capitalism",
+    "source": "privacy_rights",
+    "target": "surveillance_capitalism",
+    "type": "DISCREDITED",
+    "label": "privacy rights framework is the primary legal challenge to surveillance capitalism",
+    "note": "Privacy rights law \u2014 GDPR in Europe, Fourth Amendment jurisprudence in the US \u2014 is the primary legal mechanism for checking surveillance capitalism. The tension between privacy rights and data extraction is the central legal battleground of the digital economy.",
+    "confidence": "high"
+  },
+  {
+    "id": "bioethics__scientific_method",
+    "source": "bioethics",
+    "target": "scientific_method",
+    "type": "ENABLED",
+    "label": "bioethics developed institutional oversight of scientific research on humans",
+    "note": "Bioethics emerged from research scandals (Tuskegee, Nazi medical experiments) to create Institutional Review Boards, informed consent requirements, and research ethics standards. It operationalized ethical constraints within the scientific method for human subjects research.",
+    "confidence": "high"
+  },
+  {
+    "id": "bioethics__dehumanization",
+    "source": "bioethics",
+    "target": "dehumanization",
+    "type": "DISCREDITED",
+    "label": "bioethics arose to prevent dehumanization of research subjects",
+    "note": "The Nuremberg Code (1947) and subsequent bioethics framework arose directly in response to Nazi medical experiments \u2014 establishing informed consent, risk minimization, and scientific necessity as requirements to prevent research subjects from being treated as objects rather than persons.",
+    "confidence": "high"
+  },
+  {
+    "id": "stonewall__coalition_building",
+    "source": "stonewall",
+    "target": "coalition_building",
+    "type": "PRODUCED",
+    "label": "Stonewall riots launched the modern LGBTQ rights movement coalition",
+    "note": "The 1969 Stonewall uprising launched the modern gay rights movement \u2014 transforming scattered defensive communities into an organized political coalition. It demonstrated that resistance to police violence could produce sustained political organizing rather than temporary backlash.",
+    "confidence": "high"
+  },
+  {
+    "id": "stonewall__moral_circle_expansion",
+    "source": "stonewall",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "label": "Stonewall began the expansion of civil rights moral circle to include LGBTQ people",
+    "note": "Stonewall marked the beginning of LGBTQ people asserting inclusion in the moral circle of full civil rights \u2014 a moral circle expansion that moved from criminalization (1969) to marriage equality (2015) within 46 years.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_society__welfare_state",
+    "source": "great_society",
+    "target": "welfare_state",
+    "type": "PRODUCED",
+    "label": "Great Society programs were the peak of American welfare state construction",
+    "note": "Johnson's Great Society \u2014 Medicare, Medicaid, Food Stamps, Head Start, the Civil Rights Act, Voting Rights Act, and fair housing \u2014 was the largest expansion of the American welfare state since the New Deal. It established the programs that subsequent Republican administrations have worked to dismantle.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_society__democratic_accountability",
+    "source": "great_society",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "label": "Great Society legislation extended democratic accountability to previously excluded groups",
+    "note": "Great Society civil rights legislation extended democratic accountability mechanisms \u2014 voting rights, equal housing, employment non-discrimination \u2014 to Black Americans, completing the formal democratic accountability structure that Reconstruction had attempted and post-Reconstruction had reversed.",
+    "confidence": "high"
+  },
+  {
+    "id": "neoconservatism__democratic_backsliding",
+    "source": "neoconservatism",
+    "target": "democratic_backsliding",
+    "type": "ENABLED",
+    "label": "neoconservative foreign policy enabled democratic backsliding through regime change",
+    "note": "Neoconservative foreign policy \u2014 Iraq War, democracy promotion through military force \u2014 enabled democratic backsliding in target countries and US allies by destabilizing existing governance without creating sustainable replacements, while domestically expanding executive war powers beyond constitutional limits.",
+    "confidence": "high"
+  },
+  {
+    "id": "neoconservatism__manufactured_consent",
+    "source": "neoconservatism",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "label": "neoconservative foreign policy relied on manufactured consent through think tanks and media",
+    "note": "The neoconservative movement built a sophisticated consent-manufacturing apparatus \u2014 AEI, Heritage Foundation, Weekly Standard, embedded journalism \u2014 to build public and elite support for military interventionism in the post-Cold War era.",
+    "confidence": "high"
+  },
+  {
+    "id": "libertarianism__regulatory_capture",
+    "source": "libertarianism",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "libertarian ideology provided intellectual cover for corporate deregulation campaigns",
+    "note": "Libertarian ideological frameworks \u2014 Hayek, Nozick, Friedman \u2014 provided intellectual legitimacy for corporate campaigns to eliminate regulation, reframed as principled anti-statism rather than self-interested deregulation. Libertarianism functioned as the philosophical infrastructure for regulatory capture.",
+    "confidence": "high"
+  },
+  {
+    "id": "libertarianism__austerity",
+    "source": "libertarianism",
+    "target": "austerity",
+    "type": "ENABLED",
+    "label": "libertarian ideology provided the anti-government justification for austerity politics",
+    "note": "Libertarian frameworks \u2014 government as inherently coercive and inefficient \u2014 provided intellectual justification for austerity programs: cutting government spending as principled liberty expansion rather than distributional choice. Libertarianism was the philosophy that made austerity ideologically coherent.",
+    "confidence": "high"
+  },
+  {
+    "id": "theocracy__church_state_entanglement",
+    "source": "theocracy",
+    "target": "church_state_entanglement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "theocracy is the maximum expression of church-state entanglement",
+    "note": "Theocracy \u2014 governance by religious law and leadership \u2014 is the limiting case of church-state entanglement: the two are not merely intertwined but merged. Iran after 1979 and the Taliban's Afghanistan are 21st-century cases; the mechanisms that produce theocracy are church-state entanglement at maximum intensity.",
+    "confidence": "high"
+  },
+  {
+    "id": "theocracy__democratic_backsliding",
+    "source": "theocracy",
+    "target": "democratic_backsliding",
+    "type": "PRODUCES",
+    "label": "theocratic governance systematically undermines democratic accountability",
+    "note": "Theocracies replace democratic accountability (leaders responsible to voters) with divine accountability (leaders responsible to God) \u2014 eliminating the mechanisms through which citizens can remove leaders or challenge policy. Theocracy is democratic backsliding taken to its logical conclusion.",
+    "confidence": "high"
+  },
+  {
+    "id": "us_iran_1953_coup__imperialism",
+    "source": "us_iran_1953_coup",
+    "target": "imperialism",
+    "type": "PRODUCED",
+    "label": "CIA coup restored the Shah to protect Anglo-Iranian oil \u2014 imperialism through regime change",
+    "note": "The 1953 CIA-MI6 coup overthrew Mosaddegh (who had nationalized Iranian oil) and restored the Shah \u2014 directly protecting Anglo-Iranian Oil Company (BP) profits. A paradigmatic case of 20th-century imperialism operating through covert regime change rather than direct colonization.",
+    "confidence": "high"
+  },
+  {
+    "id": "us_iran_1953_coup__radicalization_pipeline",
+    "source": "us_iran_1953_coup",
+    "target": "radicalization_pipeline",
+    "type": "PRODUCED",
+    "label": "coup radicalized Iranian politics and ultimately produced the 1979 Islamic Revolution",
+    "note": "The 1953 coup delegitimized secular democratic politics in Iran \u2014 demonstrating that the US would remove elected governments that threatened oil interests. This radicalization of Iranian political culture was a direct predecessor to the 1979 Revolution's anti-American Islamic character.",
+    "confidence": "high"
+  },
+  {
+    "id": "arab_spring__democratic_backsliding",
+    "source": "arab_spring",
+    "target": "democratic_backsliding",
+    "type": "PRODUCED",
+    "label": "Arab Spring demonstrated how democratic openings produce democratic backsliding",
+    "note": "The Arab Spring (2010-12) produced genuine democratic transitions in Tunisia (partial success), Libya (failed state), Egypt (military coup within 2 years), Syria (civil war), and Yemen (civil war). It is the most documented recent case of how democratic openings can accelerate democratic backsliding.",
+    "confidence": "high"
+  },
+  {
+    "id": "arab_spring__social_media_polarization",
+    "source": "arab_spring",
+    "target": "social_media_polarization",
+    "type": "ENABLED",
+    "label": "Arab Spring demonstrated both the mobilizing power and limitations of social media organizing",
+    "note": "The Arab Spring was initially celebrated as a \"social media revolution\" but social media's role was more complex: it enabled rapid mobilization but also enabled counter-mobilization, misinformation, and state surveillance of activists. It established the ambiguity of social media in political organizing.",
+    "confidence": "high"
+  },
+  {
+    "id": "brexit__populism",
+    "source": "brexit",
+    "target": "populism",
+    "type": "PRODUCED",
+    "label": "Brexit was a paradigmatic victory of right-wing populism over expert consensus",
+    "note": "Brexit was the first major victory of right-wing populist politics against a nearly unanimous expert consensus \u2014 economists, security experts, and business leaders uniformly predicted harm. Its campaign pioneered the \"people vs. experts\" populist framing that Trump and others replicated.",
+    "confidence": "high"
+  },
+  {
+    "id": "brexit__filter_bubble",
+    "source": "brexit",
+    "target": "filter_bubble",
+    "type": "ENABLED",
+    "label": "Leave campaign exploited social media filter bubbles to bypass fact-checking",
+    "note": "The Leave campaign's \"\u00a3350M for the NHS\" claim \u2014 a prominent lie \u2014 was sustainably effective in filter bubble environments where it circulated without correction. Brexit was among the first elections where algorithmic filter bubbles demonstrably shaped the information environment.",
+    "confidence": "high"
+  },
+  {
+    "id": "roe_v_wade__moral_circle_expansion",
+    "source": "roe_v_wade",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "label": "Roe recognized women's reproductive autonomy as constitutional right",
+    "note": "Roe v. Wade (1973) expanded women's constitutional rights to include reproductive decision-making \u2014 a moral circle expansion that defined bodily autonomy as a fundamental right. Its 2022 reversal (Dobbs) demonstrates that moral circle expansions can be reversed through judicial capture.",
+    "confidence": "high"
+  },
+  {
+    "id": "roe_v_wade__democratic_backsliding",
+    "source": "roe_v_wade",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "Roe's 2022 reversal through judicial capture represents democratic backsliding",
+    "note": "Dobbs v. Jackson \u2014 overturning Roe \u2014 was enabled by a Supreme Court whose 6-3 conservative supermajority was installed through minority rule (senators representing fewer Americans confirming justices to overturn a right supported by majority opinion). Democratic backsliding through judicial capture.",
+    "confidence": "high"
+  },
+  {
+    "id": "redlining__systemic_racism",
+    "source": "redlining",
+    "target": "systemic_racism",
+    "type": "PRODUCED",
+    "label": "redlining was the most consequential single systemic racism policy in US history",
+    "note": "FHA redlining (1934-1968) denied mortgages to Black families in areas designated as \"hazardous\" \u2014 systematically excluding Black Americans from the wealth-building suburban homeownership that built the white middle class. The resulting racial wealth gap (whites have 10x Black wealth) is directly traceable to redlining.",
+    "confidence": "high"
+  },
+  {
+    "id": "redlining__structural_violence",
+    "source": "redlining",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "redlining embedded racial inequality in property markets through government policy",
+    "note": "Redlining was structural violence enacted through federal mortgage policy: no individual act of violence required, just government maps that made Black homeownership systematically impossible in most of urban America. The structural mechanism produced racial wealth inequality without requiring racist intent at each application.",
+    "confidence": "high"
+  },
+  {
+    "id": "european_union__institutional_resilience",
+    "source": "european_union",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "label": "EU is the most successful post-WWII institution for preventing European war",
+    "note": "The European Union built on the European Coal and Steel Community has prevented major armed conflict between European states for 75+ years \u2014 the longest peace in modern European history. Its institutional architecture (shared sovereignty, economic integration, legal framework) is the primary mechanism of this peace.",
+    "confidence": "high"
+  },
+  {
+    "id": "european_union__democratic_accountability",
+    "source": "european_union",
+    "target": "democratic_accountability",
+    "type": "ENABLED",
+    "label": "EU institutions created supranational democratic accountability mechanisms",
+    "note": "The European Court of Human Rights, EU Commission competition law, and European Parliament created accountability mechanisms that operate above nation-state level \u2014 enabling enforcement of rights against national governments and preventing competitive regulatory undercutting.",
+    "confidence": "high"
+  },
+  {
+    "id": "central_intelligence_agency__propaganda",
+    "source": "central_intelligence_agency",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "label": "CIA systematically used propaganda through Operation Mockingbird and covert media",
+    "note": "Operation Mockingbird and related CIA programs placed CIA assets in major US and international news organizations \u2014 systematically using journalism as a propaganda mechanism. The CIA's covert propaganda operations are one of the most documented cases of government media manipulation.",
+    "confidence": "high"
+  },
+  {
+    "id": "central_intelligence_agency__radicalization_pipeline",
+    "source": "central_intelligence_agency",
+    "target": "radicalization_pipeline",
+    "type": "PRODUCED",
+    "label": "CIA covert operations repeatedly created the radicalization conditions they later fought",
+    "note": "CIA operations in Afghanistan (mujahideen), Iran (1953 coup \u2192 Revolution), Iraq (Ba'ath support \u2192 Saddam), and elsewhere repeatedly created the radicalization conditions that produced future adversaries. The pattern: arm and support groups that become radicalized when US interests change.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_safety_net__welfare_state",
+    "source": "social_safety_net",
+    "target": "welfare_state",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "social safety net is the concrete institutional expression of welfare state principles",
+    "note": "The social safety net \u2014 unemployment insurance, food assistance, disability benefits, housing support \u2014 is the operational implementation of welfare state principles. The ongoing political contest over safety net programs is the primary arena in which welfare state expansion and contraction occurs.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_safety_net__mutual_aid",
+    "source": "social_safety_net",
+    "target": "mutual_aid",
+    "type": "ENABLED",
+    "label": "formal safety net often grew from informal mutual aid traditions",
+    "note": "Many formal safety net programs grew from mutual aid traditions \u2014 workers' compensation from union mutual aid funds, Social Security from fraternal organization models, unemployment insurance from labor union practices. The state institutionalized what communities had developed informally.",
+    "confidence": "high"
+  },
+  {
+    "id": "international_law__restorative_justice",
+    "source": "international_law",
+    "target": "restorative_justice",
+    "type": "ENABLED",
+    "label": "international law created mechanisms for restorative justice after mass atrocity",
+    "note": "International law developed mechanisms for restorative justice after mass atrocity: the Nuremberg tribunals, International Criminal Court, International Criminal Tribunal for Yugoslavia and Rwanda. These institutions attempt to hold perpetrators accountable while building a record that prevents future denial.",
+    "confidence": "high"
+  },
+  {
+    "id": "federalism__institutional_resilience",
+    "source": "federalism",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "label": "federalism distributes power across levels, making institutional capture harder",
+    "note": "Federalism's distribution of power across federal and state levels creates redundant accountability structures \u2014 when federal institutions are captured, state institutions can resist (and vice versa). The US experience shows that federalism can be a source of institutional resilience against authoritarian centralization.",
+    "confidence": "high"
+  },
+  {
+    "id": "proportional_representation__democratic_accountability",
+    "source": "proportional_representation",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "label": "proportional representation increases democratic accountability by reducing wasted votes",
+    "note": "Proportional representation systems translate vote shares into seat shares \u2014 ensuring that minorities have representation and reducing the winner-take-all dynamics that enable extreme gerrymandering. Countries with PR systems generally show higher voter participation and more responsive governance.",
+    "confidence": "high"
+  },
+  {
+    "id": "human_rights_declaration__moral_circle_expansion",
+    "source": "human_rights_declaration",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "label": "UDHR established universal human rights as the global moral circle",
+    "note": "The Universal Declaration of Human Rights (1948) was the most ambitious single moral circle expansion in history \u2014 declaring all humans equal in dignity and rights, regardless of nationality, race, sex, religion, or political opinion. It established the framework against which all subsequent human rights claims are measured.",
+    "confidence": "high"
+  },
+  {
+    "id": "mandate_system__imperialism",
+    "source": "mandate_system",
+    "target": "imperialism",
+    "type": "PRODUCED",
+    "label": "League mandate system was a polite name for colonial administration of former Ottoman lands",
+    "note": "The League of Nations mandate system \u2014 placing Palestine, Iraq, Syria, and Lebanon under British and French administration \u2014 was a legal veneer over colonial control. Britain and France acquired former Ottoman territories without calling them colonies. The mandates produced modern Middle Eastern states with borders drawn to serve imperial interests.",
+    "confidence": "high"
   }
 ]
