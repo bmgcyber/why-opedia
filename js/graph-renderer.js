@@ -430,7 +430,9 @@ function applySemanticZoom() {
   if (!graphInstance || !currentGraphData) return;
   if (currentGraphData.nodes.length <= 200) return;  // LOD not needed for small scopes
 
-  const dist = graphInstance.camera().position.length();
+  const camera = graphInstance.camera();
+  if (!camera) return;
+  const dist = camera.position.length();
 
   for (const node of currentGraphData.nodes) {
     const obj = node.__threeObj;

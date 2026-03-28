@@ -130,6 +130,10 @@
       initResetButton();
       _controlsInited = true;
     }
+
+    // Apply current filter state to the newly-loaded data so the link visibility
+    // closure captures this scope's node IDs immediately (not stale from before load).
+    applyFilters();
   }
 
   function rebuildEdgeMap(edges) {
@@ -361,6 +365,9 @@
     if (!GR || !GR.getGraphInstance()) return;
 
     const data = GR.getCurrentData();
+    // Skip if no data is loaded yet — avoids setting a stale link-visibility
+    // closure that would capture an empty visibleNodeIds Set.
+    if (!data || data.nodes.length === 0) return;
 
     // Compute visible node set (under explicit filters)
     const visibleNodeIds = new Set();
