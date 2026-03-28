@@ -17070,5 +17070,194 @@
     "label": "art by internment survivors challenged the official narrative of wartime necessity",
     "note": "Art, literature, and memoir created by Japanese American internment survivors \u2014 Min\u00e9 Okubo's Citizen 13660, Farewell to Manzanar \u2014 directly challenged the official historical narrative that internment was a wartime necessity rather than racism. Art as counter-revisionism.",
     "confidence": "high"
+  },
+  {
+    "id": "book_of_the_dead__egyptian_mythology",
+    "source": "book_of_the_dead",
+    "target": "egyptian_mythology",
+    "type": "PRODUCED",
+    "label": "Book of the Dead was the primary text encoding Egyptian afterlife mythology",
+    "note": "The Egyptian Book of the Dead encoded the mythology of the afterlife \u2014 spells, judgments, the Field of Reeds \u2014 making it the primary vehicle through which Egyptian religious mythology was systematized and transmitted. The first large-scale production of religious narrative as text.",
+    "confidence": "high"
+  },
+  {
+    "id": "televangelism__prosperity_gospel",
+    "source": "televangelism",
+    "target": "prosperity_gospel",
+    "type": "PRODUCED",
+    "label": "televangelism was the primary mass media vehicle for prosperity gospel",
+    "note": "Televangelism (Oral Roberts, Jim Bakker, Jimmy Swaggart, later Joel Osteen) was the technological platform through which prosperity gospel reached mass audiences \u2014 turning a theological innovation into a national movement through TV's emotional and visual power.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_media_platforms__social_media_algorithms",
+    "source": "social_media_platforms",
+    "target": "social_media_algorithms",
+    "type": "PRODUCED",
+    "label": "social media platforms are the institutional host of algorithmic manipulation",
+    "note": "Social media platforms (Facebook, Twitter/X, YouTube, TikTok) are the institutional infrastructure within which social media algorithms operate \u2014 the algorithms that produce polarization, radicalization, and filter bubbles are housed within and serve the revenue models of these platforms.",
+    "confidence": "high"
+  },
+  {
+    "id": "brony_fandom__in_group_out_group_dynamics",
+    "source": "brony_fandom",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "brony fandom demonstrates how internet communities construct novel in-group identities",
+    "note": "The brony fandom (adult male My Little Pony fans) demonstrates how internet communities construct novel in-group identities that transgress existing social norms \u2014 and face intense out-group rejection from those who see the in-group identity as a threat to conventional masculinity.",
+    "confidence": "medium"
+  },
+  {
+    "id": "furry_fandom__identity_capture",
+    "source": "furry_fandom",
+    "target": "identity_capture",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "furry identity demonstrates how alternative identity communities can become primary identity frameworks",
+    "note": "The furry fandom demonstrates identity construction dynamics: members often describe their \"fursona\" as a more authentic self than their social identity, illustrating how alternative identity communities can become primary identity frameworks \u2014 with potential for both empowerment and identity capture.",
+    "confidence": "medium"
+  },
+  {
+    "id": "recovered_memory_therapy__manufactured_scientific_doubt",
+    "source": "recovered_memory_therapy",
+    "target": "manufactured_scientific_doubt",
+    "type": "PRODUCED",
+    "label": "recovered memory therapy produced false memories that discredited real abuse claims",
+    "note": "Recovered memory therapy produced thousands of false abuse memories through suggestion \u2014 creating a backlash (the \"memory wars\") that manufactured scientific doubt about trauma memory research. The pseudoscientific technique damaged credibility of real abuse survivors and legitimate trauma research simultaneously.",
+    "confidence": "high"
+  },
+  {
+    "id": "attachment_theory__collective_resilience",
+    "source": "attachment_theory",
+    "target": "collective_resilience",
+    "type": "ENABLED",
+    "label": "attachment theory revealed how secure attachment is the foundation for individual and collective resilience",
+    "note": "Bowlby's attachment theory showed that secure early attachment enables the psychological resilience that allows adults to cope with stress, form supportive relationships, and contribute to community. Collective resilience rests on the foundation of secure individual attachment at population scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "postmodernism__cultural_hegemony",
+    "source": "postmodernism",
+    "target": "cultural_hegemony",
+    "type": "DISCREDITED",
+    "label": "postmodern theory was the primary intellectual tool for critiquing cultural hegemony",
+    "note": "Postmodern theory \u2014 Foucault's power/knowledge analysis, Derrida's deconstruction \u2014 was developed precisely as a critique of cultural hegemony: exposing how \"objective\" knowledge claims serve power, how dominant narratives naturalize particular social arrangements. Postmodernism was cultural hegemony critique.",
+    "confidence": "high"
+  },
+  {
+    "id": "milgram_obedience__groupthink",
+    "source": "milgram_obedience",
+    "target": "groupthink",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Milgram obedience and groupthink are related mechanisms of social pressure overriding judgment",
+    "note": "Milgram obedience (vertical authority pressure) and groupthink (horizontal peer pressure) are related mechanisms by which social context overrides individual moral judgment. Both demonstrate that individual moral reasoning is systematically overridden by social structural pressures.",
+    "confidence": "high"
+  },
+  {
+    "id": "intergenerational_trauma__epigenetics",
+    "source": "intergenerational_trauma",
+    "target": "epigenetics",
+    "type": "ENABLED",
+    "label": "intergenerational trauma is transmitted partly through epigenetic mechanisms",
+    "note": "Research on Holocaust survivors' children and grandchildren has documented epigenetic transmission of trauma \u2014 cortisol regulation, stress response, and other biological markers differ in descendants of trauma survivors. Intergenerational trauma has both psychological (socialization) and biological (epigenetics) transmission pathways.",
+    "confidence": "medium"
+  },
+  {
+    "id": "authoritarian_personality__cult_dynamics",
+    "source": "authoritarian_personality",
+    "target": "cult_dynamics",
+    "type": "ENABLED",
+    "label": "authoritarian personality traits make individuals susceptible to cult recruitment and dynamics",
+    "note": "The authoritarian personality traits Adorno identified \u2014 submission to authority, intolerance of ambiguity, rigid in-group/out-group thinking \u2014 are precisely the traits that cult recruitment targets. Authoritarian personality is the psychological substrate on which cult dynamics operate.",
+    "confidence": "high"
+  },
+  {
+    "id": "identity_politics__coalition_building",
+    "source": "identity_politics",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "identity politics enables coalition building among groups with shared structural position",
+    "note": "Identity politics enables coalition building among groups with structurally similar experiences of oppression \u2014 the coalitions that drove civil rights, women's rights, and LGBTQ rights were identity-based. The challenge is building coalitions across different identities without erasing distinctions.",
+    "confidence": "medium"
+  },
+  {
+    "id": "loneliness_epidemic__collective_trauma",
+    "source": "loneliness_epidemic",
+    "target": "collective_trauma",
+    "type": "PRODUCED",
+    "label": "epidemic of loneliness is a form of collective trauma produced by social atomization",
+    "note": "The loneliness epidemic \u2014 documented by declining social membership, trust, and civic participation since the 1960s \u2014 represents a collective trauma of social atomization: the gradual erosion of the community bonds that produce belonging, purpose, and mutual aid. Robert Putnam's \"Bowling Alone\" documented this collective harm.",
+    "confidence": "high"
+  },
+  {
+    "id": "tobacco_industry__manufactured_scientific_doubt",
+    "source": "tobacco_industry",
+    "target": "manufactured_scientific_doubt",
+    "type": "PRODUCED",
+    "label": "tobacco industry invented modern manufactured scientific doubt playbook",
+    "note": "The tobacco industry's response to 1950s cancer research \u2014 funding doubt-manufacturing research, recruiting scientists to testify, and creating industry-funded bodies to contest findings \u2014 invented the manufactured scientific doubt playbook that oil companies, sugar industry, and pharmaceutical companies later adopted.",
+    "confidence": "high"
+  },
+  {
+    "id": "false_consciousness_economics__marxism",
+    "source": "false_consciousness_economics",
+    "target": "marxism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "economic false consciousness is a core concept in Marxist analysis of class society",
+    "note": "Economic false consciousness \u2014 workers supporting economic systems that harm them, identifying with capitalist interests rather than their own class interests \u2014 is a central Marxist analytical concept. It explains why working class people support policies (tax cuts for the wealthy, deregulation) that primarily benefit capital.",
+    "confidence": "high"
+  },
+  {
+    "id": "microfinance__land_reform",
+    "source": "microfinance",
+    "target": "land_reform",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both microfinance and land reform attempt to distribute productive capacity to the poor",
+    "note": "Microfinance and land reform share the mechanism of distributing productive capacity to the poor \u2014 land reform through land ownership, microfinance through access to capital. Both have had mixed results: land reform's successes (Taiwan, South Korea) are clearer than microfinance's, which research shows has limited poverty impact.",
+    "confidence": "medium"
+  },
+  {
+    "id": "microfinance__community_land_trusts",
+    "source": "microfinance",
+    "target": "community_land_trusts",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both are mechanisms for making productive assets accessible to those priced out of markets",
+    "note": "Microfinance and community land trusts both attempt to address the exclusion of poor people from productive assets \u2014 microfinance through small loans for enterprise, community land trusts through permanently affordable land ownership. Both represent alternatives to purely market-based asset access.",
+    "confidence": "medium"
+  },
+  {
+    "id": "fair_trade_movement__land_reform",
+    "source": "fair_trade_movement",
+    "target": "land_reform",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "both fair trade and land reform attempt to address structural power imbalances in global commodity chains",
+    "note": "Fair trade and land reform both address the structural power imbalances that keep agricultural workers poor \u2014 fair trade through price premiums and standards in global commodity markets, land reform through ownership redistribution. Both challenge the market structures that extract value from agricultural producers.",
+    "confidence": "medium"
+  },
+  {
+    "id": "fair_trade_movement__race_to_the_bottom",
+    "source": "fair_trade_movement",
+    "target": "race_to_the_bottom",
+    "type": "DISCREDITED",
+    "label": "fair trade was designed as a direct counter to the race to the bottom",
+    "note": "Fair trade certification was developed specifically to counter the race to the bottom in global commodity markets \u2014 by certifying minimum prices, labor standards, and environmental practices, it creates an alternative market segment where competition is not solely on price.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_algiers_1966__nonviolent_resistance",
+    "source": "battle_of_algiers_1966",
+    "target": "nonviolent_resistance",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "film explored both violent and nonviolent resistance within the same liberation movement",
+    "note": "The Battle of Algiers depicted both violent and nonviolent elements of the independence movement \u2014 hunger strikes, civil disobedience alongside bombings \u2014 making it a complex analysis of resistance strategy rather than a simple glorification of violence. Liberation movements worldwide studied it for both.",
+    "confidence": "medium"
+  },
+  {
+    "id": "metropolis_1927__propaganda",
+    "source": "metropolis_1927",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "Metropolis's visual language was later appropriated by Nazi propaganda",
+    "note": "Fritz Lang's Metropolis was explicitly studied and borrowed by Nazi propaganda designers \u2014 Leni Riefenstahl and Goebbels admired its visual grammar of mass movement, monumental architecture, and leader-worship. Lang's anti-authoritarian film was aesthetically assimilated into the propaganda apparatus it critiqued.",
+    "confidence": "high"
   }
 ]
