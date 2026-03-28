@@ -17259,5 +17259,500 @@
     "label": "Metropolis's visual language was later appropriated by Nazi propaganda",
     "note": "Fritz Lang's Metropolis was explicitly studied and borrowed by Nazi propaganda designers \u2014 Leni Riefenstahl and Goebbels admired its visual grammar of mass movement, monumental architecture, and leader-worship. Lang's anti-authoritarian film was aesthetically assimilated into the propaganda apparatus it critiqued.",
     "confidence": "high"
+  },
+  {
+    "id": "battle_of_marathon__in_group_out_group_dynamics",
+    "source": "battle_of_marathon",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Marathon crystallized Greek identity against Persian out-group",
+    "note": "The Battle of Marathon (490 BCE) established the foundational Greek narrative of democratic civilization vs. Persian despotism \u2014 an in-group/out-group myth that shaped Western self-understanding for millennia. Herodotus made Marathon the first great story of freedom vs. tyranny.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_thermopylae__propaganda",
+    "source": "battle_of_thermopylae",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "label": "Thermopylae became the most enduring military propaganda story in Western history",
+    "note": "The Battle of Thermopylae (480 BCE) was a military defeat that became the most powerful propaganda victory: 300 Spartans holding civilization against Persian barbarism became the template for \"last stand\" narratives that governments and militaries have used ever since.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_agincourt__in_group_out_group_dynamics",
+    "source": "battle_of_agincourt",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Agincourt was a defining event in English national identity construction against French",
+    "note": "Agincourt (1415) became a foundational myth of English national identity \u2014 the underdog English yeoman against aristocratic French knights. Shakespeare's Henry V transformed it into a national identity narrative. Battles become in-group/out-group identity markers as much as military events.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_gettysburg__structural_violence",
+    "source": "battle_of_gettysburg",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Gettysburg produced 51,000 casualties in three days of industrial-scale killing",
+    "note": "The Battle of Gettysburg (July 1-3, 1863) produced 51,000 casualties in three days \u2014 the product of industrial weaponry (rifles, artillery) applied to Napoleonic tactics. It demonstrated the structural violence produced when pre-industrial military formations meet industrial firepower.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_waterloo__democratic_accountability",
+    "source": "battle_of_waterloo",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "label": "Waterloo ended Napoleon's empire and restored the Concert of Europe balance of power",
+    "note": "Waterloo ended the Napoleonic era of military imperialism and produced the Congress of Vienna system \u2014 a collective security arrangement among monarchies that maintained European peace for 40 years. Though not democratic, it established multi-lateral accountability as an alternative to hegemonic domination.",
+    "confidence": "medium"
+  },
+  {
+    "id": "babylonian_captivity__collective_trauma",
+    "source": "babylonian_captivity",
+    "target": "collective_trauma",
+    "type": "PRODUCED",
+    "label": "Babylonian exile was the collective trauma that transformed Israelite religion into Judaism",
+    "note": "The Babylonian exile (586-538 BCE) \u2014 the deportation of Judah's elite to Babylon \u2014 was the collective trauma that fundamentally transformed Israelite religion: absent the Temple, Judaism developed synagogue worship, the written Torah, and prophetic literature. Collective trauma produced religious innovation.",
+    "confidence": "high"
+  },
+  {
+    "id": "maccabean_revolt__in_group_out_group_dynamics",
+    "source": "maccabean_revolt",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Maccabean revolt defined Jewish identity against Hellenistic assimilation",
+    "note": "The Maccabean revolt (167-160 BCE) was a response to in-group identity erosion \u2014 many Jews had assimilated to Greek culture, and Antiochus IV's prohibition of Jewish practice forced a choice. The revolt defined Jewish religious in-group identity against Hellenistic assimilation.",
+    "confidence": "high"
+  },
+  {
+    "id": "byzantine_sassanid_wars__structural_violence",
+    "source": "byzantine_sassanid_wars",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "wars exhausted both empires, enabling Islamic conquest",
+    "note": "The Byzantine-Sassanid Wars (602-628 CE) were one of history's most destructive conflict cycles \u2014 killing millions and economically destroying both empires. The mutual exhaustion was a direct enabling condition for the rapid Islamic conquests that followed, which neither empire could resist.",
+    "confidence": "high"
+  },
+  {
+    "id": "battle_of_manzikert__structural_violence",
+    "source": "battle_of_manzikert",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Manzikert's defeat triggered decades of civil war and Byzantine structural collapse",
+    "note": "The Battle of Manzikert (1071) captured the Byzantine emperor and opened Anatolia to Seljuk settlement \u2014 but its most damaging effect was triggering Byzantine civil wars over succession that prevented effective defense. Military defeat triggering internal structural violence and collapse.",
+    "confidence": "high"
+  },
+  {
+    "id": "destruction_of_holy_sepulchre__in_group_out_group_dynamics",
+    "source": "destruction_of_holy_sepulchre",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "destruction created the out-group provocation that eventually triggered the Crusades",
+    "note": "Caliph al-Hakim's 1009 destruction of the Church of the Holy Sepulchre hardened the Christian/Muslim in-group boundary and created the grievance that Pope Urban II invoked at Clermont 86 years later. A single act of desecration maintained as in-group memory for a century.",
+    "confidence": "high"
+  },
+  {
+    "id": "council_of_clermont_1095__propaganda",
+    "source": "council_of_clermont_1095",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "label": "Urban II's Clermont speech was the most effective single propaganda act of the medieval period",
+    "note": "Pope Urban II's 1095 speech at Clermont \u2014 launching the First Crusade \u2014 was medieval propaganda at its most effective: combining religious authority, in-group identity threat, promise of spiritual reward, and release of violent energy. Thousands pledged immediate military service in response.",
+    "confidence": "high"
+  },
+  {
+    "id": "saladin_reconquest__in_group_out_group_dynamics",
+    "source": "saladin_reconquest",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Saladin's reconquest of Jerusalem became a model of humane in-group victory",
+    "note": "Saladin's 1187 reconquest of Jerusalem \u2014 allowing the Christian population to ransom themselves and leave safely rather than massacring them \u2014 became famous partly because it contrasted with the First Crusaders' 1099 massacre. In-group victory defined against out-group brutality.",
+    "confidence": "high"
+  },
+  {
+    "id": "ottoman_conquest_arab_lands__imperialism",
+    "source": "ottoman_conquest_arab_lands",
+    "target": "imperialism",
+    "type": "ENABLED",
+    "label": "Ottoman conquest of Arab lands created the Empire that European imperialism later dismembered",
+    "note": "The Ottoman conquest of Arab lands (1516-17) \u2014 Egypt, Syria, the Hejaz \u2014 created the empire whose post-WWI dismemberment through Sykes-Picot and mandates produced the modern Middle East state system. Ottoman imperialism and its European replacement are linked causes of the region's political instability.",
+    "confidence": "high"
+  },
+  {
+    "id": "syrian_civil_war__radicalization_pipeline",
+    "source": "syrian_civil_war",
+    "target": "radicalization_pipeline",
+    "type": "PRODUCED",
+    "label": "Syrian civil war became the primary recruitment theater for ISIS radicalization",
+    "note": "The Syrian civil war's power vacuum became the territorial and recruitment base for ISIS \u2014 drawing thousands of foreign fighters from Europe, North Africa, and Central Asia into a functioning proto-state. It demonstrates how civil war creates the conditions for large-scale radicalization pipeline recruitment.",
+    "confidence": "high"
+  },
+  {
+    "id": "socrates__democratic_accountability",
+    "source": "socrates",
+    "target": "democratic_accountability",
+    "type": "DISCREDITED",
+    "label": "Socrates was executed by Athenian democracy for questioning its wisdom",
+    "note": "Socrates' trial and execution (399 BCE) for impiety and corrupting youth was Athenian democracy's most famous failure of democratic accountability \u2014 using the democratic mechanism of jury trial to silence a philosopher whose questioning threatened comfortable beliefs. The tension between free inquiry and democratic authority.",
+    "confidence": "high"
+  },
+  {
+    "id": "plato__social_contract_theory",
+    "source": "plato",
+    "target": "social_contract_theory",
+    "type": "ENABLED",
+    "label": "Plato's Republic was the foundational text of social contract theory",
+    "note": "Plato's Republic explored the question of why rational individuals would submit to political authority \u2014 the foundational question of social contract theory. His answers (justice as harmony, philosopher-king rule) differ from later social contract theorists but he asked the same questions.",
+    "confidence": "high"
+  },
+  {
+    "id": "aristotle__democratic_accountability",
+    "source": "aristotle",
+    "target": "democratic_accountability",
+    "type": "ENABLED",
+    "label": "Aristotle's Politics provided the analytical framework for democratic theory",
+    "note": "Aristotle's comparative analysis of Greek constitutions in the Politics provided the vocabulary and analytical framework for democratic theory: the distinctions between tyranny/kingship, oligarchy/aristocracy, democracy/polity that political theory still uses.",
+    "confidence": "high"
+  },
+  {
+    "id": "epicureanism__class_consciousness",
+    "source": "epicureanism",
+    "target": "class_consciousness",
+    "type": "ENABLED",
+    "label": "Epicurean withdrawal from politics was a philosophical response to elite political violence",
+    "note": "Epicurus's philosophy of withdrawal from public life (the Garden) was partly a rational response to the political violence of Hellenistic succession states \u2014 in which participation in politics meant becoming entangled in catastrophic elite conflicts. A class-conscious withdrawal from a rigged political game.",
+    "confidence": "medium"
+  },
+  {
+    "id": "buddhist_philosophy__dependent_origination",
+    "source": "buddhist_philosophy",
+    "target": "dependent_origination",
+    "type": "PRODUCED",
+    "label": "dependent origination is the foundational metaphysical principle of Buddhist philosophy",
+    "note": "The doctrine of dependent origination (prat\u012btyasamutp\u0101da) \u2014 all phenomena arise in dependence on conditions \u2014 is the philosophical core of Buddhist thought. It grounds Buddhist ethics: suffering arises from causes that can be addressed; liberation is possible through understanding and changing those causes.",
+    "confidence": "high"
+  },
+  {
+    "id": "laozi__wu_wei",
+    "source": "laozi",
+    "target": "wu_wei",
+    "type": "PRODUCED",
+    "label": "Laozi's Tao Te Ching is the foundational text of wu wei as political philosophy",
+    "note": "The Tao Te Ching (attributed to Laozi, c.600-400 BCE) developed wu wei (non-action/effortless action) as both metaphysics and political philosophy \u2014 the sage ruler who governs by not governing, who leads by following the natural way. Wu wei is inseparable from Laozi.",
+    "confidence": "high"
+  },
+  {
+    "id": "confucius__confucian_social_order",
+    "source": "confucius",
+    "target": "confucian_social_order",
+    "type": "PRODUCED",
+    "label": "Confucius was the originating teacher of the social order that bears his name",
+    "note": "Confucius (551-479 BCE) developed the ethical and political philosophy that became Confucianism: hierarchical social relationships structured by ritual propriety, reciprocal obligations, and the ruler's moral example as the source of social harmony. He is inseparable from the Confucian social order.",
+    "confidence": "high"
+  },
+  {
+    "id": "mohism__class_consciousness",
+    "source": "mohism",
+    "target": "class_consciousness",
+    "type": "ENABLED",
+    "label": "Mohism was ancient China's proto-egalitarian class-conscious philosophy",
+    "note": "Mohism \u2014 founded by Mozi (c.470-391 BCE) \u2014 developed universal love (jian ai), opposition to offensive warfare, and meritocracy in direct opposition to the Confucian hierarchies. Mozi's followers were craftsmen and artisans; Mohism expressed working-class perspectives against aristocratic Confucian order.",
+    "confidence": "high"
+  },
+  {
+    "id": "davidic_monarchy__church_state_entanglement",
+    "source": "davidic_monarchy",
+    "target": "church_state_entanglement",
+    "type": "PRODUCED",
+    "label": "Davidic monarchy merged royal and priestly authority in ways that shaped all three Abrahamic traditions",
+    "note": "The Davidic monarchy's merger of warrior-king and anointed covenant-holder created the theological-political model that Judaism, Christianity, and Islam all inherited: the legitimacy of political power derives from divine authorization. Church-state entanglement begins with the anointed king concept.",
+    "confidence": "high"
+  },
+  {
+    "id": "jesus_of_nazareth__moral_circle_expansion",
+    "source": "jesus_of_nazareth",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "label": "Jesus's teachings radically expanded the moral circle to include the poor, outcast, and Gentile",
+    "note": "Jesus's ministry \u2014 healing lepers, dining with tax collectors, engaging Samaritans, teaching that the last would be first \u2014 was a radical expansion of the moral circle within the Judaism of his time, extending concern beyond ethnic and ritual in-group boundaries to the outcast and despised.",
+    "confidence": "high"
+  },
+  {
+    "id": "paul_of_tarsus__in_group_out_group_dynamics",
+    "source": "paul_of_tarsus",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Paul's theology dissolved Jewish/Gentile distinction and created new Christian in-group",
+    "note": "Paul's theological innovation \u2014 \"there is neither Jew nor Greek\" in Christ \u2014 dissolved the in-group boundary of Jewish Christianity and created a universal in-group that transcended ethnicity. But it also created a new in-group (Christians) against a new out-group (Jews, pagans) that generated its own persecutions.",
+    "confidence": "high"
+  },
+  {
+    "id": "augustine_of_hippo__church_state_entanglement",
+    "source": "augustine_of_hippo",
+    "target": "church_state_entanglement",
+    "type": "PRODUCED",
+    "label": "Augustine's two cities theology defined church-state relations for a millennium",
+    "note": "Augustine's City of God vs. City of Man created the theological framework for medieval church-state entanglement: temporal power subordinate to spiritual authority, the church as mediator between earthly and heavenly cities. This framework shaped Catholic political theology until the Reformation.",
+    "confidence": "high"
+  },
+  {
+    "id": "monasticism__institutional_resilience",
+    "source": "monasticism",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "label": "monastic institutions preserved knowledge and culture through the collapse of Roman order",
+    "note": "Christian monasteries (Benedictine, Cistercian, Irish) preserved classical texts, developed new agricultural techniques, and maintained literacy through the centuries of political instability after Rome's fall. Monasticism was the institutional resilience mechanism that preserved European intellectual culture across civilizational disruption.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther__propaganda",
+    "source": "martin_luther",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "Luther used the printing press for the first mass propaganda campaign in European history",
+    "note": "Luther's 95 Theses and subsequent pamphlets were distributed using the printing press at unprecedented speed \u2014 his message reached across Germany within weeks of posting. Luther was the first political leader to systematically use a new mass medium for propaganda, understanding its power before the Church did.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_calvin__church_state_entanglement",
+    "source": "john_calvin",
+    "target": "church_state_entanglement",
+    "type": "PRODUCED",
+    "label": "Calvin's Geneva was the model of Calvinist theocratic church-state fusion",
+    "note": "Calvin's governance of Geneva (1541-1564) merged church discipline and civil authority into a theocratic model: the Consistory could impose civil penalties for moral offenses. Calvinist theocracy became the model for Puritan governance in England and early America.",
+    "confidence": "high"
+  },
+  {
+    "id": "gnostic_christianity__in_group_out_group_dynamics",
+    "source": "gnostic_christianity",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Gnostic Christianity created spiritual elite in-groups against ordinary church authority",
+    "note": "Gnostic movements created spiritual in-groups of the \"knowing\" (gnosis-holders) against the ordinary church \u2014 a pattern repeated in secret society, cult, and new religious movement dynamics throughout history. The gnostic structure (hidden knowledge, spiritual elite, ordinary mass) recurs across movements.",
+    "confidence": "high"
+  },
+  {
+    "id": "voltaire__anti_intellectualism",
+    "source": "voltaire",
+    "target": "anti_intellectualism",
+    "type": "DISCREDITED",
+    "label": "Voltaire was the Enlightenment's foremost critic of religious anti-intellectualism",
+    "note": "Voltaire's entire career \u2014 from Candide's satire of optimism to his defense of religious freedom victims \u2014 was an attack on the anti-intellectualism of religious orthodoxy. His dictum \"\u00c9crasez l'inf\u00e2me\" (Crush the infamy) targeted the church's suppression of free inquiry.",
+    "confidence": "high"
+  },
+  {
+    "id": "immanuel_kant__moral_circle_expansion",
+    "source": "immanuel_kant",
+    "target": "moral_circle_expansion",
+    "type": "ENABLED",
+    "label": "Kant's categorical imperative provided philosophical basis for universal human dignity",
+    "note": "Kant's categorical imperative \u2014 treat humanity always as an end, never merely as a means \u2014 provided the philosophical foundation for expanding the moral circle to all humans regardless of race, gender, or culture. His principle is the philosophical underpinning of human rights theory.",
+    "confidence": "high"
+  },
+  {
+    "id": "pol_pot__cult_dynamics",
+    "source": "pol_pot",
+    "target": "cult_dynamics",
+    "type": "ENABLED",
+    "label": "Pol Pot's Khmer Rouge operated as a messianic revolutionary cult",
+    "note": "Pol Pot's Khmer Rouge was organized around the messianic revolutionary vision of \"Year Zero\" \u2014 erasing all history and starting civilization over from peasant purity. The cult structure: Pol Pot was known only as \"Brother Number One\" to most cadres, absolute loyalty required, deviation punished by death.",
+    "confidence": "high"
+  },
+  {
+    "id": "winston_churchill__imperialism",
+    "source": "winston_churchill",
+    "target": "imperialism",
+    "type": "ENABLED",
+    "label": "Churchill was imperialism's most articulate and unapologetic defender in the 20th century",
+    "note": "Churchill explicitly defended British imperialism throughout his career \u2014 as a young officer in India and Sudan, blocking Indian independence, and during the Bengal famine of 1943 (in which 2-3 million died partly due to British war policies he defended). He represents imperialism's ideological persistence in the face of decolonization.",
+    "confidence": "high"
+  },
+  {
+    "id": "nikita_khrushchev__democratic_backsliding",
+    "source": "nikita_khrushchev",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "Khrushchev's secret speech began de-Stalinization without fully democratizing",
+    "note": "Khrushchev's 1956 secret speech denouncing Stalin's cult of personality was the most significant challenge to totalitarianism from within \u2014 but it produced reform without democratization. Khrushchev demonstrated both the possibility and limits of authoritarian self-reform.",
+    "confidence": "high"
+  },
+  {
+    "id": "richard_nixon__democratic_backsliding",
+    "source": "richard_nixon",
+    "target": "democratic_backsliding",
+    "type": "PRODUCED",
+    "label": "Nixon's Watergate crimes and resignation represented democratic backsliding and accountability simultaneously",
+    "note": "Nixon's Watergate crimes \u2014 the Saturday Night Massacre, obstruction of justice, abuse of the CIA and FBI \u2014 represented executive democratic backsliding. His forced resignation demonstrated that democratic accountability mechanisms could function even against a sitting president. Both sides of the coin in one case.",
+    "confidence": "high"
+  },
+  {
+    "id": "mikhail_gorbachev__institutional_resilience",
+    "source": "mikhail_gorbachev",
+    "target": "institutional_resilience",
+    "type": "DISCREDITED",
+    "label": "Gorbachev's reforms revealed the Soviet system's brittleness \u2014 insufficient institutional resilience",
+    "note": "Gorbachev's glasnost and perestroika were attempts to reform the Soviet system \u2014 but revealed it had no institutional resilience: once the terror was removed, the system collapsed. Institutions held together by coercion rather than consent have no resilience when the coercive mechanism weakens.",
+    "confidence": "high"
+  },
+  {
+    "id": "martin_luther_king_jr__coalition_building",
+    "source": "martin_luther_king_jr",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "MLK built the broadest interracial coalition in American history",
+    "note": "King's leadership built the Southern Christian Leadership Conference into a national movement by consistently building coalitions: with white northern liberals, with Jewish communities, with labor unions, and with students across the civil rights organizations. His political genius was coalition expansion.",
+    "confidence": "high"
+  },
+  {
+    "id": "muhammad_ibn_abdallah__in_group_out_group_dynamics",
+    "source": "muhammad_ibn_abdallah",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Muhammad created the umma as a new in-group that transcended tribal identity",
+    "note": "Muhammad's founding innovation was creating the Muslim umma (community) as a new in-group that superseded tribal identity \u2014 replacing the pre-Islamic tribal loyalty system with religious community as the primary in-group. This structural innovation enabled rapid conquest and conversion.",
+    "confidence": "high"
+  },
+  {
+    "id": "saladin__in_group_out_group_dynamics",
+    "source": "saladin",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Saladin united the fractured Muslim polities into a coalition against Crusader states",
+    "note": "Saladin's achievement was political as much as military: unifying the fractured Zengid, Ayyubid, and Fatimid factions into a single in-group capable of sustained military campaign. He redefined the Muslim in-group as anti-Crusader when it had been internally fractured.",
+    "confidence": "high"
+  },
+  {
+    "id": "genghis_khan__structural_violence",
+    "source": "genghis_khan",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Genghis Khan's conquest system produced history's most lethal structural violence",
+    "note": "Genghis Khan's conquest system \u2014 cities that surrendered were spared, cities that resisted were massacred, crops destroyed to prevent re-settlement \u2014 was a deliberate structural violence architecture that killed an estimated 10-15% of the world population. The terror was the mechanism; mass death was its systematic product.",
+    "confidence": "high"
+  },
+  {
+    "id": "theodor_herzl__in_group_out_group_dynamics",
+    "source": "theodor_herzl",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Herzl founded modern Zionism as a response to European antisemitic in-group exclusion",
+    "note": "Herzl founded political Zionism after covering the Dreyfus Affair \u2014 concluding that European antisemitism was irradicable and Jews needed a state rather than assimilation. His movement was in-group identity politics in response to in-group exclusion: building a national in-group as the response to perpetual out-group status.",
+    "confidence": "high"
+  },
+  {
+    "id": "gamal_nasser__imperialism",
+    "source": "gamal_nasser",
+    "target": "imperialism",
+    "type": "DISCREDITED",
+    "label": "Nasser led the pan-Arab decolonization movement against Western imperialism",
+    "note": "Nasser's nationalization of the Suez Canal, pan-Arab nationalism, and leadership of the Non-Aligned Movement made him the foremost challenger to Western imperialism in the Arab world. The Suez Crisis confirmed his analysis: Britain and France would use military force to maintain imperial control.",
+    "confidence": "high"
+  },
+  {
+    "id": "ayatollah_khomeini__theocracy",
+    "source": "ayatollah_khomeini",
+    "target": "theocracy",
+    "type": "PRODUCED",
+    "label": "Khomeini created the first modern Shia theocracy through the wilayat al-faqih doctrine",
+    "note": "Khomeini's doctrine of wilayat al-faqih (guardianship of the Islamic jurist) created the theological framework for a modern theocracy in which religious scholars hold ultimate political authority. The 1979 Iranian Revolution implemented this doctrine as a functioning state \u2014 the first modern theocracy in a major country.",
+    "confidence": "high"
+  },
+  {
+    "id": "charles_darwin__scientific_consensus",
+    "source": "charles_darwin",
+    "target": "scientific_consensus",
+    "type": "PRODUCED",
+    "label": "Darwin's natural selection theory created the framework for biological scientific consensus",
+    "note": "Darwin's theory of evolution by natural selection became the organizing principle of modern biology \u2014 the framework within which all subsequent biological research is interpreted. It is one of the best-tested scientific theories in history and the foundation of modern medicine, ecology, and genetics.",
+    "confidence": "high"
+  },
+  {
+    "id": "persian_achaemenid_empire__imperialism",
+    "source": "persian_achaemenid_empire",
+    "target": "imperialism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Persian Empire was the first multi-ethnic bureaucratic empire \u2014 the model for all subsequent empires",
+    "note": "The Achaemenid Persian Empire was the first to develop a bureaucratic, multi-ethnic imperial model: regional governors (satraps), standardized coinage, a royal road network, and a policy of cultural tolerance. It established the imperial model that Alexander, Rome, and modern empires studied and adapted.",
+    "confidence": "high"
+  },
+  {
+    "id": "alexander_the_great__imperialism",
+    "source": "alexander_the_great",
+    "target": "imperialism",
+    "type": "ENABLED",
+    "label": "Alexander's conquests spread Hellenistic cultural imperialism across the known world",
+    "note": "Alexander's conquests established the Hellenistic cultural imperialism model: Greek language, religion, and culture spread across the conquered territories through Greek settler colonies, intermarriage, and the prestige of the conqueror's culture. Cultural imperialism as deliberate strategy.",
+    "confidence": "high"
+  },
+  {
+    "id": "byzantine_empire__institutional_resilience",
+    "source": "byzantine_empire",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "label": "Byzantine Empire survived for 1,000 years as the most resilient imperial institution in history",
+    "note": "The Byzantine Empire survived from 330 to 1453 CE \u2014 outlasting the Western Roman Empire by a thousand years \u2014 through institutional resilience: a sophisticated bureaucracy, professional army, Orthodox Church as legitimizing institution, and the ability to adapt to repeated military catastrophes.",
+    "confidence": "high"
+  },
+  {
+    "id": "sassanid_persian_empire__church_state_entanglement",
+    "source": "sassanid_persian_empire",
+    "target": "church_state_entanglement",
+    "type": "PRODUCED",
+    "label": "Sassanid Empire institutionalized Zoroastrian church-state fusion as the model for Persian identity",
+    "note": "The Sassanid Empire (224-651 CE) institutionalized Zoroastrianism as the state religion \u2014 the first major Islamic successor state, Achaemenid Persian identity, and Sassanid religious nationalism all contributed to the church-state entanglement model that defined Persian civilization before Islam.",
+    "confidence": "medium"
+  },
+  {
+    "id": "seljuk_empire__imperialism",
+    "source": "seljuk_empire",
+    "target": "imperialism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Seljuk Empire transformed Central Asian nomadic power into settled imperial governance",
+    "note": "The Seljuk Empire (1037-1194) transformed Turkic nomadic military power into settled empire \u2014 adopting Persian administrative culture, patronizing Islamic scholarship, and creating the institutional model that the Ottoman Empire later perfected. Seljuk imperialism was the transition from steppe nomadism to settled Islamic empire.",
+    "confidence": "medium"
+  },
+  {
+    "id": "crusader_states__in_group_out_group_dynamics",
+    "source": "crusader_states",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Crusader states created a centuries-long Christian in-group presence in Muslim territory",
+    "note": "The Crusader states (1099-1291) maintained a Christian in-group presence in Muslim-majority territory for two centuries \u2014 requiring constant in-group/out-group negotiation, sometimes producing tolerance, sometimes intensifying violence. They represent the difficulties of in-group minority governance in out-group majority territory.",
+    "confidence": "high"
+  },
+  {
+    "id": "ottoman_empire__imperialism",
+    "source": "ottoman_empire",
+    "target": "imperialism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Ottoman Empire was the last great Islamic imperial system before European imperialism dismembered it",
+    "note": "The Ottoman Empire maintained a multi-ethnic, multi-religious imperial system for 600 years through a combination of military power, administrative flexibility (millet system), and Islamic legitimacy. Its dismemberment by European imperialism (WWI mandates, Sykes-Picot) produced the conflicts that still shape the Middle East.",
+    "confidence": "high"
+  },
+  {
+    "id": "rise_of_al_qaeda__radicalization_pipeline",
+    "source": "rise_of_al_qaeda",
+    "target": "radicalization_pipeline",
+    "type": "PRODUCED",
+    "label": "al-Qaeda developed the global radicalization pipeline infrastructure",
+    "note": "Al-Qaeda was the first organization to build a global radicalization infrastructure: training camps in Afghanistan, financing networks, media production (fatwa publications), and international recruitment. It established the organizational model for subsequent jihadist radicalization pipelines.",
+    "confidence": "high"
+  },
+  {
+    "id": "covid_vaccine_hesitancy__broken_epistemology",
+    "source": "covid_vaccine_hesitancy",
+    "target": "broken_epistemology",
+    "type": "PRODUCED",
+    "label": "COVID vaccine hesitancy was broken epistemology's most consequential recent manifestation",
+    "note": "COVID vaccine hesitancy \u2014 reaching 30-40% of US adults \u2014 represented broken epistemology at potentially lethal scale: distrust of scientific consensus, conflation of safety data with conspiracy theory, and inability to distinguish peer-reviewed research from social media. The epistemological breakdown had measurable mortality consequences.",
+    "confidence": "high"
+  },
+  {
+    "id": "ai_large_language_models__deepfakes",
+    "source": "ai_large_language_models",
+    "target": "deepfakes",
+    "type": "ENABLED",
+    "label": "LLMs dramatically lowered the cost of generating convincing disinformation text",
+    "note": "Large language models dramatically reduced the cost of generating convincing text-based disinformation \u2014 making AI-generated propaganda, fake news, phishing, and academic fraud scalable to any actor with internet access. LLMs extend the deepfakes threat from video to text at much greater scale.",
+    "confidence": "high"
   }
 ]
