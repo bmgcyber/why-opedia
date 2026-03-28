@@ -15801,5 +15801,572 @@
     "label": "Luxemburg's failed revolution shaped the founding crisis of the Weimar Republic",
     "note": "Rosa Luxemburg's Spartacist uprising (January 1919) and its brutal suppression by Social Democrat-aligned Freikorps was the founding trauma of Weimar democracy \u2014 a left split that weakened the Republic from birth and empowered the paramilitaries who would later help destroy it.",
     "confidence": "high"
+  },
+  {
+    "id": "silk_road__social_trust",
+    "source": "silk_road",
+    "target": "social_trust",
+    "type": "PRODUCED",
+    "label": "Silk Road required and built cross-cultural trust networks over centuries",
+    "note": "The Silk Road sustained multi-century trade across dozens of cultures, languages, and religions \u2014 requiring and producing sophisticated trust mechanisms: standardized weights, commercial law, intermediary cities, and diplomatic relations. One of history's largest voluntary cross-cultural cooperation systems.",
+    "confidence": "high"
+  },
+  {
+    "id": "silk_road__resource_extraction",
+    "source": "silk_road",
+    "target": "resource_extraction",
+    "type": "ENABLED",
+    "label": "Silk Road enabled resource extraction by connecting production and consumption zones",
+    "note": "The Silk Road connected zones of production (Chinese silk, Indian spices, Central Asian horses) to zones of consumption \u2014 enabling resource extraction at continental scale by making long-distance commodity trade profitable.",
+    "confidence": "medium"
+  },
+  {
+    "id": "colonial_era__imperialism",
+    "source": "colonial_era",
+    "target": "imperialism",
+    "type": "PRODUCED",
+    "label": "colonial era was the historical form in which modern imperialism operated",
+    "note": "The colonial era (roughly 1500-1960) was the historical period in which imperialism achieved its most systematic global expression \u2014 European powers dividing the world into colonies operating through exploitation, extraction, and dehumanization.",
+    "confidence": "high"
+  },
+  {
+    "id": "colonial_era__dehumanization",
+    "source": "colonial_era",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "colonial era required systematic dehumanization of colonized peoples to function",
+    "note": "The colonial system required dehumanization to operate: it was impossible to extract labor and resources from people recognized as fully human. The colonial era generated an enormous apparatus of pseudo-scientific, religious, and cultural dehumanization to make extraction morally permissible.",
+    "confidence": "high"
+  },
+  {
+    "id": "enlightenment__scientific_method",
+    "source": "enlightenment",
+    "target": "scientific_method",
+    "type": "PRODUCED",
+    "label": "Enlightenment established the scientific method as the dominant epistemic framework",
+    "note": "The Enlightenment's core project was replacing religious authority with reason and empirical method as the foundation for knowledge. Its institutionalization of the scientific method \u2014 peer review, reproducibility, systematic observation \u2014 created the epistemic infrastructure of modernity.",
+    "confidence": "high"
+  },
+  {
+    "id": "enlightenment__social_contract_theory",
+    "source": "enlightenment",
+    "target": "social_contract_theory",
+    "type": "PRODUCED",
+    "label": "Enlightenment produced the social contract theory that justified democratic revolutions",
+    "note": "Hobbes, Locke, Rousseau, and Montesquieu all developed their social contract theories within the Enlightenment project. These theories provided the philosophical justification for the American and French Revolutions \u2014 sovereignty derives from consent, not divine right.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_leap_forward__structural_violence",
+    "source": "great_leap_forward",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Great Leap Forward killed 15-55 million through deliberate agricultural collectivization policy",
+    "note": "The Great Leap Forward (1958-62) killed 15-55 million people through a structural system: collectivization of agriculture, impossible grain quotas, prohibition of peasants from eating their own harvest, and local officials who reported success rather than famine. The largest peacetime structural violence in the 20th century.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_leap_forward__cult_dynamics",
+    "source": "great_leap_forward",
+    "target": "cult_dynamics",
+    "type": "ENABLED",
+    "label": "Mao cult prevented accurate information from reaching decision makers",
+    "note": "The Great Leap Forward was sustained by Mao's cult of personality \u2014 officials who reported failure were punished, creating a preference falsification system that prevented leadership from receiving accurate information about the famine they were causing.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_death__scapegoating",
+    "source": "black_death",
+    "target": "scapegoating",
+    "type": "ENABLED",
+    "label": "Black Death triggered mass Jewish pogroms across Europe",
+    "note": "The Black Death produced the largest wave of Jewish pogroms in medieval history \u2014 Jews accused of poisoning wells and causing the plague. Classic scapegoating: an inexplicable catastrophe requires a human cause, and the available out-group became the explanation.",
+    "confidence": "high"
+  },
+  {
+    "id": "srebrenica_massacre__in_group_out_group_dynamics",
+    "source": "srebrenica_massacre",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "massacre was the culmination of Serb/Bosniak in-group radicalization",
+    "note": "The Srebrenica massacre resulted from the in-group radicalization of Serbian nationalism \u2014 Bosniaks defined as an existential threat to be eliminated. In-group dynamics that began with political competition ended in deliberate genocide within a UN-protected safe area.",
+    "confidence": "high"
+  },
+  {
+    "id": "my_lai_massacre__moral_disengagement",
+    "source": "my_lai_massacre",
+    "target": "moral_disengagement",
+    "type": "PRODUCED",
+    "label": "My Lai demonstrated how military hierarchy enables moral disengagement at scale",
+    "note": "The My Lai massacre (1968) \u2014 soldiers killing ~500 unarmed Vietnamese villagers \u2014 was enabled by moral disengagement: dehumanization of Vietnamese civilians, diffusion of responsibility through military chain of command, and the \"free fire zone\" framework that removed moral agency from individual soldiers.",
+    "confidence": "high"
+  },
+  {
+    "id": "sykes_picot_agreement__in_group_out_group_dynamics",
+    "source": "sykes_picot_agreement",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Sykes-Picot drew artificial borders that cut across ethnic and religious in-groups",
+    "note": "The 1916 Sykes-Picot Agreement divided the Arab world into French and British spheres along straight lines that cut through tribes, ethnic groups, and religious communities \u2014 creating states whose borders systematically ignored the in-group identities of their populations.",
+    "confidence": "high"
+  },
+  {
+    "id": "sykes_picot_agreement__imperialism",
+    "source": "sykes_picot_agreement",
+    "target": "imperialism",
+    "type": "PRODUCED",
+    "label": "secret treaty was imperialism's most brazen act of Arab territorial partition",
+    "note": "Sykes-Picot was negotiated in secret while British and French were soliciting Arab military support with promises of independence. It produced the modern Middle East state system \u2014 and the grievances that fuel regional politics to this day.",
+    "confidence": "high"
+  },
+  {
+    "id": "balfour_declaration__in_group_out_group_dynamics",
+    "source": "balfour_declaration",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Declaration created competing Jewish and Palestinian national in-group claims to same territory",
+    "note": "The Balfour Declaration (1917) promised a Jewish homeland in Palestine without consulting its Arab majority population \u2014 creating the foundational in-group conflict in which Jewish and Palestinian national identities became defined against each other's claim to the same land.",
+    "confidence": "high"
+  },
+  {
+    "id": "balfour_declaration__imperialism",
+    "source": "balfour_declaration",
+    "target": "imperialism",
+    "type": "PRODUCED",
+    "label": "Declaration was imperial Britain disposing of territory it didn't own",
+    "note": "Britain promised Jewish nationalists a homeland in a territory under Ottoman control that Britain did not yet possess \u2014 a paradigmatic act of imperial overreach: disposing of others' land to serve strategic and domestic political interests.",
+    "confidence": "high"
+  },
+  {
+    "id": "founding_of_israel__in_group_out_group_dynamics",
+    "source": "founding_of_israel",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Israel's founding crystallized the Jewish/Palestinian national in-group conflict",
+    "note": "Israel's 1948 founding \u2014 and the simultaneous Nakba (displacement of 700,000+ Palestinians) \u2014 crystallized the Jewish/Palestinian national conflict into territorial reality. Two in-groups with competing claims to national sovereignty on the same land, both with genuine historical grievances.",
+    "confidence": "high"
+  },
+  {
+    "id": "oslo_accords__institutional_resilience",
+    "source": "oslo_accords",
+    "target": "institutional_resilience",
+    "type": "DISCREDITED",
+    "label": "Oslo created institutions that failed to resolve the underlying conflict",
+    "note": "The Oslo Accords (1993) created the Palestinian Authority and established a framework for a two-state solution \u2014 but the institutions they built failed to produce a final status agreement. Oslo represents institutional resilience that was insufficient: structures that managed but didn't resolve the conflict.",
+    "confidence": "high"
+  },
+  {
+    "id": "oslo_accords__coalition_building",
+    "source": "oslo_accords",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "Oslo represented a coalition between Israeli and Palestinian moderates against extremists on both sides",
+    "note": "The Oslo process built a coalition between Rabin's Labor government and Arafat's PLO \u2014 moderates on both sides forming an alliance against the Hamas, Islamic Jihad, and Israeli settler movements that opposed negotiation. Its failure was partly due to extremists on both sides destroying the coalition.",
+    "confidence": "high"
+  },
+  {
+    "id": "soviet_afghan_war__radicalization_pipeline",
+    "source": "soviet_afghan_war",
+    "target": "radicalization_pipeline",
+    "type": "PRODUCED",
+    "label": "CIA-Saudi-backed jihad created the radicalization pipeline that produced al-Qaeda",
+    "note": "The Soviet-Afghan War (1979-89) was the incubator for al-Qaeda: the CIA and Saudi Arabia funded and armed a global jihadist network, imported fighters from across the Muslim world, and trained a generation in guerrilla warfare. When the war ended, the network had no state sponsor but retained its structure.",
+    "confidence": "high"
+  },
+  {
+    "id": "soviet_afghan_war__manufactured_consent",
+    "source": "soviet_afghan_war",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "Cold War framing manufactured US consent for arming extremists",
+    "note": "The Cold War framing \u2014 the Afghan mujahideen as freedom fighters against Soviet imperialism \u2014 manufactured American consent for arming and training groups that included the roots of al-Qaeda. The Cold War in-group/out-group logic overrode analysis of who was actually being empowered.",
+    "confidence": "high"
+  },
+  {
+    "id": "gulf_war_1990__manufactured_consent",
+    "source": "gulf_war_1990",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "Hill & Knowlton PR campaign manufactured congressional consent for Gulf War",
+    "note": "The Gulf War featured one of the most documented manufactured consent operations: the Hill & Knowlton PR firm represented the Kuwaiti government, coaching the fake \"incubator babies\" testimony before Congress that helped swing votes for war authorization. A direct descendant of Hearst-era techniques.",
+    "confidence": "high"
+  },
+  {
+    "id": "gulf_war_1990__resource_extraction",
+    "source": "gulf_war_1990",
+    "target": "resource_extraction",
+    "type": "ENABLED",
+    "label": "war was fundamentally about protecting Gulf oil supplies and infrastructure",
+    "note": "The Gulf War was explicitly justified partly by protecting regional oil supplies \u2014 George H.W. Bush's stated interest in \"our way of life.\" Resource extraction (oil) was not the only motivation but was a structural one: the war protected the oil infrastructure that global capitalism required.",
+    "confidence": "high"
+  },
+  {
+    "id": "mongol_empire__structural_violence",
+    "source": "mongol_empire",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Mongol conquests killed estimated 40 million people in systematic campaigns",
+    "note": "Mongol conquest campaigns systematically destroyed cities that resisted \u2014 Baghdad (1258), Samarkand, Nishapur \u2014 killing entire populations as a deliberate terror strategy. Estimated 40 million deaths (10-20% of world population) make the Mongol conquests the proportionally deadliest in history.",
+    "confidence": "high"
+  },
+  {
+    "id": "mongol_empire__imperialism",
+    "source": "mongol_empire",
+    "target": "imperialism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Mongol Empire operated through conquest, extraction, and ethnic hierarchy like modern imperialism",
+    "note": "The Mongol Empire operated through the mechanisms of imperialism \u2014 conquest, tribute extraction, ethnic hierarchy (Mongols ruling subjugated peoples), and cultural appropriation (adopting Chinese, Islamic, and other cultural forms to legitimize rule). Pre-modern imperialism at its largest geographic scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "constantine_conversion__in_group_out_group_dynamics",
+    "source": "constantine_conversion",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Imperial Christianity created Christian/pagan and later Christian/heretic in-group divisions",
+    "note": "Once Christianity became the Roman state religion, the in-group/out-group dynamics of religious identity became politically consequential \u2014 pagans were systematically marginalized, heretics persecuted, and Jewish communities subjected to escalating legal discrimination.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_schism_1054__in_group_out_group_dynamics",
+    "source": "great_schism_1054",
+    "target": "in_group_out_group_dynamics",
+    "type": "PRODUCED",
+    "label": "Great Schism created the permanent Catholic/Orthodox in-group division in Christianity",
+    "note": "The 1054 Great Schism divided Christianity into Eastern (Orthodox) and Western (Catholic) branches \u2014 each claiming to be the authentic church, each defining the other as schismatic. The theological and political division created competing in-groups whose rivalry persists today.",
+    "confidence": "high"
+  },
+  {
+    "id": "great_schism_1054__church_state_entanglement",
+    "source": "great_schism_1054",
+    "target": "church_state_entanglement",
+    "type": "PRODUCED",
+    "label": "Schism separated eastern and western church-state models",
+    "note": "The Great Schism separated the Byzantine model (patriarch subordinate to emperor, caesaropapism) from the Western model (pope claiming authority over secular rulers). The different church-state models produced in East and West still shape political cultures in Russia/Eastern Europe vs. Western Europe.",
+    "confidence": "high"
+  },
+  {
+    "id": "arab_conquests__in_group_out_group_dynamics",
+    "source": "arab_conquests",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Arab conquests created the Muslim/non-Muslim in-group structure across the Middle East and North Africa",
+    "note": "The Arab conquests of the 7th-8th centuries rapidly established Islam as the dominant in-group identity across the Middle East, North Africa, and Persia \u2014 transforming the in-group/out-group structure of an enormous territory from tribal/Christian/Zoroastrian to Muslim.",
+    "confidence": "high"
+  },
+  {
+    "id": "arab_conquests__imperialism",
+    "source": "arab_conquests",
+    "target": "imperialism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Arab conquest empire operated through many mechanisms of imperialism",
+    "note": "The Umayyad and Abbasid empires established through Arab conquest operated through imperial mechanisms: conquest, tribute systems (dhimmi status), cultural Arabization, and ethnic hierarchy with Arab Muslims at the top. Pre-modern imperialism at Middle Eastern scale.",
+    "confidence": "medium"
+  },
+  {
+    "id": "pyramid_construction__structural_violence",
+    "source": "pyramid_construction",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "pyramid construction mobilized massive coerced labor through state structural mechanisms",
+    "note": "While recent evidence suggests pyramid builders were paid laborers rather than slaves, they were mobilized through structural coercion \u2014 state requisition of peasant labor through corv\u00e9e taxation. Massive state projects require structural labor mechanisms that limit voluntary choice.",
+    "confidence": "medium"
+  },
+  {
+    "id": "korean_war__manufactured_consent",
+    "source": "korean_war",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "Korean War was waged without congressional declaration through manufactured Cold War consensus",
+    "note": "Truman sent 36,000 Americans to die in Korea calling it a \"police action\" \u2014 without congressional declaration of war. The Cold War manufactured consent framework made congressional approval unnecessary: the communist threat consensus justified executive war-making.",
+    "confidence": "high"
+  },
+  {
+    "id": "cuban_revolution__democratic_backsliding",
+    "source": "cuban_revolution",
+    "target": "democratic_backsliding",
+    "type": "PRODUCED",
+    "label": "Revolution that promised democracy produced one-party state",
+    "note": "Fidel Castro's 26th of July Movement promised elections and democratic governance \u2014 then systematically consolidated one-party communist control, jailing political opponents, nationalizing private property, and establishing the security state. Cuba remains among the most persistent cases of post-revolutionary democratic backsliding.",
+    "confidence": "high"
+  },
+  {
+    "id": "suez_crisis_1956__imperialism",
+    "source": "suez_crisis_1956",
+    "target": "imperialism",
+    "type": "DISCREDITED",
+    "label": "Suez Crisis ended British and French imperial power in the Middle East",
+    "note": "The Suez Crisis (1956) \u2014 when US pressure forced Britain and France to withdraw after their invasion \u2014 marked the definitive end of European imperial power in the Middle East. The episode demonstrated that post-WWII US hegemony had superseded European empire.",
+    "confidence": "high"
+  },
+  {
+    "id": "sykes_picot_agreement__israel_palestine_conflict",
+    "source": "sykes_picot_agreement",
+    "target": "israel_palestine_conflict",
+    "type": "PRODUCED",
+    "label": "Sykes-Picot created the territorial context in which the Israeli-Palestinian conflict developed",
+    "note": "The Sykes-Picot agreement's placement of Palestine under British Mandatory control was the immediate institutional context for the Balfour Declaration, Jewish immigration, and the 1948 war \u2014 Sykes-Picot created the political space in which the Israeli-Palestinian conflict took shape.",
+    "confidence": "high"
+  },
+  {
+    "id": "cuneiform__broken_epistemology",
+    "source": "cuneiform",
+    "target": "broken_epistemology",
+    "type": "DISCREDITED",
+    "label": "cuneiform writing enabled the first reliable external memory system",
+    "note": "Cuneiform (c.3200 BCE) was humanity's first writing system \u2014 enabling external memory storage that transcended individual human capacity. It disrupted the oral tradition's epistemological monopoly, creating the first infrastructure for accumulating knowledge across generations.",
+    "confidence": "high"
+  },
+  {
+    "id": "cuneiform__social_trust",
+    "source": "cuneiform",
+    "target": "social_trust",
+    "type": "PRODUCED",
+    "label": "writing enabled contracts and accounting that built impersonal social trust",
+    "note": "Cuneiform's earliest uses were commercial accounting and contracts \u2014 making agreements verifiable beyond personal memory and relationship. Writing created the infrastructure for impersonal trust at scale, enabling trade and governance across larger populations than kinship networks could manage.",
+    "confidence": "high"
+  },
+  {
+    "id": "egyptian_hieroglyphics__cultural_hegemony",
+    "source": "egyptian_hieroglyphics",
+    "target": "cultural_hegemony",
+    "type": "PRODUCED",
+    "label": "hieroglyphics confined literacy to priestly and scribal class, enabling cultural hegemony",
+    "note": "Egyptian hieroglyphics were deliberately complex \u2014 a writing system that required years of training, confining literacy to scribes and priests. This literacy monopoly was a cultural hegemony mechanism: the priestly class controlled the written record and thus the authoritative version of history and divine will.",
+    "confidence": "high"
+  },
+  {
+    "id": "homeric_epics__in_group_out_group_dynamics",
+    "source": "homeric_epics",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Homer's epics constructed Greek in-group identity against barbarian out-group",
+    "note": "The Iliad and Odyssey were not just stories but the primary texts that defined Greek cultural identity \u2014 what it meant to be Greek (honor, cunning, civilization) against the barbarian out-group. Homer's epics were the foundational in-group identity texts of Western civilization.",
+    "confidence": "high"
+  },
+  {
+    "id": "walter_lippmann__manufactured_consent",
+    "source": "walter_lippmann",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "Lippmann explicitly theorized that democracy requires managed public opinion",
+    "note": "Walter Lippmann's \"Public Opinion\" (1922) and \"The Phantom Public\" (1925) explicitly argued that democratic governance required expert management of public opinion \u2014 ordinary citizens couldn't understand complex governance, so specialists should manufacture consent. Chomsky's \"Manufacturing Consent\" explicitly responded to Lippmann.",
+    "confidence": "high"
+  },
+  {
+    "id": "church_committee__democratic_accountability",
+    "source": "church_committee",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "label": "Church Committee hearings established democratic accountability for intelligence agencies",
+    "note": "The 1975-76 Church Committee revelations \u2014 COINTELPRO, assassination plots, illegal surveillance \u2014 produced the first significant democratic accountability for US intelligence agencies: the Foreign Intelligence Surveillance Act, Inspector General system, and Congressional oversight committees.",
+    "confidence": "high"
+  },
+  {
+    "id": "watergate__democratic_accountability",
+    "source": "watergate",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "label": "Watergate demonstrated that democratic accountability could remove even a sitting president",
+    "note": "Watergate produced Nixon's resignation \u2014 demonstrating that the constitutional accountability mechanisms (Senate investigation, special prosecutor, press freedom) could function against executive overreach even when the president controlled much of the executive branch.",
+    "confidence": "high"
+  },
+  {
+    "id": "iran_contra__regulatory_capture",
+    "source": "iran_contra",
+    "target": "regulatory_capture",
+    "type": "PRODUCED",
+    "label": "Iran-Contra demonstrated executive branch capture of foreign policy beyond congressional oversight",
+    "note": "The Iran-Contra affair \u2014 selling arms to Iran to fund Nicaraguan Contras despite congressional prohibition \u2014 was regulatory capture at the foreign policy level: executive branch actors operating outside the legal constraints Congress had established, with internal institutional cover.",
+    "confidence": "high"
+  },
+  {
+    "id": "milgram_obedience_experiments__moral_disengagement",
+    "source": "milgram_obedience_experiments",
+    "target": "moral_disengagement",
+    "type": "PRODUCED",
+    "label": "Milgram experiments demonstrated that authority structures produce moral disengagement in ordinary people",
+    "note": "Stanley Milgram's obedience experiments showed that 65% of ordinary Americans would administer apparently lethal electric shocks to strangers when instructed by an authority figure. His work is the empirical foundation for moral disengagement theory: authority structures transform ordinary people into instruments of harm.",
+    "confidence": "high"
+  },
+  {
+    "id": "milgram_obedience_experiments__structural_violence",
+    "source": "milgram_obedience_experiments",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Milgram showed that structural authority produces violence without individual sadism",
+    "note": "Milgram's finding was not that his subjects were cruel \u2014 they showed visible distress \u2014 but that structural authority (a person in a lab coat saying \"continue the experiment\") was sufficient to override moral objections. Structural violence operates through these authority mechanisms.",
+    "confidence": "high"
+  },
+  {
+    "id": "sigmund_freud__cognitive_dissonance",
+    "source": "sigmund_freud",
+    "target": "cognitive_dissonance",
+    "type": "ENABLED",
+    "label": "Freud's unconscious theory was the predecessor framework for cognitive dissonance research",
+    "note": "Freud's theory that people operate with unconscious motivations that contradict their conscious beliefs was the philosophical predecessor to cognitive dissonance research \u2014 the idea that people can hold contradictory beliefs and that resolving this contradiction produces behavioral and psychological effects.",
+    "confidence": "medium"
+  },
+  {
+    "id": "sigmund_freud__propaganda",
+    "source": "sigmund_freud",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "label": "Freudian theory was directly applied to propaganda by Edward Bernays",
+    "note": "Edward Bernays \u2014 Freud's nephew \u2014 directly applied Freudian concepts (unconscious desires, crowd psychology) to the new field of public relations/propaganda. Freud's theory that people are driven by irrational unconscious desires became the foundation for manipulating mass behavior through symbol and emotion.",
+    "confidence": "high"
+  },
+  {
+    "id": "tuskegee_syphilis_study__systemic_racism",
+    "source": "tuskegee_syphilis_study",
+    "target": "systemic_racism",
+    "type": "PRODUCED",
+    "label": "Tuskegee study embedded distrust of medical institutions in Black communities",
+    "note": "The Tuskegee Syphilis Study (1932-1972) \u2014 in which US government researchers let Black men die of syphilis rather than treating them \u2014 produced lasting, justified distrust of medical institutions in Black communities. This distrust is itself a form of structural racism: the original harm continues producing health disparities decades later.",
+    "confidence": "high"
+  },
+  {
+    "id": "tuskegee_syphilis_study__dehumanization",
+    "source": "tuskegee_syphilis_study",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "study required treating Black men as research subjects rather than patients deserving care",
+    "note": "The Tuskegee study could only proceed through the dehumanization of its subjects \u2014 treating Black men as research objects whose suffering had scientific value rather than as patients whose suffering had moral weight. The same dehumanization that justified slavery justified this research.",
+    "confidence": "high"
+  },
+  {
+    "id": "conversion_therapy__religious_trauma",
+    "source": "conversion_therapy",
+    "target": "religious_trauma",
+    "type": "PRODUCED",
+    "label": "conversion therapy used religious authority to cause documented psychological harm",
+    "note": "Conversion therapy \u2014 attempting to change sexual orientation or gender identity through prayer, electroconvulsive therapy, or aversion techniques \u2014 produced measurable psychological harm (depression, suicidality) while being systematically ineffective. It is religious trauma institutionalized as healthcare.",
+    "confidence": "high"
+  },
+  {
+    "id": "conversion_therapy__dehumanization",
+    "source": "conversion_therapy",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "conversion therapy premises dehumanize LGBTQ people as broken and fixable",
+    "note": "Conversion therapy's entire premise requires dehumanizing LGBTQ identity \u2014 treating sexual orientation and gender identity as pathological defects to be corrected rather than as aspects of human diversity deserving respect. The dehumanization is the therapeutic framework.",
+    "confidence": "high"
+  },
+  {
+    "id": "sugar_industry_cover_up__manufactured_scientific_doubt",
+    "source": "sugar_industry_cover_up",
+    "target": "manufactured_scientific_doubt",
+    "type": "PRODUCED",
+    "label": "sugar industry funded research to shift blame from sugar to fat",
+    "note": "In the 1960s, the Sugar Research Foundation funded Harvard researchers to produce studies blaming dietary fat rather than sugar for heart disease \u2014 deliberately suppressing evidence linking sugar to cardiovascular disease. A direct precursor of the manufactured scientific doubt playbook used by tobacco and oil companies.",
+    "confidence": "high"
+  },
+  {
+    "id": "pharmaceutical_trials_manipulation__manufactured_scientific_doubt",
+    "source": "pharmaceutical_trials_manipulation",
+    "target": "manufactured_scientific_doubt",
+    "type": "PRODUCED",
+    "label": "selective publication of clinical trials manufactured scientific doubt about drug safety",
+    "note": "Pharmaceutical companies' selective publication of positive trial results while suppressing negative ones \u2014 documented extensively \u2014 manufactured scientific doubt about drug safety and efficacy. The published literature systematically overstated benefits and understated harms.",
+    "confidence": "high"
+  },
+  {
+    "id": "apocalypse_now_1979__moral_disengagement",
+    "source": "apocalypse_now_1979",
+    "target": "moral_disengagement",
+    "type": "PRODUCED",
+    "label": "film explored moral disengagement as Vietnam War's central psychological mechanism",
+    "note": "Apocalypse Now explored how the Vietnam War produced moral disengagement through institutional structure: soldiers who arrived with moral frameworks progressively dehumanized by the war's logic \u2014 until Kurtz's complete moral breakdown represents what systematic moral disengagement produces at its extreme.",
+    "confidence": "high"
+  },
+  {
+    "id": "this_land_is_your_land__mutual_aid",
+    "source": "this_land_is_your_land",
+    "target": "mutual_aid",
+    "type": "PRODUCED",
+    "label": "song articulated the commons as an alternative to private property as organizing principle",
+    "note": "Woody Guthrie's \"This Land Is Your Land\" (with its suppressed verses about private property signs) articulated a commons-based ethic \u2014 the land belongs to everyone \u2014 that connects to mutual aid traditions of shared resources against enclosure and privatization.",
+    "confidence": "medium"
+  },
+  {
+    "id": "we_shall_overcome__nonviolent_resistance",
+    "source": "we_shall_overcome",
+    "target": "nonviolent_resistance",
+    "type": "PRODUCED",
+    "label": "song became the anthem of nonviolent civil rights movement globally",
+    "note": "We Shall Overcome spread from the US civil rights movement to become the anthem of nonviolent resistance movements globally \u2014 Northern Ireland, South Africa, India, Hong Kong. It demonstrates how music can operationalize nonviolent resistance by providing collective emotional language for sustained struggle.",
+    "confidence": "high"
+  },
+  {
+    "id": "bretton_woods_collapse__financialization",
+    "source": "bretton_woods_collapse",
+    "target": "financialization",
+    "type": "PRODUCED",
+    "label": "end of gold standard created floating exchange rates that financialized the economy",
+    "note": "Nixon's 1971 end of the Bretton Woods gold standard created floating exchange rates \u2014 making currency itself a speculative commodity. This transition produced the explosion of currency trading, derivatives, and financial speculation that drove financialization of the global economy.",
+    "confidence": "high"
+  },
+  {
+    "id": "bretton_woods_collapse__austerity",
+    "source": "bretton_woods_collapse",
+    "target": "austerity",
+    "type": "ENABLED",
+    "label": "dollar hegemony after Bretton Woods allowed US to export inflation while others adjusted",
+    "note": "After the Bretton Woods collapse, the dollar remained the reserve currency while others adjusted to exchange rate volatility through austerity \u2014 raising interest rates, cutting spending, and tolerating unemployment to maintain currency stability and attract capital flows.",
+    "confidence": "high"
+  },
+  {
+    "id": "income_inequality__wealth_concentration",
+    "source": "income_inequality",
+    "target": "wealth_concentration",
+    "type": "ENABLED",
+    "label": "income inequality compounds into wealth concentration over time",
+    "note": "Income inequality translates into wealth concentration through capital accumulation: those with high incomes can invest, and returns on capital historically exceed economic growth rates. Income inequality compounds into wealth inequality \u2014 and wealth inequality then further increases income inequality through investment returns.",
+    "confidence": "high"
+  },
+  {
+    "id": "income_inequality__democratic_backsliding",
+    "source": "income_inequality",
+    "target": "democratic_backsliding",
+    "type": "ENABLED",
+    "label": "extreme income inequality enables the wealthy to capture political institutions",
+    "note": "As income inequality grows, the wealthy can increasingly fund political campaigns, lobbying operations, and think tanks \u2014 translating economic inequality into political power and producing democratic backsliding as institutions become responsive to wealth rather than the electorate.",
+    "confidence": "high"
+  },
+  {
+    "id": "debt_trap__austerity",
+    "source": "debt_trap",
+    "target": "austerity",
+    "type": "PRODUCED",
+    "label": "debt trap dynamics produce austerity conditions in borrowing countries",
+    "note": "The debt trap mechanism \u2014 when debt service consumes government revenues, preventing investment in development, requiring more borrowing \u2014 produces the austerity conditions imposed by IMF structural adjustment: cut social spending, raise taxes, privatize assets to service foreign debt.",
+    "confidence": "high"
+  },
+  {
+    "id": "enclosure_movement_economics__structural_violence",
+    "source": "enclosure_movement_economics",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "enclosures dispossessed the English peasantry through legal structural violence",
+    "note": "The English enclosure movement (15th-19th centuries) converted common lands to private property through parliamentary acts \u2014 dispossessing peasants who depended on commons for subsistence through legal structural mechanisms rather than direct force. It produced the landless proletariat that industrial capitalism required.",
+    "confidence": "high"
+  },
+  {
+    "id": "shareholder_primacy__wage_suppression",
+    "source": "shareholder_primacy",
+    "target": "wage_suppression",
+    "type": "PRODUCED",
+    "label": "shareholder primacy doctrine transferred corporate value from workers to shareholders",
+    "note": "Milton Friedman's shareholder primacy doctrine \u2014 the firm's only obligation is to shareholders \u2014 provided the ideological justification for restructuring corporations to maximize shareholder returns by suppressing wages, cutting benefits, and offshoring labor.",
+    "confidence": "high"
+  },
+  {
+    "id": "shareholder_primacy__wealth_concentration",
+    "source": "shareholder_primacy",
+    "target": "wealth_concentration",
+    "type": "PRODUCED",
+    "label": "shareholder primacy concentrated corporate value in the hands of share owners",
+    "note": "By defining shareholder returns as the sole corporate objective, shareholder primacy restructured corporations to redistribute value from workers, communities, and customers to shareholders \u2014 concentrating wealth among those who own capital.",
+    "confidence": "high"
   }
 ]
