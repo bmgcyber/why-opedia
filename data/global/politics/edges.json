@@ -23,7 +23,7 @@
     "target": "papal_swiss_guard",
     "type": "PRODUCED",
     "label": "sacrifice became the founding oath",
-    "note": "The 1527 sacrifice produced the institution as it exists today — the Papal Swiss Guard's oath of fidelity unto death, its identity, and its continued existence 500 years later all trace directly to the 147 guards who died holding the line at St. Peter's Square.",
+    "note": "The 1527 sacrifice produced the institution as it exists today \u2014 the Papal Swiss Guard's oath of fidelity unto death, its identity, and its continued existence 500 years later all trace directly to the 147 guards who died holding the line at St. Peter's Square.",
     "confidence": "high"
   },
   {
@@ -32,7 +32,7 @@
     "target": "battle_of_vienna_1683",
     "type": "ENABLED",
     "label": "largest cavalry charge decided the battle",
-    "note": "The September 12 charge of approximately 3,000 Winged Hussars downhill into the Ottoman camp was the decisive tactical moment — breaking Ottoman lines that had held for two months of siege. Contemporary accounts and subsequent military analysis agree the battle turned on this intervention.",
+    "note": "The September 12 charge of approximately 3,000 Winged Hussars downhill into the Ottoman camp was the decisive tactical moment \u2014 breaking Ottoman lines that had held for two months of siege. Contemporary accounts and subsequent military analysis agree the battle turned on this intervention.",
     "confidence": "high"
   },
   {
@@ -41,7 +41,7 @@
     "target": "jim_crow_laws",
     "type": "CAUSED",
     "label": "racial hierarchy survived emancipation",
-    "note": "Emancipation destroyed the legal institution of slavery but not the racial hierarchy it required. Jim Crow laws were the immediate Reconstruction-era mechanism by which that hierarchy was re-encoded in law — the same ideology in new legal form.",
+    "note": "Emancipation destroyed the legal institution of slavery but not the racial hierarchy it required. Jim Crow laws were the immediate Reconstruction-era mechanism by which that hierarchy was re-encoded in law \u2014 the same ideology in new legal form.",
     "confidence": "high"
   },
   {
@@ -50,7 +50,7 @@
     "target": "war_on_drugs",
     "type": "ENABLED",
     "label": "racialized enforcement infrastructure inherited",
-    "note": "Jim Crow's racialized policing patterns, prosecutorial discretion, and community surveillance infrastructure were not dismantled at the Civil Rights Acts — they were inherited by the War on Drugs, which applied them through nominally race-neutral drug enforcement with documented racial targeting.",
+    "note": "Jim Crow's racialized policing patterns, prosecutorial discretion, and community surveillance infrastructure were not dismantled at the Civil Rights Acts \u2014 they were inherited by the War on Drugs, which applied them through nominally race-neutral drug enforcement with documented racial targeting.",
     "confidence": "medium"
   },
   {
@@ -68,7 +68,7 @@
     "target": "tuskegee_syphilis_study",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both targeted Black Americans for state harm",
-    "note": "Both Tuskegee and the War on Drugs represent documented federal programs that inflicted disproportionate harm on Black Americans under nominally neutral justifications — one as medical research, one as law enforcement. Both produced rational distrust of state institutions.",
+    "note": "Both Tuskegee and the War on Drugs represent documented federal programs that inflicted disproportionate harm on Black Americans under nominally neutral justifications \u2014 one as medical research, one as law enforcement. Both produced rational distrust of state institutions.",
     "confidence": "medium"
   },
   {
@@ -86,7 +86,7 @@
     "target": "nuremberg_laws_1935",
     "type": "ENABLED",
     "label": "American racial laws cited as legal precedent",
-    "note": "Nazi jurists explicitly cited U.S. racial statutes — Virginia's Racial Integrity Act, miscegenation laws, and compulsory sterilization laws — as models during the drafting of the Nuremberg Laws. James Q. Whitman's Hitler's American Model documents this in detail.",
+    "note": "Nazi jurists explicitly cited U.S. racial statutes \u2014 Virginia's Racial Integrity Act, miscegenation laws, and compulsory sterilization laws \u2014 as models during the drafting of the Nuremberg Laws. James Q. Whitman's Hitler's American Model documents this in detail.",
     "confidence": "high"
   },
   {
@@ -104,7 +104,7 @@
     "target": "gulag_system",
     "type": "PRODUCED",
     "label": "purges filled the camps",
-    "note": "The Great Terror's mass arrests — over 1.5 million in 1937–1938 alone — dramatically expanded the Gulag population, integrating political repression and forced labor as a single system rather than parallel programs.",
+    "note": "The Great Terror's mass arrests \u2014 over 1.5 million in 1937\u20131938 alone \u2014 dramatically expanded the Gulag population, integrating political repression and forced labor as a single system rather than parallel programs.",
     "confidence": "high"
   },
   {
@@ -113,7 +113,7 @@
     "target": "watergate",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both illegal presidential operations covered up",
-    "note": "Both Watergate and Iran-Contra involved presidential administrations conducting illegal operations, creating internal cover-up structures, and being exposed through investigative reporting and Congressional investigation — demonstrating the pattern's recurrence across administrations.",
+    "note": "Both Watergate and Iran-Contra involved presidential administrations conducting illegal operations, creating internal cover-up structures, and being exposed through investigative reporting and Congressional investigation \u2014 demonstrating the pattern's recurrence across administrations.",
     "confidence": "high"
   },
   {
@@ -122,7 +122,7 @@
     "target": "pentagon_papers",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both are documented government war deceptions",
-    "note": "Both represent presidentially authorized manipulation of intelligence and public information to justify wars that could not survive public scrutiny — Pentagon Papers documented Vietnam, Chilcot documented Iraq, both confirming systematic deception about military necessity.",
+    "note": "Both represent presidentially authorized manipulation of intelligence and public information to justify wars that could not survive public scrutiny \u2014 Pentagon Papers documented Vietnam, Chilcot documented Iraq, both confirming systematic deception about military necessity.",
     "confidence": "high"
   },
   {
@@ -131,7 +131,7 @@
     "target": "cointelpro",
     "type": "SHARES_MECHANISM_WITH",
     "label": "mass domestic surveillance rebuilt at digital scale",
-    "note": "Snowden's 2013 disclosures confirmed that NSA bulk collection programs surveilled the communications of millions of Americans — reconstructing COINTELPRO's mass domestic surveillance program using digital infrastructure, with the same targeting of political and religious groups.",
+    "note": "Snowden's 2013 disclosures confirmed that NSA bulk collection programs surveilled the communications of millions of Americans \u2014 reconstructing COINTELPRO's mass domestic surveillance program using digital infrastructure, with the same targeting of political and religious groups.",
     "confidence": "high"
   },
   {
@@ -140,7 +140,7 @@
     "target": "peace_of_westphalia",
     "type": "PRODUCED",
     "label": "war's devastation produced new order",
-    "note": "The Thirty Years War's catastrophic destruction — killing a third of the German population — produced Westphalia as the settlement mechanism. Exhaustion from religious warfare was the precondition for the treaty's revolutionary innovation: mutual recognition of sovereign religious authority.",
+    "note": "The Thirty Years War's catastrophic destruction \u2014 killing a third of the German population \u2014 produced Westphalia as the settlement mechanism. Exhaustion from religious warfare was the precondition for the treaty's revolutionary innovation: mutual recognition of sovereign religious authority.",
     "confidence": "high"
   },
   {
@@ -149,7 +149,7 @@
     "target": "protestant_reformation",
     "type": "NORMALIZED",
     "label": "permanently legitimized religious division",
-    "note": "The Peace of Westphalia's recognition of Calvinism as a legitimate Christian denomination permanently foreclosed the Catholic Habsburgs' project of religious reunification — confirming the Reformation's permanent fragmentation of Western Christendom as the new European baseline.",
+    "note": "The Peace of Westphalia's recognition of Calvinism as a legitimate Christian denomination permanently foreclosed the Catholic Habsburgs' project of religious reunification \u2014 confirming the Reformation's permanent fragmentation of Western Christendom as the new European baseline.",
     "confidence": "high"
   },
   {
@@ -158,7 +158,7 @@
     "target": "pentagon_papers",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both exposed systematic government cover-up",
-    "note": "Both My Lai and the Pentagon Papers were covered up for years by military and political officials before being forced into public record — demonstrating the same pattern of systematic institutional deception about Vietnam War conduct.",
+    "note": "Both My Lai and the Pentagon Papers were covered up for years by military and political officials before being forced into public record \u2014 demonstrating the same pattern of systematic institutional deception about Vietnam War conduct.",
     "confidence": "high"
   },
   {
@@ -167,7 +167,7 @@
     "target": "abbasid_caliphate",
     "type": "PRODUCED",
     "label": "conquests built the empire the Abbasids inherited",
-    "note": "The Arab conquests built the vast Islamic empire that the Abbasid revolution of 750 AD inherited — the Abbasids overthrew the Umayyad dynasty but governed the territory the conquests had created.",
+    "note": "The Arab conquests built the vast Islamic empire that the Abbasid revolution of 750 AD inherited \u2014 the Abbasids overthrew the Umayyad dynasty but governed the territory the conquests had created.",
     "confidence": "high"
   },
   {
@@ -176,7 +176,7 @@
     "target": "fatimid_caliphate",
     "type": "PRODUCED",
     "label": "Shia politics produced the Fatimid state",
-    "note": "The Fatimid Caliphate was explicitly founded as a Shia counter-caliphate to the Sunni Abbasid dynasty — its existence was a direct political expression of the Sunni-Shia split. The Ismaili Shia missionaries who founded it built their movement on Shia theological grievances against Sunni rule.",
+    "note": "The Fatimid Caliphate was explicitly founded as a Shia counter-caliphate to the Sunni Abbasid dynasty \u2014 its existence was a direct political expression of the Sunni-Shia split. The Ismaili Shia missionaries who founded it built their movement on Shia theological grievances against Sunni rule.",
     "confidence": "high"
   },
   {
@@ -185,7 +185,7 @@
     "target": "abbasid_caliphate",
     "type": "DISCREDITED",
     "label": "Mongol sack of Baghdad ended the caliphate",
-    "note": "Hulagu Khan's 1258 sack of Baghdad killed the last Abbasid Caliph, burned the House of Wisdom (the Islamic world's greatest library), and destroyed the Abbasid Caliphate — ending the institution that had been the nominal center of Sunni Islamic civilization for five centuries.",
+    "note": "Hulagu Khan's 1258 sack of Baghdad killed the last Abbasid Caliph, burned the House of Wisdom (the Islamic world's greatest library), and destroyed the Abbasid Caliphate \u2014 ending the institution that had been the nominal center of Sunni Islamic civilization for five centuries.",
     "confidence": "high"
   },
   {
@@ -194,7 +194,7 @@
     "target": "destruction_of_holy_sepulchre",
     "type": "PRODUCED",
     "label": "al-Hakim ordered destruction of Christianity's holiest site",
-    "note": "Fatimid Caliph al-Hakim bi-Amr Allah ordered the Church of the Holy Sepulchre demolished to its foundations in 1009 — an act of deliberate provocation whose shock in Western Europe contributed to the religious urgency that Urban II's Crusade call activated.",
+    "note": "Fatimid Caliph al-Hakim bi-Amr Allah ordered the Church of the Holy Sepulchre demolished to its foundations in 1009 \u2014 an act of deliberate provocation whose shock in Western Europe contributed to the religious urgency that Urban II's Crusade call activated.",
     "confidence": "high"
   },
   {
@@ -203,7 +203,7 @@
     "target": "seljuk_empire",
     "type": "ENABLED",
     "label": "Abbasid decline created the military vacuum",
-    "note": "The Abbasid Caliphate's weakening from the 9th century onward — as it became dependent on Turkish mercenary slave-soldiers — created the vacuum that Seljuk Turks filled as the de facto military power, eventually dominating the Abbasid caliphs while leaving them as nominal spiritual figureheads.",
+    "note": "The Abbasid Caliphate's weakening from the 9th century onward \u2014 as it became dependent on Turkish mercenary slave-soldiers \u2014 created the vacuum that Seljuk Turks filled as the de facto military power, eventually dominating the Abbasid caliphs while leaving them as nominal spiritual figureheads.",
     "confidence": "high"
   },
   {
@@ -239,7 +239,7 @@
     "target": "balfour_declaration",
     "type": "ENABLED",
     "label": "Zionist lobbying produced the British commitment",
-    "note": "The Zionist Federation of Great Britain's diplomatic campaign — led by Chaim Weizmann and Nahum Sokolow, with Weizmann's personal relationship with Lloyd George and Arthur Balfour — was the proximate cause of the Balfour Declaration. Without organized Zionist lobbying, there would have been no declaration.",
+    "note": "The Zionist Federation of Great Britain's diplomatic campaign \u2014 led by Chaim Weizmann and Nahum Sokolow, with Weizmann's personal relationship with Lloyd George and Arthur Balfour \u2014 was the proximate cause of the Balfour Declaration. Without organized Zionist lobbying, there would have been no declaration.",
     "confidence": "high"
   },
   {
@@ -248,7 +248,7 @@
     "target": "nakba",
     "type": "ENABLED",
     "label": "Mandate's contradictions made conflict inevitable",
-    "note": "The British Mandate's structural contradiction — simultaneously committed to a Jewish national home and to protecting Arab rights — made the 1948 war and Palestinian displacement a predictable outcome. Britain's failure to resolve these obligations before departing left the two communities in armed conflict with no legal framework for coexistence.",
+    "note": "The British Mandate's structural contradiction \u2014 simultaneously committed to a Jewish national home and to protecting Arab rights \u2014 made the 1948 war and Palestinian displacement a predictable outcome. Britain's failure to resolve these obligations before departing left the two communities in armed conflict with no legal framework for coexistence.",
     "confidence": "high"
   },
   {
@@ -266,7 +266,7 @@
     "target": "us_iran_1953_coup",
     "type": "ENABLED",
     "label": "Cold War logic justified overthrowing democracy",
-    "note": "The CIA framed Operation Ajax in Cold War terms: Mosaddegh's openness to the Tudeh (Communist) Party made Iran a potential Soviet satellite. Cold War doctrine that democratic nations could be sacrificed to prevent Soviet expansion provided the justification for overthrowing Iran's elected government — a pattern repeated across the developing world.",
+    "note": "The CIA framed Operation Ajax in Cold War terms: Mosaddegh's openness to the Tudeh (Communist) Party made Iran a potential Soviet satellite. Cold War doctrine that democratic nations could be sacrificed to prevent Soviet expansion provided the justification for overthrowing Iran's elected government \u2014 a pattern repeated across the developing world.",
     "confidence": "high"
   },
   {
@@ -275,7 +275,7 @@
     "target": "iranian_revolution_1979",
     "type": "CAUSED",
     "label": "Coup discredited secular politics, fueled Islamism",
-    "note": "The 1953 coup demonstrated to Iranians that democratic politics was impossible while the US was willing to overthrow elected governments to protect oil interests. The Shah's US-backed SAVAK repression of secular opposition eliminated the political left, leaving Islamic networks as the only organized opposition — directly enabling Khomeini's revolutionary mobilization.",
+    "note": "The 1953 coup demonstrated to Iranians that democratic politics was impossible while the US was willing to overthrow elected governments to protect oil interests. The Shah's US-backed SAVAK repression of secular opposition eliminated the political left, leaving Islamic networks as the only organized opposition \u2014 directly enabling Khomeini's revolutionary mobilization.",
     "confidence": "high"
   },
   {
@@ -302,7 +302,7 @@
     "target": "soviet_afghan_war",
     "type": "CAUSED",
     "label": "Cold War rivalry drove the Soviet invasion",
-    "note": "The Soviet invasion of Afghanistan in December 1979 was driven by Cold War logic: the USSR feared losing a client state on its southern border to Islamist insurgency. The US response — funding and arming the mujahideen through the CIA's Operation Cyclone — was equally Cold War-driven, treating Afghanistan as a proxy battlefield to bleed the Soviet military.",
+    "note": "The Soviet invasion of Afghanistan in December 1979 was driven by Cold War logic: the USSR feared losing a client state on its southern border to Islamist insurgency. The US response \u2014 funding and arming the mujahideen through the CIA's Operation Cyclone \u2014 was equally Cold War-driven, treating Afghanistan as a proxy battlefield to bleed the Soviet military.",
     "confidence": "high"
   },
   {
@@ -311,7 +311,7 @@
     "target": "syrian_civil_war",
     "type": "CAUSED",
     "label": "Arab Spring protests triggered Assad's violent crackdown",
-    "note": "Syrian pro-democracy protests beginning in March 2011 — directly inspired by the Arab Spring's Tunisian and Egyptian successes — were met by Assad's security forces with live ammunition, mass arrests, and torture. This violent suppression of peaceful protest militarized the opposition and triggered civil war within months.",
+    "note": "Syrian pro-democracy protests beginning in March 2011 \u2014 directly inspired by the Arab Spring's Tunisian and Egyptian successes \u2014 were met by Assad's security forces with live ammunition, mass arrests, and torture. This violent suppression of peaceful protest militarized the opposition and triggered civil war within months.",
     "confidence": "high"
   },
   {
@@ -320,7 +320,7 @@
     "target": "fall_of_soviet_union",
     "type": "PRODUCED",
     "label": "Cold War arms race exhausted the Soviet economy",
-    "note": "The Cold War's arms race consumed approximately 25% of Soviet GDP in the 1980s, while oil revenue — the USSR's primary hard currency earner — collapsed after 1985. The economic strain of matching US military spending, combined with the Afghan War's costs, produced the crisis that made Gorbachev's reforms necessary and created the conditions for collapse.",
+    "note": "The Cold War's arms race consumed approximately 25% of Soviet GDP in the 1980s, while oil revenue \u2014 the USSR's primary hard currency earner \u2014 collapsed after 1985. The economic strain of matching US military spending, combined with the Afghan War's costs, produced the crisis that made Gorbachev's reforms necessary and created the conditions for collapse.",
     "confidence": "high"
   },
   {
@@ -329,7 +329,7 @@
     "target": "apartheid_south_africa",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Parallel legal racial hierarchies in settler societies",
-    "note": "Jim Crow and apartheid were developed in parallel and cross-referenced each other: South African architects of apartheid studied American segregation; American white supremacists cited apartheid as a working model. Both used the same structural mechanisms — legal racial classification, separate facilities, disenfranchisement, and economic exclusion — enforced by state violence.",
+    "note": "Jim Crow and apartheid were developed in parallel and cross-referenced each other: South African architects of apartheid studied American segregation; American white supremacists cited apartheid as a working model. Both used the same structural mechanisms \u2014 legal racial classification, separate facilities, disenfranchisement, and economic exclusion \u2014 enforced by state violence.",
     "confidence": "high"
   },
   {
@@ -338,7 +338,7 @@
     "target": "decolonization_movement",
     "type": "ENABLED",
     "label": "Mandate framework legitimized independence as the goal",
-    "note": "The League of Nations Mandate system nominally framed colonial administration as temporary — preparing territories for eventual self-governance. This framing provided anti-colonial nationalists with the imperial powers' own stated logic to demand independence. The mandates did not cause decolonization, but they legitimized it within international law.",
+    "note": "The League of Nations Mandate system nominally framed colonial administration as temporary \u2014 preparing territories for eventual self-governance. This framing provided anti-colonial nationalists with the imperial powers' own stated logic to demand independence. The mandates did not cause decolonization, but they legitimized it within international law.",
     "confidence": "medium"
   },
   {
@@ -356,7 +356,7 @@
     "target": "enlightenment_philosophy",
     "type": "ENABLED",
     "label": "Scholasticism's rational method prepared Enlightenment tools",
-    "note": "Scholasticism inadvertently prepared the tools the Enlightenment would turn against Church authority: rigorous disputation, systematic argument, the habit of demanding rational justification for every claim. The Enlightenment didn't emerge from nothing — it inherited and secularized scholasticism's methodological commitment to rational argument, then applied it to political and religious institutions rather than theological problems.",
+    "note": "Scholasticism inadvertently prepared the tools the Enlightenment would turn against Church authority: rigorous disputation, systematic argument, the habit of demanding rational justification for every claim. The Enlightenment didn't emerge from nothing \u2014 it inherited and secularized scholasticism's methodological commitment to rational argument, then applied it to political and religious institutions rather than theological problems.",
     "confidence": "medium"
   },
   {
@@ -365,7 +365,7 @@
     "target": "enlightenment_philosophy",
     "type": "ENABLED",
     "label": "Reformation shattered religious authority, enabling secular reason",
-    "note": "By fracturing Christian unity, the Reformation made it impossible to appeal to Church authority as the final arbiter of truth — creating an intellectual vacuum that rational philosophy stepped into. The religious wars that followed (Thirty Years' War) taught European thinkers that theological authority generates catastrophic conflict; Enlightenment thinkers responded by seeking a secular, rational basis for truth and political authority.",
+    "note": "By fracturing Christian unity, the Reformation made it impossible to appeal to Church authority as the final arbiter of truth \u2014 creating an intellectual vacuum that rational philosophy stepped into. The religious wars that followed (Thirty Years' War) taught European thinkers that theological authority generates catastrophic conflict; Enlightenment thinkers responded by seeking a secular, rational basis for truth and political authority.",
     "confidence": "high"
   },
   {
@@ -374,7 +374,7 @@
     "target": "postmodernism_philosophy",
     "type": "ENABLED",
     "label": "Critical theory's critique of reason influenced postmodern thought",
-    "note": "The Frankfurt School's Dialectic of Enlightenment — the argument that Enlightenment rationality generates its own barbarism — was a key precursor to postmodern skepticism of Enlightenment grand narratives. Habermas (second generation Frankfurt School) directly engaged with and critiqued postmodernism, while Marcuse's analysis of how consumer capitalism produces one-dimensional thought influenced 1960s radicalism that fed into postmodern politics.",
+    "note": "The Frankfurt School's Dialectic of Enlightenment \u2014 the argument that Enlightenment rationality generates its own barbarism \u2014 was a key precursor to postmodern skepticism of Enlightenment grand narratives. Habermas (second generation Frankfurt School) directly engaged with and critiqued postmodernism, while Marcuse's analysis of how consumer capitalism produces one-dimensional thought influenced 1960s radicalism that fed into postmodern politics.",
     "confidence": "medium"
   },
   {
@@ -383,7 +383,7 @@
     "target": "jewish_expulsion_spain_1492",
     "type": "PRODUCED",
     "label": "The Inquisition targeting of conversos made the final expulsion of unconverted Jews logical",
-    "note": "The Spanish Inquisition targeted conversos (Jewish converts to Christianity) suspected of secretly practicing Judaism. The existence of unconverted Jews was seen as a contaminating influence — providing a community to which conversos could revert. The Inquisition created the logic for the Alhambra Decree: if conversos were the problem, remove the source of their temptation.",
+    "note": "The Spanish Inquisition targeted conversos (Jewish converts to Christianity) suspected of secretly practicing Judaism. The existence of unconverted Jews was seen as a contaminating influence \u2014 providing a community to which conversos could revert. The Inquisition created the logic for the Alhambra Decree: if conversos were the problem, remove the source of their temptation.",
     "confidence": "high"
   },
   {
@@ -410,7 +410,7 @@
     "target": "enlightenment_philosophy",
     "type": "PRODUCED",
     "label": "Voltaire was the Enlightenment most influential popularizer and polemicist",
-    "note": "Voltaire wrote in every genre — philosophy, history, drama, fiction, letters — always in service of Enlightenment values: reason, tolerance, freedom of conscience, opposition to superstition. Candide alone reached every literate person in Europe. His polemics against clerical power did more than any academic treatise to shift public opinion.",
+    "note": "Voltaire wrote in every genre \u2014 philosophy, history, drama, fiction, letters \u2014 always in service of Enlightenment values: reason, tolerance, freedom of conscience, opposition to superstition. Candide alone reached every literate person in Europe. His polemics against clerical power did more than any academic treatise to shift public opinion.",
     "confidence": "high"
   },
   {
@@ -428,7 +428,7 @@
     "target": "enlightenment_philosophy",
     "type": "PRODUCED",
     "label": "Kant Sapere aude defined the Enlightenment project and synthesized its philosophical strands",
-    "note": "Kant essay What Is Enlightenment? (1784) defined the movement: \"dare to know\" — have the courage to use your own reason without direction from another. His critical philosophy synthesized British empiricism (Hume) and Continental rationalism (Leibniz, Wolff), providing the definitive philosophical architecture of the Enlightenment.",
+    "note": "Kant essay What Is Enlightenment? (1784) defined the movement: \"dare to know\" \u2014 have the courage to use your own reason without direction from another. His critical philosophy synthesized British empiricism (Hume) and Continental rationalism (Leibniz, Wolff), providing the definitive philosophical architecture of the Enlightenment.",
     "confidence": "high"
   },
   {
@@ -437,7 +437,7 @@
     "target": "enlightenment_philosophy",
     "type": "PRODUCED",
     "label": "Smith Wealth of Nations was a founding text of Enlightenment political economy",
-    "note": "Smith was a member of the Scottish Enlightenment (Hume was his friend). Wealth of Nations applied Enlightenment principles — empirical analysis, natural law, rational self-interest — to economic life. Its argument that free exchange produces social benefit without conscious direction was the Enlightenment faith in natural harmony applied to economics.",
+    "note": "Smith was a member of the Scottish Enlightenment (Hume was his friend). Wealth of Nations applied Enlightenment principles \u2014 empirical analysis, natural law, rational self-interest \u2014 to economic life. Its argument that free exchange produces social benefit without conscious direction was the Enlightenment faith in natural harmony applied to economics.",
     "confidence": "high"
   },
   {
@@ -446,7 +446,7 @@
     "target": "enlightenment_philosophy",
     "type": "ENABLED",
     "label": "Machiavelli secular political analysis made possible Enlightenment political theory",
-    "note": "By separating politics from theology — analyzing power as it works rather than as God commands it to work — Machiavelli made possible the secular political science that Hobbes, Locke, and Montesquieu would develop. The Enlightenment political tradition required first that politics be understood on its own terms, not divine ones.",
+    "note": "By separating politics from theology \u2014 analyzing power as it works rather than as God commands it to work \u2014 Machiavelli made possible the secular political science that Hobbes, Locke, and Montesquieu would develop. The Enlightenment political tradition required first that politics be understood on its own terms, not divine ones.",
     "confidence": "high"
   },
   {
@@ -455,7 +455,7 @@
     "target": "karl_marx",
     "type": "ENABLED",
     "label": "Marx explicitly built his historical materialism on an inverted Hegelian dialectic",
-    "note": "Marx described himself as turning Hegel right-side up: Hegel had dialectical development occur in the realm of ideas; Marx relocated it in material economic relations. Historical materialism — the claim that economic base determines ideological superstructure — is Hegelian dialectics applied to class struggle rather than the self-development of Spirit.",
+    "note": "Marx described himself as turning Hegel right-side up: Hegel had dialectical development occur in the realm of ideas; Marx relocated it in material economic relations. Historical materialism \u2014 the claim that economic base determines ideological superstructure \u2014 is Hegelian dialectics applied to class struggle rather than the self-development of Spirit.",
     "confidence": "high"
   },
   {
@@ -464,7 +464,7 @@
     "target": "frankfurt_school",
     "type": "ENABLED",
     "label": "The Frankfurt School applied Marxist critical theory to culture, media, and authoritarianism",
-    "note": "The Frankfurt School (Adorno, Horkheimer, Marcuse, Fromm) built on Marx analysis of capitalism and ideology, combining it with Freudian psychology and Weberian sociology to produce Critical Theory — an analysis of how capitalism reproduces itself through culture, media, and family structures rather than only through economic coercion.",
+    "note": "The Frankfurt School (Adorno, Horkheimer, Marcuse, Fromm) built on Marx analysis of capitalism and ideology, combining it with Freudian psychology and Weberian sociology to produce Critical Theory \u2014 an analysis of how capitalism reproduces itself through culture, media, and family structures rather than only through economic coercion.",
     "confidence": "high"
   },
   {
@@ -473,7 +473,7 @@
     "target": "stalinist_purges",
     "type": "ENABLED",
     "label": "Marxist-Leninist ideology was the stated basis of the system that produced the Stalinist purges",
-    "note": "Marx wrote no blueprint for Stalinist terror — his vision was of democratic worker control, not party dictatorship. But the vanguard party theory derived from his work (via Lenin) produced the institutional structure that Stalin turned into an instrument of purge. Marxism provided the teleological framework (historical necessity) that made mass killing seem justifiable as acceleration of the inevitable.",
+    "note": "Marx wrote no blueprint for Stalinist terror \u2014 his vision was of democratic worker control, not party dictatorship. But the vanguard party theory derived from his work (via Lenin) produced the institutional structure that Stalin turned into an instrument of purge. Marxism provided the teleological framework (historical necessity) that made mass killing seem justifiable as acceleration of the inevitable.",
     "confidence": "medium"
   },
   {
@@ -518,7 +518,7 @@
     "target": "gulag_system",
     "type": "PRODUCED",
     "label": "Stalin massively expanded the gulag into the vast slave labor network that defined Soviet repression",
-    "note": "Under Stalin, the gulag expanded from a relatively small prison camp system to an archipelago of over 400 camps holding 1.5–1.8 million prisoners at its peak (1950–1951), with millions more having passed through. Gulag labor built canals, railroads, mines, and cities. Arrest quotas, not evidence of guilt, drove the population; mortality rates peaked at over 20% annually during the worst periods.",
+    "note": "Under Stalin, the gulag expanded from a relatively small prison camp system to an archipelago of over 400 camps holding 1.5\u20131.8 million prisoners at its peak (1950\u20131951), with millions more having passed through. Gulag labor built canals, railroads, mines, and cities. Arrest quotas, not evidence of guilt, drove the population; mortality rates peaked at over 20% annually during the worst periods.",
     "confidence": "high"
   },
   {
@@ -527,7 +527,7 @@
     "target": "nuremberg_laws_1935",
     "type": "PRODUCED",
     "label": "Hitler personally announced and advocated the Nuremberg racial laws",
-    "note": "The Laws for the Protection of German Blood and German Honor (1935) — which stripped Jews of citizenship, banned marriage between Jews and non-Jews, and defined Jewishness by bloodline — were personally announced by Hitler at the Nuremberg rally. They were the legal foundation of the Holocaust machinery.",
+    "note": "The Laws for the Protection of German Blood and German Honor (1935) \u2014 which stripped Jews of citizenship, banned marriage between Jews and non-Jews, and defined Jewishness by bloodline \u2014 were personally announced by Hitler at the Nuremberg rally. They were the legal foundation of the Holocaust machinery.",
     "confidence": "high"
   },
   {
@@ -563,7 +563,7 @@
     "target": "cold_war",
     "type": "ENABLED",
     "label": "Churchill Iron Curtain speech (1946) named and framed the Cold War division of Europe",
-    "note": "Churchill speech at Westminster College in Fulton, Missouri on March 5, 1946 — \"From Stettin in the Baltic to Trieste in the Adriatic, an iron curtain has descended across the Continent\" — gave the Cold War its defining metaphor and made the Soviet-Western division the organizing framework of postwar politics. He delivered it as a private citizen but it shaped American policy.",
+    "note": "Churchill speech at Westminster College in Fulton, Missouri on March 5, 1946 \u2014 \"From Stettin in the Baltic to Trieste in the Adriatic, an iron curtain has descended across the Continent\" \u2014 gave the Cold War its defining metaphor and made the Soviet-Western division the organizing framework of postwar politics. He delivered it as a private citizen but it shaped American policy.",
     "confidence": "high"
   },
   {
@@ -572,7 +572,7 @@
     "target": "d_day_normandy",
     "type": "ENABLED",
     "label": "Roosevelt sustained Allied coalition and insisted on cross-channel invasion over Churchill Mediterranean strategy",
-    "note": "Roosevelt management of the Grand Alliance — managing Churchill preference for Mediterranean strategy, Stalin demand for a second front, and American military preference for direct cross-channel attack — eventually produced the Normandy decision. The Anglo-American alliance he built with Churchill was the institutional foundation that made D-Day possible.",
+    "note": "Roosevelt management of the Grand Alliance \u2014 managing Churchill preference for Mediterranean strategy, Stalin demand for a second front, and American military preference for direct cross-channel attack \u2014 eventually produced the Normandy decision. The Anglo-American alliance he built with Churchill was the institutional foundation that made D-Day possible.",
     "confidence": "high"
   },
   {
@@ -599,7 +599,7 @@
     "target": "cold_war",
     "type": "ENABLED",
     "label": "Truman Doctrine (1947) and Marshall Plan established the US containment strategy that defined the Cold War",
-    "note": "Truman 1947 address to Congress — requesting aid for Greece and Turkey against Soviet pressure — articulated the Truman Doctrine: the US would support free peoples resisting Soviet expansion anywhere in the world. This was the foundational statement of containment policy; combined with the Marshall Plan for European reconstruction, it defined the Western Cold War strategy for four decades.",
+    "note": "Truman 1947 address to Congress \u2014 requesting aid for Greece and Turkey against Soviet pressure \u2014 articulated the Truman Doctrine: the US would support free peoples resisting Soviet expansion anywhere in the world. This was the foundational statement of containment policy; combined with the Marshall Plan for European reconstruction, it defined the Western Cold War strategy for four decades.",
     "confidence": "high"
   },
   {
@@ -617,7 +617,7 @@
     "target": "d_day_normandy",
     "type": "PRODUCED",
     "label": "Eisenhower commanded Operation Overlord as Supreme Allied Commander Europe",
-    "note": "Eisenhower command of D-Day — coordinating the largest amphibious invasion in history, managing the competing egos of Montgomery, Patton, and de Gaulle, and making the final go decision on June 5 despite marginal weather — was the operational achievement that ended the war in Western Europe. His letter accepting personal responsibility if the invasion failed was written the night before.",
+    "note": "Eisenhower command of D-Day \u2014 coordinating the largest amphibious invasion in history, managing the competing egos of Montgomery, Patton, and de Gaulle, and making the final go decision on June 5 despite marginal weather \u2014 was the operational achievement that ended the war in Western Europe. His letter accepting personal responsibility if the invasion failed was written the night before.",
     "confidence": "high"
   },
   {
@@ -644,7 +644,7 @@
     "target": "latin_american_dirty_wars",
     "type": "ENABLED",
     "label": "Kissinger realpolitik supported Latin American military dictatorships that conducted dirty wars",
-    "note": "Kissinger authorization of Operation Condor — the coordinated South American military dictatorship program of assassination, torture, and disappearance across borders — and his personal assurance to Argentina military junta that human rights concerns would not impede US support, enabled the dirty war apparatus. His famous line to the Argentine junta: \"If there are things that have to be done, you should do them quickly.\"",
+    "note": "Kissinger authorization of Operation Condor \u2014 the coordinated South American military dictatorship program of assassination, torture, and disappearance across borders \u2014 and his personal assurance to Argentina military junta that human rights concerns would not impede US support, enabled the dirty war apparatus. His famous line to the Argentine junta: \"If there are things that have to be done, you should do them quickly.\"",
     "confidence": "high"
   },
   {
@@ -653,7 +653,7 @@
     "target": "vietnam_war",
     "type": "ENABLED",
     "label": "Kissinger designed the Vietnam peace strategy that prolonged the war by four years",
-    "note": "As National Security Advisor and then Secretary of State, Kissinger was the chief architect of US Vietnam policy under Nixon: the secret bombing campaigns, the Cambodia invasion, and the Paris Peace Accords. His realpolitik framework produced \"peace with honor\" — a negotiated withdrawal that preserved American prestige while leaving South Vietnam to its fate.",
+    "note": "As National Security Advisor and then Secretary of State, Kissinger was the chief architect of US Vietnam policy under Nixon: the secret bombing campaigns, the Cambodia invasion, and the Paris Peace Accords. His realpolitik framework produced \"peace with honor\" \u2014 a negotiated withdrawal that preserved American prestige while leaving South Vietnam to its fate.",
     "confidence": "high"
   },
   {
@@ -698,7 +698,7 @@
     "target": "decolonization_movement",
     "type": "PRODUCED",
     "label": "Gandhi satyagraha campaign against British rule was the model for anti-colonial nonviolent resistance globally",
-    "note": "Gandhi Indian independence campaigns demonstrated that nonviolent mass civil disobedience could extract political concessions from a colonial power — providing the template for decolonization movements worldwide. His Salt March (1930) specifically targeted an economic injustice (British salt monopoly) in a way that dramatized the moral illegitimacy of colonial rule.",
+    "note": "Gandhi Indian independence campaigns demonstrated that nonviolent mass civil disobedience could extract political concessions from a colonial power \u2014 providing the template for decolonization movements worldwide. His Salt March (1930) specifically targeted an economic injustice (British salt monopoly) in a way that dramatized the moral illegitimacy of colonial rule.",
     "confidence": "high"
   },
   {
@@ -707,7 +707,7 @@
     "target": "partition_of_india",
     "type": "ENABLED",
     "label": "Gandhi inability to prevent partition and his assassination reflected the limits of nonviolence in communal violence",
-    "note": "Gandhi campaigned vigorously against partition and Hindu-Muslim communal violence. His failure to prevent it — despite fasting unto near-death — and his assassination by a Hindu nationalist who opposed his pluralism both reflect the limits of nonviolent persuasion against deeply entrenched communal identities. He died trying to stop the violence his movement had inadvertently accelerated.",
+    "note": "Gandhi campaigned vigorously against partition and Hindu-Muslim communal violence. His failure to prevent it \u2014 despite fasting unto near-death \u2014 and his assassination by a Hindu nationalist who opposed his pluralism both reflect the limits of nonviolent persuasion against deeply entrenched communal identities. He died trying to stop the violence his movement had inadvertently accelerated.",
     "confidence": "medium"
   },
   {
@@ -716,7 +716,7 @@
     "target": "martin_luther_king_jr",
     "type": "ENABLED",
     "label": "King explicitly modeled his civil rights strategy on Gandhian satyagraha",
-    "note": "King studied Gandhi philosophy and visited India in 1959. He adapted satyagraha — nonviolent resistance through moral confrontation — to the American context, specifically the power of willing suffering by the oppressed to reveal the moral bankruptcy of the oppressor. Gandhi became the theoretical and practical model for the entire Montgomery-Birmingham-Selma strategy.",
+    "note": "King studied Gandhi philosophy and visited India in 1959. He adapted satyagraha \u2014 nonviolent resistance through moral confrontation \u2014 to the American context, specifically the power of willing suffering by the oppressed to reveal the moral bankruptcy of the oppressor. Gandhi became the theoretical and practical model for the entire Montgomery-Birmingham-Selma strategy.",
     "confidence": "high"
   },
   {
@@ -734,7 +734,7 @@
     "target": "partition_of_india",
     "type": "PRODUCED",
     "label": "Nehru agreement to partition India made the catastrophe politically inevitable",
-    "note": "Nehru ultimate acceptance of partition — despite his strong preference for a unified India — came from his calculation that Congress government of an undivided India with a Jinnah-led Muslim League was not workable. His decision, taken with Mountbatten and Jinnah, produced the fastest and most violent partition of a subcontinent in modern history.",
+    "note": "Nehru ultimate acceptance of partition \u2014 despite his strong preference for a unified India \u2014 came from his calculation that Congress government of an undivided India with a Jinnah-led Muslim League was not workable. His decision, taken with Mountbatten and Jinnah, produced the fastest and most violent partition of a subcontinent in modern history.",
     "confidence": "medium"
   },
   {
@@ -743,7 +743,7 @@
     "target": "apartheid_south_africa",
     "type": "DISCREDITED",
     "label": "Mandela led the political and moral resistance that ended apartheid",
-    "note": "Mandela transformation from prisoner to President — and the negotiated transition he led from prison and then at the table — was the decisive political act that ended apartheid. His decision for reconciliation over retaliation, and his personal embodiment of the policy, made possible a democratic transition that most observers expected to produce racial civil war.",
+    "note": "Mandela transformation from prisoner to President \u2014 and the negotiated transition he led from prison and then at the table \u2014 was the decisive political act that ended apartheid. His decision for reconciliation over retaliation, and his personal embodiment of the policy, made possible a democratic transition that most observers expected to produce racial civil war.",
     "confidence": "high"
   },
   {
@@ -770,7 +770,7 @@
     "target": "zionism",
     "type": "PRODUCED",
     "label": "Herzl founded political Zionism as an organized international movement",
-    "note": "Herzl transformed Zionism from a cultural aspiration (return to Zion) into a political program: Der Judenstaat provided the argument; the First Zionist Congress (Basel, 1897) provided the organizational infrastructure. His declaration at Basel — \"At Basel I founded the Jewish State. If I said this out loud today I would be greeted by universal laughter. In five years perhaps, and certainly in fifty years, everyone will perceive it.\" — proved almost exactly correct.",
+    "note": "Herzl transformed Zionism from a cultural aspiration (return to Zion) into a political program: Der Judenstaat provided the argument; the First Zionist Congress (Basel, 1897) provided the organizational infrastructure. His declaration at Basel \u2014 \"At Basel I founded the Jewish State. If I said this out loud today I would be greeted by universal laughter. In five years perhaps, and certainly in fifty years, everyone will perceive it.\" \u2014 proved almost exactly correct.",
     "confidence": "high"
   },
   {
@@ -779,7 +779,7 @@
     "target": "enlightenment_philosophy",
     "type": "PRODUCED",
     "label": "Darwin naturalized humanity within the Enlightenment empirical tradition, completing the secular worldview",
-    "note": "The Enlightenment had naturalized politics (social contract), economics (invisible hand), and astronomy (heliocentrism) — but biology had remained the domain of divine creation. Darwin natural selection provided a complete naturalistic explanation for biological complexity, including human minds, completing the Enlightenment project of explaining the world without recourse to the supernatural.",
+    "note": "The Enlightenment had naturalized politics (social contract), economics (invisible hand), and astronomy (heliocentrism) \u2014 but biology had remained the domain of divine creation. Darwin natural selection provided a complete naturalistic explanation for biological complexity, including human minds, completing the Enlightenment project of explaining the world without recourse to the supernatural.",
     "confidence": "high"
   },
   {
@@ -788,7 +788,7 @@
     "target": "frankfurt_school",
     "type": "ENABLED",
     "label": "Freudian psychoanalysis provided the psychological dimension that the Frankfurt School combined with Marxist analysis",
-    "note": "The Frankfurt School — especially Wilhelm Reich, Erich Fromm, Herbert Marcuse, and Theodor Adorno — synthesized Freud with Marx to produce a theory of how capitalism reproduces itself psychologically: through repression, authoritarianism, and the sublimation of radical desire into conformity. The Authoritarian Personality (Adorno et al.) applied Freudian methods to understand fascism.",
+    "note": "The Frankfurt School \u2014 especially Wilhelm Reich, Erich Fromm, Herbert Marcuse, and Theodor Adorno \u2014 synthesized Freud with Marx to produce a theory of how capitalism reproduces itself psychologically: through repression, authoritarianism, and the sublimation of radical desire into conformity. The Authoritarian Personality (Adorno et al.) applied Freudian methods to understand fascism.",
     "confidence": "high"
   },
   {
@@ -815,7 +815,7 @@
     "target": "babylonian_captivity",
     "type": "CAUSED",
     "label": "Assyrian deportation of northern Israel was the first phase of Israelite exile",
-    "note": "The Assyrian Empire under Tiglath-Pileser III and Sargon II conquered and deported the population of the northern Kingdom of Israel (722 BCE) — the \"Ten Lost Tribes.\" This was a precursor to the Babylonian deportation of Judah, and part of the same Assyrian policy of mass population displacement to prevent revolts.",
+    "note": "The Assyrian Empire under Tiglath-Pileser III and Sargon II conquered and deported the population of the northern Kingdom of Israel (722 BCE) \u2014 the \"Ten Lost Tribes.\" This was a precursor to the Babylonian deportation of Judah, and part of the same Assyrian policy of mass population displacement to prevent revolts.",
     "confidence": "high"
   },
   {
@@ -824,7 +824,7 @@
     "target": "assyrian_empire",
     "type": "ENABLED",
     "label": "Sumerian civilization provided the cultural and administrative template for later Assyrian empire",
-    "note": "The Assyrians inherited Sumerian cuneiform, religious traditions, astronomical knowledge, and administrative practices. Sumerian cultural dominance outlasted Sumerian political power — the empire-builders of the ancient Near East built on Sumerian foundations.",
+    "note": "The Assyrians inherited Sumerian cuneiform, religious traditions, astronomical knowledge, and administrative practices. Sumerian cultural dominance outlasted Sumerian political power \u2014 the empire-builders of the ancient Near East built on Sumerian foundations.",
     "confidence": "medium"
   },
   {
@@ -833,7 +833,7 @@
     "target": "neo_babylonian_empire",
     "type": "ENABLED",
     "label": "The collapse of Assyria created the geopolitical vacuum filled by Neo-Babylonian dominance",
-    "note": "The Neo-Babylonian Empire arose through a coalition that destroyed Assyria. Babylon inherited Assyrian administrative infrastructure, diplomatic networks, and tributary relationships — the Neo-Babylonian empire was in part the successor state of the Assyrian empire.",
+    "note": "The Neo-Babylonian Empire arose through a coalition that destroyed Assyria. Babylon inherited Assyrian administrative infrastructure, diplomatic networks, and tributary relationships \u2014 the Neo-Babylonian empire was in part the successor state of the Assyrian empire.",
     "confidence": "high"
   },
   {
@@ -860,7 +860,7 @@
     "target": "akhenaten",
     "type": "PRODUCED",
     "label": "The pharaonic institution concentrated sufficient authority to attempt radical religious reform",
-    "note": "Only the pharaoh's divine authority made Akhenaten's revolution possible — and only the pharaoh's death made its reversal possible. The institution of absolute divine kingship created both the conditions for radical reform and for its total reversal.",
+    "note": "Only the pharaoh's divine authority made Akhenaten's revolution possible \u2014 and only the pharaoh's death made its reversal possible. The institution of absolute divine kingship created both the conditions for radical reform and for its total reversal.",
     "confidence": "high"
   },
   {
@@ -869,7 +869,7 @@
     "target": "nubian_pharaohs",
     "type": "PRODUCED",
     "label": "The Kingdom of Kush produced the Nubian pharaohs who conquered and ruled Egypt",
-    "note": "The 25th Dynasty Nubian pharaohs emerged from the Kushite state centered at Napata. Kush's political and military capacity — built over centuries — enabled the conquest of Egypt.",
+    "note": "The 25th Dynasty Nubian pharaohs emerged from the Kushite state centered at Napata. Kush's political and military capacity \u2014 built over centuries \u2014 enabled the conquest of Egypt.",
     "confidence": "high"
   },
   {
@@ -887,7 +887,7 @@
     "target": "kingdom_of_kush",
     "type": "CAUSED",
     "label": "Kerma culture was the direct cultural and political precursor of the Kingdom of Kush",
-    "note": "The Kingdom of Kush developed on the cultural foundation of Kerma — same geographic area, similar burial traditions, and continuity of population. Egyptian conquest of Kerma around 1500 BCE created the conditions for the later Kushite state at Napata.",
+    "note": "The Kingdom of Kush developed on the cultural foundation of Kerma \u2014 same geographic area, similar burial traditions, and continuity of population. Egyptian conquest of Kerma around 1500 BCE created the conditions for the later Kushite state at Napata.",
     "confidence": "high"
   },
   {
@@ -896,7 +896,7 @@
     "target": "kingdom_of_kush",
     "type": "COLONIZED",
     "label": "Egypt colonized and periodically dominated Nubia over three millennia",
-    "note": "Egyptian imperial expansion southward — especially during the New Kingdom — subjected Nubia to Egyptian colonial administration, cultural impositions, and extraction of gold and enslaved people. The Egyptian term \"wretched Kush\" appears in imperial propaganda. Periods of Egyptian domination alternated with Nubian independence and eventual Nubian domination of Egypt.",
+    "note": "Egyptian imperial expansion southward \u2014 especially during the New Kingdom \u2014 subjected Nubia to Egyptian colonial administration, cultural impositions, and extraction of gold and enslaved people. The Egyptian term \"wretched Kush\" appears in imperial propaganda. Periods of Egyptian domination alternated with Nubian independence and eventual Nubian domination of Egypt.",
     "confidence": "high"
   },
   {
@@ -905,7 +905,7 @@
     "target": "socrates",
     "type": "ENABLED",
     "label": "Athenian democratic culture created the intellectual freedom that enabled Socratic philosophy",
-    "note": "Democracy's culture of open debate and citizen equality created the conditions for Socratic dialectic — public questioning of received wisdom. Socrates operated in the agora, engaging citizens across social classes. Democratic Athens also eventually executed Socrates, revealing the paradox of democracy's relationship to free thought.",
+    "note": "Democracy's culture of open debate and citizen equality created the conditions for Socratic dialectic \u2014 public questioning of received wisdom. Socrates operated in the agora, engaging citizens across social classes. Democratic Athens also eventually executed Socrates, revealing the paradox of democracy's relationship to free thought.",
     "confidence": "high"
   },
   {
@@ -941,7 +941,7 @@
     "target": "athenian_democracy",
     "type": "DISCREDITED",
     "label": "Athens' catastrophic defeat in the Peloponnesian War discredited Athenian democratic leadership",
-    "note": "The Peloponnesian War ended with Athens' surrender, the installation of the oligarchic Thirty Tyrants, and the execution of democratic leaders. The disaster discredited democratic decision-making — the Assembly had voted for the Sicilian Expedition, the war's turning point disaster. Plato's anti-democratic philosophy was shaped by witnessing this defeat.",
+    "note": "The Peloponnesian War ended with Athens' surrender, the installation of the oligarchic Thirty Tyrants, and the execution of democratic leaders. The disaster discredited democratic decision-making \u2014 the Assembly had voted for the Sicilian Expedition, the war's turning point disaster. Plato's anti-democratic philosophy was shaped by witnessing this defeat.",
     "confidence": "high"
   },
   {
@@ -1004,7 +1004,7 @@
     "target": "democratic_backsliding",
     "type": "ENABLED",
     "label": "January 6 normalized the idea that election outcomes could be rejected by force",
-    "note": "January 6's normalization consequence: 147 Republican members of Congress voted to reject certified electoral votes after the attack. The \"Big Lie\" became Republican Party orthodoxy. Election deniers ran for and won positions as secretaries of state. The attack demonstrated that democratic backsliding could proceed without serious legal consequence — an invitation to future attempts.",
+    "note": "January 6's normalization consequence: 147 Republican members of Congress voted to reject certified electoral votes after the attack. The \"Big Lie\" became Republican Party orthodoxy. Election deniers ran for and won positions as secretaries of state. The attack demonstrated that democratic backsliding could proceed without serious legal consequence \u2014 an invitation to future attempts.",
     "confidence": "high"
   },
   {
@@ -1058,7 +1058,7 @@
     "target": "trump_maga",
     "type": "ENABLED",
     "label": "Trump/MAGA is the US expression of the global right-wing populist wave",
-    "note": "Trump/MAGA shares ideological and tactical features with the global populist wave: anti-elite rhetoric masking oligarchic policy, ethnic nationalism, media capture attempts, democratic norm erosion, and scapegoating of minorities (immigrants, Muslims, BLM protesters). The global wave preceded Trump (Hungary's Orbán, India's Modi) and continued after him (Bolsonaro, Milei), situating MAGA as a national expression of a structural global phenomenon.",
+    "note": "Trump/MAGA shares ideological and tactical features with the global populist wave: anti-elite rhetoric masking oligarchic policy, ethnic nationalism, media capture attempts, democratic norm erosion, and scapegoating of minorities (immigrants, Muslims, BLM protesters). The global wave preceded Trump (Hungary's Orb\u00e1n, India's Modi) and continued after him (Bolsonaro, Milei), situating MAGA as a national expression of a structural global phenomenon.",
     "confidence": "high"
   },
   {
@@ -1067,7 +1067,7 @@
     "target": "brexit",
     "type": "PRODUCED",
     "label": "Brexit was the UK expression of the right-wing populist wave",
-    "note": "Brexit deployed the same playbook as global right-wing populism: nationalist sovereignty framing (\"Take Back Control\"), elite-bashing (Brussels technocrats), immigration fear, and media capture (Murdoch papers). Nigel Farage's UKIP/Brexit Party mobilized the same demographic (older, working-class, non-metropolitan, educational resentment) that Trump mobilized in the US. The results — promised economic benefits did not materialize — also match the global populist pattern.",
+    "note": "Brexit deployed the same playbook as global right-wing populism: nationalist sovereignty framing (\"Take Back Control\"), elite-bashing (Brussels technocrats), immigration fear, and media capture (Murdoch papers). Nigel Farage's UKIP/Brexit Party mobilized the same demographic (older, working-class, non-metropolitan, educational resentment) that Trump mobilized in the US. The results \u2014 promised economic benefits did not materialize \u2014 also match the global populist pattern.",
     "confidence": "high"
   },
   {
@@ -1103,7 +1103,7 @@
     "target": "tiananmen_square_massacre",
     "type": "ENABLED",
     "label": "Mao's CCP established the authoritarian precedent and institutional culture the 1989 massacre enforced",
-    "note": "The CCP's willingness to massacre its own citizens at Tiananmen was not a sudden decision: it reflected institutional culture established under Mao — the use of mass violence (Cultural Revolution, Anti-Rightist Campaign, Great Leap Forward famine) as a tool of political control, the primacy of CCP survival over individual lives, and the framework of class enemies requiring violent suppression. Deng Xiaoping and Li Peng framed the protesters as counterrevolutionaries in explicitly Maoist terms. The massacre was Maoism applied to a new generation of students.",
+    "note": "The CCP's willingness to massacre its own citizens at Tiananmen was not a sudden decision: it reflected institutional culture established under Mao \u2014 the use of mass violence (Cultural Revolution, Anti-Rightist Campaign, Great Leap Forward famine) as a tool of political control, the primacy of CCP survival over individual lives, and the framework of class enemies requiring violent suppression. Deng Xiaoping and Li Peng framed the protesters as counterrevolutionaries in explicitly Maoist terms. The massacre was Maoism applied to a new generation of students.",
     "confidence": "high"
   },
   {
@@ -1121,7 +1121,7 @@
     "target": "trump_maga",
     "type": "ENABLED",
     "label": "White evangelical Christians are Trump's largest and most loyal electoral constituency",
-    "note": "White evangelicals voted 81% for Trump in 2016 and 76% in 2020 — the largest and most reliable bloc of the MAGA coalition. The alliance is transactional: Trump delivered Supreme Court justices (Gorsuch, Kavanaugh, Barrett) and a strongly anti-abortion policy agenda; evangelicals provided the grassroots mobilization infrastructure. The evangelical-MAGA alliance represents a renegotiation of the 1970s Moral Majority deal: evangelicals traded doctrinal character standards for political power, accepting a thrice-married adulterer as their champion because he delivered their policy priorities.",
+    "note": "White evangelicals voted 81% for Trump in 2016 and 76% in 2020 \u2014 the largest and most reliable bloc of the MAGA coalition. The alliance is transactional: Trump delivered Supreme Court justices (Gorsuch, Kavanaugh, Barrett) and a strongly anti-abortion policy agenda; evangelicals provided the grassroots mobilization infrastructure. The evangelical-MAGA alliance represents a renegotiation of the 1970s Moral Majority deal: evangelicals traded doctrinal character standards for political power, accepting a thrice-married adulterer as their champion because he delivered their policy priorities.",
     "confidence": "high"
   },
   {
@@ -1130,7 +1130,7 @@
     "target": "tea_party_movement",
     "type": "ENABLED",
     "label": "Evangelical Christians were the Tea Party's demographic core and organizational infrastructure",
-    "note": "The Tea Party (2009–16) was demographically concentrated in white evangelical Christian communities: surveys showed Tea Party members were disproportionately evangelical Protestant, attending church regularly and holding socially conservative positions. Evangelical networks — megachurches, faith-based radio, homeschool associations — were primary Tea Party organizing infrastructure. The Tea Party's anti-Obama rhetoric explicitly fused economic populism with Christian nationalism claims about Obama's foreign religion and birth certificate, mobilizing evangelical cultural anxiety as effectively as libertarian fiscal policy.",
+    "note": "The Tea Party (2009\u201316) was demographically concentrated in white evangelical Christian communities: surveys showed Tea Party members were disproportionately evangelical Protestant, attending church regularly and holding socially conservative positions. Evangelical networks \u2014 megachurches, faith-based radio, homeschool associations \u2014 were primary Tea Party organizing infrastructure. The Tea Party's anti-Obama rhetoric explicitly fused economic populism with Christian nationalism claims about Obama's foreign religion and birth certificate, mobilizing evangelical cultural anxiety as effectively as libertarian fiscal policy.",
     "confidence": "high"
   },
   {
@@ -1139,7 +1139,7 @@
     "target": "right_wing_populism",
     "type": "ENABLED",
     "label": "Evangelical Christianity provided the cultural identity politics and organizational infrastructure for right-wing populism",
-    "note": "Right-wing populism in the US is inseparable from evangelical Christianity: the \"forgotten Americans\" framing is primarily about white evangelical cultural displacement (abortion access, gay marriage, school prayer removal). The sense of cultural grievance — Christians being persecuted for their beliefs in their own country — is the emotional fuel of populist politics that economic anxiety alone doesn't explain. Internationally, the connection holds: Brazil's Bolsonaro drew evangelical support, and the evangelical growth in sub-Saharan Africa and Latin America is generating similar right-wing populist politics.",
+    "note": "Right-wing populism in the US is inseparable from evangelical Christianity: the \"forgotten Americans\" framing is primarily about white evangelical cultural displacement (abortion access, gay marriage, school prayer removal). The sense of cultural grievance \u2014 Christians being persecuted for their beliefs in their own country \u2014 is the emotional fuel of populist politics that economic anxiety alone doesn't explain. Internationally, the connection holds: Brazil's Bolsonaro drew evangelical support, and the evangelical growth in sub-Saharan Africa and Latin America is generating similar right-wing populist politics.",
     "confidence": "high"
   },
   {
@@ -1157,7 +1157,7 @@
     "target": "thomas_hobbes",
     "type": "ENABLED",
     "label": "Hobbes read and explicitly built on Machiavelli's analysis of political power divorced from theology",
-    "note": "Thomas Hobbes cited and engaged Machiavelli extensively: the Leviathan's analytical separation of politics from religion, its analysis of sovereignty as requiring monopoly on legitimate violence, and its account of the state of nature (war of all against all) are developments of Machiavellian themes. Hobbes gave Machiavelli's empirical observations a systematic philosophical foundation — moving from Machiavelli's historical examples to a deductive theory of the state from first principles. The succession: Machiavelli → Hobbes → social contract theory → Enlightenment political philosophy.",
+    "note": "Thomas Hobbes cited and engaged Machiavelli extensively: the Leviathan's analytical separation of politics from religion, its analysis of sovereignty as requiring monopoly on legitimate violence, and its account of the state of nature (war of all against all) are developments of Machiavellian themes. Hobbes gave Machiavelli's empirical observations a systematic philosophical foundation \u2014 moving from Machiavelli's historical examples to a deductive theory of the state from first principles. The succession: Machiavelli \u2192 Hobbes \u2192 social contract theory \u2192 Enlightenment political philosophy.",
     "confidence": "high"
   },
   {
@@ -1175,7 +1175,7 @@
     "target": "karl_marx",
     "type": "ENABLED",
     "label": "Fanon applied Marxist class analysis to colonial racial hierarchy, arguing race replaced class as the primary colonial contradiction",
-    "note": "Fanon's \"Wretched of the Earth\" (1961) is explicitly Marxist — surplus value, class consciousness, revolutionary violence — applied to the colonial context, where Fanon argued that race, not class, was the primary division of the colonial world: \"The colonized world is a Manichean world.\" The dividing line is not between bourgeois and proletarian but between settler and native. This racial reframing of Marxism was simultaneously an application and a critique: colonialism couldn't be explained by class analysis alone, but class analysis provided the structural vocabulary for colonialism.",
+    "note": "Fanon's \"Wretched of the Earth\" (1961) is explicitly Marxist \u2014 surplus value, class consciousness, revolutionary violence \u2014 applied to the colonial context, where Fanon argued that race, not class, was the primary division of the colonial world: \"The colonized world is a Manichean world.\" The dividing line is not between bourgeois and proletarian but between settler and native. This racial reframing of Marxism was simultaneously an application and a critique: colonialism couldn't be explained by class analysis alone, but class analysis provided the structural vocabulary for colonialism.",
     "confidence": "high"
   },
   {
@@ -1184,7 +1184,7 @@
     "target": "frantz_fanon",
     "type": "ENABLED",
     "label": "Fanon's \"Wretched of the Earth\" was required reading for ANC's armed struggle phase leadership",
-    "note": "Nelson Mandela read Fanon's \"Wretched of the Earth\" while organizing Umkhonto we Sizwe (ANC's armed wing, founded 1961). Fanon's argument that colonized people must use violence to overcome the psychological as well as physical chains of colonialism — that nonviolence maintained the colonizer's framework — justified the ANC's shift from nonviolent resistance to armed struggle after the Sharpeville massacre (1960). ANC leaders in exile carried Fanon as political philosophy alongside Marx and Lenin. The Mandela who emerged from Robben Island had spent years studying both.",
+    "note": "Nelson Mandela read Fanon's \"Wretched of the Earth\" while organizing Umkhonto we Sizwe (ANC's armed wing, founded 1961). Fanon's argument that colonized people must use violence to overcome the psychological as well as physical chains of colonialism \u2014 that nonviolence maintained the colonizer's framework \u2014 justified the ANC's shift from nonviolent resistance to armed struggle after the Sharpeville massacre (1960). ANC leaders in exile carried Fanon as political philosophy alongside Marx and Lenin. The Mandela who emerged from Robben Island had spent years studying both.",
     "confidence": "high"
   },
   {
@@ -1193,7 +1193,7 @@
     "target": "citizens_united",
     "type": "ENABLED",
     "label": "Citizens United enabled the dark-money infrastructure that sustained Tea Party organizing at scale",
-    "note": "The Tea Party's nationwide organizing (2009–2012) was bankrolled by dark-money infrastructure that Citizens United (January 2010) and its predecessors enabled: Koch-funded Americans for Prosperity, FreedomWorks, and Club for Growth provided the organizational scaffolding, funding, and strategic direction that made grassroots Tea Party meetings possible at scale. The relationship was symbiotic: Koch-funded organizations used the genuine grassroots energy but channeled it toward billionaire-friendly policy priorities (tax cuts, deregulation) rather than populist redistribution.",
+    "note": "The Tea Party's nationwide organizing (2009\u20132012) was bankrolled by dark-money infrastructure that Citizens United (January 2010) and its predecessors enabled: Koch-funded Americans for Prosperity, FreedomWorks, and Club for Growth provided the organizational scaffolding, funding, and strategic direction that made grassroots Tea Party meetings possible at scale. The relationship was symbiotic: Koch-funded organizations used the genuine grassroots energy but channeled it toward billionaire-friendly policy priorities (tax cuts, deregulation) rather than populist redistribution.",
     "confidence": "high"
   },
   {
@@ -1211,7 +1211,7 @@
     "target": "egyptian_pharaoh",
     "type": "ENABLED",
     "label": "Meroitic civilization preserved and transmitted Egyptian pharaonic traditions after Upper Egypt's decline",
-    "note": "The Meroitic period (c. 300 BCE – 350 CE) represents the continuation and transformation of Egyptian pharaonic culture in Nubia after Egypt itself had been conquered by Persians, Greeks, and Romans. Meroitic rulers built pyramids, used Egyptian-style temple architecture, adopted pharaonic coronation rituals, and maintained Egyptian religious iconography — while also developing distinct Meroitic traditions (Meroitic script, lion temples). Meroe was the preservation zone for pharaonic culture at a time when Egypt proper was Hellenized and then Romanized.",
+    "note": "The Meroitic period (c. 300 BCE \u2013 350 CE) represents the continuation and transformation of Egyptian pharaonic culture in Nubia after Egypt itself had been conquered by Persians, Greeks, and Romans. Meroitic rulers built pyramids, used Egyptian-style temple architecture, adopted pharaonic coronation rituals, and maintained Egyptian religious iconography \u2014 while also developing distinct Meroitic traditions (Meroitic script, lion temples). Meroe was the preservation zone for pharaonic culture at a time when Egypt proper was Hellenized and then Romanized.",
     "confidence": "high"
   },
   {
@@ -1220,7 +1220,7 @@
     "target": "new_deal",
     "type": "PRODUCED",
     "label": "FDR's New Deal was the most ambitious peacetime expansion of federal government power in American history",
-    "note": "Franklin Roosevelt's New Deal (1933-39) created the modern American administrative state: Social Security (1935), unemployment insurance, FDIC bank deposit insurance, SEC stock market regulation, Wagner Act labor protections, rural electrification, and the WPA's millions of public works jobs. Roosevelt navigated between business interests and labor demands, using the Depression crisis to justify state intervention that had previously been constitutionally contested. The New Deal's coalition — urban workers, African Americans (partially), Southern whites, intellectuals — defined Democratic Party politics for 30 years. Its opponents (Reagan, Tea Party movement) defined themselves against it equally long.",
+    "note": "Franklin Roosevelt's New Deal (1933-39) created the modern American administrative state: Social Security (1935), unemployment insurance, FDIC bank deposit insurance, SEC stock market regulation, Wagner Act labor protections, rural electrification, and the WPA's millions of public works jobs. Roosevelt navigated between business interests and labor demands, using the Depression crisis to justify state intervention that had previously been constitutionally contested. The New Deal's coalition \u2014 urban workers, African Americans (partially), Southern whites, intellectuals \u2014 defined Democratic Party politics for 30 years. Its opponents (Reagan, Tea Party movement) defined themselves against it equally long.",
     "confidence": "high"
   },
   {
@@ -1238,7 +1238,7 @@
     "target": "military_industrial_complex",
     "type": "ENABLED",
     "label": "The New Deal's administrative state and industrial mobilization infrastructure became the foundation for WWII and Cold War military-industrial complex",
-    "note": "The New Deal's state-building directly enabled the military-industrial complex: New Deal agencies built the administrative capacity (planning, procurement, economic management) that WWII mobilization required; New Deal public works created industrial infrastructure (dams, electricity, highways) that military production used; the New Deal legitimized government-industry coordination that the military-industrial complex institutionalized. Eisenhower warned against the military-industrial complex in 1961 — the very year the New Deal's institutional legacy was being incorporated into permanent Cold War military spending. The New Deal didn't create the military-industrial complex but built the government capacity that enabled it.",
+    "note": "The New Deal's state-building directly enabled the military-industrial complex: New Deal agencies built the administrative capacity (planning, procurement, economic management) that WWII mobilization required; New Deal public works created industrial infrastructure (dams, electricity, highways) that military production used; the New Deal legitimized government-industry coordination that the military-industrial complex institutionalized. Eisenhower warned against the military-industrial complex in 1961 \u2014 the very year the New Deal's institutional legacy was being incorporated into permanent Cold War military spending. The New Deal didn't create the military-industrial complex but built the government capacity that enabled it.",
     "confidence": "medium"
   },
   {
@@ -1246,8 +1246,8 @@
     "source": "george_w_bush",
     "target": "iraq_war_wmd",
     "type": "PRODUCED",
-    "label": "Bush administration's manufactured WMD case — presented to the UN by Powell, repeated in presidential speeches — justified the 2003 Iraq invasion",
-    "note": "The Bush administration's case for the Iraq War was built on manufactured evidence: the aluminum tubes claim (attributed to uranium enrichment despite DOE dissent); the Niger yellowcake uranium forgery; the al-Qaeda-Saddam connection claim (without evidence); Curveball's fabricated mobile bioweapons lab testimony. The Iraq Survey Group found no WMD after the invasion. The Chilcot Inquiry (UK) concluded the war's legal basis was \"far from satisfactory.\" Bush's presidency is the definitive case study of how manufactured consent for war operates at the highest levels of government — and how the media ecosystem (NYT's Judith Miller) can become complicit in amplifying false intelligence.",
+    "label": "Bush administration's manufactured WMD case \u2014 presented to the UN by Powell, repeated in presidential speeches \u2014 justified the 2003 Iraq invasion",
+    "note": "The Bush administration's case for the Iraq War was built on manufactured evidence: the aluminum tubes claim (attributed to uranium enrichment despite DOE dissent); the Niger yellowcake uranium forgery; the al-Qaeda-Saddam connection claim (without evidence); Curveball's fabricated mobile bioweapons lab testimony. The Iraq Survey Group found no WMD after the invasion. The Chilcot Inquiry (UK) concluded the war's legal basis was \"far from satisfactory.\" Bush's presidency is the definitive case study of how manufactured consent for war operates at the highest levels of government \u2014 and how the media ecosystem (NYT's Judith Miller) can become complicit in amplifying false intelligence.",
     "confidence": "high"
   },
   {
@@ -1256,7 +1256,7 @@
     "target": "george_w_bush",
     "type": "ENABLED",
     "label": "9/11 gave Bush the political space to launch the War on Terror, invade two countries, and construct a surveillance state",
-    "note": "9/11 transformed Bush's presidency: his pre-9/11 approval rating was 51%; post-9/11 it reached 90% — enabling the Authorization for Use of Military Force (AUMF), the PATRIOT Act, the Afghanistan invasion, and ultimately the Iraq War on the theory that Saddam had WMD and terrorist connections. The 9/11 political space lasted long enough to justify all the major War on Terror policies before the WMD fabrication was exposed. Bush's presidency demonstrates how catastrophic events create political permission for actions that would otherwise be impossible — and why manufactured consent requires manufacturing a crisis or exploiting a real one.",
+    "note": "9/11 transformed Bush's presidency: his pre-9/11 approval rating was 51%; post-9/11 it reached 90% \u2014 enabling the Authorization for Use of Military Force (AUMF), the PATRIOT Act, the Afghanistan invasion, and ultimately the Iraq War on the theory that Saddam had WMD and terrorist connections. The 9/11 political space lasted long enough to justify all the major War on Terror policies before the WMD fabrication was exposed. Bush's presidency demonstrates how catastrophic events create political permission for actions that would otherwise be impossible \u2014 and why manufactured consent requires manufacturing a crisis or exploiting a real one.",
     "confidence": "high"
   },
   {
@@ -1265,7 +1265,7 @@
     "target": "evangelical_christianity",
     "type": "ENABLED",
     "label": "Roe v. Wade transformed evangelical Christianity from largely apolitical to the Republican Party's most powerful constituency",
-    "note": "Roe v. Wade (1973) was the central event in evangelical political mobilization: before Roe, most evangelical Christians were not politically organized around abortion (many supported abortion rights); Roe's constitutional protection of abortion triggered a systematic evangelical political response — Moral Majority (1979), Christian Coalition, Focus on the Family — that made abortion the unifying issue of evangelical politics for 50 years. The Federalist Society's judicial strategy (begun 1982) was largely designed to find justices who would overturn Roe. The 2022 Dobbs decision completing this strategy demonstrates how patient, systematic judicial capture works as a democratic backsliding tool.",
+    "note": "Roe v. Wade (1973) was the central event in evangelical political mobilization: before Roe, most evangelical Christians were not politically organized around abortion (many supported abortion rights); Roe's constitutional protection of abortion triggered a systematic evangelical political response \u2014 Moral Majority (1979), Christian Coalition, Focus on the Family \u2014 that made abortion the unifying issue of evangelical politics for 50 years. The Federalist Society's judicial strategy (begun 1982) was largely designed to find justices who would overturn Roe. The 2022 Dobbs decision completing this strategy demonstrates how patient, systematic judicial capture works as a democratic backsliding tool.",
     "confidence": "high"
   },
   {
@@ -1273,8 +1273,8 @@
     "source": "trump_maga",
     "target": "roe_v_wade",
     "type": "DISCREDITED",
-    "label": "Trump's three Supreme Court appointments — Gorsuch, Kavanaugh, Barrett — created the 5-4 majority that overturned Roe v. Wade in Dobbs (2022)",
-    "note": "Trump's most durable institutional legacy was the Dobbs decision: his three Supreme Court appointments (Gorsuch 2017, Kavanaugh 2018, Barrett 2020) created the conservative supermajority that overturned Roe v. Wade in Dobbs v. Jackson Women's Health Organization (June 2022). This fulfilled the promise that motivated evangelical voters to support Trump despite his non-evangelical lifestyle. The Dobbs decision demonstrates how election outcomes have generational judicial consequences — Trump's presidency lasting 4 years produced Supreme Court justices with 30-year terms. The Federalist Society's 40-year judicial project achieved its central goal through Trump's court appointments.",
+    "label": "Trump's three Supreme Court appointments \u2014 Gorsuch, Kavanaugh, Barrett \u2014 created the 5-4 majority that overturned Roe v. Wade in Dobbs (2022)",
+    "note": "Trump's most durable institutional legacy was the Dobbs decision: his three Supreme Court appointments (Gorsuch 2017, Kavanaugh 2018, Barrett 2020) created the conservative supermajority that overturned Roe v. Wade in Dobbs v. Jackson Women's Health Organization (June 2022). This fulfilled the promise that motivated evangelical voters to support Trump despite his non-evangelical lifestyle. The Dobbs decision demonstrates how election outcomes have generational judicial consequences \u2014 Trump's presidency lasting 4 years produced Supreme Court justices with 30-year terms. The Federalist Society's 40-year judicial project achieved its central goal through Trump's court appointments.",
     "confidence": "high"
   },
   {
@@ -1282,8 +1282,8 @@
     "source": "roe_v_wade",
     "target": "culture_wars",
     "type": "ENABLED",
-    "label": "Roe v. Wade was the organizing center of American culture wars — the issue that made abortion the defining partisan litmus test",
-    "note": "Roe v. Wade organized American culture wars more than any other single ruling: for 50 years (1973-2022), abortion was the issue that sorted voters, politicians, judicial appointments, and party platforms. The Roe fight demonstrates how a single Supreme Court decision can restructure partisan alignment: before Roe, abortion was not consistently partisan; after Roe, it became the defining difference between the parties. The culture wars' specific intensity — the moral absolute quality of the debate — reflects Roe's framing as a constitutional rights question that made compromise structurally difficult.",
+    "label": "Roe v. Wade was the organizing center of American culture wars \u2014 the issue that made abortion the defining partisan litmus test",
+    "note": "Roe v. Wade organized American culture wars more than any other single ruling: for 50 years (1973-2022), abortion was the issue that sorted voters, politicians, judicial appointments, and party platforms. The Roe fight demonstrates how a single Supreme Court decision can restructure partisan alignment: before Roe, abortion was not consistently partisan; after Roe, it became the defining difference between the parties. The culture wars' specific intensity \u2014 the moral absolute quality of the debate \u2014 reflects Roe's framing as a constitutional rights question that made compromise structurally difficult.",
     "confidence": "high"
   },
   {
@@ -1292,7 +1292,7 @@
     "target": "january_6_attack",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Both represent executive branch surveillance and enforcement actions that targeted political opponents using security state infrastructure",
-    "note": "The PATRIOT Act surveillance infrastructure built after 9/11 and the January 6 events share the security state institutional context: the surveillance apparatus created under the PATRIOT Act — bulk data collection, FISA courts, expanded FBI powers — became the institutional infrastructure that subsequent administrations could use. Trump's claims that Biden/Obama \"spied\" on him during 2016 inverted the January 6 framing: the security state's surveillance capabilities, authorized under the PATRIOT Act's broad mandate, created the potential for both legitimate counterterrorism AND political surveillance abuse that each side accused the other of.",
+    "note": "The PATRIOT Act surveillance infrastructure built after 9/11 and the January 6 events share the security state institutional context: the surveillance apparatus created under the PATRIOT Act \u2014 bulk data collection, FISA courts, expanded FBI powers \u2014 became the institutional infrastructure that subsequent administrations could use. Trump's claims that Biden/Obama \"spied\" on him during 2016 inverted the January 6 framing: the security state's surveillance capabilities, authorized under the PATRIOT Act's broad mandate, created the potential for both legitimate counterterrorism AND political surveillance abuse that each side accused the other of.",
     "confidence": "medium"
   },
   {
@@ -1301,7 +1301,7 @@
     "target": "patriot_act_surveillance",
     "type": "ENABLED",
     "label": "Church Committee reforms were specifically designed to prevent the surveillance overreach the PATRIOT Act recreated within 25 years",
-    "note": "The Church Committee (1975-76) was created to prevent exactly the abuses the PATRIOT Act enabled: bulk domestic surveillance, warrantless wiretapping, and intelligence community operations against American citizens. The Committee's FISA Act (1978) was meant to require court warrants for domestic surveillance. The PATRIOT Act (2001) — passed 25 years after Church Committee reforms — systematically expanded the exceptions and loopholes that Church had closed, recreating bulk surveillance capability through the NSA's mass data collection programs revealed by Snowden in 2013. The Church Committee reforms lasted exactly as long as the political will to maintain them.",
+    "note": "The Church Committee (1975-76) was created to prevent exactly the abuses the PATRIOT Act enabled: bulk domestic surveillance, warrantless wiretapping, and intelligence community operations against American citizens. The Committee's FISA Act (1978) was meant to require court warrants for domestic surveillance. The PATRIOT Act (2001) \u2014 passed 25 years after Church Committee reforms \u2014 systematically expanded the exceptions and loopholes that Church had closed, recreating bulk surveillance capability through the NSA's mass data collection programs revealed by Snowden in 2013. The Church Committee reforms lasted exactly as long as the political will to maintain them.",
     "confidence": "high"
   },
   {
@@ -1310,7 +1310,7 @@
     "target": "patriot_act_surveillance",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Both represent NSC/executive branch covert operations that circumvented congressional oversight using national security justification",
-    "note": "Iran-Contra (Reagan's NSC running illegal covert operations through private networks to circumvent congressional oversight) and PATRIOT Act surveillance (NSA bulk data collection kept secret from most of Congress through classification) share the mechanism: executive branch operations conducted in secret under national security claims, circumventing democratic oversight. Iran-Contra used private networks and Swiss bank accounts; PATRIOT Act used classification and FISA court secrecy. Both were revealed through leaks (Eugene Hasenfus plane crash 1986; Snowden 2013) rather than congressional oversight. The pattern — national security justification enabling secret operations outside democratic accountability — is consistent.",
+    "note": "Iran-Contra (Reagan's NSC running illegal covert operations through private networks to circumvent congressional oversight) and PATRIOT Act surveillance (NSA bulk data collection kept secret from most of Congress through classification) share the mechanism: executive branch operations conducted in secret under national security claims, circumventing democratic oversight. Iran-Contra used private networks and Swiss bank accounts; PATRIOT Act used classification and FISA court secrecy. Both were revealed through leaks (Eugene Hasenfus plane crash 1986; Snowden 2013) rather than congressional oversight. The pattern \u2014 national security justification enabling secret operations outside democratic accountability \u2014 is consistent.",
     "confidence": "high"
   },
   {
@@ -1319,7 +1319,7 @@
     "target": "meroe",
     "type": "PRODUCED",
     "label": "Kerma was the predecessor civilization that established Nubian cultural continuity from which Meroe developed",
-    "note": "Kerma (c. 2500-1500 BCE) was the first major Nubian urban civilization, a precursor to the later Nubian kingdoms of Napata and Meroe. Kerma's political and cultural institutions — the hierarchical chieftaincy, specialized craftsmanship, cattle-based economy, and distinctive burial practices — established the cultural foundations that later Nubian civilizations built on. After Egyptian conquest and subsequent Nubian revival (Napatan kingdom, 760 BCE), these traditions evolved into the Meroitic civilization that produced the distinctive Nubian cultural synthesis. Kerma represents the indigenous African political tradition that preceded and outlasted Egyptian influence in the Nile Valley.",
+    "note": "Kerma (c. 2500-1500 BCE) was the first major Nubian urban civilization, a precursor to the later Nubian kingdoms of Napata and Meroe. Kerma's political and cultural institutions \u2014 the hierarchical chieftaincy, specialized craftsmanship, cattle-based economy, and distinctive burial practices \u2014 established the cultural foundations that later Nubian civilizations built on. After Egyptian conquest and subsequent Nubian revival (Napatan kingdom, 760 BCE), these traditions evolved into the Meroitic civilization that produced the distinctive Nubian cultural synthesis. Kerma represents the indigenous African political tradition that preceded and outlasted Egyptian influence in the Nile Valley.",
     "confidence": "high"
   },
   {
@@ -1337,7 +1337,7 @@
     "target": "voter_suppression_modern",
     "type": "ENABLED",
     "label": "BLM's challenge to racial justice produced backlash voter suppression laws targeting communities most associated with the movement",
-    "note": "Black Lives Matter's 2020 protest surge (following George Floyd's murder) was met with a wave of voter suppression legislation targeting Black and minority communities: Georgia's SB 202 (2021), Texas's SB 1, and similar laws in Republican-controlled states restricting voting hours, drop boxes, and voter ID requirements specifically targeted the voting patterns of communities that drove BLM protest turnout. The Brennan Center documented 19 states passing voter suppression laws in 2021 — the most since the 1965 Voting Rights Act. The legislative response to BLM demonstrated how political power converts social movement success into electoral suppression.",
+    "note": "Black Lives Matter's 2020 protest surge (following George Floyd's murder) was met with a wave of voter suppression legislation targeting Black and minority communities: Georgia's SB 202 (2021), Texas's SB 1, and similar laws in Republican-controlled states restricting voting hours, drop boxes, and voter ID requirements specifically targeted the voting patterns of communities that drove BLM protest turnout. The Brennan Center documented 19 states passing voter suppression laws in 2021 \u2014 the most since the 1965 Voting Rights Act. The legislative response to BLM demonstrated how political power converts social movement success into electoral suppression.",
     "confidence": "high"
   },
   {
@@ -1345,8 +1345,8 @@
     "source": "black_lives_matter",
     "target": "trump_maga",
     "type": "ENABLED",
-    "label": "BLM and MAGA defined themselves against each other — the 2020 racial justice protests and MAGA backlash were symbiotic political forces",
-    "note": "Black Lives Matter and MAGA defined themselves through mutual opposition: the 2020 Floyd protests and BLM surge activated Trump's \"law and order\" campaign rhetoric; Trump's response (\"when the looting starts, the shooting starts\"; threat to deploy the military against American protesters) galvanized BLM support while energizing MAGA base. The political realignment of 2020 — where suburban white women moved toward Biden while white working class men moved toward Trump — was driven substantially by the BLM-MAGA polarization dynamic. Neither movement was politically intelligible without the other as defining enemy.",
+    "label": "BLM and MAGA defined themselves against each other \u2014 the 2020 racial justice protests and MAGA backlash were symbiotic political forces",
+    "note": "Black Lives Matter and MAGA defined themselves through mutual opposition: the 2020 Floyd protests and BLM surge activated Trump's \"law and order\" campaign rhetoric; Trump's response (\"when the looting starts, the shooting starts\"; threat to deploy the military against American protesters) galvanized BLM support while energizing MAGA base. The political realignment of 2020 \u2014 where suburban white women moved toward Biden while white working class men moved toward Trump \u2014 was driven substantially by the BLM-MAGA polarization dynamic. Neither movement was politically intelligible without the other as defining enemy.",
     "confidence": "high"
   },
   {
@@ -1355,7 +1355,7 @@
     "target": "peace_of_westphalia",
     "type": "SHARES_MECHANISM_WITH",
     "label": "The winged hussars' Vienna defense (1683) and the Peace of Westphalia (1648) both shaped the emerging European nation-state system",
-    "note": "The winged hussars' defense of Vienna (1683) and the Peace of Westphalia (1648) both contributed to defining European political geography: Westphalia established the nation-state sovereignty principle; Vienna demonstrated that the Ottoman threat to that system could be militarily repelled. Together they bookended the period when the modern European state system consolidated — Westphalia establishing the principle, Vienna demonstrating its military defense against non-European empire. The Polish-Lithuanian Commonwealth's hussars at Vienna were simultaneously defending European Christian civilization (the ideological frame) and Poland's own national security (the practical frame).",
+    "note": "The winged hussars' defense of Vienna (1683) and the Peace of Westphalia (1648) both contributed to defining European political geography: Westphalia established the nation-state sovereignty principle; Vienna demonstrated that the Ottoman threat to that system could be militarily repelled. Together they bookended the period when the modern European state system consolidated \u2014 Westphalia establishing the principle, Vienna demonstrating its military defense against non-European empire. The Polish-Lithuanian Commonwealth's hussars at Vienna were simultaneously defending European Christian civilization (the ideological frame) and Poland's own national security (the practical frame).",
     "confidence": "medium"
   },
   {
@@ -1363,8 +1363,8 @@
     "source": "papal_swiss_guard",
     "target": "spanish_inquisition",
     "type": "SHARES_MECHANISM_WITH",
-    "label": "Both represent Counter-Reformation Catholic institutional responses using force — military protection and religious enforcement — to defend papal authority",
-    "note": "The Papal Swiss Guard and the Spanish Inquisition represent two modes of Counter-Reformation papal power: the Guard provided physical protection for the papacy after the traumatic Sack of Rome (1527) demonstrated its vulnerability; the Inquisition provided theological enforcement of Catholic doctrine in Spain. Both were responses to the Protestant Reformation's challenge to papal authority — one military, one juridical. The Inquisition operated under papal authorization but was administered by the Spanish crown; the Guard is directly under papal command. Together they represent the Counter-Reformation's strategy of combining military protection with doctrinal enforcement.",
+    "label": "Both represent Counter-Reformation Catholic institutional responses using force \u2014 military protection and religious enforcement \u2014 to defend papal authority",
+    "note": "The Papal Swiss Guard and the Spanish Inquisition represent two modes of Counter-Reformation papal power: the Guard provided physical protection for the papacy after the traumatic Sack of Rome (1527) demonstrated its vulnerability; the Inquisition provided theological enforcement of Catholic doctrine in Spain. Both were responses to the Protestant Reformation's challenge to papal authority \u2014 one military, one juridical. The Inquisition operated under papal authorization but was administered by the Spanish crown; the Guard is directly under papal command. Together they represent the Counter-Reformation's strategy of combining military protection with doctrinal enforcement.",
     "confidence": "medium"
   },
   {
@@ -1381,8 +1381,8 @@
     "source": "united_nations",
     "target": "neoliberalism",
     "type": "ENABLED",
-    "label": "UN-affiliated institutions — IMF, World Bank — became vehicles for imposing neoliberal structural adjustment on developing countries",
-    "note": "The UN's Bretton Woods financial institutions (IMF, World Bank) became neoliberalism's primary enforcement mechanism in the developing world: IMF structural adjustment programs (1980s-2000s) required developing countries to privatize state enterprises, cut social spending, liberalize trade, and deregulate financial sectors as conditions for emergency loans. These conditionality requirements systematically imposed neoliberal policies on countries that had no democratic mandate for them. The \"Washington Consensus\" — neoliberal policy as the universal development recipe — was enforced through World Bank and IMF conditionality on countries with no alternative in debt crisis.",
+    "label": "UN-affiliated institutions \u2014 IMF, World Bank \u2014 became vehicles for imposing neoliberal structural adjustment on developing countries",
+    "note": "The UN's Bretton Woods financial institutions (IMF, World Bank) became neoliberalism's primary enforcement mechanism in the developing world: IMF structural adjustment programs (1980s-2000s) required developing countries to privatize state enterprises, cut social spending, liberalize trade, and deregulate financial sectors as conditions for emergency loans. These conditionality requirements systematically imposed neoliberal policies on countries that had no democratic mandate for them. The \"Washington Consensus\" \u2014 neoliberal policy as the universal development recipe \u2014 was enforced through World Bank and IMF conditionality on countries with no alternative in debt crisis.",
     "confidence": "high"
   },
   {
@@ -1391,7 +1391,7 @@
     "target": "zionism",
     "type": "ENABLED",
     "label": "UN General Assembly Resolution 181 (1947) partitioned Palestine, directly producing the Israeli state and the Palestinian refugee crisis",
-    "note": "The UN's Partition Plan (Resolution 181, 1947) was the founding act of both the Israeli state and the Palestinian refugee crisis: dividing Mandatory Palestine into Jewish and Arab states, it was accepted by the Jewish Agency and rejected by Arab states. Israel's Declaration of Independence (1948) cited Resolution 181; the subsequent Arab-Israeli War (1948-49) produced the Nakba — 700,000+ Palestinian refugees. The UN bears institutional responsibility for both: it created the state structure that Zionism had sought while failing to protect Palestinian rights. The UN's 1947 partition decision is the origin point of one of the world's most persistent conflicts.",
+    "note": "The UN's Partition Plan (Resolution 181, 1947) was the founding act of both the Israeli state and the Palestinian refugee crisis: dividing Mandatory Palestine into Jewish and Arab states, it was accepted by the Jewish Agency and rejected by Arab states. Israel's Declaration of Independence (1948) cited Resolution 181; the subsequent Arab-Israeli War (1948-49) produced the Nakba \u2014 700,000+ Palestinian refugees. The UN bears institutional responsibility for both: it created the state structure that Zionism had sought while failing to protect Palestinian rights. The UN's 1947 partition decision is the origin point of one of the world's most persistent conflicts.",
     "confidence": "high"
   },
   {
@@ -1399,8 +1399,8 @@
     "source": "cold_war",
     "target": "nato",
     "type": "PRODUCED",
-    "label": "NATO was the institutional embodiment of Cold War Western containment — collective military deterrence against Soviet conventional superiority",
-    "note": "NATO (1949) was produced by the Cold War's military logic: the Soviet Union had the largest conventional army in Europe; the Western democracies had demobilized; and Soviet expansion into Eastern Europe (1945-48) demonstrated its willingness to use military dominance. NATO's Article 5 collective defense was designed to deter Soviet invasion by making it an attack on the US — triggering nuclear response. The Korean War (1950) transformed NATO from a paper alliance into an actual military organization: Eisenhower became the first Supreme Allied Commander, and US troops were permanently stationed in Europe.",
+    "label": "NATO was the institutional embodiment of Cold War Western containment \u2014 collective military deterrence against Soviet conventional superiority",
+    "note": "NATO (1949) was produced by the Cold War's military logic: the Soviet Union had the largest conventional army in Europe; the Western democracies had demobilized; and Soviet expansion into Eastern Europe (1945-48) demonstrated its willingness to use military dominance. NATO's Article 5 collective defense was designed to deter Soviet invasion by making it an attack on the US \u2014 triggering nuclear response. The Korean War (1950) transformed NATO from a paper alliance into an actual military organization: Eisenhower became the first Supreme Allied Commander, and US troops were permanently stationed in Europe.",
     "confidence": "high"
   },
   {
@@ -1409,7 +1409,7 @@
     "target": "fall_of_soviet_union",
     "type": "ENABLED",
     "label": "NATO's military containment and economic pressure contributed to the military overextension that contributed to Soviet collapse",
-    "note": "NATO's contribution to Soviet collapse is debated but real: the Reagan military buildup (SDI, Pershing II missiles in Europe) increased Soviet military spending beyond what its economy could sustain; NATO's conventional deterrence prevented Soviet conventional military adventurism while forcing nuclear parity spending; and NATO's institutional success — demonstrating that democratic alliances could maintain coherence across decades — contrasted with Warsaw Pact coercive unity. Whether NATO \"won\" the Cold War or the Soviet system's internal contradictions were decisive is disputed, but NATO's containment prevented the kind of territorial expansion that might have relieved Soviet economic pressure.",
+    "note": "NATO's contribution to Soviet collapse is debated but real: the Reagan military buildup (SDI, Pershing II missiles in Europe) increased Soviet military spending beyond what its economy could sustain; NATO's conventional deterrence prevented Soviet conventional military adventurism while forcing nuclear parity spending; and NATO's institutional success \u2014 demonstrating that democratic alliances could maintain coherence across decades \u2014 contrasted with Warsaw Pact coercive unity. Whether NATO \"won\" the Cold War or the Soviet system's internal contradictions were decisive is disputed, but NATO's containment prevented the kind of territorial expansion that might have relieved Soviet economic pressure.",
     "confidence": "medium"
   },
   {
@@ -1418,7 +1418,7 @@
     "target": "vietnam_war",
     "type": "ENABLED",
     "label": "LBJ escalated Vietnam from 16,000 advisers to 550,000 troops using the false Gulf of Tonkin incident as pretext",
-    "note": "Lyndon Johnson transformed Vietnam from a limited advisory commitment into a full-scale war: the Gulf of Tonkin Resolution (August 1964), based on a fabricated second attack on US ships, gave Johnson congressional authority for unlimited escalation. By 1968, 550,000 American troops were in Vietnam; 58,000 would ultimately die; US bombing of Vietnam exceeded all WWII bombing combined. Johnson privately doubted Vietnam was winnable but feared being the president who \"lost\" Vietnam to communism — McCarthyism's shadow. The Tet Offensive (1968) destroyed Johnson's credibility; he withdrew from the 1968 presidential race. Vietnam was LBJ's personal tragedy and the Great Society's political death.",
+    "note": "Lyndon Johnson transformed Vietnam from a limited advisory commitment into a full-scale war: the Gulf of Tonkin Resolution (August 1964), based on a fabricated second attack on US ships, gave Johnson congressional authority for unlimited escalation. By 1968, 550,000 American troops were in Vietnam; 58,000 would ultimately die; US bombing of Vietnam exceeded all WWII bombing combined. Johnson privately doubted Vietnam was winnable but feared being the president who \"lost\" Vietnam to communism \u2014 McCarthyism's shadow. The Tet Offensive (1968) destroyed Johnson's credibility; he withdrew from the 1968 presidential race. Vietnam was LBJ's personal tragedy and the Great Society's political death.",
     "confidence": "high"
   },
   {
@@ -1427,7 +1427,7 @@
     "target": "lyndon_johnson",
     "type": "ENABLED",
     "label": "MLK's movement created the political pressure that forced LBJ's hand on the Civil Rights Act and Voting Rights Act",
-    "note": "The Civil Rights Movement enabled LBJ's legislative achievements by creating unmistakable political urgency: the Birmingham campaign's images of police dogs and fire hoses, broadcast nationally, created the political space Johnson needed to push the Civil Rights Act through a resistant Congress. King and Johnson had a complex relationship — King needed Johnson's political mastery; Johnson needed King's movement's moral authority. Selma's Bloody Sunday (March 1965) and the subsequent \"How Long, Not Long\" speech gave Johnson the political moment to sign the Voting Rights Act (August 1965). The Civil Rights Act was as much the Movement's achievement as Johnson's.",
+    "note": "The Civil Rights Movement enabled LBJ's legislative achievements by creating unmistakable political urgency: the Birmingham campaign's images of police dogs and fire hoses, broadcast nationally, created the political space Johnson needed to push the Civil Rights Act through a resistant Congress. King and Johnson had a complex relationship \u2014 King needed Johnson's political mastery; Johnson needed King's movement's moral authority. Selma's Bloody Sunday (March 1965) and the subsequent \"How Long, Not Long\" speech gave Johnson the political moment to sign the Voting Rights Act (August 1965). The Civil Rights Act was as much the Movement's achievement as Johnson's.",
     "confidence": "high"
   },
   {
@@ -1436,7 +1436,7 @@
     "target": "right_wing_populism",
     "type": "ENABLED",
     "label": "LBJ's Civil Rights Acts drove white Southern Democrats to the Republican Party, creating the right-wing populist coalition",
-    "note": "LBJ's signing of the Civil Rights Act reportedly led him to say \"We have lost the South for a generation\" — it turned out to be longer. The Democratic Party's association with Black civil rights triggered the partisan realignment that produced modern right-wing populism: the Solid Democratic South began voting Republican in presidential elections (Goldwater, 1964) and eventually state and local elections (1990s-2000s). Nixon's Southern Strategy explicitly exploited this realignment. Reagan's welfare queen and \"states' rights\" rhetoric continued it. The white working-class populist base of today's Republican Party was substantially produced by the political fallout from LBJ's civil rights achievements.",
+    "note": "LBJ's signing of the Civil Rights Act reportedly led him to say \"We have lost the South for a generation\" \u2014 it turned out to be longer. The Democratic Party's association with Black civil rights triggered the partisan realignment that produced modern right-wing populism: the Solid Democratic South began voting Republican in presidential elections (Goldwater, 1964) and eventually state and local elections (1990s-2000s). Nixon's Southern Strategy explicitly exploited this realignment. Reagan's welfare queen and \"states' rights\" rhetoric continued it. The white working-class populist base of today's Republican Party was substantially produced by the political fallout from LBJ's civil rights achievements.",
     "confidence": "high"
   },
   {
@@ -1445,7 +1445,7 @@
     "target": "central_intelligence_agency",
     "type": "PRODUCED",
     "label": "The Cold War created the CIA as America's primary covert operations and intelligence institution",
-    "note": "The CIA was created by the National Security Act of 1947 as a direct institutional response to the Cold War. It replaced the wartime OSS and was given broader peacetime authority for intelligence collection, covert action, and clandestine operations. The Cold War structure — permanent ideological confrontation without direct military engagement — required a permanent covert apparatus for third-country proxy operations. The CIA's creation institutionalized peacetime covert action as a normal tool of US foreign policy.",
+    "note": "The CIA was created by the National Security Act of 1947 as a direct institutional response to the Cold War. It replaced the wartime OSS and was given broader peacetime authority for intelligence collection, covert action, and clandestine operations. The Cold War structure \u2014 permanent ideological confrontation without direct military engagement \u2014 required a permanent covert apparatus for third-country proxy operations. The CIA's creation institutionalized peacetime covert action as a normal tool of US foreign policy.",
     "confidence": "high"
   },
   {
@@ -1454,7 +1454,7 @@
     "target": "latin_american_dirty_wars",
     "type": "ENABLED",
     "label": "The CIA trained, funded, and organized the military juntas that ran Latin America's dirty wars",
-    "note": "CIA involvement in Latin American dirty wars was systematic and documented: Operation Condor (coordinated repression across Argentina, Chile, Uruguay, Paraguay, Bolivia, Brazil) was CIA-facilitated; the CIA trained Latin American security forces at the School of the Americas including torture techniques; CIA operations overthrew democratic governments (Guatemala 1954, Chile 1973) and installed or supported the military dictatorships that subsequently conducted mass killings. The CIA's counterinsurgency doctrine — framing any left-wing movement as Soviet-directed — provided the ideological justification for state terrorism across the region.",
+    "note": "CIA involvement in Latin American dirty wars was systematic and documented: Operation Condor (coordinated repression across Argentina, Chile, Uruguay, Paraguay, Bolivia, Brazil) was CIA-facilitated; the CIA trained Latin American security forces at the School of the Americas including torture techniques; CIA operations overthrew democratic governments (Guatemala 1954, Chile 1973) and installed or supported the military dictatorships that subsequently conducted mass killings. The CIA's counterinsurgency doctrine \u2014 framing any left-wing movement as Soviet-directed \u2014 provided the ideological justification for state terrorism across the region.",
     "confidence": "high"
   },
   {
@@ -1463,7 +1463,7 @@
     "target": "iran_contra",
     "type": "ENABLED",
     "label": "The CIA's covert operations infrastructure was the institutional base for Iran-Contra's arms networks",
-    "note": "Iran-Contra used the CIA's existing infrastructure of covert arms suppliers, foreign bank accounts, and operational networks — though the operation was technically run through the NSC to circumvent CIA oversight requirements after the Boland Amendment. CIA Director William Casey was a key architect; CIA operatives were directly involved in the weapons shipments and Contra supply networks. The operation represented the CIA's covert operations culture operating outside even its own institutional constraints.",
+    "note": "Iran-Contra used the CIA's existing infrastructure of covert arms suppliers, foreign bank accounts, and operational networks \u2014 though the operation was technically run through the NSC to circumvent CIA oversight requirements after the Boland Amendment. CIA Director William Casey was a key architect; CIA operatives were directly involved in the weapons shipments and Contra supply networks. The operation represented the CIA's covert operations culture operating outside even its own institutional constraints.",
     "confidence": "high"
   },
   {
@@ -1472,7 +1472,7 @@
     "target": "us_iran_1953_coup",
     "type": "ENABLED",
     "label": "Operation AJAX (CIA) and Operation Boot (MI6) organized and executed the 1953 Iranian coup",
-    "note": "The 1953 Iranian coup (Operation AJAX/TPAJAX) was the CIA's first major regime change operation. CIA officer Kermit Roosevelt Jr. coordinated the operation that overthrew elected Prime Minister Mohammad Mosaddegh after he nationalized Iran's oil (British Petroleum's predecessor). The CIA paid Iranian military officers, organized street mobs, and ran a disinformation campaign attributing the coup to communists. The 1953 coup is the ur-example of CIA covert regime change — it established the operational template used in Guatemala (1954), Chile (1973), and dozens of other operations.",
+    "note": "The 1953 Iranian coup (Operation AJAX/TPAJAX) was the CIA's first major regime change operation. CIA officer Kermit Roosevelt Jr. coordinated the operation that overthrew elected Prime Minister Mohammad Mosaddegh after he nationalized Iran's oil (British Petroleum's predecessor). The CIA paid Iranian military officers, organized street mobs, and ran a disinformation campaign attributing the coup to communists. The 1953 coup is the ur-example of CIA covert regime change \u2014 it established the operational template used in Guatemala (1954), Chile (1973), and dozens of other operations.",
     "confidence": "high"
   },
   {
@@ -1481,7 +1481,7 @@
     "target": "mk_ultra",
     "type": "PRODUCED",
     "label": "MK-Ultra was a CIA mind control research program conducted without congressional oversight",
-    "note": "MK-Ultra (1953-1973) was a CIA program of experiments on mind control using LSD, hypnosis, torture, and other techniques on unwitting subjects including US citizens. The program was authorized by CIA Director Allen Dulles and conducted through 150 research projects at universities, hospitals, and prisons using front organizations. Most MK-Ultra files were destroyed in 1973 before Senate investigation; the Church Committee documented what survived. MK-Ultra represents the CIA operating outside legal and ethical constraints — the same institutional pattern as its regime change operations.",
+    "note": "MK-Ultra (1953-1973) was a CIA program of experiments on mind control using LSD, hypnosis, torture, and other techniques on unwitting subjects including US citizens. The program was authorized by CIA Director Allen Dulles and conducted through 150 research projects at universities, hospitals, and prisons using front organizations. Most MK-Ultra files were destroyed in 1973 before Senate investigation; the Church Committee documented what survived. MK-Ultra represents the CIA operating outside legal and ethical constraints \u2014 the same institutional pattern as its regime change operations.",
     "confidence": "high"
   },
   {
@@ -1490,7 +1490,7 @@
     "target": "iraq_war_wmd",
     "type": "ENABLED",
     "label": "Neoconservative ideology was the intellectual driver of the Iraq War decision",
-    "note": "The Iraq War was a neoconservative project: PNAC (Project for the New American Century) had called for Saddam's removal since 1998; key neoconservatives (Wolfowitz, Perle, Feith, Cheney) dominated Bush administration foreign policy after 9/11; neoconservative doctrine of \"democratic domino theory\" — that removing Saddam would spark democratic transformation across the Middle East — was the strategic rationale beyond WMDs. The WMD case was the public justification; the neoconservative goal was regional transformation. The Iraq War's failure delegitimized neoconservatism but its institutional base (think tanks, academic networks) survived.",
+    "note": "The Iraq War was a neoconservative project: PNAC (Project for the New American Century) had called for Saddam's removal since 1998; key neoconservatives (Wolfowitz, Perle, Feith, Cheney) dominated Bush administration foreign policy after 9/11; neoconservative doctrine of \"democratic domino theory\" \u2014 that removing Saddam would spark democratic transformation across the Middle East \u2014 was the strategic rationale beyond WMDs. The WMD case was the public justification; the neoconservative goal was regional transformation. The Iraq War's failure delegitimized neoconservatism but its institutional base (think tanks, academic networks) survived.",
     "confidence": "high"
   },
   {
@@ -1499,7 +1499,7 @@
     "target": "neoconservatism",
     "type": "PRODUCED",
     "label": "Neoconservatism emerged from Cold War liberal anti-communism transformed into aggressive democracy promotion",
-    "note": "Neoconservatism originated with former leftists (Norman Podhoretz, Irving Kristol) who moved right in response to 1960s counterculture and New Left. Their Cold War anti-communism was more muscular than conservative realism — they opposed detente, supported human rights as a weapon against the Soviet Union, and believed the US should use its power to spread democracy. After the Cold War removed the Soviet threat, neoconservatives redirected this framework toward \"rogue states\" and the Middle East. The intellectual continuity: Cold War anti-communism → democracy promotion as foreign policy → regime change as strategy.",
+    "note": "Neoconservatism originated with former leftists (Norman Podhoretz, Irving Kristol) who moved right in response to 1960s counterculture and New Left. Their Cold War anti-communism was more muscular than conservative realism \u2014 they opposed detente, supported human rights as a weapon against the Soviet Union, and believed the US should use its power to spread democracy. After the Cold War removed the Soviet threat, neoconservatives redirected this framework toward \"rogue states\" and the Middle East. The intellectual continuity: Cold War anti-communism \u2192 democracy promotion as foreign policy \u2192 regime change as strategy.",
     "confidence": "high"
   },
   {
@@ -1517,7 +1517,7 @@
     "target": "european_union",
     "type": "ENABLED",
     "label": "The EU represents the partial transcendence of the Westphalian nation-state sovereignty model it was built to overcome",
-    "note": "The Peace of Westphalia (1648) established the sovereign nation-state as the fundamental unit of international order. The European Union (1993) represents the most ambitious attempt to transcend that order — member states pooled sovereignty over currency, trade, borders, and significant areas of law. The EU was explicitly created to make European war impossible by creating shared institutions and economic interdependence. It is simultaneously the inheritor of the Westphalian state system (composed of sovereign states) and its most radical challenge (they voluntarily cede sovereignty to supranational institutions).",
+    "note": "The Peace of Westphalia (1648) established the sovereign nation-state as the fundamental unit of international order. The European Union (1993) represents the most ambitious attempt to transcend that order \u2014 member states pooled sovereignty over currency, trade, borders, and significant areas of law. The EU was explicitly created to make European war impossible by creating shared institutions and economic interdependence. It is simultaneously the inheritor of the Westphalian state system (composed of sovereign states) and its most radical challenge (they voluntarily cede sovereignty to supranational institutions).",
     "confidence": "high"
   },
   {
@@ -1544,7 +1544,7 @@
     "target": "neoliberalism",
     "type": "DISCREDITED",
     "label": "Neoliberalism systematically dismantled the institutional power of the labor movement through Reagan-Thatcher era policy",
-    "note": "Neoliberalism targeted labor movement institutional power as central to its project: Reagan's PATCO strike-breaking (1981) signaled government would not enforce labor rights; Thatcher broke the miners' union (1984-85); deregulation and trade liberalization moved manufacturing to low-wage countries; anti-union legislation reduced organizing rights. Union membership in the US fell from 35% (1955) to 10% (2020). This was not market accident — it was deliberate policy. The decline of union power correlates precisely with the rise in income inequality, demonstrating that unions were the primary institutional mechanism for distributing productivity gains to workers.",
+    "note": "Neoliberalism targeted labor movement institutional power as central to its project: Reagan's PATCO strike-breaking (1981) signaled government would not enforce labor rights; Thatcher broke the miners' union (1984-85); deregulation and trade liberalization moved manufacturing to low-wage countries; anti-union legislation reduced organizing rights. Union membership in the US fell from 35% (1955) to 10% (2020). This was not market accident \u2014 it was deliberate policy. The decline of union power correlates precisely with the rise in income inequality, demonstrating that unions were the primary institutional mechanism for distributing productivity gains to workers.",
     "confidence": "high"
   },
   {
@@ -1562,7 +1562,7 @@
     "target": "jim_crow",
     "type": "ENABLED",
     "label": "The failure of Reconstruction directly produced Jim Crow as the Southern white elite reasserted political and economic control",
-    "note": "Jim Crow was the direct consequence of Reconstruction's defeat: the Compromise of 1877 ended federal enforcement of Reconstruction amendments; Southern states immediately began dismantling Black political power through violence, fraud, and eventually literacy tests and poll taxes; the Supreme Court's Plessy v. Ferguson (1896) provided the legal architecture; lynching enforced the new racial order through terror. Jim Crow was not a natural cultural development — it was a deliberate political project to restore the racial hierarchy that slavery had institutionalized, adapting to the post-slavery legal context.",
+    "note": "Jim Crow was the direct consequence of Reconstruction's defeat: the Compromise of 1877 ended federal enforcement of Reconstruction amendments; Southern states immediately began dismantling Black political power through violence, fraud, and eventually literacy tests and poll taxes; the Supreme Court's Plessy v. Ferguson (1896) provided the legal architecture; lynching enforced the new racial order through terror. Jim Crow was not a natural cultural development \u2014 it was a deliberate political project to restore the racial hierarchy that slavery had institutionalized, adapting to the post-slavery legal context.",
     "confidence": "high"
   },
   {
@@ -1571,7 +1571,7 @@
     "target": "reconstruction_era",
     "type": "PRODUCED",
     "label": "The Civil War's military victory over slavery produced the Reconstruction effort to integrate formerly enslaved people into the republic",
-    "note": "Reconstruction was the political consequence of Union victory: the 13th, 14th, and 15th amendments abolished slavery, established birthright citizenship, and guaranteed voting rights; the Freedmen's Bureau attempted economic integration; Black Americans held office throughout the South for the first time. Reconstruction demonstrated what was possible — and its violent defeat demonstrated the limits of legal change without sustained enforcement. Historians now recognize Reconstruction's achievements as remarkable given the scale of the task; its failure was not inevitable but the result of political decisions to withdraw federal troops and enforcement.",
+    "note": "Reconstruction was the political consequence of Union victory: the 13th, 14th, and 15th amendments abolished slavery, established birthright citizenship, and guaranteed voting rights; the Freedmen's Bureau attempted economic integration; Black Americans held office throughout the South for the first time. Reconstruction demonstrated what was possible \u2014 and its violent defeat demonstrated the limits of legal change without sustained enforcement. Historians now recognize Reconstruction's achievements as remarkable given the scale of the task; its failure was not inevitable but the result of political decisions to withdraw federal troops and enforcement.",
     "confidence": "high"
   },
   {
@@ -1580,7 +1580,7 @@
     "target": "civil_rights_movement",
     "type": "PRODUCED",
     "label": "Jim Crow's systematic racial violence and legal oppression was the direct target and motivation of the Civil Rights Movement",
-    "note": "The Civil Rights Movement was specifically a movement against Jim Crow: the Montgomery Bus Boycott (1955) targeted bus segregation; sit-ins targeted lunch counter segregation; Freedom Riders targeted interstate transportation segregation; the Voting Rights Act targeted literacy tests and poll taxes. Jim Crow's specific legal architecture — separate but equal facilities, systematic disenfranchisement, racial terror enforcement — shaped the movement's tactics (nonviolent direct action to expose Jim Crow's violence) and its legislative victories (Civil Rights Act 1964, Voting Rights Act 1965). Jim Crow created the conditions requiring the Civil Rights Movement.",
+    "note": "The Civil Rights Movement was specifically a movement against Jim Crow: the Montgomery Bus Boycott (1955) targeted bus segregation; sit-ins targeted lunch counter segregation; Freedom Riders targeted interstate transportation segregation; the Voting Rights Act targeted literacy tests and poll taxes. Jim Crow's specific legal architecture \u2014 separate but equal facilities, systematic disenfranchisement, racial terror enforcement \u2014 shaped the movement's tactics (nonviolent direct action to expose Jim Crow's violence) and its legislative victories (Civil Rights Act 1964, Voting Rights Act 1965). Jim Crow created the conditions requiring the Civil Rights Movement.",
     "confidence": "high"
   },
   {
@@ -1589,7 +1589,7 @@
     "target": "voter_suppression_modern",
     "type": "ENABLED",
     "label": "Modern voter suppression revives Jim Crow disenfranchisement tactics through neutral-seeming procedural restrictions that disparately impact Black voters",
-    "note": "Modern voter suppression laws revive Jim Crow tactics in legally race-neutral packaging: voter ID laws (Black Americans disproportionately lack required ID), purging voter rolls (purges disproportionately target Black and Latino voters), closing polling places in minority areas, limiting early voting and Sunday voting (Black churches' \"souls to the polls\"). The Shelby County v. Holder (2013) Supreme Court decision gutted the Voting Rights Act's preclearance requirement — within hours of the decision, states began passing voter suppression legislation. The structural continuity from Jim Crow poll taxes and literacy tests to modern voter ID laws is recognized by civil rights scholars.",
+    "note": "Modern voter suppression laws revive Jim Crow tactics in legally race-neutral packaging: voter ID laws (Black Americans disproportionately lack required ID), purging voter rolls (purges disproportionately target Black and Latino voters), closing polling places in minority areas, limiting early voting and Sunday voting (Black churches' \"souls to the polls\"). The Shelby County v. Holder (2013) Supreme Court decision gutted the Voting Rights Act's preclearance requirement \u2014 within hours of the decision, states began passing voter suppression legislation. The structural continuity from Jim Crow poll taxes and literacy tests to modern voter ID laws is recognized by civil rights scholars.",
     "confidence": "high"
   },
   {
@@ -1598,7 +1598,7 @@
     "target": "new_deal",
     "type": "PRODUCED",
     "label": "FDR designed and implemented the New Deal as a pragmatic response to the Great Depression's political and economic crisis",
-    "note": "FDR created the New Deal through three phases of legislation (1933-1938): First New Deal (banking reform, FDIC, farm policy, CCC); Second New Deal (Wagner Act, Social Security, WPA); Third New Deal (Fair Labor Standards Act). FDR's approach was pragmatic rather than ideological — he tried things, kept what worked, abandoned what did not. His Brain Trust (economists, academics, lawyers) produced a flood of legislation in the First Hundred Days. FDR's political genius was framing New Deal programs as saving capitalism from itself, rather than replacing it — defusing revolutionary pressure while providing economic relief.",
+    "note": "FDR created the New Deal through three phases of legislation (1933-1938): First New Deal (banking reform, FDIC, farm policy, CCC); Second New Deal (Wagner Act, Social Security, WPA); Third New Deal (Fair Labor Standards Act). FDR's approach was pragmatic rather than ideological \u2014 he tried things, kept what worked, abandoned what did not. His Brain Trust (economists, academics, lawyers) produced a flood of legislation in the First Hundred Days. FDR's political genius was framing New Deal programs as saving capitalism from itself, rather than replacing it \u2014 defusing revolutionary pressure while providing economic relief.",
     "confidence": "high"
   },
   {
@@ -1625,7 +1625,7 @@
     "target": "regulatory_capture",
     "type": "PRODUCED",
     "label": "Neoliberal politics systematically produced regulatory capture by appointing industry insiders and defunding enforcement agencies",
-    "note": "Neoliberal governments (Reagan, Thatcher, and successors) systematically produced regulatory capture: Reagan appointed Anne Gorsuch (Burford) to head EPA with mandate to weaken it; appointed James Watt (former industry attorney) as Interior Secretary; defunded regulatory agencies while appointing opponents of their mission. The political strategy was explicit — use personnel and budget cuts to weaken regulation while avoiding the political cost of abolishing popular regulatory protections. This \"slow capture\" through hostile appointment and budget starvation became the template for subsequent Republican administrations. The result was regulatory agencies staffed by people ideologically committed to not regulating.",
+    "note": "Neoliberal governments (Reagan, Thatcher, and successors) systematically produced regulatory capture: Reagan appointed Anne Gorsuch (Burford) to head EPA with mandate to weaken it; appointed James Watt (former industry attorney) as Interior Secretary; defunded regulatory agencies while appointing opponents of their mission. The political strategy was explicit \u2014 use personnel and budget cuts to weaken regulation while avoiding the political cost of abolishing popular regulatory protections. This \"slow capture\" through hostile appointment and budget starvation became the template for subsequent Republican administrations. The result was regulatory agencies staffed by people ideologically committed to not regulating.",
     "confidence": "high"
   },
   {
@@ -1634,7 +1634,7 @@
     "target": "culture_wars",
     "type": "ENABLED",
     "label": "LGBTQ rights became the primary battleground of the culture wars, with each legal advance producing organized religious-conservative backlash",
-    "note": "LGBTQ rights and culture wars are structurally linked: each LGBTQ rights advance (civil union laws, marriage equality, trans rights) produced organized religious-conservative political response (DOMA, state marriage amendments, anti-trans bathroom bills, sports bans). The culture war framing allowed LGBTQ rights opponents to present minority rights as cultural aggression against majority values — framing discrimination as self-defense. The Supreme Court marriage equality decision (Obergefell 2015) was followed immediately by \"religious liberty\" legislation claiming the right to discriminate; the trans rights backlash (2020-present) represents the current frontline of LGBTQ culture war politics.",
+    "note": "LGBTQ rights and culture wars are structurally linked: each LGBTQ rights advance (civil union laws, marriage equality, trans rights) produced organized religious-conservative political response (DOMA, state marriage amendments, anti-trans bathroom bills, sports bans). The culture war framing allowed LGBTQ rights opponents to present minority rights as cultural aggression against majority values \u2014 framing discrimination as self-defense. The Supreme Court marriage equality decision (Obergefell 2015) was followed immediately by \"religious liberty\" legislation claiming the right to discriminate; the trans rights backlash (2020-present) represents the current frontline of LGBTQ culture war politics.",
     "confidence": "high"
   },
   {
@@ -1661,12 +1661,12 @@
     "target": "cold_war",
     "type": "ENABLED",
     "label": "Nuclear weapons created the Cold War's defining strategic logic: mutually assured destruction (MAD) as the foundation of deterrence",
-    "note": "Nuclear weapons were the foundational technology of the Cold War: the US atomic monopoly (1945-1949) shaped initial Cold War posture; the Soviet bomb (1949) and hydrogen bomb (1952-53) created MAD as the strategic framework; the nuclear arms race became the primary Cold War competition, driving the space race, intelligence operations, and alliance structures; ICBM development made the arms race existential — both sides could destroy civilization. The Cold War's defining feature — no direct superpower military conflict despite intense rivalry — was entirely due to nuclear deterrence. Without nuclear weapons, US-Soviet confrontation would likely have produced conventional war.",
+    "note": "Nuclear weapons were the foundational technology of the Cold War: the US atomic monopoly (1945-1949) shaped initial Cold War posture; the Soviet bomb (1949) and hydrogen bomb (1952-53) created MAD as the strategic framework; the nuclear arms race became the primary Cold War competition, driving the space race, intelligence operations, and alliance structures; ICBM development made the arms race existential \u2014 both sides could destroy civilization. The Cold War's defining feature \u2014 no direct superpower military conflict despite intense rivalry \u2014 was entirely due to nuclear deterrence. Without nuclear weapons, US-Soviet confrontation would likely have produced conventional war.",
     "confidence": "high"
   },
   {
-    "id": "hiroshima_nagasaki__nuclear_weapons",
-    "source": "hiroshima_nagasaki",
+    "id": "atomic_bombing_hiroshima__nuclear_weapons",
+    "source": "atomic_bombing_hiroshima",
     "target": "nuclear_weapons",
     "type": "PRODUCED",
     "label": "Hiroshima and Nagasaki were the formative events of nuclear weapons as a political and moral category",
@@ -1688,7 +1688,7 @@
     "target": "latin_american_dirty_wars",
     "type": "PRODUCED",
     "label": "Latin America's dirty wars were the Cold War proxy war system applied to the Western Hemisphere",
-    "note": "Latin American dirty wars were Cold War proxy wars: US-backed military regimes conducted state terrorism against left-wing movements framed as Soviet proxies; Operation Condor was coordinated CIA-backed cross-border political repression; the dirty war in Argentina (1976-83) killed 30,000; Chile (1973-1989), Uruguay, Paraguay, Brazil operated similar systems under US training and political support. The proxy war framing was essential — it provided US political cover for supporting mass murder as Cold War necessity. When the Soviet threat evaporated (1989), US support for these regimes quickly became politically problematic, leading to transitions that were partly enabled by the end of the Cold War framing.",
+    "note": "Latin American dirty wars were Cold War proxy wars: US-backed military regimes conducted state terrorism against left-wing movements framed as Soviet proxies; Operation Condor was coordinated CIA-backed cross-border political repression; the dirty war in Argentina (1976-83) killed 30,000; Chile (1973-1989), Uruguay, Paraguay, Brazil operated similar systems under US training and political support. The proxy war framing was essential \u2014 it provided US political cover for supporting mass murder as Cold War necessity. When the Soviet threat evaporated (1989), US support for these regimes quickly became politically problematic, leading to transitions that were partly enabled by the end of the Cold War framing.",
     "confidence": "high"
   },
   {
@@ -1697,7 +1697,7 @@
     "target": "climate_change_denial",
     "type": "ENABLED",
     "label": "Climate denial campaigns were specifically designed to prevent climate policy action, not to disprove climate science",
-    "note": "Climate denial was instrumentally designed to prevent climate policy rather than to engage scientifically with climate evidence: internal fossil fuel industry documents (ExxonMobil 1977-1982 research) show companies understood climate science accurately; the subsequent denial campaign was explicitly about protecting business models from carbon pricing and regulation, not about scientific inquiry. The Global Climate Coalition's explicit goal (documented in internal memos) was to prevent international climate agreements (Kyoto 1997) and domestic carbon pricing. Climate denial succeeded in delaying US climate policy for 30+ years — every decade of delay adds significantly to eventual mitigation costs and locked-in warming.",
+    "note": "Climate denial was instrumentally designed to prevent climate policy rather than to engage scientifically with climate evidence: internal fossil fuel industry documents (ExxonMobil 1977-1982 research) show companies understood climate science accurately; the subsequent denial campaign was explicitly about protecting business models from carbon pricing and regulation, not about scientific inquiry. The Global Climate Coalition's explicit goal (documented in internal memos) was to prevent international climate agreements (Kyoto 1997) and domestic carbon pricing. Climate denial succeeded in delaying US climate policy for 30+ years \u2014 every decade of delay adds significantly to eventual mitigation costs and locked-in warming.",
     "confidence": "high"
   },
   {
@@ -1724,7 +1724,7 @@
     "target": "voter_suppression_modern",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Gerrymandering and voter suppression are the dual tools of electoral manipulation: gerrymandering shapes who wins, voter suppression shapes who votes",
-    "note": "Gerrymandering and voter suppression are complementary tools of electoral manipulation: gerrymandering manipulates district boundaries to make most votes count for nothing (a 30% party can win 60% of seats); voter suppression reduces the number of opposition voters. After the Shelby County v. Holder decision (2013), states that had previously required DOJ preclearance of electoral changes immediately began implementing both gerrymandering and voter suppression measures. The Republican REDMAP strategy (2010) explicitly targeted state legislative elections to control redistricting post-2010 census — gerrymandering as the foundation of a political minority maintaining legislative power.",
+    "note": "Gerrymandering and voter suppression are complementary tools of electoral manipulation: gerrymandering manipulates district boundaries to make most votes count for nothing (a 30% party can win 60% of seats); voter suppression reduces the number of opposition voters. After the Shelby County v. Holder decision (2013), states that had previously required DOJ preclearance of electoral changes immediately began implementing both gerrymandering and voter suppression measures. The Republican REDMAP strategy (2010) explicitly targeted state legislative elections to control redistricting post-2010 census \u2014 gerrymandering as the foundation of a political minority maintaining legislative power.",
     "confidence": "high"
   },
   {
@@ -1733,7 +1733,7 @@
     "target": "political_polarization",
     "type": "CAUSED",
     "label": "Partisan gerrymandering produces safe seats that are only contested in primaries, incentivizing candidates toward extremes",
-    "note": "Gerrymandering contributes to political polarization through safe seat dynamics: heavily gerrymandered districts produce one-party seats where the only competitive election is the primary; primary electorates are more ideologically extreme than general electorates; candidates in safe seats face challenges from the extreme flank, not the center; this creates structural incentives for representatives to move away from the median voter toward their base. The House Freedom Caucus emerged from safe Republican seats where the only threat was a primary challenger — gerrymandering had eliminated the general election incentive for moderate positioning.",
+    "note": "Gerrymandering contributes to political polarization through safe seat dynamics: heavily gerrymandered districts produce one-party seats where the only competitive election is the primary; primary electorates are more ideologically extreme than general electorates; candidates in safe seats face challenges from the extreme flank, not the center; this creates structural incentives for representatives to move away from the median voter toward their base. The House Freedom Caucus emerged from safe Republican seats where the only threat was a primary challenger \u2014 gerrymandering had eliminated the general election incentive for moderate positioning.",
     "confidence": "high"
   },
   {
@@ -1742,7 +1742,7 @@
     "target": "political_polarization",
     "type": "ENABLED",
     "label": "Unlimited dark money enabled extremist donors to fund primary challenges against moderates, accelerating polarization",
-    "note": "Citizens United enabled polarization through primary challenge dynamics: unlimited anonymous spending allowed ideological extremists (Koch network on the right, George Soros on the left) to fund primary challenges against moderates; Republicans who voted for compromise legislation became vulnerable to Tea Party or MAGA primary challenges funded by dark money; the threat of well-funded primary challenges creates incentives for incumbents to pre-emptively move toward their base. The Koch network explicitly used this strategy — funding primary challenges against Republicans who voted for any form of carbon pricing or moderate immigration reform.",
+    "note": "Citizens United enabled polarization through primary challenge dynamics: unlimited anonymous spending allowed ideological extremists (Koch network on the right, George Soros on the left) to fund primary challenges against moderates; Republicans who voted for compromise legislation became vulnerable to Tea Party or MAGA primary challenges funded by dark money; the threat of well-funded primary challenges creates incentives for incumbents to pre-emptively move toward their base. The Koch network explicitly used this strategy \u2014 funding primary challenges against Republicans who voted for any form of carbon pricing or moderate immigration reform.",
     "confidence": "high"
   },
   {
@@ -1750,7 +1750,7 @@
     "source": "citizens_united",
     "target": "wealth_inequality",
     "type": "ENABLED",
-    "label": "Citizens United converted wealth inequality into political inequality — the wealthy can spend unlimited amounts to shape policy that benefits them",
+    "label": "Citizens United converted wealth inequality into political inequality \u2014 the wealthy can spend unlimited amounts to shape policy that benefits them",
     "note": "Citizens United operationalized the political implications of wealth inequality: extreme wealth concentration creates extreme political spending capacity; unlimited political spending allows wealthy donors to shape electoral outcomes and policy; the resulting policy favors wealthy donors (tax cuts, reduced regulation, weakened labor protections) that increase wealth concentration. The feedback loop is self-reinforcing: wealth inequality enables political spending; political spending enables policy that increases wealth inequality. Martin Gilens's research (2014) showed that US policy outcomes correlate with the preferences of the wealthy and business interests, and near-zero with the preferences of ordinary citizens.",
     "confidence": "high"
   },
@@ -1760,7 +1760,7 @@
     "target": "right_wing_populism",
     "type": "ENABLED",
     "label": "Immigration is the central mobilizing issue of right-wing populism in both Europe and the US, providing the ethnic threat narrative",
-    "note": "Immigration is the primary mobilizing issue for right-wing populism in developed democracies: Trump's 2015 campaign launch centered on Mexican immigration; Brexit was primarily about immigration from Eastern Europe and concern about Muslim immigration from the Middle East; Marine Le Pen's National Rally made immigration its central issue; Viktor Orban built his authoritarian state around anti-immigration politics. The right-wing populist immigration frame converts economic anxiety, cultural change anxiety, and racial anxiety into a single target — the immigrant — enabling a coalition that would otherwise have conflicting interests. The Great Replacement conspiracy theory is the ideological distillation of this frame.",
+    "note": "Immigration is the primary mobilizing issue for right-wing populism in developed democracies: Trump's 2015 campaign launch centered on Mexican immigration; Brexit was primarily about immigration from Eastern Europe and concern about Muslim immigration from the Middle East; Marine Le Pen's National Rally made immigration its central issue; Viktor Orban built his authoritarian state around anti-immigration politics. The right-wing populist immigration frame converts economic anxiety, cultural change anxiety, and racial anxiety into a single target \u2014 the immigrant \u2014 enabling a coalition that would otherwise have conflicting interests. The Great Replacement conspiracy theory is the ideological distillation of this frame.",
     "confidence": "high"
   },
   {
@@ -1777,7 +1777,7 @@
     "source": "brexit",
     "target": "immigration_crisis",
     "type": "ENABLED",
-    "label": "Immigration anxiety — particularly Eastern European EU freedom of movement and anti-Muslim sentiment — was the primary emotional driver of Brexit",
+    "label": "Immigration anxiety \u2014 particularly Eastern European EU freedom of movement and anti-Muslim sentiment \u2014 was the primary emotional driver of Brexit",
     "note": "Brexit was primarily an immigration vote: the \"Take Back Control\" slogan was explicitly about controlling immigration (EU freedom of movement had brought 3 million EU citizens to the UK); UKIP's \"Breaking Point\" poster showing refugees queued at a border deliberately conflated EU freedom of movement (primarily white Eastern Europeans) with refugee crisis (primarily Middle Eastern and African refugees); Farage acknowledged the poster was disgraceful even by his standards but it captured the emotional truth of the Leave campaign's demographic. The economic case for Brexit was always weak; the immigration case was strong among those who felt demographic change threatened their communities.",
     "confidence": "high"
   },
@@ -1796,7 +1796,7 @@
     "target": "human_rights_declaration",
     "type": "PRODUCED",
     "label": "Nuremberg established the principle that individual human rights transcend state sovereignty; the UDHR institutionalized this principle",
-    "note": "The Nuremberg trials and UDHR are the twin institutional responses to the Holocaust: Nuremberg established that states cannot violate individual rights by claiming sovereign authority (crimes against humanity transcend state jurisdiction); the UDHR (1948) codified universal rights that all humans possess regardless of citizenship. Both were drafted simultaneously by overlapping teams; both drew on the specific horror of the Holocaust as the motivating case; both were products of the immediate post-war political moment when establishing international human rights norms was possible. Together they represent the post-WWII attempt to prevent future Holocausts through international law — with partial success.",
+    "note": "The Nuremberg trials and UDHR are the twin institutional responses to the Holocaust: Nuremberg established that states cannot violate individual rights by claiming sovereign authority (crimes against humanity transcend state jurisdiction); the UDHR (1948) codified universal rights that all humans possess regardless of citizenship. Both were drafted simultaneously by overlapping teams; both drew on the specific horror of the Holocaust as the motivating case; both were products of the immediate post-war political moment when establishing international human rights norms was possible. Together they represent the post-WWII attempt to prevent future Holocausts through international law \u2014 with partial success.",
     "confidence": "high"
   },
   {
@@ -1814,7 +1814,7 @@
     "target": "neoliberalism",
     "type": "ENABLED",
     "label": "The 2008 crisis was produced by three decades of neoliberal financial deregulation and the resulting shadow banking system",
-    "note": "The 2008 financial crisis was a neoliberal policy failure: financial deregulation (Gramm-Leach-Bliley 1999 repealing Glass-Steagall; Commodity Futures Modernization Act 2000 exempting derivatives from regulation) enabled the shadow banking system; the \"efficient market hypothesis\" (prices always reflect true value, so bubbles are impossible) prevented regulators from seeing the housing bubble; regulatory capture of the SEC and federal bank regulators prevented enforcement of existing rules; the \"too big to fail\" problem was the direct result of allowing megabank consolidation. The crisis demonstrated that unregulated financial markets are inherently unstable — the Keynesian insight that neoliberalism had abandoned.",
+    "note": "The 2008 financial crisis was a neoliberal policy failure: financial deregulation (Gramm-Leach-Bliley 1999 repealing Glass-Steagall; Commodity Futures Modernization Act 2000 exempting derivatives from regulation) enabled the shadow banking system; the \"efficient market hypothesis\" (prices always reflect true value, so bubbles are impossible) prevented regulators from seeing the housing bubble; regulatory capture of the SEC and federal bank regulators prevented enforcement of existing rules; the \"too big to fail\" problem was the direct result of allowing megabank consolidation. The crisis demonstrated that unregulated financial markets are inherently unstable \u2014 the Keynesian insight that neoliberalism had abandoned.",
     "confidence": "high"
   },
   {
@@ -1823,7 +1823,7 @@
     "target": "austerity",
     "type": "PRODUCED",
     "label": "The 2008 crisis and bank bailouts produced the debt conditions that austerity policy then imposed, punishing public services for private sector failure",
-    "note": "The 2008 financial crisis produced austerity through a specific political mechanism: bank bailouts (TARP in the US, bank recapitalizations in Europe) converted private financial sector debt into public debt; governments then faced pressure to reduce the deficits created by bailouts and automatic stabilizers; neoliberal orthodoxy (austerity as the response to deficit) drove policy in Europe (EU/IMF/ECB troika) and the US (2010 Tea Party, 2011 deficit ceiling crisis); the result was that the financial sector that caused the crisis was protected while public services were cut. Austerity was the wrong policy response (as Keynesian economists argued throughout) — it prolonged recessions rather than enabling recovery.",
+    "note": "The 2008 financial crisis produced austerity through a specific political mechanism: bank bailouts (TARP in the US, bank recapitalizations in Europe) converted private financial sector debt into public debt; governments then faced pressure to reduce the deficits created by bailouts and automatic stabilizers; neoliberal orthodoxy (austerity as the response to deficit) drove policy in Europe (EU/IMF/ECB troika) and the US (2010 Tea Party, 2011 deficit ceiling crisis); the result was that the financial sector that caused the crisis was protected while public services were cut. Austerity was the wrong policy response (as Keynesian economists argued throughout) \u2014 it prolonged recessions rather than enabling recovery.",
     "confidence": "high"
   },
   {
@@ -1832,7 +1832,7 @@
     "target": "right_wing_populism",
     "type": "PRODUCED",
     "label": "The 2008 financial crisis and bank bailouts while homeowners were foreclosed was the economic shock that produced Tea Party, MAGA, and Brexiteers",
-    "note": "The 2008 financial crisis produced the populist backlash of the 2010s: the optics of $700 billion bank bailouts (TARP) while 10 million families were foreclosed produced legitimate rage at elite impunity; both Tea Party (right-wing populist, anti-government) and Occupy Wall Street (left-wing populist, anti-corporate) were immediate 2008-2010 responses; the Tea Party ultimately won the institutional battle (2010 midterms, 2016 Trump); MAGA's \"drain the swamp\" rhetoric is directly descended from 2008 bank bailout rage. The crisis delegitimized economic elites (banks, regulators, economists) — the same delegitimization that enables right-wing populism.",
+    "note": "The 2008 financial crisis produced the populist backlash of the 2010s: the optics of $700 billion bank bailouts (TARP) while 10 million families were foreclosed produced legitimate rage at elite impunity; both Tea Party (right-wing populist, anti-government) and Occupy Wall Street (left-wing populist, anti-corporate) were immediate 2008-2010 responses; the Tea Party ultimately won the institutional battle (2010 midterms, 2016 Trump); MAGA's \"drain the swamp\" rhetoric is directly descended from 2008 bank bailout rage. The crisis delegitimized economic elites (banks, regulators, economists) \u2014 the same delegitimization that enables right-wing populism.",
     "confidence": "high"
   },
   {
@@ -1841,7 +1841,7 @@
     "target": "black_lives_matter",
     "type": "PRODUCED",
     "label": "Police killings of unarmed Black Americans produced Black Lives Matter as the defining protest movement of the 2010s",
-    "note": "Black Lives Matter emerged directly from documented police killings: the Trayvon Martin killing (2012, by neighborhood watch, not police) and George Zimmerman acquittal prompted Alicia Garza's Facebook post and the hashtag; Michael Brown (2014, Ferguson), Eric Garner (2014, New York), Tamir Rice (2014, Cleveland), Sandra Bland (2015, Texas), Walter Scott (2015), Philando Castile (2016), Breonna Taylor (2020), and George Floyd (2020) sustained and expanded the movement. Each killing that produced no accountability — no charges, or acquittals — demonstrated that police violence against Black Americans operated outside normal legal accountability. BLM was the organized response to documented, systematic impunity.",
+    "note": "Black Lives Matter emerged directly from documented police killings: the Trayvon Martin killing (2012, by neighborhood watch, not police) and George Zimmerman acquittal prompted Alicia Garza's Facebook post and the hashtag; Michael Brown (2014, Ferguson), Eric Garner (2014, New York), Tamir Rice (2014, Cleveland), Sandra Bland (2015, Texas), Walter Scott (2015), Philando Castile (2016), Breonna Taylor (2020), and George Floyd (2020) sustained and expanded the movement. Each killing that produced no accountability \u2014 no charges, or acquittals \u2014 demonstrated that police violence against Black Americans operated outside normal legal accountability. BLM was the organized response to documented, systematic impunity.",
     "confidence": "high"
   },
   {
@@ -1859,7 +1859,7 @@
     "target": "police_brutality",
     "type": "ENABLED",
     "label": "Jim Crow-era police forces were explicitly designed to enforce racial hierarchy; this institutional character persisted through northern Great Migration",
-    "note": "Contemporary police brutality is historically connected to Jim Crow policing: southern police forces were created partly to enforce slave codes and catch runaways; after emancipation, they enforced Black Codes and Jim Crow segregation through selective enforcement and racial terror; the KKK and police forces had overlapping membership through the early 20th century. Northern cities imported racialized policing practices as Black Americans migrated north (Great Migration). The institutional culture of policing as racial control was not abolished by civil rights legislation — it adapted. Bryan Stevenson and the Equal Justice Initiative trace contemporary police culture's racial violence directly to slave patrol and Jim Crow enforcement traditions.",
+    "note": "Contemporary police brutality is historically connected to Jim Crow policing: southern police forces were created partly to enforce slave codes and catch runaways; after emancipation, they enforced Black Codes and Jim Crow segregation through selective enforcement and racial terror; the KKK and police forces had overlapping membership through the early 20th century. Northern cities imported racialized policing practices as Black Americans migrated north (Great Migration). The institutional culture of policing as racial control was not abolished by civil rights legislation \u2014 it adapted. Bryan Stevenson and the Equal Justice Initiative trace contemporary police culture's racial violence directly to slave patrol and Jim Crow enforcement traditions.",
     "confidence": "high"
   },
   {
@@ -1868,7 +1868,7 @@
     "target": "surveillance_state",
     "type": "PRODUCED",
     "label": "The PATRIOT Act's surveillance expansion produced the mass surveillance infrastructure Snowden revealed in 2013",
-    "note": "The surveillance state that Snowden revealed was substantially built on PATRIOT Act authorities: Section 215 (bulk telephone metadata collection) enabled NSA collection of every American's call records; Section 702 (PRISM) enabled collection of internet communications from major tech companies; the combination produced mass surveillance infrastructure that had been undisclosed to the public and most of Congress. The FISA court that was supposed to supervise this surveillance operated in secret, approving 99%+ of government requests. The surveillance state was not a dramatic discontinuity from PATRIOT Act surveillance — it was the logical development of surveillance authorities established after 9/11.",
+    "note": "The surveillance state that Snowden revealed was substantially built on PATRIOT Act authorities: Section 215 (bulk telephone metadata collection) enabled NSA collection of every American's call records; Section 702 (PRISM) enabled collection of internet communications from major tech companies; the combination produced mass surveillance infrastructure that had been undisclosed to the public and most of Congress. The FISA court that was supposed to supervise this surveillance operated in secret, approving 99%+ of government requests. The surveillance state was not a dramatic discontinuity from PATRIOT Act surveillance \u2014 it was the logical development of surveillance authorities established after 9/11.",
     "confidence": "high"
   },
   {
@@ -1913,7 +1913,7 @@
     "target": "cold_war_proxy_wars",
     "type": "ENABLED",
     "label": "NATO's protection of Western Europe channeled Cold War competition into proxy wars in the developing world",
-    "note": "NATO's collective security guarantee shifted Cold War military competition to proxy wars: by making direct Soviet attack on Western Europe strategically prohibitive, NATO pushed superpower competition into areas outside the alliance guarantee — Asia, Africa, Latin America, the Middle East. The Korean War (1950-53) and Vietnam War (1955-75) were outside NATO's scope; the CIA operations in Central America, Africa, and the Middle East were proxy competition that NATO's conventional deterrence in Europe made necessary. NATO thus both limited the Cold War (prevented European war) and displaced it (made proxy wars elsewhere more intense).",
+    "note": "NATO's collective security guarantee shifted Cold War military competition to proxy wars: by making direct Soviet attack on Western Europe strategically prohibitive, NATO pushed superpower competition into areas outside the alliance guarantee \u2014 Asia, Africa, Latin America, the Middle East. The Korean War (1950-53) and Vietnam War (1955-75) were outside NATO's scope; the CIA operations in Central America, Africa, and the Middle East were proxy competition that NATO's conventional deterrence in Europe made necessary. NATO thus both limited the Cold War (prevented European war) and displaced it (made proxy wars elsewhere more intense).",
     "confidence": "high"
   },
   {
@@ -1922,7 +1922,7 @@
     "target": "cuban_missile_crisis",
     "type": "PRODUCED",
     "label": "The Cuban Missile Crisis was the direct product of nuclear weapons strategic logic: Soviet missiles in Cuba would undermine US strategic advantage",
-    "note": "The Cuban Missile Crisis was a nuclear weapons problem: Khrushchev placed missiles in Cuba to offset US strategic nuclear advantage (the US had approximately 5,000 warheads vs Soviet 1,500 in 1962) and to demonstrate Soviet ability to project nuclear force to the Western Hemisphere; Kennedy's response was nuclear deterrence logic — the missiles were unacceptable because they fundamentally altered the strategic balance; the resolution required nuclear weapons mechanics (missile withdrawal, pledge not to attack Cuba, secret Jupiter missile withdrawal from Turkey). Every element of the crisis was shaped by nuclear weapons' specific strategic properties — second-strike capability, counterforce vs. countervalue targeting, escalation ladders.",
+    "note": "The Cuban Missile Crisis was a nuclear weapons problem: Khrushchev placed missiles in Cuba to offset US strategic nuclear advantage (the US had approximately 5,000 warheads vs Soviet 1,500 in 1962) and to demonstrate Soviet ability to project nuclear force to the Western Hemisphere; Kennedy's response was nuclear deterrence logic \u2014 the missiles were unacceptable because they fundamentally altered the strategic balance; the resolution required nuclear weapons mechanics (missile withdrawal, pledge not to attack Cuba, secret Jupiter missile withdrawal from Turkey). Every element of the crisis was shaped by nuclear weapons' specific strategic properties \u2014 second-strike capability, counterforce vs. countervalue targeting, escalation ladders.",
     "confidence": "high"
   },
   {
@@ -1940,7 +1940,7 @@
     "target": "gerrymandering",
     "type": "ENABLED",
     "label": "Post-Reconstruction racial gerrymandering was among the first tools used to strip Black Americans of political power after the 1877 Compromise",
-    "note": "Gerrymandering's racial history begins with Reconstruction's defeat: after 1877, Southern states used district manipulation alongside literacy tests and poll taxes to dismantle Black political representation; the Gerrymander as a racial tool predates the modern algorithmic variety. The Voting Rights Act (1965) required DOJ preclearance for electoral changes in states with discrimination history specifically because of this history. When Shelby County v. Holder (2013) eliminated preclearance, states immediately began racial gerrymandering — demonstrating that the historical pattern remained present as soon as the constraint was removed. Contemporary racial gerrymandering and its post-Reconstruction precedents are legally connected through the Voting Rights Act's history.",
+    "note": "Gerrymandering's racial history begins with Reconstruction's defeat: after 1877, Southern states used district manipulation alongside literacy tests and poll taxes to dismantle Black political representation; the Gerrymander as a racial tool predates the modern algorithmic variety. The Voting Rights Act (1965) required DOJ preclearance for electoral changes in states with discrimination history specifically because of this history. When Shelby County v. Holder (2013) eliminated preclearance, states immediately began racial gerrymandering \u2014 demonstrating that the historical pattern remained present as soon as the constraint was removed. Contemporary racial gerrymandering and its post-Reconstruction precedents are legally connected through the Voting Rights Act's history.",
     "confidence": "high"
   },
   {
@@ -1957,7 +1957,7 @@
     "source": "cold_war_proxy_wars",
     "target": "decolonization_movement",
     "type": "SHARES_MECHANISM_WITH",
-    "label": "Cold War proxy wars and decolonization movements were inextricably entangled — independence movements became battlegrounds for superpower competition",
+    "label": "Cold War proxy wars and decolonization movements were inextricably entangled \u2014 independence movements became battlegrounds for superpower competition",
     "note": "Cold War proxy wars and decolonization became intertwined systems: newly independent states needed superpower support for economic development and security; the US and USSR competed to draw independent states into their orbits; liberation movements sought Soviet support when the US backed colonial powers; US support for anti-communist regimes meant supporting colonial and post-colonial authoritarian governments against popular movements. Vietnam was simultaneously a Cold War proxy war and a decolonization movement; Angola, Mozambique, Guinea-Bissau were simultaneously anti-Portuguese decolonization and Cold War confrontations. The Cold War structured decolonization's political economy in ways that complicated its outcomes.",
     "confidence": "high"
   },
@@ -1967,7 +1967,7 @@
     "target": "iran_contra",
     "type": "PRODUCED",
     "label": "Iran-Contra was the proxy war system attempting to continue after Congress withdrew authorization through the Boland Amendment",
-    "note": "Iran-Contra was produced by the Cold War proxy war logic hitting a constitutional obstacle: the Boland Amendment (1982) prohibited US aid to Contra fighters in Nicaragua; the Reagan administration's commitment to proxy war against the Sandinista government (Cold War logic) led to the illegal workaround — selling arms to Iran and diverting proceeds to Contras. The entire operation was a proxy war operation that circumvented democratic constraints. Iran-Contra demonstrates that the Cold War proxy war logic was institutionally embedded in the executive branch to the point where officials viewed constitutional oversight as an obstacle to circumvent rather than a constraint to respect.",
+    "note": "Iran-Contra was produced by the Cold War proxy war logic hitting a constitutional obstacle: the Boland Amendment (1982) prohibited US aid to Contra fighters in Nicaragua; the Reagan administration's commitment to proxy war against the Sandinista government (Cold War logic) led to the illegal workaround \u2014 selling arms to Iran and diverting proceeds to Contras. The entire operation was a proxy war operation that circumvented democratic constraints. Iran-Contra demonstrates that the Cold War proxy war logic was institutionally embedded in the executive branch to the point where officials viewed constitutional oversight as an obstacle to circumvent rather than a constraint to respect.",
     "confidence": "high"
   },
   {
@@ -1975,7 +1975,7 @@
     "source": "climate_change_policy",
     "target": "immigration_crisis",
     "type": "PRODUCED",
-    "label": "Climate change is a primary driver of contemporary mass displacement — the future of the immigration crisis is a climate refugee crisis",
+    "label": "Climate change is a primary driver of contemporary mass displacement \u2014 the future of the immigration crisis is a climate refugee crisis",
     "note": "Climate change is producing the immigration crisis through multiple pathways: sea level rise makes coastal areas uninhabitable (Bangladesh, Pacific islands, Miami); desertification and drought destroy agricultural livelihoods (Sahel, Syria, Central America's Dry Corridor); extreme heat makes regions in tropics and subtropics lethally hot without air conditioning; World Bank estimates 216 million internal climate migrants by 2050. The Syrian conflict (2011-present) was partly triggered by drought (2006-2011) that failed crops and drove 1.5 million farmers to cities, producing social instability. Immigration policy debates that treat climate migration as an immigration problem rather than a climate problem will systematically fail to address its root causes.",
     "confidence": "high"
   },
@@ -1985,7 +1985,7 @@
     "target": "immigration_crisis",
     "type": "ENABLED",
     "label": "Post-colonial economic structures and conflict are primary drivers of migration from former colonies to former imperial centers",
-    "note": "Contemporary immigration patterns are substantially post-colonial: the colonial relationship created economic development asymmetries that drive migration (former colonies systematically underdeveloped as complement to imperial economy); former colonies experience political instability partly as legacy of colonial borders and divide-and-rule politics; colonial-era labor migration created communities in imperial centers whose families continue to migrate through chain migration. The UK's immigration crisis is primarily from former British Empire territories; France's from former French colonies; Spain's from former Spanish colonies. Post-colonial migration follows colonial pathways — language connections, diaspora networks, and economic development differentials all trace to the colonial relationship.",
+    "note": "Contemporary immigration patterns are substantially post-colonial: the colonial relationship created economic development asymmetries that drive migration (former colonies systematically underdeveloped as complement to imperial economy); former colonies experience political instability partly as legacy of colonial borders and divide-and-rule politics; colonial-era labor migration created communities in imperial centers whose families continue to migrate through chain migration. The UK's immigration crisis is primarily from former British Empire territories; France's from former French colonies; Spain's from former Spanish colonies. Post-colonial migration follows colonial pathways \u2014 language connections, diaspora networks, and economic development differentials all trace to the colonial relationship.",
     "confidence": "high"
   },
   {
@@ -2012,7 +2012,7 @@
     "target": "civil_rights_movement",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Disability rights movement explicitly modeled on Civil Rights Movement, with \"nothing about us without us\" replacing \"we shall overcome\"",
-    "note": "The disability rights movement explicitly modeled its legal and political strategy on the Civil Rights Movement: Ed Roberts (wheelchair user who fought UC Berkeley's admissions exclusion in 1962) and Judy Heumann (denied teaching license due to wheelchair in 1970) developed an independent living philosophy that paralleled Black Power's self-determination; the Section 504 sit-in (1977, 26 days occupying San Francisco HEW office — the longest such occupation in US history) deployed direct action borrowed from civil rights; ADAPT (disability direct action group) chained themselves to inaccessible buses; the ADA (1990) was the legislative equivalent of the Civil Rights Act. The strategy transfer was explicit and conscious.",
+    "note": "The disability rights movement explicitly modeled its legal and political strategy on the Civil Rights Movement: Ed Roberts (wheelchair user who fought UC Berkeley's admissions exclusion in 1962) and Judy Heumann (denied teaching license due to wheelchair in 1970) developed an independent living philosophy that paralleled Black Power's self-determination; the Section 504 sit-in (1977, 26 days occupying San Francisco HEW office \u2014 the longest such occupation in US history) deployed direct action borrowed from civil rights; ADAPT (disability direct action group) chained themselves to inaccessible buses; the ADA (1990) was the legislative equivalent of the Civil Rights Act. The strategy transfer was explicit and conscious.",
     "confidence": "high"
   },
   {
@@ -2030,7 +2030,7 @@
     "target": "new_deal",
     "type": "PRODUCED",
     "label": "The New Deal created the foundational institutions of the American social safety net",
-    "note": "The New Deal created the US social safety net's core institutions: Social Security (1935, retirement and disability insurance); Federal Deposit Insurance Corporation (banking protection); unemployment insurance; WPA and CCC (work programs); SEC (securities regulation). These programs created the first comprehensive US social safety net — before the New Deal, the elderly poor often died in poorhouses; workers who lost jobs had no income replacement. The New Deal's safety net was built on the principle that individuals could not be expected to self-insure against systemic economic risks (recession, old age, disability) that required collective insurance mechanisms.",
+    "note": "The New Deal created the US social safety net's core institutions: Social Security (1935, retirement and disability insurance); Federal Deposit Insurance Corporation (banking protection); unemployment insurance; WPA and CCC (work programs); SEC (securities regulation). These programs created the first comprehensive US social safety net \u2014 before the New Deal, the elderly poor often died in poorhouses; workers who lost jobs had no income replacement. The New Deal's safety net was built on the principle that individuals could not be expected to self-insure against systemic economic risks (recession, old age, disability) that required collective insurance mechanisms.",
     "confidence": "high"
   },
   {
@@ -2039,7 +2039,7 @@
     "target": "neoliberalism",
     "type": "DISCREDITED",
     "label": "Neoliberalism systematically eroded the social safety net through welfare reform, privatization, and austerity",
-    "note": "Neoliberalism targeted the social safety net as its primary institutional obstacle: Reagan attempted to cut Social Security in 1981 (retreated under political pressure), succeeded in cutting Medicaid and SNAP; Clinton's welfare reform (PRWORA, 1996) replaced AFDC entitlement with TANF block grants, adding work requirements and time limits; Bush attempted Social Security privatization in 2005; state-level Medicaid work requirements, SNAP time limits, and Section 8 waiting lists represent ongoing erosion. The ideological framing: safety net programs create \"dependency\" that reduces work incentives — the moral failure model of poverty applied to social policy. Empirical research consistently fails to find the work disincentive effects neoliberal theory predicts.",
+    "note": "Neoliberalism targeted the social safety net as its primary institutional obstacle: Reagan attempted to cut Social Security in 1981 (retreated under political pressure), succeeded in cutting Medicaid and SNAP; Clinton's welfare reform (PRWORA, 1996) replaced AFDC entitlement with TANF block grants, adding work requirements and time limits; Bush attempted Social Security privatization in 2005; state-level Medicaid work requirements, SNAP time limits, and Section 8 waiting lists represent ongoing erosion. The ideological framing: safety net programs create \"dependency\" that reduces work incentives \u2014 the moral failure model of poverty applied to social policy. Empirical research consistently fails to find the work disincentive effects neoliberal theory predicts.",
     "confidence": "high"
   },
   {
@@ -2048,7 +2048,7 @@
     "target": "welfare_state",
     "type": "ENABLED",
     "label": "The social safety net is the American implementation of the welfare state, less comprehensive than European equivalents",
-    "note": "The US social safety net is a partial welfare state: compared to European welfare states (universal healthcare, childcare, housing, generous unemployment, family leave), the US safety net is limited — no universal healthcare (ACA provides partial coverage), minimal childcare support, time-limited unemployment, no federal paid family leave, weak housing assistance. The US welfare state was limited from inception by Southern Democrats who insisted on excluding agricultural and domestic workers (primarily Black) from Social Security and labor protections. The comparative poverty rates — US has the highest poverty among wealthy democracies — reflect this thinner safety net. The safety net vs. welfare state distinction captures the gap between what the US has and what other wealthy democracies have built.",
+    "note": "The US social safety net is a partial welfare state: compared to European welfare states (universal healthcare, childcare, housing, generous unemployment, family leave), the US safety net is limited \u2014 no universal healthcare (ACA provides partial coverage), minimal childcare support, time-limited unemployment, no federal paid family leave, weak housing assistance. The US welfare state was limited from inception by Southern Democrats who insisted on excluding agricultural and domestic workers (primarily Black) from Social Security and labor protections. The comparative poverty rates \u2014 US has the highest poverty among wealthy democracies \u2014 reflect this thinner safety net. The safety net vs. welfare state distinction captures the gap between what the US has and what other wealthy democracies have built.",
     "confidence": "high"
   },
   {
@@ -2057,7 +2057,7 @@
     "target": "war_on_drugs",
     "type": "PRODUCED",
     "label": "The War on Drugs directly produced mass incarceration through mandatory minimums, three-strikes laws, and aggressive prosecution",
-    "note": "Mass incarceration is substantially a product of War on Drugs policy: US incarceration rates were similar to Western Europe until the mid-1970s; the sharp divergence began with Nixon's drug war and accelerated under Reagan (mandatory minimums 1986, three-strikes 1994 crime bill); drug offenses now constitute 45% of federal prison population; the crack/powder cocaine sentencing disparity (100:1) produced disproportionate Black incarceration. Michelle Alexander's analysis: mass incarceration functions as a racial caste system — felony conviction permanently strips voting rights, access to public housing, student loans, and employment, creating a permanent underclass from communities targeted by drug enforcement.",
+    "note": "Mass incarceration is substantially a product of War on Drugs policy: US incarceration rates were similar to Western Europe until the mid-1970s; the sharp divergence began with Nixon's drug war and accelerated under Reagan (mandatory minimums 1986, three-strikes 1994 crime bill); drug offenses now constitute 45% of federal prison population; the crack/powder cocaine sentencing disparity (100:1) produced disproportionate Black incarceration. Michelle Alexander's analysis: mass incarceration functions as a racial caste system \u2014 felony conviction permanently strips voting rights, access to public housing, student loans, and employment, creating a permanent underclass from communities targeted by drug enforcement.",
     "confidence": "high"
   },
   {
@@ -2065,7 +2065,7 @@
     "source": "mass_incarceration",
     "target": "prison_industrial_complex",
     "type": "PRODUCED",
-    "label": "Mass incarceration created the prison industrial complex — an economic system that profits from incarceration and lobbies to maintain high prison populations",
+    "label": "Mass incarceration created the prison industrial complex \u2014 an economic system that profits from incarceration and lobbies to maintain high prison populations",
     "note": "Mass incarceration produced the prison industrial complex through scale: when incarceration reached 2 million, it became a significant economic sector; private prison companies (CCA, GEO Group) emerged to profit from incarceration; prison guard unions lobbied against sentencing reform; rural communities built economic development strategies around prison jobs; ALEC (American Legislative Exchange Council) coordinated private prison companies and state legislators to write mandatory minimum and three-strikes legislation. The prison industrial complex is self-perpetuating: the political and economic interests created by mass incarceration lobby to maintain the policies that produce it.",
     "confidence": "high"
   },
@@ -2075,7 +2075,7 @@
     "target": "jim_crow",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Michelle Alexander's \"The New Jim Crow\" thesis: mass incarceration reproduces racial hierarchy through the criminal justice system rather than explicit legal segregation",
-    "note": "Alexander's argument: Jim Crow was struck down by civil rights legislation but replaced by mass incarceration as the mechanism of racial social control; both systems: (1) target Black communities through racially discriminatory enforcement (drug arrest rates are racially disparate despite similar usage rates); (2) use legal systems rather than extralegal violence; (3) create secondary civil disabilities (felony disenfranchisement, public benefits exclusion) that maintain racial hierarchy after formal legal equality; (4) are structured by official colorblindness that renders racial intent invisible. The comparison is analytically contested but the structural parallels — legal system producing racial hierarchy through nominally race-neutral mechanisms — have been widely documented.",
+    "note": "Alexander's argument: Jim Crow was struck down by civil rights legislation but replaced by mass incarceration as the mechanism of racial social control; both systems: (1) target Black communities through racially discriminatory enforcement (drug arrest rates are racially disparate despite similar usage rates); (2) use legal systems rather than extralegal violence; (3) create secondary civil disabilities (felony disenfranchisement, public benefits exclusion) that maintain racial hierarchy after formal legal equality; (4) are structured by official colorblindness that renders racial intent invisible. The comparison is analytically contested but the structural parallels \u2014 legal system producing racial hierarchy through nominally race-neutral mechanisms \u2014 have been widely documented.",
     "confidence": "high"
   },
   {
@@ -2084,7 +2084,7 @@
     "target": "lgbtq_rights_movement",
     "type": "PRODUCED",
     "label": "Stonewall catalyzed the modern LGBTQ rights movement by transforming defensive resistance into organized political mobilization",
-    "note": "Stonewall was the organizational origin of the LGBTQ rights movement: the pre-Stonewall homophile movement (Mattachine Society, Daughters of Bilitis) pursued respectability politics and legal gradualism; Stonewall produced a new generation of confrontational organizers (Gay Liberation Front, Gay Activists Alliance); the anniversary of Stonewall became Pride (first march 1970); the Stonewall generation built the political infrastructure (congressional lobbying, legal organizations, media presence) that produced the movement's subsequent victories. Stonewall demonstrated that queer people would resist police violence — this assertion of dignity was the emotional and political foundation of everything that followed.",
+    "note": "Stonewall was the organizational origin of the LGBTQ rights movement: the pre-Stonewall homophile movement (Mattachine Society, Daughters of Bilitis) pursued respectability politics and legal gradualism; Stonewall produced a new generation of confrontational organizers (Gay Liberation Front, Gay Activists Alliance); the anniversary of Stonewall became Pride (first march 1970); the Stonewall generation built the political infrastructure (congressional lobbying, legal organizations, media presence) that produced the movement's subsequent victories. Stonewall demonstrated that queer people would resist police violence \u2014 this assertion of dignity was the emotional and political foundation of everything that followed.",
     "confidence": "high"
   },
   {
@@ -2120,7 +2120,7 @@
     "target": "israel_palestine",
     "type": "PRODUCED",
     "label": "Zionism's practical implementation through Israeli state-building produced the Israel-Palestine conflict through land displacement",
-    "note": "The Israel-Palestine conflict was produced by Zionism's intersection with existing Palestinian Arab population: Zionist immigration to Ottoman/British Mandate Palestine (1880s-1948) created demographic and political conflict with Arab residents; the 1948 Israeli War of Independence and Nakba (Palestinian catastrophe — 700,000 displaced) established the conflict's structural parameters; subsequent wars (1967 Six-Day War establishing occupation of West Bank and Gaza) deepened it. The conflict is the product of two legitimate historical claims — Jewish national self-determination and Palestinian indigenous rights — in an arena where British imperial promises (Balfour Declaration, Hussein-McMahon correspondence) created incompatible commitments.",
+    "note": "The Israel-Palestine conflict was produced by Zionism's intersection with existing Palestinian Arab population: Zionist immigration to Ottoman/British Mandate Palestine (1880s-1948) created demographic and political conflict with Arab residents; the 1948 Israeli War of Independence and Nakba (Palestinian catastrophe \u2014 700,000 displaced) established the conflict's structural parameters; subsequent wars (1967 Six-Day War establishing occupation of West Bank and Gaza) deepened it. The conflict is the product of two legitimate historical claims \u2014 Jewish national self-determination and Palestinian indigenous rights \u2014 in an arena where British imperial promises (Balfour Declaration, Hussein-McMahon correspondence) created incompatible commitments.",
     "confidence": "high"
   },
   {
@@ -2129,7 +2129,7 @@
     "target": "apartheid_south_africa",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Human rights organizations including Amnesty International and B'Tselem have characterized Israel's occupation as apartheid",
-    "note": "The apartheid characterization of Israeli occupation is analytically contested but increasingly mainstream in human rights discourse: Amnesty International (2022), Human Rights Watch (2021), and B'Tselem (Israeli human rights org) have formally characterized Israeli control over Palestinians as apartheid based on: fragmented territorial control (areas A, B, C in West Bank); differential legal systems (Israeli civil law for settlers, military law for Palestinians in same territory); movement restrictions (checkpoints, separation barrier); settlement expansion on Palestinian land. South African apartheid veterans have explicitly made the comparison. The debate over the term is itself politically significant — it reflects the tension between Israel's international support and the documented conditions of occupation.",
+    "note": "The apartheid characterization of Israeli occupation is analytically contested but increasingly mainstream in human rights discourse: Amnesty International (2022), Human Rights Watch (2021), and B'Tselem (Israeli human rights org) have formally characterized Israeli control over Palestinians as apartheid based on: fragmented territorial control (areas A, B, C in West Bank); differential legal systems (Israeli civil law for settlers, military law for Palestinians in same territory); movement restrictions (checkpoints, separation barrier); settlement expansion on Palestinian land. South African apartheid veterans have explicitly made the comparison. The debate over the term is itself politically significant \u2014 it reflects the tension between Israel's international support and the documented conditions of occupation.",
     "confidence": "high"
   },
   {
@@ -2894,7 +2894,7 @@
     "target": "federalism",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both distribute power to prevent its concentration",
-    "note": "Separation of powers (horizontal — between branches) and federalism (vertical — between levels of government) are complementary power-distributing mechanisms. The U.S. constitutional design combines both, creating redundant checks. James Madison's Federalist No. 51 explicitly treats both as applications of the same principle: 'ambition must be made to counteract ambition.'",
+    "note": "Separation of powers (horizontal \u2014 between branches) and federalism (vertical \u2014 between levels of government) are complementary power-distributing mechanisms. The U.S. constitutional design combines both, creating redundant checks. James Madison's Federalist No. 51 explicitly treats both as applications of the same principle: 'ambition must be made to counteract ambition.'",
     "confidence": "high"
   },
   {
@@ -2903,7 +2903,7 @@
     "target": "civil_society",
     "type": "ENABLED",
     "label": "independent media is a component of civil society",
-    "note": "The free press is the civil society institution most directly constituting democratic accountability — it performs the surveillance of power that no single citizen can perform alone. Press freedom and civil society freedom are correlated: authoritarian governments target both simultaneously because both are mechanisms of accountability.",
+    "note": "The free press is the civil society institution most directly constituting democratic accountability \u2014 it performs the surveillance of power that no single citizen can perform alone. Press freedom and civil society freedom are correlated: authoritarian governments target both simultaneously because both are mechanisms of accountability.",
     "confidence": "high"
   },
   {
@@ -2912,7 +2912,7 @@
     "target": "civil_society",
     "type": "ENABLED",
     "label": "proportional systems produce more diverse representation that reflects civil society's plurality",
-    "note": "PR systems consistently produce higher representation of women, minority parties, and previously excluded groups — reflecting the actual plurality of civil society rather than compressing it into two parties. This diversity makes legislatures more responsive to organized civil society groups and produces policies (parental leave, childcare, progressive taxation) that reflect broader coalitions.",
+    "note": "PR systems consistently produce higher representation of women, minority parties, and previously excluded groups \u2014 reflecting the actual plurality of civil society rather than compressing it into two parties. This diversity makes legislatures more responsive to organized civil society groups and produces policies (parental leave, childcare, progressive taxation) that reflect broader coalitions.",
     "confidence": "high"
   },
   {
@@ -2921,7 +2921,7 @@
     "target": "separation_of_powers",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both distribute authority to prevent any single actor from dominating",
-    "note": "International law operates on the same distributional logic as separation of powers but at the inter-state level: by distributing authority across multiple sovereigns and treaty bodies, it prevents any single state from imposing its will universally. Both mechanisms are imperfect — separation of powers can be captured, international law can be ignored — but both create friction against unilateral domination.",
+    "note": "International law operates on the same distributional logic as separation of powers but at the inter-state level: by distributing authority across multiple sovereigns and treaty bodies, it prevents any single state from imposing its will universally. Both mechanisms are imperfect \u2014 separation of powers can be captured, international law can be ignored \u2014 but both create friction against unilateral domination.",
     "confidence": "medium"
   }
 ]

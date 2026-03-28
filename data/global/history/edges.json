@@ -4212,9 +4212,9 @@
     "confidence": "high"
   },
   {
-    "id": "printing_press__protestant_reformation_history",
+    "id": "printing_press__protestant_reformation",
     "source": "printing_press",
-    "target": "protestant_reformation_history",
+    "target": "protestant_reformation",
     "type": "ENABLED",
     "label": "The printing press made the Reformation possible by enabling mass distribution of Luther's theses and vernacular Bibles outside Church control",
     "note": "The printing press was the enabling technology of the Protestant Reformation: Luther's 95 Theses (1517) were printed and distributed across Germany within weeks \u2014 previously, reformers like Jan Hus (burned 1415) could not spread their ideas fast enough to survive Church suppression; vernacular Bible printing (Luther's German Bible, 1534) gave literate Germans direct access to scripture, undermining the priest's interpretive monopoly; Protestant pamphlet culture created a public sphere of religious debate outside Church control. The Reformation could not have survived without printing; Church opponents of earlier centuries were isolated by the slow spread of manuscript culture.",
@@ -4230,8 +4230,8 @@
     "confidence": "high"
   },
   {
-    "id": "protestant_reformation_history__protestant_reformation",
-    "source": "protestant_reformation_history",
+    "id": "protestant_reformation__protestant_reformation",
+    "source": "protestant_reformation",
     "target": "protestant_reformation",
     "type": "PRODUCED",
     "label": "The historical Protestant Reformation produced the Protestant Reformation as an ongoing religious tradition",
@@ -4239,8 +4239,8 @@
     "confidence": "high"
   },
   {
-    "id": "protestant_reformation_history__peace_of_westphalia",
-    "source": "protestant_reformation_history",
+    "id": "protestant_reformation__peace_of_westphalia",
+    "source": "protestant_reformation",
     "target": "peace_of_westphalia",
     "type": "PRODUCED",
     "label": "The Thirty Years War of religion that the Reformation catalyzed produced the Peace of Westphalia as its resolution",
@@ -4290,15 +4290,6 @@
     "type": "ENABLED",
     "label": "Malcolm X's analysis of systemic racism, police violence, and the limits of respectability politics directly influenced BLM's framework",
     "note": "Black Lives Matter's intellectual framework draws more from Malcolm X than from King's integrationist tradition: BLM's founding principles (by Alicia Garza, Patrisse Cullors, Opal Tometi) emphasized systemic analysis, intersectionality, and rejection of respectability politics \u2014 much closer to Malcolm's approach than to King's moral suasion; the Movement for Black Lives' policy platform (2016) included reparations, police abolition, and economic restructuring that echo Malcolm's structural analysis; BLM's tone \u2014 assertive, defiant, centering Black experience rather than appealing to white conscience \u2014 reflects the Malcolm tradition more than the King tradition that white political culture prefers.",
-    "confidence": "high"
-  },
-  {
-    "id": "world_war_ii__hiroshima_nagasaki",
-    "source": "world_war_ii",
-    "target": "hiroshima_nagasaki",
-    "type": "PRODUCED",
-    "label": "WWII's Pacific theater produced the strategic logic and technological capability that led to Hiroshima and Nagasaki",
-    "note": "Hiroshima and Nagasaki were produced by WWII's specific context: the Manhattan Project was initiated by fear of German atomic development; the Pacific War's ferocity (Iwo Jima, Okinawa island campaigns with massive casualties) made US military planners estimate a Japan invasion would cost 250,000-1 million American casualties; Japan's military culture of resistance to surrender created the strategic context; the available bombs and delivery capability created the option. The decision remains historically contested: traditional view (ended the war, saved lives) vs. revisionist view (Japan was already considering surrender; primary motivation was Soviet deterrence). The debate reveals how strategic necessity and moral principle intertwined in the atomic decision.",
     "confidence": "high"
   },
   {
@@ -4572,8 +4563,8 @@
     "confidence": "high"
   },
   {
-    "id": "hiroshima_nagasaki__cold_war",
-    "source": "hiroshima_nagasaki",
+    "id": "atomic_bombing_hiroshima__cold_war",
+    "source": "atomic_bombing_hiroshima",
     "target": "cold_war",
     "type": "ENABLED",
     "label": "Hiroshima and Nagasaki began the nuclear age whose strategic logic shaped every Cold War confrontation",
@@ -4878,9 +4869,9 @@
     "confidence": "confirmed"
   },
   {
-    "id": "reformation__protestant_reformation_history",
+    "id": "reformation__protestant_reformation",
     "source": "reformation_counter_reformation",
-    "target": "protestant_reformation_history",
+    "target": "protestant_reformation",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Shares mechanism with",
     "note": "Protestant Reformation is the core event of the broader Reformation period",
@@ -5150,7 +5141,7 @@
   {
     "id": "second_vatican_council__catholic_church",
     "source": "second_vatican_council",
-    "target": "protestant_reformation_history",
+    "target": "protestant_reformation",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Shares mechanism with",
     "note": "Both Vatican II and Reformation represent attempts to modernize Catholic practice",
@@ -6414,9 +6405,9 @@
     "relation": "CAUSED"
   },
   {
-    "id": "nicolaus_copernicus__protestant_reformation_history",
+    "id": "nicolaus_copernicus__protestant_reformation",
     "source": "nicolaus_copernicus",
-    "target": "protestant_reformation_history",
+    "target": "protestant_reformation",
     "relation": "SHARES_MECHANISM_WITH"
   },
   {

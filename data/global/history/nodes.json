@@ -4044,27 +4044,6 @@
     ]
   },
   {
-    "id": "protestant_reformation_history",
-    "label": "Protestant Reformation",
-    "node_type": "event",
-    "category": "event",
-    "decade": "1510s",
-    "scope": "global/history",
-    "cross_scope": false,
-    "wikipedia": "https://en.wikipedia.org/wiki/Reformation",
-    "summary": "Martin Luther's 1517 challenge to Catholic Church authority, producing the split of Western Christianity into Catholic and Protestant branches; drove religious wars, created the secular state concept, and catalyzed the Scientific Revolution.",
-    "tags": [
-      "martin luther",
-      "protestantism",
-      "catholicism",
-      "church reform",
-      "religious war",
-      "secularism",
-      "bible",
-      "95 theses"
-    ]
-  },
-  {
     "id": "nelson_mandela",
     "label": "Nelson Mandela",
     "node_type": "person",
@@ -4083,27 +4062,6 @@
       "truth commission",
       "liberation",
       "icon"
-    ]
-  },
-  {
-    "id": "hiroshima_nagasaki",
-    "label": "Hiroshima & Nagasaki Bombings",
-    "node_type": "event",
-    "category": "event",
-    "decade": "1940s",
-    "scope": "global/history",
-    "cross_scope": false,
-    "wikipedia": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
-    "summary": "First and only combat use of nuclear weapons; US dropped atomic bombs on Hiroshima (August 6) and Nagasaki (August 9) 1945, killing 130,000-226,000 people; ended WWII in the Pacific; began the nuclear age.",
-    "tags": [
-      "atomic bomb",
-      "world war ii",
-      "japan",
-      "nuclear",
-      "truman",
-      "manhattan project",
-      "civilian deaths",
-      "deterrence"
     ]
   },
   {
@@ -11085,5 +11043,13 @@
     "scope": "global/history",
     "decade": 1380,
     "summary": "English poet (c.1343-1400) who wrote The Canterbury Tales, the first major literary work in vernacular Middle English \u2014 establishing English as a literary language and satirizing medieval class and religious hypocrisy."
+  },
+  {
+    "id": "rosa_luxemburg",
+    "label": "Rosa Luxemburg",
+    "category": "person",
+    "scope": "global/history",
+    "decade": 1910,
+    "summary": "German-Polish Marxist revolutionary (1871-1919) who developed spontaneous mass action theory, opposed both Leninist vanguardism and reformist socialism, and was murdered by right-wing Freikorps soldiers after the failed Spartacist uprising."
   }
 ]
