@@ -3761,9 +3761,9 @@
     "confidence": "high"
   },
   {
-    "id": "collective_trauma__franklin_roosevelt",
+    "id": "collective_trauma__franklin_d_roosevelt",
     "source": "collective_trauma",
-    "target": "franklin_roosevelt",
+    "target": "franklin_d_roosevelt",
     "type": "ENABLED",
     "label": "FDR's New Deal mobilized collective trauma of the Depression for transformation",
     "note": "The Great Depression was a collective trauma that Roosevelt successfully mobilized as political energy for institutional transformation. The New Deal was possible because collective trauma made Americans receptive to radical government intervention \u2014 channeling the trauma into reform rather than demagogic scapegoating.",
@@ -17753,6 +17753,1437 @@
     "type": "ENABLED",
     "label": "LLMs dramatically lowered the cost of generating convincing disinformation text",
     "note": "Large language models dramatically reduced the cost of generating convincing text-based disinformation \u2014 making AI-generated propaganda, fake news, phishing, and academic fraud scalable to any actor with internet access. LLMs extend the deepfakes threat from video to text at much greater scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "yom_kippur_war_1973__israel_palestine_conflict",
+    "source": "yom_kippur_war_1973",
+    "target": "israel_palestine_conflict",
+    "type": "ENABLED",
+    "label": "Yom Kippur War shaped the trajectory of the Israeli-Palestinian conflict",
+    "note": "The 1973 Yom Kippur War led to the Camp David Accords (1978) \u2014 removing Egypt from the conflict \u2014 but also ended Israeli territorial confidence and began the settlement expansion that deepened the Israeli-Palestinian conflict's intractability.",
+    "confidence": "high"
+  },
+  {
+    "id": "jainism__moral_circle_expansion",
+    "source": "jainism",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "label": "Jainism expanded the moral circle further than any other ancient tradition \u2014 to all sentient beings",
+    "note": "Jainism's ahimsa principle extended the moral circle to all sentient beings \u2014 not just humans but animals, insects, and even micro-organisms (which Jain monks avoid killing by sweeping their path). No ancient tradition expanded moral consideration as far.",
+    "confidence": "high"
+  },
+  {
+    "id": "ancient_sumer__social_contract_theory",
+    "source": "ancient_sumer",
+    "target": "social_contract_theory",
+    "type": "ENABLED",
+    "label": "Sumerian city-states developed the first written legal codes \u2014 foundation of law-based governance",
+    "note": "Sumer produced the world's first written legal codes (pre-Hammurabi by centuries) and the first bureaucratic governance structures. These innovations established the principle that governance operates through codified rules rather than pure ruler discretion \u2014 the ancestral foundation of social contract theory.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ancient_sumer__class_consciousness",
+    "source": "ancient_sumer",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "Sumer produced the first written records of class relations and debt bondage",
+    "note": "Sumerian administrative texts are the oldest records of class relations: debt records, labor contracts, and the mechanisms of debt bondage that trapped agricultural workers. The class structures that Marx analyzed had their origins in Sumerian surplus agriculture and its administrative capture by priestly elites.",
+    "confidence": "medium"
+  },
+  {
+    "id": "cleopatra__imperialism",
+    "source": "cleopatra",
+    "target": "imperialism",
+    "type": "DISCREDITED",
+    "label": "Cleopatra's alliance strategy attempted to maintain Egyptian sovereignty against Roman imperialism",
+    "note": "Cleopatra's successive alliances with Julius Caesar and Mark Antony were calculated strategies to maintain Egypt's independence against inevitable Roman domination \u2014 using personal political alliances to balance imperial power. Her failure demonstrated that no ally-strategy could resist Roman imperial expansion indefinitely.",
+    "confidence": "high"
+  },
+  {
+    "id": "akhenaten__religious_trauma",
+    "source": "akhenaten",
+    "target": "religious_trauma",
+    "type": "PRODUCED",
+    "label": "Akhenaten's monotheistic revolution produced religious trauma across Egyptian society",
+    "note": "Akhenaten's imposition of Atenism \u2014 closing all temples except the Aten's, destroying priestly income and community, banning the traditional pantheon \u2014 produced religious and economic trauma across Egyptian society. His successors systematically erased his memory, demonstrating the depth of the disruption.",
+    "confidence": "medium"
+  },
+  {
+    "id": "nubian_pharaohs__historical_revisionism",
+    "source": "nubian_pharaohs",
+    "target": "historical_revisionism",
+    "type": "DISCREDITED",
+    "label": "Nubian 25th Dynasty ruled Egypt but was systematically written out of mainstream Egyptian history",
+    "note": "The Kushite (Nubian) 25th Dynasty ruled Egypt for nearly a century (747-656 BCE) as Black African pharaohs \u2014 restored Egyptian culture after Libyan rule and confronted Assyrian invasion. Their erasure from popular Egyptian history represents the systematic historical revisionism that white-washes ancient African achievement.",
+    "confidence": "high"
+  },
+  {
+    "id": "peloponnesian_war__democratic_backsliding",
+    "source": "peloponnesian_war",
+    "target": "democratic_backsliding",
+    "type": "PRODUCED",
+    "label": "Peloponnesian War destroyed Athenian democracy through military defeat and oligarchic coups",
+    "note": "The Peloponnesian War (431-404 BCE) ended with Athens's defeat, the installation of the Thirty Tyrants (an oligarchic coup backed by Sparta), and the permanent damage to Athenian democratic confidence. Military defeat and democratic backsliding were directly linked.",
+    "confidence": "high"
+  },
+  {
+    "id": "pericles__democratic_accountability",
+    "source": "pericles",
+    "target": "democratic_accountability",
+    "type": "ENABLED",
+    "label": "Pericles institutionalized democratic accountability through pay-for-service and jury selection",
+    "note": "Pericles democratized Athenian institutions by introducing payment for jury service and public office \u2014 making participation economically accessible to poor citizens. He also institutionalized democratic accountability by making officials answerable to popular assemblies and courts.",
+    "confidence": "high"
+  },
+  {
+    "id": "olympic_games_ancient__social_trust",
+    "source": "olympic_games_ancient",
+    "target": "social_trust",
+    "type": "PRODUCED",
+    "label": "Olympic Games created a trust infrastructure for inter-city-state cooperation despite constant warfare",
+    "note": "The ancient Olympics required a sacred truce (ekecheiria) among Greek city-states \u2014 even warring cities suspended conflict for the games. The institution created periodic trust and neutral meeting grounds that served diplomatic functions beyond athletics.",
+    "confidence": "high"
+  },
+  {
+    "id": "jesuit_order__scientific_method",
+    "source": "jesuit_order",
+    "target": "scientific_method",
+    "type": "ENABLED",
+    "label": "Jesuits were the Catholic Church's foremost contributors to scientific method",
+    "note": "The Jesuit order produced more astronomers, mathematicians, and naturalists than any other Catholic institution \u2014 contributing to scientific development while maintaining church orthodoxy. Jesuits demonstrated that rigorous scientific method was compatible with Catholic doctrine, preventing the Church from completely opposing the Scientific Revolution.",
+    "confidence": "high"
+  },
+  {
+    "id": "liberation_theology__grassroots_organizing",
+    "source": "liberation_theology",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "label": "liberation theology developed base communities as models of grassroots organizing",
+    "note": "Liberation theology produced \"base ecclesiastical communities\" (comunidades de base) \u2014 small grassroots groups of poor people reading the Bible through the lens of liberation. These became models of grassroots organizing that combined religious motivation with political consciousness-raising.",
+    "confidence": "high"
+  },
+  {
+    "id": "renaissance__scientific_method",
+    "source": "renaissance",
+    "target": "scientific_method",
+    "type": "ENABLED",
+    "label": "Renaissance humanism created the intellectual culture in which scientific method developed",
+    "note": "The Renaissance's recovery of classical learning, development of perspective and observation (Brunelleschi, Leonardo), and empirical humanism created the intellectual climate that enabled the Scientific Revolution. Renaissance observation-based art was a forerunner of experimental method.",
+    "confidence": "high"
+  },
+  {
+    "id": "christian_sacred_art__cultural_hegemony",
+    "source": "christian_sacred_art",
+    "target": "cultural_hegemony",
+    "type": "PRODUCED",
+    "label": "Christian sacred art was the primary vehicle for cultural hegemony in medieval Europe",
+    "note": "Medieval Christian sacred art \u2014 stained glass, icons, paintings, sculpture \u2014 was the visual propaganda system of cultural hegemony: illiterate populations received theology, hierarchy, and social order through visual representation. Church architecture dominated the visual landscape; sacred art shaped how people understood the cosmos.",
+    "confidence": "high"
+  },
+  {
+    "id": "gothic_architecture__propaganda",
+    "source": "gothic_architecture",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "label": "Gothic cathedrals were visual propaganda for the power and permanence of the Church",
+    "note": "Gothic cathedrals were deliberate propaganda in stone: their height communicated divine aspiration, their scale communicated the Church's resource command, and their visual theology (stained glass, statuary) communicated orthodox doctrine. They were the most expensive propaganda investments of their era.",
+    "confidence": "high"
+  },
+  {
+    "id": "malleus_maleficarum__moral_panic",
+    "source": "malleus_maleficarum",
+    "target": "moral_panic",
+    "type": "PRODUCED",
+    "label": "Malleus Maleficarum was the primary text that manufactured the witch-hunt moral panic",
+    "note": "The Malleus Maleficarum (1486) provided the theological justification and investigative framework for witch prosecutions \u2014 systematizing the paranoid framework that enabled authorities to identify, torture, and execute accused witches. It was a moral panic manual disguised as theological scholarship.",
+    "confidence": "high"
+  },
+  {
+    "id": "malleus_maleficarum__dehumanization",
+    "source": "malleus_maleficarum",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "witch trial framework dehumanized accused women as instruments of the devil",
+    "note": "The Malleus Maleficarum's framework defined accused witches as instruments of Satan rather than persons with moral standing \u2014 dehumanization that made torture and execution not only permissible but required. The accused's denial was itself evidence of guilt.",
+    "confidence": "high"
+  },
+  {
+    "id": "julius_caesar__democratic_backsliding",
+    "source": "julius_caesar",
+    "target": "democratic_backsliding",
+    "type": "PRODUCED",
+    "label": "Caesar's dictatorship initiated the democratic backsliding that destroyed the Roman Republic",
+    "note": "Julius Caesar's crossing the Rubicon and assumption of permanent dictatorship was the decisive democratic backsliding that destroyed the Republic \u2014 even though his assassination temporarily restored it. He demonstrated that Republican institutions had become too weak to constrain a successful military commander.",
+    "confidence": "high"
+  },
+  {
+    "id": "ho_chi_minh__nonviolent_resistance",
+    "source": "ho_chi_minh",
+    "target": "nonviolent_resistance",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Ho Chi Minh initially sought independence through political means before turning to armed resistance",
+    "note": "Ho Chi Minh spent decades seeking Vietnamese independence through political channels \u2014 petitioning Versailles in 1919, working with the Comintern, negotiating with France. Only after repeated failures of political means did he lead armed resistance. His trajectory illustrates when nonviolent resistance gives way to armed struggle.",
+    "confidence": "medium"
+  },
+  {
+    "id": "league_of_nations__democratic_accountability",
+    "source": "league_of_nations",
+    "target": "democratic_accountability",
+    "type": "DISCREDITED",
+    "label": "League's failure to hold aggressor nations accountable destroyed collective security",
+    "note": "The League of Nations failed to enforce accountability against Japan (Manchuria 1931) and Italy (Ethiopia 1935) \u2014 demonstrating that collective security institutions without enforcement mechanisms cannot hold powerful nations accountable. Its failure delegitimized international democratic accountability institutions.",
+    "confidence": "high"
+  },
+  {
+    "id": "vietnam_war_protests__nonviolent_resistance",
+    "source": "vietnam_war_protests",
+    "target": "nonviolent_resistance",
+    "type": "PRODUCED",
+    "label": "Vietnam War protests were the largest sustained nonviolent resistance movement in US history",
+    "note": "The Vietnam War protest movement \u2014 combining mass marches, civil disobedience, draft resistance, and veteran organizing \u2014 was the largest sustained nonviolent political movement in US history. It contributed to ending a war, changed media norms around war coverage, and established protest as a legitimate political tool.",
+    "confidence": "high"
+  },
+  {
+    "id": "bay_of_pigs__manufactured_consent",
+    "source": "bay_of_pigs",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "Bay of Pigs revealed systematic CIA deception of both the president and the public",
+    "note": "The Bay of Pigs failure (1961) revealed that the CIA had systematically misled Kennedy about the operation's feasibility while conducting a covert propaganda campaign. It was the first major post-WWII revelation that the national security state routinely manufactured consent through deception.",
+    "confidence": "high"
+  },
+  {
+    "id": "black_panthers__coalition_building",
+    "source": "black_panthers",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "Black Panthers built the Rainbow Coalition across racial and class lines",
+    "note": "The Black Panther Party \u2014 through Fred Hampton's Chicago Rainbow Coalition \u2014 built alliances with the Young Patriots (poor white Appalachians), Young Lords (Puerto Ricans), and Brown Berets (Chicanos). This cross-racial working-class coalition was so threatening that COINTELPRO targeted it specifically.",
+    "confidence": "high"
+  },
+  {
+    "id": "chartist_movement__democratic_accountability",
+    "source": "chartist_movement",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "label": "Chartism was the first mass democratic accountability movement in industrial capitalism",
+    "note": "The Chartist Movement (1838-1857) organized the first mass campaign for democratic accountability in industrial Britain: universal male suffrage, secret ballot, paid MPs, equal constituencies. Though failing immediately, it established the demands that eventually became British democracy and inspired labor movements globally.",
+    "confidence": "high"
+  },
+  {
+    "id": "charles_trevelyan__structural_violence",
+    "source": "charles_trevelyan",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Trevelyan's Irish Famine policy produced mass death through deliberate structural neglect",
+    "note": "Charles Trevelyan administered British famine relief during the Great Famine (1845-52) with ideological commitment to non-intervention and free markets \u2014 continuing food exports from Ireland while a million died. His structural decision-making produced mass death through deliberate policy rather than individual acts.",
+    "confidence": "high"
+  },
+  {
+    "id": "leni_riefenstahl__propaganda",
+    "source": "leni_riefenstahl",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "label": "Riefenstahl developed the visual grammar of modern political propaganda in film",
+    "note": "Riefenstahl's \"Triumph of the Will\" (1935) and \"Olympia\" (1938) established the visual language of political propaganda in film \u2014 dynamic camera angles, synchronized movement, physical beauty as political virtue, spectacle as power. Her techniques are still studied as the benchmark of propaganda filmmaking.",
+    "confidence": "high"
+  },
+  {
+    "id": "rachel_carson__environmental_degradation",
+    "source": "rachel_carson",
+    "target": "environmental_degradation",
+    "type": "DISCREDITED",
+    "label": "Carson's Silent Spring was the first major public documentation of industrial environmental degradation",
+    "note": "Rachel Carson's \"Silent Spring\" (1962) was the first systematic public documentation of how industrial chemicals \u2014 particularly DDT \u2014 degraded environmental systems in ways invisible to individual observers but measurable at ecosystem scale. It created the public framework for understanding environmental degradation as a systemic rather than local problem.",
+    "confidence": "high"
+  },
+  {
+    "id": "upton_sinclair__structural_violence",
+    "source": "upton_sinclair",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "The Jungle exposed structural violence in the industrial food system",
+    "note": "Sinclair's \"The Jungle\" (1906) exposed the structural violence of the meatpacking industry \u2014 brutal working conditions, dangerous food, immigrant exploitation \u2014 as a systemic product of unregulated industrial capitalism rather than individual bad actors. His documentation triggered the Pure Food and Drug Act.",
+    "confidence": "high"
+  },
+  {
+    "id": "woody_guthrie__class_consciousness",
+    "source": "woody_guthrie",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "Guthrie's music articulated Dust Bowl class consciousness to Depression-era America",
+    "note": "Woody Guthrie's songs \u2014 \"This Land Is Your Land,\" \"Pastures of Plenty,\" the Dust Bowl Ballads \u2014 articulated the class consciousness of displaced agricultural workers, creating musical language for economic experiences that had no political representation. His work is the musical expression of working-class historical consciousness.",
+    "confidence": "high"
+  },
+  {
+    "id": "pablo_picasso__in_group_out_group_dynamics",
+    "source": "pablo_picasso",
+    "target": "in_group_out_group_dynamics",
+    "type": "DISCREDITED",
+    "label": "Guernica made the Spanish Civil War's in-group violence visible to an international out-group",
+    "note": "Guernica made the targeting of Basque civilians by Franco's forces and Nazi Germany visible to an international audience \u2014 transforming what the Fascists framed as internal counter-insurgency into clearly visible atrocity. Art as counter to in-group framing of violence against civilians.",
+    "confidence": "high"
+  },
+  {
+    "id": "spike_lee__systemic_racism",
+    "source": "spike_lee",
+    "target": "systemic_racism",
+    "type": "DISCREDITED",
+    "label": "Lee's films systematically documented systemic racism before the term was mainstream",
+    "note": "Spike Lee's work \u2014 Do the Right Thing (1989), Malcolm X (1992), When the Levees Broke (2006) \u2014 consistently depicted racism as a systemic phenomenon embedded in police behavior, media representation, and institutional response rather than individual prejudice. He created the visual vocabulary for systemic racism analysis decades before the term became common.",
+    "confidence": "high"
+  },
+  {
+    "id": "william_randolph_hearst__manufactured_consent",
+    "source": "william_randolph_hearst",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "Hearst invented the yellow journalism techniques for manufacturing consent for war",
+    "note": "William Randolph Hearst's yellow journalism campaign before the Spanish-American War (1898) \u2014 exaggerating Cuban atrocities, fabricating stories, printing inflammatory headlines \u2014 invented the manufactured consent techniques that all subsequent war propaganda built on.",
+    "confidence": "high"
+  },
+  {
+    "id": "betty_friedan__feminist_theory",
+    "source": "betty_friedan",
+    "target": "feminist_theory",
+    "type": "ENABLED",
+    "label": "Friedan's Feminine Mystique launched second-wave feminist theory",
+    "note": "Betty Friedan's \"The Feminine Mystique\" (1963) identified \"the problem that has no name\" \u2014 the existential dissatisfaction of educated women confined to suburban domestic roles \u2014 launching second-wave feminist theory by naming an experience that ideology said shouldn't exist.",
+    "confidence": "high"
+  },
+  {
+    "id": "polio_vaccine_1955__public_health_infrastructure",
+    "source": "polio_vaccine_1955",
+    "target": "public_health_infrastructure",
+    "type": "PRODUCED",
+    "label": "Salk vaccine demonstrated that public health infrastructure could eradicate epidemic disease",
+    "note": "Jonas Salk's polio vaccine (1955) \u2014 publicly funded and not patented, making it globally accessible \u2014 demonstrated that public health infrastructure could eliminate epidemic diseases. It established the model for the subsequent smallpox eradication campaign and global vaccination programs.",
+    "confidence": "high"
+  },
+  {
+    "id": "suffrage_19th_amendment__democratic_accountability",
+    "source": "suffrage_19th_amendment",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "label": "19th Amendment doubled the democratic accountability base by enfranchising women",
+    "note": "The 19th Amendment doubled the electorate \u2014 extending democratic accountability mechanisms to half the adult population that had been excluded. Women's suffrage transformed democratic accountability by making officials answerable to a newly enfranchised constituency with different political priorities.",
+    "confidence": "high"
+  },
+  {
+    "id": "tokugawa_ieyasu__institutional_resilience",
+    "source": "tokugawa_ieyasu",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "label": "Tokugawa Shogunate created 250 years of stability through institutional design",
+    "note": "Tokugawa Ieyasu's institutional design \u2014 sankin-kotai (alternate attendance), hostage system, class stratification, foreign trade restriction \u2014 created the Edo period's 250 years of relative peace. His institutional architecture was so robust it survived his dynasty and ended only through external (Commodore Perry) pressure.",
+    "confidence": "high"
+  },
+  {
+    "id": "torquemada__religious_trauma",
+    "source": "torquemada",
+    "target": "religious_trauma",
+    "type": "PRODUCED",
+    "label": "Torquemada's Inquisition was the institutionalization of religious trauma as governance",
+    "note": "Tom\u00e1s de Torquemada directed the Spanish Inquisition (1483-1498) \u2014 overseeing ~2,000 executions and the systematic use of religious terror to enforce Catholic orthodoxy. The Inquisition institutionalized religious trauma as a governance mechanism: fear of accusation, torture, and auto-da-f\u00e9 as tools of social control.",
+    "confidence": "high"
+  },
+  {
+    "id": "george_washington__democratic_accountability",
+    "source": "george_washington",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "label": "Washington's voluntary relinquishment of power established democratic accountability precedent",
+    "note": "Washington's decision to retire after two terms \u2014 refusing the opportunity to serve indefinitely \u2014 established the precedent that American presidents are constrained by democratic accountability rather than entitlement. His voluntary relinquishment of power was extraordinary in world historical context.",
+    "confidence": "high"
+  },
+  {
+    "id": "thomas_jefferson__social_contract_theory",
+    "source": "thomas_jefferson",
+    "target": "social_contract_theory",
+    "type": "PRODUCED",
+    "label": "Jefferson's Declaration operationalized Locke's social contract theory as revolutionary document",
+    "note": "Jefferson's Declaration of Independence translated Lockean social contract theory into a revolutionary manifesto: governments derive power from consent of the governed; when government destroys rights, people have the right to alter or abolish it. The most consequential application of social contract theory in history.",
+    "confidence": "high"
+  },
+  {
+    "id": "andrew_jackson__structural_violence",
+    "source": "andrew_jackson",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Jackson's Indian Removal Act was structural violence of the first order",
+    "note": "Andrew Jackson's Indian Removal Act (1830) and the resulting Trail of Tears killed 4,000-8,000 Cherokee through exposure, disease, and starvation during forced removal \u2014 structural violence enacted through legislation against the Supreme Court's explicit ruling that removal was unconstitutional.",
+    "confidence": "high"
+  },
+  {
+    "id": "augusto_pinochet__structural_violence",
+    "source": "augusto_pinochet",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Pinochet's Chile was a laboratory for structural violence through economic shock doctrine",
+    "note": "Pinochet's regime (1973-1990) combined military dictatorship with Milton Friedman-advised neoliberal economic shock therapy \u2014 privatizing state enterprises, eliminating social programs, suppressing labor rights \u2014 while disappearing 3,000 political opponents. It demonstrated that structural economic violence and physical state violence operate together.",
+    "confidence": "high"
+  },
+  {
+    "id": "salvador_allende__democratic_accountability",
+    "source": "salvador_allende",
+    "target": "democratic_accountability",
+    "type": "DISCREDITED",
+    "label": "Allende's democratic election and CIA-backed overthrow tested democratic accountability",
+    "note": "Salvador Allende's 1970 election as the world's first democratically elected Marxist president \u2014 and the 1973 CIA-backed coup that overthrew him \u2014 tested whether democratic accountability would protect elected governments against imperial intervention. It demonstrated that democratic accountability is insufficient protection against US national security interests.",
+    "confidence": "high"
+  },
+  {
+    "id": "lothar_von_trotha__structural_violence",
+    "source": "lothar_von_trotha",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Von Trotha's extermination order was the first documented genocide order in modern history",
+    "note": "Lothar von Trotha's 1904 \"Vernichtungsbefehl\" (extermination order) against the Herero and Nama peoples was the first explicit genocide order in modern history \u2014 ordering the killing of all men, women, and children of the Herero. It was the template that informed Nazi genocide planning.",
+    "confidence": "high"
+  },
+  {
+    "id": "galileo_galilei__scientific_method",
+    "source": "galileo_galilei",
+    "target": "scientific_method",
+    "type": "PRODUCED",
+    "label": "Galileo developed experimental method and mathematical physics",
+    "note": "Galileo's experimental method \u2014 using inclined planes and pendulums to measure rather than argue about physics \u2014 established the empirical-mathematical method that Newton systematized. His conflict with the Church over heliocentrism became the paradigmatic case of scientific method confronting religious authority.",
+    "confidence": "high"
+  },
+  {
+    "id": "johannes_gutenberg__manufactured_consent",
+    "source": "johannes_gutenberg",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "label": "Gutenberg's press created the first infrastructure for manufacturing consent at scale",
+    "note": "Gutenberg's printing press (c.1450) created the first technology for mass distributing identical text \u2014 prerequisite for manufactured consent. The press's first major use for manufactured consent was Luther's Reformation pamphlets, quickly followed by Counter-Reformation responses and royal propaganda.",
+    "confidence": "high"
+  },
+  {
+    "id": "ignatius_of_loyola__institutional_resilience",
+    "source": "ignatius_of_loyola",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "label": "Loyola's Jesuit order became the Catholic Church's most effective institutional resilience mechanism",
+    "note": "Ignatius's design of the Society of Jesus \u2014 rigorous education, hierarchical obedience, adaptability to different cultures \u2014 made the Jesuits the Church's most effective counter-Reformation institution. The order's institutional design enabled it to operate effectively across cultures while maintaining doctrinal coherence.",
+    "confidence": "high"
+  },
+  {
+    "id": "oliver_cromwell__democratic_backsliding",
+    "source": "oliver_cromwell",
+    "target": "democratic_backsliding",
+    "type": "PRODUCED",
+    "label": "Cromwell's rule demonstrated how revolutionary democrats can produce authoritarian rule",
+    "note": "Oliver Cromwell \u2014 who fought to end royal tyranny \u2014 ended his career ruling England as Lord Protector with powers exceeding those of the king he had deposed. His trajectory is the paradigm of revolutionary democratic backsliding: the liberator who becomes the autocrat.",
+    "confidence": "high"
+  },
+  {
+    "id": "suleiman_the_magnificent__institutional_resilience",
+    "source": "suleiman_the_magnificent",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "label": "Suleiman built the Ottoman administrative and legal institutions that sustained the empire's peak",
+    "note": "Suleiman's reign (1520-1566) built the institutional infrastructure that made the Ottoman Empire its most powerful: kanun (secular law codes) alongside sharia, the devshirme system for military administration, and architectural patronage. His institutional building sustained Ottoman power for a century after his death.",
+    "confidence": "high"
+  },
+  {
+    "id": "oscar_romero__moral_courage",
+    "source": "oscar_romero",
+    "target": "moral_courage",
+    "type": "PRODUCED",
+    "label": "Romero's denunciation of Salvadoran death squads from his archbishop's pulpit was moral courage under mortal threat",
+    "note": "Archbishop Romero was transformed from a conservative churchman to a liberation theology voice after witnessing military massacres of campesinos \u2014 speaking against the regime from his pulpit while receiving death threats. His assassination (March 24, 1980, at the altar) confirmed the cost of his moral courage.",
+    "confidence": "high"
+  },
+  {
+    "id": "elizabeth_cady_stanton__moral_circle_expansion",
+    "source": "elizabeth_cady_stanton",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "label": "Stanton's Seneca Falls Declaration was the foundational American moral circle expansion for women",
+    "note": "Elizabeth Cady Stanton's Declaration of Sentiments at Seneca Falls (1848) \u2014 modeled on the Declaration of Independence \u2014 was the foundational document of American women's moral circle expansion: declaring that all men and women are created equal, with equal political and civil rights.",
+    "confidence": "high"
+  },
+  {
+    "id": "thaddeus_stevens__restorative_justice",
+    "source": "thaddeus_stevens",
+    "target": "restorative_justice",
+    "type": "ENABLED",
+    "label": "Stevens advocated confiscating Confederate plantations for redistribution to freedmen",
+    "note": "Thaddeus Stevens was the most radical Republican in Congress \u2014 proposing confiscation and redistribution of Southern plantations to freed enslaved people as restorative justice for slavery. His \"40 acres\" proposal was defeated but represents the first systematic American argument for reparative redistribution as justice.",
+    "confidence": "high"
+  },
+  {
+    "id": "jean_paul_sartre__class_consciousness",
+    "source": "jean_paul_sartre",
+    "target": "class_consciousness",
+    "type": "ENABLED",
+    "label": "Sartre's Marxist existentialism connected individual freedom to collective class liberation",
+    "note": "Sartre's Critique of Dialectical Reason attempted to reconcile existentialist individual freedom with Marxist class analysis \u2014 arguing that individual human project is always embedded in material class conditions. He connected existentialist philosophy to class consciousness and anti-colonial struggle.",
+    "confidence": "high"
+  },
+  {
+    "id": "taharqa__historical_revisionism",
+    "source": "taharqa",
+    "target": "historical_revisionism",
+    "type": "DISCREDITED",
+    "label": "Taharqa's reign as Black African pharaoh was systematically erased from mainstream Egyptian history",
+    "note": "Taharqa \u2014 the greatest king of the Kushite 25th Dynasty, ruler of the largest empire in the ancient world in his time \u2014 appears in the Bible but was systematically minimized in Western Egyptology. His reign challenges the Eurocentric narrative of Egyptian civilization as white or Mediterranean.",
+    "confidence": "high"
+  },
+  {
+    "id": "duke_of_wellington__institutional_resilience",
+    "source": "duke_of_wellington",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "label": "Wellington's political career after Waterloo supported institutional resilience over reaction",
+    "note": "Wellington's post-Waterloo political career \u2014 including supporting Catholic Emancipation despite personal opposition \u2014 demonstrated institutional resilience: a conservative leader who deferred to institutional necessity over personal ideology, preventing reactionary destabilization.",
+    "confidence": "medium"
+  },
+  {
+    "id": "epicurus__learned_helplessness",
+    "source": "epicurus",
+    "target": "learned_helplessness",
+    "type": "DISCREDITED",
+    "label": "Epicurus's philosophy was an explicit counter to the anxiety and fear that produce learned helplessness",
+    "note": "Epicurus's \"tetrapharmakos\" (four-fold remedy) \u2014 don't fear gods, don't fear death, what is good is easy to get, what is terrible is easy to endure \u2014 was an explicit philosophical counter to the fear and anxiety that produce passive learned helplessness. His Garden community modeled active tranquility as alternative to both fear and ambition.",
+    "confidence": "medium"
+  },
+  {
+    "id": "montezuma_ii__structural_violence",
+    "source": "montezuma_ii",
+    "target": "structural_violence",
+    "type": "FORCED_INTO",
+    "label": "Montezuma's capitulation to Cortez was forced compliance under structural military threat",
+    "note": "Montezuma II's initial apparent cooperation with Cortez \u2014 allowing the Spanish to enter Tenochtitlan \u2014 was not naive or cowardly but rational calculation under structural military threat: Aztec spies had reported the Spanish military technology and alliances. His subsequent capture and death exemplify structural violence overriding rational cooperation.",
+    "confidence": "high"
+  },
+  {
+    "id": "pachacuti__institutional_resilience",
+    "source": "pachacuti",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "label": "Pachacuti built the Inca imperial institutions that sustained an empire of 12 million across impossible terrain",
+    "note": "Pachacuti (ruled 1438-1471) built the Inca institutional system that sustained the largest empire in pre-Columbian America: the quipu accounting system, the mit'a labor tax, the road network, and the administrative hierarchy. These institutions enabled governance across 2,500 miles of Andean terrain.",
+    "confidence": "high"
+  },
+  {
+    "id": "cuauhtemoc__structural_violence",
+    "source": "cuauhtemoc",
+    "target": "structural_violence",
+    "type": "FORCED_INTO",
+    "label": "Cuauhtemoc's torture and execution demonstrated Spanish structural violence as conquest tool",
+    "note": "Cuauhtemoc \u2014 the last Aztec ruler \u2014 defended Tenochtitlan in the final siege, surrendered honorably, and was tortured by the Spanish to reveal hidden treasure locations. His execution six years later (1525) while on Cortez's expedition demonstrated that structural violence was maintained beyond military necessity.",
+    "confidence": "high"
+  },
+  {
+    "id": "la_malinche__in_group_out_group_dynamics",
+    "source": "la_malinche",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "La Malinche embodies the in-group/out-group dilemma of colonial collaboration",
+    "note": "La Malinche (Malintzin) \u2014 Cortez's interpreter and consort \u2014 represents the colonial in-group/out-group dilemma at its most complex: enslaved by her own people, she navigated multiple in-groups (Nahuatl, Mayan, Spanish) as an intermediary. Mexican national mythology made her the symbol of indigenous \"betrayal,\" demonstrating how in-group/out-group dynamics assign treachery to those who survive between groups.",
+    "confidence": "high"
+  },
+  {
+    "id": "sundiata_keita__coalition_building",
+    "source": "sundiata_keita",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "Sundiata built the Mali Empire through coalition of previously fractured peoples",
+    "note": "Sundiata Keita's founding of the Mali Empire (c.1235) was achieved through coalition-building among peoples that the Sosso Empire had subjugated \u2014 assembling a diverse military coalition that defeated Sumanguru Kante at the Battle of Kirina. His story (the Sundiata Epic) is West Africa's foundational coalition narrative.",
+    "confidence": "high"
+  },
+  {
+    "id": "maurya_empire__class_consciousness",
+    "source": "maurya_empire",
+    "target": "class_consciousness",
+    "type": "ENABLED",
+    "label": "Maurya Empire's Arthashastra provided the first systematic political economy analysis of class and power",
+    "note": "Kautilya's Arthashastra \u2014 the administrative manual of the Maurya Empire \u2014 provided a remarkably modern analysis of political economy: class interests, taxation, surveillance, propaganda, and statecraft. It demonstrated that sophisticated class-conscious political analysis predated European political economy by 2,000 years.",
+    "confidence": "medium"
+  },
+  {
+    "id": "chandragupta_maurya__institutional_resilience",
+    "source": "chandragupta_maurya",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "label": "Chandragupta built the first pan-Indian imperial administrative system",
+    "note": "Chandragupta Maurya (c.321-297 BCE) built the first empire to unite most of the Indian subcontinent \u2014 developing administrative systems (Arthashastra), road networks, and standardized measurement that sustained governance across an unprecedented territory. His institutional design enabled the Maurya Empire's scale.",
+    "confidence": "high"
+  },
+  {
+    "id": "tang_dynasty__social_trust",
+    "source": "tang_dynasty",
+    "target": "social_trust",
+    "type": "PRODUCED",
+    "label": "Tang Dynasty was China's most cosmopolitan era \u2014 building social trust across cultures",
+    "note": "The Tang Dynasty (618-907 CE) was China's golden age of cosmopolitan cultural exchange: Silk Road trade, Buddhist pilgrimage, Arab and Persian merchants in Chang'an, and the examination system creating a meritocratic bureaucracy. Tang China built social trust infrastructure across the largest connected trading network in the world.",
+    "confidence": "high"
+  },
+  {
+    "id": "song_dynasty__scientific_method",
+    "source": "song_dynasty",
+    "target": "scientific_method",
+    "type": "ENABLED",
+    "label": "Song Dynasty produced the most technologically innovative period in pre-modern history",
+    "note": "The Song Dynasty (960-1279) produced gunpowder weapons, printing, the magnetic compass, paper money, and mechanical clock \u2014 more technological innovation per century than any pre-modern society. Its innovations spread westward and became the technological foundation of the European Renaissance and Scientific Revolution.",
+    "confidence": "high"
+  },
+  {
+    "id": "ming_dynasty__cultural_hegemony",
+    "source": "ming_dynasty",
+    "target": "cultural_hegemony",
+    "type": "PRODUCED",
+    "label": "Ming Dynasty's cultural isolation was Chinese cultural hegemony turned inward",
+    "note": "The Ming Dynasty's (1368-1644) retreat from Zheng He's oceanic exploration to cultural isolation was Chinese cultural hegemony inverted \u2014 using cultural superiority as justification for withdrawal from global engagement rather than expansion. Ming China's self-imposed isolation removed the world's most advanced civilization from global technological competition.",
+    "confidence": "medium"
+  },
+  {
+    "id": "zheng_he__social_trust",
+    "source": "zheng_he",
+    "target": "social_trust",
+    "type": "PRODUCED",
+    "label": "Zheng He's voyages built tributary relationships and social trust across the Indian Ocean",
+    "note": "Admiral Zheng He's seven voyages (1405-1433) visited 37 countries across Southeast Asia, India, Arabia, and East Africa \u2014 primarily to establish tributary relationships and demonstrate Ming power rather than conquer or extract. His voyages built an extensive network of social trust relationships across the Indian Ocean world.",
+    "confidence": "high"
+  },
+  {
+    "id": "sitting_bull__in_group_out_group_dynamics",
+    "source": "sitting_bull",
+    "target": "in_group_out_group_dynamics",
+    "type": "DISCREDITED",
+    "label": "Sitting Bull refused to accept the US government's in-group/out-group framework that required Lakota submission",
+    "note": "Sitting Bull consistently refused the US government's terms that required Lakota submission to reservation life \u2014 maintaining that the Lakota were a sovereign people rather than wards. His resistance was fundamentally a refusal of the out-group status that US policy assigned to Native peoples.",
+    "confidence": "high"
+  },
+  {
+    "id": "kingdom_of_axum__social_trust",
+    "source": "kingdom_of_axum",
+    "target": "social_trust",
+    "type": "PRODUCED",
+    "label": "Axum's strategic location made it a hub for Indian Ocean trade network social trust infrastructure",
+    "note": "The Kingdom of Axum (100-940 CE) controlled the Red Sea trade routes between the Mediterranean, Arabia, and India \u2014 building the commercial and diplomatic infrastructure that enabled long-distance trade trust networks. Axum's adoption of Christianity (c.330 CE) also created a new religious social trust network across Northeast Africa.",
+    "confidence": "high"
+  },
+  {
+    "id": "swahili_coast_trade__social_trust",
+    "source": "swahili_coast_trade",
+    "target": "social_trust",
+    "type": "PRODUCED",
+    "label": "Swahili coast city-states built the social trust infrastructure of the Indian Ocean trade network",
+    "note": "The Swahili coast city-states (Kilwa, Mombasa, Malindi, Zanzibar) built sophisticated commercial trust infrastructure \u2014 Swahili as a trade language, Islamic law as a commercial framework, and intermarriage networks \u2014 that sustained the Indian Ocean trade system for centuries.",
+    "confidence": "high"
+  },
+  {
+    "id": "american_indian_movement__coalition_building",
+    "source": "american_indian_movement",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "AIM built a pan-tribal coalition for Native American rights that crossed tribal divisions",
+    "note": "The American Indian Movement (1968) built a pan-tribal political coalition \u2014 bringing together people from hundreds of different tribal nations under a shared Native American identity framework. This was a coalition-building innovation: creating a political in-group that transcended the historical inter-tribal divisions that had prevented unified resistance.",
+    "confidence": "high"
+  },
+  {
+    "id": "leonard_peltier__democratic_accountability",
+    "source": "leonard_peltier",
+    "target": "democratic_accountability",
+    "type": "DISCREDITED",
+    "label": "Peltier's conviction demonstrated failures of democratic accountability in the FBI-AIM conflict",
+    "note": "Leonard Peltier's 1977 conviction for the killing of two FBI agents at Wounded Knee \u2014 based on evidence later revealed as fabricated, with prosecutorial misconduct, and coerced witness testimony \u2014 became an international cause c\u00e9l\u00e8bre demonstrating how democratic accountability mechanisms can fail when the state targets political movements.",
+    "confidence": "high"
+  },
+  {
+    "id": "ranjit_singh__coalition_building",
+    "source": "ranjit_singh",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "Ranjit Singh built a multi-religious coalition state that was exceptionally inclusive",
+    "note": "Ranjit Singh's Sikh Empire was consciously multi-religious: Hindu and Muslim officers commanded his army alongside Sikhs, French and Italian generals modernized his military, and religious minorities held senior positions. His coalition-building across religious lines was exceptional in the turbulent 19th-century South Asian context.",
+    "confidence": "high"
+  },
+  {
+    "id": "mississippian_culture__class_consciousness",
+    "source": "mississippian_culture",
+    "target": "class_consciousness",
+    "type": "ENABLED",
+    "label": "Mississippian mound-building required organized labor suggesting class-stratified societies",
+    "note": "The scale of Mississippian mound-building \u2014 Cahokia's Monks Mound contains more earth than the Great Pyramid \u2014 required organized labor mobilization suggesting class-stratified societies with elite coercion of commoner labor. Pre-contact North America had class dynamics that colonial ideology erased.",
+    "confidence": "medium"
+  },
+  {
+    "id": "diego_de_landa__dehumanization",
+    "source": "diego_de_landa",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "label": "de Landa's book burning required dehumanizing Maya intellectual tradition as devil worship",
+    "note": "Diego de Landa justified burning the codices as destroying idolatrous material \u2014 requiring the prior dehumanization of Maya intellectual production as mere superstition rather than sophisticated knowledge. De Landa simultaneously destroyed the record and wrote his own account, substituting the colonizer's perspective for the colonized voice.",
+    "confidence": "high"
+  },
+  {
+    "id": "tupac_amaru_ii__coalition_building",
+    "source": "tupac_amaru_ii",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "Tupac Amaru II built the largest multi-ethnic indigenous revolt in Andean history",
+    "note": "Jos\u00e9 Gabriel Condorcanqui (Tupac Amaru II) led the largest indigenous revolt in Andean history (1780-81) \u2014 building a coalition of indigenous communities, some mestizos, and Creoles against Spanish colonial rule. His coalition transcended ethnic categories more than any previous Andean resistance.",
+    "confidence": "high"
+  },
+  {
+    "id": "jean_jacques_rousseau__french_revolution",
+    "source": "jean_jacques_rousseau",
+    "target": "french_revolution",
+    "type": "ENABLED",
+    "label": "Rousseau's general will ideology energized the Revolution",
+    "note": "Robespierre and the Jacobins invoked Rousseau's concept of the general will to justify revolutionary terror \u2014 Rousseau's ideas were the philosophical fuel of the French Revolution.",
+    "confidence": "high"
+  },
+  {
+    "id": "georg_hegel__marxism",
+    "source": "georg_hegel",
+    "target": "marxism",
+    "type": "ENABLED",
+    "label": "Marx inverted Hegel's dialectic to produce historical materialism",
+    "note": "Marx explicitly worked from Hegel's dialectical method, 'turning it right side up' \u2014 replacing Hegel's idealist dialectic with a materialist one. Hegel is the direct intellectual precursor of Marxist theory.",
+    "confidence": "high"
+  },
+  {
+    "id": "theodore_roosevelt__labor_movement",
+    "source": "theodore_roosevelt",
+    "target": "labor_movement",
+    "type": "ENABLED",
+    "label": "Roosevelt's antitrust actions empowered labor organizing",
+    "note": "By breaking up monopolies and mediating the 1902 coal strike in favor of workers, Roosevelt established the federal government as a check on corporate power \u2014 creating space for labor organizing.",
+    "confidence": "high"
+  },
+  {
+    "id": "lucius_sulla__structural_violence",
+    "source": "lucius_sulla",
+    "target": "structural_violence",
+    "type": "NORMALIZED",
+    "label": "Sulla's proscriptions normalized political murder as statecraft",
+    "note": "Sulla's proscription lists \u2014 designating enemies for extrajudicial killing and property confiscation \u2014 normalized the use of state violence against political opponents, a template Julius Caesar and later Augustus would refine.",
+    "confidence": "high"
+  },
+  {
+    "id": "tiberius_gracchus__structural_violence",
+    "source": "tiberius_gracchus",
+    "target": "structural_violence",
+    "type": "FORCED_INTO",
+    "label": "Tiberius was murdered by senators protecting elite land interests",
+    "note": "The Senate's extrajudicial killing of Tiberius Gracchus \u2014 the first political murder in Roman republican history \u2014 marked the point where structural violence replaced political process in Roman class conflict.",
+    "confidence": "high"
+  },
+  {
+    "id": "gaius_gracchus__democratic_backsliding",
+    "source": "gaius_gracchus",
+    "target": "democratic_backsliding",
+    "type": "DISCREDITED",
+    "label": "Gaius's reforms challenged elite capture of the republic",
+    "note": "Gaius Gracchus's extension of citizenship, grain subsidies, and judicial reform represented a direct assault on the senatorial aristocracy's control of the republic \u2014 killed by them for it, as his brother was.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_iii_sobieski__structural_violence",
+    "source": "john_iii_sobieski",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "Sobieski's Vienna victory halted Ottoman westward advance",
+    "note": "The 1683 Battle of Vienna under Sobieski's command stopped the Ottoman siege and marked the decisive turning point in Ottoman expansion into Europe \u2014 a moment of structural violence repelled.",
+    "confidence": "high"
+  },
+  {
+    "id": "isaac_newton__enlightenment",
+    "source": "isaac_newton",
+    "target": "enlightenment",
+    "type": "ENABLED",
+    "label": "Newton's laws provided Enlightenment thinkers their model of reason",
+    "note": "Newton's demonstration that the universe operates by discoverable mathematical laws became the template for Enlightenment rationalism \u2014 if nature obeys reason, so too must society, politics, and morality.",
+    "confidence": "high"
+  },
+  {
+    "id": "jeremy_bentham__surveillance_capitalism",
+    "source": "jeremy_bentham",
+    "target": "surveillance_capitalism",
+    "type": "ENABLED",
+    "label": "Bentham's Panopticon prefigured modern surveillance architectures",
+    "note": "Bentham's Panopticon \u2014 a prison design where inmates could be watched at all times without knowing when \u2014 became Foucault's template for understanding modern disciplinary power and prefigured surveillance capitalism's architecture of constant observation.",
+    "confidence": "high"
+  },
+  {
+    "id": "alp_arslan__in_group_out_group_dynamics",
+    "source": "alp_arslan",
+    "target": "in_group_out_group_dynamics",
+    "type": "NORMALIZED",
+    "label": "Alp Arslan's Manzikert victory reoriented Anatolia's ethnic composition",
+    "note": "The 1071 Battle of Manzikert opened Anatolia to Turkic settlement, permanently transforming the region's demographic and cultural composition \u2014 triggering Crusades and reshaping the in-group/out-group dynamics of the Eastern Mediterranean for centuries.",
+    "confidence": "high"
+  },
+  {
+    "id": "archduke_franz_ferdinand__world_war_i",
+    "source": "archduke_franz_ferdinand",
+    "target": "world_war_i",
+    "type": "CAUSED",
+    "label": "His assassination triggered the chain reaction that became WWI",
+    "note": "The assassination of Archduke Franz Ferdinand on June 28, 1914 activated the alliance system that escalated a regional crisis into the first global industrial war \u2014 the most consequential political murder in modern history.",
+    "confidence": "high"
+  },
+  {
+    "id": "louis_xvi__french_revolution",
+    "source": "louis_xvi",
+    "target": "french_revolution",
+    "type": "CAUSED",
+    "label": "Louis's fiscal crisis and political paralysis triggered the Revolution",
+    "note": "Louis XVI's inability to reform France's bankrupt finances without convening the Estates-General \u2014 and his subsequent vacillation between reform and reaction \u2014 created the political crisis the Revolution filled.",
+    "confidence": "high"
+  },
+  {
+    "id": "gustavus_adolphus__thirty_years_war",
+    "source": "gustavus_adolphus",
+    "target": "thirty_years_war",
+    "type": "ENABLED",
+    "label": "Gustavus Adolphus transformed Protestant fortunes in the Thirty Years War",
+    "note": "Sweden's intervention under Gustavus Adolphus (1630) saved the Protestant cause from Habsburg conquest and transformed the Thirty Years War from a Habsburg triumph into a prolonged destructive stalemate ending in the Peace of Westphalia.",
+    "confidence": "high"
+  },
+  {
+    "id": "crazy_horse__structural_violence",
+    "source": "crazy_horse",
+    "target": "structural_violence",
+    "type": "FORCED_INTO",
+    "label": "Crazy Horse was killed under a flag of truce surrendering to U.S. forces",
+    "note": "Crazy Horse's assassination while surrendering under a white flag epitomized the structural violence of U.S.-Native relations \u2014 the rules of surrender and peace applied only when convenient for the U.S. government.",
+    "confidence": "high"
+  },
+  {
+    "id": "geronimo__dehumanization",
+    "source": "geronimo",
+    "target": "dehumanization",
+    "type": "FORCED_INTO",
+    "label": "Geronimo spent 23 years as a prisoner of war who was never freed",
+    "note": "Despite surrendering in 1886, Geronimo was held as a prisoner of war until his death in 1909 \u2014 dying in captivity without ever being allowed to return to his homeland, the dehumanizing end of a military imprisonment with no legal basis.",
+    "confidence": "high"
+  },
+  {
+    "id": "chief_joseph__structural_violence",
+    "source": "chief_joseph",
+    "target": "structural_violence",
+    "type": "FORCED_INTO",
+    "label": "Chief Joseph's surrender speech documented systematic broken promises",
+    "note": "Chief Joseph's 1877 'I will fight no more forever' surrender \u2014 and his subsequent 8 years imprisoned far from home despite promises of return \u2014 documented the systematic bad faith of U.S. treaty-making with Native nations.",
+    "confidence": "high"
+  },
+  {
+    "id": "cahokia__class_consciousness",
+    "source": "cahokia",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "Cahokia's archaeological record reveals complex stratification",
+    "note": "Cahokia's Woodhenge alignments, burial mounds with sacrificed individuals, and evidence of elite quarters and commoner neighborhoods reveal a complex pre-Columbian social hierarchy \u2014 challenging the myth of egalitarian pre-contact Native society.",
+    "confidence": "high"
+  },
+  {
+    "id": "january_6_capitol_riot__propaganda",
+    "source": "january_6_capitol_riot",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "label": "The riot was the culmination of sustained election fraud propaganda",
+    "note": "The January 6 attack was the direct product of a 2-month propaganda campaign claiming the 2020 election was stolen \u2014 demonstrating how sustained disinformation can radicalize a population to violence against democratic institutions.",
+    "confidence": "high"
+  },
+  {
+    "id": "surveillance_state_china__dehumanization",
+    "source": "surveillance_state_china",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "China's surveillance infrastructure enables dehumanizing mass detention",
+    "note": "China's surveillance state \u2014 facial recognition, social credit scoring, phone monitoring \u2014 is most extensively deployed in Xinjiang against Uyghur Muslims, enabling the identification, tracking, and mass detention of an ethnic minority.",
+    "confidence": "high"
+  },
+  {
+    "id": "myanmar_coup_2021__structural_violence",
+    "source": "myanmar_coup_2021",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "label": "The coup triggered mass atrocities against civilian protesters",
+    "note": "The Myanmar military's February 2021 coup was followed by systematic killing of unarmed protesters, airstrikes on civilian villages, and forced displacement \u2014 structural violence deployed to prevent the restoration of democratic governance.",
+    "confidence": "high"
+  },
+  {
+    "id": "peasants_revolt_1381__structural_violence",
+    "source": "peasants_revolt_1381",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "Peasants challenged the feudal system's structural violence",
+    "note": "The 1381 revolt \u2014 triggered by the poll tax and feudal labor obligations \u2014 was the first mass English challenge to the feudal system's structural exploitation. Richard II's betrayal of his promises after the rebellion illustrates how structural violence reasserted itself against class resistance.",
+    "confidence": "high"
+  },
+  {
+    "id": "william_the_conqueror__class_consciousness",
+    "source": "william_the_conqueror",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "The Norman Conquest created a rigid class stratification in England",
+    "note": "William's conquest imposed a Norman French-speaking nobility over an Anglo-Saxon peasantry \u2014 creating a linguistic and social class divide that persisted for centuries and whose traces remain in the distinction between noble (beef/pork from French) and common (cow/pig from English) English words.",
+    "confidence": "high"
+  },
+  {
+    "id": "thomas_becket__propaganda",
+    "source": "thomas_becket",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "label": "Becket's martyrdom became a political symbol for papal power",
+    "note": "Becket's murder in Canterbury Cathedral and rapid canonization made him a propaganda triumph for the papacy \u2014 demonstrating that the Church could canonize a king's enemy and force royal penance, tipping the church-state balance toward Rome.",
+    "confidence": "high"
+  },
+  {
+    "id": "taoism__legalism_chinese",
+    "source": "taoism",
+    "target": "legalism_chinese",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Taoism and Legalism were competing answers to political order",
+    "note": "Taoism's wu wei (non-interference) and Legalism's strict state control represented opposite poles of Chinese political philosophy \u2014 the tension between them shaped Chinese governance across dynasties.",
+    "confidence": "high"
+  },
+  {
+    "id": "john_locke__enlightenment",
+    "source": "john_locke",
+    "target": "enlightenment",
+    "type": "ENABLED",
+    "label": "Locke's empiricism and natural rights were foundational to Enlightenment thought",
+    "note": "Locke's Essay Concerning Human Understanding (empiricism) and Two Treatises of Government (natural rights, limited government) provided two of the Enlightenment's core frameworks.",
+    "confidence": "high"
+  },
+  {
+    "id": "meiji_restoration__industrial_revolution",
+    "source": "meiji_restoration",
+    "target": "industrial_revolution",
+    "type": "ENABLED",
+    "label": "Meiji Japan deliberately adopted and accelerated Industrial Revolution technologies",
+    "note": "The Meiji government sent delegations to Europe and America to acquire industrial technology, hiring foreign experts to establish factories, railways, and naval yards \u2014 the most deliberate state-directed industrialization in history.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war_nuclear_fear__in_group_out_group_dynamics",
+    "source": "cold_war_nuclear_fear",
+    "target": "in_group_out_group_dynamics",
+    "type": "PRODUCED",
+    "label": "Nuclear fear intensified Cold War in-group/out-group polarization",
+    "note": "The existential stakes of nuclear war made the communist/capitalist division feel total \u2014 any ambiguity about loyalty became dangerous in an environment where 'the other side' could end civilization.",
+    "confidence": "high"
+  },
+  {
+    "id": "ratko_mladic__structural_violence",
+    "source": "ratko_mladic",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "label": "Mladic used structural military power to commit mass atrocities",
+    "note": "Mladic commanded the Bosnian Serb Army's systematic campaign of siege warfare, massacre, and rape \u2014 deploying state military force as a instrument of ethnic elimination against Bosniak civilians.",
+    "confidence": "high"
+  },
+  {
+    "id": "muhammad_ali_jinnah__collective_trauma",
+    "source": "muhammad_ali_jinnah",
+    "target": "collective_trauma",
+    "type": "CAUSED",
+    "label": "Partition caused mass collective trauma across the subcontinent",
+    "note": "The 1947 partition Jinnah championed resulted in 10-20 million people displaced and up to 2 million killed in communal violence \u2014 the collective trauma of which still shapes Indian and Pakistani national identity and mutual hostility.",
+    "confidence": "high"
+  },
+  {
+    "id": "judah_maccabee__scapegoating",
+    "source": "judah_maccabee",
+    "target": "scapegoating",
+    "type": "DISCREDITED",
+    "label": "Maccabee revolt challenged the scapegoating of Jewish religious practice",
+    "note": "The Seleucid campaign against Jewish practice \u2014 banning Sabbath, Torah, circumcision \u2014 was a project of cultural elimination through scapegoating. The Maccabean revolt's success disrupted the assumption that a minority community could be forcibly assimilated.",
+    "confidence": "high"
+  },
+  {
+    "id": "songhai_empire__capitalism",
+    "source": "songhai_empire",
+    "target": "capitalism",
+    "type": "ENABLED",
+    "label": "Songhai's trade networks prefigured modern commercial capitalism",
+    "note": "The Songhai Empire's sophisticated long-distance trade in gold, salt, and slaves, with professional merchant classes, standardized weights, and credit systems, represented a pre-colonial commercial capitalism operating independently of Europe.",
+    "confidence": "medium"
+  },
+  {
+    "id": "menelik_ii__decolonization_africa",
+    "source": "menelik_ii",
+    "target": "decolonization_africa",
+    "type": "ENABLED",
+    "label": "Ethiopia's independence under Menelik inspired African decolonization",
+    "note": "Ethiopia's defeat of Italy at Adwa (1896) and maintenance of independence throughout the colonial period made it the symbol of African sovereignty \u2014 Kwame Nkrumah, Julius Nyerere, and other independence leaders drew on its example.",
+    "confidence": "high"
+  },
+  {
+    "id": "tlaxcalan_alliance__imperialism",
+    "source": "tlaxcalan_alliance",
+    "target": "imperialism",
+    "type": "ENABLED",
+    "label": "Tlaxcalan alliance made Spanish imperial conquest possible",
+    "note": "The Tlaxcalan-Spanish alliance against the Aztecs illustrates how imperial conquest often works through indigenous divisions \u2014 Spanish imperialism in Mexico required and exploited pre-existing political conflicts among Native peoples.",
+    "confidence": "high"
+  },
+  {
+    "id": "united_nations__institutional_resilience",
+    "source": "united_nations",
+    "target": "institutional_resilience",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "UN represents humanity's attempt at institutional resilience against war",
+    "note": "The United Nations was built on the lesson of the League of Nations' failure \u2014 an attempt to create institutional resilience against interstate violence through collective security, international law, and multilateral diplomacy.",
+    "confidence": "high"
+  },
+  {
+    "id": "united_nations__manufactured_consent",
+    "source": "united_nations",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "UN resolutions can manufacture international legitimacy for state actions",
+    "note": "UN Security Council authorization \u2014 or its absence \u2014 shapes which interventions are framed as legitimate. The ability of permanent members to veto resolutions makes the UN's consent-manufacturing function asymmetric and politically mediated.",
+    "confidence": "high"
+  },
+  {
+    "id": "nato__in_group_out_group_dynamics",
+    "source": "nato",
+    "target": "in_group_out_group_dynamics",
+    "type": "NORMALIZED",
+    "label": "NATO institutionalized Western Cold War in-group identity",
+    "note": "NATO transformed the ad hoc Western alliance of WWII into a permanent military in-group \u2014 members vs. Warsaw Pact out-group \u2014 cementing the ideological division of Europe and making the Cold War's in-group/out-group binary into a legal treaty structure.",
+    "confidence": "high"
+  },
+  {
+    "id": "nato__imperialism",
+    "source": "nato",
+    "target": "imperialism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "NATO has functioned as an instrument of Western power projection",
+    "note": "While ostensibly defensive, NATO's post-Cold War eastward expansion and interventions (Kosovo, Afghanistan, Libya) have been critiqued as mechanisms of Western power projection \u2014 imperialism by military alliance rather than colonial administration.",
+    "confidence": "medium"
+  },
+  {
+    "id": "lyndon_johnson__welfare_state",
+    "source": "lyndon_johnson",
+    "target": "welfare_state",
+    "type": "ENABLED",
+    "label": "Johnson's Great Society dramatically expanded the American welfare state",
+    "note": "The Great Society programs \u2014 Medicare, Medicaid, federal education funding, civil rights legislation \u2014 represented the largest expansion of the American welfare state since the New Deal, transforming the federal government's role in health, education, and civil rights.",
+    "confidence": "high"
+  },
+  {
+    "id": "lyndon_johnson__structural_violence",
+    "source": "lyndon_johnson",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "label": "Johnson escalated the Vietnam War that killed 3 million Vietnamese",
+    "note": "LBJ's escalation of the Vietnam War \u2014 including the Gulf of Tonkin deception, the bombing campaign, and Agent Orange \u2014 caused mass civilian casualties, constituting a structural violence that destroyed Vietnamese society.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war_proxy_wars__structural_violence",
+    "source": "cold_war_proxy_wars",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "label": "Proxy wars caused millions of deaths in the Global South",
+    "note": "U.S. and Soviet proxy wars \u2014 Korea, Vietnam, Angola, Mozambique, Guatemala, Afghanistan, Nicaragua \u2014 killed millions of people in countries whose populations had no stake in the superpower competition being fought through them.",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war_proxy_wars__in_group_out_group_dynamics",
+    "source": "cold_war_proxy_wars",
+    "target": "in_group_out_group_dynamics",
+    "type": "NORMALIZED",
+    "label": "Proxy wars imposed superpower in-group/out-group logic on local conflicts",
+    "note": "Cold War proxy conflicts transformed local political disputes into communist/anti-communist confrontations \u2014 superpower in-group/out-group dynamics that overrode local political identities and made compromise impossible.",
+    "confidence": "high"
+  },
+  {
+    "id": "immigration_crisis__scapegoating",
+    "source": "immigration_crisis",
+    "target": "scapegoating",
+    "type": "PRODUCED",
+    "label": "Immigration crises historically produce scapegoating of migrants",
+    "note": "Every major wave of immigration or refugee crisis in modern history has been accompanied by scapegoating \u2014 attributing native economic anxieties, crime, and cultural change to the newcomer population regardless of evidence.",
+    "confidence": "high"
+  },
+  {
+    "id": "immigration_crisis__structural_violence",
+    "source": "immigration_crisis",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Immigration enforcement systems deploy structural violence against migrants",
+    "note": "Family separation, detention conditions, deportation of long-term residents, and the criminalization of asylum-seeking constitute structural violence \u2014 systemic harm inflicted through institutional processes rather than individual acts.",
+    "confidence": "high"
+  },
+  {
+    "id": "disability_rights__moral_circle_expansion",
+    "source": "disability_rights",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "label": "Disability rights movement expanded who counts as deserving equal treatment",
+    "note": "The disability rights movement \u2014 culminating in the ADA (1990) and the UN Convention on the Rights of Persons with Disabilities \u2014 expanded the moral circle by insisting that physical and cognitive difference does not diminish the claim to full citizenship.",
+    "confidence": "high"
+  },
+  {
+    "id": "disability_rights__coalition_building",
+    "source": "disability_rights",
+    "target": "coalition_building",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Disability rights succeeded through cross-disability coalition building",
+    "note": "The disability rights movement unified people with wildly different conditions \u2014 physical, sensory, cognitive, psychiatric \u2014 around the shared experience of discrimination and the shared demand for access, modeling how diverse groups can build effective coalitions.",
+    "confidence": "high"
+  },
+  {
+    "id": "cancel_culture__culture_wars",
+    "source": "cancel_culture",
+    "target": "culture_wars",
+    "type": "PRODUCED",
+    "label": "Cancel culture debate became a culture war flashpoint",
+    "note": "The 'cancel culture' debate \u2014 whether social accountability through public pressure constitutes disproportionate punishment \u2014 became a central front in culture wars, with progressive and conservative media using it to reinforce their existing tribal narratives.",
+    "confidence": "high"
+  },
+  {
+    "id": "cancel_culture__social_media_polarization",
+    "source": "cancel_culture",
+    "target": "social_media_polarization",
+    "type": "PRODUCED",
+    "label": "Social media's outrage dynamics amplified cancel culture events",
+    "note": "Cancel culture episodes are primarily a social media phenomenon \u2014 the rapid amplification of a single incident to a mass audience, the pile-on dynamics of viral outrage, and the algorithm reward for engagement over nuance all make 'cancellation' disproportionate by design.",
+    "confidence": "high"
+  },
+  {
+    "id": "climate_activism__nonviolent_resistance",
+    "source": "climate_activism",
+    "target": "nonviolent_resistance",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Climate activism adopted nonviolent direct action tactics",
+    "note": "Extinction Rebellion, Sunrise Movement, and school strikes all drew on the nonviolent direct action tradition \u2014 civil disobedience, strategic arrest, disruption of normal operations \u2014 to make climate change politically visible.",
+    "confidence": "high"
+  },
+  {
+    "id": "climate_activism__coalition_building",
+    "source": "climate_activism",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "Climate activism built coalitions across the global south and north",
+    "note": "The climate movement linked youth activists in wealthy countries with indigenous communities, low-lying island nations, and frontline communities in the Global South \u2014 an unusual global coalition united by shared existential threat.",
+    "confidence": "high"
+  },
+  {
+    "id": "environmental_justice__structural_violence",
+    "source": "environmental_justice",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "Environmental justice movement exposed environmental racism as structural violence",
+    "note": "The environmental justice movement documented that toxic waste sites, polluting industries, and environmental hazards are systematically located in communities of color and low-income communities \u2014 structural violence encoded into land use patterns.",
+    "confidence": "high"
+  },
+  {
+    "id": "environmental_justice__resource_extraction",
+    "source": "environmental_justice",
+    "target": "resource_extraction",
+    "type": "DISCREDITED",
+    "label": "Environmental justice challenged who bears the costs of resource extraction",
+    "note": "Environmental justice reframed resource extraction's costs: the profits go to shareholders; the pollution, habitat destruction, and health impacts fall on the communities where extraction happens \u2014 disproportionately poor and non-white.",
+    "confidence": "high"
+  },
+  {
+    "id": "gun_violence_policy__propaganda",
+    "source": "gun_violence_policy",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "label": "Gun lobby propaganda systematically blocked evidence-based policy",
+    "note": "The NRA and gun industry funding of research institutes, politicians, and media created a propaganda ecosystem that made gun regulation politically toxic despite consistent public support \u2014 a case study in manufactured opposition to popular policy.",
+    "confidence": "high"
+  },
+  {
+    "id": "gun_violence_policy__political_polarization",
+    "source": "gun_violence_policy",
+    "target": "political_polarization",
+    "type": "PRODUCED",
+    "label": "Gun policy became a tribal identity marker rather than a policy debate",
+    "note": "Gun ownership became a right-wing cultural identity marker and gun control a left-wing one \u2014 making evidence-based compromise impossible. The politics of gun policy is now about cultural identity, not public safety outcomes.",
+    "confidence": "high"
+  },
+  {
+    "id": "white_supremacy_movement__dehumanization",
+    "source": "white_supremacy_movement",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "White supremacy requires dehumanization of racial out-groups",
+    "note": "White supremacist ideology's core function is the dehumanization of non-white people \u2014 through pseudoscientific race theory, replacement narrative, and explicit violence \u2014 creating the psychological permission structure for terrorism and genocide.",
+    "confidence": "high"
+  },
+  {
+    "id": "white_supremacy_movement__fascism",
+    "source": "white_supremacy_movement",
+    "target": "fascism",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Contemporary white supremacy movement shares fascism's core mechanisms",
+    "note": "Modern white supremacy movements \u2014 from neo-Nazis to 'identitarian' groups \u2014 share fascism's core mechanisms: ethnic nationalism, authoritarian leadership, dehumanization of out-groups, and willingness to use political violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "gender_pay_gap__structural_violence",
+    "source": "gender_pay_gap",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Gender pay gap is structural violence encoded in economic systems",
+    "note": "The gender pay gap \u2014 women earning 82 cents per male dollar in the U.S. \u2014 is produced by structural mechanisms: occupational segregation, wage suppression in feminized fields, motherhood penalties, and negotiation dynamics shaped by gender socialization.",
+    "confidence": "high"
+  },
+  {
+    "id": "gender_pay_gap__wealth_inequality",
+    "source": "gender_pay_gap",
+    "target": "wealth_inequality",
+    "type": "PRODUCED",
+    "label": "Gender pay gap compounds into lifetime wealth gap",
+    "note": "The pay gap compounds over careers into a substantial wealth gap \u2014 women have 32 cents for every dollar in wealth men have \u2014 with cascading effects on retirement security, ability to weather economic shocks, and intergenerational wealth transfer.",
+    "confidence": "high"
+  },
+  {
+    "id": "food_sovereignty__resource_extraction",
+    "source": "food_sovereignty",
+    "target": "resource_extraction",
+    "type": "DISCREDITED",
+    "label": "Food sovereignty challenges corporate extraction of food system control",
+    "note": "The food sovereignty movement \u2014 led by La Via Campesina \u2014 challenges the industrial food system's extraction of land, water, seeds, and food security from rural communities. It asserts communities' right to define their own food systems rather than submit to global commodity markets.",
+    "confidence": "high"
+  },
+  {
+    "id": "food_sovereignty__land_reform",
+    "source": "food_sovereignty",
+    "target": "land_reform",
+    "type": "ENABLED",
+    "label": "Food sovereignty movements organized around land reform demands",
+    "note": "Food sovereignty politics centers land \u2014 who controls it, who benefits from it, who is displaced from it. The movement built the political case for land reform as essential to food security and indigenous rights.",
+    "confidence": "high"
+  },
+  {
+    "id": "papal_swiss_guard__church_state_entanglement",
+    "source": "papal_swiss_guard",
+    "target": "church_state_entanglement",
+    "type": "PRODUCES",
+    "label": "Papal Swiss Guard embodies the fusion of military and religious authority",
+    "note": "The Swiss Guard \u2014 a mercenary military force protecting the Pope since 1506 \u2014 embodies the historic church-state entanglement of the Vatican: a sovereign state whose head is a religious leader protected by a foreign military.",
+    "confidence": "high"
+  },
+  {
+    "id": "winged_hussars__in_group_out_group_dynamics",
+    "source": "winged_hussars",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "Winged Hussars became symbols of Polish Christian identity against Ottoman Islam",
+    "note": "The Winged Hussars' decisive charge at the 1683 Battle of Vienna \u2014 repelling the Ottoman siege \u2014 became a defining moment of Polish/Christian vs. Ottoman/Muslim identity, crystallizing the in-group/out-group dynamics that shaped Central European political identity for centuries.",
+    "confidence": "high"
+  },
+  {
+    "id": "patriot_act_surveillance__surveillance_capitalism",
+    "source": "patriot_act_surveillance",
+    "target": "surveillance_capitalism",
+    "type": "ENABLED",
+    "label": "PATRIOT Act normalized mass surveillance that private tech industry inherited",
+    "note": "The PATRIOT Act's normalization of mass surveillance without individualized suspicion created legal and cultural infrastructure that the surveillance capitalism economy of tech platforms later built on \u2014 government and corporate surveillance systems sharing data, methodology, and legitimacy.",
+    "confidence": "high"
+  },
+  {
+    "id": "abbasid_caliphate__scientific_method",
+    "source": "abbasid_caliphate",
+    "target": "scientific_method",
+    "type": "ENABLED",
+    "label": "Abbasid House of Wisdom preserved and advanced the scientific method",
+    "note": "The Abbasid Caliphate's House of Wisdom (8th-13th c.) translated Greek scientific texts into Arabic, enabling Islamic scholars like al-Kindi, al-Farabi, and Ibn Sina to advance mathematics, astronomy, medicine, and optics \u2014 preserving and developing the scientific method during Europe's early medieval period.",
+    "confidence": "high"
+  },
+  {
+    "id": "fatimid_caliphate__church_state_entanglement",
+    "source": "fatimid_caliphate",
+    "target": "church_state_entanglement",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Fatimid caliphate fused Shia religious and political authority",
+    "note": "The Fatimid Caliphate ruled as both religious imams (claiming descent from Fatima) and political rulers \u2014 exemplifying the Islamic caliphate's fusion of religious and political authority that the church-state entanglement mechanism describes in different cultural contexts.",
+    "confidence": "high"
+  },
+  {
+    "id": "niccolo_machiavelli__propaganda",
+    "source": "niccolo_machiavelli",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "label": "Machiavelli provided the first systematic analysis of political manipulation",
+    "note": "The Prince (1513) analyzed how rulers use appearances, fear, religion, and violence as political tools \u2014 the first systematic treatment of state propaganda and impression management as rational political strategy.",
+    "confidence": "high"
+  },
+  {
+    "id": "vladimir_lenin__manufactured_consent",
+    "source": "vladimir_lenin",
+    "target": "manufactured_consent",
+    "type": "NORMALIZED",
+    "label": "Lenin's vanguard party theory justified manufacturing consent for revolution",
+    "note": "Lenin's What Is To Be Done? argued that the working class could not develop revolutionary consciousness spontaneously \u2014 it needed a vanguard party to manufacture it. This theory justified the Bolsheviks' top-down consent manufacturing after the revolution.",
+    "confidence": "high"
+  },
+  {
+    "id": "franklin_d_roosevelt__manufactured_consent",
+    "source": "franklin_d_roosevelt",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "label": "FDR's fireside chats pioneered presidential mass media communication",
+    "note": "FDR's 30 fireside chat radio broadcasts directly addressed Americans in their homes, bypassing hostile press owners \u2014 the first systematic use of mass media for presidential consent manufacturing, shaping how the public understood the New Deal and WWII.",
+    "confidence": "high"
+  },
+  {
+    "id": "dwight_eisenhower__regulatory_capture",
+    "source": "dwight_eisenhower",
+    "target": "regulatory_capture",
+    "type": "DISCREDITED",
+    "label": "Eisenhower warned against military-industrial complex regulatory capture",
+    "note": "Eisenhower's farewell address warning against the 'military-industrial complex' \u2014 the fusion of defense contractors and Pentagon that could capture government policy \u2014 was the first presidential acknowledgment of regulatory capture as a systemic threat to democracy.",
+    "confidence": "high"
+  },
+  {
+    "id": "jawaharlal_nehru__nonviolent_resistance",
+    "source": "jawaharlal_nehru",
+    "target": "nonviolent_resistance",
+    "type": "ENABLED",
+    "label": "Nehru translated Gandhi's nonviolence into state-building",
+    "note": "Nehru's partnership with Gandhi \u2014 and his eventual leadership of independent India \u2014 translated nonviolent resistance from a liberation movement into governance, attempting to build a secular, democratic, non-aligned state on the foundations of satyagraha.",
+    "confidence": "high"
+  },
+  {
+    "id": "code_of_hammurabi__social_contract_theory",
+    "source": "code_of_hammurabi",
+    "target": "social_contract_theory",
+    "type": "ENABLED",
+    "label": "Hammurabi's code was an early articulation of law as social contract",
+    "note": "The Code of Hammurabi (c. 1754 BCE) \u2014 with its prologue claiming divine mandate to protect the weak from the strong \u2014 was among the first articulations of the idea that rulers have obligations to the ruled, a primitive social contract.",
+    "confidence": "high"
+  },
+  {
+    "id": "egyptian_pharaoh__propaganda",
+    "source": "egyptian_pharaoh",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "label": "Pharaonic institutions produced sophisticated divine authority propaganda",
+    "note": "Egyptian pharaonic culture produced among the most sophisticated pre-modern propaganda systems: monumental architecture, divine kingship mythology, ritual state ceremony, and controlled iconography all worked to manufacture consent for absolute rule.",
+    "confidence": "high"
+  },
+  {
+    "id": "kingdom_of_kush__imperialism",
+    "source": "kingdom_of_kush",
+    "target": "imperialism",
+    "type": "DISCREDITED",
+    "label": "Kush's conquest of Egypt challenged assumptions about civilization's direction",
+    "note": "The 25th Dynasty's Kushite conquest of Egypt (c. 747-656 BCE) \u2014 African rulers governing Egypt \u2014 was systematically erased from Western historical consciousness, challenging the assumption that imperialism flows only from north to south or west to east.",
+    "confidence": "high"
+  },
+  {
+    "id": "meroe__historical_revisionism",
+    "source": "meroe",
+    "target": "historical_revisionism",
+    "type": "PRODUCED",
+    "label": "Meroitic civilization was systematically erased from world history narratives",
+    "note": "The Kingdom of Meroe (c. 300 BCE-350 CE) \u2014 with its own writing system, iron production, and monumental architecture \u2014 was systematically omitted from Western historical accounts that portrayed sub-Saharan Africa as cultureless before European contact.",
+    "confidence": "high"
+  },
+  {
+    "id": "kerma__historical_revisionism",
+    "source": "kerma",
+    "target": "historical_revisionism",
+    "type": "PRODUCED",
+    "label": "Kerma's advanced civilization challenged colonial-era Africa narratives",
+    "note": "Kerma (c. 2500-1500 BCE) \u2014 one of Africa's earliest urban civilizations, with monumental mud-brick architecture and long-distance trade \u2014 was overlooked by colonial-era archaeology that sought to deny African civilizational history.",
+    "confidence": "high"
+  },
+  {
+    "id": "athenian_democracy__social_contract_theory",
+    "source": "athenian_democracy",
+    "target": "social_contract_theory",
+    "type": "ENABLED",
+    "label": "Athenian democracy provided the first institutional model for collective self-governance",
+    "note": "Athens's demokratia \u2014 citizen assembly, sortition, accountability of officials \u2014 was the first institutionalized attempt to translate social contract theory into political practice, providing the vocabulary and templates that modern democratic theory draws on.",
+    "confidence": "high"
+  },
+  {
+    "id": "george_w_bush__propaganda",
+    "source": "george_w_bush",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "label": "Bush administration's WMD case was systematic propaganda for war",
+    "note": "The Bush administration's case for the Iraq War \u2014 yellow cake uranium, aluminum tubes, Saddam-al-Qaeda links \u2014 was a coordinated propaganda campaign that manufactured public consent for a war based on fabricated or manipulated intelligence.",
+    "confidence": "high"
+  },
+  {
+    "id": "nuclear_weapons__democratic_backsliding",
+    "source": "nuclear_weapons",
+    "target": "democratic_backsliding",
+    "type": "NORMALIZED",
+    "label": "Nuclear command structure requires executive concentration of power",
+    "note": "Nuclear weapons' requirement for rapid launch authority \u2014 minutes not days \u2014 necessitated concentrating ultimate war-making power in a single executive, bypassing legislative authorization. This has normalized presidential war powers that undermine democratic accountability.",
+    "confidence": "high"
+  },
+  {
+    "id": "israel_palestine__in_group_out_group_dynamics",
+    "source": "israel_palestine",
+    "target": "in_group_out_group_dynamics",
+    "type": "PRODUCED",
+    "label": "Israel-Palestine conflict is a paradigm case of mutual in-group/out-group dehumanization",
+    "note": "The Israel-Palestine conflict shows how competing national narratives \u2014 each with historical legitimacy \u2014 create intractable in-group/out-group dynamics where each side's security requires the other side's subjugation, making compromise feel like existential capitulation.",
+    "confidence": "high"
+  },
+  {
+    "id": "school_to_prison_pipeline__structural_violence",
+    "source": "school_to_prison_pipeline",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "School-to-prison pipeline converts educational failure into mass incarceration",
+    "note": "The school-to-prison pipeline \u2014 where zero-tolerance discipline, school resource officers, and suspension policies push Black and Latino students out of school into the criminal justice system \u2014 is structural violence encoded into educational administration.",
+    "confidence": "high"
+  },
+  {
+    "id": "dark_money_politics__regulatory_capture",
+    "source": "dark_money_politics",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "Dark money enables systematic regulatory capture",
+    "note": "Anonymous political spending \u2014 enabled by Citizens United \u2014 allows corporations and billionaires to fund candidates and advocacy without disclosure, making it impossible to track who owns which politicians and enabling regulatory capture that is invisible to the public.",
+    "confidence": "high"
+  },
+  {
+    "id": "opioid_corporate_liability__regulatory_capture",
+    "source": "opioid_corporate_liability",
+    "target": "regulatory_capture",
+    "type": "DISCREDITED",
+    "label": "Opioid corporate liability exposed pharma regulatory capture of the FDA",
+    "note": "The opioid epidemic's origins in Purdue Pharma's OxyContin marketing \u2014 approved by the FDA, endorsed by professional societies paid by pharma, and prescribed by doctors receiving pharma payments \u2014 demonstrated systematic regulatory capture at every point in the system.",
+    "confidence": "high"
+  },
+  {
+    "id": "mental_health_care_access__structural_violence",
+    "source": "mental_health_care_access",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Mental health care access failure produces structural violence for the mentally ill",
+    "note": "The failure to provide adequate mental health care \u2014 deinstitutionalization without community support, insurance coverage gaps, provider shortages \u2014 produces structural violence: people with mental illness cycling through emergency rooms, jails, and homelessness rather than receiving treatment.",
+    "confidence": "high"
+  },
+  {
+    "id": "obesity_epidemic__manufactured_consent",
+    "source": "obesity_epidemic",
+    "target": "manufactured_consent",
+    "type": "PRODUCED",
+    "label": "Food industry manufactured consent for its role in the obesity epidemic",
+    "note": "The food industry \u2014 particularly sugar and ultra-processed food companies \u2014 funded research institutes, professional associations, and government advisory panels to manufacture consent for the narrative that obesity is individual failure rather than a product of deliberate food engineering.",
+    "confidence": "high"
+  },
+  {
+    "id": "medical_racism__dehumanization",
+    "source": "medical_racism",
+    "target": "dehumanization",
+    "type": "PRODUCED",
+    "label": "Medical racism is dehumanization encoded in clinical practice",
+    "note": "Medical racism \u2014 from the myth that Black patients feel less pain to the higher maternal mortality for Black women to under-treatment of pain in emergency settings \u2014 is dehumanization encoded in clinical algorithms, training, and practice, producing measurable health outcome disparities.",
     "confidence": "high"
   }
 ]

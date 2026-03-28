@@ -95,22 +95,30 @@ data/
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-03-27, Session 11)
+## CURRENT DATASET STATE (as of 2026-03-27, Session 12)
 
 | Scope | Nodes | Edges |
 |-------|-------|-------|
-| History | **550** | **1010** |
-| Economics | 46 | 107 |
-| Politics | 116 | 325 |
-| Psychology | 43 | 107 |
-| Media | 31 | 82 |
+| History | **530** | **1010** |
+| Economics | 33 | 107 |
+| Politics | **115** | **325** |
+| Psychology | 42 | 107 |
+| Media | 30 | 82 |
 | Health | 37 | 84 |
 | Art & Culture | 53 | 26 |
-| Mechanisms | **160** | **1781** (cross-scope) |
+| Mechanisms | **158** | **2251** (cross-scope) |
 | **Person nodes (history)** | **~245** | — |
-| **Total nodes** | **~1036** | **~3522** |
+| **Total nodes** | **~998** | **~3592** |
 
-**Data integrity:** 0 broken edge references. Verified 2026-03-27.
+**Data integrity:** 0 broken edge references. Verified 2026-03-27 Session 12.
+
+### Session 12 additions:
+- **Thin node wiring complete (history):** All 33 remaining history nodes with <2 mechanism edges wired to ≥2 edges
+- **Politics thin/zero nodes wired:** 14 zero-edge + 24 one-edge politics nodes received mechanism connections (united_nations, nato, lyndon_johnson, cold_war_proxy_wars, immigration_crisis, disability_rights, cancel_culture, climate_activism, environmental_justice, gun_violence_policy, white_supremacy_movement, gender_pay_gap, food_sovereignty, thomas_hobbes, niccolo_machiavelli, vladimir_lenin, franklin_d_roosevelt, dwight_eisenhower, jawaharlal_nehru, code_of_hammurabi, egyptian_pharaoh, kingdom_of_kush, meroe, kerma, athenian_democracy, george_w_bush, nuclear_weapons, human_rights_declaration, israel_palestine, school_to_prison_pipeline, dark_money_politics, proportional_representation + others)
+- **Health thin nodes wired:** chronic_illness_policy, opioid_corporate_liability, mental_health_care_access, obesity_epidemic, medical_racism
+- **Media thin node wired:** internet_history
+- **Duplicate fixed:** `franklin_roosevelt` merged into `franklin_d_roosevelt` (same person; old node removed, 4 edges remapped)
+- **Mechanism edges:** grew 2167 → 2251
 
 ### Session 8 additions (positive nodes):
 - **Mechanisms (8 new):** truth_and_reconciliation, moral_circle_expansion, social_trust, mutual_aid, institutional_resilience, coalition_building, whistleblowing, restorative_justice (+ nonviolent_resistance and scientific_consensus already existed)
@@ -311,4 +319,5 @@ Data model supports nested scopes (`children: {}`). Future: `global/history/wwii
 | Session 8 | Positive balance pass: 45 new nodes across all scopes (mechanisms, history, politics, economics, psychology, health, art); 73 new cross-scope edges + 16 within-scope; total 960 nodes, 1578 mechanism edges, 3312 total edges |
 | Session 9 | Continued positive additions: 10 history events (indian_independence, end_of_apartheid, voting_rights_act, ada, marriage_equality, emancipation, 13th amendment, camp_david, nuclear_test_ban, paris_agreement); 5 person nodes (gandhi, eleanor_roosevelt, mlk, cesar_chavez, dolores_huerta); 5 mechanisms (grassroots_organizing, land_reform, public_health_infrastructure, reparations, democratic_accountability); 43 cross-scope edges; total 978 nodes, 1621 mechanism edges, 3355 total edges; standing directive added to HANDOFF.md |
 | Session 10 | Positive roadmap completions: labor_rights_eight_hour_day, rural_electrification, germ_theory, mental_health_movement, scientific_method, community_land_trusts, universal_basic_income, debt_jubilee; art: glory_1989, selma_2014, black_panther_2018, crip_camp_2020; 3 Priority 7 negatives (rohingya_genocide, long_covid, defund_police_debate); 69 new cross-scope edges including politics scope mechanism wiring and cross-scope gap filling (black_death, mongols, cold_war, great_migration); total 994 nodes, 1690 mechanism edges, 3424 total edges |
-| Session 11 | Deep mechanism wiring pass across all priority node groups: 91 cross-scope edges connecting Indigenous/manifest_destiny, East African kingdoms, Chinese history, South Asian empires, Pre-Columbian nodes, Ottoman history, medieval Europe, Priority 9 persons (angela_davis, fred_hampton, aung_san_suu_kyi, volodymyr_zelensky, xi_jinping), and all 10 economics Priority 10 nodes; within-scope economics edges for glass_steagall/housing_bubble/nafta/wto/gig/qe/offshore; added geoffrey_chaucer to history; total 1036 nodes, 1781 mechanism edges, 3522 total edges |
+| Session 11 | Deep mechanism wiring pass across all priority node groups: 91 cross-scope edges connecting Indigenous/manifest_destiny, East African kingdoms, Chinese history, South Asian empires, Pre-Columbian nodes, Ottoman history, medieval Europe, Priority 9 persons (angela_davis, fred_hampton, aung_san_suu_kyi, volodymyr_zelensky, xi_jinping), and all 10 economics Priority 10 nodes; within-scope economics edges for glass_steagall/housing_bubble/nafta/wto/gig/qe/offshore; added geoffrey_chaucer to history; merged 2 duplicates (hiroshima_nagasaki→atomic_bombing_hiroshima, protestant_reformation_history→protestant_reformation); total 1036 nodes, 2167 mechanism edges, 3700+ total edges |
+| Session 12 | Thin node wiring completion: all remaining thin history nodes (33) wired to ≥2 mechanism edges; politics thin/zero nodes wired (38 nodes: united_nations, nato, LBJ, FDR, cold_war_proxy_wars, immigration_crisis, disability_rights, cancel_culture, climate_activism, environmental_justice, gun_violence_policy, white_supremacy_movement, gender_pay_gap, food_sovereignty + 24 one-edge nodes); health/media thin nodes wired; merged franklin_roosevelt→franklin_d_roosevelt duplicate; total ~998 nodes, 2251 mechanism edges |

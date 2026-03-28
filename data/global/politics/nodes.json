@@ -22,7 +22,7 @@
     "node_type": "reference",
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/Watergate_scandal",
-    "summary": "1972–1974 political scandal in which the Nixon administration orchestrated a break-in and coverup. Involved approximately 30 people and collapsed under investigation, demonstrating the limits of government secrecy.",
+    "summary": "1972\u20131974 political scandal in which the Nixon administration orchestrated a break-in and coverup. Involved approximately 30 people and collapsed under investigation, demonstrating the limits of government secrecy.",
     "decade": "1970s",
     "tags": [
       "government",
@@ -44,7 +44,7 @@
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Papal_Swiss_Guard",
     "summary": "Military corps established to protect the Pope, defined by the sacrifice of approximately 147 of the 189 Guards who held their position at St. Peter's Square during the 1527 Sack of Rome, buying time for Pope Clement VII to escape through the Passetto di Borgo. Their oath of fidelity unto death became the founding legend of an institution still active 500 years later.",
-    "decade": "1500s–Ongoing",
+    "decade": "1500s\u2013Ongoing",
     "tags": [
       "military",
       "papacy",
@@ -62,7 +62,7 @@
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Winged_hussars",
     "summary": "Elite Polish-Lithuanian heavy cavalry distinguished by their dramatic winged armor and 5-meter lances. On September 12, 1683, approximately 3,000 Winged Hussars charged downhill into the Ottoman siege camp at Vienna in the largest cavalry charge in recorded history, breaking Ottoman lines and ending the siege. Their intervention was the decisive tactical element of the battle.",
-    "decade": "1570s–1770s",
+    "decade": "1570s\u20131770s",
     "tags": [
       "military",
       "poland",
@@ -80,7 +80,7 @@
     "category": "policy",
     "wikipedia": "https://en.wikipedia.org/wiki/Jim_Crow_laws",
     "summary": "System of racial apartheid laws enforced in the American South from Reconstruction through 1965, segregating public facilities, restricting voting, and institutionalizing racial subordination after the Civil War. Maintained through law enforcement terror and lynching.",
-    "decade": "1870s–1960s",
+    "decade": "1870s\u20131960s",
     "tags": [
       "racism",
       "policy",
@@ -98,7 +98,7 @@
     "category": "policy",
     "wikipedia": "https://en.wikipedia.org/wiki/War_on_drugs",
     "summary": "Nixon-era federal policy of mandatory minimum sentences and militarized drug enforcement. Nixon's domestic policy adviser John Ehrlichman stated on record the War on Drugs was designed to criminalize Black and antiwar communities by associating them with heroin and marijuana respectively.",
-    "decade": "1970s–Ongoing",
+    "decade": "1970s\u2013Ongoing",
     "tags": [
       "policy",
       "racism",
@@ -115,7 +115,7 @@
     "node_type": "reference",
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/Pentagon_Papers",
-    "summary": "Classified Defense Department history of U.S. involvement in Vietnam leaked by Daniel Ellsberg in 1971. Revealed that multiple administrations had systematically deceived Congress and the public about the war's progress and prospects — converting public suspicion of government deception into documented confirmation.",
+    "summary": "Classified Defense Department history of U.S. involvement in Vietnam leaked by Daniel Ellsberg in 1971. Revealed that multiple administrations had systematically deceived Congress and the public about the war's progress and prospects \u2014 converting public suspicion of government deception into documented confirmation.",
     "decade": "1970s",
     "tags": [
       "government",
@@ -133,8 +133,8 @@
     "node_type": "reference",
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Fossil_fuel_industry",
-    "summary": "The global extraction, refining, and distribution industry for coal, oil, and natural gas. Internal documents from Exxon show the company's own scientists confirmed human-caused climate change by 1977 — the same decade the company began funding campaigns to manufacture public doubt about that consensus.",
-    "decade": "1850s–Ongoing",
+    "summary": "The global extraction, refining, and distribution industry for coal, oil, and natural gas. Internal documents from Exxon show the company's own scientists confirmed human-caused climate change by 1977 \u2014 the same decade the company began funding campaigns to manufacture public doubt about that consensus.",
+    "decade": "1850s\u2013Ongoing",
     "tags": [
       "corporate",
       "energy",
@@ -170,7 +170,7 @@
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Gulag",
     "summary": "The Soviet network of forced labor camps operating from the 1920s through the 1950s, incarcerating an estimated 18 million people under conditions of deliberate brutality. Functioned simultaneously as political suppression, slave labor, and population control.",
-    "decade": "1920s–1950s",
+    "decade": "1920s\u20131950s",
     "tags": [
       "soviet",
       "history",
@@ -187,7 +187,7 @@
     "node_type": "reference",
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
-    "summary": "The 1986–1987 revelation that the Reagan administration had secretly sold arms to Iran (under an arms embargo) and used proceeds to fund Nicaraguan Contras in defiance of Congressional prohibition. Confirmed that presidential administrations would conduct illegal covert foreign policy operations and lie to Congress about them.",
+    "summary": "The 1986\u20131987 revelation that the Reagan administration had secretly sold arms to Iran (under an arms embargo) and used proceeds to fund Nicaraguan Contras in defiance of Congressional prohibition. Confirmed that presidential administrations would conduct illegal covert foreign policy operations and lie to Congress about them.",
     "decade": "1980s",
     "tags": [
       "government",
@@ -206,7 +206,7 @@
     "category": "policy",
     "wikipedia": "https://en.wikipedia.org/wiki/Patriot_Act",
     "summary": "Post-9/11 U.S. surveillance expansion, including the PATRIOT Act and NSA bulk collection programs revealed by Edward Snowden in 2013. Demonstrated that COINTELPRO's mass domestic surveillance of political dissidents had been rebuilt at digital scale, targeting populations based on religion, political activity, and association.",
-    "decade": "2000s–2010s",
+    "decade": "2000s\u20132010s",
     "tags": [
       "government",
       "surveillance",
@@ -224,7 +224,7 @@
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Spanish_Inquisition",
     "summary": "The Catholic tribunal established in 1478 by Ferdinand and Isabella to enforce religious orthodoxy, targeting conversos (Jewish converts to Christianity) suspected of secretly practicing Judaism. Operated for 356 years, formalizing the apparatus of forced confession, torture, and execution as instruments of ideological enforcement.",
-    "decade": "1470s–1830s",
+    "decade": "1470s\u20131830s",
     "tags": [
       "religion",
       "history",
@@ -259,8 +259,8 @@
     "node_type": "reference",
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Abbasid_Caliphate",
-    "summary": "The second great Islamic caliphate (750–1258 AD), centered on Baghdad, representing the Islamic Golden Age of science, philosophy, and culture. The caliphate's gradual weakening allowed Seljuk Turks to dominate militarily while Abbasid caliphs remained nominal spiritual rulers; ended by the Mongol sack of Baghdad in 1258.",
-    "decade": "8th–13th century",
+    "summary": "The second great Islamic caliphate (750\u20131258 AD), centered on Baghdad, representing the Islamic Golden Age of science, philosophy, and culture. The caliphate's gradual weakening allowed Seljuk Turks to dominate militarily while Abbasid caliphs remained nominal spiritual rulers; ended by the Mongol sack of Baghdad in 1258.",
+    "decade": "8th\u201313th century",
     "tags": [
       "history",
       "islam",
@@ -277,8 +277,8 @@
     "node_type": "reference",
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Fatimid_Caliphate",
-    "summary": "The Shia Ismaili caliphate based in Cairo (909–1171 AD), which controlled Egypt, North Africa, and the Levant including Jerusalem. The Fatimid Caliph al-Hakim bi-Amr Allah ordered the destruction of the Church of the Holy Sepulchre in 1009 — one of the most important events in the causal chain leading to the First Crusade.",
-    "decade": "10th–12th century",
+    "summary": "The Shia Ismaili caliphate based in Cairo (909\u20131171 AD), which controlled Egypt, North Africa, and the Levant including Jerusalem. The Fatimid Caliph al-Hakim bi-Amr Allah ordered the destruction of the Church of the Holy Sepulchre in 1009 \u2014 one of the most important events in the causal chain leading to the First Crusade.",
+    "decade": "10th\u201312th century",
     "tags": [
       "history",
       "islam",
@@ -296,7 +296,7 @@
     "category": "movement",
     "wikipedia": "https://en.wikipedia.org/wiki/Zionism",
     "summary": "The 19th-century Jewish nationalist movement founded by Theodor Herzl, advocating for the establishment of a Jewish homeland in response to European antisemitism. The Holocaust transformed Zionism from an ideological project into an urgent mass political reality, producing the political pressure that created Israel.",
-    "decade": "1880s–Ongoing",
+    "decade": "1880s\u2013Ongoing",
     "tags": [
       "history",
       "judaism",
@@ -313,8 +313,8 @@
     "node_type": "reference",
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/League_of_Nations_mandate",
-    "summary": "The post-WWI League of Nations framework granting Britain and France administrative authority over former Ottoman Arab territories as 'mandates' — in theory preparing them for independence, in practice extending colonial rule. The British Mandate for Palestine simultaneously promised a Jewish homeland and Arab self-determination, making conflict structurally inevitable.",
-    "decade": "1920s–1940s",
+    "summary": "The post-WWI League of Nations framework granting Britain and France administrative authority over former Ottoman Arab territories as 'mandates' \u2014 in theory preparing them for independence, in practice extending colonial rule. The British Mandate for Palestine simultaneously promised a Jewish homeland and Arab self-determination, making conflict structurally inevitable.",
+    "decade": "1920s\u20131940s",
     "tags": [
       "history",
       "colonialism",
@@ -332,7 +332,7 @@
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/Cold_War",
     "summary": "The geopolitical rivalry between the United States and the Soviet Union from 1947 to 1991, conducted through proxy wars, arms races, ideological competition, covert operations, and client state relationships rather than direct military conflict. The Cold War structured international politics globally and drove dozens of regional conflicts by transforming local disputes into superpower proxy contests.",
-    "decade": "1947–1991",
+    "decade": "1947\u20131991",
     "tags": [
       "history",
       "geopolitics",
@@ -363,7 +363,7 @@
   },
   {
     "id": "arab_spring",
-    "label": "Arab Spring (2010–2012)",
+    "label": "Arab Spring (2010\u20132012)",
     "node_type": "reference",
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/Arab_Spring",
@@ -385,7 +385,7 @@
     "node_type": "reference",
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union",
-    "summary": "The dissolution of the USSR on December 25, 1991, following a cascade of independence movements in Soviet republics, the failed August coup against Gorbachev, and the economic collapse driven by the arms race and oil revenue dependence. The Soviet Union's fall appeared sudden despite decades of structural decay — a classic preference falsification cascade where publicly performed loyalty to the system masked private alienation until the threshold for mass defection was crossed.",
+    "summary": "The dissolution of the USSR on December 25, 1991, following a cascade of independence movements in Soviet republics, the failed August coup against Gorbachev, and the economic collapse driven by the arms race and oil revenue dependence. The Soviet Union's fall appeared sudden despite decades of structural decay \u2014 a classic preference falsification cascade where publicly performed loyalty to the system masked private alienation until the threshold for mass defection was crossed.",
     "decade": "1991",
     "tags": [
       "history",
@@ -421,7 +421,7 @@
     "node_type": "reference",
     "category": "movement",
     "wikipedia": "https://en.wikipedia.org/wiki/Age_of_Enlightenment",
-    "summary": "The 17th–18th century intellectual movement that applied human reason to politics, society, religion, and nature — displacing divine authority as the primary justification for social arrangements. Locke's natural rights, Hume's empiricism, Voltaire's anticlerical skepticism, Rousseau's general will, and Kant's critical philosophy collectively established the philosophical foundation for liberal democracy, human rights, the scientific method as arbiter of truth, and the idea that individuals are ends in themselves rather than instruments of church or state.",
+    "summary": "The 17th\u201318th century intellectual movement that applied human reason to politics, society, religion, and nature \u2014 displacing divine authority as the primary justification for social arrangements. Locke's natural rights, Hume's empiricism, Voltaire's anticlerical skepticism, Rousseau's general will, and Kant's critical philosophy collectively established the philosophical foundation for liberal democracy, human rights, the scientific method as arbiter of truth, and the idea that individuals are ends in themselves rather than instruments of church or state.",
     "decade": "1700s",
     "tags": [
       "philosophy",
@@ -441,7 +441,7 @@
     "node_type": "reference",
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Frankfurt_School",
-    "summary": "The Institute for Social Research at Frankfurt (1923–), associated with Adorno, Horkheimer, Marcuse, and Habermas. Its critical theory program applied Hegelian-Marxist analysis to culture, media, and fascism — producing landmark works: Dialectic of Enlightenment (how Enlightenment reason generates its own barbarism), Authoritarian Personality (psychological roots of fascism), and One-Dimensional Man (how consumer culture forecloses radical thought). Forced into exile by Nazism, the School's analysis of how culture and reason serve domination shaped media studies, sociology, and political philosophy.",
+    "summary": "The Institute for Social Research at Frankfurt (1923\u2013), associated with Adorno, Horkheimer, Marcuse, and Habermas. Its critical theory program applied Hegelian-Marxist analysis to culture, media, and fascism \u2014 producing landmark works: Dialectic of Enlightenment (how Enlightenment reason generates its own barbarism), Authoritarian Personality (psychological roots of fascism), and One-Dimensional Man (how consumer culture forecloses radical thought). Forced into exile by Nazism, the School's analysis of how culture and reason serve domination shaped media studies, sociology, and political philosophy.",
     "decade": "1930s",
     "tags": [
       "philosophy",
@@ -461,7 +461,7 @@
     "node_type": "reference",
     "category": "movement",
     "wikipedia": "https://en.wikipedia.org/wiki/Evangelicalism",
-    "summary": "A Protestant Christian movement emphasizing personal conversion experience (being born again), the authority of the Bible, the centrality of Christ cross and resurrection, and active sharing of faith (evangelism). Evangelicalism emerged from 18th-century revivals (Whitefield, Wesley) and became a dominant form of American Protestantism after the mid-20th century. Its defining institutional expressions include megachurches, radio and television ministry, Christian universities, and political mobilization. Evangelical Christianity is extraordinarily diverse — ranging from Black liberation-theology-influenced congregations to white nationalist-adjacent movements — but its political expression in the United States became closely aligned with the Republican Party from the 1980s onward, making it a major force in American politics and culture wars.",
+    "summary": "A Protestant Christian movement emphasizing personal conversion experience (being born again), the authority of the Bible, the centrality of Christ cross and resurrection, and active sharing of faith (evangelism). Evangelicalism emerged from 18th-century revivals (Whitefield, Wesley) and became a dominant form of American Protestantism after the mid-20th century. Its defining institutional expressions include megachurches, radio and television ministry, Christian universities, and political mobilization. Evangelical Christianity is extraordinarily diverse \u2014 ranging from Black liberation-theology-influenced congregations to white nationalist-adjacent movements \u2014 but its political expression in the United States became closely aligned with the Republican Party from the 1980s onward, making it a major force in American politics and culture wars.",
     "decade": "1940s",
     "tags": [
       "christianity",
@@ -481,7 +481,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Hobbes",
-    "summary": "English philosopher (1588–1679) whose Leviathan (1651) founded modern political theory by arguing that human life without government is \"solitary, poor, nasty, brutish, and short\" — a state of perpetual war of all against all. Hobbes derived the social contract from this premise: rational individuals surrender their natural freedom to an absolute sovereign in exchange for security. Written during the English Civil War, Leviathan provided the first systematic philosophical argument for why strong centralized authority is necessary rather than merely traditional. His materialist account of human psychology — humans as self-interested machines seeking power — became the baseline assumption of liberal political economy and realist international relations theory, even among thinkers who rejected his conclusions.",
+    "summary": "English philosopher (1588\u20131679) whose Leviathan (1651) founded modern political theory by arguing that human life without government is \"solitary, poor, nasty, brutish, and short\" \u2014 a state of perpetual war of all against all. Hobbes derived the social contract from this premise: rational individuals surrender their natural freedom to an absolute sovereign in exchange for security. Written during the English Civil War, Leviathan provided the first systematic philosophical argument for why strong centralized authority is necessary rather than merely traditional. His materialist account of human psychology \u2014 humans as self-interested machines seeking power \u2014 became the baseline assumption of liberal political economy and realist international relations theory, even among thinkers who rejected his conclusions.",
     "decade": "1650s",
     "tags": [
       "philosophy",
@@ -496,11 +496,11 @@
   },
   {
     "id": "niccolo_machiavelli",
-    "label": "Niccolò Machiavelli",
+    "label": "Niccol\u00f2 Machiavelli",
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli",
-    "summary": "Florentine diplomat and political theorist (1469–1527) whose The Prince (1513) became the founding text of modern political realism by arguing that effective rule requires a prince to act outside conventional morality when necessary — \"it is better to be feared than loved, if you cannot be both.\" Written after the Medici overthrow of the Florentine republic, The Prince analyzed power as it actually operates rather than as it ought to operate, separating politics from ethics and Christian morality for the first time in Western political theory. Machiavelli also wrote the Discourses on Livy, praising republican government, but it is The Prince that defined his legacy. His name became synonymous with cynical manipulation (Machiavellianism), though his actual argument was more nuanced: the ruler who fails to secure the state fails everyone.",
+    "summary": "Florentine diplomat and political theorist (1469\u20131527) whose The Prince (1513) became the founding text of modern political realism by arguing that effective rule requires a prince to act outside conventional morality when necessary \u2014 \"it is better to be feared than loved, if you cannot be both.\" Written after the Medici overthrow of the Florentine republic, The Prince analyzed power as it actually operates rather than as it ought to operate, separating politics from ethics and Christian morality for the first time in Western political theory. Machiavelli also wrote the Discourses on Livy, praising republican government, but it is The Prince that defined his legacy. His name became synonymous with cynical manipulation (Machiavellianism), though his actual argument was more nuanced: the ruler who fails to secure the state fails everyone.",
     "decade": "1510s",
     "tags": [
       "philosophy",
@@ -520,7 +520,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Karl_Marx",
-    "summary": "German philosopher, economist, and revolutionary socialist (1818–1883) whose Capital (1867) and The Communist Manifesto (1848, with Friedrich Engels) argued that history is driven by class struggle over the means of production, that capitalism contains internal contradictions that will lead to its overthrow, and that a communist society without class exploitation is both possible and historically inevitable. Marx combined Hegelian dialectics with materialist analysis of economic relations to produce historical materialism — the most influential secular theory of history ever written. His work inspired communist revolutions in Russia, China, Cuba, and Vietnam; welfare state reforms in Western democracies; liberation theology; anti-colonial movements; and the Frankfurt School. The regimes that claimed his name committed atrocities he never advocated; the movements that engaged his analysis produced the most significant reductions in economic inequality in the 20th century.",
+    "summary": "German philosopher, economist, and revolutionary socialist (1818\u20131883) whose Capital (1867) and The Communist Manifesto (1848, with Friedrich Engels) argued that history is driven by class struggle over the means of production, that capitalism contains internal contradictions that will lead to its overthrow, and that a communist society without class exploitation is both possible and historically inevitable. Marx combined Hegelian dialectics with materialist analysis of economic relations to produce historical materialism \u2014 the most influential secular theory of history ever written. His work inspired communist revolutions in Russia, China, Cuba, and Vietnam; welfare state reforms in Western democracies; liberation theology; anti-colonial movements; and the Frankfurt School. The regimes that claimed his name committed atrocities he never advocated; the movements that engaged his analysis produced the most significant reductions in economic inequality in the 20th century.",
     "decade": "1860s",
     "tags": [
       "philosophy",
@@ -541,7 +541,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Vladimir_Lenin",
-    "summary": "Russian revolutionary and founder of the Soviet state (1870–1924) who led the Bolshevik seizure of power in October 1917 and established the first communist government in history. Lenin modified Marxist theory with his concept of the vanguard party — a disciplined professional revolutionary organization that would lead the working class rather than wait for spontaneous revolution — and justified the Red Terror and Cheka secret police as necessary instruments of class war. The Leninist party-state model he created: single-party rule, democratic centralism, state ownership of the means of production, and systematic repression of opposition became the template that Stalin, Mao, Castro, Ho Chi Minh, and Kim Il-sung would all replicate. Lenin died before Stalinist terror began, but the institutional structure he built made it possible.",
+    "summary": "Russian revolutionary and founder of the Soviet state (1870\u20131924) who led the Bolshevik seizure of power in October 1917 and established the first communist government in history. Lenin modified Marxist theory with his concept of the vanguard party \u2014 a disciplined professional revolutionary organization that would lead the working class rather than wait for spontaneous revolution \u2014 and justified the Red Terror and Cheka secret police as necessary instruments of class war. The Leninist party-state model he created: single-party rule, democratic centralism, state ownership of the means of production, and systematic repression of opposition became the template that Stalin, Mao, Castro, Ho Chi Minh, and Kim Il-sung would all replicate. Lenin died before Stalinist terror began, but the institutional structure he built made it possible.",
     "decade": "1910s",
     "tags": [
       "revolution",
@@ -561,7 +561,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Benito_Mussolini",
-    "summary": "Italian politician (1883–1945) who founded fascism and ruled Italy as Il Duce (the Leader) from 1922 to 1943, becoming the template for 20th-century authoritarian populism. A former socialist newspaper editor radicalized by World War I, Mussolini developed fascism as a \"third way\" between capitalism and communism: ultranationalism, corporatist economics, glorification of violence, and the fusion of party and state under a charismatic leader. His March on Rome (1922) — in which he threatened revolution while maneuvering legally into power — became the model Hitler studied and replicated. His invasion of Ethiopia (1935), anti-Jewish racial laws (1938), and alliance with Hitler (Pact of Steel, 1939) aligned Italy with Nazism. He was executed by Italian partisans in 1945 and hung upside down in a Milan square.",
+    "summary": "Italian politician (1883\u20131945) who founded fascism and ruled Italy as Il Duce (the Leader) from 1922 to 1943, becoming the template for 20th-century authoritarian populism. A former socialist newspaper editor radicalized by World War I, Mussolini developed fascism as a \"third way\" between capitalism and communism: ultranationalism, corporatist economics, glorification of violence, and the fusion of party and state under a charismatic leader. His March on Rome (1922) \u2014 in which he threatened revolution while maneuvering legally into power \u2014 became the model Hitler studied and replicated. His invasion of Ethiopia (1935), anti-Jewish racial laws (1938), and alliance with Hitler (Pact of Steel, 1939) aligned Italy with Nazism. He was executed by Italian partisans in 1945 and hung upside down in a Milan square.",
     "decade": "1930s",
     "tags": [
       "fascism",
@@ -581,7 +581,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Mao_Zedong",
-    "summary": "Chinese communist revolutionary and founding leader of the People's Republic of China (1893–1976) whose rule produced two of the deadliest man-made disasters in history. The Great Leap Forward (1958–1962) — his collectivization and rapid industrialization campaign — caused a famine that killed an estimated 15–55 million people through policy failures, cover-up of crop failures by local officials, and continued grain exports during the famine. The Cultural Revolution (1966–1976) — his effort to purge political rivals by mobilizing youth against \"counterrevolutionary\" elements — killed hundreds of thousands to over a million people, destroyed Chinese cultural heritage, and sent millions of intellectuals and professionals to labor camps. Mao military victory in the civil war (1949) and his anti-imperialist nationalism gave him genuine popular legitimacy; the mass death of his governance made him one of history most catastrophic rulers.",
+    "summary": "Chinese communist revolutionary and founding leader of the People's Republic of China (1893\u20131976) whose rule produced two of the deadliest man-made disasters in history. The Great Leap Forward (1958\u20131962) \u2014 his collectivization and rapid industrialization campaign \u2014 caused a famine that killed an estimated 15\u201355 million people through policy failures, cover-up of crop failures by local officials, and continued grain exports during the famine. The Cultural Revolution (1966\u20131976) \u2014 his effort to purge political rivals by mobilizing youth against \"counterrevolutionary\" elements \u2014 killed hundreds of thousands to over a million people, destroyed Chinese cultural heritage, and sent millions of intellectuals and professionals to labor camps. Mao military victory in the civil war (1949) and his anti-imperialist nationalism gave him genuine popular legitimacy; the mass death of his governance made him one of history most catastrophic rulers.",
     "decade": "1950s",
     "tags": [
       "china",
@@ -596,32 +596,12 @@
     "cross_scope": false
   },
   {
-    "id": "franklin_roosevelt",
-    "label": "Franklin D. Roosevelt",
-    "node_type": "reference",
-    "category": "person",
-    "wikipedia": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
-    "summary": "US President (1882–1945) who led the United States through both the Great Depression and most of World War II. His New Deal (1933–1939) used federal intervention to stabilize the economy, establish Social Security, regulate banks, and create employment — redefining the relationship between government and citizen in America. His decision to support Britain before Pearl Harbor (Lend-Lease Act, 1941) and his management of the wartime coalition were essential to Allied victory. Roosevelt also authorized the internment of Japanese Americans (Executive Order 9066, 1942) — one of the most significant civil liberties violations in American history. He died in April 1945 before Germany surrendered; Truman inherited the war, the bomb decision, and the postwar order.",
-    "decade": "1930s",
-    "tags": [
-      "usa",
-      "wwii",
-      "new-deal",
-      "presidency",
-      "depression",
-      "democracy",
-      "person"
-    ],
-    "scope": "global/politics",
-    "cross_scope": false
-  },
-  {
     "id": "harry_truman",
     "label": "Harry S. Truman",
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Harry_S._Truman",
-    "summary": "US President (1884–1972) who made two of the most consequential decisions in modern history: to use atomic bombs on Hiroshima and Nagasaki (August 1945), and to implement the Truman Doctrine of containing Soviet expansion (1947) that defined Cold War American foreign policy. Truman also desegregated the US military (1948), supported the founding of Israel, and approved the Marshall Plan for European reconstruction. His authorization of the CIA coup that overthrew Iranian Prime Minister Mosaddegh (1953) — completed under Eisenhower — began the US covert intervention pattern in the Middle East. The debate over whether the atomic bombings were militarily necessary or constituted the targeting of civilians has never been resolved to consensus.",
+    "summary": "US President (1884\u20131972) who made two of the most consequential decisions in modern history: to use atomic bombs on Hiroshima and Nagasaki (August 1945), and to implement the Truman Doctrine of containing Soviet expansion (1947) that defined Cold War American foreign policy. Truman also desegregated the US military (1948), supported the founding of Israel, and approved the Marshall Plan for European reconstruction. His authorization of the CIA coup that overthrew Iranian Prime Minister Mosaddegh (1953) \u2014 completed under Eisenhower \u2014 began the US covert intervention pattern in the Middle East. The debate over whether the atomic bombings were militarily necessary or constituted the targeting of civilians has never been resolved to consensus.",
     "decade": "1940s",
     "tags": [
       "usa",
@@ -641,7 +621,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower",
-    "summary": "American general and 34th US President (1890–1969) who commanded the D-Day invasion as Supreme Allied Commander Europe and later presided over the early Cold War. Eisenhower farewell address (1961) warned of the \"military-industrial complex\" — the dangerous entanglement of defense contractors and government that could distort policy toward permanent war. He authorized the 1953 CIA coup in Iran (with Truman initial approval), the 1954 CIA coup in Guatemala (Operation PBSUCCESS), and approved covert operations in Cuba that became the Bay of Pigs. His administration built the interstate highway system, authorized Brown v. Board of Education enforcement, and managed the Suez Crisis. His warning about the military-industrial complex remains one of the most prescient political speeches in American history.",
+    "summary": "American general and 34th US President (1890\u20131969) who commanded the D-Day invasion as Supreme Allied Commander Europe and later presided over the early Cold War. Eisenhower farewell address (1961) warned of the \"military-industrial complex\" \u2014 the dangerous entanglement of defense contractors and government that could distort policy toward permanent war. He authorized the 1953 CIA coup in Iran (with Truman initial approval), the 1954 CIA coup in Guatemala (Operation PBSUCCESS), and approved covert operations in Cuba that became the Bay of Pigs. His administration built the interstate highway system, authorized Brown v. Board of Education enforcement, and managed the Suez Crisis. His warning about the military-industrial complex remains one of the most prescient political speeches in American history.",
     "decade": "1950s",
     "tags": [
       "usa",
@@ -661,7 +641,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Henry_Kissinger",
-    "summary": "German-born American statesman (1923–2023) who served as National Security Advisor and Secretary of State under Nixon and Ford, becoming the most consequential American foreign policy official of the Cold War era. A practitioner of realpolitik — power-based international relations divorced from moral considerations — Kissinger negotiated the Paris Peace Accords (Vietnam), opened China, managed detente with the Soviet Union, and engineered the Egypt-Israel disengagement after the Yom Kippur War. His record also includes authorizing the secret bombing of Cambodia, supporting the 1973 Chilean coup (the Pinochet regime that followed killed thousands), providing intelligence and support to Indonesian General Suharto during the East Timor occupation (200,000+ dead), supporting the Pakistani military during the 1971 Bangladesh genocide, and backing the Argentine dirty war. He received the Nobel Peace Prize in 1973, shared with Le Duc Tho (who declined it); the award has been called the most controversial in Nobel history.",
+    "summary": "German-born American statesman (1923\u20132023) who served as National Security Advisor and Secretary of State under Nixon and Ford, becoming the most consequential American foreign policy official of the Cold War era. A practitioner of realpolitik \u2014 power-based international relations divorced from moral considerations \u2014 Kissinger negotiated the Paris Peace Accords (Vietnam), opened China, managed detente with the Soviet Union, and engineered the Egypt-Israel disengagement after the Yom Kippur War. His record also includes authorizing the secret bombing of Cambodia, supporting the 1973 Chilean coup (the Pinochet regime that followed killed thousands), providing intelligence and support to Indonesian General Suharto during the East Timor occupation (200,000+ dead), supporting the Pakistani military during the 1971 Bangladesh genocide, and backing the Argentine dirty war. He received the Nobel Peace Prize in 1973, shared with Le Duc Tho (who declined it); the award has been called the most controversial in Nobel history.",
     "decade": "1970s",
     "tags": [
       "usa",
@@ -681,7 +661,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Ronald_Reagan",
-    "summary": "US President (1981–1989) whose presidency accelerated the end of the Cold War through military buildup and ideological confrontation with the Soviet Union, while simultaneously introducing supply-side economics (\"Reaganomics\") that restructured American political economy. Reagan Strategic Defense Initiative (Star Wars), sustained defense spending that strained the Soviet economy, and support for anti-communist movements (Reagan Doctrine) contributed to Soviet collapse. The Iran-Contra affair revealed that his administration secretly sold weapons to Iran (to fund Nicaraguan Contra rebels in violation of congressional prohibition) — the most significant constitutional violation of his presidency. His \"war on government\" rhetoric, tax cuts for the wealthy, weakening of labor unions (firing PATCO air traffic controllers, 1981), and deregulation launched the neoliberal economic order that restructured inequality in the United States.",
+    "summary": "US President (1981\u20131989) whose presidency accelerated the end of the Cold War through military buildup and ideological confrontation with the Soviet Union, while simultaneously introducing supply-side economics (\"Reaganomics\") that restructured American political economy. Reagan Strategic Defense Initiative (Star Wars), sustained defense spending that strained the Soviet economy, and support for anti-communist movements (Reagan Doctrine) contributed to Soviet collapse. The Iran-Contra affair revealed that his administration secretly sold weapons to Iran (to fund Nicaraguan Contra rebels in violation of congressional prohibition) \u2014 the most significant constitutional violation of his presidency. His \"war on government\" rhetoric, tax cuts for the wealthy, weakening of labor unions (firing PATCO air traffic controllers, 1981), and deregulation launched the neoliberal economic order that restructured inequality in the United States.",
     "decade": "1980s",
     "tags": [
       "usa",
@@ -701,7 +681,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
-    "summary": "Indian lawyer and political leader (1869–1948) who developed satyagraha (truth-force or soul-force) — nonviolent resistance as a complete political strategy — first in South Africa (1893–1914) and then in the Indian independence movement. Gandhi campaigns of civil disobedience (Salt March, 1930; Quit India, 1942) demonstrated that a colonized people could build mass political power through deliberate, strategic noncooperation rather than armed revolt. His method influenced Martin Luther King Jr., Nelson Mandela, and the global nonviolent resistance tradition. He was assassinated by a Hindu nationalist on January 30, 1948, having failed to prevent partition. His legacy is complicated by his complex views on caste, his experiment with celibacy involving young women, and his earlier writings on South African Black people that were racist by any measure — the full person, not the icon, belongs in history.",
+    "summary": "Indian lawyer and political leader (1869\u20131948) who developed satyagraha (truth-force or soul-force) \u2014 nonviolent resistance as a complete political strategy \u2014 first in South Africa (1893\u20131914) and then in the Indian independence movement. Gandhi campaigns of civil disobedience (Salt March, 1930; Quit India, 1942) demonstrated that a colonized people could build mass political power through deliberate, strategic noncooperation rather than armed revolt. His method influenced Martin Luther King Jr., Nelson Mandela, and the global nonviolent resistance tradition. He was assassinated by a Hindu nationalist on January 30, 1948, having failed to prevent partition. His legacy is complicated by his complex views on caste, his experiment with celibacy involving young women, and his earlier writings on South African Black people that were racist by any measure \u2014 the full person, not the icon, belongs in history.",
     "decade": "1920s",
     "tags": [
       "india",
@@ -721,7 +701,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru",
-    "summary": "Indian statesman (1889–1964) who was Gandhi closest political collaborator and became independent India's first Prime Minister (1947–1964). Nehru shaped modern India along secular, democratic, and socialist lines: non-alignment in the Cold War (founding the Non-Aligned Movement with Nasser and Sukarno), state-directed economic planning (five-year plans), commitment to democratic governance, and a secular constitution that protected minority rights. His \"Tryst with Destiny\" speech at Indian independence (August 15, 1947) is one of the great statements of post-colonial aspiration. He was central to the decision-making around partition and bears some responsibility for its violence: his commitment to a unified India and his rivalry with Jinnah made compromise harder. His daughter Indira Gandhi and grandson Rajiv Gandhi continued the Nehru-Gandhi dynasty that dominated Indian politics for decades.",
+    "summary": "Indian statesman (1889\u20131964) who was Gandhi closest political collaborator and became independent India's first Prime Minister (1947\u20131964). Nehru shaped modern India along secular, democratic, and socialist lines: non-alignment in the Cold War (founding the Non-Aligned Movement with Nasser and Sukarno), state-directed economic planning (five-year plans), commitment to democratic governance, and a secular constitution that protected minority rights. His \"Tryst with Destiny\" speech at Indian independence (August 15, 1947) is one of the great statements of post-colonial aspiration. He was central to the decision-making around partition and bears some responsibility for its violence: his commitment to a unified India and his rivalry with Jinnah made compromise harder. His daughter Indira Gandhi and grandson Rajiv Gandhi continued the Nehru-Gandhi dynasty that dominated Indian politics for decades.",
     "decade": "1940s",
     "tags": [
       "india",
@@ -741,7 +721,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Nelson_Mandela",
-    "summary": "South African anti-apartheid leader (1918–2013) who spent 27 years in prison (1964–1990) and emerged to lead South Africa through a negotiated transition to democracy rather than a racial civil war. Mandela transformation from the courtroom statement of the Rivonia Trial (\"I am prepared to die\") to the presidency of a democratic South Africa is the 20th century most powerful story of justice deferred but not destroyed. His embrace of reconciliation — choosing a Truth and Reconciliation Commission over revolution or revenge — prevented the ethnic violence that most observers feared and produced an imperfect but functional democracy. He was kept on the US terrorism watch list until 2008. His ANC Youth League years saw him advocate armed resistance (founding uMkhonto we Sizwe), complicating the pure nonviolence narrative.",
+    "summary": "South African anti-apartheid leader (1918\u20132013) who spent 27 years in prison (1964\u20131990) and emerged to lead South Africa through a negotiated transition to democracy rather than a racial civil war. Mandela transformation from the courtroom statement of the Rivonia Trial (\"I am prepared to die\") to the presidency of a democratic South Africa is the 20th century most powerful story of justice deferred but not destroyed. His embrace of reconciliation \u2014 choosing a Truth and Reconciliation Commission over revolution or revenge \u2014 prevented the ethnic violence that most observers feared and produced an imperfect but functional democracy. He was kept on the US terrorism watch list until 2008. His ANC Youth League years saw him advocate armed resistance (founding uMkhonto we Sizwe), complicating the pure nonviolence narrative.",
     "decade": "1950s",
     "tags": [
       "south-africa",
@@ -761,7 +741,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Frantz_Fanon",
-    "summary": "Martinican-Algerian psychiatrist and philosopher (1925–1961) whose Black Skin, White Masks (1952) analyzed the psychological damage colonialism inflicts on both colonized and colonizer, and whose The Wretched of the Earth (1961) became the manifesto of the global decolonization movement. Fanon argued that colonialism was not merely an economic arrangement but a total psychological system that required the colonized to internalize their own inferiority; liberation required not just political independence but psychological decolonization. His argument for the cathartic necessity of anti-colonial violence — which Jean-Paul Sartre endorsed in the Wretched of the Earth preface — remains his most controversial contribution. He served as a psychiatrist in Algeria treating both colonial subjects and French soldiers who had tortured them. He died of leukemia at 36, too young to see Algerian independence.",
+    "summary": "Martinican-Algerian psychiatrist and philosopher (1925\u20131961) whose Black Skin, White Masks (1952) analyzed the psychological damage colonialism inflicts on both colonized and colonizer, and whose The Wretched of the Earth (1961) became the manifesto of the global decolonization movement. Fanon argued that colonialism was not merely an economic arrangement but a total psychological system that required the colonized to internalize their own inferiority; liberation required not just political independence but psychological decolonization. His argument for the cathartic necessity of anti-colonial violence \u2014 which Jean-Paul Sartre endorsed in the Wretched of the Earth preface \u2014 remains his most controversial contribution. He served as a psychiatrist in Algeria treating both colonial subjects and French soldiers who had tortured them. He died of leukemia at 36, too young to see Algerian independence.",
     "decade": "1950s",
     "tags": [
       "decolonization",
@@ -781,7 +761,7 @@
     "node_type": "reference",
     "category": "policy",
     "wikipedia": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
-    "summary": "One of the earliest and most complete legal codes, promulgated by Babylonian king Hammurabi around 1754 BCE. Inscribed on a diorite stele, the Code contains 282 laws covering commerce, property, family, and criminal justice. It is notable for its principle of proportional punishment (an early form of lex talionis — \"an eye for an eye\"), its differentiated treatment by social class (punishments varied for nobles, commoners, and slaves), and its framing as divinely sanctioned law. The Code influenced subsequent legal systems across the ancient Near East and established the template of written, public, codified law as the foundation of political legitimacy.",
+    "summary": "One of the earliest and most complete legal codes, promulgated by Babylonian king Hammurabi around 1754 BCE. Inscribed on a diorite stele, the Code contains 282 laws covering commerce, property, family, and criminal justice. It is notable for its principle of proportional punishment (an early form of lex talionis \u2014 \"an eye for an eye\"), its differentiated treatment by social class (punishments varied for nobles, commoners, and slaves), and its framing as divinely sanctioned law. The Code influenced subsequent legal systems across the ancient Near East and established the template of written, public, codified law as the foundation of political legitimacy.",
     "decade": "1750s BCE",
     "tags": [
       "law",
@@ -801,8 +781,8 @@
     "node_type": "reference",
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Assyria",
-    "summary": "A major Semitic-speaking civilization centered in northern Mesopotamia, whose empire reached its peak in the Neo-Assyrian period (911–609 BCE). The Assyrians were renowned for military innovation (siege warfare, iron weapons, cavalry), administrative organization, and a policy of mass deportation of conquered peoples — including the deportation of the northern kingdom of Israel (722 BCE). The Assyrian empire controlled a vast territory from Egypt to Iran, building imperial capitals at Nineveh, Nimrud, and Assur. Their library at Nineveh preserved thousands of cuneiform texts, including the Epic of Gilgamesh. The empire collapsed rapidly after 612 BCE, conquered by a Babylonian-Median coalition.",
-    "decade": "2400s BCE–600s BCE",
+    "summary": "A major Semitic-speaking civilization centered in northern Mesopotamia, whose empire reached its peak in the Neo-Assyrian period (911\u2013609 BCE). The Assyrians were renowned for military innovation (siege warfare, iron weapons, cavalry), administrative organization, and a policy of mass deportation of conquered peoples \u2014 including the deportation of the northern kingdom of Israel (722 BCE). The Assyrian empire controlled a vast territory from Egypt to Iran, building imperial capitals at Nineveh, Nimrud, and Assur. Their library at Nineveh preserved thousands of cuneiform texts, including the Epic of Gilgamesh. The empire collapsed rapidly after 612 BCE, conquered by a Babylonian-Median coalition.",
+    "decade": "2400s BCE\u2013600s BCE",
     "tags": [
       "mesopotamia",
       "empire",
@@ -821,8 +801,8 @@
     "node_type": "reference",
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Pharaoh",
-    "summary": "The divine ruler of ancient Egypt, conceived as the earthly manifestation of the god Horus and the dead embodiment of Osiris. The pharaoh was simultaneously the political head of state, chief priest, supreme judge, and military commander — all divine authority converging in a single person. This theocratic institution persisted from the unification of Upper and Lower Egypt (~3100 BCE) through the Roman conquest (30 BCE), spanning 31 dynasties. The pharaoh's divine status legitimized absolute power: to defy the pharaoh was to defy the cosmic order (Ma'at). The institution of divine kingship influenced neighboring cultures and provided a model that echoed through later Mediterranean and Near Eastern political theology.",
-    "decade": "3100s BCE–30s BCE",
+    "summary": "The divine ruler of ancient Egypt, conceived as the earthly manifestation of the god Horus and the dead embodiment of Osiris. The pharaoh was simultaneously the political head of state, chief priest, supreme judge, and military commander \u2014 all divine authority converging in a single person. This theocratic institution persisted from the unification of Upper and Lower Egypt (~3100 BCE) through the Roman conquest (30 BCE), spanning 31 dynasties. The pharaoh's divine status legitimized absolute power: to defy the pharaoh was to defy the cosmic order (Ma'at). The institution of divine kingship influenced neighboring cultures and provided a model that echoed through later Mediterranean and Near Eastern political theology.",
+    "decade": "3100s BCE\u201330s BCE",
     "tags": [
       "egypt",
       "monarchy",
@@ -841,8 +821,8 @@
     "node_type": "reference",
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
-    "summary": "A major ancient kingdom centered in what is now northern Sudan, existing from approximately 2500 BCE to 350 CE. Kush was Egypt's neighbor and rival to the south, alternately trading with, warring against, and dominating Egypt. During the 25th Dynasty (c. 744–656 BCE), Nubian kings conquered and ruled Egypt — making Kush one of the few African kingdoms to rule Egypt. Kush developed its own writing system (Meroitic), produced iron, traded in gold and ivory, and built hundreds of pyramids. The Kingdom of Kush demonstrates the sophisticated political and cultural achievement of sub-Saharan African civilization independent of Egyptian influence, as well as in dynamic exchange with it.",
-    "decade": "2500s BCE–350s CE",
+    "summary": "A major ancient kingdom centered in what is now northern Sudan, existing from approximately 2500 BCE to 350 CE. Kush was Egypt's neighbor and rival to the south, alternately trading with, warring against, and dominating Egypt. During the 25th Dynasty (c. 744\u2013656 BCE), Nubian kings conquered and ruled Egypt \u2014 making Kush one of the few African kingdoms to rule Egypt. Kush developed its own writing system (Meroitic), produced iron, traded in gold and ivory, and built hundreds of pyramids. The Kingdom of Kush demonstrates the sophisticated political and cultural achievement of sub-Saharan African civilization independent of Egyptian influence, as well as in dynamic exchange with it.",
+    "decade": "2500s BCE\u2013350s CE",
     "tags": [
       "nubia",
       "sudan",
@@ -861,8 +841,8 @@
     "node_type": "reference",
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Meroe",
-    "summary": "The successor state to the Kingdom of Kush, centered at the city of Meroe (modern Sudan) from approximately 300 BCE to 350 CE. Meroe developed a distinct civilization after the Kushite capital shifted south from Napata: it had its own writing system (Meroitic, still only partially deciphered), significant iron production, a distinctive pyramid-building tradition, and trade networks reaching across sub-Saharan Africa and the Roman world. The Meroitic kingdom was ruled by queens (Kandakes) who played prominent political roles — including Amanirenas, who fought Roman forces to a negotiated peace under Augustus. Meroe represents African urban civilization that developed independently of direct Egyptian rule.",
-    "decade": "300s BCE–350s CE",
+    "summary": "The successor state to the Kingdom of Kush, centered at the city of Meroe (modern Sudan) from approximately 300 BCE to 350 CE. Meroe developed a distinct civilization after the Kushite capital shifted south from Napata: it had its own writing system (Meroitic, still only partially deciphered), significant iron production, a distinctive pyramid-building tradition, and trade networks reaching across sub-Saharan Africa and the Roman world. The Meroitic kingdom was ruled by queens (Kandakes) who played prominent political roles \u2014 including Amanirenas, who fought Roman forces to a negotiated peace under Augustus. Meroe represents African urban civilization that developed independently of direct Egyptian rule.",
+    "decade": "300s BCE\u2013350s CE",
     "tags": [
       "nubia",
       "sudan",
@@ -882,7 +862,7 @@
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Kerma_culture",
     "summary": "One of the earliest urban civilizations in sub-Saharan Africa, centered at Kerma (modern Sudan) from approximately 2500 to 1500 BCE. Kerma was Egypt's primary southern rival during much of the Middle Kingdom and Second Intermediate Period. The Kerma culture developed large mud-brick buildings (deffufas), elaborate burial practices (including human sacrifice in royal burials), and significant trade in gold, ivory, cattle, and slaves. At the height of its power, Kerma allied with the Hyksos (rulers of northern Egypt) against Egyptian pharaohs. Kerma was eventually conquered and absorbed by Egyptian New Kingdom expansion around 1500 BCE, becoming the foundation for the later Kingdom of Kush.",
-    "decade": "2500s BCE–1500s BCE",
+    "decade": "2500s BCE\u20131500s BCE",
     "tags": [
       "nubia",
       "sudan",
@@ -901,8 +881,8 @@
     "node_type": "reference",
     "category": "institution",
     "wikipedia": "https://en.wikipedia.org/wiki/Athenian_democracy",
-    "summary": "The world's first known democratic system, developed in Athens beginning with Cleisthenes' reforms (508 BCE) and reaching its height under Pericles (461–429 BCE). Athenian democracy was a direct democracy: eligible citizens (adult male Athenians, excluding women, slaves, and foreigners) voted directly on legislation, judicial cases, and war decisions in the Assembly (Ekklesia). Key institutions included the Council of 500 (Boule) selected by lot, courts staffed by citizen jurors, and the principle of isegoria (equal right to speak). Athens was also a slave society — approximately one-third of the population were enslaved — revealing the paradox that the birthplace of democracy depended on unfree labor. Athenian democracy was terminated by Macedonian conquest (322 BCE) and has been both idealized and critiqued as a model for modern democratic theory.",
-    "decade": "500s BCE–320s BCE",
+    "summary": "The world's first known democratic system, developed in Athens beginning with Cleisthenes' reforms (508 BCE) and reaching its height under Pericles (461\u2013429 BCE). Athenian democracy was a direct democracy: eligible citizens (adult male Athenians, excluding women, slaves, and foreigners) voted directly on legislation, judicial cases, and war decisions in the Assembly (Ekklesia). Key institutions included the Council of 500 (Boule) selected by lot, courts staffed by citizen jurors, and the principle of isegoria (equal right to speak). Athens was also a slave society \u2014 approximately one-third of the population were enslaved \u2014 revealing the paradox that the birthplace of democracy depended on unfree labor. Athenian democracy was terminated by Macedonian conquest (322 BCE) and has been both idealized and critiqued as a model for modern democratic theory.",
+    "decade": "500s BCE\u2013320s BCE",
     "tags": [
       "greece",
       "democracy",
@@ -922,7 +902,7 @@
     "category": "movement",
     "wikipedia": "https://en.wikipedia.org/wiki/Tea_Party_movement",
     "summary": "A decentralized American political movement that emerged in 2009 in response to the Obama administration's stimulus legislation and the Affordable Care Act. The Tea Party combined libertarian economic positions (anti-tax, anti-government spending, deficit reduction) with populist anger directed at the Republican Party establishment as well as Democrats. Organizationally backed by Koch Brothers-affiliated groups (FreedomWorks, Americans for Prosperity), the Tea Party was simultaneously a genuine grassroots reaction and an astroturfed political operation. The movement shifted the Republican Party rightward, fueled primary challenges to moderate Republicans, and cultivated the anti-establishment populist energy that Donald Trump would later absorb and redirect. The Tea Party normalized the use of debt ceiling threats, government shutdowns, and institutional hardball as standard political tactics.",
-    "decade": "2009s–2016s",
+    "decade": "2009s\u20132016s",
     "tags": [
       "usa",
       "politics",
@@ -941,8 +921,8 @@
     "node_type": "reference",
     "category": "policy",
     "wikipedia": "https://en.wikipedia.org/wiki/Citizens_United_v._FEC",
-    "summary": "The 2010 Supreme Court decision (Citizens United v. Federal Election Commission) ruling that the First Amendment prohibits the government from restricting political expenditures by corporations, associations, and labor unions. Citizens United held that political spending is a protected form of free speech and that corporations have the same First Amendment rights as individuals. The decision opened the door to unlimited \"dark money\" in elections through SuperPACs and 501(c)(4) organizations. Critics argue Citizens United enabled the purchasing of political influence at scale — allowing wealthy donors and corporations to spend without limit or disclosure. The decision is associated with the dramatic increase in money in US politics in the 2010s and the rise of billionaire-backed political movements.",
-    "decade": "2010s–Ongoing",
+    "summary": "The 2010 Supreme Court decision (Citizens United v. Federal Election Commission) ruling that the First Amendment prohibits the government from restricting political expenditures by corporations, associations, and labor unions. Citizens United held that political spending is a protected form of free speech and that corporations have the same First Amendment rights as individuals. The decision opened the door to unlimited \"dark money\" in elections through SuperPACs and 501(c)(4) organizations. Critics argue Citizens United enabled the purchasing of political influence at scale \u2014 allowing wealthy donors and corporations to spend without limit or disclosure. The decision is associated with the dramatic increase in money in US politics in the 2010s and the rise of billionaire-backed political movements.",
+    "decade": "2010s\u2013Ongoing",
     "tags": [
       "usa",
       "politics",
@@ -961,8 +941,8 @@
     "node_type": "reference",
     "category": "movement",
     "wikipedia": "https://en.wikipedia.org/wiki/Make_America_Great_Again",
-    "summary": "The political movement organized around Donald Trump and the \"Make America Great Again\" slogan, emerging in the 2015–16 Republican primary and dominating the Republican Party through the 2020s. MAGA combined white nationalist-adjacent grievance politics, economic nationalism (trade protectionism, anti-immigration), anti-institutional populism, and the personal cult of Donald Trump as a strongman figure who would \"fight\" on behalf of his supporters. The movement incorporated and radicalized Tea Party energy, absorbed conspiracy theory communities (including QAnon), and normalized political violence as a legitimate tool. MAGA represents a convergence of long-term Republican radicalization, social media dynamics, economic anxiety, and white demographic anxiety into a movement that broke with post-WWII American democratic norms.",
-    "decade": "2015s–Ongoing",
+    "summary": "The political movement organized around Donald Trump and the \"Make America Great Again\" slogan, emerging in the 2015\u201316 Republican primary and dominating the Republican Party through the 2020s. MAGA combined white nationalist-adjacent grievance politics, economic nationalism (trade protectionism, anti-immigration), anti-institutional populism, and the personal cult of Donald Trump as a strongman figure who would \"fight\" on behalf of his supporters. The movement incorporated and radicalized Tea Party energy, absorbed conspiracy theory communities (including QAnon), and normalized political violence as a legitimate tool. MAGA represents a convergence of long-term Republican radicalization, social media dynamics, economic anxiety, and white demographic anxiety into a movement that broke with post-WWII American democratic norms.",
+    "decade": "2015s\u2013Ongoing",
     "tags": [
       "usa",
       "trump",
@@ -1002,7 +982,7 @@
     "category": "policy",
     "wikipedia": "https://en.wikipedia.org/wiki/Voter_suppression_in_the_United_States",
     "summary": "Contemporary policies that restrict access to voting, disproportionately affecting Black, Latino, Indigenous, young, and poor voters, including: strict photo ID laws, voter roll purges, reduction of polling locations in minority-majority areas, limitations on early voting and mail-in voting, felony disenfranchisement, and gerrymandering. The Supreme Court's Shelby County v. Holder (2013) decision gutted the Voting Rights Act's preclearance requirement, enabling a wave of restrictive voting laws in former Confederate states. Proponents frame these as anti-fraud measures; critics document that in-person voter fraud is nearly nonexistent while the suppressive effect on minority voters is statistically significant. Modern voter suppression represents a continuation of the post-Reconstruction tradition of using procedural mechanisms to limit Black political power.",
-    "decade": "2010s–Ongoing",
+    "decade": "2010s\u2013Ongoing",
     "tags": [
       "usa",
       "voting",
@@ -1024,7 +1004,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Neoliberalism",
-    "summary": "Neoliberalism — the ideological program of market liberalization, deregulation, privatization, and reduced state expenditure — emerged from Chicago School economics (Friedman, Hayek) and was implemented by Thatcher (UK, 1979), Reagan (US, 1981), and the Washington Consensus (IMF/World Bank structural adjustment). The program restructured global capitalism: rising inequality, financialization, labor precarity, corporate consolidation, and the hollowing of social democracy. Whether \"neoliberalism\" names a coherent project or a retrospective critique remains contested.",
+    "summary": "Neoliberalism \u2014 the ideological program of market liberalization, deregulation, privatization, and reduced state expenditure \u2014 emerged from Chicago School economics (Friedman, Hayek) and was implemented by Thatcher (UK, 1979), Reagan (US, 1981), and the Washington Consensus (IMF/World Bank structural adjustment). The program restructured global capitalism: rising inequality, financialization, labor precarity, corporate consolidation, and the hollowing of social democracy. Whether \"neoliberalism\" names a coherent project or a retrospective critique remains contested.",
     "tags": [
       "economics",
       "chicago-school",
@@ -1063,7 +1043,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Brexit",
-    "summary": "Brexit — the United Kingdom's 2016 referendum vote to leave the European Union (52% Leave, 48% Remain) and subsequent 2020 departure — represents the first major reversal of post-war European integration. The Leave campaign operationalized the Overton window technique of outrageous claims (\"£350m/week to NHS\"), social media micro-targeting (Cambridge Analytica), immigration anxiety, and \"take back control\" sovereignty narrative. Brexit's economic consequences (reduced trade, labor shortages, Scotland/Northern Ireland tensions) have been significantly negative by most measures.",
+    "summary": "Brexit \u2014 the United Kingdom's 2016 referendum vote to leave the European Union (52% Leave, 48% Remain) and subsequent 2020 departure \u2014 represents the first major reversal of post-war European integration. The Leave campaign operationalized the Overton window technique of outrageous claims (\"\u00a3350m/week to NHS\"), social media micro-targeting (Cambridge Analytica), immigration anxiety, and \"take back control\" sovereignty narrative. Brexit's economic consequences (reduced trade, labor shortages, Scotland/Northern Ireland tensions) have been significantly negative by most measures.",
     "tags": [
       "eu",
       "uk",
@@ -1103,7 +1083,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Right-wing_populism",
-    "summary": "The 2010s-2020s global wave of right-wing populism — Trump (US), Bolsonaro (Brazil), Orbán (Hungary), Modi (India), Erdoğan (Turkey), Duterte (Philippines), Le Pen (France), Meloni (Italy), Milei (Argentina) — shares structural features: anti-elite rhetoric combined with oligarchic governance, ethnic/religious nationalism, media capture, democratic backsliding, and scapegoating of minority outgroups. The wave represents the most significant threat to liberal democratic order since the 1930s fascist wave, with which it shares mechanisms despite differing in degree.",
+    "summary": "The 2010s-2020s global wave of right-wing populism \u2014 Trump (US), Bolsonaro (Brazil), Orb\u00e1n (Hungary), Modi (India), Erdo\u011fan (Turkey), Duterte (Philippines), Le Pen (France), Meloni (Italy), Milei (Argentina) \u2014 shares structural features: anti-elite rhetoric combined with oligarchic governance, ethnic/religious nationalism, media capture, democratic backsliding, and scapegoating of minority outgroups. The wave represents the most significant threat to liberal democratic order since the 1930s fascist wave, with which it shares mechanisms despite differing in degree.",
     "tags": [
       "populism",
       "nationalism",
@@ -1123,7 +1103,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/New_Deal",
-    "summary": "The New Deal (1933–1939) was Franklin Roosevelt's response to the Great Depression: a package of banking regulation (Glass-Steagall), public works (WPA, CCC), labor rights (Wagner Act), agricultural support (AAA), and the Social Security Act (1935). It restructured the relationship between government and economy, establishing the administrative state as a legitimate economic actor. The New Deal's legacy — Keynesian fiscal policy, financial regulation, social insurance — defined American liberalism until Reagan's neoliberal counter-revolution. It remains the contested template for government responses to economic crisis.",
+    "summary": "The New Deal (1933\u20131939) was Franklin Roosevelt's response to the Great Depression: a package of banking regulation (Glass-Steagall), public works (WPA, CCC), labor rights (Wagner Act), agricultural support (AAA), and the Social Security Act (1935). It restructured the relationship between government and economy, establishing the administrative state as a legitimate economic actor. The New Deal's legacy \u2014 Keynesian fiscal policy, financial regulation, social insurance \u2014 defined American liberalism until Reagan's neoliberal counter-revolution. It remains the contested template for government responses to economic crisis.",
     "tags": [
       "fdr",
       "keynesian",
@@ -1144,7 +1124,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/George_W._Bush",
-    "summary": "George W. Bush (president 2001–2009) launched the War on Terror after 9/11, invading Afghanistan (2001) and Iraq (2003) based on false WMD intelligence. The Iraq War destabilized the Middle East, enabled ISIS, and killed hundreds of thousands. His administration authorized torture (\"enhanced interrogation\"), mass surveillance (PATRIOT Act), and Guantanamo indefinite detention. The 2003 Iraq invasion was accomplished through a manufactured WMD propaganda campaign — a case study in manufactured consent for war. Bush also cut taxes for the wealthy (Bush tax cuts) and presided over the 2008 financial crisis following deregulation.",
+    "summary": "George W. Bush (president 2001\u20132009) launched the War on Terror after 9/11, invading Afghanistan (2001) and Iraq (2003) based on false WMD intelligence. The Iraq War destabilized the Middle East, enabled ISIS, and killed hundreds of thousands. His administration authorized torture (\"enhanced interrogation\"), mass surveillance (PATRIOT Act), and Guantanamo indefinite detention. The 2003 Iraq invasion was accomplished through a manufactured WMD propaganda campaign \u2014 a case study in manufactured consent for war. Bush also cut taxes for the wealthy (Bush tax cuts) and presided over the 2008 financial crisis following deregulation.",
     "tags": [
       "iraq-war",
       "war-on-terror",
@@ -1166,7 +1146,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Roe_v._Wade",
-    "summary": "Roe v. Wade (1973) was the Supreme Court decision establishing a constitutional right to abortion, triggering 50 years of culture war over reproductive rights. Its 2022 overturning in Dobbs v. Jackson — achieved through Trump's appointment of three Supreme Court justices — is the most significant reversal of a constitutional right in American history. Roe became the central organizing issue of evangelical Christian political mobilization, the culture wars, and the Republican Party's judicial strategy (Federalist Society, court packing). The fight over Roe demonstrates how judicial capture is a long-term democratic backsliding strategy.",
+    "summary": "Roe v. Wade (1973) was the Supreme Court decision establishing a constitutional right to abortion, triggering 50 years of culture war over reproductive rights. Its 2022 overturning in Dobbs v. Jackson \u2014 achieved through Trump's appointment of three Supreme Court justices \u2014 is the most significant reversal of a constitutional right in American history. Roe became the central organizing issue of evangelical Christian political mobilization, the culture wars, and the Republican Party's judicial strategy (Federalist Society, court packing). The fight over Roe demonstrates how judicial capture is a long-term democratic backsliding strategy.",
     "tags": [
       "abortion",
       "supreme-court",
@@ -1187,7 +1167,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/United_Nations",
-    "summary": "The United Nations (founded 1945) is the primary international institution for collective security, human rights, and global governance. Built on the failures of the League of Nations, it established the Security Council (with great power veto), the Universal Declaration of Human Rights (1948), the Genocide Convention, and specialized agencies (WHO, UNICEF, UNESCO). The UN's fundamental tension — state sovereignty vs. human rights, Security Council veto vs. collective action — has made it more effective at humanitarian work than conflict prevention. It legitimized decolonization, established international human rights law, and created the diplomatic infrastructure of the rules-based international order.",
+    "summary": "The United Nations (founded 1945) is the primary international institution for collective security, human rights, and global governance. Built on the failures of the League of Nations, it established the Security Council (with great power veto), the Universal Declaration of Human Rights (1948), the Genocide Convention, and specialized agencies (WHO, UNICEF, UNESCO). The UN's fundamental tension \u2014 state sovereignty vs. human rights, Security Council veto vs. collective action \u2014 has made it more effective at humanitarian work than conflict prevention. It legitimized decolonization, established international human rights law, and created the diplomatic infrastructure of the rules-based international order.",
     "tags": [
       "international",
       "sovereignty",
@@ -1207,7 +1187,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/NATO",
-    "summary": "The North Atlantic Treaty Organization (1949) is the US-led military alliance that contained Soviet power in Europe during the Cold War and remains the world's most powerful military alliance. Article 5's collective defense clause made an attack on any member an attack on all — deterring Soviet conventional military aggression in Europe. NATO's expansion after the Cold War (from 16 to 32 members) to include former Soviet satellites was central to Russia's justification for the 2022 Ukraine invasion. NATO demonstrates how Cold War institutions outlast their original context and generate new conflicts through their persistence.",
+    "summary": "The North Atlantic Treaty Organization (1949) is the US-led military alliance that contained Soviet power in Europe during the Cold War and remains the world's most powerful military alliance. Article 5's collective defense clause made an attack on any member an attack on all \u2014 deterring Soviet conventional military aggression in Europe. NATO's expansion after the Cold War (from 16 to 32 members) to include former Soviet satellites was central to Russia's justification for the 2022 Ukraine invasion. NATO demonstrates how Cold War institutions outlast their original context and generate new conflicts through their persistence.",
     "tags": [
       "cold-war",
       "military",
@@ -1228,7 +1208,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Lyndon_B._Johnson",
-    "summary": "Lyndon Baines Johnson (president 1963–1969) passed the most significant civil rights legislation since Reconstruction — the Civil Rights Act (1964) and Voting Rights Act (1965) — and built the Great Society welfare state (Medicare, Medicaid, Head Start). He also escalated Vietnam War involvement from 16,000 advisers (1963) to 550,000 troops (1968), using the false Gulf of Tonkin incident as justification. LBJ's presidency represents the Democratic Party's liberal apex and its simultaneous Vietnam catastrophe: the president who achieved the most progressive domestic agenda also ended the New Deal coalition by alienating the white South with civil rights and the middle class with Vietnam.",
+    "summary": "Lyndon Baines Johnson (president 1963\u20131969) passed the most significant civil rights legislation since Reconstruction \u2014 the Civil Rights Act (1964) and Voting Rights Act (1965) \u2014 and built the Great Society welfare state (Medicare, Medicaid, Head Start). He also escalated Vietnam War involvement from 16,000 advisers (1963) to 550,000 troops (1968), using the false Gulf of Tonkin incident as justification. LBJ's presidency represents the Democratic Party's liberal apex and its simultaneous Vietnam catastrophe: the president who achieved the most progressive domestic agenda also ended the New Deal coalition by alienating the white South with civil rights and the middle class with Vietnam.",
     "tags": [
       "civil-rights",
       "vietnam",
@@ -1287,7 +1267,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/European_Union",
-    "summary": "Political and economic union of European states formed in 1993, representing the most ambitious supranational project in history — shared currency, open borders, common law.",
+    "summary": "Political and economic union of European states formed in 1993, representing the most ambitious supranational project in history \u2014 shared currency, open borders, common law.",
     "tags": [
       "europe",
       "supranational",
@@ -1805,7 +1785,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/School-to-prison_pipeline",
-    "summary": "Pattern of policies and practices that push students — disproportionately Black and Latino — from schools into the criminal justice system through zero-tolerance discipline and police presence in schools.",
+    "summary": "Pattern of policies and practices that push students \u2014 disproportionately Black and Latino \u2014 from schools into the criminal justice system through zero-tolerance discipline and police presence in schools.",
     "tags": [
       "school_to_prison_pipeline",
       "zero_tolerance",
@@ -1846,7 +1826,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Anti-vaccination_movement",
-    "summary": "Social movement opposing vaccines, fueled by discredited research, distrust of pharmaceutical industry, and conspiracy theories — causing measles resurgences and undermining public health infrastructure globally.",
+    "summary": "Social movement opposing vaccines, fueled by discredited research, distrust of pharmaceutical industry, and conspiracy theories \u2014 causing measles resurgences and undermining public health infrastructure globally.",
     "tags": [
       "anti_vaccine",
       "vaccines",
@@ -1868,7 +1848,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Student_debt",
-    "summary": "US student loan debt exceeding $1.7 trillion, driven by college cost explosion, predatory lending, and state disinvestment in public education — leaving millions in decades-long debt bondage that constrains economic mobility.",
+    "summary": "US student loan debt exceeding $1.7 trillion, driven by college cost explosion, predatory lending, and state disinvestment in public education \u2014 leaving millions in decades-long debt bondage that constrains economic mobility.",
     "tags": [
       "student_debt",
       "higher_education",
@@ -1889,7 +1869,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Dark_money",
-    "summary": "Networks of politically active nonprofits funneling undisclosed donor money into elections and policy advocacy — including Koch network, Arabella Advisors, and others reshaping political landscape without accountability.",
+    "summary": "Networks of politically active nonprofits funneling undisclosed donor money into elections and policy advocacy \u2014 including Koch network, Arabella Advisors, and others reshaping political landscape without accountability.",
     "tags": [
       "dark_money",
       "Koch",
@@ -1910,7 +1890,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Welfare_state",
-    "summary": "Model of government providing universal social protections including healthcare, unemployment insurance, pensions, and housing — developed in post-WWII Europe and Scandinavia, under sustained neoliberal attack since the 1980s.",
+    "summary": "Model of government providing universal social protections including healthcare, unemployment insurance, pensions, and housing \u2014 developed in post-WWII Europe and Scandinavia, under sustained neoliberal attack since the 1980s.",
     "tags": [
       "welfare_state",
       "social_democracy",
@@ -1952,7 +1932,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Climate_movement",
-    "summary": "Global movement demanding urgent government action on climate change, from Fridays for Future and Greta Thunberg to Extinction Rebellion and Standing Rock — spanning protest, litigation, and civil disobedience.",
+    "summary": "Global movement demanding urgent government action on climate change, from Fridays for Future and Greta Thunberg to Extinction Rebellion and Standing Rock \u2014 spanning protest, litigation, and civil disobedience.",
     "tags": [
       "climate_activism",
       "Greta_Thunberg",
@@ -1973,7 +1953,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Environmental_justice",
-    "summary": "Movement addressing disproportionate exposure of low-income and minority communities to environmental hazards including pollution, toxic waste, and climate impacts — connecting environmental and civil rights struggles.",
+    "summary": "Movement addressing disproportionate exposure of low-income and minority communities to environmental hazards including pollution, toxic waste, and climate impacts \u2014 connecting environmental and civil rights struggles.",
     "tags": [
       "environmental_justice",
       "pollution",
@@ -1994,7 +1974,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Gun_violence_in_the_United_States",
-    "summary": "The intersection of gun rights politics, Second Amendment interpretation, mass shootings, and failed legislative efforts for universal background checks or assault weapons bans — shaped by NRA lobbying and rural/urban cultural divisions.",
+    "summary": "The intersection of gun rights politics, Second Amendment interpretation, mass shootings, and failed legislative efforts for universal background checks or assault weapons bans \u2014 shaped by NRA lobbying and rural/urban cultural divisions.",
     "tags": [
       "gun_violence",
       "Second_Amendment",
@@ -2015,7 +1995,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/White_supremacy",
-    "summary": "Ideology and movement asserting white racial superiority, from Ku Klux Klan and neo-Nazis to modern alt-right and accelerationist networks — responsible for domestic terrorism and mainstreaming of racist policy discourse.",
+    "summary": "Ideology and movement asserting white racial superiority, from Ku Klux Klan and neo-Nazis to modern alt-right and accelerationist networks \u2014 responsible for domestic terrorism and mainstreaming of racist policy discourse.",
     "tags": [
       "white_supremacy",
       "KKK",
@@ -2058,7 +2038,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Theocracy",
-    "summary": "Governance system where religious law or authority structures political power. Ranges from Iran's Islamic Republic to Christian nationalist movements seeking to align US law with evangelical interpretations — threatening secular governance.",
+    "summary": "Governance system where religious law or authority structures political power. Ranges from Iran's Islamic Republic to Christian nationalist movements seeking to align US law with evangelical interpretations \u2014 threatening secular governance.",
     "tags": [
       "theocracy",
       "religious_nationalism",
@@ -2079,7 +2059,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Great_Society",
-    "summary": "LBJ's domestic legislation agenda 1964-68 creating Medicare, Medicaid, Voting Rights Act, and civil rights protections — the last major expansion of the American welfare state before the Reagan counter-revolution.",
+    "summary": "LBJ's domestic legislation agenda 1964-68 creating Medicare, Medicaid, Voting Rights Act, and civil rights protections \u2014 the last major expansion of the American welfare state before the Reagan counter-revolution.",
     "tags": [
       "Great_Society",
       "LBJ",
@@ -2100,7 +2080,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Bioethics",
-    "summary": "Field examining ethical implications of biological and medical research — covering abortion, end-of-life care, genetic engineering, AI diagnostics, clinical trial ethics, and equitable access to medical technology.",
+    "summary": "Field examining ethical implications of biological and medical research \u2014 covering abortion, end-of-life care, genetic engineering, AI diagnostics, clinical trial ethics, and equitable access to medical technology.",
     "tags": [
       "bioethics",
       "medical_ethics",
@@ -2122,7 +2102,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Gender_pay_gap",
-    "summary": "Women earning 82 cents for every dollar earned by men (US), driven by occupational segregation, discrimination, unpaid care work, and structural barriers to advancement — debated between structural and individual explanations.",
+    "summary": "Women earning 82 cents for every dollar earned by men (US), driven by occupational segregation, discrimination, unpaid care work, and structural barriers to advancement \u2014 debated between structural and individual explanations.",
     "tags": [
       "gender_pay_gap",
       "women",
@@ -2143,7 +2123,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Voter_suppression_in_the_United_States",
-    "summary": "Legal and extralegal tactics reducing voter participation of targeted groups — poll taxes, literacy tests, gerrymandering, voter ID laws, polling place closures, and voter roll purges — disproportionately affecting minorities and poor.",
+    "summary": "Legal and extralegal tactics reducing voter participation of targeted groups \u2014 poll taxes, literacy tests, gerrymandering, voter ID laws, polling place closures, and voter roll purges \u2014 disproportionately affecting minorities and poor.",
     "tags": [
       "voter_suppression",
       "gerrymandering",
@@ -2164,7 +2144,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Land_reform",
-    "summary": "Redistribution of agricultural land from large landowners to peasants or tenant farmers — central demand of revolutionary movements from Mexico to China, land reform success often determined revolutionary outcomes.",
+    "summary": "Redistribution of agricultural land from large landowners to peasants or tenant farmers \u2014 central demand of revolutionary movements from Mexico to China, land reform success often determined revolutionary outcomes.",
     "tags": [
       "land_reform",
       "agrarian_reform",
@@ -2186,7 +2166,7 @@
     "scope": "global/politics",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Food_sovereignty",
-    "summary": "Movement asserting the right of peoples to define their own food systems rather than being subject to international market forces — challenging corporate agriculture, GMO patents, and trade agreements destroying small farming.",
+    "summary": "Movement asserting the right of peoples to define their own food systems rather than being subject to international market forces \u2014 challenging corporate agriculture, GMO patents, and trade agreements destroying small farming.",
     "tags": [
       "food_sovereignty",
       "Via_Campesina",
@@ -2224,7 +2204,7 @@
     "decade": "1700s",
     "scope": "global/politics",
     "cross_scope": false,
-    "summary": "Independent journalism as a mechanism of democratic accountability — the 'Fourth Estate' that investigates and publicizes government and corporate wrongdoing that other institutions cannot police themselves. The Pentagon Papers, Watergate, Abu Ghraib, and Panama Papers all required independent press functioning without state control. Press freedom is correlated with lower corruption, better governance, and stronger democracy; its capture or suppression is a reliable leading indicator of democratic backsliding.",
+    "summary": "Independent journalism as a mechanism of democratic accountability \u2014 the 'Fourth Estate' that investigates and publicizes government and corporate wrongdoing that other institutions cannot police themselves. The Pentagon Papers, Watergate, Abu Ghraib, and Panama Papers all required independent press functioning without state control. Press freedom is correlated with lower corruption, better governance, and stronger democracy; its capture or suppression is a reliable leading indicator of democratic backsliding.",
     "tags": [
       "journalism",
       "democracy",
@@ -2242,7 +2222,7 @@
     "decade": "1800s",
     "scope": "global/politics",
     "cross_scope": false,
-    "summary": "The space of voluntary associations — churches, unions, civic groups, NGOs, professional bodies — that operates between the state and the family. Tocqueville identified civil society as the foundation of American democracy: it trains citizens in self-governance, creates organized capacity to resist state power, and generates social trust. Authoritarian states systematically suppress civil society precisely because organized voluntary association is the substrate from which political opposition grows. Robert Putnam documented its decline in America as 'bowling alone.'",
+    "summary": "The space of voluntary associations \u2014 churches, unions, civic groups, NGOs, professional bodies \u2014 that operates between the state and the family. Tocqueville identified civil society as the foundation of American democracy: it trains citizens in self-governance, creates organized capacity to resist state power, and generates social trust. Authoritarian states systematically suppress civil society precisely because organized voluntary association is the substrate from which political opposition grows. Robert Putnam documented its decline in America as 'bowling alone.'",
     "tags": [
       "democracy",
       "tocqueville",
@@ -2261,7 +2241,7 @@
     "decade": "1600s",
     "scope": "global/politics",
     "cross_scope": false,
-    "summary": "The treaty-based system of rules constraining state behavior in the absence of world government. From Grotius's foundational work (1625) through the Geneva Conventions, UN Charter, and Rome Statute, international law establishes norms for war, trade, human rights, and sovereignty. Its limitation is enforcement — it works best through reputational costs, economic pressure, and international institution access rather than coercion. Nevertheless, it has progressively constrained state behavior: the practice of colonialism, slavery, and aggressive war all went from legal to internationally criminal within 150 years.",
+    "summary": "The treaty-based system of rules constraining state behavior in the absence of world government. From Grotius's foundational work (1625) through the Geneva Conventions, UN Charter, and Rome Statute, international law establishes norms for war, trade, human rights, and sovereignty. Its limitation is enforcement \u2014 it works best through reputational costs, economic pressure, and international institution access rather than coercion. Nevertheless, it has progressively constrained state behavior: the practice of colonialism, slavery, and aggressive war all went from legal to internationally criminal within 150 years.",
     "tags": [
       "diplomacy",
       "un",
@@ -2281,7 +2261,7 @@
     "decade": "1700s",
     "scope": "global/politics",
     "cross_scope": false,
-    "summary": "The constitutional distribution of sovereignty between central and regional governments, creating redundant sites of political authority. Federalism prevents the concentration of power that enables national autocracy — when the center moves toward tyranny, states/provinces can resist; when states fail, the center can intervene. The U.S., Germany, India, Canada, and Switzerland are studied models. Federalism also enables policy experimentation: states function as 'laboratories of democracy' where innovations can be tested before national adoption. Its weakness is that it can protect local majority tyranny (Jim Crow) against national standards.",
+    "summary": "The constitutional distribution of sovereignty between central and regional governments, creating redundant sites of political authority. Federalism prevents the concentration of power that enables national autocracy \u2014 when the center moves toward tyranny, states/provinces can resist; when states fail, the center can intervene. The U.S., Germany, India, Canada, and Switzerland are studied models. Federalism also enables policy experimentation: states function as 'laboratories of democracy' where innovations can be tested before national adoption. Its weakness is that it can protect local majority tyranny (Jim Crow) against national standards.",
     "tags": [
       "constitution",
       "democracy",

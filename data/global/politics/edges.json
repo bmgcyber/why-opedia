@@ -567,8 +567,8 @@
     "confidence": "high"
   },
   {
-    "id": "franklin_roosevelt__d_day_normandy",
-    "source": "franklin_roosevelt",
+    "id": "franklin_d_roosevelt__d_day_normandy",
+    "source": "franklin_d_roosevelt",
     "target": "d_day_normandy",
     "type": "ENABLED",
     "label": "Roosevelt sustained Allied coalition and insisted on cross-channel invasion over Churchill Mediterranean strategy",
@@ -576,8 +576,8 @@
     "confidence": "high"
   },
   {
-    "id": "franklin_roosevelt__atomic_bombing_hiroshima",
-    "source": "franklin_roosevelt",
+    "id": "franklin_d_roosevelt__atomic_bombing_hiroshima",
+    "source": "franklin_d_roosevelt",
     "target": "atomic_bombing_hiroshima",
     "type": "ENABLED",
     "label": "Roosevelt authorized the Manhattan Project that produced the bomb Truman ultimately used",
@@ -1215,8 +1215,8 @@
     "confidence": "high"
   },
   {
-    "id": "franklin_roosevelt__new_deal",
-    "source": "franklin_roosevelt",
+    "id": "franklin_d_roosevelt__new_deal",
+    "source": "franklin_d_roosevelt",
     "target": "new_deal",
     "type": "PRODUCED",
     "label": "FDR's New Deal was the most ambitious peacetime expansion of federal government power in American history",
@@ -1590,15 +1590,6 @@
     "type": "ENABLED",
     "label": "Modern voter suppression revives Jim Crow disenfranchisement tactics through neutral-seeming procedural restrictions that disparately impact Black voters",
     "note": "Modern voter suppression laws revive Jim Crow tactics in legally race-neutral packaging: voter ID laws (Black Americans disproportionately lack required ID), purging voter rolls (purges disproportionately target Black and Latino voters), closing polling places in minority areas, limiting early voting and Sunday voting (Black churches' \"souls to the polls\"). The Shelby County v. Holder (2013) Supreme Court decision gutted the Voting Rights Act's preclearance requirement \u2014 within hours of the decision, states began passing voter suppression legislation. The structural continuity from Jim Crow poll taxes and literacy tests to modern voter ID laws is recognized by civil rights scholars.",
-    "confidence": "high"
-  },
-  {
-    "id": "franklin_d_roosevelt__new_deal",
-    "source": "franklin_d_roosevelt",
-    "target": "new_deal",
-    "type": "PRODUCED",
-    "label": "FDR designed and implemented the New Deal as a pragmatic response to the Great Depression's political and economic crisis",
-    "note": "FDR created the New Deal through three phases of legislation (1933-1938): First New Deal (banking reform, FDIC, farm policy, CCC); Second New Deal (Wagner Act, Social Security, WPA); Third New Deal (Fair Labor Standards Act). FDR's approach was pragmatic rather than ideological \u2014 he tried things, kept what worked, abandoned what did not. His Brain Trust (economists, academics, lawyers) produced a flood of legislation in the First Hundred Days. FDR's political genius was framing New Deal programs as saving capitalism from itself, rather than replacing it \u2014 defusing revolutionary pressure while providing economic relief.",
     "confidence": "high"
   },
   {
