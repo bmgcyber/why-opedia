@@ -130,21 +130,18 @@
     ]);
 
     const allNodes = [];
-    const allEdges = [];
-    const seenEdgeIds = new Set();
 
-    for (const { nodes, edges } of results) {
+    for (const { nodes } of results) {
       for (const n of nodes) {
         // Skip portal nodes from global/ — we'll add fresh ones
         if (n.category !== 'portal') allNodes.push(n);
       }
-      for (const e of edges) {
-        if (!seenEdgeIds.has(e.id)) {
-          allEdges.push(e);
-          seenEdgeIds.add(e.id);
-        }
-      }
     }
+
+    // Global view shows only cross-scope (mechanism) edges — intra-scope edges are
+    // only meaningful inside their scope and contribute to the "hairball" at global scale.
+    // This cuts ~1,600 edges from the force simulation without losing causal information.
+    const allEdges = [...mechEdges];
 
     // Add portal nodes for each sub-scope with node counts
     const portals = await generatePortalsForScope('global');

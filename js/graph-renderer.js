@@ -127,6 +127,9 @@ let semanticZoomActive = false;
 // Label sprites (id → sprite)
 const labelSprites = {};
 
+// Label texture cache — persists across scope changes (texture = f(text, color) only)
+const labelTextureCache = {};
+
 // ── External callbacks (set by app.js) ───────────────────────────────────────
 let onNodeClickCb  = null;
 let onNodeDblClickCb = null;
@@ -199,23 +202,17 @@ function initRenderer(containerEl) {
 
   addStarField(scene);
 
-  // Portal pulsing animation (doesn't interfere with 3d-force-graph's RAF loop)
+  // Combined pulse animation — portals (6.3s period) + mechanism nodes (20.1s period).
+  // mechPulsePhase increment scaled from 0.025@80ms → 0.015625@50ms to preserve same period.
   setInterval(() => {
     pulsePhase += 0.05;
-    const pulse = 0.3 + 0.7 * Math.abs(Math.sin(pulsePhase));
-    for (const mat of portalMaterials) {
-      mat.emissiveIntensity = pulse;
-    }
-  }, 50);
+    const portalPulse = 0.3 + 0.7 * Math.abs(Math.sin(pulsePhase));
+    for (const mat of portalMaterials) mat.emissiveIntensity = portalPulse;
 
-  // Cross-scope mechanism slow breathing pulse (lower frequency than portals)
-  setInterval(() => {
-    mechPulsePhase += 0.025;
-    const pulse = 0.15 + 0.35 * Math.abs(Math.sin(mechPulsePhase));
-    for (const mat of mechMaterials) {
-      mat.emissiveIntensity = pulse;
-    }
-  }, 80);
+    mechPulsePhase += 0.015625;
+    const mechPulse = 0.15 + 0.35 * Math.abs(Math.sin(mechPulsePhase));
+    for (const mat of mechMaterials) mat.emissiveIntensity = mechPulse;
+  }, 50);
 
   // Label visibility + semantic zoom update when camera moves
   function onCameraChange() {
@@ -310,25 +307,33 @@ function buildNodeObject(node) {
 
 // ── Label sprite factory ──────────────────────────────────────────────────────
 function makeLabelSprite(text, color, nodeSize) {
-  const canvas = document.createElement('canvas');
-  canvas.width = 320;
-  canvas.height = 56;
-  const ctx = canvas.getContext('2d');
+  // Texture depends only on text + color — cache across scope changes to avoid
+  // recreating 1000+ canvas elements on every scope navigation.
+  const cacheKey = text + '|' + (color || '#c8cce0');
+  let texture = labelTextureCache[cacheKey];
+  if (!texture) {
+    const canvas = document.createElement('canvas');
+    canvas.width = 320;
+    canvas.height = 56;
+    const ctx = canvas.getContext('2d');
 
-  // Background pill
-  ctx.fillStyle = 'rgba(13, 17, 23, 0.75)';
-  roundRect(ctx, 0, 0, canvas.width, canvas.height, 8);
-  ctx.fill();
+    // Background pill
+    ctx.fillStyle = 'rgba(13, 17, 23, 0.75)';
+    roundRect(ctx, 0, 0, canvas.width, canvas.height, 8);
+    ctx.fill();
 
-  // Text
-  ctx.font = 'bold 20px -apple-system, system-ui, sans-serif';
-  ctx.fillStyle = color || '#c8cce0';
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
-  const label = text.length > 24 ? text.slice(0, 23) + '…' : text;
-  ctx.fillText(label, canvas.width / 2, canvas.height / 2);
+    // Text
+    ctx.font = 'bold 20px -apple-system, system-ui, sans-serif';
+    ctx.fillStyle = color || '#c8cce0';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    const label = text.length > 24 ? text.slice(0, 23) + '…' : text;
+    ctx.fillText(label, canvas.width / 2, canvas.height / 2);
 
-  const texture  = new THREE.CanvasTexture(canvas);
+    texture = new THREE.CanvasTexture(canvas);
+    labelTextureCache[cacheKey] = texture;
+  }
+
   const material = new THREE.SpriteMaterial({ map: texture, depthWrite: false, transparent: true });
   const sprite   = new THREE.Sprite(material);
   sprite.scale.set(28, 5, 1);
@@ -404,14 +409,36 @@ function computeTiers(nodes) {
 }
 
 // Called from filter-manager to enable/disable distance-based visibility.
-// When enabled, camera distance drives visibility. When disabled, the caller
-// controls visibility via setNodeVisibility/dimToNeighborhood.
-function setSemanticZoom(_enabled) {
-  // Semantic zoom disabled — all nodes always visible regardless of camera distance.
+// When enabled, camera distance drives tier visibility. When disabled, the caller
+// controls visibility via setNodeVisibility / dimToNeighborhood.
+function setSemanticZoom(enabled) {
+  semanticZoomActive = !!enabled;
+  if (semanticZoomActive) applySemanticZoom();
 }
 
+// Camera-distance-based LOD. Only active when no filters are applied (semanticZoomActive=true).
+// Writes directly to node.__threeObj.visible — does NOT call graphInstance.nodeVisibility()
+// (which would trigger a full re-render and fight the filter system).
+//
+// Distance thresholds (camera dist from scene origin):
+//   Tier 1 (top 25% by degree): always visible
+//   Tier 2 (next 35%):          visible when dist < 1200
+//   Tier 3 (bottom 40%):        visible when dist < 400
+// Portals, ghosts, and mechanism nodes (not in nodeTiers) are always visible.
 function applySemanticZoom() {
-  // Semantic zoom disabled.
+  if (!semanticZoomActive) return;
+  if (!graphInstance || !currentGraphData) return;
+  if (currentGraphData.nodes.length <= 200) return;  // LOD not needed for small scopes
+
+  const dist = graphInstance.camera().position.length();
+
+  for (const node of currentGraphData.nodes) {
+    const obj = node.__threeObj;
+    if (!obj) continue;
+    const tier = nodeTiers[node.id];
+    if (tier === undefined) { obj.visible = true; continue; }  // portals, ghosts
+    obj.visible = tier === 1 || (tier === 2 && dist < 1200) || (tier === 3 && dist < 400);
+  }
 }
 
 // ── Load graph data ───────────────────────────────────────────────────────────
@@ -452,10 +479,25 @@ function loadGraphData(nodes, edges) {
 
   currentGraphData = { nodes, links };
 
-  // Clear old label sprites and material references
+  // Clear old label sprites and material references.
+  // NOTE: labelTextureCache is intentionally NOT cleared — textures are valid across scopes.
   for (const key of Object.keys(labelSprites)) delete labelSprites[key];
   portalMaterials.length = 0;
   mechMaterials.length = 0;
+
+  // Adaptive simulation parameters — scale aggressiveness to graph size.
+  // Large graphs (500+ nodes): fast convergence, no particles/arrows (unreadable at scale).
+  // Medium graphs (200-500): moderate. Small: full quality.
+  const nodeCount = nodes.length;
+  const isLarge  = nodeCount > 500;
+  const isMedium = nodeCount > 200 && !isLarge;
+  graphInstance
+    .d3AlphaDecay(isLarge ? 0.05 : isMedium ? 0.03 : 0.02)
+    .d3VelocityDecay(isLarge ? 0.4 : isMedium ? 0.3 : 0.25)
+    .warmupTicks(isLarge ? (isMobile ? 20 : 50) : isMedium ? 100 : (isMobile ? 50 : 150))
+    .cooldownTicks(isLarge ? 100 : isMedium ? 150 : 200)
+    .linkDirectionalParticles(isLarge || isMobile ? 0 : 1)
+    .linkDirectionalArrowLength(isLarge || isMobile ? 0 : 4);
 
   graphInstance.graphData(currentGraphData);
 
