@@ -8480,2107 +8480,2107 @@
     "id": "abraham_lincoln__structural_violence",
     "source": "abraham_lincoln",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "abraham_lincoln__systemic_racism",
     "source": "abraham_lincoln",
     "target": "systemic_racism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "abraham_lincoln__manufactured_consent",
     "source": "abraham_lincoln",
     "target": "manufactured_consent",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "thaddeus_stevens__structural_violence",
     "source": "thaddeus_stevens",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "rosa_parks__nonviolent_resistance",
     "source": "rosa_parks",
     "target": "nonviolent_resistance",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "rosa_parks__structural_violence",
     "source": "rosa_parks",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "rosa_parks__moral_panic",
     "source": "rosa_parks",
     "target": "moral_panic",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "susan_b_anthony__structural_violence",
     "source": "susan_b_anthony",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "susan_b_anthony__legal_mobilization",
     "source": "susan_b_anthony",
     "target": "legal_mobilization",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "elizabeth_cady_stanton__structural_violence",
     "source": "elizabeth_cady_stanton",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "emmeline_pankhurst__structural_violence",
     "source": "emmeline_pankhurst",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "emmeline_pankhurst__moral_panic",
     "source": "emmeline_pankhurst",
     "target": "moral_panic",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "thurgood_marshall__legal_mobilization",
     "source": "thurgood_marshall",
     "target": "legal_mobilization",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "thurgood_marshall__systemic_racism",
     "source": "thurgood_marshall",
     "target": "systemic_racism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "john_lewis__nonviolent_resistance",
     "source": "john_lewis",
     "target": "nonviolent_resistance",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "john_lewis__structural_violence",
     "source": "john_lewis",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "medgar_evers__structural_violence",
     "source": "medgar_evers",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "medgar_evers__systemic_racism",
     "source": "medgar_evers",
     "target": "systemic_racism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "thomas_paine__propaganda",
     "source": "thomas_paine",
     "target": "propaganda",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "thomas_paine__social_contract_theory",
     "source": "thomas_paine",
     "target": "social_contract_theory",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "thomas_paine__manufactured_consent",
     "source": "thomas_paine",
     "target": "manufactured_consent",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "benjamin_franklin__propaganda",
     "source": "benjamin_franklin",
     "target": "propaganda",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "benjamin_franklin__social_contract_theory",
     "source": "benjamin_franklin",
     "target": "social_contract_theory",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "augustus_caesar__manufactured_consent",
     "source": "augustus_caesar",
     "target": "manufactured_consent",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "augustus_caesar__democratic_backsliding",
     "source": "augustus_caesar",
     "target": "democratic_backsliding",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "augustus_caesar__propaganda",
     "source": "augustus_caesar",
     "target": "propaganda",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "augustus_caesar__cult_dynamics",
     "source": "augustus_caesar",
     "target": "cult_dynamics",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "archduke_franz_ferdinand__in_group_out_group_dynamics",
     "source": "archduke_franz_ferdinand",
     "target": "in_group_out_group_dynamics",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "kaiser_wilhelm_ii__democratic_backsliding",
     "source": "kaiser_wilhelm_ii",
     "target": "democratic_backsliding",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "kaiser_wilhelm_ii__structural_violence",
     "source": "kaiser_wilhelm_ii",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "kaiser_wilhelm_ii__in_group_out_group_dynamics",
     "source": "kaiser_wilhelm_ii",
     "target": "in_group_out_group_dynamics",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "adolf_eichmann__dehumanization",
     "source": "adolf_eichmann",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "adolf_eichmann__moral_disengagement",
     "source": "adolf_eichmann",
     "target": "moral_disengagement",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "adolf_eichmann__groupthink",
     "source": "adolf_eichmann",
     "target": "groupthink",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "napoleon_iii__populism",
     "source": "napoleon_iii",
     "target": "populism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "napoleon_iii__democratic_backsliding",
     "source": "napoleon_iii",
     "target": "democratic_backsliding",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "otto_von_bismarck__welfare_state",
     "source": "otto_von_bismarck",
     "target": "welfare_state",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "otto_von_bismarck__manufactured_consent",
     "source": "otto_von_bismarck",
     "target": "manufactured_consent",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "louis_xvi__democratic_backsliding",
     "source": "louis_xvi",
     "target": "democratic_backsliding",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "cardinal_richelieu__in_group_out_group_dynamics",
     "source": "cardinal_richelieu",
     "target": "in_group_out_group_dynamics",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "cardinal_richelieu__manufactured_consent",
     "source": "cardinal_richelieu",
     "target": "manufactured_consent",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "gustavus_adolphus__in_group_out_group_dynamics",
     "source": "gustavus_adolphus",
     "target": "in_group_out_group_dynamics",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "william_wilberforce__structural_violence",
     "source": "william_wilberforce",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "william_wilberforce__dehumanization",
     "source": "william_wilberforce",
     "target": "dehumanization",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "ferdinand_isabella__dehumanization",
     "source": "ferdinand_isabella",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "ferdinand_isabella__in_group_out_group_dynamics",
     "source": "ferdinand_isabella",
     "target": "in_group_out_group_dynamics",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "ferdinand_isabella__imperialism",
     "source": "ferdinand_isabella",
     "target": "imperialism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "ferdinand_isabella__propaganda",
     "source": "ferdinand_isabella",
     "target": "propaganda",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "matthias_hopkins__moral_panic",
     "source": "matthias_hopkins",
     "target": "moral_panic",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "matthias_hopkins__dehumanization",
     "source": "matthias_hopkins",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "matthias_hopkins__scapegoating",
     "source": "matthias_hopkins",
     "target": "scapegoating",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "pope_urban_ii__radicalization_pipeline",
     "source": "pope_urban_ii",
     "target": "radicalization_pipeline",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "pope_urban_ii__in_group_out_group_dynamics",
     "source": "pope_urban_ii",
     "target": "in_group_out_group_dynamics",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "pope_urban_ii__propaganda",
     "source": "pope_urban_ii",
     "target": "propaganda",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "pope_urban_ii__church_state_entanglement",
     "source": "pope_urban_ii",
     "target": "church_state_entanglement",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "slobodan_milosevic__democratic_backsliding",
     "source": "slobodan_milosevic",
     "target": "democratic_backsliding",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "slobodan_milosevic__in_group_out_group_dynamics",
     "source": "slobodan_milosevic",
     "target": "in_group_out_group_dynamics",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "slobodan_milosevic__propaganda",
     "source": "slobodan_milosevic",
     "target": "propaganda",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "slobodan_milosevic__dehumanization",
     "source": "slobodan_milosevic",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "radovan_karadzic__dehumanization",
     "source": "radovan_karadzic",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "radovan_karadzic__in_group_out_group_dynamics",
     "source": "radovan_karadzic",
     "target": "in_group_out_group_dynamics",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "radovan_karadzic__propaganda",
     "source": "radovan_karadzic",
     "target": "propaganda",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "steve_biko__structural_violence",
     "source": "steve_biko",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "steve_biko__dehumanization",
     "source": "steve_biko",
     "target": "dehumanization",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "steve_biko__cultural_hegemony",
     "source": "steve_biko",
     "target": "cultural_hegemony",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "desmond_tutu__structural_violence",
     "source": "desmond_tutu",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "desmond_tutu__collective_trauma",
     "source": "desmond_tutu",
     "target": "collective_trauma",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "desmond_tutu__in_group_out_group_dynamics",
     "source": "desmond_tutu",
     "target": "in_group_out_group_dynamics",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "mustafa_kemal_ataturk__historical_revisionism",
     "source": "mustafa_kemal_ataturk",
     "target": "historical_revisionism",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "mustafa_kemal_ataturk__manufactured_consent",
     "source": "mustafa_kemal_ataturk",
     "target": "manufactured_consent",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "mustafa_kemal_ataturk__in_group_out_group_dynamics",
     "source": "mustafa_kemal_ataturk",
     "target": "in_group_out_group_dynamics",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "mustafa_kemal_ataturk__cultural_hegemony",
     "source": "mustafa_kemal_ataturk",
     "target": "cultural_hegemony",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "enver_pasha__dehumanization",
     "source": "enver_pasha",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "enver_pasha__structural_violence",
     "source": "enver_pasha",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "enver_pasha__scapegoating",
     "source": "enver_pasha",
     "target": "scapegoating",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "enver_pasha__in_group_out_group_dynamics",
     "source": "enver_pasha",
     "target": "in_group_out_group_dynamics",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "saddam_hussein__dehumanization",
     "source": "saddam_hussein",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "saddam_hussein__structural_violence",
     "source": "saddam_hussein",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "saddam_hussein__democratic_backsliding",
     "source": "saddam_hussein",
     "target": "democratic_backsliding",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "saddam_hussein__manufactured_consent",
     "source": "saddam_hussein",
     "target": "manufactured_consent",
-    "relation": "PROVIDED_COVER_FOR"
+    "type": "PROVIDED_COVER_FOR"
   },
   {
     "id": "kublai_khan__structural_violence",
     "source": "kublai_khan",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "kublai_khan__imperialism",
     "source": "kublai_khan",
     "target": "imperialism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "sun_yat_sen__democratic_backsliding",
     "source": "sun_yat_sen",
     "target": "democratic_backsliding",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "sun_yat_sen__in_group_out_group_dynamics",
     "source": "sun_yat_sen",
     "target": "in_group_out_group_dynamics",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "chiang_kai_shek__democratic_backsliding",
     "source": "chiang_kai_shek",
     "target": "democratic_backsliding",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "chiang_kai_shek__structural_violence",
     "source": "chiang_kai_shek",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "deng_xiaoping__wealth_concentration",
     "source": "deng_xiaoping",
     "target": "wealth_concentration",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "deng_xiaoping__regulatory_capture",
     "source": "deng_xiaoping",
     "target": "regulatory_capture",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "deng_xiaoping__supply_side_economics",
     "source": "deng_xiaoping",
     "target": "supply_side_economics",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "emperor_meiji__manufactured_consent",
     "source": "emperor_meiji",
     "target": "manufactured_consent",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "emperor_meiji__cultural_hegemony",
     "source": "emperor_meiji",
     "target": "cultural_hegemony",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "emperor_meiji__propaganda",
     "source": "emperor_meiji",
     "target": "propaganda",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "ito_hirobumi__imperialism",
     "source": "ito_hirobumi",
     "target": "imperialism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "ito_hirobumi__manufactured_consent",
     "source": "ito_hirobumi",
     "target": "manufactured_consent",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "judah_maccabee__in_group_out_group_dynamics",
     "source": "judah_maccabee",
     "target": "in_group_out_group_dynamics",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "fulgencio_batista__democratic_backsliding",
     "source": "fulgencio_batista",
     "target": "democratic_backsliding",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "fulgencio_batista__structural_violence",
     "source": "fulgencio_batista",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "emiliano_zapata__structural_violence",
     "source": "emiliano_zapata",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "emiliano_zapata__class_consciousness",
     "source": "emiliano_zapata",
     "target": "class_consciousness",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "pancho_villa__structural_violence",
     "source": "pancho_villa",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "pancho_villa__populism",
     "source": "pancho_villa",
     "target": "populism",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "henri_christophe__structural_violence",
     "source": "henri_christophe",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "henri_christophe__preference_falsification",
     "source": "henri_christophe",
     "target": "preference_falsification",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "christopher_columbus__dehumanization",
     "source": "christopher_columbus",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "christopher_columbus__resource_extraction",
     "source": "christopher_columbus",
     "target": "resource_extraction",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "christopher_columbus__imperialism",
     "source": "christopher_columbus",
     "target": "imperialism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "christopher_columbus__structural_violence",
     "source": "christopher_columbus",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "hernan_cortes__dehumanization",
     "source": "hernan_cortes",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "hernan_cortes__resource_extraction",
     "source": "hernan_cortes",
     "target": "resource_extraction",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "hernan_cortes__imperialism",
     "source": "hernan_cortes",
     "target": "imperialism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "hernan_cortes__structural_violence",
     "source": "hernan_cortes",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "vasco_da_gama__imperialism",
     "source": "vasco_da_gama",
     "target": "imperialism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "vasco_da_gama__resource_extraction",
     "source": "vasco_da_gama",
     "target": "resource_extraction",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "vasco_da_gama__structural_violence",
     "source": "vasco_da_gama",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "nicolaus_copernicus__manufactured_scientific_doubt",
     "source": "nicolaus_copernicus",
     "target": "manufactured_scientific_doubt",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "nicolaus_copernicus__church_state_entanglement",
     "source": "nicolaus_copernicus",
     "target": "church_state_entanglement",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "nicolaus_copernicus__broken_epistemology",
     "source": "nicolaus_copernicus",
     "target": "broken_epistemology",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "milton_friedman__supply_side_economics",
     "source": "milton_friedman",
     "target": "supply_side_economics",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "milton_friedman__neoliberalism_ideology",
     "source": "milton_friedman",
     "target": "neoliberalism_ideology",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "milton_friedman__austerity",
     "source": "milton_friedman",
     "target": "austerity",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "milton_friedman__trickle_down_economics",
     "source": "milton_friedman",
     "target": "trickle_down_economics",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "milton_friedman__regulatory_capture",
     "source": "milton_friedman",
     "target": "regulatory_capture",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "milton_friedman__wealth_inequality",
     "source": "milton_friedman",
     "target": "wealth_inequality",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "john_maynard_keynes__keynesianism",
     "source": "john_maynard_keynes",
     "target": "keynesianism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "john_maynard_keynes__welfare_state",
     "source": "john_maynard_keynes",
     "target": "welfare_state",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "john_maynard_keynes__supply_side_economics",
     "source": "john_maynard_keynes",
     "target": "supply_side_economics",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "john_maynard_keynes__austerity",
     "source": "john_maynard_keynes",
     "target": "austerity",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "andrew_carnegie__wealth_concentration",
     "source": "andrew_carnegie",
     "target": "wealth_concentration",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "andrew_carnegie__regulatory_capture",
     "source": "andrew_carnegie",
     "target": "regulatory_capture",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "andrew_carnegie__wage_suppression",
     "source": "andrew_carnegie",
     "target": "wage_suppression",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "andrew_carnegie__monopolization",
     "source": "andrew_carnegie",
     "target": "monopolization",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "francis_galton__dehumanization",
     "source": "francis_galton",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "francis_galton__manufactured_scientific_doubt",
     "source": "francis_galton",
     "target": "manufactured_scientific_doubt",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "francis_galton__institutional_credibility_laundering",
     "source": "francis_galton",
     "target": "institutional_credibility_laundering",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "francis_galton__scientific_consensus",
     "source": "francis_galton",
     "target": "scientific_consensus",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "jean_paul_sartre__false_consciousness",
     "source": "jean_paul_sartre",
     "target": "false_consciousness",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "simone_de_beauvoir__structural_violence",
     "source": "simone_de_beauvoir",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "simone_de_beauvoir__false_consciousness",
     "source": "simone_de_beauvoir",
     "target": "false_consciousness",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "simone_de_beauvoir__cultural_hegemony",
     "source": "simone_de_beauvoir",
     "target": "cultural_hegemony",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "michel_foucault__structural_violence",
     "source": "michel_foucault",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "michel_foucault__propaganda",
     "source": "michel_foucault",
     "target": "propaganda",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "michel_foucault__manufactured_consent",
     "source": "michel_foucault",
     "target": "manufactured_consent",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "michel_foucault__surveillance_capitalism",
     "source": "michel_foucault",
     "target": "surveillance_capitalism",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "noam_chomsky__manufactured_consent",
     "source": "noam_chomsky",
     "target": "manufactured_consent",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "noam_chomsky__propaganda",
     "source": "noam_chomsky",
     "target": "propaganda",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "noam_chomsky__imperialism",
     "source": "noam_chomsky",
     "target": "imperialism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "noam_chomsky__info_ecosystem_collapse",
     "source": "noam_chomsky",
     "target": "info_ecosystem_collapse",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "gustavo_gutierrez__structural_violence",
     "source": "gustavo_gutierrez",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "gustavo_gutierrez__class_consciousness",
     "source": "gustavo_gutierrez",
     "target": "class_consciousness",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "gustavo_gutierrez__false_consciousness",
     "source": "gustavo_gutierrez",
     "target": "false_consciousness",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "taharqa__imperialism",
     "source": "taharqa",
     "target": "imperialism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "marcus_aurelius__stoicism",
     "source": "marcus_aurelius",
     "target": "stoicism",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "marcus_aurelius__structural_violence",
     "source": "marcus_aurelius",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "marcus_aurelius__democratic_backsliding",
     "source": "marcus_aurelius",
     "target": "democratic_backsliding",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "henry_v_england__manufactured_consent",
     "source": "henry_v_england",
     "target": "manufactured_consent",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "henry_v_england__propaganda",
     "source": "henry_v_england",
     "target": "propaganda",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "henry_v_england__in_group_out_group_dynamics",
     "source": "henry_v_england",
     "target": "in_group_out_group_dynamics",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "duke_of_wellington__structural_violence",
     "source": "duke_of_wellington",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "fw_de_klerk__democratic_backsliding",
     "source": "fw_de_klerk",
     "target": "democratic_backsliding",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "fw_de_klerk__structural_violence",
     "source": "fw_de_klerk",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "porfirio_diaz__democratic_backsliding",
     "source": "porfirio_diaz",
     "target": "democratic_backsliding",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "porfirio_diaz__regulatory_capture",
     "source": "porfirio_diaz",
     "target": "regulatory_capture",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "porfirio_diaz__rent_seeking",
     "source": "porfirio_diaz",
     "target": "rent_seeking",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "kim_il_sung__cult_dynamics",
     "source": "kim_il_sung",
     "target": "cult_dynamics",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "kim_il_sung__manufactured_consent",
     "source": "kim_il_sung",
     "target": "manufactured_consent",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "kim_il_sung__preference_falsification",
     "source": "kim_il_sung",
     "target": "preference_falsification",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "kim_il_sung__democratic_backsliding",
     "source": "kim_il_sung",
     "target": "democratic_backsliding",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "harriet_beecher_stowe__propaganda",
     "source": "harriet_beecher_stowe",
     "target": "propaganda",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "harriet_beecher_stowe__manufactured_consent",
     "source": "harriet_beecher_stowe",
     "target": "manufactured_consent",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "ulysses_grant__structural_violence",
     "source": "ulysses_grant",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "ulysses_grant__systemic_racism",
     "source": "ulysses_grant",
     "target": "systemic_racism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "epicurus__utilitarianism",
     "source": "epicurus",
     "target": "utilitarianism",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "david_hume__broken_epistemology",
     "source": "david_hume",
     "target": "broken_epistemology",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "david_hume__social_contract_theory",
     "source": "david_hume",
     "target": "social_contract_theory",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "simone_weil__structural_violence",
     "source": "simone_weil",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "simone_weil__false_consciousness",
     "source": "simone_weil",
     "target": "false_consciousness",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "jose_marti__imperialism",
     "source": "jose_marti",
     "target": "imperialism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "jose_marti__in_group_out_group_dynamics",
     "source": "jose_marti",
     "target": "in_group_out_group_dynamics",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "robert_e_lee__lost_cause_mythology",
     "source": "robert_e_lee",
     "target": "lost_cause_mythology",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "robert_e_lee__historical_revisionism",
     "source": "robert_e_lee",
     "target": "historical_revisionism",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "robert_e_lee__manufactured_consent",
     "source": "robert_e_lee",
     "target": "manufactured_consent",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "olaudah_equiano__structural_violence",
     "source": "olaudah_equiano",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "olaudah_equiano__dehumanization",
     "source": "olaudah_equiano",
     "target": "dehumanization",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "aztec_empire__imperialism",
     "source": "aztec_empire",
     "target": "imperialism",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "aztec_empire__structural_violence",
     "source": "aztec_empire",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "maya_civilization__environmental_degradation",
     "source": "maya_civilization",
     "target": "environmental_degradation",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "maya_civilization__in_group_out_group_dynamics",
     "source": "maya_civilization",
     "target": "in_group_out_group_dynamics",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "inca_empire__structural_violence",
     "source": "inca_empire",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "inca_empire__resource_extraction",
     "source": "inca_empire",
     "target": "resource_extraction",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "spanish_conquest_mexico__dehumanization",
     "source": "spanish_conquest_mexico",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "spanish_conquest_mexico__structural_violence",
     "source": "spanish_conquest_mexico",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "spanish_conquest_mexico__resource_extraction",
     "source": "spanish_conquest_mexico",
     "target": "resource_extraction",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "spanish_conquest_mexico__historical_revisionism",
     "source": "spanish_conquest_mexico",
     "target": "historical_revisionism",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "spanish_conquest_peru__dehumanization",
     "source": "spanish_conquest_peru",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "spanish_conquest_peru__resource_extraction",
     "source": "spanish_conquest_peru",
     "target": "resource_extraction",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "spanish_conquest_peru__structural_violence",
     "source": "spanish_conquest_peru",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "columbian_exchange__resource_extraction",
     "source": "columbian_exchange",
     "target": "resource_extraction",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "columbian_exchange__imperialism",
     "source": "columbian_exchange",
     "target": "imperialism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "columbian_exchange__environmental_degradation",
     "source": "columbian_exchange",
     "target": "environmental_degradation",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "montezuma_ii__propaganda",
     "source": "montezuma_ii",
     "target": "propaganda",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "cuauhtemoc__nonviolent_resistance",
     "source": "cuauhtemoc",
     "target": "nonviolent_resistance",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "la_malinche__cultural_hegemony",
     "source": "la_malinche",
     "target": "cultural_hegemony",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "francisco_pizarro__dehumanization",
     "source": "francisco_pizarro",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "francisco_pizarro__resource_extraction",
     "source": "francisco_pizarro",
     "target": "resource_extraction",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "pachacuti__structural_violence",
     "source": "pachacuti",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "covid_19_pandemic__surveillance_capitalism",
     "source": "covid_19_pandemic",
     "target": "surveillance_capitalism",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "covid_19_pandemic__wealth_inequality",
     "source": "covid_19_pandemic",
     "target": "wealth_inequality",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "covid_19_pandemic__misinformation_economy",
     "source": "covid_19_pandemic",
     "target": "misinformation_economy",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "covid_19_pandemic__manufactured_consent",
     "source": "covid_19_pandemic",
     "target": "manufactured_consent",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "george_floyd_murder__structural_violence",
     "source": "george_floyd_murder",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "george_floyd_murder__dehumanization",
     "source": "george_floyd_murder",
     "target": "dehumanization",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "george_floyd_murder__systemic_racism",
     "source": "george_floyd_murder",
     "target": "systemic_racism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "blm_movement__structural_violence",
     "source": "blm_movement",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "blm_movement__systemic_racism",
     "source": "blm_movement",
     "target": "systemic_racism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "blm_movement__nonviolent_resistance",
     "source": "blm_movement",
     "target": "nonviolent_resistance",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "blm_movement__legitimate_grievance_capture",
     "source": "blm_movement",
     "target": "legitimate_grievance_capture",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "january_6_insurrection__democratic_backsliding",
     "source": "january_6_insurrection",
     "target": "democratic_backsliding",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "january_6_insurrection__propaganda",
     "source": "january_6_insurrection",
     "target": "propaganda",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "january_6_insurrection__in_group_out_group_dynamics",
     "source": "january_6_insurrection",
     "target": "in_group_out_group_dynamics",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "january_6_insurrection__manufactured_consent",
     "source": "january_6_insurrection",
     "target": "manufactured_consent",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "donald_trump__populism",
     "source": "donald_trump",
     "target": "populism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "donald_trump__democratic_backsliding",
     "source": "donald_trump",
     "target": "democratic_backsliding",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "donald_trump__propaganda",
     "source": "donald_trump",
     "target": "propaganda",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "donald_trump__manufactured_consent",
     "source": "donald_trump",
     "target": "manufactured_consent",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "donald_trump__in_group_out_group_dynamics",
     "source": "donald_trump",
     "target": "in_group_out_group_dynamics",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "donald_trump__scapegoating",
     "source": "donald_trump",
     "target": "scapegoating",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "donald_trump__lost_cause_mythology",
     "source": "donald_trump",
     "target": "lost_cause_mythology",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "ukraine_russia_war__propaganda",
     "source": "ukraine_russia_war",
     "target": "propaganda",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "ukraine_russia_war__structural_violence",
     "source": "ukraine_russia_war",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "ukraine_russia_war__in_group_out_group_dynamics",
     "source": "ukraine_russia_war",
     "target": "in_group_out_group_dynamics",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "metoo_movement__structural_violence",
     "source": "metoo_movement",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "metoo_movement__cultural_hegemony",
     "source": "metoo_movement",
     "target": "cultural_hegemony",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "metoo_movement__moral_panic",
     "source": "metoo_movement",
     "target": "moral_panic",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "greta_thunberg__manufactured_scientific_doubt",
     "source": "greta_thunberg",
     "target": "manufactured_scientific_doubt",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "greta_thunberg__climate_change_denial",
     "source": "greta_thunberg",
     "target": "climate_change_denial",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "climate_crisis_activism__manufactured_scientific_doubt",
     "source": "climate_crisis_activism",
     "target": "manufactured_scientific_doubt",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "climate_crisis_activism__climate_change_denial",
     "source": "climate_crisis_activism",
     "target": "climate_change_denial",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "climate_crisis_activism__environmental_degradation",
     "source": "climate_crisis_activism",
     "target": "environmental_degradation",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "smartphone_social_media_era__social_media_algorithms",
     "source": "smartphone_social_media_era",
     "target": "social_media_algorithms",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "smartphone_social_media_era__social_media_polarization",
     "source": "smartphone_social_media_era",
     "target": "social_media_polarization",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "smartphone_social_media_era__surveillance_capitalism",
     "source": "smartphone_social_media_era",
     "target": "surveillance_capitalism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "smartphone_social_media_era__filter_bubble",
     "source": "smartphone_social_media_era",
     "target": "filter_bubble",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "smartphone_social_media_era__outrage_optimization",
     "source": "smartphone_social_media_era",
     "target": "outrage_optimization",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "smartphone_social_media_era__misinformation_economy",
     "source": "smartphone_social_media_era",
     "target": "misinformation_economy",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "smartphone_social_media_era__radicalization_pipeline",
     "source": "smartphone_social_media_era",
     "target": "radicalization_pipeline",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "mali_empire__resource_extraction",
     "source": "mali_empire",
     "target": "resource_extraction",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "mali_empire__wealth_concentration",
     "source": "mali_empire",
     "target": "wealth_concentration",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "songhai_empire__resource_extraction",
     "source": "songhai_empire",
     "target": "resource_extraction",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "mansa_musa__wealth_concentration",
     "source": "mansa_musa",
     "target": "wealth_concentration",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "mansa_musa__imperialism",
     "source": "mansa_musa",
     "target": "imperialism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "sundiata_keita__in_group_out_group_dynamics",
     "source": "sundiata_keita",
     "target": "in_group_out_group_dynamics",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "ashanti_empire__structural_violence",
     "source": "ashanti_empire",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "ashanti_empire__dehumanization",
     "source": "ashanti_empire",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "battle_of_adwa__imperialism",
     "source": "battle_of_adwa",
     "target": "imperialism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "battle_of_adwa__dehumanization",
     "source": "battle_of_adwa",
     "target": "dehumanization",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "menelik_ii__imperialism",
     "source": "menelik_ii",
     "target": "imperialism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "kwame_nkrumah__imperialism",
     "source": "kwame_nkrumah",
     "target": "imperialism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "kwame_nkrumah__neoliberalism_ideology",
     "source": "kwame_nkrumah",
     "target": "neoliberalism_ideology",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "kwame_nkrumah__resource_extraction",
     "source": "kwame_nkrumah",
     "target": "resource_extraction",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "kwame_nkrumah__democratic_backsliding",
     "source": "kwame_nkrumah",
     "target": "democratic_backsliding",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "patrice_lumumba__imperialism",
     "source": "patrice_lumumba",
     "target": "imperialism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "patrice_lumumba__resource_extraction",
     "source": "patrice_lumumba",
     "target": "resource_extraction",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "patrice_lumumba__structural_violence",
     "source": "patrice_lumumba",
     "target": "structural_violence",
-    "relation": "FORCED_INTO"
+    "type": "FORCED_INTO"
   },
   {
     "id": "thomas_sankara__imperialism",
     "source": "thomas_sankara",
     "target": "imperialism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "thomas_sankara__structural_violence",
     "source": "thomas_sankara",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "thomas_sankara__class_consciousness",
     "source": "thomas_sankara",
     "target": "class_consciousness",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "thomas_sankara__austerity",
     "source": "thomas_sankara",
     "target": "austerity",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "maurya_empire__structural_violence",
     "source": "maurya_empire",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "ashoka__nonviolent_resistance",
     "source": "ashoka",
     "target": "nonviolent_resistance",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "ashoka__ahimsa_principle",
     "source": "ashoka",
     "target": "ahimsa_principle",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "ashoka__structural_violence",
     "source": "ashoka",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "ashoka__propaganda",
     "source": "ashoka",
     "target": "propaganda",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "chandragupta_maurya__structural_violence",
     "source": "chandragupta_maurya",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "mughal_empire__cultural_hegemony",
     "source": "mughal_empire",
     "target": "cultural_hegemony",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "mughal_empire__in_group_out_group_dynamics",
     "source": "mughal_empire",
     "target": "in_group_out_group_dynamics",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "akbar_the_great__in_group_out_group_dynamics",
     "source": "akbar_the_great",
     "target": "in_group_out_group_dynamics",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "akbar_the_great__cultural_hegemony",
     "source": "akbar_the_great",
     "target": "cultural_hegemony",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "akbar_the_great__church_state_entanglement",
     "source": "akbar_the_great",
     "target": "church_state_entanglement",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "aurangzeb__in_group_out_group_dynamics",
     "source": "aurangzeb",
     "target": "in_group_out_group_dynamics",
-    "relation": "EXPLOITED"
+    "type": "EXPLOITED"
   },
   {
     "id": "aurangzeb__structural_violence",
     "source": "aurangzeb",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "aurangzeb__church_state_entanglement",
     "source": "aurangzeb",
     "target": "church_state_entanglement",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "sepoy_mutiny__imperialism",
     "source": "sepoy_mutiny",
     "target": "imperialism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "sepoy_mutiny__structural_violence",
     "source": "sepoy_mutiny",
     "target": "structural_violence",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "bengal_famine_1943__structural_violence",
     "source": "bengal_famine_1943",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "bengal_famine_1943__austerity",
     "source": "bengal_famine_1943",
     "target": "austerity",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "bengal_famine_1943__dehumanization",
     "source": "bengal_famine_1943",
     "target": "dehumanization",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "bengal_famine_1943__imperialism",
     "source": "bengal_famine_1943",
     "target": "imperialism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "han_dynasty__confucian_social_order",
     "source": "han_dynasty",
     "target": "confucian_social_order",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "han_dynasty__structural_violence",
     "source": "han_dynasty",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "tang_dynasty__cultural_hegemony",
     "source": "tang_dynasty",
     "target": "cultural_hegemony",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "wu_zetian__democratic_backsliding",
     "source": "wu_zetian",
     "target": "democratic_backsliding",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "wu_zetian__in_group_out_group_dynamics",
     "source": "wu_zetian",
     "target": "in_group_out_group_dynamics",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "song_dynasty__manufactured_scientific_doubt",
     "source": "song_dynasty",
     "target": "manufactured_scientific_doubt",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "ming_dynasty__imperialism",
     "source": "ming_dynasty",
     "target": "imperialism",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "zheng_he__imperialism",
     "source": "zheng_he",
     "target": "imperialism",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "opium_wars__imperialism",
     "source": "opium_wars",
     "target": "imperialism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "opium_wars__resource_extraction",
     "source": "opium_wars",
     "target": "resource_extraction",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "opium_wars__structural_violence",
     "source": "opium_wars",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "opium_wars__manufactured_consent",
     "source": "opium_wars",
     "target": "manufactured_consent",
-    "relation": "PROVIDED_COVER_FOR"
+    "type": "PROVIDED_COVER_FOR"
   },
   {
     "id": "taiping_rebellion__structural_violence",
     "source": "taiping_rebellion",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "taiping_rebellion__cult_dynamics",
     "source": "taiping_rebellion",
     "target": "cult_dynamics",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "taiping_rebellion__radicalization_pipeline",
     "source": "taiping_rebellion",
     "target": "radicalization_pipeline",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "tiananmen_square_1989__democratic_backsliding",
     "source": "tiananmen_square_1989",
     "target": "democratic_backsliding",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "tiananmen_square_1989__historical_revisionism",
     "source": "tiananmen_square_1989",
     "target": "historical_revisionism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "tiananmen_square_1989__preference_falsification",
     "source": "tiananmen_square_1989",
     "target": "preference_falsification",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "tiananmen_square_1989__structural_violence",
     "source": "tiananmen_square_1989",
     "target": "structural_violence",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "tiananmen_square_1989__manufactured_consent",
     "source": "tiananmen_square_1989",
     "target": "manufactured_consent",
-    "relation": "NORMALIZED"
+    "type": "NORMALIZED"
   },
   {
     "id": "adam_smith__laissez_faire_capitalism",
     "source": "adam_smith",
     "target": "laissez_faire_capitalism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "adam_smith__chicago_school_economics",
     "source": "adam_smith",
     "target": "chicago_school_economics",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "milton_friedman__chicago_school_economics",
     "source": "milton_friedman",
     "target": "chicago_school_economics",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "milton_friedman__shock_doctrine",
     "source": "milton_friedman",
     "target": "shock_doctrine",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "milton_friedman__neoliberalism",
     "source": "milton_friedman",
     "target": "neoliberalism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "milton_friedman__market_fundamentalism",
     "source": "milton_friedman",
     "target": "market_fundamentalism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "john_maynard_keynes__great_depression_economics",
     "source": "john_maynard_keynes",
     "target": "great_depression_economics",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "john_maynard_keynes__new_deal",
     "source": "john_maynard_keynes",
     "target": "new_deal",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "andrew_carnegie__gilded_age",
     "source": "andrew_carnegie",
     "target": "gilded_age",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "john_d_rockefeller__gilded_age",
     "source": "john_d_rockefeller",
     "target": "gilded_age",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "karl_marx__false_consciousness_economics",
     "source": "karl_marx",
     "target": "false_consciousness_economics",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "karl_marx__primitive_accumulation",
     "source": "karl_marx",
     "target": "primitive_accumulation",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "karl_marx__labor_movement_suppression",
     "source": "karl_marx",
     "target": "labor_movement_suppression",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "great_depression__great_depression_economics",
     "source": "great_depression",
     "target": "great_depression_economics",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "industrial_revolution__gilded_age",
     "source": "industrial_revolution",
     "target": "gilded_age",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "industrial_revolution__primitive_accumulation",
     "source": "industrial_revolution",
     "target": "primitive_accumulation",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "industrial_revolution__laissez_faire_capitalism",
     "source": "industrial_revolution",
     "target": "laissez_faire_capitalism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "enclosure_movement__primitive_accumulation",
     "source": "enclosure_movement",
     "target": "primitive_accumulation",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "enclosure_movement__enclosure_movement_economics",
     "source": "enclosure_movement",
     "target": "enclosure_movement_economics",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "enclosure_movement__laissez_faire_capitalism",
     "source": "enclosure_movement",
     "target": "laissez_faire_capitalism",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "atlantic_slave_trade__primitive_accumulation",
     "source": "atlantic_slave_trade",
     "target": "primitive_accumulation",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "colonial_era__primitive_accumulation",
     "source": "colonial_era",
     "target": "primitive_accumulation",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "haitian_indemnity__debt_trap",
     "source": "haitian_indemnity",
     "target": "debt_trap",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "haitian_indemnity__imf_structural_adjustment",
     "source": "haitian_indemnity",
     "target": "imf_structural_adjustment",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "irish_famine__laissez_faire_capitalism",
     "source": "irish_famine",
     "target": "laissez_faire_capitalism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "chile_coup_1973__shock_doctrine",
     "source": "chile_coup_1973",
     "target": "shock_doctrine",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "chile_coup_1973__neoliberalism",
     "source": "chile_coup_1973",
     "target": "neoliberalism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "latin_american_dirty_wars__shock_doctrine",
     "source": "latin_american_dirty_wars",
     "target": "shock_doctrine",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "robber_barons__gilded_age",
     "source": "robber_barons",
     "target": "gilded_age",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "robber_barons__monopolization",
     "source": "robber_barons",
     "target": "monopolization",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "robber_barons__labor_movement_suppression",
     "source": "robber_barons",
     "target": "labor_movement_suppression",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "covid_19_pandemic__financial_crisis_2008",
     "source": "covid_19_pandemic",
     "target": "financial_crisis_2008",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "covid_19_pandemic__income_inequality",
     "source": "covid_19_pandemic",
     "target": "income_inequality",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "covid_19_pandemic__precariat_class",
     "source": "covid_19_pandemic",
     "target": "precariat_class",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "opium_wars__primitive_accumulation",
     "source": "opium_wars",
     "target": "primitive_accumulation",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "sepoy_mutiny__primitive_accumulation",
     "source": "sepoy_mutiny",
     "target": "primitive_accumulation",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "bengal_famine_1943__austerity_ideology",
     "source": "bengal_famine_1943",
     "target": "austerity_ideology",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "bengal_famine_1943__laissez_faire_capitalism",
     "source": "bengal_famine_1943",
     "target": "laissez_faire_capitalism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "thomas_sankara__imf_structural_adjustment",
     "source": "thomas_sankara",
     "target": "imf_structural_adjustment",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "thomas_sankara__austerity_ideology",
     "source": "thomas_sankara",
     "target": "austerity_ideology",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "kwame_nkrumah__neoliberalism",
     "source": "kwame_nkrumah",
     "target": "neoliberalism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "deng_xiaoping__financialization",
     "source": "deng_xiaoping",
     "target": "financialization",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "deng_xiaoping__market_fundamentalism",
     "source": "deng_xiaoping",
     "target": "market_fundamentalism",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "porfirio_diaz__primitive_accumulation",
     "source": "porfirio_diaz",
     "target": "primitive_accumulation",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "haudenosaunee_confederacy__structural_violence",
@@ -16481,7 +16481,7 @@
     "id": "theocracy__democratic_backsliding",
     "source": "theocracy",
     "target": "democratic_backsliding",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "label": "theocratic governance systematically undermines democratic accountability",
     "note": "Theocracies replace democratic accountability (leaders responsible to voters) with divine accountability (leaders responsible to God) \u2014 eliminating the mechanisms through which citizens can remove leaders or challenge policy. Theocracy is democratic backsliding taken to its logical conclusion.",
     "confidence": "high"
@@ -16895,7 +16895,7 @@
     "id": "social_media_radicalization__radicalization_pipeline",
     "source": "social_media_radicalization",
     "target": "radicalization_pipeline",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "label": "social media recommendation algorithms are the primary infrastructure for radicalization pipelines",
     "note": "Research shows that YouTube, Facebook, and Twitter recommendation algorithms systematically channel users from mainstream content toward progressively more extreme content \u2014 creating automated radicalization pipelines. The pipeline is structural rather than intentional: it emerges from engagement optimization.",
     "confidence": "high"
@@ -16967,7 +16967,7 @@
     "id": "medical_racism__systemic_racism",
     "source": "medical_racism",
     "target": "systemic_racism",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "label": "medical racism is systemic racism expressed through healthcare institutions",
     "note": "Medical racism \u2014 the systematic under-treatment of Black and minority patients, dismissal of pain reports, racial bias in diagnostic algorithms, and exclusion from clinical trials \u2014 is systemic racism expressed through healthcare institutions. It produces measurable health disparities that compound other systemic inequalities.",
     "confidence": "high"
@@ -17003,7 +17003,7 @@
     "id": "chronic_illness_policy__structural_violence",
     "source": "chronic_illness_policy",
     "target": "structural_violence",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "label": "inadequate chronic illness policy produces structural violence through systematic suffering",
     "note": "Chronic illness policy that denies adequate treatment, coverage, or workplace accommodation produces structural violence: systematic preventable suffering embedded in insurance rules, disability law, and workplace policy. The harm is structural \u2014 no individual intends it \u2014 but real and measurable.",
     "confidence": "high"
@@ -18965,7 +18965,7 @@
     "id": "papal_swiss_guard__church_state_entanglement",
     "source": "papal_swiss_guard",
     "target": "church_state_entanglement",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "label": "Papal Swiss Guard embodies the fusion of military and religious authority",
     "note": "The Swiss Guard \u2014 a mercenary military force protecting the Pope since 1506 \u2014 embodies the historic church-state entanglement of the Vatican: a sovereign state whose head is a religious leader protected by a foreign military.",
     "confidence": "high"

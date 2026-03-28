@@ -102,6 +102,9 @@ async function loadScopeIntoGraph(nodes, edges) {
 
   // Rebuild filters (edge map + sidebar UI)
   FM.buildFilters(nodes, edges);
+  // Re-apply filters with the freshly-loaded data so the link visibility closure
+  // captures the new scope's node IDs (not the previous scope's stale set).
+  FM.applyFilters();
 
   // Update stats, scope section, and URL hash
   updateStats(nodes.length, edges.length);
