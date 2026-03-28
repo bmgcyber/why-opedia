@@ -16674,5 +16674,401 @@
     "label": "League mandate system was a polite name for colonial administration of former Ottoman lands",
     "note": "The League of Nations mandate system \u2014 placing Palestine, Iraq, Syria, and Lebanon under British and French administration \u2014 was a legal veneer over colonial control. Britain and France acquired former Ottoman territories without calling them colonies. The mandates produced modern Middle Eastern states with borders drawn to serve imperial interests.",
     "confidence": "high"
+  },
+  {
+    "id": "printing_press__manufactured_consent",
+    "source": "printing_press",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "label": "printing press was the first mass medium for manufacturing consent at scale",
+    "note": "The printing press enabled the first mass production of political opinion \u2014 Luther's pamphlets, royal propaganda, religious catechisms \u2014 creating the infrastructure for manufacturing consent across larger populations than word-of-mouth could reach. Every subsequent mass medium follows the template the press established.",
+    "confidence": "high"
+  },
+  {
+    "id": "internet_and_democracy__democratic_accountability",
+    "source": "internet_and_democracy",
+    "target": "democratic_accountability",
+    "type": "ENABLED",
+    "label": "internet enables distributed democratic accountability through citizen journalism and transparency",
+    "note": "The internet created new democratic accountability mechanisms: WikiLeaks, citizen journalism, open government data, freedom of information portals, social media pressure campaigns. These distributed accountability mechanisms have produced accountability that legacy media systems missed.",
+    "confidence": "high"
+  },
+  {
+    "id": "internet_and_democracy__social_media_polarization",
+    "source": "internet_and_democracy",
+    "target": "social_media_polarization",
+    "type": "PRODUCED",
+    "label": "internet infrastructure that enabled democracy also enabled polarization and radicalization",
+    "note": "The same internet infrastructure that enabled democratic accountability \u2014 decentralized information sharing, low publishing costs, global reach \u2014 also enabled filter bubbles, algorithmic radicalization, and misinformation cascades. Democratic tools and polarization tools are the same tools.",
+    "confidence": "high"
+  },
+  {
+    "id": "internet_history__surveillance_capitalism",
+    "source": "internet_history",
+    "target": "surveillance_capitalism",
+    "type": "PRODUCED",
+    "label": "internet's commercial development from public infrastructure to data extraction platform",
+    "note": "The internet was built as a public, decentralized infrastructure \u2014 then captured by commercial platforms that monetized it through data extraction. The transition from ARPANET to Google/Facebook is the history of a public good becoming the primary infrastructure for surveillance capitalism.",
+    "confidence": "high"
+  },
+  {
+    "id": "algorithmic_news__outrage_optimization",
+    "source": "algorithmic_news",
+    "target": "outrage_optimization",
+    "type": "PRODUCED",
+    "label": "algorithmic news feeds optimized for engagement amplify outrage",
+    "note": "Algorithmic news curation \u2014 Facebook's News Feed, YouTube recommendations, Twitter's timeline \u2014 is optimized for engagement, and engagement research shows outrage, fear, and disgust produce more engagement than calm information. Algorithmic news systematically amplifies outrage as a design consequence.",
+    "confidence": "high"
+  },
+  {
+    "id": "algorithmic_news__filter_bubble",
+    "source": "algorithmic_news",
+    "target": "filter_bubble",
+    "type": "PRODUCED",
+    "label": "algorithmic personalization creates filter bubbles by design",
+    "note": "Algorithmic news personalization \u2014 showing people content similar to what they've engaged with \u2014 creates filter bubbles by design: users see progressively more of what confirms existing beliefs and less of challenging views. The algorithm optimizes engagement; filter bubbles are the structural result.",
+    "confidence": "high"
+  },
+  {
+    "id": "deepstate_media_narrative__conspiracy_theory_grifters",
+    "source": "deepstate_media_narrative",
+    "target": "conspiracy_theory_grifters",
+    "type": "PRODUCED",
+    "label": "deep state narrative became the primary conspiracy framework for grifter media ecosystem",
+    "note": "The \"deep state\" narrative \u2014 that a permanent unelected bureaucracy thwarts elected presidents \u2014 became the master framework that conspiracy grifters used to explain all policy failures. It made the political system as a whole the conspiracy, enabling unlimited political grievance monetization.",
+    "confidence": "high"
+  },
+  {
+    "id": "deepstate_media_narrative__info_ecosystem_collapse",
+    "source": "deepstate_media_narrative",
+    "target": "info_ecosystem_collapse",
+    "type": "ENABLED",
+    "label": "deep state narrative eroded trust in all government institutions and mainstream media",
+    "note": "The deep state narrative systematically eroded trust in every government institution (FBI, CIA, CDC, FDA, elections) and the mainstream media that reported on them \u2014 contributing to the information ecosystem collapse in which no source is trusted by significant portions of the population.",
+    "confidence": "high"
+  },
+  {
+    "id": "media_consolidation__manufactured_consent",
+    "source": "media_consolidation",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "label": "consolidation of media ownership enables manufactured consent at scale",
+    "note": "As media ownership concentrated (Rupert Murdoch's News Corp, iHeart Radio's 800 stations) the infrastructure for manufactured consent became more concentrated. Fewer owners controlling more outlets means narrower opinion manufacturing with less competitive pressure from alternative views.",
+    "confidence": "high"
+  },
+  {
+    "id": "local_news_collapse__info_ecosystem_collapse",
+    "source": "local_news_collapse",
+    "target": "info_ecosystem_collapse",
+    "type": "PRODUCED",
+    "label": "collapse of local news removed the foundational layer of the information ecosystem",
+    "note": "The collapse of local newspapers (500+ closures since 2000) removed the foundational accountability journalism \u2014 city council coverage, local court reporting, zoning fights, school board elections. Without local news, information ecosystems collapse into national partisan media with no local accountability layer.",
+    "confidence": "high"
+  },
+  {
+    "id": "antisemitism__scapegoating",
+    "source": "antisemitism",
+    "target": "scapegoating",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "antisemitism is the most historically persistent case of scapegoating",
+    "note": "Antisemitism across cultures and centuries follows the scapegoating mechanism: Jewish communities blamed for plague, financial crises, defeated wars, and social disorder. Its persistence across radically different cultures demonstrates that scapegoating is a general mechanism that consistently targets vulnerable out-groups.",
+    "confidence": "high"
+  },
+  {
+    "id": "antisemitism__in_group_out_group_dynamics",
+    "source": "antisemitism",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "antisemitism constructed a universal out-group that unified disparate Christian and Muslim communities",
+    "note": "Antisemitism served the in-group function of providing a shared out-group \u2014 Jewish communities as the permanent other \u2014 that helped unify disparate Christian and later nationalist communities. Its universality across cultures reflects its utility as an in-group cohesion mechanism.",
+    "confidence": "high"
+  },
+  {
+    "id": "toxic_masculinity__structural_violence",
+    "source": "toxic_masculinity",
+    "target": "structural_violence",
+    "type": "ENABLED",
+    "label": "toxic masculinity norms produce structural violence through normalized aggression",
+    "note": "Toxic masculinity \u2014 norms that equate masculinity with dominance, aggression, and emotional suppression \u2014 produces structural violence: domestic violence, sexual assault, and bullying normalized as acceptable or inevitable masculine behavior rather than individual aberrations.",
+    "confidence": "high"
+  },
+  {
+    "id": "toxic_masculinity__radicalization_pipeline",
+    "source": "toxic_masculinity",
+    "target": "radicalization_pipeline",
+    "type": "ENABLED",
+    "label": "toxic masculinity is an entry point into online radicalization pipelines",
+    "note": "Research shows that radicalization pipelines (incel communities, alt-right) consistently recruit through toxic masculinity entry points \u2014 addressing grievances about men's social status, offering masculinity as identity, then escalating to broader political extremism. Toxic masculinity is the gateway mechanism.",
+    "confidence": "high"
+  },
+  {
+    "id": "feminist_theory__moral_circle_expansion",
+    "source": "feminist_theory",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "label": "feminist theory systematically expanded the moral circle to include women as full subjects",
+    "note": "Feminist theory \u2014 from Wollstonecraft through de Beauvoir to Butler \u2014 has systematically expanded the moral circle by arguing for women's full humanity, rationality, and autonomy against philosophical and legal frameworks that treated women as objects, wards, or partial subjects.",
+    "confidence": "high"
+  },
+  {
+    "id": "feminist_theory__class_consciousness",
+    "source": "feminist_theory",
+    "target": "class_consciousness",
+    "type": "ENABLED",
+    "label": "feminist theory produced class consciousness about gender as a structural category",
+    "note": "Socialist feminist theory \u2014 and later intersectionality \u2014 produced gender class consciousness: understanding women's position not as natural or individual but as a structural category maintained through economic and political institutions. This structural analysis parallels and intersects with economic class consciousness.",
+    "confidence": "high"
+  },
+  {
+    "id": "intersectionality__structural_violence",
+    "source": "intersectionality",
+    "target": "structural_violence",
+    "type": "ENABLED",
+    "label": "intersectionality revealed how multiple structural oppressions compound to produce distinct forms of harm",
+    "note": "Kimberl\u00e9 Crenshaw's intersectionality framework showed that structural oppressions (race, class, gender) compound \u2014 producing harms that are not simply additive but distinct. Black women experience specific structural violence that is neither Black men's nor white women's experience.",
+    "confidence": "high"
+  },
+  {
+    "id": "intersectionality__systemic_racism",
+    "source": "intersectionality",
+    "target": "systemic_racism",
+    "type": "ENABLED",
+    "label": "intersectionality revealed how systemic racism operates differently across gender and class lines",
+    "note": "Intersectionality showed that systemic racism does not operate uniformly \u2014 it intersects with gender, class, and sexuality to produce differentiated experiences of racism. This analytical framework transformed how systemic racism is measured, documented, and addressed.",
+    "confidence": "high"
+  },
+  {
+    "id": "postmodernism__broken_epistemology",
+    "source": "postmodernism",
+    "target": "broken_epistemology",
+    "type": "ENABLED",
+    "label": "postmodernism's critique of objective truth was weaponized to produce broken epistemology",
+    "note": "Postmodern philosophy's legitimate critique of epistemic authority (who decides what's true?) was appropriated by bad actors to produce broken epistemology: climate denial, anti-vaccine movements, and political disinformation all borrow postmodern rhetorical structures to claim that all knowledge claims are equally valid.",
+    "confidence": "high"
+  },
+  {
+    "id": "milgram_obedience__moral_disengagement",
+    "source": "milgram_obedience",
+    "target": "moral_disengagement",
+    "type": "PRODUCED",
+    "label": "Milgram experiments proved that authority structures produce moral disengagement",
+    "note": "Milgram's obedience research empirically established moral disengagement as a predictable response to authority structures \u2014 not a character defect in specific individuals. It showed that ordinary people will harm others when institutional authority diffuses responsibility.",
+    "confidence": "high"
+  },
+  {
+    "id": "intergenerational_trauma__collective_trauma",
+    "source": "intergenerational_trauma",
+    "target": "collective_trauma",
+    "type": "PRODUCED",
+    "label": "collective trauma transmits across generations through epigenetics and socialization",
+    "note": "Intergenerational trauma is collective trauma that has been transmitted \u2014 through epigenetic mechanisms, parenting patterns, and community culture \u2014 to people who did not directly experience the originating events. Holocaust survivors' grandchildren, residential school survivors' children show measurable trauma transmission.",
+    "confidence": "high"
+  },
+  {
+    "id": "authoritarian_personality__fascism",
+    "source": "authoritarian_personality",
+    "target": "fascism",
+    "type": "ENABLED",
+    "label": "Adorno's authoritarian personality theory explained the psychological basis for fascist followership",
+    "note": "Adorno's \"The Authoritarian Personality\" (1950) argued that a specific psychological profile \u2014 deference to authority, aggression toward out-groups, rigid in-group/out-group thinking \u2014 explained the mass followership that fascism required. Fascism requires not just a leader but a psychologically receptive mass audience.",
+    "confidence": "high"
+  },
+  {
+    "id": "identity_politics__in_group_out_group_dynamics",
+    "source": "identity_politics",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "label": "identity politics intensifies in-group/out-group dynamics in democratic politics",
+    "note": "Identity politics \u2014 organizing politically around shared identity categories (race, gender, sexuality, religion) \u2014 intensifies in-group/out-group dynamics in democratic politics. It can mobilize marginalized groups toward justice or can calcify tribal divisions \u2014 often simultaneously.",
+    "confidence": "medium"
+  },
+  {
+    "id": "satanic_panic__moral_panic",
+    "source": "satanic_panic",
+    "target": "moral_panic",
+    "type": "PRODUCED",
+    "label": "Satanic Panic was the paradigm case of 20th-century moral panic",
+    "note": "The 1980s Satanic Panic \u2014 false accusations of ritual child abuse in daycare centers, producing over 190 convictions \u2014 is the paradigm case of moral panic: threat amplification through media, professional credentialing of false accusations, community conformity pressure, and the destruction of innocent lives.",
+    "confidence": "high"
+  },
+  {
+    "id": "social_media_radicalization__radicalization_pipeline",
+    "source": "social_media_radicalization",
+    "target": "radicalization_pipeline",
+    "type": "PRODUCES",
+    "label": "social media recommendation algorithms are the primary infrastructure for radicalization pipelines",
+    "note": "Research shows that YouTube, Facebook, and Twitter recommendation algorithms systematically channel users from mainstream content toward progressively more extreme content \u2014 creating automated radicalization pipelines. The pipeline is structural rather than intentional: it emerges from engagement optimization.",
+    "confidence": "high"
+  },
+  {
+    "id": "post_traumatic_growth__collective_resilience",
+    "source": "post_traumatic_growth",
+    "target": "collective_resilience",
+    "type": "ENABLED",
+    "label": "individual post-traumatic growth scales to collective resilience when it is collective",
+    "note": "Post-traumatic growth \u2014 the positive psychological transformation that can follow trauma \u2014 scales to collective resilience when communities collectively process trauma. Truth and reconciliation processes, community memorialization, and shared narrative construction can transform collective trauma into collective growth.",
+    "confidence": "high"
+  },
+  {
+    "id": "moral_courage__bystander_intervention",
+    "source": "moral_courage",
+    "target": "bystander_intervention",
+    "type": "ENABLED",
+    "label": "moral courage is the psychological mechanism that enables bystander intervention",
+    "note": "Bystander intervention research shows that most people who could intervene to prevent harm don't \u2014 diffusion of responsibility, pluralistic ignorance, and fear of social cost prevent action. Moral courage is the psychological trait that overrides these inhibiting mechanisms.",
+    "confidence": "high"
+  },
+  {
+    "id": "bystander_intervention__structural_violence",
+    "source": "bystander_intervention",
+    "target": "structural_violence",
+    "type": "DISCREDITED",
+    "label": "bystander intervention training disrupts structural violence by activating individual responsibility",
+    "note": "Bystander intervention programs (Green Dot, Upstander) train people to interrupt structural violence \u2014 harassment, assault, dehumanization \u2014 in real time. They operationalize collective responsibility as a counter to the diffusion of responsibility that enables structural violence.",
+    "confidence": "high"
+  },
+  {
+    "id": "rabbinic_judaism__institutional_resilience",
+    "source": "rabbinic_judaism",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "label": "rabbinic Judaism created the institutional framework that preserved Jewish identity without a temple",
+    "note": "Rabbinic Judaism emerged after the Temple's destruction (70 CE) as an institutional reinvention: replacing temple sacrifice with prayer, synagogue, and Torah study. This institutional adaptation \u2014 creating portable, text-based religious practice \u2014 enabled Jewish communal survival across 2,000 years of diaspora.",
+    "confidence": "high"
+  },
+  {
+    "id": "neurodiversity__moral_circle_expansion",
+    "source": "neurodiversity",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "label": "neurodiversity framework expanded moral circle to include disabled and different minds as full persons",
+    "note": "The neurodiversity framework \u2014 treating autism, ADHD, dyslexia as human variation rather than disorders to cure \u2014 expanded the moral circle by arguing that different cognitive styles deserve accommodation and respect rather than normalization. It challenged the pathologizing of human cognitive difference.",
+    "confidence": "high"
+  },
+  {
+    "id": "neurodiversity__dehumanization",
+    "source": "neurodiversity",
+    "target": "dehumanization",
+    "type": "DISCREDITED",
+    "label": "neurodiversity movement challenged dehumanization of autistic and neurodivergent people",
+    "note": "Before neurodiversity, autistic people were systematically dehumanized \u2014 institutionalized, subjected to aversive therapies, described as empty or absent. The neurodiversity movement challenged this dehumanization by centering autistic self-advocacy and arguing for accommodation rather than cure.",
+    "confidence": "high"
+  },
+  {
+    "id": "obesity_epidemic__manufactured_scientific_doubt",
+    "source": "obesity_epidemic",
+    "target": "manufactured_scientific_doubt",
+    "type": "PRODUCED",
+    "label": "food industry manufactured scientific doubt about diet-disease connections",
+    "note": "The food industry \u2014 sugar, fast food, processed food companies \u2014 systematically funded research to manufacture scientific doubt about the connections between diet and obesity, diabetes, and cardiovascular disease, following the tobacco industry playbook. Scientific doubt manufacturing delayed effective public health responses.",
+    "confidence": "high"
+  },
+  {
+    "id": "medical_racism__systemic_racism",
+    "source": "medical_racism",
+    "target": "systemic_racism",
+    "type": "PRODUCES",
+    "label": "medical racism is systemic racism expressed through healthcare institutions",
+    "note": "Medical racism \u2014 the systematic under-treatment of Black and minority patients, dismissal of pain reports, racial bias in diagnostic algorithms, and exclusion from clinical trials \u2014 is systemic racism expressed through healthcare institutions. It produces measurable health disparities that compound other systemic inequalities.",
+    "confidence": "high"
+  },
+  {
+    "id": "opioid_corporate_liability__manufactured_scientific_doubt",
+    "source": "opioid_corporate_liability",
+    "target": "manufactured_scientific_doubt",
+    "type": "PRODUCED",
+    "label": "opioid crisis was enabled by Purdue Pharma manufacturing doubt about addiction risk",
+    "note": "Purdue Pharma's marketing of OxyContin systematically manufactured scientific doubt about opioid addiction risk \u2014 claiming it was rare with long-acting opioids, funding doctors who minimized addiction concerns, and lobbying regulators. Manufactured doubt about addiction enabled the mass prescribing that produced the opioid epidemic.",
+    "confidence": "high"
+  },
+  {
+    "id": "mental_health_care_access__public_health_infrastructure",
+    "source": "mental_health_care_access",
+    "target": "public_health_infrastructure",
+    "type": "ENABLED",
+    "label": "accessible mental healthcare is a core component of public health infrastructure",
+    "note": "Mental health care access is a public health infrastructure problem \u2014 most people with mental illness receive no treatment, and those who receive inadequate treatment become disproportionately incarcerated, homeless, or unemployed. Mental health is inseparable from general public health infrastructure.",
+    "confidence": "high"
+  },
+  {
+    "id": "healthcare_privatization__austerity",
+    "source": "healthcare_privatization",
+    "target": "austerity",
+    "type": "ENABLED",
+    "label": "healthcare privatization is austerity applied to health \u2014 shifting costs from collective to individual",
+    "note": "Healthcare privatization transfers health costs from collective risk pools (public systems) to individuals \u2014 the same logic as austerity applied to healthcare. Those who can't afford private care receive worse outcomes; the savings to government create private profit while externalizing human cost.",
+    "confidence": "high"
+  },
+  {
+    "id": "chronic_illness_policy__structural_violence",
+    "source": "chronic_illness_policy",
+    "target": "structural_violence",
+    "type": "PRODUCES",
+    "label": "inadequate chronic illness policy produces structural violence through systematic suffering",
+    "note": "Chronic illness policy that denies adequate treatment, coverage, or workplace accommodation produces structural violence: systematic preventable suffering embedded in insurance rules, disability law, and workplace policy. The harm is structural \u2014 no individual intends it \u2014 but real and measurable.",
+    "confidence": "high"
+  },
+  {
+    "id": "pain_management_movement__purdue_pharma_oxycontin",
+    "source": "pain_management_movement",
+    "target": "purdue_pharma_oxycontin",
+    "type": "ENABLED",
+    "label": "pain management movement was captured by opioid manufacturers to expand markets",
+    "note": "The legitimate pain management movement \u2014 advocating for undertreatment of chronic pain \u2014 was systematically captured by Purdue Pharma and other opioid manufacturers, who funded pain advocacy organizations and medical education that promoted opioid prescribing as underused best practice.",
+    "confidence": "high"
+  },
+  {
+    "id": "mental_health_stigma__collective_trauma",
+    "source": "mental_health_stigma",
+    "target": "collective_trauma",
+    "type": "ENABLED",
+    "label": "mental health stigma prevents collective trauma from being processed and healed",
+    "note": "Mental health stigma prevents individuals from seeking treatment for trauma \u2014 and prevents communities from collectively acknowledging and processing traumatic events. Communities where mental health is stigmatized are less able to develop the collective resilience that processes collective trauma.",
+    "confidence": "high"
+  },
+  {
+    "id": "single_payer_healthcare__welfare_state",
+    "source": "single_payer_healthcare",
+    "target": "welfare_state",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "single payer healthcare is the welfare state principle applied to health",
+    "note": "Single payer healthcare \u2014 universal coverage through public insurance \u2014 is the welfare state principle applied to health: pooling risk collectively rather than allocating healthcare by market ability to pay. Countries with single payer systems show better health outcomes at lower per-capita cost.",
+    "confidence": "high"
+  },
+  {
+    "id": "hip_hop_culture__grassroots_organizing",
+    "source": "hip_hop_culture",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "label": "hip hop culture emerged from grassroots community organizing in the South Bronx",
+    "note": "Hip hop emerged from DJ Kool Herc's block parties, youth programs, and community organizing in the South Bronx \u2014 a response to urban disinvestment that created cultural infrastructure from nothing. It represents grassroots organizing as cultural production: community building through music.",
+    "confidence": "high"
+  },
+  {
+    "id": "counterculture_1960s__moral_circle_expansion",
+    "source": "counterculture_1960s",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "label": "1960s counterculture expanded the moral circle by challenging dominant social exclusions simultaneously",
+    "note": "The 1960s counterculture challenged racial segregation, women's subordination, sexual repression, and militarism simultaneously \u2014 the most concentrated moral circle expansion in American history. Multiple exclusions challenged at once through an integrated cultural movement.",
+    "confidence": "high"
+  },
+  {
+    "id": "punk_rock__class_consciousness",
+    "source": "punk_rock",
+    "target": "class_consciousness",
+    "type": "PRODUCED",
+    "label": "punk was working-class rage at deindustrialization articulated as music",
+    "note": "British punk emerged from working-class communities devastated by deindustrialization \u2014 the Sex Pistols, Clash, and Buzzcocks expressed the class consciousness of youth with no future in Thatcher's Britain. Punk was class consciousness expressed through noise and nihilism.",
+    "confidence": "high"
+  },
+  {
+    "id": "japanese_american_internment_art__historical_revisionism",
+    "source": "japanese_american_internment_art",
+    "target": "historical_revisionism",
+    "type": "DISCREDITED",
+    "label": "art by internment survivors challenged the official narrative of wartime necessity",
+    "note": "Art, literature, and memoir created by Japanese American internment survivors \u2014 Min\u00e9 Okubo's Citizen 13660, Farewell to Manzanar \u2014 directly challenged the official historical narrative that internment was a wartime necessity rather than racism. Art as counter-revisionism.",
+    "confidence": "high"
   }
 ]
