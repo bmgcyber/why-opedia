@@ -1855,7 +1855,7 @@
   },
   {
     "id": "franklin_roosevelt__d_day_normandy",
-    "source": "franklin_roosevelt",
+    "source": "franklin_d_roosevelt",
     "target": "d_day_normandy",
     "type": "ENABLED",
     "label": "Roosevelt sustained Allied coalition and insisted on cross-channel invasion over Churchill Mediterranean strategy",
@@ -1864,7 +1864,7 @@
   },
   {
     "id": "franklin_roosevelt__atomic_bombing_hiroshima",
-    "source": "franklin_roosevelt",
+    "source": "franklin_d_roosevelt",
     "target": "atomic_bombing_hiroshima",
     "type": "ENABLED",
     "label": "Roosevelt authorized the Manhattan Project that produced the bomb Truman ultimately used",
