@@ -11041,7 +11041,7 @@
     "label": "Geoffrey Chaucer",
     "category": "person",
     "scope": "global/history",
-    "decade": 1380,
+    "decade": "1380s",
     "summary": "English poet (c.1343-1400) who wrote The Canterbury Tales, the first major literary work in vernacular Middle English \u2014 establishing English as a literary language and satirizing medieval class and religious hypocrisy."
   },
   {
@@ -11049,7 +11049,7 @@
     "label": "Rosa Luxemburg",
     "category": "person",
     "scope": "global/history",
-    "decade": 1910,
+    "decade": "1910s",
     "summary": "German-Polish Marxist revolutionary (1871-1919) who developed spontaneous mass action theory, opposed both Leninist vanguardism and reformist socialism, and was murdered by right-wing Freikorps soldiers after the failed Spartacist uprising."
   }
 ]

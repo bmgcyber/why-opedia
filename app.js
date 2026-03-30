@@ -830,6 +830,7 @@ function _openAnalyticsDashboard() {
 
 function parseDecadeYear(decade) {
   if (!decade) return 2000;
+  decade = String(decade);
   const bce = /bce/i.test(decade);
   const m = decade.match(/(\d+)/);
   if (m) { const y = parseInt(m[1], 10); return bce ? -y : y; }
