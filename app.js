@@ -78,34 +78,35 @@ async function boot() {
 
 // ── Scope → graph pipeline ────────────────────────────────────────────────────
 async function loadScopeIntoGraph(nodes, edges) {
-  // Clear stale node selection from previous scope before loading new data.
-  // Without this, FM.applyFilters sees an old selectedNodeId that doesn't exist
-  // in the new scope's edge map, causing the entire graph to dim.
   selectedNodeId = null;
   GR.clearSelection();
-  FM.clearNeighborhoodRoot();
   closePanel();
   showTooltip(null);
   const nbSection = document.getElementById('sb-neighborhood');
   if (nbSection) nbSection.hidden = true;
 
+  // Set app state first — before anything that might throw — so that analytics
+  // and other on-demand functions always see the current scope's data.
   allNodes = nodes;
   allEdges = edges;
   nodeMap  = {};
   for (const n of nodes) nodeMap[n.id] = n;
 
-  // Load data into renderer
-  GR.loadGraphData(nodes, edges);
+  // Load renderer + search index, then apply filters.
+  // Wrapped in try-catch so that a filter/LOD exception never aborts the
+  // scope section update or URL state write below.
+  try {
+    FM.clearNeighborhoodRoot();   // clears selectedNodeId; applyFilters on old data (harmless)
+    GR.loadGraphData(nodes, edges);
+    Search.buildIndex(nodes);
+    FM.buildFilters(nodes, edges); // rebuilds UI + calls applyFilters with new data
+  } catch (err) {
+    console.error('[Why-opedia] scope load error:', err);
+    // Still ensure the renderer has the new data even if filters threw
+    try { GR.loadGraphData(nodes, edges); } catch (_) {}
+  }
 
-  // Build search index
-  Search.buildIndex(nodes);
-
-  // Rebuild filters (edge map + sidebar UI).
-  // buildFilters also calls applyFilters() at the end to apply correct
-  // link/node visibility with the new scope's data.
-  FM.buildFilters(nodes, edges);
-
-  // Update stats, scope section, and URL hash
+  // These must run regardless of filter errors
   updateStats(nodes.length, edges.length);
   updateScopeSection(nodes);
   updateURLState();
@@ -751,6 +752,14 @@ function clearPathHighlight() {
 
 // ── Analytics Dashboard ───────────────────────────────────────────────────────
 function openAnalyticsDashboard() {
+  try {
+    _openAnalyticsDashboard();
+  } catch (err) {
+    console.error('[Why-opedia] Analytics error:', err);
+    document.getElementById('analytics-modal').hidden = false;
+  }
+}
+function _openAnalyticsDashboard() {
   const nodes = allNodes.filter(n => n.category !== 'portal');
   const edges = allEdges;
 
@@ -817,7 +826,7 @@ function openAnalyticsDashboard() {
     </div>
   `;
   document.getElementById('analytics-modal').hidden = false;
-}
+}  // end _openAnalyticsDashboard
 
 function parseDecadeYear(decade) {
   if (!decade) return 2000;

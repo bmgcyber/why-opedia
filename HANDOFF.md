@@ -302,6 +302,21 @@ Data model supports nested scopes (`children: {}`). Future: `global/history/wwii
 | ~~`french_revolution_history` orphan~~ | ~~fixed Session 4~~ | ✓ Done |
 | ~~`augusto_caesar` wrong ID~~ | ~~fixed Session 5~~ | ✓ Done |
 | ~~Portal counts hardcoded~~ | ~~already dynamic~~ | ✓ N/A |
+| ~~Scope section (#sb-scope-section) not showing in global view~~ | ~~fixed Session 13~~ | ✓ Done |
+| ~~Analytics button broken~~ | ~~fixed Session 13~~ | ✓ Done |
+
+### Session 13 bug fixes (performance regression)
+
+Perf commit f3e2fd9 activated `applySemanticZoom()` (previously a stub). If it threw before the camera null check was added (or for any other reason), the exception would abort `loadScopeIntoGraph` mid-execution:
+- Scope section: `updateScopeSection(nodes)` never ran → section stayed hidden
+- Analytics: `allNodes = nodes` was set AFTER `FM.clearNeighborhoodRoot()` — if that call chain threw, `allNodes` remained `[]`
+
+**Fix (commit Session 13):**
+- Moved `allNodes = nodes` to the very top of `loadScopeIntoGraph` (before any potentially-failing code)
+- Wrapped filter/LOD operations in try-catch so `updateScopeSection` + `updateURLState` always run
+- Added try-catch in `openAnalyticsDashboard` so exceptions surface in console instead of silently failing
+- Edge data: 351 mechanism edges had `relation` field instead of `type` — fixed in 5e22646
+- Camera null check added to `applySemanticZoom` in e44fdcd
 
 ---
 
@@ -321,3 +336,4 @@ Data model supports nested scopes (`children: {}`). Future: `global/history/wwii
 | Session 10 | Positive roadmap completions: labor_rights_eight_hour_day, rural_electrification, germ_theory, mental_health_movement, scientific_method, community_land_trusts, universal_basic_income, debt_jubilee; art: glory_1989, selma_2014, black_panther_2018, crip_camp_2020; 3 Priority 7 negatives (rohingya_genocide, long_covid, defund_police_debate); 69 new cross-scope edges including politics scope mechanism wiring and cross-scope gap filling (black_death, mongols, cold_war, great_migration); total 994 nodes, 1690 mechanism edges, 3424 total edges |
 | Session 11 | Deep mechanism wiring pass across all priority node groups: 91 cross-scope edges connecting Indigenous/manifest_destiny, East African kingdoms, Chinese history, South Asian empires, Pre-Columbian nodes, Ottoman history, medieval Europe, Priority 9 persons (angela_davis, fred_hampton, aung_san_suu_kyi, volodymyr_zelensky, xi_jinping), and all 10 economics Priority 10 nodes; within-scope economics edges for glass_steagall/housing_bubble/nafta/wto/gig/qe/offshore; added geoffrey_chaucer to history; merged 2 duplicates (hiroshima_nagasaki→atomic_bombing_hiroshima, protestant_reformation_history→protestant_reformation); total 1036 nodes, 2167 mechanism edges, 3700+ total edges |
 | Session 12 | Thin node wiring completion: all remaining thin history nodes (33) wired to ≥2 mechanism edges; politics thin/zero nodes wired (38 nodes: united_nations, nato, LBJ, FDR, cold_war_proxy_wars, immigration_crisis, disability_rights, cancel_culture, climate_activism, environmental_justice, gun_violence_policy, white_supremacy_movement, gender_pay_gap, food_sovereignty + 24 one-edge nodes); health/media thin nodes wired; merged franklin_roosevelt→franklin_d_roosevelt duplicate; total ~998 nodes, 2251 mechanism edges |
+| Session 13 | Performance optimization: LOD/semantic zoom activated (tier 1/2/3 by degree percentile), global view edge reduction (mechanism-only edges = 2251 vs 3828), adaptive force simulation (warmupTicks 150→50 for large graphs), merged pulse intervals, label texture cache. Fixed 2 post-perf regressions: scope section not showing + analytics broken (root cause: `allNodes = nodes` was set after a potentially-throwing call chain; fixed by restructuring `loadScopeIntoGraph`). Fixed 351 mechanism edges with `relation` field instead of `type`. Economics scope wired (new data, untracked). |
