@@ -425,22 +425,38 @@ function setSemanticZoom(enabled) {
 //   Tier 2 (next 35%):          visible when dist < 1200
 //   Tier 3 (bottom 40%):        visible when dist < 400
 // Portals, ghosts, and mechanism nodes (not in nodeTiers) are always visible.
+function isTierVisible(tier, dist) {
+  return tier === 1 || (tier === 2 && dist < 1200) || (tier === 3 && dist < 400);
+}
+
 function applySemanticZoom() {
   if (!semanticZoomActive) return;
   if (!graphInstance || !currentGraphData) return;
-  if (currentGraphData.nodes.length <= 200) return;  // LOD not needed for small scopes
+  if (currentGraphData.nodes.length <= 200) return;
 
   const camera = graphInstance.camera();
   if (!camera) return;
   const dist = camera.position.length();
 
+  // Hide/show nodes by tier
   for (const node of currentGraphData.nodes) {
     const obj = node.__threeObj;
     if (!obj) continue;
     const tier = nodeTiers[node.id];
-    if (tier === undefined) { obj.visible = true; continue; }  // portals, ghosts
-    obj.visible = tier === 1 || (tier === 2 && dist < 1200) || (tier === 3 && dist < 400);
+    if (tier === undefined) { obj.visible = true; continue; }  // portals, ghosts, mechanisms
+    obj.visible = isTierVisible(tier, dist);
   }
+
+  // Hide links whose endpoints are LOD-hidden so edges don't float in space
+  graphInstance.linkVisibility(link => {
+    const s = typeof link.source === 'object' ? link.source.id : link.source;
+    const t = typeof link.target === 'object' ? link.target.id : link.target;
+    const sTier = nodeTiers[s];
+    const tTier = nodeTiers[t];
+    const sOk = sTier === undefined || isTierVisible(sTier, dist);
+    const tOk = tTier === undefined || isTierVisible(tTier, dist);
+    return sOk && tOk;
+  });
 }
 
 // ── Load graph data ───────────────────────────────────────────────────────────
