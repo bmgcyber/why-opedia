@@ -14,10 +14,11 @@
     allSearchNodes = nodes.filter(n => n.category !== 'portal');
     fuseIndex = new Fuse(allSearchNodes, {
       keys: [
-        { name: 'label',   weight: 0.5  },
-        { name: 'aliases', weight: 0.3  },
-        { name: 'tags',    weight: 0.15 },
-        { name: 'summary', weight: 0.05 },
+        { name: 'label',       weight: 0.5  },
+        { name: 'aliases',     weight: 0.3  },
+        { name: 'tags',        weight: 0.15 },
+        { name: 'description', weight: 0.1  },
+        { name: 'summary',     weight: 0.05 },
       ],
       threshold:          0.35,
       includeScore:       true,

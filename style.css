@@ -781,6 +781,15 @@ body.sidebar-collapsed #breadcrumb {
   margin-bottom: 16px;
 }
 
+.panel-description {
+  color: var(--text);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  white-space: pre-line;
+}
+
 .panel-meta {
   display: flex;
   flex-direction: column;

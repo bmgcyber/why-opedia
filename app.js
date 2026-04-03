@@ -287,6 +287,7 @@ function showNodePanel(node) {
     <div id="panel-title">${escHtml(data.label)}</div>
     ${aliasesHtml}
     <div id="panel-summary">${escHtml(data.summary || '')}</div>
+    ${data.description ? `<div class="panel-description">${escHtml(data.description)}</div>` : ''}
     ${mechanismNote}
     ${contemporaryHtml}
     ${ghostNote}

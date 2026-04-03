@@ -32,7 +32,8 @@
       "community"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Identity capture is the process by which an individual's sense of self becomes so thoroughly merged with a group, ideology, or leader that they can no longer evaluate the group's claims or actions from outside that identity. Evidence against the group is experienced as an attack on the self; criticism of the leader is indistinguishable from criticism of one's own worth; leaving the group is experienced as a form of death.\n\nThe mechanism is cultivated deliberately in cults, authoritarian political movements, and high-control organizations. Recruitment targets people in transition or crisis — identity is most malleable when existing identity structures are unstable. The group provides belonging, certainty, and purpose that fill a genuine void; the cost is the gradual surrender of independent judgment.\n\nRecognize it when: a person's vocabulary for describing the group is identical to the group's official self-description; criticism of the group produces emotional rather than intellectual response; the person has shed relationships that predate their involvement with the group; and they express the belief that their pre-group self was inferior or lost. Engagement focused on identity attack deepens capture; engagement that affirms the person's value outside the group is more effective."
   },
   {
     "id": "medical_weight_bias",
@@ -63,7 +64,8 @@
       "epistemology"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Broken epistemology is the condition in which a society's shared tools for determining what is true — journalism, science, courts, expert consensus — have been sufficiently discredited that large populations have no reliable way to distinguish fact from fiction. It is not simply that people believe false things; it is that they have been stripped of the methods that would allow them to correct themselves. Every source is labeled biased, every expert is labeled paid-off, every institution is labeled corrupt — leaving only raw assertion and tribal loyalty.\n\nThe mechanism is typically induced deliberately. Industries whose products cause harm (tobacco, fossil fuels) pioneered the playbook: fund counter-research, amplify scientific-sounding dissent, repeat 'the science isn't settled' until uncertainty becomes the perceived consensus. Political actors extended the technique to general epistemology: if all sources are equally unreliable, then the leader's claims compete on equal footing with documented reporting.\n\nRecognize it when: credibility attacks on sources systematically exceed credibility arguments (it's always about who funded the study, never about the methods); counter-evidence consistently increases rather than decreases belief (the person producing debunking evidence is added to the conspiracy); and the same skepticism that is applied to mainstream sources is never applied to preferred alternative sources."
   },
   {
     "id": "conspiracy_theory_grifters",
@@ -226,7 +228,8 @@
       "politics"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Legitimate grievance capture is the mechanism by which political actors hijack real, justified frustrations — economic precarity, cultural displacement, political exclusion — and redirect them toward explanations and targets that serve the capturing actor's interests rather than solving the underlying problem. The grievance is real; the explanation offered is false or misdirected; the proposed remedy benefits the captor.\n\nThe mechanism requires that the captor validate the grievance (which mainstream institutions often failed to do), provide a compelling villain (immigrants, elites, minorities, globalists), and offer a restoration narrative (we will make it like it was before the villains ruined it). The captured constituency then defends the captor against the very elites who might acknowledge the underlying grievance, because the captor has successfully made himself part of the constituency's identity.\n\nRecognize it by asking whether the proposed solution addresses the actual cause of the grievance. If deindustrialization and wage stagnation are the grievance, but immigrants and trade deals are the villain, and tariffs on consumer goods are the solution, the mechanism is at work: the actual beneficiaries of the policies are not the people with the grievance. The test is always: cui bono — who actually benefits from the policy, not who the rhetoric says will benefit."
   },
   {
     "id": "political_radicalization",
@@ -286,7 +289,8 @@
     ],
     "contemporary_relevance": "The same strategy pioneered by tobacco is now deployed for climate, PFAS, opioids, and social media harms. Understanding this mechanism is essential for evaluating contested scientific claims today.",
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Manufactured scientific doubt is a strategy, pioneered by the tobacco industry and refined by fossil fuel companies, in which industry-funded research, public relations campaigns, and think tanks create the public impression that a scientific question is unsettled when the expert consensus is actually clear. The goal is not to win the scientific argument — it is to delay regulation by creating the perception of controversy.\n\nThe mechanism exploits the public's legitimate norm that decisions should not be made under uncertainty. By funding a handful of credentialed dissenters, issuing press releases to journalists trained to present 'both sides,' and attacking the integrity of leading researchers, industry can keep a question 'open' for decades past the point at which the science was settled among experts.\n\nRecognize it when: the number of funded contrarian researchers is small while the mainstream consensus is large; the dissent appears disproportionately in policy forums and op-eds rather than peer-reviewed journals; personal attacks on researchers accompany methodological critiques; and the industry funding the doubt campaign has direct financial interests in the regulatory outcome."
   },
   {
     "id": "climate_change_denial",
@@ -310,7 +314,8 @@
     ],
     "contemporary_relevance": "Actively funded by fossil fuel interests, still delays emissions legislation decades after scientific consensus. The same doubt-manufacturing playbook now appears in debates over other environmental regulations.",
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Climate change denial is the rejection of the scientific consensus on anthropogenic climate change — not as a scientific position, but as a political and economic strategy funded by fossil fuel interests to prevent regulatory action. It is a specific application of manufactured scientific doubt, with additional features: identity-protective cognition (for communities whose economic and social identity is tied to fossil fuel industries, accepting the science threatens the community); and the exploitation of the gap between scientific communication (probabilistic, qualified) and public communication norms (declarative, certain).\n\nThe mechanism has succeeded in making climate science politically controversial in ways that have no parallel in other countries. The United States is the only major country in which a significant political party officially rejects the consensus — a result that took decades of investment by fossil fuel interests and their allied think tanks.\n\nRecognize the political mechanism rather than engaging each specific denial claim as a scientific question. The pattern is: each claim is abandoned when debunked and replaced by a different objection (it's not happening; it's happening but not human-caused; it's human-caused but not bad; it's bad but solutions are too costly). The goal of the claims is delay, not truth-seeking — the appropriate response is different from the response to genuine scientific uncertainty."
   },
   {
     "id": "hamitic_hypothesis",
@@ -364,7 +369,8 @@
       "violence"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Dehumanization strips a group of the psychological traits — language, rationality, moral feeling — that trigger empathy in observers. It typically proceeds in stages: first the target group is labeled (vermin, cockroaches, parasites, animals); then the label is repeated through official channels until it feels descriptive rather than rhetorical; finally the label is used to justify treatment that would be unthinkable if applied to 'real' people. Nazi propaganda called Jews rats. Rwandan state radio called Tutsis inyenzi — cockroaches — for months before the genocide began.\n\nThe mechanism is effective because it exploits a quirk of moral psychology: empathy is triggered by cues of similarity, not abstract principle. Once a group is cognitively filed under 'not quite human,' ordinary people can participate in or tolerate extreme cruelty without the psychological cost that would normally stop them. Dehumanization is therefore the indispensable prior step to mass atrocity — researchers find it in virtually every genocide.\n\nRecognize it by its vocabulary. Animalistic language (vermin, infestation, swarm), disease language (plague, cancer, parasite), and mechanical language (cogs, instruments of foreign powers) all do the same work. Watch also for the rhetoric of contamination — the idea that contact with the target group threatens to corrupt or weaken the in-group."
   },
   {
     "id": "purdue_pharma_oxycontin",
@@ -399,7 +405,8 @@
       "medical"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Institutional credibility laundering is the process of using the reputation of a legitimate institution — a university, a think tank, a scientific journal — to lend credibility to claims or policies that would not survive scrutiny if their actual origin and funding were visible. An industry funds a professor's research; the research is published under university letterhead; the findings are cited in regulatory comments as 'independent academic research.' The institution's credibility is 'laundered' onto the industry's position.\n\nThe mechanism is effective because audiences correctly apply a credibility discount to obviously self-interested sources. Routed through an institution with an independence norm, the same claims carry a credibility premium they do not deserve. The institution's legitimate reputation is consumed to subsidize the industry's argument — and the institution may not even know the use being made of it.\n\nRecognize it by tracing funding and affiliations rather than institutional names. When a study, report, or testimony comes from an institution with a credible-sounding name, ask: who funds the institution, what is the principal investigator's career history, and who benefits from the finding? If the answers all point to an interested party, the institutional wrapper is laundering, not certifying."
   },
   {
     "id": "opioid_epidemic",
@@ -489,7 +496,8 @@
       "algorithms"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "A filter bubble is the personalized information environment produced when algorithmic recommendation systems show users primarily content that matches their existing preferences and beliefs, gradually reducing their exposure to contradictory views. Eli Pariser named the phenomenon in 2011. The mechanism: engagement-optimizing algorithms learn that content confirming existing beliefs produces more clicks and time-on-site than challenging content, so confirmation becomes the path of least resistance in recommendation.\n\nThe mechanism is contested in its magnitude — some researchers find limited effects in studies of social media — but is clearly real in its extreme forms (news consumption entirely from partisan sources; YouTube recommendation paths into increasingly extreme content). The political risk is not just that people believe different things but that they have different factual realities and experience reality-based challenges to their views as bad-faith attacks.\n\nRecognize it personally by checking whether your information sources ever produce genuine surprises about what your political opponents think and believe — or whether they are primarily delivering 'can you believe what they said now.' A well-functioning information environment should occasionally show you a compelling version of a view you disagree with. If it never does, the filter is active."
   },
   {
     "id": "outrage_optimization",
@@ -524,7 +532,8 @@
       "social"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Mass incarceration is the expansion of prison populations to levels far exceeding any criminological justification for public safety. The United States incarcerates at five times the rate of comparable democracies — not because crime is five times higher but because of policy choices: mandatory minimum sentencing, the war on drugs, prosecutorial charging practices, plea bargaining coercion, and the political economy of 'tough on crime' rhetoric. The burden falls disproportionately on Black and brown communities.\n\nThe mechanism functions as social control: removing large numbers of young men from communities disrupts political organizing, labor markets, and family structures. Formerly incarcerated people face legal barriers to voting, employment, housing, and public benefits — a second sentence imposed administratively after the legal one. Private prison corporations and rural communities that host prisons have economic interests in maintaining high incarceration rates.\n\nRecognize it when: incarceration rates track race and poverty more strongly than crime rates; prosecutors have essentially unreviewable discretion to impose severe sentences through charging decisions; plea bargaining is used to induce guilty pleas from innocent defendants afraid of trial; and the post-incarceration legal disabilities are severe enough to constitute permanent exclusion from civic life."
   },
   {
     "id": "mccarthy_red_scare",
@@ -684,7 +693,8 @@
       "cognition"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "In-group/out-group dynamics are the cognitive architecture of 'us vs. them.' The human mind automatically sorts people into categories — in-group members are assumed to be diverse individuals with understandable motivations; out-group members are treated as an undifferentiated mass sharing negative traits. This asymmetry is called the out-group homogeneity effect, and it operates even when the group boundary is arbitrary (studies show it with random color assignments).\n\nThe mechanism is hardwired enough that it can be activated by leaders who need it. A politician who faces a failing economy benefits from shifting attention to a threatening out-group; a religious institution under scrutiny can rally members by emphasizing external enemies. Once activated, in-group identity becomes self-reinforcing: members police each other's loyalty, information from out-group sources is discounted, and cooperation with out-group members is read as betrayal.\n\nTo recognize the mechanism in action: track which distinctions are being made salient and why. In-group/out-group dynamics are being weaponized when: identity labels are stacked onto a policy dispute that doesn't require them; disagreement within the in-group is suppressed as disloyalty; and the out-group is treated as monolithic and threatening regardless of its actual behavior."
   },
   {
     "id": "moral_disengagement",
@@ -701,7 +711,8 @@
       "bandura"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Moral disengagement is the set of cognitive mechanisms that allow otherwise ethical people to participate in harmful acts without experiencing them as violations of their own values. Albert Bandura identified eight mechanisms: moral justification (the harm serves a higher good), euphemistic labeling (enhanced interrogation, collateral damage), advantageous comparison (we're not as bad as they are), displacement of responsibility (I was following orders), diffusion of responsibility (no one person is to blame), dehumanization (they don't really suffer like we do), attribution of blame (they brought it on themselves), and disregard for consequences (the harm isn't that bad).\n\nThe mechanism is universal — everyone uses some of these — but it can be industrialized. Institutions with hierarchical command structures, euphemistic vocabularies, and organizational cultures that reward obedience systematically deploy moral disengagement to enable harms at scale. Military, corporate, and bureaucratic settings are particularly susceptible.\n\nRecognize your own moral disengagement by noticing when you reach for these framings and asking whether you would accept the same argument if the affected party were someone you personally cared about. Recognize it in institutions by looking for the official vocabulary: which terms are used for harmful outputs, and what reaction does the realistic description of those outputs produce?"
   },
   {
     "id": "manufactured_consent",
@@ -718,7 +729,8 @@
       "chomsky"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Manufactured consent is the process by which dominant institutions shape public opinion so that people come to freely endorse arrangements that serve elite interests. The phrase, from Noam Chomsky and Edward Herman, describes how mass media can produce the appearance of democratic consensus without coercion. The mechanism runs through ownership concentration, advertiser dependency, official source reliance, flak (coordinated attacks on dissenting journalists), and anti-communist framing — each filtering out stories and framings that would challenge the system.\n\nIt is effective precisely because it does not feel like propaganda. People experience themselves as freely choosing from a range of news sources and forming their own views. What they do not see is how narrowly the range of acceptable opinion was set before they began choosing — which issues get covered, which sources are credible, which framings are available.\n\nRecognize it by examining what is absent: which perspectives never appear in mainstream outlets despite significant popular support; which facts are technically reported but buried or contextualized away; which foreign policy actions receive wall-to-wall condemnation versus which receive near-silence depending on whether the perpetrator is an ally. The test is not whether any individual story is false — it is whether the overall pattern of coverage systematically advantages one set of interests."
   },
   {
     "id": "democratic_backsliding",
@@ -735,7 +747,8 @@
       "political_science"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Democratic backsliding is the gradual erosion of democratic norms and institutions from within — carried out by elected officials using legal or quasi-legal means. Unlike a military coup, backsliding is incremental: pack the courts, change electoral rules, capture the civil service, restrict press access, delegitimize opposition as treasonous. Each step is individually defensible; the cumulative effect is that elections continue but have ceased to be genuinely competitive or constraining.\n\nThe mechanism is effective because it exploits democratic legitimacy against itself. The leader has a mandate; the moves are legal or at least legal-seeming; opponents who raise alarms are accused of sour grapes. By the time the pattern is undeniable, institutional guardrails have been removed or captured and the opposition has no lever left to pull.\n\nRecognize it by the pattern, not any single act: simultaneous pressure on courts, media, electoral administration, and civil society; emergency powers used to bypass legislative oversight; anti-corruption rhetoric deployed against political rivals while actual corruption is shielded; and the gradual normalization of behavior that would previously have triggered institutional response. Hungary after 2010 and Turkey after 2016 are textbook cases."
   },
   {
     "id": "structural_violence",
@@ -752,7 +765,8 @@
       "galtung"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Structural violence operates invisibly — it is harm produced not by any individual attacker but by the normal functioning of economic, political, and social institutions. When a healthcare system prices out the poor, when zoning confines minorities to flood-prone land, when schools in wealthy zip codes receive ten times the funding of those in poor ones, people die and suffer at rates that differ sharply by race and class. No one gave the order. The system simply runs.\n\nThe mechanism persists because it produces no obvious perpetrator and requires no conspiracy. Those who benefit from the arrangement have every incentive to call the outcomes natural, earned, or inevitable. Naming structural violence requires tracing effects back through institutional rules, which takes sustained effort — far more than pointing at an individual act of cruelty.\n\nTo recognize it: look for large, durable gaps in life outcomes (mortality, incarceration, wealth) that track demographic categories rather than individual choices. Ask who designed the rules that produce those gaps and who benefits from keeping them in place. When the same groups reliably end up on the losing side across generations, across countries, and across policy domains, the cause is structural."
   },
   {
     "id": "resource_curse",
@@ -803,7 +817,8 @@
       "extremism"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "The radicalization pipeline is the sequence of social and informational environments that move a person from mainstream beliefs toward extremist ideology. It typically begins with genuine grievance or alienation; moves through communities that validate the grievance and provide belonging; progresses to content that explains the grievance through an us-vs-them framework; and culminates in ideological frameworks that justify or glorify violence against the identified enemy.\n\nThe mechanism is accelerated by algorithmic recommendation systems that optimize for engagement — content that produces strong emotional reactions (outrage, fear, pride) is more engaging than moderate content, so the path to more extreme material is the path of least resistance for a curious or activated user. Social belonging is a key accelerant: once a person's social identity is invested in the extremist community, leaving it carries enormous social cost.\n\nRecognize it when: a person's information environment has become a closed loop of mutually reinforcing sources; the dehumanization of an out-group has become casual and routine in their speech; and the legitimacy of violence against that group is being argued rather than assumed to be off-limits. Intervention is most effective early, before identity investment in the extremist community is deep."
   },
   {
     "id": "historical_revisionism",
@@ -820,7 +835,8 @@
       "propaganda"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Historical revisionism is the rewriting of the past to serve present political purposes — selectively omitting atrocities, inflating glories, recontextualizing defeats, or simply asserting false narratives about what happened. It operates through curriculum control, monument building and removal, state media, and the suppression of archives and testimony. It is distinct from legitimate historical revision (which incorporates new evidence and acknowledges what it is revising) because it is driven by political need rather than evidential argument.\n\nThe mechanism is effective because most people know history primarily through school and popular culture, not primary sources. Control those channels and you control the historical memory of an entire generation. A population that does not know how a catastrophe happened cannot recognize the conditions that produce it.\n\nRecognize it when: state narratives of a traumatic event differ sharply from the accounts of survivors and contemporaneous documentation; efforts to commemorate victims of state violence are met with political hostility; archives are classified or purged rather than opened; and education policy targets specific historical periods for 'balance' that was not previously considered necessary."
   },
   {
     "id": "collective_trauma",
@@ -837,7 +853,8 @@
       "memory"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Collective trauma is the shared psychological wound produced when a community experiences catastrophic events — genocide, famine, displacement, systematic oppression — that overwhelm its capacity to integrate and respond. Unlike individual trauma, collective trauma reshapes group identity, distorts the transmission of history across generations, and creates persistent patterns of hypervigilance, shame, or aggression in populations that did not directly experience the original events.\n\nThe mechanism transmits across generations through parenting behaviors shaped by unprocessed grief, community narratives that center victimhood or perpetrator identity, and biological pathways (epigenetic changes in stress-response systems have been documented in Holocaust survivor descendants). Unaddressed collective trauma makes populations vulnerable to manipulation by leaders who can activate historical fear to justify current violence.\n\nRecognize it when: a group's political behavior is systematically disproportionate to the current threat environment; historical injustice is invoked constantly in contexts where it does not directly bear on the present decision; and any attempt to examine the group's own role in past or current harm is experienced as an existential attack. The appropriate response is acknowledgment, memorialization, and justice — not suppression, which compounds the wound."
   },
   {
     "id": "lost_cause_mythology",
@@ -928,7 +945,8 @@
       "liberalism"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Social contract theory is the political philosophy that legitimate government authority derives from an agreement — implicit or explicit — among the governed. It is a mechanism because it both enables and constrains power: it justifies why citizens should obey laws (they agreed to the arrangement) and why governments lose legitimacy (they violated the terms). Locke used it to justify revolution; Hobbes used it to justify obedience to nearly any sovereign; Rousseau used it to argue for radical equality.\n\nThe theory operates politically when it is invoked: when civil rights movements argue that Black Americans were never full parties to the contract; when libertarians argue that taxation violates consent; when labor movements argue that the employment relationship is not a free agreement between equals. These are all arguments about whether the actual social arrangement matches the contractual legitimacy criteria.\n\nRecognize it as a mechanism when political actors use contractarian language to delegitimize or legitimize existing arrangements. The key questions are always: who was included in the original agreement, on what terms, and who was excluded or coerced into acceptance. Answering those questions historically usually reveals that the contract was never universally consensual."
   },
   {
     "id": "kantian_ethics",
@@ -1353,7 +1371,8 @@
       "entanglement"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Church-state entanglement is the interpenetration of religious authority and governmental power in ways that allow each to reinforce the other. Religious institutions provide legitimacy (divine sanction for the ruler, moral authority for the laws); the state provides protection, resources, and enforcement for religious dominance. The arrangement tends to produce the persecution of religious minorities, the suppression of secular dissent, and the alignment of religious institutions with whatever political regime currently holds power.\n\nThe mechanism is effective because it doubles the legitimating authority behind any policy. Opposition to a state decree becomes both treason and heresy. The enforcement of social hierarchy can be wrapped in sacred obligation. Religious institutions that accept state patronage become dependent on maintaining state favor — which typically means not challenging state power.\n\nRecognize it when: blasphemy or apostasy laws carry criminal penalties; religious authorities have official roles in state governance (seats in legislatures, authority over civil law); state resources are directed toward religious education or infrastructure while non-religious alternatives are disfavored; and religious leaders provide political cover for government actions that serve narrow interests."
   },
   {
     "id": "mesopotamian_agriculture",
@@ -1553,7 +1572,8 @@
       "division"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Political polarization is the increasing divergence of political parties and their supporters along ideological, affective, and geographic lines — such that disagreement becomes not just policy difference but tribal hostility. Affective polarization (dislike and distrust of the opposing party's supporters) has increased dramatically in the United States and many other democracies since the 1990s, independent of actual ideological difference on policy.\n\nThe mechanism is driven by: sorted political parties (in the U.S., ideological mixing of parties decreased as Southern conservatives shifted Republican), media ecosystems that profit from outrage and that algorithmically amplify hostile framing of the out-party, geographic sorting of like-minded people, and strategic elite polarization (parties benefit electorally from mobilizing their base through fear of the other side rather than persuading the middle).\n\nRecognize its functional effects: when polarization is high, coalition building across party lines becomes impossible, compromise is punished as betrayal, officials prefer blocking outcomes to bipartisan solutions, and democratic norms (accepting election results, respecting institutional constraints) are abandoned when the opposing party benefits from them. At high enough levels, polarization enables democratic backsliding because one party will support norm violations that harm the other party."
   },
   {
     "id": "info_ecosystem_collapse",
@@ -1645,7 +1665,8 @@
       "institutions"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Moral panic is a disproportionate social reaction to a perceived threat to fundamental values, in which media, politicians, and authority figures amplify a threat beyond what evidence warrants, produce demands for punitive action, and typically focus anxieties about broader social change onto a specific scapegoat group. Stanley Cohen's original formulation identified the 1960s 'Mods and Rockers' as a case; later work applied it to Satanic panic, sex offender panics, and drug scares.\n\nThe mechanism typically benefits those who are anxious about social change — moral panics tend to cluster around periods of rapid change in gender roles, class relations, or cultural authority. They serve to reassert traditional boundaries and demonstrate that authority is acting to protect the community. The harm is real: innocent people are prosecuted (the Satanic panic destroyed lives), communities are surveilled and stigmatized, and resources are diverted from actual problems.\n\nRecognize it by the disproportionality test: is the claimed threat consistent with available evidence, or have individual incidents been inflated into a wave? Are the proposed responses targeted at the actual problem or do they use the panic to advance other agendas? And who benefits from the panic — who gains authority, resources, or justification for pre-existing agenda items?"
   },
   {
     "id": "cultural_hegemony",
@@ -1664,7 +1685,8 @@
       "gramsci"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Cultural hegemony, developed by Antonio Gramsci, describes how a ruling class maintains power not just through force or economic control but by making its worldview the common sense of the whole society. The dominated class internalizes the values, assumptions, and aspirations of the dominant class and experiences them as natural rather than as the product of a particular class interest. Education, religion, media, and art all reproduce the hegemonic worldview — not through overt censorship but through what they treat as obvious.\n\nThe mechanism is stable because it does not require coercion for each act of compliance. People freely choose the dominant culture's entertainment, follow its norms, aspire to its markers of success, and police each other's deviation from it. Challenge to the hegemony is marginalized not by arrest but by being treated as eccentric, extreme, or naive.\n\nRecognize it by asking which assumptions never need to be argued for — which ideas are so self-evident in a society that questioning them requires courage rather than evidence. In the antebellum American South, the naturalness of racial hierarchy was hegemonic. In contemporary societies, the naturalness of markets, meritocracy, and individualism operates hegemonically across many institutions."
   },
   {
     "id": "confirmation_bias",
@@ -1737,7 +1759,8 @@
       "out-group"
     ],
     "scope": "global/mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Scapegoating operates in three phases: a crisis produces collective anxiety that has no clear target; a vulnerable group is identified as the cause (chosen for being visibly different, already distrusted, or politically powerless to resist); and blame is institutionalized through law, media, or religious authority, converting diffuse anxiety into directed persecution.\n\nThe mechanism is effective because it offers two psychological payoffs simultaneously: it reduces cognitive dissonance (anxiety needs a cause) and strengthens in-group cohesion (shared enemy unites the group). This is why scapegoating intensifies during genuine crises — economic collapse, military defeat, pandemic — even when the scapegoated group had nothing to do with the crisis.\n\nRecognize it when: the accused group is blamed for contradictory things (too powerful and too inferior simultaneously); evidence against them is treated as fabricated by the conspiracy; and solving the actual problem is consistently deprioritized in favor of punishing the target. The scapegoated group is almost always one that was already marginalized — scapegoating follows existing social fault lines."
   },
   {
     "id": "fascism",
@@ -1756,7 +1779,8 @@
       "hitler",
       "democracy-failure",
       "ideology"
-    ]
+    ],
+    "description": "Fascism is a political system characterized by ultranationalism, authoritarian leadership, the subordination of individual rights to the national or racial collective, the suppression of political opposition, the glorification of violence as a political tool, and the alliance of state power with corporate interests under a nationalist ideology. It is not simply authoritarianism — it is authoritarianism combined with mass mobilization and the celebration of violence and hierarchy as positive goods.\n\nThe mechanism typically emerges from a combination of conditions: national humiliation (defeat in war, perceived civilizational decline), economic crisis, weak democratic institutions, an available scapegoat, and a charismatic leader who promises restoration. It appeals to those who experience modernization as loss — of status, of traditional gender roles, of ethnic dominance — and offers a restoration narrative that is backward-looking but dressed in revolutionary energy.\n\nRecognize it by its core ideological commitments rather than its aesthetics: does the movement treat national or racial purity as the highest value; does it celebrate violence against political opponents; does it claim the leader embodies the will of the people in a way that supersedes elections and laws; and does it combine mass popular support with elite collaboration? The aesthetics (uniforms, rallies, symbols) are variable; the logic is consistent."
   },
   {
     "id": "imperialism",
@@ -1775,7 +1799,8 @@
       "race",
       "postcolonialism",
       "dependency"
-    ]
+    ],
+    "description": "Imperialism is the extension of one state's power over others through political control, economic dependency, or military dominance — often backed by the ideological claim that the dominated people benefit from the relationship. It operates through several mechanisms: direct colonial rule, where another territory's governance is assumed outright; indirect control, where nominal independence is maintained but economic and military conditions are imposed; and ideological imperialism, where cultural dominance shapes the aspirations and self-understanding of the dominated people.\n\nIt persists because it is profitable. Resource extraction, captive markets, cheap labor, and strategic positioning all flow to the dominant power. The costs — instability, corruption, underdevelopment — are borne by the periphery. Ideology (civilizing mission, development aid, fighting communism, fighting terrorism) provides the narrative that makes the arrangement seem benevolent or necessary.\n\nRecognize it by tracing resource and capital flows. When a country's natural resources are extracted by foreign corporations, profits leave the country, local elites are installed who protect this arrangement, and any government that attempts redistribution faces destabilization — that is an imperial relationship regardless of whether it is called colonialism."
   },
   {
     "id": "keynesianism",
@@ -1894,7 +1919,8 @@
       "mining",
       "environmental degradation",
       "dependency"
-    ]
+    ],
+    "description": "Resource extraction is the systematic removal of natural resources — minerals, fossil fuels, timber, agricultural land — from a region for the benefit of external actors, typically without equivalent reinvestment in the region's development. It operates through legal concessions granted to foreign corporations, tax regimes that minimize local capture of revenue, environmental regulations weaker than those in the extracting country, and local elites who are paid to protect the arrangement.\n\nThe mechanism produces a pattern called the resource curse: resource-rich regions often have lower development, weaker institutions, and higher levels of conflict than comparable resource-poor ones. The wealth is real but flows outward; what remains is environmental degradation, corrupt governance, and the absence of the diversified economy that would develop if the region had to build it.\n\nRecognize it when: a region's primary export is raw material while finished goods are imported; local wages and tax revenues are low relative to the value of what is extracted; environmental standards are negotiated rather than regulated; and political violence concentrates in resource-rich areas — conflict over who controls the concessions rather than who governs the population."
   },
   {
     "id": "environmental_degradation",
@@ -1955,7 +1981,8 @@
       "SEC",
       "EPA",
       "lobbying"
-    ]
+    ],
+    "description": "Regulatory capture occurs when the agencies created to regulate an industry end up serving the industry's interests rather than the public interest. The mechanism operates through the revolving door (regulators expect to be employed by the industry they regulate and shape rules accordingly), information asymmetry (the industry knows more about its operations than the agency and controls what the agency learns), and the political economy of concentrated benefits and diffuse costs (the industry has enormous stakes in favorable rules while any individual citizen has tiny stakes in strict ones).\n\nIt is effective because it is gradual and invisible. No single decision constitutes capture. Rules are weakened by technicality rather than principle, enforcement is delayed indefinitely, and the agency's leadership genuinely believes it is balancing interests fairly. The industry writes comment letters, funds academic research, and populates advisory committees — all legally.\n\nRecognize it when: an agency consistently interprets ambiguous rules in favor of the industry; enforcement actions are rare, low-penalty, and precede elections; agency leadership comes predominantly from and returns to the regulated industry; and the agency's budget is partially funded by industry fees it has incentive not to jeopardize."
   },
   {
     "id": "astroturfing",
@@ -1996,7 +2023,8 @@
       "media",
       "manipulation",
       "bernays"
-    ]
+    ],
+    "description": "Propaganda is the systematic use of communication to shape belief and behavior toward goals that the audience would not endorse if given full information. It works through several overlapping techniques: repetition (a claim stated often enough acquires the feeling of fact); emotional arousal (fear, pride, and disgust override deliberative reasoning); source laundering (claims are attributed to credible institutions — scientists, military officials, religious leaders — who may or may not endorse them); and omission (accurate but inconvenient facts are absent without being technically denied).\n\nPropaganda is durable because it does not require the audience to believe a false thing consciously. It is enough to make people uncertain, emotionally activated, or simply exhausted by competing claims. Flooding an information environment with noise achieves much of what overt lying would — without the vulnerability of a single provable lie.\n\nRecognize it by asking: who commissioned this message, what outcome would they benefit from, and what facts would change my reaction if I knew them? The technical markers are simpler: repetition without new evidence, emotional intensity disproportionate to the facts as stated, and a pattern of absent counterevidence rather than rebutted counterevidence."
   },
   {
     "id": "nonviolent_resistance",
@@ -2017,7 +2045,8 @@
       "sit-in",
       "noncooperation",
       "protest"
-    ]
+    ],
+    "description": "Nonviolent resistance is a strategic method of political conflict in which the resisting party refuses to use violence while engaging in sustained direct action — strikes, boycotts, civil disobedience, mass demonstration — to impose costs on the opponent and win over third parties. The classic articulation is Gandhi's satyagraha; the empirical literature (Chenoweth and Stephan) finds that nonviolent campaigns succeed at roughly twice the rate of violent ones.\n\nThe mechanism works through two channels: it imposes economic and political costs on the opponent (a general strike stops production; mass arrests fill prisons and embarrass governments), and it shapes the moral narrative in the eyes of third parties who could intervene or withdraw support. Violence by the resistance tends to alienate potential supporters and justify repression; nonviolence tends to make repression look disproportionate.\n\nRecognize it as a mechanism, not a moral absolute: it works best when the opponent has reputational vulnerabilities (democratic governments, corporations with brands), when the resistance can achieve mass participation (small clandestine groups cannot sustain it), and when there is an identifiable leverage point (economic, political, or reputational). It is not passive — the discipline required to maintain nonviolent action under violent repression is extraordinary."
   },
   {
     "id": "legal_mobilization",
@@ -2059,7 +2088,8 @@
       "neoliberalism",
       "recession",
       "inequality"
-    ]
+    ],
+    "description": "Austerity is the set of fiscal policies — spending cuts, wage freezes, privatization, reduction of public services — typically imposed during economic crises under the rationale that governments must 'live within their means.' The mechanism: a crisis (often financial sector failure) produces government deficits; creditors and international institutions (IMF, ECB) demand deficit reduction as a condition of continued financing; the reduction is achieved through cuts to public services rather than taxes on capital, because the creditors are the capital holders.\n\nThe empirical record is clear: austerity imposed during recessions deepens and prolongs the recession (the IMF's own research has confirmed this repeatedly). The costs fall on those who depend on public services — the poor, the sick, children, public sector workers — while the financial institutions that caused the crisis are protected and often profit from distressed asset sales.\n\nRecognize it when the policy response to a crisis primarily protects creditors and financial institutions while cutting services for the vulnerable; when 'fiscal responsibility' is invoked for social spending cuts but not for tax cuts that benefit the wealthy; and when international institutions with no democratic accountability impose conditions on national governments as the price of access to capital."
   },
   {
     "id": "wealth_inequality",
@@ -2269,7 +2299,8 @@
       "Zuboff",
       "attention_economy",
       "privacy"
-    ]
+    ],
+    "description": "Surveillance capitalism is the economic logic under which behavioral data — what you search, click, buy, where you go, who you contact — is collected at scale, processed into predictions about your future behavior, and sold to advertisers and other parties who want to influence you. Shoshana Zuboff, who named the phenomenon, argues that unlike traditional capitalism (which extracts labor), surveillance capitalism extracts behavioral surplus — data generated as a byproduct of your activity — to build and sell prediction products.\n\nThe mechanism is effective because it is invisible to the person being surveilled and the data collection is typically bundled with services people value (free search, social media, navigation). The asymmetry is extreme: the companies know more about users' psychology than users know about the companies' practices. The prediction products are sold not just to advertisers but to employers, insurers, credit agencies, and governments.\n\nRecognize it by examining what you are when you are not paying: if a service is free, the value exchange is typically your behavioral data. The mechanism becomes politically dangerous when behavioral prediction is used not just to sell products but to influence political behavior, target propaganda, or identify dissidents — all of which are documented uses of the same data infrastructure."
   },
   {
     "id": "cognitive_dissonance_effect",
@@ -2396,7 +2427,8 @@
       "coercive_control",
       "indoctrination",
       "high_demand_group"
-    ]
+    ],
+    "description": "Cult dynamics are the social and psychological mechanisms that allow a group to achieve extreme control over its members' beliefs, behavior, and social connections. The core techniques are: love bombing (intense affection and belonging in the recruitment phase), information control (the group's interpretation of reality is the only valid one; outside sources are corrupt), thought-stopping (spiritual practices, mantras, or social sanctions that interrupt critical thinking), and shunning (the threat of losing all social relationships as the cost of leaving).\n\nThese mechanisms work together to make the cost of exit catastrophically high. A member who leaves loses not just the group's beliefs but all their social relationships, often their employment, and in high-control groups their family. This is not accidental — it is engineered. The same dynamics appear in political movements, multi-level marketing organizations, and abusive relationships at various intensities.\n\nRecognize it by the exit cost structure: can members leave freely, maintain outside relationships, and access information that contradicts the group's teachings without social penalty? Groups that make exit difficult and outside information dangerous are deploying cult dynamics regardless of their ideological content."
   },
   {
     "id": "systemic_racism",
@@ -2417,7 +2449,8 @@
       "wealth_gap",
       "policy",
       "discrimination"
-    ]
+    ],
+    "description": "Systemic racism is the embedding of racial hierarchy into institutional rules, practices, and norms so that racially disparate outcomes are produced without requiring any individual to hold racist beliefs. It operates through compounding historical disadvantage (wealth stolen during slavery was never redistributed, so the racial wealth gap compounds across generations), facially neutral policies that have disparate racial effects (drug sentencing, zoning, school funding by property tax), and the persistent undervaluation of labor and credibility of Black and brown people.\n\nThe mechanism is durable because it does not require ongoing racist intent. Officials can make individually race-neutral decisions that produce racially skewed outcomes; institutions can follow their own precedents without examining how those precedents were set. The system reproduces itself.\n\nRecognize it by examining outcomes rather than intentions: when racial gaps in wealth, incarceration, health, and education persist or widen across generations, across cities with varying individual attitudes, and across policy domains — and when those gaps track the history of explicitly racist policy — the cause is systemic. The counterargument that gaps reflect cultural rather than structural causes should be evaluated against the evidence that culture-only explanations cannot account for the pattern."
   },
   {
     "id": "neoliberalism_ideology",
@@ -2612,7 +2645,8 @@
       "false_consciousness",
       "solidarity",
       "organizing"
-    ]
+    ],
+    "description": "Class consciousness is the recognition by members of an economic class that they share common interests distinct from — and often opposed to — the interests of other classes. In Marxist theory it is the transition from a class 'in itself' (a group defined by shared economic position) to a class 'for itself' (a group aware of that position and capable of acting collectively). Without class consciousness, workers compete with each other for crumbs; with it, they can make collective demands.\n\nThe mechanism can be suppressed: cross-class appeals to national or racial identity ('we're all Americans' / 'white workers and white owners share an interest against Black labor') redirect solidarity along lines that don't threaten economic hierarchy. Consumer culture offers individual upward mobility as a substitute for collective advancement. Media framing of economics as a matter of personal responsibility rather than structural position inhibits the cognitive step of identifying class interest.\n\nRecognize rising class consciousness when: workers in different industries or countries begin identifying their struggles as connected; rhetoric of individual responsibility gives way to systemic analysis in mainstream discourse; and cross-race, cross-sector coalition building happens around economic rather than identity claims. Those who benefit from suppressed class consciousness typically respond with divide-and-rule tactics."
   },
   {
     "id": "wealth_concentration",
@@ -2629,7 +2663,8 @@
       "piketty"
     ],
     "scope": "mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Wealth concentration is the accumulation of an increasing share of economic assets in the hands of a decreasing number of people or institutions. It operates through compounding returns to capital (wealth generates income that generates more wealth), inheritance (concentrated wealth transmits across generations), tax regimes that favor capital income over labor income, and the political influence that wealth purchases to protect and expand its own returns.\n\nThe mechanism is self-reinforcing: concentrated wealth buys political influence that shapes tax, regulatory, and labor policy in ways that further concentrate wealth. Thomas Piketty's central finding — that when the return on capital exceeds the growth rate of the economy, wealth concentration increases mechanically — suggests this is the default trajectory of capitalism absent deliberate redistribution.\n\nRecognize it when: the top 1% owns more than the bottom 50% combined (currently true in the United States); intergenerational mobility (the ability to move economic class from one generation to the next) is declining despite rhetoric about meritocracy; and wealth is translating directly into political outcomes through campaign finance, lobbying, and revolving-door career paths for policymakers."
   },
   {
     "id": "regulatory_capture",
@@ -2646,7 +2681,8 @@
       "governance"
     ],
     "scope": "mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Regulatory capture occurs when the agencies created to regulate an industry end up serving the industry's interests rather than the public interest. The mechanism operates through the revolving door (regulators expect to be employed by the industry they regulate and shape rules accordingly), information asymmetry (the industry knows more about its operations than the agency and controls what the agency learns), and the political economy of concentrated benefits and diffuse costs (the industry has enormous stakes in favorable rules while any individual citizen has tiny stakes in strict ones).\n\nIt is effective because it is gradual and invisible. No single decision constitutes capture. Rules are weakened by technicality rather than principle, enforcement is delayed indefinitely, and the agency's leadership genuinely believes it is balancing interests fairly. The industry writes comment letters, funds academic research, and populates advisory committees — all legally.\n\nRecognize it when: an agency consistently interprets ambiguous rules in favor of the industry; enforcement actions are rare, low-penalty, and precede elections; agency leadership comes predominantly from and returns to the regulated industry; and the agency's budget is partially funded by industry fees it has incentive not to jeopardize."
   },
   {
     "id": "rent_seeking",
@@ -2784,7 +2820,8 @@
       "philosophy"
     ],
     "scope": "mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Moral circle expansion is the historical process by which the category of beings considered morally significant — deserving of rights, protection, and consideration — has grown to include previously excluded groups. It is a counter-mechanism: it describes how atrocities come to be named as atrocities. The abolition of slavery, women's suffrage, disability rights, and animal welfare movements are all examples of successful expansion.\n\nThe mechanism operates through narrative (personal stories that make abstract others concrete), moral argument (demonstrating that the principles already accepted logically extend to excluded groups), and changed economic conditions that make exclusion costly or the excluded group more visible. It is typically resisted by those who benefit from the exclusion and by those for whom the current boundary feels natural and divinely ordained.\n\nRecognize it by tracking which beings are currently being argued about: whose suffering is called real versus sentimental, who is being given standing in legal or moral discourse for the first time, and which arguments for exclusion mirror arguments that were defeated in previous expansions. The arguments used to deny women full moral status in 1850 structurally resemble arguments used to deny other groups today — recognizing the pattern allows moral evaluation of current debates."
   },
   {
     "id": "social_trust",
@@ -2837,7 +2874,8 @@
       "checks and balances"
     ],
     "scope": "mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Institutional resilience is the capacity of democratic institutions — courts, legislatures, press, civil society, independent agencies — to maintain their core functions under pressure from those who would capture, defund, or delegitimize them. It is a counter-mechanism: the degree to which institutions have buffered themselves against autocratic capture determines how long democratic backsliding can be resisted.\n\nResilience is built through redundancy (multiple institutions that can check each other), independence (insulating institutions from direct political control through tenure, funding mechanisms, and professional norms), and public legitimacy (an institution that the public believes in is harder to capture without political cost). It is eroded by budget cuts, appointment of loyalists, legal challenges to jurisdiction, and sustained delegitimization campaigns.\n\nRecognize it when: institutions rule against their political patrons in high-stakes cases; whistleblowers within institutions come forward when rules are violated; professional associations enforce norms against members who collaborate with capture attempts; and the press continues to report on institutional violations despite pressure. The inverse is also useful: when none of these things happen, institutional resilience has already collapsed."
   },
   {
     "id": "coalition_building",
@@ -2854,7 +2892,8 @@
       "strategy"
     ],
     "scope": "mechanisms",
-    "cross_scope": true
+    "cross_scope": true,
+    "description": "Coalition building is the process of assembling diverse groups around a shared goal despite differences in identity, ideology, or interest. It is a counter-mechanism — the primary way that relatively powerless groups accumulate enough combined power to challenge entrenched interests. Effective coalitions identify the minimum viable common platform (what all members can endorse without requiring them to abandon their other commitments), manage internal tensions explicitly, and distribute credit in ways that keep members invested.\n\nThe mechanism is fragile by design: those who oppose the coalition's goals work to inflame differences between its members. This is why divide-and-rule tactics — setting labor against civil rights movements, urban against rural progressives, religious against secular reformers — are a standard counter-strategy. Coalition discipline (the ability to disagree internally while acting collectively externally) is the most important variable.\n\nRecognize effective coalition building when: groups that disagree on many things agree to act together on a specific campaign; leadership is distributed enough that no single defection collapses the coalition; and the coalition is able to hold together under pressure from opposition attempts to splinter it. The Civil Rights coalition, labor coalitions of the New Deal era, and the anti-apartheid coalition all demonstrate the pattern."
   },
   {
     "id": "whistleblowing",
@@ -2980,7 +3019,8 @@
       "accountability",
       "voting",
       "civil society"
-    ]
+    ],
+    "description": "Democratic accountability is the set of mechanisms that make power answerable to those it affects — elections, free press, independent courts, civil society, and whistleblower protections. It is not a single institution but an ecosystem: when any component is weakened, others must compensate, and if enough are degraded simultaneously the ecosystem collapses into accountability theater.\n\nThe mechanism is effective when it is credible: officials must believe they will face real consequences for corruption or abuse before accountability changes their behavior. Performative accountability — investigations that conclude nothing, elections in which all options are pre-selected, courts that are technically independent but practically captured — can absorb public anger while changing nothing and may make the situation worse by consuming legitimacy.\n\nRecognize functional accountability by outcomes rather than institutions: do officials who commit documented abuses face consequences? Do journalists investigating corruption face legal harassment or violence? Do courts rule against governments in politically sensitive cases? Are whistleblowers protected or prosecuted? The presence of elections and formal institutions is necessary but not sufficient — the question is whether they produce genuine constraint."
   },
   {
     "id": "scientific_method",
