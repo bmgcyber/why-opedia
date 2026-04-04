@@ -3632,5 +3632,64 @@
       "dezinformatsiya"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Disinformation"
+  },
+  {
+    "id": "proxy_war",
+    "label": "Proxy War",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Armed conflict where major powers support opposing sides without directly fighting each other, using client states or non-state actors to pursue geopolitical goals while avoiding direct confrontation.",
+    "description": "Proxy wars emerge when two powers want to contest each other's influence but face nuclear deterrence or other costs that make direct conflict prohibitive. The mechanism works by funding, arming, training, and advising local factions \u2014 these clients do the fighting while the sponsor claims plausible deniability. The client gains military support; the sponsor gains strategic position without casualties that would require domestic justification.\n\nProxy wars are self-sustaining because each side's involvement justifies the other's: Soviet support for North Vietnam required US escalation, which justified Soviet escalation. The local conflict becomes entangled with superpower rivalry in ways that make negotiated settlement extremely difficult \u2014 the patrons often need to 'win' more than the local parties do. Civilian populations bear catastrophic costs while the sponsors fight to the last ally.\n\nRecognizing proxy war: sophisticated weapons appear in poor countries without plausible local acquisition; diplomatic efforts are sabotaged by third parties with no stated interest in the conflict; and peace negotiations collapse whenever one side is close to a military advantage that would benefit its patron.",
+    "tags": [
+      "cold war",
+      "geopolitics",
+      "imperialism",
+      "indirect conflict",
+      "superpower rivalry"
+    ],
+    "aliases": [
+      "client war",
+      "surrogate war"
+    ]
+  },
+  {
+    "id": "red_scare",
+    "label": "Red Scare / Anti-Communist Panic",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Political climate of fear in which Communist or leftist affiliation becomes grounds for persecution, blacklisting, or imprisonment, regardless of evidence of actual subversion.",
+    "description": "Red Scares follow a predictable escalation: genuine security concerns (Soviet espionage was real) are seized by political entrepreneurs to expand the definition of 'subversive' far beyond any actual threat. Association, sympathy, or even academic study of Marxism becomes treated as evidence of loyalty to a foreign enemy. Accusation substitutes for evidence because demanding proof of innocence is itself characterized as protecting the conspiracy.\n\nThe mechanism serves multiple interests simultaneously: it destroys political opponents by associating them with foreign enemies; it disciplines organized labor and civil rights advocates by making their demands seem anti-American; and it creates a cottage industry of professional informers and loyalty boards. The atmosphere of suspicion fractures trust within organizations, making collective resistance to the persecution itself difficult.\n\nThe pattern ends only when the accuser overconsumes their credibility \u2014 McCarthy's live television exposure during the Army-McCarthy hearings ('Have you no sense of decency?') demonstrated that the technique depended on an audience willing to treat accusation as proof.",
+    "tags": [
+      "cold war",
+      "political repression",
+      "anti-communism",
+      "moral panic",
+      "witch hunt"
+    ],
+    "aliases": [
+      "McCarthyism",
+      "anti-communist persecution",
+      "loyalty purge"
+    ]
+  },
+  {
+    "id": "civil_disobedience",
+    "label": "Civil Disobedience",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Deliberate, nonviolent violation of unjust laws as a form of political resistance, designed to expose moral contradictions, provoke state overreaction, and mobilize sympathetic observers.",
+    "description": "Civil disobedience works by forcing the state to choose between two bad options: tolerate the violation (legitimizing the protesters' contempt for the law) or repress it with violence (demonstrating the state's own injustice to observers). The genius of the technique, developed by Gandhi and applied by King, is that the moral judo works only if participants are visibly nonviolent \u2014 state violence against peaceful protesters generates sympathy rather than backlash.\n\nThe mechanism requires discipline because it is easily defeated by violence from within the movement: a single riot hands the state a narrative that replaces the image of peaceful marchers being beaten with images of property destruction and chaos. This is why civil rights movement training included deliberate practice absorbing attacks without retaliation \u2014 the psychological demand was immense and the political stakes of failure were enormous.\n\nCivil disobedience is most effective against states that need to maintain a legitimacy claim \u2014 democracies, states seeking international support, or governments facing economic pressure. It is nearly ineffective against regimes willing to massacre protesters without consequence, which is why it requires a sympathetic audience that can create costs for the oppressor.",
+    "tags": [
+      "nonviolent resistance",
+      "social movement",
+      "protest",
+      "political strategy",
+      "rights"
+    ],
+    "aliases": [
+      "nonviolent resistance",
+      "passive resistance",
+      "direct action"
+    ]
   }
 ]
