@@ -4015,5 +4015,27 @@
       "eugenics",
       "social darwinism"
     ]
+  },
+  {
+    "id": "knowledge_suppression",
+    "label": "Knowledge Suppression",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Deliberate destruction, concealment, or distortion of knowledge to maintain power \u2014 from burning libraries to banning books, erasing history from curricula, or simply defunding research whose conclusions threaten dominant interests.",
+    "description": "Knowledge suppression operates in two modes: active destruction (burning books, banning research, executing intellectuals) and passive erasure (defunding, ignoring, excluding from curricula, discrediting authors rather than addressing arguments). The second is more effective in modern contexts because it leaves no obvious fingerprints \u2014 alternative explanations simply fail to enter mainstream discourse rather than being visibly censored.\n\nThe mechanism is most consequential when it erases historical evidence of prior achievements by subjugated groups. Colonial education systems systematically excluded African, Asian, and Indigenous intellectual and material achievements \u2014 not because these achievements didn't exist but because their existence undermined the civilizational hierarchy that justified colonialism. The consequence is not just injustice to the past but impoverished understanding: students taught that civilization begins with Greece have no framework for understanding how much of Greek learning came through the Arab world from earlier Mesopotamian, Egyptian, and Persian sources.\n\nRecognizing knowledge suppression: history curricula that center one region's perspective; scientific funding that systematically avoids research threatening commercial interests; archaeological findings that contradict dominant narratives receiving less attention; and scholars whose conclusions challenge power structures facing disproportionate credentialing challenges.",
+    "tags": [
+      "censorship",
+      "history",
+      "colonialism",
+      "education",
+      "power",
+      "epistemology"
+    ],
+    "aliases": [
+      "historical erasure",
+      "book burning",
+      "censorship",
+      "epistemic injustice"
+    ]
   }
 ]

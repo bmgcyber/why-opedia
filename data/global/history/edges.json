@@ -10986,5 +10986,149 @@
     "target": "world_war_i",
     "type": "PARALLEL_TO",
     "weight": 1
+  },
+  {
+    "source": "rise_of_islam",
+    "target": "islamic_golden_age",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "rise_of_islam",
+    "target": "abbasid_caliphate",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "silk_road",
+    "target": "islamic_golden_age",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "mongol_conquests",
+    "target": "abbasid_caliphate",
+    "type": "DESTROYED",
+    "weight": 3
+  },
+  {
+    "source": "mongol_conquests",
+    "target": "islamic_golden_age",
+    "type": "ENDED",
+    "weight": 3
+  },
+  {
+    "source": "crusades",
+    "target": "crusades_islamic_perspective",
+    "type": "SAME_EVENT",
+    "weight": 3
+  },
+  {
+    "source": "fall_of_constantinople",
+    "target": "age_of_exploration",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "fall_of_constantinople",
+    "target": "ottoman_empire_rise",
+    "type": "PART_OF",
+    "weight": 3
+  },
+  {
+    "source": "fall_of_constantinople",
+    "target": "scientific_revolution",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "aztec_empire",
+    "target": "spanish_conquest_americas",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "inca_empire",
+    "target": "spanish_conquest_americas",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "aztec_empire",
+    "target": "columbian_exchange",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "song_dynasty_china",
+    "target": "printing_press",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "ming_dynasty",
+    "target": "age_of_exploration",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "tang_dynasty_china",
+    "target": "silk_road",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "ottoman_empire_rise",
+    "target": "world_war_i",
+    "type": "CONTEXT_FOR",
+    "weight": 3
+  },
+  {
+    "source": "ottoman_empire_rise",
+    "target": "armenian_genocide",
+    "type": "CONTEXT_FOR",
+    "weight": 3
+  },
+  {
+    "source": "mughal_empire",
+    "target": "british_raj",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "japanese_meiji_imperialism",
+    "target": "meiji_restoration",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "japanese_meiji_imperialism",
+    "target": "world_war_i",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "ethiopian_victory_adwa",
+    "target": "decolonization_africa",
+    "type": "INSPIRED",
+    "weight": 3
+  },
+  {
+    "source": "swahili_coast_trade",
+    "target": "transatlantic_slave_trade",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "mali_empire",
+    "target": "transatlantic_slave_trade",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "chinese_exclusion_act",
+    "target": "civil_rights_movement",
+    "type": "CONTEXT_FOR",
+    "weight": 1
   }
 ]

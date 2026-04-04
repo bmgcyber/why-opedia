@@ -14358,5 +14358,41 @@
     "decade": 1910,
     "region": "Latin America",
     "summary": "Complex revolutionary conflict over land reform, foreign exploitation, and political power produced the world's first revolutionary constitution (1917) enshrining social and economic rights alongside political ones."
+  },
+  {
+    "id": "crusades_islamic_perspective",
+    "label": "The Crusades: Islamic Perspective",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1096,
+    "region": "Middle East",
+    "summary": "From the Islamic perspective, the Crusades were a series of colonial invasions that devastated Syria and Palestine, temporarily captured Jerusalem, and left a legacy of mutual religious hostility that still shapes politics."
+  },
+  {
+    "id": "japanese_meiji_imperialism",
+    "label": "Meiji Japan's Imperialism (1895\u20131945)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1895,
+    "region": "Asia",
+    "summary": "Japan's rapid industrialization led to imperial expansion in Korea, China, and eventually the Pacific \u2014 demonstrating that non-Western nations could adopt Western imperialism's methods and that 'modernization' did not require democracy."
+  },
+  {
+    "id": "chinese_exclusion_act",
+    "label": "Chinese Exclusion Act (1882)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1882,
+    "region": "North America",
+    "summary": "First US law to restrict immigration based on race or nationality, reflecting anti-Chinese racism amid economic anxiety \u2014 a template for subsequent immigration restrictions based on ethnic and racial categories."
+  },
+  {
+    "id": "ethiopian_victory_adwa",
+    "label": "Battle of Adwa \u2014 Ethiopia Defeats Italy (1896)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1896,
+    "region": "Africa",
+    "summary": "Ethiopia's decisive defeat of Italian forces became the only African country to successfully resist European colonization, inspiring African independence movements and Pan-Africanism for decades."
   }
 ]

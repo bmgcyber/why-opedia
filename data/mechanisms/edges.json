@@ -22354,5 +22354,185 @@
     "target": "spanish_american_war",
     "type": "ENABLED",
     "weight": 2
+  },
+  {
+    "source": "knowledge_suppression",
+    "target": "great_zimbabwe",
+    "type": "APPLIED_TO",
+    "weight": 3
+  },
+  {
+    "source": "knowledge_suppression",
+    "target": "mali_empire",
+    "type": "APPLIED_TO",
+    "weight": 2
+  },
+  {
+    "source": "knowledge_suppression",
+    "target": "islamic_golden_age",
+    "type": "APPLIED_TO",
+    "weight": 2
+  },
+  {
+    "source": "knowledge_suppression",
+    "target": "aztec_empire",
+    "type": "APPLIED_TO",
+    "weight": 3
+  },
+  {
+    "source": "knowledge_suppression",
+    "target": "inca_empire",
+    "type": "APPLIED_TO",
+    "weight": 3
+  },
+  {
+    "source": "colonialism",
+    "target": "knowledge_suppression",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "settler_colonialism",
+    "target": "knowledge_suppression",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "literacy_as_power",
+    "target": "knowledge_suppression",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "propaganda",
+    "target": "knowledge_suppression",
+    "type": "USES",
+    "weight": 2
+  },
+  {
+    "source": "broken_epistemology",
+    "target": "knowledge_suppression",
+    "type": "PRODUCES",
+    "weight": 2
+  },
+  {
+    "source": "pseudo_science",
+    "target": "knowledge_suppression",
+    "type": "USED_IN",
+    "weight": 2
+  },
+  {
+    "source": "imperialism",
+    "target": "ottoman_empire_rise",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "imperialism",
+    "target": "japanese_meiji_imperialism",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "imperialism",
+    "target": "chinese_exclusion_act",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "tribute_system",
+    "target": "aztec_empire",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "tribute_system",
+    "target": "inca_empire",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "tribute_system",
+    "target": "mali_empire",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "divine_kingship",
+    "target": "aztec_empire",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "divine_kingship",
+    "target": "ottoman_empire_rise",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "divine_kingship",
+    "target": "mughal_empire",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "propaganda_state_religion",
+    "target": "rise_of_islam",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "propaganda_state_religion",
+    "target": "crusades_islamic_perspective",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "nationalism_mechanism",
+    "target": "ethiopian_victory_adwa",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "dehumanization",
+    "target": "chinese_exclusion_act",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "scapegoating",
+    "target": "chinese_exclusion_act",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "in_group_out_group_dynamics",
+    "target": "chinese_exclusion_act",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "systemic_racism",
+    "target": "chinese_exclusion_act",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "structural_violence",
+    "target": "aztec_empire",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "extractive_institutions",
+    "target": "aztec_empire",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "extractive_institutions",
+    "target": "mughal_empire",
+    "type": "CONTEXT_FOR",
+    "weight": 1
   }
 ]
