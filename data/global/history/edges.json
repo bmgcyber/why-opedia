@@ -10164,5 +10164,173 @@
     "target": "reagan_era",
     "type": "CONTEXT_FOR",
     "weight": 2
+  },
+  {
+    "source": "ussr_collapse",
+    "target": "first_gulf_war",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "cold_war_origins",
+    "target": "first_gulf_war",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "first_gulf_war",
+    "target": "september_11",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "neoliberalism",
+    "target": "nafta",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "wto_founding",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "financial_crisis_1997",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "great_recession_2008",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "dot_com_boom",
+    "target": "great_recession_2008",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "financial_crisis_1997",
+    "target": "seattle_wto_protests",
+    "type": "ACCELERATED",
+    "weight": 2
+  },
+  {
+    "source": "soviet_afghan_war",
+    "target": "september_11",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "iranian_coup_1953",
+    "target": "september_11",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "september_11",
+    "target": "afghanistan_war_2001",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "september_11",
+    "target": "patriot_act",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "september_11",
+    "target": "iraq_war_2003",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "afghanistan_war_2001",
+    "target": "isis_rise",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "iraq_war_2003",
+    "target": "abu_ghraib",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "iraq_war_2003",
+    "target": "isis_rise",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "hurricane_katrina",
+    "target": "obama_election_2008",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "great_recession_2008",
+    "target": "obama_election_2008",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "great_recession_2008",
+    "target": "arab_spring",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "great_recession_2008",
+    "target": "global_financial_crisis_aftermath",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "patriot_act",
+    "target": "snowden_revelations",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "arab_spring",
+    "target": "isis_rise",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "wto_founding",
+    "target": "seattle_wto_protests",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "nafta",
+    "target": "seattle_wto_protests",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "yugoslavia_breakup",
+    "target": "kosovo_war",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "civil_rights_movement",
+    "target": "obama_election_2008",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "reagan_era",
+    "target": "great_recession_2008",
+    "type": "CAUSED",
+    "weight": 2
   }
 ]

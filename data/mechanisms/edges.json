@@ -21142,5 +21142,203 @@
     "target": "nixon_watergate",
     "type": "ENABLED",
     "weight": 3
+  },
+  {
+    "source": "surveillance_state",
+    "target": "patriot_act",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "surveillance_state",
+    "target": "snowden_revelations",
+    "type": "REVEALED_BY",
+    "weight": 3
+  },
+  {
+    "source": "war_on_terror",
+    "target": "surveillance_state",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "september_11",
+    "target": "surveillance_state",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "surveillance_state",
+    "target": "civil_disobedience",
+    "type": "SUPPRESSES",
+    "weight": 2
+  },
+  {
+    "source": "totalitarianism",
+    "target": "surveillance_state",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "surveillance_state",
+    "target": "broken_epistemology",
+    "type": "PRODUCES",
+    "weight": 2
+  },
+  {
+    "source": "surveillance_state",
+    "target": "echo_chamber",
+    "type": "ENABLES",
+    "weight": 2
+  },
+  {
+    "source": "whistleblowing",
+    "target": "surveillance_state",
+    "type": "EXPOSES",
+    "weight": 3
+  },
+  {
+    "source": "war_on_terror",
+    "target": "afghanistan_war_2001",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "war_on_terror",
+    "target": "iraq_war_2003",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "war_on_terror",
+    "target": "abu_ghraib",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "war_on_terror",
+    "target": "isis_rise",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "september_11",
+    "target": "war_on_terror",
+    "type": "TRIGGERED",
+    "weight": 3
+  },
+  {
+    "source": "scapegoating",
+    "target": "war_on_terror",
+    "type": "USED_IN",
+    "weight": 2
+  },
+  {
+    "source": "dehumanization",
+    "target": "abu_ghraib",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "propaganda",
+    "target": "iraq_war_2003",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "manufactured_consent",
+    "target": "iraq_war_2003",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "big_lie",
+    "target": "iraq_war_2003",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "financial_contagion",
+    "target": "financial_crisis_1997",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "financial_contagion",
+    "target": "great_recession_2008",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "financial_contagion",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "regulatory_capture",
+    "target": "financial_contagion",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "financial_contagion",
+    "target": "global_financial_crisis_aftermath",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "wealth_concentration",
+    "target": "financial_contagion",
+    "type": "ENABLES",
+    "weight": 2
+  },
+  {
+    "source": "financial_contagion",
+    "target": "arab_spring",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "financial_contagion",
+    "target": "austerity",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "state_collapse",
+    "target": "isis_rise",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "proxy_war",
+    "target": "afghanistan_war_2001",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "disinformation",
+    "target": "iraq_war_2003",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "democratic_backsliding",
+    "target": "patriot_act",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "emergency_powers_abuse",
+    "target": "patriot_act",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "emergency_powers_abuse",
+    "target": "war_on_terror",
+    "type": "EXPLAINS",
+    "weight": 3
   }
 ]

@@ -3734,5 +3734,68 @@
       "failed state",
       "governance collapse"
     ]
+  },
+  {
+    "id": "surveillance_state",
+    "label": "Surveillance State",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Government infrastructure that systematically monitors its population's communications, movements, and associations \u2014 often justified by security needs but structurally enabling political control.",
+    "description": "Surveillance states build their capability incrementally, often beginning with emergency justifications (fighting terrorism, crime, foreign espionage) that establish legal frameworks and technical infrastructure later used for broader purposes. The key mechanism is 'mission creep': tools built for one purpose get repurposed because the infrastructure exists and the legal authorities have been established. Mass surveillance is particularly difficult to reverse because its existence is secret by design \u2014 citizens cannot challenge what they don't know exists.\n\nThe chilling effect is surveillance's most powerful political weapon: people modify their behavior, association, and speech not because they are being watched now but because they might be watched. This self-censorship operates at a population scale \u2014 it suppresses dissident organizing, investigative journalism, and civil society activity without requiring individual targeting. A government that surveils everyone doesn't need to arrest anyone; the awareness of surveillance disciplines behavior directly.\n\nRecognizing surveillance states: legal frameworks created for emergency purposes persist indefinitely; oversight bodies are themselves classified; whistleblowers are prosecuted rather than the illegal surveillance they revealed; and security justifications are invoked to prevent judicial or legislative review.",
+    "tags": [
+      "surveillance",
+      "privacy",
+      "NSA",
+      "civil liberties",
+      "security state",
+      "mass surveillance"
+    ],
+    "aliases": [
+      "mass surveillance",
+      "security state",
+      "panopticon state"
+    ]
+  },
+  {
+    "id": "war_on_terror",
+    "label": "War on Terror",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Post-9/11 security framework that treated terrorism as a wartime rather than criminal matter, enabling indefinite detention, targeted killing, torture, and military action in non-war zones without judicial oversight.",
+    "description": "The 'war on terror' framing was a mechanism choice with profound consequences: wars have no geographic boundary, no defined enemy state to surrender, and no terminal condition \u2014 making them indefinitely self-sustaining. Treating terrorism as war rather than crime transferred authority from courts (which require evidence, procedures, and public accountability) to the executive branch (which can act in secret). This produced a parallel legal system: detention without trial, interrogation without lawyers, killing without indictment.\n\nThe mechanism creates its own renewal conditions. Military action against terrorism produces civilian casualties, which produce radicalization, which produces new terrorists, which justify continued military action. In Iraq, the invasion that was justified by a terrorism connection that didn't exist produced a genuine terrorist organization (ISIS) that didn't exist before. The definition of 'enemy combatant' expanded to justify targeting anyone in geographic proximity to operations.\n\nRecognizing war on terror logic: security justifications override legal constraints that apply in all other contexts; the category of 'terrorist' expands to include domestic political movements; permanent emergency law is normalized; and the question 'are we winning?' is never answered because defining victory would require defining an end.",
+    "tags": [
+      "terrorism",
+      "security",
+      "surveillance",
+      "indefinite detention",
+      "drone warfare",
+      "civil liberties"
+    ],
+    "aliases": [
+      "global war on terror",
+      "GWOT",
+      "counterterrorism"
+    ]
+  },
+  {
+    "id": "financial_contagion",
+    "label": "Financial Contagion",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The rapid spread of financial crisis across markets and borders when interconnected institutions fail, revealing how deregulated global finance creates systemic fragility where local failures become global catastrophes.",
+    "description": "Financial contagion spreads through interconnection: banks that hold each other's debt, currency pegs that create correlated exposure, and investor panic that treats all assets in a region as equivalent regardless of their actual health. The mechanism is amplified by leverage \u2014 institutions that borrowed heavily to amplify returns can be technically insolvent the moment asset prices fall, triggering forced selling that drives prices down further, bankrupting others in a cascade.\n\nThe paradox at the heart of financial contagion is that rational individual behavior produces catastrophic collective outcomes. Every bank that calls in its loans to preserve its own liquidity deepens the crisis that will eventually destroy it. Every investor that sells emerging market assets at a loss prevents worse losses, but coordinated selling destroys markets that would have been fine with patience. This is why financial crises require coordination mechanisms (central bank intervention, IMF bailouts) that individual rational actors cannot provide.\n\nFinancial contagion's political economy: the costs are socialized (bailouts, austerity, unemployment) while the gains were privatized (bank profits, executive bonuses). This asymmetry is not accidental \u2014 deregulation lobbied by financial institutions removed the constraints that would have made contagion less likely, while the 'too big to fail' principle guaranteed public rescue when deregulation inevitably produced crisis.",
+    "tags": [
+      "financial crisis",
+      "banking",
+      "globalization",
+      "systemic risk",
+      "contagion",
+      "austerity"
+    ],
+    "aliases": [
+      "systemic risk",
+      "financial crisis contagion",
+      "too big to fail"
+    ]
   }
 ]

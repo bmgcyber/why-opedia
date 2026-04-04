@@ -13827,5 +13827,149 @@
     "decade": 1980,
     "region": "Europe",
     "summary": "Gorbachev's twin reforms \u2014 glasnost (openness) and perestroika (restructuring) \u2014 intended to revitalize the Soviet system instead fatally undermined it by releasing suppressed demands for freedom and revealing the system's corruption."
+  },
+  {
+    "id": "first_gulf_war",
+    "label": "Gulf War (1990\u20131991)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1990,
+    "region": "Middle East",
+    "summary": "US-led coalition expelled Iraq from Kuwait in a brief, decisive war that demonstrated American military dominance and established permanent US military presence in the Gulf region."
+  },
+  {
+    "id": "nafta",
+    "label": "NAFTA (1994)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1990,
+    "region": "North America",
+    "summary": "North American Free Trade Agreement created an integrated North American market, accelerating manufacturing movement to Mexico, displacing US industrial workers, and restructuring rural Mexican agriculture."
+  },
+  {
+    "id": "wto_founding",
+    "label": "WTO Founded (1995)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1990,
+    "region": "Global",
+    "summary": "The World Trade Organization replaced GATT and created an enforceable global trade regime, institutionalizing free trade rules while critics argued it prioritized corporate interests over labor and environmental standards."
+  },
+  {
+    "id": "dot_com_boom",
+    "label": "Dot-com Boom & Bust (1995\u20132001)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1990,
+    "region": "North America",
+    "summary": "Explosive growth of internet companies fueled by speculative investment collapsed in 2000-2001, wiping out trillions in paper wealth and briefly pausing tech sector dominance before its deeper structural triumph."
+  },
+  {
+    "id": "financial_crisis_1997",
+    "label": "Asian Financial Crisis (1997)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1990,
+    "region": "Asia",
+    "summary": "Currency collapses swept Thailand, Indonesia, South Korea, and others, requiring IMF bailouts that imposed harsh austerity conditions and demonstrating the dangers of financial deregulation and hot money flows."
+  },
+  {
+    "id": "kosovo_war",
+    "label": "Kosovo War & NATO Intervention (1999)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1990,
+    "region": "Europe",
+    "summary": "NATO's bombing campaign against Yugoslavia over Kosovo established the 'humanitarian intervention' doctrine \u2014 the first time NATO used force outside defensive purposes and without a UN Security Council mandate."
+  },
+  {
+    "id": "seattle_wto_protests",
+    "label": "WTO Seattle Protests (1999)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1990,
+    "region": "North America",
+    "summary": "Massive protests disrupted the WTO ministerial meeting in Seattle, marking the emergence of a global justice movement challenging neoliberal globalization and prefiguring the broader anti-globalization wave."
+  },
+  {
+    "id": "september_11",
+    "label": "September 11 Attacks (2001)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2000,
+    "region": "North America",
+    "summary": "Al-Qaeda attacks on the World Trade Center and Pentagon killed nearly 3,000 people, triggering the War on Terror, the Patriot Act, mass surveillance expansion, and two decade-long wars."
+  },
+  {
+    "id": "afghanistan_war_2001",
+    "label": "Afghanistan War (2001\u20132021)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2000,
+    "region": "Asia",
+    "summary": "US invasion ousted the Taliban regime that harbored Al-Qaeda, but the ensuing occupation became America's longest war, ending with Taliban restoration in 2021 after 20 years and trillions of dollars spent."
+  },
+  {
+    "id": "patriot_act",
+    "label": "USA PATRIOT Act (2001)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2000,
+    "region": "North America",
+    "summary": "Rushed through Congress weeks after 9/11, the Patriot Act dramatically expanded surveillance powers, weakened civil liberties protections, and created legal infrastructure for mass warrantless data collection later revealed by Snowden."
+  },
+  {
+    "id": "iraq_war_2003",
+    "label": "Iraq War (2003\u20132011)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2000,
+    "region": "Middle East",
+    "summary": "US-led invasion based on false WMD intelligence toppled Saddam Hussein but produced years of insurgency, sectarian civil war, Abu Ghraib torture, and created the power vacuum that led to ISIS."
+  },
+  {
+    "id": "hurricane_katrina",
+    "label": "Hurricane Katrina (2005)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2000,
+    "region": "North America",
+    "summary": "Government's catastrophic failure to protect New Orleans and evacuate its predominantly Black population exposed the racial and class dimensions of disaster vulnerability and the costs of gutting public institutions."
+  },
+  {
+    "id": "great_recession_2008",
+    "label": "Great Recession (2008\u20132009)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2000,
+    "region": "Global",
+    "summary": "Global financial crisis triggered by US subprime mortgage collapse wiped out trillions in wealth, required massive bank bailouts, and produced years of austerity while deepening inequality and eroding trust in institutions."
+  },
+  {
+    "id": "obama_election_2008",
+    "label": "Obama Election (2008)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2000,
+    "region": "North America",
+    "summary": "Barack Obama's election as the first Black US president represented a historic milestone in American racial politics, generating enormous symbolic hope while operating within substantial structural constraints."
+  },
+  {
+    "id": "snowden_revelations",
+    "label": "Snowden NSA Revelations (2013)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2010,
+    "region": "Global",
+    "summary": "NSA contractor Edward Snowden leaked documents revealing that the US government was conducting mass warrantless surveillance on its own citizens and allies, triggering a global debate about privacy, security, and state power."
+  },
+  {
+    "id": "global_financial_crisis_aftermath",
+    "label": "Austerity Era (2010\u20132016)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2010,
+    "region": "Europe",
+    "summary": "European governments, particularly in Greece, Spain, and Portugal, implemented severe austerity programs as conditions for bailouts, producing prolonged depression, mass unemployment, and political radicalization."
   }
 ]
