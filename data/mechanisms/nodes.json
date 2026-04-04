@@ -3498,5 +3498,61 @@
       "violence",
       "radicalization"
     ]
+  },
+  {
+    "id": "nationalism_mechanism",
+    "label": "Nationalism",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The political ideology that people sharing language, culture, or ethnicity constitute a 'nation' deserving self-governance — simultaneously a liberation movement (against multinational empire) and an exclusion mechanism (against minorities who don't fit the national definition).",
+    "description": "Nationalism is not a natural fact but a political construction — nations are, in Benedict Anderson's phrase, 'imagined communities.' The nation is imagined because no member will ever meet most other members, yet each feels a bond with them. It is a community imagined as inherently limited (it has borders) and sovereign (it should have its own state). The construction requires infrastructure: standardized language through print media, shared history through education, shared symbols through ceremony, and a common narrative about who belongs.\n\nNationalism liberates when directed against multinational empires (Greek independence from the Ottomans, Indian independence from Britain). It oppresses when it defines the nation in ethnic or religious terms that exclude minorities — Jews in 19th-century Europe, Tutsis in Rwanda, Muslims in BJP-governed India. The same mechanism that fuels independence movements fuels ethnic cleansing.\n\nRecognize the oppressive version when: a national narrative requires an internal enemy who threatens the nation's purity; belonging is defined by blood, religion, or language rather than civic membership; and the nation's historical grievances are treated as justification for current persecution of those blamed for them.",
+    "tags": [
+      "nationalism",
+      "nation",
+      "identity",
+      "state",
+      "ethnicity",
+      "liberation",
+      "exclusion",
+      "imagined community"
+    ]
+  },
+  {
+    "id": "racial_capitalism",
+    "label": "Racial Capitalism",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The structural dependence of capitalism on racial hierarchy — the use of race to create differentiated labor markets where some workers are paid less, have fewer rights, and bear more risk, enabling higher profit extraction and preventing cross-racial worker solidarity.",
+    "description": "Racial capitalism, as theorized by Cedric Robinson, argues that capitalism has never been 'color-blind' and that racial differentiation is not an anomaly but a core feature. The system requires a group that can be paid less, treated worse, and excluded from the social contract that protects other workers — because undercutting those workers' bargaining power benefits employers. In the American case: slavery produced the original capital accumulation; Jim Crow maintained a low-wage Southern economy; mass incarceration produces cheap prison labor; undocumented immigration status creates a workforce that cannot organize.\n\nThe mechanism also serves to prevent working-class solidarity across racial lines. If white workers believe their interests are aligned with white employers against Black workers rather than with all workers against employers, the class struggle is permanently diverted. W.E.B. Du Bois called the 'psychological wage of whiteness' — the status premium offered to poor whites that prevented multiracial working-class coalitions.\n\nRecognize it when: racial wage gaps persist across educational levels; immigration enforcement is selectively applied to create labor market vulnerability; mass incarceration disproportionately affects racial minorities and produces cheap labor; and racial resentment is used to mobilize white workers against social insurance that would benefit them.",
+    "tags": [
+      "racism",
+      "capitalism",
+      "exploitation",
+      "labor",
+      "slavery",
+      "robinson",
+      "inequality",
+      "solidarity"
+    ]
+  },
+  {
+    "id": "media_as_colonial_tool",
+    "label": "Media as Colonial Tool",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The use of newspapers, travel narratives, and later film to construct racial hierarchies, justify colonial violence, and make the colonized appear barbaric, childlike, or incapable of self-governance — building domestic consent for imperial projects.",
+    "tags": [
+      "media",
+      "colonialism",
+      "racism",
+      "propaganda",
+      "orientalism",
+      "edward said",
+      "imperialism",
+      "consent"
+    ]
   }
 ]

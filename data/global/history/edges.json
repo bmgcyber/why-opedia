@@ -9449,5 +9449,190 @@
     "source": "latin_american_independence",
     "type": "ENABLED",
     "target": "decolonization_independence_wave"
+  },
+  {
+    "source": "congress_of_vienna_1815",
+    "type": "ENABLED",
+    "target": "nationalism_19th_century"
+  },
+  {
+    "source": "napoleon_bonapart",
+    "type": "ENABLED",
+    "target": "congress_of_vienna_1815"
+  },
+  {
+    "source": "nationalism_19th_century",
+    "type": "ENABLED",
+    "target": "scramble_for_africa"
+  },
+  {
+    "source": "nationalism_19th_century",
+    "type": "ENABLED",
+    "target": "world_war_i"
+  },
+  {
+    "source": "scramble_for_africa",
+    "type": "ENABLED",
+    "target": "berlin_conference_1884"
+  },
+  {
+    "source": "berlin_conference_1884",
+    "type": "ENABLED",
+    "target": "scramble_for_africa"
+  },
+  {
+    "source": "scramble_for_africa",
+    "type": "ENABLED",
+    "target": "congo_free_state"
+  },
+  {
+    "source": "congo_free_state",
+    "type": "ENABLED",
+    "target": "world_war_i"
+  },
+  {
+    "source": "transatlantic_slave_trade",
+    "type": "ENABLED",
+    "target": "abolition_of_slavery"
+  },
+  {
+    "source": "abolition_of_slavery",
+    "type": "ENABLED",
+    "target": "us_civil_war"
+  },
+  {
+    "source": "abolition_of_slavery",
+    "type": "ENABLED",
+    "target": "reconstruction_era"
+  },
+  {
+    "source": "abolition_of_slavery",
+    "type": "ENABLED",
+    "target": "emancipation_proclamation_1863"
+  },
+  {
+    "source": "abolitionist_movement",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "abolition_of_slavery"
+  },
+  {
+    "source": "frederick_douglass",
+    "type": "ENABLED",
+    "target": "abolition_of_slavery"
+  },
+  {
+    "source": "harriet_tubman",
+    "type": "ENABLED",
+    "target": "abolition_of_slavery"
+  },
+  {
+    "source": "us_civil_war",
+    "type": "ENABLED",
+    "target": "reconstruction_era"
+  },
+  {
+    "source": "american_civil_war",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "us_civil_war"
+  },
+  {
+    "source": "reconstruction_era",
+    "type": "ENABLED",
+    "target": "jim_crow_laws"
+  },
+  {
+    "source": "jim_crow_laws",
+    "type": "ENABLED",
+    "target": "civil_rights_movement"
+  },
+  {
+    "source": "meiji_restoration",
+    "type": "ENABLED",
+    "target": "russo_japanese_war"
+  },
+  {
+    "source": "communes_workers_movements",
+    "type": "ENABLED",
+    "target": "marxism"
+  },
+  {
+    "source": "marxism",
+    "type": "ENABLED",
+    "target": "first_international"
+  },
+  {
+    "source": "marxism",
+    "type": "ENABLED",
+    "target": "communist_manifesto_1848"
+  },
+  {
+    "source": "marxism",
+    "type": "ENABLED",
+    "target": "russian_revolution_1917"
+  },
+  {
+    "source": "das_kapital",
+    "type": "ENABLED",
+    "target": "marxism"
+  },
+  {
+    "source": "communist_manifesto_1848",
+    "type": "ENABLED",
+    "target": "marxism"
+  },
+  {
+    "source": "industrial_revolution_england",
+    "type": "ENABLED",
+    "target": "marxism"
+  },
+  {
+    "source": "industrial_revolution_england",
+    "type": "ENABLED",
+    "target": "communes_workers_movements"
+  },
+  {
+    "source": "opium_wars",
+    "type": "ENABLED",
+    "target": "boxer_rebellion"
+  },
+  {
+    "source": "opium_wars",
+    "type": "ENABLED",
+    "target": "qing_dynasty"
+  },
+  {
+    "source": "south_asia_colonial_economy",
+    "type": "ENABLED",
+    "target": "indian_independence_1947"
+  },
+  {
+    "source": "south_asia_colonial_economy",
+    "type": "ENABLED",
+    "target": "partition_of_bengal_1905"
+  },
+  {
+    "source": "irish_famine",
+    "type": "ENABLED",
+    "target": "nationalism_19th_century"
+  },
+  {
+    "source": "women_suffrage_19th",
+    "type": "ENABLED",
+    "target": "suffrage_movement"
+  },
+  {
+    "source": "women_suffrage_19th",
+    "type": "ENABLED",
+    "target": "seneca_falls_convention"
+  },
+  {
+    "source": "seneca_falls_convention",
+    "type": "ENABLED",
+    "target": "women_suffrage_19th"
+  },
+  {
+    "source": "suffrage_19th_amendment",
+    "type": "ENABLED",
+    "target": "women_suffrage_19th"
   }
 ]

@@ -12940,5 +12940,303 @@
       "colonialism",
       "spain"
     ]
+  },
+  {
+    "id": "congress_of_vienna_1815",
+    "label": "Congress of Vienna (1815)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1810s",
+    "region": "Europe",
+    "scope": "global/history",
+    "summary": "The post-Napoleonic settlement of Europe by the great powers, restoring monarchies and establishing a 'Concert of Europe' — collective management by conservatives to prevent revolution. Suppressed nationalist movements for a generation but could not prevent 1848.",
+    "tags": [
+      "congress of vienna",
+      "europe",
+      "restoration",
+      "conservatism",
+      "nationalism",
+      "napoleon",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "nationalism_19th_century",
+    "label": "19th-Century Nationalism",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1820s",
+    "region": "Europe",
+    "scope": "global/history",
+    "summary": "The political doctrine that each 'nation' (defined by language, ethnicity, or culture) deserves its own state. Drove the unification of Germany and Italy, independence movements in Greece and Poland, and eventually the ethnic nationalism that produced World War I. Simultaneously a force for liberation (from multinational empires) and exclusion (of minorities from national belonging).",
+    "tags": [
+      "nationalism",
+      "nation-state",
+      "germany",
+      "italy",
+      "europe",
+      "ethnicity",
+      "revolution",
+      "empire"
+    ]
+  },
+  {
+    "id": "scramble_for_africa",
+    "label": "Scramble for Africa (1880–1914)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1880s",
+    "region": "Africa",
+    "scope": "global/history",
+    "summary": "European powers partitioned virtually the entire African continent in 35 years, drawing borders that divided ethnic groups and united hostile ones with no reference to African political reality. By 1914, only Ethiopia and Liberia remained independent. The borders drawn at the Berlin Conference (1884–85) still define African states today.",
+    "tags": [
+      "africa",
+      "colonialism",
+      "imperialism",
+      "berlin conference",
+      "borders",
+      "europe",
+      "extraction",
+      "racism"
+    ]
+  },
+  {
+    "id": "congo_free_state",
+    "label": "Congo Free State (1885–1908)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1880s",
+    "region": "Congo",
+    "scope": "global/history",
+    "summary": "King Leopold II's personal colony in the Congo, run as a rubber-extraction operation using forced labor, hostage-taking, and amputation as punishment. An estimated 1–10 million Congolese died. The first international human rights campaign, led by E.D. Morel and Roger Casement, forced the Belgian state to take over.",
+    "tags": [
+      "congo",
+      "leopold",
+      "colonialism",
+      "genocide",
+      "rubber",
+      "atrocity",
+      "human rights",
+      "africa",
+      "belgium"
+    ]
+  },
+  {
+    "id": "abolition_of_slavery",
+    "label": "Abolition of Slavery (1787–1888)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1780s",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "The transatlantic abolition movement — Quakers, Olaudah Equiano, Frederick Douglass, Harriet Tubman, William Wilberforce — ended the legal slave trade (Britain, 1807), emancipation in British colonies (1833), American Civil War (1865), and finally Brazil (1888). The first successful international human rights campaign, demonstrating that moral argument combined with economic disruption can overturn deeply entrenched systems.",
+    "tags": [
+      "abolition",
+      "slavery",
+      "wilberforce",
+      "douglass",
+      "tubman",
+      "civil war",
+      "quakers",
+      "human rights"
+    ]
+  },
+  {
+    "id": "reconstruction_era",
+    "label": "Reconstruction Era (1865–1877)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1860s",
+    "region": "USA",
+    "scope": "global/history",
+    "summary": "The 12-year period after the Civil War when 13th/14th/15th Amendments were ratified, Black men voted and held office, and public education was established in the South — followed by violent overthrow through the KKK, withdrawal of federal troops, and the installation of Jim Crow. A test case for how democratic gains are reversed.",
+    "tags": [
+      "reconstruction",
+      "civil war",
+      "amendments",
+      "jim crow",
+      "black history",
+      "voting rights",
+      "kkk",
+      "backlash"
+    ]
+  },
+  {
+    "id": "jim_crow_laws",
+    "label": "Jim Crow Laws (1877–1965)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1870s",
+    "region": "USA",
+    "scope": "global/history",
+    "summary": "System of racial segregation in the American South following Reconstruction — separate schools, restaurants, transportation, housing, and voting restrictions enforced by law and KKK terror. Jim Crow maintained racial hierarchy through legal means after slavery was abolished, demonstrating that formal freedom does not equal substantive equality.",
+    "tags": [
+      "jim crow",
+      "segregation",
+      "civil rights",
+      "south",
+      "racism",
+      "separate but equal",
+      "voting",
+      "terror"
+    ]
+  },
+  {
+    "id": "communes_workers_movements",
+    "label": "Paris Commune (1871)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1870s",
+    "region": "France",
+    "scope": "global/history",
+    "summary": "The world's first workers' government — Paris workers established self-governance for 72 days before being brutally suppressed (20,000 killed). The Commune inspired Marx and Engels' analysis of the state and became the reference point for debates about revolutionary strategy for a century.",
+    "tags": [
+      "paris commune",
+      "workers",
+      "revolution",
+      "marx",
+      "commune",
+      "france",
+      "suppression",
+      "socialism"
+    ]
+  },
+  {
+    "id": "marxism",
+    "label": "Marxism (Das Kapital, 1867)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1860s",
+    "region": "Germany/Europe",
+    "scope": "global/history",
+    "summary": "Marx and Engels' analysis of capitalism as a system that produces surplus value through exploitation of labor — with the prediction that internal contradictions would produce revolution. The most influential radical political theory of the 19th and 20th centuries, inspiring both revolutionary communism and reformist social democracy.",
+    "tags": [
+      "marx",
+      "marxism",
+      "capitalism",
+      "class",
+      "labor",
+      "revolution",
+      "communism",
+      "socialism",
+      "exploitation"
+    ]
+  },
+  {
+    "id": "first_international",
+    "label": "First & Second International (1864–1914)",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1860s",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "The International Working Men's Association and its successor attempted to coordinate labor movements globally — producing the eight-hour day demand, May Day, and eventually the split between anarchists and Marxists that still structures the left. The first attempt at transnational working-class solidarity.",
+    "tags": [
+      "international",
+      "workers",
+      "solidarity",
+      "marxism",
+      "anarchism",
+      "may day",
+      "eight hour day",
+      "labor"
+    ]
+  },
+  {
+    "id": "south_asia_colonial_economy",
+    "label": "British India's Colonial Economy",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "decade": "1850s",
+    "region": "India",
+    "scope": "global/history",
+    "summary": "Systematic de-industrialization of India under British rule — Indian textiles that had dominated global markets were undercut by British factory goods; colonial land taxes forced subsistence farming; infrastructure (railways) was designed to move goods to ports, not to develop India. Estimated $45 trillion extracted from India between 1765 and 1938.",
+    "tags": [
+      "india",
+      "colonialism",
+      "britain",
+      "deindustrialization",
+      "textiles",
+      "extraction",
+      "east india company"
+    ]
+  },
+  {
+    "id": "women_suffrage_19th",
+    "label": "Women's Suffrage Movement (19th century)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1840s",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "The campaign for women's right to vote — beginning with the Seneca Falls Declaration (1848) through New Zealand (1893, first country), Australia (1902), and extending through the 20th century. Intersected with the abolitionist movement and demonstrated that moral argument plus direct action could defeat deeply entrenched exclusions.",
+    "tags": [
+      "suffrage",
+      "women",
+      "voting rights",
+      "seneca falls",
+      "new zealand",
+      "equality",
+      "movement",
+      "direct action"
+    ]
+  },
+  {
+    "id": "seneca_falls_convention",
+    "label": "Seneca Falls Convention (1848)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1840s",
+    "region": "USA",
+    "scope": "global/history",
+    "summary": "First women's rights convention in the United States — produced the Declaration of Sentiments modeled on the Declaration of Independence, demanding voting rights, property rights, and equal education. Launched the formal suffrage movement.",
+    "tags": [
+      "seneca falls",
+      "suffrage",
+      "women's rights",
+      "stanton",
+      "mott",
+      "declaration of sentiments",
+      "1848"
+    ]
+  },
+  {
+    "id": "us_civil_war",
+    "label": "American Civil War (1861–1865)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1860s",
+    "region": "USA",
+    "scope": "global/history",
+    "summary": "The war between the Union and Confederate states over slavery — which the Confederacy's own leaders described as its central cause. Ended with abolition (13th Amendment) and 750,000 dead — the bloodiest war in American history. Followed by Reconstruction's promise and violent betrayal.",
+    "tags": [
+      "civil war",
+      "slavery",
+      "union",
+      "confederacy",
+      "lincoln",
+      "abolition",
+      "reconstruction",
+      "war"
+    ]
+  },
+  {
+    "id": "russo_japanese_war",
+    "label": "Russo-Japanese War (1904–05)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1900s",
+    "region": "East Asia",
+    "scope": "global/history",
+    "summary": "Japan defeated Russia — the first time an Asian nation defeated a major European power in modern warfare. Shocked European assumptions of racial superiority, inspired independence movements across Asia and Africa, and contributed to the 1905 Russian Revolution.",
+    "tags": [
+      "japan",
+      "russia",
+      "war",
+      "nationalism",
+      "asia",
+      "colonialism",
+      "revolution"
+    ]
   }
 ]

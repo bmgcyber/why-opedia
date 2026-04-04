@@ -20280,5 +20280,185 @@
     "source": "transatlantic_slave_trade",
     "type": "ENABLED",
     "target": "wealth_concentration"
+  },
+  {
+    "source": "nationalism_mechanism",
+    "type": "ENABLED",
+    "target": "nationalism_19th_century"
+  },
+  {
+    "source": "nationalism_mechanism",
+    "type": "ENABLED",
+    "target": "scramble_for_africa"
+  },
+  {
+    "source": "nationalism_mechanism",
+    "type": "ENABLED",
+    "target": "world_war_i"
+  },
+  {
+    "source": "nationalism_mechanism",
+    "type": "ENABLED",
+    "target": "ethnic_cleansing"
+  },
+  {
+    "source": "nationalism_mechanism",
+    "type": "ENABLED",
+    "target": "genocide"
+  },
+  {
+    "source": "nationalism_mechanism",
+    "type": "ENABLED",
+    "target": "dehumanization"
+  },
+  {
+    "source": "nationalism_mechanism",
+    "type": "ENABLED",
+    "target": "in_group_out_group_dynamics"
+  },
+  {
+    "source": "nationalism_mechanism",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "identity_capture"
+  },
+  {
+    "source": "printing_press_gutenberg",
+    "type": "ENABLED",
+    "target": "nationalism_mechanism"
+  },
+  {
+    "source": "enlightenment",
+    "type": "ENABLED",
+    "target": "nationalism_mechanism"
+  },
+  {
+    "source": "racial_capitalism",
+    "type": "ENABLED",
+    "target": "transatlantic_slave_trade"
+  },
+  {
+    "source": "racial_capitalism",
+    "type": "ENABLED",
+    "target": "systemic_racism"
+  },
+  {
+    "source": "racial_capitalism",
+    "type": "ENABLED",
+    "target": "jim_crow_laws"
+  },
+  {
+    "source": "racial_capitalism",
+    "type": "ENABLED",
+    "target": "wage_suppression"
+  },
+  {
+    "source": "racial_capitalism",
+    "type": "ENABLED",
+    "target": "mass_incarceration"
+  },
+  {
+    "source": "racial_capitalism",
+    "type": "ENABLED",
+    "target": "structural_violence"
+  },
+  {
+    "source": "transatlantic_slave_trade",
+    "type": "PRODUCED",
+    "target": "racial_capitalism"
+  },
+  {
+    "source": "colonialism",
+    "type": "PRODUCED",
+    "target": "racial_capitalism"
+  },
+  {
+    "source": "racial_capitalism",
+    "type": "DISCREDITED",
+    "target": "grassroots_organizing"
+  },
+  {
+    "source": "media_as_colonial_tool",
+    "type": "ENABLED",
+    "target": "scramble_for_africa"
+  },
+  {
+    "source": "media_as_colonial_tool",
+    "type": "ENABLED",
+    "target": "dehumanization"
+  },
+  {
+    "source": "media_as_colonial_tool",
+    "type": "ENABLED",
+    "target": "manufactured_consent"
+  },
+  {
+    "source": "media_as_colonial_tool",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "propaganda"
+  },
+  {
+    "source": "yellow_journalism",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "media_as_colonial_tool"
+  },
+  {
+    "source": "abolition_of_slavery",
+    "type": "PRODUCED",
+    "target": "moral_circle_expansion"
+  },
+  {
+    "source": "women_suffrage_19th",
+    "type": "PRODUCED",
+    "target": "moral_circle_expansion"
+  },
+  {
+    "source": "marxism",
+    "type": "ENABLED",
+    "target": "class_consciousness"
+  },
+  {
+    "source": "marxism",
+    "type": "DISCREDITED",
+    "target": "false_consciousness_economics"
+  },
+  {
+    "source": "marxism",
+    "type": "ENABLED",
+    "target": "labor_unions_history"
+  },
+  {
+    "source": "jim_crow_laws",
+    "type": "ENABLED",
+    "target": "structural_violence"
+  },
+  {
+    "source": "jim_crow_laws",
+    "type": "ENABLED",
+    "target": "systemic_racism"
+  },
+  {
+    "source": "reconstruction_era",
+    "type": "ENABLED",
+    "target": "democratic_backsliding"
+  },
+  {
+    "source": "irish_famine",
+    "type": "ENABLED",
+    "target": "structural_violence"
+  },
+  {
+    "source": "opium_wars",
+    "type": "ENABLED",
+    "target": "imperialism"
+  },
+  {
+    "source": "south_asia_colonial_economy",
+    "type": "ENABLED",
+    "target": "extractive_institutions"
+  },
+  {
+    "source": "congo_free_state",
+    "type": "ENABLED",
+    "target": "dehumanization"
   }
 ]
