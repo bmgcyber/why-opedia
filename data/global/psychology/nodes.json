@@ -854,5 +854,260 @@
       "social capital",
       "solidarity"
     ]
+  },
+  {
+    "id": "cognitive_behavioral_therapy",
+    "label": "Cognitive Behavioral Therapy (CBT)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1960s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "Evidence-based therapeutic approach developed by Aaron Beck that treats mental disorders by identifying and changing distorted thought patterns — the most studied psychotherapy in history.",
+    "tags": [
+      "therapy",
+      "mental health",
+      "depression",
+      "anxiety",
+      "evidence-based"
+    ]
+  },
+  {
+    "id": "learned_helplessness",
+    "label": "Learned Helplessness",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1960s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "Martin Seligman's discovery that organisms exposed to inescapable aversive events stop trying to escape even when escape becomes possible — a mechanism underlying depression and passivity in the face of oppression.",
+    "tags": [
+      "depression",
+      "motivation",
+      "oppression",
+      "seligman",
+      "psychology"
+    ]
+  },
+  {
+    "id": "growth_mindset",
+    "label": "Growth Mindset",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "2000s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "Carol Dweck's research showing that people who believe abilities can be developed through effort outperform those who believe abilities are fixed, with significant implications for education.",
+    "tags": [
+      "education",
+      "motivation",
+      "intelligence",
+      "dweck",
+      "learning"
+    ]
+  },
+  {
+    "id": "stereotype_threat",
+    "label": "Stereotype Threat",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1990s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "Claude Steele's finding that awareness of a negative stereotype about one's group impairs performance in the stereotyped domain — a mechanism by which systemic racism and sexism depress outcomes beyond explicit discrimination.",
+    "tags": [
+      "race",
+      "gender",
+      "education",
+      "discrimination",
+      "performance"
+    ]
+  },
+  {
+    "id": "social_identity_theory",
+    "label": "Social Identity Theory",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1970s",
+    "region": "UK",
+    "scope": "global/psychology",
+    "summary": "Tajfel and Turner's theory that people's sense of self derives substantially from group memberships, explaining in-group favoritism, out-group discrimination, and the psychology of tribalism.",
+    "tags": [
+      "identity",
+      "group dynamics",
+      "discrimination",
+      "tribalism",
+      "tajfel"
+    ]
+  },
+  {
+    "id": "humanistic_psychology",
+    "label": "Humanistic Psychology",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1950s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "Maslow and Rogers' reaction against behaviorism emphasizing human potential and self-actualization — the theoretical foundation of person-centered therapy.",
+    "tags": [
+      "maslow",
+      "rogers",
+      "self-actualization",
+      "therapy",
+      "human potential"
+    ]
+  },
+  {
+    "id": "neuroplasticity",
+    "label": "Neuroplasticity",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1980s",
+    "region": "Global",
+    "scope": "global/psychology",
+    "summary": "The discovery that the adult brain can form new neural connections in response to learning and experience, providing biological basis for recovery, rehabilitation, and lifelong learning.",
+    "tags": [
+      "neuroscience",
+      "learning",
+      "brain",
+      "recovery",
+      "rehabilitation"
+    ]
+  },
+  {
+    "id": "implicit_bias_research",
+    "label": "Implicit Bias Research (IAT)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1990s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "The Implicit Association Test revealed automatic unconscious associations that affect behavior independent of conscious beliefs, demonstrating that discrimination can operate without explicit racist intent.",
+    "tags": [
+      "racism",
+      "discrimination",
+      "unconscious bias",
+      "iat",
+      "social psychology"
+    ]
+  },
+  {
+    "id": "psychological_resilience",
+    "label": "Psychological Resilience",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1970s",
+    "region": "Global",
+    "scope": "global/psychology",
+    "summary": "Research showing that protective factors — secure attachment, community support, sense of purpose — predict recovery from extreme adversity, identifying the conditions that produce resilience.",
+    "tags": [
+      "trauma",
+      "recovery",
+      "resilience",
+      "protective factors",
+      "mental health"
+    ]
+  },
+  {
+    "id": "self_determination_theory",
+    "label": "Self-Determination Theory",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1980s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "Deci and Ryan's framework holding that intrinsic motivation produces higher performance and wellbeing than extrinsic motivation, with implications for education, work design, and social policy.",
+    "tags": [
+      "motivation",
+      "autonomy",
+      "education",
+      "wellbeing",
+      "work"
+    ]
+  },
+  {
+    "id": "solomon_asch_conformity",
+    "label": "Asch Conformity Experiments (1951)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1950s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "Solomon Asch's studies showing that most people give obviously incorrect answers when surrounded by confederates giving wrong answers — demonstrating the power of social pressure over individual perception.",
+    "tags": [
+      "conformity",
+      "social pressure",
+      "groupthink",
+      "obedience",
+      "experiments"
+    ]
+  },
+  {
+    "id": "cognitive_dissonance_theory",
+    "label": "Cognitive Dissonance Theory (1957)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1950s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "Leon Festinger's theory that discomfort from conflicting beliefs motivates attitude change — explaining how people rationalize bad behavior, resist correcting errors, and maintain false beliefs.",
+    "tags": [
+      "belief",
+      "rationalization",
+      "festinger",
+      "attitude change",
+      "psychology"
+    ]
+  },
+  {
+    "id": "terror_management_theory",
+    "label": "Terror Management Theory",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1980s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "Theory that awareness of mortality drives much of human behavior — including group identification, worldview defense, and prejudice against those whose different beliefs threaten one's cultural anxiety buffer.",
+    "tags": [
+      "mortality",
+      "prejudice",
+      "worldview",
+      "nationalism",
+      "death anxiety"
+    ]
+  },
+  {
+    "id": "just_world_hypothesis",
+    "label": "Just-World Hypothesis",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1960s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "Melvin Lerner's finding that people need to believe the world is just and people get what they deserve — leading to victim-blaming and the rationalization of inequality as earned rather than structural.",
+    "tags": [
+      "victim blaming",
+      "inequality",
+      "rationalization",
+      "poverty",
+      "justice"
+    ]
+  },
+  {
+    "id": "positive_reinforcement_behaviorism",
+    "label": "Behaviorism & Positive Reinforcement",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1930s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "B.F. Skinner's operant conditioning showed that behavior is shaped by its consequences; positive reinforcement produces more reliable and lasting behavior change than punishment — with applications in education, therapy, and social policy.",
+    "tags": [
+      "skinner",
+      "behaviorism",
+      "reinforcement",
+      "learning",
+      "behavior change"
+    ]
   }
 ]

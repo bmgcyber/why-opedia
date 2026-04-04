@@ -947,5 +947,130 @@
     "label": "Shares mechanism with",
     "note": "Satanic ritual abuse beliefs share epistemological structure with conspiracy theories",
     "confidence": "confirmed"
+  },
+  {
+    "source": "milgram_obedience_experiments",
+    "type": "ENABLED",
+    "target": "psychology_of_evil_zimbardo"
+  },
+  {
+    "source": "stanford_prison_experiment",
+    "type": "ENABLED",
+    "target": "psychology_of_evil_zimbardo"
+  },
+  {
+    "source": "solomon_asch_conformity",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "milgram_obedience_experiments"
+  },
+  {
+    "source": "learned_helplessness",
+    "type": "ENABLED",
+    "target": "cognitive_behavioral_therapy"
+  },
+  {
+    "source": "learned_helplessness",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "trauma_bonding"
+  },
+  {
+    "source": "cognitive_dissonance_theory",
+    "type": "ENABLED",
+    "target": "cognitive_behavioral_therapy"
+  },
+  {
+    "source": "humanistic_psychology",
+    "type": "ENABLED",
+    "target": "positive_psychology"
+  },
+  {
+    "source": "humanistic_psychology",
+    "type": "ENABLED",
+    "target": "self_determination_theory"
+  },
+  {
+    "source": "attachment_theory",
+    "type": "ENABLED",
+    "target": "psychological_resilience"
+  },
+  {
+    "source": "attachment_theory",
+    "type": "ENABLED",
+    "target": "cognitive_behavioral_therapy"
+  },
+  {
+    "source": "intergenerational_trauma",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "collective_resilience"
+  },
+  {
+    "source": "post_traumatic_growth",
+    "type": "DISCREDITED",
+    "target": "learned_helplessness"
+  },
+  {
+    "source": "social_identity_theory",
+    "type": "ENABLED",
+    "target": "authoritarian_personality"
+  },
+  {
+    "source": "stereotype_threat",
+    "type": "ENABLED",
+    "target": "implicit_bias_research"
+  },
+  {
+    "source": "authoritarian_personality",
+    "type": "ENABLED",
+    "target": "radicalization"
+  },
+  {
+    "source": "terror_management_theory",
+    "type": "ENABLED",
+    "target": "in_group_out_group_dynamics"
+  },
+  {
+    "source": "just_world_hypothesis",
+    "type": "ENABLED",
+    "target": "victim_blaming"
+  },
+  {
+    "source": "just_world_hypothesis",
+    "type": "ENABLED",
+    "target": "false_consciousness_economics"
+  },
+  {
+    "source": "moral_courage",
+    "type": "DISCREDITED",
+    "target": "bystander_effect"
+  },
+  {
+    "source": "empathy",
+    "type": "DISCREDITED",
+    "target": "dehumanization"
+  },
+  {
+    "source": "growth_mindset",
+    "type": "DISCREDITED",
+    "target": "learned_helplessness"
+  },
+  {
+    "source": "psychological_resilience",
+    "type": "DISCREDITED",
+    "target": "intergenerational_trauma"
+  },
+  {
+    "source": "positive_reinforcement_behaviorism",
+    "type": "ENABLED",
+    "target": "cognitive_behavioral_therapy"
+  },
+  {
+    "source": "intersectionality",
+    "type": "ENABLED",
+    "target": "feminist_theory"
+  },
+  {
+    "source": "online_radicalization",
+    "type": "ENABLED",
+    "target": "radicalization"
   }
 ]

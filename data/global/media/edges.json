@@ -729,5 +729,140 @@
     "label": "Enabled",
     "note": "Deep state content drives massive engagement and fundraising in right-wing media",
     "confidence": "confirmed"
+  },
+  {
+    "source": "printing_press",
+    "type": "ENABLED",
+    "target": "propaganda_techniques_wwi"
+  },
+  {
+    "source": "yellow_journalism",
+    "type": "ENABLED",
+    "target": "propaganda_techniques_wwi"
+  },
+  {
+    "source": "propaganda_techniques_wwi",
+    "type": "ENABLED",
+    "target": "edward_bernays"
+  },
+  {
+    "source": "edward_bernays",
+    "type": "PRODUCED",
+    "target": "attention_economy"
+  },
+  {
+    "source": "muckraking_era",
+    "type": "DISCREDITED",
+    "target": "media_consolidation"
+  },
+  {
+    "source": "muckraking_era",
+    "type": "ENABLED",
+    "target": "investigative_journalism_institutions"
+  },
+  {
+    "source": "watergate_journalism",
+    "type": "ENABLED",
+    "target": "freedom_of_information_act_1966"
+  },
+  {
+    "source": "pentagon_papers_1971",
+    "type": "ENABLED",
+    "target": "watergate_journalism"
+  },
+  {
+    "source": "printing_press",
+    "type": "ENABLED",
+    "target": "samizdat"
+  },
+  {
+    "source": "world_wide_web",
+    "type": "ENABLED",
+    "target": "citizen_journalism"
+  },
+  {
+    "source": "world_wide_web",
+    "type": "ENABLED",
+    "target": "arab_spring_social_media"
+  },
+  {
+    "source": "world_wide_web",
+    "type": "ENABLED",
+    "target": "fact_checking_movement"
+  },
+  {
+    "source": "social_media_platforms",
+    "type": "ENABLED",
+    "target": "arab_spring_social_media"
+  },
+  {
+    "source": "social_media_platforms",
+    "type": "ENABLED",
+    "target": "citizen_journalism_revolution"
+  },
+  {
+    "source": "fox_news",
+    "type": "ENABLED",
+    "target": "media_consolidation"
+  },
+  {
+    "source": "rupert_murdoch",
+    "type": "ENABLED",
+    "target": "fox_news"
+  },
+  {
+    "source": "cambridge_analytica",
+    "type": "ENABLED",
+    "target": "russian_disinformation"
+  },
+  {
+    "source": "local_news_collapse",
+    "type": "ENABLED",
+    "target": "media_consolidation"
+  },
+  {
+    "source": "attention_economy",
+    "type": "ENABLED",
+    "target": "algorithmic_news"
+  },
+  {
+    "source": "attention_economy",
+    "type": "ENABLED",
+    "target": "infowars_alternative_media"
+  },
+  {
+    "source": "media_literacy_movement",
+    "type": "DISCREDITED",
+    "target": "deepfakes"
+  },
+  {
+    "source": "public_broadcasting",
+    "type": "DISCREDITED",
+    "target": "media_consolidation"
+  },
+  {
+    "source": "wikileaks_2010",
+    "type": "ENABLED",
+    "target": "citizen_journalism_revolution"
+  },
+  {
+    "source": "muckraking_era",
+    "type": "ENABLED",
+    "target": "watergate_journalism"
+  },
+  {
+    "source": "hutchins_commission_1947",
+    "type": "ENABLED",
+    "target": "public_broadcasting"
+  },
+  {
+    "source": "great_firewall_china",
+    "type": "DISCREDITED",
+    "target": "internet_and_democracy"
+  },
+  {
+    "source": "internet_and_democracy",
+    "type": "ENABLED",
+    "target": "arab_spring_social_media"
   }
 ]

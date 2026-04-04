@@ -611,5 +611,308 @@
       "right_wing_media",
       "shadow_government"
     ]
+  },
+  {
+    "id": "muckraking_era",
+    "label": "Muckraking Era (1890s–1920s)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1890s",
+    "region": "USA",
+    "scope": "global/media",
+    "summary": "Progressive-era investigative journalism by Ida Tarbell, Upton Sinclair, and Jacob Riis that directly produced antitrust law, food safety regulation, and housing reform.",
+    "tags": [
+      "investigative journalism",
+      "progressive era",
+      "accountability",
+      "reform",
+      "ida tarbell"
+    ]
+  },
+  {
+    "id": "pentagon_papers_1971",
+    "label": "Pentagon Papers (1971)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1970s",
+    "region": "USA",
+    "scope": "global/media",
+    "summary": "Classified Vietnam War study leaked by Daniel Ellsberg and published over Nixon's objections. The Supreme Court's prior restraint ruling is a landmark press freedom case.",
+    "tags": [
+      "press freedom",
+      "vietnam war",
+      "government secrecy",
+      "first amendment",
+      "whistleblowing"
+    ]
+  },
+  {
+    "id": "watergate_journalism",
+    "label": "Watergate Journalism (1972–74)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1970s",
+    "region": "USA",
+    "scope": "global/media",
+    "summary": "Washington Post reporting by Woodward and Bernstein on Watergate, leading to Nixon's resignation — the paradigmatic case of investigative journalism holding presidential power accountable.",
+    "tags": [
+      "investigative journalism",
+      "accountability",
+      "nixon",
+      "press freedom",
+      "washington post"
+    ]
+  },
+  {
+    "id": "first_amendment_press_freedom",
+    "label": "First Amendment Press Freedom",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1790s",
+    "region": "USA",
+    "scope": "global/media",
+    "summary": "Constitutional protection producing strong case law (Near v. Minnesota, NYT v. Sullivan) establishing near-absolute protection against prior restraint and defamation liability for public figures.",
+    "tags": [
+      "press freedom",
+      "constitution",
+      "free speech",
+      "journalism",
+      "accountability"
+    ]
+  },
+  {
+    "id": "freedom_of_information_act_1966",
+    "label": "Freedom of Information Act (1966)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1960s",
+    "region": "USA",
+    "scope": "global/media",
+    "summary": "Law giving citizens and journalists the right to request federal documents — the legal tool for thousands of investigations that uncovered government misconduct.",
+    "tags": [
+      "transparency",
+      "government accountability",
+      "journalism",
+      "public records",
+      "democracy"
+    ]
+  },
+  {
+    "id": "public_broadcasting",
+    "label": "Public Broadcasting (BBC, PBS, NPR)",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1920s",
+    "region": "Global",
+    "scope": "global/media",
+    "summary": "Publicly funded but editorially independent broadcasters providing news and culture without advertising pressure — an alternative to market-driven media with structural incentives toward quality over engagement.",
+    "tags": [
+      "bbc",
+      "public media",
+      "journalism",
+      "education",
+      "media funding"
+    ]
+  },
+  {
+    "id": "media_literacy_movement",
+    "label": "Media Literacy Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1990s",
+    "region": "Global",
+    "scope": "global/media",
+    "summary": "Educational initiative teaching critical analysis of media messages — the primary preventive counter to propaganda, filter bubbles, and disinformation campaigns.",
+    "tags": [
+      "education",
+      "critical thinking",
+      "disinformation",
+      "propaganda",
+      "digital literacy"
+    ]
+  },
+  {
+    "id": "wikileaks_2010",
+    "label": "WikiLeaks & Collateral Murder (2010)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "2010s",
+    "region": "Global",
+    "scope": "global/media",
+    "summary": "Publication of the Collateral Murder video and Iraq/Afghan War Logs revealed systematic government deception, triggering global debate about secrecy, press freedom, and whistleblower protection.",
+    "tags": [
+      "wikileaks",
+      "whistleblowing",
+      "government secrecy",
+      "press freedom"
+    ]
+  },
+  {
+    "id": "net_neutrality",
+    "label": "Net Neutrality",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "2000s",
+    "region": "Global",
+    "scope": "global/media",
+    "summary": "Principle that ISPs must treat all data equally — preventing gatekeeping of the internet by telecoms and preserving it as an open publishing medium.",
+    "tags": [
+      "internet",
+      "regulation",
+      "free speech",
+      "corporate power",
+      "censorship"
+    ]
+  },
+  {
+    "id": "free_software_movement",
+    "label": "Free & Open Source Software Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1980s",
+    "region": "Global",
+    "scope": "global/media",
+    "summary": "Stallman's GNU project and Torvalds' Linux established that collaborative, transparent, freely reproducible software is both technically superior and important for preventing knowledge monopolization.",
+    "tags": [
+      "open source",
+      "digital commons",
+      "software",
+      "freedom",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "fact_checking_movement",
+    "label": "Fact-Checking Journalism",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "2000s",
+    "region": "Global",
+    "scope": "global/media",
+    "summary": "Specialized organizations (PolitiFact, FactCheck.org, Snopes) that systematically evaluate factual claims — a direct institutional response to political misinformation.",
+    "tags": [
+      "misinformation",
+      "accountability",
+      "journalism",
+      "truth",
+      "democracy"
+    ]
+  },
+  {
+    "id": "samizdat",
+    "label": "Samizdat (Soviet Underground Press)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1950s",
+    "region": "Soviet Union",
+    "scope": "global/media",
+    "summary": "Self-published underground literature circulated hand-to-hand in the Soviet Union, demonstrating that information suppression is never total and that communication persists despite authoritarian control.",
+    "tags": [
+      "censorship",
+      "resistance",
+      "soviet union",
+      "free press",
+      "underground"
+    ]
+  },
+  {
+    "id": "committee_protect_journalists",
+    "label": "Committee to Protect Journalists",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1980s",
+    "region": "Global",
+    "scope": "global/media",
+    "summary": "International organization documenting attacks on journalists — killings, imprisonments, censorship — holding governments accountable for press freedom violations.",
+    "tags": [
+      "press freedom",
+      "journalist safety",
+      "accountability",
+      "human rights"
+    ]
+  },
+  {
+    "id": "investigative_journalism_institutions",
+    "label": "Investigative Journalism (ICIJ, ProPublica)",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "2000s",
+    "region": "Global",
+    "scope": "global/media",
+    "summary": "Nonprofit investigative journalism producing landmark investigations (Panama Papers, Pandora Papers) into offshore finance and corporate misconduct — a new model funded outside advertising.",
+    "tags": [
+      "investigative journalism",
+      "nonprofit media",
+      "corruption",
+      "accountability",
+      "panama papers"
+    ]
+  },
+  {
+    "id": "arab_spring_social_media",
+    "label": "Arab Spring & Social Media (2010–11)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "2010s",
+    "region": "Middle East",
+    "scope": "global/media",
+    "summary": "Mass uprisings in which social media enabled rapid coordination and documentation — demonstrating both the democratizing potential of networked communication and its limits when states adapt.",
+    "tags": [
+      "social media",
+      "revolution",
+      "democracy",
+      "censorship",
+      "middle east"
+    ]
+  },
+  {
+    "id": "propaganda_techniques_wwi",
+    "label": "WWI Propaganda Techniques",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1910s",
+    "region": "Global",
+    "scope": "global/media",
+    "summary": "World War I produced the first industrial-scale state propaganda — the UK's War Propaganda Bureau, the US Creel Committee — systematizing emotional appeals and managed news refined in WWII.",
+    "tags": [
+      "propaganda",
+      "world war i",
+      "government",
+      "public opinion",
+      "creel committee"
+    ]
+  },
+  {
+    "id": "citizen_journalism_revolution",
+    "label": "Citizen Journalism Revolution",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "2000s",
+    "region": "Global",
+    "scope": "global/media",
+    "summary": "Camera phones and social media enabled ordinary people to document newsworthy events — transforming journalism from a professional monopoly to a distributed activity with real accountability consequences.",
+    "tags": [
+      "citizen journalism",
+      "police accountability",
+      "social media",
+      "video",
+      "george floyd"
+    ]
+  },
+  {
+    "id": "hutchins_commission_1947",
+    "label": "Hutchins Commission on Press Freedom (1947)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1940s",
+    "region": "USA",
+    "scope": "global/media",
+    "summary": "Landmark report defining the social responsibility of the press — holding that a free press also bears obligations to accuracy, context, and representation of society's diverse viewpoints.",
+    "tags": [
+      "press freedom",
+      "journalism ethics",
+      "social responsibility",
+      "media standards"
+    ]
   }
 ]

@@ -728,5 +728,260 @@
       "goffman",
       "1960s"
     ]
+  },
+  {
+    "id": "smallpox_eradication_1980",
+    "label": "Smallpox Eradication (1980)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1980s",
+    "region": "Global",
+    "scope": "global/health",
+    "summary": "The only human disease ever eradicated; a WHO vaccination campaign eliminated smallpox in 1980 — saving an estimated 5 million lives per year and demonstrating the power of coordinated international public health.",
+    "tags": [
+      "vaccination",
+      "who",
+      "eradication",
+      "public health",
+      "success story"
+    ]
+  },
+  {
+    "id": "polio_vaccine_1955",
+    "label": "Polio Vaccine (Salk, 1955)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1950s",
+    "region": "USA",
+    "scope": "global/health",
+    "summary": "Developed with public funding and deliberately not patented; reduced US polio cases from 58,000 in 1952 to near zero within a decade — a model of publicly funded research whose benefits were freely shared.",
+    "tags": [
+      "vaccine",
+      "polio",
+      "salk",
+      "public health",
+      "public funding"
+    ]
+  },
+  {
+    "id": "who_founding_1948",
+    "label": "World Health Organization (1948)",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1940s",
+    "region": "Global",
+    "scope": "global/health",
+    "summary": "UN agency coordinating international health responses, setting disease standards, funding vaccination campaigns, and declaring global health emergencies.",
+    "tags": [
+      "who",
+      "global health",
+      "vaccination",
+      "international cooperation",
+      "disease"
+    ]
+  },
+  {
+    "id": "medicare_medicaid_1965",
+    "label": "Medicare & Medicaid (1965)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1960s",
+    "region": "USA",
+    "scope": "global/health",
+    "summary": "Johnson administration legislation creating government health insurance for the elderly and poor — reducing elderly poverty and dramatically improving health access.",
+    "tags": [
+      "healthcare",
+      "insurance",
+      "poverty",
+      "elderly",
+      "johnson"
+    ]
+  },
+  {
+    "id": "john_snow_cholera_1854",
+    "label": "John Snow & Cholera Mapping (1854)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1850s",
+    "region": "UK",
+    "scope": "global/health",
+    "summary": "John Snow's mapping of the Broad Street cholera outbreak established epidemiology as a discipline — demonstrating that disease spread could be traced and interrupted without a laboratory explanation.",
+    "tags": [
+      "epidemiology",
+      "cholera",
+      "public health",
+      "germ theory",
+      "data"
+    ]
+  },
+  {
+    "id": "florence_nightingale",
+    "label": "Florence Nightingale (1820–1910)",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1850s",
+    "region": "UK",
+    "scope": "global/health",
+    "summary": "Pioneer of modern nursing; her statistical analysis of Crimean War hospital mortality demonstrated that infection killed far more soldiers than wounds — establishing data-driven healthcare improvement.",
+    "tags": [
+      "nursing",
+      "sanitation",
+      "statistics",
+      "hospital reform",
+      "women in medicine"
+    ]
+  },
+  {
+    "id": "reproductive_rights_movement",
+    "label": "Reproductive Rights Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1960s",
+    "region": "Global",
+    "scope": "global/health",
+    "summary": "Movement for women's access to contraception and abortion — Griswold v. Connecticut (1965), Roe v. Wade (1973) — treating reproductive autonomy as essential to women's health and equality.",
+    "tags": [
+      "women's rights",
+      "contraception",
+      "abortion",
+      "autonomy",
+      "healthcare access"
+    ]
+  },
+  {
+    "id": "clean_air_clean_water_acts",
+    "label": "Clean Air & Clean Water Acts (1970–72)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1970s",
+    "region": "USA",
+    "scope": "global/health",
+    "summary": "Nixon-era legislation setting federal air and water quality standards; produced measurable reductions in pollution-linked disease and established environmental health as a public good.",
+    "tags": [
+      "environment",
+      "pollution",
+      "regulation",
+      "public health",
+      "epa"
+    ]
+  },
+  {
+    "id": "evidence_based_medicine",
+    "label": "Evidence-Based Medicine Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1990s",
+    "region": "Global",
+    "scope": "global/health",
+    "summary": "Established systematic reviews and randomized controlled trials as the gold standard for medical practice, pushing back against tradition and commercial interest as bases for clinical decisions.",
+    "tags": [
+      "clinical trials",
+      "randomized control trial",
+      "medical research",
+      "cochrane",
+      "standards"
+    ]
+  },
+  {
+    "id": "hiv_aids_activism",
+    "label": "HIV/AIDS Activism (ACT UP)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1980s",
+    "region": "USA",
+    "scope": "global/health",
+    "summary": "ACT UP used direct action — die-ins at the FDA, disruption of conferences — to accelerate drug approval and force government response, transforming patient advocacy and establishing a model for healthcare politics.",
+    "tags": [
+      "aids",
+      "activism",
+      "lgbtq",
+      "drug approval",
+      "patient rights"
+    ]
+  },
+  {
+    "id": "disability_rights_movement",
+    "label": "Disability Rights Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1970s",
+    "region": "USA",
+    "scope": "global/health",
+    "summary": "Reframed disability from a medical problem to a civil rights issue created by inaccessible environments; produced Section 504 (1973), the ADA (1990), and the UN Convention on Rights of Persons with Disabilities.",
+    "tags": [
+      "disability",
+      "civil rights",
+      "ada",
+      "accessibility",
+      "neurodiversity"
+    ]
+  },
+  {
+    "id": "antibiotic_discovery",
+    "label": "Antibiotic Discovery (Penicillin, 1928)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1920s",
+    "region": "UK",
+    "scope": "global/health",
+    "summary": "Fleming's discovery of penicillin transformed medicine — previously fatal infections became treatable. Penicillin was deliberately not patented to maximize availability.",
+    "tags": [
+      "medicine",
+      "infection",
+      "fleming",
+      "public health",
+      "discovery"
+    ]
+  },
+  {
+    "id": "global_health_equity_movement",
+    "label": "Global Health Equity Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1990s",
+    "region": "Global",
+    "scope": "global/health",
+    "summary": "Paul Farmer and Partners in Health demonstrated that high-quality healthcare delivery is possible in resource-poor settings and that 'they can't afford it' is typically a political rather than economic fact.",
+    "tags": [
+      "global health",
+      "equity",
+      "paul farmer",
+      "partners in health",
+      "poverty"
+    ]
+  },
+  {
+    "id": "mental_health_destigmatization",
+    "label": "Mental Health Destigmatization",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1990s",
+    "region": "Global",
+    "scope": "global/health",
+    "summary": "Movement to normalize mental health treatment through public campaigns, celebrity disclosure, and school-based programs — reducing the shame that prevented people from seeking care.",
+    "tags": [
+      "mental health",
+      "stigma",
+      "awareness",
+      "treatment access",
+      "depression"
+    ]
+  },
+  {
+    "id": "universal_healthcare_systems",
+    "label": "Universal Healthcare Systems",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1940s",
+    "region": "Global",
+    "scope": "global/health",
+    "summary": "UK's NHS (1948) and similar systems in Canada, Scandinavia, and France demonstrate that universal access to healthcare produces better population health outcomes at lower cost than market-based systems.",
+    "tags": [
+      "healthcare",
+      "universal coverage",
+      "nhs",
+      "canada",
+      "public health"
+    ]
   }
 ]

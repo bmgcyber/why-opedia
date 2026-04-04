@@ -742,5 +742,145 @@
     "label": "both are population-level public health interventions that work without requiring behavior change",
     "note": "Both vaccination and harm reduction work by reducing harm regardless of individual behavior or willpower — vaccination protects even people who don't understand how it works; needle exchanges protect even people who continue using drugs. Both challenge moralizing public health approaches that make protection contingent on 'correct' behavior.",
     "confidence": "high"
+  },
+  {
+    "source": "germ_theory_of_disease",
+    "type": "ENABLED",
+    "target": "sanitation_revolution_19c"
+  },
+  {
+    "source": "germ_theory_of_disease",
+    "type": "ENABLED",
+    "target": "antibiotic_discovery"
+  },
+  {
+    "source": "germ_theory_of_disease",
+    "type": "ENABLED",
+    "target": "global_vaccination_campaigns"
+  },
+  {
+    "source": "john_snow_cholera_1854",
+    "type": "ENABLED",
+    "target": "germ_theory_of_disease"
+  },
+  {
+    "source": "florence_nightingale",
+    "type": "ENABLED",
+    "target": "sanitation_revolution_19c"
+  },
+  {
+    "source": "florence_nightingale",
+    "type": "ENABLED",
+    "target": "evidence_based_medicine"
+  },
+  {
+    "source": "global_vaccination_campaigns",
+    "type": "ENABLED",
+    "target": "smallpox_eradication_1980"
+  },
+  {
+    "source": "who_founding_1948",
+    "type": "ENABLED",
+    "target": "smallpox_eradication_1980"
+  },
+  {
+    "source": "who_founding_1948",
+    "type": "ENABLED",
+    "target": "global_vaccination_campaigns"
+  },
+  {
+    "source": "polio_vaccine_1955",
+    "type": "DISCREDITED",
+    "target": "anti_vaccination_movement"
+  },
+  {
+    "source": "aids_crisis",
+    "type": "ENABLED",
+    "target": "hiv_aids_activism"
+  },
+  {
+    "source": "hiv_aids_activism",
+    "type": "ENABLED",
+    "target": "hiv_treatment_breakthrough"
+  },
+  {
+    "source": "hiv_treatment_breakthrough",
+    "type": "DISCREDITED",
+    "target": "aids_crisis"
+  },
+  {
+    "source": "disability_rights_movement",
+    "type": "ENABLED",
+    "target": "neurodiversity"
+  },
+  {
+    "source": "clean_air_clean_water_acts",
+    "type": "DISCREDITED",
+    "target": "leaded_gasoline_cover_up"
+  },
+  {
+    "source": "evidence_based_medicine",
+    "type": "DISCREDITED",
+    "target": "pharmaceutical_trials_manipulation"
+  },
+  {
+    "source": "evidence_based_medicine",
+    "type": "DISCREDITED",
+    "target": "pain_management_movement"
+  },
+  {
+    "source": "mental_health_movement",
+    "type": "DISCREDITED",
+    "target": "mental_health_stigma"
+  },
+  {
+    "source": "mental_health_destigmatization",
+    "type": "DISCREDITED",
+    "target": "mental_health_stigma"
+  },
+  {
+    "source": "harm_reduction",
+    "type": "DISCREDITED",
+    "target": "opioid_crisis"
+  },
+  {
+    "source": "single_payer_healthcare",
+    "type": "DISCREDITED",
+    "target": "healthcare_privatization"
+  },
+  {
+    "source": "global_health_equity_movement",
+    "type": "DISCREDITED",
+    "target": "healthcare_privatization"
+  },
+  {
+    "source": "universal_healthcare_systems",
+    "type": "DISCREDITED",
+    "target": "healthcare_privatization"
+  },
+  {
+    "source": "medicare_medicaid_1965",
+    "type": "DISCREDITED",
+    "target": "healthcare_privatization"
+  },
+  {
+    "source": "sanitation_revolution_19c",
+    "type": "ENABLED",
+    "target": "global_vaccination_campaigns"
+  },
+  {
+    "source": "american_eugenics_movement",
+    "type": "ENABLED",
+    "target": "anti_vaccination_movement"
+  },
+  {
+    "source": "tuskegee_syphilis_study",
+    "type": "ENABLED",
+    "target": "medical_racism"
+  },
+  {
+    "source": "medical_racism",
+    "type": "ENABLED",
+    "target": "health_disparities"
   }
 ]
