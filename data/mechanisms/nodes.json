@@ -3444,5 +3444,59 @@
       "robinson",
       "development"
     ]
+  },
+  {
+    "id": "technological_displacement",
+    "label": "Technological Displacement",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The replacement of human labor by machines or automated processes — creating short-term unemployment and long-term productivity gains, with the distribution of gains determined by power rather than economics.",
+    "description": "Every wave of labor-replacing technology produces the same political conflict: those whose livelihoods are destroyed oppose the technology; those who own the technology and benefit from lower labor costs support it; and policymakers face the question of who bears the transition cost.\n\nThe Luddites opposed power looms not because they were anti-technology but because the gains were being captured by mill owners while workers were pauperized. The same pattern recurred in the 20th century with agricultural mechanization displacing sharecroppers, automation displacing factory workers, and software displacing white-collar workers in the 21st.\n\nThe distribution of displacement costs is never natural — it is a political choice. Societies that invested in retraining, extended unemployment benefits, and shared productivity gains through tax policy managed the transition differently than those that left workers to compete in a degraded labor market. Recognize it when: productivity rises while median wages stagnate; new job categories require skills the displaced workers don't have and cannot cheaply acquire; and the companies profiting from automation lobby against social insurance that would cushion the transition.",
+    "tags": [
+      "automation",
+      "labor",
+      "displacement",
+      "technology",
+      "inequality",
+      "luddites",
+      "gig economy",
+      "ai"
+    ]
+  },
+  {
+    "id": "empire_by_charter",
+    "label": "Empire by Charter (Corporate Colonialism)",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The use of chartered corporations — the East India Company, the Dutch VOC — as instruments of colonial conquest and extraction, combining state power with private profit motive and insulating the state from direct accountability for colonial violence.",
+    "tags": [
+      "east india company",
+      "colonialism",
+      "corporation",
+      "charter",
+      "extraction",
+      "voc",
+      "imperialism",
+      "accountability"
+    ]
+  },
+  {
+    "id": "revolutionary_terror",
+    "label": "Revolutionary Terror",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The political logic by which revolutionary movements, once in power, use violence against perceived internal enemies to defend the revolution — typically targeting former allies, minorities, and those accused of insufficient commitment, often devouring the revolution's own leadership.",
+    "tags": [
+      "revolution",
+      "terror",
+      "robespierre",
+      "french revolution",
+      "purge",
+      "violence",
+      "radicalization"
+    ]
   }
 ]

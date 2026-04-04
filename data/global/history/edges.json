@@ -9259,5 +9259,195 @@
     "source": "black_death",
     "type": "ENABLED",
     "target": "printing_press_gutenberg"
+  },
+  {
+    "source": "printing_press_gutenberg",
+    "type": "ENABLED",
+    "target": "protestant_reformation"
+  },
+  {
+    "source": "printing_press_gutenberg",
+    "type": "ENABLED",
+    "target": "italian_renaissance"
+  },
+  {
+    "source": "printing_press_gutenberg",
+    "type": "ENABLED",
+    "target": "scientific_revolution"
+  },
+  {
+    "source": "printing_press_gutenberg",
+    "type": "ENABLED",
+    "target": "enlightenment"
+  },
+  {
+    "source": "protestant_reformation",
+    "type": "ENABLED",
+    "target": "thirty_years_war"
+  },
+  {
+    "source": "protestant_reformation",
+    "type": "ENABLED",
+    "target": "english_revolution_glorious"
+  },
+  {
+    "source": "protestant_reformation",
+    "type": "ENABLED",
+    "target": "enlightenment"
+  },
+  {
+    "source": "italian_renaissance",
+    "type": "ENABLED",
+    "target": "scientific_revolution"
+  },
+  {
+    "source": "italian_renaissance",
+    "type": "ENABLED",
+    "target": "age_of_exploration"
+  },
+  {
+    "source": "scientific_revolution",
+    "type": "ENABLED",
+    "target": "enlightenment"
+  },
+  {
+    "source": "galileo_inquisition",
+    "type": "ENABLED",
+    "target": "scientific_revolution"
+  },
+  {
+    "source": "age_of_exploration",
+    "type": "PRODUCED",
+    "target": "columbian_exchange"
+  },
+  {
+    "source": "age_of_exploration",
+    "type": "PRODUCED",
+    "target": "transatlantic_slave_trade"
+  },
+  {
+    "source": "age_of_exploration",
+    "type": "PRODUCED",
+    "target": "columbian_exchange_detailed"
+  },
+  {
+    "source": "columbian_exchange",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "columbian_exchange_detailed"
+  },
+  {
+    "source": "transatlantic_slave_trade",
+    "type": "ENABLED",
+    "target": "haitian_revolution"
+  },
+  {
+    "source": "transatlantic_slave_trade",
+    "type": "ENABLED",
+    "target": "american_civil_war"
+  },
+  {
+    "source": "transatlantic_slave_trade",
+    "type": "ENABLED",
+    "target": "abolitionist_movement"
+  },
+  {
+    "source": "toussaint_louverture",
+    "type": "ENABLED",
+    "target": "haitian_revolution"
+  },
+  {
+    "source": "haitian_revolution",
+    "type": "ENABLED",
+    "target": "latin_american_independence"
+  },
+  {
+    "source": "thirty_years_war",
+    "type": "ENABLED",
+    "target": "peace_of_westphalia_system"
+  },
+  {
+    "source": "peace_of_westphalia",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "peace_of_westphalia_system"
+  },
+  {
+    "source": "english_revolution_glorious",
+    "type": "ENABLED",
+    "target": "john_locke"
+  },
+  {
+    "source": "john_locke",
+    "type": "ENABLED",
+    "target": "enlightenment"
+  },
+  {
+    "source": "john_locke",
+    "type": "ENABLED",
+    "target": "american_revolution"
+  },
+  {
+    "source": "enlightenment",
+    "type": "ENABLED",
+    "target": "american_revolution"
+  },
+  {
+    "source": "enlightenment",
+    "type": "ENABLED",
+    "target": "french_revolution"
+  },
+  {
+    "source": "enlightenment",
+    "type": "ENABLED",
+    "target": "abolitionist_movement"
+  },
+  {
+    "source": "french_revolution",
+    "type": "ENABLED",
+    "target": "napoleon_bonapart"
+  },
+  {
+    "source": "napoleon_bonapart",
+    "type": "ENABLED",
+    "target": "latin_american_independence"
+  },
+  {
+    "source": "napoleon_bonapart",
+    "type": "DISCREDITED",
+    "target": "haitian_revolution"
+  },
+  {
+    "source": "industrial_revolution",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "industrial_revolution_england"
+  },
+  {
+    "source": "industrial_revolution_england",
+    "type": "ENABLED",
+    "target": "luddites"
+  },
+  {
+    "source": "industrial_revolution_england",
+    "type": "ENABLED",
+    "target": "labor_movement"
+  },
+  {
+    "source": "industrial_revolution_england",
+    "type": "ENABLED",
+    "target": "class_consciousness"
+  },
+  {
+    "source": "industrial_revolution_england",
+    "type": "ENABLED",
+    "target": "communist_manifesto_1848"
+  },
+  {
+    "source": "simon_bolivar",
+    "type": "ENABLED",
+    "target": "latin_american_independence"
+  },
+  {
+    "source": "latin_american_independence",
+    "type": "ENABLED",
+    "target": "decolonization_independence_wave"
   }
 ]

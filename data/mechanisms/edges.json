@@ -20105,5 +20105,180 @@
     "source": "umayyad_caliphate",
     "type": "ENABLED",
     "target": "religious_schism"
+  },
+  {
+    "source": "technological_displacement",
+    "type": "ENABLED",
+    "target": "luddites"
+  },
+  {
+    "source": "technological_displacement",
+    "type": "ENABLED",
+    "target": "gig_economy"
+  },
+  {
+    "source": "technological_displacement",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "deindustrialization"
+  },
+  {
+    "source": "industrial_revolution_england",
+    "type": "PRODUCED",
+    "target": "technological_displacement"
+  },
+  {
+    "source": "technological_displacement",
+    "type": "ENABLED",
+    "target": "labor_unions_history"
+  },
+  {
+    "source": "technological_displacement",
+    "type": "ENABLED",
+    "target": "precariat_class"
+  },
+  {
+    "source": "empire_by_charter",
+    "type": "ENABLED",
+    "target": "british_empire"
+  },
+  {
+    "source": "empire_by_charter",
+    "type": "ENABLED",
+    "target": "colonialism"
+  },
+  {
+    "source": "empire_by_charter",
+    "type": "ENABLED",
+    "target": "age_of_exploration"
+  },
+  {
+    "source": "empire_by_charter",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "regulatory_capture"
+  },
+  {
+    "source": "empire_by_charter",
+    "type": "ENABLED",
+    "target": "transatlantic_slave_trade"
+  },
+  {
+    "source": "revolutionary_terror",
+    "type": "ENABLED",
+    "target": "french_revolution"
+  },
+  {
+    "source": "revolutionary_terror",
+    "type": "ENABLED",
+    "target": "russian_revolution_1917"
+  },
+  {
+    "source": "revolutionary_terror",
+    "type": "ENABLED",
+    "target": "stalinist_purges"
+  },
+  {
+    "source": "revolutionary_terror",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "authoritarian_control"
+  },
+  {
+    "source": "revolutionary_terror",
+    "type": "ENABLED",
+    "target": "radicalization_pipeline"
+  },
+  {
+    "source": "colonialism",
+    "type": "ENABLED",
+    "target": "age_of_exploration"
+  },
+  {
+    "source": "colonialism",
+    "type": "ENABLED",
+    "target": "haitian_revolution"
+  },
+  {
+    "source": "colonialism",
+    "type": "PRODUCED",
+    "target": "empire_by_charter"
+  },
+  {
+    "source": "dehumanization",
+    "type": "ENABLED",
+    "target": "transatlantic_slave_trade"
+  },
+  {
+    "source": "propaganda",
+    "type": "ENABLED",
+    "target": "age_of_exploration"
+  },
+  {
+    "source": "scientific_method",
+    "type": "ENABLED",
+    "target": "scientific_revolution"
+  },
+  {
+    "source": "scientific_revolution",
+    "type": "ENABLED",
+    "target": "scientific_method"
+  },
+  {
+    "source": "galileo_inquisition",
+    "type": "PRODUCED",
+    "target": "inquisition_mechanism"
+  },
+  {
+    "source": "enlightenment",
+    "type": "DISCREDITED",
+    "target": "divine_kingship"
+  },
+  {
+    "source": "enlightenment",
+    "type": "DISCREDITED",
+    "target": "priestly_class"
+  },
+  {
+    "source": "enlightenment",
+    "type": "ENABLED",
+    "target": "democratic_accountability"
+  },
+  {
+    "source": "enlightenment",
+    "type": "ENABLED",
+    "target": "separation_of_powers"
+  },
+  {
+    "source": "john_locke",
+    "type": "ENABLED",
+    "target": "social_contract_theory"
+  },
+  {
+    "source": "peace_of_westphalia_system",
+    "type": "ENABLED",
+    "target": "democratic_backsliding"
+  },
+  {
+    "source": "industrial_revolution_england",
+    "type": "ENABLED",
+    "target": "wealth_concentration"
+  },
+  {
+    "source": "industrial_revolution_england",
+    "type": "ENABLED",
+    "target": "structural_violence"
+  },
+  {
+    "source": "transatlantic_slave_trade",
+    "type": "ENABLED",
+    "target": "systemic_racism"
+  },
+  {
+    "source": "transatlantic_slave_trade",
+    "type": "ENABLED",
+    "target": "structural_violence"
+  },
+  {
+    "source": "transatlantic_slave_trade",
+    "type": "ENABLED",
+    "target": "wealth_concentration"
   }
 ]

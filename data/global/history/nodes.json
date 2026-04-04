@@ -12760,5 +12760,185 @@
       "knowledge",
       "democracy"
     ]
+  },
+  {
+    "id": "italian_renaissance",
+    "label": "Italian Renaissance (14th–16th century)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1300s",
+    "region": "Italy",
+    "scope": "global/history",
+    "summary": "The rebirth of classical learning in Italian city-states produced humanism — the idea that humans, not God, are the measure of all things. Florence under the Medici became the center; Leonardo, Michelangelo, Machiavelli, and Galileo were products. The Renaissance reframed knowledge as something to be discovered rather than merely inherited.",
+    "tags": [
+      "renaissance",
+      "humanism",
+      "italy",
+      "florence",
+      "medici",
+      "art",
+      "science",
+      "secularism"
+    ]
+  },
+  {
+    "id": "galileo_inquisition",
+    "label": "Galileo & the Inquisition (1633)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1630s",
+    "region": "Italy",
+    "scope": "global/history",
+    "summary": "Galileo's forced recantation of heliocentrism by the Roman Inquisition is the paradigmatic case of institutional power suppressing empirical truth — and demonstrating that such suppression, though effective in the short run, cannot permanently defeat well-evidenced claims.",
+    "tags": [
+      "galileo",
+      "inquisition",
+      "science",
+      "church",
+      "censorship",
+      "heliocentrism",
+      "truth",
+      "power"
+    ]
+  },
+  {
+    "id": "columbian_exchange_detailed",
+    "label": "Columbian Exchange & Its Consequences",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1490s",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "The transatlantic transfer of crops (maize, potato, tomato, tobacco) and diseases (smallpox, measles) after 1492. European diseases killed 50–90% of the indigenous American population — an estimated 55 million people. The potato and maize enabled European and African population explosions. Tobacco produced the plantation economy and accelerated the slave trade.",
+    "tags": [
+      "columbian exchange",
+      "disease",
+      "crops",
+      "demographics",
+      "indigenous",
+      "slave trade",
+      "potato",
+      "tobacco"
+    ]
+  },
+  {
+    "id": "peace_of_westphalia_system",
+    "label": "Peace of Westphalia & State System (1648)",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "1640s",
+    "region": "Europe",
+    "scope": "global/history",
+    "summary": "The treaties ending the Thirty Years' War established the principle of state sovereignty — no external power (not even the Pope) could interfere in a state's internal affairs. This created the modern international order: independent sovereign states as the basic units, with no higher authority. Both the foundation of modern diplomacy and the obstacle to global governance.",
+    "tags": [
+      "westphalia",
+      "sovereignty",
+      "state system",
+      "international relations",
+      "diplomacy",
+      "modern",
+      "1648"
+    ]
+  },
+  {
+    "id": "english_revolution_glorious",
+    "label": "English Revolution & Glorious Revolution (1640–1689)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1640s",
+    "region": "England",
+    "scope": "global/history",
+    "summary": "The English Civil War (1642–1651) and subsequent Glorious Revolution (1688) permanently limited royal power, established parliamentary sovereignty, and produced the Bill of Rights (1689) and Habeas Corpus Act (1679). The first constitutional settlement achieved through revolution rather than gradual evolution.",
+    "tags": [
+      "england",
+      "revolution",
+      "parliament",
+      "constitutional",
+      "habeas corpus",
+      "bill of rights",
+      "1688",
+      "liberty"
+    ]
+  },
+  {
+    "id": "napoleon_bonapart",
+    "label": "Napoleon Bonaparte (1769–1821)",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1790s",
+    "region": "France",
+    "scope": "global/history",
+    "summary": "General who rose from the chaos of the French Revolution to conquer most of Europe, spreading the Napoleonic Code (standardized law, civil equality, religious tolerance) while also restoring slavery in Haiti and ending the First French Republic. His final defeat at Waterloo triggered the conservative restoration that dominated 19th-century Europe.",
+    "tags": [
+      "napoleon",
+      "france",
+      "europe",
+      "conquest",
+      "napoleonic code",
+      "haiti",
+      "revolution",
+      "restoration"
+    ]
+  },
+  {
+    "id": "industrial_revolution_england",
+    "label": "Industrial Revolution (England, 1760s–1840s)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1760s",
+    "region": "England",
+    "scope": "global/history",
+    "summary": "The transition from agricultural to manufacturing economies, powered by coal and steam. Transformed human productive capacity and created the industrial working class — whose concentration in factories made collective action possible. Child labor, 16-hour workdays, and urban squalor drove the labor movement that produced modern worker protections.",
+    "tags": [
+      "industrial revolution",
+      "factory",
+      "steam",
+      "coal",
+      "labor",
+      "capitalism",
+      "working class",
+      "poverty",
+      "england"
+    ]
+  },
+  {
+    "id": "luddites",
+    "label": "Luddite Movement (1811–1816)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1810s",
+    "region": "England",
+    "scope": "global/history",
+    "summary": "English textile workers who destroyed labor-replacing machinery — not (as the myth claims) because they opposed technology, but because they demanded that new technology be introduced in ways that preserved their livelihoods. The first mass workers' movement against technological unemployment.",
+    "tags": [
+      "luddites",
+      "technology",
+      "workers",
+      "displacement",
+      "machine breaking",
+      "textile",
+      "capitalism",
+      "resistance"
+    ]
+  },
+  {
+    "id": "latin_american_independence",
+    "label": "Latin American Independence Movements (1808–1826)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1800s",
+    "region": "Latin America",
+    "scope": "global/history",
+    "summary": "Napoleon's invasion of Spain (1808) triggered independence movements across Spanish America. By 1826, nearly all of Latin America had become independent republics — but primarily led by creole elites, preserving colonial economic structures. The promise of independence was not extended to indigenous or enslaved populations.",
+    "tags": [
+      "latin america",
+      "independence",
+      "bolivar",
+      "revolution",
+      "creole",
+      "inequality",
+      "colonialism",
+      "spain"
+    ]
   }
 ]
