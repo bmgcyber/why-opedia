@@ -1109,5 +1109,57 @@
       "learning",
       "behavior change"
     ]
+  },
+  {
+    "id": "psychology_of_evil_zimbardo",
+    "label": "The Lucifer Effect (Zimbardo)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "2000s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "Philip Zimbardo's analysis of how ordinary people commit evil acts under situational pressure — arguing that evil is more a product of situation than character.",
+    "tags": [
+      "evil",
+      "zimbardo",
+      "situationism",
+      "institutions",
+      "stanford"
+    ]
+  },
+  {
+    "id": "victim_blaming",
+    "label": "Victim Blaming",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "decade": "1960s",
+    "region": "Global",
+    "scope": "global/psychology",
+    "summary": "The attribution of responsibility for harm to the person who experienced it, rather than to the perpetrator or structural conditions — a cognitive defense that protects the observer from acknowledging their own vulnerability.",
+    "tags": [
+      "psychology",
+      "justice",
+      "rape",
+      "poverty",
+      "victim",
+      "rationalization"
+    ]
+  },
+  {
+    "id": "bystander_effect",
+    "label": "Bystander Effect",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1960s",
+    "region": "USA",
+    "scope": "global/psychology",
+    "summary": "The tendency for individuals to be less likely to help a victim when other people are present — each person assumes someone else will act, diffusing responsibility and producing collective inaction.",
+    "tags": [
+      "psychology",
+      "bystander",
+      "diffusion of responsibility",
+      "kitty genovese",
+      "intervention"
+    ]
   }
 ]

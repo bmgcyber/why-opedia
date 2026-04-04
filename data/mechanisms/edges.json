@@ -19420,5 +19420,305 @@
     "source": "coalition_building",
     "type": "ENABLED",
     "target": "voting_rights_act_1965"
+  },
+  {
+    "source": "divine_kingship",
+    "type": "ENABLED",
+    "target": "old_kingdom_egypt"
+  },
+  {
+    "source": "divine_kingship",
+    "type": "ENABLED",
+    "target": "akkadian_empire"
+  },
+  {
+    "source": "divine_kingship",
+    "type": "ENABLED",
+    "target": "egyptian_pharaoh"
+  },
+  {
+    "source": "divine_kingship",
+    "type": "ENABLED",
+    "target": "authoritarian_control"
+  },
+  {
+    "source": "divine_kingship",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "manufactured_consent"
+  },
+  {
+    "source": "divine_kingship",
+    "type": "ENABLED",
+    "target": "church_state_entanglement"
+  },
+  {
+    "source": "old_kingdom_egypt",
+    "type": "PRODUCED",
+    "target": "divine_kingship"
+  },
+  {
+    "source": "ancient_sumer",
+    "type": "PRODUCED",
+    "target": "divine_kingship"
+  },
+  {
+    "source": "shang_dynasty",
+    "type": "PRODUCED",
+    "target": "divine_kingship"
+  },
+  {
+    "source": "tribute_system",
+    "type": "ENABLED",
+    "target": "akkadian_empire"
+  },
+  {
+    "source": "tribute_system",
+    "type": "ENABLED",
+    "target": "roman_empire"
+  },
+  {
+    "source": "tribute_system",
+    "type": "ENABLED",
+    "target": "aztec_empire"
+  },
+  {
+    "source": "tribute_system",
+    "type": "ENABLED",
+    "target": "imperialism"
+  },
+  {
+    "source": "tribute_system",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "resource_extraction"
+  },
+  {
+    "source": "tribute_system",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "imf_structural_adjustment"
+  },
+  {
+    "source": "akkadian_empire",
+    "type": "PRODUCED",
+    "target": "tribute_system"
+  },
+  {
+    "source": "assyrian_empire",
+    "type": "PRODUCED",
+    "target": "tribute_system"
+  },
+  {
+    "source": "priestly_class",
+    "type": "ENABLED",
+    "target": "church_state_entanglement"
+  },
+  {
+    "source": "priestly_class",
+    "type": "ENABLED",
+    "target": "cultural_hegemony"
+  },
+  {
+    "source": "priestly_class",
+    "type": "ENABLED",
+    "target": "divine_kingship"
+  },
+  {
+    "source": "priestly_class",
+    "type": "ENABLED",
+    "target": "literacy_as_power"
+  },
+  {
+    "source": "old_kingdom_egypt",
+    "type": "PRODUCED",
+    "target": "priestly_class"
+  },
+  {
+    "source": "vedic_period",
+    "type": "PRODUCED",
+    "target": "priestly_class"
+  },
+  {
+    "source": "caste_system",
+    "type": "ENABLED",
+    "target": "priestly_class"
+  },
+  {
+    "source": "debt_bondage",
+    "type": "ENABLED",
+    "target": "ancient_sumer"
+  },
+  {
+    "source": "debt_bondage",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "debt_trap"
+  },
+  {
+    "source": "debt_bondage",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "structural_violence"
+  },
+  {
+    "source": "debt_bondage",
+    "type": "ENABLED",
+    "target": "wage_suppression"
+  },
+  {
+    "source": "agricultural_revolution",
+    "type": "ENABLED",
+    "target": "debt_bondage"
+  },
+  {
+    "source": "ethnic_deportation",
+    "type": "ENABLED",
+    "target": "babylonian_captivity"
+  },
+  {
+    "source": "ethnic_deportation",
+    "type": "ENABLED",
+    "target": "ethnic_cleansing"
+  },
+  {
+    "source": "ethnic_deportation",
+    "type": "ENABLED",
+    "target": "genocide"
+  },
+  {
+    "source": "ethnic_deportation",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "indian_boarding_schools"
+  },
+  {
+    "source": "ethnic_deportation",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "structural_violence"
+  },
+  {
+    "source": "assyrian_empire",
+    "type": "PRODUCED",
+    "target": "ethnic_deportation"
+  },
+  {
+    "source": "ethnic_deportation",
+    "type": "ENABLED",
+    "target": "dehumanization"
+  },
+  {
+    "source": "literacy_as_power",
+    "type": "ENABLED",
+    "target": "priestly_class"
+  },
+  {
+    "source": "literacy_as_power",
+    "type": "ENABLED",
+    "target": "writing_invention"
+  },
+  {
+    "source": "writing_invention",
+    "type": "PRODUCED",
+    "target": "literacy_as_power"
+  },
+  {
+    "source": "alphabet_invention",
+    "type": "DISCREDITED",
+    "target": "literacy_as_power"
+  },
+  {
+    "source": "literacy_as_power",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "broken_epistemology"
+  },
+  {
+    "source": "printing_press",
+    "type": "DISCREDITED",
+    "target": "literacy_as_power"
+  },
+  {
+    "source": "caste_system",
+    "type": "ENABLED",
+    "target": "structural_violence"
+  },
+  {
+    "source": "caste_system",
+    "type": "ENABLED",
+    "target": "in_group_out_group_dynamics"
+  },
+  {
+    "source": "caste_system",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "systemic_racism"
+  },
+  {
+    "source": "caste_system",
+    "type": "ENABLED",
+    "target": "dehumanization"
+  },
+  {
+    "source": "bhimrao_ambedkar",
+    "type": "DISCREDITED",
+    "target": "caste_system"
+  },
+  {
+    "source": "buddhism",
+    "type": "DISCREDITED",
+    "target": "caste_system"
+  },
+  {
+    "source": "divine_kingship",
+    "type": "ENABLED",
+    "target": "propaganda"
+  },
+  {
+    "source": "tribute_system",
+    "type": "ENABLED",
+    "target": "class_consciousness"
+  },
+  {
+    "source": "bronze_age_collapse",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "structural_violence"
+  },
+  {
+    "source": "thucydides",
+    "type": "PRODUCED",
+    "target": "realpolitik"
+  },
+  {
+    "source": "peloponnesian_war_conflict",
+    "type": "PRODUCED",
+    "target": "democratic_backsliding"
+  },
+  {
+    "source": "athenian_democracy",
+    "type": "ENABLED",
+    "target": "peloponnesian_war"
+  },
+  {
+    "source": "roman_republic_crisis",
+    "type": "ENABLED",
+    "target": "democratic_backsliding"
+  },
+  {
+    "source": "roman_republic_crisis",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "wealth_concentration"
+  },
+  {
+    "source": "gracchi_brothers",
+    "type": "DISCREDITED",
+    "target": "wealth_concentration"
+  },
+  {
+    "source": "punic_wars",
+    "type": "ENABLED",
+    "target": "dehumanization"
+  },
+  {
+    "source": "fall_of_rome",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "democratic_backsliding"
+  },
+  {
+    "source": "fall_of_rome",
+    "type": "ENABLED",
+    "target": "feudal_system"
   }
 ]

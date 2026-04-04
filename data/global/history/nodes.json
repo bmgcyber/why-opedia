@@ -11323,5 +11323,670 @@
       "marriage equality",
       "discrimination"
     ]
+  },
+  {
+    "id": "paleolithic_era",
+    "label": "Paleolithic Era (3.3M–10,000 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "3000000s BCE",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "The Old Stone Age spans the emergence of stone tool use to the advent of agriculture. Characterized by small nomadic bands of hunter-gatherers, oral tradition, and the development of symbolic thinking — cave art, burial practices, and long-distance trade in ochre and shell.",
+    "tags": [
+      "prehistory",
+      "hunter-gatherer",
+      "stone age",
+      "human evolution",
+      "nomadic"
+    ]
+  },
+  {
+    "id": "agricultural_revolution",
+    "label": "Agricultural Revolution (~10,000 BCE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "10000s BCE",
+    "region": "Fertile Crescent",
+    "scope": "global/history",
+    "summary": "The transition from nomadic foraging to settled farming in the Fertile Crescent, independently arising in China, Mesoamerica, and West Africa. Created food surplus, population growth, permanent settlement — and with it, social hierarchy, property, and the state.",
+    "tags": [
+      "agriculture",
+      "neolithic",
+      "civilization",
+      "surplus",
+      "settlement",
+      "domestication"
+    ]
+  },
+  {
+    "id": "neolithic_revolution",
+    "label": "Neolithic Revolution (~9,000–3,000 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "9000s BCE",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "The broader transformation accompanying agriculture: pottery, weaving, polished stone tools, permanent villages, and the beginning of social stratification as surplus created the conditions for elites, priests, and rulers.",
+    "tags": [
+      "neolithic",
+      "agriculture",
+      "surplus",
+      "stratification",
+      "village",
+      "ceramics"
+    ]
+  },
+  {
+    "id": "bronze_age",
+    "label": "Bronze Age (~3300–1200 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "3300s BCE",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "The period of bronze tool and weapon production, characterized by literate palace economies, long-distance trade networks, and the first large-scale states. The Bronze Age connected Egypt, Mesopotamia, the Aegean, Anatolia, and the Levant in a single trade system.",
+    "tags": [
+      "bronze",
+      "trade",
+      "palace economy",
+      "literacy",
+      "state",
+      "technology"
+    ]
+  },
+  {
+    "id": "iron_age",
+    "label": "Iron Age (~1200–550 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1200s BCE",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "Iron smelting, cheaper and more widely distributed than bronze, democratized metal tools and weapons — enabling smaller polities to arm themselves and breaking the Bronze Age palace monopolies. Triggered the collapse of old elite networks and the rise of new states.",
+    "tags": [
+      "iron",
+      "technology",
+      "warfare",
+      "democratization",
+      "collapse",
+      "new kingdoms"
+    ]
+  },
+  {
+    "id": "writing_invention",
+    "label": "Invention of Writing (c. 3200 BCE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "3200s BCE",
+    "region": "Mesopotamia",
+    "scope": "global/history",
+    "summary": "Cuneiform script emerged in Uruk around 3200 BCE as an administrative tool — recording grain allocations and tax debts. Writing concentrated power in literate scribal classes; those who could read owned the record of who owed what to whom.",
+    "tags": [
+      "writing",
+      "literacy",
+      "administration",
+      "power",
+      "scribes",
+      "cuneiform"
+    ]
+  },
+  {
+    "id": "akkadian_empire",
+    "label": "Akkadian Empire (2334–2154 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "2300s BCE",
+    "region": "Mesopotamia",
+    "scope": "global/history",
+    "summary": "The world's first empire, forged by Sargon of Akkad through military conquest of the Sumerian city-states. Introduced the template of empire: a conquered periphery taxed to support a central court, a standing army, and an imperial language imposed on subject populations.",
+    "tags": [
+      "empire",
+      "sargon",
+      "conquest",
+      "mesopotamia",
+      "akkad",
+      "imperialism"
+    ]
+  },
+  {
+    "id": "sargon_of_akkad",
+    "label": "Sargon of Akkad (r. 2334–2279 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "2300s BCE",
+    "region": "Mesopotamia",
+    "scope": "global/history",
+    "summary": "Founder of the Akkadian Empire, the world's first — rose from cup-bearer to conqueror of all Mesopotamia. Established the model of a ruler claiming divine mandate while governing through a professional military bureaucracy.",
+    "tags": [
+      "empire",
+      "founder",
+      "mesopotamia",
+      "military",
+      "divine kingship"
+    ]
+  },
+  {
+    "id": "indus_valley_civilization",
+    "label": "Indus Valley Civilization (3300–1300 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "3300s BCE",
+    "region": "South Asia",
+    "scope": "global/history",
+    "summary": "One of the three earliest urban civilizations, spanning modern Pakistan and northwest India. Characterized by remarkably egalitarian city planning — standardized weights, covered sewers, no evidence of royal palaces or temples — and an undeciphered script.",
+    "tags": [
+      "indus",
+      "harappa",
+      "mohenjo-daro",
+      "urban planning",
+      "south asia",
+      "undeciphered"
+    ]
+  },
+  {
+    "id": "old_kingdom_egypt",
+    "label": "Old Kingdom Egypt (2686–2181 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "2686s BCE",
+    "region": "Egypt",
+    "scope": "global/history",
+    "summary": "The Pyramid Age — when pharaohs commanded the labor of tens of thousands to build monumental tombs. The Old Kingdom established the divine kingship model: the pharaoh was not merely appointed by gods but was a god, whose cosmic role justified absolute extraction from the population.",
+    "tags": [
+      "egypt",
+      "pyramids",
+      "pharaoh",
+      "divine kingship",
+      "labor",
+      "monument"
+    ]
+  },
+  {
+    "id": "hammurabi",
+    "label": "Hammurabi of Babylon (r. 1792–1750 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "1790s BCE",
+    "region": "Mesopotamia",
+    "scope": "global/history",
+    "summary": "Amorite king who unified Mesopotamia and issued the Code of Hammurabi — 282 laws governing commerce, property, family, and crime. The code is notable for differentiating punishments by social class, encoding inequality as law.",
+    "tags": [
+      "babylon",
+      "law",
+      "code",
+      "mesopotamia",
+      "inequality",
+      "social class"
+    ]
+  },
+  {
+    "id": "minoan_civilization",
+    "label": "Minoan Civilization (2700–1450 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "2700s BCE",
+    "region": "Crete",
+    "scope": "global/history",
+    "summary": "Bronze Age civilization centered on Crete, notable for palace complexes at Knossos, early literacy (Linear A script), extensive Mediterranean trade, and — unusually — apparent gender equality in religious and public life. Collapsed catastrophically around 1450 BCE, possibly through Mycenaean conquest and/or the Thera eruption.",
+    "tags": [
+      "bronze age",
+      "crete",
+      "palace",
+      "trade",
+      "mediterranean",
+      "collapse"
+    ]
+  },
+  {
+    "id": "mycenaean_civilization",
+    "label": "Mycenaean Civilization (1600–1100 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1600s BCE",
+    "region": "Greece",
+    "scope": "global/history",
+    "summary": "The Greek Bronze Age civilization — warrior kingdoms at Mycenae, Tiryns, and Pylos operating palace economies with Linear B script. Destroyed in the Bronze Age Collapse around 1200 BCE; the following Dark Age erased literacy and left only oral tradition — from which the Iliad and Odyssey eventually emerged.",
+    "tags": [
+      "bronze age",
+      "greece",
+      "troy",
+      "warriors",
+      "palace",
+      "linear b"
+    ]
+  },
+  {
+    "id": "bronze_age_collapse",
+    "label": "Bronze Age Collapse (~1200–1150 BCE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1200s BCE",
+    "region": "Mediterranean",
+    "scope": "global/history",
+    "summary": "Sudden systemic collapse of virtually every major Bronze Age civilization in the Eastern Mediterranean within 50 years — Mycenae, the Hittites, Ugarit, the Egyptian New Kingdom. Caused by a combination of drought, Sea Peoples invasions, earthquake, and trade network disruption. Produced a 400-year Dark Age and reset Mediterranean civilization.",
+    "tags": [
+      "collapse",
+      "systems failure",
+      "climate",
+      "migration",
+      "trade",
+      "catastrophe"
+    ]
+  },
+  {
+    "id": "phoenicians",
+    "label": "Phoenicians (c. 1200–64 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1200s BCE",
+    "region": "Levant",
+    "scope": "global/history",
+    "summary": "Levantine maritime civilization that survived the Bronze Age Collapse and dominated Mediterranean trade. Invented the alphabet — a radical simplification of writing to 22 consonants — enabling literacy beyond scribal elites. Founded Carthage and established the first commercial diaspora.",
+    "tags": [
+      "alphabet",
+      "trade",
+      "carthage",
+      "mediterranean",
+      "levant",
+      "literacy"
+    ]
+  },
+  {
+    "id": "alphabet_invention",
+    "label": "Alphabet Invention (c. 1050 BCE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1050s BCE",
+    "region": "Levant",
+    "scope": "global/history",
+    "summary": "The Phoenician alphabet reduced writing from hundreds of signs to 22 consonants — making literacy learnable in weeks rather than years. This stripped the scribal class of its monopoly on written knowledge and eventually enabled mass literacy, democratic texts, and popular religion.",
+    "tags": [
+      "alphabet",
+      "literacy",
+      "democratization",
+      "writing",
+      "phoenicia",
+      "knowledge"
+    ]
+  },
+  {
+    "id": "persian_wars",
+    "label": "Greco-Persian Wars (499–449 BCE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "490s BCE",
+    "region": "Greece/Persia",
+    "scope": "global/history",
+    "summary": "Two Persian invasions of Greece repelled by the Greek city-states. Marathon (490 BCE) and Thermopylae/Salamis (480 BCE) created the defining Greek myth of small free cities defeating a vast empire — the narrative that shaped Western political identity for millennia.",
+    "tags": [
+      "persia",
+      "greece",
+      "marathon",
+      "thermopylae",
+      "salamis",
+      "democracy",
+      "freedom"
+    ]
+  },
+  {
+    "id": "peloponnesian_war_conflict",
+    "label": "Peloponnesian War (431–404 BCE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "430s BCE",
+    "region": "Greece",
+    "scope": "global/history",
+    "summary": "27-year war between Athens and Sparta that destroyed the Athenian empire and demonstrated how democracy under pressure becomes tyranny. Thucydides' history is the first to analyze war as driven by fear, honor, and interest rather than divine will.",
+    "tags": [
+      "athens",
+      "sparta",
+      "democracy",
+      "war",
+      "thucydides",
+      "power",
+      "hubris"
+    ]
+  },
+  {
+    "id": "greek_city_states",
+    "label": "Greek City-States (poleis)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "800s BCE",
+    "region": "Greece",
+    "scope": "global/history",
+    "summary": "The polis — small autonomous city-state — was the Greek political unit. Hundreds of poleis developed radically different constitutions: Athens tested democracy, Sparta militarized its citizenry, Corinth built commercial oligarchy. The polis form proved the variety of political arrangements possible when city-scale sovereignty is the unit.",
+    "tags": [
+      "polis",
+      "democracy",
+      "oligarchy",
+      "city-state",
+      "greece",
+      "political philosophy"
+    ]
+  },
+  {
+    "id": "sparta",
+    "label": "Sparta (Lacedaemon)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "800s BCE",
+    "region": "Greece",
+    "scope": "global/history",
+    "summary": "The Greek city-state that militarized its entire society through the agoge system — boys removed from families at 7 for state military training. Sparta's stability rested on the helots: enslaved Messenians who outnumbered Spartans 7:1, requiring permanent military mobilization to suppress. The classic case of a society shaped by fear of those it oppresses.",
+    "tags": [
+      "sparta",
+      "military",
+      "helots",
+      "slavery",
+      "totalitarianism",
+      "agoge",
+      "greece"
+    ]
+  },
+  {
+    "id": "punic_wars",
+    "label": "Punic Wars (264–146 BCE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "260s BCE",
+    "region": "Mediterranean",
+    "scope": "global/history",
+    "summary": "Three wars between Rome and Carthage for Mediterranean dominance. The Third Punic War ended with Rome destroying Carthage entirely — the first recorded example of deliberate total annihilation of a civilization as policy. 'Carthago delenda est' became the template for eliminationist rhetoric.",
+    "tags": [
+      "rome",
+      "carthage",
+      "war",
+      "genocide",
+      "mediterranean",
+      "hannibal",
+      "imperialism"
+    ]
+  },
+  {
+    "id": "fall_of_rome",
+    "label": "Fall of the Western Roman Empire (476 CE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "470s",
+    "region": "Europe",
+    "scope": "global/history",
+    "summary": "The deposition of Romulus Augustulus by Odoacer in 476 CE ended the Western Roman Empire. More process than event — two centuries of fiscal exhaustion, military overextension, monetary debasement, political instability, and Hunnic pressure fragmented the West while the Eastern Empire survived another 1000 years.",
+    "tags": [
+      "rome",
+      "collapse",
+      "empire",
+      "migration",
+      "fiscal",
+      "overextension",
+      "late antiquity"
+    ]
+  },
+  {
+    "id": "vedic_period",
+    "label": "Vedic Period (1500–500 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1500s BCE",
+    "region": "India",
+    "scope": "global/history",
+    "summary": "Period of Indo-Aryan migration into the subcontinent and composition of the Vedas — the foundational texts of Hinduism. The varna (class) system crystallized during this period, dividing society into priests (Brahmins), warriors (Kshatriyas), merchants (Vaishyas), and laborers (Shudras), with the untouchable class outside the system entirely.",
+    "tags": [
+      "vedas",
+      "india",
+      "hinduism",
+      "caste",
+      "varna",
+      "brahmins",
+      "indo-aryan"
+    ]
+  },
+  {
+    "id": "caste_system",
+    "label": "Caste System (varna/jati)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1000s BCE",
+    "region": "India",
+    "scope": "global/history",
+    "summary": "The Hindu social hierarchy dividing people by birth into hereditary occupational groups. The varna system (4 classes) was formalized in the Vedic period; jati (birth community) developed later into thousands of endogamous groups. Enforced by religious sanction, legal discrimination, and social exclusion — one of the most durable stratification systems in human history.",
+    "tags": [
+      "india",
+      "inequality",
+      "hereditary",
+      "dalit",
+      "untouchable",
+      "hinduism",
+      "stratification"
+    ]
+  },
+  {
+    "id": "siddhartha_gautama",
+    "label": "Siddhartha Gautama (c. 563–483 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "550s BCE",
+    "region": "India",
+    "scope": "global/history",
+    "summary": "The historical Buddha — prince who renounced wealth to seek liberation from suffering, achieved enlightenment, and taught the Middle Way. His teachings explicitly challenged caste hierarchy and offered a universal path to liberation regardless of birth.",
+    "tags": [
+      "buddhism",
+      "india",
+      "philosophy",
+      "religion",
+      "equality",
+      "suffering",
+      "enlightenment"
+    ]
+  },
+  {
+    "id": "buddhism",
+    "label": "Buddhism (founded c. 5th century BCE)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "500s BCE",
+    "region": "India",
+    "scope": "global/history",
+    "summary": "Religion/philosophy founded by Siddhartha Gautama that spread from India across Asia, explicitly rejecting caste hierarchy and offering liberation through personal practice. Under Ashoka's patronage it became the first missionary religion, spreading to Central Asia, China, and Southeast Asia.",
+    "tags": [
+      "buddhism",
+      "religion",
+      "india",
+      "equality",
+      "philosophy",
+      "missionary",
+      "ashoka"
+    ]
+  },
+  {
+    "id": "shang_dynasty",
+    "label": "Shang Dynasty (c. 1600–1046 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1600s BCE",
+    "region": "China",
+    "scope": "global/history",
+    "summary": "China's first historically documented dynasty — oracle bone inscriptions (the earliest Chinese writing) record divination-based governance in which the king communicated with ancestors and gods. Bronze ritual vessels served as both weapons and symbols of political authority.",
+    "tags": [
+      "china",
+      "bronze age",
+      "writing",
+      "oracle bones",
+      "divination",
+      "dynasty",
+      "ritual"
+    ]
+  },
+  {
+    "id": "olmec_civilization",
+    "label": "Olmec Civilization (c. 1500–400 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1500s BCE",
+    "region": "Mesoamerica",
+    "scope": "global/history",
+    "summary": "The 'mother culture' of Mesoamerica — the Olmec at La Venta and San Lorenzo built the first monumental architecture in the Americas, developed the Long Count calendar (ancestor of the Mayan calendar), and produced colossal stone heads depicting rulers. Most subsequent Mesoamerican civilizations inherit Olmec symbolic systems.",
+    "tags": [
+      "olmec",
+      "mesoamerica",
+      "mother culture",
+      "monument",
+      "calendar",
+      "americas",
+      "pre-columbian"
+    ]
+  },
+  {
+    "id": "teotihuacan",
+    "label": "Teotihuacan (c. 100 BCE–550 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "100s BCE",
+    "region": "Mesoamerica",
+    "scope": "global/history",
+    "summary": "The largest city in the pre-Columbian Americas at its height (~125,000 people), organized around the Avenue of the Dead and Pyramids of the Sun and Moon. Unusually for an ancient city, archaeological evidence suggests relatively egalitarian housing — but the civilization collapsed around 550 CE from fire and apparent internal revolt.",
+    "tags": [
+      "teotihuacan",
+      "mesoamerica",
+      "city",
+      "pyramid",
+      "collapse",
+      "mexico",
+      "ancient"
+    ]
+  },
+  {
+    "id": "thucydides",
+    "label": "Thucydides (c. 460–400 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "450s BCE",
+    "region": "Greece",
+    "scope": "global/history",
+    "summary": "Athenian historian who wrote the first work of analytical history — the History of the Peloponnesian War. Stripped divine causation from historical explanation and argued that states act from fear, honor, and interest — founding the realist tradition in international relations.",
+    "tags": [
+      "history",
+      "athens",
+      "realism",
+      "power",
+      "war",
+      "political philosophy",
+      "thucydides trap"
+    ]
+  },
+  {
+    "id": "zoroastrianism",
+    "label": "Zoroastrianism (c. 1500–600 BCE)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1000s BCE",
+    "region": "Persia",
+    "scope": "global/history",
+    "summary": "The world's first monotheistic religion — or near-monotheism — founded by Zarathustra, positing a cosmic struggle between Ahura Mazda (truth/light) and Angra Mainyu (lies/darkness). Profoundly influenced Judaism, Christianity, and Islam through its concepts of heaven/hell, resurrection, and final judgment.",
+    "tags": [
+      "religion",
+      "persia",
+      "monotheism",
+      "zoroaster",
+      "dualism",
+      "influence",
+      "iran"
+    ]
+  },
+  {
+    "id": "monotheism",
+    "label": "Rise of Monotheism",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "600s BCE",
+    "region": "Levant/Persia",
+    "scope": "global/history",
+    "summary": "The shift from polytheistic pantheons to a single universal god, developed independently in the Hebrew tradition (post-Exile, 6th century BCE) and Zoroastrianism. Monotheism universalized morality (one god = one standard for all humanity) and created a template for exclusivist religious identity — the first belief system where others' gods were not just foreign but false.",
+    "tags": [
+      "religion",
+      "monotheism",
+      "judaism",
+      "zoroastrianism",
+      "universalism",
+      "exclusivism",
+      "god"
+    ]
+  },
+  {
+    "id": "roman_republic_crisis",
+    "label": "Crisis of the Roman Republic (133–27 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "130s BCE",
+    "region": "Rome",
+    "scope": "global/history",
+    "summary": "A century of civil wars, assassinations, and constitutional breakdown driven by inequality: land concentration among senatorial elites, dispossessed smallholders, and a military increasingly loyal to generals rather than the Republic. Ended with Augustus' monarchy — the textbook case of a republic that could not solve inequality without destroying itself.",
+    "tags": [
+      "rome",
+      "republic",
+      "inequality",
+      "civil war",
+      "julius caesar",
+      "gracchi",
+      "democracy",
+      "collapse"
+    ]
+  },
+  {
+    "id": "herodotus",
+    "label": "Herodotus (c. 484–425 BCE)",
+    "node_type": "reference",
+    "category": "person",
+    "decade": "480s BCE",
+    "region": "Greece",
+    "scope": "global/history",
+    "summary": "Greek historian called the 'Father of History' — the first to systematically investigate and record past events, including extensive ethnographic accounts of non-Greek peoples. His Histories of the Persian Wars was the first to treat distant cultures as subjects worthy of understanding rather than mere barbaric enemies.",
+    "tags": [
+      "history",
+      "greece",
+      "persia",
+      "ethnography",
+      "herodotus",
+      "inquiry",
+      "father of history"
+    ]
+  },
+  {
+    "id": "environmental_movement",
+    "label": "Environmental Movement",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1960s",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "Mass movement catalyzed by Rachel Carson's Silent Spring (1962), the first Earth Day (1970), and industrial disasters — producing the EPA, Clean Air/Water Acts, and international environmental law.",
+    "tags": [
+      "environment",
+      "ecology",
+      "pollution",
+      "activism",
+      "epa",
+      "climate",
+      "nature"
+    ]
+  },
+  {
+    "id": "black_power_movement",
+    "label": "Black Power Movement (1966–1970s)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "1960s",
+    "region": "USA",
+    "scope": "global/history",
+    "summary": "Radical Black political movement emphasizing self-determination, cultural pride, and economic independence — a direct response to the limits of integration-focused civil rights strategy, associated with Stokely Carmichael, the Black Panthers, and Black Arts Movement.",
+    "tags": [
+      "black power",
+      "civil rights",
+      "stokely carmichael",
+      "black panthers",
+      "self-determination",
+      "race"
+    ]
   }
 ]

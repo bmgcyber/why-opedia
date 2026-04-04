@@ -95,18 +95,31 @@ data/
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-03-27, Session 12)
+## CURRENT OBJECTIVE (Session 14 — 2026-04-04)
+
+**Build human history from the beginning.** Start with the agricultural revolution (~10,000 BCE) and work forward chronologically through prehistory, ancient civilizations, and early empires. New mechanisms will emerge naturally (divine kingship, tribute systems, debt bondage, priestly class, alphabet democratization, etc.). Add these to mechanisms/nodes.json with full descriptions. No stopping — keep generating until rate limit. Each batch: add nodes, add edges, run integrity check, commit.
+
+**Current wave:** Prehistory → Bronze Age → Iron Age → Classical Antiquity → Late Antiquity
+
+**Already covered (don't duplicate):**
+- ancient_sumer, ancient_egypt, roman_empire, roman_republic, greek_democracy (athenian_democracy), persian_achaemenid_empire, han_dynasty, maurya_empire, qin_dynasty, neo_babylonian_empire, babylonian_captivity, zhou_dynasty, assyrian_empire, hellenistic_philosophy
+- People: alexander_the_great, julius_caesar, augustus_caesar, ashoka, confucius, cleopatra, marcus_aurelius, socrates, plato, aristotle, gracchi_brothers, taharqa
+- Events: peloponnesian_war, silk_road, code_of_hammurabi, pyramid_construction, davidic_monarchy, second_temple_period, stoicism, qin_dynasty, qin_book_burning
+
+---
+
+## CURRENT DATASET STATE (as of 2026-04-04, Session 14)
 
 | Scope | Nodes | Edges |
 |-------|-------|-------|
-| History | **530** | **1010** |
-| Economics | 33 | 107 |
-| Politics | **115** | **325** |
-| Psychology | 42 | 107 |
-| Media | 30 | 82 |
-| Health | 37 | 84 |
-| Art & Culture | 53 | 26 |
-| Mechanisms | **158** | **2251** (cross-scope) |
+| History | **565** | **1033** |
+| Economics | 61 | 140 |
+| Politics | **115** | **324** |
+| Psychology | 58 | 132 |
+| Media | 49 | 109 |
+| Health | 52 | 112 |
+| Art & Culture | 53 | 59 |
+| Mechanisms | **160** | **2298** (cross-scope) |
 | **Person nodes (history)** | **~245** | — |
 | **Total nodes** | **~998** | **~3592** |
 

@@ -983,5 +983,23 @@
       "canada",
       "public health"
     ]
+  },
+  {
+    "id": "health_disparities",
+    "label": "Health Disparities",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "decade": "1980s",
+    "region": "Global",
+    "scope": "global/health",
+    "summary": "Systematic differences in health outcomes between population groups — mortality, morbidity, access to care — that track race, class, and geography rather than individual choices alone.",
+    "tags": [
+      "health",
+      "inequality",
+      "race",
+      "poverty",
+      "structural",
+      "disparities"
+    ]
   }
 ]

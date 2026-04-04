@@ -3076,5 +3076,213 @@
       "policy",
       "cash transfers"
     ]
+  },
+  {
+    "id": "divine_kingship",
+    "label": "Divine Kingship",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The political doctrine that the ruler is a god, is descended from gods, or rules by divine mandate — converting political authority into sacred authority and making opposition to the ruler equivalent to impiety.",
+    "description": "Divine kingship solves a fundamental legitimacy problem: why should one person command absolute obedience from thousands? By fusing political and cosmic authority, it answers the question with: because the universe itself requires it. The ruler is the pivot between the human and divine worlds — the pharaoh maintained ma'at (cosmic order), the Mesopotamian king was the earthly representative of the patron deity, the Chinese emperor held the Mandate of Heaven. In each case, the ruler's power was not merely political but cosmological: failure to obey was not just treason but an offense against the order of the world.\n\nThe mechanism is effective because it converts political resistance into religious transgression. Challenging the king is challenging the gods. It also provides an explanation for any outcome — victory proves divine favor, defeat proves the ruler has lost it, requiring a new (or repentant) ruler rather than a new system. The doctrine is self-correcting: it can absorb any evidence.\n\nRecognize it when political authority claims cosmic sanction: 'God's anointed,' 'the Mandate of Heaven,' 'divine right of kings.' In contemporary contexts: claims that a leader's election was divinely ordained, that opposition is spiritually corrupt, or that the national interest is identical to the will of God. The secular version is nationalist mysticism — the leader who claims to uniquely embody the soul of the nation.",
+    "tags": [
+      "kingship",
+      "divine right",
+      "legitimacy",
+      "religion",
+      "power",
+      "pharaoh",
+      "mandate of heaven"
+    ]
+  },
+  {
+    "id": "tribute_system",
+    "label": "Tribute System",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The extraction of goods, labor, or money from conquered or subordinate peoples as the economic foundation of empire — turning military dominance into ongoing revenue.",
+    "description": "Tribute systems are the economic engine of most ancient empires. The process: conquer a people, leave local rulers nominally in place, require annual payment in grain, silver, luxury goods, or soldiers. The conquered provide the surplus that funds the army that enforces the tribute that funds the army. The Akkadian Empire, Assyrian Empire, Aztec Triple Alliance, and Roman provincial taxation were all tribute systems at their core.\n\nThe mechanism is stable because it minimizes administrative costs: you don't need to directly govern a conquered people if you can extract compliance through the threat of return. Local elites are often co-opted — they collect tribute from their own people and pass a share upward, keeping a portion for themselves. This creates a class of indigenous collaborators whose wealth depends on maintaining the imperial relationship.\n\nRecognize the modern analogs: IMF structural adjustment programs that require debtor nations to cut social spending as a condition of refinancing are a tribute system. Franchise arrangements where local outlets pay a percentage of revenue to a remote corporation for the right to use its brand are a tribute system. The common structure is: power differential + ongoing extraction enforced by the threat of withdrawal of essential support.",
+    "tags": [
+      "empire",
+      "extraction",
+      "conquest",
+      "taxation",
+      "imperialism",
+      "colonialism",
+      "akkad",
+      "aztec"
+    ]
+  },
+  {
+    "id": "priestly_class",
+    "label": "Priestly Class (Epistemic Monopoly)",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "A specialized religious elite that controls access to sacred knowledge, ritual practice, and divine communication — converting spiritual authority into political and economic power.",
+    "description": "Priestly classes emerge when religious knowledge is both socially necessary and technically complex enough to require specialization. Once established, they have strong incentives to maintain their monopoly: make literacy and ritual knowledge difficult, create initiation barriers, claim divine communication that only they can perform, and align themselves with political rulers who need their legitimating services.\n\nThe mutual benefit with secular rulers is the core mechanism: rulers need priests to legitimate their authority through divine sanction; priests need rulers to protect their property, enforce tithing, and suppress competing religious practitioners. The result is a religio-political complex where challenging either the king or the priests challenges both simultaneously. The Old Kingdom Egyptian example is paradigmatic — priests of Amun eventually owned a third of Egypt's arable land.\n\nRecognize it when: religious institutions accumulate large land or capital holdings; access to salvation, merit, or divine grace requires payment or mediation through a certified intermediary; religious credentials are required for political legitimacy; and heterodox religious practice is punished as a civil rather than purely religious matter.",
+    "tags": [
+      "priests",
+      "religion",
+      "knowledge",
+      "monopoly",
+      "power",
+      "brahmins",
+      "church",
+      "legitimacy"
+    ]
+  },
+  {
+    "id": "debt_bondage",
+    "label": "Debt Bondage",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The use of unpayable or self-expanding debt to convert free persons into unfree laborers — one of the oldest and most durable mechanisms of labor extraction.",
+    "description": "Debt bondage appears in the earliest written records. The Code of Hammurabi regulated it; the Hebrew Bible specified limits on it; Solon of Athens abolished it in Attica in 594 BCE as a social reform. The mechanism: extend credit in conditions of scarcity, charge interest that exceeds the debtor's capacity to repay, convert the body of the debtor (and their family) into collateral. The creditor now controls the labor of the debtor without having to justify it as conquest.\n\nIt persists because it launders coercion as contract. The debtor 'agreed' to the terms. The labor is 'voluntary.' The coercive element — starvation or violence if the debt is unpaid — is present but not stated. This makes debt bondage more legally durable than outright slavery in many contexts and harder to organize against, since the coercion appears to be the logical consequence of the debtor's own choices.\n\nModern forms: payday lending in low-income communities; bonded labor in supply chains; student debt that prevents workers from leaving jobs that would allow repayment; prison labor for fines and fees. The common structure is credit extended to someone with no alternatives, at terms that ensure ongoing dependency.",
+    "tags": [
+      "debt",
+      "slavery",
+      "labor",
+      "coercion",
+      "inequality",
+      "bondage",
+      "ancient",
+      "modern"
+    ]
+  },
+  {
+    "id": "ethnic_deportation",
+    "label": "Ethnic Deportation (Forced Population Transfer)",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The forcible removal of entire ethnic or national populations from their homelands as a tool of imperial control — destroying community cohesion, eliminating local resistance, and replacing populations with loyal settlers.",
+    "description": "The Assyrian Empire systematized ethnic deportation in the 8th–7th centuries BCE, relocating millions across their empire to break conquered peoples' sense of national identity and prevent rebellion. The Babylonian Captivity of the Jews is the most historically documented example. The technique was refined by the Romans (dispersal of the Jewish people), repeated by the Ottomans (Armenian Genocide, Greek-Turkish population exchange), the Soviets (Chechen deportation, Volga Germans), and Nazi Germany.\n\nThe mechanism works through social atomization: separated from their land, language community, and networks, deportees cannot organize resistance. Their children grow up in diaspora, often assimilating. The homeland can be resettled with loyal colonists. The group may persist as a cultural memory but lacks the territorial base for political action.\n\nRecognize it when: population transfers are justified as security measures against fifth columns; the transferred group is accused of collective disloyalty; the timing correlates with land seizure rather than actual security threats; and the transfers are irreversible — people are prevented from returning after the stated emergency ends.",
+    "tags": [
+      "deportation",
+      "ethnicity",
+      "empire",
+      "assyria",
+      "babylon",
+      "population transfer",
+      "genocide",
+      "colonialism"
+    ]
+  },
+  {
+    "id": "literacy_as_power",
+    "label": "Literacy as Power (Scribal Monopoly)",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The concentration of reading and writing ability in a small elite class that uses this monopoly to control records, law, taxation, and sacred texts — keeping the population legally and economically dependent.",
+    "description": "In every early literate civilization, writing was initially a tool of state power, not popular communication. The earliest cuneiform tablets record tax debts and grain allocations. Egyptian hieroglyphics were largely confined to priestly and royal contexts. Chinese oracle bones were instruments of royal divination. Literacy was labor-intensive to acquire, socially restricted to scribal families, and actively hoarded — because whoever controlled the record controlled the law, the debt, and the calendar.\n\nThe invention of the Phoenician alphabet was a disruption: by reducing writing to 22 learnable signs, it made basic literacy achievable without years of training. The printing press was the second great disruption. The internet potentially a third — but as in every previous case, new actors are actively working to restore gatekeeping.\n\nRecognize the mechanism in contemporary form when: legal contracts are written to be incomprehensible to non-lawyers; financial products are documented in ways that require expert interpretation; regulatory processes require specialized knowledge to participate; and educational access is correlated with legal outcomes.",
+    "tags": [
+      "literacy",
+      "scribes",
+      "power",
+      "knowledge",
+      "writing",
+      "gatekeeping",
+      "democracy"
+    ]
+  },
+  {
+    "id": "authoritarian_control",
+    "label": "Authoritarian Control",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The consolidation of political power through suppression of opposition, elimination of checks, and creation of a climate of fear that prevents collective action against the ruler.",
+    "tags": [
+      "authoritarianism",
+      "dictatorship",
+      "power",
+      "suppression",
+      "fear",
+      "state"
+    ]
+  },
+  {
+    "id": "corruption",
+    "label": "Corruption (Elite Self-Dealing)",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The abuse of public or institutional power for private gain — diverting public resources to personal or factional benefit, undermining the institutions that are supposed to serve collective interests.",
+    "tags": [
+      "corruption",
+      "self-dealing",
+      "institutions",
+      "inequality",
+      "accountability",
+      "governance"
+    ]
+  },
+  {
+    "id": "elite_capture",
+    "label": "Elite Capture",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The process by which wealthy or powerful actors take control of institutions — governments, NGOs, aid programs, regulatory agencies — originally designed to serve broad populations, redirecting their resources and decisions toward elite interests.",
+    "tags": [
+      "elites",
+      "institutions",
+      "capture",
+      "inequality",
+      "power",
+      "democracy"
+    ]
+  },
+  {
+    "id": "ethnic_cleansing",
+    "label": "Ethnic Cleansing",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The forced removal of an ethnic or religious group from a territory through expulsion, terror, or killing — short of full genocide but with the same aim of demographic homogenization.",
+    "tags": [
+      "ethnicity",
+      "violence",
+      "expulsion",
+      "territory",
+      "nationalism",
+      "war crimes"
+    ]
+  },
+  {
+    "id": "genocide",
+    "label": "Genocide",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The deliberate destruction of a national, ethnic, racial, or religious group in whole or in part — the endpoint of dehumanization when combined with state power and eliminationist ideology.",
+    "tags": [
+      "genocide",
+      "mass murder",
+      "ethnic cleansing",
+      "dehumanization",
+      "state violence",
+      "UN convention"
+    ]
+  },
+  {
+    "id": "realpolitik",
+    "label": "Realpolitik",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Political doctrine that states act primarily from power and interest rather than morality, law, or ideology — justifying alliances with oppressors, support for coups, and violations of stated principles when strategically convenient.",
+    "tags": [
+      "realpolitik",
+      "power",
+      "international relations",
+      "hypocrisy",
+      "kissinger",
+      "state"
+    ]
   }
 ]

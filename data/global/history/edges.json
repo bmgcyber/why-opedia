@@ -8524,5 +8524,315 @@
     "source": "magna_carta_1215",
     "type": "ENABLED",
     "target": "universal_declaration_human_rights_1948"
+  },
+  {
+    "source": "paleolithic_era",
+    "type": "ENABLED",
+    "target": "agricultural_revolution"
+  },
+  {
+    "source": "agricultural_revolution",
+    "type": "ENABLED",
+    "target": "neolithic_revolution"
+  },
+  {
+    "source": "agricultural_revolution",
+    "type": "ENABLED",
+    "target": "ancient_sumer"
+  },
+  {
+    "source": "agricultural_revolution",
+    "type": "ENABLED",
+    "target": "indus_valley_civilization"
+  },
+  {
+    "source": "neolithic_revolution",
+    "type": "ENABLED",
+    "target": "bronze_age"
+  },
+  {
+    "source": "neolithic_revolution",
+    "type": "ENABLED",
+    "target": "ancient_egypt"
+  },
+  {
+    "source": "bronze_age",
+    "type": "ENABLED",
+    "target": "akkadian_empire"
+  },
+  {
+    "source": "bronze_age",
+    "type": "ENABLED",
+    "target": "minoan_civilization"
+  },
+  {
+    "source": "bronze_age",
+    "type": "ENABLED",
+    "target": "mycenaean_civilization"
+  },
+  {
+    "source": "bronze_age",
+    "type": "ENABLED",
+    "target": "old_kingdom_egypt"
+  },
+  {
+    "source": "bronze_age",
+    "type": "ENABLED",
+    "target": "shang_dynasty"
+  },
+  {
+    "source": "bronze_age",
+    "type": "ENABLED",
+    "target": "indus_valley_civilization"
+  },
+  {
+    "source": "writing_invention",
+    "type": "ENABLED",
+    "target": "akkadian_empire"
+  },
+  {
+    "source": "writing_invention",
+    "type": "ENABLED",
+    "target": "bronze_age"
+  },
+  {
+    "source": "ancient_sumer",
+    "type": "ENABLED",
+    "target": "writing_invention"
+  },
+  {
+    "source": "ancient_sumer",
+    "type": "ENABLED",
+    "target": "akkadian_empire"
+  },
+  {
+    "source": "sargon_of_akkad",
+    "type": "PRODUCED",
+    "target": "akkadian_empire"
+  },
+  {
+    "source": "akkadian_empire",
+    "type": "ENABLED",
+    "target": "ancient_sumer"
+  },
+  {
+    "source": "old_kingdom_egypt",
+    "type": "ENABLED",
+    "target": "ancient_egypt"
+  },
+  {
+    "source": "hammurabi",
+    "type": "PRODUCED",
+    "target": "code_of_hammurabi"
+  },
+  {
+    "source": "bronze_age_collapse",
+    "type": "FRAGMENTED_INTO",
+    "target": "iron_age"
+  },
+  {
+    "source": "bronze_age_collapse",
+    "type": "PRODUCED",
+    "target": "phoenicians"
+  },
+  {
+    "source": "bronze_age_collapse",
+    "type": "FRAGMENTED_INTO",
+    "target": "greek_city_states"
+  },
+  {
+    "source": "mycenaean_civilization",
+    "type": "ENABLED",
+    "target": "bronze_age_collapse"
+  },
+  {
+    "source": "minoan_civilization",
+    "type": "ENABLED",
+    "target": "mycenaean_civilization"
+  },
+  {
+    "source": "iron_age",
+    "type": "ENABLED",
+    "target": "phoenicians"
+  },
+  {
+    "source": "iron_age",
+    "type": "ENABLED",
+    "target": "greek_city_states"
+  },
+  {
+    "source": "iron_age",
+    "type": "ENABLED",
+    "target": "persian_achaemenid_empire"
+  },
+  {
+    "source": "iron_age",
+    "type": "ENABLED",
+    "target": "assyrian_empire"
+  },
+  {
+    "source": "phoenicians",
+    "type": "PRODUCED",
+    "target": "alphabet_invention"
+  },
+  {
+    "source": "alphabet_invention",
+    "type": "ENABLED",
+    "target": "greek_city_states"
+  },
+  {
+    "source": "alphabet_invention",
+    "type": "ENABLED",
+    "target": "persian_wars"
+  },
+  {
+    "source": "greek_city_states",
+    "type": "ENABLED",
+    "target": "athenian_democracy"
+  },
+  {
+    "source": "greek_city_states",
+    "type": "ENABLED",
+    "target": "sparta"
+  },
+  {
+    "source": "greek_city_states",
+    "type": "ENABLED",
+    "target": "persian_wars"
+  },
+  {
+    "source": "greek_city_states",
+    "type": "ENABLED",
+    "target": "peloponnesian_war"
+  },
+  {
+    "source": "sparta",
+    "type": "ENABLED",
+    "target": "peloponnesian_war"
+  },
+  {
+    "source": "persian_achaemenid_empire",
+    "type": "CAUSED",
+    "target": "persian_wars"
+  },
+  {
+    "source": "persian_wars",
+    "type": "ENABLED",
+    "target": "athenian_democracy"
+  },
+  {
+    "source": "peloponnesian_war",
+    "type": "ENABLED",
+    "target": "alexander_the_great"
+  },
+  {
+    "source": "peloponnesian_war_conflict",
+    "type": "ENABLED",
+    "target": "alexander_the_great"
+  },
+  {
+    "source": "thucydides",
+    "type": "PRODUCED",
+    "target": "peloponnesian_war"
+  },
+  {
+    "source": "herodotus",
+    "type": "PRODUCED",
+    "target": "persian_wars"
+  },
+  {
+    "source": "roman_republic",
+    "type": "ENABLED",
+    "target": "punic_wars"
+  },
+  {
+    "source": "punic_wars",
+    "type": "ENABLED",
+    "target": "roman_republic_crisis"
+  },
+  {
+    "source": "gracchi_brothers",
+    "type": "ENABLED",
+    "target": "roman_republic_crisis"
+  },
+  {
+    "source": "roman_republic_crisis",
+    "type": "ENABLED",
+    "target": "julius_caesar"
+  },
+  {
+    "source": "julius_caesar",
+    "type": "ENABLED",
+    "target": "roman_republic_crisis"
+  },
+  {
+    "source": "fall_of_rome",
+    "type": "FRAGMENTED_INTO",
+    "target": "feudal_system"
+  },
+  {
+    "source": "roman_empire",
+    "type": "ENABLED",
+    "target": "fall_of_rome"
+  },
+  {
+    "source": "vedic_period",
+    "type": "PRODUCED",
+    "target": "caste_system"
+  },
+  {
+    "source": "vedic_period",
+    "type": "PRODUCED",
+    "target": "zoroastrianism"
+  },
+  {
+    "source": "vedic_period",
+    "type": "ENABLED",
+    "target": "maurya_empire"
+  },
+  {
+    "source": "siddhartha_gautama",
+    "type": "PRODUCED",
+    "target": "buddhism"
+  },
+  {
+    "source": "buddhism",
+    "type": "DISCREDITED",
+    "target": "caste_system"
+  },
+  {
+    "source": "ashoka",
+    "type": "ENABLED",
+    "target": "buddhism"
+  },
+  {
+    "source": "shang_dynasty",
+    "type": "ENABLED",
+    "target": "zhou_dynasty"
+  },
+  {
+    "source": "olmec_civilization",
+    "type": "ENABLED",
+    "target": "maya_civilization"
+  },
+  {
+    "source": "zoroastrianism",
+    "type": "ENABLED",
+    "target": "monotheism"
+  },
+  {
+    "source": "monotheism",
+    "type": "ENABLED",
+    "target": "babylonian_captivity"
+  },
+  {
+    "source": "babylonian_captivity",
+    "type": "ENABLED",
+    "target": "monotheism"
+  },
+  {
+    "source": "indus_valley_civilization",
+    "type": "ENABLED",
+    "target": "vedic_period"
   }
 ]
