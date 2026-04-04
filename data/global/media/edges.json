@@ -5,7 +5,7 @@
     "target": "rwandan_genocide",
     "type": "ENABLED",
     "label": "broadcast names, locations, orders to kill",
-    "note": "RTLM provided both psychological infrastructure (sustained dehumanization) and operational logistics (broadcasting identities and locations of individuals marked for killing) — the ICTR found this constituted direct and public incitement to genocide.",
+    "note": "RTLM provided both psychological infrastructure (sustained dehumanization) and operational logistics (broadcasting identities and locations of individuals marked for killing) \u2014 the ICTR found this constituted direct and public incitement to genocide.",
     "confidence": "high"
   },
   {
@@ -32,7 +32,7 @@
     "target": "cuneiform",
     "type": "PRODUCED",
     "label": "Sumerian administrative needs produced the world's first writing system",
-    "note": "Cuneiform originated as a Sumerian accounting tool — tracking agricultural surplus, temple goods, and labor allocation. The pressure of managing complex urban economies drove the innovation from pictographic tokens to abstract script.",
+    "note": "Cuneiform originated as a Sumerian accounting tool \u2014 tracking agricultural surplus, temple goods, and labor allocation. The pressure of managing complex urban economies drove the innovation from pictographic tokens to abstract script.",
     "confidence": "high"
   },
   {
@@ -160,7 +160,7 @@
     "target": "fox_news",
     "type": "ENABLED",
     "label": "Televangelism pioneered the emotional manipulation and donor cultivation techniques Fox News professionalized",
-    "note": "The techniques Fox News and political talk radio use — charismatic authority figures, manufactured outrage, emotional appeals over factual argument, audience identity capture, and continuous monetization of fear — were pioneered in industrial scale by televangelism. Pat Robertson's 700 Club, Jerry Falwell's Moral Majority, and Jim Bakker's PTL Club trained the conservative media audience in the format Fox News inherited.",
+    "note": "The techniques Fox News and political talk radio use \u2014 charismatic authority figures, manufactured outrage, emotional appeals over factual argument, audience identity capture, and continuous monetization of fear \u2014 were pioneered in industrial scale by televangelism. Pat Robertson's 700 Club, Jerry Falwell's Moral Majority, and Jim Bakker's PTL Club trained the conservative media audience in the format Fox News inherited.",
     "confidence": "medium"
   },
   {
@@ -178,7 +178,7 @@
     "target": "attention_economy",
     "type": "ENABLED",
     "label": "Social media platforms operationalized the attention economy at unprecedented scale",
-    "note": "Social media platforms transformed the attention economy from an academic concept into industrial infrastructure: Facebook's News Feed, YouTube's recommendation algorithm, and TikTok's FYP are engineered attention capture systems optimized by billions of daily interactions. The platforms don't just compete for attention — they systematically reshape what captures attention by training users' reward systems.",
+    "note": "Social media platforms transformed the attention economy from an academic concept into industrial infrastructure: Facebook's News Feed, YouTube's recommendation algorithm, and TikTok's FYP are engineered attention capture systems optimized by billions of daily interactions. The platforms don't just compete for attention \u2014 they systematically reshape what captures attention by training users' reward systems.",
     "confidence": "high"
   },
   {
@@ -205,7 +205,7 @@
     "target": "social_media_platforms",
     "type": "EXPLOITED",
     "label": "Cambridge Analytica exploited Facebook's data architecture for political micro-targeting",
-    "note": "Cambridge Analytica harvested 87 million Facebook profiles through a quiz app that exploited the platform's lax API permissions, then used the psychographic data for targeted political advertising (Brexit, Trump 2016, and 60+ other campaigns). The scandal revealed that social media platforms' core data architecture — broad third-party access to user data for advertising — was structurally vulnerable to political exploitation.",
+    "note": "Cambridge Analytica harvested 87 million Facebook profiles through a quiz app that exploited the platform's lax API permissions, then used the psychographic data for targeted political advertising (Brexit, Trump 2016, and 60+ other campaigns). The scandal revealed that social media platforms' core data architecture \u2014 broad third-party access to user data for advertising \u2014 was structurally vulnerable to political exploitation.",
     "confidence": "high"
   },
   {
@@ -213,8 +213,8 @@
     "source": "homeric_epics",
     "target": "gilgamesh",
     "type": "SHARES_MECHANISM_WITH",
-    "label": "Both are oral → written foundational epics transmitting cultural cosmology across generations",
-    "note": "The Homeric epics and the Epic of Gilgamesh share the same cultural function: oral narratives of heroic figures that were eventually codified in writing and became the canonical cultural text of their civilizations — the curriculum through which citizens learned values, cosmology, and identity. Both feature a flood narrative, a hero's journey confronting death, and divine/human interaction. Homeric epic scholarship extensively compares the two traditions, finding parallel compositional techniques and narrative structures.",
+    "label": "Both are oral \u2192 written foundational epics transmitting cultural cosmology across generations",
+    "note": "The Homeric epics and the Epic of Gilgamesh share the same cultural function: oral narratives of heroic figures that were eventually codified in writing and became the canonical cultural text of their civilizations \u2014 the curriculum through which citizens learned values, cosmology, and identity. Both feature a flood narrative, a hero's journey confronting death, and divine/human interaction. Homeric epic scholarship extensively compares the two traditions, finding parallel compositional techniques and narrative structures.",
     "confidence": "high"
   },
   {
@@ -232,7 +232,7 @@
     "target": "social_media_platforms",
     "type": "ENABLED",
     "label": "Social media's low-friction viral sharing infrastructure is what gives deepfakes their political power",
-    "note": "A deepfake video is only dangerous if it circulates before debunking. Social media platforms' viral infrastructure — shares, reposts, algorithmic amplification — is what transforms a deepfake from a technically impressive artifact into a political weapon. Facebook, Twitter, and WhatsApp have the distribution velocity (millions of views in hours) that ensures deepfakes reach their intended audience before fact-checkers can respond. Without social media's distribution architecture, deepfakes would be a curiosity rather than a disinformation threat.",
+    "note": "A deepfake video is only dangerous if it circulates before debunking. Social media platforms' viral infrastructure \u2014 shares, reposts, algorithmic amplification \u2014 is what transforms a deepfake from a technically impressive artifact into a political weapon. Facebook, Twitter, and WhatsApp have the distribution velocity (millions of views in hours) that ensures deepfakes reach their intended audience before fact-checkers can respond. Without social media's distribution architecture, deepfakes would be a curiosity rather than a disinformation threat.",
     "confidence": "high"
   },
   {
@@ -250,7 +250,7 @@
     "target": "rt_russia_today",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Both amplify manufactured grievance and institutional distrust for political destabilization",
-    "note": "Infowars and RT share a convergent strategy despite different principals (Jones serving MAGA nationalism; RT serving Russian foreign policy): both amplify content that erodes trust in democratic institutions, science, mainstream media, and electoral processes. The Senate Intelligence Committee documented RT amplifying Infowars content, and Jones appeared on RT. The convergence is not accidental — destabilization of Western democratic discourse serves both principals' interests, and the content formats (outrage, conspiracy, anti-elite) are identical.",
+    "note": "Infowars and RT share a convergent strategy despite different principals (Jones serving MAGA nationalism; RT serving Russian foreign policy): both amplify content that erodes trust in democratic institutions, science, mainstream media, and electoral processes. The Senate Intelligence Committee documented RT amplifying Infowars content, and Jones appeared on RT. The convergence is not accidental \u2014 destabilization of Western democratic discourse serves both principals' interests, and the content formats (outrage, conspiracy, anti-elite) are identical.",
     "confidence": "high"
   },
   {
@@ -259,7 +259,7 @@
     "target": "cambridge_analytica",
     "type": "ENABLED",
     "label": "Lippmann's theory that public opinion must be manufactured by elites is what Cambridge Analytica operationalized",
-    "note": "Walter Lippmann's \"Public Opinion\" (1922) argued that the complexity of the modern world makes it impossible for citizens to form independent opinions — elites must manufacture consent by managing information flow to shape public perception. Cambridge Analytica is Lippmann's theory operationalized at scale: psychographic profiling identifies each voter's cognitive vulnerabilities, and targeted messaging manufactures the consent needed. The Bernays-Lippmann-Cambridge Analytica lineage is explicit — the firm's founders cited Bernays (who cited Lippmann) as intellectual inspiration.",
+    "note": "Walter Lippmann's \"Public Opinion\" (1922) argued that the complexity of the modern world makes it impossible for citizens to form independent opinions \u2014 elites must manufacture consent by managing information flow to shape public perception. Cambridge Analytica is Lippmann's theory operationalized at scale: psychographic profiling identifies each voter's cognitive vulnerabilities, and targeted messaging manufactures the consent needed. The Bernays-Lippmann-Cambridge Analytica lineage is explicit \u2014 the firm's founders cited Bernays (who cited Lippmann) as intellectual inspiration.",
     "confidence": "high"
   },
   {
@@ -268,7 +268,7 @@
     "target": "rt_russia_today",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Yellow journalism and RT share the sensationalism-for-geopolitical-manipulation playbook",
-    "note": "Yellow journalism (Hearst, Pulitzer, 1890s) and RT (2005–present) share the same operating logic: emotionally inflammatory, factually unreliable content that serves a geopolitical agenda. Hearst fabricated news to sell papers and push the US toward war with Spain; RT fabricates and distorts to push Western audiences toward institutional distrust and support for Russian foreign policy. The century separating them shows the playbook's durability: sensationalism for political manipulation is not a media artifact of a particular era.",
+    "note": "Yellow journalism (Hearst, Pulitzer, 1890s) and RT (2005\u2013present) share the same operating logic: emotionally inflammatory, factually unreliable content that serves a geopolitical agenda. Hearst fabricated news to sell papers and push the US toward war with Spain; RT fabricates and distorts to push Western audiences toward institutional distrust and support for Russian foreign policy. The century separating them shows the playbook's durability: sensationalism for political manipulation is not a media artifact of a particular era.",
     "confidence": "high"
   },
   {
@@ -277,7 +277,7 @@
     "target": "infowars_alternative_media",
     "type": "ENABLED",
     "label": "Alex Jones launched on Christian radio; televangelism created the emotional grift format Infowars perfected",
-    "note": "Alex Jones began his career on Christian radio stations and explicitly drew on evangelical broadcast techniques: the charismatic host, the apocalyptic urgency, the conspiracy revelation, the product sales embedded in programming (InfoWars Store supplements mimic televangelism donation drives). The televangelism tradition — a charismatic authority revealing hidden truth and selling the solution — is the cultural parent of the conspiracy media format Jones industrialized. His audience overlaps substantially with evangelical Christianity.",
+    "note": "Alex Jones began his career on Christian radio stations and explicitly drew on evangelical broadcast techniques: the charismatic host, the apocalyptic urgency, the conspiracy revelation, the product sales embedded in programming (InfoWars Store supplements mimic televangelism donation drives). The televangelism tradition \u2014 a charismatic authority revealing hidden truth and selling the solution \u2014 is the cultural parent of the conspiracy media format Jones industrialized. His audience overlaps substantially with evangelical Christianity.",
     "confidence": "high"
   },
   {
@@ -286,7 +286,7 @@
     "target": "printing_press",
     "type": "ENABLED",
     "label": "The printing press transformed Homer from manuscript rarity to the curriculum text of Western education",
-    "note": "Homer was the most printed non-Biblical text in 15th-17th century Europe: the first printed Greek book was a Homer (Florence, 1488). The printing press transformed the Homeric epics from manuscripts available only in major libraries to the curriculum text for grammar schools, universities, and gentlemen's education across Europe. The standardization the press imposed — a canonical text replacing the manuscript variants — also transformed how Homer was read, interpreted, and transmitted. The modern Western tradition of Homer as cultural foundation was constructed by the press.",
+    "note": "Homer was the most printed non-Biblical text in 15th-17th century Europe: the first printed Greek book was a Homer (Florence, 1488). The printing press transformed the Homeric epics from manuscripts available only in major libraries to the curriculum text for grammar schools, universities, and gentlemen's education across Europe. The standardization the press imposed \u2014 a canonical text replacing the manuscript variants \u2014 also transformed how Homer was read, interpreted, and transmitted. The modern Western tradition of Homer as cultural foundation was constructed by the press.",
     "confidence": "high"
   },
   {
@@ -295,7 +295,7 @@
     "target": "social_media_platforms",
     "type": "PRODUCED",
     "label": "Social media platforms are the web's most consequential applications, transforming its democratic promise into engagement optimization",
-    "note": "The World Wide Web's architectural promise — anyone can publish, anyone can read — was fulfilled and perverted simultaneously by social media platforms. Facebook, Twitter, YouTube, and TikTok democratized publication but centralized distribution, replacing editorial gatekeeping with algorithmic gatekeeping optimized for engagement rather than accuracy. The web's open protocol layer (TCP/IP, HTTP) was captured by application-layer monopolies. Social media is what happened to the web when advertising became its business model.",
+    "note": "The World Wide Web's architectural promise \u2014 anyone can publish, anyone can read \u2014 was fulfilled and perverted simultaneously by social media platforms. Facebook, Twitter, YouTube, and TikTok democratized publication but centralized distribution, replacing editorial gatekeeping with algorithmic gatekeeping optimized for engagement rather than accuracy. The web's open protocol layer (TCP/IP, HTTP) was captured by application-layer monopolies. Social media is what happened to the web when advertising became its business model.",
     "confidence": "high"
   },
   {
@@ -304,7 +304,7 @@
     "target": "attention_economy",
     "type": "PRODUCED",
     "label": "The web's infinite supply of content required attention as the scarce resource, producing the attention economy",
-    "note": "Before the web, scarcity in information was content: there was limited space in newspapers, airtime on TV, shelf space in bookstores. The web eliminated content scarcity and created attention scarcity: with infinite content available, human attention became the scarce resource that media companies compete for. This inversion — from content-scarce to attention-scarce — is the structural shift that produced the attention economy, with all its downstream effects (outrage optimization, engagement maximization, filter bubbles).",
+    "note": "Before the web, scarcity in information was content: there was limited space in newspapers, airtime on TV, shelf space in bookstores. The web eliminated content scarcity and created attention scarcity: with infinite content available, human attention became the scarce resource that media companies compete for. This inversion \u2014 from content-scarce to attention-scarce \u2014 is the structural shift that produced the attention economy, with all its downstream effects (outrage optimization, engagement maximization, filter bubbles).",
     "confidence": "high"
   },
   {
@@ -313,7 +313,7 @@
     "target": "local_news_collapse",
     "type": "PRODUCED",
     "label": "Web classified ads (Craigslist) and digital advertising destroyed local newspaper revenue models",
-    "note": "The web directly caused the local news collapse through revenue destruction: Craigslist (1995) eliminated classified advertising, the largest revenue source for local newspapers; Google AdSense captured display advertising by providing better targeting; Facebook news feeds replaced local newspapers as community information hubs. Between 1990 and 2020, daily newspaper circulation fell 57%; newsroom employment fell 57%; 2,100 US papers closed. The web didn't mean to kill local news — it just offered superior alternatives to every service local newspapers provided.",
+    "note": "The web directly caused the local news collapse through revenue destruction: Craigslist (1995) eliminated classified advertising, the largest revenue source for local newspapers; Google AdSense captured display advertising by providing better targeting; Facebook news feeds replaced local newspapers as community information hubs. Between 1990 and 2020, daily newspaper circulation fell 57%; newsroom employment fell 57%; 2,100 US papers closed. The web didn't mean to kill local news \u2014 it just offered superior alternatives to every service local newspapers provided.",
     "confidence": "high"
   },
   {
@@ -322,7 +322,7 @@
     "target": "world_wide_web",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Both eliminated gatekeepers from information distribution, producing simultaneous democratization and disinformation explosion",
-    "note": "The printing press (Gutenberg, c. 1440) and World Wide Web (Berners-Lee, 1991) are the two great gatekeeping-elimination events in information history. Both followed the same pattern: initial promise of democratic information access → rapid adoption → incumbent institutions challenged → new forms of disinformation (printing press: Protestant pamphlet wars, witch trial manuals; web: social media disinformation, QAnon). Both required decades for society to develop norms and institutions adequate to the new information environment.",
+    "note": "The printing press (Gutenberg, c. 1440) and World Wide Web (Berners-Lee, 1991) are the two great gatekeeping-elimination events in information history. Both followed the same pattern: initial promise of democratic information access \u2192 rapid adoption \u2192 incumbent institutions challenged \u2192 new forms of disinformation (printing press: Protestant pamphlet wars, witch trial manuals; web: social media disinformation, QAnon). Both required decades for society to develop norms and institutions adequate to the new information environment.",
     "confidence": "high"
   },
   {
@@ -331,7 +331,7 @@
     "target": "deepfakes",
     "type": "ENABLED",
     "label": "Web infrastructure provides the distribution and computational resources that make deepfakes a disinformation threat",
-    "note": "Deepfakes require two web-dependent conditions: (1) cloud computing and open-source AI frameworks (GitHub, Hugging Face) that make generation accessible; (2) web distribution infrastructure (social media, messaging apps) that ensures rapid spread before debunking. A deepfake without the web is a private curiosity; with the web it becomes a potential election weapon. The web didn't create deepfake technology but it created the conditions under which deepfakes matter — the combination of generation accessibility and distribution velocity.",
+    "note": "Deepfakes require two web-dependent conditions: (1) cloud computing and open-source AI frameworks (GitHub, Hugging Face) that make generation accessible; (2) web distribution infrastructure (social media, messaging apps) that ensures rapid spread before debunking. A deepfake without the web is a private curiosity; with the web it becomes a potential election weapon. The web didn't create deepfake technology but it created the conditions under which deepfakes matter \u2014 the combination of generation accessibility and distribution velocity.",
     "confidence": "high"
   },
   {
@@ -340,7 +340,7 @@
     "target": "cambridge_analytica",
     "type": "ENABLED",
     "label": "Web behavioral data trails made psychographic profiling at scale possible for the first time",
-    "note": "Cambridge Analytica's operation was only possible because the web generates behavioral data traces at scale: Facebook's data (likes, follows, sharing patterns) captured the psychological profiles of 87 million users, enabling psychographic micro-targeting that traditional polling could never achieve. Without web infrastructure's passive data collection, there is no Cambridge Analytica — the firm's product (psychological profiles for political targeting) required the web's capacity to passively document human behavior at the scale of billions of interactions.",
+    "note": "Cambridge Analytica's operation was only possible because the web generates behavioral data traces at scale: Facebook's data (likes, follows, sharing patterns) captured the psychological profiles of 87 million users, enabling psychographic micro-targeting that traditional polling could never achieve. Without web infrastructure's passive data collection, there is no Cambridge Analytica \u2014 the firm's product (psychological profiles for political targeting) required the web's capacity to passively document human behavior at the scale of billions of interactions.",
     "confidence": "high"
   },
   {
@@ -348,8 +348,8 @@
     "source": "tiananmen_square_massacre",
     "target": "great_firewall_china",
     "type": "PRODUCED",
-    "label": "The Tiananmen Square massacre's information suppression — and subsequent awareness of the internet's threat — drove Great Firewall development",
-    "note": "The CCP's response to Tiananmen (1989) shaped the Great Firewall's political logic: the massacre's global TV coverage — CNN's live broadcast, the Tank Man photograph — demonstrated that information technology posed an existential threat to authoritarian control. As the internet developed in the 1990s, the CCP developed the Golden Shield Project (Great Firewall) specifically to prevent Tiananmen-type events from being documented and transmitted globally. The Tiananmen precedent — where information technology nearly toppled the CCP — drove the most comprehensive internet censorship infrastructure in history.",
+    "label": "The Tiananmen Square massacre's information suppression \u2014 and subsequent awareness of the internet's threat \u2014 drove Great Firewall development",
+    "note": "The CCP's response to Tiananmen (1989) shaped the Great Firewall's political logic: the massacre's global TV coverage \u2014 CNN's live broadcast, the Tank Man photograph \u2014 demonstrated that information technology posed an existential threat to authoritarian control. As the internet developed in the 1990s, the CCP developed the Golden Shield Project (Great Firewall) specifically to prevent Tiananmen-type events from being documented and transmitted globally. The Tiananmen precedent \u2014 where information technology nearly toppled the CCP \u2014 drove the most comprehensive internet censorship infrastructure in history.",
     "confidence": "high"
   },
   {
@@ -358,7 +358,7 @@
     "target": "social_media_platforms",
     "type": "DISCREDITED",
     "label": "The Great Firewall blocks all Western social media platforms, creating a bifurcated global internet",
-    "note": "The Great Firewall has created the global internet's permanent bifurcation: Google, Facebook, Instagram, Twitter/X, YouTube, Wikipedia, WhatsApp, and The New York Times are all blocked in China. In their place: Baidu (Google), WeChat (Facebook+WhatsApp), Weibo (Twitter), Bilibili (YouTube), Baidu Baike (Wikipedia) — all operating under CCP content rules. This creates a 1.4 billion-person internet ecosystem entirely separate from the global web, with the CCP controlling the information environment of the world's second-largest economy. The Great Firewall demonstrates that internet fragmentation along national sovereignty lines was always possible despite 1990s techno-optimist predictions.",
+    "note": "The Great Firewall has created the global internet's permanent bifurcation: Google, Facebook, Instagram, Twitter/X, YouTube, Wikipedia, WhatsApp, and The New York Times are all blocked in China. In their place: Baidu (Google), WeChat (Facebook+WhatsApp), Weibo (Twitter), Bilibili (YouTube), Baidu Baike (Wikipedia) \u2014 all operating under CCP content rules. This creates a 1.4 billion-person internet ecosystem entirely separate from the global web, with the CCP controlling the information environment of the world's second-largest economy. The Great Firewall demonstrates that internet fragmentation along national sovereignty lines was always possible despite 1990s techno-optimist predictions.",
     "confidence": "high"
   },
   {
@@ -367,7 +367,7 @@
     "target": "fox_news",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Both create curated information ecosystems that systematically exclude challenging information and reinforce predetermined political narratives",
-    "note": "The Great Firewall and Fox News ecosystem share a functional mechanism: both create curated information environments where citizens have difficulty accessing contradictory information. The Great Firewall uses state technical censorship; Fox News uses selective coverage, framing, and audience self-selection. Both produce audiences who believe their media accurately represents reality while being systematically misinformed on key factual questions (Fox viewers' beliefs about Iraq WMD, COVID, election fraud; Chinese citizens' beliefs about Tiananmen, Xinjiang, Taiwan). The mechanism — curated information ecosystem producing self-reinforcing beliefs — operates at different scales and through different means but produces similar epistemic outcomes.",
+    "note": "The Great Firewall and Fox News ecosystem share a functional mechanism: both create curated information environments where citizens have difficulty accessing contradictory information. The Great Firewall uses state technical censorship; Fox News uses selective coverage, framing, and audience self-selection. Both produce audiences who believe their media accurately represents reality while being systematically misinformed on key factual questions (Fox viewers' beliefs about Iraq WMD, COVID, election fraud; Chinese citizens' beliefs about Tiananmen, Xinjiang, Taiwan). The mechanism \u2014 curated information ecosystem producing self-reinforcing beliefs \u2014 operates at different scales and through different means but produces similar epistemic outcomes.",
     "confidence": "medium"
   },
   {
@@ -375,8 +375,8 @@
     "source": "great_firewall_china",
     "target": "cambridge_analytica",
     "type": "SHARES_MECHANISM_WITH",
-    "label": "Both use data surveillance and information control for political manipulation — state vs. corporate versions of the same epistemic control project",
-    "note": "The Great Firewall and Cambridge Analytica represent two models of information-environment manipulation: China uses state infrastructure to monitor and control information systematically; Cambridge Analytica used harvested data to micro-target individuals with psychologically tailored political messaging. Both aim at the same goal: shaping populations' beliefs and political behavior through control of information environment. The difference is scale (1.4B vs. 87M Facebook users) and method (censorship vs. targeting), but the underlying project — using information technology to produce desired political outcomes in populations — is identical.",
+    "label": "Both use data surveillance and information control for political manipulation \u2014 state vs. corporate versions of the same epistemic control project",
+    "note": "The Great Firewall and Cambridge Analytica represent two models of information-environment manipulation: China uses state infrastructure to monitor and control information systematically; Cambridge Analytica used harvested data to micro-target individuals with psychologically tailored political messaging. Both aim at the same goal: shaping populations' beliefs and political behavior through control of information environment. The difference is scale (1.4B vs. 87M Facebook users) and method (censorship vs. targeting), but the underlying project \u2014 using information technology to produce desired political outcomes in populations \u2014 is identical.",
     "confidence": "medium"
   },
   {
@@ -385,7 +385,7 @@
     "target": "political_polarization",
     "type": "CAUSED",
     "label": "Fox News is the primary institutional driver of American political polarization through partisan epistemological separation",
-    "note": "Academic research (Pew Research, Martin and Yurukoglu 2017 NBER paper) documents Fox News's causal role in political polarization: towns that received Fox News in cable rollout showed measurable increases in Republican vote share; Fox viewers hold factually distinct beliefs about climate change, vaccine safety, and election integrity from non-Fox viewers; Fox News pioneered the partisan news model where viewers receive a separate information environment rather than shared facts. The polarization Fox produces is not merely partisan but epistemological — Fox viewers and non-viewers inhabit incompatible factual realities, making democratic deliberation impossible.",
+    "note": "Academic research (Pew Research, Martin and Yurukoglu 2017 NBER paper) documents Fox News's causal role in political polarization: towns that received Fox News in cable rollout showed measurable increases in Republican vote share; Fox viewers hold factually distinct beliefs about climate change, vaccine safety, and election integrity from non-Fox viewers; Fox News pioneered the partisan news model where viewers receive a separate information environment rather than shared facts. The polarization Fox produces is not merely partisan but epistemological \u2014 Fox viewers and non-viewers inhabit incompatible factual realities, making democratic deliberation impossible.",
     "confidence": "high"
   },
   {
@@ -393,8 +393,8 @@
     "source": "fox_news",
     "target": "trump_maga",
     "type": "ENABLED",
-    "label": "Fox News and MAGA were mutually constitutive — Fox created the audience and epistemic environment MAGA exploited; MAGA gave Fox its primary political purpose",
-    "note": "Fox News and MAGA had a symbiotic relationship: Fox had spent two decades priming its audience with Obama birth certificate coverage, Benghazi hearings, Clinton email obsession, and border crime panic — creating the exact audience Trump exploited in 2015-16; Trump understood Fox's audience viscerally and gave them the authoritarian strongman Fox programming implied they needed; Fox News coverage of Trump was systematically more favorable than any other mainstream outlet throughout his presidency and during January 6. Rupert Murdoch's post-January 6 distancing from Trump was commercial calculation, not principled — Fox continued amplifying election denial even while internal communications (revealed in Dominion lawsuit) showed executives knew it was false.",
+    "label": "Fox News and MAGA were mutually constitutive \u2014 Fox created the audience and epistemic environment MAGA exploited; MAGA gave Fox its primary political purpose",
+    "note": "Fox News and MAGA had a symbiotic relationship: Fox had spent two decades priming its audience with Obama birth certificate coverage, Benghazi hearings, Clinton email obsession, and border crime panic \u2014 creating the exact audience Trump exploited in 2015-16; Trump understood Fox's audience viscerally and gave them the authoritarian strongman Fox programming implied they needed; Fox News coverage of Trump was systematically more favorable than any other mainstream outlet throughout his presidency and during January 6. Rupert Murdoch's post-January 6 distancing from Trump was commercial calculation, not principled \u2014 Fox continued amplifying election denial even while internal communications (revealed in Dominion lawsuit) showed executives knew it was false.",
     "confidence": "high"
   },
   {
@@ -421,7 +421,7 @@
     "target": "broken_epistemology",
     "type": "ENABLED",
     "label": "Russian disinformation strategy was explicitly designed to produce epistemological confusion rather than promote specific beliefs",
-    "note": "Russian disinformation strategy (documented in the Gerasimov Doctrine and Surkov's \"managed democracy\" framework) aims not to persuade but to confuse: the goal is to make audiences uncertain about what is true, distrust all information sources, and become paralyzed by competing narratives. The strategy is effective precisely because it exploits healthy epistemic habits — skepticism of propaganda — to undermine the possibility of shared factual knowledge. When everything is potentially disinformation, democratic deliberation becomes impossible. Russian operations promoted contradictory conspiracies simultaneously because the confusion itself serves the strategic goal, not any particular false belief.",
+    "note": "Russian disinformation strategy (documented in the Gerasimov Doctrine and Surkov's \"managed democracy\" framework) aims not to persuade but to confuse: the goal is to make audiences uncertain about what is true, distrust all information sources, and become paralyzed by competing narratives. The strategy is effective precisely because it exploits healthy epistemic habits \u2014 skepticism of propaganda \u2014 to undermine the possibility of shared factual knowledge. When everything is potentially disinformation, democratic deliberation becomes impossible. Russian operations promoted contradictory conspiracies simultaneously because the confusion itself serves the strategic goal, not any particular false belief.",
     "confidence": "high"
   },
   {
@@ -439,7 +439,7 @@
     "target": "political_polarization",
     "type": "ENABLED",
     "label": "Media consolidation has produced a partisan media landscape where audiences can select entirely into partisan information environments",
-    "note": "Media consolidation paradoxically increased polarization despite reducing the number of media organizations: the consolidation era coincided with partisan specialization, where consolidated media companies found profitable niches in partisan audiences rather than broad general audiences; cable TV economics incentivized partisan identity content; local newspaper collapse (accelerated by consolidated chains cutting costs) removed the shared information environment of local communities. The result is a consolidated media landscape where fewer owners produce more partisan content — consolidation and polarization have been simultaneous rather than offsetting trends.",
+    "note": "Media consolidation paradoxically increased polarization despite reducing the number of media organizations: the consolidation era coincided with partisan specialization, where consolidated media companies found profitable niches in partisan audiences rather than broad general audiences; cable TV economics incentivized partisan identity content; local newspaper collapse (accelerated by consolidated chains cutting costs) removed the shared information environment of local communities. The result is a consolidated media landscape where fewer owners produce more partisan content \u2014 consolidation and polarization have been simultaneous rather than offsetting trends.",
     "confidence": "high"
   },
   {
@@ -447,8 +447,8 @@
     "source": "citizen_journalism",
     "target": "social_media_algorithms",
     "type": "ENABLED",
-    "label": "Social media algorithms turned citizen journalism into a double-edged force — real accountability journalism alongside unvetted viral misinformation",
-    "note": "Social media platforms amplify citizen journalism through the same engagement optimization that amplifies misinformation: the George Floyd murder was documented by 17-year-old Darnella Frazier's iPhone video (without which prosecution might have failed); police brutality documentation across the BLM era was primarily citizen journalism; but the same dynamics amplify viral misinformation — Plandemic, COVID denialism, election fraud claims — that also originates with non-professional content creators. The distinction between citizen accountability journalism and viral misinformation uses the same distribution infrastructure; platforms cannot amplify one without amplifying the other.",
+    "label": "Social media algorithms turned citizen journalism into a double-edged force \u2014 real accountability journalism alongside unvetted viral misinformation",
+    "note": "Social media platforms amplify citizen journalism through the same engagement optimization that amplifies misinformation: the George Floyd murder was documented by 17-year-old Darnella Frazier's iPhone video (without which prosecution might have failed); police brutality documentation across the BLM era was primarily citizen journalism; but the same dynamics amplify viral misinformation \u2014 Plandemic, COVID denialism, election fraud claims \u2014 that also originates with non-professional content creators. The distinction between citizen accountability journalism and viral misinformation uses the same distribution infrastructure; platforms cannot amplify one without amplifying the other.",
     "confidence": "high"
   },
   {
@@ -466,7 +466,7 @@
     "target": "broken_epistemology",
     "type": "PRODUCED",
     "label": "The internet disrupted the institutional intermediaries (professional journalism, expert credentialing) that had maintained shared epistemic standards",
-    "note": "The internet produced broken epistemology by eliminating the friction that had previously limited information spread: pre-internet, publishing required institutional backing (newspaper, publishing house, broadcaster) that provided epistemic gatekeeping — not perfect but limiting the most obviously false content; the internet eliminated these gatekeepers, enabling anyone to publish anything at global scale with no quality control; search engines and social media algorithms then amplified content without regard to accuracy; the result is an information environment where conspiracy theories, disinformation, and accurate information are distributed through the same channels without reliable quality signals. The broken epistemology is the internet's fundamental political legacy.",
+    "note": "The internet produced broken epistemology by eliminating the friction that had previously limited information spread: pre-internet, publishing required institutional backing (newspaper, publishing house, broadcaster) that provided epistemic gatekeeping \u2014 not perfect but limiting the most obviously false content; the internet eliminated these gatekeepers, enabling anyone to publish anything at global scale with no quality control; search engines and social media algorithms then amplified content without regard to accuracy; the result is an information environment where conspiracy theories, disinformation, and accurate information are distributed through the same channels without reliable quality signals. The broken epistemology is the internet's fundamental political legacy.",
     "confidence": "high"
   },
   {
@@ -474,8 +474,8 @@
     "source": "internet_and_democracy",
     "target": "great_firewall_china",
     "type": "ENABLED",
-    "label": "China's Great Firewall demonstrated that the internet is not inherently democratic — it can be controlled to produce a state-managed information environment",
-    "note": "China's Great Firewall refuted the techno-optimist assumption that the internet was inherently democratizing: the \"Barlow Declaration of Independence of Cyberspace\" (1996) asserted that states could not control the internet; China proved otherwise; the Great Firewall demonstrated that a technically sophisticated state could fragment the global internet into a national intranet, censor political content with reasonable completeness, and use internet infrastructure for surveillance. Other authoritarian states (Russia, Iran, Turkey) have studied and partially adopted the Chinese model. China's success has made the \"internet as democracy technology\" claim untenable — it is a democracy technology when states allow it to be and an authoritarian technology when they choose otherwise.",
+    "label": "China's Great Firewall demonstrated that the internet is not inherently democratic \u2014 it can be controlled to produce a state-managed information environment",
+    "note": "China's Great Firewall refuted the techno-optimist assumption that the internet was inherently democratizing: the \"Barlow Declaration of Independence of Cyberspace\" (1996) asserted that states could not control the internet; China proved otherwise; the Great Firewall demonstrated that a technically sophisticated state could fragment the global internet into a national intranet, censor political content with reasonable completeness, and use internet infrastructure for surveillance. Other authoritarian states (Russia, Iran, Turkey) have studied and partially adopted the Chinese model. China's success has made the \"internet as democracy technology\" claim untenable \u2014 it is a democracy technology when states allow it to be and an authoritarian technology when they choose otherwise.",
     "confidence": "high"
   },
   {
@@ -691,7 +691,7 @@
     "target": "broken_epistemology",
     "type": "ENABLED",
     "label": "Enabled",
-    "note": "Hearst papers manufactured stories that became historical facts — early epistemic warfare",
+    "note": "Hearst papers manufactured stories that became historical facts \u2014 early epistemic warfare",
     "confidence": "confirmed"
   },
   {
@@ -864,5 +864,107 @@
     "source": "internet_and_democracy",
     "type": "ENABLED",
     "target": "arab_spring_social_media"
+  },
+  {
+    "source": "yellow_journalism",
+    "target": "spanish_american_war",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "radio_era",
+    "target": "nazi_seizure_of_power",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "radio_era",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tv_era",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tv_era",
+    "target": "vietnam_war",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "tv_era",
+    "target": "nixon_watergate",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "fox_news_founding",
+    "target": "trump_election_2016",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "fox_news_founding",
+    "target": "polarization",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "internet_era",
+    "target": "social_media_era",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "social_media_era",
+    "target": "arab_spring",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "social_media_era",
+    "target": "russia_election_interference",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "social_media_era",
+    "target": "cambridge_analytica",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "social_media_era",
+    "target": "polarization",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "social_media_era",
+    "target": "disinformation",
+    "type": "AMPLIFIED",
+    "weight": 3
+  },
+  {
+    "source": "news_media_consolidation",
+    "target": "fox_news_founding",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "cambridge_analytica",
+    "target": "russia_election_interference",
+    "type": "PARALLEL_TO",
+    "weight": 2
+  },
+  {
+    "source": "cambridge_analytica",
+    "target": "trump_election_2016",
+    "type": "CONTEXT_FOR",
+    "weight": 3
   }
 ]

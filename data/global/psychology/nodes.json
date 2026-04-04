@@ -6,7 +6,7 @@
     "category": "movement",
     "wikipedia": "https://en.wikipedia.org/wiki/Fat_acceptance_movement",
     "summary": "Social movement advocating for dignity and reduced discrimination toward people of larger body size. Contains legitimate advocacy and ideological capture in tension.",
-    "decade": "1960s–Ongoing",
+    "decade": "1960s\u2013Ongoing",
     "tags": [
       "identity",
       "health",
@@ -29,7 +29,7 @@
     "category": "community",
     "wikipedia": "https://en.wikipedia.org/wiki/Incel",
     "summary": "Online community of self-identified involuntary celibates. Characterized by external attribution of failure, misogyny, and ideological frameworks that prevent self-examination.",
-    "decade": "2010s–Ongoing",
+    "decade": "2010s\u2013Ongoing",
     "tags": [
       "community",
       "psychology",
@@ -51,7 +51,7 @@
     "category": "community",
     "wikipedia": "https://en.wikipedia.org/wiki/Brony",
     "summary": "Adult male fanbase of My Little Pony: Friendship is Magic. Characterized by intense identity attachment to children's media, often associated with social alienation and identity displacement.",
-    "decade": "2010s–Ongoing",
+    "decade": "2010s\u2013Ongoing",
     "tags": [
       "community",
       "fandom",
@@ -69,7 +69,7 @@
     "category": "community",
     "wikipedia": "https://en.wikipedia.org/wiki/Furry_fandom",
     "summary": "Subculture centered on anthropomorphic animal characters. Notable for fursona identity displacement, high rate of sexual content, and documented community predation issues.",
-    "decade": "1980s–Ongoing",
+    "decade": "1980s\u2013Ongoing",
     "tags": [
       "community",
       "fandom",
@@ -87,7 +87,7 @@
     "category": "community",
     "wikipedia": "https://en.wikipedia.org/wiki/Online_patient_community",
     "summary": "Online forums organized around shared medical conditions. Can provide genuine support but frequently develop identity reward structures that discourage recovery and amplify worst-case narratives.",
-    "decade": "2000s–Ongoing",
+    "decade": "2000s\u2013Ongoing",
     "tags": [
       "community",
       "medical",
@@ -104,7 +104,7 @@
     "node_type": "reference",
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/Milgram_experiment",
-    "summary": "Stanley Milgram's Yale experiments in which ordinary American participants were instructed by an authority figure to administer increasingly powerful electric shocks to a stranger — with 65% willing to administer the maximum 450-volt shock despite the victim's apparent agony, as long as the authority figure said 'please continue.' Milgram designed the experiments to understand how ordinary Germans could have participated in the Holocaust. The results demonstrated empirically that ordinary people will commit apparent atrocities under authority pressure.",
+    "summary": "Stanley Milgram's Yale experiments in which ordinary American participants were instructed by an authority figure to administer increasingly powerful electric shocks to a stranger \u2014 with 65% willing to administer the maximum 450-volt shock despite the victim's apparent agony, as long as the authority figure said 'please continue.' Milgram designed the experiments to understand how ordinary Germans could have participated in the Holocaust. The results demonstrated empirically that ordinary people will commit apparent atrocities under authority pressure.",
     "decade": "1960s",
     "tags": [
       "psychology",
@@ -122,7 +122,7 @@
     "node_type": "reference",
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
-    "summary": "Philip Zimbardo's simulated prison experiment at Stanford in which student volunteers were randomly assigned as 'guards' or 'prisoners' — producing sadistic guard behavior and prisoner psychological breakdown within six days, forcing the experiment's early termination. The experiment demonstrated that arbitrary role assignments and institutional contexts can rapidly produce cruelty in ordinary people, providing experimental support for situational explanations of atrocity over dispositional ones.",
+    "summary": "Philip Zimbardo's simulated prison experiment at Stanford in which student volunteers were randomly assigned as 'guards' or 'prisoners' \u2014 producing sadistic guard behavior and prisoner psychological breakdown within six days, forcing the experiment's early termination. The experiment demonstrated that arbitrary role assignments and institutional contexts can rapidly produce cruelty in ordinary people, providing experimental support for situational explanations of atrocity over dispositional ones.",
     "decade": "1970s",
     "tags": [
       "psychology",
@@ -140,7 +140,7 @@
     "node_type": "reference",
     "category": "movement",
     "wikipedia": "https://en.wikipedia.org/wiki/Confucianism",
-    "summary": "The philosophical and ethical tradition derived from Confucius' teachings, developed over centuries by Mencius (human nature is inherently good), Xunzi (human nature requires ritual to be shaped), Dong Zhongshu (who made Confucianism China's official state ideology in the Han dynasty), and Zhu Xi (Neo-Confucian synthesis with Buddhist and Taoist elements). Confucianism shaped Chinese governance, education, family structure, and social ethics for two millennia — and through China's cultural influence, much of Korea, Japan, and Vietnam as well.",
+    "summary": "The philosophical and ethical tradition derived from Confucius' teachings, developed over centuries by Mencius (human nature is inherently good), Xunzi (human nature requires ritual to be shaped), Dong Zhongshu (who made Confucianism China's official state ideology in the Han dynasty), and Zhu Xi (Neo-Confucian synthesis with Buddhist and Taoist elements). Confucianism shaped Chinese governance, education, family structure, and social ethics for two millennia \u2014 and through China's cultural influence, much of Korea, Japan, and Vietnam as well.",
     "decade": "400s BCE",
     "tags": [
       "philosophy",
@@ -160,7 +160,7 @@
     "node_type": "reference",
     "category": "movement",
     "wikipedia": "https://en.wikipedia.org/wiki/Rabbinic_Judaism",
-    "summary": "The form of Judaism that emerged after the destruction of the Second Temple (70 CE), developed by the Pharisaic movement under the leadership of rabbis. With sacrifice impossible, rabbinic Judaism substituted prayer, Torah study, and ethical observance as the primary religious acts. The rabbis compiled the Mishnah (c.200 CE) and Talmud (c.500 CE), creating a portable, text-based religion that could survive and maintain coherent identity without a homeland. Rabbinic Judaism is the ancestor of all modern forms of Judaism — Orthodox, Conservative, Reform — and its invention of diaspora religion as normative rather than catastrophic was one of the most consequential acts of religious reconstitution in history.",
+    "summary": "The form of Judaism that emerged after the destruction of the Second Temple (70 CE), developed by the Pharisaic movement under the leadership of rabbis. With sacrifice impossible, rabbinic Judaism substituted prayer, Torah study, and ethical observance as the primary religious acts. The rabbis compiled the Mishnah (c.200 CE) and Talmud (c.500 CE), creating a portable, text-based religion that could survive and maintain coherent identity without a homeland. Rabbinic Judaism is the ancestor of all modern forms of Judaism \u2014 Orthodox, Conservative, Reform \u2014 and its invention of diaspora religion as normative rather than catastrophic was one of the most consequential acts of religious reconstitution in history.",
     "decade": "100s",
     "tags": [
       "judaism",
@@ -180,7 +180,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Sigmund_Freud",
-    "summary": "Austrian neurologist (1856–1939) who founded psychoanalysis — the theory that unconscious mental processes drive behavior, that early childhood experiences shape adult psychology, and that psychological symptoms are meaningful expressions of repressed conflict rather than random neural events. Freud concepts — the unconscious, repression, the Oedipus complex, id/ego/superego, defense mechanisms — entered the general culture so thoroughly that they shape how educated people in the West think about themselves. His scientific status is contested: many specific Freudian claims are not falsifiable by empirical evidence, and his case studies (Dora, Wolf Man, Little Hans) are now read as more revealing about Freud than about his patients. His influence on art, literature, and cultural analysis was enormous; the Frankfurt School combined Marx and Freud to analyze the psychological dimensions of capitalist ideology.",
+    "summary": "Austrian neurologist (1856\u20131939) who founded psychoanalysis \u2014 the theory that unconscious mental processes drive behavior, that early childhood experiences shape adult psychology, and that psychological symptoms are meaningful expressions of repressed conflict rather than random neural events. Freud concepts \u2014 the unconscious, repression, the Oedipus complex, id/ego/superego, defense mechanisms \u2014 entered the general culture so thoroughly that they shape how educated people in the West think about themselves. His scientific status is contested: many specific Freudian claims are not falsifiable by empirical evidence, and his case studies (Dora, Wolf Man, Little Hans) are now read as more revealing about Freud than about his patients. His influence on art, literature, and cultural analysis was enormous; the Frankfurt School combined Marx and Freud to analyze the psychological dimensions of capitalist ideology.",
     "decade": "1900s",
     "tags": [
       "psychology",
@@ -200,7 +200,7 @@
     "node_type": "reference",
     "category": "person",
     "wikipedia": "https://en.wikipedia.org/wiki/Stanley_Milgram",
-    "summary": "American social psychologist (1933–1984) whose obedience experiments (1961–1963) produced the most important empirical finding in the history of social psychology: that ordinary Americans would administer what they believed were potentially lethal electric shocks to innocent strangers when instructed by an authority figure. Approximately 65% of participants in Milgram original study delivered the maximum 450-volt shock despite the victim's apparent agony. Milgram designed the experiments specifically to understand how ordinary Germans had participated in the Holocaust, asking whether something cultural or situational explained Nazi perpetration. His answer — that situational authority, not character, is the primary determinant — was deeply disturbing and has been confirmed by replications in multiple countries. The experiments raised major ethical questions about psychological research methodology and have not been replicated at full intensity since.",
+    "summary": "American social psychologist (1933\u20131984) whose obedience experiments (1961\u20131963) produced the most important empirical finding in the history of social psychology: that ordinary Americans would administer what they believed were potentially lethal electric shocks to innocent strangers when instructed by an authority figure. Approximately 65% of participants in Milgram original study delivered the maximum 450-volt shock despite the victim's apparent agony. Milgram designed the experiments specifically to understand how ordinary Germans had participated in the Holocaust, asking whether something cultural or situational explained Nazi perpetration. His answer \u2014 that situational authority, not character, is the primary determinant \u2014 was deeply disturbing and has been confirmed by replications in multiple countries. The experiments raised major ethical questions about psychological research methodology and have not been replicated at full intensity since.",
     "decade": "1960s",
     "tags": [
       "psychology",
@@ -411,7 +411,7 @@
     "scope": "global/psychology",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Recovered_memory_therapy",
-    "summary": "The recovered memory therapy movement (1980s–90s) and its extreme form, Satanic Panic (ritual abuse allegations at daycare centers), demonstrated how therapeutic techniques could create false memories of abuse at scale. Therapists using hypnosis, guided imagery, and \"body memories\" produced hundreds of false accusations; the McMartin Preschool case, Paul Ingram case, and similar prosecutions destroyed lives based on iatrogenic (therapist-induced) memories. The scandal produced major advances in memory science (Elizabeth Loftus) and standards for forensic interviewing.",
+    "summary": "The recovered memory therapy movement (1980s\u201390s) and its extreme form, Satanic Panic (ritual abuse allegations at daycare centers), demonstrated how therapeutic techniques could create false memories of abuse at scale. Therapists using hypnosis, guided imagery, and \"body memories\" produced hundreds of false accusations; the McMartin Preschool case, Paul Ingram case, and similar prosecutions destroyed lives based on iatrogenic (therapist-induced) memories. The scandal produced major advances in memory science (Elizabeth Loftus) and standards for forensic interviewing.",
     "tags": [
       "false-memory",
       "satanic-panic",
@@ -451,7 +451,7 @@
     "scope": "global/psychology",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Online_radicalization",
-    "summary": "Online radicalization pathways — the algorithmic and social mechanisms by which people move from mainstream content to extremist ideology via recommendation engines, community escalation, and identity capture — have produced domestic terrorism, incel violence, white nationalist movements, and QAnon. The \"rabbit hole\" metaphor describes how recommendation algorithms optimize for engagement by escalating emotional intensity, leading users through progressively more extreme content. The radicalization pipeline is now a well-documented technical and psychological phenomenon.",
+    "summary": "Online radicalization pathways \u2014 the algorithmic and social mechanisms by which people move from mainstream content to extremist ideology via recommendation engines, community escalation, and identity capture \u2014 have produced domestic terrorism, incel violence, white nationalist movements, and QAnon. The \"rabbit hole\" metaphor describes how recommendation algorithms optimize for engagement by escalating emotional intensity, leading users through progressively more extreme content. The radicalization pipeline is now a well-documented technical and psychological phenomenon.",
     "tags": [
       "radicalization",
       "algorithms",
@@ -639,7 +639,7 @@
     "scope": "global/psychology",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Postmodernism",
-    "summary": "Intellectual and cultural movement rejecting grand narratives, objective truth, and universal values. Influential in academia, art, and politics — critiqued for relativism and weaponized in anti-science discourse.",
+    "summary": "Intellectual and cultural movement rejecting grand narratives, objective truth, and universal values. Influential in academia, art, and politics \u2014 critiqued for relativism and weaponized in anti-science discourse.",
     "tags": [
       "postmodernism",
       "deconstruction",
@@ -661,7 +661,7 @@
     "scope": "global/psychology",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Online_radicalization",
-    "summary": "Process by which individuals are drawn toward extreme ideologies through algorithmic recommendation systems, online communities, and targeted propaganda — accelerating political polarization and real-world violence.",
+    "summary": "Process by which individuals are drawn toward extreme ideologies through algorithmic recommendation systems, online communities, and targeted propaganda \u2014 accelerating political polarization and real-world violence.",
     "tags": [
       "radicalization",
       "social_media",
@@ -725,7 +725,7 @@
     "scope": "global/psychology",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/The_Authoritarian_Personality",
-    "summary": "Adorno and colleagues' 1950 study identifying psychological profile predisposed to authoritarian obedience: rigid thinking, in-group conformity, submission to authority, and aggression toward out-groups — linked to fascist susceptibility.",
+    "summary": "Adorno and colleagues' 1950 study identifying psychological profile predisposed to authoritarian obedience: rigid thinking, in-group conformity, submission to authority, and aggression toward out-groups \u2014 linked to fascist susceptibility.",
     "tags": [
       "authoritarian_personality",
       "Adorno",
@@ -747,7 +747,7 @@
     "scope": "global/psychology",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Identity_politics",
-    "summary": "Political mobilization based on shared identity — racial, gender, sexual, religious, or class — contested from both right (as divisive) and left (as essential for marginalized group representation). Central to culture war debates.",
+    "summary": "Political mobilization based on shared identity \u2014 racial, gender, sexual, religious, or class \u2014 contested from both right (as divisive) and left (as essential for marginalized group representation). Central to culture war debates.",
     "tags": [
       "identity_politics",
       "race",
@@ -768,7 +768,7 @@
     "decade": "1990s",
     "scope": "global/psychology",
     "cross_scope": false,
-    "summary": "The empirically documented phenomenon in which people experience significant positive psychological change following highly challenging life circumstances — not despite the trauma but through the process of struggling with it. Coined by Tedeschi and Calhoun (1996). Dimensions include: greater personal strength, new possibilities, relating to others more deeply, appreciation for life, and spiritual/existential change. Distinct from resilience (returning to baseline) — PTG involves surpassing the prior level of functioning. It does not invalidate trauma's harm; rather, it documents that human beings have a capacity for profound adaptation that oppressive systems cannot fully extinguish.",
+    "summary": "The empirically documented phenomenon in which people experience significant positive psychological change following highly challenging life circumstances \u2014 not despite the trauma but through the process of struggling with it. Coined by Tedeschi and Calhoun (1996). Dimensions include: greater personal strength, new possibilities, relating to others more deeply, appreciation for life, and spiritual/existential change. Distinct from resilience (returning to baseline) \u2014 PTG involves surpassing the prior level of functioning. It does not invalidate trauma's harm; rather, it documents that human beings have a capacity for profound adaptation that oppressive systems cannot fully extinguish.",
     "tags": [
       "trauma",
       "resilience",
@@ -787,7 +787,7 @@
     "decade": "Ongoing",
     "scope": "global/psychology",
     "cross_scope": false,
-    "summary": "The psychological capacity to act on ethical principles in the face of social pressure, personal cost, or institutional opposition. Distinct from physical courage — it involves risking reputation, relationships, career, or safety for ethical reasons. Research identifies factors that enable it: strong moral identity, prior experience of principled action, social support from even one ally, and clear articulation of the ethical principle at stake. The mechanisms of atrocity — dehumanization, moral disengagement, obedience — are all defeated when sufficient individuals exercise moral courage. It is the individual-level mechanism that collective resistance depends on.",
+    "summary": "The psychological capacity to act on ethical principles in the face of social pressure, personal cost, or institutional opposition. Distinct from physical courage \u2014 it involves risking reputation, relationships, career, or safety for ethical reasons. Research identifies factors that enable it: strong moral identity, prior experience of principled action, social support from even one ally, and clear articulation of the ethical principle at stake. The mechanisms of atrocity \u2014 dehumanization, moral disengagement, obedience \u2014 are all defeated when sufficient individuals exercise moral courage. It is the individual-level mechanism that collective resistance depends on.",
     "tags": [
       "ethics",
       "resistance",
@@ -806,7 +806,7 @@
     "decade": "1960s",
     "scope": "global/psychology",
     "cross_scope": false,
-    "summary": "The willingness to intervene when witnessing harm to others, countering the bystander effect (Latané and Darley, 1968) in which responsibility diffuses in groups. Training programs demonstrate that the bystander effect is not fixed — knowing about it, seeing others intervene, and having rehearsed responses significantly increase intervention rates. Bystander intervention programs have shown effectiveness in reducing sexual assault, bullying, and hate crimes in institutional settings. At scale, bystander culture is the mechanism by which community norms against harm are enforced without formal authority.",
+    "summary": "The willingness to intervene when witnessing harm to others, countering the bystander effect (Latan\u00e9 and Darley, 1968) in which responsibility diffuses in groups. Training programs demonstrate that the bystander effect is not fixed \u2014 knowing about it, seeing others intervene, and having rehearsed responses significantly increase intervention rates. Bystander intervention programs have shown effectiveness in reducing sexual assault, bullying, and hate crimes in institutional settings. At scale, bystander culture is the mechanism by which community norms against harm are enforced without formal authority.",
     "tags": [
       "psychology",
       "social",
@@ -825,7 +825,7 @@
     "decade": "Ongoing",
     "scope": "global/psychology",
     "cross_scope": false,
-    "summary": "The capacity to understand and share the feelings of others — to experience the world from another's perspective. Empathy is the psychological mechanism underlying moral circle expansion: extending moral consideration to previously excluded groups requires being able to imagine their suffering as real. It is activated by narrative (fiction reliably increases empathic understanding), contact (Allport's contact hypothesis), and social norms that affirm its expression. Dehumanization works by blocking empathy; literature, film, and cross-community contact work by activating it. Empathy's limitations include in-group bias and the tendency toward 'empathy fatigue' with distant or statistically described suffering.",
+    "summary": "The capacity to understand and share the feelings of others \u2014 to experience the world from another's perspective. Empathy is the psychological mechanism underlying moral circle expansion: extending moral consideration to previously excluded groups requires being able to imagine their suffering as real. It is activated by narrative (fiction reliably increases empathic understanding), contact (Allport's contact hypothesis), and social norms that affirm its expression. Dehumanization works by blocking empathy; literature, film, and cross-community contact work by activating it. Empathy's limitations include in-group bias and the tendency toward 'empathy fatigue' with distant or statistically described suffering.",
     "tags": [
       "psychology",
       "social",
@@ -844,7 +844,7 @@
     "decade": "Ongoing",
     "scope": "global/psychology",
     "cross_scope": false,
-    "summary": "The capacity of communities to recover, adapt, and strengthen following disaster, trauma, or sustained oppression. Research on disasters, wartime communities, and post-conflict societies shows that collective resilience emerges from: pre-existing social networks, shared identity, effective leadership, and the perception of shared fate. Rebecca Solnit's 'A Paradise Built in Hell' documents how communities respond to disasters with mutual aid and solidarity rather than the chaos that authorities fear. Collective resilience is the community-level analog to post-traumatic growth — communities can emerge from catastrophe more cohesive than before.",
+    "summary": "The capacity of communities to recover, adapt, and strengthen following disaster, trauma, or sustained oppression. Research on disasters, wartime communities, and post-conflict societies shows that collective resilience emerges from: pre-existing social networks, shared identity, effective leadership, and the perception of shared fate. Rebecca Solnit's 'A Paradise Built in Hell' documents how communities respond to disasters with mutual aid and solidarity rather than the chaos that authorities fear. Collective resilience is the community-level analog to post-traumatic growth \u2014 communities can emerge from catastrophe more cohesive than before.",
     "tags": [
       "community",
       "resilience",
@@ -863,7 +863,7 @@
     "decade": "1960s",
     "region": "USA",
     "scope": "global/psychology",
-    "summary": "Evidence-based therapeutic approach developed by Aaron Beck that treats mental disorders by identifying and changing distorted thought patterns — the most studied psychotherapy in history.",
+    "summary": "Evidence-based therapeutic approach developed by Aaron Beck that treats mental disorders by identifying and changing distorted thought patterns \u2014 the most studied psychotherapy in history.",
     "tags": [
       "therapy",
       "mental health",
@@ -880,7 +880,7 @@
     "decade": "1960s",
     "region": "USA",
     "scope": "global/psychology",
-    "summary": "Martin Seligman's discovery that organisms exposed to inescapable aversive events stop trying to escape even when escape becomes possible — a mechanism underlying depression and passivity in the face of oppression.",
+    "summary": "Martin Seligman's discovery that organisms exposed to inescapable aversive events stop trying to escape even when escape becomes possible \u2014 a mechanism underlying depression and passivity in the face of oppression.",
     "tags": [
       "depression",
       "motivation",
@@ -914,7 +914,7 @@
     "decade": "1990s",
     "region": "USA",
     "scope": "global/psychology",
-    "summary": "Claude Steele's finding that awareness of a negative stereotype about one's group impairs performance in the stereotyped domain — a mechanism by which systemic racism and sexism depress outcomes beyond explicit discrimination.",
+    "summary": "Claude Steele's finding that awareness of a negative stereotype about one's group impairs performance in the stereotyped domain \u2014 a mechanism by which systemic racism and sexism depress outcomes beyond explicit discrimination.",
     "tags": [
       "race",
       "gender",
@@ -948,7 +948,7 @@
     "decade": "1950s",
     "region": "USA",
     "scope": "global/psychology",
-    "summary": "Maslow and Rogers' reaction against behaviorism emphasizing human potential and self-actualization — the theoretical foundation of person-centered therapy.",
+    "summary": "Maslow and Rogers' reaction against behaviorism emphasizing human potential and self-actualization \u2014 the theoretical foundation of person-centered therapy.",
     "tags": [
       "maslow",
       "rogers",
@@ -999,7 +999,7 @@
     "decade": "1970s",
     "region": "Global",
     "scope": "global/psychology",
-    "summary": "Research showing that protective factors — secure attachment, community support, sense of purpose — predict recovery from extreme adversity, identifying the conditions that produce resilience.",
+    "summary": "Research showing that protective factors \u2014 secure attachment, community support, sense of purpose \u2014 predict recovery from extreme adversity, identifying the conditions that produce resilience.",
     "tags": [
       "trauma",
       "recovery",
@@ -1033,7 +1033,7 @@
     "decade": "1950s",
     "region": "USA",
     "scope": "global/psychology",
-    "summary": "Solomon Asch's studies showing that most people give obviously incorrect answers when surrounded by confederates giving wrong answers — demonstrating the power of social pressure over individual perception.",
+    "summary": "Solomon Asch's studies showing that most people give obviously incorrect answers when surrounded by confederates giving wrong answers \u2014 demonstrating the power of social pressure over individual perception.",
     "tags": [
       "conformity",
       "social pressure",
@@ -1050,7 +1050,7 @@
     "decade": "1950s",
     "region": "USA",
     "scope": "global/psychology",
-    "summary": "Leon Festinger's theory that discomfort from conflicting beliefs motivates attitude change — explaining how people rationalize bad behavior, resist correcting errors, and maintain false beliefs.",
+    "summary": "Leon Festinger's theory that discomfort from conflicting beliefs motivates attitude change \u2014 explaining how people rationalize bad behavior, resist correcting errors, and maintain false beliefs.",
     "tags": [
       "belief",
       "rationalization",
@@ -1067,7 +1067,7 @@
     "decade": "1980s",
     "region": "USA",
     "scope": "global/psychology",
-    "summary": "Theory that awareness of mortality drives much of human behavior — including group identification, worldview defense, and prejudice against those whose different beliefs threaten one's cultural anxiety buffer.",
+    "summary": "Theory that awareness of mortality drives much of human behavior \u2014 including group identification, worldview defense, and prejudice against those whose different beliefs threaten one's cultural anxiety buffer.",
     "tags": [
       "mortality",
       "prejudice",
@@ -1084,7 +1084,7 @@
     "decade": "1960s",
     "region": "USA",
     "scope": "global/psychology",
-    "summary": "Melvin Lerner's finding that people need to believe the world is just and people get what they deserve — leading to victim-blaming and the rationalization of inequality as earned rather than structural.",
+    "summary": "Melvin Lerner's finding that people need to believe the world is just and people get what they deserve \u2014 leading to victim-blaming and the rationalization of inequality as earned rather than structural.",
     "tags": [
       "victim blaming",
       "inequality",
@@ -1101,7 +1101,7 @@
     "decade": "1930s",
     "region": "USA",
     "scope": "global/psychology",
-    "summary": "B.F. Skinner's operant conditioning showed that behavior is shaped by its consequences; positive reinforcement produces more reliable and lasting behavior change than punishment — with applications in education, therapy, and social policy.",
+    "summary": "B.F. Skinner's operant conditioning showed that behavior is shaped by its consequences; positive reinforcement produces more reliable and lasting behavior change than punishment \u2014 with applications in education, therapy, and social policy.",
     "tags": [
       "skinner",
       "behaviorism",
@@ -1118,7 +1118,7 @@
     "decade": "2000s",
     "region": "USA",
     "scope": "global/psychology",
-    "summary": "Philip Zimbardo's analysis of how ordinary people commit evil acts under situational pressure — arguing that evil is more a product of situation than character.",
+    "summary": "Philip Zimbardo's analysis of how ordinary people commit evil acts under situational pressure \u2014 arguing that evil is more a product of situation than character.",
     "tags": [
       "evil",
       "zimbardo",
@@ -1135,7 +1135,7 @@
     "decade": "1960s",
     "region": "Global",
     "scope": "global/psychology",
-    "summary": "The attribution of responsibility for harm to the person who experienced it, rather than to the perpetrator or structural conditions — a cognitive defense that protects the observer from acknowledging their own vulnerability.",
+    "summary": "The attribution of responsibility for harm to the person who experienced it, rather than to the perpetrator or structural conditions \u2014 a cognitive defense that protects the observer from acknowledging their own vulnerability.",
     "tags": [
       "psychology",
       "justice",
@@ -1153,7 +1153,7 @@
     "decade": "1960s",
     "region": "USA",
     "scope": "global/psychology",
-    "summary": "The tendency for individuals to be less likely to help a victim when other people are present — each person assumes someone else will act, diffusing responsibility and producing collective inaction.",
+    "summary": "The tendency for individuals to be less likely to help a victim when other people are present \u2014 each person assumes someone else will act, diffusing responsibility and producing collective inaction.",
     "tags": [
       "psychology",
       "bystander",
@@ -1161,5 +1161,77 @@
       "kitty genovese",
       "intervention"
     ]
+  },
+  {
+    "id": "milgram_experiment",
+    "label": "Milgram Obedience Experiment (1961)",
+    "category": "event",
+    "scope": "global/psychology",
+    "decade": 1961,
+    "region": "North America",
+    "summary": "Stanley Milgram's study showed 65% of ordinary people would administer what they believed were lethal electric shocks when ordered to by an authority figure \u2014 fundamentally changing understanding of obedience and evil."
+  },
+  {
+    "id": "zimbardo_prison_experiment",
+    "label": "Stanford Prison Experiment (1971)",
+    "category": "event",
+    "scope": "global/psychology",
+    "decade": 1971,
+    "region": "North America",
+    "summary": "Philip Zimbardo's study of role psychology showed that ordinary students assigned 'guard' roles became abusive within days \u2014 though later critiqued for methodological flaws, it shaped thinking on situational influences."
+  },
+  {
+    "id": "asch_conformity",
+    "label": "Asch Conformity Experiments (1951)",
+    "category": "event",
+    "scope": "global/psychology",
+    "decade": 1951,
+    "region": "North America",
+    "summary": "Solomon Asch demonstrated that 75% of people will deny obvious visual facts when surrounded by confederates giving wrong answers, establishing the power of social conformity over individual perception."
+  },
+  {
+    "id": "freud_psychoanalysis",
+    "label": "Freud & Psychoanalysis (1890s\u20131930s)",
+    "category": "event",
+    "scope": "global/psychology",
+    "decade": 1900,
+    "region": "Europe",
+    "summary": "Freud's theory of the unconscious, repression, and defense mechanisms transformed 20th century thought \u2014 influencing not just psychiatry but literature, art, advertising, and political propaganda techniques."
+  },
+  {
+    "id": "propaganda_bernays",
+    "label": "Edward Bernays & Modern Propaganda (1920s)",
+    "category": "event",
+    "scope": "global/psychology",
+    "decade": 1920,
+    "region": "North America",
+    "summary": "Freud's nephew applied psychoanalytic theory to mass persuasion, creating modern public relations \u2014 demonstrating that the same psychological techniques could sell cigarettes to women or manufacture consent for war."
+  },
+  {
+    "id": "cognitive_revolution",
+    "label": "Cognitive Revolution in Psychology (1950s\u20131970s)",
+    "category": "event",
+    "scope": "global/psychology",
+    "decade": 1956,
+    "region": "North America",
+    "summary": "The shift from behaviorism to cognitive science introduced concepts like schemas, heuristics, and information processing \u2014 providing the scientific foundation for understanding propaganda, bias, and decision-making."
+  },
+  {
+    "id": "fundamental_attribution_error",
+    "label": "Fundamental Attribution Error (1977)",
+    "category": "event",
+    "scope": "global/psychology",
+    "decade": 1977,
+    "region": "North America",
+    "summary": "Lee Ross's identification of humans' tendency to explain others' behavior through character flaws rather than situational factors provides a key mechanism for victim-blaming, moral judgment, and failure to understand systemic causes."
+  },
+  {
+    "id": "moral_foundations_theory",
+    "label": "Moral Foundations Theory (2004)",
+    "category": "event",
+    "scope": "global/psychology",
+    "decade": 2004,
+    "region": "North America",
+    "summary": "Jonathan Haidt's research identifying six moral foundations (care, fairness, loyalty, authority, sanctity, liberty) provides a framework for understanding why conservatives and liberals talk past each other politically."
   }
 ]

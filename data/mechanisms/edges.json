@@ -22636,5 +22636,185 @@
     "target": "deindustrialization",
     "type": "EXPLAINS",
     "weight": 2
+  },
+  {
+    "source": "propaganda_bernays",
+    "target": "manufactured_consent",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "propaganda_bernays",
+    "target": "propaganda",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "milgram_experiment",
+    "target": "moral_disengagement",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "milgram_experiment",
+    "target": "bystander_effect",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "zimbardo_prison_experiment",
+    "target": "moral_disengagement",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "asch_conformity",
+    "target": "in_group_out_group_dynamics",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_identity_theory",
+    "target": "in_group_out_group_dynamics",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_identity_theory",
+    "target": "scapegoating",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_identity_theory",
+    "target": "polarization",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "fundamental_attribution_error",
+    "target": "victim_blaming",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "fundamental_attribution_error",
+    "target": "scapegoating",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "authoritarian_personality",
+    "target": "authoritarian_control",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "authoritarian_personality",
+    "target": "right_wing_populism",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "learned_helplessness",
+    "target": "structural_violence",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "cognitive_dissonance",
+    "target": "milgram_experiment",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "identity_capture",
+    "target": "social_identity_theory",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "moral_foundations_theory",
+    "target": "polarization",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "manufactured_consent",
+    "target": "yellow_journalism",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "manufactured_consent",
+    "target": "fox_news_founding",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "manufactured_consent",
+    "target": "news_media_consolidation",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "propaganda",
+    "target": "radio_era",
+    "type": "USED",
+    "weight": 3
+  },
+  {
+    "source": "propaganda",
+    "target": "yellow_journalism",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "disinformation",
+    "target": "cambridge_analytica",
+    "type": "USED_IN",
+    "weight": 3
+  },
+  {
+    "source": "echo_chamber",
+    "target": "social_media_era",
+    "type": "PRODUCED_BY",
+    "weight": 3
+  },
+  {
+    "source": "echo_chamber",
+    "target": "fox_news_founding",
+    "type": "PRODUCED_BY",
+    "weight": 3
+  },
+  {
+    "source": "platform_capitalism",
+    "target": "social_media_era",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "platform_capitalism",
+    "target": "cambridge_analytica",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "surveillance_state",
+    "target": "cambridge_analytica",
+    "type": "PARALLELS",
+    "weight": 2
+  },
+  {
+    "source": "media_as_colonial_tool",
+    "target": "yellow_journalism",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "broken_epistemology",
+    "target": "social_media_era",
+    "type": "PRODUCED_BY",
+    "weight": 3
   }
 ]
