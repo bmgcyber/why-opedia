@@ -20460,5 +20460,195 @@
     "source": "congo_free_state",
     "type": "ENABLED",
     "target": "dehumanization"
+  },
+  {
+    "source": "emergency_powers_abuse",
+    "type": "ENABLED",
+    "target": "nazi_seizure_of_power"
+  },
+  {
+    "source": "emergency_powers_abuse",
+    "type": "ENABLED",
+    "target": "democratic_backsliding"
+  },
+  {
+    "source": "emergency_powers_abuse",
+    "type": "ENABLED",
+    "target": "authoritarian_control"
+  },
+  {
+    "source": "emergency_powers_abuse",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "manufactured_consent"
+  },
+  {
+    "source": "nazi_seizure_of_power",
+    "type": "PRODUCED",
+    "target": "emergency_powers_abuse"
+  },
+  {
+    "source": "emergency_powers_abuse",
+    "type": "ENABLED",
+    "target": "cointelpro"
+  },
+  {
+    "source": "emergency_powers_abuse",
+    "type": "ENABLED",
+    "target": "surveillance_capitalism"
+  },
+  {
+    "source": "totalitarianism",
+    "type": "ENABLED",
+    "target": "holocaust"
+  },
+  {
+    "source": "totalitarianism",
+    "type": "ENABLED",
+    "target": "soviet_collectivization"
+  },
+  {
+    "source": "totalitarianism",
+    "type": "ENABLED",
+    "target": "stalinist_purges"
+  },
+  {
+    "source": "totalitarianism",
+    "type": "ENABLED",
+    "target": "propaganda"
+  },
+  {
+    "source": "totalitarianism",
+    "type": "ENABLED",
+    "target": "identity_capture"
+  },
+  {
+    "source": "totalitarianism",
+    "type": "ENABLED",
+    "target": "cult_dynamics"
+  },
+  {
+    "source": "totalitarianism",
+    "type": "ENABLED",
+    "target": "authoritarian_control"
+  },
+  {
+    "source": "nazi_germany",
+    "type": "PRODUCED",
+    "target": "totalitarianism"
+  },
+  {
+    "source": "fascism",
+    "type": "ENABLED",
+    "target": "totalitarianism"
+  },
+  {
+    "source": "big_lie",
+    "type": "ENABLED",
+    "target": "nazi_propaganda"
+  },
+  {
+    "source": "big_lie",
+    "type": "ENABLED",
+    "target": "disinformation"
+  },
+  {
+    "source": "big_lie",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "manufactured_scientific_doubt"
+  },
+  {
+    "source": "big_lie",
+    "type": "ENABLED",
+    "target": "broken_epistemology"
+  },
+  {
+    "source": "nazi_germany",
+    "type": "PRODUCED",
+    "target": "big_lie"
+  },
+  {
+    "source": "great_depression",
+    "type": "ENABLED",
+    "target": "scapegoating"
+  },
+  {
+    "source": "great_depression",
+    "type": "ENABLED",
+    "target": "fascism"
+  },
+  {
+    "source": "versailles_treaty",
+    "type": "ENABLED",
+    "target": "scapegoating"
+  },
+  {
+    "source": "hyperinflation_germany_1923",
+    "type": "ENABLED",
+    "target": "scapegoating"
+  },
+  {
+    "source": "world_war_i",
+    "type": "ENABLED",
+    "target": "dehumanization"
+  },
+  {
+    "source": "armenian_genocide",
+    "type": "ENABLED",
+    "target": "genocide"
+  },
+  {
+    "source": "armenian_genocide",
+    "type": "ENABLED",
+    "target": "ethnic_deportation"
+  },
+  {
+    "source": "armenian_genocide",
+    "type": "ENABLED",
+    "target": "dehumanization"
+  },
+  {
+    "source": "holocaust",
+    "type": "ENABLED",
+    "target": "genocide"
+  },
+  {
+    "source": "holocaust",
+    "type": "ENABLED",
+    "target": "dehumanization"
+  },
+  {
+    "source": "holocaust",
+    "type": "ENABLED",
+    "target": "institutional_credibility_laundering"
+  },
+  {
+    "source": "totalitarianism",
+    "type": "ENABLED",
+    "target": "dehumanization"
+  },
+  {
+    "source": "cold_war_origins",
+    "type": "ENABLED",
+    "target": "propaganda"
+  },
+  {
+    "source": "atomic_bombing",
+    "type": "ENABLED",
+    "target": "nuclear_test_ban_treaty_1963"
+  },
+  {
+    "source": "decolonization_wave",
+    "type": "ENABLED",
+    "target": "nonviolent_resistance"
+  },
+  {
+    "source": "marshall_plan_1948",
+    "type": "DISCREDITED",
+    "target": "imperial_overextension"
+  },
+  {
+    "source": "racial_capitalism",
+    "type": "ENABLED",
+    "target": "nazi_propaganda"
   }
 ]

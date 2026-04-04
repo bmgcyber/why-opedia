@@ -9634,5 +9634,175 @@
     "source": "suffrage_19th_amendment",
     "type": "ENABLED",
     "target": "women_suffrage_19th"
+  },
+  {
+    "source": "scramble_for_africa",
+    "type": "ENABLED",
+    "target": "world_war_i"
+  },
+  {
+    "source": "ottoman_empire",
+    "type": "ENABLED",
+    "target": "world_war_i"
+  },
+  {
+    "source": "world_war_i",
+    "type": "ENABLED",
+    "target": "spanish_flu_1918"
+  },
+  {
+    "source": "world_war_i",
+    "type": "ENABLED",
+    "target": "versailles_treaty"
+  },
+  {
+    "source": "world_war_i",
+    "type": "ENABLED",
+    "target": "russian_revolution_1917"
+  },
+  {
+    "source": "versailles_treaty",
+    "type": "ENABLED",
+    "target": "weimar_republic"
+  },
+  {
+    "source": "versailles_treaty",
+    "type": "ENABLED",
+    "target": "great_depression"
+  },
+  {
+    "source": "versailles_treaty",
+    "type": "ENABLED",
+    "target": "wwii_causes"
+  },
+  {
+    "source": "weimar_republic",
+    "type": "ENABLED",
+    "target": "nazi_seizure_of_power"
+  },
+  {
+    "source": "hyperinflation_germany_1923",
+    "type": "ENABLED",
+    "target": "weimar_republic"
+  },
+  {
+    "source": "great_depression",
+    "type": "ENABLED",
+    "target": "nazi_seizure_of_power"
+  },
+  {
+    "source": "great_depression",
+    "type": "ENABLED",
+    "target": "fascism_rise_italy"
+  },
+  {
+    "source": "great_depression",
+    "type": "ENABLED",
+    "target": "new_deal"
+  },
+  {
+    "source": "fascism_rise_italy",
+    "type": "ENABLED",
+    "target": "nazi_seizure_of_power"
+  },
+  {
+    "source": "nazi_seizure_of_power",
+    "type": "ENABLED",
+    "target": "holocaust"
+  },
+  {
+    "source": "nazi_seizure_of_power",
+    "type": "ENABLED",
+    "target": "wwii_causes"
+  },
+  {
+    "source": "holocaust",
+    "type": "ENABLED",
+    "target": "nuremberg_trials"
+  },
+  {
+    "source": "holocaust",
+    "type": "ENABLED",
+    "target": "universal_declaration_human_rights_1948"
+  },
+  {
+    "source": "wwii_causes",
+    "type": "ENABLED",
+    "target": "atomic_bombing"
+  },
+  {
+    "source": "wwii_causes",
+    "type": "ENABLED",
+    "target": "nuremberg_trials"
+  },
+  {
+    "source": "wwii_causes",
+    "type": "ENABLED",
+    "target": "marshall_plan_1948"
+  },
+  {
+    "source": "wwii_causes",
+    "type": "ENABLED",
+    "target": "decolonization_wave"
+  },
+  {
+    "source": "wwii_causes",
+    "type": "ENABLED",
+    "target": "cold_war_origins"
+  },
+  {
+    "source": "wwii_causes",
+    "type": "ENABLED",
+    "target": "partition_india_pakistan"
+  },
+  {
+    "source": "atomic_bombing_hiroshima",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "atomic_bombing"
+  },
+  {
+    "source": "decolonization_wave",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "decolonization_independence_wave"
+  },
+  {
+    "source": "decolonization_wave",
+    "type": "ENABLED",
+    "target": "indian_independence_1947"
+  },
+  {
+    "source": "soviet_collectivization",
+    "type": "ENABLED",
+    "target": "stalinist_purges"
+  },
+  {
+    "source": "russian_revolution_1917",
+    "type": "ENABLED",
+    "target": "soviet_collectivization"
+  },
+  {
+    "source": "spanish_civil_war_1936",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "spanish_civil_war_causes"
+  },
+  {
+    "source": "meiji_restoration",
+    "type": "ENABLED",
+    "target": "wwii_causes"
+  },
+  {
+    "source": "cold_war_origins",
+    "type": "ENABLED",
+    "target": "mccarthy_red_scare"
+  },
+  {
+    "source": "partition_india_pakistan",
+    "type": "ENABLED",
+    "target": "partition_of_bengal_1905"
+  },
+  {
+    "source": "british_empire",
+    "type": "ENABLED",
+    "target": "partition_india_pakistan"
   }
 ]

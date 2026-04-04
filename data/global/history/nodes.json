@@ -13238,5 +13238,288 @@
       "colonialism",
       "revolution"
     ]
+  },
+  {
+    "id": "versailles_treaty",
+    "label": "Treaty of Versailles (1919)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1910s",
+    "region": "Europe",
+    "scope": "global/history",
+    "summary": "The WWI peace settlement imposed crippling reparations on Germany, redrew European borders, and created new states that were ethnically heterogeneous — satisfying no one. John Maynard Keynes predicted it would cause another war within a generation. He was right.",
+    "tags": [
+      "versailles",
+      "wwi",
+      "reparations",
+      "germany",
+      "nationalism",
+      "weimar",
+      "borders",
+      "peace"
+    ]
+  },
+  {
+    "id": "spanish_flu_1918",
+    "label": "1918 Spanish Flu Pandemic",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1910s",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "The most deadly pandemic in recorded history — 50–100 million dead, more than WWI. Spread by troop movements and exacerbated by wartime censorship (neutral Spain reported it honestly, hence 'Spanish flu'). Struck healthy adults in their prime, unlike most flu strains. Demonstrated how misinformation amplifies pandemic mortality.",
+    "tags": [
+      "pandemic",
+      "flu",
+      "1918",
+      "wwi",
+      "death",
+      "censorship",
+      "misinformation",
+      "global health"
+    ]
+  },
+  {
+    "id": "weimar_republic",
+    "label": "Weimar Republic (1919–1933)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1910s",
+    "region": "Germany",
+    "scope": "global/history",
+    "summary": "Germany's democratic experiment between the World Wars — producing inflation, the Great Depression, political polarization, and Hitler. The Weimar Republic is the paradigm case of democratic backsliding: a functioning democracy destroyed from within by elected officials who used legal means to dismantle democratic norms.",
+    "tags": [
+      "weimar",
+      "germany",
+      "democracy",
+      "collapse",
+      "hyperinflation",
+      "nazism",
+      "polarization",
+      "fascism"
+    ]
+  },
+  {
+    "id": "hyperinflation_germany_1923",
+    "label": "German Hyperinflation (1923)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1920s",
+    "region": "Germany",
+    "scope": "global/history",
+    "summary": "The Weimar government printed money to pay war reparations, producing hyperinflation so extreme that prices doubled every two days at the peak. Wiped out the savings of the middle class — the segment of society most opposed to radical politics — and created the economic desperation that made Nazi scapegoating credible.",
+    "tags": [
+      "hyperinflation",
+      "weimar",
+      "germany",
+      "reparations",
+      "middle class",
+      "economic crisis",
+      "nazi",
+      "1923"
+    ]
+  },
+  {
+    "id": "fascism_rise_italy",
+    "label": "Rise of Italian Fascism (1919–1925)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1910s",
+    "region": "Italy",
+    "scope": "global/history",
+    "summary": "Mussolini's Black Shirts exploited post-WWI economic chaos and political fragmentation to seize power through a combination of violence and parliamentary maneuvering — the first fascist government. Provided the template that Hitler studied and adapted. Demonstrated that fascism rises through democratic mechanisms, not despite them.",
+    "tags": [
+      "fascism",
+      "mussolini",
+      "italy",
+      "blackshirts",
+      "democracy",
+      "violence",
+      "nationalism",
+      "socialism"
+    ]
+  },
+  {
+    "id": "nazi_seizure_of_power",
+    "label": "Nazi Seizure of Power (1933)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1930s",
+    "region": "Germany",
+    "scope": "global/history",
+    "summary": "Hitler's appointment as Chancellor (January 1933) and the Enabling Act (March 1933) converted the Weimar Republic into a dictatorship through legal means — the Reichstag fire provided the emergency justification. The paradigmatic case of a democracy voluntarily dismantling itself under emergency conditions.",
+    "tags": [
+      "nazi",
+      "hitler",
+      "germany",
+      "democracy",
+      "enabling act",
+      "reichstag",
+      "emergency",
+      "dictatorship"
+    ]
+  },
+  {
+    "id": "holocaust",
+    "label": "The Holocaust (1941–1945)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1940s",
+    "region": "Europe",
+    "scope": "global/history",
+    "summary": "The systematic genocide of six million Jews, plus five million Roma, disabled people, homosexuals, and political prisoners — carried out by the Nazi state using industrial methods. The Holocaust required the complicity of ordinary citizens, large corporations, and state bureaucracies — documented by Hannah Arendt's 'banality of evil.'",
+    "tags": [
+      "holocaust",
+      "genocide",
+      "nazi",
+      "jews",
+      "extermination",
+      "arendt",
+      "germany",
+      "world war 2"
+    ]
+  },
+  {
+    "id": "wwii_causes",
+    "label": "World War II (1939–1945)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1930s",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "The most destructive conflict in human history — 70–85 million dead, including 50 million civilians. Fought simultaneously in Europe (Nazi Germany vs. Allies) and Asia-Pacific (Imperial Japan vs. US/China/Britain). Produced the Holocaust, the atomic bomb, and the UN/Bretton Woods international order.",
+    "tags": [
+      "world war 2",
+      "nazi",
+      "japan",
+      "holocaust",
+      "atomic bomb",
+      "allies",
+      "death",
+      "un",
+      "imperialism"
+    ]
+  },
+  {
+    "id": "soviet_collectivization",
+    "label": "Soviet Collectivization & Holodomor (1930–33)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1930s",
+    "region": "Soviet Union",
+    "scope": "global/history",
+    "summary": "Stalin's forced collectivization of agriculture killed 5–7 million Ukrainians through a deliberately induced famine (Holodomor). The suppression of the kulak class demonstrated how state-socialist ideology could rationalize mass murder as class struggle.",
+    "tags": [
+      "soviet",
+      "holodomor",
+      "ukraine",
+      "famine",
+      "collectivization",
+      "stalin",
+      "genocide",
+      "kulaks"
+    ]
+  },
+  {
+    "id": "spanish_civil_war_causes",
+    "label": "Spanish Civil War — International Dimensions",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1930s",
+    "region": "Spain",
+    "scope": "global/history",
+    "summary": "The test war of fascism vs. democracy — Germany and Italy supported Franco; the Soviet Union supported the Republic; Western democracies stood aside (Non-Intervention Agreement). George Orwell's Homage to Catalonia documented how Stalinist factions destroyed revolutionary solidarity on the Republican side.",
+    "tags": [
+      "spain",
+      "civil war",
+      "fascism",
+      "franco",
+      "republican",
+      "international brigades",
+      "orwell",
+      "prelude"
+    ]
+  },
+  {
+    "id": "atomic_bombing",
+    "label": "Atomic Bombing of Hiroshima & Nagasaki (1945)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1940s",
+    "region": "Japan",
+    "scope": "global/history",
+    "summary": "The first use of nuclear weapons killed 130,000–226,000 people immediately, ended the Pacific War, and inaugurated the nuclear age. The decision's morality remains contested; its strategic calculation (saving lives vs. preventing Soviet entry in Asia vs. demonstrating nuclear capability to the USSR) shaped Cold War thinking.",
+    "tags": [
+      "atomic bomb",
+      "hiroshima",
+      "nagasaki",
+      "nuclear",
+      "japan",
+      "wwii",
+      "cold war",
+      "radiation",
+      "civilians"
+    ]
+  },
+  {
+    "id": "decolonization_wave",
+    "label": "Decolonization Wave (1945–1975)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1940s",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "The collapse of European colonial empires — India/Pakistan (1947), Indonesia (1945), Vietnam, Ghana (1957), and 50 more African and Asian states by 1975. Driven by anti-colonial movements, WWI/II weakening of European powers, and the contradiction between fighting fascism while maintaining empires.",
+    "tags": [
+      "decolonization",
+      "colonialism",
+      "independence",
+      "africa",
+      "asia",
+      "nationalism",
+      "cold war",
+      "wwii"
+    ]
+  },
+  {
+    "id": "cold_war_origins",
+    "label": "Cold War Origins (1947–1953)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1940s",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "The US-Soviet competition that emerged from WWII — divided by ideology (capitalism vs. communism), nuclear weapons, and the contest for global influence. The Truman Doctrine (1947), Marshall Plan, Berlin Blockade, and Korean War established the Cold War's structure.",
+    "tags": [
+      "cold war",
+      "usa",
+      "soviet union",
+      "truman",
+      "nuclear",
+      "containment",
+      "communism",
+      "capitalism"
+    ]
+  },
+  {
+    "id": "partition_india_pakistan",
+    "label": "Partition of India (1947)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1940s",
+    "region": "South Asia",
+    "scope": "global/history",
+    "summary": "The British partition of India into Hindu-majority India and Muslim-majority Pakistan produced the largest mass migration in history (10–12 million people) and sectarian violence killing 200,000–2 million. The borders were drawn in six weeks by a British lawyer who had never been to India.",
+    "tags": [
+      "partition",
+      "india",
+      "pakistan",
+      "british",
+      "migration",
+      "violence",
+      "borders",
+      "religion",
+      "colonialism"
+    ]
   }
 ]
