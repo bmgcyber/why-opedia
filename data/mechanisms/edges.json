@@ -22534,5 +22534,107 @@
     "target": "mughal_empire",
     "type": "CONTEXT_FOR",
     "weight": 1
+  },
+  {
+    "source": "neoliberalism",
+    "target": "austerity_economics",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "financialization",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "gig_economy",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "deindustrialization",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "financial_contagion",
+    "target": "subprime_mortgage_crisis",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "financial_contagion",
+    "target": "austerity_economics",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "regulatory_capture",
+    "target": "subprime_mortgage_crisis",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "regulatory_capture",
+    "target": "financialization",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "wealth_concentration",
+    "target": "wealth_gap_expansion",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "wealth_concentration",
+    "target": "financialization",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "dark_money",
+    "target": "washington_consensus",
+    "type": "PROMOTED",
+    "weight": 2
+  },
+  {
+    "source": "extractive_institutions",
+    "target": "washington_consensus",
+    "type": "USES",
+    "weight": 2
+  },
+  {
+    "source": "class_struggle",
+    "target": "deindustrialization",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "class_struggle",
+    "target": "stagflation_1970s",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "structural_violence",
+    "target": "austerity_economics",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "technological_displacement",
+    "target": "gig_economy",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "technological_displacement",
+    "target": "deindustrialization",
+    "type": "EXPLAINS",
+    "weight": 2
   }
 ]
