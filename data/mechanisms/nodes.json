@@ -3971,5 +3971,49 @@
       "bondage",
       "enslavement"
     ]
+  },
+  {
+    "id": "social_movement",
+    "label": "Social Movement",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Organized collective action that challenges existing power structures through sustained campaigns combining disruption, alliance-building, narrative framing, and political pressure \u2014 the primary mechanism by which historically excluded groups have won rights.",
+    "description": "Social movements succeed through a combination of four elements: disruptive action that raises costs for the status quo; organizational capacity that sustains pressure over time; sympathetic allies in positions of institutional power; and framing that connects the movement's demands to widely-shared values. Remove any element and movements typically fail: disruption without organization dissipates; organizations without disruption are co-opted; allies without popular pressure lose will.\n\nMovements face a structural dilemma: success requires coalition-building, which requires broadening demands, which risks alienating core constituents. The Civil Rights Movement navigated this by maintaining a broad coalition behind achievable legal goals while SNCC and Black Power addressed deeper structural demands the coalition wouldn't support. The tension between radical flanks and moderate cores is not a movement pathology but a structural feature.\n\nSocial movements operate in political opportunity structures: the same tactics that produce repression in one context produce concessions in another. The Civil Rights Movement succeeded partly because Cold War context made American racial apartheid a propaganda liability. Timing relative to state capacity, elite divisions, and international pressure shapes what movements can achieve more than the justice of their demands.",
+    "tags": [
+      "activism",
+      "civil rights",
+      "labor",
+      "protest",
+      "organizing",
+      "collective action"
+    ],
+    "aliases": [
+      "activism",
+      "mass movement",
+      "collective action",
+      "organizing"
+    ]
+  },
+  {
+    "id": "pseudo_science",
+    "label": "Pseudoscience & Scientific Legitimation",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Mechanism by which ideological conclusions are given the appearance of scientific legitimacy through selective data, misappropriated methods, or institutional capture \u2014 making political choices appear as natural facts.",
+    "description": "Pseudoscience succeeds not by defeating legitimate science but by mimicking its form: publishing in journals (often created specifically for this purpose), citing statistics selectively, and using technical vocabulary to make ideological claims sound empirical. Social Darwinism used real evolutionary concepts to reach conclusions Darwin himself rejected. Race science used real measurement techniques to confirm predetermined hierarchies. The IQ debate continues using psychometric tools to make contested claims about genetic differences.\n\nThe mechanism is politically powerful because it shifts the burden: if inequality is natural (genetic, evolutionary, economic law), it cannot be remedied through policy, only accepted. This is why scientific-seeming claims appear reliably whenever significant redistribution of power is threatened \u2014 eugenics in the 1920s, IQ hereditarianism in the 1960s, climate skepticism today. The specific scientific field changes; the political function remains constant.\n\nRecognizing pseudoscience: the conclusion was determined before the research; evidence against the theory is systematically excluded rather than addressed; the theory is unfalsifiable by design; and funding flows from parties with material interests in the conclusion. Most tellingly, pseudoscientific claims consistently align with the interests of those funding them.",
+    "tags": [
+      "science",
+      "ideology",
+      "racism",
+      "eugenics",
+      "social darwinism",
+      "disinformation"
+    ],
+    "aliases": [
+      "junk science",
+      "scientific racism",
+      "eugenics",
+      "social darwinism"
+    ]
   }
 ]

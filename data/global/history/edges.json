@@ -10818,5 +10818,173 @@
     "target": "abolition_movement",
     "type": "ACCELERATED",
     "weight": 2
+  },
+  {
+    "source": "reconstruction_failure",
+    "target": "jim_crow",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "industrial_revolution",
+    "target": "revolutions_1848",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "revolutions_1848",
+    "target": "communist_manifesto",
+    "type": "PARALLEL_TO",
+    "weight": 2
+  },
+  {
+    "source": "communist_manifesto",
+    "target": "paris_commune",
+    "type": "INSPIRED",
+    "weight": 3
+  },
+  {
+    "source": "paris_commune",
+    "target": "russian_revolution_1917",
+    "type": "INSPIRED",
+    "weight": 2
+  },
+  {
+    "source": "industrial_revolution",
+    "target": "gilded_age",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "gilded_age",
+    "target": "progressive_era",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "gilded_age",
+    "target": "first_international",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "first_international",
+    "target": "progressive_era",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "darwins_evolution",
+    "target": "social_darwinism",
+    "type": "MISAPPLIED_IN",
+    "weight": 3
+  },
+  {
+    "source": "social_darwinism",
+    "target": "herero_genocide",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "social_darwinism",
+    "target": "holocaust",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "social_darwinism",
+    "target": "berlin_conference_1884",
+    "type": "JUSTIFIED",
+    "weight": 3
+  },
+  {
+    "source": "berlin_conference_1884",
+    "target": "herero_genocide",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "herero_genocide",
+    "target": "holocaust",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "industrial_revolution",
+    "target": "spanish_american_war",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "spanish_american_war",
+    "target": "vietnam_war",
+    "type": "PRECEDED",
+    "weight": 1
+  },
+  {
+    "source": "boer_war",
+    "target": "world_war_i",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "balkan_wars",
+    "target": "world_war_i",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "russian_revolution_1905",
+    "target": "russian_revolution_1917",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "communist_manifesto",
+    "target": "russian_revolution_1917",
+    "type": "INSPIRED",
+    "weight": 3
+  },
+  {
+    "source": "womens_suffrage_movement",
+    "target": "civil_rights_movement",
+    "type": "INSPIRED",
+    "weight": 2
+  },
+  {
+    "source": "abolition_movement",
+    "target": "womens_suffrage_movement",
+    "type": "PARALLEL_TO",
+    "weight": 2
+  },
+  {
+    "source": "jim_crow",
+    "target": "civil_rights_movement",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "chinese_revolution_1911",
+    "target": "mao_revolution_1949",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "progressive_era",
+    "target": "world_war_i",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "industrial_revolution",
+    "target": "world_war_i",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "mexican_revolution",
+    "target": "world_war_i",
+    "type": "PARALLEL_TO",
+    "weight": 1
   }
 ]

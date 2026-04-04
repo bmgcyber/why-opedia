@@ -14223,5 +14223,140 @@
     "decade": 1865,
     "region": "North America",
     "summary": "The federal attempt to rebuild the South with Black political participation was dismantled through terrorism and political abandonment, producing Jim Crow and demonstrating that formal legal equality is insufficient without enforcement."
+  },
+  {
+    "id": "revolutions_1848",
+    "label": "Revolutions of 1848",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1848,
+    "region": "Europe",
+    "summary": "Wave of liberal and nationalist revolutions swept Europe \u2014 France, German states, Austria-Hungary, Italy \u2014 and were largely suppressed, but the social forces they expressed (nationalism, labor rights, democracy) could not be permanently contained."
+  },
+  {
+    "id": "communist_manifesto",
+    "label": "Communist Manifesto Published (1848)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1848,
+    "region": "Europe",
+    "summary": "Marx and Engels' analysis of capitalism as class conflict and their call for proletarian revolution established the intellectual framework that would inspire socialist movements, Communist states, and anti-colonial struggles for 150 years."
+  },
+  {
+    "id": "paris_commune",
+    "label": "Paris Commune (1871)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1871,
+    "region": "Europe",
+    "summary": "The world's first working-class government ruled Paris for 72 days before being brutally suppressed by the French Army, killing 10,000\u201330,000 communards \u2014 providing both a template and a cautionary tale for socialist movements."
+  },
+  {
+    "id": "darwins_evolution",
+    "label": "Darwin's Origin of Species (1859)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1859,
+    "region": "Europe",
+    "summary": "Darwin's theory of evolution by natural selection transformed biology, challenged religious authority, and was almost immediately misappropriated as 'Social Darwinism' to justify inequality and imperialism."
+  },
+  {
+    "id": "social_darwinism",
+    "label": "Social Darwinism & Scientific Racism (1860s\u20131940s)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1860,
+    "region": "Global",
+    "summary": "The misapplication of evolutionary theory to human society provided pseudoscientific justification for imperial domination, racial hierarchy, and eventually Nazi ideology \u2014 demonstrating how legitimate science can be weaponized."
+  },
+  {
+    "id": "gilded_age",
+    "label": "Gilded Age (1870s\u20131900s)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1870,
+    "region": "North America",
+    "summary": "Rapid industrialization produced extraordinary wealth for railroad magnates, steel barons, and financiers alongside mass poverty, child labor, and company towns \u2014 generating the Progressive movement as a reaction."
+  },
+  {
+    "id": "womens_suffrage_movement",
+    "label": "Women's Suffrage Movement (1840s\u20131920)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1848,
+    "region": "Global",
+    "summary": "The organized campaign for women's voting rights culminated in the 19th Amendment (1920, US) and similar victories across Europe, establishing that democratic rights can be expanded through sustained collective action."
+  },
+  {
+    "id": "jim_crow",
+    "label": "Jim Crow Laws (1877\u20131965)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1877,
+    "region": "North America",
+    "summary": "Systematic laws in Southern states enforced racial segregation through terror, legal discrimination, and disenfranchisement \u2014 demonstrating that formal legal equality is meaningless without enforcement."
+  },
+  {
+    "id": "spanish_american_war",
+    "label": "Spanish-American War & US Imperialism (1898)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1898,
+    "region": "Global",
+    "summary": "The US defeated Spain, acquiring Cuba, Puerto Rico, Guam, and the Philippines \u2014 marking America's emergence as a colonial power and demonstrating that anti-colonial rhetoric and imperial practice can coexist."
+  },
+  {
+    "id": "boer_war",
+    "label": "Anglo-Boer War (1899\u20131902)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1899,
+    "region": "Africa",
+    "summary": "Britain's war against Boer settlers in South Africa pioneered concentration camps for civilian populations, killing 26,000 Boer women and children \u2014 foreshadowing 20th century civilian targeting."
+  },
+  {
+    "id": "russian_revolution_1905",
+    "label": "Russian Revolution of 1905",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1905,
+    "region": "Europe",
+    "summary": "Failed revolution following 'Bloody Sunday' massacre nonetheless forced Nicholas II to create the Duma \u2014 demonstrating that mass pressure could crack autocracy while rehearsing the revolutionary organizations that would succeed in 1917."
+  },
+  {
+    "id": "herero_genocide",
+    "label": "Herero and Nama Genocide (1904\u20131908)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1904,
+    "region": "Africa",
+    "summary": "Germany's systematic extermination of the Herero and Nama peoples in German Southwest Africa was the 20th century's first genocide, deploying concentration camps and extermination orders that provided a direct precedent for the Holocaust."
+  },
+  {
+    "id": "balkan_wars",
+    "label": "Balkan Wars (1912\u20131913)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1912,
+    "region": "Europe",
+    "summary": "Two rapid wars reshaped southeastern Europe as Ottoman territory fragmented and new nationalist states fought over successor territories \u2014 establishing the conditions that made Sarajevo 1914 the trigger for world war."
+  },
+  {
+    "id": "chinese_revolution_1911",
+    "label": "Chinese Revolution of 1911",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1911,
+    "region": "Asia",
+    "summary": "The fall of the Qing dynasty ended 2,000 years of imperial rule, but the republic that replaced it proved unstable \u2014 beginning a century of warlordism, revolution, and civil war that culminated in Mao's victory."
+  },
+  {
+    "id": "mexican_revolution",
+    "label": "Mexican Revolution (1910\u20131920)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1910,
+    "region": "Latin America",
+    "summary": "Complex revolutionary conflict over land reform, foreign exploitation, and political power produced the world's first revolutionary constitution (1917) enshrining social and economic rights alongside political ones."
   }
 ]

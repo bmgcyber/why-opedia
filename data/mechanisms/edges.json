@@ -22126,5 +22126,233 @@
     "target": "age_of_exploration",
     "type": "ENABLED",
     "weight": 1
+  },
+  {
+    "source": "social_movement",
+    "target": "abolition_movement",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "womens_suffrage_movement",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "progressive_era",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "civil_rights_movement",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "occupy_wall_street",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "black_lives_matter",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "solidarity_movement_poland",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "extinction_rebellion",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "metoo_movement",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "seattle_wto_protests",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "coalition_building",
+    "target": "social_movement",
+    "type": "CORE_OF",
+    "weight": 3
+  },
+  {
+    "source": "civil_disobedience",
+    "target": "social_movement",
+    "type": "USED_IN",
+    "weight": 3
+  },
+  {
+    "source": "nonviolent_resistance",
+    "target": "social_movement",
+    "type": "USED_IN",
+    "weight": 3
+  },
+  {
+    "source": "class_struggle",
+    "target": "social_movement",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "labor_unions_history",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "pseudo_science",
+    "target": "social_darwinism",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "pseudo_science",
+    "target": "herero_genocide",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "pseudo_science",
+    "target": "holocaust",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "pseudo_science",
+    "target": "climate_denial",
+    "type": "USED_IN",
+    "weight": 3
+  },
+  {
+    "source": "pseudo_science",
+    "target": "manufactured_doubt",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "pseudo_science",
+    "target": "broken_epistemology",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "in_group_out_group_dynamics",
+    "target": "pseudo_science",
+    "type": "PRODUCES",
+    "weight": 2
+  },
+  {
+    "source": "propaganda",
+    "target": "pseudo_science",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "dehumanization",
+    "target": "pseudo_science",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "class_struggle",
+    "target": "revolutions_1848",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "class_struggle",
+    "target": "paris_commune",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "class_struggle",
+    "target": "communist_manifesto",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "class_struggle",
+    "target": "gilded_age",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "ethnic_cleansing",
+    "target": "herero_genocide",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "genocide",
+    "target": "herero_genocide",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "structural_violence",
+    "target": "jim_crow",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "systemic_racism",
+    "target": "jim_crow",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "imperialism",
+    "target": "spanish_american_war",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "nationalism_mechanism",
+    "target": "balkan_wars",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "nationalism_mechanism",
+    "target": "world_war_i",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "nationalism_mechanism",
+    "target": "revolutions_1848",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "propaganda",
+    "target": "social_darwinism",
+    "type": "SPREAD",
+    "weight": 3
+  },
+  {
+    "source": "media_as_colonial_tool",
+    "target": "spanish_american_war",
+    "type": "ENABLED",
+    "weight": 2
   }
 ]
