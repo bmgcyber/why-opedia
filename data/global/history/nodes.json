@@ -13656,5 +13656,176 @@
     "decade": 1960,
     "region": "Europe",
     "summary": "Student and worker uprising that nearly toppled de Gaulle's government, representing the height of 1960s cultural revolution and the limits of postwar prosperity without political liberation."
+  },
+  {
+    "id": "assassinations_1968",
+    "label": "Assassinations of 1968 (MLK & RFK)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1960,
+    "region": "North America",
+    "summary": "The murders of Martin Luther King Jr. (April) and Robert F. Kennedy (June) within two months shattered the reform coalition and marked the collapse of 1960s liberal optimism."
+  },
+  {
+    "id": "tet_offensive",
+    "label": "Tet Offensive (1968)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1960,
+    "region": "Asia",
+    "summary": "Massive Viet Cong assault on South Vietnamese cities proved the Vietnam War was far from won, destroying public support and forcing LBJ not to seek reelection."
+  },
+  {
+    "id": "nixon_watergate",
+    "label": "Watergate Scandal (1972\u20131974)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1970,
+    "region": "North America",
+    "summary": "Nixon White House's criminal cover-up of a burglary at Democratic headquarters led to the first presidential resignation in US history, permanently deepening public distrust of government."
+  },
+  {
+    "id": "opec_oil_embargo_1973",
+    "label": "OPEC Oil Embargo (1973)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1970,
+    "region": "Middle East",
+    "summary": "Arab oil producers embargo against the US and Western supporters of Israel in the Yom Kippur War triggered energy crisis, stagflation, and permanently changed global energy politics."
+  },
+  {
+    "id": "fall_of_saigon",
+    "label": "Fall of Saigon (1975)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1970,
+    "region": "Asia",
+    "summary": "North Vietnamese forces captured Saigon in April 1975, unifying Vietnam under Communist rule and completing the US military's first defeat, with lasting effects on American foreign policy confidence."
+  },
+  {
+    "id": "solidarity_movement_poland",
+    "label": "Solidarity Movement in Poland (1980s)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1980,
+    "region": "Europe",
+    "summary": "Poland's Solidarity trade union became the Eastern Bloc's first independent mass movement, surviving martial law to win elections in 1989 and trigger the cascade of Communist collapses."
+  },
+  {
+    "id": "reagan_era",
+    "label": "Reagan Era / Reaganomics (1981\u20131989)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1980,
+    "region": "North America",
+    "summary": "Reagan's presidency initiated large-scale tax cuts, deregulation, anti-union policies, and military buildup \u2014 permanently shifting American politics toward market fundamentalism and reshaping the Democratic Party."
+  },
+  {
+    "id": "thatcher_era",
+    "label": "Thatcher Era (1979\u20131990)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1980,
+    "region": "Europe",
+    "summary": "Margaret Thatcher's government dismantled the postwar British welfare consensus through privatization, union-breaking, and deregulation, creating the British version of neoliberal restructuring."
+  },
+  {
+    "id": "falklands_war",
+    "label": "Falklands War (1982)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1980,
+    "region": "South America",
+    "summary": "Brief conflict between Britain and Argentina over the Falkland Islands became a turning point in British politics, rescuing Thatcher's faltering government and demonstrating that military force could yield domestic political dividends."
+  },
+  {
+    "id": "aids_epidemic",
+    "label": "AIDS Epidemic (1981\u2013present)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1980,
+    "region": "Global",
+    "summary": "The AIDS crisis killed millions while facing years of government neglect fueled by homophobia; the activism it generated transformed patient advocacy and accelerated drug development processes."
+  },
+  {
+    "id": "chernobyl_disaster",
+    "label": "Chernobyl Disaster (1986)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1980,
+    "region": "Europe",
+    "summary": "Soviet nuclear reactor explosion exposed the USSR's inability to manage modern technology or provide honest information to its own people, accelerating Gorbachev's glasnost reforms and undermining Communist legitimacy."
+  },
+  {
+    "id": "iran_contra_affair",
+    "label": "Iran-Contra Affair (1986)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1980,
+    "region": "Global",
+    "summary": "Reagan administration secretly sold arms to Iran and used proceeds to fund Nicaraguan Contra rebels, circumventing Congress \u2014 demonstrating that the national security state could operate entirely outside democratic oversight."
+  },
+  {
+    "id": "tiananmen_square",
+    "label": "Tiananmen Square Massacre (1989)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1980,
+    "region": "Asia",
+    "summary": "Chinese military crushed the pro-democracy student movement in Beijing, killing hundreds to thousands, and demonstrating that the Communist Party would not follow Eastern Europe's path of peaceful reform."
+  },
+  {
+    "id": "fall_of_berlin_wall",
+    "label": "Fall of the Berlin Wall (1989)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1980,
+    "region": "Europe",
+    "summary": "The physical symbol of the Iron Curtain fell on November 9, 1989, as East Germans flooded through checkpoints in a moment that marked the irreversible collapse of European Communism."
+  },
+  {
+    "id": "ussr_collapse",
+    "label": "Collapse of the Soviet Union (1991)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1990,
+    "region": "Europe",
+    "summary": "The USSR formally dissolved on December 25, 1991, ending the Cold War and creating 15 successor states \u2014 the largest geopolitical transformation since WWII, releasing suppressed nationalisms and economic chaos."
+  },
+  {
+    "id": "yugoslavia_breakup",
+    "label": "Yugoslav Wars (1991\u20132001)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1990,
+    "region": "Europe",
+    "summary": "Collapse of Yugoslavia produced a decade of ethnic wars, ethnic cleansing, and genocide in the Balkans, including the Srebrenica massacre \u2014 demonstrating that Cold War's end released rather than resolved nationalist violence."
+  },
+  {
+    "id": "rwandan_genocide_event",
+    "label": "Rwandan Genocide (1994)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1990,
+    "region": "Africa",
+    "summary": "In 100 days, Hutu extremists killed approximately 800,000 Tutsi and moderate Hutu using radio propaganda to direct neighbor-on-neighbor killing, while the international community deliberately failed to intervene."
+  },
+  {
+    "id": "nelson_mandela_release",
+    "label": "Nelson Mandela Released & ANC Victory (1990\u20131994)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1990,
+    "region": "Africa",
+    "summary": "Mandela's release after 27 years in prison and the ANC's 1994 election victory ended apartheid, with South Africa's negotiated transition becoming a global model for peaceful democratic transformation."
+  },
+  {
+    "id": "gorbachev_reforms",
+    "label": "Gorbachev's Glasnost & Perestroika (1985\u20131991)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1980,
+    "region": "Europe",
+    "summary": "Gorbachev's twin reforms \u2014 glasnost (openness) and perestroika (restructuring) \u2014 intended to revitalize the Soviet system instead fatally undermined it by releasing suppressed demands for freedom and revealing the system's corruption."
   }
 ]

@@ -20884,5 +20884,263 @@
     "target": "apartheid_south_africa",
     "type": "ENABLED",
     "weight": 2
+  },
+  {
+    "source": "neoliberalism",
+    "target": "reagan_era",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "thatcher_era",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "chile_coup_1973",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "neoliberalism",
+    "target": "ussr_collapse",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "neoliberalism",
+    "target": "wealth_concentration",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "regulatory_capture",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "extractive_institutions",
+    "type": "ENABLES",
+    "weight": 2
+  },
+  {
+    "source": "neoliberalism",
+    "target": "labor_unions_history",
+    "type": "DISMANTLED",
+    "weight": 3
+  },
+  {
+    "source": "elite_capture",
+    "target": "neoliberalism",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "dark_money",
+    "target": "neoliberalism",
+    "type": "PROMOTED",
+    "weight": 2
+  },
+  {
+    "source": "manufactured_consent",
+    "target": "neoliberalism",
+    "type": "PROMOTED",
+    "weight": 3
+  },
+  {
+    "source": "democratic_backsliding",
+    "target": "tiananmen_square",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "democratic_backsliding",
+    "target": "nixon_watergate",
+    "type": "RELATED_TO",
+    "weight": 2
+  },
+  {
+    "source": "democratic_backsliding",
+    "target": "iran_contra_affair",
+    "type": "RELATED_TO",
+    "weight": 2
+  },
+  {
+    "source": "authoritarian_control",
+    "target": "democratic_backsliding",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "corruption",
+    "target": "democratic_backsliding",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "emergency_powers_abuse",
+    "target": "democratic_backsliding",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "propaganda",
+    "target": "democratic_backsliding",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "democratic_accountability",
+    "target": "democratic_backsliding",
+    "type": "COUNTERS",
+    "weight": 3
+  },
+  {
+    "source": "institutional_resilience",
+    "target": "democratic_backsliding",
+    "type": "COUNTERS",
+    "weight": 3
+  },
+  {
+    "source": "state_collapse",
+    "target": "cambodian_genocide",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "state_collapse",
+    "target": "rwandan_genocide_event",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "state_collapse",
+    "target": "yugoslavia_breakup",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "state_collapse",
+    "target": "soviet_afghan_war",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "proxy_war",
+    "target": "state_collapse",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "corruption",
+    "target": "state_collapse",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "structural_violence",
+    "target": "state_collapse",
+    "type": "PRODUCES",
+    "weight": 2
+  },
+  {
+    "source": "ethnic_cleansing",
+    "target": "state_collapse",
+    "type": "PRODUCES",
+    "weight": 2
+  },
+  {
+    "source": "imperialism",
+    "target": "state_collapse",
+    "type": "PRODUCES",
+    "weight": 2
+  },
+  {
+    "source": "propaganda",
+    "target": "rwandan_genocide_event",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "scapegoating",
+    "target": "rwandan_genocide_event",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "dehumanization",
+    "target": "rwandan_genocide_event",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "scapegoating",
+    "target": "cambodian_genocide",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "dehumanization",
+    "target": "cambodian_genocide",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "totalitarianism",
+    "target": "cambodian_genocide",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "civil_disobedience",
+    "target": "solidarity_movement_poland",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "nonviolent_resistance",
+    "target": "solidarity_movement_poland",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "truth_and_reconciliation",
+    "target": "nelson_mandela_release",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "nonviolent_resistance",
+    "target": "nelson_mandela_release",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "big_lie",
+    "target": "rwandan_genocide_event",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "disinformation",
+    "target": "rwandan_genocide_event",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "whistleblowing",
+    "target": "nixon_watergate",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "democratic_accountability",
+    "target": "nixon_watergate",
+    "type": "ENABLED",
+    "weight": 3
   }
 ]

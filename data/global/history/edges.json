@@ -9984,5 +9984,185 @@
     "target": "civil_rights_movement",
     "type": "CONTEXT_FOR",
     "weight": 1
+  },
+  {
+    "source": "tet_offensive",
+    "target": "fall_of_saigon",
+    "type": "ACCELERATED",
+    "weight": 3
+  },
+  {
+    "source": "tet_offensive",
+    "target": "vietnam_war",
+    "type": "PART_OF",
+    "weight": 3
+  },
+  {
+    "source": "vietnam_war",
+    "target": "fall_of_saigon",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "vietnam_war",
+    "target": "cambodian_genocide",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "assassinations_1968",
+    "target": "civil_rights_movement",
+    "type": "DISRUPTED",
+    "weight": 3
+  },
+  {
+    "source": "nixon_watergate",
+    "target": "reagan_era",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "cold_war_origins",
+    "target": "chile_coup_1973",
+    "type": "CAUSED",
+    "weight": 2
+  },
+  {
+    "source": "iranian_coup_1953",
+    "target": "iranian_revolution_1979",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "iranian_coup_1953",
+    "target": "iranian_revolution_1979",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "opec_oil_embargo_1973",
+    "target": "reagan_era",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "opec_oil_embargo_1973",
+    "target": "thatcher_era",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "reagan_era",
+    "target": "iran_contra_affair",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "reagan_era",
+    "target": "soviet_afghan_war",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "cold_war_origins",
+    "target": "soviet_afghan_war",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "soviet_afghan_war",
+    "target": "ussr_collapse",
+    "type": "ACCELERATED",
+    "weight": 3
+  },
+  {
+    "source": "solidarity_movement_poland",
+    "target": "fall_of_berlin_wall",
+    "type": "ACCELERATED",
+    "weight": 3
+  },
+  {
+    "source": "gorbachev_reforms",
+    "target": "fall_of_berlin_wall",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "gorbachev_reforms",
+    "target": "ussr_collapse",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "chernobyl_disaster",
+    "target": "gorbachev_reforms",
+    "type": "ACCELERATED",
+    "weight": 3
+  },
+  {
+    "source": "fall_of_berlin_wall",
+    "target": "ussr_collapse",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "ussr_collapse",
+    "target": "yugoslavia_breakup",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "tiananmen_square",
+    "target": "ussr_collapse",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "cold_war_origins",
+    "target": "rwandan_genocide_event",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "decolonization_africa",
+    "target": "rwandan_genocide_event",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "apartheid_south_africa",
+    "target": "nelson_mandela_release",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "civil_rights_movement",
+    "target": "nelson_mandela_release",
+    "type": "INSPIRED",
+    "weight": 2
+  },
+  {
+    "source": "reagan_era",
+    "target": "thatcher_era",
+    "type": "PARALLEL_TO",
+    "weight": 2
+  },
+  {
+    "source": "thatcher_era",
+    "target": "ussr_collapse",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "cold_war_origins",
+    "target": "falklands_war",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "aids_epidemic",
+    "target": "reagan_era",
+    "type": "CONTEXT_FOR",
+    "weight": 2
   }
 ]

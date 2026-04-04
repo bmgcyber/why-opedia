@@ -3691,5 +3691,48 @@
       "passive resistance",
       "direct action"
     ]
+  },
+  {
+    "id": "neoliberalism",
+    "label": "Neoliberalism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Economic ideology prioritizing free markets, deregulation, privatization, and reduced public spending \u2014 the dominant policy framework from 1980 to 2008 that reshaped global economics and politics.",
+    "description": "Neoliberalism operates as a policy complex: tax cuts concentrated on high incomes, deregulation of financial and labor markets, privatization of state services, and reduction of social insurance \u2014 all justified by the claim that unimpeded market mechanisms optimize social welfare better than state intervention. The mechanism's ideological power came from packaging distributional choices (who wins, who loses) as technical necessities (this is how markets work).\n\nThe mechanism perpetuates itself through 'structural adjustment' \u2014 conditions attached to IMF and World Bank loans that require debtor countries to adopt the full neoliberal package regardless of local context. This created a global ratchet: governments that diverged could be punished through capital flight and credit downgrades, while those that complied received foreign investment that created domestic constituencies for continued reform.\n\nNeoliberalism's contradictions became visible in the 2008 financial crisis: the institutions that had most thoroughly deregulated themselves required the largest state bailouts in history, demonstrating that markets are not self-correcting but depend on public backstops that neoliberal policy had systematically weakened.",
+    "tags": [
+      "economics",
+      "free market",
+      "deregulation",
+      "privatization",
+      "austerity",
+      "inequality"
+    ],
+    "aliases": [
+      "free market fundamentalism",
+      "market liberalism",
+      "Washington Consensus",
+      "structural adjustment"
+    ]
+  },
+  {
+    "id": "state_collapse",
+    "label": "State Collapse",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Process by which state institutions lose their capacity to maintain a monopoly on violence, provide basic services, or command popular legitimacy \u2014 producing power vacuums exploited by armed factions.",
+    "description": "State collapse rarely happens suddenly; it is usually the endpoint of a process of institutional erosion. The state loses its revenue base (through war, corruption, or capital flight), which forces it to abandon service provision, which destroys its legitimacy, which makes taxation impossible, completing the cycle. Security forces that are not paid defect or become predatory; courts that are not staffed stop functioning; bureaucracies that are hollowed out by corruption can no longer deliver public goods.\n\nThe mechanism typically produces a 'sovereignty gap' \u2014 territory formally belonging to a state but actually controlled by armed factions, criminal networks, or warlords. These non-state actors are not simply destroyers; they provide protection, dispute resolution, and even taxation within their territories, becoming the de facto state in everything but name. This creates durable power structures that resist external reconstruction efforts because they have material interests in continued disorder.\n\nState collapse is most common where colonial borders bundled hostile ethnic groups without state-building infrastructure, where resource wealth creates rentier states that can survive without popular legitimacy, and where Cold War patrons suddenly withdrew support after 1991.",
+    "tags": [
+      "failed state",
+      "civil war",
+      "governance",
+      "fragility",
+      "warlord",
+      "ungoverned space"
+    ],
+    "aliases": [
+      "state failure",
+      "failed state",
+      "governance collapse"
+    ]
   }
 ]
