@@ -23674,5 +23674,173 @@
     "target": "india_independence",
     "type": "ENABLED",
     "weight": 2
+  },
+  {
+    "source": "knowledge_suppression",
+    "target": "carthage",
+    "type": "APPLIED_TO",
+    "weight": 3
+  },
+  {
+    "source": "knowledge_suppression",
+    "target": "timbuktu_scholarship",
+    "type": "APPLIED_TO",
+    "weight": 3
+  },
+  {
+    "source": "literacy_as_power",
+    "target": "phoenicia",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "literacy_as_power",
+    "target": "timbuktu_scholarship",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "literacy_as_power",
+    "target": "renaissance",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "literacy_as_power",
+    "target": "abbasid_caliphate",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "tribute_system",
+    "target": "byzantine_empire",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "tribute_system",
+    "target": "umayyad_caliphate",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "tribute_system",
+    "target": "hundred_years_war",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "imperial_overextension",
+    "target": "byzantine_empire",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "imperial_overextension",
+    "target": "sassanid_empire",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "imperial_overextension",
+    "target": "umayyad_caliphate",
+    "type": "CONTRIBUTED_TO",
+    "weight": 2
+  },
+  {
+    "source": "divine_kingship",
+    "target": "byzantine_empire",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "divine_kingship",
+    "target": "charlemagne",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "propaganda_state_religion",
+    "target": "charlemagne",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "propaganda_state_religion",
+    "target": "byzantine_empire",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "propaganda_state_religion",
+    "target": "umayyad_caliphate",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "political_violence",
+    "target": "viking_age",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "land_enclosure",
+    "target": "norman_conquest",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "debt_bondage",
+    "target": "black_death_europe",
+    "type": "DISRUPTED_BY",
+    "weight": 3
+  },
+  {
+    "source": "class_struggle",
+    "target": "black_death_europe",
+    "type": "ACCELERATED_BY",
+    "weight": 3
+  },
+  {
+    "source": "class_struggle",
+    "target": "hundred_years_war",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "scapegoating",
+    "target": "crusades",
+    "type": "USED_IN",
+    "weight": 3
+  },
+  {
+    "source": "dehumanization",
+    "target": "crusades",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "scientific_method",
+    "target": "renaissance",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "scientific_method",
+    "target": "gupta_empire",
+    "type": "PRODUCED_BY",
+    "weight": 3
+  },
+  {
+    "source": "philosophy_as_resistance",
+    "target": "renaissance",
+    "type": "PRODUCED",
+    "weight": 2
+  },
+  {
+    "source": "philosophy_as_resistance",
+    "target": "byzantine_empire",
+    "type": "PRESERVED_IN",
+    "weight": 3
   }
 ]

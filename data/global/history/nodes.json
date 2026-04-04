@@ -14484,5 +14484,86 @@
     "decade": 1650,
     "region": "Global",
     "summary": "The systematic institutionalization of empirical investigation, replication, and adversarial peer review created the most reliable knowledge-production system in human history \u2014 and the mechanism for self-correcting errors."
+  },
+  {
+    "id": "phoenicia",
+    "label": "Phoenician City-States (~1500\u2013300 BCE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": -1500,
+    "region": "Middle East",
+    "summary": "The Phoenician maritime city-states (Tyre, Sidon, Byblos) invented the first phonetic alphabet, established colonies across the Mediterranean including Carthage, and dominated Mediterranean trade \u2014 quietly underpinning the literate civilizations of Greece and Rome."
+  },
+  {
+    "id": "carthage",
+    "label": "Carthage (650\u2013146 BCE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": -650,
+    "region": "Africa",
+    "summary": "Founded as a Phoenician colony in North Africa, Carthage became the dominant commercial and naval power of the western Mediterranean before its total destruction by Rome \u2014 a civilization remembered almost entirely through its conquerors' accounts."
+  },
+  {
+    "id": "charlemagne",
+    "label": "Charlemagne & the Carolingian Empire (768\u2013814 CE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 768,
+    "region": "Europe",
+    "summary": "Charlemagne's unification of Western Europe under Frankish rule preserved learning during the post-Roman fragmentation, created the template for European Christian kingship, and established the political geography of modern France and Germany."
+  },
+  {
+    "id": "norman_conquest",
+    "label": "Norman Conquest of England (1066)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1066,
+    "region": "Europe",
+    "summary": "William the Conqueror's victory at Hastings transformed England \u2014 introducing feudal land tenure, Norman French into English, and a centralized royal administration \u2014 and connecting the island to continental European politics."
+  },
+  {
+    "id": "black_death_europe",
+    "label": "Black Death in Europe (1347\u20131353)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1347,
+    "region": "Europe",
+    "summary": "The plague's devastation of one-third of Europe's population collapsed the feudal labor system \u2014 survivors could demand wages, lords competed for peasants, and the resulting economic shock accelerated the end of serfdom and the rise of towns."
+  },
+  {
+    "id": "hundred_years_war",
+    "label": "Hundred Years' War (1337\u20131453)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1337,
+    "region": "Europe",
+    "summary": "The protracted Anglo-French conflict forged French national identity, produced Joan of Arc, pioneered gunpowder artillery that ended castle-based feudal warfare, and bankrupted the English crown \u2014 reshaping both nations."
+  },
+  {
+    "id": "sassanid_empire",
+    "label": "Sassanid Persian Empire (224\u2013651 CE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 224,
+    "region": "Middle East",
+    "summary": "The last great pre-Islamic Persian empire preserved Zoroastrian culture and knowledge while competing with Rome and Byzantium for centuries \u2014 its exhaustion from prolonged war with Byzantium left it unable to resist the rapid Islamic conquests."
+  },
+  {
+    "id": "swahili_coast",
+    "label": "Swahili Coast City-States (800\u20131500 CE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 800,
+    "region": "Africa",
+    "summary": "The East African city-states of Kilwa, Mombasa, and Malindi participated in a thriving Indian Ocean trade network connecting Africa, Arabia, India, and China \u2014 producing a distinctive Swahili culture long before European arrival."
+  },
+  {
+    "id": "timbuktu_scholarship",
+    "label": "Timbuktu & Trans-Saharan Scholarship (1300s\u20131500s)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1300,
+    "region": "Africa",
+    "summary": "Timbuktu's Sankore University and libraries held hundreds of thousands of manuscripts on theology, law, astronomy, and medicine \u2014 a center of Islamic scholarship that rivaled any institution in the world, now largely unknown in Western education."
   }
 ]

@@ -11280,5 +11280,479 @@
     "target": "scientific_revolution",
     "type": "EXPLAINS",
     "weight": 3
+  },
+  {
+    "source": "phoenicia",
+    "target": "carthage",
+    "type": "FOUNDED",
+    "weight": 3
+  },
+  {
+    "source": "phoenicia",
+    "target": "ancient_egypt",
+    "type": "TRADED_WITH",
+    "weight": 2
+  },
+  {
+    "source": "phoenicia",
+    "target": "ancient_sumer",
+    "type": "TRADED_WITH",
+    "weight": 2
+  },
+  {
+    "source": "phoenicia",
+    "target": "greek_city_states",
+    "type": "INFLUENCED",
+    "weight": 3
+  },
+  {
+    "source": "phoenicia",
+    "target": "roman_republic",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "bronze_age_collapse",
+    "target": "phoenicia",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "carthage",
+    "target": "punic_wars",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "punic_wars",
+    "target": "roman_republic",
+    "type": "TRANSFORMED",
+    "weight": 3
+  },
+  {
+    "source": "punic_wars",
+    "target": "roman_empire",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "punic_wars",
+    "target": "carthage",
+    "type": "ENDED",
+    "weight": 3
+  },
+  {
+    "source": "roman_empire",
+    "target": "byzantine_empire",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "roman_fall",
+    "target": "byzantine_empire",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "byzantine_empire",
+    "target": "ottoman_empire",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "byzantine_empire",
+    "target": "ottoman_empire_rise",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "byzantine_empire",
+    "target": "fall_of_constantinople",
+    "type": "ENDED_BY",
+    "weight": 3
+  },
+  {
+    "source": "byzantine_empire",
+    "target": "crusades",
+    "type": "CONTEXT_FOR",
+    "weight": 3
+  },
+  {
+    "source": "byzantine_empire",
+    "target": "islamic_golden_age",
+    "type": "COMPETED_WITH",
+    "weight": 2
+  },
+  {
+    "source": "byzantine_empire",
+    "target": "renaissance",
+    "type": "CONTRIBUTED_TO",
+    "weight": 3
+  },
+  {
+    "source": "sassanid_empire",
+    "target": "byzantine_empire",
+    "type": "COMPETED_WITH",
+    "weight": 3
+  },
+  {
+    "source": "sassanid_empire",
+    "target": "rise_of_islam",
+    "type": "CONTEXT_FOR",
+    "weight": 3
+  },
+  {
+    "source": "sassanid_empire",
+    "target": "silk_road",
+    "type": "CONTROLLED",
+    "weight": 2
+  },
+  {
+    "source": "persian_achaemenid_empire",
+    "target": "sassanid_empire",
+    "type": "CULTURALLY_PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "umayyad_caliphate",
+    "target": "abbasid_caliphate",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "umayyad_caliphate",
+    "target": "rise_of_islam",
+    "type": "PART_OF",
+    "weight": 3
+  },
+  {
+    "source": "umayyad_caliphate",
+    "target": "byzantine_empire",
+    "type": "COMPETED_WITH",
+    "weight": 3
+  },
+  {
+    "source": "abbasid_caliphate",
+    "target": "silk_road",
+    "type": "CONTROLLED",
+    "weight": 2
+  },
+  {
+    "source": "abbasid_caliphate",
+    "target": "gupta_empire",
+    "type": "TRANSMITTED_KNOWLEDGE_FROM",
+    "weight": 3
+  },
+  {
+    "source": "islamic_golden_age",
+    "target": "renaissance",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "islamic_golden_age",
+    "target": "scientific_revolution",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "abbasid_caliphate",
+    "target": "crusades",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "maurya_empire",
+    "target": "gupta_empire",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "gupta_empire",
+    "target": "silk_road",
+    "type": "PART_OF",
+    "weight": 2
+  },
+  {
+    "source": "gupta_empire",
+    "target": "islamic_golden_age",
+    "type": "CONTRIBUTED_TO",
+    "weight": 3
+  },
+  {
+    "source": "gupta_empire",
+    "target": "tang_dynasty",
+    "type": "TRADED_WITH",
+    "weight": 2
+  },
+  {
+    "source": "viking_age",
+    "target": "feudalism",
+    "type": "INTENSIFIED",
+    "weight": 3
+  },
+  {
+    "source": "viking_age",
+    "target": "charlemagne",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "viking_age",
+    "target": "norman_conquest",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "fall_of_rome",
+    "target": "viking_age",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "charlemagne",
+    "target": "feudalism",
+    "type": "INSTITUTIONALIZED",
+    "weight": 3
+  },
+  {
+    "source": "charlemagne",
+    "target": "crusades",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "charlemagne",
+    "target": "norman_conquest",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "fall_of_rome",
+    "target": "charlemagne",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "norman_conquest",
+    "target": "feudalism",
+    "type": "SPREAD",
+    "weight": 3
+  },
+  {
+    "source": "norman_conquest",
+    "target": "magna_carta",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "black_death_europe",
+    "target": "feudalism",
+    "type": "DISRUPTED",
+    "weight": 3
+  },
+  {
+    "source": "black_death_europe",
+    "target": "renaissance",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "black_death_europe",
+    "target": "protestant_reformation",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "mongol_conquests",
+    "target": "black_death_europe",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "silk_road",
+    "target": "black_death_europe",
+    "type": "SPREAD",
+    "weight": 3
+  },
+  {
+    "source": "black_death",
+    "target": "black_death_europe",
+    "type": "SAME_EVENT",
+    "weight": 3
+  },
+  {
+    "source": "feudalism",
+    "target": "hundred_years_war",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "hundred_years_war",
+    "target": "printing_press",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "hundred_years_war",
+    "target": "renaissance",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "printing_press",
+    "target": "renaissance",
+    "type": "AMPLIFIED",
+    "weight": 3
+  },
+  {
+    "source": "renaissance",
+    "target": "scientific_revolution",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "renaissance",
+    "target": "protestant_reformation",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "renaissance",
+    "target": "age_of_exploration",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "mali_empire",
+    "target": "timbuktu_scholarship",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "timbuktu_scholarship",
+    "target": "islamic_golden_age",
+    "type": "PART_OF",
+    "weight": 3
+  },
+  {
+    "source": "swahili_coast",
+    "target": "gupta_empire",
+    "type": "TRADED_WITH",
+    "weight": 2
+  },
+  {
+    "source": "swahili_coast",
+    "target": "silk_road",
+    "type": "CONNECTED_TO",
+    "weight": 2
+  },
+  {
+    "source": "swahili_coast",
+    "target": "abbasid_caliphate",
+    "type": "TRADED_WITH",
+    "weight": 2
+  },
+  {
+    "source": "great_zimbabwe",
+    "target": "swahili_coast",
+    "type": "TRADED_WITH",
+    "weight": 2
+  },
+  {
+    "source": "mali_empire",
+    "target": "swahili_coast",
+    "type": "CONTEMPORARY_WITH",
+    "weight": 1
+  },
+  {
+    "source": "silk_road",
+    "target": "gupta_empire",
+    "type": "CONNECTED",
+    "weight": 2
+  },
+  {
+    "source": "silk_road",
+    "target": "byzantine_empire",
+    "type": "CONNECTED",
+    "weight": 2
+  },
+  {
+    "source": "silk_road",
+    "target": "sassanid_empire",
+    "type": "CONNECTED",
+    "weight": 2
+  },
+  {
+    "source": "silk_road",
+    "target": "tang_dynasty",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "silk_road",
+    "target": "ming_dynasty",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "han_dynasty",
+    "target": "silk_road",
+    "type": "ESTABLISHED",
+    "weight": 3
+  },
+  {
+    "source": "tang_dynasty",
+    "target": "abbasid_caliphate",
+    "type": "TRADED_WITH",
+    "weight": 2
+  },
+  {
+    "source": "tang_dynasty",
+    "target": "silk_road",
+    "type": "CONTROLLED",
+    "weight": 2
+  },
+  {
+    "source": "song_dynasty",
+    "target": "mongol_conquests",
+    "type": "CONQUERED_BY",
+    "weight": 3
+  },
+  {
+    "source": "song_dynasty",
+    "target": "silk_road",
+    "type": "EXPANDED",
+    "weight": 2
+  },
+  {
+    "source": "aztec_empire",
+    "target": "inca_empire",
+    "type": "CONTEMPORARY_WITH",
+    "weight": 1
+  },
+  {
+    "source": "aztec_empire",
+    "target": "maya_civilization",
+    "type": "SUCCEEDED",
+    "weight": 2
+  },
+  {
+    "source": "athenian_democracy",
+    "target": "alexander_conquests",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "greek_city_states",
+    "target": "persian_achaemenid_empire",
+    "type": "COMPETED_WITH",
+    "weight": 3
+  },
+  {
+    "source": "persian_achaemenid_empire",
+    "target": "silk_road",
+    "type": "CONTROLLED",
+    "weight": 2
   }
 ]
