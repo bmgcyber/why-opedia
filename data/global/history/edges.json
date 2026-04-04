@@ -11130,5 +11130,155 @@
     "target": "civil_rights_movement",
     "type": "CONTEXT_FOR",
     "weight": 1
+  },
+  {
+    "source": "rosa_parks",
+    "target": "montgomery_bus_boycott",
+    "type": "TRIGGERED",
+    "weight": 3
+  },
+  {
+    "source": "rosa_parks",
+    "target": "civil_rights_movement",
+    "type": "PART_OF",
+    "weight": 3
+  },
+  {
+    "source": "harriet_tubman",
+    "target": "abolition_movement",
+    "type": "PART_OF",
+    "weight": 3
+  },
+  {
+    "source": "harriet_tubman",
+    "target": "transatlantic_slave_trade",
+    "type": "RESISTED",
+    "weight": 3
+  },
+  {
+    "source": "frederick_douglass",
+    "target": "abolition_movement",
+    "type": "LED",
+    "weight": 3
+  },
+  {
+    "source": "frederick_douglass",
+    "target": "us_civil_war",
+    "type": "INFLUENCED",
+    "weight": 2
+  },
+  {
+    "source": "sojourner_truth",
+    "target": "abolition_movement",
+    "type": "PART_OF",
+    "weight": 3
+  },
+  {
+    "source": "sojourner_truth",
+    "target": "womens_suffrage_movement",
+    "type": "PART_OF",
+    "weight": 3
+  },
+  {
+    "source": "eleanor_roosevelt",
+    "target": "un_declaration_human_rights",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "eleanor_roosevelt",
+    "target": "civil_rights_movement",
+    "type": "SUPPORTED",
+    "weight": 2
+  },
+  {
+    "source": "cesar_chavez",
+    "target": "labor_unions_history",
+    "type": "BUILT",
+    "weight": 3
+  },
+  {
+    "source": "dolores_huerta",
+    "target": "labor_unions_history",
+    "type": "BUILT",
+    "weight": 3
+  },
+  {
+    "source": "desmond_tutu",
+    "target": "south_africa_truth_reconciliation",
+    "type": "LED",
+    "weight": 3
+  },
+  {
+    "source": "desmond_tutu",
+    "target": "apartheid_south_africa",
+    "type": "OPPOSED",
+    "weight": 3
+  },
+  {
+    "source": "ada_1990",
+    "target": "civil_rights_movement",
+    "type": "PRODUCED_BY",
+    "weight": 2
+  },
+  {
+    "source": "nuclear_test_ban_treaty",
+    "target": "cuban_missile_crisis",
+    "type": "PRODUCED_BY",
+    "weight": 3
+  },
+  {
+    "source": "nuclear_test_ban_treaty",
+    "target": "cold_war_origins",
+    "type": "RESPONDED_TO",
+    "weight": 2
+  },
+  {
+    "source": "camp_david_accords",
+    "target": "suez_crisis",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "montreal_protocol",
+    "target": "climate_crisis_escalation",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "marriage_equality_us",
+    "target": "stonewall",
+    "type": "PRODUCED_BY",
+    "weight": 3
+  },
+  {
+    "source": "india_independence",
+    "target": "decolonization_wave",
+    "type": "INSPIRED",
+    "weight": 3
+  },
+  {
+    "source": "india_independence",
+    "target": "partition_india_pakistan",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "green_revolution",
+    "target": "global_poverty_reduction",
+    "type": "CONTRIBUTED_TO",
+    "weight": 2
+  },
+  {
+    "source": "science_method_emergence",
+    "target": "germ_theory",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "science_method_emergence",
+    "target": "scientific_revolution",
+    "type": "EXPLAINS",
+    "weight": 3
   }
 ]

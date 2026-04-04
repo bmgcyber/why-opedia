@@ -14394,5 +14394,95 @@
     "decade": 1896,
     "region": "Africa",
     "summary": "Ethiopia's decisive defeat of Italian forces became the only African country to successfully resist European colonization, inspiring African independence movements and Pan-Africanism for decades."
+  },
+  {
+    "id": "sojourner_truth",
+    "label": "Sojourner Truth (c.1797\u20131883)",
+    "category": "person",
+    "scope": "global/history",
+    "decade": 1850,
+    "region": "North America",
+    "summary": "Born into slavery, Sojourner Truth became a leading abolitionist and women's rights advocate, her 'Ain't I a Woman?' speech of 1851 connecting racial and gender liberation."
+  },
+  {
+    "id": "nuclear_test_ban_treaty",
+    "label": "Partial Nuclear Test Ban Treaty (1963)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1963,
+    "region": "Global",
+    "summary": "First nuclear arms control agreement, banning atmospheric, underwater, and outer space testing, signed after the Cuban Missile Crisis demonstrated how close nuclear war was \u2014 the beginning of the arms control regime."
+  },
+  {
+    "id": "camp_david_accords",
+    "label": "Camp David Accords (1978)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1978,
+    "region": "Middle East",
+    "summary": "Jimmy Carter's mediation produced a peace treaty between Egypt and Israel \u2014 the first Arab-Israeli peace agreement, demonstrating that patient diplomatic engagement could resolve seemingly intractable conflicts."
+  },
+  {
+    "id": "montreal_protocol",
+    "label": "Montreal Protocol (1987)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1987,
+    "region": "Global",
+    "summary": "The international treaty phasing out ozone-depleting substances has successfully allowed the ozone layer to recover \u2014 the most successful environmental treaty in history and a model for what international cooperation can achieve."
+  },
+  {
+    "id": "good_friday_agreement",
+    "label": "Good Friday Agreement (1998)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1998,
+    "region": "Europe",
+    "summary": "Multi-party agreement ending 30 years of sectarian violence in Northern Ireland through power-sharing, demilitarization, and cross-border cooperation \u2014 a model for conflict resolution through inclusive negotiation."
+  },
+  {
+    "id": "marriage_equality_us",
+    "label": "Marriage Equality in the US (2015)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2015,
+    "region": "North America",
+    "summary": "Obergefell v. Hodges established marriage equality nationwide, the culmination of a 30-year LGBTQ+ rights movement that transformed American culture and law through organizing, litigation, and changing public opinion."
+  },
+  {
+    "id": "india_independence",
+    "label": "Indian Independence (1947)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1947,
+    "region": "Asia",
+    "summary": "Independence achieved through Gandhi's nonviolent mass movement became the defining demonstration that colonial power could be overcome without armed revolt \u2014 inspiring independence movements across Africa and Asia."
+  },
+  {
+    "id": "green_revolution",
+    "label": "Green Revolution (1950s\u20131970s)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1960,
+    "region": "Asia",
+    "summary": "Agricultural research producing high-yield crop varieties, irrigation, and fertilizer use prevented predicted famines in South Asia and Latin America, averting mass starvation \u2014 though with significant environmental and equity costs."
+  },
+  {
+    "id": "global_poverty_reduction",
+    "label": "Global Poverty Reduction (1990\u20132020)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1990,
+    "region": "Global",
+    "summary": "The share of humanity living in extreme poverty fell from 36% in 1990 to under 10% by 2015 \u2014 the largest reduction in human poverty in history, driven by East Asian development and conditional cash transfer programs."
+  },
+  {
+    "id": "science_method_emergence",
+    "label": "Scientific Method & Peer Review (17th-20th century)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1650,
+    "region": "Global",
+    "summary": "The systematic institutionalization of empirical investigation, replication, and adversarial peer review created the most reliable knowledge-production system in human history \u2014 and the mechanism for self-correcting errors."
   }
 ]

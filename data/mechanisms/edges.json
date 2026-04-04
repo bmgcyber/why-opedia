@@ -23482,5 +23482,197 @@
     "target": "political_violence",
     "type": "ALTERNATIVE_TO",
     "weight": 3
+  },
+  {
+    "source": "scientific_method",
+    "target": "germ_theory",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "scientific_method",
+    "target": "smallpox_eradication",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "scientific_method",
+    "target": "green_revolution",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "scientific_method",
+    "target": "covid_vaccine_development",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "scientific_method",
+    "target": "climate_denial",
+    "type": "COUNTERED_BY",
+    "weight": 3
+  },
+  {
+    "source": "scientific_method",
+    "target": "manufactured_doubt",
+    "type": "TARGETED_BY",
+    "weight": 3
+  },
+  {
+    "source": "scientific_method",
+    "target": "pseudo_science",
+    "type": "COUNTERS",
+    "weight": 3
+  },
+  {
+    "source": "scientific_method",
+    "target": "broken_epistemology",
+    "type": "COUNTERS",
+    "weight": 3
+  },
+  {
+    "source": "scientific_method",
+    "target": "science_method_emergence",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "grassroots_organizing",
+    "target": "civil_rights_movement",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "grassroots_organizing",
+    "target": "montgomery_bus_boycott",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "grassroots_organizing",
+    "target": "labor_unions_history",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "grassroots_organizing",
+    "target": "cesar_chavez",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "grassroots_organizing",
+    "target": "dolores_huerta",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "grassroots_organizing",
+    "target": "solidarity_movement_poland",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "grassroots_organizing",
+    "target": "black_lives_matter",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "grassroots_organizing",
+    "target": "extinction_rebellion",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "social_movement",
+    "target": "grassroots_organizing",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "coalition_building",
+    "target": "grassroots_organizing",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "nonviolent_resistance",
+    "target": "india_independence",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "nonviolent_resistance",
+    "target": "good_friday_agreement",
+    "type": "CONTRIBUTED_TO",
+    "weight": 2
+  },
+  {
+    "source": "civil_disobedience",
+    "target": "india_independence",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "truth_and_reconciliation",
+    "target": "good_friday_agreement",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "democratic_accountability",
+    "target": "camp_david_accords",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "democratic_accountability",
+    "target": "nuclear_test_ban_treaty",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "institutional_resilience",
+    "target": "montreal_protocol",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "coalition_building",
+    "target": "ada_1990",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "ada_1990",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "marriage_equality_us",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "moral_circle_expansion",
+    "target": "ada_1990",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "moral_circle_expansion",
+    "target": "marriage_equality_us",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "empathy",
+    "target": "india_independence",
+    "type": "ENABLED",
+    "weight": 2
   }
 ]
