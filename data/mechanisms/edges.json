@@ -19720,5 +19720,190 @@
     "source": "fall_of_rome",
     "type": "ENABLED",
     "target": "feudal_system"
+  },
+  {
+    "source": "imperial_overextension",
+    "type": "ENABLED",
+    "target": "fall_of_rome"
+  },
+  {
+    "source": "imperial_overextension",
+    "type": "ENABLED",
+    "target": "bronze_age_collapse"
+  },
+  {
+    "source": "imperial_overextension",
+    "type": "ENABLED",
+    "target": "mongol_empire"
+  },
+  {
+    "source": "roman_empire",
+    "type": "PRODUCED",
+    "target": "imperial_overextension"
+  },
+  {
+    "source": "imperial_overextension",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "democratic_backsliding"
+  },
+  {
+    "source": "imperial_overextension",
+    "type": "ENABLED",
+    "target": "currency_debasement"
+  },
+  {
+    "source": "currency_debasement",
+    "type": "ENABLED",
+    "target": "fall_of_rome"
+  },
+  {
+    "source": "roman_empire",
+    "type": "PRODUCED",
+    "target": "currency_debasement"
+  },
+  {
+    "source": "currency_debasement",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "austerity"
+  },
+  {
+    "source": "propaganda_state_religion",
+    "type": "ENABLED",
+    "target": "constantine_christianity"
+  },
+  {
+    "source": "propaganda_state_religion",
+    "type": "ENABLED",
+    "target": "church_state_entanglement"
+  },
+  {
+    "source": "propaganda_state_religion",
+    "type": "ENABLED",
+    "target": "crusades"
+  },
+  {
+    "source": "propaganda_state_religion",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "propaganda"
+  },
+  {
+    "source": "propaganda_state_religion",
+    "type": "ENABLED",
+    "target": "divine_kingship"
+  },
+  {
+    "source": "constantine_christianity",
+    "type": "PRODUCED",
+    "target": "propaganda_state_religion"
+  },
+  {
+    "source": "philosophy_as_resistance",
+    "type": "ENABLED",
+    "target": "athenian_democracy"
+  },
+  {
+    "source": "philosophy_as_resistance",
+    "type": "ENABLED",
+    "target": "axial_age"
+  },
+  {
+    "source": "philosophy_as_resistance",
+    "type": "DISCREDITED",
+    "target": "authoritarian_control"
+  },
+  {
+    "source": "socrates",
+    "type": "PRODUCED",
+    "target": "philosophy_as_resistance"
+  },
+  {
+    "source": "confucius",
+    "type": "PRODUCED",
+    "target": "philosophy_as_resistance"
+  },
+  {
+    "source": "philosophy_as_resistance",
+    "type": "ENABLED",
+    "target": "enlightenment"
+  },
+  {
+    "source": "structural_violence",
+    "type": "ENABLED",
+    "target": "slavery_ancient_rome"
+  },
+  {
+    "source": "slavery_ancient_rome",
+    "type": "ENABLED",
+    "target": "structural_violence"
+  },
+  {
+    "source": "dehumanization",
+    "type": "ENABLED",
+    "target": "slavery_ancient_rome"
+  },
+  {
+    "source": "class_consciousness",
+    "type": "ENABLED",
+    "target": "spartacus_revolt"
+  },
+  {
+    "source": "nonviolent_resistance",
+    "type": "DISCREDITED",
+    "target": "roman_empire"
+  },
+  {
+    "source": "scapegoating",
+    "type": "ENABLED",
+    "target": "fall_of_jerusalem_70ce"
+  },
+  {
+    "source": "propaganda",
+    "type": "ENABLED",
+    "target": "pax_romana"
+  },
+  {
+    "source": "imperial_overextension",
+    "type": "ENABLED",
+    "target": "hun_invasions"
+  },
+  {
+    "source": "silk_road_ancient",
+    "type": "ENABLED",
+    "target": "justinian_plague"
+  },
+  {
+    "source": "confucianism",
+    "type": "DISCREDITED",
+    "target": "legalism_china"
+  },
+  {
+    "source": "legalism_china",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "authoritarian_control"
+  },
+  {
+    "source": "legalism_china",
+    "type": "ENABLED",
+    "target": "propaganda"
+  },
+  {
+    "source": "library_of_alexandria",
+    "type": "ENABLED",
+    "target": "hellenistic_philosophy"
+  },
+  {
+    "source": "islamic_golden_age",
+    "type": "DISCREDITED",
+    "target": "broken_epistemology"
+  },
+  {
+    "source": "islamic_golden_age",
+    "type": "ENABLED",
+    "target": "scientific_method"
+  },
+  {
+    "source": "gupta_empire",
+    "type": "ENABLED",
+    "target": "scientific_method"
   }
 ]

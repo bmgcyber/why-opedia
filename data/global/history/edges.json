@@ -8834,5 +8834,260 @@
     "source": "indus_valley_civilization",
     "type": "ENABLED",
     "target": "vedic_period"
+  },
+  {
+    "source": "axial_age",
+    "type": "PRODUCED",
+    "target": "confucianism"
+  },
+  {
+    "source": "axial_age",
+    "type": "PRODUCED",
+    "target": "buddhism"
+  },
+  {
+    "source": "axial_age",
+    "type": "PRODUCED",
+    "target": "zoroastrianism"
+  },
+  {
+    "source": "axial_age",
+    "type": "PRODUCED",
+    "target": "stoicism"
+  },
+  {
+    "source": "axial_age",
+    "type": "PRODUCED",
+    "target": "hellenistic_philosophy"
+  },
+  {
+    "source": "axial_age",
+    "type": "PRODUCED",
+    "target": "monotheism"
+  },
+  {
+    "source": "axial_age",
+    "type": "ENABLED",
+    "target": "athenian_democracy"
+  },
+  {
+    "source": "confucianism",
+    "type": "ENABLED",
+    "target": "han_dynasty"
+  },
+  {
+    "source": "confucianism",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "legalism_china"
+  },
+  {
+    "source": "legalism_china",
+    "type": "ENABLED",
+    "target": "qin_dynasty"
+  },
+  {
+    "source": "legalism_china",
+    "type": "ENABLED",
+    "target": "qin_book_burning"
+  },
+  {
+    "source": "daoism",
+    "type": "DISCREDITED",
+    "target": "legalism_china"
+  },
+  {
+    "source": "zhou_dynasty",
+    "type": "PRODUCED",
+    "target": "confucianism"
+  },
+  {
+    "source": "zhou_dynasty",
+    "type": "PRODUCED",
+    "target": "daoism"
+  },
+  {
+    "source": "zhou_dynasty",
+    "type": "PRODUCED",
+    "target": "legalism_china"
+  },
+  {
+    "source": "alexander_the_great",
+    "type": "PRODUCED",
+    "target": "hellenistic_period"
+  },
+  {
+    "source": "hellenistic_period",
+    "type": "PRODUCED",
+    "target": "library_of_alexandria"
+  },
+  {
+    "source": "hellenistic_period",
+    "type": "ENABLED",
+    "target": "roman_republic"
+  },
+  {
+    "source": "hellenistic_period",
+    "type": "PRODUCED",
+    "target": "stoicism"
+  },
+  {
+    "source": "persian_achaemenid_empire",
+    "type": "ENABLED",
+    "target": "hellenistic_period"
+  },
+  {
+    "source": "julius_caesar",
+    "type": "ENABLED",
+    "target": "julius_caesar_assassination"
+  },
+  {
+    "source": "julius_caesar_assassination",
+    "type": "ENABLED",
+    "target": "roman_empire"
+  },
+  {
+    "source": "augustus_caesar",
+    "type": "PRODUCED",
+    "target": "pax_romana"
+  },
+  {
+    "source": "pax_romana",
+    "type": "ENABLED",
+    "target": "spread_of_christianity"
+  },
+  {
+    "source": "pax_romana",
+    "type": "ENABLED",
+    "target": "roman_law"
+  },
+  {
+    "source": "pax_romana",
+    "type": "ENABLED",
+    "target": "silk_road_ancient"
+  },
+  {
+    "source": "roman_republic",
+    "type": "PRODUCED",
+    "target": "roman_law"
+  },
+  {
+    "source": "roman_law",
+    "type": "ENABLED",
+    "target": "roman_empire"
+  },
+  {
+    "source": "slavery_ancient_rome",
+    "type": "ENABLED",
+    "target": "spartacus_revolt"
+  },
+  {
+    "source": "punic_wars",
+    "type": "ENABLED",
+    "target": "slavery_ancient_rome"
+  },
+  {
+    "source": "roman_empire",
+    "type": "ENABLED",
+    "target": "spread_of_christianity"
+  },
+  {
+    "source": "spread_of_christianity",
+    "type": "ENABLED",
+    "target": "constantine_christianity"
+  },
+  {
+    "source": "constantine_christianity",
+    "type": "ENABLED",
+    "target": "byzantine_empire_rise"
+  },
+  {
+    "source": "constantine_christianity",
+    "type": "ENABLED",
+    "target": "church_state_entanglement"
+  },
+  {
+    "source": "jewish_roman_wars",
+    "type": "ENABLED",
+    "target": "fall_of_jerusalem_70ce"
+  },
+  {
+    "source": "fall_of_jerusalem_70ce",
+    "type": "ENABLED",
+    "target": "rise_of_christianity"
+  },
+  {
+    "source": "fall_of_jerusalem_70ce",
+    "type": "ENABLED",
+    "target": "rabbinic_judaism"
+  },
+  {
+    "source": "maurya_empire",
+    "type": "ENABLED",
+    "target": "gupta_empire"
+  },
+  {
+    "source": "gupta_empire",
+    "type": "ENABLED",
+    "target": "silk_road_ancient"
+  },
+  {
+    "source": "silk_road",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "silk_road_ancient"
+  },
+  {
+    "source": "han_dynasty",
+    "type": "ENABLED",
+    "target": "silk_road_ancient"
+  },
+  {
+    "source": "silk_road_ancient",
+    "type": "ENABLED",
+    "target": "spread_of_christianity"
+  },
+  {
+    "source": "silk_road_ancient",
+    "type": "ENABLED",
+    "target": "buddhism"
+  },
+  {
+    "source": "silk_road_ancient",
+    "type": "ENABLED",
+    "target": "islamic_golden_age"
+  },
+  {
+    "source": "byzantine_empire",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "byzantine_empire_rise"
+  },
+  {
+    "source": "sassanid_persian_empire",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "sassanid_empire_culture"
+  },
+  {
+    "source": "sassanid_empire_culture",
+    "type": "ENABLED",
+    "target": "islamic_golden_age"
+  },
+  {
+    "source": "byzantine_empire_rise",
+    "type": "ENABLED",
+    "target": "islamic_golden_age"
+  },
+  {
+    "source": "hun_invasions",
+    "type": "ENABLED",
+    "target": "fall_of_rome"
+  },
+  {
+    "source": "justinian_plague",
+    "type": "ENABLED",
+    "target": "fall_of_rome"
+  },
+  {
+    "source": "justinian_plague",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "black_death_social_impact"
   }
 ]

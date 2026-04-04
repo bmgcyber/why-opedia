@@ -11988,5 +11988,417 @@
       "self-determination",
       "race"
     ]
+  },
+  {
+    "id": "axial_age",
+    "label": "Axial Age (800–200 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "800s BCE",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "Karl Jaspers' term for the simultaneous emergence of philosophical and religious traditions across Greece, Persia, India, and China — Confucius, the Buddha, Socrates, Zoroaster, the Hebrew prophets — that shifted the basis of civilization from ritual kingship to ethical individual conscience.",
+    "tags": [
+      "philosophy",
+      "religion",
+      "ethics",
+      "axial age",
+      "jaspers",
+      "transformation",
+      "conscience"
+    ]
+  },
+  {
+    "id": "confucianism",
+    "label": "Confucianism",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "500s BCE",
+    "region": "China",
+    "scope": "global/history",
+    "summary": "Ethical and political philosophy developed by Confucius (551–479 BCE) emphasizing hierarchical social order, filial piety, ritual propriety, and virtuous governance. Became the official ideology of the Han Dynasty and shaped East Asian governance for 2,000 years.",
+    "tags": [
+      "confucius",
+      "china",
+      "ethics",
+      "hierarchy",
+      "governance",
+      "filial piety",
+      "east asia"
+    ]
+  },
+  {
+    "id": "daoism",
+    "label": "Daoism / Taoism",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "400s BCE",
+    "region": "China",
+    "scope": "global/history",
+    "summary": "Chinese philosophical tradition attributed to Laozi, emphasizing harmony with the natural order (Dao), non-action (wu wei), and skepticism of social conventions and state power. Provided the primary intellectual counter-tradition to Confucian hierarchy in Chinese civilization.",
+    "tags": [
+      "daoism",
+      "taoism",
+      "laozi",
+      "china",
+      "philosophy",
+      "nature",
+      "wu wei",
+      "harmony"
+    ]
+  },
+  {
+    "id": "legalism_china",
+    "label": "Legalism (Chinese)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "300s BCE",
+    "region": "China",
+    "scope": "global/history",
+    "summary": "Chinese political philosophy holding that people are fundamentally selfish and require strict laws, severe punishments, and an all-powerful state to maintain order. The Qin Dynasty applied Legalism to unify China — achieving unification but creating a surveillance state so brutal it collapsed within 15 years of Qin Shi Huang's death.",
+    "tags": [
+      "legalism",
+      "qin",
+      "china",
+      "authoritarianism",
+      "law",
+      "punishment",
+      "control",
+      "statecraft"
+    ]
+  },
+  {
+    "id": "hellenistic_period",
+    "label": "Hellenistic Period (323–31 BCE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "320s BCE",
+    "region": "Mediterranean/Asia",
+    "scope": "global/history",
+    "summary": "The period after Alexander's conquests when Greek culture spread across the Near East. Produced the Library of Alexandria, the synthesis of Greek and Eastern philosophy, and cosmopolitan cities like Alexandria and Antioch — the first large-scale cultural globalization.",
+    "tags": [
+      "hellenistic",
+      "alexander",
+      "greece",
+      "cosmopolitan",
+      "library of alexandria",
+      "synthesis",
+      "culture"
+    ]
+  },
+  {
+    "id": "library_of_alexandria",
+    "label": "Library of Alexandria (c. 300–48 BCE)",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "300s BCE",
+    "region": "Egypt",
+    "scope": "global/history",
+    "summary": "The ancient world's greatest center of learning — accumulating an estimated 700,000 scrolls, the first systematic attempt to collect all human knowledge in one place. Its partial destruction under Julius Caesar and gradual decline became the paradigm for catastrophic knowledge loss.",
+    "tags": [
+      "knowledge",
+      "library",
+      "alexandria",
+      "egypt",
+      "learning",
+      "destruction",
+      "scholarship"
+    ]
+  },
+  {
+    "id": "julius_caesar_assassination",
+    "label": "Assassination of Julius Caesar (44 BCE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "40s BCE",
+    "region": "Rome",
+    "scope": "global/history",
+    "summary": "The killing of Caesar by Brutus, Cassius, and other senators who feared one-man rule — an act intended to save the Republic that instead triggered 14 years of civil war and the permanent installation of the Principate under Augustus. The paradigmatic case of political assassination producing the opposite of its intended effect.",
+    "tags": [
+      "caesar",
+      "assassination",
+      "rome",
+      "republic",
+      "civil war",
+      "unintended consequences",
+      "brutus"
+    ]
+  },
+  {
+    "id": "pax_romana",
+    "label": "Pax Romana (27 BCE–180 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "27s BCE",
+    "region": "Rome",
+    "scope": "global/history",
+    "summary": "Two centuries of relative peace and stability under the Roman Empire — unprecedented in scale. Enabled by Roman law, road networks, and legions; sustained by ruthless suppression of revolt (Judea, Britain, Dacia). The peace was real for Roman citizens, brutal for the conquered periphery.",
+    "tags": [
+      "rome",
+      "peace",
+      "empire",
+      "stability",
+      "augustus",
+      "law",
+      "infrastructure",
+      "imperialism"
+    ]
+  },
+  {
+    "id": "roman_law",
+    "label": "Roman Law",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "450s BCE",
+    "region": "Rome",
+    "scope": "global/history",
+    "summary": "The Twelve Tables (450 BCE) through the Corpus Juris Civilis of Justinian (529 CE) developed the legal concepts — contract, property, citizenship, due process — that underpin modern legal systems. Roman law was the first to distinguish public and private law and to create the concept of legal personhood.",
+    "tags": [
+      "law",
+      "rome",
+      "legal system",
+      "property",
+      "contract",
+      "citizenship",
+      "due process",
+      "justinian"
+    ]
+  },
+  {
+    "id": "slavery_ancient_rome",
+    "label": "Slavery in Ancient Rome",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "decade": "200s BCE",
+    "region": "Rome",
+    "scope": "global/history",
+    "summary": "Rome's economy was built on enslaved labor — at its height, enslaved people constituted 30–40% of the Italian population. Slaves built roads, worked mines, staffed households, and served as gladiators. Roman slavery was not primarily racial — slaves came from all conquered peoples — but was absolutely brutal, producing repeated slave revolts including Spartacus (73 BCE).",
+    "tags": [
+      "slavery",
+      "rome",
+      "labor",
+      "exploitation",
+      "spartacus",
+      "conquest",
+      "inequality"
+    ]
+  },
+  {
+    "id": "spartacus_revolt",
+    "label": "Spartacus Revolt (73–71 BCE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "70s BCE",
+    "region": "Rome",
+    "scope": "global/history",
+    "summary": "The largest slave revolt in Roman history — Spartacus led up to 120,000 escaped slaves across Italy for two years before being defeated by Crassus. The 6,000 survivors were crucified along the Appian Way as a message. Demonstrated both the potential for collective resistance and the scale of repression required to maintain slave economies.",
+    "tags": [
+      "spartacus",
+      "slavery",
+      "revolt",
+      "rome",
+      "resistance",
+      "crucifixion",
+      "class conflict"
+    ]
+  },
+  {
+    "id": "silk_road_ancient",
+    "label": "Silk Road (c. 130 BCE–1453 CE)",
+    "node_type": "reference",
+    "category": "institution",
+    "decade": "130s BCE",
+    "region": "Global",
+    "scope": "global/history",
+    "summary": "The overland and maritime trade network connecting China to the Mediterranean — not a single road but a web of routes through Central Asia. Transmitted goods (silk, spices, glass), technologies (paper, gunpowder, printing), religions (Buddhism, Islam, Nestorian Christianity), and plagues (Justinian Plague, Black Death) across Eurasia.",
+    "tags": [
+      "trade",
+      "silk road",
+      "china",
+      "rome",
+      "connectivity",
+      "globalization",
+      "disease",
+      "technology"
+    ]
+  },
+  {
+    "id": "spread_of_christianity",
+    "label": "Spread of Christianity (1st–4th century CE)",
+    "node_type": "reference",
+    "category": "movement",
+    "decade": "30s",
+    "region": "Mediterranean",
+    "scope": "global/history",
+    "summary": "From a small Jewish sect in Judea to the official religion of the Roman Empire within three centuries. Christianity spread through Roman road networks, its appeal to slaves and the poor, the organizational genius of Paul of Tarsus, and eventually Constantine's conversion. The first religion to use the Roman state as a vehicle for universal mission.",
+    "tags": [
+      "christianity",
+      "rome",
+      "religion",
+      "paul",
+      "constantine",
+      "missionary",
+      "church",
+      "roman empire"
+    ]
+  },
+  {
+    "id": "constantine_christianity",
+    "label": "Constantine's Conversion & Edict of Milan (313 CE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "310s",
+    "region": "Rome",
+    "scope": "global/history",
+    "summary": "Emperor Constantine's conversion and the Edict of Milan's religious tolerance transformed Christianity from a persecuted minority to the favored religion of the empire. The church immediately gained institutional power, property, and official sanction — beginning the process of church-state fusion that defined medieval Europe.",
+    "tags": [
+      "constantine",
+      "christianity",
+      "rome",
+      "church",
+      "conversion",
+      "edict of milan",
+      "power"
+    ]
+  },
+  {
+    "id": "fall_of_jerusalem_70ce",
+    "label": "Destruction of Jerusalem (70 CE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "70s",
+    "region": "Judea",
+    "scope": "global/history",
+    "summary": "The Roman destruction of the Second Temple following the Jewish revolt — ending the Temple-based cult and scattering the Jewish population. Produced both Rabbinic Judaism (text-based religion without a temple) and early Christianity (both responding to the catastrophe). The primary cause of the Jewish diaspora.",
+    "tags": [
+      "jerusalem",
+      "rome",
+      "temple",
+      "diaspora",
+      "judaism",
+      "rebellion",
+      "destruction",
+      "jewish history"
+    ]
+  },
+  {
+    "id": "gupta_empire",
+    "label": "Gupta Empire (320–550 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "320s",
+    "region": "India",
+    "scope": "global/history",
+    "summary": "India's classical golden age — producing advances in mathematics (zero, decimal system), astronomy, medicine (Ayurveda), and Sanskrit literature. Fa Xian's accounts show a prosperous, relatively peaceful civilization. The Gupta period is when the number system used worldwide today was developed.",
+    "tags": [
+      "india",
+      "golden age",
+      "mathematics",
+      "zero",
+      "astronomy",
+      "gupta",
+      "classical",
+      "decimal"
+    ]
+  },
+  {
+    "id": "byzantine_empire_rise",
+    "label": "Byzantine Empire (Eastern Rome, 330–1453 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "330s",
+    "region": "Eastern Mediterranean",
+    "scope": "global/history",
+    "summary": "When Constantine moved the capital to Constantinople (330 CE), the Eastern Roman Empire survived the West's collapse by 1,000 years. The Byzantines preserved Greek philosophy, Roman law, and Orthodox Christianity — transmitting classical learning to both the Islamic world and later Renaissance Europe.",
+    "tags": [
+      "byzantine",
+      "constantinople",
+      "rome",
+      "eastern empire",
+      "orthodox",
+      "greek",
+      "preservation",
+      "crusades"
+    ]
+  },
+  {
+    "id": "sassanid_empire_culture",
+    "label": "Sassanid Empire & Persian High Culture (224–651 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "220s",
+    "region": "Persia",
+    "scope": "global/history",
+    "summary": "The Sassanid Empire revived Persian imperial culture and produced a sophisticated civilization in philosophy, medicine, and architecture. As a rival of Rome and Byzantium, the Sassanid-Byzantine wars exhausted both powers, enabling the rapid Islamic conquests of the 7th century.",
+    "tags": [
+      "persia",
+      "sassanid",
+      "culture",
+      "zoroastrianism",
+      "philosophy",
+      "byzantine",
+      "islam",
+      "exhaustion"
+    ]
+  },
+  {
+    "id": "hun_invasions",
+    "label": "Hun Invasions (4th–5th century CE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "370s",
+    "region": "Eurasia",
+    "scope": "global/history",
+    "summary": "The westward movement of the Huns under Attila disrupted the steppe balance, pushing Gothic peoples into Roman territory and triggering a cascade of migrations that accelerated the fall of the Western Roman Empire. A case of how climate-driven nomadic pressure can destabilize settled civilizations.",
+    "tags": [
+      "huns",
+      "attila",
+      "rome",
+      "migration",
+      "nomads",
+      "steppe",
+      "fall of rome",
+      "cascade"
+    ]
+  },
+  {
+    "id": "justinian_plague",
+    "label": "Justinian Plague (541–549 CE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "540s",
+    "region": "Mediterranean",
+    "scope": "global/history",
+    "summary": "The first historically documented bubonic plague pandemic, killing 25–50 million people across the Byzantine Empire and Mediterranean. Disrupted Justinian's reconquest campaigns and may have permanently ended the possibility of Roman reunification.",
+    "tags": [
+      "plague",
+      "pandemic",
+      "byzantine",
+      "justinian",
+      "disease",
+      "death",
+      "history"
+    ]
+  },
+  {
+    "id": "islamic_golden_age",
+    "label": "Islamic Golden Age (8th–13th century CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "750s",
+    "region": "Middle East/Central Asia",
+    "scope": "global/history",
+    "summary": "Under the Abbasid Caliphate in Baghdad, Islamic civilization produced revolutionary advances in mathematics (algebra, algorithms), astronomy, medicine, philosophy, and preserved Greek texts. Scholars like Ibn Sina, Al-Kindi, and Al-Khwarizmi transmitted classical knowledge and added new discoveries to both European and Asian civilizations.",
+    "tags": [
+      "islam",
+      "golden age",
+      "algebra",
+      "medicine",
+      "philosophy",
+      "abbasid",
+      "baghdad",
+      "science",
+      "translation"
+    ]
   }
 ]

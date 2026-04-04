@@ -3284,5 +3284,75 @@
       "kissinger",
       "state"
     ]
+  },
+  {
+    "id": "imperial_overextension",
+    "label": "Imperial Overextension",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The self-undermining dynamic of empires: expansion increases the cost of defense faster than it increases revenue, eventually requiring debasement, overtaxation, or military contraction — each of which weakens the empire further.",
+    "description": "Paul Kennedy's 'imperial overstretch' describes how every major empire eventually collapses under the weight of its own success. The mechanism: conquest requires garrison forces that are expensive to maintain; each new frontier creates new threats; tax revenue from conquered peoples rarely covers the cost of subjugating them; and domestic productive capacity must be diverted to military rather than civilian investment.\n\nRome is the paradigm: by the 3rd century, Rome was fighting on five frontiers simultaneously while debasing its currency to pay troops, crushing the middle class with taxes, and cycling through emperors who needed to pay their legions to stay in power. The Mongol Empire, British Empire, and Soviet Union followed variants of the same logic.\n\nRecognize it when: defense spending as a share of GDP rises to fund distant commitments; military capabilities are spread across more theaters than they can effectively cover; monetary policy is degraded to fund military expenditure; and the state begins suppressing internal dissent that it previously could afford to ignore.",
+    "tags": [
+      "empire",
+      "collapse",
+      "overstretch",
+      "rome",
+      "military",
+      "fiscal",
+      "kennedy"
+    ]
+  },
+  {
+    "id": "propaganda_state_religion",
+    "label": "State Religion as Propaganda",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The use of an officially sanctioned religion to legitimate state power, unify populations around shared identity, suppress heterodoxy as treason, and mobilize populations for war and sacrifice.",
+    "tags": [
+      "religion",
+      "state",
+      "propaganda",
+      "legitimacy",
+      "persecution",
+      "church",
+      "constantine"
+    ]
+  },
+  {
+    "id": "currency_debasement",
+    "label": "Currency Debasement",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The reduction of a currency's precious metal content or increase in money supply to pay government obligations — producing inflation that transfers wealth from holders of savings to the issuing state, and eventually eroding confidence in the currency.",
+    "tags": [
+      "currency",
+      "inflation",
+      "rome",
+      "monetary policy",
+      "debasement",
+      "fiscal",
+      "crisis"
+    ]
+  },
+  {
+    "id": "philosophy_as_resistance",
+    "label": "Philosophy as Resistance",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The use of philosophical argument, ethical reasoning, and written texts to challenge the legitimacy of existing political arrangements — from Socrates' trial to Confucian criticism of corrupt rulers to Enlightenment political philosophy.",
+    "tags": [
+      "philosophy",
+      "resistance",
+      "socrates",
+      "confucius",
+      "enlightenment",
+      "power",
+      "legitimacy",
+      "speech"
+    ]
   }
 ]
