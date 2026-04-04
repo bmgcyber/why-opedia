@@ -4037,5 +4037,91 @@
       "censorship",
       "epistemic injustice"
     ]
+  },
+  {
+    "id": "economic_sanctions",
+    "label": "Economic Sanctions",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Collective economic punishment used by states or international bodies to coerce behavior change \u2014 a tool that typically harms civilian populations more than targeted governments while producing limited policy change.",
+    "description": "Economic sanctions operate by inflicting enough economic pain on a target country that its government changes the policy causing the sanctions. The mechanism's effectiveness depends on the government's sensitivity to economic suffering \u2014 authoritarian regimes that insulate elites from sanctions effects while letting civilians bear costs can sustain sanctions indefinitely. This is why sanctions work better against democracies than against the authoritarian states they are most often targeted at.\n\nSanctions impose three kinds of costs simultaneously: direct economic harm (reduced trade, frozen assets, technology denial), domestic political costs (if the public blames its government), and international legitimacy costs (treating the target as a pariah). The mechanism typically fails to achieve its stated objective but may achieve secondary objectives: signaling resolve, satisfying domestic pressure to 'do something,' and maintaining the credibility of international norms.\n\nSanctions' humanitarian cost is the mechanism's central paradox: civilians lose access to medicine, food, and basic services while regimes that control security forces are insulated. Comprehensive sanctions on Iraq killed an estimated 500,000 children under 5 while Saddam Hussein maintained his palaces and security apparatus. The lesson \u2014 target sanctions against specific elites rather than populations \u2014 has been applied inconsistently.",
+    "tags": [
+      "foreign policy",
+      "international relations",
+      "coercion",
+      "humanitarian",
+      "geopolitics"
+    ],
+    "aliases": [
+      "trade sanctions",
+      "economic coercion",
+      "embargo",
+      "blockade"
+    ]
+  },
+  {
+    "id": "media_framing",
+    "label": "Media Framing",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The process by which media choices about what to include, emphasize, and contextualize shape how audiences understand events \u2014 determining not just what people think about but how they think about it.",
+    "description": "Media framing operates through selection and salience: every news story involves decisions about what to include and exclude, whose voice to quote, what context to provide, and what frame to use. These choices are rarely neutral \u2014 'riot' versus 'uprising,' 'illegal alien' versus 'undocumented immigrant,' 'pro-life' versus 'anti-abortion' all prime different cognitive associations and moral evaluations. The frame determines which aspects of an issue feel relevant, who bears responsibility, and what solutions seem appropriate.\n\nFraming is most consequential at scale: when a particular frame becomes hegemonic \u2014 shared across most outlets \u2014 it shapes the baseline assumptions of political debate. The 'taxpayer burden' frame for social spending, the 'both sides' frame for scientific consensus, and the 'crime' frame for drug addiction all carry policy implications embedded in their premises. Changing policy often requires first changing the dominant frame.\n\nRecognizing framing effects: ask who is quoted as an expert (and who is not); what is treated as the starting point for analysis (and what is left as background assumption); which groups are described by their behavior and which by their identity; and what would need to change for the issue to be considered resolved.",
+    "tags": [
+      "media",
+      "journalism",
+      "propaganda",
+      "epistemology",
+      "political communication",
+      "agenda setting"
+    ],
+    "aliases": [
+      "agenda-setting",
+      "framing effects",
+      "spin",
+      "narrative control"
+    ]
+  },
+  {
+    "id": "election_interference",
+    "label": "Election Interference",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Actions by state or non-state actors to manipulate the outcome of elections in another country through hacking, disinformation, bribery, or covert operations.",
+    "description": "Election interference exploits democratic systems' openness: free societies allow foreign media, accept foreign investment, and operate transparent electoral processes \u2014 all of which provide vectors for interference. Modern election interference combines several mechanisms: cyberattacks to steal and selectively leak damaging information; social media operations to amplify divisions and suppress turnout; disinformation campaigns to confuse or demoralize specific demographics; and financial support for preferred candidates through legal and illegal channels.\n\nThe mechanism is effective partly because attribution is difficult and partly because democracies are ideologically constrained in their response: they cannot simply shut down foreign-owned media or block foreign social media accounts without undermining the principles they claim to defend. This creates an asymmetry where authoritarian states can interfere freely in open societies while protecting themselves behind information controls.\n\nHistorically, the US was the world's most active practitioner of election interference \u2014 dozens of interventions in Latin America, Europe, and Asia during the Cold War. Russia's 2016 operations represented a turning of those methods against their originator, using techniques developed by the CIA and adapted for the social media era.",
+    "tags": [
+      "elections",
+      "foreign interference",
+      "democracy",
+      "disinformation",
+      "cyberattacks",
+      "Russia"
+    ],
+    "aliases": [
+      "foreign interference",
+      "election manipulation",
+      "electoral subversion"
+    ]
+  },
+  {
+    "id": "political_violence",
+    "label": "Political Violence",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Strategic use of violence to achieve political ends \u2014 including state repression, terrorism, assassination, and mass mobilization \u2014 and the conditions under which movements and states choose violence over other strategies.",
+    "description": "Political violence is not random \u2014 it follows strategic logic, however disturbed that logic may appear. States use violence when they judge it cheaper than accommodation; insurgents use it when they judge peaceful means blocked; terrorism is used when conventional military action is impossible and political persuasion has failed. Understanding political violence requires understanding the cost-benefit calculations of all parties rather than treating violence as evidence of irrationality.\n\nThe key insight from political violence research is that state violence against dissidents often produces more violence rather than less \u2014 if peaceful protest is systematically crushed, the incentive calculation for armed resistance improves. This is why 'hard repression' works only when total and sustained (Nazi Germany, Stalin's USSR) while partial repression tends to generate the radicalization it aims to prevent. The moderate option \u2014 allowing peaceful dissent while punishing violence \u2014 produces better outcomes but requires restraint that threatened regimes rarely demonstrate.\n\nPolitical violence's relationship to legitimacy is crucial: violence that can be portrayed as self-defense against aggression builds legitimacy; violence against civilians that cannot be justified destroys it. This is why states invest heavily in framing their violence as law enforcement and their opponents' violence as terrorism.",
+    "tags": [
+      "violence",
+      "terrorism",
+      "repression",
+      "revolution",
+      "state violence",
+      "insurgency"
+    ],
+    "aliases": [
+      "state violence",
+      "terrorism",
+      "insurrection",
+      "political repression"
+    ]
   }
 ]

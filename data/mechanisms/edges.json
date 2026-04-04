@@ -23194,5 +23194,293 @@
     "target": "indigenous_rights",
     "type": "EXPLAINS",
     "weight": 3
+  },
+  {
+    "source": "economic_sanctions",
+    "target": "iran_contra",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "economic_sanctions",
+    "target": "iraq_war_2003",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "economic_sanctions",
+    "target": "apartheid_south_africa",
+    "type": "COUNTERED",
+    "weight": 3
+  },
+  {
+    "source": "economic_sanctions",
+    "target": "ukraine_full_invasion",
+    "type": "CONTEXT_FOR",
+    "weight": 3
+  },
+  {
+    "source": "imperialism",
+    "target": "economic_sanctions",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "realpolitik",
+    "target": "economic_sanctions",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "media_framing",
+    "target": "yellow_journalism",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "media_framing",
+    "target": "fox_news_founding",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "media_framing",
+    "target": "vietnam_war",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "media_framing",
+    "target": "iraq_war_2003",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "media_framing",
+    "target": "civil_rights_movement",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "media_framing",
+    "target": "rwandan_genocide_event",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "manufactured_consent",
+    "target": "media_framing",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "propaganda",
+    "target": "media_framing",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "disinformation",
+    "target": "media_framing",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "media_framing",
+    "target": "polarization",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "media_framing",
+    "target": "scapegoating",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "election_interference",
+    "target": "russia_election_interference",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "election_interference",
+    "target": "iranian_coup_1953",
+    "type": "RELATED_TO",
+    "weight": 2
+  },
+  {
+    "source": "election_interference",
+    "target": "guatemalan_coup_1954",
+    "type": "RELATED_TO",
+    "weight": 2
+  },
+  {
+    "source": "election_interference",
+    "target": "chile_coup_1973",
+    "type": "RELATED_TO",
+    "weight": 2
+  },
+  {
+    "source": "election_interference",
+    "target": "cambridge_analytica",
+    "type": "USED_IN",
+    "weight": 3
+  },
+  {
+    "source": "disinformation",
+    "target": "election_interference",
+    "type": "USED_IN",
+    "weight": 3
+  },
+  {
+    "source": "surveillance_state",
+    "target": "election_interference",
+    "type": "ENABLES",
+    "weight": 2
+  },
+  {
+    "source": "democratic_backsliding",
+    "target": "election_interference",
+    "type": "USES",
+    "weight": 2
+  },
+  {
+    "source": "proxy_war",
+    "target": "election_interference",
+    "type": "INCLUDES",
+    "weight": 2
+  },
+  {
+    "source": "rent_seeking",
+    "target": "dark_money_politics",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "rent_seeking",
+    "target": "pharmaceutical_industry_power",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "rent_seeking",
+    "target": "financialization",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "rent_seeking",
+    "target": "healthcare_commodification",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "rent_seeking",
+    "target": "tech_monopoly_era",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "regulatory_capture",
+    "target": "rent_seeking",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "elite_capture",
+    "target": "rent_seeking",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "rent_seeking",
+    "target": "wealth_concentration",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "rent_seeking",
+    "target": "austerity_economics",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "political_violence",
+    "target": "algerian_war",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "political_violence",
+    "target": "rwandan_genocide_event",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "political_violence",
+    "target": "january_6_insurrection",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "political_violence",
+    "target": "cambodian_genocide",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "political_violence",
+    "target": "jim_crow",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "political_violence",
+    "target": "civil_rights_movement",
+    "type": "OPPOSED_BY",
+    "weight": 2
+  },
+  {
+    "source": "political_violence",
+    "target": "apartheid_south_africa",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "state_collapse",
+    "target": "political_violence",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "authoritarian_control",
+    "target": "political_violence",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "dehumanization",
+    "target": "political_violence",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "scapegoating",
+    "target": "political_violence",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "moral_disengagement",
+    "target": "political_violence",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "nonviolent_resistance",
+    "target": "political_violence",
+    "type": "ALTERNATIVE_TO",
+    "weight": 3
   }
 ]
