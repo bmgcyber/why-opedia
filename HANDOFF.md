@@ -95,35 +95,51 @@ data/
 
 ---
 
-## CURRENT OBJECTIVE (Session 14 — 2026-04-04)
+## CURRENT OBJECTIVE (Session 15 — 2026-04-04)
 
-**Build human history from the beginning.** Start with the agricultural revolution (~10,000 BCE) and work forward chronologically through prehistory, ancient civilizations, and early empires. New mechanisms will emerge naturally (divine kingship, tribute systems, debt bondage, priestly class, alphabet democratization, etc.). Add these to mechanisms/nodes.json with full descriptions. No stopping — keep generating until rate limit. Each batch: add nodes, add edges, run integrity check, commit.
+**Continue building the full human history graph from beginning to present.** The current session completed batches 6–19 covering: WWI-WWII, Cold War, Civil Rights, decolonization, 1968-1991, post-Cold War, 2010s-present, ancient world, early modern, 19th century, non-Western civilizations, economics/psychology/media/health/art scope depth, politics enrichment, and new mechanism nodes. 
 
-**Current wave:** Prehistory → Bronze Age → Iron Age → Classical Antiquity → Late Antiquity
+**Next session should continue with:**
+- Person nodes for key historical figures missing from history scope (Rosa Parks, Harriet Tubman, Frederick Douglass, Sojourner Truth, Cesar Chavez, Dolores Huerta, Eleanor Roosevelt, Desmond Tutu)
+- More events in Latin American history (1970s-90s dictatorships, Zapatistas, Pink Tide)
+- More events in Asian history (Korean democracy movement, Tiananmen follow-up, India post-partition)
+- Science & technology history nodes (moon landing, green revolution, internet invention, genome project)
+- Missing positive events from the roadmap below
 
-**Already covered (don't duplicate):**
-- ancient_sumer, ancient_egypt, roman_empire, roman_republic, greek_democracy (athenian_democracy), persian_achaemenid_empire, han_dynasty, maurya_empire, qin_dynasty, neo_babylonian_empire, babylonian_captivity, zhou_dynasty, assyrian_empire, hellenistic_philosophy
-- People: alexander_the_great, julius_caesar, augustus_caesar, ashoka, confucius, cleopatra, marcus_aurelius, socrates, plato, aristotle, gracchi_brothers, taharqa
-- Events: peloponnesian_war, silk_road, code_of_hammurabi, pyramid_construction, davidic_monarchy, second_temple_period, stoicism, qin_dynasty, qin_book_burning
+**Positive content roadmap (items still to add):**
+- `ada_1990` — Americans with Disabilities Act
+- `marriage_equality_us_2015` — Obergefell v. Hodges
+- `nuclear_test_ban_treaty_1963` — first nuclear arms control
+- `camp_david_accords_1978` — Egypt-Israel peace
+- `emancipation_proclamation_1863` — legal abolition in Confederate states
+- `labor_rights_eight_hour_day` — labor movement victory
+- `rural_electrification_1930s` — New Deal infrastructure
+- `scientific_method` — adversarial empiricism as positive epistemic mechanism
+- `grassroots_organizing` — bottom-up power building mechanism
+- Person nodes: `eleanor_roosevelt`, `desmond_tutu`, `rosa_parks`, `cesar_chavez`, `dolores_huerta`, `harriet_tubman`, `frederick_douglass`
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-04-04, Session 14)
+## CURRENT DATASET STATE (as of 2026-04-04, Session 15 — after batches 6-19)
 
 | Scope | Nodes | Edges |
 |-------|-------|-------|
-| History | **565** | **1033** |
-| Economics | 61 | 140 |
-| Politics | **115** | **324** |
-| Psychology | 58 | 132 |
-| Media | 49 | 109 |
-| Health | 52 | 112 |
-| Art & Culture | 53 | 59 |
-| Mechanisms | **160** | **2298** (cross-scope) |
-| **Person nodes (history)** | **~245** | — |
-| **Total nodes** | **~998** | **~3592** |
+| History | **775** | ~1,400 |
+| Economics | **71** | ~200 |
+| Politics | **126** | ~370 |
+| Psychology | **69** | ~180 |
+| Media | **55** | ~140 |
+| Health | **62** | ~170 |
+| Art & Culture | **61** | ~100 |
+| Mechanisms | **214** | **~3,500** (cross-scope) |
+| **Total nodes** | **1,771** | **~6,090** |
 
-**Data integrity:** 0 broken edge references. Verified 2026-03-27 Session 12.
+**Data integrity:** 0 broken edge references. Verified after every batch in Session 15.
+
+### Session 15 additions (batches 6-19):
+- **History:** +200+ nodes spanning agricultural revolution → 2020s present
+- **Mechanisms:** +50+ new nodes including: proxy_war, red_scare, civil_disobedience, neoliberalism, democratic_backsliding, state_collapse, surveillance_state, war_on_terror, financial_contagion, platform_capitalism, right_wing_populism, climate_denial, polarization, manufactured_doubt, resource_curse, class_struggle, settler_colonialism, chattel_slavery, knowledge_suppression, social_movement, pseudo_science, economic_sanctions, media_framing, election_interference, rent_seeking, political_violence (all with full descriptions)
+- **All scopes deepened:** economics (bretton_woods through gig economy), psychology (Milgram, Zimbardo, Asch, etc.), media (radio through social media era), health (germ theory through COVID vaccine), art (propaganda art through climate art), politics (+11 nodes, +50 mechanism connections)
 
 ### Session 12 additions:
 - **Thin node wiring complete (history):** All 33 remaining history nodes with <2 mechanism edges wired to ≥2 edges
