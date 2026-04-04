@@ -22816,5 +22816,161 @@
     "target": "social_media_era",
     "type": "PRODUCED_BY",
     "weight": 3
+  },
+  {
+    "source": "regulatory_capture",
+    "target": "pharmaceutical_industry_power",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "regulatory_capture",
+    "target": "healthcare_commodification",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "healthcare_commodification",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "structural_violence",
+    "target": "tuskegee_study",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "systemic_racism",
+    "target": "tuskegee_study",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "health_disparities",
+    "target": "tuskegee_study",
+    "type": "PRODUCED_BY",
+    "weight": 3
+  },
+  {
+    "source": "health_disparities",
+    "target": "covid_pandemic",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "health_disparities",
+    "target": "opioid_crisis",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "manufactured_doubt",
+    "target": "pharmaceutical_industry_power",
+    "type": "USED_BY",
+    "weight": 2
+  },
+  {
+    "source": "dark_money",
+    "target": "pharmaceutical_industry_power",
+    "type": "FUNDS",
+    "weight": 3
+  },
+  {
+    "source": "dark_money",
+    "target": "healthcare_commodification",
+    "type": "FUNDS",
+    "weight": 3
+  },
+  {
+    "source": "climate_denial",
+    "target": "climate_health_impacts",
+    "type": "WORSENED",
+    "weight": 3
+  },
+  {
+    "source": "cognitive_dissonance",
+    "target": "covid_vaccine_development",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "propaganda",
+    "target": "wartime_propaganda_art",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "propaganda",
+    "target": "degenerate_art_nazi",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "propaganda",
+    "target": "socialist_realism_ussr",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "totalitarianism",
+    "target": "degenerate_art_nazi",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "totalitarianism",
+    "target": "socialist_realism_ussr",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "knowledge_suppression",
+    "target": "degenerate_art_nazi",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "knowledge_suppression",
+    "target": "socialist_realism_ussr",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "civil_rights_music",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "hip_hop_emergence",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "empathy",
+    "target": "protest_literature",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "empathy",
+    "target": "social_realism_art",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "empathy",
+    "target": "climate_art",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "moral_courage",
+    "target": "protest_literature",
+    "type": "ENABLES",
+    "weight": 2
   }
 ]

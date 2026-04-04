@@ -5,7 +5,7 @@
     "target": "mk_ultra",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both: government non-consensual experimentation",
-    "note": "Both were U.S. government programs of non-consensual medical experimentation on citizens, running simultaneously for decades, and both hidden from public record. Tuskegee ran 1932–1972; MK Ultra ran 1953–1973.",
+    "note": "Both were U.S. government programs of non-consensual medical experimentation on citizens, running simultaneously for decades, and both hidden from public record. Tuskegee ran 1932\u20131972; MK Ultra ran 1953\u20131973.",
     "confidence": "high"
   },
   {
@@ -14,7 +14,7 @@
     "target": "cointelpro",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both targeted Black Americans as subjects of harm",
-    "note": "Both are documented federal programs that specifically targeted Black Americans — Tuskegee using them as medical subjects without consent, COINTELPRO surveilling, disrupting, and facilitating violence against their leaders.",
+    "note": "Both are documented federal programs that specifically targeted Black Americans \u2014 Tuskegee using them as medical subjects without consent, COINTELPRO surveilling, disrupting, and facilitating violence against their leaders.",
     "confidence": "high"
   },
   {
@@ -23,7 +23,7 @@
     "target": "buck_v_bell",
     "type": "PRODUCED",
     "label": "movement secured Supreme Court legitimacy",
-    "note": "The eugenics movement's legal and scientific lobbying produced the Buck v. Bell ruling as its formal judicial endorsement — converting a pseudoscientific ideology into constitutional law.",
+    "note": "The eugenics movement's legal and scientific lobbying produced the Buck v. Bell ruling as its formal judicial endorsement \u2014 converting a pseudoscientific ideology into constitutional law.",
     "confidence": "high"
   },
   {
@@ -32,7 +32,7 @@
     "target": "cointelpro",
     "type": "ENABLED",
     "label": "normalized state targeting by biology",
-    "note": "The eugenics movement normalized the idea that the state could identify and neutralize threats based on hereditary characteristics — a template for state programs that targeted populations by race and political identity. J. Edgar Hoover's language about 'contamination' echoes eugenic framing.",
+    "note": "The eugenics movement normalized the idea that the state could identify and neutralize threats based on hereditary characteristics \u2014 a template for state programs that targeted populations by race and political identity. J. Edgar Hoover's language about 'contamination' echoes eugenic framing.",
     "confidence": "speculative"
   },
   {
@@ -41,7 +41,7 @@
     "target": "tuskegee_syphilis_study",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both targeted Black Americans for state harm",
-    "note": "Both Tuskegee and the War on Drugs represent documented federal programs that inflicted disproportionate harm on Black Americans under nominally neutral justifications — one as medical research, one as law enforcement. Both produced rational distrust of state institutions.",
+    "note": "Both Tuskegee and the War on Drugs represent documented federal programs that inflicted disproportionate harm on Black Americans under nominally neutral justifications \u2014 one as medical research, one as law enforcement. Both produced rational distrust of state institutions.",
     "confidence": "medium"
   },
   {
@@ -50,7 +50,7 @@
     "target": "the_holocaust",
     "type": "ENABLED",
     "label": "Nazi scientists cited U.S. laws as precedent",
-    "note": "American eugenics laws, particularly Virginia's Racial Integrity Act and sterilization statutes, were explicitly cited by Nazi jurists at Nuremberg as legal models. The Nazi racial state did not invent its framework from scratch — it adapted and escalated an American template.",
+    "note": "American eugenics laws, particularly Virginia's Racial Integrity Act and sterilization statutes, were explicitly cited by Nazi jurists at Nuremberg as legal models. The Nazi racial state did not invent its framework from scratch \u2014 it adapted and escalated an American template.",
     "confidence": "high"
   },
   {
@@ -68,7 +68,7 @@
     "target": "nuremberg_laws_1935",
     "type": "ENABLED",
     "label": "American racial laws cited as legal precedent",
-    "note": "Nazi jurists explicitly cited U.S. racial statutes — Virginia's Racial Integrity Act, miscegenation laws, and compulsory sterilization laws — as models during the drafting of the Nuremberg Laws. James Q. Whitman's Hitler's American Model documents this in detail.",
+    "note": "Nazi jurists explicitly cited U.S. racial statutes \u2014 Virginia's Racial Integrity Act, miscegenation laws, and compulsory sterilization laws \u2014 as models during the drafting of the Nuremberg Laws. James Q. Whitman's Hitler's American Model documents this in detail.",
     "confidence": "high"
   },
   {
@@ -77,7 +77,7 @@
     "target": "american_eugenics_movement",
     "type": "ENABLED",
     "label": "Darwin theory of natural selection was systematically misapplied to justify eugenics programs",
-    "note": "Darwin himself never advocated eugenics; his cousin Francis Galton coined the term and misapplied natural selection to human breeding. Social Darwinists and eugenicists took Darwin framework — variation, inheritance, selection — and applied it to social policy in ways Darwin methodology did not support. Darwin is the intellectual ancestor of eugenics the way Marx is of Stalinism: both had their work systematically perverted by successors.",
+    "note": "Darwin himself never advocated eugenics; his cousin Francis Galton coined the term and misapplied natural selection to human breeding. Social Darwinists and eugenicists took Darwin framework \u2014 variation, inheritance, selection \u2014 and applied it to social policy in ways Darwin methodology did not support. Darwin is the intellectual ancestor of eugenics the way Marx is of Stalinism: both had their work systematically perverted by successors.",
     "confidence": "high"
   },
   {
@@ -200,7 +200,7 @@
     "target": "anti_psychiatry_movement",
     "type": "ENABLED",
     "label": "Anti-psychiatry provided the intellectual justification for deinstitutionalization's policy implementation",
-    "note": "Deinstitutionalization (1960s–80s) was accelerated by the anti-psychiatry critique: if mental illness was a social construction and asylums were coercive control mechanisms, then closing them was liberation. The intellectual cover provided by Laing and Szasz allowed cost-cutting governors (Reagan in California) to frame institutional closure as humane progress. The result: inadequate community support and mass homelessness of severely ill people.",
+    "note": "Deinstitutionalization (1960s\u201380s) was accelerated by the anti-psychiatry critique: if mental illness was a social construction and asylums were coercive control mechanisms, then closing them was liberation. The intellectual cover provided by Laing and Szasz allowed cost-cutting governors (Reagan in California) to frame institutional closure as humane progress. The result: inadequate community support and mass homelessness of severely ill people.",
     "confidence": "high"
   },
   {
@@ -209,7 +209,7 @@
     "target": "pharmaceutical_trials_manipulation",
     "type": "ENABLED",
     "label": "Pharmaceutical lobbying created the regulatory environment that enabled trial manipulation",
-    "note": "Big pharma lobbying produced the Prescription Drug User Fee Act (PDUFA, 1992) — pharmaceutical companies pay FDA review fees — creating a structural conflict of interest. Industry funding of FDA operations, combined with expedited review timelines, created pressure to approve drugs on manipulated trial evidence. The regulatory capture mechanism: industry funds the regulator, which then relies on industry-submitted data.",
+    "note": "Big pharma lobbying produced the Prescription Drug User Fee Act (PDUFA, 1992) \u2014 pharmaceutical companies pay FDA review fees \u2014 creating a structural conflict of interest. Industry funding of FDA operations, combined with expedited review timelines, created pressure to approve drugs on manipulated trial evidence. The regulatory capture mechanism: industry funds the regulator, which then relies on industry-submitted data.",
     "confidence": "high"
   },
   {
@@ -218,7 +218,7 @@
     "target": "anti_vaccination_movement",
     "type": "ENABLED",
     "label": "AIDS crisis institutionalized government medical dishonesty that fueled lasting vaccine distrust",
-    "note": "The AIDS crisis (particularly Reagan's refusal to acknowledge it publicly until 1987, after 20,000 Americans had died) created a documented pattern of government dishonesty about epidemic threats that anti-vaccination activists directly cite. The documented pattern: government initially downplayed a health crisis to protect political interests, costing lives. This creates rational grounds for skepticism when the same government later promotes vaccines as safe — the AIDS crisis is part of the evidentiary basis for medical distrust.",
+    "note": "The AIDS crisis (particularly Reagan's refusal to acknowledge it publicly until 1987, after 20,000 Americans had died) created a documented pattern of government dishonesty about epidemic threats that anti-vaccination activists directly cite. The documented pattern: government initially downplayed a health crisis to protect political interests, costing lives. This creates rational grounds for skepticism when the same government later promotes vaccines as safe \u2014 the AIDS crisis is part of the evidentiary basis for medical distrust.",
     "confidence": "high"
   },
   {
@@ -227,7 +227,7 @@
     "target": "deinstitutionalization",
     "type": "ENABLED",
     "label": "Deinstitutionalization eliminated the residential care infrastructure AIDS patients needed",
-    "note": "The AIDS crisis coincided with the aftermath of deinstitutionalization (1960s–80s): the residential care infrastructure that would have housed severely ill AIDS patients had been dismantled. Many AIDS patients in the late 1980s died in emergency rooms or homeless, because there were no long-term care facilities outside expensive hospitals. The deinstitutionalization decision — made for fiscal and ideological reasons — became a structural constraint on the AIDS response.",
+    "note": "The AIDS crisis coincided with the aftermath of deinstitutionalization (1960s\u201380s): the residential care infrastructure that would have housed severely ill AIDS patients had been dismantled. Many AIDS patients in the late 1980s died in emergency rooms or homeless, because there were no long-term care facilities outside expensive hospitals. The deinstitutionalization decision \u2014 made for fiscal and ideological reasons \u2014 became a structural constraint on the AIDS response.",
     "confidence": "medium"
   },
   {
@@ -236,7 +236,7 @@
     "target": "covid19_pandemic",
     "type": "ENABLED",
     "label": "AIDS ACT UP activism created the expedited drug approval and patient advocacy infrastructure COVID used",
-    "note": "ACT UP's activism during the AIDS crisis fundamentally changed FDA drug approval: the Treatment IND protocol (1987), Parallel Track trials (1989), and Accelerated Approval pathway (1992) were all direct results of AIDS activist pressure. These regulatory changes created the infrastructure that enabled COVID vaccine approval at unprecedented speed — Operation Warp Speed used the same expedited pathways ACT UP won. The COVID vaccine miracle was partly an inheritance from AIDS activist organizing.",
+    "note": "ACT UP's activism during the AIDS crisis fundamentally changed FDA drug approval: the Treatment IND protocol (1987), Parallel Track trials (1989), and Accelerated Approval pathway (1992) were all direct results of AIDS activist pressure. These regulatory changes created the infrastructure that enabled COVID vaccine approval at unprecedented speed \u2014 Operation Warp Speed used the same expedited pathways ACT UP won. The COVID vaccine miracle was partly an inheritance from AIDS activist organizing.",
     "confidence": "high"
   },
   {
@@ -245,7 +245,7 @@
     "target": "opioid_crisis",
     "type": "ENABLED",
     "label": "Purdue's manipulated OxyContin trials were the proximate mechanism of the prescription opioid wave",
-    "note": "Purdue Pharma's 1996 OxyContin launch relied on manipulated clinical data: the claim that OxyContin was less addictive than other opioids, and that addiction risk in chronic pain patients was less than 1%, were both based on manipulated or cherry-picked evidence. The FDA approval was secured with this data. Subsequent prescribing guidelines drew on the manipulated trials. Pharmaceutical trial manipulation was not incidental to the opioid crisis — it was the mechanism through which Purdue's product entered legitimate medicine.",
+    "note": "Purdue Pharma's 1996 OxyContin launch relied on manipulated clinical data: the claim that OxyContin was less addictive than other opioids, and that addiction risk in chronic pain patients was less than 1%, were both based on manipulated or cherry-picked evidence. The FDA approval was secured with this data. Subsequent prescribing guidelines drew on the manipulated trials. Pharmaceutical trial manipulation was not incidental to the opioid crisis \u2014 it was the mechanism through which Purdue's product entered legitimate medicine.",
     "confidence": "high"
   },
   {
@@ -254,7 +254,7 @@
     "target": "opioid_crisis",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Both used industry-funded research and regulatory capture to suppress evidence of mass harm",
-    "note": "The sugar industry (1960s–90s) and Purdue Pharma (1990s–2010s) used structurally identical strategies: fund studies that show favorable results, suppress or deny unfavorable data, capture regulatory agencies through personnel and funding relationships, and maintain market access until the harm is undeniable. The mechanism is the tobacco playbook applied to sugar and opioids. All three industries — tobacco, sugar, and pharma — literally consulted the same PR and lobbying infrastructure.",
+    "note": "The sugar industry (1960s\u201390s) and Purdue Pharma (1990s\u20132010s) used structurally identical strategies: fund studies that show favorable results, suppress or deny unfavorable data, capture regulatory agencies through personnel and funding relationships, and maintain market access until the harm is undeniable. The mechanism is the tobacco playbook applied to sugar and opioids. All three industries \u2014 tobacco, sugar, and pharma \u2014 literally consulted the same PR and lobbying infrastructure.",
     "confidence": "high"
   },
   {
@@ -263,7 +263,7 @@
     "target": "big_pharma_lobbying",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Both: industry funds the science that regulates it, producing systematic suppression of harm evidence",
-    "note": "Tetraethyl lead (1920s–80s) and pharmaceutical lobbying share the same regulatory capture mechanism: industry-funded scientists dominate expert panels, industry funding shapes research questions, and regulators depend on industry-submitted data to evaluate industry products. The lead industry suppressed evidence of neurological harm for 60 years; pharma lobbying produced the PDUFA model where pharma pays FDA review fees. Both are examples of the same corporate-regulatory revolving door producing predictable harm suppression.",
+    "note": "Tetraethyl lead (1920s\u201380s) and pharmaceutical lobbying share the same regulatory capture mechanism: industry-funded scientists dominate expert panels, industry funding shapes research questions, and regulators depend on industry-submitted data to evaluate industry products. The lead industry suppressed evidence of neurological harm for 60 years; pharma lobbying produced the PDUFA model where pharma pays FDA review fees. Both are examples of the same corporate-regulatory revolving door producing predictable harm suppression.",
     "confidence": "high"
   },
   {
@@ -272,7 +272,7 @@
     "target": "covid19_pandemic",
     "type": "ENABLED",
     "label": "Anti-psychiatry's dismantling of mental health infrastructure left COVID patients without treatment",
-    "note": "COVID-19 produced a mental health crisis (anxiety, depression, trauma, long COVID psychological symptoms) at a moment when the mental health infrastructure was at its weakest: 50 years of deinstitutionalization and anti-psychiatry-influenced defunding had produced a shortage of beds, psychiatrists, and community mental health centers. The anti-psychiatry movement's practical legacy — inadequate publicly funded mental health care — constrained the COVID mental health response.",
+    "note": "COVID-19 produced a mental health crisis (anxiety, depression, trauma, long COVID psychological symptoms) at a moment when the mental health infrastructure was at its weakest: 50 years of deinstitutionalization and anti-psychiatry-influenced defunding had produced a shortage of beds, psychiatrists, and community mental health centers. The anti-psychiatry movement's practical legacy \u2014 inadequate publicly funded mental health care \u2014 constrained the COVID mental health response.",
     "confidence": "medium"
   },
   {
@@ -281,7 +281,7 @@
     "target": "big_pharma_lobbying",
     "type": "ENABLED",
     "label": "COVID vaccine development showed pharmaceutical lobbying's success in protecting IP over global access",
-    "note": "The COVID vaccine IP controversy demonstrated pharma lobbying's sustained power: pharmaceutical companies lobbied successfully against TRIPS waiver provisions that would have allowed Generic manufacturing in developing countries. Pfizer, Moderna, and J&J lobbied against IP waivers, patent sharing, and technology transfer — maintaining monopoly pricing while millions in low-income countries went without vaccines. The COVID response showed both the triumph of pharmaceutical innovation and the lobbying infrastructure that protected profits over lives.",
+    "note": "The COVID vaccine IP controversy demonstrated pharma lobbying's sustained power: pharmaceutical companies lobbied successfully against TRIPS waiver provisions that would have allowed Generic manufacturing in developing countries. Pfizer, Moderna, and J&J lobbied against IP waivers, patent sharing, and technology transfer \u2014 maintaining monopoly pricing while millions in low-income countries went without vaccines. The COVID response showed both the triumph of pharmaceutical innovation and the lobbying infrastructure that protected profits over lives.",
     "confidence": "high"
   },
   {
@@ -290,7 +290,7 @@
     "target": "collective_trauma",
     "type": "SHARES_MECHANISM_WITH",
     "label": "ACEs and collective trauma both demonstrate how early traumatic experience reshapes neurological and psychological development",
-    "note": "ACEs and collective trauma share the fundamental mechanism: early traumatic experience (before coping systems are developed) produces lasting neurological, psychological, and physical changes. ACE research (CDC-Kaiser 1998) established dose-response: higher ACE scores predict higher rates of heart disease, cancer, mental illness, addiction, and early death. Collective trauma research shows similar intergenerational transmission: communities with high collective trauma (war, displacement, persistent discrimination) show elevated ACE rates in subsequent generations. The shared mechanism is trauma's neurobiological effect — HPA axis dysregulation, cortisol response changes — regardless of whether trauma is individual or collective.",
+    "note": "ACEs and collective trauma share the fundamental mechanism: early traumatic experience (before coping systems are developed) produces lasting neurological, psychological, and physical changes. ACE research (CDC-Kaiser 1998) established dose-response: higher ACE scores predict higher rates of heart disease, cancer, mental illness, addiction, and early death. Collective trauma research shows similar intergenerational transmission: communities with high collective trauma (war, displacement, persistent discrimination) show elevated ACE rates in subsequent generations. The shared mechanism is trauma's neurobiological effect \u2014 HPA axis dysregulation, cortisol response changes \u2014 regardless of whether trauma is individual or collective.",
     "confidence": "high"
   },
   {
@@ -308,7 +308,7 @@
     "target": "evangelical_christianity",
     "type": "ENABLED",
     "label": "Evangelical Christianity provided the theological motivation and institutional infrastructure for conversion therapy practices",
-    "note": "Conversion therapy was primarily organized and promoted by evangelical Christian organizations: Exodus International (largest conversion therapy network, shut down in 2013 with apology); Focus on the Family; American Family Association; various \"ex-gay\" ministries. The theological motivation is the belief that homosexuality is sinful and therefore changeable through prayer and behavioral modification. The institutional infrastructure is the evangelical church network. When Exodus International shut down with a public apology, its president acknowledged that conversion therapy caused lasting harm without producing the orientation change it promised — a remarkable institutional admission of harm.",
+    "note": "Conversion therapy was primarily organized and promoted by evangelical Christian organizations: Exodus International (largest conversion therapy network, shut down in 2013 with apology); Focus on the Family; American Family Association; various \"ex-gay\" ministries. The theological motivation is the belief that homosexuality is sinful and therefore changeable through prayer and behavioral modification. The institutional infrastructure is the evangelical church network. When Exodus International shut down with a public apology, its president acknowledged that conversion therapy caused lasting harm without producing the orientation change it promised \u2014 a remarkable institutional admission of harm.",
     "confidence": "high"
   },
   {
@@ -317,7 +317,7 @@
     "target": "anti_psychiatry_movement",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Both conversion therapy and anti-psychiatry reject psychiatric establishment authority, though for opposite ideological reasons",
-    "note": "Conversion therapy and the anti-psychiatry movement both challenge psychiatric establishment authority, representing different failures of the therapeutic relation. Anti-psychiatry (Szasz, Laing, Foucault) critiques psychiatry as social control dressed as medicine — pathologizing normal variation and deviance. Conversion therapy inverts this: it treats non-pathological variation (homosexuality, which APA removed from DSM in 1973) as pathology requiring treatment. Both challenge psychiatric authority but in opposite directions: anti-psychiatry expands what counts as normal; conversion therapy contracts it. Both demonstrate that psychiatric diagnosis is politically contested rather than purely scientific.",
+    "note": "Conversion therapy and the anti-psychiatry movement both challenge psychiatric establishment authority, representing different failures of the therapeutic relation. Anti-psychiatry (Szasz, Laing, Foucault) critiques psychiatry as social control dressed as medicine \u2014 pathologizing normal variation and deviance. Conversion therapy inverts this: it treats non-pathological variation (homosexuality, which APA removed from DSM in 1973) as pathology requiring treatment. Both challenge psychiatric authority but in opposite directions: anti-psychiatry expands what counts as normal; conversion therapy contracts it. Both demonstrate that psychiatric diagnosis is politically contested rather than purely scientific.",
     "confidence": "medium"
   },
   {
@@ -326,7 +326,7 @@
     "target": "war_on_drugs",
     "type": "SHARES_MECHANISM_WITH",
     "label": "The opioid crisis and War on Drugs represent contrasting government responses to addiction shaped by race: one criminalized, one medicalized",
-    "note": "The opioid crisis and War on Drugs represent the same phenomenon — mass addiction — treated through opposite policy lenses determined by racial demographics: the crack epidemic (primarily affecting Black communities in the 1980s) produced the War on Drugs with mandatory minimum sentences and mass incarceration; the opioid epidemic (initially primarily affecting white rural communities) produced treatment programs, harm reduction, and pharmaceutical company prosecution. This differential response documents how racial identity shapes policy framing: addiction is a crime requiring punishment when Black; a disease requiring treatment when white. The belated recognition of fentanyl's expansion into all communities began eroding this treatment gap.",
+    "note": "The opioid crisis and War on Drugs represent the same phenomenon \u2014 mass addiction \u2014 treated through opposite policy lenses determined by racial demographics: the crack epidemic (primarily affecting Black communities in the 1980s) produced the War on Drugs with mandatory minimum sentences and mass incarceration; the opioid epidemic (initially primarily affecting white rural communities) produced treatment programs, harm reduction, and pharmaceutical company prosecution. This differential response documents how racial identity shapes policy framing: addiction is a crime requiring punishment when Black; a disease requiring treatment when white. The belated recognition of fentanyl's expansion into all communities began eroding this treatment gap.",
     "confidence": "high"
   },
   {
@@ -335,7 +335,7 @@
     "target": "regulatory_capture",
     "type": "ENABLED",
     "label": "The FDA's failure to respond to opioid crisis evidence was a textbook case of regulatory capture by pharmaceutical industry",
-    "note": "The opioid crisis was enabled by pharmaceutical regulatory capture: the FDA approved OxyContin (1995) based on inadequate addiction studies; the FDA ignored evidence of widespread addiction and diversion for a decade; the Joint Commission adopted pain as the \"fifth vital sign\" (promoted by Purdue Pharma) mandating opioid prescription; DEA quota systems that set production caps were systematically overwhelmed by industry lobbying. Congressional testimony and DOJ investigation revealed that FDA officials received industry consulting fees; the revolving door between FDA and pharmaceutical companies created institutional capture. The regulatory failure was not accidental — it was the predictable result of regulatory capture dynamics.",
+    "note": "The opioid crisis was enabled by pharmaceutical regulatory capture: the FDA approved OxyContin (1995) based on inadequate addiction studies; the FDA ignored evidence of widespread addiction and diversion for a decade; the Joint Commission adopted pain as the \"fifth vital sign\" (promoted by Purdue Pharma) mandating opioid prescription; DEA quota systems that set production caps were systematically overwhelmed by industry lobbying. Congressional testimony and DOJ investigation revealed that FDA officials received industry consulting fees; the revolving door between FDA and pharmaceutical companies created institutional capture. The regulatory failure was not accidental \u2014 it was the predictable result of regulatory capture dynamics.",
     "confidence": "high"
   },
   {
@@ -344,7 +344,7 @@
     "target": "adverse_childhood_experiences",
     "type": "ENABLED",
     "label": "Mental health stigma prevents trauma disclosure and treatment, allowing ACE effects to compound across development",
-    "note": "Mental health stigma directly enables ACE harm through treatment prevention: stigma around mental health treatment prevents trauma survivors from seeking help; institutional cultures in schools, military, and workplaces punish mental health disclosure; race and gender shape stigma (Black men facing particular pressure against help-seeking; women's trauma more often diagnosed as personality disorder than PTSD); religious communities may frame trauma response as spiritual failure rather than medical need. ACE research demonstrates that early intervention can alter trajectory — mental health stigma blocking that intervention allows trauma effects to compound into the adult health outcomes ACE studies document.",
+    "note": "Mental health stigma directly enables ACE harm through treatment prevention: stigma around mental health treatment prevents trauma survivors from seeking help; institutional cultures in schools, military, and workplaces punish mental health disclosure; race and gender shape stigma (Black men facing particular pressure against help-seeking; women's trauma more often diagnosed as personality disorder than PTSD); religious communities may frame trauma response as spiritual failure rather than medical need. ACE research demonstrates that early intervention can alter trajectory \u2014 mental health stigma blocking that intervention allows trauma effects to compound into the adult health outcomes ACE studies document.",
     "confidence": "high"
   },
   {
@@ -380,7 +380,7 @@
     "target": "adverse_childhood_experiences",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Childhood trauma (ACEs) produces PTSD-like symptomatology but through developmental disruption rather than single-event response",
-    "note": "PTSD and ACE effects share mechanisms while differing in trauma structure: PTSD (classically) is triggered by discrete traumatic events; ACE effects result from chronic, developmental-period exposure to stress and adversity. Both produce HPA axis dysregulation, altered cortisol response, hypervigilance, and dissociation. Complex PTSD (C-PTSD) bridges this distinction — it captures the psychological effects of chronic, repeated trauma (childhood abuse, domestic violence, captivity) that produce more pervasive personality and relational disturbances than single-event PTSD. The trauma-informed care framework explicitly recognizes ACEs as producing PTSD-spectrum effects, connecting the two research traditions.",
+    "note": "PTSD and ACE effects share mechanisms while differing in trauma structure: PTSD (classically) is triggered by discrete traumatic events; ACE effects result from chronic, developmental-period exposure to stress and adversity. Both produce HPA axis dysregulation, altered cortisol response, hypervigilance, and dissociation. Complex PTSD (C-PTSD) bridges this distinction \u2014 it captures the psychological effects of chronic, repeated trauma (childhood abuse, domestic violence, captivity) that produce more pervasive personality and relational disturbances than single-event PTSD. The trauma-informed care framework explicitly recognizes ACEs as producing PTSD-spectrum effects, connecting the two research traditions.",
     "confidence": "high"
   },
   {
@@ -398,7 +398,7 @@
     "target": "single_payer_healthcare",
     "type": "ENABLED",
     "label": "The opioid crisis was exacerbated by the US healthcare system's fragmented mental health and addiction treatment coverage",
-    "note": "The opioid crisis was shaped by healthcare system failures: mental health parity laws were inconsistently enforced, leaving addiction treatment under-covered; the insurance market's preference for cheaper interventions (prescriptions) over more expensive ones (addiction treatment, therapy) incentivized opioid prescribing; fragmented coverage (job-linked insurance) meant people losing jobs during addiction lost healthcare when they needed it most; rural healthcare deserts (products of market failure) had no treatment alternatives to opioid prescriptions. Countries with universal healthcare systems and integrated addiction treatment had significantly lower pharmaceutical opioid death rates even with similar prescribing patterns — access to treatment is the key variable.",
+    "note": "The opioid crisis was shaped by healthcare system failures: mental health parity laws were inconsistently enforced, leaving addiction treatment under-covered; the insurance market's preference for cheaper interventions (prescriptions) over more expensive ones (addiction treatment, therapy) incentivized opioid prescribing; fragmented coverage (job-linked insurance) meant people losing jobs during addiction lost healthcare when they needed it most; rural healthcare deserts (products of market failure) had no treatment alternatives to opioid prescriptions. Countries with universal healthcare systems and integrated addiction treatment had significantly lower pharmaceutical opioid death rates even with similar prescribing patterns \u2014 access to treatment is the key variable.",
     "confidence": "high"
   },
   {
@@ -407,7 +407,7 @@
     "target": "anti_psychiatry_movement",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Neurodiversity and anti-psychiatry both challenge psychiatric authority to define and treat neurological difference, though from different directions",
-    "note": "Neurodiversity and anti-psychiatry share the challenge to psychiatric diagnostic authority but with key differences: anti-psychiatry (Szasz, Laing, Foucault) critiques all psychiatric diagnosis as social control; neurodiversity accepts autism and ADHD diagnoses as descriptive while rejecting the pathology framing; anti-psychiatry often opposes medication; neurodiversity advocates may support medication chosen by the neurodivergent person. Both challenge the assumption that neurological difference from statistical norms requires clinical intervention. The neurodiversity movement is more pragmatic — seeking accommodation and respect within existing institutions rather than abolishing psychiatric authority entirely.",
+    "note": "Neurodiversity and anti-psychiatry share the challenge to psychiatric diagnostic authority but with key differences: anti-psychiatry (Szasz, Laing, Foucault) critiques all psychiatric diagnosis as social control; neurodiversity accepts autism and ADHD diagnoses as descriptive while rejecting the pathology framing; anti-psychiatry often opposes medication; neurodiversity advocates may support medication chosen by the neurodivergent person. Both challenge the assumption that neurological difference from statistical norms requires clinical intervention. The neurodiversity movement is more pragmatic \u2014 seeking accommodation and respect within existing institutions rather than abolishing psychiatric authority entirely.",
     "confidence": "high"
   },
   {
@@ -416,7 +416,7 @@
     "target": "disability_rights",
     "type": "ENABLED",
     "label": "Neurodiversity is the application of disability rights' social model to neurological conditions",
-    "note": "Neurodiversity is disability rights philosophy applied to neurological variation: the social model of disability holds that people are disabled not by their bodies/minds but by social barriers that fail to accommodate variation; neurodiversity applies this to autism (not a disorder requiring cure, but a way of being requiring accommodation), ADHD (not a deficit but a different attentional profile requiring different work environments), and dyslexia (not a reading disorder but a different cognitive style requiring different teaching methods). The ADA already covers many neurodivergent conditions; the neurodiversity movement pushes further to reframe accommodation as normal rather than exceptional. The connection is explicit — many neurodiversity advocates developed their framework directly from disability rights philosophy.",
+    "note": "Neurodiversity is disability rights philosophy applied to neurological variation: the social model of disability holds that people are disabled not by their bodies/minds but by social barriers that fail to accommodate variation; neurodiversity applies this to autism (not a disorder requiring cure, but a way of being requiring accommodation), ADHD (not a deficit but a different attentional profile requiring different work environments), and dyslexia (not a reading disorder but a different cognitive style requiring different teaching methods). The ADA already covers many neurodivergent conditions; the neurodiversity movement pushes further to reframe accommodation as normal rather than exceptional. The connection is explicit \u2014 many neurodiversity advocates developed their framework directly from disability rights philosophy.",
     "confidence": "high"
   },
   {
@@ -425,7 +425,7 @@
     "target": "climate_change_denial",
     "type": "PRODUCED",
     "label": "Tobacco industry PR firms and strategies were directly transferred to climate denial campaigns",
-    "note": "The climate denial playbook was explicitly borrowed from tobacco: the \"Tobacco Institute\" model (industry-funded research organization presenting industry position as independent science) was reproduced in the Global Climate Coalition; Hill & Knowlton (tobacco PR) and the same PR professionals who managed tobacco denial consulted on climate denial campaigns; the specific strategy — \"manufacture doubt about scientific consensus rather than prove alternative\" — was developed by tobacco and licensed to other industries; Naomi Oreskes documented that the same scientists who did tobacco denial (Frederick Seitz, Fred Singer) subsequently did climate denial through the same organization (George C. Marshall Institute). The tobacco industry invented the playbook; fossil fuels copied it.",
+    "note": "The climate denial playbook was explicitly borrowed from tobacco: the \"Tobacco Institute\" model (industry-funded research organization presenting industry position as independent science) was reproduced in the Global Climate Coalition; Hill & Knowlton (tobacco PR) and the same PR professionals who managed tobacco denial consulted on climate denial campaigns; the specific strategy \u2014 \"manufacture doubt about scientific consensus rather than prove alternative\" \u2014 was developed by tobacco and licensed to other industries; Naomi Oreskes documented that the same scientists who did tobacco denial (Frederick Seitz, Fred Singer) subsequently did climate denial through the same organization (George C. Marshall Institute). The tobacco industry invented the playbook; fossil fuels copied it.",
     "confidence": "high"
   },
   {
@@ -434,7 +434,7 @@
     "target": "regulatory_capture",
     "type": "ENABLED",
     "label": "Tobacco industry regulatory capture of the FDA delayed classification of nicotine as a drug and tobacco products as drug delivery devices for decades",
-    "note": "Tobacco regulatory capture is the historical precursor to pharmaceutical regulatory capture: the FDA repeatedly attempted to regulate tobacco as a nicotine delivery device (nicotine is pharmacologically active); Congress passed the Family Smoking Prevention and Tobacco Control Act only in 2009 — after decades of failed FDA attempts blocked by tobacco industry lobbying; tobacco companies spent $13 million lobbying in 2009 to shape the bill's provisions; the resulting law was criticized by public health advocates as too weak. The tobacco industry's regulatory capture success (for six decades after cancer causation was established in 1950) became the template for pharmaceutical industry regulatory capture strategies.",
+    "note": "Tobacco regulatory capture is the historical precursor to pharmaceutical regulatory capture: the FDA repeatedly attempted to regulate tobacco as a nicotine delivery device (nicotine is pharmacologically active); Congress passed the Family Smoking Prevention and Tobacco Control Act only in 2009 \u2014 after decades of failed FDA attempts blocked by tobacco industry lobbying; tobacco companies spent $13 million lobbying in 2009 to shape the bill's provisions; the resulting law was criticized by public health advocates as too weak. The tobacco industry's regulatory capture success (for six decades after cancer causation was established in 1950) became the template for pharmaceutical industry regulatory capture strategies.",
     "confidence": "high"
   },
   {
@@ -731,7 +731,7 @@
     "target": "hiv_treatment_breakthrough",
     "type": "ENABLED",
     "label": "harm reduction's needle exchanges reduced HIV transmission that treatment later addressed",
-    "note": "Harm reduction (needle exchanges, syringe service programs) prevented HIV transmission among people who inject drugs — reducing the population that would eventually need antiretroviral treatment. The two approaches complemented each other: harm reduction kept people HIV-negative; ART kept HIV-positive people healthy and undetectable (and therefore unable to transmit).",
+    "note": "Harm reduction (needle exchanges, syringe service programs) prevented HIV transmission among people who inject drugs \u2014 reducing the population that would eventually need antiretroviral treatment. The two approaches complemented each other: harm reduction kept people HIV-negative; ART kept HIV-positive people healthy and undetectable (and therefore unable to transmit).",
     "confidence": "high"
   },
   {
@@ -740,7 +740,7 @@
     "target": "harm_reduction",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both are population-level public health interventions that work without requiring behavior change",
-    "note": "Both vaccination and harm reduction work by reducing harm regardless of individual behavior or willpower — vaccination protects even people who don't understand how it works; needle exchanges protect even people who continue using drugs. Both challenge moralizing public health approaches that make protection contingent on 'correct' behavior.",
+    "note": "Both vaccination and harm reduction work by reducing harm regardless of individual behavior or willpower \u2014 vaccination protects even people who don't understand how it works; needle exchanges protect even people who continue using drugs. Both challenge moralizing public health approaches that make protection contingent on 'correct' behavior.",
     "confidence": "high"
   },
   {
@@ -882,5 +882,89 @@
     "source": "medical_racism",
     "type": "ENABLED",
     "target": "health_disparities"
+  },
+  {
+    "source": "germ_theory",
+    "target": "great_sanitation_revolution",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "germ_theory",
+    "target": "smallpox_eradication",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "great_sanitation_revolution",
+    "target": "spanish_flu_1918",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "aids_epidemic",
+    "target": "covid_pandemic",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "aids_epidemic",
+    "target": "covid_vaccine_development",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "opioid_crisis",
+    "target": "covid_pandemic",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "covid_pandemic",
+    "target": "covid_vaccine_development",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "covid_pandemic",
+    "target": "mental_health_crisis",
+    "type": "ACCELERATED",
+    "weight": 3
+  },
+  {
+    "source": "climate_crisis_escalation",
+    "target": "climate_health_impacts",
+    "type": "CAUSES",
+    "weight": 3
+  },
+  {
+    "source": "healthcare_commodification",
+    "target": "opioid_crisis",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "pharmaceutical_industry_power",
+    "target": "opioid_crisis",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "pharmaceutical_industry_power",
+    "target": "covid_vaccine_development",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "tuskegee_study",
+    "target": "covid_vaccine_development",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "social_media_era",
+    "target": "mental_health_crisis",
+    "type": "CAUSED",
+    "weight": 3
   }
 ]

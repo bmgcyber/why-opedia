@@ -24,8 +24,8 @@
     "node_type": "reference",
     "category": "movement",
     "wikipedia": "https://en.wikipedia.org/wiki/Pain_management",
-    "summary": "Medical consensus that emerged in the 1980s–90s around the undertreatment of chronic pain — 'opiophobia' was causing patient suffering, and physicians needed to prescribe opioids more willingly. A legitimate clinical problem and the entry point Purdue Pharma systematically exploited.",
-    "decade": "1980s–1990s",
+    "summary": "Medical consensus that emerged in the 1980s\u201390s around the undertreatment of chronic pain \u2014 'opiophobia' was causing patient suffering, and physicians needed to prescribe opioids more willingly. A legitimate clinical problem and the entry point Purdue Pharma systematically exploited.",
+    "decade": "1980s\u20131990s",
     "tags": [
       "medical",
       "health",
@@ -41,8 +41,8 @@
     "node_type": "reference",
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
-    "summary": "U.S. Public Health Service study that deliberately withheld syphilis treatment from 399 Black men for 40 years after penicillin became available, observing disease progression rather than providing care. Exposed in 1972, it produced documented, lasting medical distrust in Black American communities — one of the most traceable causal links between a government atrocity and a downstream epistemic condition.",
-    "decade": "1930s–1970s",
+    "summary": "U.S. Public Health Service study that deliberately withheld syphilis treatment from 399 Black men for 40 years after penicillin became available, observing disease progression rather than providing care. Exposed in 1972, it produced documented, lasting medical distrust in Black American communities \u2014 one of the most traceable causal links between a government atrocity and a downstream epistemic condition.",
+    "decade": "1930s\u20131970s",
     "tags": [
       "government",
       "medical",
@@ -60,7 +60,7 @@
     "category": "movement",
     "wikipedia": "https://en.wikipedia.org/wiki/Eugenics_in_the_United_States",
     "summary": "State-backed program of forced sterilization and racial hygiene laws that sterilized approximately 60,000 Americans deemed 'unfit.' Explicitly cited by Nazi racial scientists as legal and scientific precedent; Nuremberg Laws were modeled partly on American miscegenation and sterilization statutes.",
-    "decade": "1900s–1940s",
+    "decade": "1900s\u20131940s",
     "tags": [
       "racism",
       "pseudoscience",
@@ -77,7 +77,7 @@
     "node_type": "reference",
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/Opioid_epidemic_in_the_United_States",
-    "summary": "Three waves of overdose deaths beginning in the 1990s: prescription opioids, then heroin, then fentanyl. Over 500,000 deaths in the US 1999–2019. Driven by pharmaceutical companies' aggressive marketing of opioids as non-addictive, regulatory failures, and the \"pain management\" ideology that incentivised heavy prescription. The crisis disproportionately struck deindustrialised communities with collapsed social infrastructure.",
+    "summary": "Three waves of overdose deaths beginning in the 1990s: prescription opioids, then heroin, then fentanyl. Over 500,000 deaths in the US 1999\u20132019. Driven by pharmaceutical companies' aggressive marketing of opioids as non-addictive, regulatory failures, and the \"pain management\" ideology that incentivised heavy prescription. The crisis disproportionately struck deindustrialised communities with collapsed social infrastructure.",
     "decade": "1990s",
     "tags": [
       "opioids",
@@ -111,11 +111,11 @@
   },
   {
     "id": "aids_crisis",
-    "label": "AIDS Crisis (1980s–90s)",
+    "label": "AIDS Crisis (1980s\u201390s)",
     "node_type": "reference",
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/HIV/AIDS_in_the_United_States",
-    "summary": "The Reagan administration's deliberate inaction during the early AIDS epidemic — when the virus was wrongly coded as a \"gay disease\" — allowed preventable mass death. ACT UP's militant activism forced FDA approval acceleration, transforming drug-approval timelines permanently. The crisis exposed how social stigma is encoded in public health responses, with moral judgements determining whose deaths receive institutional urgency.",
+    "summary": "The Reagan administration's deliberate inaction during the early AIDS epidemic \u2014 when the virus was wrongly coded as a \"gay disease\" \u2014 allowed preventable mass death. ACT UP's militant activism forced FDA approval acceleration, transforming drug-approval timelines permanently. The crisis exposed how social stigma is encoded in public health responses, with moral judgements determining whose deaths receive institutional urgency.",
     "decade": "1980s",
     "tags": [
       "aids",
@@ -154,7 +154,7 @@
     "node_type": "reference",
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/Deinstitutionalization",
-    "summary": "The large-scale closure of psychiatric hospitals from the 1960s–80s, driven by a combination of civil rights concerns about institutional abuse, the new availability of antipsychotic drugs, fiscal conservatism, and critiques of psychiatry by figures like Thomas Szasz and R.D. Laing. Community mental health infrastructure was never built to replace institutions. Resulted in mass homelessness and incarceration of people with severe mental illness — the \"transinstitutionalisation\" thesis.",
+    "summary": "The large-scale closure of psychiatric hospitals from the 1960s\u201380s, driven by a combination of civil rights concerns about institutional abuse, the new availability of antipsychotic drugs, fiscal conservatism, and critiques of psychiatry by figures like Thomas Szasz and R.D. Laing. Community mental health infrastructure was never built to replace institutions. Resulted in mass homelessness and incarceration of people with severe mental illness \u2014 the \"transinstitutionalisation\" thesis.",
     "decade": "1960s",
     "tags": [
       "mental-health",
@@ -172,7 +172,7 @@
     "node_type": "reference",
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/Tetraethyllead",
-    "summary": "Tetraethyl lead was added to gasoline from 1923 despite immediate worker deaths and the available lead-free alternative. The lead industry funded fraudulent science, intimidated researchers, and captured the Bureau of Mines for decades. Robert Kehoe's Kehoe Principle — that something must be proven harmful before regulation — inverted the precautionary principle. This model (fund science to create doubt) was later adopted by tobacco, fossil fuels, and other industries. Lead's cognitive effects may have contributed to the crime wave and drop of the 20th century.",
+    "summary": "Tetraethyl lead was added to gasoline from 1923 despite immediate worker deaths and the available lead-free alternative. The lead industry funded fraudulent science, intimidated researchers, and captured the Bureau of Mines for decades. Robert Kehoe's Kehoe Principle \u2014 that something must be proven harmful before regulation \u2014 inverted the precautionary principle. This model (fund science to create doubt) was later adopted by tobacco, fossil fuels, and other industries. Lead's cognitive effects may have contributed to the crime wave and drop of the 20th century.",
     "decade": "1920s",
     "tags": [
       "lead",
@@ -222,11 +222,11 @@
   },
   {
     "id": "thalidomide_scandal",
-    "label": "Thalidomide Scandal (1957–62)",
+    "label": "Thalidomide Scandal (1957\u201362)",
     "node_type": "reference",
     "category": "event",
     "wikipedia": "https://en.wikipedia.org/wiki/Thalidomide",
-    "summary": "Thalidomide, marketed in 46 countries as a sedative and morning sickness treatment, caused ~10,000 birth defects (phocomelia). FDA officer Frances Kelsey blocked US approval based on inadequate safety data, saving thousands. The scandal directly caused the 1962 Kefauver-Harris Amendment requiring proof of efficacy and adequate safety trials before drug approval — fundamentally transforming pharmaceutical regulation.",
+    "summary": "Thalidomide, marketed in 46 countries as a sedative and morning sickness treatment, caused ~10,000 birth defects (phocomelia). FDA officer Frances Kelsey blocked US approval based on inadequate safety data, saving thousands. The scandal directly caused the 1962 Kefauver-Harris Amendment requiring proof of efficacy and adequate safety trials before drug approval \u2014 fundamentally transforming pharmaceutical regulation.",
     "decade": "1950s",
     "tags": [
       "pharmaceutical",
@@ -247,7 +247,7 @@
     "scope": "global/health",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/COVID-19_pandemic",
-    "summary": "The COVID-19 pandemic (2019–present) killed over 7 million people officially (excess death estimates range 15–20 million) and fundamentally restructured global health, politics, and economics. The pandemic exposed failures in pandemic preparedness, supply chain resilience, and public health communication; accelerated mRNA vaccine technology; and became a vehicle for unprecedented political polarization of health messaging, anti-vaccine movements, and misinformation ecosystems.",
+    "summary": "The COVID-19 pandemic (2019\u2013present) killed over 7 million people officially (excess death estimates range 15\u201320 million) and fundamentally restructured global health, politics, and economics. The pandemic exposed failures in pandemic preparedness, supply chain resilience, and public health communication; accelerated mRNA vaccine technology; and became a vehicle for unprecedented political polarization of health messaging, anti-vaccine movements, and misinformation ecosystems.",
     "tags": [
       "pandemic",
       "covid",
@@ -267,7 +267,7 @@
     "scope": "global/health",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Sugar_industry_research_suppression",
-    "summary": "UCSF research (2016) revealed that the Sugar Research Foundation (Sugar Association) paid Harvard scientists in the 1960s to shift blame for heart disease from sugar to saturated fat — a strategy directly modeled on tobacco industry research suppression. The resulting dietary guidelines (low-fat, high-carbohydrate) shaped American diet policy for 50 years and may have contributed to the obesity and diabetes epidemic. The mechanism: industry-funded research that systematically exonerates the industry.",
+    "summary": "UCSF research (2016) revealed that the Sugar Research Foundation (Sugar Association) paid Harvard scientists in the 1960s to shift blame for heart disease from sugar to saturated fat \u2014 a strategy directly modeled on tobacco industry research suppression. The resulting dietary guidelines (low-fat, high-carbohydrate) shaped American diet policy for 50 years and may have contributed to the obesity and diabetes epidemic. The mechanism: industry-funded research that systematically exonerates the industry.",
     "tags": [
       "nutrition",
       "industry-capture",
@@ -306,7 +306,7 @@
     "scope": "global/health",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Publication_bias",
-    "summary": "Systematic manipulation of pharmaceutical clinical trials — publication bias (burying negative results), outcome switching, ghost-writing, seeding trials, key opinion leader programs, and selective data release — has distorted medical evidence for decades. Ben Goldacre's \"Bad Pharma\" documented how up to half of clinical trials go unpublished, and published trials systematically overstate benefits and understate harms. The FDA relies on industry-submitted trial data, creating a structural conflict of interest at the heart of drug approval.",
+    "summary": "Systematic manipulation of pharmaceutical clinical trials \u2014 publication bias (burying negative results), outcome switching, ghost-writing, seeding trials, key opinion leader programs, and selective data release \u2014 has distorted medical evidence for decades. Ben Goldacre's \"Bad Pharma\" documented how up to half of clinical trials go unpublished, and published trials systematically overstate benefits and understate harms. The FDA relies on industry-submitted trial data, creating a structural conflict of interest at the heart of drug approval.",
     "tags": [
       "pharma",
       "clinical-trials",
@@ -534,7 +534,7 @@
     "scope": "global/health",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Mental_health_in_the_United_States",
-    "summary": "Severe shortage of affordable mental health services in the US driven by deinstitutionalization without community replacement, insurance discrimination, and provider shortages — leaving millions without care and contributing to homelessness and incarceration.",
+    "summary": "Severe shortage of affordable mental health services in the US driven by deinstitutionalization without community replacement, insurance discrimination, and provider shortages \u2014 leaving millions without care and contributing to homelessness and incarceration.",
     "tags": [
       "mental_health",
       "deinstitutionalization",
@@ -555,7 +555,7 @@
     "scope": "global/health",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Privatization_of_health_care",
-    "summary": "Transfer of healthcare services from public to private ownership, driven by neoliberal ideology — leading to profit-driven denials of care, hospital consolidation, rising costs, and deteriorating outcomes for low-income populations.",
+    "summary": "Transfer of healthcare services from public to private ownership, driven by neoliberal ideology \u2014 leading to profit-driven denials of care, hospital consolidation, rising costs, and deteriorating outcomes for low-income populations.",
     "tags": [
       "healthcare_privatization",
       "insurance",
@@ -576,7 +576,7 @@
     "scope": "global/health",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Obesity_epidemic",
-    "summary": "The dramatic rise in obesity rates since the 1980s driven by food industry reformulation, sedentary work, food deserts, marketing to children, and income inequality — intersecting with individual responsibility narratives that obscure structural causes.",
+    "summary": "The dramatic rise in obesity rates since the 1980s driven by food industry reformulation, sedentary work, food deserts, marketing to children, and income inequality \u2014 intersecting with individual responsibility narratives that obscure structural causes.",
     "tags": [
       "obesity",
       "food_industry",
@@ -597,7 +597,7 @@
     "scope": "global/health",
     "cross_scope": false,
     "wikipedia": "https://en.wikipedia.org/wiki/Race_and_health_in_the_United_States",
-    "summary": "Racial disparities in healthcare access, quality, and outcomes rooted in systemic racism, implicit bias, and historical abuses like Tuskegee — producing higher rates of chronic illness, maternal mortality, and COVID-19 deaths in Black communities.",
+    "summary": "Racial disparities in healthcare access, quality, and outcomes rooted in systemic racism, implicit bias, and historical abuses like Tuskegee \u2014 producing higher rates of chronic illness, maternal mortality, and COVID-19 deaths in Black communities.",
     "tags": [
       "medical_racism",
       "health_disparities",
@@ -617,7 +617,7 @@
     "decade": "1850s",
     "scope": "global/health",
     "cross_scope": false,
-    "summary": "The 19th-century transformation of urban water and sewage infrastructure, eliminating cholera, typhoid, and other waterborne diseases that had killed tens of thousands annually in European and American cities. John Snow's 1854 identification of the Broad Street cholera pump as a source (foundational to epidemiology) and Joseph Bazalgette's London sewer system (1858–1875) are canonical events. By 1900, life expectancy in London had increased by approximately 15 years — more from sewers than from medicine. The sanitation revolution is the single most impactful public health intervention in history.",
+    "summary": "The 19th-century transformation of urban water and sewage infrastructure, eliminating cholera, typhoid, and other waterborne diseases that had killed tens of thousands annually in European and American cities. John Snow's 1854 identification of the Broad Street cholera pump as a source (foundational to epidemiology) and Joseph Bazalgette's London sewer system (1858\u20131875) are canonical events. By 1900, life expectancy in London had increased by approximately 15 years \u2014 more from sewers than from medicine. The sanitation revolution is the single most impactful public health intervention in history.",
     "tags": [
       "public health",
       "cholera",
@@ -637,7 +637,7 @@
     "decade": "1960s",
     "scope": "global/health",
     "cross_scope": false,
-    "summary": "WHO-coordinated campaigns to deliver vaccines across political borders, eliminating or greatly reducing polio, measles, diphtheria, pertussis, tetanus, and other childhood killers. The Expanded Programme on Immunization (EPI, launched 1974) is credited with saving over 150 million lives since its inception. GAVI (Global Alliance for Vaccines and Immunization, 2000) has vaccinated over 1 billion children in low-income countries. The campaigns demonstrate that international health cooperation can overcome extreme logistical challenges — and that the poor have as strong a claim on vaccine technology as the wealthy.",
+    "summary": "WHO-coordinated campaigns to deliver vaccines across political borders, eliminating or greatly reducing polio, measles, diphtheria, pertussis, tetanus, and other childhood killers. The Expanded Programme on Immunization (EPI, launched 1974) is credited with saving over 150 million lives since its inception. GAVI (Global Alliance for Vaccines and Immunization, 2000) has vaccinated over 1 billion children in low-income countries. The campaigns demonstrate that international health cooperation can overcome extreme logistical challenges \u2014 and that the poor have as strong a claim on vaccine technology as the wealthy.",
     "tags": [
       "vaccination",
       "who",
@@ -656,7 +656,7 @@
     "decade": "1990s",
     "scope": "global/health",
     "cross_scope": false,
-    "summary": "The development of effective HIV treatment transformed AIDS from a death sentence to a manageable chronic condition. AZT (1987) was the first antiretroviral; combination antiretroviral therapy (ART, 1996) produced the 'Lazarus effect' — patients near death recovering fully. The breakthrough was driven by: ACT UP's pressure on the FDA to accelerate drug approval (demonstrating that patient activism can reshape medical bureaucracy), the scientific community's rapid basic research, and pharmaceutical investment. By 2020, over 27 million people worldwide were on ART. Treatment also prevents transmission — 'Undetectable = Untransmittable' (U=U).",
+    "summary": "The development of effective HIV treatment transformed AIDS from a death sentence to a manageable chronic condition. AZT (1987) was the first antiretroviral; combination antiretroviral therapy (ART, 1996) produced the 'Lazarus effect' \u2014 patients near death recovering fully. The breakthrough was driven by: ACT UP's pressure on the FDA to accelerate drug approval (demonstrating that patient activism can reshape medical bureaucracy), the scientific community's rapid basic research, and pharmaceutical investment. By 2020, over 27 million people worldwide were on ART. Treatment also prevents transmission \u2014 'Undetectable = Untransmittable' (U=U).",
     "tags": [
       "hiv",
       "aids",
@@ -677,7 +677,7 @@
     "decade": "1980s",
     "scope": "global/health",
     "cross_scope": false,
-    "summary": "A public health philosophy that accepts that some people will use drugs and focuses on minimizing related harms rather than requiring abstinence. Practices include: needle exchange programs (reducing HIV transmission), naloxone distribution (reversing opioid overdoses), supervised consumption sites, and drug checking services. Evidence base is strong — needle exchanges reduced HIV transmission among people who inject drugs by 50% in the U.S.; supervised injection sites have not caused a single overdose death. Harm reduction treats addiction as a health issue rather than a moral failing, directly challenging the War on Drugs' criminalization approach.",
+    "summary": "A public health philosophy that accepts that some people will use drugs and focuses on minimizing related harms rather than requiring abstinence. Practices include: needle exchange programs (reducing HIV transmission), naloxone distribution (reversing opioid overdoses), supervised consumption sites, and drug checking services. Evidence base is strong \u2014 needle exchanges reduced HIV transmission among people who inject drugs by 50% in the U.S.; supervised injection sites have not caused a single overdose death. Harm reduction treats addiction as a health issue rather than a moral failing, directly challenging the War on Drugs' criminalization approach.",
     "tags": [
       "drugs",
       "public health",
@@ -697,7 +697,7 @@
     "decade": "1850s",
     "scope": "global/health",
     "cross_scope": false,
-    "summary": "The scientific revolution establishing that infectious diseases are caused by specific microorganisms — bacteria, viruses, fungi, parasites — rather than miasma ('bad air') or moral failing. Louis Pasteur's germ theory (1850s–60s), Robert Koch's identification of specific pathogens (anthrax 1876, tuberculosis 1882, cholera 1883), and Joseph Lister's antiseptic surgery (1867) were the foundational contributions. Germ theory is the intellectual foundation of all modern medicine: it made vaccines, antibiotics, sterile surgery, and public health infrastructure theoretically coherent. Before it, medicine was largely ineffective; after it, the elimination of major killers became possible.",
+    "summary": "The scientific revolution establishing that infectious diseases are caused by specific microorganisms \u2014 bacteria, viruses, fungi, parasites \u2014 rather than miasma ('bad air') or moral failing. Louis Pasteur's germ theory (1850s\u201360s), Robert Koch's identification of specific pathogens (anthrax 1876, tuberculosis 1882, cholera 1883), and Joseph Lister's antiseptic surgery (1867) were the foundational contributions. Germ theory is the intellectual foundation of all modern medicine: it made vaccines, antibiotics, sterile surgery, and public health infrastructure theoretically coherent. Before it, medicine was largely ineffective; after it, the elimination of major killers became possible.",
     "tags": [
       "medicine",
       "pasteur",
@@ -718,7 +718,7 @@
     "decade": "1960s",
     "scope": "global/health",
     "cross_scope": false,
-    "summary": "The movement challenging the institutionalization of people with mental illness and advocating for rights-based community care. Erving Goffman's 'Asylums' (1961) exposed psychiatric institutions as total institutions that manufactured chronicity; Thomas Szasz's 'The Myth of Mental Illness' (1961) challenged psychiatric power; the patient rights movement organized around informed consent, least-restrictive treatment, and the right to refuse medication. Deinstitutionalization (1960s–1980s) released hundreds of thousands of psychiatric patients — though without adequate community support, many ended up homeless or incarcerated. The movement established that mental illness is a civil rights issue, not merely a medical management problem.",
+    "summary": "The movement challenging the institutionalization of people with mental illness and advocating for rights-based community care. Erving Goffman's 'Asylums' (1961) exposed psychiatric institutions as total institutions that manufactured chronicity; Thomas Szasz's 'The Myth of Mental Illness' (1961) challenged psychiatric power; the patient rights movement organized around informed consent, least-restrictive treatment, and the right to refuse medication. Deinstitutionalization (1960s\u20131980s) released hundreds of thousands of psychiatric patients \u2014 though without adequate community support, many ended up homeless or incarcerated. The movement established that mental illness is a civil rights issue, not merely a medical management problem.",
     "tags": [
       "mental health",
       "psychiatry",
@@ -737,7 +737,7 @@
     "decade": "1980s",
     "region": "Global",
     "scope": "global/health",
-    "summary": "The only human disease ever eradicated; a WHO vaccination campaign eliminated smallpox in 1980 — saving an estimated 5 million lives per year and demonstrating the power of coordinated international public health.",
+    "summary": "The only human disease ever eradicated; a WHO vaccination campaign eliminated smallpox in 1980 \u2014 saving an estimated 5 million lives per year and demonstrating the power of coordinated international public health.",
     "tags": [
       "vaccination",
       "who",
@@ -754,7 +754,7 @@
     "decade": "1950s",
     "region": "USA",
     "scope": "global/health",
-    "summary": "Developed with public funding and deliberately not patented; reduced US polio cases from 58,000 in 1952 to near zero within a decade — a model of publicly funded research whose benefits were freely shared.",
+    "summary": "Developed with public funding and deliberately not patented; reduced US polio cases from 58,000 in 1952 to near zero within a decade \u2014 a model of publicly funded research whose benefits were freely shared.",
     "tags": [
       "vaccine",
       "polio",
@@ -788,7 +788,7 @@
     "decade": "1960s",
     "region": "USA",
     "scope": "global/health",
-    "summary": "Johnson administration legislation creating government health insurance for the elderly and poor — reducing elderly poverty and dramatically improving health access.",
+    "summary": "Johnson administration legislation creating government health insurance for the elderly and poor \u2014 reducing elderly poverty and dramatically improving health access.",
     "tags": [
       "healthcare",
       "insurance",
@@ -805,7 +805,7 @@
     "decade": "1850s",
     "region": "UK",
     "scope": "global/health",
-    "summary": "John Snow's mapping of the Broad Street cholera outbreak established epidemiology as a discipline — demonstrating that disease spread could be traced and interrupted without a laboratory explanation.",
+    "summary": "John Snow's mapping of the Broad Street cholera outbreak established epidemiology as a discipline \u2014 demonstrating that disease spread could be traced and interrupted without a laboratory explanation.",
     "tags": [
       "epidemiology",
       "cholera",
@@ -816,13 +816,13 @@
   },
   {
     "id": "florence_nightingale",
-    "label": "Florence Nightingale (1820–1910)",
+    "label": "Florence Nightingale (1820\u20131910)",
     "node_type": "reference",
     "category": "person",
     "decade": "1850s",
     "region": "UK",
     "scope": "global/health",
-    "summary": "Pioneer of modern nursing; her statistical analysis of Crimean War hospital mortality demonstrated that infection killed far more soldiers than wounds — establishing data-driven healthcare improvement.",
+    "summary": "Pioneer of modern nursing; her statistical analysis of Crimean War hospital mortality demonstrated that infection killed far more soldiers than wounds \u2014 establishing data-driven healthcare improvement.",
     "tags": [
       "nursing",
       "sanitation",
@@ -839,7 +839,7 @@
     "decade": "1960s",
     "region": "Global",
     "scope": "global/health",
-    "summary": "Movement for women's access to contraception and abortion — Griswold v. Connecticut (1965), Roe v. Wade (1973) — treating reproductive autonomy as essential to women's health and equality.",
+    "summary": "Movement for women's access to contraception and abortion \u2014 Griswold v. Connecticut (1965), Roe v. Wade (1973) \u2014 treating reproductive autonomy as essential to women's health and equality.",
     "tags": [
       "women's rights",
       "contraception",
@@ -850,7 +850,7 @@
   },
   {
     "id": "clean_air_clean_water_acts",
-    "label": "Clean Air & Clean Water Acts (1970–72)",
+    "label": "Clean Air & Clean Water Acts (1970\u201372)",
     "node_type": "reference",
     "category": "event",
     "decade": "1970s",
@@ -890,7 +890,7 @@
     "decade": "1980s",
     "region": "USA",
     "scope": "global/health",
-    "summary": "ACT UP used direct action — die-ins at the FDA, disruption of conferences — to accelerate drug approval and force government response, transforming patient advocacy and establishing a model for healthcare politics.",
+    "summary": "ACT UP used direct action \u2014 die-ins at the FDA, disruption of conferences \u2014 to accelerate drug approval and force government response, transforming patient advocacy and establishing a model for healthcare politics.",
     "tags": [
       "aids",
       "activism",
@@ -924,7 +924,7 @@
     "decade": "1920s",
     "region": "UK",
     "scope": "global/health",
-    "summary": "Fleming's discovery of penicillin transformed medicine — previously fatal infections became treatable. Penicillin was deliberately not patented to maximize availability.",
+    "summary": "Fleming's discovery of penicillin transformed medicine \u2014 previously fatal infections became treatable. Penicillin was deliberately not patented to maximize availability.",
     "tags": [
       "medicine",
       "infection",
@@ -958,7 +958,7 @@
     "decade": "1990s",
     "region": "Global",
     "scope": "global/health",
-    "summary": "Movement to normalize mental health treatment through public campaigns, celebrity disclosure, and school-based programs — reducing the shame that prevented people from seeking care.",
+    "summary": "Movement to normalize mental health treatment through public campaigns, celebrity disclosure, and school-based programs \u2014 reducing the shame that prevented people from seeking care.",
     "tags": [
       "mental health",
       "stigma",
@@ -992,7 +992,7 @@
     "decade": "1980s",
     "region": "Global",
     "scope": "global/health",
-    "summary": "Systematic differences in health outcomes between population groups — mortality, morbidity, access to care — that track race, class, and geography rather than individual choices alone.",
+    "summary": "Systematic differences in health outcomes between population groups \u2014 mortality, morbidity, access to care \u2014 that track race, class, and geography rather than individual choices alone.",
     "tags": [
       "health",
       "inequality",
@@ -1001,5 +1001,86 @@
       "structural",
       "disparities"
     ]
+  },
+  {
+    "id": "germ_theory",
+    "label": "Germ Theory of Disease (1860s\u20131880s)",
+    "category": "event",
+    "scope": "global/health",
+    "decade": 1860,
+    "region": "Europe",
+    "summary": "Pasteur and Koch proved that specific microorganisms cause specific diseases, replacing miasma theory and enabling vaccines, antibiotics, and the sanitation revolution that doubled life expectancy."
+  },
+  {
+    "id": "great_sanitation_revolution",
+    "label": "Great Sanitation Revolution (1850s\u20131900s)",
+    "category": "event",
+    "scope": "global/health",
+    "decade": 1850,
+    "region": "Europe",
+    "summary": "Building sewers, clean water systems, and public health infrastructure in industrial cities produced the greatest improvement in human mortality before antibiotics \u2014 demonstrating that social investment, not medicine, drives population health."
+  },
+  {
+    "id": "smallpox_eradication",
+    "label": "Smallpox Eradication (1967\u20131980)",
+    "category": "event",
+    "scope": "global/health",
+    "decade": 1967,
+    "region": "Global",
+    "summary": "The only human disease successfully eradicated globally through a coordinated WHO vaccination campaign \u2014 the greatest public health achievement in history, demonstrating what international cooperation and political will can accomplish."
+  },
+  {
+    "id": "mental_health_crisis",
+    "label": "Global Mental Health Crisis (2010s\u2013present)",
+    "category": "event",
+    "scope": "global/health",
+    "decade": 2010,
+    "region": "Global",
+    "summary": "Surging rates of depression, anxiety, and suicide, especially among youth, correlate with social media use, economic insecurity, and isolation \u2014 while mental health care remains radically underfunded compared to physical health."
+  },
+  {
+    "id": "climate_health_impacts",
+    "label": "Climate Change & Health (2010s\u2013present)",
+    "category": "event",
+    "scope": "global/health",
+    "decade": 2010,
+    "region": "Global",
+    "summary": "Rising temperatures, extreme weather, and ecosystem disruption are driving vector-borne disease expansion, heat mortality, food insecurity, and climate refugees \u2014 the health dimension of climate crisis."
+  },
+  {
+    "id": "healthcare_commodification",
+    "label": "Healthcare Commodification (1970s\u2013present)",
+    "category": "event",
+    "scope": "global/health",
+    "decade": 1970,
+    "region": "North America",
+    "summary": "The transformation of US healthcare from public service to profit-maximizing industry produced the world's most expensive and least equitable health system, with 30% of costs going to administration rather than care."
+  },
+  {
+    "id": "pharmaceutical_industry_power",
+    "label": "Pharmaceutical Industry Power (1980s\u2013present)",
+    "category": "event",
+    "scope": "global/health",
+    "decade": 1980,
+    "region": "Global",
+    "summary": "Patent monopolies, regulatory capture, and direct-to-consumer advertising gave pharmaceutical companies enormous power to set drug prices, suppress competition, and shape medical research agendas."
+  },
+  {
+    "id": "tuskegee_study",
+    "label": "Tuskegee Syphilis Study (1932\u20131972)",
+    "category": "event",
+    "scope": "global/health",
+    "decade": 1932,
+    "region": "North America",
+    "summary": "US government withheld syphilis treatment from 399 Black men for 40 years to study disease progression \u2014 a defining case of medical racism that produced lasting distrust of public health among Black Americans."
+  },
+  {
+    "id": "covid_vaccine_development",
+    "label": "COVID-19 Vaccine Development (2020\u20132021)",
+    "category": "event",
+    "scope": "global/health",
+    "decade": 2020,
+    "region": "Global",
+    "summary": "mRNA vaccines developed in under a year through unprecedented public-private coordination, demonstrating what is possible when political will and resources align \u2014 while patent restrictions limited access in developing countries."
   }
 ]
