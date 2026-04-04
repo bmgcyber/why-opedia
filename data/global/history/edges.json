@@ -9089,5 +9089,175 @@
     "source": "justinian_plague",
     "type": "SHARES_MECHANISM_WITH",
     "target": "black_death_social_impact"
+  },
+  {
+    "source": "rise_of_islam",
+    "type": "ENABLED",
+    "target": "umayyad_caliphate"
+  },
+  {
+    "source": "rise_of_islam",
+    "type": "ENABLED",
+    "target": "abbasid_caliphate"
+  },
+  {
+    "source": "umayyad_caliphate",
+    "type": "ENABLED",
+    "target": "abbasid_caliphate"
+  },
+  {
+    "source": "abbasid_caliphate",
+    "type": "PRODUCED",
+    "target": "islamic_golden_age"
+  },
+  {
+    "source": "fall_of_rome",
+    "type": "ENABLED",
+    "target": "feudalism_europe"
+  },
+  {
+    "source": "fall_of_rome",
+    "type": "ENABLED",
+    "target": "charlemagne_frankish_empire"
+  },
+  {
+    "source": "feudalism_europe",
+    "type": "PRODUCED",
+    "target": "serf_system"
+  },
+  {
+    "source": "feudal_system",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "feudalism_europe"
+  },
+  {
+    "source": "serf_system",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "slavery_ancient_rome"
+  },
+  {
+    "source": "charlemagne_frankish_empire",
+    "type": "ENABLED",
+    "target": "feudalism_europe"
+  },
+  {
+    "source": "viking_age",
+    "type": "ENABLED",
+    "target": "kievan_rus"
+  },
+  {
+    "source": "kievan_rus",
+    "type": "ENABLED",
+    "target": "mongol_empire"
+  },
+  {
+    "source": "mongol_empire",
+    "type": "ENABLED",
+    "target": "kievan_rus"
+  },
+  {
+    "source": "tang_dynasty_china",
+    "type": "ENABLED",
+    "target": "song_dynasty_china"
+  },
+  {
+    "source": "song_dynasty_china",
+    "type": "ENABLED",
+    "target": "mongol_empire"
+  },
+  {
+    "source": "mongol_empire",
+    "type": "ENABLED",
+    "target": "mongol_conquest_detailed"
+  },
+  {
+    "source": "mongol_conquest_detailed",
+    "type": "ENABLED",
+    "target": "black_death"
+  },
+  {
+    "source": "mongol_conquest_detailed",
+    "type": "ENABLED",
+    "target": "abbasid_caliphate"
+  },
+  {
+    "source": "black_death",
+    "type": "ENABLED",
+    "target": "black_death_social_impact"
+  },
+  {
+    "source": "black_death_social_impact",
+    "type": "ENABLED",
+    "target": "peasants_revolt_1381"
+  },
+  {
+    "source": "crusades",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "crusades_middle_east"
+  },
+  {
+    "source": "crusades_middle_east",
+    "type": "ENABLED",
+    "target": "islamic_golden_age"
+  },
+  {
+    "source": "crusades_middle_east",
+    "type": "ENABLED",
+    "target": "ottoman_empire_rise"
+  },
+  {
+    "source": "crusades_middle_east",
+    "type": "ENABLED",
+    "target": "reconquista"
+  },
+  {
+    "source": "reconquista",
+    "type": "ENABLED",
+    "target": "spanish_inquisition"
+  },
+  {
+    "source": "reconquista",
+    "type": "ENABLED",
+    "target": "columbian_exchange"
+  },
+  {
+    "source": "ottoman_empire",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "ottoman_empire_rise"
+  },
+  {
+    "source": "ottoman_empire_rise",
+    "type": "ENABLED",
+    "target": "byzantine_empire"
+  },
+  {
+    "source": "mali_empire",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "mali_empire_timbuktu"
+  },
+  {
+    "source": "aztec_empire",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "aztec_empire_mechanisms"
+  },
+  {
+    "source": "inca_empire",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "inca_empire_mechanisms"
+  },
+  {
+    "source": "printing_press",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "printing_press_gutenberg"
+  },
+  {
+    "source": "magna_carta_1215",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "magna_carta_significance"
+  },
+  {
+    "source": "black_death",
+    "type": "ENABLED",
+    "target": "printing_press_gutenberg"
   }
 ]

@@ -3354,5 +3354,95 @@
       "legitimacy",
       "speech"
     ]
+  },
+  {
+    "id": "land_enclosure",
+    "label": "Land Enclosure (Privatization of Commons)",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The conversion of common land — shared pasture, forest, and fishery — into private property, dispossessing peasants who depended on the commons for subsistence and forcing them into wage labor.",
+    "description": "Land enclosure is the original act of primitive accumulation — the transformation of use rights (everyone can graze here) into exclusive property rights (this is mine, not yours). The English Enclosure Acts (12th–19th century) converted millions of acres of common land into private sheep pastures, driving 4–5 million people off the land and into urban manufacturing or emigration.\n\nThe mechanism is politically difficult to oppose because it operates through law. Parliament encloses the commons through legislation; those displaced have no formal standing to object. The ideological justification is efficiency: common land is 'unproductive' because no one has the individual incentive to improve it (Hardin's 'Tragedy of the Commons'). What this narrative omits is that commons were typically managed through community rules — enclosure destroyed not just land access but the governance institutions that managed it.\n\nRecognize modern analogs: the privatization of water utilities, intellectual property expansion, and platform monopolies on digital commons all follow the enclosure logic — converting a shared resource into a toll-gated property. The commons are always described as inefficient; the private alternative always generates monopoly rents.",
+    "tags": [
+      "enclosure",
+      "commons",
+      "privatization",
+      "primitive accumulation",
+      "peasants",
+      "land",
+      "capitalism",
+      "class"
+    ]
+  },
+  {
+    "id": "inquisition_mechanism",
+    "label": "Inquisition (Thought-Crime Prosecution)",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "A systematic institutional mechanism for investigating and punishing private belief — using coerced confession, informants, and public ritual punishment to enforce ideological conformity and destroy heterodox community.",
+    "tags": [
+      "inquisition",
+      "thought control",
+      "persecution",
+      "religion",
+      "surveillance",
+      "torture",
+      "conformity"
+    ]
+  },
+  {
+    "id": "colonialism",
+    "label": "Colonialism",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The establishment and maintenance of political control over a foreign territory and its people, typically involving settlement, economic extraction, and the suppression of indigenous governance, culture, and resistance.",
+    "description": "Colonialism is distinct from imperialism in that it typically involves permanent settler presence and the systematic displacement of indigenous populations. The mechanism operates through several simultaneous processes: military conquest, legal extinguishment of indigenous land tenure, missionary conversion that delegitimizes indigenous culture, educational systems designed to produce a compliant administrative class, and economic structures that extract primary resources while making colonies dependent on manufactured imports.\n\nThe colonial order is self-maintaining: indigenous elites who collaborate receive protection and advantage; those who resist are suppressed as criminals or savages. The ideology of civilization — the claim that colonizers bring order, religion, and development to primitive peoples — is not merely propaganda; colonial officials typically believe it, which is why the violence required to maintain the system comes as a surprise to them every time.\n\nRecognize its contemporary legacy: the pattern of resource-rich but institutionally weak post-colonial states is not accidental. Colonial powers deliberately weakened indigenous governance, drew borders that divided ethnic groups while uniting hostile ones, educated just enough indigenous people to staff an administration without training leadership, and extracted rather than invested. Post-colonial debt is often the direct continuation of colonial fiscal extraction.",
+    "tags": [
+      "colonialism",
+      "empire",
+      "extraction",
+      "indigenous",
+      "settlers",
+      "culture",
+      "resistance",
+      "development"
+    ]
+  },
+  {
+    "id": "religious_schism",
+    "label": "Religious Schism",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "The splitting of a religious community over doctrine or practice — producing competing claims to legitimacy, often aligned with political factions, and enabling the weaponization of theological difference for political ends.",
+    "tags": [
+      "schism",
+      "religion",
+      "politics",
+      "legitimacy",
+      "church",
+      "sunni-shia",
+      "reformation",
+      "doctrine"
+    ]
+  },
+  {
+    "id": "extractive_institutions",
+    "label": "Extractive Institutions",
+    "node_type": "mechanism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Economic and political institutions designed to extract wealth from the many to benefit a narrow elite — contrasted with inclusive institutions that distribute power and opportunity broadly (Acemoglu & Robinson).",
+    "tags": [
+      "institutions",
+      "extraction",
+      "elite",
+      "inequality",
+      "acemoglu",
+      "robinson",
+      "development"
+    ]
   }
 ]

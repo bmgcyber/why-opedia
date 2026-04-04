@@ -12400,5 +12400,365 @@
       "science",
       "translation"
     ]
+  },
+  {
+    "id": "umayyad_caliphate",
+    "label": "Umayyad Caliphate (661–750 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "660s",
+    "region": "Middle East",
+    "scope": "global/history",
+    "summary": "First hereditary Islamic dynasty — expanded Islam from Spain to Sindh (modern Pakistan), creating the largest empire the world had yet seen. The Umayyads also introduced a tension that persists: Islam's egalitarian theology vs. an aristocratic Arab ruling class that treated non-Arab converts as second-class.",
+    "tags": [
+      "umayyad",
+      "caliphate",
+      "islam",
+      "expansion",
+      "spain",
+      "persia",
+      "dynasty",
+      "egalitarianism"
+    ]
+  },
+  {
+    "id": "abbasid_caliphate",
+    "label": "Abbasid Caliphate (750–1258 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "750s",
+    "region": "Baghdad",
+    "scope": "global/history",
+    "summary": "The second great Islamic dynasty, centered at Baghdad, producing the Islamic Golden Age. The Abbasids overthrew the Umayyads partly on an egalitarian platform, but quickly replicated the aristocratic structure. Their House of Wisdom translated Greek, Persian, and Indian texts, preserving and transmitting classical knowledge.",
+    "tags": [
+      "abbasid",
+      "baghdad",
+      "golden age",
+      "translation",
+      "house of wisdom",
+      "philosophy",
+      "science"
+    ]
+  },
+  {
+    "id": "charlemagne_frankish_empire",
+    "label": "Charlemagne & the Frankish Empire (768–814 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "760s",
+    "region": "Europe",
+    "scope": "global/history",
+    "summary": "Charlemagne united most of Western Europe for the first time since Rome, establishing the template of Christian Europe: coronation by the Pope (divine legitimacy), church-state fusion, and compulsory conversion. His empire fragmented after his death but the administrative, legal, and ecclesiastical framework outlasted him.",
+    "tags": [
+      "charlemagne",
+      "europe",
+      "frankish",
+      "pope",
+      "church-state",
+      "feudalism",
+      "medieval",
+      "carolingian"
+    ]
+  },
+  {
+    "id": "feudalism_europe",
+    "label": "European Feudalism (9th–15th century CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "900s",
+    "region": "Europe",
+    "scope": "global/history",
+    "summary": "The hierarchical system of land tenure and military obligation that organized medieval European society: kings granted land (fiefs) to nobles in exchange for military service; nobles extracted labor and rent from serfs who were legally bound to the land. Feudalism was not merely economic — it was a total social order backed by religious sanction.",
+    "tags": [
+      "feudalism",
+      "medieval",
+      "serfs",
+      "lords",
+      "land",
+      "military",
+      "church",
+      "hierarchy",
+      "europe"
+    ]
+  },
+  {
+    "id": "serf_system",
+    "label": "Serfdom (Manorial System)",
+    "node_type": "reference",
+    "category": "phenomenon",
+    "decade": "900s",
+    "region": "Europe",
+    "scope": "global/history",
+    "summary": "Medieval serfs were not slaves (they could not be sold separately from the land) but were legally bound to their lord's estate, owed labor services and fees, and required permission for marriage, travel, and inheritance. Serfdom was the primary form of unfree labor in medieval Europe, persisting in Russia until 1861.",
+    "tags": [
+      "serfdom",
+      "medieval",
+      "labor",
+      "bondage",
+      "lord",
+      "manor",
+      "russia",
+      "peasants"
+    ]
+  },
+  {
+    "id": "viking_age",
+    "label": "Viking Age (793–1066 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "790s",
+    "region": "Northern Europe",
+    "scope": "global/history",
+    "summary": "Scandinavian expansion through raiding, trading, and settlement across Europe, the North Atlantic, and as far as North America and the Caspian Sea. The Vikings disrupted the Carolingian order, founded states in Normandy and Kievan Rus, and demonstrated that mobile naval power could challenge any land empire.",
+    "tags": [
+      "vikings",
+      "scandinavia",
+      "raiding",
+      "trade",
+      "settlement",
+      "norman",
+      "kievan rus",
+      "longship"
+    ]
+  },
+  {
+    "id": "kievan_rus",
+    "label": "Kievan Rus (882–1240 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "880s",
+    "region": "Eastern Europe",
+    "scope": "global/history",
+    "summary": "The first East Slavic state, centered at Kyiv — founded by Varangian (Viking) rulers but rapidly Slavicized. Converted to Orthodox Christianity in 988 CE, creating the cultural foundation for Russia, Ukraine, and Belarus. Destroyed by the Mongol invasion of 1240.",
+    "tags": [
+      "kievan rus",
+      "kyiv",
+      "ukraine",
+      "russia",
+      "orthodox",
+      "christianity",
+      "mongol",
+      "slavic"
+    ]
+  },
+  {
+    "id": "tang_dynasty_china",
+    "label": "Tang Dynasty (618–907 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "618s",
+    "region": "China",
+    "scope": "global/history",
+    "summary": "China's cosmopolitan golden age — Tang Chang'an was the world's largest city (1 million people), an international hub where Zoroastrians, Nestorian Christians, Buddhists, and Muslims coexisted. The Tang produced the civil service examination system (meritocracy over aristocracy) and Tang poetry.",
+    "tags": [
+      "tang",
+      "china",
+      "cosmopolitan",
+      "civil service",
+      "examination",
+      "poetry",
+      "silk road",
+      "meritocracy"
+    ]
+  },
+  {
+    "id": "song_dynasty_china",
+    "label": "Song Dynasty (960–1279 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "960s",
+    "region": "China",
+    "scope": "global/history",
+    "summary": "The most commercially sophisticated economy before the Industrial Revolution — paper money, printing, gunpowder weapons, and the magnetic compass all developed or were mass-produced in Song China. Population ~100 million; per capita income comparable to early modern Europe. Conquered by the Mongols.",
+    "tags": [
+      "song",
+      "china",
+      "commerce",
+      "paper money",
+      "printing",
+      "gunpowder",
+      "compass",
+      "innovation"
+    ]
+  },
+  {
+    "id": "magna_carta_significance",
+    "label": "Magna Carta & Rise of Common Law (1215 CE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1210s",
+    "region": "England",
+    "scope": "global/history",
+    "summary": "King John's forced concessions to barons established that the king was subject to law — a revolutionary principle. The 63 clauses included protections against arbitrary imprisonment that became habeas corpus. Common law developed over subsequent centuries as judges' decisions accumulated into precedent, creating law that was not merely the king's command.",
+    "tags": [
+      "magna carta",
+      "habeas corpus",
+      "common law",
+      "england",
+      "rule of law",
+      "rights",
+      "barons",
+      "1215"
+    ]
+  },
+  {
+    "id": "reconquista",
+    "label": "Reconquista (718–1492 CE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "718s",
+    "region": "Iberia",
+    "scope": "global/history",
+    "summary": "The 774-year campaign by Christian kingdoms to retake the Iberian Peninsula from Muslim rule — ending with Ferdinand and Isabella's conquest of Granada in 1492. Produced both the Spanish Inquisition (purging Jews and Muslims after 'reconquest') and Columbus' voyage (funded by a monarchy newly unified and looking for wealth).",
+    "tags": [
+      "spain",
+      "crusade",
+      "christian",
+      "muslim",
+      "inquisition",
+      "iberia",
+      "columbus",
+      "reconquista"
+    ]
+  },
+  {
+    "id": "crusades_middle_east",
+    "label": "The Crusades (1095–1291 CE)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1090s",
+    "region": "Middle East/Europe",
+    "scope": "global/history",
+    "summary": "Eight major military campaigns launched by European Christianity to capture the Holy Land — succeeded initially (1099 CE sack of Jerusalem, mass killing of Muslims and Jews) but ultimately failed. Left a legacy of Christian-Muslim hostility, Jewish persecution in Europe, and the weakening of Byzantine defenses against the Ottomans.",
+    "tags": [
+      "crusades",
+      "pope",
+      "jerusalem",
+      "muslim",
+      "christian",
+      "holy land",
+      "war",
+      "religion",
+      "persecution"
+    ]
+  },
+  {
+    "id": "mongol_conquest_detailed",
+    "label": "Mongol Conquests (1206–1368 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1200s",
+    "region": "Eurasia",
+    "scope": "global/history",
+    "summary": "The largest contiguous land empire in history — under Genghis Khan and successors, the Mongols conquered from Korea to Poland, destroying civilizations in Central Asia (Samarkand, Merv), sacking Baghdad (1258, ending the Abbasid Caliphate), and killing an estimated 40 million people. Also transmitted the Black Death, gunpowder, and the postal relay system across Eurasia.",
+    "tags": [
+      "mongol",
+      "genghis khan",
+      "conquest",
+      "destruction",
+      "empire",
+      "central asia",
+      "baghdad",
+      "plague"
+    ]
+  },
+  {
+    "id": "mali_empire_timbuktu",
+    "label": "Mali Empire & Timbuktu (1235–1670 CE)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1230s",
+    "region": "West Africa",
+    "scope": "global/history",
+    "summary": "At its peak under Mansa Musa (possibly the wealthiest person in history), the Mali Empire controlled trans-Saharan gold and salt trade and made Timbuktu a center of Islamic learning with universities and libraries. Mansa Musa's 1324 pilgrimage to Mecca — with 60,000 men and 100 camels loaded with gold — crashed Cairo's gold market for a decade.",
+    "tags": [
+      "mali",
+      "timbuktu",
+      "africa",
+      "mansa musa",
+      "gold",
+      "islamic learning",
+      "trade",
+      "wealth"
+    ]
+  },
+  {
+    "id": "aztec_empire_mechanisms",
+    "label": "Aztec Triple Alliance Mechanisms",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1420s",
+    "region": "Mesoamerica",
+    "scope": "global/history",
+    "summary": "The Aztec empire operated through a sophisticated tribute system: conquered cities sent regular payments of goods but retained local governance. Human sacrifice — at a scale (perhaps 20,000/year at Tenochtitlan) that shocked even hardened Spanish conquistadors — was both religious and political: demonstrating power over life and death, and producing terror in subject populations.",
+    "tags": [
+      "aztec",
+      "tribute",
+      "sacrifice",
+      "tenochtitlan",
+      "mesoamerica",
+      "power",
+      "terror",
+      "religion"
+    ]
+  },
+  {
+    "id": "inca_empire_mechanisms",
+    "label": "Inca Empire & Mit'a System",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1430s",
+    "region": "South America",
+    "scope": "global/history",
+    "summary": "The Inca empire ran without markets or money — through the mit'a system of rotational labor tax, subjects owed periodic labor service to the state. In return, the state redistributed food and goods from central warehouses. A command economy in the Andes that fed and housed millions.",
+    "tags": [
+      "inca",
+      "mita",
+      "labor tax",
+      "command economy",
+      "andes",
+      "redistribution",
+      "south america"
+    ]
+  },
+  {
+    "id": "ottoman_empire_rise",
+    "label": "Ottoman Empire — Rise & Conquest of Constantinople (1453)",
+    "node_type": "reference",
+    "category": "era",
+    "decade": "1290s",
+    "region": "Turkey/Eastern Europe",
+    "scope": "global/history",
+    "summary": "The Ottoman Empire grew from a Turkic principality to conquer Anatolia, the Balkans, and finally Constantinople (1453) — ending the Byzantine Empire and controlling the eastern Mediterranean. Under Suleiman the Magnificent (1520–1566), the Ottomans reached Vienna and controlled the Silk Road chokepoints.",
+    "tags": [
+      "ottoman",
+      "constantinople",
+      "turkey",
+      "balkans",
+      "suleiman",
+      "mediterranean",
+      "1453",
+      "silk road"
+    ]
+  },
+  {
+    "id": "printing_press_gutenberg",
+    "label": "Gutenberg's Printing Press (c. 1440)",
+    "node_type": "reference",
+    "category": "event",
+    "decade": "1440s",
+    "region": "Germany",
+    "scope": "global/history",
+    "summary": "Moveable type printing in Europe (independently developed in China centuries earlier) reduced the cost of books by 99%, enabling mass literacy, the Protestant Reformation, scientific publishing, and eventually democratic political theory. The most powerful information technology before the internet.",
+    "tags": [
+      "printing press",
+      "gutenberg",
+      "literacy",
+      "reformation",
+      "books",
+      "information",
+      "knowledge",
+      "democracy"
+    ]
   }
 ]

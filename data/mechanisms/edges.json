@@ -19905,5 +19905,205 @@
     "source": "gupta_empire",
     "type": "ENABLED",
     "target": "scientific_method"
+  },
+  {
+    "source": "land_enclosure",
+    "type": "ENABLED",
+    "target": "enclosure_movement_economics"
+  },
+  {
+    "source": "land_enclosure",
+    "type": "ENABLED",
+    "target": "feudalism_europe"
+  },
+  {
+    "source": "land_enclosure",
+    "type": "ENABLED",
+    "target": "industrial_revolution"
+  },
+  {
+    "source": "land_enclosure",
+    "type": "ENABLED",
+    "target": "primitive_accumulation"
+  },
+  {
+    "source": "land_enclosure",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "resource_extraction"
+  },
+  {
+    "source": "feudalism_europe",
+    "type": "PRODUCED",
+    "target": "land_enclosure"
+  },
+  {
+    "source": "enclosure_movement_economics",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "land_enclosure"
+  },
+  {
+    "source": "inquisition_mechanism",
+    "type": "ENABLED",
+    "target": "spanish_inquisition"
+  },
+  {
+    "source": "inquisition_mechanism",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "cult_dynamics"
+  },
+  {
+    "source": "inquisition_mechanism",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "authoritarian_control"
+  },
+  {
+    "source": "inquisition_mechanism",
+    "type": "ENABLED",
+    "target": "church_state_entanglement"
+  },
+  {
+    "source": "inquisition_mechanism",
+    "type": "ENABLED",
+    "target": "dehumanization"
+  },
+  {
+    "source": "inquisition_mechanism",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "moral_panic"
+  },
+  {
+    "source": "colonialism",
+    "type": "ENABLED",
+    "target": "columbian_exchange"
+  },
+  {
+    "source": "colonialism",
+    "type": "ENABLED",
+    "target": "transatlantic_slave_trade"
+  },
+  {
+    "source": "colonialism",
+    "type": "ENABLED",
+    "target": "imperialism"
+  },
+  {
+    "source": "colonialism",
+    "type": "ENABLED",
+    "target": "structural_violence"
+  },
+  {
+    "source": "colonialism",
+    "type": "ENABLED",
+    "target": "extractive_institutions"
+  },
+  {
+    "source": "colonialism",
+    "type": "ENABLED",
+    "target": "decolonization_independence_wave"
+  },
+  {
+    "source": "colonialism",
+    "type": "ENABLED",
+    "target": "imf_structural_adjustment"
+  },
+  {
+    "source": "colonialism",
+    "type": "PRODUCED",
+    "target": "systemic_racism"
+  },
+  {
+    "source": "spanish_inquisition",
+    "type": "ENABLED",
+    "target": "colonialism"
+  },
+  {
+    "source": "reconquista",
+    "type": "ENABLED",
+    "target": "colonialism"
+  },
+  {
+    "source": "religious_schism",
+    "type": "ENABLED",
+    "target": "crusades_middle_east"
+  },
+  {
+    "source": "religious_schism",
+    "type": "ENABLED",
+    "target": "protestant_reformation"
+  },
+  {
+    "source": "rise_of_islam",
+    "type": "PRODUCED",
+    "target": "religious_schism"
+  },
+  {
+    "source": "constantine_christianity",
+    "type": "PRODUCED",
+    "target": "religious_schism"
+  },
+  {
+    "source": "religious_schism",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "in_group_out_group_dynamics"
+  },
+  {
+    "source": "serf_system",
+    "type": "ENABLED",
+    "target": "structural_violence"
+  },
+  {
+    "source": "serf_system",
+    "type": "SHARES_MECHANISM_WITH",
+    "target": "debt_bondage"
+  },
+  {
+    "source": "feudalism_europe",
+    "type": "ENABLED",
+    "target": "structural_violence"
+  },
+  {
+    "source": "printing_press_gutenberg",
+    "type": "DISCREDITED",
+    "target": "literacy_as_power"
+  },
+  {
+    "source": "printing_press_gutenberg",
+    "type": "ENABLED",
+    "target": "protestant_reformation"
+  },
+  {
+    "source": "printing_press_gutenberg",
+    "type": "ENABLED",
+    "target": "scientific_method"
+  },
+  {
+    "source": "tang_dynasty_china",
+    "type": "ENABLED",
+    "target": "silk_road_ancient"
+  },
+  {
+    "source": "mali_empire_timbuktu",
+    "type": "DISCREDITED",
+    "target": "historical_revisionism"
+  },
+  {
+    "source": "mongol_conquest_detailed",
+    "type": "ENABLED",
+    "target": "imperial_overextension"
+  },
+  {
+    "source": "aztec_empire_mechanisms",
+    "type": "PRODUCED",
+    "target": "tribute_system"
+  },
+  {
+    "source": "inca_empire_mechanisms",
+    "type": "PRODUCED",
+    "target": "tribute_system"
+  },
+  {
+    "source": "umayyad_caliphate",
+    "type": "ENABLED",
+    "target": "religious_schism"
   }
 ]
