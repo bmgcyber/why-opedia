@@ -21340,5 +21340,269 @@
     "target": "war_on_terror",
     "type": "EXPLAINS",
     "weight": 3
+  },
+  {
+    "source": "platform_capitalism",
+    "target": "social_media_revolution",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "platform_capitalism",
+    "target": "tech_monopoly_era",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "platform_capitalism",
+    "target": "russia_election_interference",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "platform_capitalism",
+    "target": "metoo_movement",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "platform_capitalism",
+    "target": "disinformation",
+    "type": "AMPLIFIES",
+    "weight": 3
+  },
+  {
+    "source": "platform_capitalism",
+    "target": "echo_chamber",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "platform_capitalism",
+    "target": "polarization",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "surveillance_state",
+    "target": "platform_capitalism",
+    "type": "PARALLELS",
+    "weight": 2
+  },
+  {
+    "source": "neoliberalism",
+    "target": "platform_capitalism",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "regulatory_capture",
+    "target": "platform_capitalism",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "wealth_concentration",
+    "target": "platform_capitalism",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "right_wing_populism",
+    "target": "trump_election_2016",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "right_wing_populism",
+    "target": "brexit",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "right_wing_populism",
+    "target": "january_6_insurrection",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "right_wing_populism",
+    "target": "ukraine_full_invasion",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "right_wing_populism",
+    "target": "democratic_backsliding",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "right_wing_populism",
+    "target": "polarization",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "scapegoating",
+    "target": "right_wing_populism",
+    "type": "CORE_OF",
+    "weight": 3
+  },
+  {
+    "source": "dehumanization",
+    "target": "right_wing_populism",
+    "type": "USED_IN",
+    "weight": 3
+  },
+  {
+    "source": "propaganda",
+    "target": "right_wing_populism",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "disinformation",
+    "target": "right_wing_populism",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "manufactured_consent",
+    "target": "right_wing_populism",
+    "type": "ENABLES",
+    "weight": 2
+  },
+  {
+    "source": "in_group_out_group_dynamics",
+    "target": "right_wing_populism",
+    "type": "CORE_OF",
+    "weight": 3
+  },
+  {
+    "source": "great_recession_2008",
+    "target": "right_wing_populism",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "right_wing_populism",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "climate_denial",
+    "target": "climate_crisis_escalation",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "climate_denial",
+    "target": "paris_climate_accord",
+    "type": "WEAKENED",
+    "weight": 3
+  },
+  {
+    "source": "manufactured_doubt",
+    "target": "climate_denial",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "regulatory_capture",
+    "target": "climate_denial",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "dark_money",
+    "target": "climate_denial",
+    "type": "FUNDS",
+    "weight": 3
+  },
+  {
+    "source": "elite_capture",
+    "target": "climate_denial",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "disinformation",
+    "target": "climate_denial",
+    "type": "USED_IN",
+    "weight": 3
+  },
+  {
+    "source": "polarization",
+    "target": "january_6_insurrection",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "polarization",
+    "target": "covid_pandemic",
+    "type": "WORSENED",
+    "weight": 3
+  },
+  {
+    "source": "polarization",
+    "target": "democratic_backsliding",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "platform_capitalism",
+    "target": "polarization",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "echo_chamber",
+    "target": "polarization",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "disinformation",
+    "target": "polarization",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "broken_epistemology",
+    "target": "polarization",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "in_group_out_group_dynamics",
+    "target": "polarization",
+    "type": "DRIVES",
+    "weight": 3
+  },
+  {
+    "source": "civil_disobedience",
+    "target": "extinction_rebellion",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "civil_disobedience",
+    "target": "george_floyd_killing",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "systemic_racism",
+    "target": "george_floyd_killing",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "systemic_racism",
+    "target": "black_lives_matter",
+    "type": "CAUSED",
+    "weight": 3
   }
 ]

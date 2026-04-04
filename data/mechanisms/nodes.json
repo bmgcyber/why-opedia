@@ -3797,5 +3797,115 @@
       "financial crisis contagion",
       "too big to fail"
     ]
+  },
+  {
+    "id": "platform_capitalism",
+    "label": "Platform Capitalism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Economic model where a few technology platforms control the infrastructure of economic and social life, extracting rent from all transactions while using network effects and data monopolies to prevent competition.",
+    "description": "Platform capitalism operates through a winner-take-all dynamic: the first platform to achieve critical mass in a network gains data advantages that allow it to offer better service, attracting more users, generating more data, and reinforcing its lead. This is not the competitive market of economic textbooks \u2014 it is a dynamics of natural monopoly where scale advantages are self-reinforcing and entry barriers become insurmountable.\n\nThe mechanism extracts value in two directions simultaneously: from workers (labor costs pushed down through 'contractor' classification that avoids employment protections) and from users (behavioral data sold to advertisers, or used to predict and manipulate user behavior in ways that maximize engagement over wellbeing). The platform itself produces nothing in the traditional sense; it controls the marketplace and collects rent from everyone who must use it.\n\nPlatform capitalism's political economy: the data monopoly is also a political power. Platforms can amplify or suppress political speech, determine which businesses succeed through algorithm changes, and accumulate intelligence about populations that governments cannot access. This creates a new form of private governance with no democratic accountability \u2014 decisions affecting billions made by private companies in secret.",
+    "tags": [
+      "tech monopoly",
+      "surveillance capitalism",
+      "platform economy",
+      "inequality",
+      "digital economy"
+    ],
+    "aliases": [
+      "surveillance capitalism",
+      "gig economy",
+      "data economy",
+      "tech monopoly"
+    ]
+  },
+  {
+    "id": "right_wing_populism",
+    "label": "Right-Wing Populism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Political strategy combining anti-elite rhetoric with ethno-nationalist scapegoating \u2014 blaming 'the people's' problems on a corrupt elite and a threatening outgroup, while centralizing power in a charismatic strongman.",
+    "description": "Right-wing populism succeeds by fusing two grievances with incompatible solutions: genuine economic anxiety produced by deindustrialization and inequality (which would require redistributive policies), and cultural status anxiety from demographic change (which is addressed by exclusion and hierarchy). The fusion works because both grievances are real; the mechanism substitutes an outgroup for a structural cause, offering psychological satisfaction without threatening existing power.\n\nThe mechanism requires two simultaneous targets: an elite (corrupt politicians, mainstream media, globalists) and an outgroup (immigrants, Muslims, minorities, LGBTQ+ people). The elite provides the 'enemy within'; the outgroup provides the threat from outside. Together they explain why 'real people' are suffering without requiring any analysis of economic structures. The strongman offers himself as the people's authentic representative against both threats.\n\nRight-wing populism degrades democracy through a specific sequence: delegitimize institutions ('fake news,' 'rigged elections') while positioning the leader as the only authentic voice; accumulate executive power through democratic means; use emergency justifications to circumvent courts and press; and attack the legitimacy of any outcome that produces opposition victory.",
+    "tags": [
+      "populism",
+      "nationalism",
+      "authoritarianism",
+      "demagoguery",
+      "polarization",
+      "fascism"
+    ],
+    "aliases": [
+      "national populism",
+      "illiberal democracy",
+      "authoritarian populism",
+      "Trumpism"
+    ]
+  },
+  {
+    "id": "climate_denial",
+    "label": "Climate Denial / Manufactured Doubt",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Organized campaign by fossil fuel industries and allied interests to prevent climate action by funding doubt about scientific consensus, delaying policy response until costs become catastrophic.",
+    "description": "Climate denial is not primarily about convincing people the science is wrong \u2014 it is about maintaining enough doubt to prevent the policy consensus needed for action. The mechanism was explicitly modeled on the tobacco industry's decades-long campaign to manufacture doubt about lung cancer causation: fund alternative scientists, amplify fringe studies, emphasize 'uncertainty,' and frame regulation as based on contested science. Internal documents from Exxon showed the company's scientists confirmed climate change by the 1970s while its public communications denied it.\n\nThe mechanism operates through several channels: direct funding of think tanks and contrarian scientists; political donations that purchase legislative inaction; revolving door between regulatory agencies and fossil fuel companies; and media framing that requires 'both sides' coverage of scientific consensus questions. Each channel creates a different kind of uncertainty \u2014 scientific, political, economic \u2014 that collectively justifies delay.\n\nClimate denial's success is measured not in converting the public (polls show majorities have accepted climate science for decades) but in preventing the organized political action that would translate that concern into policy. By the time denial's defeat became clear, fossil fuel infrastructure was so deeply embedded in global energy systems that transition costs multiplied enormously.",
+    "tags": [
+      "climate change",
+      "fossil fuels",
+      "disinformation",
+      "lobbying",
+      "manufactured doubt",
+      "science denial"
+    ],
+    "aliases": [
+      "climate skepticism",
+      "fossil fuel disinformation",
+      "manufactured doubt",
+      "science denial"
+    ]
+  },
+  {
+    "id": "polarization",
+    "label": "Political Polarization",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Process by which political identities become sorted and intensified, making compromise impossible, treating political opponents as existential enemies, and subordinating policy preferences to tribal loyalty.",
+    "description": "Political polarization differs from normal political disagreement in that it becomes identity-based rather than issue-based: positions are adopted not through reasoning from evidence but through signals about which team you're on. This means persuasion becomes nearly impossible \u2014 changing your position signals disloyalty to your group, which carries social costs that outweigh the epistemic benefit of updating your beliefs.\n\nPolarization is self-reinforcing through several mechanisms. Media ecosystems serve different realities to different audiences, eliminating shared factual baseline for debate. Geographic sorting means people interact primarily with those who share their views. Social media rewards outrage (it drives engagement) and punishes moderation (which looks like weakness or betrayal). Political parties benefit electorally from mobilizing their base through fear of the opposition rather than persuading the center.\n\nThe mechanism is politically asymmetric when one party deliberately chooses norm-breaking while the other maintains norms: the norm-breaker gains tactical advantages (courts packed, elections manipulated, rules ignored) while the norm-keeper is penalized for playing by rules the opponent has abandoned. This creates pressure toward mutual defection and escalation that is structurally difficult to reverse.",
+    "tags": [
+      "democracy",
+      "partisanship",
+      "tribal politics",
+      "media",
+      "social media",
+      "identity politics"
+    ],
+    "aliases": [
+      "affective polarization",
+      "tribal politics",
+      "us-versus-them",
+      "partisan sorting"
+    ]
+  },
+  {
+    "id": "manufactured_doubt",
+    "label": "Manufactured Doubt",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Deliberate strategy of funding alternative research and amplifying fringe scientific dissent to prevent policy action by maintaining the appearance of scientific controversy where consensus exists.",
+    "description": "Manufactured doubt was pioneered by the tobacco industry and later adopted by industries facing regulation on asbestos, leaded gasoline, pesticides, and climate change. The core insight was that public policy requires perceived certainty \u2014 if the science appears contested, the urgency for regulation evaporates. Crucially, the goal was never to win the scientific debate but merely to prolong it.\n\nThe mechanism works through several tactics in concert: fund credentialed scientists willing to produce contrarian research (a small number can manufacture the appearance of debate); create think tanks that publish and promote this research without normal peer review; coach sympathetic politicians to request additional study before action; and coach media on false balance norms to treat fringe positions as equivalent to scientific consensus. The product is not alternative science but a different kind of uncertainty \u2014 political rather than epistemic.\n\nThe tobacco case became the explicit model: internal industry documents from the 1950s described the strategy as selling doubt. When climate science became policy-threatening in the 1980s, the same PR firms, some of the same scientists, and the identical tactics were deployed. The success of manufactured doubt on tobacco (delaying regulation by 40+ years) directly inspired its application to climate.",
+    "tags": [
+      "disinformation",
+      "lobbying",
+      "corporate strategy",
+      "science",
+      "climate denial",
+      "tobacco"
+    ],
+    "aliases": [
+      "doubt manufacturing",
+      "junk science",
+      "tobacco strategy",
+      "merchants of doubt"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Merchants_of_Doubt"
   }
 ]

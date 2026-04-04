@@ -13971,5 +13971,122 @@
     "decade": 2010,
     "region": "Europe",
     "summary": "European governments, particularly in Greece, Spain, and Portugal, implemented severe austerity programs as conditions for bailouts, producing prolonged depression, mass unemployment, and political radicalization."
+  },
+  {
+    "id": "occupy_wall_street",
+    "label": "Occupy Wall Street (2011)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2010,
+    "region": "North America",
+    "summary": "Protest movement against economic inequality that popularized the '99% vs 1%' framing and prefigured broader left-populist politics, though it produced no direct policy changes."
+  },
+  {
+    "id": "ukraine_euromaidan",
+    "label": "Ukraine Euromaidan & Russian Annexation of Crimea (2013\u20132014)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2010,
+    "region": "Europe",
+    "summary": "Popular uprising against Ukraine's Russia-aligned president triggered Russian annexation of Crimea and proxy war in eastern Ukraine \u2014 the first forcible annexation of European territory since WWII."
+  },
+  {
+    "id": "paris_climate_accord",
+    "label": "Paris Climate Agreement (2015)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2010,
+    "region": "Global",
+    "summary": "195 nations agreed to limit global warming to well below 2\u00b0C, but the accord's voluntary, nationally-determined targets and lack of enforcement mechanisms limited its effectiveness."
+  },
+  {
+    "id": "brexit",
+    "label": "Brexit (2016)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2010,
+    "region": "Europe",
+    "summary": "UK's vote to leave the European Union, driven by nationalist sentiment, anti-immigration politics, and disillusionment with globalization's costs \u2014 the first major nation to exit a major supranational body."
+  },
+  {
+    "id": "trump_election_2016",
+    "label": "Trump Election (2016)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2010,
+    "region": "North America",
+    "summary": "Donald Trump's election as US president represented the triumph of right-wing populism in America, normalizing political lying, accelerating polarization, and challenging the post-WWII liberal international order."
+  },
+  {
+    "id": "russia_election_interference",
+    "label": "Russian Election Interference (2016)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2010,
+    "region": "Global",
+    "summary": "Russian intelligence operations combining social media disinformation, hacking, and targeted advertising influenced the 2016 US election, demonstrating the vulnerability of democracies to information warfare."
+  },
+  {
+    "id": "covid_pandemic",
+    "label": "COVID-19 Pandemic (2020\u20132022)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2020,
+    "region": "Global",
+    "summary": "Global pandemic that killed millions, collapsed economies, and revealed deep fault lines in public health infrastructure, institutional trust, and international cooperation while accelerating pre-existing inequalities."
+  },
+  {
+    "id": "george_floyd_killing",
+    "label": "George Floyd Killing & 2020 Protests",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2020,
+    "region": "North America",
+    "summary": "Floyd's murder by Minneapolis police sparked the largest protest movement in American history, with demonstrations in all 50 states and 60+ countries, triggering urgent debate about policing, race, and justice."
+  },
+  {
+    "id": "ukraine_full_invasion",
+    "label": "Russia's Full-Scale Invasion of Ukraine (2022)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2020,
+    "region": "Europe",
+    "summary": "Russia's February 2022 invasion of Ukraine triggered the largest land war in Europe since WWII, reshaping European security, global energy markets, and the international rules-based order."
+  },
+  {
+    "id": "climate_crisis_escalation",
+    "label": "Climate Crisis Escalation (2010s\u2013present)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2010,
+    "region": "Global",
+    "summary": "Accelerating extreme weather, record temperatures, and ecosystem collapse as greenhouse gas concentrations reach levels unseen in millions of years \u2014 while fossil fuel interests systematically delayed effective policy response."
+  },
+  {
+    "id": "tech_monopoly_era",
+    "label": "Tech Monopoly Era (2010\u2013present)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2010,
+    "region": "Global",
+    "summary": "Five companies \u2014 Apple, Amazon, Google, Meta, Microsoft \u2014 accumulated unprecedented economic and political power, reshaping labor markets, media ecosystems, and democratic accountability through platform dominance."
+  },
+  {
+    "id": "social_media_revolution",
+    "label": "Social Media & Information Revolution (2007\u2013present)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2010,
+    "region": "Global",
+    "summary": "Smartphones and social platforms transformed political communication, enabling mass mobilization (Arab Spring, BLM) while creating unprecedented infrastructure for disinformation, polarization, and surveillance capitalism."
+  },
+  {
+    "id": "extinction_rebellion",
+    "label": "Youth Climate Movement (2018\u2013present)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 2010,
+    "region": "Global",
+    "summary": "Greta Thunberg's school strike and Extinction Rebellion's mass civil disobedience represent a new generation demanding emergency climate action, using moral confrontation to force political acknowledgment of crisis."
   }
 ]

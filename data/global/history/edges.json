@@ -10332,5 +10332,161 @@
     "target": "great_recession_2008",
     "type": "CAUSED",
     "weight": 2
+  },
+  {
+    "source": "great_recession_2008",
+    "target": "occupy_wall_street",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "global_financial_crisis_aftermath",
+    "target": "occupy_wall_street",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "occupy_wall_street",
+    "target": "black_lives_matter",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "snowden_revelations",
+    "target": "russia_election_interference",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "russia_election_interference",
+    "target": "trump_election_2016",
+    "type": "CONTEXT_FOR",
+    "weight": 3
+  },
+  {
+    "source": "great_recession_2008",
+    "target": "trump_election_2016",
+    "type": "CONTEXT_FOR",
+    "weight": 3
+  },
+  {
+    "source": "great_recession_2008",
+    "target": "brexit",
+    "type": "CONTEXT_FOR",
+    "weight": 3
+  },
+  {
+    "source": "social_media_revolution",
+    "target": "russia_election_interference",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "social_media_revolution",
+    "target": "arab_spring",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "social_media_revolution",
+    "target": "black_lives_matter",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "social_media_revolution",
+    "target": "metoo_movement",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "social_media_revolution",
+    "target": "trump_election_2016",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "ukraine_euromaidan",
+    "target": "ukraine_full_invasion",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "ukraine_euromaidan",
+    "target": "russia_election_interference",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "trump_election_2016",
+    "target": "january_6_insurrection",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "covid_pandemic",
+    "target": "george_floyd_killing",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "george_floyd_killing",
+    "target": "black_lives_matter",
+    "type": "ACCELERATED",
+    "weight": 3
+  },
+  {
+    "source": "isis_rise",
+    "target": "ukraine_full_invasion",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "tech_monopoly_era",
+    "target": "social_media_revolution",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "climate_crisis_escalation",
+    "target": "paris_climate_accord",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "climate_crisis_escalation",
+    "target": "extinction_rebellion",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "neoliberalism",
+    "target": "tech_monopoly_era",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "dot_com_boom",
+    "target": "tech_monopoly_era",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "civil_rights_movement",
+    "target": "black_lives_matter",
+    "type": "INSPIRED",
+    "weight": 3
+  },
+  {
+    "source": "civil_rights_movement",
+    "target": "metoo_movement",
+    "type": "INSPIRED",
+    "weight": 2
+  },
+  {
+    "source": "january_6_insurrection",
+    "target": "ukraine_full_invasion",
+    "type": "CONTEXT_FOR",
+    "weight": 1
   }
 ]
