@@ -3907,5 +3907,26 @@
       "merchants of doubt"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Merchants_of_Doubt"
+  },
+  {
+    "id": "class_struggle",
+    "label": "Class Struggle",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Persistent conflict between groups defined by their relationship to economic production \u2014 those who own means of production versus those who must sell their labor \u2014 as the primary driver of historical change.",
+    "description": "Class struggle as a mechanism operates through the fundamental tension between capital and labor: capital seeks to minimize labor costs (lower wages, longer hours, less security, more control), while labor seeks the opposite. This conflict is structural rather than personal \u2014 it persists regardless of the goodwill of individual employers or employees because it is built into the logic of production for profit.\n\nThe mechanism produces historical cycles: labor organizes and wins concessions (labor laws, unions, welfare states); capital deploys political power and mobility to erode those concessions (deregulation, offshoring, union-busting); degraded conditions spark new organizing; and the cycle repeats. The Marxist prediction that this would produce revolutionary rupture has mostly not materialized in wealthy countries, but the underlying conflict has shaped every welfare state, every labor law, and every major political realignment.\n\nClass struggle is most visible in turning-point crises \u2014 the Black Death that ended European serfdom, the Great Depression that produced the New Deal, the postwar labor shortage that created the welfare state \u2014 where structural shifts in the labor supply give workers unprecedented leverage.",
+    "tags": [
+      "marxism",
+      "labor",
+      "capitalism",
+      "inequality",
+      "unions",
+      "revolution"
+    ],
+    "aliases": [
+      "class conflict",
+      "labor vs capital",
+      "marxist analysis"
+    ]
   }
 ]

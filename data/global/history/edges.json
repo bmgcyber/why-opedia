@@ -10488,5 +10488,167 @@
     "target": "ukraine_full_invasion",
     "type": "CONTEXT_FOR",
     "weight": 1
+  },
+  {
+    "source": "agricultural_revolution",
+    "target": "first_cities",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "agricultural_revolution",
+    "target": "feudalism",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "first_cities",
+    "target": "cuneiform_writing",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "first_cities",
+    "target": "hammurabi_code",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "old_kingdom_egypt",
+    "target": "bronze_age_collapse",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "bronze_age_collapse",
+    "target": "iron_age",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "iron_age",
+    "target": "athenian_democracy",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "persian_empire",
+    "target": "greco_persian_wars",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "athenian_democracy",
+    "target": "greco_persian_wars",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "greco_persian_wars",
+    "target": "peloponnesian_war",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "peloponnesian_war",
+    "target": "alexander_conquests",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "athenian_democracy",
+    "target": "roman_republic",
+    "type": "INSPIRED",
+    "weight": 2
+  },
+  {
+    "source": "roman_republic",
+    "target": "julius_caesar",
+    "type": "PRECEDED",
+    "weight": 3
+  },
+  {
+    "source": "julius_caesar",
+    "target": "roman_empire",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "roman_empire",
+    "target": "roman_fall",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "roman_empire",
+    "target": "silk_road",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "black_death",
+    "target": "feudalism",
+    "type": "DISRUPTED",
+    "weight": 3
+  },
+  {
+    "source": "black_death",
+    "target": "protestant_reformation",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "roman_fall",
+    "target": "feudalism",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "feudalism",
+    "target": "magna_carta",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "magna_carta",
+    "target": "protestant_reformation",
+    "type": "PRECEDED",
+    "weight": 1
+  },
+  {
+    "source": "crusades",
+    "target": "black_death",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "crusades",
+    "target": "printing_press",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "mongol_conquests",
+    "target": "black_death",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "mongol_conquests",
+    "target": "silk_road",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "alexander_conquests",
+    "target": "silk_road",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "hammurabi_code",
+    "target": "roman_republic",
+    "type": "INSPIRED",
+    "weight": 1
   }
 ]

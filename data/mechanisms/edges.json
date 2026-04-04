@@ -21604,5 +21604,281 @@
     "target": "black_lives_matter",
     "type": "CAUSED",
     "weight": 3
+  },
+  {
+    "source": "resource_curse",
+    "target": "old_kingdom_egypt",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "resource_curse",
+    "target": "iranian_coup_1953",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "resource_curse",
+    "target": "opec_oil_embargo_1973",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "resource_curse",
+    "target": "soviet_afghan_war",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "resource_curse",
+    "target": "iraq_war_2003",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "extractive_institutions",
+    "target": "resource_curse",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "elite_capture",
+    "target": "resource_curse",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "corruption",
+    "target": "resource_curse",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "colonialism",
+    "target": "resource_curse",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "class_struggle",
+    "target": "agricultural_revolution",
+    "type": "EMERGES_FROM",
+    "weight": 2
+  },
+  {
+    "source": "class_struggle",
+    "target": "feudalism",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "class_struggle",
+    "target": "black_death",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "class_struggle",
+    "target": "french_revolution",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "class_struggle",
+    "target": "labor_unions_history",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "class_struggle",
+    "target": "great_depression",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "class_struggle",
+    "target": "occupy_wall_street",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "class_consciousness",
+    "target": "class_struggle",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "structural_violence",
+    "target": "class_struggle",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "divine_kingship",
+    "target": "old_kingdom_egypt",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "divine_kingship",
+    "target": "first_cities",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "divine_kingship",
+    "target": "roman_empire",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "tribute_system",
+    "target": "persian_empire",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "tribute_system",
+    "target": "mongol_conquests",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "tribute_system",
+    "target": "roman_empire",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "priestly_class",
+    "target": "old_kingdom_egypt",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "priestly_class",
+    "target": "crusades",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "priestly_class",
+    "target": "protestant_reformation",
+    "type": "CONTEXT_FOR",
+    "weight": 3
+  },
+  {
+    "source": "literacy_as_power",
+    "target": "cuneiform_writing",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "literacy_as_power",
+    "target": "printing_press",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "literacy_as_power",
+    "target": "protestant_reformation",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "land_enclosure",
+    "target": "feudalism",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "land_enclosure",
+    "target": "black_death",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "imperial_overextension",
+    "target": "roman_fall",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "imperial_overextension",
+    "target": "mongol_conquests",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "debt_bondage",
+    "target": "feudalism",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "debt_bondage",
+    "target": "hammurabi_code",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "ethnic_deportation",
+    "target": "mongol_conquests",
+    "type": "USED_IN",
+    "weight": 2
+  },
+  {
+    "source": "propaganda_state_religion",
+    "target": "crusades",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "propaganda_state_religion",
+    "target": "roman_empire",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "philosophy_as_resistance",
+    "target": "athenian_democracy",
+    "type": "PRODUCED",
+    "weight": 2
+  },
+  {
+    "source": "philosophy_as_resistance",
+    "target": "protestant_reformation",
+    "type": "PRODUCED",
+    "weight": 2
+  },
+  {
+    "source": "inquisition_mechanism",
+    "target": "protestant_reformation",
+    "type": "CONTEXT_FOR",
+    "weight": 3
+  },
+  {
+    "source": "inquisition_mechanism",
+    "target": "crusades",
+    "type": "RELATED_TO",
+    "weight": 2
+  },
+  {
+    "source": "religious_schism",
+    "target": "protestant_reformation",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "religious_schism",
+    "target": "crusades",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "currency_debasement",
+    "target": "roman_fall",
+    "type": "CONTRIBUTED_TO",
+    "weight": 2
   }
 ]

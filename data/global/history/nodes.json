@@ -14088,5 +14088,86 @@
     "decade": 2010,
     "region": "Global",
     "summary": "Greta Thunberg's school strike and Extinction Rebellion's mass civil disobedience represent a new generation demanding emergency climate action, using moral confrontation to force political acknowledgment of crisis."
+  },
+  {
+    "id": "first_cities",
+    "label": "First Cities \u2014 Uruk & Mesopotamia (~4000\u20133000 BCE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": -4000,
+    "region": "Middle East",
+    "summary": "The world's first cities emerged in Mesopotamia's river valleys, requiring bureaucratic administration, record-keeping (which produced writing), monumental religion, and new forms of coercive state power."
+  },
+  {
+    "id": "cuneiform_writing",
+    "label": "Cuneiform Writing (~3200 BCE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": -3200,
+    "region": "Middle East",
+    "summary": "The world's first writing system emerged from accounting needs in Sumerian cities, transforming the capacity for record-keeping, law, religious authority, and eventually literature."
+  },
+  {
+    "id": "hammurabi_code",
+    "label": "Code of Hammurabi (~1754 BCE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": -1754,
+    "region": "Middle East",
+    "summary": "One of history's earliest legal codes formalized class-based justice, with punishments varying by the social status of victim and perpetrator \u2014 institutionalizing hierarchy as law."
+  },
+  {
+    "id": "athenian_democracy",
+    "label": "Athenian Democracy (~508\u2013322 BCE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": -508,
+    "region": "Europe",
+    "summary": "Athens created the first direct democracy under Cleisthenes, limited to male citizens (excluding women, slaves, and foreigners), establishing both the model and the contradictions that would define democratic thought for millennia."
+  },
+  {
+    "id": "persian_empire",
+    "label": "Achaemenid Persian Empire (~550\u2013330 BCE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": -550,
+    "region": "Middle East",
+    "summary": "The first true world empire governed over 40% of the ancient world's population through tolerance of local customs and religions, creating a model of multiethnic imperial administration."
+  },
+  {
+    "id": "greco_persian_wars",
+    "label": "Greco-Persian Wars (490\u2013479 BCE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": -490,
+    "region": "Mediterranean",
+    "summary": "Persian invasions defeated at Marathon and Salamis became foundational myths of Western civilization, defining 'freedom vs tyranny' as a civilizational struggle \u2014 a framing that has shaped Western political identity ever since."
+  },
+  {
+    "id": "alexander_conquests",
+    "label": "Alexander the Great's Conquests (336\u2013323 BCE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": -336,
+    "region": "Global",
+    "summary": "Alexander conquered from Greece to India in 13 years, spreading Greek culture (Hellenism) across the ancient world, creating the first genuinely global trade network, and demonstrating that charismatic personal power could reshape civilizations."
+  },
+  {
+    "id": "roman_fall",
+    "label": "Fall of the Western Roman Empire (376\u2013476 CE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 376,
+    "region": "Europe",
+    "summary": "The Western Empire's collapse resulted from a combination of external pressure (Gothic migrations forced by Hunnic expansion), internal fiscal crisis, political fragmentation, and overextension \u2014 demonstrating imperial overextension's terminal logic."
+  },
+  {
+    "id": "feudalism",
+    "label": "Medieval Feudalism (~800\u20131400 CE)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 800,
+    "region": "Europe",
+    "summary": "The feudal system organized European society around military protection in exchange for labor service, institutionalizing hereditary hierarchy, preventing social mobility, and concentrating land ownership across generations."
   }
 ]
