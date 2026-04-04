@@ -21880,5 +21880,251 @@
     "target": "roman_fall",
     "type": "CONTRIBUTED_TO",
     "weight": 2
+  },
+  {
+    "source": "settler_colonialism",
+    "target": "spanish_conquest_americas",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "settler_colonialism",
+    "target": "transatlantic_slave_trade",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "settler_colonialism",
+    "target": "american_revolution",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "settler_colonialism",
+    "target": "us_civil_war",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "settler_colonialism",
+    "target": "berlin_conference_1884",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "settler_colonialism",
+    "target": "apartheid_south_africa",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "colonialism",
+    "target": "settler_colonialism",
+    "type": "INCLUDES",
+    "weight": 3
+  },
+  {
+    "source": "dehumanization",
+    "target": "settler_colonialism",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "ethnic_cleansing",
+    "target": "settler_colonialism",
+    "type": "USED_IN",
+    "weight": 3
+  },
+  {
+    "source": "structural_violence",
+    "target": "settler_colonialism",
+    "type": "PRODUCES",
+    "weight": 3
+  },
+  {
+    "source": "chattel_slavery",
+    "target": "transatlantic_slave_trade",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "chattel_slavery",
+    "target": "spanish_conquest_americas",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "chattel_slavery",
+    "target": "haitian_revolution",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "chattel_slavery",
+    "target": "abolition_movement",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "chattel_slavery",
+    "target": "us_civil_war",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "chattel_slavery",
+    "target": "reconstruction_failure",
+    "type": "CONTEXT_FOR",
+    "weight": 3
+  },
+  {
+    "source": "chattel_slavery",
+    "target": "systemic_racism",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "chattel_slavery",
+    "target": "racial_capitalism",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "dehumanization",
+    "target": "chattel_slavery",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "structural_violence",
+    "target": "chattel_slavery",
+    "type": "INCLUDES",
+    "weight": 3
+  },
+  {
+    "source": "colonialism",
+    "target": "transatlantic_slave_trade",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "colonialism",
+    "target": "british_raj",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "colonialism",
+    "target": "berlin_conference_1884",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "colonialism",
+    "target": "haitian_revolution",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "imperialism",
+    "target": "age_of_exploration",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "imperialism",
+    "target": "dutch_east_india_company",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "empire_by_charter",
+    "target": "dutch_east_india_company",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "empire_by_charter",
+    "target": "british_raj",
+    "type": "EXPLAINS",
+    "weight": 2
+  },
+  {
+    "source": "revolutionary_terror",
+    "target": "french_revolution",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "revolutionary_terror",
+    "target": "haitian_revolution",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "nationalism_mechanism",
+    "target": "american_revolution",
+    "type": "PRODUCED",
+    "weight": 2
+  },
+  {
+    "source": "nationalism_mechanism",
+    "target": "french_revolution",
+    "type": "PRODUCED",
+    "weight": 2
+  },
+  {
+    "source": "nationalism_mechanism",
+    "target": "napoleonic_wars",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "propaganda_state_religion",
+    "target": "thirty_years_war",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "scapegoating",
+    "target": "thirty_years_war",
+    "type": "USED_IN",
+    "weight": 2
+  },
+  {
+    "source": "class_struggle",
+    "target": "industrial_revolution",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "class_struggle",
+    "target": "haitian_revolution",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "nonviolent_resistance",
+    "target": "abolition_movement",
+    "type": "USED_IN",
+    "weight": 2
+  },
+  {
+    "source": "coalition_building",
+    "target": "abolition_movement",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "media_as_colonial_tool",
+    "target": "berlin_conference_1884",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "media_as_colonial_tool",
+    "target": "age_of_exploration",
+    "type": "ENABLED",
+    "weight": 1
   }
 ]

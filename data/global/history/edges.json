@@ -10650,5 +10650,173 @@
     "target": "roman_republic",
     "type": "INSPIRED",
     "weight": 1
+  },
+  {
+    "source": "printing_press",
+    "target": "age_of_exploration",
+    "type": "CONTEXT_FOR",
+    "weight": 1
+  },
+  {
+    "source": "thirty_years_war",
+    "target": "peace_of_westphalia",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "age_of_exploration",
+    "target": "columbian_exchange",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "age_of_exploration",
+    "target": "transatlantic_slave_trade",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "age_of_exploration",
+    "target": "spanish_conquest_americas",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "age_of_exploration",
+    "target": "dutch_east_india_company",
+    "type": "CAUSED",
+    "weight": 2
+  },
+  {
+    "source": "columbian_exchange",
+    "target": "transatlantic_slave_trade",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "spanish_conquest_americas",
+    "target": "transatlantic_slave_trade",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "scientific_revolution",
+    "target": "enlightenment",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "printing_press",
+    "target": "enlightenment",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "enlightenment",
+    "target": "american_revolution",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "enlightenment",
+    "target": "french_revolution",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "english_civil_war",
+    "target": "enlightenment",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "american_revolution",
+    "target": "french_revolution",
+    "type": "INSPIRED",
+    "weight": 3
+  },
+  {
+    "source": "french_revolution",
+    "target": "haitian_revolution",
+    "type": "INSPIRED",
+    "weight": 3
+  },
+  {
+    "source": "french_revolution",
+    "target": "napoleonic_wars",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "napoleonic_wars",
+    "target": "industrial_revolution",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "industrial_revolution",
+    "target": "british_raj",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "industrial_revolution",
+    "target": "berlin_conference_1884",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "industrial_revolution",
+    "target": "abolition_movement",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "transatlantic_slave_trade",
+    "target": "abolition_movement",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "abolition_movement",
+    "target": "us_civil_war",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "us_civil_war",
+    "target": "reconstruction_failure",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "reconstruction_failure",
+    "target": "civil_rights_movement",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "berlin_conference_1884",
+    "target": "decolonization_africa",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "british_raj",
+    "target": "partition_india_pakistan",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "dutch_east_india_company",
+    "target": "british_raj",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "haitian_revolution",
+    "target": "abolition_movement",
+    "type": "ACCELERATED",
+    "weight": 2
   }
 ]

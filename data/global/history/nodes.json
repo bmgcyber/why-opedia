@@ -14169,5 +14169,59 @@
     "decade": 800,
     "region": "Europe",
     "summary": "The feudal system organized European society around military protection in exchange for labor service, institutionalizing hereditary hierarchy, preventing social mobility, and concentrating land ownership across generations."
+  },
+  {
+    "id": "spanish_conquest_americas",
+    "label": "Spanish Conquest of the Americas (1500s)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1500,
+    "region": "Latin America",
+    "summary": "Spanish conquest of the Aztec and Inca empires through disease, military superiority, and strategic alliance-building with local enemies destroyed sophisticated civilizations and established exploitative colonial economies."
+  },
+  {
+    "id": "dutch_east_india_company",
+    "label": "Dutch East India Company / VOC (1602)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1602,
+    "region": "Asia",
+    "summary": "The world's first multinational corporation and joint-stock company was granted a monopoly on Asian trade with its own army, navy, and judicial powers \u2014 the template for empire by corporate charter."
+  },
+  {
+    "id": "napoleonic_wars",
+    "label": "Napoleonic Wars (1803\u20131815)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1803,
+    "region": "Europe",
+    "summary": "Napoleon's conquests spread revolutionary codes across Europe while generating nationalist backlash that reshaped the continent \u2014 and his defeat at Waterloo created the Congress of Vienna's conservative order."
+  },
+  {
+    "id": "british_raj",
+    "label": "British Raj in India (1858\u20131947)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1858,
+    "region": "Asia",
+    "summary": "Britain's direct rule over India after the 1857 uprising integrated the subcontinent into the British imperial economy as a source of raw materials and captive market, systematically deindustrializing Indian textile manufacturing."
+  },
+  {
+    "id": "abolition_movement",
+    "label": "Abolitionist Movement (1780s\u20131865)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1780,
+    "region": "Global",
+    "summary": "The organized campaign to end slavery demonstrated that moral arguments amplified by mass activism could change laws, while also showing how long entrenched economic interests can resist even overwhelming moral consensus."
+  },
+  {
+    "id": "reconstruction_failure",
+    "label": "Reconstruction & Its Failure (1865\u20131877)",
+    "category": "event",
+    "scope": "global/history",
+    "decade": 1865,
+    "region": "North America",
+    "summary": "The federal attempt to rebuild the South with Black political participation was dismantled through terrorism and political abandonment, producing Jim Crow and demonstrating that formal legal equality is insufficient without enforcement."
   }
 ]

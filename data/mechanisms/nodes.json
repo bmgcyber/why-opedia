@@ -3928,5 +3928,48 @@
       "labor vs capital",
       "marxist analysis"
     ]
+  },
+  {
+    "id": "settler_colonialism",
+    "label": "Settler Colonialism",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "Form of colonialism where settlers permanently occupy Indigenous land, aiming not just to exploit resources but to replace the existing population \u2014 making elimination of Indigenous peoples a structural logic rather than a side effect.",
+    "description": "Settler colonialism differs from extractive colonialism in its fundamental goal: the settler wants the land itself, not just its resources, which requires the disappearance of its prior inhabitants. This produces a logic of elimination rather than exploitation \u2014 Indigenous people cannot be absorbed as a labor force (their land is wanted, not their labor), so they must be removed through death, forced relocation, cultural destruction, or assimilation that erases their identity.\n\nThe mechanism persists long after formal colonial periods because it requires no ongoing relationship between colonizer and colonized \u2014 the settlers are already there, the land is already 'theirs,' and the institutional structures built on dispossession continue operating through normal legal and economic processes. Native American poverty is not a residual of historical injustice; it is produced by ongoing structural arrangements that continue transferring resources from Indigenous communities.\n\nRecognizing settler colonialism: continued legal disputes over land treaties; cultural policies that penalize indigenous language and spiritual practice; persistent demographic replacement through immigration policy; and legal systems that recognize settler title as primary while treating indigenous title as something requiring special proof.",
+    "tags": [
+      "colonialism",
+      "indigenous rights",
+      "dispossession",
+      "genocide",
+      "land",
+      "imperialism"
+    ],
+    "aliases": [
+      "colonial settler project",
+      "indigenous dispossession",
+      "colonial elimination"
+    ]
+  },
+  {
+    "id": "chattel_slavery",
+    "label": "Chattel Slavery",
+    "category": "mechanism",
+    "scope": "global/mechanisms",
+    "summary": "System that reduced human beings to inheritable property, depriving them of legal personhood, family stability, freedom of movement, and the fruits of their labor \u2014 and generating enormous wealth for those at the top of the hierarchy.",
+    "description": "Chattel slavery was a specific legal and economic mechanism: people classified as property could be bought, sold, inherited, and used as collateral. This was more than forced labor \u2014 it required a comprehensive ideology that denied enslaved people's humanity, because the cognitive dissonance of treating humans as property is otherwise unsustainable. The legal innovation was that the children of enslaved mothers were also enslaved, creating a self-reproducing labor force that required no ongoing purchase.\n\nThe transatlantic slave trade's economic logic was triangular: European manufactured goods to Africa in exchange for enslaved people; enslaved people to the Americas in exchange for sugar, cotton, and tobacco; plantation products to Europe generating capital for the next cycle. This created the first integrated global economy, with slavery financing much of the capital accumulation that funded the Industrial Revolution.\n\nChattel slavery's legacy is structural: the wealth accumulation gap between Black and white Americans was produced by 250 years of uncompensated labor followed by 100 years of legal discrimination followed by continued structural disadvantage. The mechanism continues operating through asset inequality rather than through its original legal form.",
+    "tags": [
+      "slavery",
+      "racism",
+      "exploitation",
+      "property",
+      "capitalism",
+      "African American"
+    ],
+    "aliases": [
+      "plantation slavery",
+      "racial slavery",
+      "bondage",
+      "enslavement"
+    ]
   }
 ]
