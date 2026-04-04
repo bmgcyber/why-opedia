@@ -2914,5 +2914,83 @@
     "label": "both distribute authority to prevent any single actor from dominating",
     "note": "International law operates on the same distributional logic as separation of powers but at the inter-state level: by distributing authority across multiple sovereigns and treaty bodies, it prevents any single state from imposing its will universally. Both mechanisms are imperfect \u2014 separation of powers can be captured, international law can be ignored \u2014 but both create friction against unilateral domination.",
     "confidence": "medium"
+  },
+  {
+    "source": "john_locke",
+    "target": "enlightenment_philosophy",
+    "type": "PART_OF",
+    "weight": 3
+  },
+  {
+    "source": "jean_jacques_rousseau",
+    "target": "enlightenment_philosophy",
+    "type": "PART_OF",
+    "weight": 3
+  },
+  {
+    "source": "john_stuart_mill",
+    "target": "enlightenment_philosophy",
+    "type": "PART_OF",
+    "weight": 2
+  },
+  {
+    "source": "civil_disobedience_thoreau",
+    "target": "mahatma_gandhi",
+    "type": "INSPIRED",
+    "weight": 3
+  },
+  {
+    "source": "decolonization_theory",
+    "target": "frantz_fanon",
+    "type": "ASSOCIATED_WITH",
+    "weight": 3
+  },
+  {
+    "source": "velvet_revolutions",
+    "target": "fall_of_soviet_union",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "velvet_revolutions",
+    "target": "european_union",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "south_africa_truth_reconciliation",
+    "target": "nelson_mandela",
+    "type": "ASSOCIATED_WITH",
+    "weight": 3
+  },
+  {
+    "source": "nuclear_deterrence",
+    "target": "cold_war",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "banana_republic",
+    "target": "us_iran_1953_coup",
+    "type": "RELATED_TO",
+    "weight": 2
+  },
+  {
+    "source": "banana_republic",
+    "target": "cold_war_proxy_wars",
+    "type": "RELATED_TO",
+    "weight": 2
+  },
+  {
+    "source": "un_declaration_human_rights",
+    "target": "international_criminal_court",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "un_declaration_human_rights",
+    "target": "human_rights_declaration",
+    "type": "SAME_AS",
+    "weight": 3
   }
 ]

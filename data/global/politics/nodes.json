@@ -2288,5 +2288,104 @@
       "europe",
       "political system"
     ]
+  },
+  {
+    "id": "john_locke",
+    "label": "John Locke & Natural Rights",
+    "category": "person",
+    "scope": "global/politics",
+    "decade": 1689,
+    "region": "Europe",
+    "summary": "Locke's theory of natural rights, government by consent, and the right of revolution provided the philosophical foundation for both the American and French Revolutions."
+  },
+  {
+    "id": "jean_jacques_rousseau",
+    "label": "Rousseau & Social Contract",
+    "category": "person",
+    "scope": "global/politics",
+    "decade": 1762,
+    "region": "Europe",
+    "summary": "Rousseau's concept of the 'general will' and critique of private property as the source of inequality made him the most radical Enlightenment thinker and an inspiration for revolutionary democracy."
+  },
+  {
+    "id": "john_stuart_mill",
+    "label": "John Stuart Mill & Liberalism",
+    "category": "person",
+    "scope": "global/politics",
+    "decade": 1859,
+    "region": "Europe",
+    "summary": "Mill's utilitarianism and harm principle provided the philosophical foundation for liberal democracy \u2014 that liberty should be limited only to prevent harm to others."
+  },
+  {
+    "id": "civil_disobedience_thoreau",
+    "label": "Thoreau's Civil Disobedience (1849)",
+    "category": "event",
+    "scope": "global/politics",
+    "decade": 1849,
+    "region": "North America",
+    "summary": "Thoreau's essay arguing that individual moral duty overrides unjust law influenced Gandhi, King, and every subsequent civil disobedience tradition."
+  },
+  {
+    "id": "decolonization_theory",
+    "label": "Decolonization Theory (Fanon, Nkrumah)",
+    "category": "event",
+    "scope": "global/politics",
+    "decade": 1960,
+    "region": "Global",
+    "summary": "Frantz Fanon's 'The Wretched of the Earth' and Nkrumah's Pan-Africanism provided the intellectual framework for anti-colonial movements, arguing that psychological liberation must accompany political independence."
+  },
+  {
+    "id": "un_declaration_human_rights",
+    "label": "UN Declaration of Human Rights (1948)",
+    "category": "event",
+    "scope": "global/politics",
+    "decade": 1948,
+    "region": "Global",
+    "summary": "First global statement of universal human rights, establishing norms that \u2014 while often violated \u2014 provide a framework for holding states accountable and legitimizing human rights advocacy."
+  },
+  {
+    "id": "nuclear_deterrence",
+    "label": "Nuclear Deterrence & Mutually Assured Destruction",
+    "category": "concept",
+    "scope": "global/politics",
+    "decade": 1950,
+    "region": "Global",
+    "summary": "The logic that nuclear-armed states will not attack each other because both would be destroyed created the Cold War's precarious stability \u2014 and made conventional proxy wars the primary mode of superpower conflict."
+  },
+  {
+    "id": "banana_republic",
+    "label": "Banana Republic & Corporate Imperialism",
+    "category": "concept",
+    "scope": "global/politics",
+    "decade": 1900,
+    "region": "Latin America",
+    "summary": "The term coined for Central American states where US fruit companies owned the land, bribed governments, and used the US military to protect their investments \u2014 the purest form of corporate colonialism."
+  },
+  {
+    "id": "velvet_revolutions",
+    "label": "Velvet Revolutions (1989\u20131991)",
+    "category": "event",
+    "scope": "global/politics",
+    "decade": 1989,
+    "region": "Europe",
+    "summary": "Peaceful transitions from communist to democratic rule in Czechoslovakia, Poland, Hungary, and the Baltic states demonstrated that entrenched authoritarian systems can fall rapidly when their populations withdraw consent."
+  },
+  {
+    "id": "south_africa_truth_reconciliation",
+    "label": "South African TRC (1995\u20132002)",
+    "category": "event",
+    "scope": "global/politics",
+    "decade": 1995,
+    "region": "Africa",
+    "summary": "The Truth and Reconciliation Commission offered amnesty for full disclosure of apartheid-era crimes, pioneering a model for transitional justice that prioritized acknowledgment and national unity over retribution."
+  },
+  {
+    "id": "international_criminal_court",
+    "label": "International Criminal Court (2002)",
+    "category": "event",
+    "scope": "global/politics",
+    "decade": 2002,
+    "region": "Global",
+    "summary": "First permanent international court for war crimes and crimes against humanity \u2014 constrained by major power non-participation (US, China, Russia) but establishing accountability norms for atrocities."
   }
 ]

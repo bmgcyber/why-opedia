@@ -22972,5 +22972,227 @@
     "target": "protest_literature",
     "type": "ENABLES",
     "weight": 2
+  },
+  {
+    "source": "democratic_accountability",
+    "target": "church_committee",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "democratic_accountability",
+    "target": "watergate",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "democratic_accountability",
+    "target": "south_africa_truth_reconciliation",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "democratic_accountability",
+    "target": "international_criminal_court",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "truth_and_reconciliation",
+    "target": "south_africa_truth_reconciliation",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "democratic_backsliding",
+    "target": "voter_suppression",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "democratic_backsliding",
+    "target": "gerrymandering",
+    "type": "USES",
+    "weight": 3
+  },
+  {
+    "source": "democratic_backsliding",
+    "target": "january_6_attack",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "democratic_backsliding",
+    "target": "citizens_united",
+    "type": "ENABLED_BY",
+    "weight": 2
+  },
+  {
+    "source": "right_wing_populism",
+    "target": "trump_maga",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "right_wing_populism",
+    "target": "tea_party_movement",
+    "type": "PRECEDED",
+    "weight": 2
+  },
+  {
+    "source": "right_wing_populism",
+    "target": "white_supremacy_movement",
+    "type": "ENABLES",
+    "weight": 2
+  },
+  {
+    "source": "neoliberalism",
+    "target": "new_deal",
+    "type": "DISMANTLES",
+    "weight": 2
+  },
+  {
+    "source": "neoliberalism",
+    "target": "welfare_state",
+    "type": "DISMANTLES",
+    "weight": 3
+  },
+  {
+    "source": "regulatory_capture",
+    "target": "dark_money_politics",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "regulatory_capture",
+    "target": "citizens_united",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "dark_money",
+    "target": "dark_money_politics",
+    "type": "SAME_AS",
+    "weight": 3
+  },
+  {
+    "source": "surveillance_state",
+    "target": "patriot_act_surveillance",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "surveillance_state",
+    "target": "central_intelligence_agency",
+    "type": "USES",
+    "weight": 2
+  },
+  {
+    "source": "proxy_war",
+    "target": "cold_war_proxy_wars",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "civil_disobedience",
+    "target": "civil_disobedience_thoreau",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "nonviolent_resistance",
+    "target": "mahatma_gandhi",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "nonviolent_resistance",
+    "target": "velvet_revolutions",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "institutional_resilience",
+    "target": "separation_of_powers",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "institutional_resilience",
+    "target": "civil_society",
+    "type": "ENABLES",
+    "weight": 3
+  },
+  {
+    "source": "whistleblowing",
+    "target": "pentagon_papers",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "whistleblowing",
+    "target": "church_committee",
+    "type": "CONTEXT_FOR",
+    "weight": 2
+  },
+  {
+    "source": "colonialism",
+    "target": "banana_republic",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "imperialism",
+    "target": "banana_republic",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "class_struggle",
+    "target": "labor_movement",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "class_struggle",
+    "target": "new_deal",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "labor_movement",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "lgbtq_rights_movement",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "second_wave_feminism",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "disability_rights",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "environmental_justice",
+    "type": "EXPLAINS",
+    "weight": 3
+  },
+  {
+    "source": "social_movement",
+    "target": "indigenous_rights",
+    "type": "EXPLAINS",
+    "weight": 3
   }
 ]
