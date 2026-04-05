@@ -11874,5 +11874,137 @@
     "source": "zapatista_uprising_1994",
     "target": "pink_tide",
     "type": "ENABLED"
+  },
+  {
+    "id": "haymarket_affair_1886__labor_rights_eight_hour_day",
+    "source": "haymarket_affair_1886",
+    "target": "labor_rights_eight_hour_day",
+    "type": "ENABLED"
+  },
+  {
+    "id": "triangle_shirtwaist_fire_1911__labor_rights_eight_hour_day",
+    "source": "triangle_shirtwaist_fire_1911",
+    "target": "labor_rights_eight_hour_day",
+    "type": "CAUSED"
+  },
+  {
+    "id": "iww_founding__haymarket_affair_1886",
+    "source": "haymarket_affair_1886",
+    "target": "iww_founding",
+    "type": "CAUSED"
+  },
+  {
+    "id": "seneca_falls_convention__suffrage_movement",
+    "source": "seneca_falls_convention",
+    "target": "suffrage_movement",
+    "type": "CAUSED"
+  },
+  {
+    "id": "seneca_falls_convention__second_wave_feminism",
+    "source": "seneca_falls_convention",
+    "target": "second_wave_feminism",
+    "type": "CAUSED"
+  },
+  {
+    "id": "second_wave_feminism__roe_v_wade",
+    "source": "second_wave_feminism",
+    "target": "roe_v_wade",
+    "type": "CAUSED"
+  },
+  {
+    "id": "second_wave_feminism__equal_rights_amendment",
+    "source": "second_wave_feminism",
+    "target": "equal_rights_amendment",
+    "type": "CAUSED"
+  },
+  {
+    "id": "taft_hartley_act_1947__patco_strike_reagan_1981",
+    "source": "taft_hartley_act_1947",
+    "target": "patco_strike_reagan_1981",
+    "type": "ENABLED"
+  },
+  {
+    "id": "pan_africanism__decolonization_independence_wave",
+    "source": "pan_africanism",
+    "target": "decolonization_independence_wave",
+    "type": "ENABLED"
+  },
+  {
+    "id": "pan_africanism__kwame_nkrumah",
+    "source": "pan_africanism",
+    "target": "kwame_nkrumah",
+    "type": "ENABLED"
+  },
+  {
+    "id": "pan_africanism__algerian_independence_war",
+    "source": "pan_africanism",
+    "target": "algerian_independence_war",
+    "type": "ENABLED"
+  },
+  {
+    "id": "algerian_independence_war__kenyan_independence",
+    "source": "algerian_independence_war",
+    "target": "kenyan_independence",
+    "type": "ENABLED"
+  },
+  {
+    "id": "mau_mau_uprising_kenya__kenyan_independence",
+    "source": "mau_mau_uprising_kenya",
+    "target": "kenyan_independence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "congo_crisis_1960s__patrice_lumumba",
+    "source": "congo_crisis_1960s",
+    "target": "patrice_lumumba",
+    "type": "CAUSED"
+  },
+  {
+    "id": "biafran_war__nigeria_oil_boom",
+    "source": "biafran_war",
+    "target": "nigeria_oil_boom",
+    "type": "CAUSED"
+  },
+  {
+    "id": "angolan_civil_war__pan_africanism",
+    "source": "pan_africanism",
+    "target": "angolan_civil_war",
+    "type": "ENABLED"
+  },
+  {
+    "id": "african_union_founding__decolonization_independence_wave",
+    "source": "decolonization_independence_wave",
+    "target": "african_union_founding",
+    "type": "CAUSED"
+  },
+  {
+    "id": "zimbabwe_independence__robert_mugabe",
+    "source": "zimbabwe_independence",
+    "target": "robert_mugabe",
+    "type": "CAUSED"
+  },
+  {
+    "id": "gwangju_uprising_1980__south_korea_democratization",
+    "source": "gwangju_uprising_1980",
+    "target": "south_korea_democratization",
+    "type": "CAUSED"
+  },
+  {
+    "id": "marcos_dictatorship_philippines__people_power_revolution_1986",
+    "source": "marcos_dictatorship_philippines",
+    "target": "people_power_revolution_1986",
+    "type": "CAUSED"
+  },
+  {
+    "id": "suharto_new_order__indonesian_mass_killings_1965",
+    "source": "suharto_new_order",
+    "target": "indonesian_mass_killings_1965",
+    "type": "CAUSED"
+  },
+  {
+    "id": "bangladesh_liberation_war_1971__bengali_genocide_1971",
+    "source": "bangladesh_liberation_war_1971",
+    "target": "bengali_genocide_1971",
+    "type": "CAUSED"
   }
 ]

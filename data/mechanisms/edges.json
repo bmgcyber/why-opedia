@@ -24136,5 +24136,479 @@
     "source": "internet_invention",
     "target": "cambridge_analytica",
     "type": "ENABLED"
+  },
+  {
+    "id": "haymarket_affair_1886__political_violence",
+    "source": "haymarket_affair_1886",
+    "target": "political_violence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "haymarket_affair_1886__social_movement",
+    "source": "haymarket_affair_1886",
+    "target": "social_movement",
+    "type": "ENABLED"
+  },
+  {
+    "id": "haymarket_affair_1886__class_struggle",
+    "source": "haymarket_affair_1886",
+    "target": "class_struggle",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "triangle_shirtwaist_fire_1911__social_movement",
+    "source": "triangle_shirtwaist_fire_1911",
+    "target": "social_movement",
+    "type": "ENABLED"
+  },
+  {
+    "id": "triangle_shirtwaist_fire_1911__class_struggle",
+    "source": "triangle_shirtwaist_fire_1911",
+    "target": "class_struggle",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "iww_founding__coalition_building",
+    "source": "iww_founding",
+    "target": "coalition_building",
+    "type": "ENABLED"
+  },
+  {
+    "id": "iww_founding__class_struggle",
+    "source": "iww_founding",
+    "target": "class_struggle",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "afl_cio_merger__institutional_resilience",
+    "source": "afl_cio_merger",
+    "target": "institutional_resilience",
+    "type": "ENABLED"
+  },
+  {
+    "id": "afl_cio_merger__coalition_building",
+    "source": "afl_cio_merger",
+    "target": "coalition_building",
+    "type": "ENABLED"
+  },
+  {
+    "id": "coal_mine_strikes_early_20c__class_struggle",
+    "source": "coal_mine_strikes_early_20c",
+    "target": "class_struggle",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "coal_mine_strikes_early_20c__political_violence",
+    "source": "coal_mine_strikes_early_20c",
+    "target": "political_violence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "wagner_act_1935__institutional_resilience",
+    "source": "wagner_act_1935",
+    "target": "institutional_resilience",
+    "type": "ENABLED"
+  },
+  {
+    "id": "wagner_act_1935__democratic_accountability",
+    "source": "wagner_act_1935",
+    "target": "democratic_accountability",
+    "type": "ENABLED"
+  },
+  {
+    "id": "taft_hartley_act_1947__class_struggle",
+    "source": "taft_hartley_act_1947",
+    "target": "class_struggle",
+    "type": "CAUSED"
+  },
+  {
+    "id": "taft_hartley_act_1947__rent_seeking",
+    "source": "taft_hartley_act_1947",
+    "target": "rent_seeking",
+    "type": "ENABLED"
+  },
+  {
+    "id": "patco_strike_reagan_1981__class_struggle",
+    "source": "patco_strike_reagan_1981",
+    "target": "class_struggle",
+    "type": "CAUSED"
+  },
+  {
+    "id": "patco_strike_reagan_1981__rent_seeking",
+    "source": "patco_strike_reagan_1981",
+    "target": "rent_seeking",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "uk_miners_strike_1984__class_struggle",
+    "source": "uk_miners_strike_1984",
+    "target": "class_struggle",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "uk_miners_strike_1984__social_movement",
+    "source": "uk_miners_strike_1984",
+    "target": "social_movement",
+    "type": "ENABLED"
+  },
+  {
+    "id": "child_labor_reform__moral_circle_expansion",
+    "source": "child_labor_reform",
+    "target": "moral_circle_expansion",
+    "type": "ENABLED"
+  },
+  {
+    "id": "child_labor_reform__social_movement",
+    "source": "child_labor_reform",
+    "target": "social_movement",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "second_wave_feminism__social_movement",
+    "source": "second_wave_feminism",
+    "target": "social_movement",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "second_wave_feminism__moral_circle_expansion",
+    "source": "second_wave_feminism",
+    "target": "moral_circle_expansion",
+    "type": "ENABLED"
+  },
+  {
+    "id": "second_wave_feminism__coalition_building",
+    "source": "second_wave_feminism",
+    "target": "coalition_building",
+    "type": "ENABLED"
+  },
+  {
+    "id": "roe_v_wade__moral_circle_expansion",
+    "source": "roe_v_wade",
+    "target": "moral_circle_expansion",
+    "type": "ENABLED"
+  },
+  {
+    "id": "roe_v_wade__democratic_accountability",
+    "source": "roe_v_wade",
+    "target": "democratic_accountability",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "equal_rights_amendment__social_movement",
+    "source": "equal_rights_amendment",
+    "target": "social_movement",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "equal_rights_amendment__moral_circle_expansion",
+    "source": "equal_rights_amendment",
+    "target": "moral_circle_expansion",
+    "type": "ENABLED"
+  },
+  {
+    "id": "pan_africanism__social_movement",
+    "source": "pan_africanism",
+    "target": "social_movement",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "pan_africanism__coalition_building",
+    "source": "pan_africanism",
+    "target": "coalition_building",
+    "type": "ENABLED"
+  },
+  {
+    "id": "pan_africanism__settler_colonialism",
+    "source": "pan_africanism",
+    "target": "settler_colonialism",
+    "type": "CAUSED"
+  },
+  {
+    "id": "algerian_independence_war__political_violence",
+    "source": "algerian_independence_war",
+    "target": "political_violence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "algerian_independence_war__settler_colonialism",
+    "source": "algerian_independence_war",
+    "target": "settler_colonialism",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "algerian_independence_war__dehumanization",
+    "source": "algerian_independence_war",
+    "target": "dehumanization",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "mau_mau_uprising_kenya__settler_colonialism",
+    "source": "mau_mau_uprising_kenya",
+    "target": "settler_colonialism",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "mau_mau_uprising_kenya__political_violence",
+    "source": "mau_mau_uprising_kenya",
+    "target": "political_violence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "congo_crisis_1960s__proxy_war",
+    "source": "congo_crisis_1960s",
+    "target": "proxy_war",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "congo_crisis_1960s__political_violence",
+    "source": "congo_crisis_1960s",
+    "target": "political_violence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "biafran_war__political_violence",
+    "source": "biafran_war",
+    "target": "political_violence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "biafran_war__resource_curse",
+    "source": "biafran_war",
+    "target": "resource_curse",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "angolan_civil_war__proxy_war",
+    "source": "angolan_civil_war",
+    "target": "proxy_war",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "angolan_civil_war__political_violence",
+    "source": "angolan_civil_war",
+    "target": "political_violence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "angolan_civil_war__resource_curse",
+    "source": "angolan_civil_war",
+    "target": "resource_curse",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "somalia_state_collapse__state_collapse",
+    "source": "somalia_state_collapse",
+    "target": "state_collapse",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "somalia_state_collapse__political_violence",
+    "source": "somalia_state_collapse",
+    "target": "political_violence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "nigeria_oil_boom__resource_curse",
+    "source": "nigeria_oil_boom",
+    "target": "resource_curse",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "nigeria_oil_boom__rent_seeking",
+    "source": "nigeria_oil_boom",
+    "target": "rent_seeking",
+    "type": "ENABLED"
+  },
+  {
+    "id": "ethiopian_famine_1984__resource_curse",
+    "source": "ethiopian_famine_1984",
+    "target": "resource_curse",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "ethiopian_famine_1984__mutual_aid",
+    "source": "ethiopian_famine_1984",
+    "target": "mutual_aid",
+    "type": "ENABLED"
+  },
+  {
+    "id": "robert_mugabe__democratic_backsliding",
+    "source": "robert_mugabe",
+    "target": "democratic_backsliding",
+    "type": "ENABLED"
+  },
+  {
+    "id": "african_union_founding__institutional_resilience",
+    "source": "african_union_founding",
+    "target": "institutional_resilience",
+    "type": "ENABLED"
+  },
+  {
+    "id": "african_union_founding__coalition_building",
+    "source": "african_union_founding",
+    "target": "coalition_building",
+    "type": "ENABLED"
+  },
+  {
+    "id": "marcos_dictatorship_philippines__political_violence",
+    "source": "marcos_dictatorship_philippines",
+    "target": "political_violence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "marcos_dictatorship_philippines__democratic_backsliding",
+    "source": "marcos_dictatorship_philippines",
+    "target": "democratic_backsliding",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "marcos_dictatorship_philippines__rent_seeking",
+    "source": "marcos_dictatorship_philippines",
+    "target": "rent_seeking",
+    "type": "ENABLED"
+  },
+  {
+    "id": "people_power_revolution_1986__nonviolent_resistance",
+    "source": "people_power_revolution_1986",
+    "target": "nonviolent_resistance",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "people_power_revolution_1986__democratic_accountability",
+    "source": "people_power_revolution_1986",
+    "target": "democratic_accountability",
+    "type": "ENABLED"
+  },
+  {
+    "id": "people_power_revolution_1986__social_movement",
+    "source": "people_power_revolution_1986",
+    "target": "social_movement",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "suharto_new_order__political_violence",
+    "source": "suharto_new_order",
+    "target": "political_violence",
+    "type": "ENABLED"
+  },
+  {
+    "id": "suharto_new_order__proxy_war",
+    "source": "suharto_new_order",
+    "target": "proxy_war",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "suharto_new_order__rent_seeking",
+    "source": "suharto_new_order",
+    "target": "rent_seeking",
+    "type": "ENABLED"
+  },
+  {
+    "id": "indonesian_mass_killings_1965__political_violence",
+    "source": "indonesian_mass_killings_1965",
+    "target": "political_violence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "indonesian_mass_killings_1965__scapegoating",
+    "source": "indonesian_mass_killings_1965",
+    "target": "scapegoating",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "indonesian_mass_killings_1965__dehumanization",
+    "source": "indonesian_mass_killings_1965",
+    "target": "dehumanization",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "indonesian_mass_killings_1965__red_scare",
+    "source": "indonesian_mass_killings_1965",
+    "target": "red_scare",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "bangladesh_liberation_war_1971__political_violence",
+    "source": "bangladesh_liberation_war_1971",
+    "target": "political_violence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "bengali_genocide_1971__dehumanization",
+    "source": "bengali_genocide_1971",
+    "target": "dehumanization",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "bengali_genocide_1971__political_violence",
+    "source": "bengali_genocide_1971",
+    "target": "political_violence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "india_emergency_1975__democratic_backsliding",
+    "source": "india_emergency_1975",
+    "target": "democratic_backsliding",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "india_emergency_1975__surveillance_state",
+    "source": "india_emergency_1975",
+    "target": "surveillance_state",
+    "type": "ENABLED"
+  },
+  {
+    "id": "south_korea_democratization__nonviolent_resistance",
+    "source": "south_korea_democratization",
+    "target": "nonviolent_resistance",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "south_korea_democratization__democratic_accountability",
+    "source": "south_korea_democratization",
+    "target": "democratic_accountability",
+    "type": "ENABLED"
+  },
+  {
+    "id": "south_korea_democratization__institutional_resilience",
+    "source": "south_korea_democratization",
+    "target": "institutional_resilience",
+    "type": "ENABLED"
+  },
+  {
+    "id": "gwangju_uprising_1980__political_violence",
+    "source": "gwangju_uprising_1980",
+    "target": "political_violence",
+    "type": "CAUSED"
+  },
+  {
+    "id": "gwangju_uprising_1980__social_movement",
+    "source": "gwangju_uprising_1980",
+    "target": "social_movement",
+    "type": "ENABLED"
+  },
+  {
+    "id": "east_timor_independence__settler_colonialism",
+    "source": "east_timor_independence",
+    "target": "settler_colonialism",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "east_timor_independence__truth_and_reconciliation",
+    "source": "east_timor_independence",
+    "target": "truth_and_reconciliation",
+    "type": "ENABLED"
+  },
+  {
+    "id": "myanmar_military_history__democratic_backsliding",
+    "source": "myanmar_military_history",
+    "target": "democratic_backsliding",
+    "type": "SHARES_MECHANISM_WITH"
+  },
+  {
+    "id": "myanmar_military_history__political_violence",
+    "source": "myanmar_military_history",
+    "target": "political_violence",
+    "type": "CAUSED"
   }
 ]

@@ -15039,5 +15039,669 @@
     ],
     "summary": "The US-led 'War on Drugs' in Latin America (1970s-present) has militarized the region, fueled cartel violence, justified mass incarceration of poor communities, and failed to reduce drug consumption while producing extraordinary human rights abuses.",
     "description": "Nixon's declaration of a 'war on drugs' in 1971 initiated decades of US policy treating drug production and trafficking as security threats to be addressed through military and police force. In Latin America, this meant: DEA operations in Andean coca-producing regions, US-funded fumigation programs that destroyed subsistence crops alongside coca, military aid conditioned on anti-narcotics cooperation, and eventually direct military deployments.\n\nPlan Colombia (2000), the US's largest aid package since the Vietnam War, militarized Colombia's internal conflict while failing to significantly reduce cocaine supply. Mexico's Calderón declared war on cartels in 2006, producing 150,000+ deaths and 30,000+ disappearances without eliminating the trade. Honduras, Guatemala, and El Salvador became transit corridors with homicide rates among the world's highest, driving the migration that US politicians then criminalized.\n\nThe drug war's structural failure is well-documented: interdiction reduces supply temporarily but drives up profits, funding insurgent organizations. Demand-side approaches—harm reduction, decriminalization, treatment—have demonstrated effectiveness in Portugal and other countries that adopted them. The drug war's primary domestic function has arguably been to justify the mass incarceration of Black and Latino communities in the US and to provide legal cover for military operations against leftist movements in Latin America, conflating drug enforcement with counterinsurgency."
+  },
+  {
+    "id": "haymarket_affair_1886",
+    "label": "Haymarket Affair",
+    "category": "event",
+    "decade": "1886",
+    "region": "North America",
+    "scope": "global/history",
+    "tags": [
+      "labor",
+      "anarchism",
+      "political_violence",
+      "unions",
+      "eight_hour_day"
+    ],
+    "summary": "The 1886 Haymarket bombing in Chicago, during a labor rally for the eight-hour workday, became the defining event of the early American labor movement — a martyrdom that radicalized unions and led to international Labor Day.",
+    "description": "On May 4, 1886, workers gathered in Chicago's Haymarket Square to protest police violence against striking workers at the McCormick Harvesting Machine Company. Someone — never identified — threw a bomb at advancing police, killing seven officers. Police then fired into the crowd, killing and wounding dozens more. Eight anarchist labor organizers were arrested; four were hanged, one died in prison, and three were later pardoned.\n\nThe trial was a political prosecution without credible evidence linking the defendants to the bombing. The condemned became martyrs for the international labor movement: May 1 (May Day) became International Workers' Day in commemoration, observed globally except in the United States, where Labor Day was moved to September to avoid the radical associations. The affair illustrated how employers and the state would use violence and legal persecution to suppress labor organizing.\n\nHaymarket radicalized the labor movement and permanently entangled it with questions of political violence, civil liberties, and the state's relationship to capital. The Knights of Labor, which had been the dominant labor organization, declined after being associated with the affair. The American Federation of Labor (AFL) under Samuel Gompers rose partly by positioning itself as a 'respectable' alternative — accepting capitalism but fighting for wages and hours within it, a strategic compromise that shaped American labor for a century."
+  },
+  {
+    "id": "triangle_shirtwaist_fire_1911",
+    "label": "Triangle Shirtwaist Fire",
+    "category": "event",
+    "decade": "1911",
+    "region": "North America",
+    "scope": "global/history",
+    "tags": [
+      "labor",
+      "worker_safety",
+      "women_workers",
+      "immigrants",
+      "reform"
+    ],
+    "summary": "The 1911 Triangle Shirtwaist Factory fire killed 146 garment workers — mostly young immigrant women — because exit doors were locked. The disaster catalyzed labor safety legislation and became the founding trauma of the American reform movement.",
+    "description": "On March 25, 1911, fire broke out on the upper floors of the Triangle Shirtwaist Company in New York City. Exit doors had been locked by management to prevent theft and unauthorized breaks; the single fire escape collapsed. Workers jumped from windows. 146 people died — mostly Jewish and Italian immigrant women, many teenagers. It was the deadliest industrial disaster in New York City history until September 11.\n\nThe owners were acquitted of manslaughter at trial, but the public outrage transformed American labor politics. New York State created the Factory Investigating Commission, whose four-year investigation produced 36 new labor laws covering fire safety, work hours, child labor, and sanitation. Frances Perkins — who witnessed the fire and would later become the first female cabinet member as FDR's Secretary of Labor — credited Triangle with her transformation into a reform activist.\n\nThe fire made visible what labor organizers had been arguing: that market incentives alone would not protect workers, and that state regulation was necessary. It also demonstrated the particular vulnerability of female immigrant workers, who had been organizing through the International Ladies' Garment Workers' Union (ILGWU) and had struck the year before. Triangle became the symbolic center of the Progressive Era's argument that industrial capitalism required democratic oversight."
+  },
+  {
+    "id": "iww_founding",
+    "label": "Industrial Workers of the World (IWW)",
+    "category": "institution",
+    "decade": "1905",
+    "region": "North America",
+    "scope": "global/history",
+    "tags": [
+      "labor",
+      "anarcho_syndicalism",
+      "unions",
+      "industrial_unionism",
+      "wobbly"
+    ],
+    "summary": "The IWW (Wobblies, founded 1905) organized across race, gender, and skill lines when craft unions excluded unskilled and non-white workers, pioneering industrial unionism and radical labor tactics still referenced today.",
+    "description": "The Industrial Workers of the World was founded in Chicago in 1905 by socialist, anarchist, and radical labor activists including 'Big Bill' Haywood, Eugene Debs, and Mary 'Mother' Jones. Unlike the American Federation of Labor, which organized skilled craft workers by trade (and excluded women, Black workers, and immigrants), the IWW organized all workers — regardless of skill, race, gender, or nationality — into One Big Union.\n\nThe Wobblies pioneered tactics later adopted across the labor movement: the sit-down strike, free speech fights, and solidarity across racial lines in an era of rigid segregation. They organized loggers, miners, textile workers, dock workers, and migrant agricultural workers that other unions ignored. The 1912 Lawrence 'Bread and Roses' strike, led largely by immigrant women, demonstrated the power of industrial unionism.\n\nThe IWW was systematically destroyed during and after World War I. Opposition to the war made it a target for sedition prosecutions; nearly 100 leaders were tried under the Espionage Act in a mass trial. The Palmer Raids of 1919 targeted IWW members alongside other radicals. Membership collapsed from 100,000 at its peak to a few thousand. But its organizational model — industrial rather than craft unionism — would be vindicated in the 1930s when the Congress of Industrial Organizations (CIO) organized mass production workers using IWW principles."
+  },
+  {
+    "id": "afl_cio_merger",
+    "label": "AFL-CIO Merger",
+    "category": "event",
+    "decade": "1955",
+    "region": "North America",
+    "scope": "global/history",
+    "tags": [
+      "labor",
+      "unions",
+      "cold_war",
+      "workers_rights",
+      "consolidation"
+    ],
+    "summary": "The 1955 merger of the American Federation of Labor and Congress of Industrial Organizations created the AFL-CIO, the dominant institution of American labor for 50 years — representing 35% of the US workforce at its height.",
+    "description": "The AFL-CIO merger in December 1955 united the two major streams of American labor: the AFL's craft unions (skilled workers organized by trade) and the CIO's industrial unions (all workers in an industry regardless of skill). The split had occurred in 1935 when the CIO broke away to organize mass production workers in auto, steel, rubber, and electrical industries that the AFL had ignored. The merger created a federation of 16 million workers — the largest labor organization in US history at the time.\n\nThe merger happened in the context of postwar prosperity and Cold War anticommunism. Union membership had peaked at 35% of the non-agricultural workforce in 1954. The AFL-CIO explicitly aligned with Cold War liberalism, expelling unions with communist leadership and supporting US foreign policy objectives — a trade that would later seem like a devil's bargain as the labor movement's political autonomy narrowed.\n\nFrom its mid-1950s peak, American union membership declined steadily: from 35% to under 10% today. The decline reflected deindustrialization, employer anti-union campaigns, legal changes (especially Taft-Hartley), and the federation's failure to organize the South and the growing service sector. The AFL-CIO's trajectory from peak institutional power to marginalization illustrates the structural fragility of labor gains in the absence of continuous organizing."
+  },
+  {
+    "id": "coal_mine_strikes_early_20c",
+    "label": "Early 20th Century Coal Strikes",
+    "category": "era",
+    "decade": "1900s",
+    "region": "North America",
+    "scope": "global/history",
+    "tags": [
+      "labor",
+      "coal",
+      "strikes",
+      "class_struggle",
+      "mine_workers"
+    ],
+    "summary": "A wave of coal strikes (1900-1920s) in the US and UK, led by the United Mine Workers, established collective bargaining rights for industrial workers and defined the template for modern labor-management relations.",
+    "description": "The anthracite coal strikes of 1900-1902, led by United Mine Workers president John Mitchell, were the first major test of organized industrial labor in America. When 150,000 miners struck the anthracite fields of Pennsylvania in 1902, President Theodore Roosevelt intervened — the first time a president had acted as a neutral arbiter rather than a strikebreaker. The settlement established arbitration as a legitimate tool, a precedent for labor relations.\n\nCoal mining was the most dangerous industry in America: roof collapses, explosions, and coal dust diseases killed thousands annually. The company towns that housed miners gave operators total control over workers' lives — they owned the houses, the stores, and often employed the police. Strikes were met with private militias and federal troops. The Ludlow Massacre (1914), in which Colorado National Guard and Rockefeller mining company guards attacked a strikers' tent colony and killed 21 people including children, became the defining image of industrial violence against labor.\n\nCoal strikes in Britain were equally formative: the 1926 General Strike began as solidarity with coal miners locked out after the mine owners demanded wage cuts. Nine days of near-total work stoppage — involving 1.7 million workers — ended without achieving its goals, but demonstrated labor's capacity for solidarity action. The coalfield communities developed a distinctive labor culture of solidarity that would persist through Margaret Thatcher's 1984 assault on the miners."
+  },
+  {
+    "id": "wagner_act_1935",
+    "label": "Wagner Act (NLRA)",
+    "category": "event",
+    "decade": "1935",
+    "region": "North America",
+    "scope": "global/history",
+    "tags": [
+      "labor",
+      "new_deal",
+      "unions",
+      "workers_rights",
+      "legislation"
+    ],
+    "summary": "The National Labor Relations Act (1935) guaranteed American workers the right to organize and bargain collectively, creating the legal framework for the postwar labor-capital compromise that built the middle class.",
+    "description": "The National Labor Relations Act, championed by Senator Robert Wagner and signed by FDR in 1935, was the most significant piece of labor legislation in American history. It guaranteed workers the rights to organize unions, to bargain collectively, and to strike. It created the National Labor Relations Board (NLRB) to enforce these rights and prohibited employer interference with union organizing — the 'unfair labor practices' that employers had routinely used to crush unions.\n\nThe Wagner Act transformed American industrial relations. Union membership exploded: from 10% of the workforce in 1935 to 35% by 1954. The CIO organized the great mass production industries — auto, steel, rubber, electrical — in a wave of militant organizing that included the sit-down strikes at GM in 1936-37. The resulting labor-capital compromise — high wages, benefits, and job security in exchange for labor peace and acceptance of management prerogatives — formed the economic foundation of postwar middle-class prosperity.\n\nBut the Act contained a fatal compromise: it excluded agricultural and domestic workers from its protections, precisely the workers most likely to be Black and Latino. This was the price of Southern Democratic support, and it created a racially stratified labor movement. The Taft-Hartley Act (1947) significantly limited the Wagner Act's protections, banning secondary boycotts, requiring union leaders to sign anti-communist affidavits, and allowing states to pass 'right to work' laws banning union security agreements — the legal infrastructure that the business class would use to roll back labor power over the following decades."
+  },
+  {
+    "id": "taft_hartley_act_1947",
+    "label": "Taft-Hartley Act",
+    "category": "event",
+    "decade": "1947",
+    "region": "North America",
+    "scope": "global/history",
+    "tags": [
+      "labor",
+      "anti_union",
+      "cold_war",
+      "legislation",
+      "right_to_work"
+    ],
+    "summary": "The Taft-Hartley Act (1947) significantly weakened the Wagner Act's labor protections, banning secondary boycotts, enabling right-to-work states, purging communist union leaders, and beginning the legal erosion of American union power.",
+    "description": "Passed over Truman's veto by a Republican-controlled Congress flush from postwar strike waves, the Labor-Management Relations Act (Taft-Hartley) amended the Wagner Act fundamentally. It outlawed the closed shop (requiring union membership before hiring), allowed states to ban union shops (right-to-work laws), prohibited secondary boycotts and sympathy strikes, required union officers to sign anti-communist affidavits, and allowed the president to impose 80-day cooling-off periods in national emergency strikes.\n\nThe anti-communist provisions had immediate effects: the CIO expelled eleven unions for communist leadership, purging many of the movement's most effective organizers and costing labor hundreds of thousands of members. The expelled unions — electrical workers, longshore, meatpackers — had been among the most racially integrated and politically radical. Their expulsion shifted the labor movement toward Cold War liberalism and away from coalitions with civil rights and other social movements.\n\nRight-to-work provisions, which 27 states have enacted under Taft-Hartley's authorization, allow workers to benefit from union contracts without paying dues — creating a structural free-rider problem that financially weakens unions. Political scientists trace American union decline directly to the geography of right-to-work states, which account for most of the Sun Belt growth since the 1970s. Taft-Hartley is thus a long-fused bomb: planted in 1947, its effects on labor's political capacity expanded over decades as manufacturing and workers moved to anti-union states."
+  },
+  {
+    "id": "patco_strike_reagan_1981",
+    "label": "PATCO Strike",
+    "category": "event",
+    "decade": "1981",
+    "region": "North America",
+    "scope": "global/history",
+    "tags": [
+      "labor",
+      "reagan",
+      "anti_union",
+      "neoliberalism",
+      "air_traffic_controllers"
+    ],
+    "summary": "Reagan's firing of 11,000 striking air traffic controllers in 1981 signaled the end of the postwar labor-capital truce, emboldening private employers to break unions and beginning the era of labor's political marginalization.",
+    "description": "When the Professional Air Traffic Controllers Organization (PATCO) went on strike in August 1981, demanding better wages and a shorter work week in a dangerous, high-stress job, Reagan gave them 48 hours to return to work or be fired. When they refused, he fired all 11,359 strikers and banned them from federal employment for life, breaking the union entirely and using military air traffic controllers as replacements.\n\nThe PATCO firing sent a message to private employers that labor militancy would not be protected — an employer could now fight unions aggressively with minimal political consequence. Union-busting consultants proliferated, striker replacements became routine, and the NLRB was gradually defunded and staffed with pro-employer appointees. Private sector union density fell from 20% in 1980 to under 7% by 2020.\n\nBut PATCO also revealed a contradiction in the labor movement: the union had endorsed Reagan in 1980, believing he would be more sympathetic to their contract demands than Carter. It was the most prominent union to endorse a Republican for president. The betrayal illustrated the vulnerability of a labor movement that had abandoned independent political action for transactional electoral deals. The PATCO strike is understood as a turning point: the moment when neoliberalism's assault on labor became irreversible as a political project, with the tacit acceptance of a nominally Democratic political class."
+  },
+  {
+    "id": "uk_miners_strike_1984",
+    "label": "UK Miners' Strike",
+    "category": "event",
+    "decade": "1984",
+    "region": "Europe",
+    "scope": "global/history",
+    "tags": [
+      "labor",
+      "thatcher",
+      "neoliberalism",
+      "class_struggle",
+      "coal",
+      "unions"
+    ],
+    "summary": "The 1984-85 UK miners' strike — a year-long battle between the National Union of Mineworkers and Thatcher's government — ended in defeat for labor and the systematic destruction of Britain's mining communities, a defining moment of neoliberal consolidation.",
+    "description": "When Thatcher's government announced the closure of 20 coal pits in March 1984, NUM leader Arthur Scargill called a national strike without a ballot. For a year, 165,000 miners and their communities stood against the state — police flew in from across the country to enforce movement of coal; mounted officers charged picket lines; surveillance and infiltration of the union were later revealed to have been extensive. Mining communities, with no other income, depended on donations from labor movements worldwide.\n\nThatcher had spent years preparing for this confrontation: stockpiling coal at power stations, training police in riot tactics, and building legal frameworks to hamstring strike action. She called the miners 'the enemy within' — explicitly framing industrial conflict as national security threat. The strike ended in March 1985 with the miners returning to work without a settlement, and pit closures accelerated. Within a decade, the British coal industry had virtually ceased to exist.\n\nThe defeat transformed British society. Coalfield communities — tight-knit, working-class, politically coherent — lost their economic foundation and much of their social fabric. Towns like Grimethorpe and Easington became case studies in deindustrialization's social costs: unemployment, addiction, family breakdown. The defeat also broke the NUM as a political force and left the broader labor movement without the industrial leverage to resist neoliberal restructuring. As in the US, the labor movement's defeat in the 1980s cleared the political space for three decades of capital's uncontested dominance."
+  },
+  {
+    "id": "child_labor_reform",
+    "label": "Child Labor Reform",
+    "category": "movement",
+    "decade": "1900s",
+    "region": "Global",
+    "scope": "global/history",
+    "tags": [
+      "labor",
+      "children",
+      "reform",
+      "progressive_era",
+      "moral_circle"
+    ],
+    "summary": "The movement to abolish child labor (1890s-1940s) was one of the progressive era's defining victories, expanding the moral circle by establishing that children's development mattered more than their economic productivity.",
+    "description": "At the turn of the 20th century, nearly 2 million children under 16 worked in American factories, mines, and agricultural fields — often in dangerous conditions for poverty wages. Lewis Hine's photographs of child miners and textile workers, taken undercover for the National Child Labor Committee (founded 1904), created the visual evidence that transformed public opinion. His images of children's faces — exhausted, small-boned, ancient-seeming — became some of the most politically effective photographs in history.\n\nThe reform coalition was eclectic: middle-class reformers, female progressive activists, some labor unions (who saw children's labor as undercutting adult wages), and religious organizations. Opposition came primarily from manufacturers who relied on cheap child labor and from Southern Democrats who framed federal prohibition as an attack on states' rights. Two federal child labor laws were struck down by the Supreme Court before the Fair Labor Standards Act (1938) finally established national standards.\n\nChild labor reform illustrates the mechanism of moral circle expansion: the gradual recognition that beings previously excluded from full moral consideration — here, children of the poor — deserve protection from exploitation. The movement required both moral argument (children need education and development, not work) and political organization (building coalitions capable of overcoming entrenched economic interests). The international dimension is ongoing: the ILO estimates 160 million children still work globally, concentrated in agriculture and domestic service in the Global South."
+  },
+  {
+    "id": "second_wave_feminism",
+    "label": "Second Wave Feminism",
+    "category": "movement",
+    "decade": "1960s",
+    "region": "Global",
+    "scope": "global/history",
+    "tags": [
+      "feminism",
+      "womens_rights",
+      "gender",
+      "social_movement",
+      "equality"
+    ],
+    "summary": "Second wave feminism (1960s-1980s) expanded the feminist agenda beyond suffrage to include workplace equality, reproductive rights, domestic violence, sexual harassment, and the structural analysis of patriarchy as a system.",
+    "description": "The second wave emerged in the early 1960s from the convergence of several streams: women radicalized by the civil rights movement who noticed gender discrimination within activist organizations; women entering the workforce in large numbers who encountered systematic pay and promotion discrimination; and the publication of Betty Friedan's 'The Feminine Mystique' (1963), which named the depression of educated housewives as a political problem, not a personal failure.\n\nThe movement won landmark legal victories: the Equal Pay Act (1963), Title VII of the Civil Rights Act banning sex discrimination in employment (1964), Title IX guaranteeing equal opportunity in education (1972), Roe v. Wade establishing reproductive rights (1973), and the creation of NOW (National Organization for Women). Consciousness-raising groups — women meeting to share personal experiences and recognize them as political — became the movement's organizing innovation, pioneering the insight that 'the personal is political.'\n\nThe second wave also generated fierce internal debates that prefigured contemporary feminist politics: between liberal feminists focused on legal equality and socialist feminists who argued patriarchy was inseparable from capitalism; between white women who centered gender and women of color who insisted race and gender were inseparable; between lesbian feminists and those who prioritized heterosexual women's concerns. These tensions produced the concept of intersectionality, developed most influentially by Kimberlé Crenshaw, which argued that multiple systems of oppression must be analyzed together rather than sequentially."
+  },
+  {
+    "id": "roe_v_wade",
+    "label": "Roe v. Wade",
+    "category": "event",
+    "decade": "1973",
+    "region": "North America",
+    "scope": "global/history",
+    "tags": [
+      "abortion",
+      "reproductive_rights",
+      "women",
+      "supreme_court",
+      "constitutional_law"
+    ],
+    "summary": "The Supreme Court's 1973 Roe v. Wade decision established a constitutional right to abortion in the United States — sparking 50 years of political conflict that culminated in its overturn by Dobbs v. Jackson (2022).",
+    "description": "Roe v. Wade (1973) ruled that the Constitution's implied right to privacy extended to a woman's decision to terminate a pregnancy, prohibiting most state restrictions in the first trimester. The decision was grounded in privacy doctrine rather than sex equality — a choice that would prove legally vulnerable. Justice Ruth Bader Ginsburg later argued the case would have been better decided on equal protection grounds, which would have been more durable.\n\nRoe immediately became the central organizing issue for the emerging Christian right. The National Right to Life Committee, the Moral Majority, and eventually the Republican Party built sustained political infrastructure around opposing abortion, transforming it from a marginal Catholic issue into the organizing center of American conservatism. The explicit strategy was to win judicial appointments that would eventually overturn Roe — a 49-year project that succeeded with the Dobbs decision (2022).\n\nDobbs v. Jackson Women's Health Organization (2022) overturned Roe, returning abortion regulation to states and immediately triggering bans in 13 states. The decision illustrated how sustained minority political organization — religious conservatives never constituted a majority on abortion — can reshape constitutional law through the counter-majoritarian mechanism of lifetime judicial appointments. Roe's trajectory from landmark victory to reversal also demonstrated the fragility of rights secured through courts rather than legislation."
+  },
+  {
+    "id": "equal_rights_amendment",
+    "label": "Equal Rights Amendment Campaign",
+    "category": "event",
+    "decade": "1970s",
+    "region": "North America",
+    "scope": "global/history",
+    "tags": [
+      "feminism",
+      "womens_rights",
+      "constitutional_law",
+      "gender_equality",
+      "campaign"
+    ],
+    "summary": "The ERA campaign (1972-1982) to add gender equality to the US Constitution failed three states short of ratification, defeated by a conservative backlash organized by Phyllis Schlafly that became the template for subsequent anti-feminist mobilization.",
+    "description": "Passed by Congress in 1972, the Equal Rights Amendment would have added to the Constitution: 'Equality of rights under the law shall not be denied or abridged by the United States or by any State on account of sex.' It appeared certain to ratify quickly — 30 of the required 38 states ratified in the first year. Then Phyllis Schlafly's STOP ERA campaign, organized through conservative women's networks, began to reverse the tide.\n\nSchlafly's genius was to reframe the ERA not as an expansion of women's rights but as a threat to women — to protective labor laws, to exemption from military draft, to the social contract of male breadwinner and female homemaker that she argued served women's interests. Her campaign mobilized religious conservative women who experienced the ERA and second-wave feminism as an attack on their identity and choices. The counter-mobilization pioneered tactics — grassroots organizing through churches, frame control through media, exploitation of procedural rules — that the right would refine and deploy in subsequent culture war campaigns.\n\nThe ERA failed ratification in 1982, three states short. It has been reintroduced in every subsequent Congress. The campaign's defeat demonstrated that expanding rights, even when popular in principle, can be blocked by intense minority opposition if it taps genuine anxieties about social change. It also revealed the gender politics of American conservatism: that mobilizing women as a constituency against feminist gains was both possible and politically potent."
+  },
+  {
+    "id": "pan_africanism",
+    "label": "Pan-Africanism",
+    "category": "movement",
+    "decade": "1900s",
+    "region": "Africa",
+    "scope": "global/history",
+    "tags": [
+      "africa",
+      "colonialism",
+      "diaspora",
+      "liberation",
+      "solidarity"
+    ],
+    "summary": "Pan-Africanism — the political and cultural movement for solidarity among African peoples worldwide — drove anticolonial liberation movements, shaped post-independence African politics, and established the intellectual framework for African self-determination.",
+    "description": "Pan-Africanism emerged from the African diaspora in the late 19th and early 20th centuries, developed by thinkers like W.E.B. Du Bois, Marcus Garvey, and C.L.R. James who argued that Africans and people of African descent worldwide shared common interests and a common oppressor. The Pan-African Congresses (1919-1945) convened in Europe to demand African political rights. Garvey's 'Back to Africa' movement mobilized hundreds of thousands in the 1920s.\n\nThe movement's second phase came with decolonization. Kwame Nkrumah, who had absorbed Pan-Africanism during his US and UK education, made Ghana's 1957 independence explicitly Pan-African: 'The independence of Ghana is meaningless unless it is linked up with the total liberation of Africa.' Nkrumah hosted the All-African People's Conference in 1958, convening independence leaders from across the continent. The Organization of African Unity (1963), later the African Union, institutionalized continental solidarity as an organizing principle.\n\nPan-Africanism's tension with post-independence African state sovereignty has never been resolved. Leaders like Nkrumah wanted continental federation; others prioritized national sovereignty. Colonial-era borders — which divided ethnic groups and lumped rivals together — were kept intact at independence (the 1964 OAU border resolution), creating structural conflicts between Pan-African aspiration and the realities of the nation-state system that colonialism imposed."
+  },
+  {
+    "id": "algerian_independence_war",
+    "label": "Algerian War of Independence",
+    "category": "event",
+    "decade": "1954",
+    "region": "Africa",
+    "scope": "global/history",
+    "tags": [
+      "colonialism",
+      "france",
+      "war",
+      "independence",
+      "torture",
+      "fanon"
+    ],
+    "summary": "The Algerian War (1954-1962) was France's most traumatic colonial war — a conflict of systematic torture, settler colonialism, and independence movement that killed 300,000-1.5 million Algerians and ultimately ended 132 years of French rule.",
+    "description": "Algeria was not merely a French colony but constitutionally part of France — 'départements' with a million European settlers (pieds-noirs) who voted in French elections and expected permanent French rule. When the National Liberation Front (FLN) launched its insurrection on November 1, 1954, the French government declared it an 'internal police matter.' Eight years later, 800,000 French troops had been deployed and an estimated 300,000-1.5 million Algerians killed (estimates vary widely due to French suppression of records).\n\nThe war's defining feature was systematic torture by French forces: electricity, waterboarding, and mutilation were officially denied but extensively documented. The Battle of Algiers (1957), in which French paratroopers used torture to dismantle the FLN's urban network, became the subject of a canonical film and a training manual for counterinsurgency forces worldwide, including those in Iraq after 2003. Journalist Henri Alleg's 'La Question' (1958), describing his own torture, was banned in France — but the ban publicized the book internationally.\n\nAlgeria's independence (1962) triggered the pieds-noirs' departure and a French political crisis so severe it brought down the Fourth Republic and returned de Gaulle to power. Fanon's writings from this period — particularly 'The Wretched of the Earth' — made the Algerian struggle the theoretical foundation for anticolonial movements worldwide, arguing that colonial violence could only be met with revolutionary violence to achieve genuine psychological liberation."
+  },
+  {
+    "id": "mau_mau_uprising_kenya",
+    "label": "Mau Mau Uprising",
+    "category": "event",
+    "decade": "1952",
+    "region": "Africa",
+    "scope": "global/history",
+    "tags": [
+      "kenya",
+      "colonialism",
+      "britain",
+      "independence",
+      "settler_colonialism",
+      "rebellion"
+    ],
+    "summary": "The Mau Mau uprising (1952-1960) was a Kenyan rebellion against British colonial rule and white settler land appropriation. Britain's brutal suppression — including detention camps and systematic torture — was concealed for decades before victims won legal recognition.",
+    "description": "The Mau Mau was primarily a Kikuyu movement — Kenya's largest ethnic group, whose land had been taken to create the 'White Highlands' for European settlers. By 1950, 1.25 million Kikuyu had been dispossessed of their land; half of Kenya's best agricultural land was owned by 30,000 whites. The insurgency began with oathing ceremonies binding fighters to drive out the British and return the land, and escalated to attacks on both white settlers and Black Kenyans accused of collaboration.\n\nBritain's response was declared a State of Emergency and prosecuted with extraordinary violence. Over a million Kikuyu were forcibly moved into 'protected villages' (essentially concentration camps) to deny insurgents civilian support. An estimated 150,000-320,000 were detained in camps where British records — destroyed by the Foreign Office before Kenyan independence — documented systematic torture: castration, sexual violence, burning. Approximately 11,000 Mau Mau fighters were killed; colonial records show nearly all were summary executions.\n\nKenyan victims filed suit against the British government in 2009; in 2013, the UK settled, paying £19.9 million to 5,228 victims and expressing 'sincere regret' — the first time Britain acknowledged systematic colonial torture. The case, and the discovery of colonial records the Foreign Office had tried to destroy, opened a broader reckoning with British colonial violence. Historian Caroline Elkins' 'Imperial Reckoning' (2005), which documented the camps, won the Pulitzer Prize and shattered the myth of 'benign' British colonialism."
+  },
+  {
+    "id": "kenyan_independence",
+    "label": "Kenyan Independence",
+    "category": "event",
+    "decade": "1963",
+    "region": "Africa",
+    "scope": "global/history",
+    "tags": [
+      "kenya",
+      "independence",
+      "africa",
+      "decolonization",
+      "kenyatta"
+    ],
+    "summary": "Kenya's independence (December 12, 1963) under Jomo Kenyatta — who had been imprisoned by the British as the supposed Mau Mau leader — represented the end of British colonial rule and the beginning of the postcolonial African state's characteristic tensions.",
+    "description": "Jomo Kenyatta had been imprisoned by the British from 1952-1961, falsely accused of leading the Mau Mau uprising. His imprisonment made him a symbol of anticolonial resistance; his release and election as prime minister made his story a parable of colonial injustice overcome. Kenya became independent on December 12, 1963, as part of the broad decolonization wave sweeping Africa.\n\nBut independence revealed the limits of political liberation without economic transformation. The land question that had driven the Mau Mau — the White Highlands, owned by settlers — was resolved through the 'willing seller, willing buyer' principle, with Britain providing loans to Kenya to buy land from departing settlers. Kikuyu elites, not landless peasants who had fought the war, received most of this land. The Mau Mau fighters received no compensation or recognition until 2013.\n\nKenyatta's KANU government became a single-party state by 1969 and increasingly authoritarian. His successor Daniel arap Moi governed Kenya for 24 years (1978-2002) through patronage and political repression. Multiparty democracy, restored in 1991 under international pressure, produced contested elections and ethnic violence in 2007-2008. Kenya's postcolonial trajectory illustrated the pattern across Africa: formal independence did not dismantle colonial economic structures, and the state inherited from colonialism served elite extraction rather than broad development."
+  },
+  {
+    "id": "congo_crisis_1960s",
+    "label": "Congo Crisis",
+    "category": "event",
+    "decade": "1960",
+    "region": "Africa",
+    "scope": "global/history",
+    "tags": [
+      "congo",
+      "cold_war",
+      "cia",
+      "lumumba",
+      "decolonization",
+      "proxy_war"
+    ],
+    "summary": "The Congo Crisis (1960-1965) — including the assassination of independence leader Patrice Lumumba by CIA-Belgian collusion — became the defining Cold War intervention in Africa, setting the pattern for decades of external manipulation of African states.",
+    "description": "Congo became independent from Belgium on June 30, 1960. Within days, the Force Publique mutinied; Katanga province seceded with Belgian support; and Belgium sent troops in violation of international law. Prime Minister Patrice Lumumba appealed to the United Nations, which sent peacekeepers but refused to intervene in Katanga. He then appealed to the Soviet Union for support — making him an immediate target of US and Belgian counteraction.\n\nIn September 1960, President Kasavubu dismissed Lumumba (of questionable legality); CIA-backed Colonel Mobutu seized power in a coup. Lumumba was arrested, transferred to Katanga — which both Belgian officials and CIA representatives coordinated — and executed in January 1961. His body was dissolved in acid to prevent a martyr's grave. The CIA had previously explored plots to poison him; the Belgian commission that investigated 40 years later concluded Belgium bore 'moral responsibility' for his murder.\n\nThe Congo Crisis established the Cold War pattern: African states were battlegrounds for superpower competition, with the CIA and KGB backing rival factions regardless of democratic legitimacy. Mobutu Sese Seko ruled Zaire (renamed from Congo) until 1997, systematically looting an estimated $5 billion while receiving US support as an anti-communist client. Congo's trajectory from Lumumba's genuine Pan-African vision to Mobutu's kleptocracy illustrated how external intervention could redirect the entire trajectory of a decolonizing state."
+  },
+  {
+    "id": "biafran_war",
+    "label": "Biafran War",
+    "category": "event",
+    "decade": "1967",
+    "region": "Africa",
+    "scope": "global/history",
+    "tags": [
+      "nigeria",
+      "civil_war",
+      "genocide",
+      "igbo",
+      "oil",
+      "starvation"
+    ],
+    "summary": "The Biafran War (1967-1970) was a Nigerian civil war in which Igbo-majority eastern Nigeria attempted to secede; the war's deliberate blockade of food caused 1-3 million deaths from starvation, creating modern humanitarian photography and NGO advocacy.",
+    "description": "The secession of Biafra in May 1967 followed anti-Igbo pogroms in northern Nigeria and a military coup cycle that left the Igbo — concentrated in the oil-rich east — fearing political domination and physical extinction. The Nigerian federal government, backed by Britain and the Soviet Union (who supported whichever side would protect oil revenues and territorial integrity), imposed a naval blockade and land siege. Biafra, facing superior forces, lasted three years before surrendering in January 1970.\n\nThe blockade was explicitly weaponized: relief supplies were blocked or diverted; starvation was a military strategy. Images of Biafran children with kwashiorkor — distended bellies, rust-colored hair — became the first globally distributed atrocity photographs of the television age. The International Committee of the Red Cross's neutrality rules prevented it from publicizing what it witnessed; dissatisfied ICRC delegates founded Médecins Sans Frontières (Doctors Without Borders) in 1971 specifically to combine aid with advocacy testimony.\n\nBiafra also established the template for post-colonial African civil wars: contested oil revenues, Cold War patron competition, ethnic mobilization along colonial-drawn boundaries, and mass civilian suffering treated by the international community as secondary to state sovereignty. Nigeria's 'no victor, no vanquished' reconciliation policy avoided formal truth-telling. The Igbo were reintegrated without property restitution. The oil revenues they had sought to control funded the corruption of subsequent Nigerian governments."
+  },
+  {
+    "id": "angolan_civil_war",
+    "label": "Angolan Civil War",
+    "category": "era",
+    "decade": "1975",
+    "region": "Africa",
+    "scope": "global/history",
+    "tags": [
+      "angola",
+      "cold_war",
+      "cuba",
+      "south_africa",
+      "proxy_war",
+      "oil"
+    ],
+    "summary": "Angola's civil war (1975-2002) — one of Africa's most destructive — was a Cold War proxy conflict involving Cuban troops, South African forces, and US/Soviet funding that continued for 27 years after independence, sustained by diamond and oil revenues.",
+    "description": "Angola became independent from Portugal in November 1975 with three liberation movements that had never united: the MPLA (Marxist, urban, Soviet-backed), UNITA (rural, Ovimbundu-based, US/South Africa-backed), and FNLA (Bakongo, US/China-backed). Civil war began immediately. Cuba sent 50,000 troops to support the MPLA; South Africa invaded from the south to support UNITA; the CIA channeled funds through Zaire. The Cold War had transplanted itself directly onto Angolan soil.\n\nAfter the Cold War ended, the war should have ended too. The Bicesse Accords (1991) organized elections; when UNITA's Jonas Savimbi lost, he rejected the results and resumed war. An estimated 500,000 people died in the subsequent decade — more than during the Cold War phase. The war sustained itself on blood diamonds (UNITA) and oil revenues (MPLA/government). The 2002 peace came only after Savimbi was killed in combat; without his singular leadership, UNITA accepted demobilization.\n\nAngola's trajectory illustrates how Cold War intervention can create self-sustaining conflict. The superpower patrons withdrew, but the arms, the trained military organizations, and the resource-revenue funding they had created remained. Angola also demonstrated 'resource curse' dynamics in both directions: oil funded government stability but also enabled the MPLA to ignore development; diamonds funded UNITA's war machine. Post-war Angola became one of the world's fastest-growing economies and one of its most unequal, with oil wealth captured by ruling elites while most Angolans remained poor."
+  },
+  {
+    "id": "zimbabwe_independence",
+    "label": "Zimbabwe Independence",
+    "category": "event",
+    "decade": "1980",
+    "region": "Africa",
+    "scope": "global/history",
+    "tags": [
+      "zimbabwe",
+      "rhodesia",
+      "independence",
+      "land_reform",
+      "mugabe",
+      "settler_colonialism"
+    ],
+    "summary": "Zimbabwe's independence (1980) ended white minority rule in Rhodesia after a guerrilla war, but Robert Mugabe's long rule transformed a prosperous state into economic collapse through corruption, political violence, and disastrous land reform execution.",
+    "description": "Zimbabwe was born from the defeat of Ian Smith's Rhodesia — the white minority state that declared unilateral independence from Britain in 1965 to avoid majority rule. After 15 years of guerrilla war by ZANU and ZAPU fighters, the Lancaster House Agreement (1979) created the framework for majority-rule elections. Robert Mugabe's ZANU won and took power as prime minister in 1980. Mugabe initially pursued reconciliation, retaining white farmers and civil servants, and Zimbabwe became the 'breadbasket of Africa.'\n\nThe reconciliation was a strategic choice, not a permanent settlement. The Lancaster House Agreement had protected white landowners for 10 years; when that protection expired, the underlying land grievance remained. By 1999, Mugabe faced electoral competition from the Movement for Democratic Change. Beginning in 2000, he encouraged — and later organized — the violent seizure of white-owned farms by 'war veterans,' many too young to have fought for independence. The farm seizures destroyed commercial agriculture, triggering Zimbabwe's economic collapse: GDP fell by 50%, inflation eventually reached 79.6 billion percent (2008), and food security collapsed.\n\nMugabe used state violence — the 2008 election campaign killed at least 200 MDC supporters — to maintain power while the economy imploded. His 37-year rule ended in a 2017 military coup after he attempted to install his wife as successor. Zimbabwe's trajectory from liberation to authoritarianism made it a cautionary case study in how liberation movements, once in power without structural accountability, can reproduce and intensify the patterns of the states they replaced."
+  },
+  {
+    "id": "robert_mugabe",
+    "label": "Robert Mugabe",
+    "category": "person",
+    "decade": "1980",
+    "region": "Africa",
+    "scope": "global/history",
+    "tags": [
+      "zimbabwe",
+      "liberation",
+      "authoritarianism",
+      "land_reform",
+      "africa"
+    ],
+    "summary": "Robert Mugabe (1924-2019) led Zimbabwe's liberation movement, became its first prime minister, and governed for 37 years — transforming from internationally admired liberation hero to internationally condemned authoritarian as his rule descended into violence and economic collapse.",
+    "description": "Mugabe spent 11 years imprisoned by the Rhodesian white minority government, emerging to lead ZANU in the liberation war. His early governance surprised skeptics: a Marxist revolutionary who kept white farmers on their land, expanded Black access to education and healthcare, and maintained functioning democratic institutions for the first decade. Western governments decorated him; Africa celebrated him as a model.\n\nThe Gukurahundi massacres (1982-1985) revealed a darker face: North Korean-trained Fifth Brigade killed an estimated 20,000 Ndebele civilians in Matabeleland, supposedly suppressing dissent from Joshua Nkomo's ZAPU rivals. The massacres were largely suppressed internationally; their acknowledgment came only decades later. Mugabe consolidated power into a de facto one-party state by merging ZANU and ZAPU in 1987.\n\nHis legacy became defined by the chaotic land seizures of 2000-2008 and their consequences. Mugabe understood the land question's justice but executed it in a way designed for political survival rather than effective redistribution — rewarding cronies rather than farmers, destroying productive capacity rather than transferring it. The economic collapse that followed made Zimbabwe a byword for misgovernance. He died in 2019, never held accountable for Gukurahundi or the 2008 election violence, illustrating the impunity that liberation war credentials can provide to African leaders who destroyed what they had fought to build."
+  },
+  {
+    "id": "african_union_founding",
+    "label": "African Union",
+    "category": "institution",
+    "decade": "2002",
+    "region": "Africa",
+    "scope": "global/history",
+    "tags": [
+      "africa",
+      "institution",
+      "pan_africanism",
+      "governance",
+      "solidarity"
+    ],
+    "summary": "The African Union (2002), successor to the Organization of African Unity, represents 55 member states and has evolved from a sovereignty-protection body into one attempting collective security, human rights enforcement, and economic integration.",
+    "description": "The Organization of African Unity (OAU, 1963-2002) was founded on two principles: African solidarity and absolute respect for inherited colonial borders and state sovereignty. The sovereignty norm, while stabilizing borders, also protected authoritarian regimes from regional accountability — the OAU's critics called it 'dictators' club.' Nkrumah's vision of continental federation had been rejected; the OAU institutionalized the compromise of separate states with rhetorical solidarity.\n\nThe African Union, launched in 2002 with Muammar Gaddafi as a key architect, modified the sovereignty norm: the AU's Constitutive Act allows intervention in member states in cases of genocide, war crimes, and crimes against humanity — a departure from the OAU's absolute non-interference. The African Peer Review Mechanism created voluntary accountability for governance standards. The African Continental Free Trade Area (2021) created the world's largest free trade area by participating countries.\n\nIn practice, AU capacity for effective intervention has been limited: its peacekeeping forces in Darfur and Somalia operated under severe financial and logistical constraints. Political will for intervention against powerful member states remains weak. But the AU has normalized continental deliberation about governance and rights in ways the OAU never did, and its economic integration agenda — if implemented — could transform African economic geography by reducing dependence on former colonial trading relationships."
+  },
+  {
+    "id": "ethiopian_famine_1984",
+    "label": "Ethiopian Famine",
+    "category": "event",
+    "decade": "1984",
+    "region": "Africa",
+    "scope": "global/history",
+    "tags": [
+      "ethiopia",
+      "famine",
+      "aid",
+      "cold_war",
+      "drought",
+      "derg"
+    ],
+    "summary": "The 1984-85 Ethiopian famine killed an estimated 1 million people. BBC journalist Michael Buerk's footage triggered Band Aid and Live Aid — but also revealed how Cold War politics, government policy, and media framing shaped who received aid and who died.",
+    "description": "The famine's causes were multiple: a three-year drought, the Derg military government's forced collectivization and resettlement programs that disrupted agriculture, and an ongoing civil war in Tigray and Eritrea that both exacerbated hunger and restricted aid access. Michael Buerk's BBC report in October 1984 — 'a biblical famine, now in the twentieth century' — reached 470 million viewers and triggered an unprecedented humanitarian response.\n\nBand Aid's 'Do They Know It's Christmas?' raised £8 million; Live Aid (1985) raised £150 million globally. The concerts mobilized a generation of Western youth around African development and created the modern celebrity humanitarian model. But they also cemented an image of Africa as a continent of helpless victims dependent on Western charity — a framing that distorted public understanding for decades.\n\nLess reported: the Derg government used international aid to facilitate forced resettlement — moving 600,000 people from famine-affected Tigray and Wollo (regions of political rebellion) to southwestern Ethiopia. Aid organizations knew this but feared losing access by publicizing it. MSF was expelled for speaking out. The famine illustrated the politicization of humanitarian aid: relief became a tool both for external powers managing Cold War geopolitics and for internal governments managing rebellion. The response also failed to address the structural causes; Ethiopia faced famine again in 2002 and 2011."
+  },
+  {
+    "id": "somalia_state_collapse",
+    "label": "Somali State Collapse",
+    "category": "event",
+    "decade": "1991",
+    "region": "Africa",
+    "scope": "global/history",
+    "tags": [
+      "somalia",
+      "failed_state",
+      "clan_war",
+      "us_intervention",
+      "piracy",
+      "humanitarian"
+    ],
+    "summary": "The collapse of the Somali state (1991) — creating the world's most enduring failed state — and the 'Black Hawk Down' US intervention (1993) became defining cases for the 1990s debate about humanitarian intervention and state failure.",
+    "description": "Somalia's state collapsed in January 1991 when clan militias overthrew dictator Siad Barre, who fled. Unlike most state collapses, there was no successor government — the victorious factions immediately began fighting each other along clan lines. By 1992, civil war and drought were producing a famine killing 300,000. The UN Security Council authorized the US-led Operation Restore Hope to secure humanitarian aid delivery.\n\nThe October 1993 'Black Hawk Down' battle — in which US Rangers and Delta Force attempting to capture a warlord's lieutenants lost 18 soldiers and suffered 73 wounded while killing an estimated 1,000 Somalis — became the symbol of humanitarian intervention's limits. The Clinton administration's response to the casualties was to withdraw US forces; the experience directly shaped the decision not to intervene in the Rwandan genocide six months later.\n\nSomalia's statelessness proved more durable than any intervention could remedy. Al-Shabaab, an al-Qaeda affiliate, controls significant territory three decades later. Piracy from Somali waters reached global proportions in 2008-2012, requiring naval deployments from 40 countries. Yet Somalia also became a laboratory for alternative governance: Somaliland in the north declared independence in 1991 and built functioning self-governance without international recognition; the Islamic Courts Union provided order in 2006 before being toppled by Ethiopian invasion; local xeer (customary law) systems operated where states could not. Somalia's ongoing situation challenges assumptions about the inevitability of the state form."
+  },
+  {
+    "id": "nigeria_oil_boom",
+    "label": "Nigeria Oil Economy",
+    "category": "era",
+    "decade": "1970s",
+    "region": "Africa",
+    "scope": "global/history",
+    "tags": [
+      "nigeria",
+      "oil",
+      "resource_curse",
+      "corruption",
+      "development",
+      "africa"
+    ],
+    "summary": "Nigeria's oil boom from the 1970s became a textbook case of the 'resource curse': petroleum revenues funding elite corruption while poverty deepened, environmental destruction devastated the Niger Delta, and ethnic competition for oil wealth drove political violence.",
+    "description": "Nigeria discovered major oil reserves in the Niger Delta in the 1950s; by the 1970s OPEC price shocks had made petroleum central to the economy. Oil revenues funded ambitious development plans — the Lagos expressways, steel mills, airports — but also dramatically expanded opportunities for corruption. The 'oil boom' coincided with military rule (Nigeria had experienced multiple coups since 1966), and the generals who controlled oil revenues used them for patronage networks rather than development.\n\nThe Niger Delta communities — primarily Ogoni, Ijaw, and Urhobo — lived on top of the oil but received almost none of its revenues. Shell, Chevron, and other multinationals extracted oil while the Nigerian government received revenues; communities got environmental devastation: spills that poisoned farmland and fishing waters, gas flaring that lit the night sky for decades. Ken Saro-Wiwa organized the Movement for the Survival of the Ogoni People (MOSOP) demanding environmental accountability; General Abacha had him executed in 1995, triggering international sanctions.\n\nNigeria's oil wealth has been remarkably unproductive for its population: despite being Africa's largest oil producer and economy, it has among the world's highest poverty rates. The resource curse operated through multiple mechanisms simultaneously: corruption, Dutch disease (oil revenues appreciating the currency and killing other exports), neglect of agriculture and manufacturing, and elite competition for oil revenues fueling ethnic and religious violence. The Niger Delta remains the world's most oil-polluted environment."
+  },
+  {
+    "id": "marcos_dictatorship_philippines",
+    "label": "Marcos Dictatorship",
+    "category": "era",
+    "decade": "1972",
+    "region": "Asia",
+    "scope": "global/history",
+    "tags": [
+      "philippines",
+      "dictatorship",
+      "crony_capitalism",
+      "martial_law",
+      "us_support"
+    ],
+    "summary": "Ferdinand Marcos's 21-year rule (1965-1986), including 14 years of martial law, combined systematic political violence with crony capitalism that looted an estimated $10 billion from the Philippines while the US supported him as an anticommunist ally.",
+    "description": "Ferdinand Marcos was elected president of the Philippines in 1965 and re-elected in 1969. Facing constitutional term limits, he declared martial law in September 1972, arrested opposition leaders (including Benigno Aquino), suspended congress, ruled by decree, and suspended the writ of habeas corpus. For 14 years, the Philippines was governed by martial law characterized by extrajudicial killings of activists, journalists, and political opponents; detention and torture of tens of thousands; and systematic crony capitalism.\n\nMarcos and his wife Imelda enriched themselves and their allies through control of government contracts, sequestration of businesses from political opponents, and direct looting of government coffers. Their estimated theft — $5-10 billion — made them synonymous with kleptocracy. Imelda's 3,000 pairs of shoes became the symbol of regime excess. The Marcos family controlled telecommunications, media, banking, and agriculture through cronies who received preferential loans and government monopolies.\n\nThe United States supported Marcos throughout, regarding Philippine bases (Subic Bay and Clark Air Base) as essential to its Pacific strategy. When Marcos clearly stole the 1986 election against Corazon Aquino, Reagan initially signaled support; only when the military defected and millions filled Manila's streets did US pressure tip toward Marcos's exile to Hawaii. The 'People Power Revolution' validated nonviolent mass action as a regime-change mechanism — while also illustrating how dependent its success was on superpower complicity with the authoritarian being removed."
+  },
+  {
+    "id": "people_power_revolution_1986",
+    "label": "People Power Revolution",
+    "category": "event",
+    "decade": "1986",
+    "region": "Asia",
+    "scope": "global/history",
+    "tags": [
+      "philippines",
+      "democracy",
+      "nonviolent_resistance",
+      "marcos",
+      "aquino",
+      "civil_society"
+    ],
+    "summary": "The Philippines' 1986 People Power Revolution — four days of mass civilian mobilization on EDSA highway — peacefully ended the Marcos dictatorship and became the template for nonviolent democratic transitions globally.",
+    "description": "When the military announced it was withdrawing support from Marcos in February 1986, Cardinal Sin called Catholics to protect the defecting generals at Camp Crame. Within hours, two million people filled EDSA (Epifanio de los Santos Avenue), Manila's main highway, surrounding military camps and blocking Marcos's loyalist forces. Nuns knelt before tanks; civilians offered soldiers food; Marcos's tanks stopped rather than fire. Four days later, Marcos fled to Hawaii and Corazon Aquino assumed the presidency.\n\nPeople Power succeeded through the convergence of several forces: the Catholic Church's institutional support, the military's split (reformist officers had attempted a coup months earlier), the US's last-minute withdrawal of support for Marcos, and years of civil society organizing that had created networks capable of rapid mass mobilization. Aquino's moral authority as the widow of Benigno Aquino — assassinated at Manila airport in 1983, almost certainly on Marcos's orders — gave the movement a face that was difficult to suppress.\n\nThe revolution's global influence was immediate. South Korean pro-democracy activists studied EDSA; it influenced the approach of opposition movements in Eastern Europe before 1989. Gene Sharp's work on nonviolent resistance, which systematized methods like those used in the Philippines, became a handbook for subsequent democratic movements from Serbia to Egypt. The revolution also demonstrated limits: the Philippines' structural problems — land inequality, oligarchic economic control, US base dependence — persisted after the political transition, and Ferdinand Marcos Jr. won the presidency in 2022 in a democratic election."
+  },
+  {
+    "id": "suharto_new_order",
+    "label": "Suharto's New Order",
+    "category": "era",
+    "decade": "1965",
+    "region": "Asia",
+    "scope": "global/history",
+    "tags": [
+      "indonesia",
+      "dictatorship",
+      "cold_war",
+      "development",
+      "corruption",
+      "military"
+    ],
+    "summary": "Suharto's 'New Order' regime (1965-1998) maintained power through systematic violence, military control, and a development model that produced strong growth while concentrating wealth in his family and cronies — lasting 32 years as one of history's longest-running dictatorships.",
+    "description": "Suharto consolidated power following the September 30, 1965 coup attempt that he used as pretext for eliminating the Indonesian Communist Party (PKI) and his predecessor Sukarno. He governed for 32 years through an authoritarian system that combined military territorial commands penetrating every level of society, a state party (Golkar) that monopolized formal politics, and systematic corporatism that incorporated labor and functional groups under state control.\n\nEconomically, the New Order achieved genuine growth: GDP per capita rose 8-fold between 1965 and 1997, poverty fell from 60% to under 15%, and Indonesia industrialized. Suharto attracted foreign investment by offering political stability and cheap labor; the World Bank's 'Berkley mafia' of US-trained Indonesian economists managed macroeconomic policy competently by developmental state standards. This created a paradox: the brutality of the regime's political control coexisted with real material improvement for many Indonesians.\n\nBut the development model was hollowed by corruption. Suharto's family and military cronies controlled key industries through monopoly licenses, government contracts, and nationalized companies. His children's business holdings became notorious; estimates of the family's wealth range from $15-35 billion. The 1997-98 Asian financial crisis exposed how much of Indonesian 'growth' was built on crony credit and political rent. Mass protests and military defections ended Suharto's rule in May 1998 — but the legal and institutional infrastructure of kleptocracy outlasted him."
+  },
+  {
+    "id": "indonesian_mass_killings_1965",
+    "label": "Indonesian Mass Killings",
+    "category": "event",
+    "decade": "1965",
+    "region": "Asia",
+    "scope": "global/history",
+    "tags": [
+      "indonesia",
+      "genocide",
+      "anti_communism",
+      "cold_war",
+      "cia",
+      "mass_murder"
+    ],
+    "summary": "Following the September 1965 coup attempt, Indonesian military forces and civilian militias killed between 500,000 and 1 million alleged Communists — with US government knowledge and support — in one of the 20th century's largest mass killings.",
+    "description": "On October 1, 1965, six generals were killed in an apparent coup attempt by elements within the military. General Suharto moved quickly to blame the PKI (Communist Party of Indonesia) — then with 3 million members, the world's third-largest communist party. Over the following six months, military units and Islamic youth militias conducted a systematic campaign of killing that historians estimate claimed 500,000 to 1 million lives. An additional 600,000 were imprisoned without trial, many for over a decade.\n\nThe US government was deeply involved: the CIA had compiled lists of PKI members, which US Embassy officials provided to the Indonesian military. Cables later declassified show US diplomats encouraging the killings and expressing satisfaction at the PKI's destruction. The killings were understood at the time as a Cold War victory; American officials did not use words like 'genocide' and encouraged a media blackout. The killings removed one of Southeast Asia's largest communist movements and secured Indonesia as an anti-Soviet ally.\n\nThe massacre remained taboo in Indonesia for decades. The New Order's official history claimed a smaller death toll and described the victims as dangerous subversives who got what they deserved. Only after Suharto's fall did documentary filmmaking, journalism, and testimony begin to construct a fuller account. Joshua Oppenheimer's 'The Act of Killing' (2012) — in which perpetrators re-enacted their killings — exposed how the massacres had been normalized and celebrated in Indonesian culture. The killings remain largely unacknowledged at the state level, with no truth commission or legal accountability."
+  },
+  {
+    "id": "bangladesh_liberation_war_1971",
+    "label": "Bangladesh Liberation War",
+    "category": "event",
+    "decade": "1971",
+    "region": "Asia",
+    "scope": "global/history",
+    "tags": [
+      "bangladesh",
+      "pakistan",
+      "genocide",
+      "india",
+      "independence",
+      "cold_war"
+    ],
+    "summary": "The 1971 Bangladesh Liberation War created the world's newest nation after Pakistan's military conducted a genocide killing between 300,000 and 3 million people, with India's military intervention ultimately securing Bangladeshi independence.",
+    "description": "East Pakistan (now Bangladesh) had a majority of Pakistan's population but was politically and economically dominated by West Pakistan. When Sheikh Mujibur Rahman's Awami League won the 1970 Pakistani election with a landslide majority, West Pakistani military leaders refused to transfer power. Instead, 'Operation Searchlight' launched March 25, 1971: a systematic military campaign against the Bengali civilian population, targeting intellectuals, Hindus, and Awami League supporters.\n\nThe scale of killing is disputed — Pakistani government figures claim 26,000 killed; Bangladeshi accounts cite 3 million; most historians accept 300,000-500,000 as a defensible minimum. Eight to ten million refugees fled to India; at least 200,000-400,000 women were raped in a campaign of sexual violence that Indian courts later classified as genocide. The US government, under Nixon and Kissinger, supported Pakistan — believing Yahya Khan was instrumental to their opening to China — even as US diplomats in Dhaka sent cables describing genocide in explicit terms (the 'Blood Telegram').\n\nIndia intervened militarily in December 1971, defeating Pakistani forces in 13 days. Bangladesh became independent on December 16, 1971. The war established several precedents: India's unilateral intervention on 'humanitarian' grounds; the first use of mass rape as a recognized instrument of war in formal legal proceedings; and the tension between state sovereignty and civilian protection that would recur in Darfur, Bosnia, and Rwanda. Bangladesh's first years were turbulent; Mujibur Rahman was assassinated in 1975, and military coups followed before democracy was restored."
+  },
+  {
+    "id": "bengali_genocide_1971",
+    "label": "Bengali Genocide",
+    "category": "event",
+    "decade": "1971",
+    "region": "Asia",
+    "scope": "global/history",
+    "tags": [
+      "bangladesh",
+      "genocide",
+      "pakistan",
+      "rape",
+      "dehumanization"
+    ],
+    "summary": "The Pakistani military's systematic targeting of Bengalis, Hindus, and intellectuals in East Pakistan (1971) — including mass rape as a weapon of war — constitutes one of the 20th century's clearest cases of genocide, though it remains underacknowledged internationally.",
+    "description": "Operation Searchlight's architects explicitly articulated the goal of eliminating Bengali national identity by destroying its intellectual, political, and professional leadership. Universities were targeted on the first night; lists of professors, doctors, journalists, and lawyers guided execution squads. Hindu minorities were targeted for elimination as 'Indian agents.' The Pakistani military and its Razakar collaborators compiled systematic lists of class enemies to be killed.\n\nThe use of mass rape was systematic and deliberate: an estimated 200,000-400,000 women and girls were raped during the nine-month campaign. Military commanders later stated that rape was policy — designed to produce children who would 'dilute' Bengali and Hindu identity. Bangladesh established a war crimes tribunal in 2010 that convicted and executed several Razakar collaborators for crimes against humanity; Pakistan has never formally acknowledged its army's actions as genocide.\n\nThe genocide's relative obscurity in Western historical memory reflects Cold War politics: the US's support for Pakistan, and the subsequent US-Pakistan-China strategic relationship, made accountability inconvenient. Bangladesh's ongoing struggle for international recognition of the genocide parallels Cambodia's delayed acknowledgment and Armenia's century-long campaign. The events established that sexual violence in warfare is a command responsibility crime — a principle applied in subsequent international tribunals at the Hague."
+  },
+  {
+    "id": "india_emergency_1975",
+    "label": "Indian Emergency",
+    "category": "event",
+    "decade": "1975",
+    "region": "Asia",
+    "scope": "global/history",
+    "tags": [
+      "india",
+      "democracy",
+      "authoritarianism",
+      "indira_gandhi",
+      "civil_rights"
+    ],
+    "summary": "Indira Gandhi's 21-month Emergency (1975-77) suspended Indian democracy — constitutional rights, press freedom, and elections were cancelled — before India's democratic institutions rebounded in what became a landmark test of democratic resilience.",
+    "description": "In June 1975, facing a court ruling that her 1971 election had been fraudulent, Prime Minister Indira Gandhi declared a State of Emergency under Article 352 of the Constitution. Civil liberties were suspended; 110,000 political prisoners were arrested, including opposition leaders and journalists; the press was censored; elections were postponed; and her son Sanjay Gandhi ran a mass forced sterilization campaign targeting poor and Muslim men as 'population control.'\n\nThe Emergency revealed both the fragility and the resilience of Indian democracy. The institutional checks that should have resisted — the Supreme Court, parliament, the civil service — largely capitulated. But underground opposition persisted; the RSS (Hindu nationalist organization) organized resistance despite being banned; and some civil servants and judges maintained independent positions at personal cost.\n\nGandhi's decision to call elections in 1977 — believing she would win — proved fateful. The unified opposition Janata Party won in a landslide; Gandhi and the Congress Party lost their first national election since independence. The result vindicated democratic norms even as it demonstrated their fragility: voters, given the choice, overwhelmingly rejected authoritarian rule. India returned to democracy, Gandhi's reputation recovered sufficiently for her to win again in 1980, and the Emergency entered Indian political memory as a warning and a precedent — regularly cited in debates about subsequent BJP governance."
+  },
+  {
+    "id": "south_korea_democratization",
+    "label": "South Korean Democratization",
+    "category": "event",
+    "decade": "1987",
+    "region": "Asia",
+    "scope": "global/history",
+    "tags": [
+      "south_korea",
+      "democracy",
+      "student_movement",
+      "civil_society",
+      "transition"
+    ],
+    "summary": "South Korea's democratization (1987) — achieved through mass student and worker protests against military dictatorship — produced Asia's most successful democratic transition and became a model for how economic development and political liberalization can reinforce each other.",
+    "description": "South Korea had been governed by military dictatorship since 1961 (Park Chung-hee's coup) except for a brief civilian period after Park's 1979 assassination, quickly ended by Chun Doo-hwan's coup and the Gwangju massacre. By 1987, economic growth had created an educated, urbanized middle class that chafed against authoritarian control. In June 1987, the torture death of a student protester at Seoul National University triggered three weeks of massive protests across the country, with millions participating.\n\nChun's government capitulated: his ruling party candidate Roh Tae-woo announced the 'June 29 Declaration,' accepting direct presidential elections, press freedom, release of political prisoners, and restoration of civil liberties. The transition was negotiated rather than revolutionary — Roh won the election partly because opposition was split between Kim Young-sam and Kim Dae-jung. But the democratic system proved durable: subsequent elections transferred power between parties; former presidents were prosecuted for corruption; and South Korea became a stable liberal democracy.\n\nSouth Korea's democratization challenged the 'Asian values' argument — the claim that Asian culture was incompatible with Western-style democracy. It also demonstrated the relationship between economic development and political liberalization: industrialization had created the social forces (educated workers, middle class, independent civil society) that drove democratization. South Korean civil society's ongoing capacity for mass mobilization — most recently in the 2016-17 candlelight protests that removed President Park Geun-hye — reflects the democratic culture built in 1987."
+  },
+  {
+    "id": "gwangju_uprising_1980",
+    "label": "Gwangju Uprising",
+    "category": "event",
+    "decade": "1980",
+    "region": "Asia",
+    "scope": "global/history",
+    "tags": [
+      "south_korea",
+      "democracy",
+      "massacre",
+      "military",
+      "resistance",
+      "human_rights"
+    ],
+    "summary": "The Gwangju Uprising (May 1980) — in which South Korean citizens seized their city against military suppression for ten days before paratroopers retook it, killing hundreds — became the founding trauma of the South Korean democracy movement.",
+    "description": "Following General Chun Doo-hwan's December 1979 coup, students and democracy activists gathered in Gwangju, South Korea's fifth-largest city, to protest martial law expansion. On May 18, 1980, paratroopers from the 7th Airborne Brigade — veterans of the Vietnam War — attacked protesters and bystanders with exceptional brutality: clubbing people with rifle butts, bayoneting demonstrators, and firing into crowds. Citizens armed themselves from police armories and took control of the city for ten days.\n\nChun sent 20,000 troops; the city was retaken on May 27. Official death tolls listed 144-165 killed; civilian estimates range from 165 to over 2,000. The US government — which technically had operational control over South Korean forces under the Combined Forces Command — was informed of the redeployment of troops to Gwangju and did not object, prioritizing stability over democratic protest. This complicity became a lasting wound in South Korean attitudes toward the US.\n\nFor seven years, the Gwangju uprising was suppressed from public consciousness under the Chun government. When democratization came in 1987-88, Gwangju's story burst into Korean culture — films, novels, songs, and political speeches made May 18 a foundational moment of democratic identity. The victims were eventually honored as national martyrs; former presidents Chun and Roh were convicted of mutiny and treason related to the events. Gwangju demonstrated how political violence creates traumatic memory that can sustain opposition movements for decades."
+  },
+  {
+    "id": "vietnam_reunification",
+    "label": "Vietnam Reunification",
+    "category": "event",
+    "decade": "1975",
+    "region": "Asia",
+    "scope": "global/history",
+    "tags": [
+      "vietnam",
+      "war",
+      "communism",
+      "reunification",
+      "cold_war",
+      "aftermath"
+    ],
+    "summary": "The fall of Saigon (April 30, 1975) ended the Vietnam War and reunified the country under Communist Party rule — creating a socialist state that pursued rapid collectivization, reeducation camps, and the 'boat people' refugee crisis before economic reforms transformed it.",
+    "description": "The North Vietnamese Army's final offensive in spring 1975 overwhelmed South Vietnam's forces in 55 days; Saigon fell on April 30 with the iconic images of helicopters evacuating Americans from the embassy roof. The Socialist Republic of Vietnam was declared in 1976, the first unified Vietnamese state since the Geneva Accords had partitioned it in 1954. Reunification after three decades of war and an estimated 3.8 million Vietnamese deaths (military and civilian) was an extraordinary political achievement for the Communist Party.\n\nBut reunification came with enormous costs for the south. Reeducation camps imprisoned between 200,000 and 300,000 South Vietnamese military officers, civil servants, and intellectuals — some for years, some for over a decade, in conditions that included hard labor, malnutrition, and ideological instruction. Rapid collectivization of southern agriculture failed economically. The 1978-79 Chinese-Vietnamese war and Vietnam's intervention in Cambodia strained the economy further. An estimated 800,000 'boat people' fled the country, drowning in large numbers in the South China Sea; the refugee crisis created the first major test of international refugee law in Southeast Asia.\n\nThe Doi Moi ('renovation') economic reforms of 1986 transformed Vietnam by introducing market mechanisms while maintaining Communist Party political control — a model later described as analogous to China's. GDP growth averaged 7% in the 1990s and 2000s; Vietnam became a global manufacturing hub; poverty fell dramatically. The trajectory from wartime Communist revolution to authoritarian capitalist development illustrated how ideology yields to economic pragmatism while political control persists."
+  },
+  {
+    "id": "east_timor_independence",
+    "label": "East Timor Independence",
+    "category": "event",
+    "decade": "2002",
+    "region": "Asia",
+    "scope": "global/history",
+    "tags": [
+      "east_timor",
+      "indonesia",
+      "independence",
+      "genocide",
+      "un_intervention",
+      "self_determination"
+    ],
+    "summary": "East Timor's independence (2002) — achieved after 24 years of Indonesian occupation that killed an estimated 180,000 people and a 1999 UN referendum followed by catastrophic militia violence — became the most successful case of UN-supervised transitional administration.",
+    "description": "Portugal decolonized East Timor in 1975; nine days after Fretilin declared independence, Indonesia invaded. The occupation lasted 24 years, during which an estimated 102,800-183,000 East Timorese died from conflict, famine, and disease — out of a pre-occupation population of 688,000. The US government, again prioritizing anti-communist Indonesia over civilian populations, supported the occupation; Gerald Ford and Henry Kissinger met with Suharto the day before the invasion.\n\nThe independence movement was sustained by Timorese civil society, the Catholic Church (which gained members during the occupation as a form of identity resistance), and the international solidarity network built around Nobel Peace Prize laureates Bishop Carlos Belo and José Ramos-Horta. Santa Cruz massacre (1991), caught on video by a British journalist, broke international silence and built the political foundation for eventual self-determination.\n\nIn 1999, UN-supervised referendum produced 78.5% for independence. Indonesian military-backed militias responded with systematic violence — killing, burning, and displacing 75% of the population. International pressure, including the withdrawal of US military support for Indonesia, produced a UN-authorized Australian-led peacekeeping force that ended the violence. UNTAET (UN Transitional Administration in East Timor) administered the territory until independence in May 2002 — the world's first new sovereign state of the 21st century. East Timor's case established both the possibility and the enormous cost of UN-supervised self-determination."
+  },
+  {
+    "id": "myanmar_military_history",
+    "label": "Myanmar Military Rule",
+    "category": "era",
+    "decade": "1962",
+    "region": "Asia",
+    "scope": "global/history",
+    "tags": [
+      "myanmar",
+      "burma",
+      "military",
+      "authoritarianism",
+      "aung_san_suu_kyi",
+      "coup"
+    ],
+    "summary": "Myanmar's military (Tatmadaw) has dominated politics since Ne Win's 1962 coup, allowing brief democratic openings — including Aung San Suu Kyi's NLD government (2016-2021) — before the 2021 coup restored full military rule.",
+    "description": "Ne Win's 1962 coup ended Burma's parliamentary period and established military rule under the 'Burmese Way to Socialism' — nationalizing the economy, isolating the country internationally, and systematically suppressing ethnic minority insurgencies. Military rule produced economic stagnation and the 8888 Uprising (August 8, 1988), in which hundreds of thousands demonstrated and the military killed an estimated 3,000 in the crackdown. Aung San Suu Kyi emerged as the democracy movement's leader; she was awarded the Nobel Peace Prize in 1991 while under house arrest.\n\nThe military conducted a flawed election in 2010, arranged a managed transition allowing a civilian government from 2011, and permitted Suu Kyi's NLD to govern after its 2015 landslide victory. But the constitution the military wrote reserved 25% of parliament seats and key ministries for the military, ensuring continued military power. The NLD government's silence during the 2017 Rohingya genocide — which the military conducted while Suu Kyi was head of state — devastated her international reputation.\n\nThe February 2021 coup, citing election fraud in the NLD's 2020 landslide, arrested Suu Kyi and restored direct military rule. The Civil Disobedience Movement — doctors, teachers, workers refusing to work for the junta — was met with mass killings and transformed the opposition toward armed resistance. Myanmar's trajectory illustrates the limits of negotiated transitions that preserve military institutional power: the Tatmadaw demonstrated that it would accept democracy only on its own terms, and reverse it the moment those terms were challenged."
   }
 ]
