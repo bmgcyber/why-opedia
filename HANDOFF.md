@@ -95,7 +95,31 @@ data/
 
 ---
 
-## CURRENT OBJECTIVE (Session 15 — 2026-04-04)
+## CURRENT OBJECTIVE (Session 16 — 2026-04-05)
+
+**Edge type vocabulary cleanup** — IN PROGRESS.
+
+Edge distribution audit revealed two problems:
+1. `ENABLED` is 39.8% of all edges (2,319) — used as catch-all
+2. 70+ one-off edge types — many non-causal, many tense duplicates
+
+**Canonical vocabulary (12-14 types) being enforced:**
+- Keep: `CAUSED`, `ENABLED`, `ACCELERATED`, `PRODUCED`, `DISCREDITED`, `NORMALIZED`, `SHARES_MECHANISM_WITH`, `SELF_REINFORCES`, `COLONIZED`, `EXPLOITED`, `FORCED_INTO`, `PROVIDED_COVER_FOR`, `FRAGMENTED_INTO`
+- Add new: `UNDERMINED` (absorbs SUPPRESSED, WEAKENED, DISRUPTED, DISMANTLED)
+- Tense normalize: `PRODUCES`→`PRODUCED`, `ENABLES`→`ENABLED`, `CAUSES`→`CAUSED`
+- Merge synonyms: `TRIGGERED`/`LED`/`INTENSIFIED`/`WORSENED`/`AMPLIFIED` → `CAUSED` or `ACCELERATED`
+- Delete non-causal: `SAME_AS`, `SAME_EVENT`, `CONTEMPORARY_WITH`, `PARALLEL_TO`, `CONNECTED`, `RELATED_TO`, `CONNECTED_TO`, `ASSOCIATED_WITH`
+- Remap: `INFLUENCED`/`CONTRIBUTED_TO`/`INSPIRED` → `ENABLED`; `CONTROLLED`/`CONQUERED_BY` → `COLONIZED` or `EXPLOITED`
+
+**After cleanup, next content priorities:**
+- More Middle East modern history: Iran-Iraq War, Hamas/Hezbollah, Lebanon civil war
+- 20th-century European history gaps
+- Add `UNDERMINED` to filter sidebar in filter-manager.js
+- Continue history content batches
+
+---
+
+## PREVIOUS OBJECTIVE (Session 15 — 2026-04-04)
 
 **Continue building the full human history graph from beginning to present.** The current session completed batches 6–19 covering: WWI-WWII, Cold War, Civil Rights, decolonization, 1968-1991, post-Cold War, 2010s-present, ancient world, early modern, 19th century, non-Western civilizations, economics/psychology/media/health/art scope depth, politics enrichment, and new mechanism nodes. 
 
@@ -120,18 +144,21 @@ data/
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-04-04, Session 15 — after batches 6-19)
+## CURRENT DATASET STATE (as of 2026-04-05, Session 16)
 
 | Scope | Nodes | Edges |
 |-------|-------|-------|
-| History | **775** | ~1,400 |
-| Economics | **71** | ~200 |
-| Politics | **126** | ~370 |
-| Psychology | **69** | ~180 |
-| Media | **55** | ~140 |
-| Health | **62** | ~170 |
-| Art & Culture | **61** | ~100 |
-| Mechanisms | **214** | **~3,500** (cross-scope) |
+| History | **822** | ~1,656 |
+| Economics | **71** | ~164 |
+| Politics | **126** | ~337 |
+| Psychology | **69** | ~143 |
+| Media | **55** | ~126 |
+| Health | **62** | ~126 |
+| Art & Culture | **61** | ~70 |
+| Mechanisms | **214** | **~3,204** (cross-scope) |
+| **Total** | **1,518** | **~5,826** |
+
+Session 16 additions: Science/Tech (13), Latin America modern (15), Labor/Women (13), African independence (13), SE/South Asian Cold War (12) = **66 new nodes**, **101 new edges**.
 | **Total nodes** | **1,771** | **~6,090** |
 
 **Data integrity:** 0 broken edge references. Verified after every batch in Session 15.

@@ -6,7 +6,7 @@
 
 (function () {
   // ── Filter state ───────────────────────────────────────────────────────────
-  const EDGE_TYPE_MAIN  = ['CAUSED', 'ENABLED', 'SHARES_MECHANISM_WITH', 'SELF_REINFORCES'];
+  const EDGE_TYPE_MAIN  = ['CAUSED', 'ENABLED', 'ACCELERATED', 'UNDERMINED', 'SHARES_MECHANISM_WITH', 'SELF_REINFORCES'];
   const EDGE_TYPE_OTHER = ['COLONIZED', 'DISCREDITED', 'EXPLOITED', 'FORCED_INTO',
                            'FRAGMENTED_INTO', 'NORMALIZED', 'PRODUCED', 'PROVIDED_COVER_FOR'];
   const EDGE_FILTER_GROUPS = [...EDGE_TYPE_MAIN, ...EDGE_TYPE_OTHER, 'speculative'];

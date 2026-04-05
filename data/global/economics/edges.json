@@ -363,205 +363,205 @@
     "id": "keynesianism__great_depression_economics",
     "source": "keynesianism",
     "target": "great_depression_economics",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "keynesianism__new_deal",
     "source": "keynesianism",
     "target": "new_deal",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "chicago_school_economics__market_fundamentalism",
     "source": "chicago_school_economics",
     "target": "market_fundamentalism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "chicago_school_economics__laissez_faire_capitalism",
     "source": "chicago_school_economics",
     "target": "laissez_faire_capitalism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "shock_doctrine__austerity_ideology",
     "source": "shock_doctrine",
     "target": "austerity_ideology",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "neoliberalism__shareholder_primacy",
     "source": "neoliberalism",
     "target": "shareholder_primacy",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "neoliberalism__labor_movement_suppression",
     "source": "neoliberalism",
     "target": "labor_movement_suppression",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "neoliberalism__precariat_class",
     "source": "neoliberalism",
     "target": "precariat_class",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "neoliberalism__debt_trap",
     "source": "neoliberalism",
     "target": "debt_trap",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "market_fundamentalism__austerity_ideology",
     "source": "market_fundamentalism",
     "target": "austerity_ideology",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "market_fundamentalism__laissez_faire_capitalism",
     "source": "market_fundamentalism",
     "target": "laissez_faire_capitalism",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "great_depression_economics__market_fundamentalism",
     "source": "great_depression_economics",
     "target": "market_fundamentalism",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "bretton_woods_collapse__neoliberalism",
     "source": "bretton_woods_collapse",
     "target": "neoliberalism",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "bretton_woods_collapse__chicago_school_economics",
     "source": "bretton_woods_collapse",
     "target": "chicago_school_economics",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "financial_crisis_2008__shock_doctrine",
     "source": "financial_crisis_2008",
     "target": "shock_doctrine",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "financial_crisis_2008__financialization",
     "source": "financial_crisis_2008",
     "target": "financialization",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "financial_crisis_2008__austerity_ideology",
     "source": "financial_crisis_2008",
     "target": "austerity_ideology",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "financial_crisis_2008__debt_trap",
     "source": "financial_crisis_2008",
     "target": "debt_trap",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "financial_crisis_2008__income_inequality",
     "source": "financial_crisis_2008",
     "target": "income_inequality",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "imf_structural_adjustment__austerity_ideology",
     "source": "imf_structural_adjustment",
     "target": "austerity_ideology",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "laissez_faire_capitalism__enclosure_movement_economics",
     "source": "laissez_faire_capitalism",
     "target": "enclosure_movement_economics",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "laissez_faire_capitalism__labor_movement_suppression",
     "source": "laissez_faire_capitalism",
     "target": "labor_movement_suppression",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "laissez_faire_capitalism__primitive_accumulation",
     "source": "laissez_faire_capitalism",
     "target": "primitive_accumulation",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "primitive_accumulation__gilded_age",
     "source": "primitive_accumulation",
     "target": "gilded_age",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "shareholder_primacy__income_inequality",
     "source": "shareholder_primacy",
     "target": "income_inequality",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "trickle_down_economics__income_inequality",
     "source": "trickle_down_economics",
     "target": "income_inequality",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "trickle_down_economics__austerity_ideology",
     "source": "trickle_down_economics",
     "target": "austerity_ideology",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "false_consciousness_economics__labor_movement_suppression",
     "source": "false_consciousness_economics",
     "target": "labor_movement_suppression",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "false_consciousness_economics__wage_suppression",
     "source": "false_consciousness_economics",
     "target": "wage_suppression",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "wage_suppression__precariat_class",
     "source": "wage_suppression",
     "target": "precariat_class",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "rent_seeking__wealth_concentration",
     "source": "rent_seeking",
     "target": "wealth_concentration",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "rent_seeking__regulatory_capture",
     "source": "rent_seeking",
     "target": "regulatory_capture",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "monopolization__wage_suppression",
     "source": "monopolization",
     "target": "wage_suppression",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "financialization__income_inequality",
     "source": "financialization",
     "target": "income_inequality",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "bretton_woods_agreement_1944__bretton_woods_collapse",
@@ -587,7 +587,7 @@
     "target": "great_depression_economics",
     "type": "CAUSED",
     "label": "Fed's contractionary policy worsened the Depression",
-    "note": "The Federal Reserve tightened the money supply in 1929\u201332, transforming a recession into the Great Depression \u2014 a catastrophic policy error.",
+    "note": "The Federal Reserve tightened the money supply in 1929–32, transforming a recession into the Great Depression — a catastrophic policy error.",
     "confidence": "high"
   },
   {
@@ -614,7 +614,7 @@
     "target": "financial_crisis_2008",
     "type": "CAUSED",
     "label": "bubble collapse triggered global financial crisis",
-    "note": "The collapse of the U.S. housing bubble in 2007\u201308 triggered the global financial crisis through interconnected mortgage securities.",
+    "note": "The collapse of the U.S. housing bubble in 2007–08 triggered the global financial crisis through interconnected mortgage securities.",
     "confidence": "high"
   },
   {
@@ -686,7 +686,7 @@
     "target": "precariat_class",
     "type": "PRODUCED",
     "label": "gig work is precariat labor at scale",
-    "note": "The gig economy is the primary contemporary mechanism producing the precariat \u2014 workers with no employment security, benefits, or collective power.",
+    "note": "The gig economy is the primary contemporary mechanism producing the precariat — workers with no employment security, benefits, or collective power.",
     "confidence": "high"
   },
   {
@@ -785,7 +785,7 @@
     "target": "microfinance",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both extend economic resources to previously excluded populations",
-    "note": "Social democracy (through universal social programs) and microfinance (through small business credit) both work to extend economic resources to those excluded by market failure \u2014 social democracy through the state, microfinance through market mechanisms. They represent the two poles of the debate about whether poverty is best addressed through universal public provision or individual market access.",
+    "note": "Social democracy (through universal social programs) and microfinance (through small business credit) both work to extend economic resources to those excluded by market failure — social democracy through the state, microfinance through market mechanisms. They represent the two poles of the debate about whether poverty is best addressed through universal public provision or individual market access.",
     "confidence": "medium"
   },
   {
@@ -803,7 +803,7 @@
     "target": "microfinance",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both are alternative economic institutions that bypass conventional capital markets",
-    "note": "Cooperatives and microfinance both operate on the insight that conventional capital markets systematically exclude populations that are economically productive \u2014 workers who can't raise equity, poor entrepreneurs who can't post collateral. Both create alternative institutional forms that extend productive economic participation to excluded groups.",
+    "note": "Cooperatives and microfinance both operate on the insight that conventional capital markets systematically exclude populations that are economically productive — workers who can't raise equity, poor entrepreneurs who can't post collateral. Both create alternative institutional forms that extend productive economic participation to excluded groups.",
     "confidence": "medium"
   },
   {
@@ -812,7 +812,7 @@
     "target": "global_poverty_decline",
     "type": "ENABLED",
     "label": "fair trade provides price floor protection for smallholder farmers",
-    "note": "Fair trade certification provides smallholder farmers \u2014 coffee, cocoa, banana growers \u2014 a price floor above commodity market prices and guaranteed market access, partially insulating them from the commodity price volatility that has been a major driver of agricultural poverty. Impact studies show meaningful income improvements in certified cooperatives, contributing to poverty reduction at the margin.",
+    "note": "Fair trade certification provides smallholder farmers — coffee, cocoa, banana growers — a price floor above commodity market prices and guaranteed market access, partially insulating them from the commodity price volatility that has been a major driver of agricultural poverty. Impact studies show meaningful income improvements in certified cooperatives, contributing to poverty reduction at the margin.",
     "confidence": "medium"
   },
   {
@@ -821,7 +821,7 @@
     "target": "financialization",
     "type": "ENABLED",
     "label": "dollar hegemony created architecture for financial globalization",
-    "note": "Bretton Woods established the dollar reserve system \u2014 and its 1971 collapse produced floating exchange rates that incentivized financial speculation and currency trading. The post-Bretton-Woods era of floating currencies and capital mobility drove financialization.",
+    "note": "Bretton Woods established the dollar reserve system — and its 1971 collapse produced floating exchange rates that incentivized financial speculation and currency trading. The post-Bretton-Woods era of floating currencies and capital mobility drove financialization.",
     "confidence": "high"
   },
   {
@@ -830,7 +830,7 @@
     "target": "monopolization",
     "type": "ENABLED",
     "label": "WTO intellectual property rules enabled global corporate monopolization",
-    "note": "WTO's TRIPS agreement (Trade-Related Intellectual Property) extended US patent and copyright standards globally \u2014 enabling pharmaceutical and technology companies to maintain global monopoly pricing on drugs and software, concentrating market power at global scale.",
+    "note": "WTO's TRIPS agreement (Trade-Related Intellectual Property) extended US patent and copyright standards globally — enabling pharmaceutical and technology companies to maintain global monopoly pricing on drugs and software, concentrating market power at global scale.",
     "confidence": "high"
   },
   {
@@ -839,7 +839,7 @@
     "target": "labor_movement_suppression",
     "type": "ENABLED",
     "label": "contractor classification prevents workers from organizing unions",
-    "note": "By classifying gig workers as independent contractors rather than employees, platforms remove them from the legal framework that enables collective bargaining \u2014 systematically preventing the union organizing that might otherwise emerge from shared working conditions.",
+    "note": "By classifying gig workers as independent contractors rather than employees, platforms remove them from the legal framework that enables collective bargaining — systematically preventing the union organizing that might otherwise emerge from shared working conditions.",
     "confidence": "high"
   },
   {
@@ -848,7 +848,7 @@
     "target": "financialization",
     "type": "ENABLED",
     "label": "QE created a decade of asset price inflation that enriched the already-wealthy",
-    "note": "Ten years of near-zero interest rates drove capital into equities, real estate, and alternative assets \u2014 producing sustained asset price inflation. Those who owned assets got dramatically wealthier; those who relied on wages or savings did not.",
+    "note": "Ten years of near-zero interest rates drove capital into equities, real estate, and alternative assets — producing sustained asset price inflation. Those who owned assets got dramatically wealthier; those who relied on wages or savings did not.",
     "confidence": "high"
   },
   {
@@ -857,7 +857,7 @@
     "target": "austerity_ideology",
     "type": "ENABLED",
     "label": "tax avoidance depletes revenues, creating the fiscal gaps that austerity fills",
-    "note": "Corporate and elite tax avoidance through offshore havens depletes government revenues \u2014 creating fiscal gaps that politicians use to justify cutting public services. Tax avoidance creates the fiscal crisis that becomes the justification for austerity.",
+    "note": "Corporate and elite tax avoidance through offshore havens depletes government revenues — creating fiscal gaps that politicians use to justify cutting public services. Tax avoidance creates the fiscal crisis that becomes the justification for austerity.",
     "confidence": "high"
   },
   {
@@ -1028,19 +1028,13 @@
   {
     "source": "bretton_woods",
     "target": "marshall_plan",
-    "type": "CONTEXT_FOR",
-    "weight": 2
-  },
-  {
-    "source": "bretton_woods",
-    "target": "imf_founding",
-    "type": "PARALLEL_TO",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "bretton_woods",
     "target": "stagflation_1970s",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -1082,7 +1076,7 @@
   {
     "source": "imf_founding",
     "target": "washington_consensus",
-    "type": "VEHICLE_FOR",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -1118,13 +1112,13 @@
   {
     "source": "austerity_economics",
     "target": "global_financial_crisis_aftermath",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "platform_capitalism",
     "target": "gig_economy",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {

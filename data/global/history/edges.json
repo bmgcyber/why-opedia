@@ -4653,30 +4653,12 @@
     "confidence": "high"
   },
   {
-    "id": "printing_press__scientific_revolution_edge",
-    "source": "printing_press",
-    "target": "scientific_revolution",
-    "type": "ENABLED",
-    "label": "The printing press enabled scientific communication at scale",
-    "note": "This edge connects the printing press to the scientific revolution enabling knowledge accumulation.",
-    "confidence": "high"
-  },
-  {
     "id": "ottoman_empire__rise_of_islam",
     "source": "ottoman_empire",
     "target": "rise_of_islam",
     "type": "ENABLED",
     "label": "The Ottoman Empire was the most powerful Muslim state for 600 years, the caliphate that defined Sunni Islamic political authority",
     "note": "The Ottoman Empire institutionalized Islamic political authority through the caliphate: Ottoman sultans held the Sunni caliphate title from 1517 (conquest of Egypt) until its abolition in 1924 (Ataturk); the empire administered the holy cities of Mecca and Medina, giving it religious authority over global Sunni Islam; Ottoman religious institutions (ulema, Diyanet) shaped Islamic law and practice across three continents; the empire's collapse produced the \"caliphate problem\" that political Islamist movements (including ISIS) have sought to resolve. The Ottoman caliphate was the political institutionalization of the Islamic tradition that began with the Rashidun caliphs.",
-    "confidence": "high"
-  },
-  {
-    "id": "french_revolution__napoleon",
-    "source": "french_revolution",
-    "target": "napoleon_bonaparte",
-    "type": "PRODUCED",
-    "label": "The French Revolution's radicalism and destabilization produced Napoleon as the stabilizing figure who institutionalized revolutionary achievements under imperial authority",
-    "note": "Napoleon was produced by the French Revolution in multiple senses: without the Revolution's meritocratic military culture (any soldier could become marshal; noble birth not required), Napoleon (Corsican minor noble) could not have risen to general by 24; the Revolution's destabilization and Thermidorian reaction created the political vacuum that Napoleon filled; the Consulate's coup (1799) ended revolutionary government but preserved its legal achievements (Napoleonic Code, abolition of feudalism). Napoleon institutionalized the Revolution's transformations — equality before the law, religious tolerance, meritocracy — while ending its democracy. He simultaneously completed and destroyed the Revolution.",
     "confidence": "high"
   },
   {
@@ -5244,24 +5226,6 @@
     "type": "ENABLED",
     "label": "Enabled",
     "note": "Nuclear proliferation and arms race produced Cuban Missile Crisis as near-catastrophe",
-    "confidence": "confirmed"
-  },
-  {
-    "id": "nuclear_proliferation__arms_race",
-    "source": "nuclear_proliferation",
-    "target": "cold_war_nuclear_fear",
-    "type": "ENABLED",
-    "label": "Enabled",
-    "note": "Proliferation drove nuclear fear in cold war culture and civil society",
-    "confidence": "confirmed"
-  },
-  {
-    "id": "great_depression__world_war_ii_economics",
-    "source": "great_depression",
-    "target": "world_war_ii",
-    "type": "ENABLED",
-    "label": "economic collapse enabled authoritarian appeal",
-    "note": "The Great Depression destroyed the Weimar Republic's legitimacy, produced mass unemployment, and created the economic desperation that made Nazi and fascist promises credible to millions.",
     "confidence": "confirmed"
   },
   {
@@ -5916,1351 +5880,1351 @@
     "id": "abraham_lincoln__american_civil_war",
     "source": "abraham_lincoln",
     "target": "american_civil_war",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "abraham_lincoln__civil_rights_movement",
     "source": "abraham_lincoln",
     "target": "civil_rights_movement",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "thaddeus_stevens__american_civil_war",
     "source": "thaddeus_stevens",
     "target": "american_civil_war",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "rosa_parks__civil_rights_movement",
     "source": "rosa_parks",
     "target": "civil_rights_movement",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "rosa_parks__martin_luther_king_jr",
     "source": "rosa_parks",
     "target": "martin_luther_king_jr",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "susan_b_anthony__suffrage_movement",
     "source": "susan_b_anthony",
     "target": "suffrage_movement",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "elizabeth_cady_stanton__suffrage_movement",
     "source": "elizabeth_cady_stanton",
     "target": "suffrage_movement",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "elizabeth_cady_stanton__susan_b_anthony",
     "source": "elizabeth_cady_stanton",
     "target": "susan_b_anthony",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "emmeline_pankhurst__suffrage_movement",
     "source": "emmeline_pankhurst",
     "target": "suffrage_movement",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "thurgood_marshall__civil_rights_movement",
     "source": "thurgood_marshall",
     "target": "civil_rights_movement",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "john_lewis__civil_rights_movement",
     "source": "john_lewis",
     "target": "civil_rights_movement",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "john_lewis__martin_luther_king_jr",
     "source": "john_lewis",
     "target": "martin_luther_king_jr",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "medgar_evers__civil_rights_movement",
     "source": "medgar_evers",
     "target": "civil_rights_movement",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "medgar_evers__martin_luther_king_jr",
     "source": "medgar_evers",
     "target": "martin_luther_king_jr",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "thomas_paine__american_revolution",
     "source": "thomas_paine",
     "target": "american_revolution",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "thomas_paine__french_revolution",
     "source": "thomas_paine",
     "target": "french_revolution",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "benjamin_franklin__american_revolution",
     "source": "benjamin_franklin",
     "target": "american_revolution",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "benjamin_franklin__enlightenment",
     "source": "benjamin_franklin",
     "target": "enlightenment",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "augustus_caesar__roman_republic",
     "source": "augustus_caesar",
     "target": "roman_republic",
-    "relation": "FRAGMENTED_INTO"
+    "type": "FRAGMENTED_INTO"
   },
   {
     "id": "augustus_caesar__roman_empire",
     "source": "augustus_caesar",
     "target": "roman_empire",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "augustus_caesar__sulla_march_on_rome",
     "source": "augustus_caesar",
     "target": "sulla_march_on_rome",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "archduke_franz_ferdinand__world_war_i",
     "source": "archduke_franz_ferdinand",
     "target": "world_war_i",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "kaiser_wilhelm_ii__world_war_i",
     "source": "kaiser_wilhelm_ii",
     "target": "world_war_i",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "kaiser_wilhelm_ii__armenian_genocide",
     "source": "kaiser_wilhelm_ii",
     "target": "armenian_genocide",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "adolf_eichmann__the_holocaust",
     "source": "adolf_eichmann",
     "target": "the_holocaust",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "adolf_eichmann__nuremberg_trials",
     "source": "adolf_eichmann",
     "target": "nuremberg_trials",
-    "relation": "FORCED_INTO"
+    "type": "FORCED_INTO"
   },
   {
     "id": "napoleon_iii__french_revolution",
     "source": "napoleon_iii",
     "target": "french_revolution",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "otto_von_bismarck__world_war_i",
     "source": "otto_von_bismarck",
     "target": "world_war_i",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "otto_von_bismarck__progressive_era",
     "source": "otto_von_bismarck",
     "target": "progressive_era",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "louis_xvi__french_revolution",
     "source": "louis_xvi",
     "target": "french_revolution",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "cardinal_richelieu__thirty_years_war",
     "source": "cardinal_richelieu",
     "target": "thirty_years_war",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "cardinal_richelieu__peace_of_westphalia",
     "source": "cardinal_richelieu",
     "target": "peace_of_westphalia",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "gustavus_adolphus__thirty_years_war",
     "source": "gustavus_adolphus",
     "target": "thirty_years_war",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "gustavus_adolphus__peace_of_westphalia",
     "source": "gustavus_adolphus",
     "target": "peace_of_westphalia",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "william_wilberforce__atlantic_slave_trade",
     "source": "william_wilberforce",
     "target": "atlantic_slave_trade",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "ferdinand_isabella__spanish_inquisition",
     "source": "ferdinand_isabella",
     "target": "spanish_inquisition",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "ferdinand_isabella__jewish_expulsion_spain_1492",
     "source": "ferdinand_isabella",
     "target": "jewish_expulsion_spain_1492",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "ferdinand_isabella__christopher_columbus",
     "source": "ferdinand_isabella",
     "target": "christopher_columbus",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "matthias_hopkins__european_witch_trials",
     "source": "matthias_hopkins",
     "target": "european_witch_trials",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "pope_urban_ii__first_crusade",
     "source": "pope_urban_ii",
     "target": "first_crusade",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "pope_urban_ii__council_of_clermont_1095",
     "source": "pope_urban_ii",
     "target": "council_of_clermont_1095",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "slobodan_milosevic__srebrenica_massacre",
     "source": "slobodan_milosevic",
     "target": "srebrenica_massacre",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "radovan_karadzic__srebrenica_massacre",
     "source": "radovan_karadzic",
     "target": "srebrenica_massacre",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "slobodan_milosevic__radovan_karadzic",
     "source": "slobodan_milosevic",
     "target": "radovan_karadzic",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "steve_biko__apartheid_south_africa",
     "source": "steve_biko",
     "target": "apartheid_south_africa",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "desmond_tutu__apartheid_south_africa",
     "source": "desmond_tutu",
     "target": "apartheid_south_africa",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "desmond_tutu__nelson_mandela",
     "source": "desmond_tutu",
     "target": "nelson_mandela",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "mustafa_kemal_ataturk__ottoman_empire",
     "source": "mustafa_kemal_ataturk",
     "target": "ottoman_empire",
-    "relation": "FRAGMENTED_INTO"
+    "type": "FRAGMENTED_INTO"
   },
   {
     "id": "enver_pasha__armenian_genocide",
     "source": "enver_pasha",
     "target": "armenian_genocide",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "enver_pasha__ottoman_empire",
     "source": "enver_pasha",
     "target": "ottoman_empire",
-    "relation": "FRAGMENTED_INTO"
+    "type": "FRAGMENTED_INTO"
   },
   {
     "id": "mustafa_kemal_ataturk__armenian_genocide",
     "source": "mustafa_kemal_ataturk",
     "target": "armenian_genocide",
-    "relation": "PROVIDED_COVER_FOR"
+    "type": "PROVIDED_COVER_FOR"
   },
   {
     "id": "saddam_hussein__gulf_war_1990",
     "source": "saddam_hussein",
     "target": "gulf_war_1990",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "saddam_hussein__iraq_war_wmd",
     "source": "saddam_hussein",
     "target": "iraq_war_wmd",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "kublai_khan__mongol_empire",
     "source": "kublai_khan",
     "target": "mongol_empire",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "kublai_khan__mongol_conquests",
     "source": "kublai_khan",
     "target": "mongol_conquests",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "kublai_khan__silk_road",
     "source": "kublai_khan",
     "target": "silk_road",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "sun_yat_sen__mao_zedong",
     "source": "sun_yat_sen",
     "target": "mao_zedong",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "sun_yat_sen__chiang_kai_shek",
     "source": "sun_yat_sen",
     "target": "chiang_kai_shek",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "chiang_kai_shek__great_leap_forward",
     "source": "chiang_kai_shek",
     "target": "great_leap_forward",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "chiang_kai_shek__korean_war",
     "source": "chiang_kai_shek",
     "target": "korean_war",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "deng_xiaoping__chinese_cultural_revolution",
     "source": "deng_xiaoping",
     "target": "chinese_cultural_revolution",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "deng_xiaoping__great_leap_forward",
     "source": "deng_xiaoping",
     "target": "great_leap_forward",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "emperor_meiji__meiji_restoration",
     "source": "emperor_meiji",
     "target": "meiji_restoration",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "emperor_meiji__state_shinto",
     "source": "emperor_meiji",
     "target": "state_shinto",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "ito_hirobumi__meiji_restoration",
     "source": "ito_hirobumi",
     "target": "meiji_restoration",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "judah_maccabee__maccabean_revolt",
     "source": "judah_maccabee",
     "target": "maccabean_revolt",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "judah_maccabee__second_temple_period",
     "source": "judah_maccabee",
     "target": "second_temple_period",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "fulgencio_batista__cuban_revolution",
     "source": "fulgencio_batista",
     "target": "cuban_revolution",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "fulgencio_batista__latin_american_dirty_wars",
     "source": "fulgencio_batista",
     "target": "latin_american_dirty_wars",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "emiliano_zapata__enclosure_movement",
     "source": "emiliano_zapata",
     "target": "enclosure_movement",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "henri_christophe__haitian_revolution",
     "source": "henri_christophe",
     "target": "haitian_revolution",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "henri_christophe__haitian_indemnity",
     "source": "henri_christophe",
     "target": "haitian_indemnity",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "henri_christophe__toussaint_louverture",
     "source": "henri_christophe",
     "target": "toussaint_louverture",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "henri_christophe__jean_jacques_dessalines",
     "source": "henri_christophe",
     "target": "jean_jacques_dessalines",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "christopher_columbus__age_of_exploration",
     "source": "christopher_columbus",
     "target": "age_of_exploration",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "christopher_columbus__atlantic_slave_trade",
     "source": "christopher_columbus",
     "target": "atlantic_slave_trade",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "christopher_columbus__colonial_era",
     "source": "christopher_columbus",
     "target": "colonial_era",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "hernan_cortes__age_of_exploration",
     "source": "hernan_cortes",
     "target": "age_of_exploration",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "hernan_cortes__colonial_era",
     "source": "hernan_cortes",
     "target": "colonial_era",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "vasco_da_gama__age_of_exploration",
     "source": "vasco_da_gama",
     "target": "age_of_exploration",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "vasco_da_gama__east_india_company",
     "source": "vasco_da_gama",
     "target": "east_india_company",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "nicolaus_copernicus__scientific_revolution",
     "source": "nicolaus_copernicus",
     "target": "scientific_revolution",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "nicolaus_copernicus__protestant_reformation",
     "source": "nicolaus_copernicus",
     "target": "protestant_reformation",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "nicolaus_copernicus__galileo_galilei",
     "source": "nicolaus_copernicus",
     "target": "galileo_galilei",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "milton_friedman__chile_coup_1973",
     "source": "milton_friedman",
     "target": "chile_coup_1973",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "john_maynard_keynes__great_depression",
     "source": "john_maynard_keynes",
     "target": "great_depression",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "andrew_carnegie__robber_barons",
     "source": "andrew_carnegie",
     "target": "robber_barons",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "andrew_carnegie__industrial_revolution",
     "source": "andrew_carnegie",
     "target": "industrial_revolution",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "francis_galton__buck_v_bell",
     "source": "francis_galton",
     "target": "buck_v_bell",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "jean_paul_sartre__existentialism",
     "source": "jean_paul_sartre",
     "target": "existentialism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "simone_de_beauvoir__existentialism",
     "source": "simone_de_beauvoir",
     "target": "existentialism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "simone_de_beauvoir__suffrage_movement",
     "source": "simone_de_beauvoir",
     "target": "suffrage_movement",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "simone_de_beauvoir__jean_paul_sartre",
     "source": "simone_de_beauvoir",
     "target": "jean_paul_sartre",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "michel_foucault__postmodernism_philosophy",
     "source": "michel_foucault",
     "target": "postmodernism_philosophy",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "noam_chomsky__vietnam_war_protests",
     "source": "noam_chomsky",
     "target": "vietnam_war_protests",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "noam_chomsky__george_orwell",
     "source": "noam_chomsky",
     "target": "george_orwell",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "gustavo_gutierrez__liberation_theology",
     "source": "gustavo_gutierrez",
     "target": "liberation_theology",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "gustavo_gutierrez__oscar_romero",
     "source": "gustavo_gutierrez",
     "target": "oscar_romero",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "taharqa__nubian_pharaohs",
     "source": "taharqa",
     "target": "nubian_pharaohs",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "taharqa__ancient_egypt",
     "source": "taharqa",
     "target": "ancient_egypt",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "marcus_aurelius__roman_empire",
     "source": "marcus_aurelius",
     "target": "roman_empire",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "marcus_aurelius__stoicism",
     "source": "marcus_aurelius",
     "target": "stoicism",
-    "relation": "PRODUCED"
+    "type": "PRODUCED"
   },
   {
     "id": "henry_v_england__battle_of_agincourt",
     "source": "henry_v_england",
     "target": "battle_of_agincourt",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "duke_of_wellington__battle_of_waterloo",
     "source": "duke_of_wellington",
     "target": "battle_of_waterloo",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "duke_of_wellington__napoleon_bonaparte",
     "source": "duke_of_wellington",
     "target": "napoleon_bonaparte",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "fw_de_klerk__apartheid_south_africa",
     "source": "fw_de_klerk",
     "target": "apartheid_south_africa",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "fw_de_klerk__nelson_mandela",
     "source": "fw_de_klerk",
     "target": "nelson_mandela",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "porfirio_diaz__pancho_villa",
     "source": "porfirio_diaz",
     "target": "pancho_villa",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "porfirio_diaz__emiliano_zapata",
     "source": "porfirio_diaz",
     "target": "emiliano_zapata",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "kim_il_sung__korean_war",
     "source": "kim_il_sung",
     "target": "korean_war",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "harriet_beecher_stowe__civil_rights_movement",
     "source": "harriet_beecher_stowe",
     "target": "civil_rights_movement",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "harriet_beecher_stowe__american_civil_war",
     "source": "harriet_beecher_stowe",
     "target": "american_civil_war",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "harriet_beecher_stowe__harriet_tubman",
     "source": "harriet_beecher_stowe",
     "target": "harriet_tubman",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "ulysses_grant__american_civil_war",
     "source": "ulysses_grant",
     "target": "american_civil_war",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "ulysses_grant__abraham_lincoln",
     "source": "ulysses_grant",
     "target": "abraham_lincoln",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "epicurus__epicureanism",
     "source": "epicurus",
     "target": "epicureanism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "david_hume__enlightenment",
     "source": "david_hume",
     "target": "enlightenment",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "david_hume__scientific_revolution",
     "source": "david_hume",
     "target": "scientific_revolution",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "simone_weil__liberation_theology",
     "source": "simone_weil",
     "target": "liberation_theology",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "simone_weil__oscar_romero",
     "source": "simone_weil",
     "target": "oscar_romero",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "jose_marti__cuban_revolution",
     "source": "jose_marti",
     "target": "cuban_revolution",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "jose_marti__haitian_revolution",
     "source": "jose_marti",
     "target": "haitian_revolution",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "robert_e_lee__american_civil_war",
     "source": "robert_e_lee",
     "target": "american_civil_war",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "robert_e_lee__trail_of_tears",
     "source": "robert_e_lee",
     "target": "trail_of_tears",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "olaudah_equiano__atlantic_slave_trade",
     "source": "olaudah_equiano",
     "target": "atlantic_slave_trade",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "olaudah_equiano__william_wilberforce",
     "source": "olaudah_equiano",
     "target": "william_wilberforce",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "olaudah_equiano__harriet_tubman",
     "source": "olaudah_equiano",
     "target": "harriet_tubman",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "aztec_empire__spanish_conquest_mexico",
     "source": "aztec_empire",
     "target": "spanish_conquest_mexico",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "inca_empire__spanish_conquest_peru",
     "source": "inca_empire",
     "target": "spanish_conquest_peru",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "maya_civilization__mayan_collapse",
     "source": "maya_civilization",
     "target": "mayan_collapse",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "hernan_cortes__spanish_conquest_mexico",
     "source": "hernan_cortes",
     "target": "spanish_conquest_mexico",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "hernan_cortes__aztec_empire",
     "source": "hernan_cortes",
     "target": "aztec_empire",
-    "relation": "COLONIZED"
+    "type": "COLONIZED"
   },
   {
     "id": "francisco_pizarro__spanish_conquest_peru",
     "source": "francisco_pizarro",
     "target": "spanish_conquest_peru",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "francisco_pizarro__inca_empire",
     "source": "francisco_pizarro",
     "target": "inca_empire",
-    "relation": "COLONIZED"
+    "type": "COLONIZED"
   },
   {
     "id": "montezuma_ii__aztec_empire",
     "source": "montezuma_ii",
     "target": "aztec_empire",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "montezuma_ii__spanish_conquest_mexico",
     "source": "montezuma_ii",
     "target": "spanish_conquest_mexico",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "pachacuti__inca_empire",
     "source": "pachacuti",
     "target": "inca_empire",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "atahualpa__inca_empire",
     "source": "atahualpa",
     "target": "inca_empire",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "atahualpa__spanish_conquest_peru",
     "source": "atahualpa",
     "target": "spanish_conquest_peru",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "cuauhtemoc__spanish_conquest_mexico",
     "source": "cuauhtemoc",
     "target": "spanish_conquest_mexico",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "cuauhtemoc__aztec_empire",
     "source": "cuauhtemoc",
     "target": "aztec_empire",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "la_malinche__spanish_conquest_mexico",
     "source": "la_malinche",
     "target": "spanish_conquest_mexico",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "christopher_columbus__aztec_empire",
     "source": "christopher_columbus",
     "target": "aztec_empire",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "christopher_columbus__maya_civilization",
     "source": "christopher_columbus",
     "target": "maya_civilization",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "christopher_columbus__inca_empire",
     "source": "christopher_columbus",
     "target": "inca_empire",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "columbian_exchange__atlantic_slave_trade",
     "source": "columbian_exchange",
     "target": "atlantic_slave_trade",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "columbian_exchange__colonial_era",
     "source": "columbian_exchange",
     "target": "colonial_era",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "columbian_exchange__age_of_exploration",
     "source": "columbian_exchange",
     "target": "age_of_exploration",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "spanish_conquest_mexico__colonial_era",
     "source": "spanish_conquest_mexico",
     "target": "colonial_era",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "spanish_conquest_peru__colonial_era",
     "source": "spanish_conquest_peru",
     "target": "colonial_era",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "aztec_empire__silk_road",
     "source": "aztec_empire",
     "target": "silk_road",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "inca_empire__silk_road",
     "source": "inca_empire",
     "target": "silk_road",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "covid_19_pandemic__blm_movement",
     "source": "covid_19_pandemic",
     "target": "blm_movement",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "covid_19_pandemic__january_6_insurrection",
     "source": "covid_19_pandemic",
     "target": "january_6_insurrection",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "covid_19_pandemic__smartphone_social_media_era",
     "source": "covid_19_pandemic",
     "target": "smartphone_social_media_era",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "george_floyd_murder__blm_movement",
     "source": "george_floyd_murder",
     "target": "blm_movement",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "george_floyd_murder__january_6_insurrection",
     "source": "george_floyd_murder",
     "target": "january_6_insurrection",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "blm_movement__civil_rights_movement",
     "source": "blm_movement",
     "target": "civil_rights_movement",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "blm_movement__martin_luther_king_jr",
     "source": "blm_movement",
     "target": "martin_luther_king_jr",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "blm_movement__rosa_parks",
     "source": "blm_movement",
     "target": "rosa_parks",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "january_6_insurrection__donald_trump",
     "source": "january_6_insurrection",
     "target": "donald_trump",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "donald_trump__january_6_insurrection",
     "source": "donald_trump",
     "target": "january_6_insurrection",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "donald_trump__mccarthyism",
     "source": "donald_trump",
     "target": "mccarthyism",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "smartphone_social_media_era__blm_movement",
     "source": "smartphone_social_media_era",
     "target": "blm_movement",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "smartphone_social_media_era__metoo_movement",
     "source": "smartphone_social_media_era",
     "target": "metoo_movement",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "smartphone_social_media_era__january_6_insurrection",
     "source": "smartphone_social_media_era",
     "target": "january_6_insurrection",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "metoo_movement__suffrage_movement",
     "source": "metoo_movement",
     "target": "suffrage_movement",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "greta_thunberg__climate_crisis_activism",
     "source": "greta_thunberg",
     "target": "climate_crisis_activism",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "climate_crisis_activism__industrial_revolution",
     "source": "climate_crisis_activism",
     "target": "industrial_revolution",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "ukraine_russia_war__cold_war_culture",
     "source": "ukraine_russia_war",
     "target": "cold_war_culture",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "mali_empire__songhai_empire",
     "source": "mali_empire",
     "target": "songhai_empire",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "mali_empire__atlantic_slave_trade",
     "source": "mali_empire",
     "target": "atlantic_slave_trade",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "songhai_empire__atlantic_slave_trade",
     "source": "songhai_empire",
     "target": "atlantic_slave_trade",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "sundiata_keita__mali_empire",
     "source": "sundiata_keita",
     "target": "mali_empire",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "mansa_musa__mali_empire",
     "source": "mansa_musa",
     "target": "mali_empire",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "mansa_musa__silk_road",
     "source": "mansa_musa",
     "target": "silk_road",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "ashanti_empire__atlantic_slave_trade",
     "source": "ashanti_empire",
     "target": "atlantic_slave_trade",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "ashanti_empire__berlin_conference_1884",
     "source": "ashanti_empire",
     "target": "berlin_conference_1884",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "battle_of_adwa__berlin_conference_1884",
     "source": "battle_of_adwa",
     "target": "berlin_conference_1884",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "battle_of_adwa__decolonization_movement",
     "source": "battle_of_adwa",
     "target": "decolonization_movement",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "battle_of_adwa__menelik_ii",
     "source": "battle_of_adwa",
     "target": "menelik_ii",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "menelik_ii__battle_of_adwa",
     "source": "menelik_ii",
     "target": "battle_of_adwa",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "kwame_nkrumah__decolonization_movement",
     "source": "kwame_nkrumah",
     "target": "decolonization_movement",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "kwame_nkrumah__decolonization_africa",
     "source": "kwame_nkrumah",
     "target": "decolonization_africa",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "kwame_nkrumah__patrice_lumumba",
     "source": "kwame_nkrumah",
     "target": "patrice_lumumba",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "kwame_nkrumah__thomas_sankara",
     "source": "kwame_nkrumah",
     "target": "thomas_sankara",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "patrice_lumumba__latin_american_dirty_wars",
     "source": "patrice_lumumba",
     "target": "latin_american_dirty_wars",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "patrice_lumumba__bay_of_pigs",
     "source": "patrice_lumumba",
     "target": "bay_of_pigs",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "thomas_sankara__kwame_nkrumah",
     "source": "thomas_sankara",
     "target": "kwame_nkrumah",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "thomas_sankara__decolonization_africa",
     "source": "thomas_sankara",
     "target": "decolonization_africa",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "king_leopold_congo__patrice_lumumba",
     "source": "king_leopold_congo",
     "target": "patrice_lumumba",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "maurya_empire__ashoka",
     "source": "maurya_empire",
     "target": "ashoka",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "chandragupta_maurya__maurya_empire",
     "source": "chandragupta_maurya",
     "target": "maurya_empire",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "ashoka__buddhist_spread_east_asia",
     "source": "ashoka",
     "target": "buddhist_spread_east_asia",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "ashoka__maurya_empire",
     "source": "ashoka",
     "target": "maurya_empire",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "ashoka__gautama_buddha",
     "source": "ashoka",
     "target": "gautama_buddha",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "mughal_empire__partition_of_india",
     "source": "mughal_empire",
     "target": "partition_of_india",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "mughal_empire__east_india_company",
     "source": "mughal_empire",
     "target": "east_india_company",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "mughal_empire__sepoy_mutiny",
     "source": "mughal_empire",
     "target": "sepoy_mutiny",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "akbar_the_great__mughal_empire",
     "source": "akbar_the_great",
     "target": "mughal_empire",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "aurangzeb__mughal_empire",
     "source": "aurangzeb",
     "target": "mughal_empire",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "aurangzeb__partition_of_india",
     "source": "aurangzeb",
     "target": "partition_of_india",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "sepoy_mutiny__partition_of_india",
     "source": "sepoy_mutiny",
     "target": "partition_of_india",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "sepoy_mutiny__east_india_company",
     "source": "sepoy_mutiny",
     "target": "east_india_company",
-    "relation": "DISCREDITED"
+    "type": "DISCREDITED"
   },
   {
     "id": "bengal_famine_1943__partition_of_india",
     "source": "bengal_famine_1943",
     "target": "partition_of_india",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "bengal_famine_1943__irish_famine",
     "source": "bengal_famine_1943",
     "target": "irish_famine",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "bengal_famine_1943__winston_churchill",
     "source": "bengal_famine_1943",
     "target": "winston_churchill",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "han_dynasty__silk_road",
     "source": "han_dynasty",
     "target": "silk_road",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "han_dynasty__qin_dynasty",
     "source": "han_dynasty",
     "target": "qin_dynasty",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "han_dynasty__tang_dynasty",
     "source": "han_dynasty",
     "target": "tang_dynasty",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "tang_dynasty__wu_zetian",
     "source": "tang_dynasty",
     "target": "wu_zetian",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "wu_zetian__tang_dynasty",
     "source": "wu_zetian",
     "target": "tang_dynasty",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "tang_dynasty__song_dynasty",
     "source": "tang_dynasty",
     "target": "song_dynasty",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "song_dynasty__mongol_conquests",
     "source": "song_dynasty",
     "target": "mongol_conquests",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "song_dynasty__kublai_khan",
     "source": "song_dynasty",
     "target": "kublai_khan",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "ming_dynasty__zheng_he",
     "source": "ming_dynasty",
     "target": "zheng_he",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "ming_dynasty__opium_wars",
     "source": "ming_dynasty",
     "target": "opium_wars",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "zheng_he__silk_road",
     "source": "zheng_he",
     "target": "silk_road",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "zheng_he__age_of_exploration",
     "source": "zheng_he",
     "target": "age_of_exploration",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "opium_wars__east_india_company",
     "source": "opium_wars",
     "target": "east_india_company",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "opium_wars__taiping_rebellion",
     "source": "opium_wars",
     "target": "taiping_rebellion",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "opium_wars__meiji_restoration",
     "source": "opium_wars",
     "target": "meiji_restoration",
-    "relation": "ENABLED"
+    "type": "ENABLED"
   },
   {
     "id": "taiping_rebellion__tiananmen_square_1989",
     "source": "taiping_rebellion",
     "target": "tiananmen_square_1989",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "tiananmen_square_1989__deng_xiaoping",
     "source": "tiananmen_square_1989",
     "target": "deng_xiaoping",
-    "relation": "CAUSED"
+    "type": "CAUSED"
   },
   {
     "id": "tiananmen_square_1989__chinese_cultural_revolution",
     "source": "tiananmen_square_1989",
     "target": "chinese_cultural_revolution",
-    "relation": "SHARES_MECHANISM_WITH"
+    "type": "SHARES_MECHANISM_WITH"
   },
   {
     "id": "world_war_ii__human_rights_declaration",
@@ -9832,7 +9796,7 @@
   {
     "source": "cold_war_origins",
     "target": "cuban_revolution",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
@@ -9850,13 +9814,7 @@
   {
     "source": "mao_revolution_1949",
     "target": "korean_war",
-    "type": "CONTEXT_FOR",
-    "weight": 2
-  },
-  {
-    "source": "korean_war",
-    "target": "vietnam_war",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -9868,7 +9826,7 @@
   {
     "source": "cuban_missile_crisis",
     "target": "vietnam_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
@@ -9880,13 +9838,13 @@
   {
     "source": "montgomery_bus_boycott",
     "target": "civil_rights_movement",
-    "type": "PART_OF",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "civil_rights_movement",
     "target": "march_on_washington",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -9898,19 +9856,19 @@
   {
     "source": "civil_rights_act_1964",
     "target": "voting_rights_act_1965",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "decolonization_wave",
     "target": "decolonization_africa",
-    "type": "PART_OF",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "decolonization_wave",
     "target": "algerian_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -9922,31 +9880,31 @@
   {
     "source": "iranian_coup_1953",
     "target": "guatemalan_coup_1954",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "hungarian_revolution_1956",
     "target": "prague_spring",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "prague_spring",
     "target": "may_1968_france",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "civil_rights_movement",
     "target": "apartheid_south_africa",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "decolonization_africa",
     "target": "apartheid_south_africa",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -9958,7 +9916,7 @@
   {
     "source": "versailles_treaty",
     "target": "mao_revolution_1949",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
@@ -9982,7 +9940,7 @@
   {
     "source": "mccarthy_era",
     "target": "civil_rights_movement",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
@@ -9994,7 +9952,7 @@
   {
     "source": "tet_offensive",
     "target": "vietnam_war",
-    "type": "PART_OF",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -10006,19 +9964,19 @@
   {
     "source": "vietnam_war",
     "target": "cambodian_genocide",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "assassinations_1968",
     "target": "civil_rights_movement",
-    "type": "DISRUPTED",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "nixon_watergate",
     "target": "reagan_era",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10034,21 +9992,15 @@
     "weight": 3
   },
   {
-    "source": "iranian_coup_1953",
-    "target": "iranian_revolution_1979",
-    "type": "CAUSED",
-    "weight": 3
-  },
-  {
     "source": "opec_oil_embargo_1973",
     "target": "reagan_era",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "opec_oil_embargo_1973",
     "target": "thatcher_era",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10060,7 +10012,7 @@
   {
     "source": "reagan_era",
     "target": "soviet_afghan_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10102,7 +10054,7 @@
   {
     "source": "fall_of_berlin_wall",
     "target": "ussr_collapse",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -10114,19 +10066,19 @@
   {
     "source": "tiananmen_square",
     "target": "ussr_collapse",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "cold_war_origins",
     "target": "rwandan_genocide_event",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "decolonization_africa",
     "target": "rwandan_genocide_event",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10138,61 +10090,55 @@
   {
     "source": "civil_rights_movement",
     "target": "nelson_mandela_release",
-    "type": "INSPIRED",
-    "weight": 2
-  },
-  {
-    "source": "reagan_era",
-    "target": "thatcher_era",
-    "type": "PARALLEL_TO",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "thatcher_era",
     "target": "ussr_collapse",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "cold_war_origins",
     "target": "falklands_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "aids_epidemic",
     "target": "reagan_era",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "ussr_collapse",
     "target": "first_gulf_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "cold_war_origins",
     "target": "first_gulf_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "first_gulf_war",
     "target": "september_11",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "neoliberalism",
     "target": "nafta",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "neoliberalism",
     "target": "wto_founding",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -10210,7 +10156,7 @@
   {
     "source": "dot_com_boom",
     "target": "great_recession_2008",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
@@ -10228,7 +10174,7 @@
   {
     "source": "iranian_coup_1953",
     "target": "september_11",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10252,7 +10198,7 @@
   {
     "source": "afghanistan_war_2001",
     "target": "isis_rise",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10270,19 +10216,19 @@
   {
     "source": "hurricane_katrina",
     "target": "obama_election_2008",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "great_recession_2008",
     "target": "obama_election_2008",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "great_recession_2008",
     "target": "arab_spring",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10298,12 +10244,6 @@
     "weight": 3
   },
   {
-    "source": "arab_spring",
-    "target": "isis_rise",
-    "type": "CONTEXT_FOR",
-    "weight": 2
-  },
-  {
     "source": "wto_founding",
     "target": "seattle_wto_protests",
     "type": "CAUSED",
@@ -10312,7 +10252,7 @@
   {
     "source": "nafta",
     "target": "seattle_wto_protests",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10348,31 +10288,31 @@
   {
     "source": "occupy_wall_street",
     "target": "black_lives_matter",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "snowden_revelations",
     "target": "russia_election_interference",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "russia_election_interference",
     "target": "trump_election_2016",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "great_recession_2008",
     "target": "trump_election_2016",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "great_recession_2008",
     "target": "brexit",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -10402,7 +10342,7 @@
   {
     "source": "social_media_revolution",
     "target": "trump_election_2016",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10414,7 +10354,7 @@
   {
     "source": "ukraine_euromaidan",
     "target": "russia_election_interference",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10426,7 +10366,7 @@
   {
     "source": "covid_pandemic",
     "target": "george_floyd_killing",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10438,13 +10378,13 @@
   {
     "source": "isis_rise",
     "target": "ukraine_full_invasion",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "tech_monopoly_era",
     "target": "social_media_revolution",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -10468,25 +10408,19 @@
   {
     "source": "dot_com_boom",
     "target": "tech_monopoly_era",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "civil_rights_movement",
-    "target": "black_lives_matter",
-    "type": "INSPIRED",
-    "weight": 3
-  },
-  {
-    "source": "civil_rights_movement",
     "target": "metoo_movement",
-    "type": "INSPIRED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "january_6_insurrection",
     "target": "ukraine_full_invasion",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
@@ -10498,7 +10432,7 @@
   {
     "source": "agricultural_revolution",
     "target": "feudalism",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10510,13 +10444,13 @@
   {
     "source": "first_cities",
     "target": "hammurabi_code",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "old_kingdom_egypt",
     "target": "bronze_age_collapse",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
@@ -10528,7 +10462,7 @@
   {
     "source": "iron_age",
     "target": "athenian_democracy",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10540,31 +10474,31 @@
   {
     "source": "athenian_democracy",
     "target": "greco_persian_wars",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "greco_persian_wars",
     "target": "peloponnesian_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "peloponnesian_war",
     "target": "alexander_conquests",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "athenian_democracy",
     "target": "roman_republic",
-    "type": "INSPIRED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "roman_republic",
     "target": "julius_caesar",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -10582,20 +10516,14 @@
   {
     "source": "roman_empire",
     "target": "silk_road",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "black_death",
     "target": "feudalism",
-    "type": "DISRUPTED",
+    "type": "UNDERMINED",
     "weight": 3
-  },
-  {
-    "source": "black_death",
-    "target": "protestant_reformation",
-    "type": "CONTEXT_FOR",
-    "weight": 2
   },
   {
     "source": "roman_fall",
@@ -10606,25 +10534,25 @@
   {
     "source": "feudalism",
     "target": "magna_carta",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "magna_carta",
     "target": "protestant_reformation",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "crusades",
     "target": "black_death",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "crusades",
     "target": "printing_press",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
@@ -10642,19 +10570,19 @@
   {
     "source": "alexander_conquests",
     "target": "silk_road",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "hammurabi_code",
     "target": "roman_republic",
-    "type": "INSPIRED",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "printing_press",
     "target": "age_of_exploration",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
@@ -10690,13 +10618,13 @@
   {
     "source": "columbian_exchange",
     "target": "transatlantic_slave_trade",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "spanish_conquest_americas",
     "target": "transatlantic_slave_trade",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10724,24 +10652,6 @@
     "weight": 3
   },
   {
-    "source": "english_civil_war",
-    "target": "enlightenment",
-    "type": "CONTEXT_FOR",
-    "weight": 2
-  },
-  {
-    "source": "american_revolution",
-    "target": "french_revolution",
-    "type": "INSPIRED",
-    "weight": 3
-  },
-  {
-    "source": "french_revolution",
-    "target": "haitian_revolution",
-    "type": "INSPIRED",
-    "weight": 3
-  },
-  {
     "source": "french_revolution",
     "target": "napoleonic_wars",
     "type": "CAUSED",
@@ -10750,7 +10660,7 @@
   {
     "source": "napoleonic_wars",
     "target": "industrial_revolution",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10768,7 +10678,7 @@
   {
     "source": "industrial_revolution",
     "target": "abolition_movement",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10780,7 +10690,7 @@
   {
     "source": "abolition_movement",
     "target": "us_civil_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10810,7 +10720,7 @@
   {
     "source": "dutch_east_india_company",
     "target": "british_raj",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10828,25 +10738,19 @@
   {
     "source": "industrial_revolution",
     "target": "revolutions_1848",
-    "type": "CONTEXT_FOR",
-    "weight": 2
-  },
-  {
-    "source": "revolutions_1848",
-    "target": "communist_manifesto",
-    "type": "PARALLEL_TO",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "communist_manifesto",
     "target": "paris_commune",
-    "type": "INSPIRED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "paris_commune",
     "target": "russian_revolution_1917",
-    "type": "INSPIRED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10864,19 +10768,19 @@
   {
     "source": "gilded_age",
     "target": "first_international",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "first_international",
     "target": "progressive_era",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "darwins_evolution",
     "target": "social_darwinism",
-    "type": "MISAPPLIED_IN",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -10888,43 +10792,43 @@
   {
     "source": "social_darwinism",
     "target": "holocaust",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_darwinism",
     "target": "berlin_conference_1884",
-    "type": "JUSTIFIED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "berlin_conference_1884",
     "target": "herero_genocide",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "herero_genocide",
     "target": "holocaust",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "industrial_revolution",
     "target": "spanish_american_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "spanish_american_war",
     "target": "vietnam_war",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "boer_war",
     "target": "world_war_i",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10936,25 +10840,19 @@
   {
     "source": "russian_revolution_1905",
     "target": "russian_revolution_1917",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "communist_manifesto",
     "target": "russian_revolution_1917",
-    "type": "INSPIRED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "womens_suffrage_movement",
     "target": "civil_rights_movement",
-    "type": "INSPIRED",
-    "weight": 2
-  },
-  {
-    "source": "abolition_movement",
-    "target": "womens_suffrage_movement",
-    "type": "PARALLEL_TO",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -10966,38 +10864,26 @@
   {
     "source": "chinese_revolution_1911",
     "target": "mao_revolution_1949",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "progressive_era",
     "target": "world_war_i",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "industrial_revolution",
     "target": "world_war_i",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
-  },
-  {
-    "source": "mexican_revolution",
-    "target": "world_war_i",
-    "type": "PARALLEL_TO",
-    "weight": 1
   },
   {
     "source": "rise_of_islam",
     "target": "islamic_golden_age",
     "type": "CAUSED",
     "weight": 3
-  },
-  {
-    "source": "rise_of_islam",
-    "target": "abbasid_caliphate",
-    "type": "PRECEDED",
-    "weight": 2
   },
   {
     "source": "silk_road",
@@ -11008,19 +10894,13 @@
   {
     "source": "mongol_conquests",
     "target": "abbasid_caliphate",
-    "type": "DESTROYED",
+    "type": "CAUSED",
     "weight": 3
   },
   {
     "source": "mongol_conquests",
     "target": "islamic_golden_age",
-    "type": "ENDED",
-    "weight": 3
-  },
-  {
-    "source": "crusades",
-    "target": "crusades_islamic_perspective",
-    "type": "SAME_EVENT",
+    "type": "CAUSED",
     "weight": 3
   },
   {
@@ -11032,43 +10912,43 @@
   {
     "source": "fall_of_constantinople",
     "target": "ottoman_empire_rise",
-    "type": "PART_OF",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "fall_of_constantinople",
     "target": "scientific_revolution",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "aztec_empire",
     "target": "spanish_conquest_americas",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "inca_empire",
     "target": "spanish_conquest_americas",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "aztec_empire",
     "target": "columbian_exchange",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "song_dynasty_china",
     "target": "printing_press",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "ming_dynasty",
     "target": "age_of_exploration",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -11080,103 +10960,97 @@
   {
     "source": "ottoman_empire_rise",
     "target": "world_war_i",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "ottoman_empire_rise",
     "target": "armenian_genocide",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "mughal_empire",
     "target": "british_raj",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "japanese_meiji_imperialism",
     "target": "meiji_restoration",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "japanese_meiji_imperialism",
     "target": "world_war_i",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "ethiopian_victory_adwa",
     "target": "decolonization_africa",
-    "type": "INSPIRED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "swahili_coast_trade",
     "target": "transatlantic_slave_trade",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "mali_empire",
     "target": "transatlantic_slave_trade",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "chinese_exclusion_act",
     "target": "civil_rights_movement",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "rosa_parks",
     "target": "montgomery_bus_boycott",
-    "type": "TRIGGERED",
-    "weight": 3
-  },
-  {
-    "source": "rosa_parks",
-    "target": "civil_rights_movement",
-    "type": "PART_OF",
+    "type": "CAUSED",
     "weight": 3
   },
   {
     "source": "harriet_tubman",
     "target": "abolition_movement",
-    "type": "PART_OF",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "harriet_tubman",
     "target": "transatlantic_slave_trade",
-    "type": "RESISTED",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "frederick_douglass",
     "target": "abolition_movement",
-    "type": "LED",
+    "type": "CAUSED",
     "weight": 3
   },
   {
     "source": "frederick_douglass",
     "target": "us_civil_war",
-    "type": "INFLUENCED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "sojourner_truth",
     "target": "abolition_movement",
-    "type": "PART_OF",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "sojourner_truth",
     "target": "womens_suffrage_movement",
-    "type": "PART_OF",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -11188,73 +11062,67 @@
   {
     "source": "eleanor_roosevelt",
     "target": "civil_rights_movement",
-    "type": "SUPPORTED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "cesar_chavez",
     "target": "labor_unions_history",
-    "type": "BUILT",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "dolores_huerta",
     "target": "labor_unions_history",
-    "type": "BUILT",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "desmond_tutu",
     "target": "south_africa_truth_reconciliation",
-    "type": "LED",
+    "type": "CAUSED",
     "weight": 3
   },
   {
     "source": "desmond_tutu",
     "target": "apartheid_south_africa",
-    "type": "OPPOSED",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "ada_1990",
     "target": "civil_rights_movement",
-    "type": "PRODUCED_BY",
+    "type": "PRODUCED",
     "weight": 2
   },
   {
     "source": "nuclear_test_ban_treaty",
     "target": "cuban_missile_crisis",
-    "type": "PRODUCED_BY",
+    "type": "PRODUCED",
     "weight": 3
-  },
-  {
-    "source": "nuclear_test_ban_treaty",
-    "target": "cold_war_origins",
-    "type": "RESPONDED_TO",
-    "weight": 2
   },
   {
     "source": "camp_david_accords",
     "target": "suez_crisis",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "montreal_protocol",
     "target": "climate_crisis_escalation",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "marriage_equality_us",
     "target": "stonewall",
-    "type": "PRODUCED_BY",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "india_independence",
     "target": "decolonization_wave",
-    "type": "INSPIRED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -11266,7 +11134,7 @@
   {
     "source": "green_revolution",
     "target": "global_poverty_reduction",
-    "type": "CONTRIBUTED_TO",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -11278,43 +11146,43 @@
   {
     "source": "science_method_emergence",
     "target": "scientific_revolution",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "phoenicia",
     "target": "carthage",
-    "type": "FOUNDED",
+    "type": "CAUSED",
     "weight": 3
   },
   {
     "source": "phoenicia",
     "target": "ancient_egypt",
-    "type": "TRADED_WITH",
+    "type": "EXPLOITED",
     "weight": 2
   },
   {
     "source": "phoenicia",
     "target": "ancient_sumer",
-    "type": "TRADED_WITH",
+    "type": "EXPLOITED",
     "weight": 2
   },
   {
     "source": "phoenicia",
     "target": "greek_city_states",
-    "type": "INFLUENCED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "phoenicia",
     "target": "roman_republic",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "bronze_age_collapse",
     "target": "phoenicia",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -11326,19 +11194,19 @@
   {
     "source": "punic_wars",
     "target": "roman_republic",
-    "type": "TRANSFORMED",
+    "type": "CAUSED",
     "weight": 3
   },
   {
     "source": "punic_wars",
     "target": "roman_empire",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "punic_wars",
     "target": "carthage",
-    "type": "ENDED",
+    "type": "CAUSED",
     "weight": 3
   },
   {
@@ -11350,97 +11218,73 @@
   {
     "source": "roman_fall",
     "target": "byzantine_empire",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "byzantine_empire",
     "target": "ottoman_empire",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "byzantine_empire",
     "target": "ottoman_empire_rise",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "byzantine_empire",
     "target": "fall_of_constantinople",
-    "type": "ENDED_BY",
+    "type": "CAUSED",
     "weight": 3
   },
   {
     "source": "byzantine_empire",
     "target": "crusades",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 3
-  },
-  {
-    "source": "byzantine_empire",
-    "target": "islamic_golden_age",
-    "type": "COMPETED_WITH",
-    "weight": 2
   },
   {
     "source": "byzantine_empire",
     "target": "renaissance",
-    "type": "CONTRIBUTED_TO",
-    "weight": 3
-  },
-  {
-    "source": "sassanid_empire",
-    "target": "byzantine_empire",
-    "type": "COMPETED_WITH",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "sassanid_empire",
     "target": "rise_of_islam",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "sassanid_empire",
     "target": "silk_road",
-    "type": "CONTROLLED",
+    "type": "EXPLOITED",
     "weight": 2
   },
   {
     "source": "persian_achaemenid_empire",
     "target": "sassanid_empire",
-    "type": "CULTURALLY_PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "umayyad_caliphate",
-    "target": "abbasid_caliphate",
-    "type": "PRECEDED",
-    "weight": 3
-  },
-  {
-    "source": "umayyad_caliphate",
     "target": "rise_of_islam",
-    "type": "PART_OF",
-    "weight": 3
-  },
-  {
-    "source": "umayyad_caliphate",
-    "target": "byzantine_empire",
-    "type": "COMPETED_WITH",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "abbasid_caliphate",
     "target": "silk_road",
-    "type": "CONTROLLED",
+    "type": "EXPLOITED",
     "weight": 2
   },
   {
     "source": "abbasid_caliphate",
     "target": "gupta_empire",
-    "type": "TRANSMITTED_KNOWLEDGE_FROM",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -11458,109 +11302,103 @@
   {
     "source": "abbasid_caliphate",
     "target": "crusades",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
-  },
-  {
-    "source": "maurya_empire",
-    "target": "gupta_empire",
-    "type": "PRECEDED",
-    "weight": 3
   },
   {
     "source": "gupta_empire",
     "target": "silk_road",
-    "type": "PART_OF",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "gupta_empire",
     "target": "islamic_golden_age",
-    "type": "CONTRIBUTED_TO",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "gupta_empire",
     "target": "tang_dynasty",
-    "type": "TRADED_WITH",
+    "type": "EXPLOITED",
     "weight": 2
   },
   {
     "source": "viking_age",
     "target": "feudalism",
-    "type": "INTENSIFIED",
+    "type": "ACCELERATED",
     "weight": 3
   },
   {
     "source": "viking_age",
     "target": "charlemagne",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "viking_age",
     "target": "norman_conquest",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "fall_of_rome",
     "target": "viking_age",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "charlemagne",
     "target": "feudalism",
-    "type": "INSTITUTIONALIZED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "charlemagne",
     "target": "crusades",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "charlemagne",
     "target": "norman_conquest",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "fall_of_rome",
     "target": "charlemagne",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "norman_conquest",
     "target": "feudalism",
-    "type": "SPREAD",
+    "type": "CAUSED",
     "weight": 3
   },
   {
     "source": "norman_conquest",
     "target": "magna_carta",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "black_death_europe",
     "target": "feudalism",
-    "type": "DISRUPTED",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "black_death_europe",
     "target": "renaissance",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "black_death_europe",
     "target": "protestant_reformation",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -11572,37 +11410,31 @@
   {
     "source": "silk_road",
     "target": "black_death_europe",
-    "type": "SPREAD",
-    "weight": 3
-  },
-  {
-    "source": "black_death",
-    "target": "black_death_europe",
-    "type": "SAME_EVENT",
+    "type": "CAUSED",
     "weight": 3
   },
   {
     "source": "feudalism",
     "target": "hundred_years_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "hundred_years_war",
     "target": "printing_press",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "hundred_years_war",
     "target": "renaissance",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "printing_press",
     "target": "renaissance",
-    "type": "AMPLIFIED",
+    "type": "ACCELERATED",
     "weight": 3
   },
   {
@@ -11610,12 +11442,6 @@
     "target": "scientific_revolution",
     "type": "CAUSED",
     "weight": 3
-  },
-  {
-    "source": "renaissance",
-    "target": "protestant_reformation",
-    "type": "CONTEXT_FOR",
-    "weight": 2
   },
   {
     "source": "renaissance",
@@ -11632,55 +11458,25 @@
   {
     "source": "timbuktu_scholarship",
     "target": "islamic_golden_age",
-    "type": "PART_OF",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "swahili_coast",
     "target": "gupta_empire",
-    "type": "TRADED_WITH",
-    "weight": 2
-  },
-  {
-    "source": "swahili_coast",
-    "target": "silk_road",
-    "type": "CONNECTED_TO",
+    "type": "EXPLOITED",
     "weight": 2
   },
   {
     "source": "swahili_coast",
     "target": "abbasid_caliphate",
-    "type": "TRADED_WITH",
+    "type": "EXPLOITED",
     "weight": 2
   },
   {
     "source": "great_zimbabwe",
     "target": "swahili_coast",
-    "type": "TRADED_WITH",
-    "weight": 2
-  },
-  {
-    "source": "mali_empire",
-    "target": "swahili_coast",
-    "type": "CONTEMPORARY_WITH",
-    "weight": 1
-  },
-  {
-    "source": "silk_road",
-    "target": "gupta_empire",
-    "type": "CONNECTED",
-    "weight": 2
-  },
-  {
-    "source": "silk_road",
-    "target": "byzantine_empire",
-    "type": "CONNECTED",
-    "weight": 2
-  },
-  {
-    "source": "silk_road",
-    "target": "sassanid_empire",
-    "type": "CONNECTED",
+    "type": "EXPLOITED",
     "weight": 2
   },
   {
@@ -11692,67 +11488,55 @@
   {
     "source": "silk_road",
     "target": "ming_dynasty",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "han_dynasty",
     "target": "silk_road",
-    "type": "ESTABLISHED",
+    "type": "CAUSED",
     "weight": 3
   },
   {
     "source": "tang_dynasty",
     "target": "abbasid_caliphate",
-    "type": "TRADED_WITH",
+    "type": "EXPLOITED",
     "weight": 2
   },
   {
     "source": "tang_dynasty",
     "target": "silk_road",
-    "type": "CONTROLLED",
+    "type": "EXPLOITED",
     "weight": 2
   },
   {
     "source": "song_dynasty",
     "target": "mongol_conquests",
-    "type": "CONQUERED_BY",
+    "type": "COLONIZED",
     "weight": 3
   },
   {
     "source": "song_dynasty",
     "target": "silk_road",
-    "type": "EXPANDED",
+    "type": "CAUSED",
     "weight": 2
   },
   {
     "source": "aztec_empire",
-    "target": "inca_empire",
-    "type": "CONTEMPORARY_WITH",
-    "weight": 1
-  },
-  {
-    "source": "aztec_empire",
     "target": "maya_civilization",
-    "type": "SUCCEEDED",
+    "type": "CAUSED",
     "weight": 2
   },
   {
     "source": "athenian_democracy",
     "target": "alexander_conquests",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
-  },
-  {
-    "source": "greek_city_states",
-    "target": "persian_achaemenid_empire",
-    "type": "COMPETED_WITH",
-    "weight": 3
   },
   {
     "source": "persian_achaemenid_empire",
     "target": "silk_road",
-    "type": "CONTROLLED",
+    "type": "EXPLOITED",
     "weight": 2
   },
   {

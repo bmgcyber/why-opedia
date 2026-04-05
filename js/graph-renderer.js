@@ -29,11 +29,12 @@ const CATEGORY_COLOR = {
 const EDGE_COLOR = {
   CAUSED:               '#e05252',
   ENABLED:              '#e09752',
+  ACCELERATED:          '#f6c90e',  // amber — speeds up existing trends
+  UNDERMINED:           '#7c6b9e',  // muted purple — weakening/destabilizing
   SHARES_MECHANISM_WITH:'#5b8dee',
   SELF_REINFORCES:      '#a96ce6',
   EXPLOITED:            '#e07b52',
   NORMALIZED:           '#48bb78',
-  REACTIVATED:          '#f6c90e',
   PROVIDED_COVER_FOR:   '#4ec9c9',
   PRODUCED:             '#8dd4a8',
   DISCREDITED:          '#8c8fa8',

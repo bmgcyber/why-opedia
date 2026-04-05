@@ -17009,15 +17009,6 @@
     "confidence": "high"
   },
   {
-    "id": "pain_management_movement__purdue_pharma_oxycontin",
-    "source": "pain_management_movement",
-    "target": "purdue_pharma_oxycontin",
-    "type": "ENABLED",
-    "label": "pain management movement was captured by opioid manufacturers to expand markets",
-    "note": "The legitimate pain management movement — advocating for undertreatment of chronic pain — was systematically captured by Purdue Pharma and other opioid manufacturers, who funded pain advocacy organizations and medical education that promoted opioid prescribing as underused best practice.",
-    "confidence": "high"
-  },
-  {
     "id": "mental_health_stigma__collective_trauma",
     "source": "mental_health_stigma",
     "target": "collective_trauma",
@@ -20654,31 +20645,31 @@
   {
     "source": "proxy_war",
     "target": "cold_war_origins",
-    "type": "PART_OF",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "proxy_war",
     "target": "korean_war",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "proxy_war",
     "target": "vietnam_war",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "proxy_war",
     "target": "cuban_revolution",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "proxy_war",
     "target": "algerian_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
@@ -20696,109 +20687,97 @@
   {
     "source": "imperialism",
     "target": "proxy_war",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "authoritarian_control",
     "target": "proxy_war",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "realpolitik",
     "target": "proxy_war",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "red_scare",
     "target": "mccarthy_era",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "red_scare",
     "target": "cold_war_origins",
-    "type": "PART_OF",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "red_scare",
     "target": "civil_rights_movement",
-    "type": "SUPPRESSED",
+    "type": "UNDERMINED",
     "weight": 2
   },
   {
     "source": "moral_panic",
     "target": "red_scare",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "propaganda",
     "target": "red_scare",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "scapegoating",
     "target": "red_scare",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "red_scare",
     "target": "disinformation",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "civil_disobedience",
     "target": "civil_rights_movement",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "civil_disobedience",
     "target": "montgomery_bus_boycott",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "civil_disobedience",
     "target": "march_on_washington",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "civil_disobedience",
     "target": "algerian_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "civil_disobedience",
     "target": "apartheid_south_africa",
-    "type": "COUNTERED",
+    "type": "UNDERMINED",
     "weight": 2
   },
   {
     "source": "nonviolent_resistance",
     "target": "civil_disobedience",
-    "type": "INCLUDES",
-    "weight": 3
-  },
-  {
-    "source": "proxy_war",
-    "target": "korean_war",
-    "type": "EXPLAINS",
-    "weight": 3
-  },
-  {
-    "source": "proxy_war",
-    "target": "vietnam_war",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -20840,37 +20819,37 @@
   {
     "source": "imperialism",
     "target": "iranian_coup_1953",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "imperialism",
     "target": "guatemalan_coup_1954",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "imperialism",
     "target": "suez_crisis",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "totalitarianism",
     "target": "prague_spring",
-    "type": "SUPPRESSED",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "totalitarianism",
     "target": "hungarian_revolution_1956",
-    "type": "SUPPRESSED",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "big_lie",
     "target": "mccarthy_era",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -20888,121 +20867,103 @@
   {
     "source": "neoliberalism",
     "target": "reagan_era",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "neoliberalism",
     "target": "thatcher_era",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "neoliberalism",
     "target": "chile_coup_1973",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "neoliberalism",
     "target": "ussr_collapse",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "neoliberalism",
     "target": "wealth_concentration",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "neoliberalism",
     "target": "regulatory_capture",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "neoliberalism",
     "target": "extractive_institutions",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "neoliberalism",
     "target": "labor_unions_history",
-    "type": "DISMANTLED",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "elite_capture",
     "target": "neoliberalism",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "dark_money",
     "target": "neoliberalism",
-    "type": "PROMOTED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "manufactured_consent",
     "target": "neoliberalism",
-    "type": "PROMOTED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "democratic_backsliding",
     "target": "tiananmen_square",
-    "type": "EXPLAINS",
-    "weight": 2
-  },
-  {
-    "source": "democratic_backsliding",
-    "target": "nixon_watergate",
-    "type": "RELATED_TO",
-    "weight": 2
-  },
-  {
-    "source": "democratic_backsliding",
-    "target": "iran_contra_affair",
-    "type": "RELATED_TO",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "authoritarian_control",
     "target": "democratic_backsliding",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "corruption",
     "target": "democratic_backsliding",
-    "type": "ENABLES",
-    "weight": 3
-  },
-  {
-    "source": "emergency_powers_abuse",
-    "target": "democratic_backsliding",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "propaganda",
     "target": "democratic_backsliding",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "democratic_accountability",
     "target": "democratic_backsliding",
-    "type": "COUNTERS",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "institutional_resilience",
     "target": "democratic_backsliding",
-    "type": "COUNTERS",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
@@ -21020,43 +20981,43 @@
   {
     "source": "state_collapse",
     "target": "yugoslavia_breakup",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "state_collapse",
     "target": "soviet_afghan_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "proxy_war",
     "target": "state_collapse",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "corruption",
     "target": "state_collapse",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "structural_violence",
     "target": "state_collapse",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 2
   },
   {
     "source": "ethnic_cleansing",
     "target": "state_collapse",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 2
   },
   {
     "source": "imperialism",
     "target": "state_collapse",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 2
   },
   {
@@ -21098,13 +21059,13 @@
   {
     "source": "civil_disobedience",
     "target": "solidarity_movement_poland",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "nonviolent_resistance",
     "target": "solidarity_movement_poland",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -21134,7 +21095,7 @@
   {
     "source": "whistleblowing",
     "target": "nixon_watergate",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -21146,13 +21107,13 @@
   {
     "source": "surveillance_state",
     "target": "patriot_act",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "surveillance_state",
     "target": "snowden_revelations",
-    "type": "REVEALED_BY",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
@@ -21170,43 +21131,37 @@
   {
     "source": "surveillance_state",
     "target": "civil_disobedience",
-    "type": "SUPPRESSES",
+    "type": "UNDERMINED",
     "weight": 2
   },
   {
     "source": "totalitarianism",
     "target": "surveillance_state",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "surveillance_state",
     "target": "broken_epistemology",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 2
   },
   {
     "source": "surveillance_state",
     "target": "echo_chamber",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 2
-  },
-  {
-    "source": "whistleblowing",
-    "target": "surveillance_state",
-    "type": "EXPOSES",
-    "weight": 3
   },
   {
     "source": "war_on_terror",
     "target": "afghanistan_war_2001",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "war_on_terror",
     "target": "iraq_war_2003",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -21224,13 +21179,13 @@
   {
     "source": "september_11",
     "target": "war_on_terror",
-    "type": "TRIGGERED",
+    "type": "CAUSED",
     "weight": 3
   },
   {
     "source": "scapegoating",
     "target": "war_on_terror",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -21260,25 +21215,25 @@
   {
     "source": "financial_contagion",
     "target": "financial_crisis_1997",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "financial_contagion",
     "target": "great_recession_2008",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "neoliberalism",
     "target": "financial_contagion",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "regulatory_capture",
     "target": "financial_contagion",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -21290,19 +21245,19 @@
   {
     "source": "wealth_concentration",
     "target": "financial_contagion",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "financial_contagion",
     "target": "arab_spring",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "financial_contagion",
     "target": "austerity",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
@@ -21314,7 +21269,7 @@
   {
     "source": "proxy_war",
     "target": "afghanistan_war_2001",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -21332,25 +21287,25 @@
   {
     "source": "emergency_powers_abuse",
     "target": "patriot_act",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "emergency_powers_abuse",
     "target": "war_on_terror",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "platform_capitalism",
     "target": "social_media_revolution",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "platform_capitalism",
     "target": "tech_monopoly_era",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -21368,26 +21323,20 @@
   {
     "source": "platform_capitalism",
     "target": "disinformation",
-    "type": "AMPLIFIES",
+    "type": "ACCELERATED",
     "weight": 3
   },
   {
     "source": "platform_capitalism",
     "target": "echo_chamber",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "platform_capitalism",
     "target": "polarization",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
-  },
-  {
-    "source": "surveillance_state",
-    "target": "platform_capitalism",
-    "type": "PARALLELS",
-    "weight": 2
   },
   {
     "source": "neoliberalism",
@@ -21404,19 +21353,19 @@
   {
     "source": "wealth_concentration",
     "target": "platform_capitalism",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "right_wing_populism",
     "target": "trump_election_2016",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "right_wing_populism",
     "target": "brexit",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -21428,55 +21377,55 @@
   {
     "source": "right_wing_populism",
     "target": "ukraine_full_invasion",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "right_wing_populism",
     "target": "democratic_backsliding",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "right_wing_populism",
     "target": "polarization",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "scapegoating",
     "target": "right_wing_populism",
-    "type": "CORE_OF",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "dehumanization",
     "target": "right_wing_populism",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "propaganda",
     "target": "right_wing_populism",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "disinformation",
     "target": "right_wing_populism",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "manufactured_consent",
     "target": "right_wing_populism",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "in_group_out_group_dynamics",
     "target": "right_wing_populism",
-    "type": "CORE_OF",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -21500,37 +21449,37 @@
   {
     "source": "climate_denial",
     "target": "paris_climate_accord",
-    "type": "WEAKENED",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "manufactured_doubt",
     "target": "climate_denial",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "regulatory_capture",
     "target": "climate_denial",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "dark_money",
     "target": "climate_denial",
-    "type": "FUNDS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "elite_capture",
     "target": "climate_denial",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "disinformation",
     "target": "climate_denial",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -21542,55 +21491,49 @@
   {
     "source": "polarization",
     "target": "covid_pandemic",
-    "type": "WORSENED",
+    "type": "ACCELERATED",
     "weight": 3
   },
   {
     "source": "polarization",
     "target": "democratic_backsliding",
-    "type": "ENABLES",
-    "weight": 3
-  },
-  {
-    "source": "platform_capitalism",
-    "target": "polarization",
-    "type": "PRODUCES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "echo_chamber",
     "target": "polarization",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "disinformation",
     "target": "polarization",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "broken_epistemology",
     "target": "polarization",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "in_group_out_group_dynamics",
     "target": "polarization",
-    "type": "DRIVES",
+    "type": "CAUSED",
     "weight": 3
   },
   {
     "source": "civil_disobedience",
     "target": "extinction_rebellion",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "civil_disobedience",
     "target": "george_floyd_killing",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -21608,175 +21551,163 @@
   {
     "source": "resource_curse",
     "target": "old_kingdom_egypt",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "resource_curse",
     "target": "iranian_coup_1953",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "resource_curse",
     "target": "opec_oil_embargo_1973",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "resource_curse",
     "target": "soviet_afghan_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "resource_curse",
     "target": "iraq_war_2003",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "extractive_institutions",
     "target": "resource_curse",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "elite_capture",
     "target": "resource_curse",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "corruption",
     "target": "resource_curse",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "colonialism",
     "target": "resource_curse",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "class_struggle",
     "target": "agricultural_revolution",
-    "type": "EMERGES_FROM",
+    "type": "CAUSED",
     "weight": 2
   },
   {
     "source": "class_struggle",
     "target": "feudalism",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "class_struggle",
     "target": "black_death",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "class_struggle",
     "target": "french_revolution",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "class_struggle",
     "target": "labor_unions_history",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "class_struggle",
     "target": "great_depression",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "class_struggle",
     "target": "occupy_wall_street",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "class_consciousness",
     "target": "class_struggle",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "structural_violence",
     "target": "class_struggle",
-    "type": "PRODUCES",
-    "weight": 3
-  },
-  {
-    "source": "divine_kingship",
-    "target": "old_kingdom_egypt",
-    "type": "EXPLAINS",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "divine_kingship",
     "target": "first_cities",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "divine_kingship",
     "target": "roman_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "tribute_system",
     "target": "persian_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "tribute_system",
     "target": "mongol_conquests",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
-  },
-  {
-    "source": "tribute_system",
-    "target": "roman_empire",
-    "type": "EXPLAINS",
-    "weight": 3
   },
   {
     "source": "priestly_class",
     "target": "old_kingdom_egypt",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "priestly_class",
     "target": "crusades",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "priestly_class",
     "target": "protestant_reformation",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "literacy_as_power",
     "target": "cuneiform_writing",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "literacy_as_power",
     "target": "printing_press",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -21788,55 +21719,49 @@
   {
     "source": "land_enclosure",
     "target": "feudalism",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "land_enclosure",
     "target": "black_death",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "imperial_overextension",
     "target": "roman_fall",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "imperial_overextension",
     "target": "mongol_conquests",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "debt_bondage",
     "target": "feudalism",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "debt_bondage",
     "target": "hammurabi_code",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "ethnic_deportation",
     "target": "mongol_conquests",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "propaganda_state_religion",
-    "target": "crusades",
-    "type": "EXPLAINS",
-    "weight": 3
-  },
-  {
-    "source": "propaganda_state_religion",
     "target": "roman_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -21854,97 +21779,85 @@
   {
     "source": "inquisition_mechanism",
     "target": "protestant_reformation",
-    "type": "CONTEXT_FOR",
-    "weight": 3
-  },
-  {
-    "source": "inquisition_mechanism",
-    "target": "crusades",
-    "type": "RELATED_TO",
-    "weight": 2
-  },
-  {
-    "source": "religious_schism",
-    "target": "protestant_reformation",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "religious_schism",
     "target": "crusades",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "currency_debasement",
     "target": "roman_fall",
-    "type": "CONTRIBUTED_TO",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "settler_colonialism",
     "target": "spanish_conquest_americas",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "settler_colonialism",
     "target": "transatlantic_slave_trade",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "settler_colonialism",
     "target": "american_revolution",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "settler_colonialism",
     "target": "us_civil_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "settler_colonialism",
     "target": "berlin_conference_1884",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "settler_colonialism",
     "target": "apartheid_south_africa",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "colonialism",
     "target": "settler_colonialism",
-    "type": "INCLUDES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "dehumanization",
     "target": "settler_colonialism",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "ethnic_cleansing",
     "target": "settler_colonialism",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "structural_violence",
     "target": "settler_colonialism",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "chattel_slavery",
     "target": "transatlantic_slave_trade",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -21974,7 +21887,7 @@
   {
     "source": "chattel_slavery",
     "target": "reconstruction_failure",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -21986,7 +21899,7 @@
   {
     "source": "chattel_slavery",
     "target": "racial_capitalism",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -21998,7 +21911,7 @@
   {
     "source": "structural_violence",
     "target": "chattel_slavery",
-    "type": "INCLUDES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -22010,13 +21923,13 @@
   {
     "source": "colonialism",
     "target": "british_raj",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "colonialism",
     "target": "berlin_conference_1884",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -22028,37 +21941,31 @@
   {
     "source": "imperialism",
     "target": "age_of_exploration",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "imperialism",
     "target": "dutch_east_india_company",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "empire_by_charter",
     "target": "dutch_east_india_company",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "empire_by_charter",
     "target": "british_raj",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "revolutionary_terror",
-    "target": "french_revolution",
-    "type": "EXPLAINS",
-    "weight": 3
-  },
-  {
-    "source": "revolutionary_terror",
     "target": "haitian_revolution",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -22082,37 +21989,37 @@
   {
     "source": "propaganda_state_religion",
     "target": "thirty_years_war",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "scapegoating",
     "target": "thirty_years_war",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "class_struggle",
     "target": "industrial_revolution",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "class_struggle",
     "target": "haitian_revolution",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "nonviolent_resistance",
     "target": "abolition_movement",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "coalition_building",
     "target": "abolition_movement",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -22130,85 +22037,85 @@
   {
     "source": "social_movement",
     "target": "abolition_movement",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "womens_suffrage_movement",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "progressive_era",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "civil_rights_movement",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "occupy_wall_street",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "black_lives_matter",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "solidarity_movement_poland",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "extinction_rebellion",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "metoo_movement",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "seattle_wto_protests",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "coalition_building",
     "target": "social_movement",
-    "type": "CORE_OF",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "civil_disobedience",
     "target": "social_movement",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "nonviolent_resistance",
     "target": "social_movement",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "class_struggle",
     "target": "social_movement",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
@@ -22220,7 +22127,7 @@
   {
     "source": "pseudo_science",
     "target": "social_darwinism",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -22238,91 +22145,91 @@
   {
     "source": "pseudo_science",
     "target": "climate_denial",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "pseudo_science",
     "target": "manufactured_doubt",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "pseudo_science",
     "target": "broken_epistemology",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "in_group_out_group_dynamics",
     "target": "pseudo_science",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 2
   },
   {
     "source": "propaganda",
     "target": "pseudo_science",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "dehumanization",
     "target": "pseudo_science",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "class_struggle",
     "target": "revolutions_1848",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "class_struggle",
     "target": "paris_commune",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "class_struggle",
     "target": "communist_manifesto",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "class_struggle",
     "target": "gilded_age",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "ethnic_cleansing",
     "target": "herero_genocide",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "genocide",
     "target": "herero_genocide",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "structural_violence",
     "target": "jim_crow",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "systemic_racism",
     "target": "jim_crow",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "imperialism",
     "target": "spanish_american_war",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -22340,13 +22247,13 @@
   {
     "source": "nationalism_mechanism",
     "target": "revolutions_1848",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "propaganda",
     "target": "social_darwinism",
-    "type": "SPREAD",
+    "type": "CAUSED",
     "weight": 3
   },
   {
@@ -22358,139 +22265,133 @@
   {
     "source": "knowledge_suppression",
     "target": "great_zimbabwe",
-    "type": "APPLIED_TO",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "knowledge_suppression",
     "target": "mali_empire",
-    "type": "APPLIED_TO",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "knowledge_suppression",
     "target": "islamic_golden_age",
-    "type": "APPLIED_TO",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "knowledge_suppression",
     "target": "aztec_empire",
-    "type": "APPLIED_TO",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "knowledge_suppression",
     "target": "inca_empire",
-    "type": "APPLIED_TO",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "colonialism",
     "target": "knowledge_suppression",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "settler_colonialism",
     "target": "knowledge_suppression",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "literacy_as_power",
     "target": "knowledge_suppression",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "propaganda",
     "target": "knowledge_suppression",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "broken_epistemology",
     "target": "knowledge_suppression",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 2
   },
   {
     "source": "pseudo_science",
     "target": "knowledge_suppression",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "imperialism",
     "target": "ottoman_empire_rise",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "imperialism",
     "target": "japanese_meiji_imperialism",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "imperialism",
     "target": "chinese_exclusion_act",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "tribute_system",
-    "target": "aztec_empire",
-    "type": "EXPLAINS",
-    "weight": 3
-  },
-  {
-    "source": "tribute_system",
     "target": "inca_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "tribute_system",
     "target": "mali_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "divine_kingship",
     "target": "aztec_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "divine_kingship",
     "target": "ottoman_empire_rise",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "divine_kingship",
     "target": "mughal_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "propaganda_state_religion",
     "target": "rise_of_islam",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "propaganda_state_religion",
     "target": "crusades_islamic_perspective",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "nationalism_mechanism",
     "target": "ethiopian_victory_adwa",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -22502,55 +22403,55 @@
   {
     "source": "scapegoating",
     "target": "chinese_exclusion_act",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "in_group_out_group_dynamics",
     "target": "chinese_exclusion_act",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "systemic_racism",
     "target": "chinese_exclusion_act",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "structural_violence",
     "target": "aztec_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "extractive_institutions",
     "target": "aztec_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "extractive_institutions",
     "target": "mughal_empire",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "neoliberalism",
     "target": "austerity_economics",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "neoliberalism",
     "target": "financialization",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "neoliberalism",
     "target": "gig_economy",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -22562,13 +22463,13 @@
   {
     "source": "financial_contagion",
     "target": "subprime_mortgage_crisis",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "financial_contagion",
     "target": "austerity_economics",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -22586,211 +22487,205 @@
   {
     "source": "wealth_concentration",
     "target": "wealth_gap_expansion",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "wealth_concentration",
     "target": "financialization",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "dark_money",
     "target": "washington_consensus",
-    "type": "PROMOTED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "extractive_institutions",
     "target": "washington_consensus",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "class_struggle",
     "target": "deindustrialization",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "class_struggle",
     "target": "stagflation_1970s",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "structural_violence",
     "target": "austerity_economics",
-    "type": "PRODUCES",
-    "weight": 3
-  },
-  {
-    "source": "technological_displacement",
-    "target": "gig_economy",
-    "type": "EXPLAINS",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "technological_displacement",
     "target": "deindustrialization",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "propaganda_bernays",
     "target": "manufactured_consent",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "propaganda_bernays",
     "target": "propaganda",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "milgram_experiment",
     "target": "moral_disengagement",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "milgram_experiment",
     "target": "bystander_effect",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "zimbardo_prison_experiment",
     "target": "moral_disengagement",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "asch_conformity",
     "target": "in_group_out_group_dynamics",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_identity_theory",
     "target": "in_group_out_group_dynamics",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_identity_theory",
     "target": "scapegoating",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_identity_theory",
     "target": "polarization",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "fundamental_attribution_error",
     "target": "victim_blaming",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "fundamental_attribution_error",
     "target": "scapegoating",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "authoritarian_personality",
     "target": "authoritarian_control",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "authoritarian_personality",
     "target": "right_wing_populism",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "learned_helplessness",
     "target": "structural_violence",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "cognitive_dissonance",
     "target": "milgram_experiment",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "identity_capture",
     "target": "social_identity_theory",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "moral_foundations_theory",
     "target": "polarization",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "manufactured_consent",
     "target": "yellow_journalism",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "manufactured_consent",
     "target": "fox_news_founding",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "manufactured_consent",
     "target": "news_media_consolidation",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "propaganda",
     "target": "radio_era",
-    "type": "USED",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "propaganda",
     "target": "yellow_journalism",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "disinformation",
     "target": "cambridge_analytica",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "echo_chamber",
     "target": "social_media_era",
-    "type": "PRODUCED_BY",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "echo_chamber",
     "target": "fox_news_founding",
-    "type": "PRODUCED_BY",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "platform_capitalism",
     "target": "social_media_era",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -22800,27 +22695,21 @@
     "weight": 3
   },
   {
-    "source": "surveillance_state",
-    "target": "cambridge_analytica",
-    "type": "PARALLELS",
-    "weight": 2
-  },
-  {
     "source": "media_as_colonial_tool",
     "target": "yellow_journalism",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "broken_epistemology",
     "target": "social_media_era",
-    "type": "PRODUCED_BY",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "regulatory_capture",
     "target": "pharmaceutical_industry_power",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -22832,85 +22721,85 @@
   {
     "source": "neoliberalism",
     "target": "healthcare_commodification",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "structural_violence",
     "target": "tuskegee_study",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "systemic_racism",
     "target": "tuskegee_study",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "health_disparities",
     "target": "tuskegee_study",
-    "type": "PRODUCED_BY",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "health_disparities",
     "target": "covid_pandemic",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "health_disparities",
     "target": "opioid_crisis",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "manufactured_doubt",
     "target": "pharmaceutical_industry_power",
-    "type": "USED_BY",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "dark_money",
     "target": "pharmaceutical_industry_power",
-    "type": "FUNDS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "dark_money",
     "target": "healthcare_commodification",
-    "type": "FUNDS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "climate_denial",
     "target": "climate_health_impacts",
-    "type": "WORSENED",
+    "type": "ACCELERATED",
     "weight": 3
   },
   {
     "source": "cognitive_dissonance",
     "target": "covid_vaccine_development",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "propaganda",
     "target": "wartime_propaganda_art",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "propaganda",
     "target": "degenerate_art_nazi",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "propaganda",
     "target": "socialist_realism_ussr",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -22928,13 +22817,13 @@
   {
     "source": "knowledge_suppression",
     "target": "degenerate_art_nazi",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "knowledge_suppression",
     "target": "socialist_realism_ussr",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -22946,31 +22835,31 @@
   {
     "source": "social_movement",
     "target": "hip_hop_emergence",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "empathy",
     "target": "protest_literature",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "empathy",
     "target": "social_realism_art",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "empathy",
     "target": "climate_art",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "moral_courage",
     "target": "protest_literature",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -22994,25 +22883,25 @@
   {
     "source": "democratic_accountability",
     "target": "international_criminal_court",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "truth_and_reconciliation",
     "target": "south_africa_truth_reconciliation",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "democratic_backsliding",
     "target": "voter_suppression",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "democratic_backsliding",
     "target": "gerrymandering",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -23024,133 +22913,127 @@
   {
     "source": "democratic_backsliding",
     "target": "citizens_united",
-    "type": "ENABLED_BY",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "right_wing_populism",
     "target": "trump_maga",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "right_wing_populism",
     "target": "tea_party_movement",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "right_wing_populism",
     "target": "white_supremacy_movement",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "neoliberalism",
     "target": "new_deal",
-    "type": "DISMANTLES",
+    "type": "UNDERMINED",
     "weight": 2
   },
   {
     "source": "neoliberalism",
     "target": "welfare_state",
-    "type": "DISMANTLES",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "regulatory_capture",
     "target": "dark_money_politics",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "regulatory_capture",
     "target": "citizens_united",
-    "type": "EXPLAINS",
-    "weight": 3
-  },
-  {
-    "source": "dark_money",
-    "target": "dark_money_politics",
-    "type": "SAME_AS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "surveillance_state",
     "target": "patriot_act_surveillance",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "surveillance_state",
     "target": "central_intelligence_agency",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "proxy_war",
     "target": "cold_war_proxy_wars",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "civil_disobedience",
     "target": "civil_disobedience_thoreau",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "nonviolent_resistance",
     "target": "mahatma_gandhi",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "nonviolent_resistance",
     "target": "velvet_revolutions",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "institutional_resilience",
     "target": "separation_of_powers",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "institutional_resilience",
     "target": "civil_society",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "whistleblowing",
     "target": "pentagon_papers",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "whistleblowing",
     "target": "church_committee",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "colonialism",
     "target": "banana_republic",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "imperialism",
     "target": "banana_republic",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "class_struggle",
     "target": "labor_movement",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -23162,91 +23045,91 @@
   {
     "source": "social_movement",
     "target": "labor_movement",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "lgbtq_rights_movement",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "second_wave_feminism",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "disability_rights",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "environmental_justice",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "indigenous_rights",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "economic_sanctions",
     "target": "iran_contra",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "economic_sanctions",
     "target": "iraq_war_2003",
-    "type": "PRECEDED",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "economic_sanctions",
     "target": "apartheid_south_africa",
-    "type": "COUNTERED",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "economic_sanctions",
     "target": "ukraine_full_invasion",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "imperialism",
     "target": "economic_sanctions",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "realpolitik",
     "target": "economic_sanctions",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "media_framing",
     "target": "yellow_journalism",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "media_framing",
     "target": "fox_news_founding",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "media_framing",
     "target": "vietnam_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -23258,7 +23141,7 @@
   {
     "source": "media_framing",
     "target": "civil_rights_movement",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -23270,217 +23153,193 @@
   {
     "source": "manufactured_consent",
     "target": "media_framing",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "propaganda",
     "target": "media_framing",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "disinformation",
     "target": "media_framing",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "media_framing",
     "target": "polarization",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "media_framing",
     "target": "scapegoating",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "election_interference",
     "target": "russia_election_interference",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "election_interference",
-    "target": "iranian_coup_1953",
-    "type": "RELATED_TO",
-    "weight": 2
-  },
-  {
-    "source": "election_interference",
-    "target": "guatemalan_coup_1954",
-    "type": "RELATED_TO",
-    "weight": 2
-  },
-  {
-    "source": "election_interference",
-    "target": "chile_coup_1973",
-    "type": "RELATED_TO",
-    "weight": 2
-  },
-  {
-    "source": "election_interference",
     "target": "cambridge_analytica",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "disinformation",
     "target": "election_interference",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "surveillance_state",
     "target": "election_interference",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "democratic_backsliding",
     "target": "election_interference",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "proxy_war",
     "target": "election_interference",
-    "type": "INCLUDES",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "rent_seeking",
     "target": "dark_money_politics",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "rent_seeking",
     "target": "pharmaceutical_industry_power",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "rent_seeking",
     "target": "financialization",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "rent_seeking",
     "target": "healthcare_commodification",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "rent_seeking",
     "target": "tech_monopoly_era",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "regulatory_capture",
     "target": "rent_seeking",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "elite_capture",
     "target": "rent_seeking",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "rent_seeking",
     "target": "wealth_concentration",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "rent_seeking",
     "target": "austerity_economics",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "political_violence",
     "target": "algerian_war",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "political_violence",
     "target": "rwandan_genocide_event",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "political_violence",
     "target": "january_6_insurrection",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "political_violence",
     "target": "cambodian_genocide",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "political_violence",
     "target": "jim_crow",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "political_violence",
     "target": "civil_rights_movement",
-    "type": "OPPOSED_BY",
+    "type": "UNDERMINED",
     "weight": 2
   },
   {
     "source": "political_violence",
     "target": "apartheid_south_africa",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "state_collapse",
     "target": "political_violence",
-    "type": "PRODUCES",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
     "source": "authoritarian_control",
     "target": "political_violence",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "dehumanization",
     "target": "political_violence",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "scapegoating",
     "target": "political_violence",
-    "type": "ENABLES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "moral_disengagement",
     "target": "political_violence",
-    "type": "ENABLES",
-    "weight": 3
-  },
-  {
-    "source": "nonviolent_resistance",
-    "target": "political_violence",
-    "type": "ALTERNATIVE_TO",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -23510,115 +23369,97 @@
   {
     "source": "scientific_method",
     "target": "climate_denial",
-    "type": "COUNTERED_BY",
-    "weight": 3
-  },
-  {
-    "source": "scientific_method",
-    "target": "manufactured_doubt",
-    "type": "TARGETED_BY",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "scientific_method",
     "target": "pseudo_science",
-    "type": "COUNTERS",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "scientific_method",
     "target": "broken_epistemology",
-    "type": "COUNTERS",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "scientific_method",
     "target": "science_method_emergence",
-    "type": "EXPLAINS",
-    "weight": 3
-  },
-  {
-    "source": "grassroots_organizing",
-    "target": "civil_rights_movement",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "grassroots_organizing",
     "target": "montgomery_bus_boycott",
-    "type": "EXPLAINS",
-    "weight": 3
-  },
-  {
-    "source": "grassroots_organizing",
-    "target": "labor_unions_history",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "grassroots_organizing",
     "target": "cesar_chavez",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "grassroots_organizing",
     "target": "dolores_huerta",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "grassroots_organizing",
     "target": "solidarity_movement_poland",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "grassroots_organizing",
     "target": "black_lives_matter",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "grassroots_organizing",
     "target": "extinction_rebellion",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "social_movement",
     "target": "grassroots_organizing",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "coalition_building",
     "target": "grassroots_organizing",
-    "type": "USES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "nonviolent_resistance",
     "target": "india_independence",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "nonviolent_resistance",
     "target": "good_friday_agreement",
-    "type": "CONTRIBUTED_TO",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "civil_disobedience",
     "target": "india_independence",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "truth_and_reconciliation",
     "target": "good_friday_agreement",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -23642,31 +23483,31 @@
   {
     "source": "coalition_building",
     "target": "ada_1990",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "ada_1990",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "social_movement",
     "target": "marriage_equality_us",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "moral_circle_expansion",
     "target": "ada_1990",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "moral_circle_expansion",
     "target": "marriage_equality_us",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -23678,109 +23519,109 @@
   {
     "source": "knowledge_suppression",
     "target": "carthage",
-    "type": "APPLIED_TO",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "knowledge_suppression",
     "target": "timbuktu_scholarship",
-    "type": "APPLIED_TO",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "literacy_as_power",
     "target": "phoenicia",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "literacy_as_power",
     "target": "timbuktu_scholarship",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "literacy_as_power",
     "target": "renaissance",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "literacy_as_power",
     "target": "abbasid_caliphate",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "tribute_system",
     "target": "byzantine_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "tribute_system",
     "target": "umayyad_caliphate",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "tribute_system",
     "target": "hundred_years_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 1
   },
   {
     "source": "imperial_overextension",
     "target": "byzantine_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "imperial_overextension",
     "target": "sassanid_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "imperial_overextension",
     "target": "umayyad_caliphate",
-    "type": "CONTRIBUTED_TO",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "divine_kingship",
     "target": "byzantine_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "divine_kingship",
     "target": "charlemagne",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "propaganda_state_religion",
     "target": "charlemagne",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "propaganda_state_religion",
     "target": "byzantine_empire",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "propaganda_state_religion",
     "target": "umayyad_caliphate",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "political_violence",
     "target": "viking_age",
-    "type": "EXPLAINS",
+    "type": "ENABLED",
     "weight": 2
   },
   {
@@ -23792,25 +23633,25 @@
   {
     "source": "debt_bondage",
     "target": "black_death_europe",
-    "type": "DISRUPTED_BY",
+    "type": "UNDERMINED",
     "weight": 3
   },
   {
     "source": "class_struggle",
     "target": "black_death_europe",
-    "type": "ACCELERATED_BY",
+    "type": "ACCELERATED",
     "weight": 3
   },
   {
     "source": "class_struggle",
     "target": "hundred_years_war",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "scapegoating",
     "target": "crusades",
-    "type": "USED_IN",
+    "type": "ENABLED",
     "weight": 3
   },
   {
@@ -23828,7 +23669,7 @@
   {
     "source": "scientific_method",
     "target": "gupta_empire",
-    "type": "PRODUCED_BY",
+    "type": "PRODUCED",
     "weight": 3
   },
   {
@@ -23840,7 +23681,7 @@
   {
     "source": "philosophy_as_resistance",
     "target": "byzantine_empire",
-    "type": "PRESERVED_IN",
+    "type": "ENABLED",
     "weight": 3
   },
   {

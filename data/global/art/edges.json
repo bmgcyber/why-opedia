@@ -5,7 +5,7 @@
     "target": "lost_cause_mythology",
     "type": "PRODUCED",
     "label": "film codified and mass-distributed the Lost Cause narrative",
-    "note": "Birth of a Nation was the primary vehicle through which Lost Cause mythology reached mass popular culture \u2014 the first time the Confederate revisionist narrative was encoded in a mass medium.",
+    "note": "Birth of a Nation was the primary vehicle through which Lost Cause mythology reached mass popular culture — the first time the Confederate revisionist narrative was encoded in a mass medium.",
     "confidence": "high"
   },
   {
@@ -23,7 +23,7 @@
     "target": "birth_of_a_nation_1915",
     "type": "ENABLED",
     "label": "minstrel stereotypes provided visual vocabulary for the film",
-    "note": "Birth of a Nation used minstrelsy's established dehumanizing visual codes \u2014 which audiences already accepted as 'comedy' \u2014 to portray Black men as threatening.",
+    "note": "Birth of a Nation used minstrelsy's established dehumanizing visual codes — which audiences already accepted as 'comedy' — to portray Black men as threatening.",
     "confidence": "high"
   },
   {
@@ -59,7 +59,7 @@
     "target": "das_kapital",
     "type": "ENABLED",
     "label": "manifesto provided political frame; Kapital provided economic analysis",
-    "note": "The Communist Manifesto (1848) was Marx and Engels's political call to action; Das Kapital (1867) was the theoretical economic foundation for that call \u2014 the two works are complementary halves.",
+    "note": "The Communist Manifesto (1848) was Marx and Engels's political call to action; Das Kapital (1867) was the theoretical economic foundation for that call — the two works are complementary halves.",
     "confidence": "high"
   },
   {
@@ -86,7 +86,7 @@
     "target": "wretched_of_the_earth",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both articulate the psychology of colonized/oppressed consciousness",
-    "note": "Malcolm X and Fanon both described the internalization of oppression by the oppressed and the process of psychological liberation \u2014 from opposite sides of the Atlantic.",
+    "note": "Malcolm X and Fanon both described the internalization of oppression by the oppressed and the process of psychological liberation — from opposite sides of the Atlantic.",
     "confidence": "high"
   },
   {
@@ -95,7 +95,7 @@
     "target": "autobiography_malcolm_x",
     "type": "ENABLED",
     "label": "Du Bois's double consciousness framework shaped Malcolm's self-analysis",
-    "note": "Du Bois's concept of double consciousness \u2014 living in America while being seen as a problem \u2014 was the intellectual framework Malcolm X engaged with in his autobiography.",
+    "note": "Du Bois's concept of double consciousness — living in America while being seen as a problem — was the intellectual framework Malcolm X engaged with in his autobiography.",
     "confidence": "medium"
   },
   {
@@ -122,7 +122,7 @@
     "target": "hip_hop_culture",
     "type": "ENABLED",
     "label": "Renaissance established tradition of Black cultural innovation as political assertion",
-    "note": "The Harlem Renaissance established the framework \u2014 Black creativity as an assertion of humanity against racist dehumanization \u2014 that hip hop inherited and extended in the 1970s South Bronx.",
+    "note": "The Harlem Renaissance established the framework — Black creativity as an assertion of humanity against racist dehumanization — that hip hop inherited and extended in the 1970s South Bronx.",
     "confidence": "high"
   },
   {
@@ -149,7 +149,7 @@
     "target": "wartime_propaganda_wwii",
     "type": "ENABLED",
     "label": "yellow journalism developed emotional manipulation techniques later industrialized",
-    "note": "Hearst's techniques for manufacturing emotional response to foreign threats \u2014 exaggerated atrocity stories, patriotic imagery \u2014 were systematically industrialized by WWII propaganda offices.",
+    "note": "Hearst's techniques for manufacturing emotional response to foreign threats — exaggerated atrocity stories, patriotic imagery — were systematically industrialized by WWII propaganda offices.",
     "confidence": "high"
   },
   {
@@ -158,7 +158,7 @@
     "target": "counterculture_1960s",
     "type": "ENABLED",
     "label": "WPA established art as instrument of social change",
-    "note": "WPA artists created the tradition of committed social art that the 1960s counterculture inherited \u2014 the idea that cultural production is inherently political.",
+    "note": "WPA artists created the tradition of committed social art that the 1960s counterculture inherited — the idea that cultural production is inherently political.",
     "confidence": "medium"
   },
   {
@@ -221,7 +221,7 @@
     "target": "do_the_right_thing_1989",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both used mainstream film to make discrimination against marginalized groups visible",
-    "note": "Do the Right Thing (1989) and Philadelphia (1993) both deployed Hollywood filmmaking to make discrimination against groups the mainstream entertainment industry had largely ignored \u2014 Black Americans facing police violence; gay men with AIDS \u2014 accessible to audiences whose empathy those groups couldn't previously activate.",
+    "note": "Do the Right Thing (1989) and Philadelphia (1993) both deployed Hollywood filmmaking to make discrimination against groups the mainstream entertainment industry had largely ignored — Black Americans facing police violence; gay men with AIDS — accessible to audiences whose empathy those groups couldn't previously activate.",
     "confidence": "medium"
   },
   {
@@ -230,7 +230,7 @@
     "target": "autobiography_malcolm_x",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both excavated Black psychological experience that dominant culture suppressed",
-    "note": "Morrison's excavation of slavery's psychological interior and Malcolm X's account of the psychology of racialized oppression both worked to make visible the interior life \u2014 thoughts, feelings, dignity, rage \u2014 that racist systems required to be invisible. Both became foundational texts for understanding the psychological dimension of structural racism.",
+    "note": "Morrison's excavation of slavery's psychological interior and Malcolm X's account of the psychology of racialized oppression both worked to make visible the interior life — thoughts, feelings, dignity, rage — that racist systems required to be invisible. Both became foundational texts for understanding the psychological dimension of structural racism.",
     "confidence": "medium"
   },
   {
@@ -401,67 +401,67 @@
   {
     "source": "wartime_propaganda_art",
     "target": "world_war_i",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "wartime_propaganda_art",
     "target": "nazi_seizure_of_power",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "social_realism_art",
     "target": "great_depression",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "civil_rights_music",
     "target": "civil_rights_movement",
-    "type": "PART_OF",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "hip_hop_emergence",
     "target": "black_lives_matter",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "degenerate_art_nazi",
     "target": "holocaust",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "degenerate_art_nazi",
     "target": "totalitarianism",
-    "type": "DEMONSTRATES",
+    "type": "ENABLED",
     "weight": 3
   },
   {
     "source": "socialist_realism_ussr",
     "target": "soviet_collectivization",
-    "type": "CONTEXT_FOR",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "climate_art",
     "target": "climate_crisis_escalation",
-    "type": "RESPONDS_TO",
+    "type": "CAUSED",
     "weight": 2
   },
   {
     "source": "protest_literature",
     "target": "civil_rights_movement",
-    "type": "CONTRIBUTED_TO",
+    "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "protest_literature",
     "target": "abolition_movement",
-    "type": "CONTRIBUTED_TO",
+    "type": "ENABLED",
     "weight": 2
   }
 ]
