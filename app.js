@@ -555,23 +555,20 @@ function initSidebar() {
 }
 
 // ── Actions (Analytics, Quiz, Export PNG) ─────────────────────────────────────
+function wire(id, event, fn) {
+  const el = document.getElementById(id);
+  if (el) el.addEventListener(event, fn);
+}
+
 function initModals() {
-  document.getElementById('export-png-btn').addEventListener('click', GR.exportPNG);
-  document.getElementById('analytics-btn').addEventListener('click', openAnalyticsDashboard);
-  document.getElementById('analytics-close').addEventListener('click', () => {
-    document.getElementById('analytics-modal').hidden = true;
-  });
-  document.getElementById('quiz-btn').addEventListener('click', openQuiz);
-  document.getElementById('quiz-close').addEventListener('click', () => {
-    document.getElementById('quiz-modal').hidden = true;
-  });
-  document.getElementById('mech-explorer-close').addEventListener('click', () => {
-    document.getElementById('mech-explorer-modal').hidden = true;
-  });
-  document.getElementById('help-close').addEventListener('click', () => {
-    document.getElementById('help-modal').hidden = true;
-  });
-  document.getElementById('explore-btn').addEventListener('click', () => {
+  wire('export-png-btn',      'click', GR.exportPNG);
+  wire('analytics-btn',       'click', openAnalyticsDashboard);
+  wire('analytics-close',     'click', () => { document.getElementById('analytics-modal').hidden = true; });
+  wire('quiz-btn',            'click', openQuiz);
+  wire('quiz-close',          'click', () => { document.getElementById('quiz-modal').hidden = true; });
+  wire('mech-explorer-close', 'click', () => { document.getElementById('mech-explorer-modal').hidden = true; });
+  wire('help-close',          'click', () => { document.getElementById('help-modal').hidden = true; });
+  wire('explore-btn',         'click', () => {
     const candidates = allNodes
       .filter(n => n.category !== 'portal' && !n.cross_scope && (n.__degree || 0) > 2)
       .sort((a, b) => (b.__degree || 0) - (a.__degree || 0));
@@ -581,11 +578,9 @@ function initModals() {
   });
 
   // Timeline View
-  document.getElementById('timeline-btn').addEventListener('click', openTimelineView);
-  document.getElementById('timeline-close').addEventListener('click', () => {
-    document.getElementById('timeline-modal').hidden = true;
-  });
-  document.getElementById('timeline-open-graph').addEventListener('click', () => {
+  wire('timeline-btn',        'click', openTimelineView);
+  wire('timeline-close',      'click', () => { document.getElementById('timeline-modal').hidden = true; });
+  wire('timeline-open-graph', 'click', () => {
     const btn = document.getElementById('timeline-open-graph');
     document.getElementById('timeline-modal').hidden = true;
     FM.setDecadeRange(btn._minYear, btn._maxYear);
@@ -593,13 +588,9 @@ function initModals() {
   });
 
   // Mechanism Browser
-  document.getElementById('mech-browser-btn').addEventListener('click', openMechanismBrowser);
-  document.getElementById('mech-browser-close').addEventListener('click', () => {
-    document.getElementById('mech-browser-modal').hidden = true;
-  });
-  document.getElementById('mech-browser-filter').addEventListener('input', e => {
-    _buildMechBrowserList(e.target.value);
-  });
+  wire('mech-browser-btn',    'click', openMechanismBrowser);
+  wire('mech-browser-close',  'click', () => { document.getElementById('mech-browser-modal').hidden = true; });
+  wire('mech-browser-filter', 'input', e => { _buildMechBrowserList(e.target.value); });
 }
 
 // ── Stats ─────────────────────────────────────────────────────────────────────
