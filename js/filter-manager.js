@@ -586,6 +586,17 @@
     return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
+  // ── Set decade range programmatically (used by Timeline "Open in Graph") ────
+  function setDecadeRange(minYear, maxYear) {
+    decadeMinYear = minYear;
+    decadeMaxYear = maxYear;
+    const minSlider = document.getElementById('sb-decade-min');
+    const maxSlider = document.getElementById('sb-decade-max');
+    if (minSlider) minSlider.value = minYear;
+    if (maxSlider) maxSlider.value = maxYear;
+    updateDecadeDisplay();
+  }
+
   // ── Public API ─────────────────────────────────────────────────────────────
   window.FilterManager = {
     buildFilters,
@@ -595,6 +606,7 @@
     setNeighborhoodRoot,
     clearNeighborhoodRoot,
     setNeighborhoodDepth,
+    setDecadeRange,
     getFilterState,
     applyFilterState,
     get selectedNodeId() { return selectedNodeId; },

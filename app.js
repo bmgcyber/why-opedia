@@ -28,6 +28,20 @@ const isMobile = navigator.maxTouchPoints > 0 || /Mobi/i.test(navigator.userAgen
 // Scope navigation history
 const scopeHistory = [];
 
+// ── Timeline / Mechanism Browser state ───────────────────────────────────────
+const ERA_PRESETS = [
+  { label: 'Prehistory',   min: -12000, max: -3000 },
+  { label: 'Ancient',      min: -3000,  max: 500   },
+  { label: 'Medieval',     min: 500,    max: 1450  },
+  { label: 'Early Modern', min: 1450,   max: 1750  },
+  { label: 'Industrial',   min: 1750,   max: 1914  },
+  { label: 'WWI / WWII',  min: 1914,   max: 1945  },
+  { label: 'Cold War',     min: 1945,   max: 1991  },
+  { label: 'Modern',       min: 1991,   max: 2025  },
+];
+let _timelineEraInited = false;
+let mechBrowserSelected = null;
+
 // ── Boot ──────────────────────────────────────────────────────────────────────
 document.getElementById('stats').textContent = 'Loading…';
 
@@ -509,6 +523,8 @@ function initToolbar() {
       document.getElementById('quiz-modal').hidden          = true;
       document.getElementById('mech-explorer-modal').hidden = true;
       document.getElementById('help-modal').hidden          = true;
+      document.getElementById('timeline-modal').hidden      = true;
+      document.getElementById('mech-browser-modal').hidden  = true;
       closePanel();
       clearSelection();
       showTooltip(null);
@@ -562,6 +578,27 @@ function initModals() {
     const topN = candidates.slice(0, Math.max(20, Math.floor(candidates.length * 0.3)));
     const pick = topN[Math.floor(Math.random() * topN.length)];
     if (pick) handleNodeClick(pick);
+  });
+
+  // Timeline View
+  document.getElementById('timeline-btn').addEventListener('click', openTimelineView);
+  document.getElementById('timeline-close').addEventListener('click', () => {
+    document.getElementById('timeline-modal').hidden = true;
+  });
+  document.getElementById('timeline-open-graph').addEventListener('click', () => {
+    const btn = document.getElementById('timeline-open-graph');
+    document.getElementById('timeline-modal').hidden = true;
+    FM.setDecadeRange(btn._minYear, btn._maxYear);
+    FM.applyFilters();
+  });
+
+  // Mechanism Browser
+  document.getElementById('mech-browser-btn').addEventListener('click', openMechanismBrowser);
+  document.getElementById('mech-browser-close').addEventListener('click', () => {
+    document.getElementById('mech-browser-modal').hidden = true;
+  });
+  document.getElementById('mech-browser-filter').addEventListener('input', e => {
+    _buildMechBrowserList(e.target.value);
   });
 }
 
@@ -828,6 +865,215 @@ function _openAnalyticsDashboard() {
   `;
   document.getElementById('analytics-modal').hidden = false;
 }  // end _openAnalyticsDashboard
+
+// ── Timeline View ─────────────────────────────────────────────────────────────
+function openTimelineView() {
+  const modal   = document.getElementById('timeline-modal');
+  const eraBtns = document.getElementById('timeline-era-btns');
+  if (!_timelineEraInited) {
+    ERA_PRESETS.forEach((era, i) => {
+      const btn = document.createElement('button');
+      btn.className   = 'timeline-era-btn';
+      btn.textContent = era.label;
+      btn.addEventListener('click', () => {
+        eraBtns.querySelectorAll('.timeline-era-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        _buildTimelineList(era.min, era.max);
+      });
+      eraBtns.appendChild(btn);
+    });
+    _timelineEraInited = true;
+    // Default: Medieval
+    eraBtns.children[2].click();
+  }
+  modal.hidden = false;
+}
+
+function _buildTimelineList(minYear, maxYear) {
+  const fmtYear = y => y < 0 ? `${Math.abs(y)} BCE` : `${y} CE`;
+  document.getElementById('timeline-range-display').textContent =
+    `${fmtYear(minYear)}  –  ${fmtYear(maxYear)}`;
+
+  const skipCats = new Set(['portal', 'mechanism', 'ideology', 'phenomenon']);
+  const eligible = allNodes.filter(n => {
+    if (skipCats.has(n.category)) return false;
+    if (n.ghost) return false;
+    const y = parseDecadeYear(n.decade || '');
+    return y >= minYear && y <= maxYear;
+  });
+  eligible.sort((a, b) => parseDecadeYear(a.decade || '') - parseDecadeYear(b.decade || ''));
+
+  // Build mechanism map: nodeId → mechanism nodes
+  const mechByNode = {};
+  for (const e of allEdges) {
+    const src = typeof e.source === 'object' ? e.source.id : e.source;
+    const tgt = typeof e.target === 'object' ? e.target.id : e.target;
+    const sn  = nodeMap[src], tn = nodeMap[tgt];
+    if (!sn || !tn) continue;
+    if (sn.scope === 'global/mechanisms') {
+      if (!mechByNode[tgt]) mechByNode[tgt] = [];
+      if (!mechByNode[tgt].find(m => m.id === src)) mechByNode[tgt].push(sn);
+    }
+    if (tn.scope === 'global/mechanisms') {
+      if (!mechByNode[src]) mechByNode[src] = [];
+      if (!mechByNode[src].find(m => m.id === tgt)) mechByNode[src].push(tn);
+    }
+  }
+
+  const list = document.getElementById('timeline-list');
+  if (!eligible.length) {
+    list.innerHTML = '<p style="color:var(--text-muted);padding:20px">No events found in this period.</p>';
+    return;
+  }
+
+  list.innerHTML = eligible.map(n => {
+    const y         = parseDecadeYear(n.decade || '');
+    const yearLabel = y < 0 ? `${Math.abs(y)} BCE` : `${y} CE`;
+    const color     = GR.CATEGORY_COLOR[n.category] || '#8c8fa8';
+    const mechs     = (mechByNode[n.id] || []).slice(0, 5);
+    const mechTags  = mechs.map(m =>
+      `<span class="timeline-mech-tag" data-mech-id="${escHtml(m.id)}">${escHtml(m.label)}</span>`
+    ).join('');
+    return `<div class="timeline-event-card" data-node-id="${escHtml(n.id)}">
+      <div class="timeline-event-year">${escHtml(yearLabel)}</div>
+      <div class="timeline-event-body">
+        <div class="timeline-event-label" style="color:${color}">${escHtml(n.label)}</div>
+        ${n.region ? `<div class="timeline-event-region">${escHtml(n.region)}</div>` : ''}
+        ${mechTags ? `<div class="timeline-mech-tags">${mechTags}</div>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+
+  list.querySelectorAll('.timeline-event-card').forEach(card => {
+    card.addEventListener('click', e => {
+      if (e.target.classList.contains('timeline-mech-tag')) return;
+      const node = nodeMap[card.dataset.nodeId];
+      if (node) {
+        document.getElementById('timeline-modal').hidden = true;
+        handleNodeClick(node);
+      }
+    });
+  });
+  list.querySelectorAll('.timeline-mech-tag').forEach(tag => {
+    tag.addEventListener('click', () => {
+      const node = nodeMap[tag.dataset.mechId] || allNodes.find(n => n.id === tag.dataset.mechId);
+      if (node) {
+        document.getElementById('timeline-modal').hidden = true;
+        handleNodeClick(node);
+      }
+    });
+  });
+
+  // Stash range on button for "Open in Graph"
+  const openBtn = document.getElementById('timeline-open-graph');
+  openBtn._minYear = minYear;
+  openBtn._maxYear = maxYear;
+}
+
+// ── Mechanism Browser ─────────────────────────────────────────────────────────
+function openMechanismBrowser() {
+  document.getElementById('mech-browser-modal').hidden = false;
+  _buildMechBrowserList(document.getElementById('mech-browser-filter').value);
+}
+
+function _buildMechBrowserList(filterText) {
+  filterText = (filterText || '').toLowerCase();
+  const mechs = allNodes
+    .filter(n => n.scope === 'global/mechanisms' && n.category !== 'portal')
+    .filter(n => !filterText || n.label.toLowerCase().includes(filterText) ||
+      (n.tags || []).some(t => t.toLowerCase().includes(filterText)))
+    .sort((a, b) => (b.__degree || 0) - (a.__degree || 0));
+
+  const list = document.getElementById('mech-browser-list');
+  list.innerHTML = mechs.map(m => {
+    const color   = GR.CATEGORY_COLOR[m.category] || '#a96ce6';
+    const deg     = m.__degree || 0;
+    const isActive = mechBrowserSelected === m.id;
+    return `<div class="mech-list-item${isActive ? ' active' : ''}" data-mech-id="${escHtml(m.id)}">
+      <span class="mech-list-dot" style="background:${color}"></span>
+      <span class="mech-list-label">${escHtml(m.label)}</span>
+      <span class="mech-list-deg">${deg}</span>
+    </div>`;
+  }).join('');
+
+  list.querySelectorAll('.mech-list-item').forEach(item => {
+    item.addEventListener('click', () => {
+      mechBrowserSelected = item.dataset.mechId;
+      list.querySelectorAll('.mech-list-item').forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
+      _renderMechanismDetail(item.dataset.mechId);
+    });
+  });
+
+  if (mechBrowserSelected) {
+    const active = list.querySelector(`[data-mech-id="${CSS.escape(mechBrowserSelected)}"]`);
+    if (active) { active.classList.add('active'); _renderMechanismDetail(mechBrowserSelected); }
+  }
+}
+
+async function _renderMechanismDetail(mechId) {
+  const detail = document.getElementById('mech-browser-detail');
+  const mech   = nodeMap[mechId] || allNodes.find(n => n.id === mechId);
+  if (!mech) return;
+
+  detail.innerHTML = '<p style="color:var(--text-muted);padding:20px">Loading connections…</p>';
+  const data = await SM.getMechanismCrossScope(mechId);
+  const connected = data ? [...data.connectedNodes] : [];
+
+  connected.sort((a, b) => parseDecadeYear(a.decade || '') - parseDecadeYear(b.decade || ''));
+
+  const fmtYear  = y => !y && y !== 0 ? '' : y < 0 ? `${Math.abs(y)} BCE` : `${y} CE`;
+  const scopeShort = s => s ? s.split('/').pop() : '';
+
+  const connHtml = connected.length
+    ? connected.map(n => {
+        const color = GR.CATEGORY_COLOR[n.category] || '#8c8fa8';
+        const y     = parseDecadeYear(n.decade || '');
+        const edge  = data.connectedEdges.find(e => {
+          const s = typeof e.source === 'object' ? e.source.id : e.source;
+          const t = typeof e.target === 'object' ? e.target.id : e.target;
+          return (s === mechId && t === n.id) || (t === mechId && s === n.id);
+        });
+        return `<div class="mech-conn-row" data-node-id="${escHtml(n.id)}">
+          <span class="mech-conn-year">${escHtml(fmtYear(y))}</span>
+          <span class="mech-conn-dot" style="background:${color}"></span>
+          <span class="mech-conn-label">${escHtml(n.label)}</span>
+          <span class="mech-conn-scope">${escHtml(scopeShort(n.scope))}</span>
+          ${edge ? `<span class="mech-conn-type" style="color:${GR.EDGE_COLOR[edge.type]||GR.EDGE_DEFAULT_COLOR}">${escHtml(edge.type||'')}</span>` : ''}
+        </div>`;
+      }).join('')
+    : '<p style="color:var(--text-muted);padding:12px 0">No cross-scope connections found.</p>';
+
+  detail.innerHTML = `
+    <div class="mech-detail-header">
+      <div class="mech-detail-title">${escHtml(mech.label)}</div>
+      <div class="mech-detail-stats">${connected.length} connection${connected.length !== 1 ? 's' : ''} · ${new Set(connected.map(n => n.scope)).size} scope${new Set(connected.map(n => n.scope)).size !== 1 ? 's' : ''}</div>
+    </div>
+    ${mech.summary     ? `<div class="mech-detail-summary">${escHtml(mech.summary)}</div>`     : ''}
+    ${mech.description ? `<div class="mech-detail-desc">${escHtml(mech.description)}</div>`   : ''}
+    <div class="mech-detail-section-title">Thread through history</div>
+    <div class="mech-conn-list">${connHtml}</div>
+    <div class="mech-detail-footer">
+      <button class="pf-btn primary" id="mech-view-in-graph">View in Graph →</button>
+    </div>
+  `;
+
+  detail.querySelectorAll('.mech-conn-row').forEach(row => {
+    row.addEventListener('click', () => {
+      const node = nodeMap[row.dataset.nodeId] || allNodes.find(n => n.id === row.dataset.nodeId);
+      if (node) {
+        document.getElementById('mech-browser-modal').hidden = true;
+        handleNodeClick(node);
+      }
+    });
+  });
+
+  detail.querySelector('#mech-view-in-graph').addEventListener('click', () => {
+    document.getElementById('mech-browser-modal').hidden = true;
+    const node = nodeMap[mechId] || allNodes.find(n => n.id === mechId);
+    if (node) handleNodeClick(node);
+  });
+}
 
 function parseDecadeYear(decade) {
   if (!decade) return 2000;
