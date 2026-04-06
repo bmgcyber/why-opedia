@@ -5,7 +5,13 @@
 // and hosts the info panel, path finder, quiz, analytics, and URL state.
 
 // ── Aliases ───────────────────────────────────────────────────────────────────
-const GR  = GraphRenderer;
+// GR is `let` so toggleRenderer() can reassign it when switching 2D ↔ 3D.
+// window.GraphRenderer is kept in sync so filter-manager.js and animation.js
+// (which access it by name, not via this alias) also pick up the active renderer.
+let GR  = GraphRenderer;
+const _3dRenderer = GraphRenderer;   // permanent reference to the 3D renderer
+let _2dInited     = false;           // lazy: 2D renderer initialised on first toggle
+let _activeRenderer = '3d';          // '3d' | '2d'
 const SM  = ScopeManager;
 const FM  = FilterManager;
 
@@ -55,11 +61,7 @@ async function boot() {
     GR.initRenderer(container);
 
     // Wire up renderer events
-    GR.onNodeClick(handleNodeClick);
-    GR.onNodeDblClick(handleNodeDblClick);
-    GR.onNodeHover(handleNodeHover);
-    GR.onLinkClick(handleLinkClick);
-    GR.onBgClick(handleBgClick);
+    _rewireCallbacks(GR);
 
     // Wire scope changes to graph data updates.
     // enterScope/enterGlobalView fires this callback before returning, so
@@ -561,7 +563,8 @@ function wire(id, event, fn) {
 }
 
 function initModals() {
-  wire('export-png-btn',      'click', GR.exportPNG);
+  wire('export-png-btn',      'click', () => GR.exportPNG());
+  wire('view-toggle-btn',     'click', toggleRenderer);
   wire('analytics-btn',       'click', openAnalyticsDashboard);
   wire('analytics-close',     'click', () => { document.getElementById('analytics-modal').hidden = true; });
   wire('quiz-btn',            'click', openQuiz);
@@ -591,6 +594,67 @@ function initModals() {
   wire('mech-browser-btn',    'click', openMechanismBrowser);
   wire('mech-browser-close',  'click', () => { document.getElementById('mech-browser-modal').hidden = true; });
   wire('mech-browser-filter', 'input', e => { _buildMechBrowserList(e.target.value); });
+}
+
+// ── Renderer callbacks ────────────────────────────────────────────────────────
+function _rewireCallbacks(renderer) {
+  renderer.onNodeClick(handleNodeClick);
+  renderer.onNodeDblClick(handleNodeDblClick);
+  renderer.onNodeHover(handleNodeHover);
+  renderer.onLinkClick(handleLinkClick);
+  renderer.onBgClick(handleBgClick);
+}
+
+// ── Renderer toggle (3D ↔ 2D) ────────────────────────────────────────────────
+function toggleRenderer() {
+  const newMode = _activeRenderer === '3d' ? '2d' : '3d';
+  const savedSelected = selectedNodeId;
+
+  const c3d = document.getElementById('graph-container');
+  const c2d = document.getElementById('graph-container-2d');
+
+  if (newMode === '2d') {
+    // Show 2D container before init (Cytoscape needs non-zero dimensions)
+    if (c3d) c3d.style.display = 'none';
+    if (c2d) c2d.style.display = '';
+
+    if (!_2dInited) {
+      GraphRenderer2D.initRenderer(c2d);
+      _2dInited = true;
+    }
+    GR = GraphRenderer2D;
+    window.GraphRenderer = GraphRenderer2D;
+    _rewireCallbacks(GR);
+
+  } else {
+    if (c2d) c2d.style.display = 'none';
+    if (c3d) c3d.style.display = '';
+
+    GR = _3dRenderer;
+    window.GraphRenderer = _3dRenderer;
+    _rewireCallbacks(GR);
+  }
+
+  // Reload current scope data into the newly active renderer
+  GR.loadGraphData(allNodes, allEdges);
+  FM.buildFilters(allNodes, allEdges);
+
+  // Restore selection after a short delay so the layout has time to settle
+  if (savedSelected && nodeMap[savedSelected]) {
+    selectedNodeId = savedSelected;
+    GR.selectNode(savedSelected);
+    setTimeout(() => {
+      if (nodeMap[savedSelected]) GR.focusOnNode(nodeMap[savedSelected]);
+    }, newMode === '2d' ? 500 : 100);
+  }
+
+  _activeRenderer = newMode;
+  const btn = document.getElementById('view-toggle-btn');
+  if (btn) {
+    btn.textContent = newMode === '2d' ? '3D' : '2D';
+    btn.title = newMode === '2d' ? 'Switch to 3D view' : 'Switch to 2D research view';
+    btn.classList.toggle('active-2d', newMode === '2d');
+  }
 }
 
 // ── Stats ─────────────────────────────────────────────────────────────────────

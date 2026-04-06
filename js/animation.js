@@ -33,7 +33,9 @@
   }
 
   // Simple opacity tween via requestAnimationFrame
+  // In 2D mode the graph instance has no nodeOpacity() — resolve immediately.
   function tweenOpacity(graph, targetOpacity, durationMs) {
+    if (!graph || typeof graph.nodeOpacity !== 'function') return Promise.resolve();
     return new Promise(resolve => {
       const start   = performance.now();
       const startOp = graph.nodeOpacity() || (targetOpacity === 0 ? 0.92 : 0);
@@ -58,7 +60,10 @@
   function cameraToDefault(durationMs) {
     const GR = GraphRenderer;
     if (!GR || !GR.getGraphInstance()) return;
-    GR.getGraphInstance().cameraPosition(
+    const inst = GR.getGraphInstance();
+    // cameraPosition is a 3d-force-graph method; not available on Cytoscape instances
+    if (typeof inst.cameraPosition !== 'function') return;
+    inst.cameraPosition(
       { x: 0, y: 0, z: 500 },
       { x: 0, y: 0, z: 0 },
       durationMs || 600

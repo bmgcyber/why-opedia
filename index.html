@@ -14,6 +14,7 @@
     <div id="wordmark">Why<span>-opedia</span></div>
     <button id="back-btn" title="Go back (Alt+←)" hidden>←</button>
     <button id="fit-btn" title="Reset view">⊡</button>
+    <button id="view-toggle-btn" title="Switch to 2D research view">2D</button>
     <button id="fullscreen-btn" title="Toggle fullscreen">⛶</button>
     <button id="help-btn" title="Keyboard shortcuts (?)">?</button>
     <a id="contribute-link" href="https://github.com/bmgcyber/why-opedia/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">
@@ -168,6 +169,8 @@
 
   <!-- 3D Graph canvas (fills viewport behind sidebar) -->
   <div id="graph-container"></div>
+  <!-- 2D Cytoscape canvas (hidden until toggled) -->
+  <div id="graph-container-2d" style="display:none"></div>
 
   <!-- Hover tooltip (positioned via JS) -->
   <div id="graph-tooltip" class="graph-tooltip" hidden></div>
@@ -286,8 +289,14 @@
   <!-- CDN: Fuse.js for fuzzy search -->
   <script src="https://unpkg.com/fuse.js@7.0.0/dist/fuse.min.js"></script>
 
+  <!-- CDN: Cytoscape.js for 2D research view -->
+  <script src="https://unpkg.com/cytoscape@3.28.1/dist/cytoscape.min.js"></script>
+  <!-- CDN: cytoscape-fcose layout plugin -->
+  <script src="https://unpkg.com/cytoscape-fcose@2.2.0/cytoscape-fcose.js"></script>
+
   <!-- App modules (order matters: renderer before app) -->
   <script src="js/graph-renderer.js"></script>
+  <script src="js/graph-renderer-2d.js"></script>
   <script src="js/scope-manager.js"></script>
   <script src="js/filter-manager.js"></script>
   <script src="js/animation.js"></script>
