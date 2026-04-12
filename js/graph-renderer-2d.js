@@ -300,39 +300,57 @@ function loadGraphData(nodes, edges) {
   _cy.style(_buildStylesheet());
   _cy.endBatch();
 
-  // Run force layout
+  // Defer layout until the browser has painted the container so Cytoscape
+  // sees real pixel dimensions (not 0×0 from a just-shown display:none div).
   const nodeCount = nodes.length;
-  const isLarge   = nodeCount > 500;
-  const isMedium  = nodeCount > 150 && !isLarge;
+  requestAnimationFrame(() => {
+    if (!_cy) return;
+    const isLarge  = nodeCount > 500;
+    const isMedium = nodeCount > 150 && !isLarge;
 
-  // fcose is loaded from CDN and auto-registers with cytoscape.
-  // Fall back to built-in 'cose' layout if fcose failed to load.
-  const layoutOptions = {
-    name:            'fcose',
-    animate:         false,
-    randomize:       true,
-    quality:         isLarge ? 'draft' : 'default',
-    idealEdgeLength: isLarge ? 40 : isMedium ? 60 : 80,
-    nodeRepulsion:   isLarge ? 3000 : isMedium ? 5000 : 8000,
-    gravity:         0.25,
-    gravityRange:    3.8,
-    numIter:         isLarge ? 1000 : isMedium ? 2000 : 3000,
-    tile:            true,
-  };
-  const coseOptions = {
-    name:            'cose',
-    animate:         false,
-    randomize:       true,
-    idealEdgeLength: isLarge ? 60 : 100,
-    nodeOverlap:     20,
-    numIter:         isLarge ? 500 : 1000,
-  };
+    const runLayout = opts => {
+      const l = _cy.layout(opts);
+      l.on('layoutstop', () => { if (_cy) _cy.fit(undefined, 40); });
+      l.run();
+    };
 
-  try {
-    _cy.layout(layoutOptions).run();
-  } catch (_) {
-    _cy.layout(coseOptions).run();
-  }
+    const fcoseOpts = {
+      name:                  'fcose',
+      animate:               true,
+      animationDuration:     isLarge ? 600 : 400,
+      randomize:             true,
+      quality:               isLarge ? 'draft' : 'default',
+      idealEdgeLength:       isLarge ? 40 : isMedium ? 60 : 80,
+      nodeRepulsion:         isLarge ? 4500 : isMedium ? 6000 : 9000,
+      gravity:               0.25,
+      gravityRange:          3.8,
+      numIter:               isLarge ? 1000 : isMedium ? 2000 : 3000,
+      tile:                  true,
+      tilingPaddingVertical:   10,
+      tilingPaddingHorizontal: 10,
+    };
+    const coseOpts = {
+      name:            'cose',
+      animate:         true,
+      animationDuration: isLarge ? 800 : 500,
+      randomize:       true,
+      idealEdgeLength: isLarge ? 60 : 100,
+      nodeOverlap:     20,
+      numIter:         isLarge ? 800 : 1500,
+    };
+
+    try {
+      runLayout(fcoseOpts);
+    } catch (_) {
+      try {
+        runLayout(coseOpts);
+      } catch (_2) {
+        // Last resort: grid always produces non-overlapping nodes
+        runLayout({ name: 'grid', animate: false });
+        if (_cy) _cy.fit(undefined, 40);
+      }
+    }
+  });
 
   return _data;
 }

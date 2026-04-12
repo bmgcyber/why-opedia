@@ -92,22 +92,30 @@ body:not(.sidebar-collapsed) #sidebar-toggle {
   color: var(--accent);
 }
 
-#fit-btn {
+#fit-btn, #view-toggle-btn {
   background: var(--surface2);
   border: 1px solid var(--border);
   border-radius: 6px;
   color: var(--text-muted);
   cursor: pointer;
   padding: 5px 10px;
-  font-size: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
   line-height: 1;
   flex-shrink: 0;
-  transition: color 0.15s, border-color 0.15s;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
 }
 
-#fit-btn:hover {
+#fit-btn:hover, #view-toggle-btn:hover {
   color: var(--text);
   border-color: var(--accent);
+}
+
+#view-toggle-btn.active-2d {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
 }
 
 #back-btn, #fullscreen-btn, #help-btn {
@@ -584,11 +592,6 @@ body.sidebar-collapsed #sidebar {
   height: 100% !important;
 }
 
-/* 2D toggle button — active state */
-#view-toggle-btn.active-2d {
-  background: var(--accent, #5b8dee);
-  color: #fff;
-}
 
 /* Breadcrumb trail (scope navigation) */
 

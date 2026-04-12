@@ -645,7 +645,7 @@ function toggleRenderer() {
     GR.selectNode(savedSelected);
     setTimeout(() => {
       if (nodeMap[savedSelected]) GR.focusOnNode(nodeMap[savedSelected]);
-    }, newMode === '2d' ? 500 : 100);
+    }, newMode === '2d' ? 1200 : 100);
   }
 
   _activeRenderer = newMode;
