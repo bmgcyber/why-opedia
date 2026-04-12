@@ -180,11 +180,11 @@ function initRenderer(containerEl) {
   // only touch vx/vy, never vz, which collapses the graph to a flat plane).
   // graphInstance.d3Force('name') with no second arg returns the existing instance.
   const chargeForce = graphInstance.d3Force('charge');
-  if (chargeForce) chargeForce.strength(-300);
+  if (chargeForce) chargeForce.strength(-500);
 
   const linkForce = graphInstance.d3Force('link');
   if (linkForce) linkForce.distance(link =>
-    link.type === 'SHARES_MECHANISM_WITH' ? 280 : 140
+    link.type === 'SHARES_MECHANISM_WITH' ? 380 : 200
   );
 
   // Remove the default center force — it pulls everything to z=0 and fights z spread.
@@ -213,7 +213,7 @@ function initRenderer(containerEl) {
     mechPulsePhase += 0.015625;
     const mechPulse = 0.15 + 0.35 * Math.abs(Math.sin(mechPulsePhase));
     for (const mat of mechMaterials) mat.emissiveIntensity = mechPulse;
-  }, 50);
+  }, 100);
 
   // Label visibility + semantic zoom update when camera moves
   function onCameraChange() {
@@ -222,6 +222,10 @@ function initRenderer(containerEl) {
   }
   graphInstance.controls().addEventListener('change', onCameraChange);
   graphInstance.onEngineStop(onCameraChange);
+
+  // Cap pixel ratio — on HiDPI/Retina screens the default 2× renders 4× the pixels.
+  // Capping at 1.5 cuts fragment work by ~44% with no perceptible quality difference.
+  graphInstance.renderer().setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
 
   return graphInstance;
 }
@@ -243,7 +247,7 @@ function buildNodeObject(node) {
 
   if (isPortal) {
     // Portal: glowing sphere with pulsing emissive
-    const geo = new THREE.SphereGeometry(size * (isMobile ? 2.0 : 1.4), 20, 20);
+    const geo = new THREE.SphereGeometry(size * (isMobile ? 2.0 : 1.4), 14, 14);
     const mat = new THREE.MeshPhongMaterial({
       color:             0xffffff,
       emissive:          0x8888ff,
@@ -261,7 +265,7 @@ function buildNodeObject(node) {
   } else if (isGhost) {
     // Ghost: semi-transparent sphere + wireframe shell
     const color = categoryColor(node.category);
-    const seg = isMobile ? 8 : 16;
+    const seg = isMobile ? 6 : 10;
     const geo = new THREE.SphereGeometry(size, seg, seg);
     const mat = new THREE.MeshPhongMaterial({
       color,
@@ -291,7 +295,7 @@ function buildNodeObject(node) {
   } else {
     // Regular node: sphere with category color
     const color = categoryColor(node.category);
-    const seg = isMobile ? 8 : 16;
+    const seg = isMobile ? 6 : 10;
     const geo = new THREE.SphereGeometry(size, seg, seg);
     const mat = new THREE.MeshPhongMaterial({ color, shininess: 60 });
     group.add(new THREE.Mesh(geo, mat));
@@ -332,6 +336,12 @@ function makeLabelSprite(text, color, nodeSize) {
     ctx.fillText(label, canvas.width / 2, canvas.height / 2);
 
     texture = new THREE.CanvasTexture(canvas);
+    // Evict oldest entry if cache exceeds 300 textures (prevents GPU memory growth)
+    const keys = Object.keys(labelTextureCache);
+    if (keys.length >= 300) {
+      labelTextureCache[keys[0]].dispose();
+      delete labelTextureCache[keys[0]];
+    }
     labelTextureCache[cacheKey] = texture;
   }
 
