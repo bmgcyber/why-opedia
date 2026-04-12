@@ -317,26 +317,27 @@ function loadGraphData(nodes, edges) {
     const fcoseOpts = {
       name:                  'fcose',
       animate:               true,
-      animationDuration:     isLarge ? 600 : 400,
+      animationDuration:     isLarge ? 800 : 500,
       randomize:             true,
       quality:               isLarge ? 'draft' : 'default',
-      idealEdgeLength:       isLarge ? 40 : isMedium ? 60 : 80,
-      nodeRepulsion:         isLarge ? 4500 : isMedium ? 6000 : 9000,
-      gravity:               0.25,
-      gravityRange:          3.8,
-      numIter:               isLarge ? 1000 : isMedium ? 2000 : 3000,
+      // Much higher repulsion — previous values caused all nodes to pile up
+      idealEdgeLength:       isLarge ? 120 : isMedium ? 160 : 220,
+      nodeRepulsion:         isLarge ? 1200000 : isMedium ? 800000 : 500000,
+      gravity:               isLarge ? 0.05 : 0.10,
+      gravityRange:          2.5,
+      numIter:               isLarge ? 2000 : isMedium ? 3000 : 4000,
       tile:                  true,
-      tilingPaddingVertical:   10,
-      tilingPaddingHorizontal: 10,
+      tilingPaddingVertical:   30,
+      tilingPaddingHorizontal: 30,
     };
     const coseOpts = {
       name:            'cose',
       animate:         true,
       animationDuration: isLarge ? 800 : 500,
       randomize:       true,
-      idealEdgeLength: isLarge ? 60 : 100,
-      nodeOverlap:     20,
-      numIter:         isLarge ? 800 : 1500,
+      idealEdgeLength: isLarge ? 100 : 150,
+      nodeOverlap:     40,
+      numIter:         isLarge ? 1200 : 2000,
     };
 
     try {

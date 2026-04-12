@@ -8,6 +8,24 @@
 </head>
 <body>
 
+  <!-- View selection overlay (shown on first load when no ?view= param) -->
+  <div id="view-select-overlay">
+    <div class="vs-header">
+      <div class="vs-wordmark">Why<span>-opedia</span></div>
+      <div class="vs-tagline">Choose your experience</div>
+    </div>
+    <div class="vs-cards">
+      <button class="vs-card" id="vs-3d-btn">
+        <div class="vs-card-label">3D</div>
+        <div class="vs-card-sub">Looks awesome</div>
+      </button>
+      <button class="vs-card" id="vs-2d-btn">
+        <div class="vs-card-label">2D</div>
+        <div class="vs-card-sub">Easier to read<br>Better performance</div>
+      </button>
+    </div>
+  </div>
+
   <!-- Toolbar -->
   <div id="toolbar">
     <button id="sidebar-toggle" title="Toggle filters panel" aria-expanded="true">☰</button>

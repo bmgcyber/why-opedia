@@ -48,6 +48,55 @@ const ERA_PRESETS = [
 let _timelineEraInited = false;
 let mechBrowserSelected = null;
 
+// ── View selection overlay ────────────────────────────────────────────────────
+// Shown on every load unless ?view=2d or ?view=3d is already in the URL.
+
+function _getViewParam() {
+  return new URLSearchParams(location.search).get('view'); // '2d' | '3d' | null
+}
+
+function _setViewParam(mode) {
+  try {
+    const url = new URL(location.href);
+    url.searchParams.set('view', mode);
+    history.replaceState(null, '', url.toString());
+  } catch(e) {}
+}
+
+function _dismissOverlay(mode) {
+  const el = document.getElementById('view-select-overlay');
+  if (!el) return;
+  el.classList.add('vs-hiding');
+  _setViewParam(mode);
+  setTimeout(() => { el.style.display = 'none'; }, 320);
+
+  if (mode === '2d') {
+    toggleRenderer();
+  }
+}
+
+function _initViewSelectOverlay() {
+  const param = _getViewParam();
+  if (param === '2d') {
+    // Skip overlay, go straight to 2D
+    const el = document.getElementById('view-select-overlay');
+    if (el) el.style.display = 'none';
+    toggleRenderer();
+    return;
+  }
+  if (param === '3d') {
+    // Skip overlay, stay in 3D
+    const el = document.getElementById('view-select-overlay');
+    if (el) el.style.display = 'none';
+    return;
+  }
+  // No param — show overlay and wire buttons
+  const btn3d = document.getElementById('vs-3d-btn');
+  const btn2d = document.getElementById('vs-2d-btn');
+  if (btn3d) btn3d.addEventListener('click', () => _dismissOverlay('3d'));
+  if (btn2d) btn2d.addEventListener('click', () => _dismissOverlay('2d'));
+}
+
 // ── Boot ──────────────────────────────────────────────────────────────────────
 document.getElementById('stats').textContent = 'Loading…';
 
@@ -83,8 +132,11 @@ async function boot() {
     initModals();
     initWASD();
 
-    // URL state
+    // URL state (scope / node / filter restoration from hash)
     loadURLState();
+
+    // View selection overlay — must run after boot so toggleRenderer() works
+    _initViewSelectOverlay();
 
   } catch (err) {
     console.error('Boot failed:', err);
@@ -1293,7 +1345,9 @@ function updateURLState() {
   if (fs.decMax !== null) params.set('decMax', fs.decMax);
   const hash = params.toString();
   try {
-    history.replaceState(null, '', hash ? '#' + hash : location.pathname + location.search);
+    // Preserve the ?view= query param across all hash updates
+    const base = location.pathname + location.search;
+    history.replaceState(null, '', hash ? base + '#' + hash : base);
   } catch(e) {}
 }
 
