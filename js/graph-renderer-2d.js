@@ -315,51 +315,57 @@ function loadGraphData(nodes, edges) {
       l.run();
     };
 
-    // edgeElasticity controls how hard edges pull nodes together.
-    // Setting it very low is the key to getting spread — repulsion alone isn't enough
-    // because strong default springs undo it immediately.
+    // Large graphs (global view, 400+ nodes): grid sorted by degree.
+    // Force-directed layouts can't beat edge-spring forces at this scale.
+    // Grid is instantly readable; user drills into a scope for force-layout.
+    if (isLarge) {
+      runLayout({
+        name:    'grid',
+        animate: true,
+        animationDuration: 400,
+        avoidOverlap: true,
+        avoidOverlapPadding: 14,
+        nodeDimensionsIncludeLabels: true,
+        condense: false,
+        padding: 60,
+        sort: (a, b) => (b.data('__degree') || 0) - (a.data('__degree') || 0),
+      }, 'grid');
+      return;
+    }
+
+    // Medium / small graphs (scoped views): fcose gives a nice force-layout.
     const fcoseOpts = {
       name:             'fcose',
       animate:          true,
-      animationDuration: isLarge ? 1200 : 700,
+      animationDuration: isMedium ? 700 : 500,
       randomize:        true,
-      quality:          isLarge ? 'draft' : 'default',
-      idealEdgeLength:  isLarge ? 400 : isMedium ? 600 : 900,
-      nodeRepulsion:    isLarge ? 30000000 : isMedium ? 15000000 : 8000000,
-      edgeElasticity:   0.02,   // very weak springs — stops edges from pulling nodes back
-      gravity:          0.01,   // minimal global gravity so nodes can spread freely
-      gravityRange:     1.5,
-      numIter:          isLarge ? 2500 : isMedium ? 3500 : 5000,
+      quality:          isMedium ? 'default' : 'proof',
+      idealEdgeLength:  isMedium ? 180 : 280,
+      nodeRepulsion:    isMedium ? 12000000 : 6000000,
+      edgeElasticity:   0.02,   // weak springs so repulsion actually wins
+      gravity:          0.05,
+      gravityRange:     2.0,
+      numIter:          isMedium ? 3000 : 5000,
       tile:             true,
       tilingPaddingVertical:   40,
       tilingPaddingHorizontal: 40,
     };
 
-    // cose fallback — also tuned for spread
-    const coseOpts = {
-      name:             'cose',
-      animate:          true,
-      animationDuration: isLarge ? 1000 : 600,
-      randomize:        true,
-      idealEdgeLength:  isLarge ? 200 : 300,
-      nodeOverlap:      80,
-      nodeRepulsion:    () => isLarge ? 800000 : 400000,
-      edgeElasticity:   () => 10,   // cose uses different scale — keep low
-      numIter:          isLarge ? 1500 : 2500,
-      componentSpacing: 100,
-    };
-
     try {
       runLayout(fcoseOpts, 'fcose');
     } catch (e1) {
-      console.warn('[2D layout] fcose failed, trying cose:', e1.message);
-      try {
-        runLayout(coseOpts, 'cose');
-      } catch (e2) {
-        console.warn('[2D layout] cose failed, using grid:', e2.message);
-        runLayout({ name: 'grid', avoidOverlap: true, condense: false, animate: false }, 'grid');
-        if (_cy) _cy.fit(undefined, 60);
-      }
+      console.warn('[2D layout] fcose failed:', e1.message);
+      runLayout({
+        name: 'grid',
+        animate: true,
+        animationDuration: 400,
+        avoidOverlap: true,
+        avoidOverlapPadding: 14,
+        nodeDimensionsIncludeLabels: true,
+        condense: false,
+        padding: 60,
+        sort: (a, b) => (b.data('__degree') || 0) - (a.data('__degree') || 0),
+      }, 'grid-fallback');
     }
   }, 50);
 
