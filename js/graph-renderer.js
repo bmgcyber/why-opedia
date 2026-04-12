@@ -62,6 +62,11 @@ const TYPE_OPACITY = {
 const DEFAULT_NEIGHBOR_OPACITY = 0.55;
 const DIM_OPACITY = 0.05;
 
+// Edge types excluded from hover highlight (still shown on click/select).
+// SHARES_MECHANISM_WITH and SELF_REINFORCES connect to hundreds of nodes and
+// would light up most of the graph on hover.
+const HOVER_EXCLUDE_TYPES = new Set(['SHARES_MECHANISM_WITH', 'SELF_REINFORCES']);
+
 // ── Direct opacity / visibility helpers ──────────────────────────────────────
 // graphInstance.nodeOpacity(fn) does not reliably apply to custom nodeThreeObject
 // groups. We bypass the library and traverse materials directly via node.__threeObj.
@@ -105,6 +110,8 @@ let graphInstance = null;
 let container = null;
 let currentGraphData = { nodes: [], links: [] };
 let maxNodeDegree = 1;
+// Fast id→node lookup, rebuilt on every loadGraphData call
+const nodeById = {};
 
 // Selection / hover tracking
 let hoveredNodeId  = null;
@@ -485,6 +492,10 @@ function loadGraphData(nodes, edges) {
     n.__degree = degMap[n.id] || 0;
   }
 
+  // Rebuild id→node lookup
+  for (const k of Object.keys(nodeById)) delete nodeById[k];
+  for (const n of nodes) nodeById[n.id] = n;
+
   // Assign semantic zoom tiers
   computeTiers(nodes);
 
@@ -558,8 +569,16 @@ function refreshOpacity() {
     applyNodeOpacity(0.92);
     applyLinkVisibility(true);
     graphInstance.linkOpacity(0.35);
+    // Restore semantic zoom — nodes that were force-revealed during hover go
+    // back to their distance-based visibility.
+    applySemanticZoom();
     return;
   }
+
+  // On hover (no click selection), skip weak edge types that would light up
+  // hundreds of weakly-related nodes (e.g. SHARES_MECHANISM_WITH).
+  // On click/select we show all neighbors for full context.
+  const isHoverOnly = !selectedNodeId;
 
   // Build neighbor opacity map: focusId = 1.0, neighbors weighted by edge type.
   // If a node is reachable via multiple edge types, keep the highest opacity.
@@ -570,6 +589,9 @@ function refreshOpacity() {
     const t = typeof link.target === 'object' ? link.target.id : link.target;
     if (s !== focusId && t !== focusId) continue;
 
+    // Skip weak types on hover to prevent lighting up the whole graph
+    if (isHoverOnly && HOVER_EXCLUDE_TYPES.has(link.type)) continue;
+
     const neighborId = s === focusId ? t : s;
     const edgeOp = TYPE_OPACITY[link.type] !== undefined
       ? TYPE_OPACITY[link.type]
@@ -579,12 +601,23 @@ function refreshOpacity() {
   }
 
   applyNodeOpacity(node => neighborOpacities.get(node.id) ?? DIM_OPACITY);
+
+  // Force-reveal any neighbor nodes that semantic zoom has hidden so that
+  // highlighted edges always have a visible node at both endpoints.
+  for (const [nid] of neighborOpacities) {
+    const node = nodeById[nid];
+    if (node && node.__threeObj) node.__threeObj.visible = true;
+  }
+
   // linkOpacity() only accepts scalars in this library — use linkVisibility to
   // hide all edges not directly touching the selected node.
+  // On hover, also hide links whose types are excluded from the highlight.
   applyLinkVisibility(link => {
     const s = typeof link.source === 'object' ? link.source.id : link.source;
     const t = typeof link.target === 'object' ? link.target.id : link.target;
-    return s === focusId || t === focusId;
+    if (s !== focusId && t !== focusId) return false;
+    if (isHoverOnly && HOVER_EXCLUDE_TYPES.has(link.type)) return false;
+    return true;
   });
   graphInstance.linkOpacity(0.7);
 }
@@ -633,6 +666,13 @@ function dimToNeighborhood(rootId, depth, nodeMap, edgeMap) {
   }
 
   applyNodeOpacity(n => neighborOpacities.get(n.id) ?? DIM_OPACITY);
+
+  // Force-reveal any neighborhood nodes that semantic zoom has hidden
+  for (const id of allNeighbors) {
+    const node = nodeById[id];
+    if (node && node.__threeObj) node.__threeObj.visible = true;
+  }
+
   applyLinkVisibility(link => {
     const s = typeof link.source === 'object' ? link.source.id : link.source;
     const t = typeof link.target === 'object' ? link.target.id : link.target;
@@ -753,6 +793,8 @@ function resetVisibility() {
   applyLinkVisibility(true);
   applyNodeOpacity(0.92);
   graphInstance.linkOpacity(0.35);
+  // Re-apply semantic zoom so LOD-hidden nodes go back to their distance-based state
+  applySemanticZoom();
 }
 
 // ── Utility ───────────────────────────────────────────────────────────────────
