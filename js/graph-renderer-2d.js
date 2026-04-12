@@ -300,58 +300,68 @@ function loadGraphData(nodes, edges) {
   _cy.style(_buildStylesheet());
   _cy.endBatch();
 
-  // Defer layout until the browser has painted the container so Cytoscape
-  // sees real pixel dimensions (not 0×0 from a just-shown display:none div).
+  // Defer layout until container has real pixel dimensions.
+  // setTimeout(50) is more reliable than rAF for freshly-shown elements.
   const nodeCount = nodes.length;
-  requestAnimationFrame(() => {
+  setTimeout(() => {
     if (!_cy) return;
     const isLarge  = nodeCount > 500;
     const isMedium = nodeCount > 150 && !isLarge;
 
-    const runLayout = opts => {
+    const runLayout = (opts, label) => {
+      console.log('[2D layout] running:', label, '| nodes:', nodeCount, '| container:', _cy.width(), 'x', _cy.height());
       const l = _cy.layout(opts);
-      l.on('layoutstop', () => { if (_cy) _cy.fit(undefined, 40); });
+      l.on('layoutstop', () => { if (_cy) _cy.fit(undefined, 60); });
       l.run();
     };
 
+    // edgeElasticity controls how hard edges pull nodes together.
+    // Setting it very low is the key to getting spread — repulsion alone isn't enough
+    // because strong default springs undo it immediately.
     const fcoseOpts = {
-      name:                  'fcose',
-      animate:               true,
-      animationDuration:     isLarge ? 800 : 500,
-      randomize:             true,
-      quality:               isLarge ? 'draft' : 'default',
-      // Much higher repulsion — previous values caused all nodes to pile up
-      idealEdgeLength:       isLarge ? 120 : isMedium ? 160 : 220,
-      nodeRepulsion:         isLarge ? 1200000 : isMedium ? 800000 : 500000,
-      gravity:               isLarge ? 0.05 : 0.10,
-      gravityRange:          2.5,
-      numIter:               isLarge ? 2000 : isMedium ? 3000 : 4000,
-      tile:                  true,
-      tilingPaddingVertical:   30,
-      tilingPaddingHorizontal: 30,
+      name:             'fcose',
+      animate:          true,
+      animationDuration: isLarge ? 1200 : 700,
+      randomize:        true,
+      quality:          isLarge ? 'draft' : 'default',
+      idealEdgeLength:  isLarge ? 400 : isMedium ? 600 : 900,
+      nodeRepulsion:    isLarge ? 30000000 : isMedium ? 15000000 : 8000000,
+      edgeElasticity:   0.02,   // very weak springs — stops edges from pulling nodes back
+      gravity:          0.01,   // minimal global gravity so nodes can spread freely
+      gravityRange:     1.5,
+      numIter:          isLarge ? 2500 : isMedium ? 3500 : 5000,
+      tile:             true,
+      tilingPaddingVertical:   40,
+      tilingPaddingHorizontal: 40,
     };
+
+    // cose fallback — also tuned for spread
     const coseOpts = {
-      name:            'cose',
-      animate:         true,
-      animationDuration: isLarge ? 800 : 500,
-      randomize:       true,
-      idealEdgeLength: isLarge ? 100 : 150,
-      nodeOverlap:     40,
-      numIter:         isLarge ? 1200 : 2000,
+      name:             'cose',
+      animate:          true,
+      animationDuration: isLarge ? 1000 : 600,
+      randomize:        true,
+      idealEdgeLength:  isLarge ? 200 : 300,
+      nodeOverlap:      80,
+      nodeRepulsion:    () => isLarge ? 800000 : 400000,
+      edgeElasticity:   () => 10,   // cose uses different scale — keep low
+      numIter:          isLarge ? 1500 : 2500,
+      componentSpacing: 100,
     };
 
     try {
-      runLayout(fcoseOpts);
-    } catch (_) {
+      runLayout(fcoseOpts, 'fcose');
+    } catch (e1) {
+      console.warn('[2D layout] fcose failed, trying cose:', e1.message);
       try {
-        runLayout(coseOpts);
-      } catch (_2) {
-        // Last resort: grid always produces non-overlapping nodes
-        runLayout({ name: 'grid', animate: false });
-        if (_cy) _cy.fit(undefined, 40);
+        runLayout(coseOpts, 'cose');
+      } catch (e2) {
+        console.warn('[2D layout] cose failed, using grid:', e2.message);
+        runLayout({ name: 'grid', avoidOverlap: true, condense: false, animate: false }, 'grid');
+        if (_cy) _cy.fit(undefined, 60);
       }
     }
-  });
+  }, 50);
 
   return _data;
 }
