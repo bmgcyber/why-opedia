@@ -430,8 +430,18 @@
       });
     }
 
+    // Count edges where both endpoints are visible and the edge passes the filter
+    const links = data.links || [];
+    let visEdges = 0;
+    for (const link of links) {
+      if (!edgePassesFilter(link)) continue;
+      const s = typeof link.source === 'object' ? link.source.id : link.source;
+      const t = typeof link.target === 'object' ? link.target.id : link.target;
+      if (visibleNodeIds.has(s) && visibleNodeIds.has(t)) visEdges++;
+    }
+
     updateNodeTypeCounts(data.nodes, visibleNodeIds);
-    updateStats(visibleNodeIds.size, data.nodes.length);
+    updateStats(visibleNodeIds.size, data.nodes.length, visEdges, links.length);
   }
 
   function edgePassesFilter(link) {
@@ -457,16 +467,36 @@
     }
   }
 
-  function updateStats(visCount, totalCount) {
+  function updateStats(visCount, totalCount, visEdges, totalEdges) {
     const el = document.getElementById('stats');
     if (!el) return;
     const data = GraphRenderer.getCurrentData();
-    const totalEdges = (data.links || []).length;
-    if (visCount !== totalCount) {
-      el.innerHTML = `<div>${visCount}/${totalCount} nodes · ${totalEdges} edges</div>`;
-    } else {
-      el.innerHTML = `<div>${totalCount} nodes · ${totalEdges} edges</div>`;
-    }
+
+    const nodeStr = visCount !== totalCount
+      ? `${visCount}/${totalCount} nodes`
+      : `${totalCount} nodes`;
+    const edgeStr = visEdges !== undefined && visEdges !== totalEdges
+      ? `${visEdges}/${totalEdges} edges`
+      : `${totalEdges} edges`;
+
+    // Top-5 most-connected non-portal nodes
+    const top5 = [...(data.nodes || [])]
+      .filter(n => n.category !== 'portal')
+      .sort((a, b) => (b.__degree || 0) - (a.__degree || 0))
+      .slice(0, 5);
+
+    const topHtml = top5.map(n =>
+      `<span class="stats-hub" data-nid="${n.id}">${n.label || n.id}</span>`
+    ).join(' · ');
+
+    el.innerHTML = `<div>${nodeStr} · ${edgeStr}</div><div class="stats-hubs">${topHtml}</div>`;
+
+    el.querySelectorAll('.stats-hub').forEach(span => {
+      span.addEventListener('click', () => {
+        const node = (data.nodes || []).find(n => n.id === span.dataset.nid);
+        if (node) GraphRenderer.focusOnNode(node);
+      });
+    });
   }
 
   // ── Neighborhood API ───────────────────────────────────────────────────────

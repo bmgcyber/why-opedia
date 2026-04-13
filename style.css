@@ -979,6 +979,24 @@ body.sidebar-collapsed #stats {
   letter-spacing: 0.01em;
 }
 
+.stats-hubs {
+  margin-top: 3px;
+  font-size: 10px;
+  color: var(--text-muted);
+  opacity: 0.75;
+}
+
+.stats-hub {
+  pointer-events: auto;
+  cursor: pointer;
+  text-decoration: underline dotted;
+}
+
+.stats-hub:hover {
+  color: var(--accent);
+  opacity: 1;
+}
+
 /* ── Legend ───────────────────────────────────────────────────────────────── */
 
 #legend {
