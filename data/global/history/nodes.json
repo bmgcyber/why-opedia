@@ -12325,26 +12325,6 @@
     ]
   },
   {
-    "id": "sassanid_empire_culture",
-    "label": "Sassanid Empire & Persian High Culture (224–651 CE)",
-    "node_type": "reference",
-    "category": "era",
-    "decade": "220s",
-    "region": "Persia",
-    "scope": "global/history",
-    "summary": "The Sassanid Empire revived Persian imperial culture and produced a sophisticated civilization in philosophy, medicine, and architecture. As a rival of Rome and Byzantium, the Sassanid-Byzantine wars exhausted both powers, enabling the rapid Islamic conquests of the 7th century.",
-    "tags": [
-      "persia",
-      "sassanid",
-      "culture",
-      "zoroastrianism",
-      "philosophy",
-      "byzantine",
-      "islam",
-      "exhaustion"
-    ]
-  },
-  {
     "id": "hun_invasions",
     "label": "Hun Invasions (4th–5th century CE)",
     "node_type": "reference",
@@ -13571,15 +13551,6 @@
     "summary": "Soviet-led military alliance of Eastern Bloc nations, formed in response to NATO and used to enforce Soviet dominance in Eastern Europe."
   },
   {
-    "id": "suez_crisis",
-    "label": "Suez Crisis (1956)",
-    "category": "event",
-    "scope": "global/history",
-    "decade": 1950,
-    "region": "Middle East",
-    "summary": "Anglo-French-Israeli invasion of Egypt after Nasser nationalized the Suez Canal was halted by US and Soviet pressure, marking the end of European colonial dominance."
-  },
-  {
     "id": "hungarian_revolution_1956",
     "label": "Hungarian Revolution (1956)",
     "category": "event",
@@ -13830,15 +13801,6 @@
     "decade": 1980,
     "region": "Europe",
     "summary": "Gorbachev's twin reforms — glasnost (openness) and perestroika (restructuring) — intended to revitalize the Soviet system instead fatally undermined it by releasing suppressed demands for freedom and revealing the system's corruption."
-  },
-  {
-    "id": "first_gulf_war",
-    "label": "Gulf War (1990–1991)",
-    "category": "event",
-    "scope": "global/history",
-    "decade": 1990,
-    "region": "Middle East",
-    "summary": "US-led coalition expelled Iraq from Kuwait in a brief, decisive war that demonstrated American military dominance and established permanent US military presence in the Gulf region."
   },
   {
     "id": "nafta",
@@ -14127,24 +14089,6 @@
     "decade": -508,
     "region": "Europe",
     "summary": "Athens created the first direct democracy under Cleisthenes, limited to male citizens (excluding women, slaves, and foreigners), establishing both the model and the contradictions that would define democratic thought for millennia."
-  },
-  {
-    "id": "persian_empire",
-    "label": "Achaemenid Persian Empire (~550–330 BCE)",
-    "category": "event",
-    "scope": "global/history",
-    "decade": -550,
-    "region": "Middle East",
-    "summary": "The first true world empire governed over 40% of the ancient world's population through tolerance of local customs and religions, creating a model of multiethnic imperial administration."
-  },
-  {
-    "id": "greco_persian_wars",
-    "label": "Greco-Persian Wars (490–479 BCE)",
-    "category": "event",
-    "scope": "global/history",
-    "decade": -490,
-    "region": "Mediterranean",
-    "summary": "Persian invasions defeated at Marathon and Salamis became foundational myths of Western civilization, defining 'freedom vs tyranny' as a civilizational struggle — a framing that has shaped Western political identity ever since."
   },
   {
     "id": "alexander_conquests",
@@ -14541,15 +14485,6 @@
     "decade": 1337,
     "region": "Europe",
     "summary": "The protracted Anglo-French conflict forged French national identity, produced Joan of Arc, pioneered gunpowder artillery that ended castle-based feudal warfare, and bankrupted the English crown — reshaping both nations."
-  },
-  {
-    "id": "sassanid_empire",
-    "label": "Sassanid Persian Empire (224–651 CE)",
-    "category": "event",
-    "scope": "global/history",
-    "decade": 224,
-    "region": "Middle East",
-    "summary": "The last great pre-Islamic Persian empire preserved Zoroastrian culture and knowledge while competing with Rome and Byzantium for centuries — its exhaustion from prolonged war with Byzantium left it unable to resist the rapid Islamic conquests."
   },
   {
     "id": "swahili_coast",
@@ -15703,5 +15638,180 @@
     ],
     "summary": "Myanmar's military (Tatmadaw) has dominated politics since Ne Win's 1962 coup, allowing brief democratic openings — including Aung San Suu Kyi's NLD government (2016-2021) — before the 2021 coup restored full military rule.",
     "description": "Ne Win's 1962 coup ended Burma's parliamentary period and established military rule under the 'Burmese Way to Socialism' — nationalizing the economy, isolating the country internationally, and systematically suppressing ethnic minority insurgencies. Military rule produced economic stagnation and the 8888 Uprising (August 8, 1988), in which hundreds of thousands demonstrated and the military killed an estimated 3,000 in the crackdown. Aung San Suu Kyi emerged as the democracy movement's leader; she was awarded the Nobel Peace Prize in 1991 while under house arrest.\n\nThe military conducted a flawed election in 2010, arranged a managed transition allowing a civilian government from 2011, and permitted Suu Kyi's NLD to govern after its 2015 landslide victory. But the constitution the military wrote reserved 25% of parliament seats and key ministries for the military, ensuring continued military power. The NLD government's silence during the 2017 Rohingya genocide — which the military conducted while Suu Kyi was head of state — devastated her international reputation.\n\nThe February 2021 coup, citing election fraud in the NLD's 2020 landslide, arrested Suu Kyi and restored direct military rule. The Civil Disobedience Movement — doctors, teachers, workers refusing to work for the junta — was met with mass killings and transformed the opposition toward armed resistance. Myanmar's trajectory illustrates the limits of negotiated transitions that preserve military institutional power: the Tatmadaw demonstrated that it would accept democracy only on its own terms, and reverse it the moment those terms were challenged."
+  },
+  {
+    "id": "iran_iraq_war",
+    "label": "Iran-Iraq War (1980–1988)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1980s",
+    "region": "Middle East",
+    "wikipedia": "https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War",
+    "summary": "Eight-year conflict initiated by Saddam Hussein's Iraq invading Iran in 1980. Resulted in ~500,000–1,000,000 deaths, use of chemical weapons by Iraq, and massive economic devastation. The US covertly backed Iraq, while Iran funded proxy forces throughout the region.",
+    "tags": [
+      "war",
+      "Middle East",
+      "Iraq",
+      "Iran",
+      "chemical weapons",
+      "proxy conflict"
+    ],
+    "contemporary_relevance": "Established the pattern of Gulf regional conflict fueled by great-power competition. Iraq's war debts directly contributed to the 1990 invasion of Kuwait."
+  },
+  {
+    "id": "lebanon_civil_war",
+    "label": "Lebanese Civil War (1975–1990)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1970s–1980s",
+    "region": "Middle East",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lebanese_Civil_War",
+    "summary": "Fifteen-year sectarian conflict between Christian, Sunni, Shia, Druze, and Palestinian factions in Lebanon. Involved Syrian and Israeli military interventions, the Sabra and Shatila massacre, and the emergence of Hezbollah as an Iranian-backed militia.",
+    "tags": [
+      "war",
+      "Lebanon",
+      "sectarianism",
+      "civil war",
+      "Middle East"
+    ],
+    "contemporary_relevance": "The civil war created the conditions for Hezbollah's rise and Lebanon's chronic political paralysis — a model of sectarian power-sharing that entrenches division."
+  },
+  {
+    "id": "first_intifada",
+    "label": "First Palestinian Intifada (1987–1993)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1980s–1990s",
+    "region": "Middle East",
+    "wikipedia": "https://en.wikipedia.org/wiki/First_Intifada",
+    "summary": "Mass uprising by Palestinians in the occupied West Bank and Gaza Strip against Israeli military occupation. Characterized by widespread civil disobedience, strikes, and stone-throwing. Led directly to the Oslo Accords. Hamas emerged as a political force during this period.",
+    "tags": [
+      "Palestine",
+      "resistance",
+      "occupation",
+      "Middle East",
+      "nonviolent resistance"
+    ],
+    "contemporary_relevance": "Demonstrated that sustained popular resistance could force diplomatic negotiations. Established the Palestinian national movement as a political actor that could not be ignored."
+  },
+  {
+    "id": "second_intifada",
+    "label": "Second Intifada (2000–2005)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "2000s",
+    "region": "Middle East",
+    "wikipedia": "https://en.wikipedia.org/wiki/Second_Intifada",
+    "summary": "Second Palestinian uprising following the collapse of the Camp David peace process. Far more violent than the first, with suicide bombings and Israeli military re-occupation of Palestinian cities. Killed ~3,000 Palestinians and ~1,000 Israelis. Deepened the cycle of retaliation and weakened the two-state consensus.",
+    "tags": [
+      "Palestine",
+      "Israel",
+      "occupation",
+      "terrorism",
+      "Middle East"
+    ],
+    "contemporary_relevance": "The collapse of the Oslo framework during the Second Intifada remains the proximate cause of today's entrenched status quo, with Hamas consolidating power in Gaza."
+  },
+  {
+    "id": "hamas",
+    "label": "Hamas",
+    "category": "movement",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1980s–present",
+    "region": "Middle East",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hamas",
+    "summary": "Palestinian Islamist political and military organization founded in 1987 during the First Intifada. Emerged from the Muslim Brotherhood in Gaza. Governs the Gaza Strip since 2007 after winning elections and defeating Fatah militarily. Designated a terrorist organization by Israel, US, EU, and others; seen by supporters as a resistance movement.",
+    "tags": [
+      "Palestine",
+      "Gaza",
+      "Islamism",
+      "resistance",
+      "terrorism",
+      "Middle East"
+    ],
+    "contemporary_relevance": "Hamas's continued governance of Gaza and rejection of the two-state solution is a central obstacle to Israeli-Palestinian peace and a driver of recurring military confrontations."
+  },
+  {
+    "id": "hezbollah",
+    "label": "Hezbollah",
+    "category": "movement",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1980s–present",
+    "region": "Middle East",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hezbollah",
+    "summary": "Lebanese Shia Islamist political party and militant organization founded in 1982 with Iranian support during the Lebanese Civil War. Controls significant territory in Lebanon, operates a state-within-a-state, and has fought multiple wars with Israel. Serves as Iran's primary regional proxy.",
+    "tags": [
+      "Lebanon",
+      "Iran",
+      "Shia",
+      "proxy war",
+      "militia",
+      "Middle East"
+    ],
+    "contemporary_relevance": "Hezbollah is the primary example of Iran's 'Axis of Resistance' strategy: using non-state proxies to project power and deter adversaries without direct confrontation."
+  },
+  {
+    "id": "plo",
+    "label": "Palestinian Liberation Organization (PLO)",
+    "category": "institution",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1960s–present",
+    "region": "Middle East",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palestine_Liberation_Organization",
+    "summary": "Umbrella organization and internationally recognized representative of the Palestinian people, founded in 1964. Led by Yasser Arafat from 1969. Initially pursued armed struggle; pivoted to diplomacy after the First Intifada, leading to the Oslo Accords. Now governs the Palestinian Authority in the West Bank.",
+    "tags": [
+      "Palestine",
+      "PLO",
+      "statehood",
+      "Middle East",
+      "diplomacy"
+    ],
+    "contemporary_relevance": "The PLO's legitimacy has eroded since Oslo's failure and Hamas's Gaza takeover, leaving Palestinians without unified political representation."
+  },
+  {
+    "id": "yasser_arafat",
+    "label": "Yasser Arafat",
+    "category": "person",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1960s–2000s",
+    "region": "Middle East",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yasser_Arafat",
+    "summary": "Chairman of the PLO (1969–2004) and President of the Palestinian Authority (1994–2004). Transformed from guerrilla leader to Nobel Peace Prize recipient (1994) after signing the Oslo Accords with Rabin and Peres. Died in 2004 under disputed circumstances.",
+    "tags": [
+      "Palestine",
+      "PLO",
+      "Oslo",
+      "Middle East",
+      "Nobel Peace Prize"
+    ],
+    "contemporary_relevance": "Arafat's legacy is contested: hailed as a national symbol by Palestinians, condemned as a terrorist by Israeli hardliners. His decision to reject the 2000 Camp David proposals remains disputed and consequential."
+  },
+  {
+    "id": "abraham_accords_2020",
+    "label": "Abraham Accords (2020)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "2020s",
+    "region": "Middle East",
+    "wikipedia": "https://en.wikipedia.org/wiki/Abraham_Accords",
+    "summary": "US-brokered normalization agreements between Israel and the UAE, Bahrain, Sudan, and Morocco (2020). First Arab-Israeli normalization agreements since Egypt (1979) and Jordan (1994). Bypassed Palestinian leadership in exchange for economic and security benefits to Gulf states.",
+    "tags": [
+      "Middle East",
+      "peace",
+      "normalization",
+      "UAE",
+      "Israel",
+      "diplomacy"
+    ],
+    "contemporary_relevance": "Demonstrated that Arab states will prioritize strategic interests over Palestinian solidarity. Deepened the isolation of Palestinian leadership and altered regional alignments."
   }
 ]

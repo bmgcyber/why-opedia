@@ -9027,10 +9027,10 @@
   {
     "source": "sassanid_persian_empire",
     "type": "SHARES_MECHANISM_WITH",
-    "target": "sassanid_empire_culture"
+    "target": "sassanid_persian_empire"
   },
   {
-    "source": "sassanid_empire_culture",
+    "source": "sassanid_persian_empire",
     "type": "ENABLED",
     "target": "islamic_golden_age"
   },
@@ -9872,7 +9872,7 @@
     "weight": 2
   },
   {
-    "source": "suez_crisis",
+    "source": "suez_crisis_1956",
     "target": "decolonization_africa",
     "type": "ACCELERATED",
     "weight": 2
@@ -10113,18 +10113,18 @@
   },
   {
     "source": "ussr_collapse",
-    "target": "first_gulf_war",
+    "target": "gulf_war_1990",
     "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "cold_war_origins",
-    "target": "first_gulf_war",
+    "target": "gulf_war_1990",
     "type": "ENABLED",
     "weight": 2
   },
   {
-    "source": "first_gulf_war",
+    "source": "gulf_war_1990",
     "target": "september_11",
     "type": "ENABLED",
     "weight": 2
@@ -10466,19 +10466,13 @@
     "weight": 2
   },
   {
-    "source": "persian_empire",
-    "target": "greco_persian_wars",
-    "type": "CAUSED",
-    "weight": 3
-  },
-  {
     "source": "athenian_democracy",
-    "target": "greco_persian_wars",
+    "target": "persian_wars",
     "type": "ENABLED",
     "weight": 2
   },
   {
-    "source": "greco_persian_wars",
+    "source": "persian_wars",
     "target": "peloponnesian_war",
     "type": "ENABLED",
     "weight": 2
@@ -11103,7 +11097,7 @@
   },
   {
     "source": "camp_david_accords",
-    "target": "suez_crisis",
+    "target": "suez_crisis_1956",
     "type": "ENABLED",
     "weight": 1
   },
@@ -11252,20 +11246,14 @@
     "weight": 3
   },
   {
-    "source": "sassanid_empire",
-    "target": "rise_of_islam",
-    "type": "ENABLED",
-    "weight": 3
-  },
-  {
-    "source": "sassanid_empire",
+    "source": "sassanid_persian_empire",
     "target": "silk_road",
     "type": "EXPLOITED",
     "weight": 2
   },
   {
     "source": "persian_achaemenid_empire",
-    "target": "sassanid_empire",
+    "target": "sassanid_persian_empire",
     "type": "ENABLED",
     "weight": 2
   },
@@ -11790,5 +11778,149 @@
     "source": "bangladesh_liberation_war_1971",
     "target": "bengali_genocide_1971",
     "type": "CAUSED"
+  },
+  {
+    "id": "iranian_revolution_1979__iran_iraq_war",
+    "source": "iranian_revolution_1979",
+    "target": "iran_iraq_war",
+    "type": "CAUSED",
+    "label": "revolutionary Iran's ideological threat prompted Iraqi invasion",
+    "confidence": "high"
+  },
+  {
+    "id": "saddam_hussein__iran_iraq_war",
+    "source": "saddam_hussein",
+    "target": "iran_iraq_war",
+    "type": "CAUSED",
+    "label": "Saddam initiated invasion of Iran in September 1980",
+    "confidence": "high"
+  },
+  {
+    "id": "iran_iraq_war__gulf_war_1990",
+    "source": "iran_iraq_war",
+    "target": "gulf_war_1990",
+    "type": "ENABLED",
+    "label": "war debts and military ambition drove Iraq's invasion of Kuwait",
+    "confidence": "high"
+  },
+  {
+    "id": "iran_iraq_war__iran_contra_affair",
+    "source": "iran_iraq_war",
+    "target": "iran_contra_affair",
+    "type": "CAUSED",
+    "label": "conflict created US motivation to covertly arm Iran",
+    "confidence": "high"
+  },
+  {
+    "id": "nakba__lebanon_civil_war",
+    "source": "nakba",
+    "target": "lebanon_civil_war",
+    "type": "ENABLED",
+    "label": "Palestinian refugee crisis destabilized Lebanese demographics and politics",
+    "confidence": "high"
+  },
+  {
+    "id": "lebanon_civil_war__hezbollah",
+    "source": "lebanon_civil_war",
+    "target": "hezbollah",
+    "type": "PRODUCED",
+    "label": "civil war and Israeli 1982 invasion created conditions for Iranian-backed Hezbollah",
+    "confidence": "high"
+  },
+  {
+    "id": "iran_iraq_war__hezbollah",
+    "source": "iran_iraq_war",
+    "target": "hezbollah",
+    "type": "ENABLED",
+    "label": "Iran channeled resources into Lebanese proxy during the war",
+    "confidence": "high"
+  },
+  {
+    "id": "six_day_war_1967__first_intifada",
+    "source": "six_day_war_1967",
+    "target": "first_intifada",
+    "type": "CAUSED",
+    "label": "occupation of West Bank and Gaza created conditions for mass uprising 20 years later",
+    "confidence": "high"
+  },
+  {
+    "id": "plo__first_intifada",
+    "source": "plo",
+    "target": "first_intifada",
+    "type": "ENABLED",
+    "label": "PLO's political organizing provided the organizational infrastructure for the uprising",
+    "confidence": "medium"
+  },
+  {
+    "id": "first_intifada__oslo_accords",
+    "source": "first_intifada",
+    "target": "oslo_accords",
+    "type": "CAUSED",
+    "label": "uprising convinced Israel to negotiate with the PLO",
+    "confidence": "high"
+  },
+  {
+    "id": "first_intifada__hamas",
+    "source": "first_intifada",
+    "target": "hamas",
+    "type": "PRODUCED",
+    "label": "Hamas founded during the First Intifada as an Islamist alternative to the PLO",
+    "confidence": "high"
+  },
+  {
+    "id": "oslo_accords__second_intifada",
+    "source": "oslo_accords",
+    "target": "second_intifada",
+    "type": "CAUSED",
+    "label": "failure of Oslo peace process and Camp David 2000 collapse triggered second uprising",
+    "confidence": "high"
+  },
+  {
+    "id": "second_intifada__hamas",
+    "source": "second_intifada",
+    "target": "hamas",
+    "type": "ENABLED",
+    "label": "collapse of peace process strengthened Hamas at the expense of PLO/Fatah",
+    "confidence": "high"
+  },
+  {
+    "id": "yasser_arafat__plo",
+    "source": "yasser_arafat",
+    "target": "plo",
+    "type": "ENABLED",
+    "label": "Arafat led the PLO from 1969, transforming it into the internationally recognized Palestinian representative",
+    "confidence": "high"
+  },
+  {
+    "id": "yasser_arafat__oslo_accords",
+    "source": "yasser_arafat",
+    "target": "oslo_accords",
+    "type": "ENABLED",
+    "label": "Arafat signed the Oslo Accords as PLO chairman",
+    "confidence": "high"
+  },
+  {
+    "id": "plo__oslo_accords",
+    "source": "plo",
+    "target": "oslo_accords",
+    "type": "PRODUCED",
+    "label": "PLO negotiated and signed the Oslo framework",
+    "confidence": "high"
+  },
+  {
+    "id": "oslo_accords__abraham_accords_2020",
+    "source": "oslo_accords",
+    "target": "abraham_accords_2020",
+    "type": "ENABLED",
+    "label": "Oslo precedent of direct Arab-Israeli negotiations made later normalizations conceivable",
+    "confidence": "medium"
+  },
+  {
+    "id": "gulf_war_1990__abraham_accords_2020",
+    "source": "gulf_war_1990",
+    "target": "abraham_accords_2020",
+    "type": "ENABLED",
+    "label": "Gulf War realigned Arab state interests, creating shared security interests with Israel against Iran",
+    "confidence": "medium"
   }
 ]

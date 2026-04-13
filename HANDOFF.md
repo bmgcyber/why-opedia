@@ -95,27 +95,29 @@ data/
 
 ---
 
-## CURRENT OBJECTIVE (Session 16 — 2026-04-05)
+## CURRENT OBJECTIVE (Session 17 — 2026-04-12)
 
-**Edge type vocabulary cleanup** — IN PROGRESS.
+**Completed this session:**
+1. **Ghost node floating bug fixed** — Removed `!n.ghost` from `computeTiers` filter in `js/graph-renderer.js:420`. Ghost nodes now rank by degree in the semantic zoom tier system instead of always-visible with hidden edges.
+2. **Stats HUD upgraded** — Visible edge count (shows filtered/total when filters active) + clickable top-5 most-connected nodes. `js/filter-manager.js:433-484`, `style.css`.
+3. **5 duplicate history node groups merged** — `first_gulf_war`→`gulf_war_1990`, `suez_crisis`→`suez_crisis_1956`, `persian_empire`→`persian_achaemenid_empire`, `sassanid_empire`+`sassanid_empire_culture`→`sassanid_persian_empire`, `greco_persian_wars`→`persian_wars`. 6 nodes removed.
+4. **Middle East modern history batch** — 9 new history nodes, 5 new mechanism nodes, 18 history edges, 23 mechanism edges.
+   - **History:** `iran_iraq_war`, `lebanon_civil_war`, `first_intifada`, `second_intifada`, `hamas`, `hezbollah`, `plo`, `yasser_arafat`, `abraham_accords_2020` (positive)
+   - **Mechanisms:** `nationalism`, `sectarianism`, `asymmetric_warfare`, `occupation`, `resistance_movement`
+5. **Edge vocabulary** — already clean from Session 16; `UNDERMINED` already in filter sidebar.
 
-Edge distribution audit revealed two problems:
-1. `ENABLED` is 39.8% of all edges (2,319) — used as catch-all
-2. 70+ one-off edge types — many non-causal, many tense duplicates
+**Next content priorities:**
+- 20th-century European history gaps (post-WWII Europe, Cold War in Europe, Balkan wars 1990s)
+- Science & technology history: moon landing, green revolution, internet invention, Human Genome Project
+- More PROPOSED_TOPICS topics: Holocaust depth, Jim Crow/carceral state, CIA covert operations, opioid crisis
 
-**Canonical vocabulary (12-14 types) being enforced:**
-- Keep: `CAUSED`, `ENABLED`, `ACCELERATED`, `PRODUCED`, `DISCREDITED`, `NORMALIZED`, `SHARES_MECHANISM_WITH`, `SELF_REINFORCES`, `COLONIZED`, `EXPLOITED`, `FORCED_INTO`, `PROVIDED_COVER_FOR`, `FRAGMENTED_INTO`
-- Add new: `UNDERMINED` (absorbs SUPPRESSED, WEAKENED, DISRUPTED, DISMANTLED)
-- Tense normalize: `PRODUCES`→`PRODUCED`, `ENABLES`→`ENABLED`, `CAUSES`→`CAUSED`
-- Merge synonyms: `TRIGGERED`/`LED`/`INTENSIFIED`/`WORSENED`/`AMPLIFIED` → `CAUSED` or `ACCELERATED`
-- Delete non-causal: `SAME_AS`, `SAME_EVENT`, `CONTEMPORARY_WITH`, `PARALLEL_TO`, `CONNECTED`, `RELATED_TO`, `CONNECTED_TO`, `ASSOCIATED_WITH`
-- Remap: `INFLUENCED`/`CONTRIBUTED_TO`/`INSPIRED` → `ENABLED`; `CONTROLLED`/`CONQUERED_BY` → `COLONIZED` or `EXPLOITED`
+---
 
-**After cleanup, next content priorities:**
-- More Middle East modern history: Iran-Iraq War, Hamas/Hezbollah, Lebanon civil war
-- 20th-century European history gaps
-- Add `UNDERMINED` to filter sidebar in filter-manager.js
-- Continue history content batches
+## PREVIOUS OBJECTIVE (Session 16 — 2026-04-05)
+
+**Edge type vocabulary cleanup** — COMPLETE.
+
+Edge distribution audit: `ENABLED` was 39.8% of edges (used as catch-all); 70+ one-off types. All cleaned to canonical 12-14 types. `UNDERMINED` added to filter sidebar.
 
 ---
 
@@ -144,24 +146,23 @@ Edge distribution audit revealed two problems:
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-04-05, Session 16)
+## CURRENT DATASET STATE (as of 2026-04-12, Session 17)
 
 | Scope | Nodes | Edges |
 |-------|-------|-------|
-| History | **822** | ~1,656 |
-| Economics | **71** | ~164 |
-| Politics | **126** | ~337 |
+| History | **863** | ~1,638 |
+| Economics | **71** | ~163 |
+| Politics | **126** | ~331 |
 | Psychology | **69** | ~143 |
 | Media | **55** | ~126 |
 | Health | **62** | ~126 |
 | Art & Culture | **61** | ~70 |
-| Mechanisms | **214** | **~3,204** (cross-scope) |
-| **Total** | **1,518** | **~5,826** |
+| Mechanisms | **219** | **~3,201** (cross-scope) |
+| **Total** | **1,526** | **~5,798** |
 
-Session 16 additions: Science/Tech (13), Latin America modern (15), Labor/Women (13), African independence (13), SE/South Asian Cold War (12) = **66 new nodes**, **101 new edges**.
-| **Total nodes** | **1,771** | **~6,090** |
+Session 17 additions: 9 history nodes (Middle East modern), 5 mechanism nodes; 6 duplicate history nodes removed; 41 new edges. Net: +8 nodes, +41 edges.
 
-**Data integrity:** 0 broken edge references. Verified after every batch in Session 15.
+**Data integrity:** 0 broken edge references. Verified after every batch.
 
 ### Session 15 additions (batches 6-19):
 - **History:** +200+ nodes spanning agricultural revolution → 2020s present
@@ -393,3 +394,6 @@ Perf commit f3e2fd9 activated `applySemanticZoom()` (previously a stub). If it t
 | Session 11 | Deep mechanism wiring pass across all priority node groups: 91 cross-scope edges connecting Indigenous/manifest_destiny, East African kingdoms, Chinese history, South Asian empires, Pre-Columbian nodes, Ottoman history, medieval Europe, Priority 9 persons (angela_davis, fred_hampton, aung_san_suu_kyi, volodymyr_zelensky, xi_jinping), and all 10 economics Priority 10 nodes; within-scope economics edges for glass_steagall/housing_bubble/nafta/wto/gig/qe/offshore; added geoffrey_chaucer to history; merged 2 duplicates (hiroshima_nagasaki→atomic_bombing_hiroshima, protestant_reformation_history→protestant_reformation); total 1036 nodes, 2167 mechanism edges, 3700+ total edges |
 | Session 12 | Thin node wiring completion: all remaining thin history nodes (33) wired to ≥2 mechanism edges; politics thin/zero nodes wired (38 nodes: united_nations, nato, LBJ, FDR, cold_war_proxy_wars, immigration_crisis, disability_rights, cancel_culture, climate_activism, environmental_justice, gun_violence_policy, white_supremacy_movement, gender_pay_gap, food_sovereignty + 24 one-edge nodes); health/media thin nodes wired; merged franklin_roosevelt→franklin_d_roosevelt duplicate; total ~998 nodes, 2251 mechanism edges |
 | Session 13 | Performance optimization: LOD/semantic zoom activated (tier 1/2/3 by degree percentile), global view edge reduction (mechanism-only edges = 2251 vs 3828), adaptive force simulation (warmupTicks 150→50 for large graphs), merged pulse intervals, label texture cache. Fixed 2 post-perf regressions: scope section not showing + analytics broken (root cause: `allNodes = nodes` was set after a potentially-throwing call chain; fixed by restructuring `loadScopeIntoGraph`). Fixed 351 mechanism edges with `relation` field instead of `type`. Economics scope wired (new data, untracked). |
+| Session 14–15 | (see Previous Objectives above) Large history content expansion (+200 history nodes, +50 mechanism nodes across all major eras) |
+| Session 16 | Edge type vocabulary cleanup: canonical 12-14 types enforced, `UNDERMINED` added to sidebar, tense normalization, non-causal type deletion. Edge distribution audit run. |
+| Session 17 | Bug: ghost node floating fixed (removed `!n.ghost` from `computeTiers`). Stats HUD: visible edge count + clickable top-5 hub nodes. Duplicate cleanup: 5 node groups merged (6 removed). Middle East modern history: 9 history + 5 mechanism nodes, 41 edges. Total: 1,526 nodes. |

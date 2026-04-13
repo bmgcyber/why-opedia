@@ -20830,7 +20830,7 @@
   },
   {
     "source": "imperialism",
-    "target": "suez_crisis",
+    "target": "suez_crisis_1956",
     "type": "ENABLED",
     "weight": 3
   },
@@ -21670,7 +21670,7 @@
   },
   {
     "source": "tribute_system",
-    "target": "persian_empire",
+    "target": "persian_achaemenid_empire",
     "type": "ENABLED",
     "weight": 3
   },
@@ -23578,7 +23578,7 @@
   },
   {
     "source": "imperial_overextension",
-    "target": "sassanid_empire",
+    "target": "sassanid_persian_empire",
     "type": "ENABLED",
     "weight": 3
   },
@@ -24451,5 +24451,189 @@
     "source": "myanmar_military_history",
     "target": "political_violence",
     "type": "CAUSED"
+  },
+  {
+    "id": "iran_iraq_war__proxy_war",
+    "source": "iran_iraq_war",
+    "target": "proxy_war",
+    "type": "ENABLED",
+    "label": "superpower backing of both sides turned the war into a proxy conflict",
+    "confidence": "high"
+  },
+  {
+    "id": "iran_iraq_war__structural_violence",
+    "source": "iran_iraq_war",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "systematic targeting of civilian infrastructure and use of chemical weapons",
+    "confidence": "high"
+  },
+  {
+    "id": "iran_iraq_war__dehumanization",
+    "source": "iran_iraq_war",
+    "target": "dehumanization",
+    "type": "PRODUCED",
+    "label": "state propaganda on both sides relied on ethnic and religious dehumanization",
+    "confidence": "high"
+  },
+  {
+    "id": "lebanon_civil_war__sectarianism",
+    "source": "lebanon_civil_war",
+    "target": "sectarianism",
+    "type": "PRODUCED",
+    "label": "confessional power-sharing system entrenched sectarian identity as the basis of politics",
+    "confidence": "high"
+  },
+  {
+    "id": "lebanon_civil_war__state_collapse",
+    "source": "lebanon_civil_war",
+    "target": "state_collapse",
+    "type": "CAUSED",
+    "label": "fifteen years of civil war destroyed state institutions and divided the country",
+    "confidence": "high"
+  },
+  {
+    "id": "sectarianism__lebanon_civil_war",
+    "source": "sectarianism",
+    "target": "lebanon_civil_war",
+    "type": "ENABLED",
+    "label": "pre-existing sectarian identity system made Lebanon vulnerable to factional civil war",
+    "confidence": "high"
+  },
+  {
+    "id": "hamas__asymmetric_warfare",
+    "source": "hamas",
+    "target": "asymmetric_warfare",
+    "type": "ENABLED",
+    "label": "Hamas pioneered suicide bombing and rocket campaigns as asymmetric tactics against Israel",
+    "confidence": "high"
+  },
+  {
+    "id": "hezbollah__asymmetric_warfare",
+    "source": "hezbollah",
+    "target": "asymmetric_warfare",
+    "type": "ENABLED",
+    "label": "Hezbollah's 2006 war with Israel demonstrated that non-state actors can fight standing armies to a draw",
+    "confidence": "high"
+  },
+  {
+    "id": "hamas__resistance_movement",
+    "source": "hamas",
+    "target": "resistance_movement",
+    "type": "ENABLED",
+    "label": "Hamas frames itself as a resistance movement against occupation, with mass support among Palestinians",
+    "confidence": "high"
+  },
+  {
+    "id": "hezbollah__proxy_war",
+    "source": "hezbollah",
+    "target": "proxy_war",
+    "type": "ENABLED",
+    "label": "Hezbollah is Iran's primary regional proxy, fighting on multiple fronts as a state-within-a-state",
+    "confidence": "high"
+  },
+  {
+    "id": "plo__resistance_movement",
+    "source": "plo",
+    "target": "resistance_movement",
+    "type": "ENABLED",
+    "label": "PLO institutionalized Palestinian national resistance as a political and military movement",
+    "confidence": "high"
+  },
+  {
+    "id": "six_day_war_1967__occupation",
+    "source": "six_day_war_1967",
+    "target": "occupation",
+    "type": "CAUSED",
+    "label": "Israel's capture of West Bank and Gaza began 57+ years of military occupation",
+    "confidence": "high"
+  },
+  {
+    "id": "occupation__first_intifada",
+    "source": "occupation",
+    "target": "first_intifada",
+    "type": "CAUSED",
+    "label": "two decades of military occupation generated the conditions for mass uprising",
+    "confidence": "high"
+  },
+  {
+    "id": "occupation__second_intifada",
+    "source": "occupation",
+    "target": "second_intifada",
+    "type": "ENABLED",
+    "label": "continued occupation after Oslo's failure drove renewed Palestinian uprising",
+    "confidence": "high"
+  },
+  {
+    "id": "occupation__resistance_movement",
+    "source": "occupation",
+    "target": "resistance_movement",
+    "type": "PRODUCED",
+    "label": "prolonged occupation reliably generates organized resistance — the mechanism that produced the PLO, Hamas, and Hezbollah",
+    "confidence": "high"
+  },
+  {
+    "id": "occupation__asymmetric_warfare",
+    "source": "occupation",
+    "target": "asymmetric_warfare",
+    "type": "ENABLED",
+    "label": "occupied populations without conventional military force adopt asymmetric tactics",
+    "confidence": "high"
+  },
+  {
+    "id": "balfour_declaration__nationalism",
+    "source": "balfour_declaration",
+    "target": "nationalism",
+    "type": "ENABLED",
+    "label": "Zionist nationalism and Arab nationalism both intensified as competing claims to the same territory",
+    "confidence": "high"
+  },
+  {
+    "id": "gamal_nasser__nationalism",
+    "source": "gamal_nasser",
+    "target": "nationalism",
+    "type": "ENABLED",
+    "label": "Nasser's pan-Arab nationalism became the dominant regional ideology of the 1950s-60s",
+    "confidence": "high"
+  },
+  {
+    "id": "nationalism__sectarianism",
+    "source": "nationalism",
+    "target": "sectarianism",
+    "type": "ENABLED",
+    "label": "when nationalist movements fail to deliver, sectarian identities often fill the political vacuum",
+    "confidence": "medium"
+  },
+  {
+    "id": "nakba__resistance_movement",
+    "source": "nakba",
+    "target": "resistance_movement",
+    "type": "PRODUCED",
+    "label": "the 1948 expulsion of 700,000 Palestinians created the political foundation of the Palestinian national movement",
+    "confidence": "high"
+  },
+  {
+    "id": "first_intifada__nonviolent_resistance",
+    "source": "first_intifada",
+    "target": "nonviolent_resistance",
+    "type": "ENABLED",
+    "label": "the First Intifada was largely characterized by civil disobedience, strikes, and boycotts rather than armed violence",
+    "confidence": "medium"
+  },
+  {
+    "id": "oslo_accords__international_law",
+    "source": "oslo_accords",
+    "target": "international_law",
+    "type": "ENABLED",
+    "label": "Oslo framework attempted to create a legal architecture for Palestinian self-determination",
+    "confidence": "medium"
+  },
+  {
+    "id": "abraham_accords_2020__coalition_building",
+    "source": "abraham_accords_2020",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "Abraham Accords built a new regional coalition around shared opposition to Iran",
+    "confidence": "high"
   }
 ]
