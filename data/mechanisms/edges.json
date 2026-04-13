@@ -28603,5 +28603,347 @@
     "target": "corporate_regulatory_capture",
     "type": "PRODUCED",
     "weight": 5
+  },
+  {
+    "source": "james_baldwin",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "james_baldwin",
+    "target": "social_movement",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "systemic_racism",
+    "target": "james_baldwin",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "fannie_lou_hamer",
+    "target": "nonviolent_resistance",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "fannie_lou_hamer",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "fannie_lou_hamer",
+    "target": "social_movement",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "bayard_rustin",
+    "target": "nonviolent_resistance",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "bayard_rustin",
+    "target": "coalition_building",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "systemic_racism",
+    "target": "bayard_rustin",
+    "type": "CAUSED",
+    "weight": 2
+  },
+  {
+    "source": "paul_robeson",
+    "target": "social_movement",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "paul_robeson",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "red_scare",
+    "target": "paul_robeson",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "triangle_shirtwaist_fire",
+    "target": "class_struggle",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "triangle_shirtwaist_fire",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "wage_suppression",
+    "target": "triangle_shirtwaist_fire",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "haymarket_affair",
+    "target": "class_struggle",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "haymarket_affair",
+    "target": "social_movement",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "political_violence",
+    "target": "haymarket_affair",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "pullman_strike_1894",
+    "target": "class_struggle",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "pullman_strike_1894",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "authoritarian_control",
+    "target": "pullman_strike_1894",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "taft_hartley_act",
+    "target": "wage_suppression",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "taft_hartley_act",
+    "target": "class_struggle",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "taft_hartley_act",
+    "target": "red_scare",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "united_farm_workers",
+    "target": "nonviolent_resistance",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "united_farm_workers",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "wage_suppression",
+    "target": "united_farm_workers",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "ferguson_shooting",
+    "target": "systemic_racism",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "ferguson_shooting",
+    "target": "social_movement",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "structural_violence",
+    "target": "ferguson_shooting",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "me_too_movement",
+    "target": "social_movement",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "me_too_movement",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "me_too_movement",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "citizens_united_ruling",
+    "target": "dark_money",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "citizens_united_ruling",
+    "target": "regulatory_capture",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "citizens_united_ruling",
+    "target": "wealth_concentration",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "voting_rights_act_gutted_2013",
+    "target": "systemic_racism",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "voting_rights_act_gutted_2013",
+    "target": "democratic_backsliding",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "voting_rights_act_gutted_2013",
+    "target": "election_interference",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "structural_violence",
+    "target": "soweto_uprising",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "soweto_uprising",
+    "target": "social_movement",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "soweto_uprising",
+    "target": "resistance_movement",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "mandela_imprisonment",
+    "target": "resistance_movement",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "mandela_imprisonment",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "authoritarian_control",
+    "target": "mandela_imprisonment",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "hong_kong_protests_2019",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "hong_kong_protests_2019",
+    "target": "social_movement",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "authoritarian_control",
+    "target": "hong_kong_protests_2019",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "uyghur_detention",
+    "target": "totalitarianism",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "uyghur_detention",
+    "target": "dehumanization",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "uyghur_detention",
+    "target": "surveillance_state",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "authoritarian_control",
+    "target": "berlin_wall_construction",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "berlin_wall_construction",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "berlin_wall_construction",
+    "target": "red_scare",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "us_vietnam_escalation",
+    "target": "proxy_war",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "us_vietnam_escalation",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "us_vietnam_escalation",
+    "target": "political_violence",
+    "type": "CAUSED",
+    "weight": 4
   }
 ]

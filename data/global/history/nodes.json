@@ -16286,5 +16286,138 @@
     "category": "institution",
     "decade": 1996,
     "description": "Pharmaceutical company that aggressively marketed OxyContin through misleading claims about addiction risk, deploying sales representatives to target high-prescribing doctors, and generating tens of billions in revenue while triggering the opioid epidemic that killed hundreds of thousands of Americans."
+  },
+  {
+    "id": "james_baldwin",
+    "label": "James Baldwin",
+    "category": "person",
+    "decade": 1955,
+    "description": "Novelist, playwright, and essayist who explored race, sexuality, and class in America, producing works like 'Notes of a Native Son,' 'The Fire Next Time,' and 'Giovanni's Room' \u2014 one of the most important voices of the 20th century."
+  },
+  {
+    "id": "fannie_lou_hamer",
+    "label": "Fannie Lou Hamer",
+    "category": "person",
+    "decade": 1962,
+    "description": "Sharecropper turned voting rights activist who co-founded the Mississippi Freedom Democratic Party, testified at the 1964 DNC, and endured beatings for attempting to register to vote \u2014 a foundational figure in the civil rights movement."
+  },
+  {
+    "id": "bayard_rustin",
+    "label": "Bayard Rustin",
+    "category": "person",
+    "decade": 1963,
+    "description": "Pacifist organizer who introduced Gandhian nonviolence to the American civil rights movement, organized the 1963 March on Washington, and advised MLK \u2014 largely erased from history due to his homosexuality."
+  },
+  {
+    "id": "paul_robeson",
+    "label": "Paul Robeson",
+    "category": "person",
+    "decade": 1940,
+    "description": "Singer, actor, and radical Black activist who linked American racism to global colonialism, had his passport revoked and career destroyed during McCarthyism for refusing to renounce communism and his solidarity with labor movements worldwide."
+  },
+  {
+    "id": "triangle_shirtwaist_fire",
+    "label": "Triangle Shirtwaist Fire (1911)",
+    "category": "event",
+    "decade": 1911,
+    "description": "Factory fire that killed 146 garment workers \u2014 mostly young immigrant women \u2014 in New York City, unable to escape due to locked doors and absent fire escapes. Catalyzed labor reform, building codes, and the rise of the ILGWU."
+  },
+  {
+    "id": "haymarket_affair",
+    "label": "Haymarket Affair (1886)",
+    "category": "event",
+    "decade": 1886,
+    "description": "Labor demonstration in Chicago that ended when a bomb killed police officers; eight anarchist leaders were arrested and four executed despite no evidence of their guilt \u2014 a foundational moment in the American labor movement and international workers' solidarity."
+  },
+  {
+    "id": "pullman_strike_1894",
+    "label": "Pullman Strike (1894)",
+    "category": "event",
+    "decade": 1894,
+    "description": "National railroad workers' strike led by Eugene Debs's American Railway Union; broken by federal troops over the objection of the governor of Illinois, establishing the template for federal strike-breaking and the limits of labor power."
+  },
+  {
+    "id": "taft_hartley_act",
+    "label": "Taft-Hartley Act (1947)",
+    "category": "event",
+    "decade": 1947,
+    "description": "Federal law that restricted union power by outlawing sympathy strikes, secondary boycotts, and closed shops, while requiring union leaders to sign anti-communist oaths \u2014 significantly weakening organized labor's political and economic reach."
+  },
+  {
+    "id": "united_farm_workers",
+    "label": "United Farm Workers Movement",
+    "category": "movement",
+    "decade": 1965,
+    "description": "Labor movement led by Cesar Chavez and Dolores Huerta organizing migrant farmworkers \u2014 historically excluded from labor protections \u2014 through boycotts, strikes, and nonviolent resistance, winning collective bargaining rights in California by 1975."
+  },
+  {
+    "id": "ferguson_shooting",
+    "label": "Ferguson Uprising (2014)",
+    "category": "event",
+    "decade": 2014,
+    "description": "Killing of Michael Brown by police in Ferguson, Missouri, and the subsequent protests and militarized police response that catalyzed the Black Lives Matter movement into national consciousness."
+  },
+  {
+    "id": "me_too_movement",
+    "label": "#MeToo Movement",
+    "category": "movement",
+    "decade": 2017,
+    "description": "Mass social movement exposing sexual harassment and assault, originating with Tarana Burke's work with survivors and exploding in 2017 around Harvey Weinstein's exposure \u2014 leading to high-profile accountability and a reckoning with institutional protection of abusers."
+  },
+  {
+    "id": "citizens_united_ruling",
+    "label": "Citizens United (2010)",
+    "category": "event",
+    "decade": 2010,
+    "description": "Supreme Court ruling that corporations and unions have free speech rights to spend unlimited money on elections, opening floodgates for dark money in American politics and dramatically amplifying the political power of the wealthy."
+  },
+  {
+    "id": "voting_rights_act_gutted_2013",
+    "label": "Shelby County v. Holder (2013)",
+    "category": "event",
+    "decade": 2013,
+    "description": "Supreme Court ruling that gutted the Voting Rights Act by eliminating the preclearance requirement for states with histories of voting discrimination, immediately unleashing voter suppression measures across the South."
+  },
+  {
+    "id": "soweto_uprising",
+    "label": "Soweto Uprising (1976)",
+    "category": "event",
+    "decade": 1976,
+    "description": "Student uprising in Soweto, South Africa against apartheid government's mandate to teach in Afrikaans; police killed hundreds of protesters, sparking international outrage and dramatically escalating the anti-apartheid movement."
+  },
+  {
+    "id": "mandela_imprisonment",
+    "label": "Mandela's Imprisonment (1964\u20131990)",
+    "category": "event",
+    "decade": 1964,
+    "description": "Nelson Mandela's 27-year imprisonment on Robben Island for armed resistance against apartheid, during which he became the global symbol of the anti-apartheid movement and the injustice of the apartheid system."
+  },
+  {
+    "id": "hong_kong_protests_2019",
+    "label": "Hong Kong Protests (2019)",
+    "category": "event",
+    "decade": 2019,
+    "description": "Mass pro-democracy protests in Hong Kong triggered by an extradition bill, involving millions of demonstrators and escalating government crackdowns, ending with Beijing's imposition of the National Security Law in 2020 effectively ending Hong Kong's autonomy."
+  },
+  {
+    "id": "uyghur_detention",
+    "label": "Uyghur Detention Camps",
+    "category": "event",
+    "decade": 2017,
+    "description": "China's mass internment of over 1 million Uyghur Muslims in Xinjiang 'vocational training centers' \u2014 documented through leaked government documents and satellite imagery \u2014 involving forced cultural assimilation, surveillance, forced labor, and reproductive suppression."
+  },
+  {
+    "id": "berlin_wall_construction",
+    "label": "Berlin Wall Construction (1961)",
+    "category": "event",
+    "decade": 1961,
+    "description": "East Germany's erection of a barrier sealing East Berlin from the West in 1961, preventing further mass emigration of skilled workers; symbol of Cold War division for 28 years until its fall in 1989."
+  },
+  {
+    "id": "us_vietnam_escalation",
+    "label": "US Vietnam War Escalation",
+    "category": "event",
+    "decade": 1964,
+    "description": "Systematic US military escalation in Vietnam from the fabricated Gulf of Tonkin incident through the troop surge to 500,000 soldiers, fought as a Cold War proxy against Ho Chi Minh's nationalist-communist movement, ultimately failing at enormous human cost."
   }
 ]
