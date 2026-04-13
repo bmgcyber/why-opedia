@@ -187,11 +187,11 @@ function initRenderer(containerEl) {
   // only touch vx/vy, never vz, which collapses the graph to a flat plane).
   // graphInstance.d3Force('name') with no second arg returns the existing instance.
   const chargeForce = graphInstance.d3Force('charge');
-  if (chargeForce) chargeForce.strength(-500);
+  if (chargeForce) chargeForce.strength(-600);
 
   const linkForce = graphInstance.d3Force('link');
   if (linkForce) linkForce.distance(link =>
-    link.type === 'SHARES_MECHANISM_WITH' ? 380 : 200
+    link.type === 'SHARES_MECHANISM_WITH' ? 456 : 240
   );
 
   // Remove the default center force — it pulls everything to z=0 and fights z spread.
@@ -512,9 +512,9 @@ function loadGraphData(nodes, edges) {
 
   // Randomize initial 3D positions so force sim starts with z-spread
   nodes.forEach(node => {
-    if (node.x === undefined) node.x = (Math.random() - 0.5) * 400;
-    if (node.y === undefined) node.y = (Math.random() - 0.5) * 400;
-    if (node.z === undefined) node.z = (Math.random() - 0.5) * 400;
+    if (node.x === undefined) node.x = (Math.random() - 0.5) * 480;
+    if (node.y === undefined) node.y = (Math.random() - 0.5) * 480;
+    if (node.z === undefined) node.z = (Math.random() - 0.5) * 480;
   });
 
   currentGraphData = { nodes, links };
