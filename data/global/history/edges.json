@@ -10826,7 +10826,7 @@
     "weight": 2
   },
   {
-    "source": "balkan_wars",
+    "source": "balkan_wars_1912",
     "target": "world_war_i",
     "type": "CAUSED",
     "weight": 3
@@ -11090,7 +11090,7 @@
     "weight": 2
   },
   {
-    "source": "nuclear_test_ban_treaty",
+    "source": "nuclear_test_ban_treaty_1963",
     "target": "cuban_missile_crisis",
     "type": "PRODUCED",
     "weight": 3
@@ -11126,7 +11126,7 @@
     "weight": 3
   },
   {
-    "source": "green_revolution",
+    "source": "green_revolution_1960s",
     "target": "global_poverty_reduction",
     "type": "ENABLED",
     "weight": 2
@@ -11922,5 +11922,189 @@
     "type": "ENABLED",
     "label": "Gulf War realigned Arab state interests, creating shared security interests with Israel against Iran",
     "confidence": "medium"
+  },
+  {
+    "id": "warsaw_pact__hungarian_revolution_1956",
+    "source": "warsaw_pact",
+    "target": "hungarian_revolution_1956",
+    "type": "CAUSED",
+    "label": "Soviet military intervention crushed the uprising under Warsaw Pact framework",
+    "confidence": "high"
+  },
+  {
+    "id": "hungarian_revolution_1956__prague_spring_1968",
+    "source": "hungarian_revolution_1956",
+    "target": "prague_spring_1968",
+    "type": "ENABLED",
+    "label": "1956 showed liberalization was possible; also showed its limits — both motivating and informing 1968",
+    "confidence": "medium"
+  },
+  {
+    "id": "prague_spring_1968__solidarity_movement_poland",
+    "source": "prague_spring_1968",
+    "target": "solidarity_movement_poland",
+    "type": "ENABLED",
+    "label": "Prague Spring model of reform from within inspired Polish dissident organizing",
+    "confidence": "medium"
+  },
+  {
+    "id": "solidarity_movement_poland__velvet_revolution_1989",
+    "source": "solidarity_movement_poland",
+    "target": "velvet_revolution_1989",
+    "type": "ENABLED",
+    "label": "Solidarity's success in Poland 1989 triggered the domino of 1989 revolutions across Eastern Europe",
+    "confidence": "high"
+  },
+  {
+    "id": "fall_of_berlin_wall__velvet_revolution_1989",
+    "source": "fall_of_berlin_wall",
+    "target": "velvet_revolution_1989",
+    "type": "CAUSED",
+    "label": "Berlin Wall's fall in November 1989 directly triggered Czechoslovak uprising days later",
+    "confidence": "high"
+  },
+  {
+    "id": "marshall_plan_1948__german_economic_miracle",
+    "source": "marshall_plan_1948",
+    "target": "german_economic_miracle",
+    "type": "ENABLED",
+    "label": "Marshall Plan aid and currency reform provided the capital base for West German recovery",
+    "confidence": "high"
+  },
+  {
+    "id": "german_economic_miracle__european_union_formation",
+    "source": "german_economic_miracle",
+    "target": "european_union_formation",
+    "type": "ENABLED",
+    "label": "West Germany's economic recovery made it the engine of European integration",
+    "confidence": "high"
+  },
+  {
+    "id": "marshall_plan_1948__european_union_formation",
+    "source": "marshall_plan_1948",
+    "target": "european_union_formation",
+    "type": "ENABLED",
+    "label": "Marshall Plan created the economic cooperation frameworks that evolved into the EEC and EU",
+    "confidence": "high"
+  },
+  {
+    "id": "world_war_ii__european_union_formation",
+    "source": "world_war_ii",
+    "target": "european_union_formation",
+    "type": "CAUSED",
+    "label": "WWII's devastation made European political leaders determined to make future wars impossible through integration",
+    "confidence": "high"
+  },
+  {
+    "id": "ussr_collapse__velvet_revolution_1989",
+    "source": "ussr_collapse",
+    "target": "velvet_revolution_1989",
+    "type": "ENABLED",
+    "label": "Gorbachev's explicit renunciation of the Brezhnev Doctrine removed Soviet veto on Eastern European reform",
+    "confidence": "high"
+  },
+  {
+    "id": "green_revolution_1960s__human_genome_project_2003",
+    "source": "green_revolution_1960s",
+    "target": "human_genome_project_2003",
+    "type": "ENABLED",
+    "label": "Green Revolution's agricultural science methods influenced large-scale biological research programs",
+    "confidence": "low"
+  },
+  {
+    "id": "internet_invention__world_wide_web",
+    "source": "internet_invention",
+    "target": "world_wide_web",
+    "type": "PRODUCED",
+    "label": "ARPANET/internet infrastructure was the substrate Berners-Lee built the Web on",
+    "confidence": "high"
+  },
+  {
+    "id": "transistor_semiconductor_revolution__internet_invention",
+    "source": "transistor_semiconductor_revolution",
+    "target": "internet_invention",
+    "type": "ENABLED",
+    "label": "Integrated circuits and microprocessors enabled the digital networking that became the internet",
+    "confidence": "high"
+  },
+  {
+    "id": "transistor_semiconductor_revolution__personal_computer_revolution",
+    "source": "transistor_semiconductor_revolution",
+    "target": "personal_computer_revolution",
+    "type": "CAUSED",
+    "label": "Microprocessor (Intel 4004, 1971) directly enabled personal computers",
+    "confidence": "high"
+  },
+  {
+    "id": "space_race__apollo_moon_landing",
+    "source": "space_race",
+    "target": "apollo_moon_landing",
+    "type": "PRODUCED",
+    "label": "Space Race competition directly drove the Apollo program and moon landing",
+    "confidence": "high"
+  },
+  {
+    "id": "world_wide_web__arab_spring",
+    "source": "world_wide_web",
+    "target": "arab_spring",
+    "type": "ENABLED",
+    "label": "Web and social media platforms provided coordination infrastructure for Arab Spring organizing",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow_laws__convict_leasing",
+    "source": "jim_crow_laws",
+    "target": "convict_leasing",
+    "type": "PRODUCED",
+    "label": "Jim Crow's Black Codes criminalized Black life to generate prison labor supply",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow_laws__civil_rights_act_1964",
+    "source": "jim_crow_laws",
+    "target": "civil_rights_act_1964",
+    "type": "CAUSED",
+    "label": "Civil Rights Act was the direct legislative response to Jim Crow's systematic violations",
+    "confidence": "high"
+  },
+  {
+    "id": "iranian_coup_1953__cia_covert_operations",
+    "source": "iranian_coup_1953",
+    "target": "cia_covert_operations",
+    "type": "ENABLED",
+    "label": "Iran 1953 was the CIA's first major successful coup — establishing the template for subsequent interventions",
+    "confidence": "high"
+  },
+  {
+    "id": "cia_covert_operations__iranian_revolution_1979",
+    "source": "cia_covert_operations",
+    "target": "iranian_revolution_1979",
+    "type": "ENABLED",
+    "label": "CIA-restored Shah's authoritarian rule created the conditions for the 1979 revolution — classic blowback",
+    "confidence": "high"
+  },
+  {
+    "id": "reconstruction__jim_crow_laws",
+    "source": "reconstruction",
+    "target": "jim_crow_laws",
+    "type": "CAUSED",
+    "label": "End of Reconstruction enabled Southern states to impose Jim Crow racial apartheid",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war_origins__hungarian_revolution_1956",
+    "source": "cold_war_origins",
+    "target": "hungarian_revolution_1956",
+    "type": "CAUSED",
+    "label": "Cold War division kept Hungary under Soviet occupation",
+    "confidence": "high"
+  },
+  {
+    "id": "cold_war_origins__cia_covert_operations",
+    "source": "cold_war_origins",
+    "target": "cia_covert_operations",
+    "type": "ENABLED",
+    "label": "Cold War anti-communism authorized CIA covert interventions globally",
+    "confidence": "high"
   }
 ]

@@ -14280,15 +14280,6 @@
     "summary": "Germany's systematic extermination of the Herero and Nama peoples in German Southwest Africa was the 20th century's first genocide, deploying concentration camps and extermination orders that provided a direct precedent for the Holocaust."
   },
   {
-    "id": "balkan_wars",
-    "label": "Balkan Wars (1912–1913)",
-    "category": "event",
-    "scope": "global/history",
-    "decade": 1912,
-    "region": "Europe",
-    "summary": "Two rapid wars reshaped southeastern Europe as Ottoman territory fragmented and new nationalist states fought over successor territories — establishing the conditions that made Sarajevo 1914 the trigger for world war."
-  },
-  {
     "id": "chinese_revolution_1911",
     "label": "Chinese Revolution of 1911",
     "category": "event",
@@ -14352,15 +14343,6 @@
     "summary": "Born into slavery, Sojourner Truth became a leading abolitionist and women's rights advocate, her 'Ain't I a Woman?' speech of 1851 connecting racial and gender liberation."
   },
   {
-    "id": "nuclear_test_ban_treaty",
-    "label": "Partial Nuclear Test Ban Treaty (1963)",
-    "category": "event",
-    "scope": "global/history",
-    "decade": 1963,
-    "region": "Global",
-    "summary": "First nuclear arms control agreement, banning atmospheric, underwater, and outer space testing, signed after the Cuban Missile Crisis demonstrated how close nuclear war was — the beginning of the arms control regime."
-  },
-  {
     "id": "camp_david_accords",
     "label": "Camp David Accords (1978)",
     "category": "event",
@@ -14404,15 +14386,6 @@
     "decade": 1947,
     "region": "Asia",
     "summary": "Independence achieved through Gandhi's nonviolent mass movement became the defining demonstration that colonial power could be overcome without armed revolt — inspiring independence movements across Africa and Asia."
-  },
-  {
-    "id": "green_revolution",
-    "label": "Green Revolution (1950s–1970s)",
-    "category": "event",
-    "scope": "global/history",
-    "decade": 1960,
-    "region": "Asia",
-    "summary": "Agricultural research producing high-yield crop varieties, irrigation, and fertilizer use prevented predicted famines in South Asia and Latin America, averting mass starvation — though with significant environmental and equity costs."
   },
   {
     "id": "global_poverty_reduction",
@@ -15813,5 +15786,233 @@
       "diplomacy"
     ],
     "contemporary_relevance": "Demonstrated that Arab states will prioritize strategic interests over Palestinian solidarity. Deepened the isolation of Palestinian leadership and altered regional alignments."
+  },
+  {
+    "id": "prague_spring_1968",
+    "label": "Prague Spring (1968)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1960s",
+    "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Prague_Spring",
+    "summary": "Period of political liberalization in Czechoslovakia under Alexander Dubček ('socialism with a human face'). Ended by Warsaw Pact invasion in August 1968. Enunciated the Brezhnev Doctrine: the USSR had the right to intervene in socialist countries to protect the bloc.",
+    "tags": [
+      "Czechoslovakia",
+      "Soviet",
+      "Cold War",
+      "Europe",
+      "democracy"
+    ],
+    "contemporary_relevance": "The Brezhnev Doctrine froze Eastern European political development until Gorbachev explicitly renounced it in 1989 — the moment that made 1989 revolutions possible."
+  },
+  {
+    "id": "velvet_revolution_1989",
+    "label": "Velvet Revolution (1989)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1980s–1990s",
+    "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Velvet_Revolution",
+    "summary": "Peaceful anti-communist revolution in Czechoslovakia in November 1989, part of the broader 1989 wave. Mass civil disobedience and general strikes brought down the communist government within weeks without violence. Václav Havel became president.",
+    "tags": [
+      "Czechoslovakia",
+      "revolution",
+      "democracy",
+      "Cold War",
+      "nonviolent"
+    ],
+    "contemporary_relevance": "The Velvet Revolution is the model case for peaceful democratic transition — demonstrating that sustained nonviolent mass mobilization can topple entrenched authoritarian regimes."
+  },
+  {
+    "id": "european_union_formation",
+    "label": "European Union Formation (1957–1993)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1950s–1990s",
+    "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/European_Union",
+    "summary": "From the Treaty of Rome (1957) creating the EEC to the Maastricht Treaty (1993) establishing the EU. The most ambitious experiment in supranational political integration in history — creating a single market, common currency, free movement, and shared governance institutions among formerly warring nations.",
+    "tags": [
+      "Europe",
+      "integration",
+      "peace",
+      "democracy",
+      "economics"
+    ],
+    "contemporary_relevance": "The EU is the primary structural reason Western Europe has not had war between member states since 1945. Brexit and rising Euroscepticism test whether economic interdependence is sufficient to sustain political unity."
+  },
+  {
+    "id": "german_economic_miracle",
+    "label": "German Economic Miracle (Wirtschaftswunder)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1950s–1960s",
+    "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wirtschaftswunder",
+    "summary": "West Germany's rapid post-war economic recovery and sustained growth (1950–1973). Driven by Marshall Plan aid, currency reform, social market economy, export orientation, and co-determination (worker representation on company boards). GDP quadrupled within two decades.",
+    "tags": [
+      "Germany",
+      "economics",
+      "welfare state",
+      "Cold War",
+      "Europe"
+    ],
+    "contemporary_relevance": "The Wirtschaftswunder established the 'social market economy' model — regulated capitalism with strong labor rights and welfare state — as a viable alternative to both Soviet socialism and American laissez-faire capitalism."
+  },
+  {
+    "id": "penicillin_discovery",
+    "label": "Penicillin Discovery (1928)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1920s–1940s",
+    "region": "Global",
+    "wikipedia": "https://en.wikipedia.org/wiki/Penicillin",
+    "summary": "Alexander Fleming's 1928 discovery of penicillin and its development as the first antibiotic by Florey and Chain in the 1940s. Saved an estimated 200 million lives. Transformed infectious disease from a leading cause of death to a manageable condition — enabling safe surgery, childbirth, and immune suppression.",
+    "tags": [
+      "medicine",
+      "science",
+      "antibiotics",
+      "positive",
+      "discovery"
+    ],
+    "contemporary_relevance": "Antibiotic resistance is now reversing penicillin's gains. The discovery also established the pharmaceutical research model that continues to shape drug development."
+  },
+  {
+    "id": "transistor_semiconductor_revolution",
+    "label": "Transistor and Semiconductor Revolution (1947–1970s)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1947–1970s",
+    "region": "Global",
+    "wikipedia": "https://en.wikipedia.org/wiki/Transistor",
+    "summary": "Invention of the transistor (1947, Bell Labs) and development of integrated circuits (1958–59) enabled exponential increases in computing power. Moore's Law (doubling of transistors every ~2 years) drove the digital revolution that reshaped every sector of human activity.",
+    "tags": [
+      "technology",
+      "computing",
+      "silicon valley",
+      "science",
+      "positive"
+    ],
+    "contemporary_relevance": "Semiconductor technology is now a primary arena of US-China geopolitical competition. Taiwan's TSMC produces the most advanced chips; control of this supply chain is considered a matter of national security."
+  },
+  {
+    "id": "world_wide_web",
+    "label": "World Wide Web (1989–1991)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1989–1990s",
+    "region": "Global",
+    "wikipedia": "https://en.wikipedia.org/wiki/World_Wide_Web",
+    "summary": "Tim Berners-Lee's invention of the World Wide Web at CERN (1989–1991) transformed the internet from a research network into a global information infrastructure. HTTP, HTML, and URLs provided a universal interface for sharing information — enabling e-commerce, social media, and the information economy.",
+    "tags": [
+      "technology",
+      "internet",
+      "communication",
+      "positive",
+      "science"
+    ],
+    "contemporary_relevance": "The Web's open architecture (no central control, no permission required to publish) was a deliberate design choice enabling democratization — now in tension with platform concentration and algorithmic curation."
+  },
+  {
+    "id": "climate_science_ipcc",
+    "label": "Climate Science and the IPCC (1988–present)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1980s–present",
+    "region": "Global",
+    "wikipedia": "https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change",
+    "summary": "Establishment of the IPCC (1988) and development of the scientific consensus on anthropogenic climate change. By 1995, the IPCC concluded human activity was detectably altering the climate. By 2023, 'unequivocal' warming due to human influence is documented across 6 assessment reports, with each one projecting higher risk.",
+    "tags": [
+      "climate",
+      "science",
+      "environment",
+      "IPCC",
+      "crisis"
+    ],
+    "contemporary_relevance": "The IPCC represents both the power of international scientific consensus and its limits: three decades of clear warnings have not produced emissions reductions sufficient to prevent dangerous warming."
+  },
+  {
+    "id": "convict_leasing",
+    "label": "Convict Leasing System (1865–1940s)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1865–1940s",
+    "region": "Americas",
+    "wikipedia": "https://en.wikipedia.org/wiki/Convict_leasing",
+    "summary": "Post-Civil War system in which Southern states leased Black prisoners to private companies for labor. Black Codes criminalized minor acts (vagrancy, unemployment) to generate prisoners. Convict laborers built railroads, worked mines, and harvested crops under conditions often worse than antebellum slavery. Killed thousands and made Southern states profit from prison labor.",
+    "tags": [
+      "race",
+      "slavery",
+      "prisons",
+      "Americas",
+      "systemic racism"
+    ],
+    "contemporary_relevance": "Convict leasing is the direct predecessor of mass incarceration. The 13th Amendment explicitly permits 'involuntary servitude as punishment for crime' — the legal basis both systems exploited."
+  },
+  {
+    "id": "cia_covert_operations",
+    "label": "CIA Covert Operations (1950s–present)",
+    "category": "era",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1950s–present",
+    "region": "Global",
+    "wikipedia": "https://en.wikipedia.org/wiki/CIA_activities_in_the_United_States",
+    "summary": "Pattern of CIA covert intervention in foreign governments: Iran (1953), Guatemala (1954), Congo (1960), Cuba (Bay of Pigs 1961), Chile (1973), Nicaragua (1980s), and others. Used assassination plots, propaganda, election interference, and support for coups to advance US Cold War interests. Exposed in part by the Church Committee (1975).",
+    "tags": [
+      "CIA",
+      "Cold War",
+      "covert operations",
+      "Americas",
+      "foreign policy"
+    ],
+    "contemporary_relevance": "CIA covert operations established patterns of US foreign policy — plausible deniability, client dictator relationships, blowback — that continue to shape US credibility abroad and domestic trust in government."
+  },
+  {
+    "id": "opioid_crisis",
+    "label": "Opioid Epidemic (1990s–present)",
+    "category": "era",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1990s–present",
+    "region": "Americas",
+    "wikipedia": "https://en.wikipedia.org/wiki/Opioid_epidemic_in_the_United_States",
+    "summary": "Pharmaceutical-driven addiction crisis killing ~80,000 Americans annually by 2021. Purdue Pharma's deceptive OxyContin marketing (1996) downplayed addiction risk. FDA and DEA regulatory failures enabled mass overprescription. Three waves: prescription opioids (1990s), heroin (2010s), fentanyl (2013–present). More than 500,000 dead since 1999.",
+    "tags": [
+      "health",
+      "drugs",
+      "pharmaceutical",
+      "Americas",
+      "regulatory capture"
+    ],
+    "contemporary_relevance": "The opioid crisis is a case study in corporate-caused public health catastrophe enabled by regulatory capture. The Sackler family paid $6B in settlements without admitting wrongdoing — illustrating impunity for white-collar crime at scale."
+  },
+  {
+    "id": "reconstruction",
+    "label": "Reconstruction Era (1865–1877)",
+    "category": "era",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1865–1877",
+    "region": "Americas",
+    "wikipedia": "https://en.wikipedia.org/wiki/Reconstruction_era",
+    "summary": "Post-Civil War period of federal occupation and political reconstruction of the Southern states (1865–1877). Freedmen gained citizenship, voting rights, and elected office for the first time. Ended by the Compromise of 1877, which withdrew federal troops and allowed Southern states to impose racial apartheid (Jim Crow). Reconstruction's failure established that formal legal equality does not guarantee substantive equality.",
+    "tags": [
+      "race",
+      "Americas",
+      "Civil War",
+      "Reconstruction",
+      "history"
+    ],
+    "contemporary_relevance": "Reconstruction is the precedent for every subsequent attempt to dismantle racial hierarchy in the US — and for the resistance that follows. Its failure is the direct cause of 90 years of Jim Crow."
   }
 ]

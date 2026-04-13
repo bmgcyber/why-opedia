@@ -107,9 +107,10 @@ data/
 5. **Edge vocabulary** — already clean from Session 16; `UNDERMINED` already in filter sidebar.
 
 **Next content priorities:**
-- 20th-century European history gaps (post-WWII Europe, Cold War in Europe, Balkan wars 1990s)
-- Science & technology history: moon landing, green revolution, internet invention, Human Genome Project
-- More PROPOSED_TOPICS topics: Holocaust depth, Jim Crow/carceral state, CIA covert operations, opioid crisis
+- More PROPOSED_TOPICS: Holocaust causal wiring depth, Belgian Congo / Leopold II atrocities, Armenian Genocide, Rwanda/Cambodia genocides
+- European history: more 1989 revolution detail (Romania, East Germany), Ostpolitik, European welfare state construction
+- Science: CRISPR/gene editing, aviation revolution, antibiotic resistance as negative counterpart to penicillin
+- Positive counterpart for opioid crisis / carceral state: harm reduction expansion, prison abolition movement nodes
 
 ---
 
@@ -161,6 +162,8 @@ Edge distribution audit: `ENABLED` was 39.8% of edges (used as catch-all); 70+ o
 | **Total** | **1,526** | **~5,798** |
 
 Session 17 additions: 9 history nodes (Middle East modern), 5 mechanism nodes; 6 duplicate history nodes removed; 41 new edges. Net: +8 nodes, +41 edges.
+
+Session 17 (continued): 3 more duplicate groups merged (balkan_wars, green_revolution, nuclear_test_ban_treaty); 12 history nodes (European Cold War gaps, science/tech, Jim Crow, CIA, opioid); 2 mechanism nodes (supranational_integration, carceral_state); 50 new edges. History: 872 nodes / 1,661 edges. Mechanisms: 221 nodes / 3,228 edges.
 
 **Data integrity:** 0 broken edge references. Verified after every batch.
 

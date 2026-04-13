@@ -22234,7 +22234,7 @@
   },
   {
     "source": "nationalism_mechanism",
-    "target": "balkan_wars",
+    "target": "balkan_wars_1912",
     "type": "CAUSED",
     "weight": 3
   },
@@ -23356,7 +23356,7 @@
   },
   {
     "source": "scientific_method",
-    "target": "green_revolution",
+    "target": "green_revolution_1960s",
     "type": "ENABLED",
     "weight": 3
   },
@@ -23470,7 +23470,7 @@
   },
   {
     "source": "democratic_accountability",
-    "target": "nuclear_test_ban_treaty",
+    "target": "nuclear_test_ban_treaty_1963",
     "type": "ENABLED",
     "weight": 2
   },
@@ -24634,6 +24634,222 @@
     "target": "coalition_building",
     "type": "ENABLED",
     "label": "Abraham Accords built a new regional coalition around shared opposition to Iran",
+    "confidence": "high"
+  },
+  {
+    "id": "european_union_formation__supranational_integration",
+    "source": "european_union_formation",
+    "target": "supranational_integration",
+    "type": "ENABLED",
+    "label": "EU is the primary example of supranational integration as a peace mechanism",
+    "confidence": "high"
+  },
+  {
+    "id": "supranational_integration__european_union_formation",
+    "source": "supranational_integration",
+    "target": "european_union_formation",
+    "type": "PRODUCED",
+    "label": "The logic of supranational integration drove each successive deepening of European institutions",
+    "confidence": "high"
+  },
+  {
+    "id": "german_economic_miracle__social_democracy",
+    "source": "german_economic_miracle",
+    "target": "social_democracy",
+    "type": "PRODUCED",
+    "label": "Wirtschaftswunder's success validated the social market economy model",
+    "confidence": "high"
+  },
+  {
+    "id": "velvet_revolution_1989__nonviolent_resistance",
+    "source": "velvet_revolution_1989",
+    "target": "nonviolent_resistance",
+    "type": "ENABLED",
+    "label": "Velvet Revolution is the paradigm case of nonviolent mass mobilization achieving democratic transition",
+    "confidence": "high"
+  },
+  {
+    "id": "velvet_revolution_1989__coalition_building",
+    "source": "velvet_revolution_1989",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "Civic Forum united students, intellectuals, workers across partisan lines in a broad anti-communist coalition",
+    "confidence": "high"
+  },
+  {
+    "id": "prague_spring_1968__democratic_backsliding",
+    "source": "prague_spring_1968",
+    "target": "democratic_backsliding",
+    "type": "CAUSED",
+    "label": "Soviet invasion demonstrated that socialist states could not liberalize without regime collapse — hardened authoritarian entrenchment",
+    "confidence": "high"
+  },
+  {
+    "id": "hungarian_revolution_1956__collective_trauma",
+    "source": "hungarian_revolution_1956",
+    "target": "collective_trauma",
+    "type": "PRODUCED",
+    "label": "Soviet suppression of Hungary produced deep collective trauma in Hungarian society and the wider Eastern Bloc",
+    "confidence": "high"
+  },
+  {
+    "id": "penicillin_discovery__scientific_consensus",
+    "source": "penicillin_discovery",
+    "target": "scientific_consensus",
+    "type": "ENABLED",
+    "label": "Penicillin's development established clinical trial methodology as the scientific gold standard for medicine",
+    "confidence": "high"
+  },
+  {
+    "id": "climate_science_ipcc__scientific_consensus",
+    "source": "climate_science_ipcc",
+    "target": "scientific_consensus",
+    "type": "ENABLED",
+    "label": "IPCC represents the largest coordinated scientific consensus exercise in history",
+    "confidence": "high"
+  },
+  {
+    "id": "climate_science_ipcc__manufactured_doubt",
+    "source": "climate_science_ipcc",
+    "target": "manufactured_doubt",
+    "type": "CAUSED",
+    "label": "Clear IPCC consensus triggered the fossil fuel industry's manufactured doubt campaign",
+    "confidence": "high"
+  },
+  {
+    "id": "world_wide_web__platform_capitalism",
+    "source": "world_wide_web",
+    "target": "platform_capitalism",
+    "type": "ENABLED",
+    "label": "Web protocols created the technical foundation for platform monopolies to aggregate user attention at scale",
+    "confidence": "high"
+  },
+  {
+    "id": "transistor_semiconductor_revolution__platform_capitalism",
+    "source": "transistor_semiconductor_revolution",
+    "target": "platform_capitalism",
+    "type": "ENABLED",
+    "label": "Cheap computing enabled by semiconductors is the material basis of the digital economy",
+    "confidence": "high"
+  },
+  {
+    "id": "penicillin_discovery__public_health_infrastructure",
+    "source": "penicillin_discovery",
+    "target": "public_health_infrastructure",
+    "type": "ENABLED",
+    "label": "Antibiotics enabled the construction of hospital systems and surgical medicine at scale",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow_laws__carceral_state",
+    "source": "jim_crow_laws",
+    "target": "carceral_state",
+    "type": "PRODUCED",
+    "label": "Jim Crow's convict leasing and Black Codes were the direct predecessors of mass incarceration mechanisms",
+    "confidence": "high"
+  },
+  {
+    "id": "convict_leasing__carceral_state",
+    "source": "convict_leasing",
+    "target": "carceral_state",
+    "type": "ENABLED",
+    "label": "Convict leasing established the legal, economic, and racial logic that mass incarceration inherited",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow_laws__structural_violence",
+    "source": "jim_crow_laws",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Jim Crow institutionalized structural violence through law: disenfranchisement, economic exclusion, lynching as terror",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow_laws__dehumanization",
+    "source": "jim_crow_laws",
+    "target": "dehumanization",
+    "type": "NORMALIZED",
+    "label": "Jim Crow laws codified the legal dehumanization of Black Americans as a structural feature of society",
+    "confidence": "high"
+  },
+  {
+    "id": "reconstruction__resistance_movement",
+    "source": "reconstruction",
+    "target": "resistance_movement",
+    "type": "PRODUCED",
+    "label": "Reconstruction's failure and subsequent Jim Crow produced the conditions for the civil rights resistance movement",
+    "confidence": "high"
+  },
+  {
+    "id": "carceral_state__mass_incarceration",
+    "source": "carceral_state",
+    "target": "mass_incarceration",
+    "type": "PRODUCED",
+    "label": "The carceral state mechanism produces mass incarceration as its observable output",
+    "confidence": "high"
+  },
+  {
+    "id": "carceral_state__structural_violence",
+    "source": "carceral_state",
+    "target": "structural_violence",
+    "type": "ENABLED",
+    "label": "Incarceration, felony disenfranchisement, and prison labor are forms of structural violence",
+    "confidence": "high"
+  },
+  {
+    "id": "cia_covert_operations__proxy_war",
+    "source": "cia_covert_operations",
+    "target": "proxy_war",
+    "type": "ENABLED",
+    "label": "CIA operations funded and directed proxy forces in conflicts across Latin America, Africa, Asia",
+    "confidence": "high"
+  },
+  {
+    "id": "cia_covert_operations__manufactured_consent",
+    "source": "cia_covert_operations",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "label": "CIA funded domestic and foreign propaganda, media organizations, and cultural programs to shape public opinion",
+    "confidence": "high"
+  },
+  {
+    "id": "cia_covert_operations__democratic_backsliding",
+    "source": "cia_covert_operations",
+    "target": "democratic_backsliding",
+    "type": "CAUSED",
+    "label": "CIA-backed coups in Iran, Guatemala, Chile, Congo overthrew democratically elected governments",
+    "confidence": "high"
+  },
+  {
+    "id": "cia_covert_operations__blowback",
+    "source": "cia_covert_operations",
+    "target": "radicalization_pipeline",
+    "type": "PRODUCED",
+    "label": "CIA support for Afghan mujahideen produced the al-Qaeda network — the paradigm case of covert blowback",
+    "confidence": "high"
+  },
+  {
+    "id": "opioid_crisis__regulatory_capture",
+    "source": "opioid_crisis",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "label": "Purdue Pharma's FDA approval success and DEA quota manipulation exemplify pharmaceutical regulatory capture",
+    "confidence": "high"
+  },
+  {
+    "id": "opioid_crisis__structural_violence",
+    "source": "opioid_crisis",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Opioid epidemic is concentrated in deindustrialized communities abandoned by economic transformation",
+    "confidence": "high"
+  },
+  {
+    "id": "deindustrialization__opioid_crisis",
+    "source": "deindustrialization",
+    "target": "opioid_crisis",
+    "type": "ENABLED",
+    "label": "Deindustrialized communities with chronic unemployment and despair were most vulnerable to opioid addiction",
     "confidence": "high"
   }
 ]

@@ -4204,5 +4204,39 @@
       "positive"
     ],
     "description": "Resistance movements are a counter-mechanism to occupation, colonialism, and authoritarianism. They work when they achieve three things: broad popular participation (making suppression costly), international visibility (generating political pressure), and strategic clarity (defining achievable goals). Many fail when infiltrated, fragmented, or when tactics alienate potential allies."
+  },
+  {
+    "id": "supranational_integration",
+    "label": "Supranational Integration",
+    "category": "mechanism",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Supranationalism",
+    "summary": "Process by which nation-states cede sovereignty to shared governing institutions in exchange for peace, economic benefits, and coordinated problem-solving. The EU is the primary example. Works by making defection from cooperation economically costly and creating shared elite interests in the system's survival.",
+    "tags": [
+      "mechanism",
+      "peace",
+      "governance",
+      "Europe",
+      "positive"
+    ],
+    "description": "Supranational integration is the most successful mechanism for ending chronic interstate warfare in European history. By enmeshing economies, legal systems, and governing elites in shared institutions, it raises the cost of conflict and creates vested interests in peace. Its weakness: it requires sustained political will and is vulnerable to nationalist backlash when economic shocks increase the perceived cost of membership."
+  },
+  {
+    "id": "carceral_state",
+    "label": "Carceral State",
+    "category": "mechanism",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Mass_incarceration_in_the_United_States",
+    "summary": "System of social control that uses criminalization, policing, prosecution, and incarceration as primary tools for managing economically and politically marginalized populations. Combines racial targeting, mandatory minimums, plea bargaining coercion, and prison labor into a self-reinforcing loop that reconstructs racial hierarchy after formal emancipation.",
+    "tags": [
+      "mechanism",
+      "race",
+      "prisons",
+      "social control",
+      "Americas"
+    ],
+    "description": "The carceral state is not primarily about crime reduction — prison populations rose as crime fell, and fell as crime remained stable. It is a mechanism for managing surplus labor and politically marginalizing populations after the formal abolition of more explicit forms of racial control. Michelle Alexander's 'The New Jim Crow' documents the mechanism: disparate enforcement → disproportionate incarceration → felony disenfranchisement → exclusion from housing, employment, voting."
   }
 ]
