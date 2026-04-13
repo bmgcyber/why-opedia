@@ -95,7 +95,51 @@ data/
 
 ---
 
-## CURRENT OBJECTIVE (Session 18 — 2026-04-12)
+## CURRENT OBJECTIVE (Session 20 — 2026-04-13)
+
+**Completed this session:**
+1. **Technology→History cross-scope links (32 edges)** — Wired tech scope nodes directly to history events they caused/enabled:
+   - `tech_nuclear_weapons` → `atomic_bombing_hiroshima`, `cold_war_nuclear_fear`, `cuban_missile_crisis`, `nuclear_test_ban_treaty_1963`, `space_race`, `cold_war_origins`
+   - `tech_social_media`/`tech_internet`/`tech_mobile_phone` → `arab_spring`, `black_lives_matter`, `russia_election_interference`, `ukraine_euromaidan`, `social_media_revolution`, `ferguson_protests_2014`
+   - `tech_printing_press` → `protestant_reformation`, `scientific_revolution`
+   - `tech_nuclear_power` → `chernobyl_disaster`
+   - `tech_surveillance_tech`/`tech_artificial_intelligence` → `surveillance_state_china`
+   - `tech_drone_warfare`/`tech_gps_satellite` → `afghanistan_war_2001`, `iraq_war_2003`
+   - `tech_vaccines` → `smallpox_eradication_1980`, `polio_vaccine_1955`
+   - `tech_renewable_energy` → `paris_agreement_2015`
+   - `tech_transistor` → `apollo_moon_landing`
+2. **Religion scope launched (10th scope)** — 27 nodes, 33 within-scope edges, 34 cross-scope edges:
+   - **Religions:** Christianity, Roman Catholic Church, Islam, Judaism, Hinduism, Buddhism, Protestantism, Eastern Orthodoxy, Sunni/Shia Islam, Sufism
+   - **Events:** Council of Nicaea (325), Great Schism (1054), Islamic Golden Age, Council of Trent, Second Vatican Council
+   - **People:** Rumi (martin_luther, john_calvin, thomas_aquinas already in history)
+   - **Phenomena:** Liberation Theology, Wahhabism, Religious Zionism, Evangelical Movement, Secularization, Religious Nationalism, Religious Fundamentalism, Religious Antisemitism, Caste System, Protestant Work Ethic
+   - **Key cross-scope links:** religion→history (Crusades, Protestant Reformation, Spanish Inquisition, Holocaust, Al-Qaeda, ISIS, Iranian Revolution, Partition of India, Rohingya genocide, etc.), religion→mechanisms (christian_nationalism, sectarianism, authoritarian_control, scapegoating, dehumanization, structural_violence, etc.)
+
+**Dataset state after Session 20:**
+| Scope | Nodes | Edges |
+|-------|-------|-------|
+| History | 934 | 1,776 |
+| Technology | 30 | 32 |
+| Religion | **27** | **33** |
+| Economics | 71 | 163 |
+| Politics | 126 | 331 |
+| Psychology | 69 | 142 |
+| Media | 55 | 125 |
+| Health | 62 | 126 |
+| Art & Culture | 61 | 70 |
+| Mechanisms | 223 | **4,115** (cross-scope) |
+| **Total** | **1,658** | **~6,913** |
+
+**Next content priorities:**
+- Positive roadmap items still to add: `ada_1990`, `marriage_equality_us_2015`, `camp_david_accords_1978`, `emancipation_proclamation_1863`
+- Missing person nodes: `eleanor_roosevelt`, `desmond_tutu`, `rosa_parks`, `cesar_chavez`, `dolores_huerta`, `harriet_tubman`, `frederick_douglass`
+- Global gaps: South American dictatorships depth (Argentina junta, Brazil military), Southeast Asian decolonization
+- More religion cross-scope: religion nodes to economics (Protestant work ethic → capitalism growth), religion to politics (theocracy, separation of church/state)
+- Duplicate audit pass
+
+---
+
+## PREVIOUS OBJECTIVE (Session 19 — 2026-04-12)
 
 **Completed this session:**
 1. **Ghost node floating bug fixed** — Removed `!n.ghost` from `computeTiers` filter in `js/graph-renderer.js:420`. Ghost nodes now rank by degree in the semantic zoom tier system instead of always-visible with hidden edges.
