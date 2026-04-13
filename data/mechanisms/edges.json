@@ -28945,5 +28945,305 @@
     "target": "political_violence",
     "type": "CAUSED",
     "weight": 4
+  },
+  {
+    "source": "langston_hughes",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "langston_hughes",
+    "target": "social_movement",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "systemic_racism",
+    "target": "langston_hughes",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "audre_lorde",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "audre_lorde",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "systemic_racism",
+    "target": "audre_lorde",
+    "type": "CAUSED",
+    "weight": 2
+  },
+  {
+    "source": "bell_hooks",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "bell_hooks",
+    "target": "social_trust",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "systemic_racism",
+    "target": "bell_hooks",
+    "type": "CAUSED",
+    "weight": 2
+  },
+  {
+    "source": "zora_neale_hurston",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "zora_neale_hurston",
+    "target": "cultural_hegemony",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "shirley_chisholm",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "shirley_chisholm",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "systemic_racism",
+    "target": "shirley_chisholm",
+    "type": "CAUSED",
+    "weight": 2
+  },
+  {
+    "source": "disability_rights_act_ada",
+    "target": "legal_mobilization",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "disability_rights_act_ada",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "disability_rights_act_ada",
+    "target": "social_movement",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "truth_commission_argentina",
+    "target": "truth_and_reconciliation",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "truth_commission_argentina",
+    "target": "legal_mobilization",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "truth_commission_argentina",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "eight_hour_workday_movement",
+    "target": "class_struggle",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "eight_hour_workday_movement",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "eight_hour_workday_movement",
+    "target": "social_movement",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "community_land_trust_movement",
+    "target": "mutual_aid",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "community_land_trust_movement",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "community_land_trust_movement",
+    "target": "land_reform",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "state_collapse",
+    "target": "haiti_political_collapse",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "haiti_political_collapse",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "colonial_extraction",
+    "target": "haiti_political_collapse",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "iran_nuclear_deal",
+    "target": "coalition_building",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "iran_nuclear_deal",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "economic_sanctions",
+    "target": "iran_nuclear_deal",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "operation_phoenix",
+    "target": "authoritarian_control",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "operation_phoenix",
+    "target": "political_violence",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "source": "operation_phoenix",
+    "target": "surveillance_state",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "national_labor_relations_act",
+    "target": "class_struggle",
+    "type": "UNDERMINED",
+    "weight": 4
+  },
+  {
+    "source": "national_labor_relations_act",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "national_labor_relations_act",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "cio_formation",
+    "target": "class_struggle",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "cio_formation",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "cio_formation",
+    "target": "coalition_building",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "sit_down_strikes",
+    "target": "civil_disobedience",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "sit_down_strikes",
+    "target": "class_struggle",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "sit_down_strikes",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "homestead_strike_1892",
+    "target": "class_struggle",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "homestead_strike_1892",
+    "target": "political_violence",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "wage_suppression",
+    "target": "homestead_strike_1892",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "state_collapse",
+    "target": "somalia_civil_war",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "source": "somalia_civil_war",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "resource_curse",
+    "target": "somalia_civil_war",
+    "type": "ENABLED",
+    "weight": 2
   }
 ]

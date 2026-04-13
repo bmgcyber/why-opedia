@@ -16419,5 +16419,124 @@
     "category": "event",
     "decade": 1964,
     "description": "Systematic US military escalation in Vietnam from the fabricated Gulf of Tonkin incident through the troop surge to 500,000 soldiers, fought as a Cold War proxy against Ho Chi Minh's nationalist-communist movement, ultimately failing at enormous human cost."
+  },
+  {
+    "id": "langston_hughes",
+    "label": "Langston Hughes",
+    "category": "person",
+    "decade": 1926,
+    "description": "Poet and central figure of the Harlem Renaissance whose work celebrated Black life and dignity, popularized jazz poetry, and provided cultural foundation for the civil rights movement through art that refused dehumanization."
+  },
+  {
+    "id": "audre_lorde",
+    "label": "Audre Lorde",
+    "category": "person",
+    "decade": 1970,
+    "description": "Poet, essayist, and activist who articulated intersectionality before the term existed, insisting that race, gender, sexuality, and class could not be separated \u2014 and that silence in the face of oppression is complicity."
+  },
+  {
+    "id": "bell_hooks",
+    "label": "bell hooks",
+    "category": "person",
+    "decade": 1981,
+    "description": "Cultural critic and feminist theorist whose work \u2014 from 'Ain't I a Woman' to 'Teaching to Transgress' \u2014 made radical politics accessible and argued that love and community are themselves revolutionary acts."
+  },
+  {
+    "id": "zora_neale_hurston",
+    "label": "Zora Neale Hurston",
+    "category": "person",
+    "decade": 1937,
+    "description": "Novelist, folklorist, and anthropologist of the Harlem Renaissance whose work 'Their Eyes Were Watching God' celebrated Black Southern culture at a time when it was either invisible or caricatured \u2014 later reclaimed by Alice Walker and the Black feminist literary movement."
+  },
+  {
+    "id": "shirley_chisholm",
+    "label": "Shirley Chisholm",
+    "category": "person",
+    "decade": 1968,
+    "description": "First Black woman elected to Congress (1968) and first to seek a major party's presidential nomination (1972), challenging both racial and gender barriers in American politics with the slogan 'Unbought and Unbossed.'"
+  },
+  {
+    "id": "disability_rights_act_ada",
+    "label": "Americans with Disabilities Act (1990)",
+    "category": "event",
+    "decade": 1990,
+    "description": "Landmark civil rights legislation prohibiting discrimination against people with disabilities in employment, public accommodations, transportation, and government services \u2014 won through decades of disability rights activism including the 504 Sit-In and ADAPT protests."
+  },
+  {
+    "id": "truth_commission_argentina",
+    "label": "Argentine Truth Commission (CONADEP)",
+    "category": "event",
+    "decade": 1984,
+    "description": "National Commission on the Disappearance of Persons established after Argentina's military dictatorship, producing the 'Nunca M\u00e1s' (Never Again) report documenting 9,000+ disappeared persons \u2014 a model for transitional justice worldwide."
+  },
+  {
+    "id": "eight_hour_workday_movement",
+    "label": "Eight-Hour Workday Movement",
+    "category": "movement",
+    "decade": 1886,
+    "description": "Labor movement campaign for the eight-hour workday \u2014 'Eight hours for work, eight hours for rest, eight hours for what we will' \u2014 culminating in the Haymarket affair, May Day international workers' holiday, and eventual legal victories in the Fair Labor Standards Act."
+  },
+  {
+    "id": "community_land_trust_movement",
+    "label": "Community Land Trust Movement",
+    "category": "movement",
+    "decade": 1969,
+    "description": "Movement pioneered by civil rights organizers in Georgia to create permanently affordable housing by separating land ownership from home ownership, removing land from speculative markets \u2014 now operating in 300+ communities globally."
+  },
+  {
+    "id": "haiti_political_collapse",
+    "label": "Haitian Political Crisis",
+    "category": "event",
+    "decade": 2010,
+    "description": "Cascading political and humanitarian crises in Haiti following the 2010 earthquake, through successive governance failures, gang takeover of territory, presidential assassination (2021), and cholera outbreaks \u2014 rooted in a century of foreign intervention, debt, and structural underdevelopment."
+  },
+  {
+    "id": "iran_nuclear_deal",
+    "label": "Iran Nuclear Deal (JCPOA, 2015)",
+    "category": "event",
+    "decade": 2015,
+    "description": "Joint Comprehensive Plan of Action negotiated by Iran, the US, EU, Russia, China, UK, and Germany limiting Iran's nuclear program in exchange for sanctions relief \u2014 a multilateral diplomacy success that was subsequently withdrawn from by the Trump administration in 2018."
+  },
+  {
+    "id": "operation_phoenix",
+    "label": "Operation Phoenix",
+    "category": "event",
+    "decade": 1968,
+    "description": "CIA-run program in South Vietnam 1965\u20131972 targeting suspected Viet Cong infrastructure through capture, interrogation, and assassination \u2014 killing an estimated 20,000\u201340,000 Vietnamese \u2014 a template for counterinsurgency and targeted killing programs."
+  },
+  {
+    "id": "national_labor_relations_act",
+    "label": "National Labor Relations Act (1935)",
+    "category": "event",
+    "decade": 1935,
+    "description": "Wagner Act establishing workers' legal right to organize, bargain collectively, and strike, and creating the NLRB to enforce those rights \u2014 the foundation of modern American labor law and the peak of New Deal labor policy."
+  },
+  {
+    "id": "cio_formation",
+    "label": "CIO Formation (1935)",
+    "category": "event",
+    "decade": 1935,
+    "description": "Formation of the Congress of Industrial Organizations, organizing workers across entire industries (steel, auto, rubber) rather than by craft, bringing millions of unskilled and semi-skilled workers \u2014 including Black workers largely excluded from AFL craft unions \u2014 into the labor movement."
+  },
+  {
+    "id": "sit_down_strikes",
+    "label": "Sit-Down Strikes (1936\u201337)",
+    "category": "event",
+    "decade": 1936,
+    "description": "Wave of sit-down strikes by auto workers at General Motors' Flint, Michigan plants, lasting 44 days and winning union recognition \u2014 demonstrating the power of industrial unionism and reshaping labor relations in American manufacturing."
+  },
+  {
+    "id": "homestead_strike_1892",
+    "label": "Homestead Strike (1892)",
+    "category": "event",
+    "decade": 1892,
+    "description": "Strike by steelworkers at Carnegie's Homestead mill, crushed by 300 Pinkerton agents and then the Pennsylvania National Guard after a bloody battle \u2014 a turning point demonstrating the willingness of capital and government to deploy violence against organized labor."
+  },
+  {
+    "id": "somalia_civil_war",
+    "label": "Somali Civil War",
+    "category": "event",
+    "decade": 1991,
+    "description": "Collapse of the Somali state in 1991 following the fall of Siad Barre, triggering decades of civil conflict, warlordism, famine, al-Shabaab insurgency, and repeated failed international interventions \u2014 the archetypal modern state collapse."
   }
 ]

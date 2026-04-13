@@ -12683,5 +12683,161 @@
     "target": "us_vietnam_escalation",
     "type": "CAUSED",
     "weight": 4
+  },
+  {
+    "source": "harlem_renaissance",
+    "target": "langston_hughes",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "langston_hughes",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "audre_lorde",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "bell_hooks",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "harlem_renaissance",
+    "target": "bell_hooks",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "harlem_renaissance",
+    "target": "zora_neale_hurston",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "zora_neale_hurston",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "civil_rights_movement",
+    "target": "shirley_chisholm",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "disability_rights_act_ada",
+    "target": "ada_1990",
+    "type": "SHARES_MECHANISM_WITH",
+    "weight": 2
+  },
+  {
+    "source": "argentina_dirty_war",
+    "target": "truth_commission_argentina",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "truth_commission_argentina",
+    "target": "south_africa_trc",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "haymarket_affair",
+    "target": "eight_hour_workday_movement",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "eight_hour_workday_movement",
+    "target": "labor_rights_eight_hour_day",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "eight_hour_workday_movement",
+    "target": "national_labor_relations_act",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "civil_rights_movement",
+    "target": "community_land_trust_movement",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "haitian_revolution",
+    "target": "haiti_political_collapse",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "haiti_political_collapse",
+    "target": "somalia_civil_war",
+    "type": "SHARES_MECHANISM_WITH",
+    "weight": 2
+  },
+  {
+    "source": "us_vietnam_escalation",
+    "target": "operation_phoenix",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "operation_phoenix",
+    "target": "cia_covert_operations",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "new_deal_programs",
+    "target": "national_labor_relations_act",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "national_labor_relations_act",
+    "target": "cio_formation",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "taft_hartley_act",
+    "target": "national_labor_relations_act",
+    "type": "UNDERMINED",
+    "weight": 4
+  },
+  {
+    "source": "cio_formation",
+    "target": "sit_down_strikes",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "cio_formation",
+    "target": "taft_hartley_act",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "homestead_strike_1892",
+    "target": "pullman_strike_1894",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "cold_war",
+    "target": "somalia_civil_war",
+    "type": "ENABLED",
+    "weight": 3
   }
 ]
