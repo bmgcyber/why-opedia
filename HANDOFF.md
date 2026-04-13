@@ -154,32 +154,32 @@ Edge distribution audit: `ENABLED` was 39.8% of edges (used as catch-all); 70+ o
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-04-13, Session 18)
+## CURRENT DATASET STATE (as of 2026-04-13, Session 19)
 
 | Scope | Nodes | Edges |
 |-------|-------|-------|
-| History | **917** | **1,750** |
+| History | **934** | **1,776** |
+| Technology | **30** | 32 |
 | Economics | **71** | 163 |
 | Politics | **126** | 331 |
 | Psychology | **69** | 142 |
 | Media | **55** | 125 |
 | Health | **62** | 126 |
 | Art & Culture | **61** | 70 |
-| Mechanisms | **223** | **3,903** (cross-scope) |
-| **Total** | **1,584** | **~6,610** |
+| Mechanisms | **223** | **4,049** (cross-scope) |
+| **Total** | **1,631** | **~6,814** |
 
 **Data integrity:** 0 broken edge references. Verified after every batch.
 
-**Session 18 key accomplishments:**
-- 3 duplicate merges (holocaust, abolition_movement, atlantic_slave_trade)
-- Belgian Congo, 1989 revolutions, aviation, CRISPR, prison reform, IHL: 9 history + 2 mech nodes, 43 edges
-- **Complete mechanism wiring pass:** ALL 878 history nodes now have ≥2 mechanism edges (+348 edges)
-- **All scopes wired:** politics, psychology, media, economics, health, art scope nodes all have ≥2 mechanism edges (+182 edges)
-- **Jim Crow / carceral state depth batch:** 20 nodes (jim_crow_era, black_codes, plessy_v_ferguson, dred_scott_decision, lynching_era, ida_b_wells, reconstruction_amendments, school_to_prison_pipeline, new_deal_programs, great_society_programs, reaganomics, welfare_reform_1996, war_on_drugs, crack_cocaine_epidemic, khmer_rouge, mkultra, spring_of_nations_1848, paris_commune_1871, rosewood_massacre, purdue_pharma)
-- **Labor / civil rights / contemporary batch:** 19 nodes (james_baldwin, fannie_lou_hamer, bayard_rustin, paul_robeson, triangle_shirtwaist_fire, haymarket_affair, pullman_strike_1894, taft_hartley_act, united_farm_workers, ferguson_shooting, me_too_movement, citizens_united_ruling, voting_rights_act_gutted_2013, soweto_uprising, mandela_imprisonment, hong_kong_protests_2019, uyghur_detention, berlin_wall_construction, us_vietnam_escalation)
-- Net: +39 history nodes, +653 mechanism edges this session
+**Session 19 key accomplishments:**
+- **Positive counterbalance batch (17 nodes):** langston_hughes, audre_lorde, bell_hooks, zora_neale_hurston, shirley_chisholm, disability_rights_act_ada, truth_commission_argentina, eight_hour_workday_movement, community_land_trust_movement, national_labor_relations_act, cio_formation, sit_down_strikes, homestead_strike_1892, haiti_political_collapse, iran_nuclear_deal, operation_phoenix, somalia_civil_war
+- **Technology scope launched (new 9th scope):** 30 nodes (ancient → AI), 32 within-scope edges, 96 mechanism edges; registered in scopes.json, global/nodes.json, scope-manager.js
 
-**Data integrity:** 0 broken edge references. Verified after every batch.
+**Next content priorities:**
+- Cross-scope connections: technology nodes → history events (tech_social_media → arab_spring, tech_nuclear_weapons → cold_war, etc.)
+- Religion scope — same pattern as Technology, major missing scope
+- Global gaps: South American dictatorships depth, Southeast Asian decolonization
+- Duplicate audit pass
 
 ### Session 15 additions (batches 6-19):
 - **History:** +200+ nodes spanning agricultural revolution → 2020s present
@@ -415,3 +415,4 @@ Perf commit f3e2fd9 activated `applySemanticZoom()` (previously a stub). If it t
 | Session 16 | Edge type vocabulary cleanup: canonical 12-14 types enforced, `UNDERMINED` added to sidebar, tense normalization, non-causal type deletion. Edge distribution audit run. |
 | Session 17 | Bug: ghost node floating fixed (removed `!n.ghost` from `computeTiers`). Stats HUD: visible edge count + clickable top-5 hub nodes. Duplicate cleanup: 5 node groups merged (6 removed). Middle East modern history: 9 history + 5 mechanism nodes, 41 edges. Total: 1,526 nodes. |
 | Session 18 | Complete mechanism wiring pass (all nodes across all scopes now ≥2 mech edges, +530 edges). Jim Crow/carceral depth +20 nodes. Labor/civil rights/contemporary +19 nodes. 3 duplicate merges. Total: 1,584 nodes, ~6,610 edges. |
+| Session 19 | Technology scope launched (30 nodes, 32+96 edges). Positive counterbalance batch: +17 history nodes (cultural figures, labor depth, global gaps). Total: 1,631 nodes, ~6,814 edges. |
