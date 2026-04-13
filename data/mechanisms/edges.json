@@ -27145,5 +27145,1097 @@
     "target": "democratic_accountability",
     "type": "PRODUCED",
     "weight": 4
+  },
+  {
+    "source": "civil_disobedience_thoreau",
+    "target": "civil_disobedience",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "decolonization_theory",
+    "target": "colonialism",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "decolonization_theory",
+    "target": "resistance_movement",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "human_rights_declaration",
+    "target": "legal_mobilization",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "nuclear_deterrence",
+    "target": "proxy_war",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "nuclear_deterrence",
+    "target": "authoritarian_control",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "proportional_representation",
+    "target": "institutional_resilience",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "thomas_hobbes",
+    "target": "authoritarian_control",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "un_declaration_human_rights",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "un_declaration_human_rights",
+    "target": "legal_mobilization",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "velvet_revolutions",
+    "target": "civil_disobedience",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "velvet_revolutions",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "asch_conformity",
+    "target": "groupthink",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "asch_conformity",
+    "target": "social_movement",
+    "type": "UNDERMINED",
+    "weight": 2
+  },
+  {
+    "source": "bystander_effect",
+    "target": "moral_disengagement",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "bystander_effect",
+    "target": "structural_violence",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "cognitive_behavioral_therapy",
+    "target": "learned_helplessness",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "cognitive_dissonance_theory",
+    "target": "cognitive_dissonance",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "cognitive_dissonance_theory",
+    "target": "confirmation_bias",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "cognitive_revolution",
+    "target": "scientific_method",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "cognitive_revolution",
+    "target": "scientific_consensus",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "freud_psychoanalysis",
+    "target": "social_trust",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "freud_psychoanalysis",
+    "target": "cult_dynamics",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "growth_mindset",
+    "target": "institutional_resilience",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "growth_mindset",
+    "target": "scientific_method",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "humanistic_psychology",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "humanistic_psychology",
+    "target": "social_trust",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "implicit_bias_research",
+    "target": "systemic_racism",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "implicit_bias_research",
+    "target": "scientific_consensus",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "just_world_hypothesis",
+    "target": "victim_blaming",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "just_world_hypothesis",
+    "target": "moral_disengagement",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "moral_foundations_theory",
+    "target": "political_polarization",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "moral_foundations_theory",
+    "target": "tribalism",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "neuroplasticity",
+    "target": "scientific_method",
+    "type": "PRODUCED",
+    "weight": 2
+  },
+  {
+    "source": "neuroplasticity",
+    "target": "addiction_science",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "positive_reinforcement_behaviorism",
+    "target": "learned_helplessness",
+    "type": "UNDERMINED",
+    "weight": 2
+  },
+  {
+    "source": "positive_reinforcement_behaviorism",
+    "target": "cult_dynamics",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "psychological_resilience",
+    "target": "collective_trauma",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "psychological_resilience",
+    "target": "social_trust",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "psychology_of_evil_zimbardo",
+    "target": "moral_disengagement",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "psychology_of_evil_zimbardo",
+    "target": "structural_violence",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "self_determination_theory",
+    "target": "social_trust",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "self_determination_theory",
+    "target": "grassroots_organizing",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "solomon_asch_conformity",
+    "target": "groupthink",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "solomon_asch_conformity",
+    "target": "social_movement",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "stereotype_threat",
+    "target": "systemic_racism",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "stereotype_threat",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "terror_management_theory",
+    "target": "in_group_out_group_dynamics",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "terror_management_theory",
+    "target": "tribalism",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "victim_blaming",
+    "target": "structural_violence",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "victim_blaming",
+    "target": "moral_disengagement",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "zimbardo_prison_experiment",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "zimbardo_prison_experiment",
+    "target": "dehumanization",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "arab_spring_social_media",
+    "target": "social_media_polarization",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "arab_spring_social_media",
+    "target": "social_movement",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "citizen_journalism_revolution",
+    "target": "whistleblowing",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "citizen_journalism_revolution",
+    "target": "manufactured_consent",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "committee_protect_journalists",
+    "target": "whistleblowing",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "committee_protect_journalists",
+    "target": "authoritarian_control",
+    "type": "UNDERMINED",
+    "weight": 2
+  },
+  {
+    "source": "fact_checking_movement",
+    "target": "misinformation_economy",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "fact_checking_movement",
+    "target": "scientific_consensus",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "first_amendment_press_freedom",
+    "target": "whistleblowing",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "first_amendment_press_freedom",
+    "target": "manufactured_consent",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "free_software_movement",
+    "target": "platform_capitalism",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "free_software_movement",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "weight": 2
+  },
+  {
+    "source": "freedom_of_information_act_1966",
+    "target": "whistleblowing",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "freedom_of_information_act_1966",
+    "target": "democratic_accountability",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "hutchins_commission_1947",
+    "target": "manufactured_consent",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "hutchins_commission_1947",
+    "target": "media_framing",
+    "type": "UNDERMINED",
+    "weight": 2
+  },
+  {
+    "source": "internet_era",
+    "target": "platform_capitalism",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "internet_era",
+    "target": "social_media_polarization",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "internet_history",
+    "target": "automation_economy",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "investigative_journalism_institutions",
+    "target": "whistleblowing",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "investigative_journalism_institutions",
+    "target": "regulatory_capture",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "media_literacy_movement",
+    "target": "misinformation_economy",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "media_literacy_movement",
+    "target": "social_trust",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "muckraking_era",
+    "target": "regulatory_capture",
+    "type": "UNDERMINED",
+    "weight": 4
+  },
+  {
+    "source": "muckraking_era",
+    "target": "whistleblowing",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "net_neutrality",
+    "target": "platform_capitalism",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "net_neutrality",
+    "target": "surveillance_capitalism",
+    "type": "UNDERMINED",
+    "weight": 2
+  },
+  {
+    "source": "news_media_consolidation",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "news_media_consolidation",
+    "target": "media_framing",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "pentagon_papers_1971",
+    "target": "whistleblowing",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "pentagon_papers_1971",
+    "target": "manufactured_consent",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "propaganda_techniques_wwi",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "propaganda_techniques_wwi",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "public_broadcasting",
+    "target": "manufactured_consent",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "public_broadcasting",
+    "target": "social_trust",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "radio_era",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "samizdat",
+    "target": "authoritarian_control",
+    "type": "UNDERMINED",
+    "weight": 4
+  },
+  {
+    "source": "samizdat",
+    "target": "knowledge_suppression",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "tv_era",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tv_era",
+    "target": "media_framing",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "watergate_journalism",
+    "target": "whistleblowing",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "watergate_journalism",
+    "target": "democratic_accountability",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "wikileaks_2010",
+    "target": "whistleblowing",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "wikileaks_2010",
+    "target": "surveillance_state",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "antitrust_movement",
+    "target": "monopolization",
+    "type": "UNDERMINED",
+    "weight": 4
+  },
+  {
+    "source": "antitrust_movement",
+    "target": "regulatory_capture",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "bretton_woods",
+    "target": "financial_contagion",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "bretton_woods",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "consumer_protection_movement",
+    "target": "regulatory_capture",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "consumer_protection_movement",
+    "target": "grassroots_organizing",
+    "type": "PRODUCED",
+    "weight": 2
+  },
+  {
+    "source": "cooperative_movement",
+    "target": "worker_cooperatives",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "cooperative_movement",
+    "target": "wealth_inequality",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "earned_income_tax_credit",
+    "target": "wealth_inequality",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "earned_income_tax_credit",
+    "target": "welfare_state",
+    "type": "PRODUCED",
+    "weight": 2
+  },
+  {
+    "source": "glass_steagall_act_1933",
+    "target": "financial_contagion",
+    "type": "UNDERMINED",
+    "weight": 4
+  },
+  {
+    "source": "glass_steagall_act_1933",
+    "target": "regulatory_capture",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "global_supply_chains",
+    "target": "wage_suppression",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "global_supply_chains",
+    "target": "financialization",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "imf_founding",
+    "target": "austerity",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "imf_founding",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "weight": 2
+  },
+  {
+    "source": "international_labor_organization",
+    "target": "wage_suppression",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "international_labor_organization",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "weight": 2
+  },
+  {
+    "source": "keynes_general_theory",
+    "target": "keynesianism",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "keynes_general_theory",
+    "target": "austerity",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "marshall_plan",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "marshall_plan",
+    "target": "keynesianism",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "minimum_wage_legislation",
+    "target": "wage_suppression",
+    "type": "UNDERMINED",
+    "weight": 4
+  },
+  {
+    "source": "minimum_wage_legislation",
+    "target": "class_struggle",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "nordic_model",
+    "target": "social_democracy",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "nordic_model",
+    "target": "wealth_inequality",
+    "type": "UNDERMINED",
+    "weight": 4
+  },
+  {
+    "source": "progressive_taxation",
+    "target": "wealth_concentration",
+    "type": "UNDERMINED",
+    "weight": 4
+  },
+  {
+    "source": "progressive_taxation",
+    "target": "welfare_state",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "social_security_act_1935",
+    "target": "welfare_state",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "social_security_act_1935",
+    "target": "wealth_inequality",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "stagflation_1970s",
+    "target": "supply_side_economics",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "stagflation_1970s",
+    "target": "keynesianism",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "wealth_gap_expansion",
+    "target": "wealth_inequality",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "wealth_gap_expansion",
+    "target": "class_struggle",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "antibiotic_discovery",
+    "target": "antibiotic_resistance",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "antibiotic_discovery",
+    "target": "public_health_infrastructure",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "chronic_illness_policy",
+    "target": "pharmaceutical_industry",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "chronic_illness_policy",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "clean_air_clean_water_acts",
+    "target": "environmental_degradation",
+    "type": "UNDERMINED",
+    "weight": 4
+  },
+  {
+    "source": "clean_air_clean_water_acts",
+    "target": "regulatory_capture",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "climate_health_impacts",
+    "target": "environmental_degradation",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "climate_health_impacts",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "disability_rights_movement",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "disability_rights_movement",
+    "target": "social_movement",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "evidence_based_medicine",
+    "target": "scientific_consensus",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "evidence_based_medicine",
+    "target": "pharmaceutical_industry",
+    "type": "UNDERMINED",
+    "weight": 2
+  },
+  {
+    "source": "florence_nightingale",
+    "target": "public_health_infrastructure",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "florence_nightingale",
+    "target": "scientific_method",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "germ_theory",
+    "target": "scientific_consensus",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "germ_theory",
+    "target": "public_health_infrastructure",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "global_health_equity_movement",
+    "target": "structural_violence",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "global_health_equity_movement",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "great_sanitation_revolution",
+    "target": "public_health_infrastructure",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "great_sanitation_revolution",
+    "target": "structural_violence",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "hiv_aids_activism",
+    "target": "social_movement",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "hiv_aids_activism",
+    "target": "pharmaceutical_industry",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "john_snow_cholera_1854",
+    "target": "scientific_method",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "john_snow_cholera_1854",
+    "target": "public_health_infrastructure",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "medicare_medicaid_1965",
+    "target": "welfare_state",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "medicare_medicaid_1965",
+    "target": "wealth_inequality",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "mental_health_crisis",
+    "target": "addiction_science",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "mental_health_crisis",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "mental_health_destigmatization",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "mental_health_destigmatization",
+    "target": "social_trust",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "pain_management_movement",
+    "target": "opioid_epidemic",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "pain_management_movement",
+    "target": "pharmaceutical_industry",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "reproductive_rights_movement",
+    "target": "social_movement",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "reproductive_rights_movement",
+    "target": "legal_mobilization",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "smallpox_eradication",
+    "target": "scientific_consensus",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "smallpox_eradication",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "universal_healthcare_systems",
+    "target": "welfare_state",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "universal_healthcare_systems",
+    "target": "wealth_inequality",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "who_founding_1948",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "who_founding_1948",
+    "target": "public_health_infrastructure",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "cognitive_behavioral_therapy",
+    "target": "addiction_science",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "wartime_propaganda_art",
+    "target": "propaganda",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "wartime_propaganda_art",
+    "target": "dehumanization",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "civil_rights_music",
+    "target": "social_movement",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "civil_rights_music",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "hip_hop_emergence",
+    "target": "social_movement",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "hip_hop_emergence",
+    "target": "cultural_hegemony",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "climate_art",
+    "target": "social_movement",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "climate_art",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "social_realism_art",
+    "target": "class_struggle",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "social_realism_art",
+    "target": "social_movement",
+    "type": "PRODUCED",
+    "weight": 3
   }
 ]
