@@ -95,7 +95,7 @@ data/
 
 ---
 
-## CURRENT OBJECTIVE (Session 17 — 2026-04-12)
+## CURRENT OBJECTIVE (Session 18 — 2026-04-12)
 
 **Completed this session:**
 1. **Ghost node floating bug fixed** — Removed `!n.ghost` from `computeTiers` filter in `js/graph-renderer.js:420`. Ghost nodes now rank by degree in the semantic zoom tier system instead of always-visible with hidden edges.
@@ -105,12 +105,19 @@ data/
    - **History:** `iran_iraq_war`, `lebanon_civil_war`, `first_intifada`, `second_intifada`, `hamas`, `hezbollah`, `plo`, `yasser_arafat`, `abraham_accords_2020` (positive)
    - **Mechanisms:** `nationalism`, `sectarianism`, `asymmetric_warfare`, `occupation`, `resistance_movement`
 5. **Edge vocabulary** — already clean from Session 16; `UNDERMINED` already in filter sidebar.
+6. **3 more duplicate merges** — `holocaust→the_holocaust`, `abolition_movement→abolitionist_movement`, `atlantic_slave_trade→transatlantic_slave_trade`. Fixed stale `holocaust` ref in psychology/edges.json.
+7. **Belgian Congo / 1989 revolutions / aviation / CRISPR / prison reform / IHL batch** — 9 history nodes + 2 mechanism nodes + 43 edges.
+   - **History:** `belgian_congo`, `leopold_ii`, `east_german_revolution_1989`, `romanian_revolution_1989`, `german_reunification_1990`, `ostpolitik`, `aviation_revolution`, `crispr_gene_editing`, `prison_reform_movement`, `international_humanitarian_law`
+   - **Mechanisms:** `antibiotic_resistance`, `colonial_extraction`
+8. **Node spacing** — cumulative 44% increase from original: charge `-720`, link distance `288`/`547`, spread `±288`.
+9. **Highlight fix** — removed `graphInstance.nodeOpacity()` call (triggerUpdate rebuilds objects); direct material traversal now works correctly.
 
 **Next content priorities:**
-- More PROPOSED_TOPICS: Holocaust causal wiring depth, Belgian Congo / Leopold II atrocities, Armenian Genocide, Rwanda/Cambodia genocides
-- European history: more 1989 revolution detail (Romania, East Germany), Ostpolitik, European welfare state construction
-- Science: CRISPR/gene editing, aviation revolution, antibiotic resistance as negative counterpart to penicillin
-- Positive counterpart for opioid crisis / carceral state: harm reduction expansion, prison abolition movement nodes
+- Positive roadmap items still outstanding: `camp_david_accords_1978`, `emancipation_proclamation_1863`, `labor_rights_eight_hour_day`, `rural_electrification_1930s`
+- Person nodes still missing: `eleanor_roosevelt` (may already exist), `rosa_parks`, `harriet_tubman`, `frederick_douglass`
+- European welfare state construction depth, more 1989 follow-on (reunification aftermath)
+- Jim Crow / carceral state depth: school-to-prison pipeline, convict leasing follow-through
+- CIA operations batch (cold war covert ops)
 
 ---
 
@@ -147,23 +154,23 @@ Edge distribution audit: `ENABLED` was 39.8% of edges (used as catch-all); 70+ o
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-04-12, Session 17)
+## CURRENT DATASET STATE (as of 2026-04-12, Session 18)
 
 | Scope | Nodes | Edges |
 |-------|-------|-------|
-| History | **863** | ~1,638 |
-| Economics | **71** | ~163 |
-| Politics | **126** | ~331 |
-| Psychology | **69** | ~143 |
-| Media | **55** | ~126 |
-| Health | **62** | ~126 |
-| Art & Culture | **61** | ~70 |
-| Mechanisms | **219** | **~3,201** (cross-scope) |
-| **Total** | **1,526** | **~5,798** |
+| History | **878** | **1,679** |
+| Economics | **71** | 163 |
+| Politics | **126** | 331 |
+| Psychology | **69** | 142 |
+| Media | **55** | 125 |
+| Health | **62** | 126 |
+| Art & Culture | **61** | 70 |
+| Mechanisms | **223** | **3,250** (cross-scope) |
+| **Total** | **1,545** | **~5,886** |
 
-Session 17 additions: 9 history nodes (Middle East modern), 5 mechanism nodes; 6 duplicate history nodes removed; 41 new edges. Net: +8 nodes, +41 edges.
+**Data integrity:** 0 broken edge references. Verified after every batch.
 
-Session 17 (continued): 3 more duplicate groups merged (balkan_wars, green_revolution, nuclear_test_ban_treaty); 12 history nodes (European Cold War gaps, science/tech, Jim Crow, CIA, opioid); 2 mechanism nodes (supranational_integration, carceral_state); 50 new edges. History: 872 nodes / 1,661 edges. Mechanisms: 221 nodes / 3,228 edges.
+Session 18 additions: +12 history nodes net (3 duplicates removed, 9+3×1 added), +2 mechanism nodes, +43 edges. Stale `holocaust` ref in psychology/edges.json fixed.
 
 **Data integrity:** 0 broken edge references. Verified after every batch.
 
@@ -400,3 +407,4 @@ Perf commit f3e2fd9 activated `applySemanticZoom()` (previously a stub). If it t
 | Session 14–15 | (see Previous Objectives above) Large history content expansion (+200 history nodes, +50 mechanism nodes across all major eras) |
 | Session 16 | Edge type vocabulary cleanup: canonical 12-14 types enforced, `UNDERMINED` added to sidebar, tense normalization, non-causal type deletion. Edge distribution audit run. |
 | Session 17 | Bug: ghost node floating fixed (removed `!n.ghost` from `computeTiers`). Stats HUD: visible edge count + clickable top-5 hub nodes. Duplicate cleanup: 5 node groups merged (6 removed). Middle East modern history: 9 history + 5 mechanism nodes, 41 edges. Total: 1,526 nodes. |
+| Session 18 | 3 more duplicate merges (holocaust, abolition_movement, atlantic_slave_trade). Belgian Congo/Leopold II, 1989 revolutions (East Germany, Romania, Reunification, Ostpolitik), aviation, CRISPR, prison reform, IHL batch: 9 history + 2 mechanism nodes, 43 edges. Node spacing cumulative 44% increase. Highlight direct-traversal fix. Total: 1,545 nodes, ~5,886 edges. |

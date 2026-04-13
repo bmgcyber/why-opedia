@@ -430,7 +430,7 @@
   },
   {
     "source": "degenerate_art_nazi",
-    "target": "holocaust",
+    "target": "the_holocaust",
     "type": "ENABLED",
     "weight": 2
   },
@@ -460,7 +460,7 @@
   },
   {
     "source": "protest_literature",
-    "target": "abolition_movement",
+    "target": "abolitionist_movement",
     "type": "ENABLED",
     "weight": 2
   }

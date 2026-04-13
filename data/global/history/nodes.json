@@ -213,24 +213,6 @@
     "cross_scope": false
   },
   {
-    "id": "atlantic_slave_trade",
-    "label": "Atlantic Slave Trade",
-    "node_type": "reference",
-    "category": "event",
-    "wikipedia": "https://en.wikipedia.org/wiki/Atlantic_slave_trade",
-    "summary": "The forced transportation of approximately 12.5 million Africans to the Americas between the 16th and 19th centuries. Constructed a racial hierarchy and dehumanizing ideology that survived the trade's legal abolition and provided the foundational structure for subsequent American racial apartheid.",
-    "decade": "1500s–1800s",
-    "tags": [
-      "slavery",
-      "racism",
-      "history",
-      "colonialism",
-      "documented_atrocity"
-    ],
-    "scope": "global/history",
-    "cross_scope": false
-  },
-  {
     "id": "gulf_of_tonkin_incident",
     "label": "Gulf of Tonkin Incident",
     "node_type": "reference",
@@ -13343,26 +13325,6 @@
     ]
   },
   {
-    "id": "holocaust",
-    "label": "The Holocaust (1941–1945)",
-    "node_type": "reference",
-    "category": "event",
-    "decade": "1940s",
-    "region": "Europe",
-    "scope": "global/history",
-    "summary": "The systematic genocide of six million Jews, plus five million Roma, disabled people, homosexuals, and political prisoners — carried out by the Nazi state using industrial methods. The Holocaust required the complicity of ordinary citizens, large corporations, and state bureaucracies — documented by Hannah Arendt's 'banality of evil.'",
-    "tags": [
-      "holocaust",
-      "genocide",
-      "nazi",
-      "jews",
-      "extermination",
-      "arendt",
-      "germany",
-      "world war 2"
-    ]
-  },
-  {
     "id": "wwii_causes",
     "label": "World War II (1939–1945)",
     "node_type": "reference",
@@ -14152,15 +14114,6 @@
     "decade": 1858,
     "region": "Asia",
     "summary": "Britain's direct rule over India after the 1857 uprising integrated the subcontinent into the British imperial economy as a source of raw materials and captive market, systematically deindustrializing Indian textile manufacturing."
-  },
-  {
-    "id": "abolition_movement",
-    "label": "Abolitionist Movement (1780s–1865)",
-    "category": "event",
-    "scope": "global/history",
-    "decade": 1780,
-    "region": "Global",
-    "summary": "The organized campaign to end slavery demonstrated that moral arguments amplified by mass activism could change laws, while also showing how long entrenched economic interests can resist even overwhelming moral consensus."
   },
   {
     "id": "reconstruction_failure",
@@ -16014,5 +15967,184 @@
       "history"
     ],
     "contemporary_relevance": "Reconstruction is the precedent for every subsequent attempt to dismantle racial hierarchy in the US — and for the resistance that follows. Its failure is the direct cause of 90 years of Jim Crow."
+  },
+  {
+    "id": "belgian_congo",
+    "label": "Belgian Congo — Rubber Terror (1885–1908)",
+    "category": "era",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1885–1908",
+    "region": "Africa",
+    "wikipedia": "https://en.wikipedia.org/wiki/Congo_Free_State",
+    "summary": "King Leopold II's private colony in the Congo (1885–1908), run through systematic terror to maximize rubber extraction. Hostage-taking of women and children, severing of hands as proof of bullet usage, and forced labor killed an estimated 10 million people. Exposed by E.D. Morel's journalism and Roger Casement's report. The international outrage campaign that ended it was an early model for human rights advocacy.",
+    "tags": [
+      "colonialism",
+      "genocide",
+      "Africa",
+      "Belgium",
+      "Congo",
+      "rubber",
+      "Leopold"
+    ],
+    "contemporary_relevance": "The Congo Free State is the template for understanding how corporate extraction logic, combined with sovereign impunity and dehumanization of subject populations, produces atrocity at industrial scale."
+  },
+  {
+    "id": "leopold_ii",
+    "label": "King Leopold II of Belgium",
+    "category": "person",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1865–1909",
+    "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Leopold_II_of_Belgium",
+    "summary": "Belgian king (1865–1909) who claimed the Congo as a personal colony under the pretense of humanitarian mission. Systematically extracted rubber through a regime of terror, mutilation, and mass murder. Never visited the Congo. Personally enriched while killing millions. Forced to cede the colony to Belgium in 1908 after international exposure.",
+    "tags": [
+      "colonialism",
+      "Belgium",
+      "Congo",
+      "atrocity",
+      "Leopold",
+      "person"
+    ],
+    "contemporary_relevance": "Leopold II represents the model of 'humanitarian imperialism' — using the language of civilization and charity to mask extraction and genocide. His statue has been repeatedly vandalized and removed in Belgium as part of colonial reckoning."
+  },
+  {
+    "id": "east_german_revolution_1989",
+    "label": "East German Revolution (1989)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1980s–1990s",
+    "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peaceful_Revolution",
+    "summary": "Series of mass demonstrations across East Germany (September–November 1989) that brought down the SED communist government. The Leipzig Monday Demonstrations gathered 70,000 people on October 9 — the regime chose not to fire. The Berlin Wall fell November 9. The government resigned within weeks. The entire authoritarian state collapsed in 70 days.",
+    "tags": [
+      "Germany",
+      "revolution",
+      "Cold War",
+      "democracy",
+      "nonviolent",
+      "Europe"
+    ],
+    "contemporary_relevance": "East Germany's Peaceful Revolution is a case study in how authoritarian regimes collapse when they lose the will to use force — and how mass participation makes repression politically too costly."
+  },
+  {
+    "id": "romanian_revolution_1989",
+    "label": "Romanian Revolution (1989)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1980s–1990s",
+    "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romanian_Revolution",
+    "summary": "The only violent 1989 revolution in the Eastern Bloc. Nicolae Ceaușescu's regime collapsed after the army switched sides and protestors stormed state buildings. Ceaușescu and his wife were summarily tried and executed on December 25, 1989. ~1,100 people died. Revealed how extreme a personality cult and securitate surveillance state Romania had become.",
+    "tags": [
+      "Romania",
+      "revolution",
+      "Cold War",
+      "Ceausescu",
+      "Europe",
+      "1989"
+    ],
+    "contemporary_relevance": "Romania's violent transition contrasts with the Velvet Revolution's nonviolence — illustrating how the character of a regime (degree of personalist dictatorship, military loyalty) shapes the violence of its collapse."
+  },
+  {
+    "id": "german_reunification_1990",
+    "label": "German Reunification (1990)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1990s",
+    "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/German_reunification",
+    "summary": "Formal reunification of West and East Germany on October 3, 1990, less than a year after the Berlin Wall fell. Negotiated through the Two Plus Four Agreement between the Germanys and the four WWII Allied powers. The fastest and most peacefully managed major state merger in modern history — though economic and social integration took decades.",
+    "tags": [
+      "Germany",
+      "reunification",
+      "Cold War",
+      "Europe",
+      "democracy"
+    ],
+    "contemporary_relevance": "German reunification's 'solidarity tax' and wealth transfer (€2 trillion over 30 years) illustrates both the cost of catching up after decades of communist mismanagement and the political commitment required for successful integration."
+  },
+  {
+    "id": "ostpolitik",
+    "label": "Ostpolitik (1969–1989)",
+    "category": "era",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1969–1989",
+    "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ostpolitik",
+    "summary": "Willy Brandt's West German policy of rapprochement with East Germany and the Soviet bloc (1969–89). Normalized relations, enabled family visits, and built economic interdependence across the Iron Curtain. Brandt's kneeling at the Warsaw Ghetto Memorial (1970) was a defining act of historical acknowledgment. Laid groundwork for 1989 transitions.",
+    "tags": [
+      "Germany",
+      "Cold War",
+      "diplomacy",
+      "détente",
+      "Europe",
+      "positive"
+    ],
+    "contemporary_relevance": "Ostpolitik is the model for using economic engagement and people-to-people contact to soften authoritarian systems — the theory that inspired Western engagement with China, with more contested results."
+  },
+  {
+    "id": "aviation_revolution",
+    "label": "Aviation Revolution (1903–1970s)",
+    "category": "event",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1900s–1970s",
+    "region": "Global",
+    "wikipedia": "https://en.wikipedia.org/wiki/History_of_aviation",
+    "summary": "From the Wright Brothers' first flight (1903) to the jet age (1950s) and mass commercial aviation (1960s–70s). Compressed distance, enabled global trade, created the modern tourism industry, transformed warfare, and made global supply chains possible. Also democratized long-distance travel for the first time in history.",
+    "tags": [
+      "technology",
+      "science",
+      "transportation",
+      "positive",
+      "Global"
+    ],
+    "contemporary_relevance": "Aviation is responsible for ~2.5% of global CO2 emissions and ~3.5% of effective radiative forcing — a case where a transformative positive technology carries significant negative externalities not priced into the market."
+  },
+  {
+    "id": "prison_reform_movement",
+    "label": "Prison Reform and Abolition Movement",
+    "category": "movement",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1970s–present",
+    "region": "Americas",
+    "wikipedia": "https://en.wikipedia.org/wiki/Prison_abolition_movement",
+    "summary": "Social movement challenging mass incarceration, demanding restorative justice alternatives, decarceration, and ultimately abolition of the prison-industrial complex. Key figures: Angela Davis, Ruth Wilson Gilmore. Key demands: end mandatory minimums, close prisons, invest in communities. Gained momentum after The New Jim Crow (2010) and Black Lives Matter (2013–).",
+    "tags": [
+      "justice",
+      "race",
+      "Americas",
+      "abolition",
+      "positive",
+      "prison"
+    ],
+    "contemporary_relevance": "Prison abolition has shifted from fringe to mainstream academic and activist discourse in the 2010s-20s, producing concrete policy wins: California's Prop 47, First Step Act (2018), and dozens of local decarceration campaigns."
+  },
+  {
+    "id": "international_humanitarian_law",
+    "label": "International Humanitarian Law (Geneva Conventions)",
+    "category": "institution",
+    "scope": "global/history",
+    "cross_scope": false,
+    "decade": "1864–1949",
+    "region": "Global",
+    "wikipedia": "https://en.wikipedia.org/wiki/International_humanitarian_law",
+    "summary": "Body of law governing warfare, built from the Geneva Conventions (1864, 1906, 1929, 1949) and Hague Conventions. Protects civilians, prisoners of war, and wounded combatants. Created the Red Cross. Expanded after WWII atrocities to include prohibitions on genocide (Genocide Convention 1948) and crimes against humanity. Enforcement remains weak without political will.",
+    "tags": [
+      "law",
+      "human rights",
+      "Geneva",
+      "positive",
+      "war",
+      "international"
+    ],
+    "contemporary_relevance": "IHL is simultaneously the strongest normative framework for limiting war's brutality and the most routinely violated body of law. Every major 21st-century conflict involves documented violations — demonstrating that laws without enforcement mechanisms have limited deterrence."
   }
 ]

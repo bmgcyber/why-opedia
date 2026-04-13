@@ -4238,5 +4238,38 @@
       "Americas"
     ],
     "description": "The carceral state is not primarily about crime reduction — prison populations rose as crime fell, and fell as crime remained stable. It is a mechanism for managing surplus labor and politically marginalizing populations after the formal abolition of more explicit forms of racial control. Michelle Alexander's 'The New Jim Crow' documents the mechanism: disparate enforcement → disproportionate incarceration → felony disenfranchisement → exclusion from housing, employment, voting."
+  },
+  {
+    "id": "antibiotic_resistance",
+    "label": "Antibiotic Resistance",
+    "category": "mechanism",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+    "summary": "Evolutionary process by which bacteria develop resistance to antibiotics through natural selection, accelerated by overuse in medicine and agriculture. WHO projects 10 million annual deaths from resistant infections by 2050. The mechanism: antibiotics kill susceptible bacteria, survivors reproduce, resistance spreads horizontally across species.",
+    "tags": [
+      "medicine",
+      "health",
+      "mechanism",
+      "crisis",
+      "negative"
+    ],
+    "description": "Antibiotic resistance is a classic tragedy of the commons: antibiotics work as a shared resource that is depleted by overuse. Individual incentives (use antibiotics aggressively to guarantee cure) collectively produce a global catastrophe (resistance renders the entire class ineffective). Agricultural use accounts for 70%+ of global antibiotic consumption — a regulatory failure with existential public health consequences."
+  },
+  {
+    "id": "colonial_extraction",
+    "label": "Colonial Extraction",
+    "category": "mechanism",
+    "scope": "mechanisms",
+    "cross_scope": true,
+    "wikipedia": "https://en.wikipedia.org/wiki/Extractive_institutions",
+    "summary": "Systematic removal of resources, labor, and capital from colonized territories to the colonizing metropole. Operates through monopoly charters, forced labor, tax extraction, and institutional design that rewards extraction over local development. Creates path dependencies that outlast formal colonialism.",
+    "tags": [
+      "mechanism",
+      "colonialism",
+      "economics",
+      "imperialism"
+    ],
+    "description": "Colonial extraction is the economic core of colonialism: why empires were built and maintained. It works through institutional design — creating legal structures that funnel value to the colonizer rather than developing local economies. Acemoglu & Robinson's research shows that 'extractive institutions' created under colonialism predict economic underperformance centuries later. The mechanism persists through elite capture even after formal independence."
   }
 ]

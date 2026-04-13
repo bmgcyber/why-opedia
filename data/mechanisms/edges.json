@@ -590,7 +590,7 @@
   },
   {
     "id": "atlantic_slave_trade__dehumanization",
-    "source": "atlantic_slave_trade",
+    "source": "transatlantic_slave_trade",
     "target": "dehumanization",
     "type": "EXPLOITED",
     "label": "required enslaved people to be subhuman",
@@ -2490,7 +2490,7 @@
   {
     "id": "egyptian_slavery__atlantic_slave_trade",
     "source": "egyptian_slavery",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Both ancient Egyptian slavery and Atlantic slavery share mechanisms of conquest-based forced labor",
     "note": "Both institutions relied on military conquest to produce enslaved populations, used enslaved labor for monumental and agricultural production, and operated within systems that naturalized the enslavement of ethnic others. However, ancient Egyptian slavery was less systematically racialized and less chattel-based than Atlantic slavery.",
@@ -6076,7 +6076,7 @@
   {
     "id": "imperialism__atlantic_slave_trade",
     "source": "imperialism",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "PRODUCED",
     "label": "The Atlantic slave trade was imperialism's labor solution — colonialism's plantation economy required enslaved Africans as the only viable workforce",
     "note": "The transatlantic slave trade was a product of imperial economic logic: European colonialism's plantation agriculture (sugar, tobacco, cotton) required large quantities of labor that couldn't be obtained from Europe (too expensive) or from surviving Indigenous Americans (decimated by disease). African enslaved people were the solution: profitable to acquire through trade with African rulers, legally owned as property, and unable to easily escape in unfamiliar territory. The slave trade's scale (12 million+ people transported, 15-20% dying in the Middle Passage) reflects the industrial logic of imperial plantation agriculture. Slavery was not an anomaly of imperial capitalism but its labor system.",
@@ -10440,7 +10440,7 @@
   },
   {
     "id": "atlantic_slave_trade__primitive_accumulation",
-    "source": "atlantic_slave_trade",
+    "source": "transatlantic_slave_trade",
     "target": "primitive_accumulation",
     "type": "CAUSED"
   },
@@ -20490,7 +20490,7 @@
   {
     "source": "totalitarianism",
     "type": "ENABLED",
-    "target": "holocaust"
+    "target": "the_holocaust"
   },
   {
     "source": "totalitarianism",
@@ -20598,17 +20598,17 @@
     "target": "dehumanization"
   },
   {
-    "source": "holocaust",
+    "source": "the_holocaust",
     "type": "ENABLED",
     "target": "genocide"
   },
   {
-    "source": "holocaust",
+    "source": "the_holocaust",
     "type": "ENABLED",
     "target": "dehumanization"
   },
   {
-    "source": "holocaust",
+    "source": "the_holocaust",
     "type": "ENABLED",
     "target": "institutional_credibility_laundering"
   },
@@ -21874,7 +21874,7 @@
   },
   {
     "source": "chattel_slavery",
-    "target": "abolition_movement",
+    "target": "abolitionist_movement",
     "type": "CAUSED",
     "weight": 3
   },
@@ -22012,13 +22012,13 @@
   },
   {
     "source": "nonviolent_resistance",
-    "target": "abolition_movement",
+    "target": "abolitionist_movement",
     "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "coalition_building",
-    "target": "abolition_movement",
+    "target": "abolitionist_movement",
     "type": "ENABLED",
     "weight": 3
   },
@@ -22036,7 +22036,7 @@
   },
   {
     "source": "social_movement",
-    "target": "abolition_movement",
+    "target": "abolitionist_movement",
     "type": "ENABLED",
     "weight": 3
   },
@@ -22138,7 +22138,7 @@
   },
   {
     "source": "pseudo_science",
-    "target": "holocaust",
+    "target": "the_holocaust",
     "type": "ENABLED",
     "weight": 3
   },
@@ -24851,5 +24851,181 @@
     "type": "ENABLED",
     "label": "Deindustrialized communities with chronic unemployment and despair were most vulnerable to opioid addiction",
     "confidence": "high"
+  },
+  {
+    "id": "belgian_congo__colonial_extraction",
+    "source": "belgian_congo",
+    "target": "colonial_extraction",
+    "type": "ENABLED",
+    "label": "Congo Free State was the most extreme example of colonial extraction logic — rubber quotas enforced through mutilation",
+    "confidence": "high"
+  },
+  {
+    "id": "belgian_congo__dehumanization",
+    "source": "belgian_congo",
+    "target": "dehumanization",
+    "type": "PRODUCED",
+    "label": "Systematic dehumanization of Congolese people was prerequisite for the atrocity scale",
+    "confidence": "high"
+  },
+  {
+    "id": "belgian_congo__structural_violence",
+    "source": "belgian_congo",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Forced labor quotas, hostage-taking, and hand-severing constituted organized structural violence",
+    "confidence": "high"
+  },
+  {
+    "id": "colonial_extraction__resource_curse",
+    "source": "colonial_extraction",
+    "target": "resource_curse",
+    "type": "PRODUCED",
+    "label": "Colonial extraction created resource-dependent economies whose institutions optimize for extraction not development",
+    "confidence": "high"
+  },
+  {
+    "id": "colonial_extraction__imperialism",
+    "source": "colonial_extraction",
+    "target": "imperialism",
+    "type": "ENABLED",
+    "label": "Extraction economics provided the financial returns that motivated and sustained imperial expansion",
+    "confidence": "high"
+  },
+  {
+    "id": "colonial_extraction__structural_violence",
+    "source": "colonial_extraction",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "label": "Extraction requires coercion — forced labor, displacement, expropriation are its mechanisms of implementation",
+    "confidence": "high"
+  },
+  {
+    "id": "east_german_revolution_1989__nonviolent_resistance",
+    "source": "east_german_revolution_1989",
+    "target": "nonviolent_resistance",
+    "type": "ENABLED",
+    "label": "Leipzig's Monday Demonstrations showed that mass nonviolent mobilization could paralyze an authoritarian regime",
+    "confidence": "high"
+  },
+  {
+    "id": "romanian_revolution_1989__state_collapse",
+    "source": "romanian_revolution_1989",
+    "target": "state_collapse",
+    "type": "CAUSED",
+    "label": "Ceaușescu's state apparatus collapsed when the army defected — total institutional failure within days",
+    "confidence": "high"
+  },
+  {
+    "id": "ostpolitik__coalition_building",
+    "source": "ostpolitik",
+    "target": "coalition_building",
+    "type": "ENABLED",
+    "label": "Ostpolitik required building coalitions of moderates across Cold War lines — a model of engagement over isolation",
+    "confidence": "medium"
+  },
+  {
+    "id": "german_reunification_1990__supranational_integration",
+    "source": "german_reunification_1990",
+    "target": "supranational_integration",
+    "type": "ENABLED",
+    "label": "German reunification demonstrated that deep economic integration and shared institutions can rapidly absorb political change",
+    "confidence": "medium"
+  },
+  {
+    "id": "penicillin_discovery__antibiotic_resistance",
+    "source": "penicillin_discovery",
+    "target": "antibiotic_resistance",
+    "type": "CAUSED",
+    "label": "Antibiotic use created evolutionary selection pressure that generates resistant strains — the very success of penicillin created the resistance crisis",
+    "confidence": "high"
+  },
+  {
+    "id": "antibiotic_resistance__public_health_infrastructure",
+    "source": "antibiotic_resistance",
+    "target": "public_health_infrastructure",
+    "type": "UNDERMINED",
+    "label": "Resistance is dismantling the antibiotic foundation of modern surgery, childbirth, and immune-suppressive medicine",
+    "confidence": "high"
+  },
+  {
+    "id": "crispr_gene_editing__scientific_consensus",
+    "source": "crispr_gene_editing",
+    "target": "scientific_consensus",
+    "type": "ENABLED",
+    "label": "CRISPR's open-access development model exemplifies scientific consensus building across international research communities",
+    "confidence": "medium"
+  },
+  {
+    "id": "aviation_revolution__resource_curse",
+    "source": "aviation_revolution",
+    "target": "resource_curse",
+    "type": "ENABLED",
+    "label": "Commercial aviation made global commodity markets viable, intensifying demand for oil and resource extraction",
+    "confidence": "medium"
+  },
+  {
+    "id": "aviation_revolution__platform_capitalism",
+    "source": "aviation_revolution",
+    "target": "platform_capitalism",
+    "type": "ENABLED",
+    "label": "Aviation enabled globally distributed supply chains and just-in-time logistics that platform capitalism depends on",
+    "confidence": "medium"
+  },
+  {
+    "id": "prison_reform_movement__restorative_justice",
+    "source": "prison_reform_movement",
+    "target": "restorative_justice",
+    "type": "ENABLED",
+    "label": "Prison reform movement has mainstreamed restorative justice as a concrete alternative to incarceration",
+    "confidence": "high"
+  },
+  {
+    "id": "prison_reform_movement__carceral_state",
+    "source": "prison_reform_movement",
+    "target": "carceral_state",
+    "type": "DISCREDITED",
+    "label": "Abolition scholarship and activism has documented and challenged every pillar of carceral state logic",
+    "confidence": "high"
+  },
+  {
+    "id": "restorative_justice__carceral_state",
+    "source": "restorative_justice",
+    "target": "carceral_state",
+    "type": "UNDERMINED",
+    "label": "Evidence of restorative justice's superior outcomes challenges the carceral state's claim to be the only response to harm",
+    "confidence": "high"
+  },
+  {
+    "id": "international_humanitarian_law__international_law",
+    "source": "international_humanitarian_law",
+    "target": "international_law",
+    "type": "ENABLED",
+    "label": "IHL and the Genocide Convention established the principle that state sovereignty does not shield mass atrocity from international accountability",
+    "confidence": "high"
+  },
+  {
+    "id": "international_humanitarian_law__moral_circle_expansion",
+    "source": "international_humanitarian_law",
+    "target": "moral_circle_expansion",
+    "type": "ENABLED",
+    "label": "IHL progressively expanded protections to civilians, prisoners, wounded, then refugees — institutionalizing moral circle expansion",
+    "confidence": "high"
+  },
+  {
+    "id": "the_holocaust__genocide",
+    "source": "the_holocaust",
+    "target": "genocide",
+    "type": "PRODUCED",
+    "label": "The Holocaust prompted Raphael Lemkin to coin 'genocide' and campaign for the 1948 Genocide Convention",
+    "confidence": "high"
+  },
+  {
+    "id": "belgian_congo__genocide",
+    "source": "belgian_congo",
+    "target": "genocide",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Belgian Congo atrocities share the mechanism of state-sanctioned mass killing for economic extraction",
+    "confidence": "medium"
   }
 ]

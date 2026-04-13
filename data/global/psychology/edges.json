@@ -23,7 +23,7 @@
     "target": "stanford_prison_experiment",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Both show situational factors produce cruelty in ordinary people",
-    "note": "Together, the Milgram and Stanford Prison experiments established the situationist case: ordinary people will commit cruelty when placed in contexts that legitimize it — regardless of individual character. Both were designed to understand how ordinary people commit atrocity; both produced results that disturbed their designers. They form the empirical foundation for moral disengagement and in-group/out-group dynamics as mechanisms.",
+    "note": "Together, the Milgram and Stanford Prison experiments established the situationist case: ordinary people will commit cruelty when placed in contexts that legitimize it \u2014 regardless of individual character. Both were designed to understand how ordinary people commit atrocity; both produced results that disturbed their designers. They form the empirical foundation for moral disengagement and in-group/out-group dynamics as mechanisms.",
     "confidence": "high"
   },
   {
@@ -32,7 +32,7 @@
     "target": "confucianism",
     "type": "PRODUCED",
     "label": "Confucius' teachings became the foundation of Chinese civilization",
-    "note": "Confucius produced no systematic philosophical text — his teachings survive primarily in the Analects, recorded by his students. But the tradition derived from these teachings shaped Chinese governance, education, family structure, and moral culture for over two thousand years. Through the Han Dynasty's adoption of Confucianism as state ideology (136 BCE), Confucius' ethical framework became the official basis for Chinese civilization — the examination system, bureaucratic governance, and family ethics were all organized around Confucian principles.",
+    "note": "Confucius produced no systematic philosophical text \u2014 his teachings survive primarily in the Analects, recorded by his students. But the tradition derived from these teachings shaped Chinese governance, education, family structure, and moral culture for over two thousand years. Through the Han Dynasty's adoption of Confucianism as state ideology (136 BCE), Confucius' ethical framework became the official basis for Chinese civilization \u2014 the examination system, bureaucratic governance, and family ethics were all organized around Confucian principles.",
     "confidence": "high"
   },
   {
@@ -41,7 +41,7 @@
     "target": "mohism",
     "type": "ENABLED",
     "label": "Confucianism was the context that Mohism explicitly critiqued",
-    "note": "Mozi developed Mohist philosophy explicitly as a critique of Confucian doctrine: Confucian differential love (loving relatives more than strangers) was, for Mozi, the source of social conflict rather than its solution. The Mohist doctrine of jian ai (universal, impartial love) was a direct philosophical alternative. Without Confucianism as the dominant framework to challenge, Mohism's distinctive positions cannot be understood — it is a systematic response to what Mozi saw as Confucian ethics' fundamental flaw.",
+    "note": "Mozi developed Mohist philosophy explicitly as a critique of Confucian doctrine: Confucian differential love (loving relatives more than strangers) was, for Mozi, the source of social conflict rather than its solution. The Mohist doctrine of jian ai (universal, impartial love) was a direct philosophical alternative. Without Confucianism as the dominant framework to challenge, Mohism's distinctive positions cannot be understood \u2014 it is a systematic response to what Mozi saw as Confucian ethics' fundamental flaw.",
     "confidence": "high"
   },
   {
@@ -59,7 +59,7 @@
     "target": "frankfurt_school",
     "type": "ENABLED",
     "label": "Freudian psychoanalysis provided the psychological dimension that the Frankfurt School combined with Marxist analysis",
-    "note": "The Frankfurt School — especially Wilhelm Reich, Erich Fromm, Herbert Marcuse, and Theodor Adorno — synthesized Freud with Marx to produce a theory of how capitalism reproduces itself psychologically: through repression, authoritarianism, and the sublimation of radical desire into conformity. The Authoritarian Personality (Adorno et al.) applied Freudian methods to understand fascism.",
+    "note": "The Frankfurt School \u2014 especially Wilhelm Reich, Erich Fromm, Herbert Marcuse, and Theodor Adorno \u2014 synthesized Freud with Marx to produce a theory of how capitalism reproduces itself psychologically: through repression, authoritarianism, and the sublimation of radical desire into conformity. The Authoritarian Personality (Adorno et al.) applied Freudian methods to understand fascism.",
     "confidence": "high"
   },
   {
@@ -68,7 +68,7 @@
     "target": "milgram_obedience_experiments",
     "type": "PRODUCED",
     "label": "Milgram designed and conducted the obedience experiments to empirically test Holocaust perpetration",
-    "note": "Milgram explicitly designed the experiments in response to Hannah Arendt banality of evil and to test the claim that situational authority rather than character determines whether people commit atrocities. The experiments are the most important empirical finding in social psychology — and also the most ethically controversial, since participants were deceived into believing they were harming others.",
+    "note": "Milgram explicitly designed the experiments in response to Hannah Arendt banality of evil and to test the claim that situational authority rather than character determines whether people commit atrocities. The experiments are the most important empirical finding in social psychology \u2014 and also the most ethically controversial, since participants were deceived into believing they were harming others.",
     "confidence": "high"
   },
   {
@@ -198,7 +198,7 @@
     "target": "attachment_theory",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Trauma bonding exploits attachment system vulnerabilities established in early development",
-    "note": "Trauma bonding — the counterintuitive emotional attachment to an abuser — operates through the attachment system: abusers exploit the same neural mechanisms that form parent-child bonds by alternating intense threat (activating the attachment system) with intermittent care (providing the \"haven\"). Anxious-ambivalent attachment style (Ainsworth) predisposes to trauma bonding by heightening hypervigilance to abandonment signals.",
+    "note": "Trauma bonding \u2014 the counterintuitive emotional attachment to an abuser \u2014 operates through the attachment system: abusers exploit the same neural mechanisms that form parent-child bonds by alternating intense threat (activating the attachment system) with intermittent care (providing the \"haven\"). Anxious-ambivalent attachment style (Ainsworth) predisposes to trauma bonding by heightening hypervigilance to abandonment signals.",
     "confidence": "high"
   },
   {
@@ -207,7 +207,7 @@
     "target": "online_radicalization",
     "type": "ENABLED",
     "label": "The Red Pill community was the gateway for online radicalization into the broader manosphere",
-    "note": "The Red Pill community (r/TheRedPill, male self-improvement framing) functioned as an entry ramp into the radicalization pipeline: moderate \"self-improvement\" rhetoric adjacent to misogyny → pickup artistry → incel ideology → men's rights activism → white nationalism. YouTube \"heterodox\" content (Jordan Peterson) fed into the same pipeline. The radicalization mechanism: each community normalized the next community's premises.",
+    "note": "The Red Pill community (r/TheRedPill, male self-improvement framing) functioned as an entry ramp into the radicalization pipeline: moderate \"self-improvement\" rhetoric adjacent to misogyny \u2192 pickup artistry \u2192 incel ideology \u2192 men's rights activism \u2192 white nationalism. YouTube \"heterodox\" content (Jordan Peterson) fed into the same pipeline. The radicalization mechanism: each community normalized the next community's premises.",
     "confidence": "high"
   },
   {
@@ -225,7 +225,7 @@
     "target": "chronic_illness_online_communities",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Both reframe pathologized conditions as valid identity, creating online communities that resist medicalization",
-    "note": "Fat acceptance and chronic illness communities share the same structural dynamic: a condition medicine treats as pathology (obesity, fibromyalgia, long COVID) is reframed by community members as valid identity rather than disease to be cured. Both produce online communities with strong in-group identity, skepticism of medical authority, and members who find the community itself therapeutic — but also with documented patterns of identity reward that can discourage evidence-based treatment.",
+    "note": "Fat acceptance and chronic illness communities share the same structural dynamic: a condition medicine treats as pathology (obesity, fibromyalgia, long COVID) is reframed by community members as valid identity rather than disease to be cured. Both produce online communities with strong in-group identity, skepticism of medical authority, and members who find the community itself therapeutic \u2014 but also with documented patterns of identity reward that can discourage evidence-based treatment.",
     "confidence": "high"
   },
   {
@@ -234,7 +234,7 @@
     "target": "positive_psychology",
     "type": "ENABLED",
     "label": "Positive psychology's acceptance frameworks provided intellectual support for fat acceptance ideology",
-    "note": "The Health at Every Size (HAES) movement draws on positive psychology frameworks: self-compassion (Kristin Neff), acceptance and commitment therapy, and the shift from deficit-based to strengths-based models. Positive psychology's critique of the medical model — treating people as broken systems to be fixed rather than capable people to be supported — aligns structurally with fat acceptance's critique of medical fatphobia. HAES explicitly cites positive psychology research on unconditional self-worth.",
+    "note": "The Health at Every Size (HAES) movement draws on positive psychology frameworks: self-compassion (Kristin Neff), acceptance and commitment therapy, and the shift from deficit-based to strengths-based models. Positive psychology's critique of the medical model \u2014 treating people as broken systems to be fixed rather than capable people to be supported \u2014 aligns structurally with fat acceptance's critique of medical fatphobia. HAES explicitly cites positive psychology research on unconditional self-worth.",
     "confidence": "medium"
   },
   {
@@ -243,7 +243,7 @@
     "target": "self_help_industry",
     "type": "ENABLED",
     "label": "Body positivity and HAES have generated a substantial self-help product market",
-    "note": "The fat acceptance movement has generated a thriving self-help market: HAES dieticians, body-positive coaches, intuitive eating programs, and anti-diet books (\"Anti-Diet\" by Christy Harrison; \"Health at Every Size\" by Linda Bacon) are major self-help category sellers. The same self-help infrastructure that marketed diet culture repackaged itself to market anti-diet culture — the market mechanism is identical even as the content reversed. Body positivity is diet culture's mirror image within the same industry.",
+    "note": "The fat acceptance movement has generated a thriving self-help market: HAES dieticians, body-positive coaches, intuitive eating programs, and anti-diet books (\"Anti-Diet\" by Christy Harrison; \"Health at Every Size\" by Linda Bacon) are major self-help category sellers. The same self-help infrastructure that marketed diet culture repackaged itself to market anti-diet culture \u2014 the market mechanism is identical even as the content reversed. Body positivity is diet culture's mirror image within the same industry.",
     "confidence": "high"
   },
   {
@@ -279,7 +279,7 @@
     "target": "social_media_addiction",
     "type": "ENABLED",
     "label": "Chronic illness communities' TikTok and Instagram presence creates algorithmic identity reward for illness expression",
-    "note": "Chronic illness communities on TikTok (#ChronicIllness, 11+ billion views; #SpoonieLife) demonstrate how social media addiction mechanics intersect with identity communities: content about illness symptoms generates engagement (comments, supportive reactions), creating reward loops that incentivize illness expression and identity investment. Researchers document \"TikTok tic disorder\" and spread of functional neurological symptoms through chronic illness communities — not through deliberate deception but through social media's algorithmic amplification of emotionally resonant content.",
+    "note": "Chronic illness communities on TikTok (#ChronicIllness, 11+ billion views; #SpoonieLife) demonstrate how social media addiction mechanics intersect with identity communities: content about illness symptoms generates engagement (comments, supportive reactions), creating reward loops that incentivize illness expression and identity investment. Researchers document \"TikTok tic disorder\" and spread of functional neurological symptoms through chronic illness communities \u2014 not through deliberate deception but through social media's algorithmic amplification of emotionally resonant content.",
     "confidence": "high"
   },
   {
@@ -288,7 +288,7 @@
     "target": "recovered_memory_therapy",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Both: community dynamics and therapeutic suggestion can generate contested diagnoses that spread socially",
-    "note": "Recovered memory therapy (1980s–90s) and some chronic illness communities share the mechanism of iatrogenic and socially-contagious diagnosis: therapists' leading questions produced false memories of abuse; online chronic illness communities' symptom discussions produce social spread of diagnoses (functional neurological disorder, multiple chemical sensitivity, some long COVID symptoms). Neither is simply fraudulent — both involve real suffering — but both demonstrate how community and therapeutic suggestion can generate and sustain medical beliefs that don't track independent pathology.",
+    "note": "Recovered memory therapy (1980s\u201390s) and some chronic illness communities share the mechanism of iatrogenic and socially-contagious diagnosis: therapists' leading questions produced false memories of abuse; online chronic illness communities' symptom discussions produce social spread of diagnoses (functional neurological disorder, multiple chemical sensitivity, some long COVID symptoms). Neither is simply fraudulent \u2014 both involve real suffering \u2014 but both demonstrate how community and therapeutic suggestion can generate and sustain medical beliefs that don't track independent pathology.",
     "confidence": "medium"
   },
   {
@@ -315,7 +315,7 @@
     "target": "recovered_memory_therapy",
     "type": "ENABLED",
     "label": "Freud's repression theory provided the intellectual framework that recovered memory therapy operationalized",
-    "note": "Recovered memory therapy's core premise — that traumatic memories can be repressed and recovered through therapeutic technique — is directly derived from Freud's repression theory (1894–1900). The therapeutic practices (hypnosis, free association, dream interpretation to access unconscious content) are Freudian technique. The 1980s-90s recovered memory movement drew explicitly on Freudian concepts even as it extended them beyond what Freud himself claimed. When the movement was discredited, Freudian repression theory itself came under scrutiny — the scientific critique of recovered memory was also a critique of its Freudian foundations.",
+    "note": "Recovered memory therapy's core premise \u2014 that traumatic memories can be repressed and recovered through therapeutic technique \u2014 is directly derived from Freud's repression theory (1894\u20131900). The therapeutic practices (hypnosis, free association, dream interpretation to access unconscious content) are Freudian technique. The 1980s-90s recovered memory movement drew explicitly on Freudian concepts even as it extended them beyond what Freud himself claimed. When the movement was discredited, Freudian repression theory itself came under scrutiny \u2014 the scientific critique of recovered memory was also a critique of its Freudian foundations.",
     "confidence": "high"
   },
   {
@@ -324,7 +324,7 @@
     "target": "attachment_theory",
     "type": "ENABLED",
     "label": "Attachment insecurity is the vulnerability that narcissistic abusers systematically target and exploit",
-    "note": "Narcissistic abuse dynamics — idealization/devaluation cycling, intermittent reinforcement, isolation from support networks — exploit attachment system vulnerabilities: anxiously attached individuals (who fear abandonment) are particularly vulnerable to the idealization phase and intermittent reinforcement cycle; avoidantly attached individuals may find narcissistic confidence initially attractive. Research shows that early attachment patterns (especially anxious attachment) are predictive of vulnerability to narcissistic relationship dynamics. Narcissistic abuse is essentially a systematic exploitation of the attachment system.",
+    "note": "Narcissistic abuse dynamics \u2014 idealization/devaluation cycling, intermittent reinforcement, isolation from support networks \u2014 exploit attachment system vulnerabilities: anxiously attached individuals (who fear abandonment) are particularly vulnerable to the idealization phase and intermittent reinforcement cycle; avoidantly attached individuals may find narcissistic confidence initially attractive. Research shows that early attachment patterns (especially anxious attachment) are predictive of vulnerability to narcissistic relationship dynamics. Narcissistic abuse is essentially a systematic exploitation of the attachment system.",
     "confidence": "high"
   },
   {
@@ -332,8 +332,8 @@
     "source": "stanford_prison_experiment",
     "target": "cult_dynamics",
     "type": "ENABLED",
-    "label": "SPE demonstrated how role assignment creates authoritarian compliance — the mechanism underlying cult dynamics",
-    "note": "The Stanford Prison Experiment (Zimbardo, 1971) demonstrated that normal individuals rapidly adopt dehumanizing authority roles when institutional structure assigns them — the mechanism directly applicable to cult dynamics. Cult leaders create structural role assignments (leader-as-divine/followers-as-saved), institutional isolation, and ritualized compliance that mirror the SPE's guard-prisoner dynamic. Zimbardo himself extensively wrote on the connections between SPE findings and institutional totalism. The SPE's methodological problems don't undermine its relevance to cult analysis — the mechanisms it described are real even if the experiment was flawed.",
+    "label": "SPE demonstrated how role assignment creates authoritarian compliance \u2014 the mechanism underlying cult dynamics",
+    "note": "The Stanford Prison Experiment (Zimbardo, 1971) demonstrated that normal individuals rapidly adopt dehumanizing authority roles when institutional structure assigns them \u2014 the mechanism directly applicable to cult dynamics. Cult leaders create structural role assignments (leader-as-divine/followers-as-saved), institutional isolation, and ritualized compliance that mirror the SPE's guard-prisoner dynamic. Zimbardo himself extensively wrote on the connections between SPE findings and institutional totalism. The SPE's methodological problems don't undermine its relevance to cult analysis \u2014 the mechanisms it described are real even if the experiment was flawed.",
     "confidence": "high"
   },
   {
@@ -342,7 +342,7 @@
     "target": "social_media_addiction",
     "type": "ENABLED",
     "label": "Social media addiction creates the extended platform engagement that radicalization pipelines require",
-    "note": "Radicalization pipelines are time-dependent: the YouTube-to-Telegram pathway requires hundreds of hours of progressive content consumption. Social media addiction — the compulsive checking, engagement reward loops, and extended platform time that characterize heavy social media use — provides the extended exposure that radicalization requires. Studies of online radicalization document that radicalized individuals averaged significantly higher platform usage times before radicalization. The addiction mechanism (variable ratio reward schedules) is what keeps people on platforms long enough for the pipeline to work.",
+    "note": "Radicalization pipelines are time-dependent: the YouTube-to-Telegram pathway requires hundreds of hours of progressive content consumption. Social media addiction \u2014 the compulsive checking, engagement reward loops, and extended platform time that characterize heavy social media use \u2014 provides the extended exposure that radicalization requires. Studies of online radicalization document that radicalized individuals averaged significantly higher platform usage times before radicalization. The addiction mechanism (variable ratio reward schedules) is what keeps people on platforms long enough for the pipeline to work.",
     "confidence": "high"
   },
   {
@@ -360,7 +360,7 @@
     "target": "social_media_algorithms",
     "type": "ENABLED",
     "label": "Social media algorithms accelerate radicalization by systematically serving increasingly extreme content to engaged users",
-    "note": "Social media algorithms drive radicalization through engagement optimization: content that produces strong emotional reactions (outrage, fear, disgust) generates more engagement signals; algorithms serving similar but more extreme content to engaged users creates the radicalization pipeline; recommendation systems on YouTube, Facebook, and Twitter have been documented leading users from mainstream political content to increasingly extreme right-wing, white nationalist, and conspiratorial content within multiple sessions. The \"YouTube pipeline\" to right-wing radicalization was documented by Ribeiro et al. (2019); similar dynamics operate on other platforms. Algorithmic radicalization requires no human recruiter — the platform architecture does the work.",
+    "note": "Social media algorithms drive radicalization through engagement optimization: content that produces strong emotional reactions (outrage, fear, disgust) generates more engagement signals; algorithms serving similar but more extreme content to engaged users creates the radicalization pipeline; recommendation systems on YouTube, Facebook, and Twitter have been documented leading users from mainstream political content to increasingly extreme right-wing, white nationalist, and conspiratorial content within multiple sessions. The \"YouTube pipeline\" to right-wing radicalization was documented by Ribeiro et al. (2019); similar dynamics operate on other platforms. Algorithmic radicalization requires no human recruiter \u2014 the platform architecture does the work.",
     "confidence": "high"
   },
   {
@@ -368,8 +368,8 @@
     "source": "radicalization",
     "target": "conspiracy_theories",
     "type": "ENABLED",
-    "label": "Conspiracy theory belief is both a driver and product of radicalization — it provides the alternative epistemic framework that makes extreme views coherent",
-    "note": "Conspiracy theories and radicalization are structurally linked: conspiracy theories provide the alternative epistemic framework that makes extreme ideological positions coherent — if mainstream institutions are corrupt and lying, then extreme responses seem proportionate; conspiracy theory communities provide the social belonging and identity that radicalization requires; shared conspiracy belief creates the in-group boundary that distinguishes radicals from normies. QAnon demonstrated the full dynamic: a specific conspiracy theory that embedded users in a community, provided escalating revelations, and produced real-world violence (January 6) from participants who were primarily radicalized online.",
+    "label": "Conspiracy theory belief is both a driver and product of radicalization \u2014 it provides the alternative epistemic framework that makes extreme views coherent",
+    "note": "Conspiracy theories and radicalization are structurally linked: conspiracy theories provide the alternative epistemic framework that makes extreme ideological positions coherent \u2014 if mainstream institutions are corrupt and lying, then extreme responses seem proportionate; conspiracy theory communities provide the social belonging and identity that radicalization requires; shared conspiracy belief creates the in-group boundary that distinguishes radicals from normies. QAnon demonstrated the full dynamic: a specific conspiracy theory that embedded users in a community, provided escalating revelations, and produced real-world violence (January 6) from participants who were primarily radicalized online.",
     "confidence": "high"
   },
   {
@@ -387,7 +387,7 @@
     "target": "right_wing_populism",
     "type": "ENABLED",
     "label": "Manosphere politics feed right-wing populism through shared antifeminism, anti-immigration, and anti-establishment grievance",
-    "note": "MGTOW and manosphere communities are political recruitment grounds for right-wing populism: shared anti-feminism and traditionalist gender ideology connects to broader right-wing politics; manosphere influencers (Jordan Peterson, Joe Rogan) introduced young men to right-wing political ideas through masculinity content; Trump's campaign explicitly targeted the male grievance demographic; Andrew Tate exemplifies the pipeline from manosphere influencer to explicitly political right-wing messaging. The radicalization pipeline: men seek content about dating/masculinity → anti-feminist framing → broader right-wing politics → white nationalism in some cases.",
+    "note": "MGTOW and manosphere communities are political recruitment grounds for right-wing populism: shared anti-feminism and traditionalist gender ideology connects to broader right-wing politics; manosphere influencers (Jordan Peterson, Joe Rogan) introduced young men to right-wing political ideas through masculinity content; Trump's campaign explicitly targeted the male grievance demographic; Andrew Tate exemplifies the pipeline from manosphere influencer to explicitly political right-wing messaging. The radicalization pipeline: men seek content about dating/masculinity \u2192 anti-feminist framing \u2192 broader right-wing politics \u2192 white nationalism in some cases.",
     "confidence": "high"
   },
   {
@@ -395,8 +395,8 @@
     "source": "conspiracy_theories",
     "target": "broken_epistemology",
     "type": "ENABLED",
-    "label": "Widespread conspiracy theory belief produces broken epistemology at the societal level — shared reality becomes impossible to maintain",
-    "note": "Conspiracy theories produce broken epistemology through multiple pathways: they establish unfalsifiability as a feature (any disconfirming evidence is evidence of the conspiracy's power); they create parallel information ecosystems with incompatible factual claims; they erode trust in the institutions (media, science, government) that produce shared factual frameworks. When significant portions of the population believe in mutually incompatible realities (election fraud, COVID being fake, vaccine microchips), democratic deliberation and collective problem-solving become impossible. The COVID pandemic demonstrated the life-or-death stakes of broken epistemology — conspiracy beliefs about vaccines and treatments produced hundreds of thousands of preventable deaths.",
+    "label": "Widespread conspiracy theory belief produces broken epistemology at the societal level \u2014 shared reality becomes impossible to maintain",
+    "note": "Conspiracy theories produce broken epistemology through multiple pathways: they establish unfalsifiability as a feature (any disconfirming evidence is evidence of the conspiracy's power); they create parallel information ecosystems with incompatible factual claims; they erode trust in the institutions (media, science, government) that produce shared factual frameworks. When significant portions of the population believe in mutually incompatible realities (election fraud, COVID being fake, vaccine microchips), democratic deliberation and collective problem-solving become impossible. The COVID pandemic demonstrated the life-or-death stakes of broken epistemology \u2014 conspiracy beliefs about vaccines and treatments produced hundreds of thousands of preventable deaths.",
     "confidence": "high"
   },
   {
@@ -414,7 +414,7 @@
     "target": "the_holocaust",
     "type": "PRODUCED",
     "label": "Nazi antisemitism transformed centuries of religious and cultural antisemitism into an industrial racial genocide",
-    "note": "The Holocaust was the endpoint of a specific German antisemitism trajectory that combined traditional European religious antisemitism with modern racial science and state administrative capacity. Hannah Arendt's analysis in \"The Origins of Totalitarianism\" traces the convergence of colonial racism (practiced on non-Europeans) with European antisemitism (practiced domestically) as the ideological foundation; the Nazi racial state then applied industrial bureaucratic methods to genocide. The Holocaust's \"banality of evil\" — ordinary bureaucrats implementing mass murder through paperwork — demonstrated that genocide does not require individual sadism but only institutional normalization of dehumanization.",
+    "note": "The Holocaust was the endpoint of a specific German antisemitism trajectory that combined traditional European religious antisemitism with modern racial science and state administrative capacity. Hannah Arendt's analysis in \"The Origins of Totalitarianism\" traces the convergence of colonial racism (practiced on non-Europeans) with European antisemitism (practiced domestically) as the ideological foundation; the Nazi racial state then applied industrial bureaucratic methods to genocide. The Holocaust's \"banality of evil\" \u2014 ordinary bureaucrats implementing mass murder through paperwork \u2014 demonstrated that genocide does not require individual sadism but only institutional normalization of dehumanization.",
     "confidence": "high"
   },
   {
@@ -423,7 +423,7 @@
     "target": "conspiracy_theories",
     "type": "ENABLED",
     "label": "Antisemitic conspiracy frameworks are the template from which modern conspiracy theory logic derives",
-    "note": "Modern conspiracy theory logic inherits its structure from antisemitic conspiracy frameworks: the Protocols of the Elders of Zion established the narrative architecture of secret elite manipulating events behind the scenes; this architecture — hidden powerful group, coordinated deception, ordinary people as victims of their manipulation — is the template for all subsequent conspiracy theories regardless of whether they explicitly name Jews. QAnon's Rothschild/Soros elements demonstrate the persistence of the antisemitic template. The relationship is not merely historical: conspiracy theories regress toward antisemitism when they require a sufficiently powerful and unified hidden force, because antisemitic mythology provides the ready-made explanation.",
+    "note": "Modern conspiracy theory logic inherits its structure from antisemitic conspiracy frameworks: the Protocols of the Elders of Zion established the narrative architecture of secret elite manipulating events behind the scenes; this architecture \u2014 hidden powerful group, coordinated deception, ordinary people as victims of their manipulation \u2014 is the template for all subsequent conspiracy theories regardless of whether they explicitly name Jews. QAnon's Rothschild/Soros elements demonstrate the persistence of the antisemitic template. The relationship is not merely historical: conspiracy theories regress toward antisemitism when they require a sufficiently powerful and unified hidden force, because antisemitic mythology provides the ready-made explanation.",
     "confidence": "high"
   },
   {
@@ -440,8 +440,8 @@
     "source": "toxic_masculinity",
     "target": "incel_community",
     "type": "PRODUCED",
-    "label": "Incel culture represents toxic masculinity reaching its logical extreme — male identity defined entirely by sexual access to women",
-    "note": "Incel culture is toxic masculinity at its ideological extreme: the foundational incel premise — that male worth is determined by sexual access to women, and that men who cannot achieve this access are fundamentally worthless — is the most extreme expression of masculinity defined through dominance and women as objects. Toxic masculinity norms (men should not show vulnerability, men should have sexual conquest, emotional needs should be suppressed) produce the specific pathology: inability to express loneliness except as rage, inability to process rejection except as entitlement violation, inability to value relationships not structured around dominance. Incel violence (Elliot Rodger, Alek Minassian) is toxic masculinity's terminus point.",
+    "label": "Incel culture represents toxic masculinity reaching its logical extreme \u2014 male identity defined entirely by sexual access to women",
+    "note": "Incel culture is toxic masculinity at its ideological extreme: the foundational incel premise \u2014 that male worth is determined by sexual access to women, and that men who cannot achieve this access are fundamentally worthless \u2014 is the most extreme expression of masculinity defined through dominance and women as objects. Toxic masculinity norms (men should not show vulnerability, men should have sexual conquest, emotional needs should be suppressed) produce the specific pathology: inability to express loneliness except as rage, inability to process rejection except as entitlement violation, inability to value relationships not structured around dominance. Incel violence (Elliot Rodger, Alek Minassian) is toxic masculinity's terminus point.",
     "confidence": "high"
   },
   {
@@ -450,7 +450,7 @@
     "target": "mental_health_stigma",
     "type": "ENABLED",
     "label": "Toxic masculinity norms (real men are tough, don't need help) are primary drivers of men's mental health treatment avoidance",
-    "note": "Toxic masculinity produces mental health treatment avoidance: research consistently shows men are less likely to seek mental health treatment than women; the primary barrier is not access but stigma from masculinity norms — seeking therapy is framed as weakness, emotional acknowledgment as femininity; men die by suicide at 3-4x the rate of women (higher rates, lower attempt rates) largely because men use more lethal means and delay help-seeking; men's mental health crisis (loneliness epidemic, suicide rates, substance abuse) is substantially exacerbated by the masculine norm that men should handle problems alone. Toxic masculinity's most direct harm may be to men themselves through systematic prevention of help-seeking and emotional expression.",
+    "note": "Toxic masculinity produces mental health treatment avoidance: research consistently shows men are less likely to seek mental health treatment than women; the primary barrier is not access but stigma from masculinity norms \u2014 seeking therapy is framed as weakness, emotional acknowledgment as femininity; men die by suicide at 3-4x the rate of women (higher rates, lower attempt rates) largely because men use more lethal means and delay help-seeking; men's mental health crisis (loneliness epidemic, suicide rates, substance abuse) is substantially exacerbated by the masculine norm that men should handle problems alone. Toxic masculinity's most direct harm may be to men themselves through systematic prevention of help-seeking and emotional expression.",
     "confidence": "high"
   },
   {
@@ -458,8 +458,8 @@
     "source": "echo_chamber",
     "target": "political_polarization",
     "type": "CAUSED",
-    "label": "Echo chambers produce affective polarization — not just political disagreement but mutual contempt between partisan groups who perceive each other as alien",
-    "note": "Echo chambers produce affective polarization (hostility toward the other party, not just policy disagreement): Eli Pariser's \"Filter Bubble\" (2011) documented how algorithmic personalization created ideologically homogeneous information environments; research shows that partisan media consumption correlates with negative out-group affect more than policy positions; Pew Research documents that partisan hostility is at historic highs — Republicans and Democrats increasingly view each other as threats to the country, not political opponents. Echo chambers make this possible by ensuring people encounter the most extreme and threatening versions of the opposing side (antagonist content generates engagement) without normal context that would humanize political opponents.",
+    "label": "Echo chambers produce affective polarization \u2014 not just political disagreement but mutual contempt between partisan groups who perceive each other as alien",
+    "note": "Echo chambers produce affective polarization (hostility toward the other party, not just policy disagreement): Eli Pariser's \"Filter Bubble\" (2011) documented how algorithmic personalization created ideologically homogeneous information environments; research shows that partisan media consumption correlates with negative out-group affect more than policy positions; Pew Research documents that partisan hostility is at historic highs \u2014 Republicans and Democrats increasingly view each other as threats to the country, not political opponents. Echo chambers make this possible by ensuring people encounter the most extreme and threatening versions of the opposing side (antagonist content generates engagement) without normal context that would humanize political opponents.",
     "confidence": "high"
   },
   {
@@ -467,8 +467,8 @@
     "source": "echo_chamber",
     "target": "social_media_algorithms",
     "type": "PRODUCED",
-    "label": "Social media algorithms produce echo chambers through engagement optimization — content that confirms existing beliefs generates more interaction",
-    "note": "Social media algorithms produce echo chambers through their optimization logic: content that generates strong reactions (agreement, outrage, disgust) from users produces more engagement metrics (likes, shares, comments); algorithms trained on engagement therefore preferentially serve content that reinforces existing beliefs and triggers strong emotional responses; over time, this produces homogeneous information environments where challenging views are filtered out. Facebook's own internal research (revealed in 2021 \"Facebook Papers\") showed the platform's algorithm amplified divisive content and that algorithm changes to reduce divisiveness also reduced engagement. The echo chamber is not accidental — it is the predictable product of engagement-optimized recommendation systems.",
+    "label": "Social media algorithms produce echo chambers through engagement optimization \u2014 content that confirms existing beliefs generates more interaction",
+    "note": "Social media algorithms produce echo chambers through their optimization logic: content that generates strong reactions (agreement, outrage, disgust) from users produces more engagement metrics (likes, shares, comments); algorithms trained on engagement therefore preferentially serve content that reinforces existing beliefs and triggers strong emotional responses; over time, this produces homogeneous information environments where challenging views are filtered out. Facebook's own internal research (revealed in 2021 \"Facebook Papers\") showed the platform's algorithm amplified divisive content and that algorithm changes to reduce divisiveness also reduced engagement. The echo chamber is not accidental \u2014 it is the predictable product of engagement-optimized recommendation systems.",
     "confidence": "high"
   },
   {
@@ -1084,7 +1084,7 @@
   },
   {
     "source": "milgram_experiment",
-    "target": "holocaust",
+    "target": "the_holocaust",
     "type": "ENABLED",
     "weight": 3
   },

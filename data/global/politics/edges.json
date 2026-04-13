@@ -37,7 +37,7 @@
   },
   {
     "id": "atlantic_slave_trade__jim_crow_laws",
-    "source": "atlantic_slave_trade",
+    "source": "transatlantic_slave_trade",
     "target": "jim_crow_laws",
     "type": "CAUSED",
     "label": "racial hierarchy survived emancipation",

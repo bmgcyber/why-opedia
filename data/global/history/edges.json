@@ -136,7 +136,7 @@
   },
   {
     "id": "atlantic_slave_trade__jim_crow_laws",
-    "source": "atlantic_slave_trade",
+    "source": "transatlantic_slave_trade",
     "target": "jim_crow_laws",
     "type": "CAUSED",
     "label": "racial hierarchy survived emancipation",
@@ -145,7 +145,7 @@
   },
   {
     "id": "atlantic_slave_trade__berlin_conference_1884",
-    "source": "atlantic_slave_trade",
+    "source": "transatlantic_slave_trade",
     "target": "berlin_conference_1884",
     "type": "ENABLED",
     "label": "dehumanization framework enabled African partition",
@@ -469,7 +469,7 @@
   },
   {
     "id": "atlantic_slave_trade__american_civil_war",
-    "source": "atlantic_slave_trade",
+    "source": "transatlantic_slave_trade",
     "target": "american_civil_war",
     "type": "CAUSED",
     "label": "slavery's contradictions produced the rupture",
@@ -479,7 +479,7 @@
   {
     "id": "american_civil_war__atlantic_slave_trade",
     "source": "american_civil_war",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "DISCREDITED",
     "label": "Union victory formally abolished chattel slavery",
     "note": "The 13th Amendment, ratified in 1865, formally abolished the legal institution of chattel slavery in the United States — ending the slave trade's American terminus. The legal institution was destroyed; the racial hierarchy and ideology it had built persisted.",
@@ -1973,7 +1973,7 @@
   {
     "id": "harriet_tubman__atlantic_slave_trade",
     "source": "harriet_tubman",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "DISCREDITED",
     "label": "Tubman resistance was direct refutation of the slave system claim that enslaved people accepted their condition",
     "note": "Tubman willingness to return repeatedly to slave states at risk of death or re-enslavement demonstrated that the enslaved valued freedom as much as any free person — refuting the ideological claim, central to the slaveholder justification, that Black people were suited to or content with servitude.",
@@ -1991,7 +1991,7 @@
   {
     "id": "frederick_douglass__atlantic_slave_trade",
     "source": "frederick_douglass",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "DISCREDITED",
     "label": "Douglass Narrative and speeches demolished the intellectual foundations of pro-slavery argument",
     "note": "Douglass combination of personal testimony and intellectual argument made the pro-slavery position intellectually indefensible to anyone who engaged with it. His 1852 speech What to the Slave Is the Fourth of July remains the definitive statement of the contradiction between American founding ideals and the institution of slavery.",
@@ -3574,7 +3574,7 @@
   },
   {
     "id": "atlantic_slave_trade__haitian_revolution",
-    "source": "atlantic_slave_trade",
+    "source": "transatlantic_slave_trade",
     "target": "haitian_revolution",
     "type": "PRODUCED",
     "label": "The brutality of Saint-Domingue's plantation slavery system — the most intense in the hemisphere — produced the revolutionary conditions and leadership that ended it",
@@ -3773,7 +3773,7 @@
   {
     "id": "age_of_exploration__atlantic_slave_trade",
     "source": "age_of_exploration",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "PRODUCED",
     "label": "European exploration of Africa and the Americas created the triangle trade that produced the transatlantic slave trade",
     "note": "The Atlantic slave trade was produced by the Age of Exploration's economic logic: Portuguese explorers established African coastal trading posts (1440s) initially for gold; as American plantation agriculture developed (1500s-1600s), enslaved Africans became the labor solution for mines and plantations. The triangle trade — European manufactured goods to Africa, enslaved people to the Americas, colonial commodities back to Europe — was the Age of Exploration's economic architecture. Without European maritime capability and colonial plantation agriculture (both products of exploration), the transatlantic slave trade's scale — 12 million people over 350 years — would have been impossible.",
@@ -3809,7 +3809,7 @@
   {
     "id": "british_empire__atlantic_slave_trade",
     "source": "british_empire",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "PRODUCED",
     "label": "Britain dominated the transatlantic slave trade for a century before abolition, transporting 3+ million Africans",
     "note": "The British Empire was the dominant slave-trading power from 1640-1807: the Royal African Company held monopoly (1672-1698), then private British traders dominated; Britain transported over 3.1 million enslaved Africans to the Americas. The wealth from the slave trade financed banking institutions (Lloyds began as slave-trade insurance), plantation fortunes (the Caribbean absentee plantation owner class), and British industrialization. The 1833 Slavery Abolition Act abolished slavery in British colonies — but the £20 million compensation paid to slaveholders (not enslaved people) was only paid off by British taxpayers in 2015.",
@@ -3998,7 +3998,7 @@
   {
     "id": "trail_of_tears__atlantic_slave_trade",
     "source": "trail_of_tears",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "SHARES_MECHANISM_WITH",
     "label": "Both represent the foundational mechanisms of American racial capitalism: dispossessing indigenous peoples for the land, enslaving Africans for the labor",
     "note": "The Trail of Tears and Atlantic Slave Trade represent the twin foundations of American economic development: Native American dispossession provided the land; African slavery provided the labor. The cotton economy of the antebellum South required both: the Trail of Tears opened Georgia, Alabama, and Mississippi to cotton cultivation; enslaved African labor worked that land. Cherokee removal was explicitly motivated by the desire for Native American land to expand the cotton plantation economy. The connection is structural: American capitalism was built on stolen land worked by stolen labor.",
@@ -4079,7 +4079,7 @@
   {
     "id": "colonial_era__atlantic_slave_trade",
     "source": "colonial_era",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "PRODUCED",
     "label": "The Colonial Era's plantation economy created the demand for enslaved labor that drove the Atlantic slave trade",
     "note": "The Atlantic Slave Trade was a colonial institution: European colonies in the Americas discovered that plantation agriculture (sugar, tobacco, cotton) was enormously profitable but required massive labor in disease environments that killed European indentured servants rapidly. Indigenous peoples had been decimated by disease. The \"solution\" was the forced importation of African enslaved people. The slave trade's scale (12.5 million Africans transported) was determined by colonial plantation economics. Without European colonial plantation agriculture, there was no economic engine for slave trade at this scale. Colonialism created the demand; the slave trade supplied it.",
@@ -5267,7 +5267,7 @@
   {
     "id": "enclosure_movement__atlantic_slave_trade",
     "source": "enclosure_movement",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "SHARES_MECHANISM_WITH",
     "label": "both strip existing rights to create dependent labor",
     "note": "Both enclosure and the slave trade produce dependent labor by eliminating alternative economic existence — enclosure by privatizing the land peasants had worked for generations, slavery by physical capture and legal dehumanization. Both manufacture a population that must sell labor on the captor's terms.",
@@ -6083,7 +6083,7 @@
   {
     "id": "william_wilberforce__atlantic_slave_trade",
     "source": "william_wilberforce",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "DISCREDITED"
   },
   {
@@ -6329,7 +6329,7 @@
   {
     "id": "christopher_columbus__atlantic_slave_trade",
     "source": "christopher_columbus",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "ENABLED"
   },
   {
@@ -6623,7 +6623,7 @@
   {
     "id": "olaudah_equiano__atlantic_slave_trade",
     "source": "olaudah_equiano",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "DISCREDITED"
   },
   {
@@ -6749,7 +6749,7 @@
   {
     "id": "columbian_exchange__atlantic_slave_trade",
     "source": "columbian_exchange",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "ENABLED"
   },
   {
@@ -6905,13 +6905,13 @@
   {
     "id": "mali_empire__atlantic_slave_trade",
     "source": "mali_empire",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "ENABLED"
   },
   {
     "id": "songhai_empire__atlantic_slave_trade",
     "source": "songhai_empire",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "ENABLED"
   },
   {
@@ -6935,7 +6935,7 @@
   {
     "id": "ashanti_empire__atlantic_slave_trade",
     "source": "ashanti_empire",
-    "target": "atlantic_slave_trade",
+    "target": "transatlantic_slave_trade",
     "type": "ENABLED"
   },
   {
@@ -9287,11 +9287,6 @@
   {
     "source": "age_of_exploration",
     "type": "PRODUCED",
-    "target": "transatlantic_slave_trade"
-  },
-  {
-    "source": "age_of_exploration",
-    "type": "PRODUCED",
     "target": "columbian_exchange_detailed"
   },
   {
@@ -9672,7 +9667,7 @@
   {
     "source": "nazi_seizure_of_power",
     "type": "ENABLED",
-    "target": "holocaust"
+    "target": "the_holocaust"
   },
   {
     "source": "nazi_seizure_of_power",
@@ -9680,12 +9675,12 @@
     "target": "wwii_causes"
   },
   {
-    "source": "holocaust",
+    "source": "the_holocaust",
     "type": "ENABLED",
     "target": "nuremberg_trials"
   },
   {
-    "source": "holocaust",
+    "source": "the_holocaust",
     "type": "ENABLED",
     "target": "universal_declaration_human_rights_1948"
   },
@@ -10610,12 +10605,6 @@
     "weight": 2
   },
   {
-    "source": "columbian_exchange",
-    "target": "transatlantic_slave_trade",
-    "type": "ENABLED",
-    "weight": 2
-  },
-  {
     "source": "spanish_conquest_americas",
     "target": "transatlantic_slave_trade",
     "type": "ENABLED",
@@ -10671,18 +10660,18 @@
   },
   {
     "source": "industrial_revolution",
-    "target": "abolition_movement",
+    "target": "abolitionist_movement",
     "type": "ENABLED",
     "weight": 2
   },
   {
     "source": "transatlantic_slave_trade",
-    "target": "abolition_movement",
+    "target": "abolitionist_movement",
     "type": "CAUSED",
     "weight": 3
   },
   {
-    "source": "abolition_movement",
+    "source": "abolitionist_movement",
     "target": "us_civil_war",
     "type": "ENABLED",
     "weight": 2
@@ -10719,7 +10708,7 @@
   },
   {
     "source": "haitian_revolution",
-    "target": "abolition_movement",
+    "target": "abolitionist_movement",
     "type": "ACCELERATED",
     "weight": 2
   },
@@ -10785,7 +10774,7 @@
   },
   {
     "source": "social_darwinism",
-    "target": "holocaust",
+    "target": "the_holocaust",
     "type": "ENABLED",
     "weight": 3
   },
@@ -10803,7 +10792,7 @@
   },
   {
     "source": "herero_genocide",
-    "target": "holocaust",
+    "target": "the_holocaust",
     "type": "ENABLED",
     "weight": 3
   },
@@ -10994,12 +10983,6 @@
     "weight": 2
   },
   {
-    "source": "mali_empire",
-    "target": "transatlantic_slave_trade",
-    "type": "ENABLED",
-    "weight": 2
-  },
-  {
     "source": "chinese_exclusion_act",
     "target": "civil_rights_movement",
     "type": "ENABLED",
@@ -11013,7 +10996,7 @@
   },
   {
     "source": "harriet_tubman",
-    "target": "abolition_movement",
+    "target": "abolitionist_movement",
     "type": "ENABLED",
     "weight": 3
   },
@@ -11025,7 +11008,7 @@
   },
   {
     "source": "frederick_douglass",
-    "target": "abolition_movement",
+    "target": "abolitionist_movement",
     "type": "CAUSED",
     "weight": 3
   },
@@ -11037,7 +11020,7 @@
   },
   {
     "source": "sojourner_truth",
-    "target": "abolition_movement",
+    "target": "abolitionist_movement",
     "type": "ENABLED",
     "weight": 3
   },
@@ -12105,6 +12088,174 @@
     "target": "cia_covert_operations",
     "type": "ENABLED",
     "label": "Cold War anti-communism authorized CIA covert interventions globally",
+    "confidence": "high"
+  },
+  {
+    "id": "leopold_ii__belgian_congo",
+    "source": "leopold_ii",
+    "target": "belgian_congo",
+    "type": "CAUSED",
+    "label": "Leopold II personally designed and directed the rubber terror system",
+    "confidence": "high"
+  },
+  {
+    "id": "berlin_conference_1884__belgian_congo",
+    "source": "berlin_conference_1884",
+    "target": "belgian_congo",
+    "type": "ENABLED",
+    "label": "Berlin Conference granted Leopold II personal sovereignty over the Congo",
+    "confidence": "high"
+  },
+  {
+    "id": "belgian_congo__herero_nama_genocide",
+    "source": "belgian_congo",
+    "target": "herero_nama_genocide",
+    "type": "SHARES_MECHANISM_WITH",
+    "label": "Both pioneered industrial-scale atrocity through colonial rubber and land extraction",
+    "confidence": "medium"
+  },
+  {
+    "id": "belgian_congo__decolonization_africa",
+    "source": "belgian_congo",
+    "target": "decolonization_africa",
+    "type": "ENABLED",
+    "label": "Congo's history of extraction and the hastily granted independence (1960) contributed to decades of post-colonial instability",
+    "confidence": "medium"
+  },
+  {
+    "id": "solidarity_movement_poland__east_german_revolution_1989",
+    "source": "solidarity_movement_poland",
+    "target": "east_german_revolution_1989",
+    "type": "ENABLED",
+    "label": "Poland's Solidarity demonstrated that mass civil resistance could force regime concessions",
+    "confidence": "high"
+  },
+  {
+    "id": "fall_of_berlin_wall__east_german_revolution_1989",
+    "source": "east_german_revolution_1989",
+    "target": "fall_of_berlin_wall",
+    "type": "CAUSED",
+    "label": "East German mass protests directly forced the opening of the Berlin Wall on November 9, 1989",
+    "confidence": "high"
+  },
+  {
+    "id": "east_german_revolution_1989__german_reunification_1990",
+    "source": "east_german_revolution_1989",
+    "target": "german_reunification_1990",
+    "type": "CAUSED",
+    "label": "East Germany's revolution removed the political barrier to reunification",
+    "confidence": "high"
+  },
+  {
+    "id": "velvet_revolution_1989__romanian_revolution_1989",
+    "source": "velvet_revolution_1989",
+    "target": "romanian_revolution_1989",
+    "type": "ENABLED",
+    "label": "Regional contagion: Czechoslovakia's peaceful revolution accelerated Romania's uprising days later",
+    "confidence": "high"
+  },
+  {
+    "id": "german_reunification_1990__european_union_formation",
+    "source": "german_reunification_1990",
+    "target": "european_union_formation",
+    "type": "ENABLED",
+    "label": "Reunified Germany's economic weight accelerated the push for deeper EU integration and Maastricht",
+    "confidence": "high"
+  },
+  {
+    "id": "ostpolitik__fall_of_berlin_wall",
+    "source": "ostpolitik",
+    "target": "fall_of_berlin_wall",
+    "type": "ENABLED",
+    "label": "Two decades of economic ties and people-to-people contact under Ostpolitik eroded the Wall's political rationale",
+    "confidence": "medium"
+  },
+  {
+    "id": "ostpolitik__german_reunification_1990",
+    "source": "ostpolitik",
+    "target": "german_reunification_1990",
+    "type": "ENABLED",
+    "label": "Ostpolitik built the diplomatic foundations and personal relationships that made rapid reunification possible",
+    "confidence": "high"
+  },
+  {
+    "id": "penicillin_discovery__crispr_gene_editing",
+    "source": "penicillin_discovery",
+    "target": "crispr_gene_editing",
+    "type": "ENABLED",
+    "label": "Antibiotic medicine established molecular biology as the framework that CRISPR builds on",
+    "confidence": "low"
+  },
+  {
+    "id": "human_genome_project_2003__crispr_gene_editing",
+    "source": "human_genome_project_2003",
+    "target": "crispr_gene_editing",
+    "type": "ENABLED",
+    "label": "Genome sequencing provided the genetic maps that make CRISPR editing targetable",
+    "confidence": "high"
+  },
+  {
+    "id": "world_wide_web__crispr_gene_editing",
+    "source": "world_wide_web",
+    "target": "crispr_gene_editing",
+    "type": "ENABLED",
+    "label": "Open-access scientific databases and collaborative tools accelerated CRISPR's rapid global adoption",
+    "confidence": "medium"
+  },
+  {
+    "id": "space_race__aviation_revolution",
+    "source": "aviation_revolution",
+    "target": "space_race",
+    "type": "ENABLED",
+    "label": "Aviation engineering, aeronautics expertise, and aerospace industry directly enabled the space race",
+    "confidence": "high"
+  },
+  {
+    "id": "world_war_ii__aviation_revolution",
+    "source": "world_war_ii",
+    "target": "aviation_revolution",
+    "type": "ACCELERATED",
+    "label": "WWII massively accelerated aviation through jet engine development, radar, and large-scale manufacturing",
+    "confidence": "high"
+  },
+  {
+    "id": "jim_crow_laws__prison_reform_movement",
+    "source": "jim_crow_laws",
+    "target": "prison_reform_movement",
+    "type": "CAUSED",
+    "label": "Jim Crow's carceral successors — mass incarceration and racial disparities — generated the prison reform and abolition movement",
+    "confidence": "high"
+  },
+  {
+    "id": "civil_rights_act_1964__prison_reform_movement",
+    "source": "civil_rights_act_1964",
+    "target": "prison_reform_movement",
+    "type": "ENABLED",
+    "label": "Civil rights legal victories provided the framework for challenging prison system racial disparities",
+    "confidence": "medium"
+  },
+  {
+    "id": "the_holocaust__international_humanitarian_law",
+    "source": "the_holocaust",
+    "target": "international_humanitarian_law",
+    "type": "CAUSED",
+    "label": "Holocaust's industrial atrocity directly prompted the 1949 Geneva Conventions and Genocide Convention",
+    "confidence": "high"
+  },
+  {
+    "id": "nuremberg_trials__international_humanitarian_law",
+    "source": "nuremberg_trials",
+    "target": "international_humanitarian_law",
+    "type": "PRODUCED",
+    "label": "Nuremberg established the legal precedents (crimes against humanity, individual responsibility) that form IHL's foundation",
+    "confidence": "high"
+  },
+  {
+    "id": "international_humanitarian_law__srebrenica_massacre",
+    "source": "international_humanitarian_law",
+    "target": "srebrenica_massacre",
+    "type": "DISCREDITED",
+    "label": "Srebrenica exposed IHL's weakness: law without enforcement. UN peacekeepers stood by as genocide occurred",
     "confidence": "high"
   }
 ]
