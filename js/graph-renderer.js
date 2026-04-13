@@ -74,9 +74,11 @@ const HOVER_EXCLUDE_TYPES = new Set(['SHARES_MECHANISM_WITH', 'SELF_REINFORCES']
 // settled graphs — we also set obj.visible directly on the link THREE object.
 function applyNodeOpacity(opacityFn) {
   if (!graphInstance || !currentGraphData) return;
-  // Also update the library accessor so it stays consistent on future ticks.
-  graphInstance.nodeOpacity(opacityFn);
-  // Immediate effect: traverse each node's THREE object materials directly.
+  // Do NOT call graphInstance.nodeOpacity() — it has triggerUpdate:true, which
+  // causes the library to rebuild all node THREE objects and discard the ones we
+  // are about to modify. Custom nodeThreeObject groups are not managed by the
+  // library's opacity system anyway; we own them entirely via traverse().
+  // Direct material traversal:
   for (const node of currentGraphData.nodes) {
     const obj = node.__threeObj;
     if (!obj) continue;
@@ -187,11 +189,11 @@ function initRenderer(containerEl) {
   // only touch vx/vy, never vz, which collapses the graph to a flat plane).
   // graphInstance.d3Force('name') with no second arg returns the existing instance.
   const chargeForce = graphInstance.d3Force('charge');
-  if (chargeForce) chargeForce.strength(-600);
+  if (chargeForce) chargeForce.strength(-720);
 
   const linkForce = graphInstance.d3Force('link');
   if (linkForce) linkForce.distance(link =>
-    link.type === 'SHARES_MECHANISM_WITH' ? 456 : 240
+    link.type === 'SHARES_MECHANISM_WITH' ? 547 : 288
   );
 
   // Remove the default center force — it pulls everything to z=0 and fights z spread.
@@ -512,9 +514,9 @@ function loadGraphData(nodes, edges) {
 
   // Randomize initial 3D positions so force sim starts with z-spread
   nodes.forEach(node => {
-    if (node.x === undefined) node.x = (Math.random() - 0.5) * 480;
-    if (node.y === undefined) node.y = (Math.random() - 0.5) * 480;
-    if (node.z === undefined) node.z = (Math.random() - 0.5) * 480;
+    if (node.x === undefined) node.x = (Math.random() - 0.5) * 576;
+    if (node.y === undefined) node.y = (Math.random() - 0.5) * 576;
+    if (node.z === undefined) node.z = (Math.random() - 0.5) * 576;
   });
 
   currentGraphData = { nodes, links };
