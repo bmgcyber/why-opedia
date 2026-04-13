@@ -1,0 +1,212 @@
+[
+  {
+    "id": "tech_control_of_fire",
+    "label": "Control of Fire",
+    "category": "event",
+    "decade": -400000,
+    "description": "Homo sapiens' mastery of fire ~400,000 years ago, enabling cooked food (driving brain growth), warmth, light, and social bonding around hearths — arguably the first and most consequential technology in human history."
+  },
+  {
+    "id": "tech_writing_systems",
+    "label": "Writing Systems",
+    "category": "event",
+    "decade": -3200,
+    "description": "Development of cuneiform (Sumeria ~3200 BCE), hieroglyphics (Egypt ~3100 BCE), and later alphabets — enabling record-keeping, law, debt, long-distance trade, and the transmission of knowledge across generations and geography."
+  },
+  {
+    "id": "tech_printing_press",
+    "label": "Printing Press",
+    "category": "event",
+    "decade": 1440,
+    "description": "Gutenberg's movable-type press (1440) that democratized text production, collapsing the cost of books by 98%, enabling the Protestant Reformation, scientific revolution, and Enlightenment by making ideas reproducible and contestable at scale."
+  },
+  {
+    "id": "tech_gunpowder",
+    "label": "Gunpowder & Firearms",
+    "category": "event",
+    "decade": 1300,
+    "description": "Chinese invention of gunpowder (9th century) and its weaponization into firearms in Europe (14th century) that obsoleted feudal armor and castles, enabling centralized nation-states, colonial conquest, and the end of knight-based feudalism."
+  },
+  {
+    "id": "tech_scientific_revolution",
+    "label": "Scientific Revolution",
+    "category": "era",
+    "decade": 1543,
+    "description": "16th–17th century shift from authority-based to observation-based knowledge — Copernicus, Galileo, Kepler, Newton — establishing the heliocentric model, laws of motion, and experimental method as foundations of modern science."
+  },
+  {
+    "id": "tech_steam_engine",
+    "label": "Steam Engine",
+    "category": "event",
+    "decade": 1769,
+    "description": "Watt's improved steam engine (1769) powering factories, railways, and ships — the mechanical heart of the Industrial Revolution that transformed energy, labor, urbanization, and colonialism on a planetary scale."
+  },
+  {
+    "id": "tech_industrial_revolution",
+    "label": "Industrial Revolution",
+    "category": "era",
+    "decade": 1760,
+    "description": "18th–19th century shift from agrarian to factory production, driven by steam power, mechanization, and capital accumulation — creating the modern working class, urban slums, global supply chains, and capitalism as we know it."
+  },
+  {
+    "id": "tech_telegraph",
+    "label": "Telegraph",
+    "category": "event",
+    "decade": 1837,
+    "description": "Samuel Morse's electric telegraph (1837) enabling near-instantaneous long-distance communication for the first time, collapsing the lag between events and knowledge of them — reshaping journalism, financial markets, military coordination, and empire."
+  },
+  {
+    "id": "tech_germ_theory_discovery",
+    "label": "Germ Theory of Disease",
+    "category": "event",
+    "decade": 1857,
+    "description": "Pasteur and Koch's demonstration in the 1850s–70s that specific microorganisms cause specific diseases, enabling vaccines, antibiotics, surgery, and public health systems — the conceptual foundation of modern medicine."
+  },
+  {
+    "id": "tech_electricity_grid",
+    "label": "Electrical Grid",
+    "category": "event",
+    "decade": 1882,
+    "description": "Edison's Pearl Street Station (1882) and Tesla/Westinghouse's AC systems establishing distributed electrical power — transforming factories, homes, cities, and eventually all of modern infrastructure, enabling the 20th century's consumer economy."
+  },
+  {
+    "id": "tech_internal_combustion",
+    "label": "Internal Combustion Engine",
+    "category": "event",
+    "decade": 1876,
+    "description": "Otto's internal combustion engine (1876) and its application to automobiles (Benz 1885) and aircraft (Wright 1903), restructuring cities around cars, enabling oil-dependent global logistics, and making petroleum the strategic resource of the 20th century."
+  },
+  {
+    "id": "tech_radio_communications",
+    "label": "Radio & Wireless Communications",
+    "category": "event",
+    "decade": 1895,
+    "description": "Marconi's wireless telegraphy (1895) and broadcast radio enabling mass simultaneous communication for the first time — weaponized by both democracies and fascists for propaganda, used by FDR's fireside chats and Nazi Volksempfänger alike."
+  },
+  {
+    "id": "tech_nuclear_weapons",
+    "label": "Nuclear Weapons",
+    "category": "event",
+    "decade": 1945,
+    "description": "Manhattan Project producing atomic bombs dropped on Hiroshima and Nagasaki (1945), killing 200,000+ and initiating the nuclear age — reshaping geopolitics through mutual assured destruction, arms races, and the permanent specter of civilizational destruction."
+  },
+  {
+    "id": "tech_transistor",
+    "label": "Transistor & Semiconductor Revolution",
+    "category": "event",
+    "decade": 1947,
+    "description": "Bell Labs transistor invention (1947) enabling miniaturization of electronics, leading to integrated circuits, microprocessors, personal computers, smartphones, and the digital economy — the foundational component of the information age."
+  },
+  {
+    "id": "tech_green_revolution",
+    "label": "Green Revolution",
+    "category": "event",
+    "decade": 1960,
+    "description": "Norman Borlaug's development of high-yield dwarf wheat varieties and agrochemical-intensive farming in the 1960s–70s that dramatically increased food production, preventing famine for hundreds of millions while creating pesticide dependency, groundwater depletion, and smallholder displacement."
+  },
+  {
+    "id": "tech_internet",
+    "label": "Internet",
+    "category": "event",
+    "decade": 1969,
+    "description": "ARPANET (1969) → World Wide Web (1991) → mass adoption — a decentralized packet-switching network that became the substrate for global communication, commerce, disinformation, social movements, and surveillance capitalism."
+  },
+  {
+    "id": "tech_personal_computer",
+    "label": "Personal Computer",
+    "category": "event",
+    "decade": 1977,
+    "description": "Apple II, IBM PC, and Macintosh placing computing power in homes and offices, democratizing information processing, enabling the software industry, and beginning the shift from industrial to knowledge economy."
+  },
+  {
+    "id": "tech_mobile_phone",
+    "label": "Mobile Phone & Smartphone",
+    "category": "event",
+    "decade": 2007,
+    "description": "From Motorola DynaTAC (1983) to iPhone (2007), mobile phones becoming pocket-sized internet terminals carried by 6+ billion people — enabling social movements, surveillance, instant payments, misinformation, and always-on connectivity."
+  },
+  {
+    "id": "tech_social_media",
+    "label": "Social Media Platforms",
+    "category": "event",
+    "decade": 2004,
+    "description": "Facebook (2004), Twitter (2006), YouTube (2005), Instagram (2010) — attention-economy platforms optimizing for engagement through algorithmic amplification of outrage, enabling both democratic organizing and radicalization pipelines at scale."
+  },
+  {
+    "id": "tech_gps_satellite",
+    "label": "GPS & Satellite Systems",
+    "category": "event",
+    "decade": 1978,
+    "description": "US military GPS constellation (1978, civilian 1983) enabling precision navigation for missiles, autonomous vehicles, logistics, smartphones, and precision agriculture — also the foundation of drone warfare and mass surveillance."
+  },
+  {
+    "id": "tech_crispr",
+    "label": "CRISPR Gene Editing",
+    "category": "event",
+    "decade": 2012,
+    "description": "Jennifer Doudna and Emmanuelle Charpentier's CRISPR-Cas9 system (2012) enabling precise, cheap gene editing — opening paths to curing genetic diseases, engineering crops, and creating heritable human genetic modifications, with profound ethical stakes."
+  },
+  {
+    "id": "tech_artificial_intelligence",
+    "label": "Machine Learning & AI",
+    "category": "era",
+    "decade": 2012,
+    "description": "Deep learning revolution from AlexNet (2012) through GPT (2020+), enabling image recognition, language generation, and autonomous systems at superhuman performance — reshaping labor, warfare, surveillance, creativity, and the nature of knowledge."
+  },
+  {
+    "id": "tech_surveillance_tech",
+    "label": "Mass Surveillance Technology",
+    "category": "phenomenon",
+    "decade": 2001,
+    "description": "Post-9/11 explosion of government and corporate surveillance: NSA bulk data collection, facial recognition systems, social credit systems, predictive policing, and location tracking — enabled by cheap sensors, big data, and algorithmic processing."
+  },
+  {
+    "id": "tech_renewable_energy",
+    "label": "Renewable Energy Revolution",
+    "category": "era",
+    "decade": 2010,
+    "description": "Solar and wind power costs falling 90%+ from 2010–2024, making clean energy the cheapest source of new electricity generation in most of the world — the fastest energy transition in history, racing against climate tipping points."
+  },
+  {
+    "id": "tech_vaccines",
+    "label": "Vaccines",
+    "category": "event",
+    "decade": 1796,
+    "description": "Jenner's smallpox vaccine (1796) through modern mRNA vaccines (COVID-19, 2020) — arguably the highest return-on-investment public health technology in history, eliminating smallpox, nearly eliminating polio, and saving hundreds of millions of lives."
+  },
+  {
+    "id": "tech_antibiotics",
+    "label": "Antibiotics",
+    "category": "event",
+    "decade": 1928,
+    "description": "Fleming's discovery of penicillin (1928) and mass production in WWII enabling treatment of bacterial infections that had killed half of all humans who ever lived from sepsis and pneumonia — while overuse created antibiotic-resistant superbugs threatening the entire framework."
+  },
+  {
+    "id": "tech_nuclear_power",
+    "label": "Nuclear Power",
+    "category": "event",
+    "decade": 1954,
+    "description": "First nuclear power plant (USSR, 1954) offering carbon-free baseload electricity, but linked to weapons proliferation fears, waste storage problems, and catastrophic accident risk (Chernobyl 1986, Fukushima 2011) — a technology whose social acceptance has never recovered."
+  },
+  {
+    "id": "tech_fossil_fuels",
+    "label": "Fossil Fuel Economy",
+    "category": "era",
+    "decade": 1850,
+    "description": "Coal → oil → natural gas economy powering industrial civilization from 1850 to present — enabling unprecedented prosperity and also the accumulation of 420 ppm CO2, committing Earth to centuries of warming and the climate crisis."
+  },
+  {
+    "id": "tech_drone_warfare",
+    "label": "Drone Warfare",
+    "category": "phenomenon",
+    "decade": 2001,
+    "description": "Remotely piloted and autonomous weapons systems enabling targeted killing without pilot risk — lowering the political cost of military action, enabling signature strikes against unknown individuals, and normalizing autonomous lethal decision-making."
+  },
+  {
+    "id": "tech_blockchain_crypto",
+    "label": "Blockchain & Cryptocurrency",
+    "category": "event",
+    "decade": 2009,
+    "description": "Bitcoin (2009) and subsequent cryptocurrencies creating decentralized ledgers and programmable money — enabling both permissionless financial access and darknet markets, ransomware, energy-intensive speculation, and challenges to monetary sovereignty."
+  }
+]

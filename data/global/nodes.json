@@ -68,5 +68,15 @@
     "target_scope": "global/art",
     "summary": "Art, literature, film, music, and propaganda as causal forces.",
     "cross_scope": false
+  },
+  {
+    "id": "portal-technology",
+    "label": "Science & Technology",
+    "category": "portal",
+    "node_type": "portal",
+    "scope": "global",
+    "target_scope": "global/technology",
+    "summary": "Inventions, scientific revolutions, and technological systems as causal forces.",
+    "cross_scope": false
   }
 ]

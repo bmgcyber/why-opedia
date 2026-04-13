@@ -29245,5 +29245,581 @@
     "target": "somalia_civil_war",
     "type": "ENABLED",
     "weight": 2
+  },
+  {
+    "source": "tech_control_of_fire",
+    "target": "technological_displacement",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "tech_control_of_fire",
+    "target": "social_trust",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "tech_writing_systems",
+    "target": "literacy_as_power",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "tech_writing_systems",
+    "target": "authoritarian_control",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_writing_systems",
+    "target": "debt_bondage",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_printing_press",
+    "target": "knowledge_suppression",
+    "type": "UNDERMINED",
+    "weight": 5
+  },
+  {
+    "source": "tech_printing_press",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_printing_press",
+    "target": "literacy_as_power",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_printing_press",
+    "target": "religious_schism",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "tech_gunpowder",
+    "target": "imperialism",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_gunpowder",
+    "target": "settler_colonialism",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_gunpowder",
+    "target": "political_violence",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "tech_scientific_revolution",
+    "target": "scientific_method",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "tech_scientific_revolution",
+    "target": "knowledge_suppression",
+    "type": "UNDERMINED",
+    "weight": 4
+  },
+  {
+    "source": "tech_scientific_revolution",
+    "target": "pseudo_science",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "tech_steam_engine",
+    "target": "technological_displacement",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "source": "tech_steam_engine",
+    "target": "class_struggle",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_steam_engine",
+    "target": "environmental_degradation",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "tech_industrial_revolution",
+    "target": "wage_suppression",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_industrial_revolution",
+    "target": "class_struggle",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "tech_industrial_revolution",
+    "target": "colonialism",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_industrial_revolution",
+    "target": "environmental_degradation",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "tech_industrial_revolution",
+    "target": "technological_displacement",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "tech_telegraph",
+    "target": "media_framing",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_telegraph",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_germ_theory_discovery",
+    "target": "scientific_consensus",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_germ_theory_discovery",
+    "target": "public_health_infrastructure",
+    "type": "ENABLED",
+    "weight": 5
+  },
+  {
+    "source": "tech_electricity_grid",
+    "target": "automation_economy",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_electricity_grid",
+    "target": "platform_capitalism",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "tech_internal_combustion",
+    "target": "oil_geopolitics",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "source": "tech_internal_combustion",
+    "target": "environmental_degradation",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "tech_internal_combustion",
+    "target": "technological_displacement",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "tech_radio_communications",
+    "target": "propaganda",
+    "type": "ENABLED",
+    "weight": 5
+  },
+  {
+    "source": "tech_radio_communications",
+    "target": "manufactured_consent",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_radio_communications",
+    "target": "media_framing",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "tech_nuclear_weapons",
+    "target": "political_violence",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "source": "tech_nuclear_weapons",
+    "target": "authoritarian_control",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_nuclear_weapons",
+    "target": "realpolitik",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_nuclear_weapons",
+    "target": "proxy_war",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_transistor",
+    "target": "automation_economy",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "tech_transistor",
+    "target": "platform_capitalism",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_transistor",
+    "target": "technological_displacement",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "tech_green_revolution",
+    "target": "environmental_degradation",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "tech_green_revolution",
+    "target": "technological_displacement",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "tech_green_revolution",
+    "target": "land_reform",
+    "type": "UNDERMINED",
+    "weight": 2
+  },
+  {
+    "source": "tech_internet",
+    "target": "platform_capitalism",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "tech_internet",
+    "target": "surveillance_capitalism",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_internet",
+    "target": "social_movement",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_internet",
+    "target": "misinformation_economy",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_internet",
+    "target": "manufactured_consent",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "tech_personal_computer",
+    "target": "automation_economy",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_personal_computer",
+    "target": "platform_capitalism",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_mobile_phone",
+    "target": "surveillance_capitalism",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_mobile_phone",
+    "target": "social_movement",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_mobile_phone",
+    "target": "social_media_algorithms",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_social_media",
+    "target": "social_media_algorithms",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "tech_social_media",
+    "target": "filter_bubble",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "tech_social_media",
+    "target": "outrage_optimization",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "tech_social_media",
+    "target": "radicalization_pipeline",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_social_media",
+    "target": "misinformation_economy",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_social_media",
+    "target": "social_movement",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_gps_satellite",
+    "target": "surveillance_state",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_gps_satellite",
+    "target": "political_violence",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_crispr",
+    "target": "scientific_consensus",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "tech_crispr",
+    "target": "pseudo_science",
+    "type": "UNDERMINED",
+    "weight": 2
+  },
+  {
+    "source": "tech_crispr",
+    "target": "antibiotic_resistance",
+    "type": "UNDERMINED",
+    "weight": 2
+  },
+  {
+    "source": "tech_artificial_intelligence",
+    "target": "algorithmic_bias",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_artificial_intelligence",
+    "target": "surveillance_capitalism",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_artificial_intelligence",
+    "target": "automation_economy",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "source": "tech_artificial_intelligence",
+    "target": "deepfakes",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_artificial_intelligence",
+    "target": "misinformation_economy",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_artificial_intelligence",
+    "target": "surveillance_state",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_surveillance_tech",
+    "target": "surveillance_state",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "tech_surveillance_tech",
+    "target": "surveillance_capitalism",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_surveillance_tech",
+    "target": "authoritarian_control",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_renewable_energy",
+    "target": "environmental_degradation",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "tech_renewable_energy",
+    "target": "scientific_consensus",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_renewable_energy",
+    "target": "grassroots_organizing",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "tech_vaccines",
+    "target": "public_health_infrastructure",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "tech_vaccines",
+    "target": "scientific_consensus",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_vaccines",
+    "target": "pseudo_science",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "tech_antibiotics",
+    "target": "public_health_infrastructure",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_antibiotics",
+    "target": "antibiotic_resistance",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "source": "tech_nuclear_power",
+    "target": "environmental_degradation",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "tech_nuclear_power",
+    "target": "regulatory_capture",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_fossil_fuels",
+    "target": "environmental_degradation",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "source": "tech_fossil_fuels",
+    "target": "oil_geopolitics",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "source": "tech_fossil_fuels",
+    "target": "resource_curse",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "tech_fossil_fuels",
+    "target": "climate_denial",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_fossil_fuels",
+    "target": "manufactured_doubt",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "tech_drone_warfare",
+    "target": "political_violence",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "tech_drone_warfare",
+    "target": "surveillance_state",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_drone_warfare",
+    "target": "authoritarian_control",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "tech_blockchain_crypto",
+    "target": "financial_contagion",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "tech_blockchain_crypto",
+    "target": "regulatory_capture",
+    "type": "UNDERMINED",
+    "weight": 2
+  },
+  {
+    "source": "tech_blockchain_crypto",
+    "target": "environmental_degradation",
+    "type": "CAUSED",
+    "weight": 2
   }
 ]

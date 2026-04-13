@@ -29,6 +29,10 @@
       "art": {
         "label": "Art & Culture",
         "children": {}
+      },
+      "technology": {
+        "label": "Science & Technology",
+        "children": {}
       }
     }
   }
