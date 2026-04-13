@@ -411,13 +411,13 @@ function addStarField(scene) {
 }
 
 // ── Semantic zoom ────────────────────────────────────────────────────────────
-// Assigns tier 1/2/3 to nodes by degree rank. Portals and ghosts are always
+// Assigns tier 1/2/3 to nodes by degree rank. Portal nodes are always
 // tier 1 (always visible regardless of camera distance).
 function computeTiers(nodes) {
   for (const k of Object.keys(nodeTiers)) delete nodeTiers[k];
 
   const rankable = [...nodes]
-    .filter(n => n.category !== 'portal' && !n.ghost)
+    .filter(n => n.category !== 'portal')
     .sort((a, b) => (b.__degree || 0) - (a.__degree || 0));
   const count = rankable.length;
 
@@ -442,7 +442,7 @@ function setSemanticZoom(enabled) {
 //   Tier 1 (top 25% by degree): always visible
 //   Tier 2 (next 35%):          visible when dist < 1200
 //   Tier 3 (bottom 40%):        visible when dist < 400
-// Portals, ghosts, and mechanism nodes (not in nodeTiers) are always visible.
+// Portal nodes (not in nodeTiers) are always visible.
 function isTierVisible(tier, dist) {
   return tier === 1 || (tier === 2 && dist < 1200) || (tier === 3 && dist < 400);
 }
