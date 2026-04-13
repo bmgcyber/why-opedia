@@ -113,11 +113,11 @@ data/
 9. **Highlight fix** — removed `graphInstance.nodeOpacity()` call (triggerUpdate rebuilds objects); direct material traversal now works correctly.
 
 **Next content priorities:**
-- Positive roadmap items still outstanding: `camp_david_accords_1978`, `emancipation_proclamation_1863`, `labor_rights_eight_hour_day`, `rural_electrification_1930s`
-- Person nodes still missing: `eleanor_roosevelt` (may already exist), `rosa_parks`, `harriet_tubman`, `frederick_douglass`
-- European welfare state construction depth, more 1989 follow-on (reunification aftermath)
-- Jim Crow / carceral state depth: school-to-prison pipeline, convict leasing follow-through
-- CIA operations batch (cold war covert ops)
+- More labor history: `cio_formation`, `homestead_strike_1892`, `national_labor_relations_act`, `sit_down_strikes`
+- Missing person nodes: `paul_robeson` ✓ (added), `langston_hughes`, `audre_lorde`, `bell_hooks`
+- Missing events: `somalia_civil_war`, `haiti_political_collapse`, `iran_nuclear_deal`, `operation_phoenix`
+- More positive nodes: `community_organizing_movements`, `international_court_of_justice`, `reparations_movements`
+- Global: South American dictatorships depth (Argentina junta, Brazil military), Southeast Asian history
 
 ---
 
@@ -154,23 +154,30 @@ Edge distribution audit: `ENABLED` was 39.8% of edges (used as catch-all); 70+ o
 
 ---
 
-## CURRENT DATASET STATE (as of 2026-04-12, Session 18)
+## CURRENT DATASET STATE (as of 2026-04-13, Session 18)
 
 | Scope | Nodes | Edges |
 |-------|-------|-------|
-| History | **878** | **1,679** |
+| History | **917** | **1,750** |
 | Economics | **71** | 163 |
 | Politics | **126** | 331 |
 | Psychology | **69** | 142 |
 | Media | **55** | 125 |
 | Health | **62** | 126 |
 | Art & Culture | **61** | 70 |
-| Mechanisms | **223** | **3,250** (cross-scope) |
-| **Total** | **1,545** | **~5,886** |
+| Mechanisms | **223** | **3,903** (cross-scope) |
+| **Total** | **1,584** | **~6,610** |
 
 **Data integrity:** 0 broken edge references. Verified after every batch.
 
-Session 18 additions: +12 history nodes net (3 duplicates removed, 9+3×1 added), +2 mechanism nodes, +43 edges. Stale `holocaust` ref in psychology/edges.json fixed.
+**Session 18 key accomplishments:**
+- 3 duplicate merges (holocaust, abolition_movement, atlantic_slave_trade)
+- Belgian Congo, 1989 revolutions, aviation, CRISPR, prison reform, IHL: 9 history + 2 mech nodes, 43 edges
+- **Complete mechanism wiring pass:** ALL 878 history nodes now have ≥2 mechanism edges (+348 edges)
+- **All scopes wired:** politics, psychology, media, economics, health, art scope nodes all have ≥2 mechanism edges (+182 edges)
+- **Jim Crow / carceral state depth batch:** 20 nodes (jim_crow_era, black_codes, plessy_v_ferguson, dred_scott_decision, lynching_era, ida_b_wells, reconstruction_amendments, school_to_prison_pipeline, new_deal_programs, great_society_programs, reaganomics, welfare_reform_1996, war_on_drugs, crack_cocaine_epidemic, khmer_rouge, mkultra, spring_of_nations_1848, paris_commune_1871, rosewood_massacre, purdue_pharma)
+- **Labor / civil rights / contemporary batch:** 19 nodes (james_baldwin, fannie_lou_hamer, bayard_rustin, paul_robeson, triangle_shirtwaist_fire, haymarket_affair, pullman_strike_1894, taft_hartley_act, united_farm_workers, ferguson_shooting, me_too_movement, citizens_united_ruling, voting_rights_act_gutted_2013, soweto_uprising, mandela_imprisonment, hong_kong_protests_2019, uyghur_detention, berlin_wall_construction, us_vietnam_escalation)
+- Net: +39 history nodes, +653 mechanism edges this session
 
 **Data integrity:** 0 broken edge references. Verified after every batch.
 
@@ -407,4 +414,4 @@ Perf commit f3e2fd9 activated `applySemanticZoom()` (previously a stub). If it t
 | Session 14–15 | (see Previous Objectives above) Large history content expansion (+200 history nodes, +50 mechanism nodes across all major eras) |
 | Session 16 | Edge type vocabulary cleanup: canonical 12-14 types enforced, `UNDERMINED` added to sidebar, tense normalization, non-causal type deletion. Edge distribution audit run. |
 | Session 17 | Bug: ghost node floating fixed (removed `!n.ghost` from `computeTiers`). Stats HUD: visible edge count + clickable top-5 hub nodes. Duplicate cleanup: 5 node groups merged (6 removed). Middle East modern history: 9 history + 5 mechanism nodes, 41 edges. Total: 1,526 nodes. |
-| Session 18 | 3 more duplicate merges (holocaust, abolition_movement, atlantic_slave_trade). Belgian Congo/Leopold II, 1989 revolutions (East Germany, Romania, Reunification, Ostpolitik), aviation, CRISPR, prison reform, IHL batch: 9 history + 2 mechanism nodes, 43 edges. Node spacing cumulative 44% increase. Highlight direct-traversal fix. Total: 1,545 nodes, ~5,886 edges. |
+| Session 18 | Complete mechanism wiring pass (all nodes across all scopes now ≥2 mech edges, +530 edges). Jim Crow/carceral depth +20 nodes. Labor/civil rights/contemporary +19 nodes. 3 duplicate merges. Total: 1,584 nodes, ~6,610 edges. |
