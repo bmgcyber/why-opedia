@@ -28237,5 +28237,371 @@
     "target": "social_movement",
     "type": "PRODUCED",
     "weight": 3
+  },
+  {
+    "source": "systemic_racism",
+    "target": "jim_crow_era",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "source": "jim_crow_era",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "jim_crow_era",
+    "target": "carceral_state",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "chattel_slavery",
+    "target": "black_codes",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "black_codes",
+    "target": "carceral_state",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "structural_violence",
+    "target": "black_codes",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "systemic_racism",
+    "target": "plessy_v_ferguson",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "plessy_v_ferguson",
+    "target": "lost_cause_mythology",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "plessy_v_ferguson",
+    "target": "structural_violence",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "systemic_racism",
+    "target": "dred_scott_decision",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "dred_scott_decision",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "dred_scott_decision",
+    "target": "chattel_slavery",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "dehumanization",
+    "target": "lynching_era",
+    "type": "ENABLED",
+    "weight": 5
+  },
+  {
+    "source": "lynching_era",
+    "target": "collective_trauma",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "lynching_era",
+    "target": "systemic_racism",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "ida_b_wells",
+    "target": "whistleblowing",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "ida_b_wells",
+    "target": "social_movement",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "ida_b_wells",
+    "target": "moral_circle_expansion",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "reconstruction_amendments",
+    "target": "legal_mobilization",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "reconstruction_amendments",
+    "target": "democratic_accountability",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "structural_violence",
+    "target": "reconstruction_amendments",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "carceral_state",
+    "target": "school_to_prison_pipeline",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "school_to_prison_pipeline",
+    "target": "systemic_racism",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "school_to_prison_pipeline",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "new_deal_programs",
+    "target": "keynesianism",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "new_deal_programs",
+    "target": "welfare_state",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "new_deal_programs",
+    "target": "institutional_resilience",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "great_society_programs",
+    "target": "welfare_state",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "great_society_programs",
+    "target": "wealth_inequality",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "source": "great_society_programs",
+    "target": "grassroots_organizing",
+    "type": "ENABLED",
+    "weight": 2
+  },
+  {
+    "source": "reaganomics",
+    "target": "neoliberalism",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "reaganomics",
+    "target": "supply_side_economics",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "reaganomics",
+    "target": "wage_suppression",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "reaganomics",
+    "target": "wealth_inequality",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "neoliberalism",
+    "target": "welfare_reform_1996",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "welfare_reform_1996",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "source": "welfare_reform_1996",
+    "target": "wealth_inequality",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "war_on_drugs",
+    "target": "carceral_state",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "war_on_drugs",
+    "target": "systemic_racism",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "war_on_drugs",
+    "target": "political_violence",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "crack_cocaine_epidemic",
+    "target": "carceral_state",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "crack_cocaine_epidemic",
+    "target": "systemic_racism",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "crack_cocaine_epidemic",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "khmer_rouge",
+    "target": "totalitarianism",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "khmer_rouge",
+    "target": "dehumanization",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "khmer_rouge",
+    "target": "genocide",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "source": "mkultra",
+    "target": "authoritarian_control",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "mkultra",
+    "target": "surveillance_state",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "mkultra",
+    "target": "emergency_powers_abuse",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "spring_of_nations_1848",
+    "target": "nationalism_mechanism",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "spring_of_nations_1848",
+    "target": "social_contract_theory",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "source": "spring_of_nations_1848",
+    "target": "class_struggle",
+    "type": "PRODUCED",
+    "weight": 3
+  },
+  {
+    "source": "paris_commune_1871",
+    "target": "class_struggle",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "paris_commune_1871",
+    "target": "marxism",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "source": "paris_commune_1871",
+    "target": "revolutionary_terror",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "source": "dehumanization",
+    "target": "rosewood_massacre",
+    "type": "ENABLED",
+    "weight": 5
+  },
+  {
+    "source": "rosewood_massacre",
+    "target": "collective_trauma",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "rosewood_massacre",
+    "target": "systemic_racism",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "purdue_pharma",
+    "target": "pharmaceutical_industry",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "source": "purdue_pharma",
+    "target": "regulatory_capture",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "source": "purdue_pharma",
+    "target": "corporate_regulatory_capture",
+    "type": "PRODUCED",
+    "weight": 5
   }
 ]
