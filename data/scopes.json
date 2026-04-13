@@ -33,6 +33,10 @@
       "technology": {
         "label": "Science & Technology",
         "children": {}
+      },
+      "religion": {
+        "label": "Religion & Belief",
+        "children": {}
       }
     }
   }

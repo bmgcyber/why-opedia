@@ -1,0 +1,191 @@
+[
+  {
+    "id": "rel_christianity",
+    "label": "Christianity",
+    "category": "ideology",
+    "decade": 30,
+    "description": "The world's largest religion (2.4B adherents) centered on the life and teachings of Jesus of Nazareth; shaped Western law, art, science, colonialism, abolition, and human rights; internally fractured into Catholic, Orthodox, and Protestant branches."
+  },
+  {
+    "id": "rel_roman_catholic_church",
+    "label": "Roman Catholic Church",
+    "category": "institution",
+    "decade": 380,
+    "description": "Hierarchical institution based in Rome with 1.3 billion members; for 1,000+ years the dominant political and cultural power in Western Europe; controlled education, science (Galileo trial), marriage law, colonialism through papal bulls, and sexual ethics into the present."
+  },
+  {
+    "id": "rel_islam",
+    "label": "Islam",
+    "category": "ideology",
+    "decade": 610,
+    "description": "The world's second-largest religion (1.9B adherents) founded by the Prophet Muhammad in 7th century Arabia; shaped law (Sharia), governance (caliphates), science (Islamic Golden Age), art, and culture across the Middle East, Africa, and Asia."
+  },
+  {
+    "id": "rel_judaism",
+    "label": "Judaism",
+    "category": "ideology",
+    "decade": -1000,
+    "description": "World's oldest Abrahamic religion (~15M adherents); theological ancestor to Christianity and Islam; defined by diaspora, covenant theology, Talmudic tradition, and centuries of persecution; foundational to Western ethics and the Zionist movement."
+  },
+  {
+    "id": "rel_hinduism",
+    "label": "Hinduism",
+    "category": "ideology",
+    "decade": -1500,
+    "description": "The world's oldest major religion (1.2B adherents); no single founder or scripture; encompasses diverse philosophies, ritual traditions, and the Varna caste hierarchy — structuring South Asian social life, law, and politics for 3,000+ years."
+  },
+  {
+    "id": "rel_buddhism",
+    "label": "Buddhism",
+    "category": "ideology",
+    "decade": -500,
+    "description": "Religion/philosophy founded by Siddhartha Gautama in 5th century BCE as a rejection of Brahmin authority and caste hierarchy; 500M adherents; spread across Asia shaping governance, ethics, art, and culture — and in 21st century Myanmar, Buddhist nationalism drove genocide."
+  },
+  {
+    "id": "rel_protestantism",
+    "label": "Protestantism",
+    "category": "movement",
+    "decade": 1517,
+    "description": "The reformation movement launched by Martin Luther's 95 Theses (1517) that broke the Roman Catholic Church's monopoly on Western Christianity; emphasized individual scripture reading, priesthood of all believers, and produced Weber's 'Protestant ethic' link to capitalism."
+  },
+  {
+    "id": "rel_eastern_orthodoxy",
+    "label": "Eastern Orthodox Church",
+    "category": "institution",
+    "decade": 1054,
+    "description": "The dominant Christianity of Russia, Greece, and Eastern Europe; formally split from Rome in the Great Schism of 1054 over papal authority and the filioque clause; shaped Byzantine, Slavic, and Russian civilization — and in Russia, fused with nationalist ideology."
+  },
+  {
+    "id": "rel_sunni_islam",
+    "label": "Sunni Islam",
+    "category": "ideology",
+    "decade": 680,
+    "description": "85–90% of the world's 1.9B Muslims; follow the Sunna of Muhammad and accept Abu Bakr as the first caliph; dominant in most Muslim-majority nations; internally diverse, from Sufi mysticism to Wahhabi puritanism."
+  },
+  {
+    "id": "rel_shia_islam",
+    "label": "Shia Islam",
+    "category": "ideology",
+    "decade": 680,
+    "description": "10–15% of Muslims (~200M); believe leadership must descend through Ali ibn Abi Talib; concentrated in Iran, Iraq, Lebanon, and Bahrain; theological basis for the Iranian Islamic Revolution of 1979 and Hezbollah's formation."
+  },
+  {
+    "id": "rel_sufism",
+    "label": "Sufism",
+    "category": "movement",
+    "decade": 800,
+    "description": "The mystical dimension of Islam emphasizing direct experience of the divine through love, poetry, music, and ascetic practice; Rumi's poetry became the best-selling verse in the US; often persecuted by Salafi/Wahhabi movements as heretical innovation."
+  },
+  {
+    "id": "rel_council_of_nicaea_325",
+    "label": "First Council of Nicaea (325 CE)",
+    "category": "event",
+    "decade": 325,
+    "description": "Called by Emperor Constantine in 325 CE to resolve disputes within early Christianity; produced the Nicene Creed defining the Trinity doctrine and Christ's divinity; established orthodoxy by condemning Arianism — and formalized state religion's power to define heresy."
+  },
+  {
+    "id": "rel_great_schism_1054",
+    "label": "Great Schism (1054)",
+    "category": "event",
+    "decade": 1054,
+    "description": "The permanent break between the Western Roman Catholic and Eastern Orthodox churches in 1054 CE over papal authority, clerical celibacy, and the filioque clause; divided Christian civilization into two separate traditions that persist to the present."
+  },
+  {
+    "id": "rel_islamic_golden_age",
+    "label": "Islamic Golden Age",
+    "category": "era",
+    "decade": 800,
+    "description": "8th–13th century flourishing of science, philosophy, and culture centered on the Abbasid Caliphate's House of Wisdom in Baghdad; produced algebra, optics, advances in medicine, and the preservation and transmission of Greek philosophy to medieval Europe — enabling the Scientific Revolution."
+  },
+  {
+    "id": "rel_council_of_trent",
+    "label": "Council of Trent (1545–1563)",
+    "category": "event",
+    "decade": 1545,
+    "description": "The Catholic Church's response to the Protestant Reformation; reaffirmed Catholic doctrines Luther rejected (indulgences, transubstantiation, papal authority), reformed Church corruption, standardized the Latin Vulgate — institutionalizing the Counter-Reformation."
+  },
+  {
+    "id": "rel_second_vatican_council",
+    "label": "Second Vatican Council (1962–1965)",
+    "category": "event",
+    "decade": 1962,
+    "description": "Vatican II was Pope John XXIII's modernizing council; approved Mass in vernacular languages, endorsed religious freedom, sought dialogue with other religions, and implicitly enabled Liberation Theology — provoking conservative Catholic backlash that continues today."
+  },
+  {
+    "id": "rel_rumi",
+    "label": "Rumi",
+    "category": "person",
+    "decade": 1207,
+    "description": "Jalal ad-Din Muhammad Rumi (1207–1273): Persian Sufi mystic and poet whose Masnavi and Divan-i Shams extol divine love and union across religious boundaries; inspired the Mevlevi (whirling dervish) order; among the best-selling poets in the United States today."
+  },
+  {
+    "id": "rel_liberation_theology",
+    "label": "Liberation Theology",
+    "category": "movement",
+    "decade": 1968,
+    "description": "Theological movement originating in Latin American Catholicism (Gustavo Gutiérrez, 1968) synthesizing Gospel with Marxist structural analysis; declared a 'preferential option for the poor'; empowered base communities resisting dictatorships; condemned by Pope John Paul II and the Reagan administration."
+  },
+  {
+    "id": "rel_wahhabism",
+    "label": "Wahhabism / Salafism",
+    "category": "ideology",
+    "decade": 1744,
+    "description": "Puritanical Islamic reform movement founded by Muhammad ibn Abd al-Wahhab in 18th century Arabia; allied with the House of Saud in 1744 and became Saudi state religion; spread globally through petrodollar funding of mosques and madrassas after 1973 oil boom — the ideological foundation of modern Sunni jihadist movements."
+  },
+  {
+    "id": "rel_religious_zionism",
+    "label": "Religious Zionism",
+    "category": "ideology",
+    "decade": 1948,
+    "description": "Movement merging Jewish nationalism with messianic theology; interprets Israel's 1948 founding and 1967 territorial gains as divine redemption; the ideological driver of Israeli settlement expansion in the occupied West Bank; politically dominant in 21st century Israeli coalition governments."
+  },
+  {
+    "id": "rel_evangelical_movement",
+    "label": "Evangelical Christianity",
+    "category": "movement",
+    "decade": 1940,
+    "description": "20th century Protestant movement emphasizing born-again conversion, Biblical inerrancy, and personal relationship with Jesus; 600M adherents globally; since the 1970s Moral Majority, a dominant force in US conservative politics — shaping abortion policy, LGBTQ+ rights, and foreign policy toward Israel."
+  },
+  {
+    "id": "rel_secularization",
+    "label": "Secularization",
+    "category": "phenomenon",
+    "decade": 1700,
+    "description": "Historical process by which religious authority over public life, science, law, and politics has declined; driven by Enlightenment rationalism, scientific revolution, and democratic governance; produced separation of church and state — and triggered reactionary religious fundamentalism as its counter-movement."
+  },
+  {
+    "id": "rel_religious_nationalism",
+    "label": "Religious Nationalism",
+    "category": "phenomenon",
+    "decade": 1900,
+    "description": "Fusion of ethnic or national identity with religious devotion — Hindu nationalism (RSS/BJP), Christian nationalism (US), Buddhist nationalism (Myanmar), Jewish nationalism (Likud/Religious Zionism), Islamism; often drives ethnic cleansing, genocide, and democratic backsliding."
+  },
+  {
+    "id": "rel_religious_fundamentalism",
+    "label": "Religious Fundamentalism",
+    "category": "phenomenon",
+    "decade": 1920,
+    "description": "Literalist, reactionary religious movements arising in response to modernity and secularization; Islamism, Christian fundamentalism, Hindu nationalism, settler messianism; characterized by rejection of pluralism, strict gender hierarchies, and willingness to use political violence to enforce religious law."
+  },
+  {
+    "id": "rel_antisemitism_religious",
+    "label": "Religious Antisemitism",
+    "category": "phenomenon",
+    "decade": 200,
+    "description": "Christian theological basis for anti-Jewish persecution: the 'deicide' charge (Jews killed Christ), blood libel myths, forced conversions, ghettoes, and pogroms authorized by Church doctrine; laid the cultural and psychological groundwork that enabled the Holocaust in a majority-Christian Europe."
+  },
+  {
+    "id": "rel_caste_system",
+    "label": "Caste System (Varna / Jati)",
+    "category": "phenomenon",
+    "decade": -1500,
+    "description": "Hindu social hierarchy dividing society into ritual purity groups (Brahmins, Kshatriyas, Vaishyas, Shudras) and excluding Dalits ('untouchables') from social participation; 3,000+ years of embedded structural discrimination; legally abolished but socially persistent in India, Nepal, and the diaspora."
+  },
+  {
+    "id": "rel_protestant_work_ethic",
+    "label": "Protestant Work Ethic",
+    "category": "phenomenon",
+    "decade": 1904,
+    "description": "Max Weber's 1904 thesis that Calvinist Protestant theology — particularly the doctrine of predestination and the 'calling' — produced the cultural conditions for capitalist accumulation; industriousness, frugality, and worldly success as signs of divine election; contested but influential framework for the rise of capitalism in Protestant Europe and America."
+  }
+]

@@ -29821,5 +29821,467 @@
     "target": "environmental_degradation",
     "type": "CAUSED",
     "weight": 2
+  },
+  {
+    "id": "tech_nuclear_weapons__atomic_bombing_hiroshima",
+    "source": "tech_nuclear_weapons",
+    "target": "atomic_bombing_hiroshima",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "tech_nuclear_weapons__cold_war_nuclear_fear",
+    "source": "tech_nuclear_weapons",
+    "target": "cold_war_nuclear_fear",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "tech_nuclear_weapons__cuban_missile_crisis",
+    "source": "tech_nuclear_weapons",
+    "target": "cuban_missile_crisis",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "tech_nuclear_weapons__nuclear_test_ban_treaty_1963",
+    "source": "tech_nuclear_weapons",
+    "target": "nuclear_test_ban_treaty_1963",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "id": "tech_nuclear_weapons__space_race",
+    "source": "tech_nuclear_weapons",
+    "target": "space_race",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_nuclear_weapons__cold_war_origins",
+    "source": "tech_nuclear_weapons",
+    "target": "cold_war_origins",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "tech_nuclear_power__chernobyl_disaster",
+    "source": "tech_nuclear_power",
+    "target": "chernobyl_disaster",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "tech_social_media__arab_spring",
+    "source": "tech_social_media",
+    "target": "arab_spring",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_social_media__black_lives_matter",
+    "source": "tech_social_media",
+    "target": "black_lives_matter",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_social_media__russia_election_interference",
+    "source": "tech_social_media",
+    "target": "russia_election_interference",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_social_media__ukraine_euromaidan",
+    "source": "tech_social_media",
+    "target": "ukraine_euromaidan",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "id": "tech_internet__arab_spring",
+    "source": "tech_internet",
+    "target": "arab_spring",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_internet__social_media_revolution",
+    "source": "tech_internet",
+    "target": "social_media_revolution",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "id": "tech_mobile_phone__arab_spring",
+    "source": "tech_mobile_phone",
+    "target": "arab_spring",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_mobile_phone__ferguson_protests_2014",
+    "source": "tech_mobile_phone",
+    "target": "ferguson_protests_2014",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_mobile_phone__black_lives_matter",
+    "source": "tech_mobile_phone",
+    "target": "black_lives_matter",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_printing_press__protestant_reformation",
+    "source": "tech_printing_press",
+    "target": "protestant_reformation",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "tech_printing_press__scientific_revolution",
+    "source": "tech_printing_press",
+    "target": "scientific_revolution",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_steam_engine__industrial_revolution_england",
+    "source": "tech_steam_engine",
+    "target": "industrial_revolution_england",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "tech_surveillance_tech__surveillance_state_china",
+    "source": "tech_surveillance_tech",
+    "target": "surveillance_state_china",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_artificial_intelligence__surveillance_state_china",
+    "source": "tech_artificial_intelligence",
+    "target": "surveillance_state_china",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_drone_warfare__afghanistan_war_2001",
+    "source": "tech_drone_warfare",
+    "target": "afghanistan_war_2001",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_drone_warfare__iraq_war_2003",
+    "source": "tech_drone_warfare",
+    "target": "iraq_war_2003",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_gps_satellite__afghanistan_war_2001",
+    "source": "tech_gps_satellite",
+    "target": "afghanistan_war_2001",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "id": "tech_internal_combustion__world_war_i",
+    "source": "tech_internal_combustion",
+    "target": "world_war_i",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_radio_communications__world_war_ii",
+    "source": "tech_radio_communications",
+    "target": "world_war_ii",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_fossil_fuels__iran_iraq_war",
+    "source": "tech_fossil_fuels",
+    "target": "iran_iraq_war",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "id": "tech_vaccines__smallpox_eradication_1980",
+    "source": "tech_vaccines",
+    "target": "smallpox_eradication_1980",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "tech_vaccines__polio_vaccine_1955",
+    "source": "tech_vaccines",
+    "target": "polio_vaccine_1955",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "id": "tech_germ_theory_discovery__polio_vaccine_1955",
+    "source": "tech_germ_theory_discovery",
+    "target": "polio_vaccine_1955",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "tech_renewable_energy__paris_agreement_2015",
+    "source": "tech_renewable_energy",
+    "target": "paris_agreement_2015",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "id": "tech_transistor__apollo_moon_landing",
+    "source": "tech_transistor",
+    "target": "apollo_moon_landing",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "rel_roman_catholic_church__crusades",
+    "source": "rel_roman_catholic_church",
+    "target": "crusades",
+    "type": "ENABLED",
+    "weight": 5
+  },
+  {
+    "id": "rel_roman_catholic_church__protestant_reformation",
+    "source": "rel_roman_catholic_church",
+    "target": "protestant_reformation",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "rel_roman_catholic_church__spanish_inquisition",
+    "source": "rel_roman_catholic_church",
+    "target": "spanish_inquisition",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "rel_roman_catholic_church__thirty_years_war",
+    "source": "rel_roman_catholic_church",
+    "target": "thirty_years_war",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "rel_antisemitism_religious__the_holocaust",
+    "source": "rel_antisemitism_religious",
+    "target": "the_holocaust",
+    "type": "ENABLED",
+    "weight": 5
+  },
+  {
+    "id": "rel_wahhabism__rise_of_al_qaeda",
+    "source": "rel_wahhabism",
+    "target": "rise_of_al_qaeda",
+    "type": "ENABLED",
+    "weight": 5
+  },
+  {
+    "id": "rel_wahhabism__isis_rise",
+    "source": "rel_wahhabism",
+    "target": "isis_rise",
+    "type": "ENABLED",
+    "weight": 5
+  },
+  {
+    "id": "rel_shia_islam__iranian_revolution_1979",
+    "source": "rel_shia_islam",
+    "target": "iranian_revolution_1979",
+    "type": "ENABLED",
+    "weight": 5
+  },
+  {
+    "id": "rel_religious_nationalism__partition_india_pakistan",
+    "source": "rel_religious_nationalism",
+    "target": "partition_india_pakistan",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "rel_religious_nationalism__rohingya_genocide",
+    "source": "rel_religious_nationalism",
+    "target": "rohingya_genocide",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "rel_protestantism__thirty_years_war",
+    "source": "rel_protestantism",
+    "target": "thirty_years_war",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "id": "rel_protestantism__english_reformation",
+    "source": "rel_protestantism",
+    "target": "english_reformation",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "id": "constantine_christianity__rel_council_of_nicaea_325",
+    "source": "constantine_christianity",
+    "target": "rel_council_of_nicaea_325",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "id": "rel_islamic_golden_age__scientific_revolution",
+    "source": "rel_islamic_golden_age",
+    "target": "scientific_revolution",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "rel_liberation_theology__civil_rights_movement",
+    "source": "rel_liberation_theology",
+    "target": "civil_rights_movement",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "id": "rel_caste_system__indian_independence_1947",
+    "source": "rel_caste_system",
+    "target": "indian_independence_1947",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "id": "rel_protestant_work_ethic__industrial_revolution",
+    "source": "rel_protestant_work_ethic",
+    "target": "industrial_revolution",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "id": "rel_evangelical_movement__christian_nationalism",
+    "source": "rel_evangelical_movement",
+    "target": "christian_nationalism",
+    "type": "PRODUCED",
+    "weight": 5
+  },
+  {
+    "id": "rel_religious_fundamentalism__sectarianism",
+    "source": "rel_religious_fundamentalism",
+    "target": "sectarianism",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "id": "rel_religious_fundamentalism__authoritarian_control",
+    "source": "rel_religious_fundamentalism",
+    "target": "authoritarian_control",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "rel_roman_catholic_church__propaganda_state_religion",
+    "source": "rel_roman_catholic_church",
+    "target": "propaganda_state_religion",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "rel_antisemitism_religious__scapegoating",
+    "source": "rel_antisemitism_religious",
+    "target": "scapegoating",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "rel_antisemitism_religious__dehumanization",
+    "source": "rel_antisemitism_religious",
+    "target": "dehumanization",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "rel_caste_system__structural_violence",
+    "source": "rel_caste_system",
+    "target": "structural_violence",
+    "type": "CAUSED",
+    "weight": 5
+  },
+  {
+    "id": "rel_wahhabism__political_violence",
+    "source": "rel_wahhabism",
+    "target": "political_violence",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "rel_religious_nationalism__in_group_out_group_dynamics",
+    "source": "rel_religious_nationalism",
+    "target": "in_group_out_group_dynamics",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "id": "rel_religious_nationalism__nationalism",
+    "source": "rel_religious_nationalism",
+    "target": "nationalism",
+    "type": "CAUSED",
+    "weight": 4
+  },
+  {
+    "id": "rel_secularization__authoritarian_control",
+    "source": "rel_secularization",
+    "target": "authoritarian_control",
+    "type": "UNDERMINED",
+    "weight": 3
+  },
+  {
+    "id": "rel_islamic_golden_age__scientific_method",
+    "source": "rel_islamic_golden_age",
+    "target": "scientific_method",
+    "type": "PRODUCED",
+    "weight": 4
+  },
+  {
+    "id": "rel_liberation_theology__social_movement",
+    "source": "rel_liberation_theology",
+    "target": "social_movement",
+    "type": "ENABLED",
+    "weight": 4
+  },
+  {
+    "id": "rel_shia_islam__sectarianism",
+    "source": "rel_shia_islam",
+    "target": "sectarianism",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "id": "rel_sunni_islam__sectarianism",
+    "source": "rel_sunni_islam",
+    "target": "sectarianism",
+    "type": "CAUSED",
+    "weight": 3
+  },
+  {
+    "id": "rel_protestantism__capitalism",
+    "source": "rel_protestantism",
+    "target": "capitalism",
+    "type": "ENABLED",
+    "weight": 3
+  },
+  {
+    "id": "rel_caste_system__racial_capitalism",
+    "source": "rel_caste_system",
+    "target": "racial_capitalism",
+    "type": "SHARES_MECHANISM_WITH",
+    "weight": 2
   }
 ]

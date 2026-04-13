@@ -78,5 +78,15 @@
     "target_scope": "global/technology",
     "summary": "Inventions, scientific revolutions, and technological systems as causal forces.",
     "cross_scope": false
+  },
+  {
+    "id": "portal-religion",
+    "label": "Religion & Belief",
+    "category": "portal",
+    "node_type": "portal",
+    "scope": "global",
+    "target_scope": "global/religion",
+    "summary": "Major world religions, theological movements, and belief systems as causal forces.",
+    "cross_scope": false
   }
 ]
