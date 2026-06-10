@@ -10,7 +10,9 @@
 
 (function () {
   // ── Config ─────────────────────────────────────────────────────────────────
-  const NEIGHBOR_CAP = 15;
+  const NEIGHBOR_CAP = 15;   // neighbors revealed when a node is expanded
+  const OVERVIEW_CAP = 18;   // top hubs shown when you first enter a scope
+  const SIDEBAR_CAP  = 140;  // rows rendered in the scope sidebar list
 
   const SCOPE_KEYS = [
     'history', 'politics', 'economics', 'psychology',
@@ -73,6 +75,7 @@
 
   // ── DOM refs ─────────────────────────────────────────────────────────────────
   let elBack, elCrumb, elSearch, elResults, elHint, elPanel;
+  let elSidebar, elScopeTitle, elScopeCount, elScopeFilter, elScopeList, elOverviewBtn;
 
   // ── Data loading ─────────────────────────────────────────────────────────────
   async function loadAll() {
@@ -162,10 +165,39 @@
 
   function deg(id) { return degree.get(id) || 0; }
 
+  function nodesInScope(scopeKey) {
+    const out = [];
+    for (const n of nodeById.values()) {
+      if (n._scopeKey === scopeKey) out.push(n);
+    }
+    out.sort((a, b) => deg(b.id) - deg(a.id));
+    return out;
+  }
+
   // ── Ego-graph rendering ──────────────────────────────────────────────────────
   function buildEgoData() {
-    const renderedIds = new Set(expanded);
     moreById = new Map();
+
+    // Overview mode: nothing expanded yet → show the scope's top hubs.
+    if (expanded.size === 0) {
+      const hubs = nodesInScope(currentScope).slice(0, OVERVIEW_CAP);
+      const ids = new Set(hubs.map(n => n.id));
+      const links = [];
+      const seenEdge = new Set();
+      for (const id of ids) {
+        const list = adjacency.get(id) || [];
+        for (const { edge, otherId } of list) {
+          if (!ids.has(otherId)) continue;
+          const eid = edge.id || `${edge.source}__${edge.target}`;
+          if (seenEdge.has(eid)) continue;
+          seenEdge.add(eid);
+          links.push({ id: eid, source: edge.source, target: edge.target, type: edge.type });
+        }
+      }
+      return { nodes: hubs, links };
+    }
+
+    const renderedIds = new Set(expanded);
 
     for (const id of expanded) {
       const { shown, total } = topNeighbors(id, NEIGHBOR_CAP);
@@ -201,6 +233,7 @@
     Graph.graphData(data);
     setTimeout(() => Graph.zoomToFit(600, 80), 240);
     updateChrome();
+    renderScopeList();
   }
 
   // ── Constellation rendering ──────────────────────────────────────────────────
@@ -210,6 +243,7 @@
     selectedId = null;
     expanded = new Set();
     moreById = new Map();
+    if (elSidebar) elSidebar.hidden = true;
 
     const nodes = SCOPE_KEYS.map(k => ({
       id: `scope:${k}`,
@@ -226,21 +260,18 @@
   }
 
   // ── Scope entry / seeding ────────────────────────────────────────────────────
+  // Entering a scope lands on an OVERVIEW (top hubs), not a single seed, so the
+  // user sees the scope's major threads and can pick where to dive in.
   function enterScope(scopeKey) {
+    if (!nodesInScope(scopeKey).length) { renderConstellation(); return; }
     currentScope = scopeKey;
     mode = 'ego';
-    // Seed = highest-degree node belonging to this scope
-    let seed = null, best = -1;
-    for (const n of nodeById.values()) {
-      if (n._scopeKey !== scopeKey) continue;
-      const d = deg(n.id);
-      if (d > best) { best = d; seed = n; }
-    }
-    if (!seed) { // empty scope fallback
-      renderConstellation();
-      return;
-    }
-    reseed(seed.id);
+    expanded = new Set();   // empty → buildEgoData renders the overview
+    selectedId = null;
+    if (elSidebar) elSidebar.hidden = false;
+    if (elScopeFilter) elScopeFilter.value = '';
+    renderEgo();
+    hidePanel();
   }
 
   function reseed(id) {
@@ -251,6 +282,7 @@
     else if (!currentScope) currentScope = 'mechanisms';
     expanded = new Set([id]);
     selectedId = id;
+    if (elSidebar) elSidebar.hidden = false;
     renderEgo();
     showPanel(id);
   }
@@ -262,8 +294,11 @@
       return;
     }
     const id = node.id;
-    selectedId = id;
 
+    // In overview, a click dives into that node's neighborhood.
+    if (expanded.size === 0) { reseed(id); return; }
+
+    selectedId = id;
     const isSeedOnly = expanded.size === 1 && expanded.has(id);
     if (expanded.has(id)) {
       if (!isSeedOnly) expanded.delete(id); // collapse (but never collapse the lone seed)
@@ -337,11 +372,55 @@
     const scopeLabel = currentScope === 'mechanisms'
       ? 'Cross-scope mechanisms'
       : (scopeMeta[currentScope] ? scopeMeta[currentScope].label : currentScope);
+    const isOverview = expanded.size === 0;
     const sel = selectedId && nodeById.get(selectedId);
     let crumb = `World › ${scopeLabel}`;
-    if (sel) crumb += ` › ${sel.label || sel.id}`;
+    if (isOverview) crumb += ' › overview';
+    else if (sel) crumb += ` › ${sel.label || sel.id}`;
     elCrumb.textContent = crumb;
-    elHint.textContent = 'Click a node to expand · click an open node to collapse · “Focus here” to recenter.';
+    elHint.textContent = isOverview
+      ? 'Scope overview — click a node (graph or list) to dive into its connections.'
+      : 'Click a node to expand · click an open node to collapse · “Focus here” to recenter.';
+  }
+
+  // ── Scope sidebar (full node list for the current scope) ─────────────────────
+  function renderScopeList() {
+    if (!elSidebar || mode === 'constellation') return;
+
+    const scopeLabel = currentScope === 'mechanisms'
+      ? 'Cross-scope mechanisms'
+      : (scopeMeta[currentScope] ? scopeMeta[currentScope].label : currentScope);
+    elScopeTitle.textContent = scopeLabel;
+
+    const all = nodesInScope(currentScope);
+    elScopeCount.textContent = `${all.length} nodes`;
+
+    const q = (elScopeFilter.value || '').trim().toLowerCase();
+    let list = all;
+    if (q) list = all.filter(n => (n.label || n.id).toLowerCase().includes(q));
+    const shown = list.slice(0, SIDEBAR_CAP);
+
+    let html = shown.map(n => {
+      const active = n.id === selectedId;
+      const open = expanded.has(n.id);
+      return `<div class="tx-li${active ? ' tx-li-active' : ''}" data-id="${esc(n.id)}">
+        <span class="tx-li-dot${open ? ' on' : ''}"></span>
+        <span class="tx-li-label">${esc(n.label || n.id)}</span>
+        <span class="tx-li-deg">${deg(n.id)}</span>
+      </div>`;
+    }).join('');
+
+    if (list.length > SIDEBAR_CAP) {
+      html += `<div class="tx-li-more">+${list.length - SIDEBAR_CAP} more — refine the filter…</div>`;
+    }
+    if (!shown.length) {
+      html = `<div class="tx-li-more">No matches.</div>`;
+    }
+    elScopeList.innerHTML = html;
+
+    elScopeList.querySelectorAll('.tx-li').forEach(row => {
+      row.onclick = () => reseed(row.dataset.id);
+    });
   }
 
   // ── Search ───────────────────────────────────────────────────────────────────
@@ -454,15 +533,23 @@
 
   // ── Init ─────────────────────────────────────────────────────────────────────
   async function init() {
-    elBack    = document.getElementById('tx-back');
-    elCrumb   = document.getElementById('tx-crumb');
-    elSearch  = document.getElementById('tx-search');
-    elResults = document.getElementById('tx-results');
-    elHint    = document.getElementById('tx-hint');
-    elPanel   = document.getElementById('tx-panel');
+    elBack       = document.getElementById('tx-back');
+    elCrumb      = document.getElementById('tx-crumb');
+    elSearch     = document.getElementById('tx-search');
+    elResults    = document.getElementById('tx-results');
+    elHint       = document.getElementById('tx-hint');
+    elPanel      = document.getElementById('tx-panel');
+    elSidebar    = document.getElementById('tx-sidebar');
+    elScopeTitle = document.getElementById('tx-scope-title');
+    elScopeCount = document.getElementById('tx-scope-count');
+    elScopeFilter= document.getElementById('tx-scope-filter');
+    elScopeList  = document.getElementById('tx-scope-list');
+    elOverviewBtn= document.getElementById('tx-overview-btn');
 
-    elBack.onclick   = renderConstellation;
-    elSearch.oninput = onSearchInput;
+    elBack.onclick      = renderConstellation;
+    elSearch.oninput    = onSearchInput;
+    elScopeFilter.oninput = renderScopeList;
+    elOverviewBtn.onclick = () => { if (currentScope) enterScope(currentScope); };
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape') { elResults.hidden = true; hidePanel(); }
     });

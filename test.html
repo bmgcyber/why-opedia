@@ -70,6 +70,43 @@
       padding: 6px 14px; border-radius: 20px; border: 1px solid var(--border); white-space: nowrap;
     }
 
+    /* Scope sidebar */
+    #tx-sidebar {
+      position: fixed; top: 66px; left: 14px; bottom: 14px; width: 260px; max-width: 70vw; z-index: 17;
+      display: flex; flex-direction: column;
+      background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.5); overflow: hidden;
+    }
+    #tx-sidebar-head {
+      display: flex; align-items: flex-start; justify-content: space-between; gap: 8px;
+      padding: 13px 14px 10px;
+    }
+    #tx-scope-title { font-size: 15px; font-weight: 700; line-height: 1.2; }
+    #tx-scope-count { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+    #tx-overview-btn {
+      background: rgba(255,255,255,0.06); border: 1px solid var(--border); color: var(--text);
+      border-radius: 7px; padding: 5px 9px; font-size: 11.5px; cursor: pointer; white-space: nowrap;
+    }
+    #tx-overview-btn:hover { background: rgba(255,255,255,0.13); }
+    #tx-scope-filter {
+      margin: 0 12px 10px; background: rgba(0,0,0,0.25); border: 1px solid var(--border);
+      border-radius: 7px; padding: 7px 10px; color: var(--text); font-size: 12.5px; outline: none;
+    }
+    #tx-scope-filter:focus { border-color: var(--accent); }
+    #tx-scope-list { flex: 1; overflow-y: auto; padding: 0 6px 8px; }
+    .tx-li {
+      display: flex; align-items: center; gap: 8px; padding: 7px 8px; border-radius: 7px;
+      cursor: pointer; font-size: 12.5px;
+    }
+    .tx-li:hover { background: rgba(91,141,238,0.16); }
+    .tx-li-active { background: rgba(91,141,238,0.26); }
+    .tx-li-dot { width: 7px; height: 7px; border-radius: 50%; background: transparent; flex: 0 0 auto;
+      border: 1px solid var(--border); }
+    .tx-li-dot.on { background: var(--accent); border-color: var(--accent); }
+    .tx-li-label { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .tx-li-deg { font-size: 11px; color: var(--text-muted); flex: 0 0 auto; }
+    .tx-li-more { padding: 9px 10px; font-size: 11.5px; color: var(--text-muted); }
+
     /* Detail panel */
     #tx-panel {
       position: fixed; top: 66px; right: 14px; width: 320px; max-width: 86vw; z-index: 18;
@@ -125,6 +162,19 @@
       <input id="tx-search" type="text" placeholder="Search any node…" autocomplete="off" spellcheck="false" />
       <div id="tx-results" hidden></div>
     </div>
+  </div>
+
+  <!-- Scope sidebar: full searchable node list for the current scope -->
+  <div id="tx-sidebar" hidden>
+    <div id="tx-sidebar-head">
+      <div>
+        <div id="tx-scope-title">Scope</div>
+        <div id="tx-scope-count">0 nodes</div>
+      </div>
+      <button id="tx-overview-btn" title="Back to scope overview">⊙ Overview</button>
+    </div>
+    <input id="tx-scope-filter" type="text" placeholder="Filter this scope…" autocomplete="off" spellcheck="false" />
+    <div id="tx-scope-list"></div>
   </div>
 
   <div id="tx-panel" hidden></div>
