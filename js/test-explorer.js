@@ -1,0 +1,516 @@
+'use strict';
+
+// ── test-explorer.js ─────────────────────────────────────────────────────────
+// Standalone prototype: nested ego-graph explorer.
+// Macro = 3D constellation of the 9 scopes. Micro = ego-graph that grows/shrinks
+// around a seed node. Loads all data into memory but only ever renders a small
+// ego-subgraph, so every view stays readable.
+//
+// Self-contained. Does not touch the live app (index.html / app.js / renderers).
+
+(function () {
+  // ── Config ─────────────────────────────────────────────────────────────────
+  const NEIGHBOR_CAP = 15;
+
+  const SCOPE_KEYS = [
+    'history', 'politics', 'economics', 'psychology',
+    'media', 'health', 'art', 'technology', 'religion',
+  ];
+
+  const SCOPE_COLORS = {
+    history:    '#e0a050',
+    politics:   '#e05252',
+    economics:  '#4fb286',
+    psychology: '#a96ce6',
+    media:      '#5b8dee',
+    health:     '#e07ab0',
+    art:        '#f6c90e',
+    technology: '#46c6c6',
+    religion:   '#b59b6a',
+  };
+
+  const CATEGORY_COLORS = {
+    mechanism:   '#5b8dee',
+    event:       '#e0a050',
+    person:      '#e0d050',
+    movement:    '#e07ab0',
+    institution: '#4fb286',
+    era:         '#9a8c98',
+    ideology:    '#e05252',
+    phenomenon:  '#a96ce6',
+    reference:   '#7c9bb0',
+    artifact:    '#f6c90e',
+    portal:      '#46c6c6',
+  };
+
+  const CROSS_SCOPE_TINT = '#6b7280'; // desaturated gray for neighbors in another scope
+
+  const EDGE_COLORS = {
+    CAUSED:                '#e05252',
+    ENABLED:               '#e09752',
+    ACCELERATED:           '#f6c90e',
+    UNDERMINED:            '#7c6b9e',
+    SHARES_MECHANISM_WITH: '#5b8dee',
+    SELF_REINFORCES:       '#a96ce6',
+  };
+  const EDGE_COLOR_DEFAULT = '#4a4f6a';
+
+  // ── In-memory index ──────────────────────────────────────────────────────────
+  const nodeById   = new Map();              // id → node (tagged with .scope)
+  const adjacency  = new Map();              // id → [{ edge, otherId }]
+  const degree     = new Map();              // id → number
+  let   scopeMeta  = {};                     // scopeKey → { label, count }
+  let   fuse       = null;
+
+  // ── App state ────────────────────────────────────────────────────────────────
+  let mode         = 'constellation';        // 'constellation' | 'ego'
+  let currentScope = null;
+  let expanded     = new Set();
+  let selectedId   = null;
+  let moreById     = new Map();              // id → hidden-neighbor count (ego view)
+
+  let Graph        = null;
+
+  // ── DOM refs ─────────────────────────────────────────────────────────────────
+  let elBack, elCrumb, elSearch, elResults, elHint, elPanel;
+
+  // ── Data loading ─────────────────────────────────────────────────────────────
+  async function loadAll() {
+    const scopeFetches = SCOPE_KEYS.map(s => Promise.all([
+      fetch(`data/global/${s}/nodes.json`).then(r => r.json()),
+      fetch(`data/global/${s}/edges.json`).then(r => r.json()),
+    ]));
+
+    const [mechNodes, mechEdges, scopeResults] = await Promise.all([
+      fetch('data/mechanisms/nodes.json').then(r => r.json()),
+      fetch('data/mechanisms/edges.json').then(r => r.json()),
+      Promise.all(scopeFetches),
+    ]);
+
+    // Index per-scope nodes + edges
+    SCOPE_KEYS.forEach((scopeKey, i) => {
+      const [nodes, edges] = scopeResults[i];
+      for (const n of nodes) {
+        n.scope = `global/${scopeKey}`;
+        n._scopeKey = scopeKey;
+        nodeById.set(n.id, n);
+      }
+      scopeMeta[scopeKey] = { label: null, count: nodes.length };
+      indexEdges(edges);
+    });
+
+    // Index mechanism (cross-scope) nodes + edges
+    for (const n of mechNodes) {
+      n.scope = 'mechanisms';
+      n._scopeKey = 'mechanisms';
+      nodeById.set(n.id, n);
+    }
+    indexEdges(mechEdges);
+
+    // Degree from adjacency
+    for (const [id, list] of adjacency) degree.set(id, list.length);
+
+    // Scope labels from scopes.json
+    const scopes = await fetch('data/scopes.json').then(r => r.json());
+    const children = scopes.global.children || {};
+    for (const k of SCOPE_KEYS) {
+      if (scopeMeta[k]) scopeMeta[k].label = (children[k] && children[k].label) || k;
+    }
+
+    // Fuse index over all real nodes (skip mechanism-less orphans is unnecessary)
+    const all = [...nodeById.values()];
+    fuse = new Fuse(all, {
+      keys: ['label', 'summary', 'tags'],
+      threshold: 0.4,
+      ignoreLocation: true,
+    });
+  }
+
+  function indexEdges(edges) {
+    for (const e of edges) {
+      if (!e.source || !e.target) continue;
+      pushAdj(e.source, e, e.target);
+      pushAdj(e.target, e, e.source);
+    }
+  }
+
+  function pushAdj(id, edge, otherId) {
+    let list = adjacency.get(id);
+    if (!list) { list = []; adjacency.set(id, list); }
+    list.push({ edge, otherId });
+  }
+
+  // ── Neighbor helpers ─────────────────────────────────────────────────────────
+  function neighborsOf(id) {
+    const list = adjacency.get(id) || [];
+    const seen = new Set();
+    const out = [];
+    for (const { otherId } of list) {
+      if (otherId === id || seen.has(otherId)) continue;
+      if (!nodeById.has(otherId)) continue;
+      seen.add(otherId);
+      out.push(otherId);
+    }
+    return out;
+  }
+
+  function topNeighbors(id, cap) {
+    const all = neighborsOf(id);
+    all.sort((a, b) => (degree.get(b) || 0) - (degree.get(a) || 0));
+    return { shown: all.slice(0, cap), total: all.length };
+  }
+
+  function deg(id) { return degree.get(id) || 0; }
+
+  // ── Ego-graph rendering ──────────────────────────────────────────────────────
+  function buildEgoData() {
+    const renderedIds = new Set(expanded);
+    moreById = new Map();
+
+    for (const id of expanded) {
+      const { shown, total } = topNeighbors(id, NEIGHBOR_CAP);
+      if (total > NEIGHBOR_CAP) moreById.set(id, total - NEIGHBOR_CAP);
+      for (const nb of shown) renderedIds.add(nb);
+    }
+
+    const nodes = [];
+    for (const id of renderedIds) {
+      const n = nodeById.get(id);
+      if (n) nodes.push(n);
+    }
+
+    // Edges where BOTH endpoints are rendered (dedupe by edge id)
+    const links = [];
+    const seenEdge = new Set();
+    for (const id of renderedIds) {
+      const list = adjacency.get(id) || [];
+      for (const { edge, otherId } of list) {
+        if (!renderedIds.has(otherId)) continue;
+        const eid = edge.id || `${edge.source}__${edge.target}`;
+        if (seenEdge.has(eid)) continue;
+        seenEdge.add(eid);
+        links.push({ id: eid, source: edge.source, target: edge.target, type: edge.type });
+      }
+    }
+
+    return { nodes, links };
+  }
+
+  function renderEgo() {
+    const data = buildEgoData();
+    Graph.graphData(data);
+    setTimeout(() => Graph.zoomToFit(600, 80), 240);
+    updateChrome();
+  }
+
+  // ── Constellation rendering ──────────────────────────────────────────────────
+  function renderConstellation() {
+    mode = 'constellation';
+    currentScope = null;
+    selectedId = null;
+    expanded = new Set();
+    moreById = new Map();
+
+    const nodes = SCOPE_KEYS.map(k => ({
+      id: `scope:${k}`,
+      _scopeNode: true,
+      _scopeKey: k,
+      label: scopeMeta[k].label,
+      count: scopeMeta[k].count,
+    }));
+
+    Graph.graphData({ nodes, links: [] });
+    setTimeout(() => Graph.zoomToFit(600, 120), 240);
+    updateChrome();
+    hidePanel();
+  }
+
+  // ── Scope entry / seeding ────────────────────────────────────────────────────
+  function enterScope(scopeKey) {
+    currentScope = scopeKey;
+    mode = 'ego';
+    // Seed = highest-degree node belonging to this scope
+    let seed = null, best = -1;
+    for (const n of nodeById.values()) {
+      if (n._scopeKey !== scopeKey) continue;
+      const d = deg(n.id);
+      if (d > best) { best = d; seed = n; }
+    }
+    if (!seed) { // empty scope fallback
+      renderConstellation();
+      return;
+    }
+    reseed(seed.id);
+  }
+
+  function reseed(id) {
+    const n = nodeById.get(id);
+    if (!n) return;
+    mode = 'ego';
+    if (n._scopeKey && n._scopeKey !== 'mechanisms') currentScope = n._scopeKey;
+    else if (!currentScope) currentScope = 'mechanisms';
+    expanded = new Set([id]);
+    selectedId = id;
+    renderEgo();
+    showPanel(id);
+  }
+
+  // ── Node click ───────────────────────────────────────────────────────────────
+  function onNodeClick(node) {
+    if (mode === 'constellation') {
+      enterScope(node._scopeKey);
+      return;
+    }
+    const id = node.id;
+    selectedId = id;
+
+    const isSeedOnly = expanded.size === 1 && expanded.has(id);
+    if (expanded.has(id)) {
+      if (!isSeedOnly) expanded.delete(id); // collapse (but never collapse the lone seed)
+    } else {
+      expanded.add(id); // expand leaf
+    }
+    renderEgo();
+    showPanel(id);
+  }
+
+  // ── Detail panel ─────────────────────────────────────────────────────────────
+  function showPanel(id) {
+    const n = nodeById.get(id);
+    if (!n) return;
+    selectedId = id;
+
+    const isCross = n._scopeKey && n._scopeKey !== currentScope && n._scopeKey !== 'mechanisms';
+    const scopeLabel = n._scopeKey === 'mechanisms'
+      ? 'Cross-scope mechanism'
+      : (scopeMeta[n._scopeKey] ? scopeMeta[n._scopeKey].label : n._scopeKey);
+    const isExpanded = expanded.has(id);
+    const more = moreById.get(id) || 0;
+
+    let html = '';
+    html += `<button class="tx-panel-close" id="tx-panel-close">✕</button>`;
+    html += `<div class="tx-panel-cat">${esc(n.category || n.node_type || '')}</div>`;
+    html += `<div class="tx-panel-title">${esc(n.label || n.id)}</div>`;
+    html += `<div class="tx-panel-meta">${esc(scopeLabel)} · ${deg(id)} connections`;
+    if (more > 0) html += ` · ${more} more hidden`;
+    html += `</div>`;
+    if (n.summary) html += `<div class="tx-panel-summary">${esc(n.summary)}</div>`;
+
+    html += `<div class="tx-panel-btns">`;
+    if (isExpanded && !(expanded.size === 1 && expanded.has(id))) {
+      html += `<button class="tx-btn" data-act="collapse">Collapse</button>`;
+    } else if (!isExpanded) {
+      html += `<button class="tx-btn tx-btn-primary" data-act="expand">Expand</button>`;
+    }
+    html += `<button class="tx-btn" data-act="focus">Focus here</button>`;
+    if (isCross) {
+      html += `<button class="tx-btn" data-act="enter">Enter ${esc(scopeMeta[n._scopeKey].label)}</button>`;
+    }
+    html += `</div>`;
+
+    elPanel.innerHTML = html;
+    elPanel.hidden = false;
+
+    elPanel.querySelector('#tx-panel-close').onclick = hidePanel;
+    elPanel.querySelectorAll('.tx-btn').forEach(btn => {
+      btn.onclick = () => {
+        const act = btn.dataset.act;
+        if (act === 'expand')   { expanded.add(id); renderEgo(); showPanel(id); }
+        if (act === 'collapse') { expanded.delete(id); renderEgo(); showPanel(id); }
+        if (act === 'focus')    { reseed(id); }
+        if (act === 'enter')    { enterScope(n._scopeKey); }
+      };
+    });
+  }
+
+  function hidePanel() { elPanel.hidden = true; selectedId = null; }
+
+  // ── Chrome (top bar) ─────────────────────────────────────────────────────────
+  function updateChrome() {
+    if (mode === 'constellation') {
+      elBack.hidden = true;
+      elCrumb.textContent = 'World';
+      elHint.textContent = 'Click a scope to dive in.';
+      return;
+    }
+    elBack.hidden = false;
+    const scopeLabel = currentScope === 'mechanisms'
+      ? 'Cross-scope mechanisms'
+      : (scopeMeta[currentScope] ? scopeMeta[currentScope].label : currentScope);
+    const sel = selectedId && nodeById.get(selectedId);
+    let crumb = `World › ${scopeLabel}`;
+    if (sel) crumb += ` › ${sel.label || sel.id}`;
+    elCrumb.textContent = crumb;
+    elHint.textContent = 'Click a node to expand · click an open node to collapse · “Focus here” to recenter.';
+  }
+
+  // ── Search ───────────────────────────────────────────────────────────────────
+  function onSearchInput() {
+    const q = elSearch.value.trim();
+    if (!q) { elResults.hidden = true; elResults.innerHTML = ''; return; }
+    const hits = fuse.search(q, { limit: 8 });
+    if (!hits.length) { elResults.hidden = true; return; }
+    elResults.innerHTML = hits.map(h => {
+      const n = h.item;
+      const sk = n._scopeKey === 'mechanisms' ? 'mechanism' : (scopeMeta[n._scopeKey] && scopeMeta[n._scopeKey].label) || '';
+      return `<div class="tx-result" data-id="${esc(n.id)}">
+        <span class="tx-result-label">${esc(n.label || n.id)}</span>
+        <span class="tx-result-scope">${esc(sk)}</span>
+      </div>`;
+    }).join('');
+    elResults.hidden = false;
+    elResults.querySelectorAll('.tx-result').forEach(r => {
+      r.onclick = () => {
+        elResults.hidden = true;
+        elSearch.value = '';
+        reseed(r.dataset.id);
+      };
+    });
+  }
+
+  // ── 3D label sprites ─────────────────────────────────────────────────────────
+  const spriteCache = new Map();
+  function makeTextSprite(text, color) {
+    const key = `${text}|${color}`;
+    if (spriteCache.has(key)) return spriteCache.get(key).clone();
+
+    const pad = 8, font = 26;
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d');
+    ctx.font = `600 ${font}px -apple-system, Segoe UI, sans-serif`;
+    const w = ctx.measureText(text).width;
+    canvas.width  = Math.ceil(w + pad * 2);
+    canvas.height = font + pad * 2;
+
+    ctx.font = `600 ${font}px -apple-system, Segoe UI, sans-serif`;
+    ctx.textBaseline = 'middle';
+    ctx.fillStyle = 'rgba(15,17,26,0.72)';
+    roundRect(ctx, 0, 0, canvas.width, canvas.height, 7);
+    ctx.fill();
+    ctx.fillStyle = color || '#fff';
+    ctx.fillText(text, pad, canvas.height / 2 + 1);
+
+    const tex = new THREE.CanvasTexture(canvas);
+    tex.minFilter = THREE.LinearFilter;
+    const mat = new THREE.SpriteMaterial({ map: tex, depthWrite: false, transparent: true });
+    const sprite = new THREE.Sprite(mat);
+    const scale = 0.12;
+    sprite.scale.set(canvas.width * scale, canvas.height * scale, 1);
+    spriteCache.set(key, sprite);
+    return sprite.clone();
+  }
+
+  function roundRect(ctx, x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+
+  // ── Node visual accessors ────────────────────────────────────────────────────
+  function nodeColor(node) {
+    if (node._scopeNode) return SCOPE_COLORS[node._scopeKey] || '#888';
+    if (mode === 'ego' && node._scopeKey !== currentScope && node._scopeKey !== 'mechanisms') {
+      return CROSS_SCOPE_TINT;
+    }
+    return CATEGORY_COLORS[node.category] || CATEGORY_COLORS[node.node_type] || '#9aa';
+  }
+
+  function nodeVal(node) {
+    if (node._scopeNode) return 24 + (node.count || 0) / 20;
+    const base = expanded.has(node.id) ? 6 : 2;
+    return base + Math.min(deg(node.id) / 6, 10);
+  }
+
+  function nodeThreeObject(node) {
+    const color = nodeColor(node);
+    let text;
+    if (node._scopeNode) {
+      text = `${node.label}  (${node.count})`;
+    } else {
+      const more = moreById.get(node.id) || 0;
+      text = (node.label || node.id) + (more > 0 ? `  +${more}` : '');
+    }
+    const sprite = makeTextSprite(text, expanded.has(node.id) ? '#fff' : color);
+    // offset label above node
+    const r = node._scopeNode ? 10 : 5;
+    sprite.position.set(0, r, 0);
+    return sprite;
+  }
+
+  function nodeLabel(node) {
+    if (node._scopeNode) return `<b>${esc(node.label)}</b><br>${node.count} nodes`;
+    const sk = node._scopeKey === 'mechanisms' ? 'mechanism' : (scopeMeta[node._scopeKey] && scopeMeta[node._scopeKey].label) || '';
+    let s = `<b>${esc(node.label || node.id)}</b><br><i>${esc(node.category || '')}</i> · ${esc(sk)}`;
+    if (node.summary) s += `<br><span style="opacity:.8">${esc(node.summary.slice(0, 140))}${node.summary.length > 140 ? '…' : ''}</span>`;
+    return s;
+  }
+
+  function linkColor(link) { return EDGE_COLORS[link.type] || EDGE_COLOR_DEFAULT; }
+  function linkLabel(link) { return link.type ? link.type.replace(/_/g, ' ') : ''; }
+
+  // ── Init ─────────────────────────────────────────────────────────────────────
+  async function init() {
+    elBack    = document.getElementById('tx-back');
+    elCrumb   = document.getElementById('tx-crumb');
+    elSearch  = document.getElementById('tx-search');
+    elResults = document.getElementById('tx-results');
+    elHint    = document.getElementById('tx-hint');
+    elPanel   = document.getElementById('tx-panel');
+
+    elBack.onclick   = renderConstellation;
+    elSearch.oninput = onSearchInput;
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') { elResults.hidden = true; hidePanel(); }
+    });
+
+    const loadingEl = document.getElementById('tx-loading');
+    await loadAll();
+    if (loadingEl) loadingEl.remove();
+
+    Graph = ForceGraph3D()(document.getElementById('tx-graph'))
+      .backgroundColor('#0b0d14')
+      .nodeRelSize(2)
+      .nodeColor(nodeColor)
+      .nodeVal(nodeVal)
+      .nodeLabel(nodeLabel)
+      .nodeThreeObjectExtend(true)
+      .nodeThreeObject(nodeThreeObject)
+      .linkColor(linkColor)
+      .linkLabel(linkLabel)
+      .linkWidth(0.6)
+      .linkOpacity(0.5)
+      .linkDirectionalArrowLength(2.5)
+      .linkDirectionalArrowRelPos(0.92)
+      .onNodeClick(onNodeClick)
+      .onBackgroundClick(hidePanel);
+
+    Graph.renderer().setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
+
+    // A touch more repulsion so small ego-graphs breathe
+    const charge = Graph.d3Force('charge');
+    if (charge) charge.strength(-160);
+
+    window.addEventListener('resize', () => {
+      Graph.width(window.innerWidth).height(window.innerHeight);
+    });
+    Graph.width(window.innerWidth).height(window.innerHeight);
+
+    renderConstellation();
+  }
+
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();

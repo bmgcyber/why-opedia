@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Why-opedia — Explorer Prototype</title>
+  <style>
+    :root {
+      --bg: #0b0d14;
+      --panel: rgba(18,21,32,0.92);
+      --border: #262a3a;
+      --text: #e8eaf0;
+      --text-muted: #9aa0b4;
+      --accent: #5b8dee;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0; height: 100%;
+      background: var(--bg); color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    #tx-graph { position: fixed; inset: 0; }
+
+    /* Top bar */
+    #tx-topbar {
+      position: fixed; top: 0; left: 0; right: 0; height: 54px; z-index: 20;
+      display: flex; align-items: center; gap: 14px; padding: 0 16px;
+      background: linear-gradient(180deg, rgba(11,13,20,0.95), rgba(11,13,20,0.0));
+      pointer-events: none;
+    }
+    #tx-topbar > * { pointer-events: auto; }
+    .tx-wordmark { font-weight: 700; font-size: 17px; letter-spacing: -0.3px; }
+    .tx-wordmark span { color: var(--accent); }
+    .tx-proto {
+      font-size: 11px; color: var(--text-muted); border: 1px solid var(--border);
+      padding: 2px 7px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px;
+    }
+    #tx-back {
+      background: rgba(255,255,255,0.06); color: var(--text); border: 1px solid var(--border);
+      border-radius: 7px; padding: 6px 12px; cursor: pointer; font-size: 13px;
+    }
+    #tx-back:hover { background: rgba(255,255,255,0.12); }
+    #tx-crumb { font-size: 13px; color: var(--text-muted); flex: 0 1 auto; min-width: 0;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+    /* Search */
+    #tx-search-wrap { margin-left: auto; position: relative; width: 280px; max-width: 42vw; }
+    #tx-search {
+      width: 100%; background: var(--panel); border: 1px solid var(--border);
+      border-radius: 8px; padding: 8px 12px; color: var(--text); font-size: 13px; outline: none;
+    }
+    #tx-search:focus { border-color: var(--accent); }
+    #tx-results {
+      position: absolute; top: 40px; left: 0; right: 0; background: var(--panel);
+      border: 1px solid var(--border); border-radius: 8px; overflow: hidden; max-height: 320px;
+      overflow-y: auto; box-shadow: 0 12px 32px rgba(0,0,0,0.5);
+    }
+    .tx-result {
+      display: flex; justify-content: space-between; align-items: center; gap: 10px;
+      padding: 9px 12px; cursor: pointer; font-size: 13px; border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+    .tx-result:hover { background: rgba(91,141,238,0.16); }
+    .tx-result-scope { font-size: 11px; color: var(--text-muted); white-space: nowrap; }
+
+    /* Hint */
+    #tx-hint {
+      position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%); z-index: 15;
+      font-size: 12px; color: var(--text-muted); background: rgba(11,13,20,0.7);
+      padding: 6px 14px; border-radius: 20px; border: 1px solid var(--border); white-space: nowrap;
+    }
+
+    /* Detail panel */
+    #tx-panel {
+      position: fixed; top: 66px; right: 14px; width: 320px; max-width: 86vw; z-index: 18;
+      background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+      padding: 16px 16px 14px; box-shadow: 0 16px 40px rgba(0,0,0,0.5);
+    }
+    .tx-panel-close {
+      position: absolute; top: 10px; right: 10px; background: none; border: none;
+      color: var(--text-muted); font-size: 15px; cursor: pointer;
+    }
+    .tx-panel-close:hover { color: var(--text); }
+    .tx-panel-cat { font-size: 11px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--accent); }
+    .tx-panel-title { font-size: 17px; font-weight: 700; margin: 3px 0 6px; line-height: 1.25; padding-right: 16px; }
+    .tx-panel-meta { font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+    .tx-panel-summary { font-size: 13px; line-height: 1.5; color: #cfd3e2; max-height: 220px; overflow-y: auto; }
+    .tx-panel-btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .tx-btn {
+      background: rgba(255,255,255,0.06); border: 1px solid var(--border); color: var(--text);
+      border-radius: 7px; padding: 7px 12px; font-size: 12.5px; cursor: pointer;
+    }
+    .tx-btn:hover { background: rgba(255,255,255,0.13); }
+    .tx-btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .tx-btn-primary:hover { background: #6f9bf0; }
+
+    /* Loading */
+    #tx-loading {
+      position: fixed; inset: 0; z-index: 40; display: flex; align-items: center; justify-content: center;
+      flex-direction: column; gap: 14px; background: var(--bg); color: var(--text-muted); font-size: 14px;
+    }
+    .tx-spinner {
+      width: 34px; height: 34px; border: 3px solid var(--border); border-top-color: var(--accent);
+      border-radius: 50%; animation: tx-spin 0.8s linear infinite;
+    }
+    @keyframes tx-spin { to { transform: rotate(360deg); } }
+
+    @media (max-width: 640px) {
+      #tx-crumb { display: none; }
+      #tx-search-wrap { max-width: 50vw; }
+      #tx-hint { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="tx-graph"></div>
+
+  <div id="tx-topbar">
+    <div class="tx-wordmark">Why<span>-opedia</span></div>
+    <div class="tx-proto">Explorer</div>
+    <button id="tx-back" hidden>← Scopes</button>
+    <div id="tx-crumb">World</div>
+    <div id="tx-search-wrap">
+      <input id="tx-search" type="text" placeholder="Search any node…" autocomplete="off" spellcheck="false" />
+      <div id="tx-results" hidden></div>
+    </div>
+  </div>
+
+  <div id="tx-panel" hidden></div>
+
+  <div id="tx-hint">Click a scope to dive in.</div>
+
+  <div id="tx-loading">
+    <div class="tx-spinner"></div>
+    <div>Loading the graph…</div>
+  </div>
+
+  <!-- CDN: same versions the live app uses -->
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/3d-force-graph@1.73.3/dist/3d-force-graph.min.js"></script>
+  <script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
+  <script src="https://unpkg.com/fuse.js@7.0.0/dist/fuse.min.js"></script>
+
+  <script src="js/test-explorer.js"></script>
+</body>
+</html>
