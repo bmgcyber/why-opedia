@@ -109,7 +109,8 @@
 
     /* Detail panel */
     #tx-panel {
-      position: fixed; top: 66px; right: 14px; width: 320px; max-width: 86vw; z-index: 18;
+      position: fixed; top: 66px; right: 14px; width: 340px; max-width: 86vw; z-index: 18;
+      max-height: calc(100vh - 84px); overflow-y: auto;
       background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
       padding: 16px 16px 14px; box-shadow: 0 16px 40px rgba(0,0,0,0.5);
     }
@@ -130,6 +131,33 @@
     .tx-btn:hover { background: rgba(255,255,255,0.13); }
     .tx-btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
     .tx-btn-primary:hover { background: #6f9bf0; }
+
+    /* Connections list inside the panel */
+    .tx-conn-head {
+      margin: 16px 0 8px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.6px;
+      color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 12px;
+    }
+    .tx-conn-filter {
+      width: 100%; background: rgba(0,0,0,0.25); border: 1px solid var(--border);
+      border-radius: 7px; padding: 6px 9px; color: var(--text); font-size: 12px; outline: none; margin-bottom: 8px;
+    }
+    .tx-conn-filter:focus { border-color: var(--accent); }
+    .tx-conn-list { display: flex; flex-direction: column; gap: 2px; }
+    .tx-conn {
+      display: grid; grid-template-columns: 14px auto 1fr auto; align-items: center; gap: 7px;
+      padding: 6px 7px; border-radius: 6px; cursor: pointer; font-size: 12px;
+    }
+    .tx-conn:hover { background: rgba(91,141,238,0.16); }
+    .tx-conn-here { background: rgba(91,141,238,0.10); }
+    .tx-conn-dir { font-weight: 700; text-align: center; }
+    .tx-conn-dir.tx-out { color: #e0a050; }
+    .tx-conn-dir.tx-in  { color: #5b8dee; }
+    .tx-conn-type {
+      font-size: 10px; text-transform: uppercase; letter-spacing: 0.3px; color: var(--text-muted);
+      white-space: nowrap; max-width: 96px; overflow: hidden; text-overflow: ellipsis;
+    }
+    .tx-conn-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .tx-conn-deg { font-size: 10px; color: var(--text-muted); }
 
     /* Loading */
     #tx-loading {

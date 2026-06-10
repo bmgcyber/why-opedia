@@ -68,8 +68,10 @@
   let mode         = 'constellation';        // 'constellation' | 'ego'
   let currentScope = null;
   let expanded     = new Set();
+  let pinned       = new Set();              // individual nodes force-shown past the cap
   let selectedId   = null;
   let moreById     = new Map();              // id → hidden-neighbor count (ego view)
+  let renderedNow  = new Set();              // ids currently drawn in the graph
 
   let Graph        = null;
 
@@ -197,7 +199,7 @@
       return { nodes: hubs, links };
     }
 
-    const renderedIds = new Set(expanded);
+    const renderedIds = new Set([...expanded, ...pinned]);
 
     for (const id of expanded) {
       const { shown, total } = topNeighbors(id, NEIGHBOR_CAP);
@@ -230,6 +232,7 @@
 
   function renderEgo() {
     const data = buildEgoData();
+    renderedNow = new Set(data.nodes.map(n => n.id));
     Graph.graphData(data);
     setTimeout(() => Graph.zoomToFit(600, 80), 240);
     updateChrome();
@@ -242,6 +245,7 @@
     currentScope = null;
     selectedId = null;
     expanded = new Set();
+    pinned = new Set();
     moreById = new Map();
     if (elSidebar) elSidebar.hidden = true;
 
@@ -267,6 +271,7 @@
     currentScope = scopeKey;
     mode = 'ego';
     expanded = new Set();   // empty → buildEgoData renders the overview
+    pinned = new Set();
     selectedId = null;
     if (elSidebar) elSidebar.hidden = false;
     if (elScopeFilter) elScopeFilter.value = '';
@@ -281,6 +286,7 @@
     if (n._scopeKey && n._scopeKey !== 'mechanisms') currentScope = n._scopeKey;
     else if (!currentScope) currentScope = 'mechanisms';
     expanded = new Set([id]);
+    pinned = new Set();
     selectedId = id;
     if (elSidebar) elSidebar.hidden = false;
     renderEgo();
@@ -343,6 +349,30 @@
     }
     html += `</div>`;
 
+    // ── Full connections list — every neighbor, nothing hidden ──────────────────
+    const conns = connectionsOf(id);
+    if (conns.length) {
+      html += `<div class="tx-conn-head">All connections (${conns.length})</div>`;
+      if (conns.length > 10) {
+        html += `<input class="tx-conn-filter" id="tx-conn-filter" type="text" placeholder="Filter connections…" autocomplete="off" />`;
+      }
+      html += `<div class="tx-conn-list" id="tx-conn-list">`;
+      for (const c of conns) {
+        const nb = nodeById.get(c.oid);
+        const lbl = nb.label || nb.id;
+        const here = renderedNow.has(c.oid);
+        const arrow = c.dir === 'out' ? '→' : '←';
+        const typeTxt = (c.edge.type || '').replace(/_/g, ' ').toLowerCase() + (c.count > 1 ? ` ×${c.count}` : '');
+        html += `<div class="tx-conn${here ? ' tx-conn-here' : ''}" data-id="${esc(c.oid)}" data-label="${esc(lbl.toLowerCase())}" title="${esc(c.edge.label || c.edge.note || lbl)}">
+          <span class="tx-conn-dir tx-${c.dir}">${arrow}</span>
+          <span class="tx-conn-type">${esc(typeTxt)}</span>
+          <span class="tx-conn-label">${esc(lbl)}</span>
+          <span class="tx-conn-deg">${deg(c.oid)}</span>
+        </div>`;
+      }
+      html += `</div>`;
+    }
+
     elPanel.innerHTML = html;
     elPanel.hidden = false;
 
@@ -356,6 +386,43 @@
         if (act === 'enter')    { enterScope(n._scopeKey); }
       };
     });
+
+    // Clicking a connection pins it into the graph and dives onto it.
+    elPanel.querySelectorAll('.tx-conn').forEach(row => {
+      row.onclick = () => {
+        const oid = row.dataset.id;
+        if (!expanded.has(id)) pinned.add(id); // keep the source visible too
+        pinned.add(oid);
+        selectedId = oid;
+        renderEgo();
+        showPanel(oid);
+      };
+    });
+
+    const cf = elPanel.querySelector('#tx-conn-filter');
+    if (cf) {
+      cf.oninput = () => {
+        const q = cf.value.trim().toLowerCase();
+        elPanel.querySelectorAll('.tx-conn').forEach(row => {
+          row.style.display = !q || row.dataset.label.includes(q) ? '' : 'none';
+        });
+      };
+    }
+  }
+
+  // Deduped neighbor list for a node, sorted by neighbor connectivity.
+  function connectionsOf(id) {
+    const byOther = new Map();
+    for (const { edge, otherId } of (adjacency.get(id) || [])) {
+      if (otherId === id || !nodeById.has(otherId)) continue;
+      const dir = edge.source === id ? 'out' : 'in';
+      const ex = byOther.get(otherId);
+      if (!ex) byOther.set(otherId, { oid: otherId, edge, dir, count: 1 });
+      else ex.count++;
+    }
+    const out = [...byOther.values()];
+    out.sort((a, b) => deg(b.oid) - deg(a.oid));
+    return out;
   }
 
   function hidePanel() { elPanel.hidden = true; selectedId = null; }
