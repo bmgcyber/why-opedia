@@ -113,6 +113,24 @@
         </div>
       </div>
 
+      <!-- 4.5. AI Additions -->
+      <div id="sb-ai-section" class="sb-section">
+        <div class="sb-section-header">
+          <span>AI Additions <span id="ai-overlay-count" class="ai-count-badge"></span></span>
+          <button class="sb-collapse-btn" id="ai-collapse" title="Collapse">▴</button>
+        </div>
+        <div id="ai-body">
+          <div id="ai-overlay-list" class="ai-overlay-list">
+            <div class="ai-empty">No AI additions yet.</div>
+          </div>
+          <div class="ai-action-row">
+            <button id="ai-settings-btn" class="ai-sidebar-btn" title="Configure AI settings">⚙ Settings</button>
+            <button id="ai-export-btn"   class="ai-sidebar-btn" title="Export AI additions as JSON">⬇ Export</button>
+            <button id="ai-clear-btn"    class="ai-sidebar-btn ai-sidebar-btn-danger" title="Remove all AI additions">✕ Clear</button>
+          </div>
+        </div>
+      </div>
+
       <!-- 5. Neighborhood Explorer (hidden until node selected) -->
       <div id="sb-neighborhood" class="sb-section" hidden>
         <div class="sb-section-header">
@@ -298,6 +316,42 @@
     </div>
   </div>
 
+  <!-- AI Settings Modal -->
+  <div id="ai-settings-modal" class="modal-overlay" hidden>
+    <div class="modal-content modal-content-ai">
+      <button class="modal-close" id="ai-settings-close">✕</button>
+      <div class="modal-title">AI Generator Settings</div>
+      <div class="ai-settings-form">
+        <label class="ai-form-label">API Base URL
+          <input id="ai-settings-baseurl" class="ai-form-input" type="text" placeholder="https://api.minimax.io/anthropic" autocomplete="off" />
+        </label>
+        <label class="ai-form-label">Model
+          <input id="ai-settings-model" class="ai-form-input" type="text" placeholder="MiniMax-M2" autocomplete="off" />
+        </label>
+        <label class="ai-form-label">API Key
+          <input id="ai-settings-apikey" class="ai-form-input" type="password" placeholder="Your API key" autocomplete="new-password" />
+        </label>
+        <label class="ai-form-label">Proxy Prefix <span class="ai-form-optional">(optional — for CORS)</span>
+          <input id="ai-settings-proxy" class="ai-form-input" type="text" placeholder="https://my-proxy.example.com" autocomplete="off" />
+        </label>
+        <p class="ai-form-note">Settings are stored in your browser's localStorage only and never sent anywhere except the configured API endpoint.</p>
+        <div class="ai-modal-actions">
+          <button class="ai-btn ai-btn-secondary" id="ai-settings-cancel">Cancel</button>
+          <button class="ai-btn ai-btn-primary" id="ai-settings-save">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI Generate / Review Modal -->
+  <div id="ai-generate-modal" class="modal-overlay" hidden>
+    <div class="modal-content modal-content-ai modal-content-ai-wide">
+      <button class="modal-close" id="ai-generate-close">✕</button>
+      <div class="modal-title">AI Node Generator</div>
+      <div class="ai-modal-body"></div>
+    </div>
+  </div>
+
   <!-- CDN: Three.js — must match the version 3d-force-graph was built against -->
   <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
   <!-- CDN: 3d-force-graph -->
@@ -322,6 +376,7 @@
   <script src="js/filter-manager.js"></script>
   <script src="js/animation.js"></script>
   <script src="js/search.js"></script>
+  <script src="js/ai-generator.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

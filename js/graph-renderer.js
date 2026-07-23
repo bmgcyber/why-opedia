@@ -310,8 +310,15 @@ function buildNodeObject(node) {
     group.add(new THREE.Mesh(geo, mat));
   }
 
+  // AI-generated indicator: pulsing green ring
+  if (node.aiGenerated) {
+    const ringGeo = new THREE.TorusGeometry(size * 1.7, 0.7, 6, 24);
+    const ringMat = new THREE.MeshBasicMaterial({ color: 0x22c55e, transparent: true, opacity: 0.75 });
+    group.add(new THREE.Mesh(ringGeo, ringMat));
+  }
+
   // Add label sprite (hidden by default; shown near camera)
-  const sprite = makeLabelSprite(node.label || node.id, isPortal ? '#ccccff' : '#c8cce0', size);
+  const sprite = makeLabelSprite(node.label || node.id, isPortal ? '#ccccff' : node.aiGenerated ? '#86efac' : '#c8cce0', size);
   sprite.visible = false;
   group.add(sprite);
   labelSprites[node.id] = sprite;

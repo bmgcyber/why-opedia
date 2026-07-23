@@ -127,6 +127,15 @@ function _buildStylesheet() {
       },
     },
     {
+      // AI-generated nodes: green border ring
+      selector: 'node[aiGenerated = "true"]',
+      style: {
+        'border-width':   3,
+        'border-color':   '#22c55e',
+        'border-opacity': 0.85,
+      },
+    },
+    {
       selector: 'edge',
       style: {
         'line-color': ele => EDGE_COLOR[ele.data('type')] || EDGE_DEFAULT_COLOR,
@@ -269,12 +278,13 @@ function loadGraphData(nodes, edges) {
   // Build cytoscape element descriptors
   const cyNodes = nodes.map(n => ({
     data: {
-      id:         n.id,
-      label:      n.label || n.id,
-      category:   n.category || 'event',
+      id:          n.id,
+      label:       n.label || n.id,
+      category:    n.category || 'event',
       cross_scope: n.cross_scope ? 'true' : 'false',
-      __degree:   n.__degree,
-      _node:      n,
+      aiGenerated: n.aiGenerated ? 'true' : 'false',
+      __degree:    n.__degree,
+      _node:       n,
     },
   }));
 

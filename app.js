@@ -127,6 +127,7 @@ async function boot() {
 
     // Init sidebar (search, filters, path finder, actions)
     Search.initSidebarSearch();
+    if (window.AIGenerator) AIGenerator.init();
     initSidebar();
     initToolbar();
     initModals();
@@ -138,6 +139,13 @@ async function boot() {
     // View selection overlay — must run after boot so toggleRenderer() works
     _initViewSelectOverlay();
 
+    // Re-enter current scope when AI-generated nodes are added or removed
+    window.addEventListener('whyopedia:node-added', () => {
+      const path = SM.getCurrentScopePath();
+      if (path === 'global') SM.enterGlobalView();
+      else SM.enterScope(path);
+    });
+
   } catch (err) {
     console.error('Boot failed:', err);
     document.getElementById('stats').textContent = 'Error loading — serve from a local server, not file://';
@@ -146,6 +154,12 @@ async function boot() {
 
 // ── Scope → graph pipeline ────────────────────────────────────────────────────
 async function loadScopeIntoGraph(nodes, edges) {
+  if (window.AIGenerator) {
+    const merged = AIGenerator.mergeOverlay(nodes, edges, SM.getCurrentScopePath());
+    nodes = merged.nodes;
+    edges = merged.edges;
+  }
+
   selectedNodeId = null;
   GR.clearSelection();
   closePanel();
